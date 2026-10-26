@@ -3,13 +3,7 @@
   "name": "Tampa Bay",
   "state": "FL",
   "electionDate": "2026-11-03",
-  "updated": "2026-10-26",
-  "refreshLog": [
-   "pinellas Legistar: 1268 roll calls, 0 new split votes awaiting review",
-   "hernando Legistar: 1851 roll calls, 0 new split votes awaiting review",
-   "Campaign totals: 49 candidates"
-  ],
-  "refreshErrors": []
+  "updated": "2026-10-26"
  },
  "order": [
   "pinellas",
@@ -17863,7 +17857,16 @@
    "errors": []
   }
  ],
- "corrections": [],
+ "corrections": [
+  {
+   "date": "2026-10-26",
+   "county": "pinellas",
+   "subject": "Three Pinellas vote results (Largo landfill housing, deeper tax cut, Palm Harbor dredge appeal)",
+   "before": "For about 20 minutes our automatic update showed \"Passed 4 to 2\", \"Passed 2 to 5\" and \"Passed 4 to 3\"",
+   "after": "Restored to the reviewed results: \"Denied 4 to 2\", \"Failed 2 to 5\" and \"Denied 4 to 3\". The update job now never overwrites a result a person has checked.",
+   "source": "https://pinellas.legistar.com/Calendar.aspx"
+  }
+ ],
  "map": {
   "w": 520,
   "h": 640,

@@ -1,1 +1,10 @@
-[]
+[
+ {
+  "date": "2026-10-26",
+  "county": "pinellas",
+  "subject": "Three Pinellas vote results (Largo landfill housing, deeper tax cut, Palm Harbor dredge appeal)",
+  "before": "For about 20 minutes our automatic update showed \"Passed 4 to 2\", \"Passed 2 to 5\" and \"Passed 4 to 3\"",
+  "after": "Restored to the reviewed results: \"Denied 4 to 2\", \"Failed 2 to 5\" and \"Denied 4 to 3\". The update job now never overwrites a result a person has checked.",
+  "source": "https://pinellas.legistar.com/Calendar.aspx"
+ }
+]
