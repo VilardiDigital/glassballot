@@ -1,0 +1,2652 @@
+{
+ "county": {
+  "id": "hillsborough",
+  "name": "Hillsborough County",
+  "state": "FL",
+  "body": "Board of County Commissioners",
+  "electionDate": "2026-11-03",
+  "seats": "7 commissioners. Districts 1 to 4 are single-member, so only voters who live in that district vote. Districts 5, 6 and 7 are countywide (at-large), so every Hillsborough voter votes on them. Districts 1, 3, 5 and 7 are on the 2026 ballot.",
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hillsborough&el=27"
+ },
+ "sources": {
+  "hc-bcc": {
+   "title": "Hillsborough County Board of County Commissioners",
+   "url": "https://hcfl.gov/government/board-of-county-commissioners",
+   "publisher": "Hillsborough County",
+   "tier": 1
+  },
+  "hc-cohen": {
+   "title": "District 1 County Commissioner: Harry Cohen",
+   "url": "https://hcfl.gov/commissioners/harry-cohen",
+   "publisher": "Hillsborough County",
+   "tier": 1
+  },
+  "hc-hagan": {
+   "title": "District 2 County Commissioner: Ken Hagan",
+   "url": "https://hcfl.gov/commissioners/ken-hagan",
+   "publisher": "Hillsborough County",
+   "tier": 1
+  },
+  "hc-myers": {
+   "title": "District 3 County Commissioner: Gwen Myers",
+   "url": "https://hcfl.gov/commissioners/gwen-myers",
+   "publisher": "Hillsborough County",
+   "tier": 1
+  },
+  "hc-miller": {
+   "title": "District 4 County Commissioner: Christine Miller",
+   "url": "https://hcfl.gov/commissioners/christine-miller",
+   "publisher": "Hillsborough County",
+   "tier": 1
+  },
+  "hc-cepeda": {
+   "title": "District 5 County Commissioner: Donna Cameron Cepeda",
+   "url": "https://hcfl.gov/commissioners/donna-cameron-cepeda",
+   "publisher": "Hillsborough County",
+   "tier": 1
+  },
+  "hc-boles": {
+   "title": "District 6 County Commissioner: Chris Boles",
+   "url": "https://hcfl.gov/commissioners/chris-boles",
+   "publisher": "Hillsborough County",
+   "tier": 1
+  },
+  "hc-wostal": {
+   "title": "District 7 County Commissioner: Joshua Wostal",
+   "url": "https://hcfl.gov/commissioners/joshua-wostal",
+   "publisher": "Hillsborough County",
+   "tier": 1
+  },
+  "hc-miller-sworn": {
+   "title": "Christine Miller sworn in as Hillsborough County Commissioner today",
+   "url": "https://hcfl.gov/newsroom/2024/07/01/christine-miller-sworn-in-as-hillsborough-county-commissioner-today",
+   "publisher": "Hillsborough County",
+   "tier": 1
+  },
+  "hc-nov2024": {
+   "title": "Hillsborough County Commissioners keep Ken Hagan as board chair (Nov 19, 2024 investiture)",
+   "url": "https://hcfl.gov/newsroom/2024/11/20/hillsborough-county-commissioners-keep-ken-hagan-as-board-chair-appoint-positions-on-boards-councils",
+   "publisher": "Hillsborough County",
+   "tier": 1
+  },
+  "hc-nov2025": {
+   "title": "Commissioners keep Ken Hagan as 2025-2026 board chair",
+   "url": "https://hcfl.gov/newsroom/2025/11/18/hillsborough-county-commissioners-keep-ken-hagan-as-2025-2026-board-chair-appoint-positions-on-boards-councils",
+   "publisher": "Hillsborough County",
+   "tier": 1
+  },
+  "hc-sep16": {
+   "title": "BOCC regular meeting recap, Sept 16, 2026",
+   "url": "https://hcfl.gov/newsroom/2026/09/17/board-of-county-commissioners-regular-meeting-for-sept-16-2026",
+   "publisher": "Hillsborough County",
+   "tier": 1
+  },
+  "hc-rays-aug28": {
+   "title": "Hillsborough BOCC approves Development and Funding Agreement, Guaranty and Team Non-Relocation Agreement for the Rays",
+   "url": "https://hcfl.gov/newsroom/2026/08/28/hillsborough-bocc-approves-development-and-funding-agreement-guaranty-and-team-non-relocation-agreement-to-bring-tampa-bay-rays-to-hillsborough-county",
+   "publisher": "Hillsborough County",
+   "tier": 1
+  },
+  "hc-agendas": {
+   "title": "Agendas, recaps and minutes",
+   "url": "https://hcfl.gov/government/meeting-information/agendas-recaps-and-minutes",
+   "publisher": "Hillsborough County",
+   "tier": 1
+  },
+  "clerk-bocc": {
+   "title": "Board of County Commissioners (BOCC) Records",
+   "url": "https://hillsclerk.com/records-and-reports/bocc",
+   "publisher": "Hillsborough County Clerk of the Circuit Court",
+   "tier": 1
+  },
+  "clerk-votes-2026": {
+   "title": "BOCC vote comparison (Master Voting Record), 2026",
+   "url": "https://hillsclerk.com/documents/d/guest/bocc-vote-comparison?download=true",
+   "publisher": "Hillsborough County Clerk of the Circuit Court",
+   "tier": 1
+  },
+  "soe-offices": {
+   "title": "Offices Up for Election",
+   "url": "https://www.votehillsborough.gov/191/Offices-Up-For-Election",
+   "publisher": "Hillsborough Supervisor of Elections",
+   "tier": 1
+  },
+  "soe-factsheet": {
+   "title": "2026 County Commission fact sheet (revised 10/15/2025)",
+   "url": "https://www.votehillsborough.gov/DocumentCenter/View/216/County-Commission-Fact-Sheet-PDF",
+   "publisher": "Hillsborough Supervisor of Elections",
+   "tier": 1
+  },
+  "soe-cert": {
+   "title": "Ballot certification, local contests (General)",
+   "url": "https://www.votehillsborough.gov/DocumentCenter/View/2610/Ballot-Certification-Local-Contests-PDF",
+   "publisher": "Hillsborough Supervisor of Elections",
+   "tier": 1
+  },
+  "soe-sample": {
+   "title": "Official General Election ballot, Nov 3, 2026 (all races sample)",
+   "url": "https://www.votehillsborough.gov/DocumentCenter/View/2615/",
+   "publisher": "Hillsborough Supervisor of Elections",
+   "tier": 1
+  },
+  "soe-primary": {
+   "title": "Aug 18, 2026 Primary Election official certified results",
+   "url": "https://www.votehillsborough.gov/DocumentCenter/View/2600/08-25-2026-SUMMARY-RESULTS-REPORT_OFFICIAL-CERTIFIED-RESULTS-PDF",
+   "publisher": "Hillsborough Supervisor of Elections",
+   "tier": 1
+  },
+  "soe-qualify": {
+   "title": "Supervisor of Elections has qualified more than 200 Hillsborough County candidates for 2026",
+   "url": "https://www.votehillsborough.gov/CivicAlerts.aspx?AID=48",
+   "publisher": "Hillsborough Supervisor of Elections",
+   "tier": 1
+  },
+  "soe-finance": {
+   "title": "Financial Report Search",
+   "url": "https://www.votehillsborough.gov/203/Financial-Report-Search",
+   "publisher": "Hillsborough Supervisor of Elections",
+   "tier": 1
+  },
+  "ethics-search": {
+   "title": "Financial disclosure public search (Forms 6, 1 and 2)",
+   "url": "https://disclosure.floridaethics.gov/PublicSearch/Filings",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1
+  },
+  "bp-cohen": {
+   "title": "Harry Cohen",
+   "url": "https://ballotpedia.org/Harry_Cohen",
+   "publisher": "Ballotpedia",
+   "tier": 3
+  },
+  "bp-myers": {
+   "title": "Gwen Myers",
+   "url": "https://ballotpedia.org/Gwen_Myers",
+   "publisher": "Ballotpedia",
+   "tier": 3
+  },
+  "bp-boles": {
+   "title": "Chris Boles",
+   "url": "https://ballotpedia.org/Chris_Boles",
+   "publisher": "Ballotpedia",
+   "tier": 3
+  },
+  "br-wostal": {
+   "title": "Joshua Wostal",
+   "url": "https://www.ballotready.org/people/joshua-wostal",
+   "publisher": "BallotReady",
+   "tier": 3
+  },
+  "br-cepeda": {
+   "title": "Donna Cameron Cepeda",
+   "url": "https://www.ballotready.org/people/donna-cameron-cepeda",
+   "publisher": "BallotReady",
+   "tier": 3
+  },
+  "br-miller": {
+   "title": "Christine Miller",
+   "url": "https://www.ballotready.org/people/christine-miller-5539ac87-4034-42a3-bd2e-b31ad1919127",
+   "publisher": "BallotReady",
+   "tier": 3
+  },
+  "bb-county": {
+   "title": "Hillsborough County races",
+   "url": "https://theballotbrief.com/state/florida/hillsborough-county",
+   "publisher": "The Ballot Brief",
+   "tier": 3,
+   "caution": "Says it is written with AI assistance."
+  },
+  "bb-d1": {
+   "title": "Commissioner District 1",
+   "url": "https://theballotbrief.com/state/florida/hillsborough-county/commissioner-district-1",
+   "publisher": "The Ballot Brief",
+   "tier": 3,
+   "caution": "Says it is written with AI assistance."
+  },
+  "bb-d3": {
+   "title": "Commissioner District 3",
+   "url": "https://theballotbrief.com/state/florida/hillsborough-county/commissioner-district-3",
+   "publisher": "The Ballot Brief",
+   "tier": 3,
+   "caution": "Says it is written with AI assistance."
+  },
+  "bb-d5": {
+   "title": "Commissioner District 5",
+   "url": "https://theballotbrief.com/state/florida/hillsborough-county/commissioner-district-5",
+   "publisher": "The Ballot Brief",
+   "tier": 3,
+   "caution": "Says it is written with AI assistance."
+  },
+  "bb-d7": {
+   "title": "Commissioner District 7 (Countywide)",
+   "url": "https://theballotbrief.com/state/florida/hillsborough-county/commissioner-district-7-countywide",
+   "publisher": "The Ballot Brief",
+   "tier": 3,
+   "caution": "Says it is written with AI assistance."
+  },
+  "bb-sb2": {
+   "title": "School Board District 2",
+   "url": "https://theballotbrief.com/state/florida/hillsborough-county/school-board-district-2",
+   "publisher": "The Ballot Brief",
+   "tier": 3,
+   "caution": "Says it is written with AI assistance."
+  },
+  "bb-sb6": {
+   "title": "School Board District 6",
+   "url": "https://theballotbrief.com/state/florida/hillsborough-county/school-board-district-6",
+   "publisher": "The Ballot Brief",
+   "tier": 3,
+   "caution": "Says it is written with AI assistance."
+  },
+  "axios-expand": {
+   "title": "Hillsborough seeks to expand commission",
+   "url": "https://www.axios.com/local/tampa-bay/2026/01/30/hillsborough-seeks-to-expand-commission",
+   "publisher": "Axios Tampa Bay",
+   "tier": 4
+  },
+  "beacons-qual": {
+   "title": "Here's who has qualified for Hillsborough, Pinellas commission races",
+   "url": "https://www.tampabaybeacons.com/2026/06/18/heres-who-has-qualified-for-hillsborough-pinellas-commission-races/",
+   "publisher": "Tampa Bay Beacons",
+   "tier": 4
+  },
+  "beacons-sb": {
+   "title": "4 candidates will advance in Hillsborough school board race",
+   "url": "https://www.tampabaybeacons.com/2026/08/25/4-candidates-will-advance-in-hillsborough-school-board-race/",
+   "publisher": "Tampa Bay Beacons",
+   "tier": 4
+  },
+  "wusf-sb": {
+   "title": "Hillsborough County School Board candidates tackle district challenges",
+   "url": "https://www.wusf.org/local-state/2026-07-27/hillsborough-county-school-board-candidates-tackle-district-challenges",
+   "publisher": "WUSF",
+   "tier": 4
+  },
+  "tbt-sb-june": {
+   "title": "Hillsborough school board races set for August election",
+   "url": "https://tampabay.com/news/education/2026/06/12/hillsborough-school-board-election-candidates-rendon-district/",
+   "publisher": "Tampa Bay Times",
+   "tier": 4
+  },
+  "tbt-2022": {
+   "title": "Hillsborough commission's new faces bring GOP majority",
+   "url": "https://www.tampabay.com/news/hillsborough/2022/11/10/hillsborough-commissions-new-faces-bring-gop-majority/",
+   "publisher": "Tampa Bay Times",
+   "tier": 4
+  },
+  "osprey-2022": {
+   "title": "Hillsborough County Commissioners select Ken Hagan as new board chair",
+   "url": "https://ospreyobserver.com/2022/12/hillsborough-county-commissioners-select-ken-hagan-as-new-board-chair-appoint-positions-on-boards-committees-and-councils",
+   "publisher": "Osprey Observer",
+   "tier": 4
+  },
+  "yahoo-fund": {
+   "title": "Hillsborough Democratic challenger leads fundraising in commissioner races",
+   "url": "https://www.yahoo.com/news/articles/hillsborough-democratic-challenger-leads-fundraising-140000396.html",
+   "publisher": "Yahoo News (republished; original publisher not stated)",
+   "tier": 4,
+   "caution": "Undated; figures are early-cycle."
+  },
+  "tbt-rays-may": {
+   "title": "What each Hillsborough commissioner said about the Rays' proposal",
+   "url": "https://tampabay.com/news/hillsborough/2026/05/20/tampa-bay-rays-hillsborough-county-stadium-vote/",
+   "publisher": "Tampa Bay Times",
+   "tier": 4
+  },
+  "wwsb-rays-may": {
+   "title": "Hillsborough County Commission OKs new Rays stadium deal",
+   "url": "https://www.mysuncoast.com/2026/05/20/hillsborough-county-commission-oks-new-rays-stadium-deal/",
+   "publisher": "WWSB ABC7",
+   "tier": 4
+  },
+  "wusf-rays-aug": {
+   "title": "A new Rays stadium in Tampa gets clinching Hillsborough County approval",
+   "url": "https://www.wusf.org/politics-issues/2026-08-28/new-rays-stadium-tampa-approved-hillsborough-county-commission",
+   "publisher": "WUSF",
+   "tier": 4
+  },
+  "wfts-rays-aug": {
+   "title": "Hillsborough County commissioners vote 5-2 to approve Rays' Tampa stadium funding",
+   "url": "https://www.tampabay28.com/news/region-hillsborough/hillsborough-county-commissioners-vote-5-2-to-approve-rays-tampa-stadium-funding",
+   "publisher": "Tampa Bay 28 (WFTS)",
+   "tier": 4
+  },
+  "fox13-zoo": {
+   "title": "ZooTampa gets $75M in county funding for major expansion and upgrades",
+   "url": "https://www.fox13news.com/news/zootampa-hillsborough-county-funding-major-expansion-upgrades",
+   "publisher": "FOX 13",
+   "tier": 4
+  },
+  "bn9-zoo": {
+   "title": "Hillsborough commissioners approve $75M ZooTampa funding package",
+   "url": "https://baynews9.com/fl/tampa/news/2026/10/21/hillsborough-commissioners-to-take-final-vote-on-m-zootampa-funding-package",
+   "publisher": "Bay News 9",
+   "tier": 4
+  },
+  "govly-jul29": {
+   "title": "Hillsborough County BCC budget reconciliation hearing summary, Jul 29, 2026",
+   "url": "https://app.govly.com/public/meetings/57624",
+   "publisher": "Govly",
+   "tier": 4,
+   "caution": "Automated meeting summary."
+  },
+  "govly-oct7": {
+   "title": "Hillsborough County BCC regular meeting summary, Oct 7, 2026",
+   "url": "https://app.govly.com/public/meetings/96226",
+   "publisher": "Govly",
+   "tier": 4,
+   "caution": "Automated meeting summary."
+  },
+  "hcps-board": {
+   "title": "School Board Members",
+   "url": "https://www.hillsboroughschools.org/Page/8833",
+   "publisher": "Hillsborough County Public Schools",
+   "tier": 1
+  },
+  "soe-cf-hillsborough": {
+   "title": "Hillsborough Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hillsborough&el=27",
+   "publisher": "Hillsborough County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-26"
+  },
+  "camp-myers": {
+   "title": "Gwen Myers campaign website",
+   "url": "https://www.votegwenmyers.com/",
+   "publisher": "Gwen Myers campaign",
+   "tier": 5,
+   "accessed": "2026-10-26"
+  },
+  "camp-wostal": {
+   "title": "Joshua Wostal campaign website",
+   "url": "https://www.joshuawostal.com/",
+   "publisher": "Joshua Wostal campaign",
+   "tier": 5,
+   "accessed": "2026-10-26"
+  },
+  "camp-toledo": {
+   "title": "Jackie Toledo campaign website",
+   "url": "https://jackietoledo.com/",
+   "publisher": "Jackie Toledo campaign",
+   "tier": 5,
+   "accessed": "2026-10-26"
+  },
+  "camp-hahn": {
+   "title": "Stacy Hahn campaign website",
+   "url": "https://www.votestacyhahn.com/",
+   "publisher": "Stacy Hahn campaign",
+   "tier": 5,
+   "accessed": "2026-10-26"
+  },
+  "camp-manimala": {
+   "title": "Neil Manimala campaign website",
+   "url": "https://www.neilmanimala.com/",
+   "publisher": "Neil Manimala campaign",
+   "tier": 5,
+   "accessed": "2026-10-26"
+  },
+  "camp-rodriguez": {
+   "title": "Aileen Rodriguez campaign website",
+   "url": "https://voteaileen2026.com/",
+   "publisher": "Aileen Rodriguez campaign",
+   "tier": 5,
+   "accessed": "2026-10-26"
+  },
+  "camp-lyssy": {
+   "title": "Brittany Lyssy campaign website",
+   "url": "https://www.votebrittanylyssy.com/",
+   "publisher": "Brittany Lyssy campaign",
+   "tier": 5,
+   "accessed": "2026-10-26"
+  },
+  "camp-simic": {
+   "title": "Daniela Simic campaign website",
+   "url": "https://danielaforschools.com/",
+   "publisher": "Daniela Simic campaign",
+   "tier": 5,
+   "accessed": "2026-10-26"
+  },
+  "camp-perez": {
+   "title": "Karen Perez campaign website",
+   "url": "https://keepkarenperez.com/",
+   "publisher": "Karen Perez campaign",
+   "tier": 5,
+   "accessed": "2026-10-26"
+  },
+  "camp-gay": {
+   "title": "Kenneth \"Ken\" Gay campaign website",
+   "url": "https://votekennethgay.com/",
+   "publisher": "Kenneth \"Ken\" Gay campaign",
+   "tier": 5,
+   "accessed": "2026-10-26"
+  }
+ },
+ "people": [
+  {
+   "id": "cohen",
+   "name": "Harry Cohen",
+   "office": "County Commissioner",
+   "district": "1",
+   "seatType": "Single-member",
+   "status": "incumbent",
+   "race": "bcc-d1",
+   "claims": {
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-cert"
+     },
+     {
+      "value": "Democrat",
+      "source": "bp-cohen"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-hillsborough"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "Nov 17, 2020",
+      "source": "bp-cohen"
+     },
+     {
+      "value": "Elected Nov 2020, re-elected Nov 2022",
+      "source": "hc-cohen"
+     }
+    ],
+    "term": [
+     {
+      "value": "Term ends Nov 17, 2026",
+      "source": "bp-cohen"
+     },
+     {
+      "value": "Seat on Nov 3, 2026 ballot; new term begins Nov 17, 2026",
+      "source": "soe-factsheet"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Won Nov 8, 2022 with 50.4% (58,749 votes) over Scott Levinson (R)",
+      "source": "bp-cohen"
+     }
+    ],
+    "job": [
+     {
+      "value": "Lawyer; Chief Deputy Clerk of the Circuit Court 2005 to 2011; Tampa City Council 2011 to 2019; general counsel to the Clerk 2019 to 2020",
+      "source": "hc-cohen"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$104,841 (no as-of date)",
+      "source": "bb-d1"
+     },
+     {
+      "value": "$195,577 in contributions, plus $5,613.08 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-hillsborough"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://res.cloudinary.com/hillsboroughcounty/image/upload/c_fit,w_1000/t_WebP/Harry_Cohen_2024_portrait_web_slkagg",
+      "source": "hc-cohen"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://hcfl.gov/commissioners/harry-cohen"
+      },
+      "source": "hc-cohen"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "2640",
+    "status": "Active-Qualified"
+   }
+  },
+  {
+   "id": "hagan",
+   "name": "Ken Hagan",
+   "office": "County Commissioner",
+   "district": "2",
+   "seatType": "Single-member",
+   "status": "incumbent",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "axios-expand"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "2002",
+      "source": "hc-hagan"
+     },
+     {
+      "value": "2002",
+      "source": "hc-nov2025"
+     }
+    ],
+    "term": [
+     {
+      "value": "Re-elected 2024; seat not on the 2026 ballot",
+      "source": "hc-nov2024"
+     },
+     {
+      "value": "Re-elected 2024; seat not on the 2026 ballot",
+      "source": "soe-offices"
+     }
+    ],
+    "leadership": [
+     {
+      "value": "Board Chair 2025-2026 (ninth time as chair)",
+      "source": "hc-nov2025"
+     }
+    ],
+    "job": [
+     {
+      "value": "B.S. in finance (UF), MBA (University of Tampa); represents the board on Visit Tampa Bay and the Tampa Sports Authority",
+      "source": "hc-hagan"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://res.cloudinary.com/hillsboroughcounty/image/upload/c_fit,w_1000/t_WebP/Hagan_K_3",
+      "source": "hc-hagan"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://hcfl.gov/commissioners/ken-hagan"
+      },
+      "source": "hc-hagan"
+     }
+    ]
+   }
+  },
+  {
+   "id": "myers",
+   "name": "Gwen Myers",
+   "office": "County Commissioner",
+   "district": "3",
+   "seatType": "Single-member",
+   "status": "incumbent",
+   "race": "bcc-d3",
+   "claims": {
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-cert"
+     },
+     {
+      "value": "Democrat",
+      "source": "bp-myers"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-hillsborough"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "Elected Nov 2020; re-elected without opposition in 2022",
+      "source": "bp-myers"
+     },
+     {
+      "value": "Elected Nov 2020; re-elected without opposition in 2022",
+      "source": "hc-myers"
+     },
+     {
+      "value": "Elected Nov 2020; re-elected without opposition in 2022",
+      "source": "bp-myers"
+     }
+    ],
+    "term": [
+     {
+      "value": "Term ends Nov 17, 2026",
+      "source": "bp-myers"
+     },
+     {
+      "value": "Seat on Nov 3, 2026 ballot; new term begins Nov 17, 2026",
+      "source": "soe-factsheet"
+     }
+    ],
+    "leadership": [
+     {
+      "value": "Board Chaplain 2025-2026",
+      "source": "hc-nov2025"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Won the Aug 18, 2026 Democratic primary with 69.48% (14,729 votes) over Twanda E. Bradley (certified)",
+      "source": "soe-primary"
+     }
+    ],
+    "job": [
+     {
+      "value": "Hillsborough County government employee 1988 to 2013 (Housing and Community Development; Health and Social Services); accounting degree, FAMU",
+      "source": "hc-myers"
+     }
+    ],
+    "roles": [
+     {
+      "value": "Chair, Environmental Protection Commission; HART and TPO boards",
+      "source": "hc-myers"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$130,060 (no as-of date)",
+      "source": "bb-d3"
+     },
+     {
+      "value": "$146,130 in contributions, plus $118.51 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-hillsborough"
+     }
+    ],
+    "promises": [
+     {
+      "value": [
+       "Public safety",
+       "Housing",
+       "Transportation, including light rail and road widening"
+      ],
+      "source": "bb-d3"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://res.cloudinary.com/hillsboroughcounty/image/upload/c_fit,w_1000/t_WebP/Commissioner_Gwen_Myers_web_bdwko4",
+      "source": "hc-myers"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://hcfl.gov/commissioners/gwen-myers"
+      },
+      "source": "hc-myers"
+     },
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://www.votegwenmyers.com/"
+      },
+      "source": "bb-d3"
+     },
+     {
+      "value": {
+       "kind": "instagram",
+       "url": "https://www.instagram.com/votegwenmyers/"
+      },
+      "source": "camp-myers"
+     },
+     {
+      "value": {
+       "kind": "x",
+       "url": "https://twitter.com/VoteGwenMyers"
+      },
+      "source": "camp-myers"
+     },
+     {
+      "value": {
+       "kind": "facebook",
+       "url": "https://www.facebook.com/Vote-Gwen-Myers-258901205025532"
+      },
+      "source": "camp-myers"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "2621",
+    "status": "Active-Qualified"
+   }
+  },
+  {
+   "id": "miller",
+   "name": "Christine Miller",
+   "office": "County Commissioner",
+   "district": "4",
+   "seatType": "Single-member",
+   "status": "incumbent",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "axios-expand"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "Appointed Jun 26, 2024, sworn in Jul 1, 2024; elected Nov 2024",
+      "source": "hc-miller-sworn"
+     },
+     {
+      "value": "Appointed Jun 26, 2024, sworn in Jul 1, 2024; elected Nov 2024",
+      "source": "hc-miller"
+     }
+    ],
+    "term": [
+     {
+      "value": "Term ends Nov 2028",
+      "source": "br-miller"
+     }
+    ],
+    "leadership": [
+     {
+      "value": "Vice Chair 2025-2026",
+      "source": "hc-nov2025"
+     }
+    ],
+    "job": [
+     {
+      "value": "Former President and CEO, Plant City Chamber of Commerce",
+      "source": "hc-miller"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://res.cloudinary.com/hillsboroughcounty/image/upload/c_fit,w_100/t_WebP/ComissionerChristineMiller_mvtvqv",
+      "source": "hc-miller"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://hcfl.gov/commissioners/christine-miller"
+      },
+      "source": "hc-miller"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cepeda",
+   "name": "Donna Cameron Cepeda",
+   "office": "County Commissioner",
+   "district": "5",
+   "seatType": "At-large",
+   "status": "incumbent",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-primary"
+     },
+     {
+      "value": "Republican",
+      "source": "axios-expand"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-hillsborough"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "Elected Nov 2022",
+      "source": "tbt-2022"
+     },
+     {
+      "value": "Elected Nov 2022",
+      "source": "osprey-2022"
+     }
+    ],
+    "term": [
+     {
+      "value": "Seat on Nov 3, 2026 ballot; new term begins Nov 17, 2026",
+      "source": "soe-factsheet"
+     },
+     {
+      "value": "Term ends Dec 31, 2026",
+      "source": "br-cepeda"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Lost the Aug 18, 2026 Republican primary to Stacy Hahn, 45.10% to 54.90% (certified)",
+      "source": "soe-primary"
+     }
+    ],
+    "job": [
+     {
+      "value": "Army veteran, author, former financial analyst, ordained minister; former associate professor, Life Christian University",
+      "source": "hc-cepeda"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://res.cloudinary.com/hillsboroughcounty/image/upload/c_fit,w_1000/t_WebP/Donna_Cameron_Cepeda_headshot_web",
+      "source": "hc-cepeda"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://hcfl.gov/commissioners/donna-cameron-cepeda"
+      },
+      "source": "hc-cepeda"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$32,501.07 in contributions, plus $3,000 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-hillsborough"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "2611",
+    "status": "Active-Defeated"
+   }
+  },
+  {
+   "id": "boles",
+   "name": "Chris Boles",
+   "office": "County Commissioner",
+   "district": "6",
+   "seatType": "At-large",
+   "status": "incumbent",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "bp-boles"
+     },
+     {
+      "value": "Republican",
+      "source": "axios-expand"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "Elected Nov 2024, sworn in Nov 19, 2024",
+      "source": "bp-boles"
+     },
+     {
+      "value": "Elected Nov 2024, sworn in Nov 19, 2024",
+      "source": "hc-nov2024"
+     },
+     {
+      "value": "Elected Nov 2024, sworn in Nov 19, 2024",
+      "source": "hc-boles"
+     }
+    ],
+    "term": [
+     {
+      "value": "Term ends Nov 2028",
+      "source": "bp-boles"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Won Nov 5, 2024 with 52.1% (334,304 votes) over Sean Shaw (D)",
+      "source": "bp-boles"
+     }
+    ],
+    "job": [
+     {
+      "value": "Former Battalion Chief, Hillsborough County Fire Rescue (28+ years); Executive Director, Hillsborough County Firefighter Charities",
+      "source": "hc-boles"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://res.cloudinary.com/hillsboroughcounty/image/upload/c_fit,w_100/t_WebP/Chris_Boles_Portrait_web_avmcno",
+      "source": "hc-boles"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://hcfl.gov/commissioners/chris-boles"
+      },
+      "source": "hc-boles"
+     }
+    ]
+   }
+  },
+  {
+   "id": "wostal",
+   "name": "Joshua Wostal",
+   "office": "County Commissioner",
+   "district": "7",
+   "seatType": "At-large",
+   "status": "incumbent",
+   "race": "bcc-d7",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-cert"
+     },
+     {
+      "value": "Republican",
+      "source": "bb-d7"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-hillsborough"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "Elected Nov 2022",
+      "source": "tbt-2022"
+     },
+     {
+      "value": "Elected Nov 2022",
+      "source": "osprey-2022"
+     }
+    ],
+    "term": [
+     {
+      "value": "Seat on Nov 3, 2026 ballot; new term begins Nov 17, 2026",
+      "source": "soe-factsheet"
+     },
+     {
+      "value": "Term ends Dec 31, 2026",
+      "source": "br-wostal"
+     }
+    ],
+    "job": [
+     {
+      "value": "Runs a logistics business near Raymond James Stadium; 10 years U.S. Navy; MBA, University of Florida",
+      "source": "hc-wostal"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$166,518 (no as-of date)",
+      "source": "bb-d7"
+     },
+     {
+      "value": "$213,387.67 in contributions, plus $3,113.67 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-hillsborough"
+     }
+    ],
+    "promises": [
+     {
+      "value": [
+       "Cut wasteful spending",
+       "Oppose tax increases",
+       "Repair aging infrastructure"
+      ],
+      "source": "bb-d7"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://res.cloudinary.com/hillsboroughcounty/image/upload/c_fit,w_1000/t_WebP/Joshua_Wostal_portrait_2024_web_krem8a",
+      "source": "hc-wostal"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://hcfl.gov/commissioners/joshua-wostal"
+      },
+      "source": "hc-wostal"
+     },
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://joshuawostal.com/"
+      },
+      "source": "bb-d7"
+     },
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://www.joshuawostal.com/"
+      },
+      "source": "camp-wostal"
+     },
+     {
+      "value": {
+       "kind": "facebook",
+       "url": "https://www.facebook.com/RealJoshuaWostal"
+      },
+      "source": "camp-wostal"
+     },
+     {
+      "value": {
+       "kind": "x",
+       "url": "https://x.com/JoshuaWostal"
+      },
+      "source": "camp-wostal"
+     },
+     {
+      "value": {
+       "kind": "youtube",
+       "url": "https://www.youtube.com/@realjoshuawostal"
+      },
+      "source": "camp-wostal"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "2620",
+    "status": "Active-Qualified"
+   }
+  },
+  {
+   "id": "toledo",
+   "name": "Jackie Toledo",
+   "office": "Candidate, County Commission",
+   "district": "1",
+   "seatType": "Single-member",
+   "status": "challenger",
+   "race": "bcc-d1",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-cert"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-hillsborough"
+     }
+    ],
+    "job": [
+     {
+      "value": "Engineer and small business owner; former state representative",
+      "source": "bb-d1"
+     },
+     {
+      "value": "Engineer and small business owner; former state representative",
+      "source": "beacons-qual"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$40,110 (no as-of date)",
+      "source": "bb-d1"
+     },
+     {
+      "value": "$140,424.70 in contributions (as of Oct 26, 2026)",
+      "source": "soe-cf-hillsborough"
+     }
+    ],
+    "promises": [
+     {
+      "value": [
+       "Roads and transportation",
+       "Responsible growth",
+       "Public safety and fiscal accountability"
+      ],
+      "source": "bb-d1"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://jackietoledo.com/"
+      },
+      "source": "bb-d1"
+     },
+     {
+      "value": {
+       "kind": "instagram",
+       "url": "https://www.instagram.com/toledofortampa/"
+      },
+      "source": "camp-toledo"
+     },
+     {
+      "value": {
+       "kind": "facebook",
+       "url": "https://www.facebook.com/ToledoForTampa"
+      },
+      "source": "camp-toledo"
+     },
+     {
+      "value": {
+       "kind": "x",
+       "url": "https://x.com/ToledoForTampa"
+      },
+      "source": "camp-toledo"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "2880",
+    "status": "Active-Qualified"
+   }
+  },
+  {
+   "id": "garcia",
+   "name": "Luiz F. F. Garcia",
+   "office": "Candidate, County Commission",
+   "district": "3",
+   "seatType": "Single-member",
+   "status": "challenger",
+   "race": "bcc-d3",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-cert"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-hillsborough"
+     }
+    ],
+    "job": [
+     {
+      "value": "Local business owner (coffee shop)",
+      "source": "bb-d3"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$8,160 (no as-of date)",
+      "source": "bb-d3"
+     },
+     {
+      "value": "$8,280 in contributions (as of Oct 26, 2026)",
+      "source": "soe-cf-hillsborough"
+     }
+    ],
+    "promises": [
+     {
+      "value": [
+       "Transparency in county spending",
+       "Modernize roads and reduce congestion",
+       "Invest in law enforcement and first responders"
+      ],
+      "source": "bb-d3"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://www.electluizffgarcia.com/"
+      },
+      "source": "bb-d3"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "2646",
+    "status": "Active-Qualified"
+   }
+  },
+  {
+   "id": "hahn",
+   "name": "Stacy Hahn",
+   "office": "Candidate, County Commission",
+   "district": "5",
+   "seatType": "At-large",
+   "status": "open",
+   "race": "bcc-d5",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-cert"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-hillsborough"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Won the Aug 18, 2026 Republican primary with 54.90% (47,146 votes) over incumbent Donna Cameron Cepeda (certified)",
+      "source": "soe-primary"
+     }
+    ],
+    "job": [
+     {
+      "value": "PhD in early childhood special education; former university professor and public school teacher; leads nonprofit Literacy Is Key",
+      "source": "bb-d5"
+     }
+    ],
+    "roles": [
+     {
+      "value": "Hillsborough School Board member since 2018 (District 2; left the seat to run for commission)",
+      "source": "beacons-sb"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$94,550 (no as-of date)",
+      "source": "bb-d5"
+     },
+     {
+      "value": "$184,752 in contributions, plus $1,160 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-hillsborough"
+     }
+    ],
+    "promises": [
+     {
+      "value": [
+       "Keep taxes low and cut wasteful spending",
+       "Support law enforcement and first responders",
+       "Responsible growth with better roads"
+      ],
+      "source": "bb-d5"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://www.votestacyhahn.com/"
+      },
+      "source": "bb-d5"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "2661",
+    "status": "Active-Qualified"
+   }
+  },
+  {
+   "id": "manimala",
+   "name": "Neil Manimala",
+   "office": "Candidate, County Commission",
+   "district": "5",
+   "seatType": "At-large",
+   "status": "open",
+   "race": "bcc-d5",
+   "claims": {
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-cert"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-hillsborough"
+     }
+    ],
+    "job": [
+     {
+      "value": "Board-certified urologist (Brandon, Plant City, Sun City Center)",
+      "source": "bb-d5"
+     },
+     {
+      "value": "Urologist",
+      "source": "beacons-qual"
+     }
+    ],
+    "roles": [
+     {
+      "value": "President, Hillsborough County Medical Association",
+      "source": "bb-d5"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$165,610 (no as-of date)",
+      "source": "bb-d5"
+     },
+     {
+      "value": "$228,349.82 in contributions, plus $1,616.61 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-hillsborough"
+     }
+    ],
+    "promises": [
+     {
+      "value": [
+       "Improve traffic with modern transit and infrastructure",
+       "Reduce flooding through resiliency investment",
+       "Affordability and health care access"
+      ],
+      "source": "bb-d5"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://www.neilmanimala.com/"
+      },
+      "source": "bb-d5"
+     },
+     {
+      "value": {
+       "kind": "x",
+       "url": "https://twitter.com/VoteManimala"
+      },
+      "source": "camp-manimala"
+     },
+     {
+      "value": {
+       "kind": "youtube",
+       "url": "https://www.youtube.com/@VoteManimala"
+      },
+      "source": "camp-manimala"
+     },
+     {
+      "value": {
+       "kind": "tiktok",
+       "url": "https://www.tiktok.com/@votemanimala"
+      },
+      "source": "camp-manimala"
+     },
+     {
+      "value": {
+       "kind": "facebook",
+       "url": "https://www.facebook.com/VoteManimala/"
+      },
+      "source": "camp-manimala"
+     },
+     {
+      "value": {
+       "kind": "instagram",
+       "url": "https://instagram.com/neilmanimala"
+      },
+      "source": "camp-manimala"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "2636",
+    "status": "Active-Qualified"
+   }
+  },
+  {
+   "id": "rodriguez",
+   "name": "Aileen Rodriguez",
+   "office": "Candidate, County Commission",
+   "district": "7",
+   "seatType": "At-large",
+   "status": "challenger",
+   "race": "bcc-d7",
+   "claims": {
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-cert"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-hillsborough"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Won the Aug 18, 2026 Democratic primary with 62.36% (52,291 votes) over Cindy Stuart (certified)",
+      "source": "soe-primary"
+     }
+    ],
+    "job": [
+     {
+      "value": "Public affairs executive; principal of AR Public Affairs & Strategic Solutions; former U.S. Senate staffer",
+      "source": "bb-d7"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$63,840 (no as-of date)",
+      "source": "bb-d7"
+     },
+     {
+      "value": "$141,680.96 in contributions, plus $4,884.77 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-hillsborough"
+     }
+    ],
+    "promises": [
+     {
+      "value": [
+       "Lower the cost of housing and transportation",
+       "Reinvest tax dollars in neighborhoods affected by development",
+       "Hold developers accountable"
+      ],
+      "source": "bb-d7"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://www.voteaileen2026.com/"
+      },
+      "source": "bb-d7"
+     },
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://voteaileen2026.com/"
+      },
+      "source": "camp-rodriguez"
+     },
+     {
+      "value": {
+       "kind": "facebook",
+       "url": "https://www.facebook.com/voteaileen2026/"
+      },
+      "source": "camp-rodriguez"
+     },
+     {
+      "value": {
+       "kind": "instagram",
+       "url": "https://www.instagram.com/voteaileen2026/"
+      },
+      "source": "camp-rodriguez"
+     },
+     {
+      "value": {
+       "kind": "tiktok",
+       "url": "https://www.tiktok.com/@aileen.for.county"
+      },
+      "source": "camp-rodriguez"
+     },
+     {
+      "value": {
+       "kind": "youtube",
+       "url": "https://www.youtube.com/@VoteAileen"
+      },
+      "source": "camp-rodriguez"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "2660",
+    "status": "Active-Qualified"
+   }
+  },
+  {
+   "id": "lyssy",
+   "name": "Brittany Lyssy",
+   "office": "Candidate, School Board",
+   "district": "2",
+   "seatType": "Single-member",
+   "status": "open",
+   "race": "sb-d2",
+   "nonpartisan": true,
+   "claims": {
+    "job": [
+     {
+      "value": "Attorney",
+      "source": "wusf-sb"
+     },
+     {
+      "value": "Attorney",
+      "source": "beacons-sb"
+     }
+    ],
+    "roles": [
+     {
+      "value": "Former member, City of Tampa Citizens Advisory Budget and Finance Committee",
+      "source": "wusf-sb"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$65,558 (as of Jul 27, 2026)",
+      "source": "wusf-sb"
+     },
+     {
+      "value": "$104,256 in contributions (as of Oct 26, 2026)",
+      "source": "soe-cf-hillsborough"
+     }
+    ],
+    "promises": [
+     {
+      "value": [
+       "Academic achievement",
+       "Fiscal responsibility",
+       "Restore order and confidence in schools"
+      ],
+      "source": "wusf-sb"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://www.votebrittanylyssy.com/"
+      },
+      "source": "bb-sb2"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "2677",
+    "status": "Active-Runoff"
+   }
+  },
+  {
+   "id": "simic",
+   "name": "Daniela Simic",
+   "office": "Candidate, School Board",
+   "district": "2",
+   "seatType": "Single-member",
+   "status": "open",
+   "race": "sb-d2",
+   "nonpartisan": true,
+   "claims": {
+    "job": [
+     {
+      "value": "Longtime educator and former assistant superintendent for curriculum; now an account executive with Magic School AI",
+      "source": "wusf-sb"
+     },
+     {
+      "value": "Longtime educator and former assistant superintendent for curriculum; now an account executive with Magic School AI",
+      "source": "beacons-sb"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$37,618 (as of Jul 27, 2026)",
+      "source": "wusf-sb"
+     },
+     {
+      "value": "$83,861.41 in contributions, plus $972.86 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-hillsborough"
+     }
+    ],
+    "promises": [
+     {
+      "value": [
+       "Teacher retention, including protected planning time",
+       "Public-facing transparency tools",
+       "Student pathways and prevention-focused mental health"
+      ],
+      "source": "wusf-sb"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://danielaforschools.com/"
+      },
+      "source": "bb-sb2"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "2675",
+    "status": "Active-Runoff"
+   }
+  },
+  {
+   "id": "rendon",
+   "name": "Patricia \"Patti\" Rendon",
+   "office": "School Board Member",
+   "district": "4",
+   "seatType": "Single-member",
+   "status": "incumbent",
+   "race": "sb-d4",
+   "nonpartisan": true,
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Only qualified candidate for District 4 in 2026; not on the ballot",
+      "source": "soe-cert"
+     },
+     {
+      "value": "Unopposed; automatic winner",
+      "source": "wusf-sb"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://www.hillsboroughschools.org/Page/8833"
+      },
+      "source": "hcps-board"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "Elected 2022",
+      "source": "hcps-board"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$50,888 in contributions, plus $2,100 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-hillsborough"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "2672",
+    "status": "Active-Unopposed"
+   }
+  },
+  {
+   "id": "perez",
+   "name": "Karen Perez",
+   "office": "School Board Member",
+   "district": "6",
+   "seatType": "At-large",
+   "status": "incumbent",
+   "race": "sb-d6",
+   "nonpartisan": true,
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "First elected 2018",
+      "source": "bb-sb6"
+     },
+     {
+      "value": "Elected 2018",
+      "source": "hcps-board"
+     }
+    ],
+    "leadership": [
+     {
+      "value": "School board chair",
+      "source": "beacons-sb"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Led the Aug 18, 2026 primary with 48.27% (93,616 votes), short of a majority (certified)",
+      "source": "soe-primary"
+     }
+    ],
+    "job": [
+     {
+      "value": "Licensed clinical social worker",
+      "source": "wusf-sb"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$49,121 (as of Jul 27, 2026)",
+      "source": "wusf-sb"
+     },
+     {
+      "value": "$59,398.47 in contributions, plus $9,423.41 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-hillsborough"
+     }
+    ],
+    "promises": [
+     {
+      "value": [
+       "Address immigrant families' hesitancy about sending children to school",
+       "Reduce classroom computer use",
+       "Raise teacher pay"
+      ],
+      "source": "wusf-sb"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://www.hillsboroughschools.org/Page/8833"
+      },
+      "source": "hcps-board"
+     },
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://keepkarenperez.com/"
+      },
+      "source": "bb-sb6"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "2645",
+    "status": "Active-Runoff"
+   }
+  },
+  {
+   "id": "gay",
+   "name": "Kenneth \"Ken\" Gay",
+   "office": "Candidate, School Board",
+   "district": "6",
+   "seatType": "At-large",
+   "status": "challenger",
+   "race": "sb-d6",
+   "nonpartisan": true,
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Second in the Aug 18, 2026 primary with 27.23% (52,808 votes) (certified)",
+      "source": "soe-primary"
+     },
+     {
+      "value": "Ran for District 5 in 2024 and lost to Henry Washington",
+      "source": "wusf-sb"
+     }
+    ],
+    "job": [
+     {
+      "value": "Retired in 2022 after 39 years as a teacher; works with the district to prepare new teachers",
+      "source": "wusf-sb"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$31,052 (as of Jul 27, 2026), mostly self-funded",
+      "source": "wusf-sb"
+     },
+     {
+      "value": "$37,627.54 in contributions (as of Oct 26, 2026)",
+      "source": "soe-cf-hillsborough"
+     }
+    ],
+    "promises": [
+     {
+      "value": [
+       "Consistent behavior enforcement",
+       "AI tools to reduce teacher paperwork",
+       "Fund basics over new programs"
+      ],
+      "source": "wusf-sb"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://www.votekennethgay.com/"
+      },
+      "source": "bb-sb6"
+     },
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://votekennethgay.com/"
+      },
+      "source": "camp-gay"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "2610",
+    "status": "Active-Runoff"
+   }
+  }
+ ],
+ "races": [
+  {
+   "id": "bcc-d1",
+   "title": "County Commission, District 1",
+   "seatType": "Single-member",
+   "who": "Voters in District 1",
+   "people": [
+    "cohen",
+    "toledo"
+   ],
+   "note": "No August primary: each party had only one candidate.",
+   "sources": [
+    "soe-cert",
+    "soe-sample",
+    "soe-factsheet",
+    "bb-county"
+   ]
+  },
+  {
+   "id": "bcc-d3",
+   "title": "County Commission, District 3",
+   "seatType": "Single-member",
+   "who": "Voters in District 3",
+   "people": [
+    "garcia",
+    "myers"
+   ],
+   "note": "Myers won the Aug 18 Democratic primary over Twanda E. Bradley, 69.48% to 30.52% (certified).",
+   "sources": [
+    "soe-cert",
+    "soe-sample",
+    "soe-factsheet",
+    "soe-primary"
+   ]
+  },
+  {
+   "id": "bcc-d5",
+   "title": "County Commission, District 5 (Countywide)",
+   "seatType": "At-large",
+   "who": "Every Hillsborough voter",
+   "people": [
+    "hahn",
+    "manimala"
+   ],
+   "note": "Open seat on the November ballot: Stacy Hahn defeated incumbent Donna Cameron Cepeda in the Aug 18 Republican primary, 54.90% to 45.10% (certified).",
+   "sources": [
+    "soe-cert",
+    "soe-sample",
+    "soe-factsheet",
+    "soe-primary"
+   ]
+  },
+  {
+   "id": "bcc-d7",
+   "title": "County Commission, District 7 (Countywide)",
+   "seatType": "At-large",
+   "who": "Every Hillsborough voter",
+   "people": [
+    "rodriguez",
+    "wostal"
+   ],
+   "note": "Rodriguez won the Aug 18 Democratic primary over Cindy Stuart, 62.36% to 37.64% (certified). Wostal had no Republican primary opponent.",
+   "sources": [
+    "soe-cert",
+    "soe-sample",
+    "soe-factsheet",
+    "soe-primary",
+    "beacons-qual"
+   ]
+  },
+  {
+   "id": "sb-d2",
+   "title": "School Board, District 2",
+   "seatType": "Single-member, nonpartisan",
+   "who": "Voters in School Board District 2",
+   "people": [
+    "lyssy",
+    "simic"
+   ],
+   "note": "Open seat (Stacy Hahn left to run for county commission). Runoff: no one won a majority on Aug 18 (Simic 38.73%, Lyssy 36.84%, Chris Taylor 24.43%, certified).",
+   "sources": [
+    "soe-cert",
+    "soe-sample",
+    "soe-primary",
+    "wusf-sb",
+    "beacons-sb"
+   ]
+  },
+  {
+   "id": "sb-d4",
+   "title": "School Board, District 4",
+   "seatType": "Single-member, nonpartisan",
+   "who": "Voters in School Board District 4",
+   "people": [
+    "rendon"
+   ],
+   "note": "Not on the ballot. Incumbent Patti Rendon was the only qualified candidate and won another term without opposition.",
+   "sources": [
+    "soe-cert",
+    "soe-sample",
+    "wusf-sb",
+    "tbt-sb-june"
+   ],
+   "onNovBallot": false,
+   "decidedInPrimary": false,
+   "decidedAtQualifying": true
+  },
+  {
+   "id": "sb-d6",
+   "title": "School Board, District 6 (Countywide)",
+   "seatType": "At-large, nonpartisan",
+   "who": "Every Hillsborough voter",
+   "people": [
+    "gay",
+    "perez"
+   ],
+   "note": "Runoff: no one won a majority on Aug 18 (Perez 48.27%, Gay 27.23%, Sally Harris Williamson 24.50%, certified).",
+   "sources": [
+    "soe-cert",
+    "soe-sample",
+    "soe-primary",
+    "wusf-sb",
+    "beacons-sb"
+   ]
+  }
+ ],
+ "votes": [
+  {
+   "id": "rays-mou",
+   "date": "2026-05-20",
+   "topic": "stadium",
+   "headline": "Approved a non-binding deal to pursue a new Rays ballpark in Tampa",
+   "inShort": "The commission approved a non-binding memorandum of understanding with the Tampa Bay Rays and the City of Tampa for a ballpark and mixed-use district on Hillsborough College's Dale Mabry campus. It set the terms the final contracts would follow.",
+   "legistarMatch": {
+    "date": "2026-05-20",
+    "contains": [
+     "rays",
+     "memorandum of understanding"
+    ]
+   },
+   "claims": {
+    "result": [
+     {
+      "value": "Passed 5 to 2",
+      "source": "clerk-votes-2026"
+     },
+     {
+      "value": "Passed 5 to 2",
+      "source": "tbt-rays-may"
+     },
+     {
+      "value": "Passed 5 to 2",
+      "source": "wwsb-rays-may"
+     }
+    ],
+    "roll": [
+     {
+      "value": {
+       "yes": [
+        "boles",
+        "cohen",
+        "hagan",
+        "miller",
+        "myers"
+       ],
+       "no": [
+        "cepeda",
+        "wostal"
+       ]
+      },
+      "source": "clerk-votes-2026"
+     }
+    ]
+   },
+   "facts": [
+    {
+     "text": "Clerk's record: roll call sheet 5486, agenda item B-1.",
+     "claims": [
+      {
+       "value": "RCS 5486, Item B-1",
+       "source": "clerk-votes-2026"
+      }
+     ]
+    },
+    {
+     "text": "Total project cost estimated at about $2.3 billion.",
+     "claims": [
+      {
+       "value": "about $2.3 billion",
+       "source": "wwsb-rays-may"
+      }
+     ]
+    },
+    {
+     "text": "County share up to $796 million: $360 million Community Investment Tax, more than $260 million tourist tax bonds, $103 million other county funds.",
+     "claims": [
+      {
+       "value": "up to $796 million",
+       "source": "wwsb-rays-may"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rays-final",
+   "date": "2026-08-28",
+   "topic": "stadium",
+   "headline": "Gave final approval to county funding for a new Rays ballpark",
+   "inShort": "At a special meeting, the commission approved the development and funding agreement, guaranty and team non-relocation agreement for a Rays ballpark on Hillsborough College's Dale Mabry campus. The county's share is capped at $796 million, and the Rays cover more than $1.3 billion plus cost overruns.",
+   "legistarMatch": {
+    "date": "2026-08-28",
+    "contains": [
+     "rays",
+     "development and funding agreement"
+    ]
+   },
+   "claims": {
+    "result": [
+     {
+      "value": "Passed 5 to 2",
+      "source": "hc-rays-aug28"
+     },
+     {
+      "value": "Passed 5 to 2",
+      "source": "wusf-rays-aug"
+     },
+     {
+      "value": "Passed 5 to 2",
+      "source": "wfts-rays-aug"
+     }
+    ],
+    "roll": [
+     {
+      "value": {
+       "yes": [
+        "boles",
+        "cohen",
+        "hagan",
+        "miller",
+        "myers"
+       ],
+       "no": [
+        "cepeda",
+        "wostal"
+       ]
+      },
+      "source": "wusf-rays-aug"
+     }
+    ]
+   },
+   "facts": [
+    {
+     "text": "County funding cap: $796 million ($360 million Community Investment Tax, $263 million tourist development tax, $103 million other funds, $30 million federal disaster-recovery money).",
+     "claims": [
+      {
+       "value": "$796 million",
+       "source": "wusf-rays-aug"
+      },
+      {
+       "value": "nearly $800 million",
+       "source": "wfts-rays-aug"
+      }
+     ]
+    },
+    {
+     "text": "The Rays pay more than $1.3 billion plus all cost overruns.",
+     "claims": [
+      {
+       "value": "more than $1.3 billion",
+       "source": "wusf-rays-aug"
+      }
+     ]
+    },
+    {
+     "text": "Tampa City Council approved its part 4 to 3 the day before.",
+     "claims": [
+      {
+       "value": "4-3",
+       "source": "wusf-rays-aug"
+      },
+      {
+       "value": "4-3",
+       "source": "wfts-rays-aug"
+      }
+     ]
+    },
+    {
+     "text": "Still pending after this vote: ballpark license and use agreement, community benefits agreement, construction funds trust agreement.",
+     "claims": [
+      {
+       "value": "pending agreements",
+       "source": "hc-rays-aug28"
+      }
+     ]
+    },
+    {
+     "text": "The Clerk's 2026 voting record PDF (printed Oct 9, 2026) ends Aug 13, 2026, so it does not yet show this roll call.",
+     "claims": []
+    }
+   ]
+  },
+  {
+   "id": "zootampa-75m",
+   "date": null,
+   "dateNote": "FOX 13 reported a 4-3 approval on Oct 7, 2026; Bay News 9 reported a 4-3 final approval on Oct 21, 2026.",
+   "topic": "tourism",
+   "headline": "Approved $75 million for ZooTampa renovations and expansion",
+   "inShort": "The county will pay ZooTampa $5 million a year through 2041 from Community Investment Tax (half-cent sales tax) money, and the zoo must match it, for $150 million in upgrades and a new South America section. Some commissioners argued the money should be shared with other cultural groups.",
+   "legistarMatch": {
+    "date": null,
+    "contains": [
+     "zootampa",
+     "funding agreement"
+    ]
+   },
+   "claims": {
+    "result": [
+     {
+      "value": "Passed 4 to 3",
+      "source": "fox13-zoo"
+     },
+     {
+      "value": "Passed 4 to 3",
+      "source": "bn9-zoo"
+     }
+    ],
+    "roll": []
+   },
+   "facts": [
+    {
+     "text": "County money: $75 million, $5 million a year through 2041, matched 1 to 1 by the zoo.",
+     "claims": [
+      {
+       "value": "$75 million",
+       "source": "fox13-zoo"
+      },
+      {
+       "value": "$75 million",
+       "source": "bn9-zoo"
+      }
+     ]
+    },
+    {
+     "text": "On Sept 16, 2026 a majority voted to have staff finalize the partnership.",
+     "claims": [
+      {
+       "value": "majority, no count",
+       "source": "hc-sep16"
+      }
+     ]
+    },
+    {
+     "text": "How each commissioner voted.",
+     "claims": []
+    }
+   ]
+  },
+  {
+   "id": "fy27-reconciliation",
+   "date": "2026-07-29",
+   "topic": "taxes",
+   "headline": "Approved changes to the proposed FY 2027 budget",
+   "inShort": "At a budget reconciliation hearing on a recommended $14.1 billion FY 2027 budget, commissioners voted on items they had flagged for change. The plan included a millage swap to support public safety and other county services.",
+   "legistarMatch": {
+    "date": "2026-07-29",
+    "contains": [
+     "budget",
+     "reconciliation"
+    ]
+   },
+   "claims": {
+    "result": [
+     {
+      "value": "Passed 7 to 0",
+      "source": "govly-jul29"
+     }
+    ],
+    "roll": []
+   },
+   "facts": [
+    {
+     "text": "Recommended budget: $14.1 billion.",
+     "claims": [
+      {
+       "value": "$14.1 billion",
+       "source": "govly-jul29"
+      }
+     ]
+    },
+    {
+     "text": "Final FY 2027 tax rates and the final budget vote.",
+     "claims": []
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "id": "taxes",
+   "name": "Property taxes and budget",
+   "blurb": "What the county charges you, and how it spends it."
+  },
+  {
+   "id": "stadium",
+   "name": "Stadiums",
+   "blurb": "Public money for a new Rays ballpark."
+  },
+  {
+   "id": "tourism",
+   "name": "Tourism and attractions",
+   "blurb": "Tax money for the zoo, tourism and cultural sites."
+  },
+  {
+   "id": "growth",
+   "name": "Growth, land use and housing",
+   "blurb": "Rezonings, land use changes and housing rules."
+  },
+  {
+   "id": "transportation",
+   "name": "Roads and transportation",
+   "blurb": "Road projects, transit and sales tax project lists."
+  },
+  {
+   "id": "board",
+   "name": "How the board runs",
+   "blurb": "Leadership picks, districts and procedure."
+  }
+ ],
+ "manualProblems": [
+  {
+   "id": "rays-mou-amount",
+   "subject": "May 20, 2026 Rays deal",
+   "field": "county contribution",
+   "kind": "Sources disagree",
+   "versions": [
+    {
+     "value": "County up to $796 million in the May MOU",
+     "sources": [
+      "wwsb-rays-may"
+     ]
+    },
+    {
+     "value": "Final $796 million is $100 million less than the May MOU figure",
+     "sources": [
+      "wusf-rays-aug"
+     ]
+    }
+   ],
+   "status": "Open: check the MOU text in the May 20 agenda packet"
+  },
+  {
+   "id": "zoo-date",
+   "subject": "ZooTampa $75 million funding",
+   "field": "vote date",
+   "kind": "Sources disagree",
+   "versions": [
+    {
+     "value": "Approved 4-3, reported Oct 7, 2026",
+     "sources": [
+      "fox13-zoo"
+     ]
+    },
+    {
+     "value": "Final vote approved 4-3, reported Oct 21, 2026",
+     "sources": [
+      "bn9-zoo"
+     ]
+    },
+    {
+     "value": "Oct 7 meeting: board vote not clearly established; hearing set Oct 21",
+     "sources": [
+      "govly-oct7"
+     ]
+    }
+   ],
+   "status": "Open: check Clerk voting record once updated past Aug 13, 2026"
+  },
+  {
+   "id": "term-end-2026",
+   "subject": "District 5 and 7 terms",
+   "field": "term end",
+   "kind": "Sources disagree",
+   "versions": [
+    {
+     "value": "Dec 31, 2026",
+     "sources": [
+      "br-wostal",
+      "br-cepeda"
+     ]
+    },
+    {
+     "value": "New term begins Nov 17, 2026",
+     "sources": [
+      "soe-factsheet"
+     ],
+     "official": true
+    }
+   ],
+   "status": "Resolved: the Supervisor of Elections fact sheet is official"
+  },
+  {
+   "id": "primary-counts",
+   "subject": "Aug 18, 2026 primary",
+   "field": "vote counts",
+   "kind": "Unofficial vs certified",
+   "versions": [
+    {
+     "value": "Myers 14,723; Rodriguez 52,259 (unofficial)",
+     "sources": [
+      "bb-county"
+     ]
+    },
+    {
+     "value": "Myers 14,729; Rodriguez 52,291 (certified)",
+     "sources": [
+      "soe-primary"
+     ],
+     "official": true
+    }
+   ],
+   "status": "Resolved: use certified results"
+  },
+  {
+   "id": "sb6-williamson",
+   "subject": "School Board District 6",
+   "field": "November candidates",
+   "kind": "Sources disagree",
+   "versions": [
+    {
+     "value": "Three candidates incl. Sally Harris Williamson",
+     "sources": [
+      "bb-county",
+      "bb-sb6"
+     ]
+    },
+    {
+     "value": "Two candidates: Gay and Perez",
+     "sources": [
+      "soe-cert",
+      "soe-sample",
+      "beacons-sb"
+     ],
+     "official": true
+    }
+   ],
+   "status": "Resolved: official ballot lists Gay and Perez only"
+  },
+  {
+   "id": "garcia-spelling",
+   "subject": "District 3 Republican candidate",
+   "field": "name spelling",
+   "kind": "Sources disagree",
+   "versions": [
+    {
+     "value": "Luis F. F. Garcia",
+     "sources": [
+      "yahoo-fund"
+     ]
+    },
+    {
+     "value": "Luiz F. F. Garcia",
+     "sources": [
+      "soe-cert",
+      "soe-sample"
+     ],
+     "official": true
+    }
+   ],
+   "status": "Resolved: official ballot spells Luiz"
+  },
+  {
+   "id": "robinson-d3",
+   "subject": "Quinton F. Robinson, District 3",
+   "field": "candidacy",
+   "kind": "Record gap",
+   "versions": [
+    {
+     "value": "Listed as qualified Democrat in June",
+     "sources": [
+      "beacons-qual"
+     ]
+    },
+    {
+     "value": "Not in certified Aug 18 primary results",
+     "sources": [
+      "soe-primary"
+     ]
+    }
+   ],
+   "status": "Open: confirm withdrawal on the SOE candidate list (page did not load)"
+  },
+  {
+   "id": "sb-party",
+   "subject": "School board candidates",
+   "field": "party",
+   "kind": "Nonpartisan race",
+   "versions": [
+    {
+     "value": "WUSF lists party registration for Lyssy (R), Simic (D), Gay (R), Perez (D)",
+     "sources": [
+      "wusf-sb"
+     ]
+    }
+   ],
+   "status": "Open: race is nonpartisan on the ballot; party left out of claims, decide editorially"
+  },
+  {
+   "id": "soe-candidate-list",
+   "subject": "SOE local candidates page",
+   "field": "candidate list and finance ids",
+   "kind": "Record gap",
+   "versions": [
+    {
+     "value": "https://www.votehillsborough.gov/202/Local-Candidates-Committees failed to load; VoterFocus pages not reachable",
+     "sources": [
+      "soe-qualify",
+      "soe-finance"
+     ]
+    }
+   ],
+   "status": "Open: candidate roster taken from the SOE ballot certification and sample ballot instead"
+  },
+  {
+   "id": "nbf-dos-party",
+   "subject": "Hagan, Miller, Boles",
+   "field": "party (tier 1)",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://dos.elections.myflorida.com/candidates/",
+     "sources": []
+    }
+   ],
+   "status": "Open: Division of Elections candidate listing not reachable; party currently from Axios/Ballotpedia only"
+  },
+  {
+   "id": "nbf-soe-2024",
+   "subject": "2024 County Commission seats (D2, D4, D6)",
+   "field": "term and party (tier 1)",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://www.votehillsborough.gov/Portals/Hillsborough/Documents/Candidate Services/2024 Fact Sheets/County Commission 2024.pdf",
+     "sources": []
+    }
+   ],
+   "status": "Open: SOE 2024 fact sheet failed to load"
+  },
+  {
+   "id": "nbf-soe-cands",
+   "subject": "2026 candidates",
+   "field": "party, status, finance links",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://www.votehillsborough.gov/202/Local-Candidates-Committees",
+     "sources": []
+    }
+   ],
+   "status": "Open: SOE local candidates page failed to load"
+  },
+  {
+   "id": "nbf-voterfocus",
+   "subject": "2026 candidates",
+   "field": "campaign finance account ids",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://www.voterfocus.com/ws/WScand/cand_srch.php?c=Hillsborough",
+     "sources": []
+    }
+   ],
+   "status": "Open: VoterFocus not on allowlist"
+  },
+  {
+   "id": "nbf-2022-general",
+   "subject": "Cameron Cepeda and Wostal",
+   "field": "in-office-since (tier 1)",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://www.votehillsborough.gov/",
+     "sources": []
+    }
+   ],
+   "status": "Open: Need certified Nov 2022 general results; county bio pages give no start date"
+  },
+  {
+   "id": "nbf-legistar",
+   "subject": "BCC land use records",
+   "field": "Legistar API",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://webapi.legistar.com/v1/hillsboroughcounty/bodies",
+     "sources": []
+    }
+   ],
+   "status": "Open: Legistar API not reachable"
+  },
+  {
+   "id": "nbf-eagenda",
+   "subject": "BCC agendas",
+   "field": "vendor and export",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://eagenda.hillsboroughcounty.org/portal/PTL29560/home",
+     "sources": []
+    }
+   ],
+   "status": "Open: eAgenda portal not reachable"
+  },
+  {
+   "id": "nbf-campaign-toledo",
+   "subject": "Jackie Toledo",
+   "field": "campaign site and social links",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://jackietoledo.com/",
+     "sources": []
+    }
+   ],
+   "status": "Open: Open the campaign site to confirm it belongs to the candidate and to collect any social accounts it links to. No social handles were added."
+  },
+  {
+   "id": "nbf-campaign-myers",
+   "subject": "Gwen Myers",
+   "field": "campaign site and social links",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://www.votegwenmyers.com/",
+     "sources": []
+    }
+   ],
+   "status": "Open: Open the campaign site to confirm it belongs to the candidate and to collect any social accounts it links to. No social handles were added."
+  },
+  {
+   "id": "nbf-campaign-garcia",
+   "subject": "Luiz F. F. Garcia",
+   "field": "campaign site and social links",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://www.electluizffgarcia.com/",
+     "sources": []
+    }
+   ],
+   "status": "Open: Open the campaign site to confirm it belongs to the candidate and to collect any social accounts it links to. No social handles were added."
+  },
+  {
+   "id": "nbf-campaign-hahn",
+   "subject": "Stacy Hahn",
+   "field": "campaign site and social links",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://www.votestacyhahn.com/",
+     "sources": []
+    }
+   ],
+   "status": "Open: Open the campaign site to confirm it belongs to the candidate and to collect any social accounts it links to. No social handles were added."
+  },
+  {
+   "id": "nbf-campaign-manimala",
+   "subject": "Neil Manimala",
+   "field": "campaign site and social links",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://www.neilmanimala.com/",
+     "sources": []
+    }
+   ],
+   "status": "Open: Open the campaign site to confirm it belongs to the candidate and to collect any social accounts it links to. No social handles were added."
+  },
+  {
+   "id": "nbf-campaign-rodriguez",
+   "subject": "Aileen Rodriguez",
+   "field": "campaign site and social links",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://www.voteaileen2026.com/",
+     "sources": []
+    }
+   ],
+   "status": "Open: Open the campaign site to confirm it belongs to the candidate and to collect any social accounts it links to. No social handles were added."
+  },
+  {
+   "id": "nbf-campaign-wostal",
+   "subject": "Joshua Wostal",
+   "field": "campaign site and social links",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://joshuawostal.com/",
+     "sources": []
+    }
+   ],
+   "status": "Open: Open the campaign site to confirm it belongs to the candidate and to collect any social accounts it links to. No social handles were added."
+  },
+  {
+   "id": "nbf-campaign-lyssy",
+   "subject": "Brittany Lyssy",
+   "field": "campaign site and social links",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://www.votebrittanylyssy.com/",
+     "sources": []
+    }
+   ],
+   "status": "Open: Open the campaign site to confirm it belongs to the candidate and to collect any social accounts it links to. No social handles were added."
+  },
+  {
+   "id": "nbf-campaign-simic",
+   "subject": "Daniela Simic",
+   "field": "campaign site and social links",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://danielaforschools.com/",
+     "sources": []
+    }
+   ],
+   "status": "Open: Open the campaign site to confirm it belongs to the candidate and to collect any social accounts it links to. No social handles were added."
+  },
+  {
+   "id": "nbf-campaign-gay",
+   "subject": "Kenneth \"Ken\" Gay",
+   "field": "campaign site and social links",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://www.votekennethgay.com/",
+     "sources": []
+    }
+   ],
+   "status": "Open: Open the campaign site to confirm it belongs to the candidate and to collect any social accounts it links to. No social handles were added."
+  },
+  {
+   "id": "nbf-campaign-perez",
+   "subject": "Karen Perez",
+   "field": "campaign site and social links",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://keepkarenperez.com/",
+     "sources": []
+    }
+   ],
+   "status": "Open: Open the campaign site to confirm it belongs to the candidate and to collect any social accounts it links to. No social handles were added."
+  },
+  {
+   "id": "nbf-campaign-cohen",
+   "subject": "Harry Cohen",
+   "field": "campaign site",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://www.votehillsborough.gov/202/Local-Candidates-Committees",
+     "sources": []
+    }
+   ],
+   "status": "Open: No campaign site found in fetched sources"
+  }
+ ]
+}

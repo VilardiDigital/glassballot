@@ -1,0 +1,1508 @@
+{
+ "county": {
+  "id": "pinellas",
+  "name": "Pinellas County",
+  "state": "FL",
+  "body": "Board of County Commissioners",
+  "electionDate": "2026-11-03",
+  "seats": "7 commissioners. Districts 1, 2 and 3 are at-large, so every Pinellas voter votes on them. Districts 4 to 7 are single-member, so only voters who live in that district vote.",
+  "lookupUrl": "https://www.votepinellas.gov/",
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=pinellas"
+ },
+ "sources": {
+  "pc-bcc": {
+   "title": "Pinellas County Board of County Commissioners",
+   "url": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/",
+   "publisher": "Pinellas County",
+   "tier": 1
+  },
+  "pc-terms": {
+   "title": "Pinellas County commission districts and terms",
+   "url": "https://pinellas.gov/wp-content/uploads/2024/06/BCC-At_large_18Nov24.pdf",
+   "publisher": "Pinellas County",
+   "tier": 1
+  },
+  "pc-2026": {
+   "title": "2026 BCC meeting schedule",
+   "url": "https://pinellas.gov/wp-content/uploads/2025/09/bcc-meetings-2026.pdf",
+   "publisher": "Pinellas County",
+   "tier": 1
+  },
+  "soe-offices": {
+   "title": "Offices up for election",
+   "url": "https://www.votepinellas.gov/222/Offices-up-for-Election",
+   "publisher": "Pinellas Supervisor of Elections",
+   "tier": 1
+  },
+  "soe-finance": {
+   "title": "Search financial report transactions",
+   "url": "https://www.votepinellas.gov/221/Search-Financial-Report-Transactions",
+   "publisher": "Pinellas Supervisor of Elections",
+   "tier": 1
+  },
+  "legistar": {
+   "title": "Pinellas County Legistar (agendas, minutes, votes)",
+   "url": "https://pinellas.legistar.com/Calendar.aspx",
+   "publisher": "Pinellas County",
+   "tier": 1
+  },
+  "ballotpedia": {
+   "title": "Government of Pinellas County, Florida",
+   "url": "https://ballotpedia.org/Government_of_Pinellas_County,_Florida",
+   "publisher": "Ballotpedia",
+   "tier": 3
+  },
+  "bb-d2": {
+   "title": "Commissioner District 2 (At Large)",
+   "url": "https://theballotbrief.com/state/florida/pinellas-county/commissioner-district-2-at-large",
+   "publisher": "The Ballot Brief",
+   "tier": 3,
+   "caution": "Says it is written with AI assistance."
+  },
+  "bb-d4": {
+   "title": "Commissioner District 4",
+   "url": "https://theballotbrief.com/state/florida/pinellas-county/commissioner-district-4",
+   "publisher": "The Ballot Brief",
+   "tier": 3,
+   "caution": "Says it is written with AI assistance."
+  },
+  "bb-d6": {
+   "title": "Commissioner District 6",
+   "url": "https://theballotbrief.com/state/florida/pinellas-county/commissioner-district-6",
+   "publisher": "The Ballot Brief",
+   "tier": 3,
+   "caution": "Says it is written with AI assistance."
+  },
+  "bb-sb3": {
+   "title": "School Board District 3 (At Large)",
+   "url": "https://theballotbrief.com/state/florida/pinellas-county/school-board-district-3-at-large",
+   "publisher": "The Ballot Brief",
+   "tier": 3,
+   "caution": "Says it is written with AI assistance."
+  },
+  "bb-county": {
+   "title": "Pinellas County races",
+   "url": "https://theballotbrief.com/state/florida/pinellas-county",
+   "publisher": "The Ballot Brief",
+   "tier": 3,
+   "caution": "Says it is written with AI assistance."
+  },
+  "wiki-latvala": {
+   "title": "Chris Latvala",
+   "url": "https://en.wikipedia.org/wiki/Chris_Latvala",
+   "publisher": "Wikipedia",
+   "tier": 3
+  },
+  "patch-2024": {
+   "title": "GOP candidates lead Pinellas County Commission races (unofficial results)",
+   "url": "https://patch.com/florida/stpete/gop-candidates-lead-pinellas-county-commission-races-unofficial-resul",
+   "publisher": "Patch",
+   "tier": 4
+  },
+  "wusf-flowers": {
+   "title": "Democrat Rene Flowers will advance to Pinellas Commission District 7 race",
+   "url": "https://www.wusf.org/news/2020-08-19/democrat-rene-flowers-will-advance-to-pinellas-commission-district-7-race",
+   "publisher": "WUSF",
+   "tier": 4
+  },
+  "tbt-rays": {
+   "title": "Pinellas commissioners approve Rays stadium bonds in 5-2 vote",
+   "url": "https://www.tampabay.com/news/pinellas/2024/12/17/live-updates-pinellas-rays-stadium-bond-vote/",
+   "publisher": "Tampa Bay Times",
+   "tier": 4
+  },
+  "fp-rays": {
+   "title": "After 2 delays, Pinellas County Commission approves Rays stadium bonds",
+   "url": "https://floridapolitics.com/archives/712527-after-2-delays-pinellas-county-commission-approves-rays-stadium-bonds-keeping-the-hope-of-major-league-baseball-alive/",
+   "publisher": "Florida Politics",
+   "tier": 4
+  },
+  "bloomberg-rays": {
+   "title": "MLB's Rays bail on deal for new ballpark in St. Petersburg",
+   "url": "https://www.bloomberg.com/news/articles/2025-03-13/mlb-s-rays-bail-on-deal-for-new-ballpark-in-st-petersburg",
+   "publisher": "Bloomberg",
+   "tier": 4
+  },
+  "cat-fy27": {
+   "title": "County approves property tax rate decrease in first budget vote",
+   "url": "https://stpetecatalyst.com/zaps/county-approves-property-tax-rate-decrease-in-first-budget-vote/",
+   "publisher": "St. Pete Catalyst",
+   "tier": 4
+  },
+  "cat-trim": {
+   "title": "Pinellas launches budget process amid tax uncertainty",
+   "url": "https://stpetecatalyst.com/pinellas-launches-budget-process-amid-tax-uncertainty/",
+   "publisher": "St. Pete Catalyst",
+   "tier": 4
+  },
+  "tbt-opioid": {
+   "title": "Pinellas County mental health and addiction services to expand",
+   "url": "https://www.tampabay.com/news/pinellas/2026/09/25/opioid-settlement-funds-pinellas-county/",
+   "publisher": "Tampa Bay Times",
+   "tier": 4
+  },
+  "govly-aug25": {
+   "title": "Pinellas County BCC meeting summary, Aug 25, 2026",
+   "url": "https://app.govly.com/public/meetings/72632",
+   "publisher": "Govly",
+   "tier": 4,
+   "caution": "Automated meeting summary."
+  },
+  "govly-sep3": {
+   "title": "Pinellas County BCC work session summary, Sep 3, 2026",
+   "url": "https://app.govly.com/public/meetings/75491",
+   "publisher": "Govly",
+   "tier": 4,
+   "caution": "Automated meeting summary."
+  },
+  "pc-nowicki": {
+   "title": "Commissioner Vince Nowicki",
+   "url": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-vince-nowicki/",
+   "publisher": "Pinellas County",
+   "tier": 1
+  },
+  "pc-eggers": {
+   "title": "Commissioner Dave Eggers",
+   "url": "https://pinellas.gov/commissioner-dave-eggers/",
+   "publisher": "Pinellas County",
+   "tier": 1
+  },
+  "pc-kpeters": {
+   "title": "Commissioner Kathleen Peters",
+   "url": "https://pinellas.gov/commissioner-kathleen-peters/",
+   "publisher": "Pinellas County",
+   "tier": 1
+  },
+  "pc-terms-all": {
+   "title": "Pinellas County commission districts and terms (all districts)",
+   "url": "https://pinellas.gov/wp-content/uploads/2024/06/BCC-All_Districts_18Nov24.pdf",
+   "publisher": "Pinellas County",
+   "tier": 1
+  },
+  "pc-sworn-2022": {
+   "title": "New, re-elected County Commissioners sworn in at ceremony (Nov 23, 2022)",
+   "url": "https://pinellas.gov/news/new-re-elected-county-commissioners-sworn-in-at-ceremony/",
+   "publisher": "Pinellas County",
+   "tier": 1
+  },
+  "soe-guide-2026": {
+   "title": "Pinellas County Citizens Guide 2026-2028 (updated Feb 2026)",
+   "url": "https://www.votepinellas.gov/DocumentCenter/View/1671/2026-28-Citizens-Guide-English-PDF",
+   "publisher": "Pinellas Supervisor of Elections",
+   "tier": 1
+  },
+  "pcsb-dpeters": {
+   "title": "Dawn M. Peters - Pinellas County Schools",
+   "url": "https://www.pcsb.org/school-board/school-board/dawn-m-peters",
+   "publisher": "Pinellas County Schools",
+   "tier": 1
+  },
+  "camp-scott": {
+   "title": "Brian Scott campaign website",
+   "url": "https://www.votebrianscott.com/",
+   "publisher": "Brian Scott campaign",
+   "tier": 5,
+   "accessed": "2026-10-26"
+  },
+  "camp-hughes": {
+   "title": "Tim Hughes campaign website",
+   "url": "https://hughesforpinellas.com/",
+   "publisher": "Tim Hughes campaign",
+   "tier": 5,
+   "accessed": "2026-10-26"
+  },
+  "camp-eggers": {
+   "title": "Dave Eggers campaign website",
+   "url": "https://www.votedaveeggers.com/",
+   "publisher": "Dave Eggers campaign",
+   "tier": 5,
+   "accessed": "2026-10-26"
+  },
+  "camp-peters": {
+   "title": "Kathleen Peters campaign website",
+   "url": "https://kathleenpeters.com/",
+   "publisher": "Kathleen Peters campaign",
+   "tier": 5,
+   "accessed": "2026-10-26"
+  },
+  "camp-glenn": {
+   "title": "David Glenn Jr. campaign website",
+   "url": "https://davidglennjr.com/",
+   "publisher": "David Glenn Jr. campaign",
+   "tier": 5,
+   "accessed": "2026-10-26"
+  },
+  "camp-dpeters": {
+   "title": "Dawn Peters campaign website",
+   "url": "https://www.votedawnpeters.com/",
+   "publisher": "Dawn Peters campaign",
+   "tier": 5,
+   "accessed": "2026-10-26"
+  },
+  "camp-campogni": {
+   "title": "Curtis Campogni campaign website",
+   "url": "https://www.curtis4allpcs.com/",
+   "publisher": "Curtis Campogni campaign",
+   "tier": 5,
+   "accessed": "2026-10-26"
+  }
+ },
+ "people": [
+  {
+   "id": "scherer",
+   "name": "Chris Scherer",
+   "office": "County Commissioner",
+   "district": "1",
+   "seatType": "At-large",
+   "status": "incumbent",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "patch-2024"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-guide-2026"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "Nov 19, 2024",
+      "source": "ballotpedia"
+     }
+    ],
+    "term": [
+     {
+      "value": "2024 to 2028",
+      "source": "pc-terms"
+     },
+     {
+      "value": "2024 to 2028",
+      "source": "pc-terms-all"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Won 2024 with 52.98% (unofficial) over Joanne \"Cookie\" Kennedy (D)",
+      "source": "patch-2024"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://pinellas.gov/wp-content/uploads/2024/12/Chris-Scherer-Dec2024_225x315.jpg",
+      "source": "pc-bcc"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-chris-scherer/"
+      },
+      "source": "pc-bcc"
+     }
+    ]
+   }
+  },
+  {
+   "id": "scott",
+   "name": "Brian Scott",
+   "office": "County Commissioner",
+   "district": "2",
+   "seatType": "At-large",
+   "status": "incumbent",
+   "race": "bcc-d2",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "bb-d2"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-guide-2026"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "Nov 22, 2022",
+      "source": "ballotpedia"
+     },
+     {
+      "value": "Nov 22, 2022",
+      "source": "pc-sworn-2022"
+     }
+    ],
+    "term": [
+     {
+      "value": "2022 to 2026",
+      "source": "pc-terms"
+     },
+     {
+      "value": "2022 to 2026",
+      "source": "pc-terms-all"
+     }
+    ],
+    "job": [
+     {
+      "value": "President of Escot Bus Lines, a family-owned Pinellas transportation company",
+      "source": "bb-d2"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$115,775",
+      "source": "bb-d2"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://pinellas.gov/wp-content/uploads/2024/11/Brian-Scott-224x315-1.jpg",
+      "source": "pc-bcc"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-brian-scott/"
+      },
+      "source": "pc-bcc"
+     },
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://www.votebrianscott.com/"
+      },
+      "source": "bb-d2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "hughes",
+   "name": "Tim Hughes",
+   "office": "Candidate, County Commission",
+   "district": "2",
+   "seatType": "At-large",
+   "status": "challenger",
+   "race": "bcc-d2",
+   "claims": {
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "bb-d2"
+     }
+    ],
+    "job": [
+     {
+      "value": "Retired environmental specialist; about 20 years in watershed management for a Virginia public works department",
+      "source": "bb-d2"
+     }
+    ],
+    "roles": [
+     {
+      "value": "Conservation chair, Suncoast Sierra Club; member, Clearwater community resiliency board",
+      "source": "bb-d2"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$10,210",
+      "source": "bb-d2"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://hughesforpinellas.com/"
+      },
+      "source": "bb-d2"
+     },
+     {
+      "value": {
+       "kind": "facebook",
+       "url": "https://www.facebook.com/profile.php?id=61591561192975"
+      },
+      "source": "camp-hughes"
+     },
+     {
+      "value": {
+       "kind": "instagram",
+       "url": "https://www.instagram.com/timhughesfl/"
+      },
+      "source": "camp-hughes"
+     },
+     {
+      "value": {
+       "kind": "youtube",
+       "url": "https://www.youtube.com/@TimHughesCountyCommission"
+      },
+      "source": "camp-hughes"
+     }
+    ]
+   }
+  },
+  {
+   "id": "nowicki",
+   "name": "Vince Nowicki",
+   "office": "County Commissioner",
+   "district": "3",
+   "seatType": "At-large",
+   "status": "incumbent",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "patch-2024"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-guide-2026"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "Nov 19, 2024",
+      "source": "ballotpedia"
+     },
+     {
+      "value": "Nov 18, 2024",
+      "source": "pc-nowicki"
+     }
+    ],
+    "term": [
+     {
+      "value": "2024 to 2028",
+      "source": "pc-terms"
+     },
+     {
+      "value": "2024 to 2028",
+      "source": "pc-terms-all"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Won 2024 with 51.51% (unofficial) over incumbent Charlie Justice (D)",
+      "source": "patch-2024"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://pinellas.gov/wp-content/uploads/2024/12/V-Nowicki_Nov2024_225x315.jpg",
+      "source": "pc-bcc"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-vince-nowicki/"
+      },
+      "source": "pc-bcc"
+     }
+    ]
+   }
+  },
+  {
+   "id": "eggers",
+   "name": "Dave Eggers",
+   "office": "County Commissioner",
+   "district": "4",
+   "seatType": "Single-member",
+   "status": "incumbent",
+   "race": "bcc-d4",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "bb-d4"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-guide-2026"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "2014",
+      "source": "ballotpedia"
+     },
+     {
+      "value": "2014",
+      "source": "bb-d4"
+     },
+     {
+      "value": "2014",
+      "source": "pc-eggers"
+     }
+    ],
+    "leadership": [
+     {
+      "value": "2026 Chairman",
+      "source": "pc-bcc"
+     }
+    ],
+    "job": [
+     {
+      "value": "Businessman and former mayor of Dunedin",
+      "source": "bb-d4"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$34,875",
+      "source": "bb-d4"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Won the Aug 18, 2026 Republican primary with 78.5% over Anthony Ringelspaugh (unofficial)",
+      "source": "bb-d4"
+     }
+    ],
+    "promises": [
+     {
+      "value": [
+       "Storm recovery and community resilience",
+       "Reduce property taxes and cut wasteful spending",
+       "Beach renourishment and support for law enforcement, veterans, and seniors"
+      ],
+      "source": "bb-d4"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://pinellas.gov/wp-content/uploads/2026/01/DEggers_2026.jpg",
+      "source": "pc-bcc"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://pinellas.gov/commissioner-dave-eggers/"
+      },
+      "source": "pc-bcc"
+     },
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://www.votedaveeggers.com/"
+      },
+      "source": "bb-d4"
+     }
+    ],
+    "term": [
+     {
+      "value": "2022 to 2026",
+      "source": "pc-terms-all"
+     }
+    ]
+   }
+  },
+  {
+   "id": "latvala",
+   "name": "Chris Latvala",
+   "office": "County Commissioner",
+   "district": "5",
+   "seatType": "Single-member",
+   "status": "incumbent",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "wiki-latvala"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-guide-2026"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "Nov 8, 2022",
+      "source": "wiki-latvala"
+     },
+     {
+      "value": "Nov 22, 2022",
+      "source": "ballotpedia"
+     },
+     {
+      "value": "Nov 22, 2022",
+      "source": "pc-sworn-2022"
+     }
+    ],
+    "leadership": [
+     {
+      "value": "2026 Vice Chairman",
+      "source": "pc-bcc"
+     }
+    ],
+    "pastOffice": [
+     {
+      "value": "Florida House, District 67, 2014 to 2022",
+      "source": "wiki-latvala"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://pinellas.gov/wp-content/uploads/2024/11/Chris_Latvala_225x315.jpg",
+      "source": "pc-bcc"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-chris-latvala/"
+      },
+      "source": "pc-bcc"
+     }
+    ],
+    "term": [
+     {
+      "value": "2024 to 2028",
+      "source": "pc-terms-all"
+     }
+    ]
+   }
+  },
+  {
+   "id": "peters",
+   "name": "Kathleen Peters",
+   "office": "County Commissioner",
+   "district": "6",
+   "seatType": "Single-member",
+   "status": "incumbent",
+   "race": "bcc-d6",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "bb-d6"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-guide-2026"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "2018",
+      "source": "bb-d6"
+     },
+     {
+      "value": "2019",
+      "source": "ballotpedia"
+     },
+     {
+      "value": "2018",
+      "source": "pc-kpeters"
+     }
+    ],
+    "pastOffice": [
+     {
+      "value": "Florida House, 6 years",
+      "source": "bb-d6"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$139,775",
+      "source": "bb-d6"
+     }
+    ],
+    "promises": [
+     {
+      "value": [
+       "Behavioral health treatment reform",
+       "Public safety and fiscal responsibility",
+       "Environmental protection and critical infrastructure"
+      ],
+      "source": "bb-d6"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://pinellas.gov/wp-content/uploads/2024/05/Kathleen-Peters-225x315-1.jpg",
+      "source": "pc-bcc"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://pinellas.gov/commissioner-kathleen-peters/"
+      },
+      "source": "pc-bcc"
+     },
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://www.kathleenpeters.com/"
+      },
+      "source": "bb-d6"
+     },
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://kathleenpeters.com/"
+      },
+      "source": "camp-peters"
+     },
+     {
+      "value": {
+       "kind": "facebook",
+       "url": "https://www.facebook.com/VoteKathleenPeters"
+      },
+      "source": "camp-peters"
+     },
+     {
+      "value": {
+       "kind": "x",
+       "url": "https://x.com/KathleenMPeters"
+      },
+      "source": "camp-peters"
+     },
+     {
+      "value": {
+       "kind": "instagram",
+       "url": "https://www.instagram.com/kathleenmpeters/"
+      },
+      "source": "camp-peters"
+     }
+    ],
+    "term": [
+     {
+      "value": "2022 to 2026",
+      "source": "pc-terms-all"
+     }
+    ]
+   }
+  },
+  {
+   "id": "glenn",
+   "name": "David Glenn Jr.",
+   "office": "Candidate, County Commission",
+   "district": "6",
+   "seatType": "Single-member",
+   "status": "challenger",
+   "race": "bcc-d6",
+   "claims": {
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "bb-d6"
+     }
+    ],
+    "job": [
+     {
+      "value": "Architect",
+      "source": "bb-d6"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$11,515",
+      "source": "bb-d6"
+     }
+    ],
+    "promises": [
+     {
+      "value": [
+       "Planned growth and land use",
+       "Affordable workforce housing",
+       "Funding for transit, libraries and parks"
+      ],
+      "source": "bb-d6"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://davidglennjr.com/"
+      },
+      "source": "bb-d6"
+     },
+     {
+      "value": {
+       "kind": "facebook",
+       "url": "https://www.facebook.com/profile.php?id=61585103768654"
+      },
+      "source": "camp-glenn"
+     },
+     {
+      "value": {
+       "kind": "x",
+       "url": "https://x.com/dglennjrfor6"
+      },
+      "source": "camp-glenn"
+     },
+     {
+      "value": {
+       "kind": "instagram",
+       "url": "https://www.instagram.com/davidglennjr.for6/"
+      },
+      "source": "camp-glenn"
+     }
+    ]
+   }
+  },
+  {
+   "id": "flowers",
+   "name": "René Flowers",
+   "office": "County Commissioner",
+   "district": "7",
+   "seatType": "Single-member",
+   "status": "incumbent",
+   "claims": {
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "wusf-flowers"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-guide-2026"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "Nov 17, 2020",
+      "source": "ballotpedia"
+     }
+    ],
+    "pastOffice": [
+     {
+      "value": "Pinellas School Board from 2012; St. Petersburg City Council 1999 to 2008",
+      "source": "wusf-flowers"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://pinellas.gov/wp-content/uploads/2024/03/R-Flowers-2024-300x420-1.jpg",
+      "source": "pc-bcc"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://pinellas.gov/commissioner-rene-flowers/"
+      },
+      "source": "pc-bcc"
+     }
+    ],
+    "term": [
+     {
+      "value": "2024 to 2028",
+      "source": "pc-terms-all"
+     }
+    ]
+   }
+  },
+  {
+   "id": "dpeters",
+   "name": "Dawn Peters",
+   "office": "School Board Member",
+   "district": "3",
+   "seatType": "At-large",
+   "status": "incumbent",
+   "race": "sb-d3",
+   "nonpartisan": true,
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "Elected Nov 2022",
+      "source": "bb-sb3"
+     }
+    ],
+    "job": [
+     {
+      "value": "Property management; certified substitute preschool teacher; former PTA officer",
+      "source": "bb-sb3"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$11,250",
+      "source": "bb-sb3"
+     }
+    ],
+    "promises": [
+     {
+      "value": [
+       "Pathways including college, career-technical, trades and military",
+       "Transparency and responsible governance",
+       "Support educators and keep students at the center"
+      ],
+      "source": "bb-sb3"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://www.pcsb.org/school-board/school-board/dawn-m-peters"
+      },
+      "source": "pcsb-dpeters"
+     },
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://www.votedawnpeters.com/"
+      },
+      "source": "bb-sb3"
+     }
+    ]
+   }
+  },
+  {
+   "id": "campogni",
+   "name": "Curtis Campogni",
+   "office": "Candidate, School Board",
+   "district": "3",
+   "seatType": "At-large",
+   "status": "challenger",
+   "race": "sb-d3",
+   "nonpartisan": true,
+   "claims": {
+    "job": [
+     {
+      "value": "Founder of Speak4MC; former case manager, youth program director and high school coach",
+      "source": "bb-sb3"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$6,402",
+      "source": "bb-sb3"
+     }
+    ],
+    "promises": [
+     {
+      "value": [
+       "Physically and emotionally safe schools",
+       "Teacher recruitment and morale",
+       "Addressing enrollment declines"
+      ],
+      "source": "bb-sb3"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://www.curtis4allpcs.com/"
+      },
+      "source": "bb-sb3"
+     },
+     {
+      "value": {
+       "kind": "facebook",
+       "url": "https://www.facebook.com/Curtis4allpcs/"
+      },
+      "source": "camp-campogni"
+     },
+     {
+      "value": {
+       "kind": "instagram",
+       "url": "https://www.instagram.com/curtis4allpcs/"
+      },
+      "source": "camp-campogni"
+     },
+     {
+      "value": {
+       "kind": "x",
+       "url": "https://x.com/curtis4allpcs"
+      },
+      "source": "camp-campogni"
+     },
+     {
+      "value": {
+       "kind": "linkedin",
+       "url": "https://www.linkedin.com/company/curtis4allpcs"
+      },
+      "source": "camp-campogni"
+     }
+    ]
+   }
+  }
+ ],
+ "races": [
+  {
+   "id": "bcc-d2",
+   "title": "County Commission, District 2",
+   "seatType": "At-large",
+   "who": "Every Pinellas voter",
+   "people": [
+    "hughes",
+    "scott"
+   ],
+   "sources": [
+    "soe-offices",
+    "bb-d2"
+   ]
+  },
+  {
+   "id": "bcc-d4",
+   "title": "County Commission, District 4",
+   "seatType": "Single-member",
+   "who": "Voters in District 4",
+   "people": [
+    "eggers"
+   ],
+   "note": "Only one candidate is listed for November.",
+   "sources": [
+    "soe-offices",
+    "bb-d4"
+   ]
+  },
+  {
+   "id": "bcc-d6",
+   "title": "County Commission, District 6",
+   "seatType": "Single-member",
+   "who": "Voters in District 6",
+   "people": [
+    "glenn",
+    "peters"
+   ],
+   "sources": [
+    "soe-offices",
+    "bb-d6"
+   ]
+  },
+  {
+   "id": "sb-d3",
+   "title": "School Board, District 3",
+   "seatType": "At-large, nonpartisan",
+   "who": "Every Pinellas voter",
+   "people": [
+    "campogni",
+    "dpeters"
+   ],
+   "note": "Runoff: no one won a majority on Aug 18 (Peters 36.4%, Campogni 34.8%, unofficial).",
+   "sources": [
+    "soe-offices",
+    "bb-sb3"
+   ]
+  }
+ ],
+ "votes": [
+  {
+   "id": "rays-bonds",
+   "date": "2024-12-17",
+   "topic": "stadium",
+   "headline": "Approved $312.5 million in bonds for a new Rays stadium",
+   "inShort": "The county agreed to borrow $312.5 million for its share of a new Tampa Bay Rays ballpark in St. Petersburg, to be repaid from the tourist development tax that visitors pay on hotel stays.",
+   "legistarMatch": {
+    "date": "2024-12-17",
+    "contains": [
+     "rays",
+     "stadium",
+     "bond"
+    ]
+   },
+   "claims": {
+    "result": [
+     {
+      "value": "Passed 5 to 2",
+      "source": "tbt-rays"
+     },
+     {
+      "value": "Passed 5 to 2",
+      "source": "fp-rays"
+     }
+    ],
+    "roll": [
+     {
+      "value": {
+       "yes": [
+        "eggers",
+        "flowers",
+        "latvala",
+        "peters",
+        "scott"
+       ],
+       "no": [
+        "nowicki",
+        "scherer"
+       ]
+      },
+      "source": "tbt-rays"
+     },
+     {
+      "value": {
+       "yes": [
+        "eggers",
+        "flowers",
+        "latvala",
+        "peters",
+        "scott"
+       ],
+       "no": [
+        "nowicki",
+        "scherer"
+       ]
+      },
+      "source": "fp-rays"
+     }
+    ]
+   },
+   "facts": [
+    {
+     "text": "Bond amount: $312.5 million.",
+     "claims": [
+      {
+       "value": "$312.5 million",
+       "source": "fp-rays"
+      }
+     ]
+    },
+    {
+     "text": "Repaid from the county's tourist development tax, paid by visitors on hotel and other lodging stays.",
+     "claims": [
+      {
+       "value": "tourist development tax",
+       "source": "fp-rays"
+      }
+     ]
+    },
+    {
+     "text": "The vote came after two delays.",
+     "claims": [
+      {
+       "value": "two delays",
+       "source": "fp-rays"
+      }
+     ]
+    },
+    {
+     "text": "What happened next: the Rays said on Mar 13, 2025 that they were backing out of the stadium deal. (The date comes from the article's web address; the article says it was a Thursday.)",
+     "claims": [
+      {
+       "value": "2025-03-13",
+       "source": "bloomberg-rays"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fy27-tentative",
+   "date": "2026-09-10",
+   "topic": "taxes",
+   "headline": "Lowered the countywide property tax rate in the first FY 2027 budget vote",
+   "inShort": "At the first of two budget hearings, the commission approved a tentative 2027 budget with a lower countywide tax rate. The county calls it the fifth cut in six years.",
+   "legistarMatch": {
+    "date": "2026-09-10",
+    "contains": [
+     "budget",
+     "millage"
+    ]
+   },
+   "claims": {
+    "result": [
+     {
+      "value": "Approved",
+      "source": "cat-fy27"
+     }
+    ],
+    "roll": []
+   },
+   "facts": [
+    {
+     "text": "Kept local funding for the Weedon Island and Shell Key preserves.",
+     "claims": [
+      {
+       "value": "kept preserve funding",
+       "source": "cat-fy27"
+      }
+     ]
+    },
+    {
+     "text": "The final tax rate and budget were set for a second hearing on Sep 24, 2026.",
+     "claims": [
+      {
+       "value": "2026-09-24",
+       "source": "cat-fy27"
+      },
+      {
+       "value": "2026-09-24",
+       "source": "pc-2026"
+      }
+     ]
+    },
+    {
+     "text": "The new tax rate itself.",
+     "claims": []
+    }
+   ]
+  },
+  {
+   "id": "trim-max",
+   "date": "2026-07-21",
+   "topic": "taxes",
+   "headline": "Set the highest tax rates the county can charge next year",
+   "inShort": "Each summer, Florida counties set a ceiling on next year's property tax rates. Commissioners can lower these rates later but can't go above them. They proposed keeping the countywide rate and 20 other rates unchanged, and raising the Seminole Fire District rate from 1.8000 to 1.9581 mills.",
+   "legistarMatch": {
+    "date": "2026-07-21",
+    "contains": [
+     "millage",
+     "maximum"
+    ]
+   },
+   "claims": {
+    "result": [
+     {
+      "value": "Agreed by consensus",
+      "source": "cat-trim"
+     }
+    ],
+    "roll": []
+   },
+   "facts": [
+    {
+     "text": "Seminole Fire District: proposed increase from 1.8000 to 1.9581 mills.",
+     "claims": [
+      {
+       "value": "1.8000 to 1.9581",
+       "source": "cat-trim"
+      }
+     ]
+    },
+    {
+     "text": "A November 2026 ballot amendment to expand the homestead exemption could cut county tax revenue.",
+     "claims": [
+      {
+       "value": "homestead amendment",
+       "source": "cat-trim"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "behavioral-urgent-care",
+   "date": null,
+   "dateNote": "Reported Sep 25, 2026",
+   "topic": "health",
+   "headline": "Funded a $25 million behavioral health urgent care with opioid settlement money",
+   "inShort": "The county will use opioid settlement money to open an urgent care center for mental health and addiction.",
+   "legistarMatch": {
+    "date": null,
+    "contains": [
+     "behavioral",
+     "opioid"
+    ]
+   },
+   "claims": {
+    "result": [
+     {
+      "value": "Passed unanimously",
+      "source": "tbt-opioid"
+     }
+    ],
+    "roll": []
+   },
+   "facts": [
+    {
+     "text": "Cost: $25 million.",
+     "claims": [
+      {
+       "value": "$25 million",
+       "source": "tbt-opioid"
+      }
+     ]
+    },
+    {
+     "text": "The exact meeting date of the vote.",
+     "claims": []
+    }
+   ]
+  },
+  {
+   "id": "airport-rental-cars",
+   "date": "2026-08-25",
+   "topic": "airport",
+   "headline": "Approved rental car contracts at St. Pete-Clearwater International Airport",
+   "inShort": "The commission approved rental car concession contracts at the county airport, worth about $8.5 million to $10.4 million depending on counter space.",
+   "legistarMatch": {
+    "date": "2026-08-25",
+    "contains": [
+     "rental car",
+     "concession"
+    ]
+   },
+   "claims": {
+    "result": [
+     {
+      "value": "Passed unanimously",
+      "source": "govly-aug25"
+     }
+    ],
+    "roll": []
+   },
+   "facts": [
+    {
+     "text": "Contract values: about $8.5 million to $10.4 million, based on square footage.",
+     "claims": [
+      {
+       "value": "$8.5M to $10.4M",
+       "source": "govly-aug25"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "id": "taxes",
+   "name": "Property taxes and budget",
+   "blurb": "What the county charges you, and how it spends it."
+  },
+  {
+   "id": "growth",
+   "name": "Growth, land use and housing",
+   "blurb": "Rezonings, land use changes and housing rules."
+  },
+  {
+   "id": "fees",
+   "name": "Fees and rates",
+   "blurb": "Trash, dump and towing charges set by the county."
+  },
+  {
+   "id": "tourism",
+   "name": "Tourist tax spending",
+   "blurb": "Hotel-tax money for events, projects and marketing."
+  },
+  {
+   "id": "stadium",
+   "name": "Stadiums",
+   "blurb": "Public money for the Rays and Phillies ballparks."
+  },
+  {
+   "id": "airport",
+   "name": "Airport",
+   "blurb": "St. Pete-Clearwater International Airport contracts."
+  },
+  {
+   "id": "contracts",
+   "name": "Big contracts",
+   "blurb": "Who gets paid to do county work, and how they were picked."
+  },
+  {
+   "id": "health",
+   "name": "Health and human services",
+   "blurb": "Mental health, addiction, aging and social service grants."
+  },
+  {
+   "id": "services",
+   "name": "County services",
+   "blurb": "Programs the county pays to run."
+  },
+  {
+   "id": "environment",
+   "name": "Energy and environment",
+   "blurb": "Clean energy, dredging and waterfront permits."
+  },
+  {
+   "id": "board",
+   "name": "How the board runs",
+   "blurb": "Leadership picks and procedure."
+  }
+ ],
+ "manualProblems": [
+  {
+   "id": "govly-date-aug25",
+   "subject": "Aug 25, 2026 commission meeting",
+   "field": "meeting date",
+   "kind": "Source disagrees with itself",
+   "versions": [
+    {
+     "value": "Aug 24, 2026 (date field)",
+     "sources": [
+      "govly-aug25"
+     ]
+    },
+    {
+     "value": "Aug 25, 2026 (title and summary)",
+     "sources": [
+      "govly-aug25"
+     ]
+    },
+    {
+     "value": "Aug 25, 2026 (county schedule)",
+     "sources": [
+      "pc-2026"
+     ],
+     "official": true
+    }
+   ],
+   "status": "Resolved: the county schedule lists Aug 25"
+  },
+  {
+   "id": "govly-date-sep3",
+   "subject": "Sep 3, 2026 work session",
+   "field": "meeting date",
+   "kind": "Source disagrees with itself",
+   "versions": [
+    {
+     "value": "Sep 2, 2026 (date field)",
+     "sources": [
+      "govly-sep3"
+     ]
+    },
+    {
+     "value": "Sep 3, 2026 (title and summary)",
+     "sources": [
+      "govly-sep3"
+     ]
+    },
+    {
+     "value": "Sep 3, 2026 (county schedule)",
+     "sources": [
+      "pc-2026"
+     ],
+     "official": true
+    }
+   ],
+   "status": "Resolved: the county schedule lists Sep 3"
+  },
+  {
+   "id": "patch-sum",
+   "subject": "2024 District 3 results",
+   "field": "vote shares",
+   "kind": "Numbers don't add up",
+   "versions": [
+    {
+     "value": "51.51% + 48.69% = 100.20%",
+     "sources": [
+      "patch-2024"
+     ]
+    }
+   ],
+   "status": "Open: needs certified results from the Supervisor of Elections"
+  },
+  {
+   "id": "soe-finance-years",
+   "subject": "Pinellas campaign finance search",
+   "field": "years covered",
+   "kind": "Record gap",
+   "versions": [
+    {
+     "value": "The search page lists election years 2012 to 2020 only",
+     "sources": [
+      "soe-finance"
+     ]
+    }
+   ],
+   "status": "Open: confirm where 2022 to 2026 county reports are searchable"
+  }
+ ]
+}

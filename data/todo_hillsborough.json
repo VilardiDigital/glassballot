@@ -1,0 +1,249 @@
+[
+ {
+  "id": "nbf-dos-party",
+  "subject": "Hagan, Miller, Boles",
+  "field": "party (tier 1)",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://dos.elections.myflorida.com/candidates/",
+    "sources": []
+   }
+  ],
+  "status": "Open: Division of Elections candidate listing not reachable; party currently from Axios/Ballotpedia only"
+ },
+ {
+  "id": "nbf-soe-2024",
+  "subject": "2024 County Commission seats (D2, D4, D6)",
+  "field": "term and party (tier 1)",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://www.votehillsborough.gov/Portals/Hillsborough/Documents/Candidate Services/2024 Fact Sheets/County Commission 2024.pdf",
+    "sources": []
+   }
+  ],
+  "status": "Open: SOE 2024 fact sheet failed to load"
+ },
+ {
+  "id": "nbf-soe-cands",
+  "subject": "2026 candidates",
+  "field": "party, status, finance links",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://www.votehillsborough.gov/202/Local-Candidates-Committees",
+    "sources": []
+   }
+  ],
+  "status": "Open: SOE local candidates page failed to load"
+ },
+ {
+  "id": "nbf-voterfocus",
+  "subject": "2026 candidates",
+  "field": "campaign finance account ids",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://www.voterfocus.com/ws/WScand/cand_srch.php?c=Hillsborough",
+    "sources": []
+   }
+  ],
+  "status": "Open: VoterFocus not on allowlist"
+ },
+ {
+  "id": "nbf-2022-general",
+  "subject": "Cameron Cepeda and Wostal",
+  "field": "in-office-since (tier 1)",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://www.votehillsborough.gov/",
+    "sources": []
+   }
+  ],
+  "status": "Open: Need certified Nov 2022 general results; county bio pages give no start date"
+ },
+ {
+  "id": "nbf-legistar",
+  "subject": "BCC land use records",
+  "field": "Legistar API",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://webapi.legistar.com/v1/hillsboroughcounty/bodies",
+    "sources": []
+   }
+  ],
+  "status": "Open: Legistar API not reachable"
+ },
+ {
+  "id": "nbf-eagenda",
+  "subject": "BCC agendas",
+  "field": "vendor and export",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://eagenda.hillsboroughcounty.org/portal/PTL29560/home",
+    "sources": []
+   }
+  ],
+  "status": "Open: eAgenda portal not reachable"
+ },
+ {
+  "id": "nbf-campaign-toledo",
+  "subject": "Jackie Toledo",
+  "field": "campaign site and social links",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://jackietoledo.com/",
+    "sources": []
+   }
+  ],
+  "status": "Open: Open the campaign site to confirm it belongs to the candidate and to collect any social accounts it links to. No social handles were added."
+ },
+ {
+  "id": "nbf-campaign-myers",
+  "subject": "Gwen Myers",
+  "field": "campaign site and social links",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://www.votegwenmyers.com/",
+    "sources": []
+   }
+  ],
+  "status": "Open: Open the campaign site to confirm it belongs to the candidate and to collect any social accounts it links to. No social handles were added."
+ },
+ {
+  "id": "nbf-campaign-garcia",
+  "subject": "Luiz F. F. Garcia",
+  "field": "campaign site and social links",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://www.electluizffgarcia.com/",
+    "sources": []
+   }
+  ],
+  "status": "Open: Open the campaign site to confirm it belongs to the candidate and to collect any social accounts it links to. No social handles were added."
+ },
+ {
+  "id": "nbf-campaign-hahn",
+  "subject": "Stacy Hahn",
+  "field": "campaign site and social links",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://www.votestacyhahn.com/",
+    "sources": []
+   }
+  ],
+  "status": "Open: Open the campaign site to confirm it belongs to the candidate and to collect any social accounts it links to. No social handles were added."
+ },
+ {
+  "id": "nbf-campaign-manimala",
+  "subject": "Neil Manimala",
+  "field": "campaign site and social links",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://www.neilmanimala.com/",
+    "sources": []
+   }
+  ],
+  "status": "Open: Open the campaign site to confirm it belongs to the candidate and to collect any social accounts it links to. No social handles were added."
+ },
+ {
+  "id": "nbf-campaign-rodriguez",
+  "subject": "Aileen Rodriguez",
+  "field": "campaign site and social links",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://www.voteaileen2026.com/",
+    "sources": []
+   }
+  ],
+  "status": "Open: Open the campaign site to confirm it belongs to the candidate and to collect any social accounts it links to. No social handles were added."
+ },
+ {
+  "id": "nbf-campaign-wostal",
+  "subject": "Joshua Wostal",
+  "field": "campaign site and social links",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://joshuawostal.com/",
+    "sources": []
+   }
+  ],
+  "status": "Open: Open the campaign site to confirm it belongs to the candidate and to collect any social accounts it links to. No social handles were added."
+ },
+ {
+  "id": "nbf-campaign-lyssy",
+  "subject": "Brittany Lyssy",
+  "field": "campaign site and social links",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://www.votebrittanylyssy.com/",
+    "sources": []
+   }
+  ],
+  "status": "Open: Open the campaign site to confirm it belongs to the candidate and to collect any social accounts it links to. No social handles were added."
+ },
+ {
+  "id": "nbf-campaign-simic",
+  "subject": "Daniela Simic",
+  "field": "campaign site and social links",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://danielaforschools.com/",
+    "sources": []
+   }
+  ],
+  "status": "Open: Open the campaign site to confirm it belongs to the candidate and to collect any social accounts it links to. No social handles were added."
+ },
+ {
+  "id": "nbf-campaign-gay",
+  "subject": "Kenneth \"Ken\" Gay",
+  "field": "campaign site and social links",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://www.votekennethgay.com/",
+    "sources": []
+   }
+  ],
+  "status": "Open: Open the campaign site to confirm it belongs to the candidate and to collect any social accounts it links to. No social handles were added."
+ },
+ {
+  "id": "nbf-campaign-perez",
+  "subject": "Karen Perez",
+  "field": "campaign site and social links",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://keepkarenperez.com/",
+    "sources": []
+   }
+  ],
+  "status": "Open: Open the campaign site to confirm it belongs to the candidate and to collect any social accounts it links to. No social handles were added."
+ },
+ {
+  "id": "nbf-campaign-cohen",
+  "subject": "Harry Cohen",
+  "field": "campaign site",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://www.votehillsborough.gov/202/Local-Candidates-Committees",
+    "sources": []
+   }
+  ],
+  "status": "Open: No campaign site found in fetched sources"
+ }
+]

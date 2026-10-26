@@ -1,0 +1,1988 @@
+{
+ "county": {
+  "id": "hernando",
+  "name": "Hernando County",
+  "state": "FL",
+  "body": "Board of County Commissioners",
+  "electionDate": "2026-11-03",
+  "seats": "5 commissioners elected at large to four-year terms, so every Hernando voter votes on every seat. Districts 2 and 4 were up in 2026; District 2 was settled in the Aug 18 primary. School Board seats 1, 3 and 5 were up; only District 5 goes to the Nov 3 ballot.",
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hernando&el=32"
+ },
+ "sources": {
+  "hc-bcc": {
+   "title": "Hernando County Board of County Commissioners",
+   "url": "https://www.hernandocounty.us/County-Government/Board-of-County-Commissioners",
+   "publisher": "Hernando County",
+   "tier": 1
+  },
+  "hc-districts": {
+   "title": "Commission districts and terms",
+   "url": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/",
+   "publisher": "Hernando County",
+   "tier": 1
+  },
+  "hc-mitten": {
+   "title": "Governor Ron DeSantis appoints John Mitten to Hernando County Commission",
+   "url": "https://www.hernandocounty.us/news/posts/governor-ron-desantis-appoints-john-mitten-to-hernando-county-commission/",
+   "publisher": "Hernando County",
+   "tier": 1
+  },
+  "clerk-ord-2026-02": {
+   "title": "Ordinance No. 2026-02 (half-cent infrastructure surtax, with filing records)",
+   "url": "https://hernandoclerk.com/wp-content/uploads/_Documents/Historical%20Ordinances/2026/Ordinance%20No.%202026-02.pdf",
+   "publisher": "Hernando County Clerk of Circuit Court",
+   "tier": 1
+  },
+  "soe-offices": {
+   "title": "Hernando County offices (current officeholders, party, term expires)",
+   "url": "https://www.hernandovotes.gov/1220/Hernando-County-Offices",
+   "publisher": "Hernando Supervisor of Elections",
+   "tier": 1
+  },
+  "soe-up": {
+   "title": "Offices up for election",
+   "url": "https://www.hernandovotes.gov/1198/Offices-Up-for-Election",
+   "publisher": "Hernando Supervisor of Elections",
+   "tier": 1
+  },
+  "soe-2026": {
+   "title": "2026 elections information",
+   "url": "https://www.hernandovotes.gov/1294",
+   "publisher": "Hernando Supervisor of Elections",
+   "tier": 1
+  },
+  "soe-local-cands": {
+   "title": "Local candidate information",
+   "url": "https://www.hernandovotes.gov/1242/Local-Candidate-Information",
+   "publisher": "Hernando Supervisor of Elections",
+   "tier": 1,
+   "caution": "The candidate list did not load in our fetch; only the VoterFocus link was visible."
+  },
+  "soe-rep-ballot": {
+   "title": "Aug 18, 2026 Republican primary sample ballot",
+   "url": "https://www.hernandovotes.gov/DocumentCenter/View/745",
+   "publisher": "Hernando Supervisor of Elections",
+   "tier": 1
+  },
+  "soe-np-ballot": {
+   "title": "Aug 18, 2026 nonpartisan primary sample ballot",
+   "url": "https://www.hernandovotes.gov/DocumentCenter/View/744",
+   "publisher": "Hernando Supervisor of Elections",
+   "tier": 1
+  },
+  "soe-primary-results": {
+   "title": "Aug 18, 2026 closed primary election summary report (official results)",
+   "url": "https://www.hernandovotes.gov/DocumentCenter/View/798",
+   "publisher": "Hernando Supervisor of Elections",
+   "tier": 1,
+   "caution": "PDF text extraction shifts contest headers by one block; candidates were matched to contests by ballot order and checked against news reports. Percentages are of ballots cast, including undervotes."
+  },
+  "soe-gen-ballot-hd53": {
+   "title": "Nov 3, 2026 general election sample ballot (State House District 53 precincts)",
+   "url": "https://www.hernandovotes.gov/DocumentCenter/View/816",
+   "publisher": "Hernando Supervisor of Elections",
+   "tier": 1,
+   "caution": "PDF text extraction jumbles columns."
+  },
+  "soe-finance": {
+   "title": "Search campaign finance reports",
+   "url": "https://www.hernandovotes.gov/1240/Search-Campaign-Finance-Reports",
+   "publisher": "Hernando Supervisor of Elections",
+   "tier": 1
+  },
+  "bb-d2": {
+   "title": "Hernando County Commission District 2",
+   "url": "https://theballotbrief.com/state/florida/hernando-county/commission-district-2",
+   "publisher": "The Ballot Brief",
+   "tier": 3,
+   "caution": "Says it is written with AI assistance."
+  },
+  "bb-d4": {
+   "title": "Hernando County Commission District 4",
+   "url": "https://theballotbrief.com/state/florida/hernando-county/commission-district-4",
+   "publisher": "The Ballot Brief",
+   "tier": 3,
+   "caution": "Says it is written with AI assistance."
+  },
+  "bb-sb5": {
+   "title": "Hernando County School Board District 5",
+   "url": "https://theballotbrief.com/state/florida/hernando-county/school-board-district-5",
+   "publisher": "The Ballot Brief",
+   "tier": 3
+  },
+  "fac-2024": {
+   "title": "2024 general election results (county commissioners)",
+   "url": "https://www.fl-counties.com/wp-content/uploads/2024/11/Election-2024-General-Election-Results-updated-11-7-24.pdf",
+   "publisher": "Florida Association of Counties",
+   "tier": 2
+  },
+  "tbb-qualify": {
+   "title": "Hawkins resigns from County Commission; Campbell won't seek re-election",
+   "url": "https://www.tampabaybeacons.com/2026/07/13/hawkins-resigns-from-county-commission-campbell-wont-seek-re-election/",
+   "publisher": "Tampa Bay Beacons (Hernando Today)",
+   "tier": 4
+  },
+  "tbb-primary": {
+   "title": "Birren wins seat, Holcomb beats Baynham in primary for County Commission",
+   "url": "https://www.tampabaybeacons.com/2026/08/19/birren-wins-seat-holcomb-beats-baynham-in-primary-for-county-commission/",
+   "publisher": "Tampa Bay Beacons (Hernando Today)",
+   "tier": 4
+  },
+  "tbb-mitten": {
+   "title": "John Mitten named to vacant seat on Hernando County Commission",
+   "url": "https://www.tampabaybeacons.com/2026/08/03/john-mitten-named-to-vacant-seat-on-hernando-county-commission/",
+   "publisher": "Tampa Bay Beacons (Hernando Today)",
+   "tier": 4
+  },
+  "tbb-datacenter": {
+   "title": "Hernando commission approves 365-day data center moratorium",
+   "url": "https://www.tampabaybeacons.com/2026/06/23/hernando-commission-approves-365-day-data-center-moratorium/",
+   "publisher": "Tampa Bay Beacons (Hernando Today)",
+   "tier": 4
+  },
+  "tbb-sep1": {
+   "title": "Commission rejects Hernando Beach duplex plan, approves concrete plant",
+   "url": "https://www.tampabaybeacons.com/2026/09/07/commission-rejects-hernando-beach-duplex-plan-approves-concrete-plant/",
+   "publisher": "Tampa Bay Beacons (Hernando Today)",
+   "tier": 4
+  },
+  "wfla-datacenter": {
+   "title": "Hernando County moves forward with proposed data center moratorium after resident concerns",
+   "url": "https://www.wfla.com/news/local-news/hernando-county/hernando-county-moves-forward-with-proposed-data-center-moratorium-after-resident-concerns/amp/",
+   "publisher": "WFLA",
+   "tier": 4
+  },
+  "wusf-sb-preview": {
+   "title": "Three seats on the Hernando County School Board are up for election this year",
+   "url": "https://www.wusf.org/education/2026-07-27/three-seats-on-hernando-county-school-board-up-for-election-this-year",
+   "publisher": "WUSF",
+   "tier": 4
+  },
+  "wusf-primary": {
+   "title": "Hernando primary results 2026: School board race goes to runoff after three-vote difference",
+   "url": "https://www.wusf.org/politics-issues/2026-08-18/hernando-primary-results-2026-school-board-race-goes-to-runoff-after-three-vote-difference",
+   "publisher": "WUSF",
+   "tier": 4
+  },
+  "sun-funding": {
+   "title": "Who Is Funding Who?",
+   "url": "https://www.hernandosun.com/2026/07/30/who-is-funding-who/",
+   "publisher": "Hernando Sun",
+   "tier": 4
+  },
+  "sun-roads": {
+   "title": "Hernando commissioners reject half-cent referendum for roads",
+   "url": "https://www.hernandosun.com/2026/05/08/hernando-commissioners-reject-half-cent-referendum-for-roads/",
+   "publisher": "Hernando Sun",
+   "tier": 4
+  },
+  "sun-jan13": {
+   "title": "Replacement tower to be built at Linda Pedersen Park",
+   "url": "https://www.hernandosun.com/2026/01/25/replacement-tower-to-be-built-at-linda-pedersen-park/",
+   "publisher": "Hernando Sun",
+   "tier": 4
+  },
+  "cp-roads": {
+   "title": "Hernando commissioners decline ordinance to place 0.5 cent infrastructure surtax on November ballot",
+   "url": "https://citizenportal.ai/articles/9986674/Florida/Hernando-County/Hernando-commissioners-decline-ordinance-to-place-05-infrastructure-surtax-on-November-ballot",
+   "publisher": "Citizen Portal",
+   "tier": 4,
+   "caution": "Automated meeting summary site."
+  },
+  "soe-dir-holcomb": {
+   "title": "Elected officials directory: Jeff Holcomb (R), State House District 53",
+   "url": "https://www.hernandovotes.gov/m/directory/employee?eid=20",
+   "publisher": "Hernando Supervisor of Elections",
+   "tier": 1
+  },
+  "soe-dir-elected": {
+   "title": "Elected officials directory",
+   "url": "https://www.hernandovotes.gov/m/directory/department?did=11",
+   "publisher": "Hernando Supervisor of Elections",
+   "tier": 1,
+   "caution": "Still lists Brian Hawkins in District 2 as of Oct 26, 2026."
+  },
+  "soe-2014-gen": {
+   "title": "Nov 4, 2014 general election summary report (official)",
+   "url": "https://www.hernandovotes.gov/DocumentCenter/View/272",
+   "publisher": "Hernando Supervisor of Elections",
+   "tier": 1
+  },
+  "soe-past": {
+   "title": "Past election results",
+   "url": "https://www.hernandovotes.gov/1197/Past-Election-Results",
+   "publisher": "Hernando Supervisor of Elections",
+   "tier": 1
+  },
+  "hcsd-board": {
+   "title": "Hernando County School Board",
+   "url": "https://www.hernandoschools.org/school-board",
+   "publisher": "Hernando County School District",
+   "tier": 1
+  },
+  "hcsd-duval": {
+   "title": "Susan Duval, School Board",
+   "url": "https://www.hernandoschools.org/susan-duval",
+   "publisher": "Hernando County School District",
+   "tier": 1
+  },
+  "hcsd-rodriguez": {
+   "title": "Shannon Rodriguez, School Board",
+   "url": "https://www.hernandoschools.org/shannon-rodriguez-board-chair",
+   "publisher": "Hernando County School District",
+   "tier": 1
+  },
+  "hcsd-johnson": {
+   "title": "Mark Johnson, School Board",
+   "url": "https://www.hernandoschools.org/mark-johnson-vice-chair",
+   "publisher": "Hernando County School District",
+   "tier": 1
+  },
+  "bb-holcomb": {
+   "title": "Jeff Holcomb candidate profile",
+   "url": "https://theballotbrief.com/candidate/jeff-holcomb-fl",
+   "publisher": "The Ballot Brief",
+   "tier": 3,
+   "caution": "Says it is written with AI assistance."
+  },
+  "bb-kchampion": {
+   "title": "Kara Leigh Champion candidate profile",
+   "url": "https://theballotbrief.com/candidate/kara-leigh-champion-fl",
+   "publisher": "The Ballot Brief",
+   "tier": 3
+  },
+  "bb-duval": {
+   "title": "Susan Duval candidate profile",
+   "url": "https://theballotbrief.com/candidate/susan-duval-fl",
+   "publisher": "The Ballot Brief",
+   "tier": 3
+  },
+  "bb-birren": {
+   "title": "Kathryn Birren candidate profile",
+   "url": "https://theballotbrief.com/candidate/kathryn-birren-fl",
+   "publisher": "The Ballot Brief",
+   "tier": 3
+  },
+  "soe-cf-hernando": {
+   "title": "Hernando Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hernando&el=32",
+   "publisher": "Hernando County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-26"
+  },
+  "legistar": {
+   "title": "Hernando County Board of County Commissioners official roll call votes (Legistar)",
+   "url": "https://hernandocountyfl.legistar.com/Calendar.aspx",
+   "publisher": "Hernando County",
+   "tier": 1,
+   "accessed": "2026-10-26"
+  },
+  "camp-holcomb": {
+   "title": "Jeff Holcomb campaign website",
+   "url": "https://jeffholcomb.org/",
+   "publisher": "Jeff Holcomb campaign",
+   "tier": 5,
+   "accessed": "2026-10-26"
+  }
+ },
+ "people": [
+  {
+   "id": "amsler",
+   "name": "Ryan Amsler",
+   "office": "County Commissioner",
+   "district": "1",
+   "seatType": "At-large",
+   "status": "incumbent",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-offices"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-dir-elected"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "Elected Nov 2024 (took office Nov 19, 2024)",
+      "source": "hc-districts"
+     }
+    ],
+    "term": [
+     {
+      "value": "2024 to 2028 (term expires Nov 2028)",
+      "source": "hc-districts"
+     }
+    ],
+    "leadership": [
+     {
+      "value": "Vice Chair",
+      "source": "hc-bcc"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://media-002-us.cdn.govstack.com/hernandocounty-us/media/zxjfaknk/ryan-amsler-district-1-banner.png?cc=0%2C0%2C0.43750000000000006%2C0&width=400&height=400&v=1dc8fb55f1c1240&format=webp",
+      "source": "hc-bcc"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/#district-1"
+      },
+      "source": "hc-bcc"
+     }
+    ]
+   }
+  },
+  {
+   "id": "mitten",
+   "name": "John Mitten",
+   "office": "County Commissioner",
+   "district": "2",
+   "seatType": "At-large",
+   "status": "incumbent",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-offices"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "Appointed Jul 31, 2026; sworn in Aug 4, 2026",
+      "source": "hc-districts"
+     },
+     {
+      "value": "Appointed Jul 31, 2026; sworn in Aug 4, 2026",
+      "source": "hc-mitten"
+     }
+    ],
+    "term": [
+     {
+      "value": "Appointed to fill a vacancy; term expires Nov 2026",
+      "source": "hc-districts"
+     }
+    ],
+    "job": [
+     {
+      "value": "Owns and operates a local Chick-fil-A franchise",
+      "source": "hc-mitten"
+     }
+    ],
+    "roles": [
+     {
+      "value": "Pasco-Hernando State College District Board of Trustees; Southwest Florida Water Management District Governing Board",
+      "source": "hc-mitten"
+     }
+    ],
+    "pastOffice": [
+     {
+      "value": "Former chairman of the Hernando County Board of County Commissioners",
+      "source": "hc-mitten"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://media-002-us.cdn.govstack.com/hernandocounty-us/media/jytbrkhk/johnmittenheadshot.jpg?rxy=0.4880792730982914%2C0.2998935162720952&width=400&height=400&v=1dd238867ae8d40&format=webp",
+      "source": "hc-bcc"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/#district-2"
+      },
+      "source": "hc-bcc"
+     }
+    ]
+   },
+   "note": "Appointed by the governor after Brian Hawkins resigned to run for the Florida House. Not a candidate for this seat in 2026."
+  },
+  {
+   "id": "allocco",
+   "name": "John Allocco",
+   "office": "County Commissioner",
+   "district": "3",
+   "seatType": "At-large",
+   "status": "incumbent",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-offices"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-dir-elected"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "Elected 2016; re-elected 2020 and 2024",
+      "source": "hc-districts"
+     }
+    ],
+    "term": [
+     {
+      "value": "2024 to 2028 (term expires Nov 2028)",
+      "source": "hc-districts"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Won 2024 with 64.95% over Luciano Vignali (29.89%) and Burton Melaugh (5.16%)",
+      "source": "fac-2024"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://media-002-us.cdn.govstack.com/hernandocounty-us/media/oamhwccb/district-3-john-allocco-banner.png?cc=0%2C0%2C0.43750000000000006%2C0&width=400&height=400&v=1dc8fb55f26c0a0&format=webp",
+      "source": "hc-bcc"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/#district-3"
+      },
+      "source": "hc-bcc"
+     }
+    ]
+   }
+  },
+  {
+   "id": "campbell",
+   "name": "Jerry Campbell",
+   "office": "County Commissioner",
+   "district": "4",
+   "seatType": "At-large",
+   "status": "incumbent",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-offices"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-dir-elected"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "Elected Nov 8, 2022",
+      "source": "hc-districts"
+     }
+    ],
+    "term": [
+     {
+      "value": "2022 to 2026 (term expires Nov 2026)",
+      "source": "hc-districts"
+     }
+    ],
+    "leadership": [
+     {
+      "value": "Chair",
+      "source": "hc-bcc"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://media-002-us.cdn.govstack.com/hernandocounty-us/media/glzhfltu/district-4-jerry-campbell-banner.jpg?cc=0%2C0%2C0.43666666666666676%2C0.0000000000000001641089996443&width=400&height=400&v=1dc8fb55f2adf50&format=webp",
+      "source": "hc-bcc"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/#district-4"
+      },
+      "source": "hc-bcc"
+     }
+    ]
+   },
+   "note": "Not seeking re-election in 2026 (tbb-qualify)."
+  },
+  {
+   "id": "champion",
+   "name": "Steve Champion",
+   "office": "County Commissioner",
+   "district": "5",
+   "seatType": "At-large",
+   "status": "incumbent",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-offices"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-dir-elected"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "Elected 2016; re-elected 2020 and 2024",
+      "source": "hc-districts"
+     }
+    ],
+    "term": [
+     {
+      "value": "2024 to 2028 (term expires Nov 2028)",
+      "source": "hc-districts"
+     }
+    ],
+    "leadership": [
+     {
+      "value": "2nd Vice Chair",
+      "source": "hc-bcc"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://media-002-us.cdn.govstack.com/hernandocounty-us/media/xyfpv2tt/district-5-steve-champion-banner.jpg?cc=0%2C0%2C0.43749999999999994%2C0&width=400&height=400&v=1dc8fb55f2fe860&format=webp",
+      "source": "hc-bcc"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/#district-5"
+      },
+      "source": "hc-bcc"
+     }
+    ]
+   }
+  },
+  {
+   "id": "holcomb",
+   "name": "Jeff Holcomb",
+   "office": "Candidate, County Commission",
+   "district": "4",
+   "seatType": "At-large",
+   "status": "open",
+   "race": "bcc-d4",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-dir-holcomb"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-rep-ballot"
+     },
+     {
+      "value": "Republican",
+      "source": "bb-d4"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-hernando"
+     }
+    ],
+    "job": [
+     {
+      "value": "Software consultant and college professor; Lieutenant in the U.S. Navy Reserves",
+      "source": "bb-d4"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$107,880 in contributions, plus $1,996 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-hernando"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Won the Aug 18, 2026 Republican primary with 13,141 votes over Marvin Baynham (9,106) (official)",
+      "source": "soe-primary-results"
+     },
+     {
+      "value": "Won the Aug 18, 2026 Republican primary 59.07% to 40.93% over Marvin Baynham (unofficial)",
+      "source": "tbb-primary"
+     }
+    ],
+    "promises": [
+     {
+      "value": [
+       "Protect the 2nd Amendment",
+       "Support small business, job creation and education",
+       "Fight illegal immigration"
+      ],
+      "source": "bb-d4"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4890&LegislativeTermId=91"
+      },
+      "source": "soe-dir-holcomb"
+     },
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://jeffholcomb.org/"
+      },
+      "source": "bb-holcomb"
+     },
+     {
+      "value": {
+       "kind": "facebook",
+       "url": "https://www.facebook.com/Holcomb4StateRep/"
+      },
+      "source": "camp-holcomb"
+     }
+    ],
+    "roles": [
+     {
+      "value": "Current State Representative, District 53 (term ends Nov 2026)",
+      "source": "soe-dir-holcomb"
+     },
+     {
+      "value": "Current State Representative, District 53 (term ends Nov 2026)",
+      "source": "tbb-qualify"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "629",
+    "status": "Active-Qualified"
+   }
+  },
+  {
+   "id": "bigelow",
+   "name": "Donald Bigelow",
+   "office": "Candidate, County Commission (write-in)",
+   "district": "4",
+   "seatType": "At-large",
+   "status": "open",
+   "race": "bcc-d4",
+   "writeIn": true,
+   "claims": {
+    "links": [],
+    "raised": [
+     {
+      "value": "$0 in contributions (as of Oct 26, 2026)",
+      "source": "soe-cf-hernando"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "627",
+    "status": "Active-Qualified Write-In"
+   }
+  },
+  {
+   "id": "birren",
+   "name": "Kathryn Birren",
+   "office": "Candidate, County Commission",
+   "district": "2",
+   "seatType": "At-large",
+   "status": "open",
+   "race": "bcc-d2",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-rep-ballot"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-hernando"
+     }
+    ],
+    "job": [
+     {
+      "value": "Small business owner; chair of the county Planning and Zoning Commission",
+      "source": "bb-d2"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$97,425 in contributions, plus $944.76 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-hernando"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Won the Aug 18, 2026 universal primary with 10,334 votes (official), the most of five candidates",
+      "source": "soe-primary-results"
+     },
+     {
+      "value": "Won with 10,329 votes, 30.95% (unofficial)",
+      "source": "tbb-primary"
+     }
+    ],
+    "promises": [
+     {
+      "value": [
+       "Regular evening town halls",
+       "Manage growth while preserving county character",
+       "Fiscal discipline in budgeting"
+      ],
+      "source": "bb-d2"
+     }
+    ],
+    "links": []
+   },
+   "finance": {
+    "voterfocusId": "628",
+    "status": "Active-Unopposed"
+   }
+  },
+  {
+   "id": "glenn",
+   "name": "Maxwell Joseph Glenn",
+   "office": "Candidate, County Commission",
+   "district": "2",
+   "seatType": "At-large",
+   "status": "open",
+   "race": "bcc-d2",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-rep-ballot"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-hernando"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Lost the Aug 18, 2026 universal primary with 8,668 votes (official)",
+      "source": "soe-primary-results"
+     }
+    ],
+    "links": [],
+    "raised": [
+     {
+      "value": "$22,018.11 in contributions, plus $713.42 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-hernando"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "612",
+    "status": "Inactive-Defeated"
+   }
+  },
+  {
+   "id": "greenwell",
+   "name": "Diane M. Greenwell",
+   "office": "Candidate, County Commission",
+   "district": "2",
+   "seatType": "At-large",
+   "status": "open",
+   "race": "bcc-d2",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-rep-ballot"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-hernando"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Lost the Aug 18, 2026 universal primary with 5,103 votes (official)",
+      "source": "soe-primary-results"
+     }
+    ],
+    "links": [],
+    "raised": [
+     {
+      "value": "$28,805.85 in contributions, plus $525 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-hernando"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "637",
+    "status": "Inactive-Defeated"
+   }
+  },
+  {
+   "id": "dukes",
+   "name": "Silvia Dukes",
+   "office": "Candidate, County Commission",
+   "district": "2",
+   "seatType": "At-large",
+   "status": "open",
+   "race": "bcc-d2",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-rep-ballot"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-hernando"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Lost the Aug 18, 2026 universal primary with 4,792 votes (official)",
+      "source": "soe-primary-results"
+     }
+    ],
+    "links": [],
+    "raised": [
+     {
+      "value": "$26,800 in contributions, plus $414.67 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-hernando"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "602",
+    "status": "Inactive-Defeated"
+   }
+  },
+  {
+   "id": "scavetta",
+   "name": "James Scavetta",
+   "office": "Candidate, County Commission",
+   "district": "2",
+   "seatType": "At-large",
+   "status": "open",
+   "race": "bcc-d2",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-rep-ballot"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-hernando"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Lost the Aug 18, 2026 universal primary with 4,483 votes (official)",
+      "source": "soe-primary-results"
+     }
+    ],
+    "links": [],
+    "raised": [
+     {
+      "value": "$7,412 in contributions (as of Oct 26, 2026)",
+      "source": "soe-cf-hernando"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "607",
+    "status": "Inactive-Defeated"
+   }
+  },
+  {
+   "id": "duval",
+   "name": "Susan Duval",
+   "office": "School Board Member",
+   "district": "5",
+   "seatType": "At-large",
+   "status": "incumbent",
+   "race": "sb-d5",
+   "nonpartisan": true,
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "Won District 5 in the Nov 4, 2014 general election with 62.02% over Robert Neuhausen",
+      "source": "soe-2014-gen"
+     },
+     {
+      "value": "Elected 2014",
+      "source": "wusf-sb-preview"
+     },
+     {
+      "value": "First elected 2014",
+      "source": "bb-sb5"
+     }
+    ],
+    "term": [
+     {
+      "value": "Term expires 2026",
+      "source": "soe-offices"
+     }
+    ],
+    "job": [
+     {
+      "value": "Retired educator; former principal of Springstead High School for 11 years",
+      "source": "wusf-sb-preview"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$14,975 in contributions, plus $1,775 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-hernando"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Aug 18, 2026 primary: 13,717 votes, second of three; advances to Nov 3 runoff (official)",
+      "source": "soe-primary-results"
+     },
+     {
+      "value": "13,714 votes, 38.95% (unofficial)",
+      "source": "wusf-primary"
+     }
+    ],
+    "promises": [
+     {
+      "value": [
+       "Continuous improvement through a shared board focus",
+       "Teacher recruitment such as Para to Pro",
+       "Funding well-qualified classroom instruction"
+      ],
+      "source": "bb-sb5"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://www.hernandoschools.org/susan-duval"
+      },
+      "source": "hcsd-board"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "620",
+    "status": "Active-Runoff"
+   }
+  },
+  {
+   "id": "kchampion",
+   "name": "Kara Champion",
+   "office": "Candidate, School Board",
+   "district": "5",
+   "seatType": "At-large",
+   "status": "challenger",
+   "race": "sb-d5",
+   "nonpartisan": true,
+   "claims": {
+    "job": [
+     {
+      "value": "Family business, American Gun and Pawn, is her primary income source; 2020 UCF graduate",
+      "source": "wusf-sb-preview"
+     }
+    ],
+    "raised": [
+     {
+      "value": "Over $32,270",
+      "source": "wusf-sb-preview"
+     },
+     {
+      "value": "$28,796",
+      "source": "bb-sb5"
+     },
+     {
+      "value": "$48,144.41 in contributions, plus $4,477.83 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-hernando"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Aug 18, 2026 primary: 13,724 votes, first of three; advances to Nov 3 runoff (official)",
+      "source": "soe-primary-results"
+     },
+     {
+      "value": "13,717 votes, 38.96% (unofficial)",
+      "source": "wusf-primary"
+     }
+    ],
+    "promises": [
+     {
+      "value": [
+       "Parental choice and transparency",
+       "Teacher retention through less bureaucracy and stronger classroom discipline",
+       "Return to fundamentals: reading, writing, math, civics"
+      ],
+      "source": "bb-sb5"
+     }
+    ],
+    "links": [],
+    "photo": [
+     {
+      "value": "https://www.voterfocus.com/CampaignFinance/photo_hernando/cand_618.jpg",
+      "source": "soe-cf-hernando"
+     }
+    ]
+   },
+   "note": "Daughter of County Commissioner Steve Champion (wusf-sb-preview).",
+   "finance": {
+    "voterfocusId": "618",
+    "status": "Active-Runoff"
+   }
+  },
+  {
+   "id": "pearce",
+   "name": "Dana Pearce",
+   "office": "Candidate, School Board",
+   "district": "1",
+   "seatType": "At-large",
+   "status": "challenger",
+   "race": "sb-d1",
+   "nonpartisan": true,
+   "claims": {
+    "job": [
+     {
+      "value": "Retired principal of Springstead High School",
+      "source": "wusf-sb-preview"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Won the Aug 18, 2026 primary outright with 18,066 votes over incumbent Mark C. Johnson (16,530) (official)",
+      "source": "soe-primary-results"
+     },
+     {
+      "value": "Won with 52.22% (unofficial)",
+      "source": "tbb-primary"
+     }
+    ],
+    "links": [],
+    "raised": [
+     {
+      "value": "$6,467.70 in contributions, plus $885 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-hernando"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "605",
+    "status": "Active-Unopposed"
+   }
+  },
+  {
+   "id": "johnson",
+   "name": "Mark C. Johnson",
+   "office": "School Board Member",
+   "district": "1",
+   "seatType": "At-large",
+   "status": "incumbent",
+   "race": "sb-d1",
+   "nonpartisan": true,
+   "claims": {
+    "term": [
+     {
+      "value": "Term expires 2026",
+      "source": "soe-offices"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "Current term since Nov 2022 (won a runoff); also served 2014 to 2018",
+      "source": "wusf-sb-preview"
+     }
+    ],
+    "job": [
+     {
+      "value": "Licensed private investigator",
+      "source": "wusf-sb-preview"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Lost the Aug 18, 2026 primary with 16,530 votes (official)",
+      "source": "soe-primary-results"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://www.hernandoschools.org/mark-johnson-vice-chair"
+      },
+      "source": "hcsd-board"
+     }
+    ],
+    "pastOffice": [
+     {
+      "value": "Served on the School Board 2014 to 2018",
+      "source": "hcsd-johnson"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$14,310.01 in contributions (as of Oct 26, 2026)",
+      "source": "soe-cf-hernando"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "608",
+    "status": "Inactive-Defeated"
+   }
+  },
+  {
+   "id": "rodriguez",
+   "name": "Shannon Rodriguez",
+   "office": "School Board Member",
+   "district": "3",
+   "seatType": "At-large",
+   "status": "incumbent",
+   "race": "sb-d3",
+   "nonpartisan": true,
+   "claims": {
+    "term": [
+     {
+      "value": "Term expires 2026",
+      "source": "soe-offices"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "First elected 2022",
+      "source": "wusf-sb-preview"
+     }
+    ],
+    "leadership": [
+     {
+      "value": "Vice Chair",
+      "source": "hcsd-board"
+     },
+     {
+      "value": "Vice chair",
+      "source": "wusf-sb-preview"
+     }
+    ],
+    "job": [
+     {
+      "value": "Co-owner, with her husband, of Dynasty Collision and Auto Repair in Weeki Wachee",
+      "source": "wusf-sb-preview"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Re-elected outright in the Aug 18, 2026 primary with 22,804 votes over Luciano Stefan Vignali (12,110) (official)",
+      "source": "soe-primary-results"
+     },
+     {
+      "value": "Won with 65.31% (unofficial)",
+      "source": "tbb-primary"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://www.hernandoschools.org/shannon-rodriguez-board-chair"
+      },
+      "source": "hcsd-board"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$53,925 in contributions, plus $400 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-hernando"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "606",
+    "status": "Inactive-Unopposed"
+   }
+  },
+  {
+   "id": "vignali",
+   "name": "Luciano Stefan Vignali",
+   "office": "Candidate, School Board",
+   "district": "3",
+   "seatType": "At-large",
+   "status": "challenger",
+   "race": "sb-d3",
+   "nonpartisan": true,
+   "claims": {
+    "job": [
+     {
+      "value": "Office manager at American Injectables",
+      "source": "wusf-sb-preview"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Lost the Aug 18, 2026 primary with 12,110 votes (official)",
+      "source": "soe-primary-results"
+     }
+    ],
+    "links": [],
+    "raised": [
+     {
+      "value": "$5,116 in contributions, plus $496.26 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-hernando"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "610",
+    "status": "Active-Defeated"
+   }
+  },
+  {
+   "id": "cunninghamrud",
+   "name": "Amanda Cunningham-Rud",
+   "office": "Candidate, School Board",
+   "district": "5",
+   "seatType": "At-large",
+   "status": "challenger",
+   "nonpartisan": true,
+   "note": "Eliminated in the Aug 18 primary; not on the Nov 3 ballot.",
+   "claims": {
+    "job": [
+     {
+      "value": "Public school teacher in her fifth year",
+      "source": "wusf-sb-preview"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Eliminated in the Aug 18, 2026 primary with 7,781 votes, third of three (official)",
+      "source": "soe-primary-results"
+     }
+    ],
+    "links": [],
+    "raised": [
+     {
+      "value": "$3,290 in contributions, plus $95 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-hernando"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "603",
+    "status": "Active-Defeated"
+   }
+  },
+  {
+   "id": "hawkins",
+   "name": "Brian Hawkins",
+   "office": "Former County Commissioner",
+   "district": "2",
+   "seatType": "At-large",
+   "status": "former",
+   "claims": {}
+  }
+ ],
+ "races": [
+  {
+   "id": "bcc-d2",
+   "title": "County Commission, District 2",
+   "seatType": "At-large",
+   "who": "Every Hernando voter (the Aug 18 universal primary was open to all voters)",
+   "people": [
+    "birren",
+    "dukes",
+    "glenn",
+    "greenwell",
+    "scavetta"
+   ],
+   "note": "Decided in the Aug 18, 2026 universal primary: Kathryn Birren won and the seat is not on the Nov 3 ballot. All five candidates were Republicans with no write-in, so the primary was open to all voters. Appointed incumbent John Mitten did not run.",
+   "decidedInPrimary": true,
+   "onNovBallot": false,
+   "sources": [
+    "soe-up",
+    "soe-rep-ballot",
+    "soe-primary-results",
+    "tbb-qualify",
+    "tbb-primary",
+    "bb-d2"
+   ]
+  },
+  {
+   "id": "bcc-d4",
+   "title": "County Commission, District 4",
+   "seatType": "At-large",
+   "who": "Every Hernando voter",
+   "people": [
+    "bigelow",
+    "holcomb"
+   ],
+   "note": "Open seat: Chair Jerry Campbell is not seeking re-election. Jeff Holcomb won the closed Aug 18 Republican primary over Marvin Baynham. On Nov 3 his only opponent is the write-in line; Donald Bigelow is listed by the Supervisor of Elections as a qualified write-in candidate. Write-in names are not printed on the ballot.",
+   "onNovBallot": true,
+   "sources": [
+    "soe-up",
+    "soe-gen-ballot-hd53",
+    "soe-primary-results",
+    "tbb-qualify",
+    "bb-d4"
+   ]
+  },
+  {
+   "id": "sb-d1",
+   "title": "School Board, District 1",
+   "seatType": "At-large, nonpartisan",
+   "who": "Every Hernando voter",
+   "people": [
+    "johnson",
+    "pearce"
+   ],
+   "note": "Decided Aug 18, 2026: Dana Pearce won a majority and defeated incumbent Mark C. Johnson. Not on the Nov 3 ballot.",
+   "decidedInPrimary": true,
+   "onNovBallot": false,
+   "sources": [
+    "soe-up",
+    "soe-np-ballot",
+    "soe-primary-results",
+    "wusf-primary",
+    "tbb-primary"
+   ]
+  },
+  {
+   "id": "sb-d3",
+   "title": "School Board, District 3",
+   "seatType": "At-large, nonpartisan",
+   "who": "Every Hernando voter",
+   "people": [
+    "rodriguez",
+    "vignali"
+   ],
+   "note": "Decided Aug 18, 2026: incumbent Shannon Rodriguez won a majority. Not on the Nov 3 ballot.",
+   "decidedInPrimary": true,
+   "onNovBallot": false,
+   "sources": [
+    "soe-up",
+    "soe-np-ballot",
+    "soe-primary-results",
+    "wusf-primary",
+    "tbb-primary"
+   ]
+  },
+  {
+   "id": "sb-d5",
+   "title": "School Board, District 5",
+   "seatType": "At-large, nonpartisan",
+   "who": "Every Hernando voter",
+   "people": [
+    "duval",
+    "kchampion"
+   ],
+   "note": "Runoff: no one won a majority on Aug 18. Kara Champion led incumbent Susan Duval by 7 votes in the official results (3 votes in unofficial results); Amanda Cunningham-Rud was eliminated.",
+   "onNovBallot": true,
+   "sources": [
+    "soe-up",
+    "soe-gen-ballot-hd53",
+    "soe-primary-results",
+    "wusf-primary",
+    "bb-sb5"
+   ]
+  }
+ ],
+ "votes": [
+  {
+   "id": "sheriff-surtax",
+   "date": "2026-01-13",
+   "topic": "taxes",
+   "headline": "Put a half-cent sales tax for law enforcement on the Nov 3 ballot",
+   "inShort": "Commissioners passed an ordinance for a half-cent sales tax that would mostly pay for law enforcement equipment and facilities. It only takes effect if voters approve it on Nov 3, 2026.",
+   "legistarMatch": {
+    "date": "2026-01-13",
+    "contains": [
+     "surtax",
+     "infrastructure"
+    ]
+   },
+   "claims": {
+    "result": [
+     {
+      "value": "Passed unanimously",
+      "source": "sun-jan13"
+     }
+    ],
+    "roll": []
+   },
+   "facts": [
+    {
+     "text": "Rate and length: one-half cent, for five years, Jan 1, 2027 through Dec 31, 2031.",
+     "claims": [
+      {
+       "value": "2027-01-01 to 2031-12-31",
+       "source": "clerk-ord-2026-02"
+      }
+     ]
+    },
+    {
+     "text": "Money is split between the county and the City of Brooksville.",
+     "claims": [
+      {
+       "value": "County and City of Brooksville",
+       "source": "clerk-ord-2026-02"
+      }
+     ]
+    },
+    {
+     "text": "Ordinance number: 2026-02, adopted Jan 13, 2026.",
+     "claims": [
+      {
+       "value": "Ordinance No. 2026-02",
+       "source": "clerk-ord-2026-02"
+      }
+     ]
+    },
+    {
+     "text": "Body-worn camera language was removed before it passed.",
+     "claims": [
+      {
+       "value": "amended to remove body-worn camera language",
+       "source": "sun-jan13"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "roads-surtax-rejected",
+   "date": null,
+   "dateNote": "Reported May 5, 2026 (Citizen Portal) and May 8, 2026 (Hernando Sun)",
+   "topic": "taxes",
+   "headline": "Rejected a second half-cent sales tax vote for roads",
+   "inShort": "Commissioners voted not to ask voters in November for another half-cent sales tax to fix and maintain roads.",
+   "legistarMatch": {
+    "date": null,
+    "contains": [
+     "surtax",
+     "transportation"
+    ]
+   },
+   "claims": {
+    "result": [
+     {
+      "value": "Failed 2 to 3",
+      "source": "sun-roads"
+     },
+     {
+      "value": "Failed 2 to 3",
+      "source": "cp-roads"
+     }
+    ],
+    "roll": [
+     {
+      "value": {
+       "yes": [
+        "amsler",
+        "champion"
+       ]
+      },
+      "source": "sun-roads"
+     }
+    ]
+   },
+   "facts": [
+    {
+     "text": "Only Champion and Amsler voted yes. The source does not list each no vote by name.",
+     "claims": [
+      {
+       "value": "only Commissioners Steve Champion and Ryan Amsler voted in favor",
+       "source": "sun-roads"
+      }
+     ]
+    },
+    {
+     "text": "Estimated money: just under $17.5 million.",
+     "claims": [
+      {
+       "value": "just under $17.5 million",
+       "source": "sun-roads"
+      }
+     ]
+    },
+    {
+     "text": "The exact meeting date of the vote.",
+     "claims": []
+    }
+   ]
+  },
+  {
+   "id": "datacenter-moratorium",
+   "date": "2026-06-23",
+   "topic": "growth",
+   "headline": "Paused new large data centers for one year",
+   "inShort": "Commissioners approved a one-year moratorium on large-scale data centers while staff study how they affect public facilities and draft any needed planning and zoning changes.",
+   "legistarMatch": {
+    "date": "2026-06-23",
+    "contains": [
+     "data center",
+     "moratorium"
+    ]
+   },
+   "claims": {
+    "result": [
+     {
+      "value": "Passed 4 to 0",
+      "source": "tbb-datacenter"
+     }
+    ],
+    "roll": []
+   },
+   "facts": [
+    {
+     "text": "The District 2 seat was vacant at the time, so four commissioners voted.",
+     "claims": [
+      {
+       "value": "seat vacated by Brian Hawkins not yet filled",
+       "source": "tbb-datacenter"
+      }
+     ]
+    },
+    {
+     "text": "An earlier hearing moved the proposal forward to a second reading.",
+     "claims": [
+      {
+       "value": "must return for a second reading",
+       "source": "wfla-datacenter"
+      }
+     ]
+    },
+    {
+     "text": "The county attorney said an outright ban could count as a taking under the Bert Harris Act; a moratorium of a year or less does not.",
+     "claims": [
+      {
+       "value": "Bert Harris Act",
+       "source": "tbb-datacenter"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hernando-beach-duplex",
+   "date": "2026-09-01",
+   "topic": "growth",
+   "headline": "Rejected a rezoning for duplexes in Hernando Beach",
+   "inShort": "Commissioners turned down a request to allow 12 units in six duplexes on a Hernando Beach tract. The owner can still build six single-family homes.",
+   "legistarMatch": {
+    "date": "2026-09-01",
+    "contains": [
+     "rezoning",
+     "hernando beach"
+    ]
+   },
+   "claims": {
+    "result": [
+     {
+      "value": "Denied 5 to 0",
+      "source": "tbb-sep1"
+     }
+    ],
+    "roll": []
+   },
+   "facts": [
+    {
+     "text": "The Planning and Zoning Commission had recommended denial 3 to 2 on Jul 13.",
+     "claims": [
+      {
+       "value": "3-2 on July 13",
+       "source": "tbb-sep1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "concrete-plant",
+   "date": "2026-09-01",
+   "topic": "growth",
+   "headline": "Approved a rezoning for a concrete batch plant",
+   "inShort": "Commissioners rezoned agricultural land to a commercial planned development for a concrete batch plant, with conditions including a 30-foot tree buffer.",
+   "legistarMatch": {
+    "date": "2026-09-01",
+    "contains": [
+     "rezoning",
+     "concrete"
+    ]
+   },
+   "claims": {
+    "result": [
+     {
+      "value": "Approved 5 to 0, with conditions",
+      "source": "tbb-sep1"
+     }
+    ],
+    "roll": []
+   },
+   "facts": [
+    {
+     "text": "Opponents, including Pasco County residents, raised noise, truck traffic, health, water and environmental concerns.",
+     "claims": [
+      {
+       "value": "noise, truck traffic, health, water use, environmental",
+       "source": "tbb-sep1"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "id": "taxes",
+   "name": "Taxes and budget",
+   "blurb": "Sales tax questions, property taxes and how the county spends."
+  },
+  {
+   "id": "growth",
+   "name": "Growth, land use and housing",
+   "blurb": "Rezonings, data centers and development rules."
+  },
+  {
+   "id": "budget",
+   "name": "Spending and contracts",
+   "blurb": "What the county buys and who it hires."
+  },
+  {
+   "id": "safety",
+   "name": "Public safety",
+   "blurb": "Fire, sheriff, jail and emergency services."
+  },
+  {
+   "id": "transport",
+   "name": "Roads and transit",
+   "blurb": "Roads, TheBus and getting around."
+  },
+  {
+   "id": "environment",
+   "name": "Environment and water",
+   "blurb": "Springs, rivers, manatees and water supply."
+  },
+  {
+   "id": "other",
+   "name": "Other county rules",
+   "blurb": "Ordinances that don't fit another topic."
+  }
+ ],
+ "manualProblems": [
+  {
+   "id": "sb5-margin",
+   "subject": "Aug 18, 2026 School Board District 5 primary",
+   "field": "vote totals",
+   "kind": "Sources disagree",
+   "versions": [
+    {
+     "value": "Champion 13,717, Duval 13,714 (3-vote gap, unofficial)",
+     "sources": [
+      "wusf-primary",
+      "tbb-primary",
+      "bb-sb5"
+     ]
+    },
+    {
+     "value": "Champion 13,724, Duval 13,717 (7-vote gap)",
+     "sources": [
+      "soe-primary-results"
+     ],
+     "official": true
+    }
+   ],
+   "status": "Resolved: use the official SOE summary report printed Aug 26, 2026"
+  },
+  {
+   "id": "d4-pct",
+   "subject": "Aug 18, 2026 County Commission District 4 Republican primary",
+   "field": "percentages",
+   "kind": "Different math",
+   "versions": [
+    {
+     "value": "Holcomb 59.07%, Baynham 40.93% (share of candidate votes, unofficial)",
+     "sources": [
+      "tbb-primary"
+     ]
+    },
+    {
+     "value": "Holcomb 55.96%, Baynham 38.78% (share of ballots cast, including undervotes)",
+     "sources": [
+      "soe-primary-results"
+     ],
+     "official": true
+    }
+   ],
+   "status": "Resolved: both are right; show vote counts and say which base the percent uses"
+  },
+  {
+   "id": "holcomb-raised",
+   "subject": "Jeff Holcomb",
+   "field": "money raised",
+   "kind": "Sources disagree",
+   "versions": [
+    {
+     "value": "$24,150",
+     "sources": [
+      "bb-d4"
+     ]
+    },
+    {
+     "value": "$92,000 treasury incl. $68,000 carried over from House campaign (mid-July)",
+     "sources": [
+      "sun-funding"
+     ]
+    }
+   ],
+   "status": "Open: check VoterFocus campaign finance reports (blocked in our fetch)"
+  },
+  {
+   "id": "kchampion-raised",
+   "subject": "Kara Champion",
+   "field": "money raised",
+   "kind": "Sources disagree",
+   "versions": [
+    {
+     "value": "Over $32,270 (Jul 27)",
+     "sources": [
+      "wusf-sb-preview"
+     ]
+    },
+    {
+     "value": "$28,796",
+     "sources": [
+      "bb-sb5"
+     ]
+    }
+   ],
+   "status": "Open: check VoterFocus campaign finance reports"
+  },
+  {
+   "id": "kchampion-name",
+   "subject": "Kara Champion",
+   "field": "middle name",
+   "kind": "Sources disagree",
+   "versions": [
+    {
+     "value": "Kara Lee Champion",
+     "sources": [
+      "tbb-qualify"
+     ]
+    },
+    {
+     "value": "Kara Leigh Champion",
+     "sources": [
+      "bb-sb5"
+     ]
+    },
+    {
+     "value": "Kara Champion (ballot)",
+     "sources": [
+      "soe-np-ballot"
+     ],
+     "official": true
+    }
+   ],
+   "status": "Resolved for display: use the ballot name"
+  },
+  {
+   "id": "bigelow-writein",
+   "subject": "County Commission District 4 write-in",
+   "field": "candidate name",
+   "kind": "Record gap",
+   "versions": [
+    {
+     "value": "Donald Bigelow, write-in",
+     "sources": [
+      "tbb-qualify",
+      "bb-d4"
+     ]
+    },
+    {
+     "value": "Ballot shows Jeff Holcomb plus a blank write-in line",
+     "sources": [
+      "soe-gen-ballot-hd53"
+     ],
+     "official": true
+    }
+   ],
+   "status": "Open: confirm on the SOE local candidate list (did not load in our fetch)"
+  },
+  {
+   "id": "surtax-text",
+   "subject": "Ordinance 2026-02 half-cent surtax",
+   "field": "uses listed",
+   "kind": "Draft vs final",
+   "versions": [
+    {
+     "value": "Clerk file includes a draft listing body-worn cameras",
+     "sources": [
+      "clerk-ord-2026-02"
+     ]
+    },
+    {
+     "value": "Body-worn camera language removed before passage",
+     "sources": [
+      "sun-jan13"
+     ]
+    }
+   ],
+   "status": "Open: read the final adopted text before quoting uses"
+  },
+  {
+   "id": "roads-date",
+   "subject": "Roads half-cent referendum vote",
+   "field": "meeting date",
+   "kind": "Record gap",
+   "versions": [
+    {
+     "value": "Not stated; reported May 5 and May 8, 2026",
+     "sources": [
+      "cp-roads",
+      "sun-roads"
+     ]
+    }
+   ],
+   "status": "Open: find in Legistar minutes"
+  },
+  {
+   "id": "nbf-soe-cands",
+   "subject": "SOE local candidate list (party, status, write-ins for 2026)",
+   "field": "official record",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://www.hernandovotes.gov/1242/Local-Candidate-Information",
+     "sources": []
+    }
+   ],
+   "status": "Open: list renders dynamically; confirm Bigelow write-in and all 2026 statuses"
+  },
+  {
+   "id": "nbf-voterfocus",
+   "subject": "VoterFocus campaign finance (account ids, raised totals)",
+   "field": "official record",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hernando",
+     "sources": []
+    }
+   ],
+   "status": "Open: domain blocked for our tools"
+  },
+  {
+   "id": "nbf-enr-2022",
+   "subject": "2022 general results (Campbell D4; Rodriguez SB3; Johnson SB1 runoff)",
+   "field": "official record",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://enr.electionsfl.org/HER/3268/Reports/",
+     "sources": []
+    }
+   ],
+   "status": "Open: certified results for inOfficeSince of Campbell, Rodriguez, Johnson"
+  },
+  {
+   "id": "nbf-enr-2024",
+   "subject": "2024 general results (Amsler D1, Allocco D3, Champion D5)",
+   "field": "official record",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://enr.electionsfl.org/HER/Summary/3737/",
+     "sources": []
+    }
+   ],
+   "status": "Open: certified 2024 results to back lastElection"
+  },
+  {
+   "id": "nbf-flgov-mitten",
+   "subject": "Governor's release appointing John Mitten",
+   "field": "official record",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-appoints-john-mitten-hernando-county-board-county",
+     "sources": []
+    }
+   ],
+   "status": "Open: linked from the county districts page; confirms appointment date"
+  },
+  {
+   "id": "nbf-holcomb-site",
+   "subject": "Jeff Holcomb campaign site (confirm ownership and social accounts)",
+   "field": "official record",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://jeffholcomb.org/",
+     "sources": []
+    }
+   ],
+   "status": "Open: campaign URL known only from The Ballot Brief; social links not yet confirmed"
+  },
+  {
+   "id": "nbf-legistar",
+   "subject": "Legistar calendar and Web API",
+   "field": "official record",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://webapi.legistar.com/v1/hernandocountyfl/bodies",
+     "sources": []
+    }
+   ],
+   "status": "Open: confirm API client and pull roll calls"
+  },
+  {
+   "id": "nbf-ethics",
+   "subject": "Form 6 filings, Hernando County filers",
+   "field": "official record",
+   "kind": "needs-browser-fetch",
+   "versions": [
+    {
+     "value": "https://disclosure.floridaethics.gov/PublicSearch/Filings",
+     "sources": []
+    }
+   ],
+   "status": "Open: form-based search; no query URLs"
+  },
+  {
+   "id": "no-campaign-links",
+   "subject": "Candidate links",
+   "field": "campaign site and social accounts",
+   "kind": "Record gap",
+   "versions": [
+    {
+     "value": "No campaign website found for Kara Champion or Susan Duval as of Sep 8, 2026",
+     "sources": [
+      "bb-kchampion",
+      "bb-duval"
+     ]
+    },
+    {
+     "value": "No campaign site or social accounts listed for Kathryn Birren",
+     "sources": [
+      "bb-birren"
+     ]
+    },
+    {
+     "value": "County and school district bio pages list no personal social accounts for any commissioner or board member",
+     "sources": [
+      "hc-districts",
+      "hcsd-duval",
+      "hcsd-rodriguez",
+      "hcsd-johnson"
+     ]
+    }
+   ],
+   "status": "Open: other candidates' links need the SOE candidate list or campaign sites; no handles were guessed"
+  }
+ ]
+}

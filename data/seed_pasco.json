@@ -1,0 +1,1719 @@
+{
+ "county": {
+  "id": "pasco",
+  "name": "Pasco County",
+  "state": "FL",
+  "body": "Board of County Commissioners",
+  "electionDate": "2026-11-03",
+  "seats": "5 commissioners. Each must live in their district, but every Pasco voter votes on every seat. The 5 School Board members are elected the same way, on a nonpartisan ballot.",
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=pasco&el=38"
+ },
+ "sources": {
+  "soe-2026": {
+   "title": "List of 2026 candidates (as of Sep 16, 2026)",
+   "url": "https://www.pascovotes.gov/Documents/Candidates/List Of 2026 Candidates/Tot2026.pdf",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1
+  },
+  "soe-2024": {
+   "title": "List of 2024 candidates (as of Nov 21, 2024)",
+   "url": "https://pascovotes.gov/Portals/Pasco/Documents/Tot2024.pdf",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1
+  },
+  "soe-2022": {
+   "title": "List of 2022 candidates",
+   "url": "https://www.pascovotes.gov/Portals/Pasco/Documents/Tot2022.pdf",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1
+  },
+  "soe-pri22": {
+   "title": "2022 primary election official results",
+   "url": "https://www.pascovotes.gov/revize/pascocountysupervisorofelectionsfl/portals/pasco/Results/Pri22all.html",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1
+  },
+  "soe-gen22": {
+   "title": "2022 general election official results",
+   "url": "https://www.pascovotes.gov/revize/pascocountysupervisorofelectionsfl/portals/pasco/Results/2022GEN_BYGROUP.html",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1
+  },
+  "soe-pri26": {
+   "title": "2026 primary election results (Aug 18, 2026)",
+   "url": "https://enr.electionsfl.org/PAS/4045/Summary/",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1,
+   "caution": "Election night reporting site. Labeled Official Results; certification not confirmed."
+  },
+  "soe-jobs": {
+   "title": "Elected office job descriptions",
+   "url": "https://pascovotes.gov/Candidates/Elected-Office-Job-Descriptions",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1
+  },
+  "soe-cands": {
+   "title": "Candidates and campaign finance links",
+   "url": "https://pascovotes.gov/Candidates",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1
+  },
+  "soe-finrep": {
+   "title": "Financial reporting (candidate guide)",
+   "url": "https://pascovotes.gov/candidates/guide_for_candidates/candidate_support/financial_reporting.php",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1
+  },
+  "pc-bcc": {
+   "title": "County Commissioners",
+   "url": "https://www.pascocountyfl.gov/government/county_commissioners/index.php",
+   "publisher": "Pasco County",
+   "tier": 1
+  },
+  "pc-d1": {
+   "title": "District 1 Commissioner Ron Oakley",
+   "url": "https://www.pascocountyfl.gov/government/county_commissioners/district_1.php",
+   "publisher": "Pasco County",
+   "tier": 1
+  },
+  "pc-d2": {
+   "title": "District 2 Commissioner Seth Weightman",
+   "url": "https://www.pascocountyfl.gov/government/county_commissioners/district_2.php",
+   "publisher": "Pasco County",
+   "tier": 1
+  },
+  "pc-d3": {
+   "title": "District 3 Commissioner Kathryn Starkey",
+   "url": "https://www.pascocountyfl.gov/government/county_commissioners/district_3.php",
+   "publisher": "Pasco County",
+   "tier": 1
+  },
+  "pc-d4": {
+   "title": "District 4 Commissioner Lisa Yeager",
+   "url": "https://www.pascocountyfl.gov/government/county_commissioners/district_4.php",
+   "publisher": "Pasco County",
+   "tier": 1
+  },
+  "pc-d5": {
+   "title": "District 5 Commissioner Jack Mariano",
+   "url": "https://www.pascocountyfl.gov/government/county_commissioners/district_5.php",
+   "publisher": "Pasco County",
+   "tier": 1
+  },
+  "pc-reorg25": {
+   "title": "Pasco Board of County Commissioners Reorganizes (Dec 10, 2025 release)",
+   "url": "https://www.pascocountyfl.gov/_T18_R582.php",
+   "publisher": "Pasco County",
+   "tier": 1
+  },
+  "flgov-yeager": {
+   "title": "Governor Ron DeSantis appoints Lisa Yeager to the Pasco County Board of County Commissioners",
+   "url": "https://flgov.com/2024/05/16/governor-ron-desantis-appoints-lisa-yeager-to-the-pasco-county-board-of-county-commissioners",
+   "publisher": "Executive Office of the Governor",
+   "tier": 1
+  },
+  "cc-agenda": {
+   "title": "BCC agenda, Jul 15, 2025 (CivicClerk file stream)",
+   "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=8708,plainText=false)",
+   "publisher": "Pasco County",
+   "tier": 1
+  },
+  "ethics-search": {
+   "title": "Search for financial disclosure filers (EFDMS)",
+   "url": "https://disclosure.floridaethics.gov/PublicSearch/Filings",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1
+  },
+  "sumter-form6": {
+   "title": "Annual Financial Disclosure Form 1 or 6",
+   "url": "https://elections.sumtercountyfl.gov/184/Annual-Financial-Disclosure-Form-1-or-6",
+   "publisher": "Sumter County Supervisor of Elections",
+   "tier": 2
+  },
+  "pascowatch-p38": {
+   "title": "P38, Jun 3, 2025 BCC (minutes excerpt)",
+   "url": "https://pasco.watch/item/20851",
+   "publisher": "Pasco Watch",
+   "tier": 3,
+   "caution": "Independent site built from county CivicClerk agendas, minutes and machine transcripts; operator not named."
+  },
+  "pascowatch-aug5": {
+   "title": "BCC meeting, Aug 5, 2025",
+   "url": "https://pasco.watch/meeting/271",
+   "publisher": "Pasco Watch",
+   "tier": 3,
+   "caution": "Independent site built from county CivicClerk records; operator not named."
+  },
+  "ww-reorg24": {
+   "title": "Pasco Board of County Commissioners Reorganizes (Dec 2024)",
+   "url": "https://whatswhatnewportrichey.com/pasco-board-of-county-commissioners-reorganizes/",
+   "publisher": "What's What New Port Richey",
+   "tier": 4
+  },
+  "lln-oakley": {
+   "title": "Ron Oakley sworn in as Pasco County commissioner",
+   "url": "https://lakerlutznews.com/ron-oakley-sworn-in-as-pasco-county-commissioner/",
+   "publisher": "Laker/Lutz News",
+   "tier": 4
+  },
+  "lln-mariano": {
+   "title": "Mariano is regional planning council chair",
+   "url": "https://lakerlutznews.com/mariano-is-regional-planning-council-chair/",
+   "publisher": "Laker/Lutz News",
+   "tier": 4
+  },
+  "lln-yeager": {
+   "title": "Lisa Yeager sworn in as commissioner",
+   "url": "https://lakerlutznews.com/lisa-yeager-sworn-in-as-commissioner/",
+   "publisher": "Laker/Lutz News",
+   "tier": 4
+  },
+  "lln-2020": {
+   "title": "Familiar faces win reelection in Pasco County (Nov 2020)",
+   "url": "https://lakerlutznews.com/familiar-faces-win-reelection-in-pasco-county/",
+   "publisher": "Laker/Lutz News",
+   "tier": 4
+  },
+  "chamber-starkey": {
+   "title": "Kathryn Starkey speaker profile",
+   "url": "https://www.tampabaychamber.com/staff/speaker/kathryn-starkey/",
+   "publisher": "Tampa Bay Chamber",
+   "tier": 5,
+   "caution": "Speaker bio, likely supplied by the commissioner."
+  },
+  "tbt-yeager-appt": {
+   "title": "DeSantis names replacement for open seat on Pasco Commission",
+   "url": "https://www.tampabay.com/news/pasco/2024/05/16/desantis-names-replacement-open-seat-pasco-commission/",
+   "publisher": "Tampa Bay Times",
+   "tier": 4
+  },
+  "tbt-yeager-pri": {
+   "title": "Incumbent Lisa Yeager wins Pasco Commission primary",
+   "url": "https://tampabay.com/news/florida-politics/elections/2026/08/18/desantis-appointee-yeager-republican-primary",
+   "publisher": "Tampa Bay Times",
+   "tier": 4
+  },
+  "tbt-d4-preview": {
+   "title": "Two Republicans square off in District 4 County Commission primary",
+   "url": "https://www.tampabaybeacons.com/2026/08/12/two-republicans-square-off-in-district-4-county-commission-primary/",
+   "publisher": "Tampa Bay Times (via Tampa Bay Beacons)",
+   "tier": 4
+  },
+  "nn-d4": {
+   "title": "Previewing the District 4 Pasco Board of County Commissioners election",
+   "url": "https://neighborhoodnewsonline.net/?p=69616",
+   "publisher": "Neighborhood News",
+   "tier": 4
+  },
+  "nn-vazquez": {
+   "title": "Stephanie Vazquez to challenge Seth Weightman for Dist. 2 commission seat",
+   "url": "https://neighborhoodnewsonline.net/?p=63677",
+   "publisher": "Neighborhood News",
+   "tier": 4
+  },
+  "wusf-sb": {
+   "title": "Veterans, teachers, podcasters, constitutionalists vie for Pasco County School Board seats",
+   "url": "https://www.wusf.org/education/2026-07-27/veterans-teachers-podcasters-constitutionalists-vie-for-pasco-county-school-board-seats",
+   "publisher": "WUSF",
+   "tier": 4
+  },
+  "tbt-sb-pri": {
+   "title": "Incumbent Harding cruises to Pasco School Board reelection",
+   "url": "https://www.tampabaybeacons.com/2026/08/25/incumbent-harding-cruises-to-pasco-school-board-reelection/",
+   "publisher": "Tampa Bay Times (via Tampa Bay Beacons)",
+   "tier": 4
+  },
+  "bn9-dc": {
+   "title": "Pasco leaders approve one-year moratorium on data center construction",
+   "url": "https://baynews9.com/fl/tampa/news/2026/07/14/pasco-leaders-nearing-decision-on-data-center-moratorium",
+   "publisher": "Bay News 9",
+   "tier": 4
+  },
+  "wusf-dc": {
+   "title": "Pasco County approves one-year moratorium on large data centers",
+   "url": "https://www.wusf.org/politics-issues/2026-07-15/pasco-county-one-year-moratorium-large-data-centers",
+   "publisher": "WUSF",
+   "tier": 4
+  },
+  "tbb-dc": {
+   "title": "Pasco unanimously passes moratorium on data centers",
+   "url": "https://www.tampabaybeacons.com/2026/07/20/pasco-unanimously-passes-moratorium-on-data-centers/",
+   "publisher": "Tampa Bay Beacons",
+   "tier": 4
+  },
+  "tbt-dc": {
+   "title": "Pasco commissioners agree: No new data centers for the next year",
+   "url": "https://www.tampabay.com/news/pasco/2026/07/24/ai-hyperscale-data-centers-county-commission-florida-artificial-intelligence/",
+   "publisher": "Tampa Bay Times",
+   "tier": 4
+  },
+  "tbb-lpr": {
+   "title": "Public pressure mounts, Pasco's license-plate cameras are coming down",
+   "url": "https://www.tampabaybeacons.com/2026/08/31/public-pressure-mounts-pascos-license-plate-cameras-are-coming-down/",
+   "publisher": "Tampa Bay Beacons",
+   "tier": 4
+  },
+  "tbt-surf": {
+   "title": "Surf park and Two Rivers expansion win approval from Pasco commissioners",
+   "url": "https://www.tampabay.com/news/pasco/2026/09/19/two-rivers-peak-surf-park-wesley-chapel-lagoon-traffic-development/",
+   "publisher": "Tampa Bay Times",
+   "tier": 4
+  },
+  "wcc-surf": {
+   "title": "Pasco commissioners approve Two Rivers expansion, clear path for 35-acre surf park in Wesley Chapel",
+   "url": "https://wesleychapelcommunity.com/posts/pasco-commissioners-approve-two-rivers-expansion-clear-path-for-35-acre-surf-park-in-wesley-chapel",
+   "publisher": "Wesley Chapel Community",
+   "tier": 4,
+   "caution": "Community news site; no byline or publish date shown; its stated vote date does not match the weekday it gives."
+  },
+  "bn9-storm": {
+   "title": "Pasco officials approve $235M funding for hurricane-damage repair projects",
+   "url": "https://baynews9.com/fl/tampa/news/2026/09/19/pasco-officials-approve--235m-funding-for-hurricane-damage-repair-projects",
+   "publisher": "Bay News 9",
+   "tier": 4
+  },
+  "pcs-board": {
+   "title": "School Board",
+   "url": "https://www.pasco.k12.fl.us/school_board",
+   "publisher": "Pasco County Schools",
+   "tier": 1
+  },
+  "tbt-sb5-2018": {
+   "title": "Pasco School Board 5: Megan Harding defeats Tara O'Connor",
+   "url": "https://www.tampabay.com/blogs/gradebook/2018/11/06/pasco-school-board-5-2/",
+   "publisher": "Tampa Bay Times",
+   "tier": 4
+  },
+  "soe-cf-pasco": {
+   "title": "Pasco Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=pasco&el=38",
+   "publisher": "Pasco County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-26"
+  },
+  "camp-vazquez": {
+   "title": "Stephanie C. Vazquez campaign website",
+   "url": "https://stephanievazquez.com/",
+   "publisher": "Stephanie C. Vazquez campaign",
+   "tier": 5,
+   "accessed": "2026-10-26"
+  },
+  "camp-coward": {
+   "title": "Kimberly D. Coward campaign website",
+   "url": "https://kimberlycoward.com/",
+   "publisher": "Kimberly D. Coward campaign",
+   "tier": 5,
+   "accessed": "2026-10-26"
+  }
+ },
+ "people": [
+  {
+   "id": "oakley",
+   "name": "Ron Oakley",
+   "office": "County Commissioner",
+   "district": "1",
+   "seatType": "Countywide vote, district residency",
+   "status": "incumbent",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-2024"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "Nov 29, 2016",
+      "source": "lln-oakley"
+     },
+     {
+      "value": "Elected November 2016",
+      "source": "pc-d1"
+     }
+    ],
+    "term": [
+     {
+      "value": "2024 to 2028 (term expires 2028)",
+      "source": "pc-d1"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Elected Nov 2024 to a 4-year term over Lisa Moretti (NPA)",
+      "source": "soe-2024"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://www.pascocountyfl.gov/Images/Government/County%20Commissioners/District%201/commissioneroakley26.jpg?t=202602131229420",
+      "source": "pc-d1"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://www.pascocountyfl.gov/government/county_commissioners/district_1.php"
+      },
+      "source": "pc-d1"
+     }
+    ]
+   }
+  },
+  {
+   "id": "weightman",
+   "name": "Seth Weightman",
+   "office": "County Commissioner",
+   "district": "2",
+   "seatType": "Countywide vote, district residency",
+   "status": "incumbent",
+   "race": "bcc-d2",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-2026"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-pasco"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "Elected 2022",
+      "source": "pc-d2"
+     }
+    ],
+    "term": [
+     {
+      "value": "2022 to 2026 (term expires 2026)",
+      "source": "pc-d2"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Won the Aug 23, 2022 Republican primary with 48.87%, then unopposed in Nov 2022",
+      "source": "soe-pri22"
+     },
+     {
+      "value": "Won the Aug 23, 2022 Republican primary with 48.87%, then unopposed in Nov 2022",
+      "source": "soe-2022"
+     }
+    ],
+    "roles": [
+     {
+      "value": [
+       "Vice Chair (since Dec 9, 2025)"
+      ],
+      "source": "pc-reorg25"
+     },
+     {
+      "value": [
+       "Vice Chair"
+      ],
+      "source": "pc-d2"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://www.pascocountyfl.gov/Images/Government/County%20Commissioners/District%202/commissionerweightman26.jpg",
+      "source": "pc-d2"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://www.pascocountyfl.gov/government/county_commissioners/district_2.php"
+      },
+      "source": "pc-d2"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$171,675 in contributions, plus $500 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-pasco"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "1876",
+    "status": "Active-Qualified"
+   }
+  },
+  {
+   "id": "starkey",
+   "name": "Kathryn Starkey",
+   "office": "County Commissioner",
+   "district": "3",
+   "seatType": "Countywide vote, district residency",
+   "status": "incumbent",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-2024"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "First elected 2012",
+      "source": "pc-d3"
+     },
+     {
+      "value": "Elected in 2012; re-elected 2016 and 2020",
+      "source": "chamber-starkey"
+     }
+    ],
+    "term": [
+     {
+      "value": "2024 to 2028 (term expires 2028)",
+      "source": "pc-d3"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Elected Nov 2024 to a 4-year term over write-in Janine M. Duffy",
+      "source": "soe-2024"
+     }
+    ],
+    "roles": [
+     {
+      "value": "Past Commission Chair (2015-2016 and 2021-2022)",
+      "source": "pc-d3"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://www.pascocountyfl.gov/Images/Government/County%20Commissioners/District%203/starkeyheadshot.jpg?t=202602171614260",
+      "source": "pc-d3"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://www.pascocountyfl.gov/government/county_commissioners/district_3.php"
+      },
+      "source": "pc-d3"
+     }
+    ]
+   }
+  },
+  {
+   "id": "yeager",
+   "name": "Lisa Yeager",
+   "office": "County Commissioner",
+   "district": "4",
+   "seatType": "Countywide vote, district residency",
+   "status": "incumbent",
+   "race": "bcc-d4",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-2026"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-pasco"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "Sworn in May 21, 2024, after Gov. DeSantis appointed her May 16, 2024 to fill the seat of the late Gary Bradford",
+      "source": "lln-yeager"
+     },
+     {
+      "value": "Appointed/elected 2024",
+      "source": "pc-d4"
+     }
+    ],
+    "term": [
+     {
+      "value": "2024 to 2026, finishing the late Gary Bradford's term",
+      "source": "soe-2024"
+     },
+     {
+      "value": "2024 to 2026, finishing the late Gary Bradford's term",
+      "source": "pc-d4"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Won the Aug 18, 2026 Republican primary 62.38% to 37.62% over Jonathan Deckard",
+      "source": "soe-pri26"
+     }
+    ],
+    "job": [
+     {
+      "value": "Owner and partner of Boating Enterprises of Florida, LLC; former Director of CYESIS for Pasco County Schools",
+      "source": "flgov-yeager"
+     },
+     {
+      "value": "Ran the Teen Parent Program at Pasco County Schools for a decade before her appointment",
+      "source": "nn-d4"
+     }
+    ],
+    "roles": [
+     {
+      "value": "2nd Vice Chair (since Dec 9, 2025)",
+      "source": "pc-reorg25"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$56,350 (as of June 28, 2026)",
+      "source": "nn-d4"
+     },
+     {
+      "value": "$123,125 in contributions (as of Oct 26, 2026)",
+      "source": "soe-cf-pasco"
+     }
+    ],
+    "promises": [
+     {
+      "value": "Lower taxes, protection from unchecked growth, flood and storm resilience; supports the data center moratorium",
+      "source": "nn-d4"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://www.pascocountyfl.gov/Images/Government/County%20Commissioners/District%204/commissioner_yeager_new.jpg",
+      "source": "pc-d4"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://www.pascocountyfl.gov/government/county_commissioners/district_4.php"
+      },
+      "source": "pc-d4"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "1828",
+    "status": "Active-Unopposed"
+   }
+  },
+  {
+   "id": "mariano",
+   "name": "Jack Mariano",
+   "office": "County Commissioner",
+   "district": "5",
+   "seatType": "Countywide vote, district residency",
+   "status": "incumbent",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-2024"
+     }
+    ],
+    "inOfficeSince": [
+     {
+      "value": "First elected 2004",
+      "source": "pc-d5"
+     },
+     {
+      "value": "First elected to the Pasco County Commission in 2004",
+      "source": "lln-mariano"
+     }
+    ],
+    "term": [
+     {
+      "value": "2024 to 2028 (term expires 2028)",
+      "source": "pc-d5"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Elected Nov 2024 to a 4-year term over Thomas A. Celotto (NPA)",
+      "source": "soe-2024"
+     }
+    ],
+    "roles": [
+     {
+      "value": [
+       "Chair (since Dec 9, 2025)"
+      ],
+      "source": "pc-reorg25"
+     },
+     {
+      "value": [
+       "Chair"
+      ],
+      "source": "pc-d5"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://www.pascocountyfl.gov/Images/Government/County%20Commissioners/District%205/mariano_new.jpg?t=202407110900360",
+      "source": "pc-d5"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://www.pascocountyfl.gov/government/county_commissioners/district_5.php"
+      },
+      "source": "pc-d5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "vazquez",
+   "name": "Stephanie C. Vazquez",
+   "office": "Candidate, County Commission",
+   "district": "2",
+   "seatType": "Countywide vote, district residency",
+   "status": "challenger",
+   "race": "bcc-d2",
+   "claims": {
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-2026"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-pasco"
+     }
+    ],
+    "job": [
+     {
+      "value": "Remote marketing manager for Northeastern University; U.S. Air Force veteran; former public information officer for the City of Zephyrhills",
+      "source": "nn-vazquez"
+     }
+    ],
+    "roles": [
+     {
+      "value": "Board member, Pasco County Commission on Human Trafficking",
+      "source": "nn-vazquez"
+     }
+    ],
+    "promises": [
+     {
+      "value": "Fix roads, drainage and storm systems; term limits; curb growth that strains neighborhoods and schools",
+      "source": "nn-vazquez"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://stephanievazquez.com/"
+      },
+      "source": "camp-vazquez"
+     },
+     {
+      "value": {
+       "kind": "facebook",
+       "url": "https://www.facebook.com/stephanieforpasco"
+      },
+      "source": "camp-vazquez"
+     },
+     {
+      "value": {
+       "kind": "tiktok",
+       "url": "https://www.tiktok.com/@stephanie.vazquez_pasco"
+      },
+      "source": "camp-vazquez"
+     },
+     {
+      "value": {
+       "kind": "instagram",
+       "url": "https://www.instagram.com/stephanieforpasco/"
+      },
+      "source": "camp-vazquez"
+     },
+     {
+      "value": {
+       "kind": "x",
+       "url": "https://x.com/Stephanie4Pasco"
+      },
+      "source": "camp-vazquez"
+     },
+     {
+      "value": {
+       "kind": "youtube",
+       "url": "https://www.youtube.com/@StephanieVazquez-pasco"
+      },
+      "source": "camp-vazquez"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$74,780.43 in contributions, plus $3,622.55 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-pasco"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://www.voterfocus.com/CampaignFinance/photo_pasco/cand_1846.jpg",
+      "source": "soe-cf-pasco"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "1846",
+    "status": "Active-Qualified"
+   }
+  },
+  {
+   "id": "collura",
+   "name": "Gino Collura",
+   "office": "Candidate, School Board",
+   "district": "1",
+   "seatType": "Countywide vote, district residency, nonpartisan",
+   "status": "open",
+   "race": "sb-d1",
+   "nonpartisan": true,
+   "claims": {
+    "job": [
+     {
+      "value": "Business consultant and behavioral scientist; DeSantis appointee to the Pasco-Hernando State College board",
+      "source": "wusf-sb"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Aug 18, 2026 primary: 30.89%, advanced to Nov 3",
+      "source": "soe-pri26"
+     }
+    ],
+    "promises": [
+     {
+      "value": "Competitive teacher pay, curbing excessive personal technology use, threat management technology",
+      "source": "wusf-sb"
+     }
+    ],
+    "links": [],
+    "raised": [
+     {
+      "value": "$48,645 in contributions (as of Oct 26, 2026)",
+      "source": "soe-cf-pasco"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "1883",
+    "status": "Active-Qualified"
+   }
+  },
+  {
+   "id": "coward",
+   "name": "Kimberly D. Coward",
+   "office": "Candidate, School Board",
+   "district": "1",
+   "seatType": "Countywide vote, district residency, nonpartisan",
+   "status": "open",
+   "race": "sb-d1",
+   "nonpartisan": true,
+   "claims": {
+    "job": [
+     {
+      "value": "Former Dade City guidance counselor; holds an education doctorate and law degree; served as a judge at MacDill Air Force Base",
+      "source": "wusf-sb"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Aug 18, 2026 primary: 35.43%, advanced to Nov 3",
+      "source": "soe-pri26"
+     }
+    ],
+    "promises": [
+     {
+      "value": "\"Data-driven, fiscally responsible\" solutions to teacher pay and declining enrollment (voter guide answer)",
+      "source": "wusf-sb"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "campaign",
+       "url": "https://kimberlycoward.com/"
+      },
+      "source": "camp-coward"
+     },
+     {
+      "value": {
+       "kind": "facebook",
+       "url": "https://www.facebook.com/VoteCaptCoward/"
+      },
+      "source": "camp-coward"
+     },
+     {
+      "value": {
+       "kind": "x",
+       "url": "https://twitter.com/KimberlyDCoward"
+      },
+      "source": "camp-coward"
+     },
+     {
+      "value": {
+       "kind": "instagram",
+       "url": "https://www.instagram.com/kimberlydcoward/"
+      },
+      "source": "camp-coward"
+     },
+     {
+      "value": {
+       "kind": "linkedin",
+       "url": "https://www.linkedin.com/in/kimberly-d-coward-phd-jd-109b60145"
+      },
+      "source": "camp-coward"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$33,829.48 in contributions, plus $4,176.77 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-pasco"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "1889",
+    "status": "Active-Qualified"
+   }
+  },
+  {
+   "id": "geiger",
+   "name": "Matt Geiger",
+   "office": "Candidate, School Board",
+   "district": "3",
+   "seatType": "Countywide vote, district residency, nonpartisan",
+   "status": "open",
+   "race": "sb-d3",
+   "nonpartisan": true,
+   "claims": {
+    "job": [
+     {
+      "value": "Educator with 20 years in private, public and parochial schools; most recently directed a residential soccer academy",
+      "source": "wusf-sb"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Aug 18, 2026 primary: 28.74%, advanced to Nov 3",
+      "source": "soe-pri26"
+     }
+    ],
+    "promises": [
+     {
+      "value": "Parental rights, teacher satisfaction, phonics-based reading; district-owned teacher housing",
+      "source": "wusf-sb"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "facebook",
+       "url": "https://www.facebook.com/mattgeigerforschoolboard/"
+      },
+      "source": "soe-cf-pasco"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$12,280 in contributions, plus $11,948.14 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-pasco"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://www.voterfocus.com/CampaignFinance/photo_pasco/cand_1856.jpg",
+      "source": "soe-cf-pasco"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "1856",
+    "status": "Active-Qualified"
+   }
+  },
+  {
+   "id": "ward",
+   "name": "Mollyana Ward",
+   "office": "Candidate, School Board",
+   "district": "3",
+   "seatType": "Countywide vote, district residency, nonpartisan",
+   "status": "open",
+   "race": "sb-d3",
+   "nonpartisan": true,
+   "claims": {
+    "job": [
+     {
+      "value": "Realtor",
+      "source": "wusf-sb"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Aug 18, 2026 primary: 21.12%, advanced to Nov 3",
+      "source": "soe-pri26"
+     }
+    ],
+    "promises": [
+     {
+      "value": "Teacher pipelines with USF, PHSC and alternative certification; AI threat detection; bus driver recruitment; curriculum oversight",
+      "source": "wusf-sb"
+     }
+    ],
+    "links": [],
+    "raised": [
+     {
+      "value": "$38,935 in contributions, plus $3,182.47 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-pasco"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "1852",
+    "status": "Active-Qualified"
+   }
+  },
+  {
+   "id": "harding",
+   "name": "Megan C. Harding",
+   "office": "School Board Member",
+   "district": "5",
+   "seatType": "Countywide vote, district residency, nonpartisan",
+   "status": "incumbent",
+   "race": "sb-d5",
+   "nonpartisan": true,
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "Won the District 5 seat in Nov 2018 over Tara O'Connor",
+      "source": "tbt-sb5-2018"
+     }
+    ],
+    "job": [
+     {
+      "value": "Adjunct instructor at Saint Leo University",
+      "source": "wusf-sb"
+     }
+    ],
+    "lastElection": [
+     {
+      "value": "Won outright in the Aug 18, 2026 primary, 72.15% to 27.85% over Michelle R. Mandarin",
+      "source": "soe-2026"
+     },
+     {
+      "value": "Won outright in the Aug 18, 2026 primary, 72.15% to 27.85% over Michelle R. Mandarin",
+      "source": "soe-pri26"
+     }
+    ],
+    "promises": [
+     {
+      "value": "Teacher college partnerships, state school safety funding, civics, reading and math, fiscal responsibility",
+      "source": "wusf-sb"
+     }
+    ],
+    "links": [
+     {
+      "value": {
+       "kind": "official",
+       "url": "https://www.pasco.k12.fl.us/school_board"
+      },
+      "source": "pcs-board"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$30,745 in contributions, plus $1,600 in-kind (as of Oct 26, 2026)",
+      "source": "soe-cf-pasco"
+     }
+    ],
+    "photo": [
+     {
+      "value": "https://www.voterfocus.com/CampaignFinance/photo_pasco/cand_1864.jpg",
+      "source": "soe-cf-pasco"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "1864",
+    "status": "Active-Qualified"
+   }
+  }
+ ],
+ "races": [
+  {
+   "id": "bcc-d2",
+   "title": "County Commission, District 2",
+   "seatType": "Countywide vote, district residency",
+   "who": "Every Pasco voter",
+   "people": [
+    "vazquez",
+    "weightman"
+   ],
+   "sources": [
+    "soe-2026",
+    "soe-jobs"
+   ]
+  },
+  {
+   "id": "bcc-d4",
+   "title": "County Commission, District 4",
+   "seatType": "Countywide vote, district residency",
+   "who": "Every Pasco voter (but this seat is not on the Nov 3 ballot)",
+   "people": [
+    "yeager"
+   ],
+   "note": "Decided in the Aug 18 primary. Yeager beat Jonathan Deckard in a Republican-only primary (closed because write-in Louie Rodriguez qualified). The SOE lists Rodriguez as Withdrawn and Yeager as Unopposed after Primary.",
+   "sources": [
+    "soe-2026",
+    "soe-pri26",
+    "nn-d4"
+   ],
+   "onNovBallot": false,
+   "decidedInPrimary": true
+  },
+  {
+   "id": "sb-d1",
+   "title": "School Board, District 1",
+   "seatType": "Countywide vote, district residency, nonpartisan",
+   "who": "Every Pasco voter",
+   "people": [
+    "collura",
+    "coward"
+   ],
+   "note": "Open seat (Al Hernandez not running). Runoff: no one won a majority on Aug 18 (Coward 35.43%, Collura 30.89%).",
+   "sources": [
+    "soe-2026",
+    "soe-pri26",
+    "wusf-sb",
+    "tbt-sb-pri"
+   ]
+  },
+  {
+   "id": "sb-d3",
+   "title": "School Board, District 3",
+   "seatType": "Countywide vote, district residency, nonpartisan",
+   "who": "Every Pasco voter",
+   "people": [
+    "geiger",
+    "ward"
+   ],
+   "note": "Open seat (Cynthia Armstrong retiring). Runoff: no one won a majority on Aug 18 (Geiger 28.74%, Ward 21.12%).",
+   "sources": [
+    "soe-2026",
+    "soe-pri26",
+    "wusf-sb",
+    "tbt-sb-pri"
+   ]
+  },
+  {
+   "id": "sb-d5",
+   "title": "School Board, District 5",
+   "seatType": "Countywide vote, district residency, nonpartisan",
+   "who": "Every Pasco voter (but this seat is not on the Nov 3 ballot)",
+   "people": [
+    "harding"
+   ],
+   "note": "Decided Aug 18: Harding won a majority and the SOE lists her as Elected.",
+   "sources": [
+    "soe-2026",
+    "soe-pri26"
+   ],
+   "onNovBallot": false,
+   "decidedInPrimary": true
+  }
+ ],
+ "votes": [
+  {
+   "id": "data-center-moratorium",
+   "date": "2026-07-14",
+   "dateNote": "Sources say the vote was on 'Tuesday'; Bay News 9 published that Tuesday, Jul 14.",
+   "topic": "datacenters",
+   "headline": "Put a one-year pause on new data centers",
+   "inShort": "The county froze permits, rezonings and site plans for new data centers in unincorporated Pasco for 12 months while it works out how to regulate them.",
+   "agendaMatch": {
+    "system": "civicclerk",
+    "date": "2026-07-14",
+    "contains": [
+     "data center",
+     "moratorium"
+    ]
+   },
+   "claims": {
+    "result": [
+     {
+      "value": "Passed unanimously",
+      "source": "bn9-dc"
+     },
+     {
+      "value": "Passed unanimously",
+      "source": "tbb-dc"
+     },
+     {
+      "value": "Passed unanimously",
+      "source": "tbt-dc"
+     },
+     {
+      "value": "Approved",
+      "source": "wusf-dc"
+     }
+    ]
+   },
+   "facts": [
+    {
+     "text": "Length: 12 months.",
+     "claims": [
+      {
+       "value": "12 months",
+       "source": "tbb-dc"
+      },
+      {
+       "value": "12 months",
+       "source": "wusf-dc"
+      }
+     ]
+    },
+    {
+     "text": "Covers server and computer facilities drawing more than 2.5 megawatts; an earlier version used 10 megawatts.",
+     "claims": [
+      {
+       "value": "2.5 megawatts",
+       "source": "wusf-dc"
+      },
+      {
+       "value": "2.5 megawatts",
+       "source": "tbb-dc"
+      }
+     ]
+    },
+    {
+     "text": "Retroactive to May 27, the day the county first advertised the hearing.",
+     "claims": [
+      {
+       "value": "May 27",
+       "source": "tbb-dc"
+      }
+     ]
+    },
+    {
+     "text": "County planning staff said it blocks a proposed 19.9-megawatt data center near I-75 and State Road 52.",
+     "claims": [
+      {
+       "value": "19.9 megawatts",
+       "source": "tbb-dc"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lpr-renewal",
+   "date": "2026-08-11",
+   "topic": "policing",
+   "headline": "Split on renewing the Sheriff's license-plate camera contract",
+   "inShort": "Commissioner Yeager moved to renew the county's agreement letting the Sheriff's Office run license-plate cameras on county roads. Two commissioners voted no. The Sheriff later ended the agreement himself.",
+   "agendaMatch": {
+    "system": "civicclerk",
+    "date": "2026-08-11",
+    "contains": [
+     "sheriff",
+     "license plate"
+    ]
+   },
+   "claims": {
+    "result": [
+     {
+      "value": "Outcome not stated by the source",
+      "source": "tbb-lpr"
+     }
+    ],
+    "roll": [
+     {
+      "value": {
+       "no": [
+        "mariano",
+        "oakley"
+       ],
+       "absent": [
+        "weightman"
+       ]
+      },
+      "source": "tbb-lpr"
+     }
+    ]
+   },
+   "facts": [
+    {
+     "text": "Yeager made the motion and Starkey backed it.",
+     "claims": [
+      {
+       "value": "Yeager motion, Starkey backed",
+       "source": "tbb-lpr"
+      }
+     ]
+    },
+    {
+     "text": "The board had approved the original agreement unanimously on Dec 10, 2024.",
+     "claims": [
+      {
+       "value": "2024-12-10",
+       "source": "tbb-lpr"
+      }
+     ]
+    },
+    {
+     "text": "What happened next: Sheriff Chris Nocco ended the agreement covering about 60 cameras, effective Sept 30. On Aug 25 the board told staff to form a task force with a public workshop before any new program.",
+     "claims": [
+      {
+       "value": "about 60 cameras, effective Sept 30",
+       "source": "tbb-lpr"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "two-rivers-surf-park",
+   "date": "2026-09-19",
+   "dateNote": "Date the Tampa Bay Times story ran. The exact vote date is not confirmed (see manualProblems).",
+   "topic": "growth",
+   "headline": "Approved the Two Rivers expansion and a path for a surf park",
+   "inShort": "Commissioners approved a land use change and rezoning that expand the Two Rivers community in Wesley Chapel and clear the way for a proposed 35-acre surf park, with 240 new apartments tied to it.",
+   "agendaMatch": {
+    "system": "civicclerk",
+    "date": "2026-09",
+    "contains": [
+     "two rivers"
+    ]
+   },
+   "claims": {
+    "result": [
+     {
+      "value": "Approved",
+      "source": "tbt-surf"
+     },
+     {
+      "value": "Passed 3 to 0",
+      "source": "wcc-surf"
+     }
+    ]
+   },
+   "facts": [
+    {
+     "text": "Adds up to 240 garden-style apartments, which cannot break ground until the surf park gets its certificate of occupancy or three years pass, whichever comes first.",
+     "claims": [
+      {
+       "value": "240 apartments",
+       "source": "wcc-surf"
+      }
+     ]
+    },
+    {
+     "text": "The surf park is planned at 35 acres.",
+     "claims": [
+      {
+       "value": "35 acres",
+       "source": "tbt-surf"
+      },
+      {
+       "value": "35 acres",
+       "source": "wcc-surf"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "storm-mitigation-235m",
+   "date": "2026-09-19",
+   "dateNote": "Date Bay News 9 published; the article does not give the vote date.",
+   "topic": "storms",
+   "headline": "Approved $235 million for hurricane repair and storm-proofing projects",
+   "inShort": "The county approved about $235 million for its Better Future Infrastructure and Mitigation Program to repair damage from Hurricanes Idalia, Helene and Milton and harden areas against future storms.",
+   "agendaMatch": {
+    "system": "civicclerk",
+    "date": "2026-09",
+    "contains": [
+     "mitigation"
+    ]
+   },
+   "claims": {
+    "result": [
+     {
+      "value": "Approved",
+      "source": "bn9-storm"
+     }
+    ]
+   },
+   "facts": [
+    {
+     "text": "Projects include stormwater work in Sea Pines in Hudson and renovating the Hudson Library.",
+     "claims": [
+      {
+       "value": "Sea Pines; Hudson Library",
+       "source": "bn9-storm"
+      }
+     ]
+    },
+    {
+     "text": "This is the first of what could be three phases, and projects must be finished within five years or money may have to be repaid.",
+     "claims": [
+      {
+       "value": "first of three phases; five years",
+       "source": "bn9-storm"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "id": "growth",
+   "name": "Growth, land use and housing",
+   "blurb": "Rezonings, land use changes and big new communities."
+  },
+  {
+   "id": "datacenters",
+   "name": "Data centers",
+   "blurb": "Rules for large computer and server facilities."
+  },
+  {
+   "id": "policing",
+   "name": "Police technology and privacy",
+   "blurb": "License-plate cameras and similar tools on county roads."
+  },
+  {
+   "id": "storms",
+   "name": "Storm recovery",
+   "blurb": "Hurricane repairs and flood protection projects."
+  }
+ ],
+ "manualProblems": [
+  {
+   "id": "yeager-writein",
+   "subject": "District 4 general election",
+   "field": "November opponent",
+   "kind": "Sources disagree",
+   "versions": [
+    {
+     "value": "Yeager will face a write-in candidate in November",
+     "sources": [
+      "tbt-yeager-pri"
+     ]
+    },
+    {
+     "value": "Write-in Louie Rodriguez Withdrawn; Yeager Unopposed after Primary",
+     "sources": [
+      "soe-2026"
+     ],
+     "official": true
+    }
+   ],
+   "status": "Resolved: the SOE list (Sep 16, 2026) shows the write-in withdrew"
+  },
+  {
+   "id": "tbt-district",
+   "subject": "Yeager primary story",
+   "field": "district",
+   "kind": "Sources disagree",
+   "versions": [
+    {
+     "value": "District 5 (as read from the TBT page)",
+     "sources": [
+      "tbt-yeager-pri"
+     ]
+    },
+    {
+     "value": "District 4",
+     "sources": [
+      "soe-2026",
+      "pc-d4"
+     ],
+     "official": true
+    }
+   ],
+   "status": "Resolved: Yeager holds District 4. Recheck the TBT text; the error may be in our page reading."
+  },
+  {
+   "id": "deckard-spelling",
+   "subject": "Jonathan Deckard",
+   "field": "first name spelling",
+   "kind": "Sources disagree",
+   "versions": [
+    {
+     "value": "Jonathan",
+     "sources": [
+      "soe-2026",
+      "soe-pri26"
+     ],
+     "official": true
+    },
+    {
+     "value": "Jonathon",
+     "sources": [
+      "nn-d4"
+     ]
+    }
+   ],
+   "status": "Resolved: use the SOE spelling"
+  },
+  {
+   "id": "armstrong-tenure",
+   "subject": "Cynthia Armstrong (School Board District 3)",
+   "field": "years served",
+   "kind": "Sources disagree",
+   "versions": [
+    {
+     "value": "16 years",
+     "sources": [
+      "tbt-sb-pri"
+     ]
+    },
+    {
+     "value": "20 years",
+     "sources": [
+      "wusf-sb"
+     ]
+    }
+   ],
+   "status": "Open: needs an official source"
+  },
+  {
+   "id": "mariano-terms",
+   "subject": "Jack Mariano",
+   "field": "number of terms",
+   "kind": "Numbers don't add up",
+   "versions": [
+    {
+     "value": "Serving his fourth term",
+     "sources": [
+      "pc-d5"
+     ]
+    },
+    {
+     "value": "First elected 2004, so the 2024 win would be a sixth 4-year term",
+     "sources": [
+      "pc-d5",
+      "lln-mariano"
+     ]
+    }
+   ],
+   "status": "Open: the county bio may be out of date"
+  },
+  {
+   "id": "starkey-district",
+   "subject": "Kathryn Starkey",
+   "field": "district number",
+   "kind": "Sources disagree",
+   "versions": [
+    {
+     "value": "District 1 (2020 results story)",
+     "sources": [
+      "lln-2020"
+     ]
+    },
+    {
+     "value": "District 3",
+     "sources": [
+      "soe-2024",
+      "pc-d3"
+     ],
+     "official": true
+    }
+   ],
+   "status": "Likely redistricting after 2020; not confirmed with an official source"
+  },
+  {
+   "id": "surfpark-date",
+   "subject": "Two Rivers / surf park vote",
+   "field": "vote date",
+   "kind": "Source disagrees with itself",
+   "versions": [
+    {
+     "value": "'Tuesday, Sept. 19, 2026' (Sept 19, 2026 is a Saturday)",
+     "sources": [
+      "wcc-surf"
+     ]
+    },
+    {
+     "value": "Story dated Sept 19, 2026; no vote date given",
+     "sources": [
+      "tbt-surf"
+     ]
+    }
+   ],
+   "status": "Open: check the CivicClerk minutes for the September meetings"
+  },
+  {
+   "id": "finance-ids",
+   "subject": "Pasco campaign finance",
+   "field": "candidate account ids and totals",
+   "kind": "Record gap",
+   "versions": [
+    {
+     "value": "VoterFocus report pages could not be fetched (not allowlisted, PDFs blocked by robots.txt)",
+     "sources": [
+      "soe-cands"
+     ]
+    }
+   ],
+   "status": "Open: pull ca= ids and totals from voterfocus.com directly"
+  },
+  {
+   "id": "pri26-certified",
+   "subject": "Aug 18, 2026 primary results",
+   "field": "certification",
+   "kind": "Record gap",
+   "versions": [
+    {
+     "value": "Labeled Official Results on the election night site",
+     "sources": [
+      "soe-pri26"
+     ]
+    }
+   ],
+   "status": "Open: confirm certified totals"
+  },
+  {
+   "id": "harding-start",
+   "subject": "Megan Harding",
+   "field": "in office since",
+   "kind": "Sources disagree",
+   "versions": [
+    {
+     "value": "Incumbent since 2019",
+     "sources": [
+      "wusf-sb"
+     ]
+    },
+    {
+     "value": "Won the seat Nov 2018",
+     "sources": [
+      "tbt-sb5-2018"
+     ]
+    }
+   ],
+   "status": "Open: likely took office Nov 2018; confirm with SOE 2018 certified results or school board minutes"
+  },
+  {
+   "id": "links-vazquez",
+   "subject": "Stephanie Vazquez",
+   "field": "campaign links",
+   "kind": "needs-browser-fetch",
+   "url": "https://stephanievazquez.com",
+   "versions": [
+    {
+     "value": "SOE list gives campaign email contact@stephanievazquez.com; site not fetched, so not listed as a link",
+     "sources": [
+      "soe-2026"
+     ]
+    }
+   ],
+   "status": "Open"
+  },
+  {
+   "id": "links-coward",
+   "subject": "Kimberly Coward",
+   "field": "campaign links",
+   "kind": "needs-browser-fetch",
+   "url": "https://kimberlycoward.com",
+   "versions": [
+    {
+     "value": "SOE list gives campaign email campaign@kimberlycoward.com; site not fetched, so not listed as a link",
+     "sources": [
+      "soe-2026"
+     ]
+    }
+   ],
+   "status": "Open"
+  },
+  {
+   "id": "links-others",
+   "subject": "Weightman, Yeager, Collura, Geiger, Ward, Harding",
+   "field": "campaign links",
+   "kind": "Record gap",
+   "versions": [
+    {
+     "value": "SOE list shows only gmail/yahoo or consultant contacts; no campaign site found that could be confirmed. County and school district pages link only county-wide social accounts.",
+     "sources": [
+      "soe-2026",
+      "pc-bcc",
+      "pcs-board"
+     ]
+    }
+   ],
+   "status": "Open"
+  },
+  {
+   "id": "fetch-county-agendas",
+   "subject": "BCC agendas and minutes",
+   "field": "vendor confirmation",
+   "kind": "needs-browser-fetch",
+   "url": "https://www.pascocountyfl.gov/government/agendas_minutes.php",
+   "versions": [
+    {
+     "value": "CivicClerk API file stream confirmed; portal listing page not fetched",
+     "sources": [
+      "cc-agenda",
+      "pascowatch-aug5"
+     ]
+    }
+   ],
+   "status": "Open"
+  },
+  {
+   "id": "fetch-legistar",
+   "subject": "Legistar API test",
+   "field": "API",
+   "kind": "needs-browser-fetch",
+   "url": "https://webapi.legistar.com/v1/pasco/bodies",
+   "versions": [
+    {
+     "value": "Not fetchable from tools; also try https://webapi.legistar.com/v1/pascocountyfl/bodies. Pasco appears to use CivicClerk, not Legistar.",
+     "sources": [
+      "cc-agenda"
+     ]
+    }
+   ],
+   "status": "Open"
+  },
+  {
+   "id": "fetch-voterfocus",
+   "subject": "Campaign finance",
+   "field": "candidate ca= ids",
+   "kind": "needs-browser-fetch",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?el=38&c=pasco",
+   "versions": [
+    {
+     "value": "Election id el=38 visible on SOE page; candidate list page not fetchable",
+     "sources": [
+      "soe-cands"
+     ]
+    }
+   ],
+   "status": "Open"
+  },
+  {
+   "id": "fetch-vacancy",
+   "subject": "District 4 vacancy notice",
+   "field": "official vacancy record",
+   "kind": "needs-browser-fetch",
+   "url": "https://www.PascoVotes.gov/Portals/Pasco/Documents/BOCCdistrict 4Vacancy.pdf",
+   "versions": [
+    {
+     "value": "Fetch failed at the site",
+     "sources": [
+      "soe-2024"
+     ]
+    }
+   ],
+   "status": "Open"
+  }
+ ]
+}

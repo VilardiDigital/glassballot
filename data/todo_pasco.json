@@ -1,0 +1,99 @@
+[
+ {
+  "id": "links-vazquez",
+  "subject": "Stephanie Vazquez",
+  "field": "campaign links",
+  "kind": "needs-browser-fetch",
+  "url": "https://stephanievazquez.com",
+  "versions": [
+   {
+    "value": "SOE list gives campaign email contact@stephanievazquez.com; site not fetched, so not listed as a link",
+    "sources": [
+     "soe-2026"
+    ]
+   }
+  ],
+  "status": "Open"
+ },
+ {
+  "id": "links-coward",
+  "subject": "Kimberly Coward",
+  "field": "campaign links",
+  "kind": "needs-browser-fetch",
+  "url": "https://kimberlycoward.com",
+  "versions": [
+   {
+    "value": "SOE list gives campaign email campaign@kimberlycoward.com; site not fetched, so not listed as a link",
+    "sources": [
+     "soe-2026"
+    ]
+   }
+  ],
+  "status": "Open"
+ },
+ {
+  "id": "fetch-county-agendas",
+  "subject": "BCC agendas and minutes",
+  "field": "vendor confirmation",
+  "kind": "needs-browser-fetch",
+  "url": "https://www.pascocountyfl.gov/government/agendas_minutes.php",
+  "versions": [
+   {
+    "value": "CivicClerk API file stream confirmed; portal listing page not fetched",
+    "sources": [
+     "cc-agenda",
+     "pascowatch-aug5"
+    ]
+   }
+  ],
+  "status": "Open"
+ },
+ {
+  "id": "fetch-legistar",
+  "subject": "Legistar API test",
+  "field": "API",
+  "kind": "needs-browser-fetch",
+  "url": "https://webapi.legistar.com/v1/pasco/bodies",
+  "versions": [
+   {
+    "value": "Not fetchable from tools; also try https://webapi.legistar.com/v1/pascocountyfl/bodies. Pasco appears to use CivicClerk, not Legistar.",
+    "sources": [
+     "cc-agenda"
+    ]
+   }
+  ],
+  "status": "Open"
+ },
+ {
+  "id": "fetch-voterfocus",
+  "subject": "Campaign finance",
+  "field": "candidate ca= ids",
+  "kind": "needs-browser-fetch",
+  "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?el=38&c=pasco",
+  "versions": [
+   {
+    "value": "Election id el=38 visible on SOE page; candidate list page not fetchable",
+    "sources": [
+     "soe-cands"
+    ]
+   }
+  ],
+  "status": "Open"
+ },
+ {
+  "id": "fetch-vacancy",
+  "subject": "District 4 vacancy notice",
+  "field": "official vacancy record",
+  "kind": "needs-browser-fetch",
+  "url": "https://www.PascoVotes.gov/Portals/Pasco/Documents/BOCCdistrict 4Vacancy.pdf",
+  "versions": [
+   {
+    "value": "Fetch failed at the site",
+    "sources": [
+     "soe-2024"
+    ]
+   }
+  ],
+  "status": "Open"
+ }
+]

@@ -1,0 +1,5576 @@
+{
+ "county": {
+  "id": "pinellas",
+  "name": "Pinellas County",
+  "state": "FL",
+  "body": "Board of County Commissioners",
+  "electionDate": "2026-11-03",
+  "seats": "7 commissioners. Districts 1, 2 and 3 are at-large, so every Pinellas voter votes on them. Districts 4 to 7 are single-member, so only voters who live in that district vote."
+ },
+ "generatedAt": "2026-10-26",
+ "accessed": "2026-10-26",
+ "legistarLoaded": true,
+ "legistarTotals": {
+  "meetings": 42,
+  "meetingsWithRollCalls": 37,
+  "items": 1346,
+  "rollCalls": 1268,
+  "splitRollCalls": 38,
+  "abstentions": 1,
+  "tallyMismatches": 0
+ },
+ "legistarScope": "Board of County Commissioners regular and special meetings, Nov 19, 2024 to Oct 22, 2026 (the current seven members)",
+ "legistarPulledAt": "2026-10-26T16:48:14Z",
+ "sources": {
+  "pc-bcc": {
+   "title": "Pinellas County Board of County Commissioners",
+   "url": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/",
+   "publisher": "Pinellas County",
+   "tier": 1
+  },
+  "pc-terms": {
+   "title": "Pinellas County commission districts and terms",
+   "url": "https://pinellas.gov/wp-content/uploads/2024/06/BCC-At_large_18Nov24.pdf",
+   "publisher": "Pinellas County",
+   "tier": 1
+  },
+  "pc-2026": {
+   "title": "2026 BCC meeting schedule",
+   "url": "https://pinellas.gov/wp-content/uploads/2025/09/bcc-meetings-2026.pdf",
+   "publisher": "Pinellas County",
+   "tier": 1
+  },
+  "soe-offices": {
+   "title": "Offices up for election",
+   "url": "https://www.votepinellas.gov/222/Offices-up-for-Election",
+   "publisher": "Pinellas Supervisor of Elections",
+   "tier": 1
+  },
+  "soe-finance": {
+   "title": "Search financial report transactions",
+   "url": "https://www.votepinellas.gov/221/Search-Financial-Report-Transactions",
+   "publisher": "Pinellas Supervisor of Elections",
+   "tier": 1
+  },
+  "legistar": {
+   "title": "Pinellas County Legistar (agendas, minutes, votes)",
+   "url": "https://pinellas.legistar.com/Calendar.aspx",
+   "publisher": "Pinellas County",
+   "tier": 1
+  },
+  "ballotpedia": {
+   "title": "Government of Pinellas County, Florida",
+   "url": "https://ballotpedia.org/Government_of_Pinellas_County,_Florida",
+   "publisher": "Ballotpedia",
+   "tier": 3
+  },
+  "bb-d2": {
+   "title": "Commissioner District 2 (At Large)",
+   "url": "https://theballotbrief.com/state/florida/pinellas-county/commissioner-district-2-at-large",
+   "publisher": "The Ballot Brief",
+   "tier": 3,
+   "caution": "Says it is written with AI assistance."
+  },
+  "bb-d4": {
+   "title": "Commissioner District 4",
+   "url": "https://theballotbrief.com/state/florida/pinellas-county/commissioner-district-4",
+   "publisher": "The Ballot Brief",
+   "tier": 3,
+   "caution": "Says it is written with AI assistance."
+  },
+  "bb-d6": {
+   "title": "Commissioner District 6",
+   "url": "https://theballotbrief.com/state/florida/pinellas-county/commissioner-district-6",
+   "publisher": "The Ballot Brief",
+   "tier": 3,
+   "caution": "Says it is written with AI assistance."
+  },
+  "bb-sb3": {
+   "title": "School Board District 3 (At Large)",
+   "url": "https://theballotbrief.com/state/florida/pinellas-county/school-board-district-3-at-large",
+   "publisher": "The Ballot Brief",
+   "tier": 3,
+   "caution": "Says it is written with AI assistance."
+  },
+  "bb-county": {
+   "title": "Pinellas County races",
+   "url": "https://theballotbrief.com/state/florida/pinellas-county",
+   "publisher": "The Ballot Brief",
+   "tier": 3,
+   "caution": "Says it is written with AI assistance."
+  },
+  "wiki-latvala": {
+   "title": "Chris Latvala",
+   "url": "https://en.wikipedia.org/wiki/Chris_Latvala",
+   "publisher": "Wikipedia",
+   "tier": 3
+  },
+  "patch-2024": {
+   "title": "GOP candidates lead Pinellas County Commission races (unofficial results)",
+   "url": "https://patch.com/florida/stpete/gop-candidates-lead-pinellas-county-commission-races-unofficial-resul",
+   "publisher": "Patch",
+   "tier": 4
+  },
+  "wusf-flowers": {
+   "title": "Democrat Rene Flowers will advance to Pinellas Commission District 7 race",
+   "url": "https://www.wusf.org/news/2020-08-19/democrat-rene-flowers-will-advance-to-pinellas-commission-district-7-race",
+   "publisher": "WUSF",
+   "tier": 4
+  },
+  "tbt-rays": {
+   "title": "Pinellas commissioners approve Rays stadium bonds in 5-2 vote",
+   "url": "https://www.tampabay.com/news/pinellas/2024/12/17/live-updates-pinellas-rays-stadium-bond-vote/",
+   "publisher": "Tampa Bay Times",
+   "tier": 4
+  },
+  "fp-rays": {
+   "title": "After 2 delays, Pinellas County Commission approves Rays stadium bonds",
+   "url": "https://floridapolitics.com/archives/712527-after-2-delays-pinellas-county-commission-approves-rays-stadium-bonds-keeping-the-hope-of-major-league-baseball-alive/",
+   "publisher": "Florida Politics",
+   "tier": 4
+  },
+  "bloomberg-rays": {
+   "title": "MLB's Rays bail on deal for new ballpark in St. Petersburg",
+   "url": "https://www.bloomberg.com/news/articles/2025-03-13/mlb-s-rays-bail-on-deal-for-new-ballpark-in-st-petersburg",
+   "publisher": "Bloomberg",
+   "tier": 4
+  },
+  "cat-fy27": {
+   "title": "County approves property tax rate decrease in first budget vote",
+   "url": "https://stpetecatalyst.com/zaps/county-approves-property-tax-rate-decrease-in-first-budget-vote/",
+   "publisher": "St. Pete Catalyst",
+   "tier": 4
+  },
+  "cat-trim": {
+   "title": "Pinellas launches budget process amid tax uncertainty",
+   "url": "https://stpetecatalyst.com/pinellas-launches-budget-process-amid-tax-uncertainty/",
+   "publisher": "St. Pete Catalyst",
+   "tier": 4
+  },
+  "tbt-opioid": {
+   "title": "Pinellas County mental health and addiction services to expand",
+   "url": "https://www.tampabay.com/news/pinellas/2026/09/25/opioid-settlement-funds-pinellas-county/",
+   "publisher": "Tampa Bay Times",
+   "tier": 4
+  },
+  "govly-aug25": {
+   "title": "Pinellas County BCC meeting summary, Aug 25, 2026",
+   "url": "https://app.govly.com/public/meetings/72632",
+   "publisher": "Govly",
+   "tier": 4,
+   "caution": "Automated meeting summary."
+  },
+  "govly-sep3": {
+   "title": "Pinellas County BCC work session summary, Sep 3, 2026",
+   "url": "https://app.govly.com/public/meetings/75491",
+   "publisher": "Govly",
+   "tier": 4,
+   "caution": "Automated meeting summary."
+  },
+  "soe-cf": {
+   "title": "Pinellas Supervisor of Elections campaign finance reports (VoterFocus)",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=Pinellas",
+   "publisher": "Pinellas Supervisor of Elections",
+   "tier": 1
+  },
+  "ethics-efdms": {
+   "title": "Florida Commission on Ethics, financial disclosure filings search",
+   "url": "https://disclosure.floridaethics.gov/PublicSearch/Filings",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1
+  },
+  "sunbiz": {
+   "title": "Florida Division of Corporations: Rowland (DE), LLC",
+   "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?inquiryType=EntityName&searchNameOrder=ROWLANDDE&searchTerm=ROWLAND%20DE",
+   "publisher": "Florida Division of Corporations",
+   "tier": 1
+  },
+  "flbar-disclosure": {
+   "title": "It's financial disclosure season (deadlines and fines)",
+   "url": "https://www.floridabar.org/the-florida-bar-news/its-financial-disclosure-season-7/",
+   "publisher": "The Florida Bar News",
+   "tier": 4
+  }
+ },
+ "people": [
+  {
+   "id": "scherer",
+   "name": "Chris Scherer",
+   "office": "County Commissioner",
+   "district": "1",
+   "seatType": "At-large",
+   "status": "incumbent",
+   "money": {
+    "cycle": "2024",
+    "total": 170767,
+    "inKind": 1816,
+    "loans": 0,
+    "self": 15280,
+    "donors": 334,
+    "pctPinellas": 76,
+    "pctOutOfState": 2
+   },
+   "facts": {
+    "party": {
+     "value": "Republican",
+     "label": "unverified",
+     "sources": [
+      "patch-2024"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "inOfficeSince": {
+     "value": "Nov 19, 2024",
+     "label": "unverified",
+     "sources": [
+      "ballotpedia"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "term": {
+     "value": "2024 to 2028",
+     "label": "single",
+     "sources": [
+      "pc-terms"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "leadership": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "job": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "roles": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "pastOffice": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "lastElection": {
+     "value": "Won 2024 with 52.98% (unofficial) over Joanne \"Cookie\" Kennedy (D)",
+     "label": "unverified",
+     "sources": [
+      "patch-2024"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "record": {
+     "value": "Voted on 1,222 roll calls: 1,210 yes, 12 no. Marked absent on 46 items.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "attendance": {
+     "value": "Attended 36 of 37 meetings with roll calls",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "conflicts": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "filings": {
+     "value": [
+      "Form 6 for 2024: filed Sep 16, 2025, after the September 1 cutoff, when automatic $25-a-day fines apply",
+      "Form 6 for 2025: filed Sep 3, 2026, after the September 1 cutoff, when automatic $25-a-day fines apply"
+     ],
+     "label": "verified",
+     "sources": [
+      "ethics-efdms",
+      "flbar-disclosure"
+     ]
+    },
+    "raised": {
+     "value": "$170,767 for the 2024 campaign (reports through Oct 31, 2024)",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "moneyWhere": {
+     "value": "76% from inside Pinellas, 2% from out of state, 334 donors",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "moneyOwn": {
+     "value": "$15,280 from the candidate; $1,816 in goods and services (in-kind)",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "topOrgDonors": {
+     "value": [
+      "Friends of Nick DiCeglie: $2,000",
+      "Feldman Equities, LLC: $1,500",
+      "Bay Area Metro, LLC: $1,000",
+      "Cone & Graham, Inc.: $1,000",
+      "HNTB Holdings Ltd. PAC: $1,000",
+      "FTBA Transportation PAC: $1,000"
+     ],
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "officialGifts": {
+     "value": [
+      "Gave $220 to Kathleen Peters's campaign (Sep 2025 to Feb 2026). Listed occupation: Local Govt..",
+      "Gave $150 to Dave Eggers's campaign (Oct 2025). Name and city match; listed occupation: Contractor."
+     ],
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "promises": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    }
+   },
+   "required": [
+    "party",
+    "inOfficeSince"
+   ],
+   "votes": [
+    {
+     "vote": "lg-97655",
+     "how": "no"
+    },
+    {
+     "vote": "behavioral-urgent-care",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-97796",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-97348",
+     "how": "no"
+    },
+    {
+     "vote": "fy27-tentative",
+     "how": "yes"
+    },
+    {
+     "vote": "airport-rental-cars",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-97157",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96765",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96763",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96842",
+     "how": "no"
+    },
+    {
+     "vote": "lg-96804",
+     "how": "no"
+    },
+    {
+     "vote": "lg-96551",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96263",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-95566",
+     "how": "no"
+    },
+    {
+     "vote": "lg-95336",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-95280",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-95249",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-94936",
+     "how": "no"
+    },
+    {
+     "vote": "lg-94597",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-94324",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-94414",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-94047",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93963",
+     "how": "no"
+    },
+    {
+     "vote": "lg-93830",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93995",
+     "how": "no"
+    },
+    {
+     "vote": "lg-93179",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93001",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93018",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-92807",
+     "how": "yes"
+    },
+    {
+     "vote": "rays-bonds",
+     "how": "no"
+    },
+    {
+     "vote": "lg-92080",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-91883",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-91835",
+     "how": "no"
+    }
+   ],
+   "score": {
+    "overall": null,
+    "parts": {
+     "conflict_handling": null,
+     "money_timing": 100.0,
+     "promise_match": null,
+     "openness": 48.6
+    },
+    "scoredVotes": 1222,
+    "reason": "Not enough record yet: 2 of 4 parts have data."
+   },
+   "tally": {
+    "aye": 1210,
+    "nay": 12,
+    "absent": 46,
+    "abstain": 0
+   }
+  },
+  {
+   "id": "scott",
+   "name": "Brian Scott",
+   "office": "County Commissioner",
+   "district": "2",
+   "seatType": "At-large",
+   "status": "incumbent",
+   "race": "bcc-d2",
+   "money": {
+    "cycle": "2026",
+    "total": 199089,
+    "inKind": 10000,
+    "loans": 0,
+    "self": 0,
+    "donors": 306,
+    "pctPinellas": 61,
+    "pctOutOfState": 9
+   },
+   "connections": [
+    {
+     "kind": "Donor named in a county vote",
+     "label": "verified",
+     "sources": [
+      "soe-cf",
+      "legistar"
+     ],
+     "inWindow": true,
+     "donor": "Cone & Graham, Inc.",
+     "amount": 1000,
+     "date": "2025-05-27",
+     "note": null,
+     "votes": [
+      "YES on Mar 25, 2025: Award of contract to Cone & Graham, Inc. for the Oakwood Drive Bridge Replacement project. (63 days after the gift)",
+      "Absent on Jun 17, 2025: Award of bid to Cone & Graham, Inc. for the 13th Street/Sands Point Drive Bridge replacement. (21 days before the gift)"
+     ]
+    },
+    {
+     "kind": "Donor named in a county vote",
+     "label": "verified",
+     "sources": [
+      "soe-cf",
+      "legistar"
+     ],
+     "inWindow": true,
+     "donor": "Waste Management Inc. of Florida",
+     "amount": 1000,
+     "date": "2026-05-12",
+     "note": null,
+     "votes": [
+      "YES on Jul 21, 2026: Award of bid to Waste Management Inc. of Florida for Lealman residential waste collection, disposal, and recycling services (consent agenda, 7 to 0). (70 days before the gift)"
+     ]
+    },
+    {
+     "kind": "Donor named in a county vote",
+     "label": "verified",
+     "sources": [
+      "soe-cf",
+      "legistar"
+     ],
+     "inWindow": false,
+     "donor": "Ajax Building Company, LLC",
+     "amount": 1000,
+     "date": "2026-09-21",
+     "note": null,
+     "votes": [
+      "YES on Aug 5, 2025: Agreement with Ajax Building Company, LLC for Construction Manager at Risk services for the new government campus (7 to 0). (412 days after the gift)"
+     ]
+    },
+    {
+     "kind": "Their own business gave to their campaign",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "inWindow": false,
+     "donor": "Escot Bus Lines, LLC and Escot Leasing, LLC",
+     "amount": 3000,
+     "date": "2026-10-16",
+     "note": "Commissioner Scott is president of Escot Bus Lines. No county agenda item since Nov 2024 names Escot. The campaign also reports paying Escot Bus Lines $3,745 on Aug 27, 2026, listed twice in the same report.",
+     "votes": []
+    }
+   ],
+   "facts": {
+    "party": {
+     "value": "Republican",
+     "label": "unverified",
+     "sources": [
+      "bb-d2"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "inOfficeSince": {
+     "value": "Nov 22, 2022",
+     "label": "unverified",
+     "sources": [
+      "ballotpedia"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "term": {
+     "value": "2022 to 2026",
+     "label": "single",
+     "sources": [
+      "pc-terms"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "leadership": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "job": {
+     "value": "President of Escot Bus Lines, a family-owned Pinellas transportation company",
+     "label": "unverified",
+     "sources": [
+      "bb-d2"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "roles": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "pastOffice": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "lastElection": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "record": {
+     "value": "Voted on 1,239 roll calls: 1,232 yes, 7 no. Marked absent on 29 items.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "attendance": {
+     "value": "Attended 36 of 37 meetings with roll calls",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "conflicts": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "filings": {
+     "value": [
+      "Form 6 for 2024: filed Jun 28, 2025",
+      "Form 6 for 2025: filed May 27, 2026"
+     ],
+     "label": "single",
+     "sources": [
+      "ethics-efdms"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "raised": {
+     "value": "$199,089 for the 2026 campaign (reports through Oct 16, 2026)",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "moneyWhere": {
+     "value": "61% from inside Pinellas, 9% from out of state, 306 donors",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "moneyOwn": {
+     "value": "$10,000 in goods and services (in-kind)",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "topOrgDonors": {
+     "value": [
+      "Pinellas County Republican Party: $10,000",
+      "Shumaker Florida Political Committee: $2,000",
+      "D & L Realty Contracting, LLC: $2,000",
+      "Escot Bus Lines, LLC: $2,000",
+      "Pinellas Holdings, LLC: $2,000",
+      "Brandon Construction Company: $2,000",
+      "Florida Realtors' 3 political committees combined: $6,000 (grouped by name)"
+     ],
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "officialGifts": {
+     "value": [
+      "Got $450 from Chris Latvala (Mar 2025 to Sep 2026). Listed occupation: County Commissioner.",
+      "Gave $1,000 to Kathleen Peters's campaign (Sep 2025). Name, city (Largo) and occupation (transportation executive) match; not self-identified as commissioner.",
+      "Gave $1,000 to Dave Eggers's campaign (Oct 2025). Name, city (Largo) and occupation (transportation executive) match; not self-identified as commissioner.",
+      "Got $250 from Vince Nowicki (Mar 2025 and Aug 2026). Name and city match; listed occupation: Realtor / Real Estate."
+     ],
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "promises": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    }
+   },
+   "required": [
+    "party",
+    "inOfficeSince",
+    "raised",
+    "promises"
+   ],
+   "votes": [
+    {
+     "vote": "lg-97655",
+     "how": "yes"
+    },
+    {
+     "vote": "behavioral-urgent-care",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-97796",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-97348",
+     "how": "yes"
+    },
+    {
+     "vote": "fy27-tentative",
+     "how": "yes"
+    },
+    {
+     "vote": "airport-rental-cars",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-97157",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96765",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96763",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96842",
+     "how": "no"
+    },
+    {
+     "vote": "lg-96804",
+     "how": "no"
+    },
+    {
+     "vote": "lg-96551",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96263",
+     "how": "no"
+    },
+    {
+     "vote": "lg-95566",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-95336",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-95280",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-95249",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-94936",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-94597",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-94324",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-94414",
+     "how": "no"
+    },
+    {
+     "vote": "lg-94047",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93963",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93830",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93995",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93179",
+     "how": "no"
+    },
+    {
+     "vote": "lg-93001",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93018",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-92807",
+     "how": "no"
+    },
+    {
+     "vote": "rays-bonds",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-92080",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-91883",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-91835",
+     "how": "yes"
+    }
+   ],
+   "score": {
+    "overall": null,
+    "parts": {
+     "conflict_handling": null,
+     "money_timing": 99.0,
+     "promise_match": null,
+     "openness": 98.6
+    },
+    "scoredVotes": 1239,
+    "reason": "Not enough record yet: 2 of 4 parts have data."
+   },
+   "tally": {
+    "aye": 1232,
+    "nay": 7,
+    "absent": 29,
+    "abstain": 0
+   }
+  },
+  {
+   "id": "hughes",
+   "name": "Tim Hughes",
+   "office": "Candidate, County Commission",
+   "district": "2",
+   "seatType": "At-large",
+   "status": "challenger",
+   "race": "bcc-d2",
+   "money": {
+    "cycle": "2026",
+    "total": 43331,
+    "inKind": 0,
+    "loans": 28500,
+    "self": 28500,
+    "donors": 107,
+    "pctPinellas": 52,
+    "pctOutOfState": 34
+   },
+   "facts": {
+    "party": {
+     "value": "Democrat",
+     "label": "unverified",
+     "sources": [
+      "bb-d2"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "inOfficeSince": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "term": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "leadership": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "job": {
+     "value": "Retired environmental specialist; about 20 years in watershed management for a Virginia public works department",
+     "label": "unverified",
+     "sources": [
+      "bb-d2"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "roles": {
+     "value": "Conservation chair, Suncoast Sierra Club; member, Clearwater community resiliency board",
+     "label": "unverified",
+     "sources": [
+      "bb-d2"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "pastOffice": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "lastElection": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "record": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "attendance": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "conflicts": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "filings": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "raised": {
+     "value": "$43,331 for the 2026 campaign (reports through Oct 11, 2026)",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "moneyWhere": {
+     "value": "52% from inside Pinellas, 34% from out of state, 107 donors",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "moneyOwn": {
+     "value": "$28,500 from the candidate (including $28,500 in loans)",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "topOrgDonors": {
+     "value": [
+      "Justice League Greater Tarpon Springs: $400",
+      "Greater Pinellas Dem Club: $300",
+      "Mid-Pinellas Progressive Political Committee: $200",
+      "North Pinellas County Democratic Club: $125"
+     ],
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "officialGifts": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "promises": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    }
+   },
+   "required": [
+    "party",
+    "raised",
+    "promises"
+   ],
+   "votes": [],
+   "score": {
+    "overall": null,
+    "parts": {
+     "conflict_handling": null,
+     "money_timing": null,
+     "promise_match": null,
+     "openness": null
+    },
+    "scoredVotes": 0,
+    "reason": "Not enough record yet: 0 of 25 scored votes loaded."
+   }
+  },
+  {
+   "id": "nowicki",
+   "name": "Vince Nowicki",
+   "office": "County Commissioner",
+   "district": "3",
+   "seatType": "At-large",
+   "status": "incumbent",
+   "money": {
+    "cycle": "2024",
+    "total": 119027,
+    "inKind": 1437,
+    "loans": 0,
+    "self": 1385,
+    "donors": 233,
+    "pctPinellas": 80,
+    "pctOutOfState": 4
+   },
+   "connections": [
+    {
+     "kind": "Donor linked by state business records to a county contractor",
+     "label": "single",
+     "sources": [
+      "soe-cf",
+      "sunbiz",
+      "legistar"
+     ],
+     "inWindow": false,
+     "donor": "Rowland, Inc.",
+     "amount": 1000,
+     "date": "2024-10-25",
+     "note": "The donor lists 6855 102nd Ave N, Pinellas Park. State business records give the same principal address for county contractor Rowland (DE), LLC, whose officers include Kevin and Kenneth Rowland.",
+     "votes": [
+      "YES on Jul 22, 2025: Change Order No. 1, $5,000,000, to the agreement with Rowland DE, LLC for annual sanitary sewer repairs and extensions (6 to 0). (270 days before the gift)"
+     ]
+    }
+   ],
+   "facts": {
+    "party": {
+     "value": "Republican",
+     "label": "unverified",
+     "sources": [
+      "patch-2024"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "inOfficeSince": {
+     "value": "Nov 19, 2024",
+     "label": "unverified",
+     "sources": [
+      "ballotpedia"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "term": {
+     "value": "2024 to 2028",
+     "label": "single",
+     "sources": [
+      "pc-terms"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "leadership": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "job": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "roles": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "pastOffice": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "lastElection": {
+     "value": "Won 2024 with 51.51% (unofficial) over incumbent Charlie Justice (D)",
+     "label": "unverified",
+     "sources": [
+      "patch-2024"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "record": {
+     "value": "Voted on 1,253 roll calls: 1,232 yes, 21 no. Marked absent on 15 items.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "attendance": {
+     "value": "Attended 37 of 37 meetings with roll calls",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "conflicts": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "filings": {
+     "value": [
+      "Form 6 for 2024: filed Jun 30, 2025",
+      "Form 6 for 2025: filed Jun 30, 2026"
+     ],
+     "label": "single",
+     "sources": [
+      "ethics-efdms"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "raised": {
+     "value": "$119,027 for the 2024 campaign (reports through Oct 31, 2024)",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "moneyWhere": {
+     "value": "80% from inside Pinellas, 4% from out of state, 233 donors",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "moneyOwn": {
+     "value": "$1,385 from the candidate; $1,437 in goods and services (in-kind)",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "topOrgDonors": {
+     "value": [
+      "Aanzr, LLC: $2,000",
+      "Friends of Chris Latvala: $1,500",
+      "Friends of Linda Chaney: $1,000",
+      "Blue Sky Communities: $1,000",
+      "Rowland, Inc.: $1,000",
+      "Brandon Construction Co.: $1,000"
+     ],
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "officialGifts": {
+     "value": [
+      "Gave $250 to Brian Scott's campaign (Mar 2025 and Aug 2026). Name and city match; listed occupation: Realtor / Real Estate.",
+      "Gave $150 to Kathleen Peters's campaign (Aug 2026). Name and city match; listed occupation: Real Estate.",
+      "Gave $100 to Dawn Peters's campaign (Apr 2026). Name and city match; listed occupation: Real Estate."
+     ],
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "promises": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    }
+   },
+   "required": [
+    "party",
+    "inOfficeSince"
+   ],
+   "votes": [
+    {
+     "vote": "lg-97655",
+     "how": "no"
+    },
+    {
+     "vote": "behavioral-urgent-care",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-97796",
+     "how": "no"
+    },
+    {
+     "vote": "lg-97348",
+     "how": "no"
+    },
+    {
+     "vote": "fy27-tentative",
+     "how": "yes"
+    },
+    {
+     "vote": "airport-rental-cars",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-97157",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96765",
+     "how": "no"
+    },
+    {
+     "vote": "lg-96763",
+     "how": "no"
+    },
+    {
+     "vote": "lg-96842",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96804",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96551",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96263",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-95566",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-95336",
+     "how": "no"
+    },
+    {
+     "vote": "lg-95280",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-95249",
+     "how": "no"
+    },
+    {
+     "vote": "lg-94936",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-94597",
+     "how": "no"
+    },
+    {
+     "vote": "lg-94324",
+     "how": "no"
+    },
+    {
+     "vote": "lg-94414",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-94047",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93963",
+     "how": "no"
+    },
+    {
+     "vote": "lg-93830",
+     "how": "no"
+    },
+    {
+     "vote": "lg-93995",
+     "how": "no"
+    },
+    {
+     "vote": "lg-93179",
+     "how": "no"
+    },
+    {
+     "vote": "lg-93001",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93018",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-92807",
+     "how": "yes"
+    },
+    {
+     "vote": "rays-bonds",
+     "how": "no"
+    },
+    {
+     "vote": "lg-92080",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-91883",
+     "how": "no"
+    },
+    {
+     "vote": "lg-91835",
+     "how": "no"
+    }
+   ],
+   "score": {
+    "overall": null,
+    "parts": {
+     "conflict_handling": null,
+     "money_timing": 100.0,
+     "promise_match": null,
+     "openness": 100.0
+    },
+    "scoredVotes": 1253,
+    "reason": "Not enough record yet: 2 of 4 parts have data."
+   },
+   "tally": {
+    "aye": 1232,
+    "nay": 21,
+    "absent": 15,
+    "abstain": 0
+   }
+  },
+  {
+   "id": "eggers",
+   "name": "Dave Eggers",
+   "office": "County Commissioner",
+   "district": "4",
+   "seatType": "Single-member",
+   "status": "incumbent",
+   "race": "bcc-d4",
+   "money": {
+    "cycle": "2026",
+    "total": 51959,
+    "inKind": 10500,
+    "loans": 0,
+    "self": 0,
+    "donors": 100,
+    "pctPinellas": 67,
+    "pctOutOfState": 3
+   },
+   "facts": {
+    "party": {
+     "value": "Republican",
+     "label": "unverified",
+     "sources": [
+      "bb-d4"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "inOfficeSince": {
+     "value": "2014",
+     "label": "unverified",
+     "sources": [
+      "ballotpedia",
+      "bb-d4"
+     ],
+     "note": "2 independent sources agree, but none is an official record yet."
+    },
+    "term": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "leadership": {
+     "value": "2026 Chairman",
+     "label": "single",
+     "sources": [
+      "pc-bcc"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "job": {
+     "value": "Businessman and former mayor of Dunedin",
+     "label": "unverified",
+     "sources": [
+      "bb-d4"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "roles": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "pastOffice": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "lastElection": {
+     "value": "Won the Aug 18, 2026 Republican primary with 78.5% over Anthony Ringelspaugh (unofficial)",
+     "label": "unverified",
+     "sources": [
+      "bb-d4"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "record": {
+     "value": "Voted on 1,214 roll calls: 1,209 yes, 5 no. Marked absent on 54 items.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "attendance": {
+     "value": "Attended 36 of 37 meetings with roll calls",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "conflicts": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "filings": {
+     "value": [
+      "Form 6 for 2024: filed Jun 29, 2025",
+      "Form 6 for 2025: filed May 26, 2026"
+     ],
+     "label": "single",
+     "sources": [
+      "ethics-efdms"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "raised": {
+     "value": "$51,959 for the 2026 campaign (reports through Aug 11, 2026)",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "moneyWhere": {
+     "value": "67% from inside Pinellas, 3% from out of state, 100 donors",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "moneyOwn": {
+     "value": "$10,500 in goods and services (in-kind)",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "topOrgDonors": {
+     "value": [
+      "Pinellas County Republican Party: $10,000",
+      "Friends of Ed Hooper: $1,000",
+      "Friends of Adam Ross: $1,000",
+      "Jetstream Strategies, LLC: $1,000",
+      "Marina Bay Development IV LLC: $1,000",
+      "Home Port Marina Inc: $1,000",
+      "Florida Realtors' 3 political committees combined: $3,000 (grouped by name)"
+     ],
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "officialGifts": {
+     "value": [
+      "Got $200 from Chris Latvala (Jan to Jun 2026). Listed occupation: Commissioner.",
+      "Got $1,000 from Brian Scott (Oct 2025). Name, city (Largo) and occupation (transportation executive) match; not self-identified as commissioner.",
+      "Got $150 from Chris Scherer (Oct 2025). Name and city match; listed occupation: Contractor."
+     ],
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "promises": {
+     "value": [
+      "Storm recovery and community resilience",
+      "Reduce property taxes and cut wasteful spending",
+      "Beach renourishment and support for law enforcement, veterans, and seniors"
+     ],
+     "label": "unverified",
+     "sources": [
+      "bb-d4"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    }
+   },
+   "required": [
+    "party",
+    "inOfficeSince",
+    "raised",
+    "promises"
+   ],
+   "votes": [
+    {
+     "vote": "lg-97655",
+     "how": "yes"
+    },
+    {
+     "vote": "behavioral-urgent-care",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-97796",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-97348",
+     "how": "yes"
+    },
+    {
+     "vote": "fy27-tentative",
+     "how": "yes"
+    },
+    {
+     "vote": "airport-rental-cars",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-97157",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96765",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96763",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96842",
+     "how": "no"
+    },
+    {
+     "vote": "lg-96804",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96551",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96263",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-95566",
+     "how": "absent"
+    },
+    {
+     "vote": "lg-95336",
+     "how": "absent"
+    },
+    {
+     "vote": "lg-95280",
+     "how": "absent"
+    },
+    {
+     "vote": "lg-95249",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-94936",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-94597",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-94324",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-94414",
+     "how": "no"
+    },
+    {
+     "vote": "lg-94047",
+     "how": "no"
+    },
+    {
+     "vote": "lg-93963",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93830",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93995",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93179",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93001",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93018",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-92807",
+     "how": "yes"
+    },
+    {
+     "vote": "rays-bonds",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-92080",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-91883",
+     "how": "no"
+    },
+    {
+     "vote": "lg-91835",
+     "how": "yes"
+    }
+   ],
+   "score": {
+    "overall": null,
+    "parts": {
+     "conflict_handling": null,
+     "money_timing": 100.0,
+     "promise_match": null,
+     "openness": 98.6
+    },
+    "scoredVotes": 1214,
+    "reason": "Not enough record yet: 2 of 4 parts have data."
+   },
+   "tally": {
+    "aye": 1209,
+    "nay": 5,
+    "absent": 54,
+    "abstain": 0
+   }
+  },
+  {
+   "id": "latvala",
+   "name": "Chris Latvala",
+   "office": "County Commissioner",
+   "district": "5",
+   "seatType": "Single-member",
+   "status": "incumbent",
+   "money": {
+    "cycle": "2022",
+    "total": 22525,
+    "inKind": 0,
+    "loans": 0,
+    "self": 0,
+    "donors": 55,
+    "pctPinellas": 80,
+    "pctOutOfState": 0
+   },
+   "facts": {
+    "party": {
+     "value": "Republican",
+     "label": "unverified",
+     "sources": [
+      "wiki-latvala"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "inOfficeSince": {
+     "value": null,
+     "label": "conflict",
+     "sources": [
+      "wiki-latvala",
+      "ballotpedia"
+     ],
+     "versions": [
+      {
+       "value": "Nov 8, 2022",
+       "sources": [
+        "wiki-latvala"
+       ],
+       "official": false,
+       "bestTier": 3
+      },
+      {
+       "value": "Nov 22, 2022",
+       "sources": [
+        "ballotpedia"
+       ],
+       "official": false,
+       "bestTier": 3
+      }
+     ]
+    },
+    "term": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "leadership": {
+     "value": "2026 Vice Chairman",
+     "label": "single",
+     "sources": [
+      "pc-bcc"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "job": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "roles": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "pastOffice": {
+     "value": "Florida House, District 67, 2014 to 2022",
+     "label": "unverified",
+     "sources": [
+      "wiki-latvala"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "lastElection": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "record": {
+     "value": "Voted on 1,126 roll calls: 1,118 yes, 8 no. Marked absent on 142 items.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "attendance": {
+     "value": "Attended 34 of 37 meetings with roll calls",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "conflicts": {
+     "value": [
+      "Asked about a possible conflict on 2024-11-19: In response to comments and a query by Commissioner Latvala regarding a potential conflict of interest, Attorney White related that the situation is not a prohibited conflict and does not require that he abstain from voting on this item."
+     ],
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "filings": {
+     "value": [
+      "Form 6 for 2024: filed Jun 9, 2025",
+      "Form 6 for 2025: filed Jun 10, 2026"
+     ],
+     "label": "single",
+     "sources": [
+      "ethics-efdms"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "raised": {
+     "value": "$22,525 for the 2022 campaign (reports through Jun 14, 2022)",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "moneyWhere": {
+     "value": "80% from inside Pinellas, 0% from out of state, 55 donors",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "moneyOwn": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "topOrgDonors": {
+     "value": [
+      "16361, LLC: $1,000",
+      "Bottoms Up of Tampa Bay, LLC: $1,000",
+      "MHH Enterprises, Inc.: $1,000",
+      "Committee to Protect Florida: $1,000",
+      "West Coast Automotive Group: $1,000",
+      "Mark3 Limited, LLC: $1,000"
+     ],
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "officialGifts": {
+     "value": [
+      "Gave $450 to Brian Scott's campaign (Mar 2025 to Sep 2026). Listed occupation: County Commissioner.",
+      "Gave $100 to Kathleen Peters's campaign (Jun 2026). Listed occupation: Local Govt..",
+      "Gave $200 to Dave Eggers's campaign (Jan to Jun 2026). Listed occupation: Commissioner."
+     ],
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "promises": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    }
+   },
+   "required": [
+    "party",
+    "inOfficeSince"
+   ],
+   "votes": [
+    {
+     "vote": "lg-97655",
+     "how": "no"
+    },
+    {
+     "vote": "behavioral-urgent-care",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-97796",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-97348",
+     "how": "no"
+    },
+    {
+     "vote": "fy27-tentative",
+     "how": "yes"
+    },
+    {
+     "vote": "airport-rental-cars",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-97157",
+     "how": "no"
+    },
+    {
+     "vote": "lg-96765",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96763",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96842",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96804",
+     "how": "no"
+    },
+    {
+     "vote": "lg-96551",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96263",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-95566",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-95336",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-95280",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-95249",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-94936",
+     "how": "absent"
+    },
+    {
+     "vote": "lg-94597",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-94324",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-94414",
+     "how": "no"
+    },
+    {
+     "vote": "lg-94047",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93963",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93830",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93995",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93179",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93001",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93018",
+     "how": "no"
+    },
+    {
+     "vote": "lg-92807",
+     "how": "yes"
+    },
+    {
+     "vote": "rays-bonds",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-92080",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-91883",
+     "how": "no"
+    },
+    {
+     "vote": "lg-91835",
+     "how": "yes"
+    }
+   ],
+   "score": {
+    "overall": null,
+    "parts": {
+     "conflict_handling": null,
+     "money_timing": 100.0,
+     "promise_match": null,
+     "openness": 95.9
+    },
+    "scoredVotes": 1126,
+    "reason": "Not enough record yet: 2 of 4 parts have data."
+   },
+   "tally": {
+    "aye": 1118,
+    "nay": 8,
+    "absent": 142,
+    "abstain": 0
+   }
+  },
+  {
+   "id": "peters",
+   "name": "Kathleen Peters",
+   "office": "County Commissioner",
+   "district": "6",
+   "seatType": "Single-member",
+   "status": "incumbent",
+   "race": "bcc-d6",
+   "money": {
+    "cycle": "2026",
+    "total": 189964,
+    "inKind": 10000,
+    "loans": 0,
+    "self": 0,
+    "donors": 252,
+    "pctPinellas": 71,
+    "pctOutOfState": 3
+   },
+   "connections": [
+    {
+     "kind": "Donor named in a county vote",
+     "label": "verified",
+     "sources": [
+      "soe-cf",
+      "legistar"
+     ],
+     "inWindow": false,
+     "donor": "Waste Management, Inc. of FL",
+     "amount": 1000,
+     "date": "2026-03-18",
+     "note": null,
+     "votes": [
+      "YES on Jul 21, 2026: Award of bid to Waste Management Inc. of Florida for Lealman residential waste collection (consent agenda, 7 to 0). (125 days before the gift)"
+     ]
+    },
+    {
+     "kind": "Possible donor link to a county vote",
+     "label": "unverified",
+     "sources": [
+      "soe-cf",
+      "legistar"
+     ],
+     "inWindow": true,
+     "donor": "WGI Infrastructure PAC",
+     "amount": 1000,
+     "date": "2026-07-21",
+     "note": "The PAC's name matches engineering firm WGI, Inc.; the link between the PAC and the firm is not yet confirmed.",
+     "votes": [
+      "YES on Jun 16, 2026: Ranking of firms and agreement with WGI, Inc. for the Crystal Beach Drainage and Roadway Improvements (consent agenda, 7 to 0). (35 days after the gift)"
+     ]
+    },
+    {
+     "kind": "Donor named in a county vote",
+     "label": "verified",
+     "sources": [
+      "soe-cf",
+      "legistar"
+     ],
+     "inWindow": false,
+     "donor": "Bayside Dredging, LLC",
+     "amount": 1000,
+     "date": "2025-10-02",
+     "note": null,
+     "votes": [
+      "YES on Feb 17, 2026: Purchase authorization with Bayside Dredging, LLC for outfall maintenance services (7 to 0). (138 days before the gift)"
+     ]
+    },
+    {
+     "kind": "Donor named in a county vote",
+     "label": "verified",
+     "sources": [
+      "soe-cf",
+      "legistar"
+     ],
+     "inWindow": false,
+     "donor": "Ajax Building Company, LLC",
+     "amount": 1000,
+     "date": "2026-08-11",
+     "note": null,
+     "votes": [
+      "YES on Aug 5, 2025: Agreement with Ajax Building Company, LLC for Construction Manager at Risk services for the new government campus (7 to 0). (371 days after the gift)"
+     ]
+    },
+    {
+     "kind": "Donor's industry regulated by a county vote",
+     "label": "single",
+     "sources": [
+      "soe-cf",
+      "legistar"
+     ],
+     "inWindow": true,
+     "donor": "Commtow, LLC and A-1 Recovery, Inc. (towing companies)",
+     "amount": 2000,
+     "date": "2026-05-19",
+     "note": "Towing companies are regulated by the county's towing rates and ordinance. They were not named in these items.",
+     "votes": [
+      "YES on Jun 16, 2026: Set county towing rates: $175 base tow, $60 mileage, $35 storage (4 to 3; Peters seconded). (28 days before the gift)",
+      "YES on Jul 21, 2026: Amended the County Towing Ordinance, adding a fuel surcharge, inflation increases and an EV fee (4 to 3; Peters made the motion). (63 days before the gift)"
+     ]
+    },
+    {
+     "kind": "Donor's industry regulated by a county vote",
+     "label": "single",
+     "sources": [
+      "soe-cf",
+      "legistar"
+     ],
+     "inWindow": true,
+     "donor": "Joe's Towing & Recovery, Inc.",
+     "amount": 250,
+     "date": "2026-06-22",
+     "note": "Towing company; not named in the item.",
+     "votes": [
+      "YES on Jul 21, 2026: Amended the County Towing Ordinance (4 to 3; Peters made the motion). (29 days before the gift)"
+     ]
+    }
+   ],
+   "facts": {
+    "party": {
+     "value": "Republican",
+     "label": "unverified",
+     "sources": [
+      "bb-d6"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "inOfficeSince": {
+     "value": null,
+     "label": "conflict",
+     "sources": [
+      "bb-d6",
+      "ballotpedia"
+     ],
+     "versions": [
+      {
+       "value": "2018",
+       "sources": [
+        "bb-d6"
+       ],
+       "official": false,
+       "bestTier": 3
+      },
+      {
+       "value": "2019",
+       "sources": [
+        "ballotpedia"
+       ],
+       "official": false,
+       "bestTier": 3
+      }
+     ]
+    },
+    "term": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "leadership": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "job": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "roles": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "pastOffice": {
+     "value": "Florida House, 6 years",
+     "label": "unverified",
+     "sources": [
+      "bb-d6"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "lastElection": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "record": {
+     "value": "Voted on 1,040 roll calls: 1,037 yes, 3 no. Marked absent on 228 items.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "attendance": {
+     "value": "Attended 34 of 37 meetings with roll calls",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "conflicts": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "filings": {
+     "value": [
+      "Form 6 for 2024: filed Jun 2, 2025",
+      "Form 6 for 2025: filed May 27, 2026",
+      "Form 6X (amendment) for 2025: filed Jun 9, 2026"
+     ],
+     "label": "single",
+     "sources": [
+      "ethics-efdms"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "raised": {
+     "value": "$189,964 for the 2026 campaign (reports through Oct 15, 2026)",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "moneyWhere": {
+     "value": "71% from inside Pinellas, 3% from out of state, 252 donors",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "moneyOwn": {
+     "value": "$10,000 in goods and services (in-kind)",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "topOrgDonors": {
+     "value": [
+      "Pinellas County Republican Party: $10,000",
+      "Nicklaus of Florida, Inc.: $2,000",
+      "Myers Consulting Group, LLC: $2,000",
+      "Grease Depot, Inc.: $2,000",
+      "Amscot Corporation: $2,000",
+      "Apartment Political Action Committee: $2,000",
+      "Florida Realtors' 3 political committees combined: $6,000 (grouped by name)"
+     ],
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "officialGifts": {
+     "value": [
+      "Got $100 from Chris Latvala (Jun 2026). Listed occupation: Local Govt..",
+      "Got $1,000 from Brian Scott (Sep 2025). Name, city (Largo) and occupation (transportation executive) match; not self-identified as commissioner.",
+      "Got $220 from Chris Scherer (Sep 2025 to Feb 2026). Listed occupation: Local Govt..",
+      "Got $150 from Vince Nowicki (Aug 2026). Name and city match; listed occupation: Real Estate."
+     ],
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "promises": {
+     "value": [
+      "Behavioral health treatment reform",
+      "Public safety and fiscal responsibility",
+      "Environmental protection and critical infrastructure"
+     ],
+     "label": "unverified",
+     "sources": [
+      "bb-d6"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    }
+   },
+   "required": [
+    "party",
+    "inOfficeSince",
+    "raised",
+    "promises"
+   ],
+   "votes": [
+    {
+     "vote": "lg-97655",
+     "how": "yes"
+    },
+    {
+     "vote": "behavioral-urgent-care",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-97796",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-97348",
+     "how": "yes"
+    },
+    {
+     "vote": "fy27-tentative",
+     "how": "yes"
+    },
+    {
+     "vote": "airport-rental-cars",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-97157",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96765",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96763",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96842",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96804",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96551",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96263",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-95566",
+     "how": "no"
+    },
+    {
+     "vote": "lg-95336",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-95280",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-95249",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-94936",
+     "how": "absent"
+    },
+    {
+     "vote": "lg-94597",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-94324",
+     "how": "absent"
+    },
+    {
+     "vote": "lg-94414",
+     "how": "no"
+    },
+    {
+     "vote": "lg-94047",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93963",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93830",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93995",
+     "how": "absent"
+    },
+    {
+     "vote": "lg-93179",
+     "how": "no"
+    },
+    {
+     "vote": "lg-93001",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93018",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-92807",
+     "how": "absent"
+    },
+    {
+     "vote": "rays-bonds",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-92080",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-91883",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-91835",
+     "how": "yes"
+    }
+   ],
+   "score": {
+    "overall": null,
+    "parts": {
+     "conflict_handling": null,
+     "money_timing": 100.0,
+     "promise_match": null,
+     "openness": 95.9
+    },
+    "scoredVotes": 1040,
+    "reason": "Not enough record yet: 2 of 4 parts have data."
+   },
+   "tally": {
+    "aye": 1037,
+    "nay": 3,
+    "absent": 228,
+    "abstain": 0
+   }
+  },
+  {
+   "id": "glenn",
+   "name": "David Glenn Jr.",
+   "office": "Candidate, County Commission",
+   "district": "6",
+   "seatType": "Single-member",
+   "status": "challenger",
+   "race": "bcc-d6",
+   "money": {
+    "cycle": "2026",
+    "total": 15105,
+    "inKind": 0,
+    "loans": 10067,
+    "self": 10067,
+    "donors": 54,
+    "pctPinellas": 80,
+    "pctOutOfState": 11
+   },
+   "facts": {
+    "party": {
+     "value": "Democrat",
+     "label": "unverified",
+     "sources": [
+      "bb-d6"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "inOfficeSince": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "term": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "leadership": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "job": {
+     "value": "Architect",
+     "label": "unverified",
+     "sources": [
+      "bb-d6"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "roles": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "pastOffice": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "lastElection": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "record": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "attendance": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "conflicts": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "filings": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "raised": {
+     "value": "$15,105 for the 2026 campaign (reports through Oct 16, 2026)",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "moneyWhere": {
+     "value": "80% from inside Pinellas, 11% from out of state, 54 donors",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "moneyOwn": {
+     "value": "$10,067 from the candidate (including $10,067 in loans)",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "topOrgDonors": {
+     "value": [
+      "MUGS Event Center: $268",
+      "Democratic Women's Club of Florida: $250",
+      "Democratic Club of St. Petersburg: $200",
+      "Largo/Mid-Pinellas Progressive Political Committee: $200"
+     ],
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "officialGifts": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "promises": {
+     "value": [
+      "Planned growth and land use",
+      "Affordable workforce housing",
+      "Funding for transit, libraries and parks"
+     ],
+     "label": "unverified",
+     "sources": [
+      "bb-d6"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    }
+   },
+   "required": [
+    "party",
+    "raised",
+    "promises"
+   ],
+   "votes": [],
+   "score": {
+    "overall": null,
+    "parts": {
+     "conflict_handling": null,
+     "money_timing": null,
+     "promise_match": null,
+     "openness": null
+    },
+    "scoredVotes": 0,
+    "reason": "Not enough record yet: 0 of 25 scored votes loaded."
+   }
+  },
+  {
+   "id": "flowers",
+   "name": "René Flowers",
+   "office": "County Commissioner",
+   "district": "7",
+   "seatType": "Single-member",
+   "status": "incumbent",
+   "money": {
+    "cycle": "2024",
+    "total": 18308,
+    "inKind": 158,
+    "loans": 699,
+    "self": 868,
+    "donors": 66,
+    "pctPinellas": 66,
+    "pctOutOfState": 9
+   },
+   "facts": {
+    "party": {
+     "value": "Democrat",
+     "label": "unverified",
+     "sources": [
+      "wusf-flowers"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "inOfficeSince": {
+     "value": "Nov 17, 2020",
+     "label": "unverified",
+     "sources": [
+      "ballotpedia"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "term": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "leadership": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "job": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "roles": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "pastOffice": {
+     "value": "Pinellas School Board from 2012; St. Petersburg City Council 1999 to 2008",
+     "label": "unverified",
+     "sources": [
+      "wusf-flowers"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "lastElection": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "record": {
+     "value": "Voted on 1,209 roll calls: 1,200 yes, 8 no, 1 abstained. Marked absent on 59 items.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "attendance": {
+     "value": "Attended 36 of 37 meetings with roll calls",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "conflicts": {
+     "value": [
+      "Recused on 2026-06-16: Commissioner Flowers noted that she must recuse herself from voting since she serves on the Board for the Area Agency on Aging of Pasco-Pinellas, which is one of the organizations recommended to receive Social Action funding."
+     ],
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "filings": {
+     "value": [
+      "Form 6 for 2024: filed Jun 29, 2025",
+      "Form 6 for 2025: filed Jul 1, 2026"
+     ],
+     "label": "single",
+     "sources": [
+      "ethics-efdms"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "raised": {
+     "value": "$18,308 for the 2024 campaign (reports through Sep 7, 2024)",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "moneyWhere": {
+     "value": "66% from inside Pinellas, 9% from out of state, 66 donors",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "moneyOwn": {
+     "value": "$868 from the candidate (including $699 in loans); $158 in goods and services (in-kind)",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "topOrgDonors": {
+     "value": [
+      "Cigna Group Employee PAC: $1,000",
+      "Greater Pinellas Dem Club PC: $1,000",
+      "IBEW Local Union 915 PAC: $1,000",
+      "IUOE Local 487 PAC Fund: $1,000",
+      "Pelican PAC: $500"
+     ],
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "officialGifts": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "promises": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    }
+   },
+   "required": [
+    "party",
+    "inOfficeSince"
+   ],
+   "votes": [
+    {
+     "vote": "lg-97655",
+     "how": "yes"
+    },
+    {
+     "vote": "behavioral-urgent-care",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-97796",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-97348",
+     "how": "yes"
+    },
+    {
+     "vote": "fy27-tentative",
+     "how": "yes"
+    },
+    {
+     "vote": "airport-rental-cars",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-97157",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96765",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96763",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96842",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96804",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-96551",
+     "how": "abstain"
+    },
+    {
+     "vote": "lg-96263",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-95566",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-95336",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-95280",
+     "how": "no"
+    },
+    {
+     "vote": "lg-95249",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-94936",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-94597",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-94324",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-94414",
+     "how": "no"
+    },
+    {
+     "vote": "lg-94047",
+     "how": "no"
+    },
+    {
+     "vote": "lg-93963",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93830",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93995",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93179",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-93001",
+     "how": "no"
+    },
+    {
+     "vote": "lg-93018",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-92807",
+     "how": "absent"
+    },
+    {
+     "vote": "rays-bonds",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-92080",
+     "how": "no"
+    },
+    {
+     "vote": "lg-91883",
+     "how": "yes"
+    },
+    {
+     "vote": "lg-91835",
+     "how": "yes"
+    }
+   ],
+   "score": {
+    "overall": null,
+    "parts": {
+     "conflict_handling": null,
+     "money_timing": 100.0,
+     "promise_match": null,
+     "openness": 98.6
+    },
+    "scoredVotes": 1209,
+    "reason": "Not enough record yet: 2 of 4 parts have data."
+   },
+   "tally": {
+    "aye": 1200,
+    "nay": 8,
+    "absent": 59,
+    "abstain": 1
+   }
+  },
+  {
+   "id": "dpeters",
+   "name": "Dawn Peters",
+   "office": "School Board Member",
+   "district": "3",
+   "seatType": "At-large",
+   "status": "incumbent",
+   "race": "sb-d3",
+   "nonpartisan": true,
+   "money": {
+    "cycle": "2026",
+    "total": 21925,
+    "inKind": 5000,
+    "loans": 0,
+    "self": 2800,
+    "donors": 51,
+    "pctPinellas": 92,
+    "pctOutOfState": 0
+   },
+   "facts": {
+    "party": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "inOfficeSince": {
+     "value": "Elected Nov 2022",
+     "label": "unverified",
+     "sources": [
+      "bb-sb3"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "term": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "leadership": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "job": {
+     "value": "Property management; certified substitute preschool teacher; former PTA officer",
+     "label": "unverified",
+     "sources": [
+      "bb-sb3"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "roles": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "pastOffice": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "lastElection": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "record": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "attendance": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "conflicts": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "filings": {
+     "value": [
+      "Form 6 for 2024: filed May 23, 2025",
+      "Form 6 for 2025: filed May 4, 2026"
+     ],
+     "label": "single",
+     "sources": [
+      "ethics-efdms"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "raised": {
+     "value": "$21,925 for the 2026 campaign (reports through Oct 15, 2026)",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "moneyWhere": {
+     "value": "92% from inside Pinellas, 0% from out of state, 51 donors",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "moneyOwn": {
+     "value": "$2,800 from the candidate; $5,000 in goods and services (in-kind)",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "topOrgDonors": {
+     "value": [
+      "Pinellas County Republican Party: $5,000",
+      "Belleair Republican PC: $800",
+      "Ajax Building Company: $500"
+     ],
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "officialGifts": {
+     "value": [
+      "Got $100 from Vince Nowicki (Apr 2026). Name and city match; listed occupation: Real Estate."
+     ],
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "promises": {
+     "value": [
+      "Pathways including college, career-technical, trades and military",
+      "Transparency and responsible governance",
+      "Support educators and keep students at the center"
+     ],
+     "label": "unverified",
+     "sources": [
+      "bb-sb3"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    }
+   },
+   "required": [
+    "inOfficeSince",
+    "raised",
+    "promises"
+   ],
+   "votes": [],
+   "score": {
+    "overall": null,
+    "parts": {
+     "conflict_handling": null,
+     "money_timing": null,
+     "promise_match": null,
+     "openness": 100.0
+    },
+    "scoredVotes": 0,
+    "reason": "Not enough record yet: 0 of 25 scored votes loaded."
+   }
+  },
+  {
+   "id": "campogni",
+   "name": "Curtis Campogni",
+   "office": "Candidate, School Board",
+   "district": "3",
+   "seatType": "At-large",
+   "status": "challenger",
+   "race": "sb-d3",
+   "nonpartisan": true,
+   "money": {
+    "cycle": "2026",
+    "total": 30065,
+    "inKind": 5783,
+    "loans": 0,
+    "self": 7973,
+    "donors": 145,
+    "pctPinellas": 49,
+    "pctOutOfState": 4
+   },
+   "facts": {
+    "party": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "inOfficeSince": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "term": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "leadership": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "job": {
+     "value": "Founder of Speak4MC; former case manager, youth program director and high school coach",
+     "label": "unverified",
+     "sources": [
+      "bb-sb3"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    "roles": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "pastOffice": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "lastElection": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "record": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "attendance": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "conflicts": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "filings": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "raised": {
+     "value": "$30,065 for the 2026 campaign (reports through Oct 16, 2026)",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "moneyWhere": {
+     "value": "49% from inside Pinellas, 4% from out of state, 145 donors",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "moneyOwn": {
+     "value": "$7,973 from the candidate; $5,783 in goods and services (in-kind)",
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "topOrgDonors": {
+     "value": [
+      "Florida Realtors committees (6 entries): $6,000",
+      "Pinellas Classroom Teachers Association fund: $1,000",
+      "Florida Education Association: $1,000",
+      "Pinellas Coalition For Public Schools Inc: $1,000",
+      "Florida Realtors' 3 political committees combined: $6,000 (grouped by name)"
+     ],
+     "label": "single",
+     "sources": [
+      "soe-cf"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    "officialGifts": {
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    "promises": {
+     "value": [
+      "Physically and emotionally safe schools",
+      "Teacher recruitment and morale",
+      "Addressing enrollment declines"
+     ],
+     "label": "unverified",
+     "sources": [
+      "bb-sb3"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    }
+   },
+   "required": [
+    "raised",
+    "promises"
+   ],
+   "votes": [],
+   "score": {
+    "overall": null,
+    "parts": {
+     "conflict_handling": null,
+     "money_timing": null,
+     "promise_match": null,
+     "openness": null
+    },
+    "scoredVotes": 0,
+    "reason": "Not enough record yet: 0 of 25 scored votes loaded."
+   }
+  }
+ ],
+ "races": [
+  {
+   "id": "bcc-d2",
+   "title": "County Commission, District 2",
+   "seatType": "At-large",
+   "who": "Every Pinellas voter",
+   "people": [
+    "hughes",
+    "scott"
+   ],
+   "sources": [
+    "soe-offices",
+    "bb-d2"
+   ]
+  },
+  {
+   "id": "bcc-d4",
+   "title": "County Commission, District 4",
+   "seatType": "Single-member",
+   "who": "Voters in District 4",
+   "people": [
+    "eggers"
+   ],
+   "note": "Only one candidate is listed for November.",
+   "sources": [
+    "soe-offices",
+    "bb-d4"
+   ]
+  },
+  {
+   "id": "bcc-d6",
+   "title": "County Commission, District 6",
+   "seatType": "Single-member",
+   "who": "Voters in District 6",
+   "people": [
+    "glenn",
+    "peters"
+   ],
+   "sources": [
+    "soe-offices",
+    "bb-d6"
+   ]
+  },
+  {
+   "id": "sb-d3",
+   "title": "School Board, District 3",
+   "seatType": "At-large, nonpartisan",
+   "who": "Every Pinellas voter",
+   "people": [
+    "campogni",
+    "dpeters"
+   ],
+   "note": "Runoff: no one won a majority on Aug 18 (Peters 36.4%, Campogni 34.8%, unofficial).",
+   "sources": [
+    "soe-offices",
+    "bb-sb3"
+   ]
+  }
+ ],
+ "votes": [
+  {
+   "id": "lg-97655",
+   "date": "2026-10-13",
+   "topic": "growth",
+   "headline": "Changed 2.69 acres on Keystone Road from rural homes to public use",
+   "inShort": "Sitting as the Countywide Planning Authority, the board changed the countywide land use map for 2.69 acres at 2577 Keystone Road from Residential Rural to Public/Semi-Public, tied to redeveloping an existing community meeting facility there.",
+   "officialTitle": "Case No. CW 26-12 - Pinellas County Countywide Plan Map amendment from Residential Rural and Scenic/Noncommercial Corridor to Public-Semi-Public and Scenic/Noncommercial Corridor, regarding 2.69 acres more or less, located at 2577 Keystone Road.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10153&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "26-1546A",
+   "mover": "flowers",
+   "seconder": "peters",
+   "split": true,
+   "rollExtra": {},
+   "result": {
+    "value": "Passed 4 to 3",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "flowers",
+      "peters",
+      "scott"
+     ],
+     "no": [
+      "latvala",
+      "nowicki",
+      "scherer"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "Forward Pinellas and the Planners Advisory Committee recommended approval.",
+     "value": "Forward Pinellas and the Planners Advisory Committee recommended approval.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    {
+     "text": "No correspondence was received and no one spoke at the hearing.",
+     "value": "No correspondence was received and no one spoke at the hearing.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "behavioral-urgent-care",
+   "date": "2026-09-24",
+   "topic": "health",
+   "headline": "Funded a $25 million behavioral health urgent care with opioid settlement money",
+   "inShort": "The county will use opioid settlement money to open an urgent care center for mental health and addiction.",
+   "officialTitle": "Opioid Abatement Advisory Board's funding recommendation and associated Agreement and Land Use Restriction Agreement with Operation PAR, Inc. for a Behavioral Health Urgent Care Center.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10150&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "result": {
+    "value": "Passed unanimously",
+    "label": "verified",
+    "sources": [
+     "tbt-opioid",
+     "legistar"
+    ]
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "flowers",
+      "latvala",
+      "nowicki",
+      "peters",
+      "scherer",
+      "scott"
+     ],
+     "no": []
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "Cost: $25 million.",
+     "value": "$25 million",
+     "label": "unverified",
+     "sources": [
+      "tbt-opioid"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    {
+     "text": "The exact meeting date of the vote.",
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    {
+     "text": "The center will be run by Operation PAR, Inc., under an agreement approved Sep 24, 2026.",
+     "value": "The center will be run by Operation PAR, Inc., under an agreement approved Sep 24, 2026.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "lg-97796",
+   "date": "2026-09-24",
+   "topic": "taxes",
+   "headline": "Adopted the final 2027 county budget and tax rates",
+   "inShort": "At the second and final budget hearing, the board adopted the tax rates and budgets for the year starting Oct 1, 2026, for the General Fund, Health Department, EMS and the other county taxing districts.",
+   "officialTitle": "Resolutions to adopt final millage rates and budgets for Fiscal Year 2027 (Second Public Budget Hearing).",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10150&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "26-1453A",
+   "mover": "peters",
+   "seconder": "flowers",
+   "split": true,
+   "rollExtra": {},
+   "result": {
+    "value": "Passed 6 to 1",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "flowers",
+      "latvala",
+      "peters",
+      "scherer",
+      "scott"
+     ],
+     "no": [
+      "nowicki"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "Resolution No. 26-79 approved the final General Fund and Health Department budgets.",
+     "value": "Resolution No. 26-79 approved the final General Fund and Health Department budgets.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "lg-97348",
+   "date": "2026-09-24",
+   "topic": "airport",
+   "headline": "Hired a project manager for the airport terminal upgrade, up to $1.74 million",
+   "inShort": "The board approved a contract with American Infrastructure Development, Inc. to act as the county's representative on passenger terminal improvements at St. Pete-Clearwater International Airport.",
+   "officialTitle": "Agreement with American Infrastructure Development, Inc. for Passenger Terminal Improvements - Owner's Representative.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10150&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "26-1364A",
+   "mover": "scott",
+   "seconder": "peters",
+   "split": true,
+   "rollExtra": {},
+   "result": {
+    "value": "Passed 4 to 3",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "flowers",
+      "peters",
+      "scott"
+     ],
+     "no": [
+      "latvala",
+      "nowicki",
+      "scherer"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "Not to exceed $1,742,865.82, for 2,320 days from the notice to proceed.",
+     "value": "Not to exceed $1,742,865.82, for 2,320 days from the notice to proceed.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    {
+     "text": "Commissioner Nowicki raised concerns about how bids were scored, citing a federal rule on rating firms by Disadvantaged Business Enterprise status. The county attorney's office said it had not yet reviewed the issue.",
+     "value": "Commissioner Nowicki raised concerns about how bids were scored, citing a federal rule on rating firms by Disadvantaged Business Enterprise status. The county attorney's office said it had not yet reviewed the issue.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "fy27-tentative",
+   "date": "2026-09-10",
+   "topic": "taxes",
+   "headline": "Lowered the countywide property tax rate in the first FY 2027 budget vote",
+   "inShort": "At the first of two budget hearings, the commission approved a tentative 2027 budget with a lower countywide tax rate. The county calls it the fifth cut in six years.",
+   "officialTitle": "Resolutions adopting tentative millage rates and budgets for Fiscal Year 2027 (First Public Budget Hearing).",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10173&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "result": {
+    "value": "Passed unanimously",
+    "label": "verified",
+    "sources": [
+     "cat-fy27",
+     "legistar"
+    ]
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "flowers",
+      "latvala",
+      "nowicki",
+      "peters",
+      "scherer",
+      "scott"
+     ],
+     "no": []
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "Kept local funding for the Weedon Island and Shell Key preserves.",
+     "value": "kept preserve funding",
+     "label": "unverified",
+     "sources": [
+      "cat-fy27"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    {
+     "text": "The final tax rate and budget were set for a second hearing on Sep 24, 2026.",
+     "value": "2026-09-24",
+     "label": "verified",
+     "sources": [
+      "cat-fy27",
+      "pc-2026"
+     ]
+    },
+    {
+     "text": "The new tax rate itself.",
+     "value": null,
+     "label": "unknown",
+     "sources": []
+    },
+    {
+     "text": "County budget staff corrected themselves at the hearing: the tentative budget is a 0.48% increase over the rolled-back rate of 6.1284, not a 0.16% decrease. The rolled-back rate is the rate that would bring in the same tax money as last year. Florida law calls anything above it a tax increase, even when the rate itself goes down, so the county advertised a Notice of Tax Increase.",
+     "value": "County budget staff corrected themselves at the hearing: the tentative budget is a 0.48% increase over the rolled-back rate of 6.1284, not a 0.16% decrease. The rolled-back rate is the rate that would bring in the same tax money as last year. Florida law calls anything above it a tax increase, even when the rate itself goes down, so the county advertised a Notice of Tax Increase.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "airport-rental-cars",
+   "date": "2026-08-25",
+   "topic": "airport",
+   "headline": "Approved rental car contracts at St. Pete-Clearwater International Airport",
+   "inShort": "The commission approved rental car concession contracts at the county airport, worth about $8.5 million to $10.4 million depending on counter space.",
+   "officialTitle": "Award of contract for on-airport rental car concessions services at the St. Pete-Clearwater International Airport.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10141&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "result": {
+    "value": "Passed unanimously",
+    "label": "verified",
+    "sources": [
+     "govly-aug25",
+     "legistar"
+    ]
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "flowers",
+      "latvala",
+      "nowicki",
+      "peters",
+      "scherer",
+      "scott"
+     ],
+     "no": []
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "Contract values: about $8.5 million to $10.4 million, based on square footage.",
+     "value": "$8.5M to $10.4M",
+     "label": "unverified",
+     "sources": [
+      "govly-aug25"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    }
+   ]
+  },
+  {
+   "id": "lg-97157",
+   "date": "2026-08-25",
+   "topic": "growth",
+   "headline": "Gave up the public's right to a 33-foot strip of Portsmouth Road",
+   "inShort": "Approved a property owners' petition to vacate part of the Portsmouth Road right-of-way next to Gulf Breeze Estates. Vacating means the county gives up its claim to the strip.",
+   "officialTitle": "Petition of Charles and Rita King, to vacate a portion of a 33-foot-wide right-of-way known as Portsmouth Road, lying east of lots 41 through 43, Gulf Breeze Estates.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10141&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "26-1250A",
+   "mover": "peters",
+   "seconder": "scott",
+   "split": true,
+   "rollExtra": {},
+   "result": {
+    "value": "Passed 6 to 1",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "flowers",
+      "nowicki",
+      "peters",
+      "scherer",
+      "scott"
+     ],
+     "no": [
+      "latvala"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "No correspondence was received and no one spoke at the hearing.",
+     "value": "No correspondence was received and no one spoke at the hearing.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "trim-max",
+   "date": "2026-07-21",
+   "topic": "taxes",
+   "headline": "Set the highest tax rates the county can charge next year",
+   "inShort": "Each summer, Florida counties set a ceiling on next year's property tax rates. Commissioners can lower these rates later but can't go above them. They proposed keeping the countywide rate and 20 other rates unchanged, and raising the Seminole Fire District rate from 1.8000 to 1.9581 mills.",
+   "result": {
+    "value": "Agreed by consensus",
+    "label": "unverified",
+    "sources": [
+     "cat-trim"
+    ],
+    "note": "One non-official source. Not yet matched to an official record."
+   },
+   "roll": {
+    "value": null,
+    "label": "unknown",
+    "sources": []
+   },
+   "facts": [
+    {
+     "text": "Seminole Fire District: proposed increase from 1.8000 to 1.9581 mills.",
+     "value": "1.8000 to 1.9581",
+     "label": "unverified",
+     "sources": [
+      "cat-trim"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    {
+     "text": "A November 2026 ballot amendment to expand the homestead exemption could cut county tax revenue.",
+     "value": "homestead amendment",
+     "label": "unverified",
+     "sources": [
+      "cat-trim"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    }
+   ],
+   "officialTitle": null,
+   "sourceUrl": null
+  },
+  {
+   "id": "lg-96765",
+   "date": "2026-07-21",
+   "topic": "fees",
+   "headline": "Raised the county dump fee for the next two years",
+   "inShort": "The fee to dump a ton of trash at the county's solid waste facility goes to $63.57 on Oct 1, 2026 and $68.65 on Oct 1, 2027.",
+   "officialTitle": "Resolution adopting an increased Solid Waste tipping fee for Fiscal Years 2027 and 2028.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10137&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "26-0986A",
+   "mover": "peters",
+   "seconder": "scherer",
+   "split": true,
+   "rollExtra": {},
+   "result": {
+    "value": "Passed 6 to 1",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "flowers",
+      "latvala",
+      "peters",
+      "scherer",
+      "scott"
+     ],
+     "no": [
+      "nowicki"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "No correspondence was received and no one spoke.",
+     "value": "No correspondence was received and no one spoke.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "lg-96763",
+   "date": "2026-07-21",
+   "topic": "fees",
+   "headline": "Raised the trash collection charge for Lealman homes to $288 a year",
+   "inShort": "Lealman residential property owners pay for county trash pickup through a charge on their tax bill. The board raised it to $288 per home per year.",
+   "officialTitle": "Annual certificate of the Non-Ad Valorem Assessment Roll and Resolution increasing the Non-Ad Valorem Assessment for the Lealman Solid Waste Collection and Disposal District.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10137&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "26-0978A",
+   "mover": "scott",
+   "seconder": "flowers",
+   "split": true,
+   "rollExtra": {},
+   "result": {
+    "value": "Passed 6 to 1",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "flowers",
+      "latvala",
+      "peters",
+      "scherer",
+      "scott"
+     ],
+     "no": [
+      "nowicki"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "Five letters and three voicemails in opposition, and one letter of concern, were received.",
+     "value": "Five letters and three voicemails in opposition, and one letter of concern, were received.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "lg-96842",
+   "date": "2026-07-21",
+   "topic": "fees",
+   "headline": "Changed the county towing law, adding new fees",
+   "inShort": "Amended the towing ordinance to allow an emergency fuel surcharge, yearly inflation increases to the base tow rate, and an electric vehicle fee, plus new signage rules.",
+   "officialTitle": "Ordinance amending the Pinellas County Code, Chapter 122, related to the County Towing Ordinance.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10137&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "26-1051A",
+   "mover": "peters",
+   "seconder": "flowers",
+   "split": true,
+   "rollExtra": {},
+   "moneyNotes": [
+    {
+     "text": "Kathleen Peters received $2,000 from Commtow, LLC and A-1 Recovery, Inc. (towing companies) on May 19, 2026, 63 days before this vote, and voted yes.",
+     "note": "Towing companies are regulated by the county's towing rates and ordinance. They were not named in these items.",
+     "label": "single",
+     "sources": [
+      "soe-cf",
+      "legistar"
+     ]
+    },
+    {
+     "text": "Kathleen Peters received $250 from Joe's Towing & Recovery, Inc. on Jun 22, 2026, 29 days before this vote, and voted yes.",
+     "note": "Towing company; not named in the item.",
+     "label": "single",
+     "sources": [
+      "soe-cf",
+      "legistar"
+     ]
+    }
+   ],
+   "result": {
+    "value": "Passed 4 to 3",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "flowers",
+      "latvala",
+      "nowicki",
+      "peters"
+     ],
+     "no": [
+      "eggers",
+      "scherer",
+      "scott"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "Staff said its recommendations could change depending on pending litigation over a $250 state lien release fee.",
+     "value": "Staff said its recommendations could change depending on pending litigation over a $250 state lien release fee.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "lg-96804",
+   "date": "2026-06-16",
+   "topic": "fees",
+   "headline": "Set new maximum towing rates: $175 a tow",
+   "inShort": "Resolution No. 26-46 set the county's towing rates at a $175 base tow, $60 mileage rate and $35 storage rate.",
+   "officialTitle": "County Administrator Reports: TEFRA Hearing scheduled for July 21 BCC meeting; CDBG-DR Update; Towing Update.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10133&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "26-0641A",
+   "mover": "flowers",
+   "seconder": "peters",
+   "split": true,
+   "rollExtra": {},
+   "moneyNotes": [
+    {
+     "text": "Kathleen Peters received $2,000 from Commtow, LLC and A-1 Recovery, Inc. (towing companies) on May 19, 2026, 28 days before this vote, and voted yes.",
+     "note": "Towing companies are regulated by the county's towing rates and ordinance. They were not named in these items.",
+     "label": "single",
+     "sources": [
+      "soe-cf",
+      "legistar"
+     ]
+    }
+   ],
+   "result": {
+    "value": "Passed 4 to 3",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "flowers",
+      "nowicki",
+      "peters"
+     ],
+     "no": [
+      "latvala",
+      "scherer",
+      "scott"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": []
+  },
+  {
+   "id": "lg-96551",
+   "date": "2026-06-16",
+   "topic": "health",
+   "headline": "Delayed the social services grant awards for next year",
+   "inShort": "The board pushed its decision on Social Action grant awards for nonprofits to the July 21 meeting, so they could line up with the 2027 budget.",
+   "officialTitle": "Funding recommendations for the Fiscal Year 2027 Human Services Social Action Grant Program.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10133&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "26-0801A",
+   "mover": "scherer",
+   "seconder": "nowicki",
+   "split": true,
+   "rollExtra": {
+    "abstain": [
+     "flowers"
+    ]
+   },
+   "result": {
+    "value": "Deferred, 6 to 0 with 1 abstaining",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "latvala",
+      "nowicki",
+      "peters",
+      "scherer",
+      "scott"
+     ],
+     "no": []
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "Commissioner Flowers recused herself because she serves on the board of the Area Agency on Aging of Pasco-Pinellas, one of the groups recommended for funding.",
+     "value": "Commissioner Flowers recused herself because she serves on the board of the Area Agency on Aging of Pasco-Pinellas, one of the groups recommended for funding.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "lg-96263",
+   "date": "2026-04-21",
+   "topic": "stadium",
+   "headline": "Agreed to put $85 million toward upgrading the Phillies' spring training ballpark",
+   "inShort": "Approved a term sheet to redevelop BayCare Ballpark, the Phillies Complex and the Carpenter Complex in Clearwater. The county's share is expected to come from the tourist development tax.",
+   "officialTitle": "Term Sheet for the redevelopment and improvements to the BayCare Ballpark Stadium Facility inclusive of BayCare Ballpark, Phillies Complex, and Carpenter Complex.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10124&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "26-0586A",
+   "mover": "latvala",
+   "seconder": "nowicki",
+   "split": true,
+   "rollExtra": {},
+   "result": {
+    "value": "Passed 6 to 1",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "flowers",
+      "latvala",
+      "nowicki",
+      "peters",
+      "scherer"
+     ],
+     "no": [
+      "scott"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "County capital contribution: $85,000,000, expected from the Tourist Development Tax fund. Funding is not yet budgeted.",
+     "value": "County capital contribution: $85,000,000, expected from the Tourist Development Tax fund. Funding is not yet budgeted.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    {
+     "text": "The Phillies would give the county tourism agency $850,000 a year for marketing starting in 2026, rising 3% a year from 2032.",
+     "value": "The Phillies would give the county tourism agency $850,000 a year for marketing starting in 2026, rising 3% a year from 2032.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    {
+     "text": "Commissioner Scott said the public share was excessive and voted no.",
+     "value": "Commissioner Scott said the public share was excessive and voted no.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "lg-95566",
+   "date": "2026-01-20",
+   "topic": "growth",
+   "headline": "Turned down denser housing on a former landfill site in Largo",
+   "inShort": "Denied a request to change 18.43 acres at 13400 Pine Street from Residential Urban to Residential Medium, which would allow more homes per acre. The site was once a construction debris landfill. The denial leaves the owner free to apply again.",
+   "officialTitle": "Case No. FLU-25-09 (Green Energy for North America, LLC) A request for a Future Land Use Map amendment from Residential Urban to Residential Medium on approximately 18.43 acres located at 13400 Pine Street in unincorporated Largo.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10113&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "25-1956A",
+   "mover": "scott",
+   "seconder": "nowicki",
+   "split": true,
+   "rollExtra": {
+    "absent": [
+     "eggers"
+    ]
+   },
+   "result": {
+    "value": "Denied 4 to 2",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "flowers",
+      "latvala",
+      "nowicki",
+      "scott"
+     ],
+     "no": [
+      "peters",
+      "scherer"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "The Local Planning Agency recommended denial, and staff agreed.",
+     "value": "The Local Planning Agency recommended denial, and staff agreed.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    {
+     "text": "Two emails and seven voicemails in opposition, and one letter of concern, were received.",
+     "value": "Two emails and seven voicemails in opposition, and one letter of concern, were received.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    {
+     "text": "Here a YES vote was a vote to deny the request.",
+     "value": "Here a YES vote was a vote to deny the request.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "lg-95336",
+   "date": "2026-01-20",
+   "topic": "fees",
+   "headline": "Raised the county dump fee to $58.86 a ton",
+   "inShort": "Raised the solid waste tipping fee to $58.86 per ton, effective Oct 1, 2025.",
+   "officialTitle": "Resolution adopting an increased Solid Waste tipping fee for Fiscal Year 2026.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10113&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "25-1929A",
+   "mover": "peters",
+   "seconder": "flowers",
+   "split": true,
+   "rollExtra": {
+    "absent": [
+     "eggers"
+    ]
+   },
+   "result": {
+    "value": "Passed 5 to 1",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "flowers",
+      "latvala",
+      "peters",
+      "scherer",
+      "scott"
+     ],
+     "no": [
+      "nowicki"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": []
+  },
+  {
+   "id": "lg-95280",
+   "date": "2026-01-20",
+   "topic": "tourism",
+   "headline": "Changed the rules for tourist tax grants to big local projects",
+   "inShort": "Revised the guidelines for how tourist development tax money is awarded to capital projects. A point system for geographic spread was removed, and language about waivers for projects asking over $10 million was dropped.",
+   "officialTitle": "Revisions to the Capital Projects Funding Program Guidelines from the Tourist Development Council for Fiscal Year 2026.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10113&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "25-1879A",
+   "mover": "peters",
+   "seconder": "scott",
+   "split": true,
+   "rollExtra": {
+    "absent": [
+     "eggers"
+    ]
+   },
+   "result": {
+    "value": "Passed 5 to 1",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "latvala",
+      "nowicki",
+      "peters",
+      "scherer",
+      "scott"
+     ],
+     "no": [
+      "flowers"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": []
+  },
+  {
+   "id": "lg-95249",
+   "date": "2025-12-16",
+   "topic": "tourism",
+   "headline": "Raised tourist tax funding for 49 local events to $2.76 million",
+   "inShort": "Revised the 2026 funding list for events paid for with tourist development tax money, up to $2,755,000 for 49 events.",
+   "officialTitle": "Revision to the Fiscal Year 2026 Elite Event Funding Recommendations from the Tourist Development Council.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10102&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "25-1873A",
+   "mover": "flowers",
+   "seconder": "latvala",
+   "split": true,
+   "rollExtra": {},
+   "result": {
+    "value": "Passed 6 to 1",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "flowers",
+      "latvala",
+      "peters",
+      "scherer",
+      "scott"
+     ],
+     "no": [
+      "nowicki"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": []
+  },
+  {
+   "id": "lg-94936",
+   "date": "2025-11-18",
+   "topic": "services",
+   "headline": "Renewed cost-sharing for UF/IFAS county extension staff",
+   "inShort": "Renewed the county's agreement with the University of Florida Institute of Food and Agricultural Sciences to share the salary and benefit costs of extension staff.",
+   "officialTitle": "Memorandum of Understanding between Pinellas County and the University of Florida Institute of Food and Agricultural Sciences for salary and fringe.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10100&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "25-1698A",
+   "mover": "flowers",
+   "seconder": "eggers",
+   "split": true,
+   "rollExtra": {
+    "absent": [
+     "latvala",
+     "peters"
+    ]
+   },
+   "result": {
+    "value": "Passed 4 to 1",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "flowers",
+      "nowicki",
+      "scott"
+     ],
+     "no": [
+      "scherer"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "Estimated total cost: $297,986.45.",
+     "value": "Estimated total cost: $297,986.45.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    {
+     "text": "Five people spoke in support.",
+     "value": "Five people spoke in support.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "lg-94597",
+   "date": "2025-09-18",
+   "topic": "taxes",
+   "headline": "Adopted the final 2026 county budget",
+   "inShort": "Final approval of the General Fund and Health Department budgets for the year that started Oct 1, 2025.",
+   "officialTitle": "Resolutions to adopt final millage rates and budgets for Fiscal Year 2026 (second public hearing).",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10084&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "25-1000A",
+   "mover": "flowers",
+   "seconder": "peters",
+   "split": true,
+   "rollExtra": {},
+   "result": {
+    "value": "Passed 6 to 1",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "flowers",
+      "latvala",
+      "peters",
+      "scherer",
+      "scott"
+     ],
+     "no": [
+      "nowicki"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": []
+  },
+  {
+   "id": "lg-94324",
+   "date": "2025-09-18",
+   "topic": "contracts",
+   "headline": "Hired a firm to run the $813 million hurricane recovery grant program",
+   "inShort": "Contracted with Horne LLP to manage the county's federal Community Development Block Grant disaster recovery program.",
+   "officialTitle": "Agreement with Horne LLP for requirements of services for the management, administration and implementation of Community Development Block Grant - Disaster Recovery Program.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10084&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "25-1039A",
+   "mover": "flowers",
+   "seconder": "scherer",
+   "split": true,
+   "rollExtra": {
+    "absent": [
+     "peters"
+    ]
+   },
+   "result": {
+    "value": "Passed 5 to 1",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "flowers",
+      "latvala",
+      "scherer",
+      "scott"
+     ],
+     "no": [
+      "nowicki"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "36-month contract value: $565,656,023.17, which includes grant money passed through to residents as well as the firm's costs.",
+     "value": "36-month contract value: $565,656,023.17, which includes grant money passed through to residents as well as the firm's costs.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    {
+     "text": "The county received $813,000,000 in grant funding, and nearly 5,000 people were already waiting for help.",
+     "value": "The county received $813,000,000 in grant funding, and nearly 5,000 people were already waiting for help.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "lg-94414",
+   "date": "2025-09-04",
+   "topic": "taxes",
+   "headline": "Rejected a deeper property tax cut",
+   "inShort": "Commissioner Scherer moved to cut the general county tax rate to 4.5049 mills, halfway back to the rolled-back rate. He said the tentative budget was only about $5 million away from that. The motion failed.",
+   "officialTitle": "Resolutions adopting tentative millage rates and budgets for Fiscal Year 2026 (first public hearing).",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10077&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "25-0999A",
+   "mover": "scherer",
+   "seconder": "nowicki",
+   "split": true,
+   "rollExtra": {},
+   "result": {
+    "value": "Failed 2 to 5",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "nowicki",
+      "scherer"
+     ],
+     "no": [
+      "eggers",
+      "flowers",
+      "latvala",
+      "peters",
+      "scott"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "Commissioners Latvala, Flowers, Peters and Eggers expressed concern about the motion's effects.",
+     "value": "Commissioners Latvala, Flowers, Peters and Eggers expressed concern about the motion's effects.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "lg-94047",
+   "date": "2025-09-04",
+   "topic": "taxes",
+   "headline": "Set tentative 2026 tax rates and budgets",
+   "inShort": "After the deeper cut failed, the board approved tentative tax rates and budgets for the General Fund, Health Department, EMS, Planning Council and other districts.",
+   "officialTitle": "Resolutions adopting tentative millage rates and budgets for Fiscal Year 2026 (first public hearing).",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10077&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "25-0999A",
+   "mover": "latvala",
+   "seconder": "peters",
+   "split": true,
+   "rollExtra": {},
+   "result": {
+    "value": "Passed 5 to 2",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "latvala",
+      "nowicki",
+      "peters",
+      "scherer",
+      "scott"
+     ],
+     "no": [
+      "eggers",
+      "flowers"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": []
+  },
+  {
+   "id": "lg-93963",
+   "date": "2025-08-05",
+   "topic": "contracts",
+   "headline": "Gave Keep Pinellas Beautiful a $1.94 million, 5-year contract",
+   "inShort": "Approved a 60-month contract with Keep Pinellas Beautiful, Inc. to manage the county's Adopt-A-Program services.",
+   "officialTitle": "Agreement with Keep Pinellas Beautiful, Inc. for Adopt-A-Program Management Services.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10072&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "25-0932A",
+   "mover": "eggers",
+   "seconder": "flowers",
+   "split": true,
+   "rollExtra": {},
+   "result": {
+    "value": "Passed 5 to 2",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "flowers",
+      "latvala",
+      "peters",
+      "scott"
+     ],
+     "no": [
+      "nowicki",
+      "scherer"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "Total: $1,936,600 over 60 months.",
+     "value": "Total: $1,936,600 over 60 months.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    {
+     "text": "The county administrator said he did not believe the contract was competitively bid.",
+     "value": "The county administrator said he did not believe the contract was competitively bid.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    {
+     "text": "Commissioner Nowicki cited the price increase and the lack of competitive bidding and performance requirements.",
+     "value": "Commissioner Nowicki cited the price increase and the lack of competitive bidding and performance requirements.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "lg-93830",
+   "date": "2025-08-05",
+   "topic": "fees",
+   "headline": "Set the 2025 Lealman trash collection charge at $288 per home",
+   "inShort": "Certified the yearly trash collection charge on Lealman residential tax bills at $288 per unit through Dec 31, 2025.",
+   "officialTitle": "Annual certificate of the Lealman Solid Waste Collection and Disposal District Non-Ad Valorem Assessment Roll.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10072&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "25-0979A",
+   "mover": "flowers",
+   "seconder": "peters",
+   "split": true,
+   "rollExtra": {},
+   "result": {
+    "value": "Passed 6 to 1",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "flowers",
+      "latvala",
+      "peters",
+      "scherer",
+      "scott"
+     ],
+     "no": [
+      "nowicki"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": []
+  },
+  {
+   "id": "lg-93995",
+   "date": "2025-07-22",
+   "topic": "tourism",
+   "headline": "Spent up to $2.69 million in tourist tax money on local events",
+   "inShort": "Funded 2026 events such as the Firestone Grand Prix, Valspar Championship, St. Pete Pride and the Clearwater Jazz Festival with tourist development tax money.",
+   "officialTitle": "Fiscal Year 2026 Elite Event funding recommendations from the Tourist Development Council.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10070&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "25-0978A",
+   "mover": "flowers",
+   "seconder": "latvala",
+   "split": true,
+   "rollExtra": {
+    "absent": [
+     "peters"
+    ]
+   },
+   "result": {
+    "value": "Passed 4 to 2",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "flowers",
+      "latvala",
+      "scott"
+     ],
+     "no": [
+      "nowicki",
+      "scherer"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "Cumulative maximum: $2,685,000.",
+     "value": "Cumulative maximum: $2,685,000.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "lg-93179",
+   "date": "2025-05-20",
+   "topic": "growth",
+   "headline": "Declared central Tarpon Springs blighted to start a redevelopment district",
+   "inShort": "Found that blight exists in central Tarpon Springs, set the boundary of a Community Redevelopment Area, and handed redevelopment authority to the city. In a CRA, future growth in property taxes there is set aside for improvements in that area.",
+   "officialTitle": "Resolution making a finding that conditions of blight exist within the Central Tarpon Springs study area, establishing the Community Redevelopment Area boundary, authorizing the preparation of the Central Tarpon Springs Redevelopment Plan, and delegating redevelopment authority to the City of Tarpon Springs.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10061&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "25-0532A",
+   "mover": "flowers",
+   "seconder": "eggers",
+   "split": true,
+   "rollExtra": {},
+   "result": {
+    "value": "Passed 4 to 3",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "flowers",
+      "latvala",
+      "scherer"
+     ],
+     "no": [
+      "nowicki",
+      "peters",
+      "scott"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "One email of concern was received; no one spoke.",
+     "value": "One email of concern was received; no one spoke.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "lg-93001",
+   "date": "2025-04-22",
+   "topic": "environment",
+   "headline": "Pulled the county out of Duke Energy's Clean Energy Connection program",
+   "inShort": "Commissioner Nowicki's resolution directs the county administrator to withdraw the county from Duke Energy's Clean Energy Connection program.",
+   "officialTitle": "Duke Energy Clean Energy Resolution - Commissioner Nowicki.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10057&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "25-0475A",
+   "mover": "nowicki",
+   "seconder": "scherer",
+   "split": true,
+   "rollExtra": {},
+   "result": {
+    "value": "Passed 6 to 1",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "latvala",
+      "nowicki",
+      "peters",
+      "scherer",
+      "scott"
+     ],
+     "no": [
+      "flowers"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "Commissioner Flowers said she could not support it and asked for a board discussion of clean energy goals.",
+     "value": "Commissioner Flowers said she could not support it and asked for a board discussion of clean energy goals.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "lg-93018",
+   "date": "2025-04-22",
+   "topic": "growth",
+   "headline": "Rezoned 3.2 acres on Kersey Road for more single-family homes",
+   "inShort": "Approved a rezoning at 2281 Kersey Road and 1736 Winchester Road in unincorporated Largo, with a 70-foot minimum lot width added as a condition.",
+   "officialTitle": "Case No. ZON-24-05: zoning change from R-R, Rural Residential and R-3-CO to R-3-CO, Single Family Residential with Conditional Overlay on approximately 3.2 acres.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10057&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "25-0414A",
+   "mover": "scherer",
+   "seconder": "flowers",
+   "split": true,
+   "rollExtra": {},
+   "result": {
+    "value": "Passed 6 to 1",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "flowers",
+      "nowicki",
+      "peters",
+      "scherer",
+      "scott"
+     ],
+     "no": [
+      "latvala"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "The Local Planning Agency recommended approval, and staff agreed.",
+     "value": "The Local Planning Agency recommended approval, and staff agreed.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    {
+     "text": "One letter in opposition and six voicemails in support were received.",
+     "value": "One letter in opposition and six voicemails in support were received.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "lg-92807",
+   "date": "2025-03-25",
+   "topic": "tourism",
+   "headline": "Gave up to $26.4 million in tourist tax money to five building projects",
+   "inShort": "Funded five capital projects recommended by the Tourist Development Council, after amendments, for up to $26.4 million.",
+   "officialTitle": "Recommendation from the Tourist Development Council to fund five Fiscal Year 2024 Capital Projects Funding Program applications.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10053&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "25-0342A",
+   "mover": "eggers",
+   "seconder": "nowicki",
+   "split": true,
+   "rollExtra": {
+    "absent": [
+     "flowers",
+     "peters"
+    ]
+   },
+   "result": {
+    "value": "Passed 4 to 1",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "latvala",
+      "nowicki",
+      "scherer"
+     ],
+     "no": [
+      "scott"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "Projects discussed included the Clearwater Beach Municipal Marina and the Arts Center and Chihuly Collection.",
+     "value": "Projects discussed included the Clearwater Beach Municipal Marina and the Arts Center and Chihuly Collection.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "rays-bonds",
+   "date": "2024-12-17",
+   "topic": "stadium",
+   "headline": "Approved $312.5 million in bonds for a new Rays stadium",
+   "inShort": "The county agreed to borrow $312.5 million for its share of a new Tampa Bay Rays ballpark in St. Petersburg, to be repaid from the tourist development tax that visitors pay on hotel stays.",
+   "officialTitle": "Pinellas County adoption of a Tourist Development Tax Revenue Supplemental Bond Resolution Supplementing Resolution No. 24-42 adopted on July 30, 2024, and approval of the documents to support funding for the design and construction of a new stadium in St. Petersburg to be the new home of the Tampa Bay Rays Major League Baseball franchise.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10037&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "result": {
+    "value": "Passed 5 to 2",
+    "label": "verified",
+    "sources": [
+     "tbt-rays",
+     "fp-rays",
+     "legistar"
+    ]
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "flowers",
+      "latvala",
+      "peters",
+      "scott"
+     ],
+     "no": [
+      "nowicki",
+      "scherer"
+     ]
+    },
+    "label": "verified",
+    "sources": [
+     "tbt-rays",
+     "fp-rays",
+     "legistar"
+    ]
+   },
+   "facts": [
+    {
+     "text": "Bond amount: $312.5 million.",
+     "value": "$312.5 million",
+     "label": "unverified",
+     "sources": [
+      "fp-rays"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    {
+     "text": "Repaid from the county's tourist development tax, paid by visitors on hotel and other lodging stays.",
+     "value": "tourist development tax",
+     "label": "unverified",
+     "sources": [
+      "fp-rays"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    {
+     "text": "The vote came after two delays.",
+     "value": "two delays",
+     "label": "unverified",
+     "sources": [
+      "fp-rays"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    {
+     "text": "What happened next: the Rays said on Mar 13, 2025 that they were backing out of the stadium deal. (The date comes from the article's web address; the article says it was a Thursday.)",
+     "value": "2025-03-13",
+     "label": "unverified",
+     "sources": [
+      "bloomberg-rays"
+     ],
+     "note": "One non-official source. Not yet matched to an official record."
+    },
+    {
+     "text": "The same bond item came up on Nov 19, 2024 and was pushed to Dec 17 by a 6 to 1 vote (Flowers voted no).",
+     "value": "The same bond item came up on Nov 19, 2024 and was pushed to Dec 17 by a 6 to 1 vote (Flowers voted no).",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    {
+     "text": "Before the Nov 19 vote, Commissioner Latvala asked about a possible conflict of interest. The county attorney said it was not a prohibited conflict and he did not need to abstain.",
+     "value": "Before the Nov 19 vote, Commissioner Latvala asked about a possible conflict of interest. The county attorney said it was not a prohibited conflict and he did not need to abstain.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    },
+    {
+     "text": "For the matching budget change, the Clerk received about 121 emails and voicemails in support, 139 in opposition, and 12 emails of concern.",
+     "value": "For the matching budget change, the Clerk received about 121 emails and voicemails in support, 139 in opposition, and 12 emails of concern.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "lg-92080",
+   "date": "2024-11-19",
+   "topic": "board",
+   "headline": "Picked the 2025 chair and vice chair",
+   "inShort": "The board chose its leaders for 2025. Commissioner Scott was set to become chair in January.",
+   "officialTitle": "Selection of the 2025 Chair and Vice-Chair.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10034&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "24-1966A",
+   "mover": "latvala",
+   "seconder": "nowicki",
+   "split": true,
+   "rollExtra": {},
+   "result": {
+    "value": "Passed 6 to 1",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "latvala",
+      "nowicki",
+      "peters",
+      "scherer",
+      "scott"
+     ],
+     "no": [
+      "flowers"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "Commissioner Flowers nominated herself for vice chair.",
+     "value": "Commissioner Flowers nominated herself for vice chair.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "lg-91883",
+   "date": "2024-11-19",
+   "topic": "environment",
+   "headline": "Refused to hold a hearing on a dredge permit appeal in Palm Harbor",
+   "inShort": "Declined a request for a public hearing to appeal a county dredge and fill permit for 106 Harbor Drive. The county attorney said hearing the appeal was up to the board.",
+   "officialTitle": "Request for a public hearing to appeal the issuance of County Dredge and Fill Permit No. WND-24-00077 for 106 Harbor Drive, Palm Harbor.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10034&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "24-1870A",
+   "mover": "scott",
+   "seconder": null,
+   "split": true,
+   "rollExtra": {},
+   "result": {
+    "value": "Denied 4 to 3",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "flowers",
+      "peters",
+      "scherer",
+      "scott"
+     ],
+     "no": [
+      "eggers",
+      "latvala",
+      "nowicki"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "The board had heard an earlier dock-related appeal involving the same parties.",
+     "value": "The board had heard an earlier dock-related appeal involving the same parties.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  },
+  {
+   "id": "lg-91835",
+   "date": "2024-11-19",
+   "topic": "growth",
+   "headline": "Opted out of a state tax break for some workforce housing",
+   "inShort": "Florida's Live Local Act lets counties choose whether to give a 75% property tax exemption to rental units for households earning 80% to 120% of area median income. Pinellas chose not to give it.",
+   "officialTitle": "Resolution electing to not exempt property under Section 196.1978(3)(o), Florida Statutes, commonly known as the Live Local Act Property Tax Exemption.",
+   "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10034&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+   "fileNumber": "24-1533A",
+   "mover": "scott",
+   "seconder": "eggers",
+   "split": true,
+   "rollExtra": {},
+   "result": {
+    "value": "Passed 5 to 2",
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "roll": {
+    "value": {
+     "yes": [
+      "eggers",
+      "flowers",
+      "latvala",
+      "peters",
+      "scott"
+     ],
+     "no": [
+      "nowicki",
+      "scherer"
+     ]
+    },
+    "label": "single",
+    "sources": [
+     "legistar"
+    ],
+    "note": "One official record, nothing yet to check it against."
+   },
+   "facts": [
+    {
+     "text": "It needed a two-thirds supermajority, five votes, to pass.",
+     "value": "It needed a two-thirds supermajority, five votes, to pass.",
+     "label": "single",
+     "sources": [
+      "legistar"
+     ],
+     "note": "One official record, nothing yet to check it against."
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "id": "taxes",
+   "name": "Property taxes and budget",
+   "blurb": "What the county charges you, and how it spends it."
+  },
+  {
+   "id": "growth",
+   "name": "Growth, land use and housing",
+   "blurb": "Rezonings, land use changes and housing rules."
+  },
+  {
+   "id": "fees",
+   "name": "Fees and rates",
+   "blurb": "Trash, dump and towing charges set by the county."
+  },
+  {
+   "id": "tourism",
+   "name": "Tourist tax spending",
+   "blurb": "Hotel-tax money for events, projects and marketing."
+  },
+  {
+   "id": "stadium",
+   "name": "Stadiums",
+   "blurb": "Public money for the Rays and Phillies ballparks."
+  },
+  {
+   "id": "airport",
+   "name": "Airport",
+   "blurb": "St. Pete-Clearwater International Airport contracts."
+  },
+  {
+   "id": "contracts",
+   "name": "Big contracts",
+   "blurb": "Who gets paid to do county work, and how they were picked."
+  },
+  {
+   "id": "health",
+   "name": "Health and human services",
+   "blurb": "Mental health, addiction, aging and social service grants."
+  },
+  {
+   "id": "services",
+   "name": "County services",
+   "blurb": "Programs the county pays to run."
+  },
+  {
+   "id": "environment",
+   "name": "Energy and environment",
+   "blurb": "Clean energy, dredging and waterfront permits."
+  },
+  {
+   "id": "board",
+   "name": "How the board runs",
+   "blurb": "Leadership picks and procedure."
+  }
+ ],
+ "problems": [
+  {
+   "id": "conflict-latvala-inOfficeSince",
+   "subject": "Chris Latvala",
+   "field": "inOfficeSince",
+   "kind": "Sources disagree",
+   "versions": [
+    {
+     "value": "Nov 8, 2022",
+     "sources": [
+      "wiki-latvala"
+     ],
+     "official": false,
+     "bestTier": 3
+    },
+    {
+     "value": "Nov 22, 2022",
+     "sources": [
+      "ballotpedia"
+     ],
+     "official": false,
+     "bestTier": 3
+    }
+   ],
+   "status": "Open: needs the official record"
+  },
+  {
+   "id": "conflict-peters-inOfficeSince",
+   "subject": "Kathleen Peters",
+   "field": "inOfficeSince",
+   "kind": "Sources disagree",
+   "versions": [
+    {
+     "value": "2018",
+     "sources": [
+      "bb-d6"
+     ],
+     "official": false,
+     "bestTier": 3
+    },
+    {
+     "value": "2019",
+     "sources": [
+      "ballotpedia"
+     ],
+     "official": false,
+     "bestTier": 3
+    }
+   ],
+   "status": "Open: needs the official record"
+  },
+  {
+   "id": "govly-date-aug25",
+   "subject": "Aug 25, 2026 commission meeting",
+   "field": "meeting date",
+   "kind": "Source disagrees with itself",
+   "versions": [
+    {
+     "value": "Aug 24, 2026 (date field)",
+     "sources": [
+      "govly-aug25"
+     ]
+    },
+    {
+     "value": "Aug 25, 2026 (title and summary)",
+     "sources": [
+      "govly-aug25"
+     ]
+    },
+    {
+     "value": "Aug 25, 2026 (county schedule)",
+     "sources": [
+      "pc-2026"
+     ],
+     "official": true
+    }
+   ],
+   "status": "Resolved: the county schedule lists Aug 25"
+  },
+  {
+   "id": "govly-date-sep3",
+   "subject": "Sep 3, 2026 work session",
+   "field": "meeting date",
+   "kind": "Source disagrees with itself",
+   "versions": [
+    {
+     "value": "Sep 2, 2026 (date field)",
+     "sources": [
+      "govly-sep3"
+     ]
+    },
+    {
+     "value": "Sep 3, 2026 (title and summary)",
+     "sources": [
+      "govly-sep3"
+     ]
+    },
+    {
+     "value": "Sep 3, 2026 (county schedule)",
+     "sources": [
+      "pc-2026"
+     ],
+     "official": true
+    }
+   ],
+   "status": "Resolved: the county schedule lists Sep 3"
+  },
+  {
+   "id": "patch-sum",
+   "subject": "2024 District 3 results",
+   "field": "vote shares",
+   "kind": "Numbers don't add up",
+   "versions": [
+    {
+     "value": "51.51% + 48.69% = 100.20%",
+     "sources": [
+      "patch-2024"
+     ]
+    }
+   ],
+   "status": "Open: needs certified results from the Supervisor of Elections"
+  },
+  {
+   "id": "cf-campogni-total",
+   "subject": "Curtis Campogni campaign reports",
+   "field": "total raised",
+   "kind": "Numbers don't add up",
+   "versions": [
+    {
+     "value": "$29,239.69 (county summary page: $23,457.00 monetary + $5,782.69 in-kind)",
+     "sources": [
+      "soe-cf"
+     ],
+     "official": true
+    },
+    {
+     "value": "$30,065.00 (sum of itemized lines after removing deleted entries)",
+     "sources": [
+      "soe-cf"
+     ],
+     "official": true
+    }
+   ],
+   "status": "Open: likely amended report lines; needs a check with the Supervisor of Elections"
+  },
+  {
+   "id": "cf-type-codes",
+   "subject": "Campaign reports (several candidates)",
+   "field": "contributor type codes",
+   "kind": "Data entry problem",
+   "versions": [
+    {
+     "value": "Democratic clubs coded as the candidate (Glenn, Hughes); individuals coded as businesses (Glenn); law firms and inns coded as businesses vs. people inconsistently (Scott, Peters)",
+     "sources": [
+      "soe-cf"
+     ]
+    }
+   ],
+   "status": "Open: Glass Ballot groups donors by name instead of trusting these codes"
+  },
+  {
+   "id": "ethics-no-forms",
+   "subject": "Florida Commission on Ethics",
+   "field": "disclosure form contents",
+   "kind": "Record gap",
+   "versions": [
+    {
+     "value": "Filing dates are public in the search, but the forms (income sources, assets, net worth) show no online view link for these officials",
+     "sources": [
+      "ethics-efdms"
+     ]
+    }
+   ],
+   "status": "Open: public records request to the Commission on Ethics"
+  },
+  {
+   "id": "name-collision-hughes",
+   "subject": "Tim Hughes",
+   "field": "financial disclosure match",
+   "kind": "Name collision avoided",
+   "versions": [
+    {
+     "value": "Ethics search for \"Hughes\" in Pinellas returns Markus J. Hughes, a St. Petersburg employee, not the candidate",
+     "sources": [
+      "ethics-efdms"
+     ]
+    }
+   ],
+   "status": "Resolved: not linked"
+  },
+  {
+   "id": "name-collision-hubbard",
+   "subject": "Donor and contractor names",
+   "field": "company match",
+   "kind": "Name collision avoided",
+   "versions": [
+    {
+     "value": "Donor \"Hubbard's Sea Adventures, Inc.\" (maritime) is not county paving contractor \"Hubbard Construction Company\"",
+     "sources": [
+      "soe-cf",
+      "legistar"
+     ]
+    }
+   ],
+   "status": "Resolved: not linked"
+  },
+  {
+   "id": "cf-escot-dup",
+   "subject": "Brian Scott campaign report (Aug 22 to Sep 4, 2026)",
+   "field": "expenditure to Escot Bus Lines",
+   "kind": "Possible duplicate entry",
+   "versions": [
+    {
+     "value": "Two identical lines: $3,745.00 paid to Escot Bus Lines, LLC on Aug 27, 2026",
+     "sources": [
+      "soe-cf"
+     ],
+     "official": true
+    }
+   ],
+   "status": "Open: one payment listed twice, or two payments? Needs the treasurer's answer"
+  }
+ ],
+ "labelCounts": {
+  "verified": 7,
+  "single": 177,
+  "unverified": 43,
+  "conflict": 2,
+  "unknown": 5
+ }
+}

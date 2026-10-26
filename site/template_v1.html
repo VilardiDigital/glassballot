@@ -1,0 +1,752 @@
+<title>Glass Ballot</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:wght@400;600&family=Atkinson+Hyperlegible+Next:wght@400;500;700;800&display=swap">
+<style>
+/* Layout: an app shell. Sticky glass header, one readable column (max 1080px), bottom tab bar on phones, top tabs on desktop.
+   Signature: roll calls drawn as ballots inside clear ballot boxes. */
+:root{
+  --bg:#F1F5F4; --surface:#FFFFFF; --surface-2:#E7EEEC; --ink:#142120; --muted:#4D5B59; --line:#D2DCDA;
+  --accent:#0A6B62; --accent-ink:#FFFFFF; --accent-soft:#DCEEEA; --glass:rgba(10,107,98,.08);
+  --ver-bg:#D9EEE8; --ver-fg:#0A5A50;
+  --sgl-bg:#E4EBEE; --sgl-fg:#2F4B55;
+  --unv-bg:#FBEACF; --unv-fg:#774100;
+  --cfl-bg:#F1E3F6; --cfl-fg:#682B7C;
+  --unk-bg:#E8ECEB; --unk-fg:#46514F;
+  --yes:#142120; --yes-ink:#FFFFFF;
+  --shadow:0 1px 2px rgba(20,33,32,.06),0 4px 16px rgba(20,33,32,.05);
+  --font:"Atkinson Hyperlegible Next","Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"Atkinson Hyperlegible Mono",ui-monospace,"SF Mono",Menlo,monospace;
+  --r:14px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D1514; --surface:#151F1E; --surface-2:#1D2928; --ink:#E4EDEB; --muted:#A3B3B0; --line:#2C3A38;
+  --accent:#52C2B2; --accent-ink:#06201D; --accent-soft:#17332F; --glass:rgba(82,194,178,.10);
+  --ver-bg:#173A33; --ver-fg:#8FE0CF; --sgl-bg:#1E2C31; --sgl-fg:#A9C6D0; --unv-bg:#3A2A12; --unv-fg:#F4C27C;
+  --cfl-bg:#2E1E36; --cfl-fg:#DDB3EC; --unk-bg:#222B2A; --unk-fg:#B5C2C0; --yes:#E4EDEB; --yes-ink:#0D1514;
+  --shadow:0 1px 2px rgba(0,0,0,.3); color-scheme:dark }}
+:root[data-theme="dark"]{
+  --bg:#0D1514; --surface:#151F1E; --surface-2:#1D2928; --ink:#E4EDEB; --muted:#A3B3B0; --line:#2C3A38;
+  --accent:#52C2B2; --accent-ink:#06201D; --accent-soft:#17332F; --glass:rgba(82,194,178,.10);
+  --ver-bg:#173A33; --ver-fg:#8FE0CF; --sgl-bg:#1E2C31; --sgl-fg:#A9C6D0; --unv-bg:#3A2A12; --unv-fg:#F4C27C;
+  --cfl-bg:#2E1E36; --cfl-fg:#DDB3EC; --unk-bg:#222B2A; --unk-fg:#B5C2C0; --yes:#E4EDEB; --yes-ink:#0D1514;
+  --shadow:0 1px 2px rgba(0,0,0,.3); color-scheme:dark }
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:17px;line-height:1.5;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--surface)}
+a{color:var(--accent);text-underline-offset:3px}
+a:hover{text-decoration-thickness:2px}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:6px}
+h1,h2,h3{text-wrap:balance;margin:0;line-height:1.15}
+p{margin:0}
+.wrap{max-width:1080px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+
+/* Header */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--surface) 88%,transparent);backdrop-filter:saturate(1.4) blur(10px);-webkit-backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:16px;min-height:60px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font-weight:800;font-size:20px;letter-spacing:-.01em}
+.brand svg{flex-shrink:0}
+.place{font-family:var(--mono);font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:3px 10px;white-space:nowrap}
+.topnav{display:none;gap:4px;margin-left:auto}
+.topnav a{padding:8px 12px;border-radius:10px;text-decoration:none;color:var(--muted);font-weight:700;font-size:15px}
+.topnav a[aria-current="page"]{color:var(--ink);background:var(--surface-2)}
+.iconbtn{margin-left:auto;display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:12px;border:1px solid var(--line);background:var(--surface);cursor:pointer}
+@media (min-width:900px){.topnav{display:flex}.iconbtn{margin-left:8px}}
+
+/* Bottom tabs (phones) */
+.tabs{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--surface);border-top:1px solid var(--line);
+  padding:6px max(8px,env(safe-area-inset-right,0px)) calc(6px + env(safe-area-inset-bottom,0px)) max(8px,env(safe-area-inset-left,0px));display:grid;grid-template-columns:repeat(5,1fr)}
+.tabs a{display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 2px;min-height:50px;text-decoration:none;color:var(--muted);font-size:12px;font-weight:700;border-radius:10px}
+.tabs a[aria-current="page"]{color:var(--accent)}
+.tabs svg{width:22px;height:22px}
+@media (min-width:900px){.tabs{display:none}}
+main{padding-block:24px calc(96px + env(safe-area-inset-bottom,0px))}
+@media (min-width:900px){main{padding-block:32px 64px}}
+
+/* Type + blocks */
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.h1{font-size:clamp(30px,6vw,46px);font-weight:800;letter-spacing:-.02em}
+.h2{font-size:24px;font-weight:800;letter-spacing:-.01em}
+.h3{font-size:18px;font-weight:700}
+.lede{font-size:18px;color:var(--muted);max-width:62ch}
+.muted{color:var(--muted)}
+.small{font-size:14px}
+.stack{display:flex;flex-direction:column;gap:12px}
+.stack-lg{display:flex;flex-direction:column;gap:32px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;box-shadow:var(--shadow);min-width:0}
+a.card{display:block;text-decoration:none;color:var(--ink)}
+a.card:hover{border-color:var(--accent)}
+.section-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.split{display:grid;gap:24px}
+@media (min-width:900px){.split{grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);align-items:start}}
+@media (max-width:899px){.split.person > :last-child{order:-1}}
+
+/* Labels */
+.lab{display:inline-flex;align-items:center;gap:5px;font-size:12.5px;font-weight:700;padding:3px 9px 3px 7px;border-radius:999px;white-space:nowrap;line-height:1.3;border:0;cursor:help}
+.lab svg{width:12px;height:12px;flex-shrink:0}
+.lab.verified{background:var(--ver-bg);color:var(--ver-fg)}
+.lab.single{background:var(--sgl-bg);color:var(--sgl-fg)}
+.lab.unverified{background:var(--unv-bg);color:var(--unv-fg)}
+.lab.conflict{background:var(--cfl-bg);color:var(--cfl-fg)}
+.lab.unknown{background:var(--unk-bg);color:var(--unk-fg)}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;padding:4px 10px;border-radius:999px;background:var(--surface-2);color:var(--ink);white-space:nowrap}
+.pill.accent{background:var(--accent);color:var(--accent-ink)}
+.pill.wrap-ok{white-space:normal}
+.vote{display:inline-flex;align-items:center;justify-content:center;min-width:52px;height:28px;padding:0 8px;border-radius:7px;font-size:12.5px;font-weight:800;letter-spacing:.06em;flex-shrink:0}
+.vote.yes{background:var(--yes);color:var(--yes-ink)}
+.vote.no{box-shadow:inset 0 0 0 2px var(--ink);color:var(--ink)}
+.vote.absent,.vote.abstain{background:var(--unk-bg);color:var(--unk-fg)}
+
+/* Facts */
+.facts{display:flex;flex-direction:column}
+.fact{display:grid;grid-template-columns:minmax(0,150px) minmax(0,1fr);gap:4px 16px;padding:12px 0;border-top:1px solid var(--line)}
+.fact:first-child{border-top:0}
+.fact dt{font-size:14px;color:var(--muted);font-weight:700}
+.fact dd{margin:0;display:flex;flex-direction:column;gap:6px;min-width:0}
+@media (max-width:520px){.fact{grid-template-columns:1fr}}
+.srcs{font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 10px}
+.srcs a{color:var(--muted)}
+.versions{display:flex;flex-direction:column;gap:6px;padding:10px 12px;border-radius:10px;background:var(--cfl-bg);color:var(--ink)}
+.versions .v{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:baseline}
+.versions b{font-weight:800}
+ul.plain{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:4px}
+
+/* Avatars */
+.av{width:52px;height:52px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;background:var(--surface-2);color:var(--muted);border:1px solid var(--line)}
+.av.lg{width:76px;height:76px;font-size:26px}
+.person-card{display:flex;gap:14px;align-items:center}
+
+/* Buttons + inputs */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:0 18px;border-radius:12px;font-weight:700;font-size:16px;text-decoration:none;cursor:pointer;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn:disabled{opacity:.55;cursor:default}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{min-height:42px;padding:0 16px;border-radius:999px;border:1px solid var(--line);background:var(--surface);font-weight:700;font-size:15px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+input[type=search],textarea{width:100%;font:inherit;color:var(--ink);background:var(--surface);border:2px solid var(--line);border-radius:12px;padding:12px 14px}
+input[type=search]:focus,textarea:focus{border-color:var(--accent);outline:none}
+
+/* Glass ballot box */
+.boxes{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:12px}
+.gbox{position:relative;border:2px solid var(--accent);border-radius:12px;background:var(--glass);padding:34px 12px 12px;min-height:120px}
+.gbox::before{content:"";position:absolute;top:-2px;left:50%;width:56px;height:6px;transform:translateX(-50%);background:var(--bg);border-left:2px solid var(--accent);border-right:2px solid var(--accent)}
+.gbox .gl{position:absolute;top:8px;left:12px;font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.gbox .gn{position:absolute;top:4px;right:12px;font-size:24px;font-weight:800}
+.slips{display:flex;flex-wrap:wrap;gap:6px}
+.slip{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border-radius:6px;font-size:14px;font-weight:700;text-decoration:none;background:var(--surface);border:1px solid var(--line);color:var(--ink);box-shadow:0 1px 0 var(--line)}
+.slip.yes{background:var(--yes);color:var(--yes-ink);border-color:var(--yes)}
+.slip.no{background:var(--surface);box-shadow:inset 0 0 0 2px var(--ink)}
+.slip.empty{border-style:dashed;color:var(--muted);background:transparent}
+
+/* Score */
+.meter{height:10px;border-radius:5px;background:var(--surface-2);overflow:hidden}
+.meter i{display:block;height:100%;background:var(--accent);border-radius:5px}
+.score-num{font-size:44px;font-weight:800;line-height:1;font-variant-numeric:tabular-nums}
+.part{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;padding:10px 0;border-top:1px solid var(--line)}
+
+/* Hero */
+.hero{display:flex;flex-direction:column;gap:14px;padding-block:8px 4px}
+.notice{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:12px;background:var(--surface-2);font-size:15px}
+.notice svg{flex-shrink:0;margin-top:2px}
+.trust{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));gap:8px}
+.trust .t{padding:12px;border-radius:12px;background:var(--surface);border:1px solid var(--line);display:flex;flex-direction:column;gap:6px}
+.trust .n{font-size:26px;font-weight:800;font-variant-numeric:tabular-nums}
+
+/* Table */
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:560px}
+th,td{text-align:left;vertical-align:top;padding:14px 16px;border-top:1px solid var(--line);font-size:15px}
+thead th{border-top:0;font-size:16px}
+tbody th{color:var(--muted);font-weight:700;width:170px;background:var(--surface-2)}
+td .lab{margin-top:6px}
+
+/* Ask */
+.answer{white-space:pre-wrap;font-size:17px;line-height:1.6}
+.suggest{display:flex;flex-direction:column;gap:8px}
+.suggest button{text-align:left;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--surface);cursor:pointer;font-weight:500;min-height:44px}
+
+/* Search overlay */
+.overlay{position:fixed;inset:0;z-index:40;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);padding-top:calc(16px + env(safe-area-inset-top,0px))}
+.overlay .wrap{display:flex;flex-direction:column;gap:12px}
+.results a{display:flex;justify-content:space-between;gap:12px;padding:12px 14px;border-radius:12px;background:var(--surface);border:1px solid var(--line);text-decoration:none;color:var(--ink);margin-bottom:8px}
+
+.back{display:inline-flex;align-items:center;gap:6px;font-weight:700;text-decoration:none;min-height:44px}
+footer{border-top:1px solid var(--line);padding-block:24px;font-size:14px;color:var(--muted)}
+@media (prefers-reduced-motion:no-preference){.view{animation:in .18s ease-out}@keyframes in{from{transform:translateY(4px)}to{transform:none}}}
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#ballot" aria-label="Glass Ballot home">
+      <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><rect x="3" y="10" width="24" height="17" rx="3" fill="var(--accent)" fill-opacity="0.14" stroke="var(--accent)" stroke-width="2"/><rect x="10.5" y="3" width="9" height="14" rx="1.5" fill="var(--surface)" stroke="var(--accent)" stroke-width="2"/><path d="M12.8 9.6l1.6 1.6 3-3.2" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Glass Ballot
+    </a>
+    <span class="place">Pinellas, FL</span>
+    <nav class="topnav" aria-label="Main">
+      <a href="#ballot" data-tab="ballot">My ballot</a>
+      <a href="#officials" data-tab="officials">Officials</a>
+      <a href="#votes" data-tab="votes">Votes</a>
+      <a href="#topics" data-tab="topics">Topics</a>
+      <a href="#ask" data-tab="ask">Ask</a>
+    </nav>
+    <button class="iconbtn" id="openSearch" type="button" aria-label="Search">
+      <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<main class="wrap" id="app" tabindex="-1"></main>
+
+<footer class="wrap" id="foot"></footer>
+
+<nav class="tabs" aria-label="Main">
+  <a href="#ballot" data-tab="ballot"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="9" width="18" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9 9V4h6v5" fill="none" stroke="currentColor" stroke-width="2"/></svg>Ballot</a>
+  <a href="#officials" data-tab="officials"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Officials</a>
+  <a href="#votes" data-tab="votes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4 4 10-10" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Votes</a>
+  <a href="#topics" data-tab="topics"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Topics</a>
+  <a href="#ask" data-tab="ask"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>Ask</a>
+</nav>
+
+<div class="overlay" id="search" hidden>
+  <div class="wrap">
+    <div class="row" style="flex-wrap:nowrap">
+      <label for="q" class="eyebrow" style="position:absolute;left:-9999px">Search</label>
+      <input id="q" type="search" placeholder="Search a name, a vote, a topic" autocomplete="off">
+      <button class="btn" id="closeSearch" type="button">Close</button>
+    </div>
+    <div class="results" id="results"></div>
+  </div>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+
+/* ---------- helpers ---------- */
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const P = Object.fromEntries(DATA.people.map(p => [p.id, p]));
+const V = Object.fromEntries(DATA.votes.map(v => [v.id, v]));
+const R = Object.fromEntries(DATA.races.map(r => [r.id, r]));
+const T = Object.fromEntries(DATA.topics.map(t => [t.id, t]));
+const S = DATA.sources;
+const initials = n => n.replace(/[^A-Za-zÀ-ÿ .-]/g,"").split(/\s+/).filter(w => w && w !== "Jr.").map(w => w[0]).slice(0,2).join("").toUpperCase();
+const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const fmtDate = iso => { if (!iso) return ""; const [y,m,d] = iso.split("-").map(Number); return `${MONTHS[m-1]} ${d}, ${y}`; };
+const voteDate = v => v.date ? fmtDate(v.date) : (v.dateNote || "Date not yet confirmed");
+const lastName = p => p.name.replace(/ Jr\.$/,"").split(" ").pop();
+const store = { get(k){ try { return localStorage.getItem(k); } catch { return null; } }, set(k,v){ try { localStorage.setItem(k,v); } catch {} } };
+
+const LAB = {
+  verified:{t:"Verified", d:"Matches an official record, confirmed by a second source.", i:'<path d="M2.5 6.5l2.5 2.5L9.5 3.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'},
+  single:{t:"Official record", d:"From one official record. Nothing else to check it against yet.", i:'<circle cx="6" cy="6" r="3" fill="currentColor"/>'},
+  unverified:{t:"Unverified", d:"From non-official sources. Not yet matched to an official record.", i:'<path d="M6 3v4M6 9h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>'},
+  conflict:{t:"Conflict", d:"Sources disagree. Every version is shown.", i:'<path d="M2 4h6l-2-2M10 8H4l2 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>'},
+  unknown:{t:"Unknown", d:"We looked and couldn't find it yet.", i:'<path d="M4.5 4.5a1.6 1.6 0 1 1 2.2 1.5c-.5.2-.7.6-.7 1M6 9.2h.01" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>'}
+};
+const chip = (label, note) => { const l = LAB[label] || LAB.unknown; return `<span class="lab ${label}" title="${esc(note || l.d)}"><svg viewBox="0 0 12 12" aria-hidden="true">${l.i}</svg>${l.t}</span>`; };
+const srcLinks = ids => { const u = [...new Set(ids || [])]; if (!u.length) return ""; return `<span class="srcs">${u.map(id => { const s = S[id]; if (!s) return ""; return `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.publisher)}</a>`; }).join("")}</span>`; };
+const valueText = v => Array.isArray(v) ? `<ul class="plain">${v.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : esc(v);
+
+function factBlock(fact, opts = {}) {
+  if (!fact || fact.label === "unknown") {
+    return `<div class="row">${chip("unknown")}<span class="muted small">${esc(opts.unknownText || "We looked and couldn't find this yet.")}</span></div>`;
+  }
+  if (fact.label === "conflict") {
+    const vs = fact.versions.map(v => `<div class="v"><b>${valueText(v.value)}</b>${srcLinks(v.sources)}${v.official ? '<span class="pill">Official record</span>' : ""}</div>`).join("");
+    return `<div class="row">${chip("conflict")}<span class="small muted">${fact.value ? "The official record is shown first." : "No official record yet, so we don't pick one."}</span></div><div class="versions">${vs}</div>`;
+  }
+  return `<div>${valueText(fact.value)}</div><div class="row">${chip(fact.label, fact.note)}${srcLinks(fact.sources)}</div>`;
+}
+
+const FIELD_NAMES = {party:"Party", inOfficeSince:"In office since", term:"Current term", leadership:"Role", job:"Work", roles:"Community roles", pastOffice:"Past office", lastElection:"Last election", record:"Voting record", attendance:"Attendance", conflicts:"Conflicts of interest", filings:"Financial disclosures", raised:"Money raised"};
+const MONEY_FIELDS = {raised:"Money raised", moneyWhere:"Where it comes from", moneyOwn:"Their own money", topOrgDonors:"Biggest business and group donors", officialGifts:"Money between officials"};
+
+function rollOf(v) { const r = v.roll; const base = r.value || (r.versions && r.versions[0] && r.versions[0].value) || null; if (!base) return null; return {...base, ...(v.rollExtra || {})}; }
+
+/* ---------- views ---------- */
+const views = {};
+const showAll = new Set();
+
+views.ballot = () => {
+  const mine = store.get("gb-district");
+  const districtRace = {"4":"bcc-d4","6":"bcc-d6"};
+  const always = ["bcc-d2","sb-d3"];
+  const races = mine && mine !== "unsure" ? [...always, ...(districtRace[mine] ? [districtRace[mine]] : [])] : DATA.races.map(r => r.id);
+  const c = DATA.labelCounts;
+  const heads = DATA.votes.slice(0,3);
+  return `<div class="stack-lg view">
+    <section class="hero">
+      <span class="eyebrow">Election day · ${fmtDate(DATA.county.electionDate)}</span>
+      <h1 class="h1">See every vote go in.</h1>
+      <p class="lede">Who's on your ballot in Pinellas County, how they've voted, who funds them, and how sure we are of every fact. In plain English, with a source behind each one.</p>
+    </section>
+
+    <section class="card stack" aria-labelledby="dq">
+      <h2 class="h3" id="dq">Which county commission district do you live in?</h2>
+      <p class="small muted">${esc(DATA.county.seats)}</p>
+      <div class="chips" role="group" aria-label="Your district">
+        ${["4","5","6","7"].map(d => `<button class="chip" type="button" data-district="${d}" aria-pressed="${mine === d}">District ${d}</button>`).join("")}
+        <button class="chip" type="button" data-district="unsure" aria-pressed="${mine === "unsure" || !mine}">Not sure</button>
+      </div>
+      <p class="small"><a href="https://www.votepinellas.gov/" target="_blank" rel="noopener">Look up your district with the Supervisor of Elections</a></p>
+    </section>
+
+    <section class="stack" aria-labelledby="races">
+      <div class="section-head"><h2 class="h2" id="races">On your ballot</h2><span class="small muted">${mine && mine !== "unsure" ? `County races for District ${esc(mine)}` : "Every county race this year"}</span></div>
+      ${mine === "5" || mine === "7" ? `<p class="notice small">District ${esc(mine)}'s commission seat isn't on the ballot this year. You still vote in the at-large races below.</p>` : ""}
+      <div class="grid">${races.map(id => raceCard(R[id])).join("")}</div>
+      <p class="small muted">Showing county races. State, federal and city races connect next.</p>
+    </section>
+
+    <section class="stack" aria-labelledby="hl">
+      <div class="section-head"><h2 class="h2" id="hl">What the commission did lately</h2><a href="#votes" class="small">All votes</a></div>
+      <div class="grid">${heads.map(voteCard).join("")}</div>
+    </section>
+
+    <section class="stack" aria-labelledby="tr">
+      <div class="section-head"><h2 class="h2" id="tr">How sure we are</h2><a href="#how" class="small">How this works</a></div>
+      <div class="trust">
+        ${["verified","single","unverified","conflict","unknown"].map(k => `<div class="t"><span class="n">${c[k]}</span>${chip(k)}<span class="small muted">${LAB[k].d}</span></div>`).join("")}
+      </div>
+      <p class="small"><a href="#problems">See the ${DATA.problems.length} record problems we found</a></p>
+    </section>
+  </div>`;
+};
+
+function raceCard(r) {
+  const ppl = r.people.map(id => P[id]);
+  return `<a class="card stack" href="#r-${r.id}">
+    <div class="row" style="justify-content:space-between"><span class="eyebrow">${esc(r.seatType)}</span><span class="small muted">${esc(r.who)}</span></div>
+    <h3 class="h3">${esc(r.title)}</h3>
+    <div class="stack" style="gap:10px">${ppl.map(p => `<div class="person-card"><div class="av" aria-hidden="true">${initials(p.name)}</div><div><div style="font-weight:700">${esc(p.name)}</div><div class="small muted">${p.status === "incumbent" ? "Incumbent" : "Challenger"}${p.nonpartisan ? " · Nonpartisan seat" : (p.facts.party.value ? " · " + esc(p.facts.party.value) : "")}</div></div></div>`).join("")}</div>
+    ${r.note ? `<p class="small muted">${esc(r.note)}</p>` : ""}
+    <span class="small" style="color:var(--accent);font-weight:700">${ppl.length > 1 ? "Compare side by side" : "See the record"}</span>
+  </a>`;
+}
+
+function voteCard(v) {
+  return `<a class="card stack" href="#v-${v.id}">
+    <span class="eyebrow">${esc(voteDate(v))}${v.topic && T[v.topic] ? " · " + esc(T[v.topic].name) : ""}</span>
+    <h3 class="h3">${esc(v.headline)}</h3>
+    <div class="row">${v.result.value ? `<span class="pill">${esc(v.result.value)}</span>` : ""}${chip(v.result.label, v.result.note)}</div>
+  </a>`;
+}
+
+function agreement(bcc) {
+  const split = DATA.votes.filter(v => v.split);
+  if (split.length < 5) return "";
+  const side = (v, id) => { const r = rollOf(v) || {}; if ((r.yes||[]).includes(id)) return "y"; if ((r.no||[]).includes(id)) return "n"; return null; };
+  const pct = (a, b) => { let same = 0, both = 0; split.forEach(v => { const x = side(v,a), y = side(v,b); if (x && y) { both++; if (x === y) same++; } }); return both ? Math.round(100*same/both) : null; };
+  const head = bcc.map(p => `<th scope="col">${esc(lastName(p))}</th>`).join("");
+  const rows = bcc.map(a => `<tr><th scope="row">${esc(a.name)}</th>${bcc.map(b => { if (a.id === b.id) return `<td class="muted">·</td>`; const n = pct(a.id,b.id); return `<td style="font-variant-numeric:tabular-nums;font-weight:${n >= 75 ? 800 : 400}">${n == null ? "–" : n + "%"}</td>`; }).join("")}</tr>`).join("");
+  return `<section class="stack"><div class="section-head"><h2 class="h2">Who votes together</h2>${chip("single", "Counted from the county's official roll calls.")}</div>
+    <p class="small muted">On the ${split.length} split votes loaded so far (since Nov 2024), how often each pair voted the same way. Unanimous votes are left out because everyone agrees on those.</p>
+    <div class="tablewrap"><table style="min-width:640px"><thead><tr><th scope="col"><span style="position:absolute;left:-9999px">Commissioner</span></th>${head}</tr></thead><tbody>${rows}</tbody></table></div></section>`;
+}
+
+views.officials = () => {
+  const bcc = DATA.people.filter(p => p.office === "County Commissioner").sort((a,b) => a.district.localeCompare(b.district));
+  const others = DATA.people.filter(p => p.office !== "County Commissioner");
+  const card = p => `<a class="card person-card" href="#p-${p.id}">
+      <div class="av" aria-hidden="true">${initials(p.name)}</div>
+      <div class="stack" style="gap:2px;min-width:0">
+        <span class="eyebrow">District ${esc(p.district)} · ${esc(p.seatType)}</span>
+        <span style="font-weight:800;font-size:18px">${esc(p.name)}</span>
+        <span class="small muted">${esc(p.office)}${p.nonpartisan ? " · Nonpartisan" : (p.facts.party.value ? " · " + esc(p.facts.party.value) : "")}</span>
+        ${p.race ? `<span class="pill accent" style="align-self:flex-start;margin-top:4px">On the Nov 3 ballot</span>` : ""}
+      </div></a>`;
+  return `<div class="stack-lg view">
+    <section class="stack"><span class="eyebrow">Pinellas County</span><h1 class="h1">Board of County Commissioners</h1>
+      <p class="lede">Seven commissioners set the county budget and tax rate, and decide zoning, roads, the jail and public health. Listed by district.</p></section>
+    <div class="grid">${bcc.map(card).join("")}</div>
+    ${agreement(bcc)}
+    <section class="stack"><h2 class="h2">Also on your ballot</h2><div class="grid">${others.map(card).join("")}</div></section>
+  </div>`;
+};
+
+const SCORE_PARTS = [
+  ["conflict_handling","Conflict handling","When they or a donor had a stake, did they disclose it and step aside?","Needs Form 1 and Form 6 disclosures and Form 8B voting conflict filings."],
+  ["money_timing","Money timing","Share of their campaign money that did NOT arrive within 90 days of a vote naming that donor.","Applies to sitting commissioners once their campaign reports are matched to votes."],
+  ["promise_match","Promise match","Did their votes match what they said they'd do?","Needs tracked promises matched to votes."],
+  ["openness","Openness","Do they file their financial disclosures on time and show up to meetings?","Needs disclosure filing dates and attendance from official minutes."]
+];
+
+function scoreCard(p) {
+  const s = p.score;
+  const parts = SCORE_PARTS.map(([k, name, q, need]) => {
+    const val = s.parts[k];
+    return `<div class="part"><div><div style="font-weight:700">${name}</div><div class="small muted">${val == null ? need : q}</div></div><div style="font-weight:800;font-variant-numeric:tabular-nums">${val == null ? '<span class="small muted">Waiting on data</span>' : val}</div></div>`;
+  }).join("");
+  return `<section class="card stack" aria-labelledby="pop">
+    <div class="section-head"><h2 class="h3" id="pop">Pocket or Public</h2><a href="#how" class="small">How it's scored</a></div>
+    <p class="small muted">When this person votes, who stands to gain: them or the public? Scored only from records, never on party.</p>
+    <div class="row" style="gap:16px"><span class="score-num">${s.overall ?? "–"}</span><span class="small muted" style="max-width:32ch">${esc(s.reason || "Out of 100. Higher means more votes in the public's interest over their own.")}</span></div>
+    ${(() => { const have = Object.values(s.parts).filter(v => v != null).length; const enough = s.scoredVotes >= 25;
+       const pct = enough ? Math.round(100 * have / 3) : Math.round(100 * s.scoredVotes / 25);
+       const msg = enough ? `${s.scoredVotes.toLocaleString()} votes on record. ${have} of the 3 parts needed for an overall score have data.` : `${s.scoredVotes} of the 25 votes needed for an overall score.`;
+       return `<div class="meter" aria-hidden="true"><i style="width:${Math.min(100, pct)}%"></i></div><p class="small muted">${msg}</p>`; })()}
+    <div>${parts}</div>
+  </section>`;
+}
+
+views.person = id => {
+  const p = P[id]; if (!p) return notFound();
+  const race = p.race ? R[p.race] : null;
+  const rivals = race ? race.people.filter(x => x !== p.id).map(x => P[x]) : [];
+  const shown = Object.keys(FIELD_NAMES).filter(f => f !== "raised" && p.facts[f] && (p.facts[f].label !== "unknown" || p.required.includes(f)));
+  const moneyShown = Object.keys(MONEY_FIELDS).filter(f => p.facts[f] && (p.facts[f].label !== "unknown" || f === "raised"));
+  const cnx = (p.connections || []).slice().sort((a,b) => (b.inWindow - a.inWindow) || (b.amount - a.amount));
+  const promises = p.facts.promises;
+  const myVotes = p.votes.map(x => ({...x, v: V[x.vote]}));
+  const allSources = [...new Set(Object.values(p.facts).flatMap(f => f.sources || []))];
+  return `<div class="stack-lg view">
+    <a class="back" href="#officials">‹ Officials</a>
+    <section class="person-card" style="gap:18px;align-items:flex-start">
+      <div class="av lg" aria-hidden="true">${initials(p.name)}</div>
+      <div class="stack" style="gap:6px;min-width:0">
+        <span class="eyebrow">${esc(p.office)} · District ${esc(p.district)} · ${esc(p.seatType)}</span>
+        <h1 class="h1">${esc(p.name)}</h1>
+        <div class="row">${race ? `<a class="pill accent" href="#r-${race.id}" style="text-decoration:none">On the Nov 3 ballot</a>` : ""}${p.status === "challenger" ? '<span class="pill">Challenger</span>' : '<span class="pill">Incumbent</span>'}</div>
+      </div>
+    </section>
+    ${rivals.length ? `<section class="card stack"><h2 class="h3">Running against</h2><div class="row" style="gap:16px">${rivals.map(r => `<a class="person-card" href="#p-${r.id}" style="text-decoration:none;color:var(--ink)"><div class="av" aria-hidden="true">${initials(r.name)}</div><div><b>${esc(r.name)}</b><div class="small muted">${r.status === "incumbent" ? "Incumbent" : "Challenger"}</div></div></a>`).join("")}<a class="btn" href="#r-${race.id}">Compare side by side</a></div></section>` : ""}
+    <div class="split person">
+      <div class="stack-lg">
+        <section class="card"><h2 class="h3" style="margin-bottom:6px">The basics</h2><dl class="facts" style="margin:0">${shown.map(f => `<div class="fact"><dt>${FIELD_NAMES[f]}</dt><dd>${factBlock(p.facts[f])}</dd></div>`).join("")}</dl></section>
+
+        <section class="stack" aria-labelledby="hv">
+          <h2 class="h2" id="hv">How they voted</h2>
+          ${p.tally ? `<div class="trust">${[["Yes",p.tally.aye],["No",p.tally.nay],["Absent",p.tally.absent],["Abstained",p.tally.abstain]].map(([k,n]) => `<div class="t"><span class="n">${n.toLocaleString()}</span><span class="small muted">${k}</span></div>`).join("")}</div><p class="small muted">Every roll call since Nov 19, 2024, from the county's official record. Below: the votes where commissioners disagreed, and key unanimous votes.</p>` : ""}
+          ${myVotes.length ? myVotes.slice(0, showAll.has(p.id) ? 999 : 6).map(({how, v}) => `<a class="card row" href="#v-${v.id}" style="flex-wrap:nowrap;gap:14px"><span class="vote ${how}">${how.toUpperCase()}</span><span class="stack" style="gap:4px;min-width:0"><b>${esc(v.headline)}</b><span class="small muted">${esc(voteDate(v))} · ${esc(v.result.value || "")}</span><span>${chip(v.roll.label, v.roll.note)}</span></span></a>`).join("")
+            : `<div class="card small muted">${p.status === "challenger" ? "No voting record. This person hasn't held this office." : "No individual votes loaded yet for this person."}</div>`}
+          ${myVotes.length > 6 && !showAll.has(p.id) ? `<button class="btn" type="button" data-more="${p.id}">Show all ${myVotes.length} votes</button>` : ""}
+
+        </section>
+
+        ${cnx.length ? `<section class="stack" aria-labelledby="cx">
+          <h2 class="h2" id="cx">Money and votes</h2>
+          <p class="small muted">Donors who had business in front of the commission. A connection is a public fact, not proof of wrongdoing. Gifts within 90 days of a vote that named the donor count in the Money timing score.</p>
+          ${cnx.map(c => `<article class="card stack" style="gap:8px">
+            <div class="section-head"><span class="eyebrow">${esc(c.kind)}</span>${c.inWindow ? '<span class="pill">Within 90 days</span>' : ""}</div>
+            <p><b>${esc(c.donor)}</b> gave ${"$" + c.amount.toLocaleString()}, most recently on ${fmtDate(c.date)}.</p>
+            ${c.votes.length ? `<ul class="plain small">${c.votes.map(v => `<li>${esc(v)}</li>`).join("")}</ul>` : ""}
+            ${c.note ? `<p class="small muted">${esc(c.note)}</p>` : ""}
+            <div class="row">${chip(c.label)}${srcLinks(c.sources)}</div>
+          </article>`).join("")}
+        </section>` : ""}
+
+        <section class="card stack" aria-labelledby="pr">
+          <h2 class="h3" id="pr">What they say they'll do</h2>
+          ${promises.label === "unknown" ? `<p class="small muted">No stated priorities on file yet.</p>` : `${valueText(promises.value)}<div class="row">${chip(promises.label, "Self-reported priorities, as summarized by a third party. A claim, not a fact.")}${srcLinks(promises.sources)}</div><p class="small muted">These are claims from the campaign. As votes come in, we check each one against the record.</p>`}
+        </section>
+      </div>
+
+      <div class="stack-lg">
+        ${scoreCard(p)}
+        <section class="card stack" aria-labelledby="mo">
+          <h2 class="h3" id="mo">Who funds them</h2>
+          <dl class="facts" style="margin:0">${moneyShown.map(f => `<div class="fact" style="grid-template-columns:1fr"><dt>${MONEY_FIELDS[f]}</dt><dd>${factBlock(p.facts[f], {unknownText: "No campaign reports on file for this person yet."})}</dd></div>`).join("")}</dl>
+          ${S["soe-cf"] ? `<p class="small muted">Every donor, with dates and amounts, is in the <a href="${esc(S["soe-cf"].url)}" target="_blank" rel="noopener">county's campaign reports</a>. We group donors by name, not by the filer's type codes.</p>` : ""}
+        </section>
+        <section class="card stack" aria-labelledby="po">
+          <h2 class="h3" id="po">Public posts</h2>
+          <p class="small muted">Not archived yet. When they are, every post links to the original, keeps a saved copy in case it's deleted, and is checked against the record.</p>
+        </section>
+        <section class="stack"><h2 class="h3">Sources for this page</h2><div class="srcs" style="font-size:14px">${allSources.map(id => `<a href="${esc(S[id].url)}" target="_blank" rel="noopener">${esc(S[id].publisher)}: ${esc(S[id].title)}</a>`).join("")}</div>
+        <button class="btn" type="button" data-report>Report a mistake on this page</button></section>
+      </div>
+    </div>
+  </div>`;
+};
+
+function glassRoll(v) {
+  const r = rollOf(v);
+  if (!r || (!r.yes?.length && !r.no?.length)) {
+    return `<div class="gbox"><span class="gl">Roll call</span><div class="slips"><span class="slip empty">Individual votes not loaded yet</span></div></div>`;
+  }
+  const slip = (id, cls) => P[id] ? `<a class="slip ${cls}" href="#p-${id}">${esc(lastName(P[id]))}</a>` : `<span class="slip ${cls}">${esc(id)}</span>`;
+  const box = (label, ids, cls) => `<div class="gbox"><span class="gl">${label}</span><span class="gn">${ids.length}</span><div class="slips">${ids.length ? ids.map(id => slip(id, cls)).join("") : '<span class="slip empty">None</span>'}</div></div>`;
+  return `<div class="boxes">${box("Yes", r.yes || [], "yes")}${box("No", r.no || [], "no")}</div>
+    ${(r.absent?.length || r.abstain?.length) ? `<p class="small muted">Absent: ${(r.absent||[]).map(id => esc(P[id]?.name || id)).join(", ") || "none"} · Abstained: ${(r.abstain||[]).map(id => esc(P[id]?.name || id)).join(", ") || "none"}</p>` : ""}`;
+}
+
+views.vote = id => {
+  const v = V[id]; if (!v) return notFound();
+  const others = DATA.votes.filter(x => x.topic === v.topic && x.id !== v.id);
+  const allSources = [...new Set([...(v.result.sources||[]), ...(v.roll.sources||[]), ...v.facts.flatMap(f => f.sources || [])])];
+  return `<div class="stack-lg view">
+    <a class="back" href="#votes">‹ All votes</a>
+    <section class="stack">
+      <span class="eyebrow">County Commission · ${esc(voteDate(v))}${v.fileNumber ? " · File " + esc(v.fileNumber) : ""}</span>
+      <h1 class="h1">${esc(v.headline)}</h1>
+      ${v.inShort ? `<p class="lede">${esc(v.inShort)}</p>` : `<p class="lede">Plain-English summary pending human review. The official title is below.</p>`}
+    </section>
+    <div class="split">
+      <div class="stack-lg">
+        <section class="card stack" aria-labelledby="res">
+          <div class="section-head"><h2 class="h2" id="res">${esc(v.result.value || "Result not confirmed")}</h2>${chip(v.result.label, v.result.note)}</div>
+          ${glassRoll(v)}
+          ${v.mover && P[v.mover] ? `<p class="small muted">Moved by ${esc(P[v.mover].name)}${v.seconder && P[v.seconder] ? `, seconded by ${esc(P[v.seconder].name)}` : ""}.</p>` : ""}
+          <div class="row">${chip(v.roll.label, v.roll.note)}${srcLinks(v.roll.sources)}</div>
+          ${v.roll.label === "conflict" ? factBlock(v.roll) : ""}
+        </section>
+        ${v.moneyNotes ? `<section class="card stack" style="border:2px solid var(--ink)" aria-labelledby="mc">
+          <h2 class="h3" id="mc">Money connected to this vote</h2>
+          ${v.moneyNotes.map(m => `<div class="stack" style="gap:6px"><p>${esc(m.text)}</p>${m.note ? `<p class="small muted">${esc(m.note)}</p>` : ""}<div class="row">${chip(m.label)}${srcLinks(m.sources)}</div></div>`).join("")}
+          <p class="small muted">Donations are legal and public. This shows a connection, not wrongdoing.</p>
+        </section>` : ""}
+        <section class="stack" aria-labelledby="mean">
+          <h2 class="h2" id="mean">What it actually means</h2>
+          ${v.facts.map(f => `<div class="card stack" style="gap:8px">${f.label === "unknown" ? `<div class="row" style="gap:10px">${chip("unknown")}<span>${esc(f.text)}</span></div><span class="small muted">We looked and couldn't find this yet.</span>` : `<p>${esc(f.text)}</p><div class="row">${chip(f.label, f.note)}${srcLinks(f.sources)}</div>`}</div>`).join("")}
+        </section>
+        ${v.officialTitle ? `<section class="card stack"><h2 class="h3">The official wording</h2><p class="small" style="font-family:var(--mono)">${esc(v.officialTitle)}</p></section>` : ""}
+      </div>
+      <div class="stack-lg">
+        <section class="card stack"><h2 class="h3">Share this vote</h2><p class="small muted">Make a card with the result and its sources printed on it.</p><button class="btn primary" type="button" data-share="${v.id}">Make a share card</button><div id="shareOut" class="stack"></div></section>
+        <section class="stack"><h2 class="h3">Sources</h2><div class="srcs" style="font-size:14px">${allSources.map(id => `<a href="${esc(S[id].url)}" target="_blank" rel="noopener">${esc(S[id].publisher)}: ${esc(S[id].title)}</a>`).join("")}${v.sourceUrl ? `<a href="${esc(v.sourceUrl)}" target="_blank" rel="noopener">Official meeting record</a>` : ""}</div>
+          <button class="btn" type="button" data-report>Report a mistake on this vote</button></section>
+        ${others.length ? `<section class="stack"><h2 class="h3">More on ${esc(T[v.topic].name)}</h2>${others.map(voteCard).join("")}</section>` : ""}
+      </div>
+    </div>
+  </div>`;
+};
+
+views.votes = () => {
+  const t = store.get("gb-topic") || "all";
+  const list = DATA.votes.filter(v => t === "all" || v.topic === t);
+  return `<div class="stack-lg view">
+    <section class="stack"><span class="eyebrow">County Commission</span><h1 class="h1">Votes</h1><p class="lede">Every vote rewritten in plain English, newest first. Tap one to see who voted how and what it really does.</p></section>
+    <div class="chips" role="group" aria-label="Filter by topic">
+      <button class="chip" type="button" data-topic="all" aria-pressed="${t === "all"}">All</button>
+      ${DATA.topics.map(x => `<button class="chip" type="button" data-topic="${x.id}" aria-pressed="${t === x.id}">${esc(x.name)}</button>`).join("")}
+    </div>
+    <div class="grid">${list.map(voteCard).join("")}</div>
+    ${DATA.legistarTotals ? `<p class="notice small"><span>From the county's official record: ${DATA.legistarTotals.rollCalls.toLocaleString()} roll call votes across ${DATA.legistarTotals.meetings} meetings since Nov 19, 2024. Most pass 7 to 0. This page shows the ${DATA.legistarTotals.splitRollCalls} where commissioners disagreed, plus key unanimous votes.</span></p>` : `<p class="notice small"><span>This pilot shows ${DATA.votes.length} votes gathered from news and county sources.</span></p>`}
+  </div>`;
+};
+
+views.topics = () => `<div class="stack-lg view">
+  <section class="stack"><span class="eyebrow">Topics</span><h1 class="h1">What's going on</h1><p class="lede">Votes, money and promises grouped by the issues people ask about.</p></section>
+  <div class="grid">${DATA.topics.map(t => { const n = DATA.votes.filter(v => v.topic === t.id).length; return `<a class="card stack" href="#t-${t.id}"><h2 class="h3">${esc(t.name)}</h2><p class="small muted">${esc(t.blurb)}</p><span class="pill" style="align-self:flex-start">${n} vote${n === 1 ? "" : "s"}</span></a>`; }).join("")}</div>
+</div>`;
+
+views.topic = id => { const t = T[id]; if (!t) return notFound(); const list = DATA.votes.filter(v => v.topic === id);
+  return `<div class="stack-lg view"><a class="back" href="#topics">‹ Topics</a><section class="stack"><span class="eyebrow">Topic</span><h1 class="h1">${esc(t.name)}</h1><p class="lede">${esc(t.blurb)}</p></section><div class="grid">${list.map(voteCard).join("")}</div></div>`; };
+
+views.race = id => {
+  const r = R[id]; if (!r) return notFound();
+  const ppl = r.people.map(x => P[x]);
+  const rows = [
+    ["Party", p => p.nonpartisan ? {value:"Nonpartisan seat", label:"single", sources:[]} : p.facts.party],
+    ["Incumbent?", p => ({value: p.status === "incumbent" ? "Yes" : "No", label:"single", sources: []})],
+    ["Work", p => p.facts.job],
+    ["Past office", p => p.facts.pastOffice],
+    ["Money raised", p => p.facts.raised],
+    ["Votes on record here", p => ({value: p.status === "challenger" ? "None. Hasn't held this office." : `${p.votes.length} loaded so far`, label: p.status === "challenger" ? "single" : "unverified", sources: []})],
+    ["What they say they'll do", p => p.facts.promises],
+  ];
+  const cell = f => { if (!f || f.label === "unknown") return `${chip("unknown")}`; if (f.label === "conflict") return factBlock(f); return `<div>${valueText(f.value)}</div>${f.sources && f.sources.length ? `<div>${chip(f.label, f.note)}</div>` : ""}`; };
+  return `<div class="stack-lg view">
+    <a class="back" href="#ballot">‹ My ballot</a>
+    <section class="stack"><span class="eyebrow">On the ballot · ${fmtDate(DATA.county.electionDate)} · ${esc(r.who)}</span><h1 class="h1">${esc(r.title)}</h1>
+      <p class="lede">Candidates listed alphabetically by last name. We never rank, rate or recommend candidates.</p>
+      ${r.note ? `<p class="notice small">${esc(r.note)}</p>` : ""}</section>
+    <div class="tablewrap"><table>
+      <thead><tr><th scope="col"><span class="sr" style="position:absolute;left:-9999px">Fact</span></th>${ppl.map(p => `<th scope="col"><a href="#p-${p.id}" class="person-card" style="text-decoration:none;color:var(--ink)"><span class="av" aria-hidden="true">${initials(p.name)}</span><span>${esc(p.name)}</span></a></th>`).join("")}</tr></thead>
+      <tbody>${rows.map(([name, fn]) => `<tr><th scope="row">${name}</th>${ppl.map(p => `<td>${cell(fn(p))}</td>`).join("")}</tr>`).join("")}</tbody>
+    </table></div>
+    <div class="srcs">${srcLinks(r.sources)}</div>
+  </div>`;
+};
+
+views.problems = () => `<div class="stack-lg view">
+  <section class="stack"><span class="eyebrow">Public log</span><h1 class="h1">Record problems</h1><p class="lede">When sources disagree, a number doesn't add up, or a record is missing, it goes here, in public, until it's fixed.</p></section>
+  <div class="stack">${DATA.problems.map(pr => `<article class="card stack">
+    <div class="section-head"><span class="eyebrow">${esc(pr.kind)}</span><span class="pill wrap-ok">${esc(pr.status)}</span></div>
+    <h2 class="h3">${esc(pr.subject)}: ${esc(pr.field === "inOfficeSince" ? "start date in office" : pr.field)}</h2>
+    <div class="versions">${pr.versions.map(v => `<div class="v"><b>${esc(typeof v.value === "object" ? JSON.stringify(v.value) : v.value)}</b>${srcLinks(v.sources)}${v.official ? '<span class="pill">Official record</span>' : ""}</div>`).join("")}</div>
+  </article>`).join("")}</div>
+</div>`;
+
+views.how = () => {
+  const tiers = [["1","Legal record","Approved minutes, filed reports, certified results, official county pages"],["2","Official, secondary","Meeting video, agenda packets, government press releases"],["3","Data groups","Ballotpedia, The Ballot Brief, Wikipedia, LegiScan"],["4","Journalism","Local and state news, meeting-summary services"],["5","Self-reported","Candidate sites, posts, speeches. Always a claim, never a fact"]];
+  return `<div class="stack-lg view">
+  <section class="stack"><span class="eyebrow">Methods</span><h1 class="h1">How Glass Ballot works</h1><p class="lede">We don't pick sides. Every fact has a source, we check it against other sources, and we label how sure we are.</p></section>
+  <section class="card stack"><h2 class="h3">What the labels mean</h2>${Object.entries(LAB).map(([k,l]) => `<div class="row" style="flex-wrap:nowrap;gap:12px">${chip(k)}<span>${l.d}</span></div>`).join("")}</section>
+  <section class="card stack"><h2 class="h3">Sources, strongest first</h2>${tiers.map(([n,t,d]) => `<div class="part" style="grid-template-columns:40px minmax(0,1fr)"><b style="font-family:var(--mono)">${n}</b><div><b>${t}</b><div class="small muted">${d}</div></div></div>`).join("")}
+    <p class="small muted">Verified needs a tier 1 record plus a second independent source. News outlets that agree with each other still need the official record.</p></section>
+  <section class="card stack" id="score"><h2 class="h3">The Pocket or Public score</h2>
+    <p>One question: when this person votes, who stands to gain, them or the public? We don't score whether a vote was good or bad for the community. That depends on what you value, so we show the facts and let you judge.</p>
+    ${SCORE_PARTS.map(([k,n,q]) => `<div class="part" style="grid-template-columns:1fr"><b>${n}</b><span class="small muted">${q}</span></div>`).join("")}
+    <p class="small muted">Each part is 0 to 100. The overall score is the average of the parts that have data, shown only after at least 25 scored votes and 3 of 4 parts. A donation isn't a conflict unless the donor had a direct stake, like their own rezoning or contract. The formula is public, and every number links to the votes behind it.</p></section>
+  <section class="stack"><h2 class="h3">Every source used</h2><div class="stack" style="gap:6px">${Object.values(S).map(s => `<div class="small"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.publisher)}: ${esc(s.title)}</a> <span class="muted">· Tier ${s.tier}${s.caution ? " · " + esc(s.caution) : ""}</span></div>`).join("")}</div></section>
+</div>`; };
+
+/* ---------- Ask ---------- */
+let sampleFn = null, askCtl = null;
+views.ask = () => `<div class="stack-lg view">
+  <section class="stack"><span class="eyebrow">Ask</span><h1 class="h1">Ask about your ballot</h1><p class="lede">Answers come only from the records on this site, with the sources named. If we don't have it, it says so.</p></section>
+  <section class="card stack">
+    <label for="askq" class="h3">Your question</label>
+    <textarea id="askq" rows="3" placeholder="Who voted against the Rays stadium bonds?"></textarea>
+    <div class="row"><button class="btn primary" type="button" id="askGo">Ask</button><button class="btn" type="button" id="askStop" hidden>Stop</button></div>
+    <div id="askOut" class="answer" aria-live="polite"></div>
+    <div id="askSrc" class="srcs"></div>
+  </section>
+  <section class="stack"><h2 class="h3">Try one</h2><div class="suggest">
+    ${["Who voted against the Rays stadium bonds, and why does it matter?","Who's running for County Commission District 6, and how much has each raised?","What did the commission decide about property taxes this year?","Which facts on this site do sources disagree about?"].map(q => `<button type="button" data-ask="${esc(q)}">${esc(q)}</button>`).join("")}
+  </div></section>
+</div>`;
+
+function askContext() {
+  const ppl = DATA.people.map(p => ({id:p.id, name:p.name, office:p.office, district:p.district, status:p.status,
+    facts:Object.fromEntries(Object.entries(p.facts).filter(([,f]) => f.label !== "unknown").map(([k,f]) => [k, {value:f.value ?? f.versions?.map(v=>v.value), label:f.label, sources:f.sources}])),
+    votes:p.votes.map(x => x.vote + ":" + x.how), tally:p.tally, connections:(p.connections||[]).map(c => ({kind:c.kind, donor:c.donor, amount:c.amount, date:c.date, votes:c.votes, note:c.note, label:c.label, sources:c.sources}))}));
+  const vts = DATA.votes.map(v => ({id:v.id, date:v.date || v.dateNote, headline:v.headline, inShort:v.inShort, result:{value:v.result.value,label:v.result.label,sources:v.result.sources}, roll:{value:rollOf(v),label:v.roll.label,sources:v.roll.sources}, facts:v.facts.map(f => ({text:f.text,label:f.label,sources:f.sources}))}));
+  const src = Object.fromEntries(Object.entries(S).map(([k,s]) => [k, s.publisher + ": " + s.title]));
+  return JSON.stringify({people:ppl, races:DATA.races, votes:vts, problems:DATA.problems.map(p => ({subject:p.subject, field:p.field, kind:p.kind, versions:p.versions.map(v => v.value), status:p.status})), sources:src});
+}
+
+async function runAsk(q) {
+  const out = $("#askOut"), srcEl = $("#askSrc"), go = $("#askGo"), stop = $("#askStop");
+  if (!q.trim()) { out.textContent = "Type a question first."; return; }
+  if (!sampleFn) { out.textContent = "Asking isn't available in this view. Browse Officials, Votes or Topics instead."; return; }
+  askCtl = new AbortController();
+  go.disabled = true; stop.hidden = false; srcEl.innerHTML = ""; out.textContent = "Thinking...";
+  const prompt = `You answer voters' questions for Glass Ballot, a strictly nonpartisan voter information site for Pinellas County, Florida.
+Rules:
+- Use ONLY the JSON data below. Never use outside knowledge. If the data doesn't answer the question, say exactly what is missing.
+- Never recommend, rank or judge candidates or parties, and never say who to vote for. Describe facts evenly for every side.
+- Say how sure each fact is using its label (verified, single source, unverified, conflict, unknown). If sources conflict, give every version.
+- After each fact, cite source ids in square brackets, like [tbt-rays].
+- Plain English, short sentences, no more than 150 words. No markdown headings. No em dashes.
+
+DATA:
+${askContext()}
+
+QUESTION: ${q}`;
+  try {
+    const { text, truncated } = await sampleFn(prompt, { signal: askCtl.signal, onText: ({ text }) => { out.textContent = text.replace(/\s*\[[a-z0-9-]+\]/g, ""); } });
+    out.textContent = text.replace(/\s*\[[a-z0-9-]+\]/g, "") + (truncated ? "\n\n(Cut short. Try a narrower question.)" : "");
+    const ids = [...new Set([...text.matchAll(/\[([a-z0-9-]+)\]/g)].map(m => m[1]).filter(id => S[id]))];
+    srcEl.innerHTML = ids.length ? `<span>Sources:</span>${srcLinks(ids).replace(/^<span class="srcs">|<\/span>$/g, "")}` : "";
+  } catch (e) {
+    const msg = {not_granted:"Asking needs your OK to use your Claude account. Browse the site instead, or allow it and ask again.", sampling_disabled:"Asking isn't available for this account.", rate_limited:"Too many questions at once. Wait a minute and try again.", cancelled:"Stopped.", refused:"That question couldn't be answered. Try asking it another way."}[e && e.code] || "Something went wrong. Try again in a moment.";
+    out.textContent = (e && e.text && e.code !== "refused" ? e.text + "\n\n" : "") + msg;
+  } finally { go.disabled = false; stop.hidden = true; }
+}
+
+/* ---------- Share card ---------- */
+let downloadsApi = null;
+function wrapText(ctx, text, maxW) { const words = text.split(" "); const lines = []; let line = ""; for (const w of words) { const t = line ? line + " " + w : w; if (ctx.measureText(t).width > maxW && line) { lines.push(line); line = w; } else line = t; } if (line) lines.push(line); return lines; }
+async function makeShare(id) {
+  const v = V[id]; const out = $("#shareOut");
+  const cs = getComputedStyle(document.documentElement);
+  const c = document.createElement("canvas"); c.width = 1080; c.height = 1080; const x = c.getContext("2d");
+  await document.fonts.ready.catch(() => {});
+  const F = '"Atkinson Hyperlegible Next", system-ui, sans-serif';
+  x.fillStyle = "#F1F5F4"; x.fillRect(0,0,1080,1080);
+  x.strokeStyle = "#0A6B62"; x.lineWidth = 6; x.fillStyle = "rgba(10,107,98,.12)";
+  x.beginPath(); x.roundRect(72,96,72,52,8); x.fill(); x.stroke();
+  x.fillStyle = "#FFFFFF"; x.beginPath(); x.roundRect(94,70,28,52,4); x.fill(); x.stroke();
+  x.fillStyle = "#142120"; x.font = `800 44px ${F}`; x.fillText("Glass Ballot", 168, 132);
+  x.fillStyle = "#4D5B59"; x.font = `700 28px ${F}`; x.fillText(("Pinellas County Commission · " + voteDate(v)).toUpperCase(), 72, 250);
+  x.fillStyle = "#142120"; x.font = `800 72px ${F}`;
+  const lines = wrapText(x, v.headline, 936).slice(0,4); lines.forEach((l,i) => x.fillText(l, 72, 350 + i*84));
+  let y = 350 + lines.length*84 + 40;
+  x.fillStyle = "#0A6B62"; x.font = `800 48px ${F}`; x.fillText(v.result.value || "Result not confirmed", 72, y);
+  const r = rollOf(v); y += 70;
+  if (r && (r.yes?.length || r.no?.length)) { x.fillStyle = "#142120"; x.font = `500 32px ${F}`;
+    wrapText(x, `Yes: ${(r.yes||[]).map(i => lastName(P[i])).join(", ")}`, 936).forEach(l => { x.fillText(l, 72, y); y += 44; });
+    wrapText(x, `No: ${(r.no||[]).map(i => lastName(P[i])).join(", ") || "none"}`, 936).forEach(l => { x.fillText(l, 72, y); y += 44; }); }
+  const lab = LAB[v.result.label]; x.font = `700 30px ${F}`; const pubs = [...new Set((v.result.sources||[]).map(s => S[s]?.publisher))].join(", ");
+  x.fillStyle = "#4D5B59"; wrapText(x, `${lab.t}. Source: ${pubs || "none yet"}`, 936).forEach(l => { x.fillText(l, 72, y + 10); y += 40; });
+  x.fillStyle = "#142120"; x.font = `800 50px ${F}`; x.fillText("Pull the receipts", 72, 980);
+  x.fillStyle = "#0A6B62"; x.font = `700 34px ${F}`; x.fillText("glassballot.org", 72, 1030);
+  c.toBlob(async blob => {
+    const url = URL.createObjectURL(blob);
+    out.innerHTML = `<img src="${url}" alt="Share card: ${esc(v.headline)}" style="border-radius:12px;border:1px solid var(--line)">`;
+    if (downloadsApi) {
+      const b = document.createElement("button"); b.className = "btn"; b.type = "button"; b.textContent = "Save image";
+      b.onclick = async () => { try { const res = await downloadsApi.save({ filename: `glassballot-${id}.png`, data: blob }); b.textContent = res.status === "saved" ? "Saved" : "Sent"; } catch (e) { if (e.code === "unavailable") b.remove(); } };
+      out.append(b);
+    } else { out.insertAdjacentHTML("beforeend", `<p class="small muted">Press and hold (or right-click) the image to save it.</p>`); }
+  }, "image/png");
+}
+
+/* ---------- Report a mistake (opens the comment box on this spot) ---------- */
+let commentsApi = null;
+async function report(btn) {
+  if (!commentsApi) { btn.outerHTML = `<div class="notice small" style="flex-direction:column;gap:4px"><span>Email the page link and what's wrong to:</span><b style="user-select:all">glassballotinfo@gmail.com</b><span class="muted">Every correction is reviewed and logged on the Record problems page.</span></div>`; return; }
+  try { const r = await commentsApi.openComposer({ element: btn.closest("section") || btn }); if (!r.opened) btn.textContent = "Finish your open comment first"; }
+  catch { btn.outerHTML = `<p class="small muted">Comments aren't available in this view.</p>`; }
+}
+
+/* ---------- Search ---------- */
+function searchIndex() { return [
+  ...DATA.people.map(p => ({h:`#p-${p.id}`, t:p.name, s:`${p.office}, District ${p.district}`})),
+  ...DATA.votes.map(v => ({h:`#v-${v.id}`, t:v.headline, s:voteDate(v)})),
+  ...DATA.races.map(r => ({h:`#r-${r.id}`, t:r.title, s:"On the Nov 3 ballot"})),
+  ...DATA.topics.map(t => ({h:`#t-${t.id}`, t:t.name, s:"Topic"})),
+  {h:"#problems", t:"Record problems", s:"Where sources disagree"}, {h:"#how", t:"How Glass Ballot works", s:"Labels, sources, scoring"}]; }
+function runSearch(q) { const ql = q.trim().toLowerCase(); const items = searchIndex().filter(i => !ql || (i.t + " " + i.s).toLowerCase().includes(ql)).slice(0, 12);
+  $("#results").innerHTML = items.length ? items.map(i => `<a href="${i.h}"><span><b>${esc(i.t)}</b></span><span class="small muted">${esc(i.s)}</span></a>`).join("") : `<p class="muted">Nothing matches "${esc(q)}". Try a last name or a topic like taxes.</p>`; }
+
+/* ---------- router ---------- */
+function notFound() { return `<div class="stack view"><h1 class="h1">Page not found</h1><p><a href="#ballot">Back to your ballot</a></p></div>`; }
+function route() {
+  const h = (location.hash || "#ballot").slice(1);
+  let html, tab = h;
+  if (h.startsWith("p-")) { html = views.person(h.slice(2)); tab = "officials"; }
+  else if (h.startsWith("v-")) { html = views.vote(h.slice(2)); tab = "votes"; }
+  else if (h.startsWith("r-")) { html = views.race(h.slice(2)); tab = "ballot"; }
+  else if (h.startsWith("t-")) { html = views.topic(h.slice(2)); tab = "topics"; }
+  else if (views[h] && !["person","vote","race","topic"].includes(h)) html = views[h]();
+  else { html = views.ballot(); tab = "ballot"; }
+  $("#app").innerHTML = html;
+  document.querySelectorAll("[data-tab]").forEach(a => { if (a.dataset.tab === tab) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); });
+  $("#search").hidden = true;
+  window.scrollTo(0, 0);
+}
+
+document.addEventListener("click", e => {
+  const mo = e.target.closest("[data-more]"); if (mo) { showAll.add(mo.dataset.more); const y = window.scrollY; route(); window.scrollTo(0, y); return; }
+  const d = e.target.closest("[data-district]"); if (d) { store.set("gb-district", d.dataset.district); route(); return; }
+  const t = e.target.closest("[data-topic]"); if (t) { store.set("gb-topic", t.dataset.topic); route(); return; }
+  const s = e.target.closest("[data-share]"); if (s) { makeShare(s.dataset.share); return; }
+  const r = e.target.closest("[data-report]"); if (r) { report(r); return; }
+  const a = e.target.closest("[data-ask]"); if (a) { $("#askq").value = a.dataset.ask; runAsk(a.dataset.ask); return; }
+  if (e.target.closest("#askGo")) { runAsk($("#askq").value); return; }
+  if (e.target.closest("#askStop")) { askCtl?.abort(); return; }
+  if (e.target.closest("#openSearch")) { $("#search").hidden = false; $("#q").value = ""; runSearch(""); $("#q").focus(); return; }
+  if (e.target.closest("#closeSearch")) { $("#search").hidden = true; return; }
+  const link = e.target.closest('a[href^="#"]'); if (link && link.getAttribute("href") === location.hash) { route(); }
+});
+$("#q").addEventListener("input", e => runSearch(e.target.value));
+document.addEventListener("keydown", e => { if (e.key === "Escape" && !$("#search").hidden) $("#search").hidden = true; });
+window.addEventListener("hashchange", route);
+
+$("#foot").innerHTML = `<div class="stack" style="gap:6px"><b style="color:var(--ink)">Glass Ballot · Pinellas pilot</b>
+  <span>Facts gathered from public sources on ${fmtDate(DATA.accessed)}. ${DATA.legistarTotals ? `Votes come from the county's official record (Legistar) and money from the Supervisor of Elections' campaign reports, both pulled ${fmtDate(DATA.legistarPulledAt.slice(0,10))}.` : "Votes come from news and county pages and are labeled that way."}</span>
+  <span>Nonpartisan. We never endorse a candidate, party or ballot question. <a href="#how">How this works</a> · <a href="#problems">Record problems</a></span></div>`;
+
+const IN_CLAUDE = !!(window.claude && window.claude.use);
+if (!IN_CLAUDE) {
+  // Public web: Ask needs a Claude viewer, so hide it rather than show a dead feature.
+  document.querySelectorAll('[data-tab="ask"]').forEach(a => a.remove());
+  document.querySelector(".tabs").style.gridTemplateColumns = "repeat(4,1fr)";
+  delete views.ask;
+  if (location.hash === "#ask") location.hash = "ballot";
+}
+if (IN_CLAUDE) {
+  claude.use("sample").then(f => { sampleFn = f; });
+  claude.use("downloads").then(d => { downloadsApi = d; });
+  claude.use("comments").then(c => { commentsApi = c; });
+}
+route();
+</script>

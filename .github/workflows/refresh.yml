@@ -1,0 +1,29 @@
+# Re-checks the official records every night and publishes any change.
+# Netlify watches this repository and redeploys dist/ when it changes.
+name: Nightly refresh
+on:
+  schedule:
+    - cron: "17 9 * * *"   # 5:17 am Eastern (9:17 UTC), every day
+  workflow_dispatch: {}     # "Run workflow" button for an on-demand refresh
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Tests
+        run: python -m unittest discover -s tests
+      - name: Pull official records, rebuild, log changes
+        run: python -m pipeline.refresh
+      - name: Publish if anything changed
+        run: |
+          git config user.name "Glass Ballot refresh"
+          git config user.email "glassballotinfo@gmail.com"
+          git add -A data dist site/region.json site/glassballot.html
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Nightly refresh $(date -u +%F)"
+          git push

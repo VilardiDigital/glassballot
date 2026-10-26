@@ -1,0 +1,958 @@
+{
+ "pulledAt": "2026-10-26",
+ "sources": {
+  "soe-cf": {
+   "title": "Pinellas Supervisor of Elections campaign finance reports (VoterFocus)",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=Pinellas",
+   "publisher": "Pinellas Supervisor of Elections",
+   "tier": 1
+  },
+  "ethics-efdms": {
+   "title": "Florida Commission on Ethics, financial disclosure filings search",
+   "url": "https://disclosure.floridaethics.gov/PublicSearch/Filings",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1
+  },
+  "sunbiz": {
+   "title": "Florida Division of Corporations: Rowland (DE), LLC",
+   "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?inquiryType=EntityName&searchNameOrder=ROWLANDDE&searchTerm=ROWLAND%20DE",
+   "publisher": "Florida Division of Corporations",
+   "tier": 1
+  },
+  "flbar-disclosure": {
+   "title": "It's financial disclosure season (deadlines and fines)",
+   "url": "https://www.floridabar.org/the-florida-bar-news/its-financial-disclosure-season-7/",
+   "publisher": "The Florida Bar News",
+   "tier": 4
+  }
+ },
+ "campaigns": {
+  "scott": {
+   "cycle": "2026",
+   "account": 1174,
+   "total": 199089,
+   "inKind": 10000,
+   "loans": 0,
+   "self": 0,
+   "donors": 306,
+   "pctPinellas": 61,
+   "pctOutOfState": 9,
+   "first": "2025-03-04",
+   "last": "2026-10-16",
+   "topOrgs": [
+    [
+     "Pinellas County Republican Party",
+     10000
+    ],
+    [
+     "Shumaker Florida Political Committee",
+     2000
+    ],
+    [
+     "D & L Realty Contracting, LLC",
+     2000
+    ],
+    [
+     "Escot Bus Lines, LLC",
+     2000
+    ],
+    [
+     "Pinellas Holdings, LLC",
+     2000
+    ],
+    [
+     "Brandon Construction Company",
+     2000
+    ],
+    [
+     "HP Capital Group 10 LLC",
+     2000
+    ],
+    [
+     "Blue Sky Communities",
+     2000
+    ],
+    [
+     "Mark3 Limited LLC",
+     2000
+    ]
+   ],
+   "realtors": {
+    "committees": 3,
+    "amount": 6000
+   }
+  },
+  "peters": {
+   "cycle": "2026",
+   "account": 1177,
+   "total": 189964,
+   "inKind": 10000,
+   "loans": 0,
+   "self": 0,
+   "donors": 252,
+   "pctPinellas": 71,
+   "pctOutOfState": 3,
+   "first": "2025-04-15",
+   "last": "2026-10-15",
+   "topOrgs": [
+    [
+     "Pinellas County Republican Party",
+     10000
+    ],
+    [
+     "Nicklaus of Florida, Inc.",
+     2000
+    ],
+    [
+     "Myers Consulting Group, LLC",
+     2000
+    ],
+    [
+     "Grease Depot, Inc.",
+     2000
+    ],
+    [
+     "Amscot Corporation",
+     2000
+    ],
+    [
+     "Apartment Political Action Committee",
+     2000
+    ],
+    [
+     "William Karns Enterprises, Inc.",
+     1500
+    ],
+    [
+     "BAB Enterprises, LLC",
+     1500
+    ]
+   ],
+   "realtors": {
+    "committees": 3,
+    "amount": 6000
+   }
+  },
+  "eggers": {
+   "cycle": "2026",
+   "account": 1182,
+   "total": 51959,
+   "inKind": 10500,
+   "loans": 0,
+   "self": 0,
+   "donors": 100,
+   "pctPinellas": 67,
+   "pctOutOfState": 3,
+   "first": "2025-09-09",
+   "last": "2026-08-11",
+   "topOrgs": [
+    [
+     "Pinellas County Republican Party",
+     10000
+    ],
+    [
+     "Friends of Ed Hooper",
+     1000
+    ],
+    [
+     "Friends of Adam Ross",
+     1000
+    ],
+    [
+     "Jetstream Strategies, LLC",
+     1000
+    ],
+    [
+     "Marina Bay Development IV LLC",
+     1000
+    ],
+    [
+     "Home Port Marina Inc",
+     1000
+    ],
+    [
+     "Prior Marina LLC",
+     1000
+    ],
+    [
+     "HP Capital Managers LLC",
+     1000
+    ]
+   ],
+   "realtors": {
+    "committees": 3,
+    "amount": 3000
+   }
+  },
+  "hughes": {
+   "cycle": "2026",
+   "account": 1208,
+   "total": 43331,
+   "inKind": 0,
+   "loans": 28500,
+   "self": 28500,
+   "donors": 107,
+   "pctPinellas": 52,
+   "pctOutOfState": 34,
+   "first": "2026-06-12",
+   "last": "2026-10-11",
+   "topOrgs": [
+    [
+     "Justice League Greater Tarpon Springs",
+     400
+    ],
+    [
+     "Greater Pinellas Dem Club",
+     300
+    ],
+    [
+     "Mid-Pinellas Progressive Political Committee",
+     200
+    ],
+    [
+     "North Pinellas County Democratic Club",
+     125
+    ]
+   ]
+  },
+  "glenn": {
+   "cycle": "2026",
+   "account": 1186,
+   "total": 15105,
+   "inKind": 0,
+   "loans": 10067,
+   "self": 10067,
+   "donors": 54,
+   "pctPinellas": 80,
+   "pctOutOfState": 11,
+   "first": "2025-12-11",
+   "last": "2026-10-16",
+   "topOrgs": [
+    [
+     "MUGS Event Center",
+     268
+    ],
+    [
+     "Democratic Women's Club of Florida",
+     250
+    ],
+    [
+     "Democratic Club of St. Petersburg",
+     200
+    ],
+    [
+     "Largo/Mid-Pinellas Progressive Political Committee",
+     200
+    ]
+   ]
+  },
+  "campogni": {
+   "cycle": "2026",
+   "account": 1180,
+   "total": 30065,
+   "inKind": 5783,
+   "loans": 0,
+   "self": 7973,
+   "donors": 145,
+   "pctPinellas": 49,
+   "pctOutOfState": 4,
+   "first": "2025-08-15",
+   "last": "2026-10-16",
+   "topOrgs": [
+    [
+     "Florida Realtors committees (6 entries)",
+     6000
+    ],
+    [
+     "Pinellas Classroom Teachers Association fund",
+     1000
+    ],
+    [
+     "Florida Education Association",
+     1000
+    ],
+    [
+     "Pinellas Coalition For Public Schools Inc",
+     1000
+    ]
+   ],
+   "realtors": {
+    "committees": 3,
+    "amount": 6000
+   }
+  },
+  "dpeters": {
+   "cycle": "2026",
+   "account": 1181,
+   "total": 21925,
+   "inKind": 5000,
+   "loans": 0,
+   "self": 2800,
+   "donors": 51,
+   "pctPinellas": 92,
+   "pctOutOfState": 0,
+   "first": "2026-03-13",
+   "last": "2026-10-15",
+   "topOrgs": [
+    [
+     "Pinellas County Republican Party",
+     5000
+    ],
+    [
+     "Belleair Republican PC",
+     800
+    ],
+    [
+     "Ajax Building Company",
+     500
+    ]
+   ]
+  },
+  "scherer": {
+   "cycle": "2024",
+   "account": 1118,
+   "total": 170767,
+   "inKind": 1816,
+   "loans": 0,
+   "self": 15280,
+   "donors": 334,
+   "pctPinellas": 76,
+   "pctOutOfState": 2,
+   "first": "2023-03-08",
+   "last": "2024-10-31",
+   "topOrgs": [
+    [
+     "Friends of Nick DiCeglie",
+     2000
+    ],
+    [
+     "Feldman Equities, LLC",
+     1500
+    ],
+    [
+     "Bay Area Metro, LLC",
+     1000
+    ],
+    [
+     "Cone & Graham, Inc.",
+     1000
+    ],
+    [
+     "HNTB Holdings Ltd. PAC",
+     1000
+    ],
+    [
+     "FTBA Transportation PAC",
+     1000
+    ],
+    [
+     "Brandon Construction Co.",
+     1000
+    ]
+   ]
+  },
+  "nowicki": {
+   "cycle": "2024",
+   "account": 1122,
+   "total": 119027,
+   "inKind": 1437,
+   "loans": 0,
+   "self": 1385,
+   "donors": 233,
+   "pctPinellas": 80,
+   "pctOutOfState": 4,
+   "first": "2023-07-07",
+   "last": "2024-10-31",
+   "topOrgs": [
+    [
+     "Aanzr, LLC",
+     2000
+    ],
+    [
+     "Friends of Chris Latvala",
+     1500
+    ],
+    [
+     "Friends of Linda Chaney",
+     1000
+    ],
+    [
+     "Blue Sky Communities",
+     1000
+    ],
+    [
+     "Rowland, Inc.",
+     1000
+    ],
+    [
+     "Brandon Construction Co.",
+     1000
+    ],
+    [
+     "HNTB Holdings, Ltd. PAC",
+     1000
+    ]
+   ]
+  },
+  "flowers": {
+   "cycle": "2024",
+   "account": 1121,
+   "total": 18308,
+   "inKind": 158,
+   "loans": 699,
+   "self": 868,
+   "donors": 66,
+   "pctPinellas": 66,
+   "pctOutOfState": 9,
+   "first": "2023-05-22",
+   "last": "2024-09-07",
+   "topOrgs": [
+    [
+     "Cigna Group Employee PAC",
+     1000
+    ],
+    [
+     "Greater Pinellas Dem Club PC",
+     1000
+    ],
+    [
+     "IBEW Local Union 915 PAC",
+     1000
+    ],
+    [
+     "IUOE Local 487 PAC Fund",
+     1000
+    ],
+    [
+     "Pelican PAC",
+     500
+    ]
+   ]
+  },
+  "latvala": {
+   "cycle": "2022",
+   "account": 1098,
+   "total": 22525,
+   "inKind": 0,
+   "loans": 0,
+   "self": 0,
+   "donors": 55,
+   "pctPinellas": 80,
+   "pctOutOfState": 0,
+   "first": "2022-04-18",
+   "last": "2022-06-14",
+   "topOrgs": [
+    [
+     "16361, LLC",
+     1000
+    ],
+    [
+     "Bottoms Up of Tampa Bay, LLC",
+     1000
+    ],
+    [
+     "MHH Enterprises, Inc.",
+     1000
+    ],
+    [
+     "Committee to Protect Florida",
+     1000
+    ],
+    [
+     "West Coast Automotive Group",
+     1000
+    ],
+    [
+     "Mark3 Limited, LLC",
+     1000
+    ],
+    [
+     "Teak, LLC",
+     1000
+    ]
+   ]
+  }
+ },
+ "giftsBetweenOfficials": [
+  {
+   "from": "latvala",
+   "to": "scott",
+   "amount": 450,
+   "dates": "Mar 2025 to Sep 2026",
+   "match": "Listed occupation: County Commissioner"
+  },
+  {
+   "from": "latvala",
+   "to": "peters",
+   "amount": 100,
+   "dates": "Jun 2026",
+   "match": "Listed occupation: Local Govt."
+  },
+  {
+   "from": "latvala",
+   "to": "eggers",
+   "amount": 200,
+   "dates": "Jan to Jun 2026",
+   "match": "Listed occupation: Commissioner"
+  },
+  {
+   "from": "scott",
+   "to": "peters",
+   "amount": 1000,
+   "dates": "Sep 2025",
+   "match": "Name, city (Largo) and occupation (transportation executive) match; not self-identified as commissioner"
+  },
+  {
+   "from": "scott",
+   "to": "eggers",
+   "amount": 1000,
+   "dates": "Oct 2025",
+   "match": "Name, city (Largo) and occupation (transportation executive) match; not self-identified as commissioner"
+  },
+  {
+   "from": "scherer",
+   "to": "peters",
+   "amount": 220,
+   "dates": "Sep 2025 to Feb 2026",
+   "match": "Listed occupation: Local Govt."
+  },
+  {
+   "from": "scherer",
+   "to": "eggers",
+   "amount": 150,
+   "dates": "Oct 2025",
+   "match": "Name and city match; listed occupation: Contractor"
+  },
+  {
+   "from": "nowicki",
+   "to": "scott",
+   "amount": 250,
+   "dates": "Mar 2025 and Aug 2026",
+   "match": "Name and city match; listed occupation: Realtor / Real Estate"
+  },
+  {
+   "from": "nowicki",
+   "to": "peters",
+   "amount": 150,
+   "dates": "Aug 2026",
+   "match": "Name and city match; listed occupation: Real Estate"
+  },
+  {
+   "from": "nowicki",
+   "to": "dpeters",
+   "amount": 100,
+   "dates": "Apr 2026",
+   "match": "Name and city match; listed occupation: Real Estate"
+  }
+ ],
+ "sharedDonorCount": {
+  "orgs": 33,
+  "people": 103
+ },
+ "connections": [
+  {
+   "person": "scott",
+   "kind": "named",
+   "donor": "Cone & Graham, Inc.",
+   "amount": 1000,
+   "date": "2025-05-27",
+   "votes": [
+    {
+     "item": 92774,
+     "date": "2025-03-25",
+     "how": "yes",
+     "title": "Award of contract to Cone & Graham, Inc. for the Oakwood Drive Bridge Replacement project.",
+     "days": 63
+    },
+    {
+     "item": 93429,
+     "date": "2025-06-17",
+     "how": "absent",
+     "title": "Award of bid to Cone & Graham, Inc. for the 13th Street/Sands Point Drive Bridge replacement.",
+     "days": 21
+    }
+   ],
+   "inWindow": true
+  },
+  {
+   "person": "scott",
+   "kind": "named",
+   "donor": "Waste Management Inc. of Florida",
+   "amount": 1000,
+   "date": "2026-05-12",
+   "votes": [
+    {
+     "item": 96819,
+     "date": "2026-07-21",
+     "how": "yes",
+     "title": "Award of bid to Waste Management Inc. of Florida for Lealman residential waste collection, disposal, and recycling services (consent agenda, 7 to 0).",
+     "days": 70
+    }
+   ],
+   "inWindow": true
+  },
+  {
+   "person": "peters",
+   "kind": "named",
+   "donor": "Waste Management, Inc. of FL",
+   "amount": 1000,
+   "date": "2026-03-18",
+   "votes": [
+    {
+     "item": 96819,
+     "date": "2026-07-21",
+     "how": "yes",
+     "title": "Award of bid to Waste Management Inc. of Florida for Lealman residential waste collection (consent agenda, 7 to 0).",
+     "days": 125
+    }
+   ],
+   "inWindow": false
+  },
+  {
+   "person": "peters",
+   "kind": "named-unconfirmed",
+   "donor": "WGI Infrastructure PAC",
+   "amount": 1000,
+   "date": "2026-07-21",
+   "note": "The PAC's name matches engineering firm WGI, Inc.; the link between the PAC and the firm is not yet confirmed.",
+   "votes": [
+    {
+     "item": 96448,
+     "date": "2026-06-16",
+     "how": "yes",
+     "title": "Ranking of firms and agreement with WGI, Inc. for the Crystal Beach Drainage and Roadway Improvements (consent agenda, 7 to 0).",
+     "days": 35
+    }
+   ],
+   "inWindow": true
+  },
+  {
+   "person": "peters",
+   "kind": "named",
+   "donor": "Bayside Dredging, LLC",
+   "amount": 1000,
+   "date": "2025-10-02",
+   "votes": [
+    {
+     "item": 95528,
+     "date": "2026-02-17",
+     "how": "yes",
+     "title": "Purchase authorization with Bayside Dredging, LLC for outfall maintenance services (7 to 0).",
+     "days": 138
+    }
+   ],
+   "inWindow": false
+  },
+  {
+   "person": "peters",
+   "kind": "named",
+   "donor": "Ajax Building Company, LLC",
+   "amount": 1000,
+   "date": "2026-08-11",
+   "votes": [
+    {
+     "item": 93880,
+     "date": "2025-08-05",
+     "how": "yes",
+     "title": "Agreement with Ajax Building Company, LLC for Construction Manager at Risk services for the new government campus (7 to 0).",
+     "days": 371
+    }
+   ],
+   "inWindow": false
+  },
+  {
+   "person": "scott",
+   "kind": "named",
+   "donor": "Ajax Building Company, LLC",
+   "amount": 1000,
+   "date": "2026-09-21",
+   "votes": [
+    {
+     "item": 93880,
+     "date": "2025-08-05",
+     "how": "yes",
+     "title": "Agreement with Ajax Building Company, LLC for Construction Manager at Risk services for the new government campus (7 to 0).",
+     "days": 412
+    }
+   ],
+   "inWindow": false
+  },
+  {
+   "person": "peters",
+   "kind": "industry",
+   "donor": "Commtow, LLC and A-1 Recovery, Inc. (towing companies)",
+   "amount": 2000,
+   "date": "2026-05-19",
+   "note": "Towing companies are regulated by the county's towing rates and ordinance. They were not named in these items.",
+   "votes": [
+    {
+     "item": 96804,
+     "date": "2026-06-16",
+     "how": "yes",
+     "title": "Set county towing rates: $175 base tow, $60 mileage, $35 storage (4 to 3; Peters seconded).",
+     "days": 28
+    },
+    {
+     "item": 96842,
+     "date": "2026-07-21",
+     "how": "yes",
+     "title": "Amended the County Towing Ordinance, adding a fuel surcharge, inflation increases and an EV fee (4 to 3; Peters made the motion).",
+     "days": 63
+    }
+   ],
+   "inWindow": true
+  },
+  {
+   "person": "peters",
+   "kind": "industry",
+   "donor": "Joe's Towing & Recovery, Inc.",
+   "amount": 250,
+   "date": "2026-06-22",
+   "note": "Towing company; not named in the item.",
+   "votes": [
+    {
+     "item": 96842,
+     "date": "2026-07-21",
+     "how": "yes",
+     "title": "Amended the County Towing Ordinance (4 to 3; Peters made the motion).",
+     "days": 29
+    }
+   ],
+   "inWindow": true
+  },
+  {
+   "person": "nowicki",
+   "kind": "linked-by-records",
+   "donor": "Rowland, Inc.",
+   "amount": 1000,
+   "date": "2024-10-25",
+   "note": "The donor lists 6855 102nd Ave N, Pinellas Park. State business records give the same principal address for county contractor Rowland (DE), LLC, whose officers include Kevin and Kenneth Rowland.",
+   "votes": [
+    {
+     "item": 93648,
+     "date": "2025-07-22",
+     "how": "yes",
+     "title": "Change Order No. 1, $5,000,000, to the agreement with Rowland DE, LLC for annual sanitary sewer repairs and extensions (6 to 0).",
+     "days": 270
+    }
+   ],
+   "inWindow": false
+  },
+  {
+   "person": "scott",
+   "kind": "own-business",
+   "donor": "Escot Bus Lines, LLC and Escot Leasing, LLC",
+   "amount": 3000,
+   "date": "2026-10-16",
+   "note": "Commissioner Scott is president of Escot Bus Lines. No county agenda item since Nov 2024 names Escot. The campaign also reports paying Escot Bus Lines $3,745 on Aug 27, 2026, listed twice in the same report.",
+   "votes": [],
+   "inWindow": false
+  }
+ ],
+ "filings": {
+  "scott": [
+   {
+    "form": "6",
+    "year": 2024,
+    "filed": "2025-06-28"
+   },
+   {
+    "form": "6",
+    "year": 2025,
+    "filed": "2026-05-27"
+   }
+  ],
+  "peters": [
+   {
+    "form": "6",
+    "year": 2024,
+    "filed": "2025-06-02"
+   },
+   {
+    "form": "6",
+    "year": 2025,
+    "filed": "2026-05-27"
+   },
+   {
+    "form": "6X (amendment)",
+    "year": 2025,
+    "filed": "2026-06-09"
+   }
+  ],
+  "eggers": [
+   {
+    "form": "6",
+    "year": 2024,
+    "filed": "2025-06-29"
+   },
+   {
+    "form": "6",
+    "year": 2025,
+    "filed": "2026-05-26"
+   }
+  ],
+  "latvala": [
+   {
+    "form": "6",
+    "year": 2024,
+    "filed": "2025-06-09"
+   },
+   {
+    "form": "6",
+    "year": 2025,
+    "filed": "2026-06-10"
+   }
+  ],
+  "scherer": [
+   {
+    "form": "6",
+    "year": 2024,
+    "filed": "2025-09-16"
+   },
+   {
+    "form": "6",
+    "year": 2025,
+    "filed": "2026-09-03"
+   }
+  ],
+  "nowicki": [
+   {
+    "form": "6",
+    "year": 2024,
+    "filed": "2025-06-30"
+   },
+   {
+    "form": "6",
+    "year": 2025,
+    "filed": "2026-06-30"
+   }
+  ],
+  "flowers": [
+   {
+    "form": "6",
+    "year": 2024,
+    "filed": "2025-06-29"
+   },
+   {
+    "form": "6",
+    "year": 2025,
+    "filed": "2026-07-01"
+   }
+  ],
+  "dpeters": [
+   {
+    "form": "6",
+    "year": 2024,
+    "filed": "2025-05-23"
+   },
+   {
+    "form": "6",
+    "year": 2025,
+    "filed": "2026-05-04"
+   }
+  ]
+ },
+ "filingDeadline": "Form 6 is due July 1 for the prior year.",
+ "problems": [
+  {
+   "id": "cf-campogni-total",
+   "subject": "Curtis Campogni campaign reports",
+   "field": "total raised",
+   "kind": "Numbers don't add up",
+   "versions": [
+    {
+     "value": "$29,239.69 (county summary page: $23,457.00 monetary + $5,782.69 in-kind)",
+     "sources": [
+      "soe-cf"
+     ],
+     "official": true
+    },
+    {
+     "value": "$30,065.00 (sum of itemized lines after removing deleted entries)",
+     "sources": [
+      "soe-cf"
+     ],
+     "official": true
+    }
+   ],
+   "status": "Open: likely amended report lines; needs a check with the Supervisor of Elections"
+  },
+  {
+   "id": "cf-type-codes",
+   "subject": "Campaign reports (several candidates)",
+   "field": "contributor type codes",
+   "kind": "Data entry problem",
+   "versions": [
+    {
+     "value": "Democratic clubs coded as the candidate (Glenn, Hughes); individuals coded as businesses (Glenn); law firms and inns coded as businesses vs. people inconsistently (Scott, Peters)",
+     "sources": [
+      "soe-cf"
+     ]
+    }
+   ],
+   "status": "Open: Glass Ballot groups donors by name instead of trusting these codes"
+  },
+  {
+   "id": "ethics-no-forms",
+   "subject": "Florida Commission on Ethics",
+   "field": "disclosure form contents",
+   "kind": "Record gap",
+   "versions": [
+    {
+     "value": "Filing dates are public in the search, but the forms (income sources, assets, net worth) show no online view link for these officials",
+     "sources": [
+      "ethics-efdms"
+     ]
+    }
+   ],
+   "status": "Open: public records request to the Commission on Ethics"
+  },
+  {
+   "id": "name-collision-hughes",
+   "subject": "Tim Hughes",
+   "field": "financial disclosure match",
+   "kind": "Name collision avoided",
+   "versions": [
+    {
+     "value": "Ethics search for \"Hughes\" in Pinellas returns Markus J. Hughes, a St. Petersburg employee, not the candidate",
+     "sources": [
+      "ethics-efdms"
+     ]
+    }
+   ],
+   "status": "Resolved: not linked"
+  },
+  {
+   "id": "name-collision-hubbard",
+   "subject": "Donor and contractor names",
+   "field": "company match",
+   "kind": "Name collision avoided",
+   "versions": [
+    {
+     "value": "Donor \"Hubbard's Sea Adventures, Inc.\" (maritime) is not county paving contractor \"Hubbard Construction Company\"",
+     "sources": [
+      "soe-cf",
+      "legistar"
+     ]
+    }
+   ],
+   "status": "Resolved: not linked"
+  },
+  {
+   "id": "cf-escot-dup",
+   "subject": "Brian Scott campaign report (Aug 22 to Sep 4, 2026)",
+   "field": "expenditure to Escot Bus Lines",
+   "kind": "Possible duplicate entry",
+   "versions": [
+    {
+     "value": "Two identical lines: $3,745.00 paid to Escot Bus Lines, LLC on Aug 27, 2026",
+     "sources": [
+      "soe-cf"
+     ],
+     "official": true
+    }
+   ],
+   "status": "Open: one payment listed twice, or two payments? Needs the treasurer's answer"
+  }
+ ]
+}

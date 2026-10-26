@@ -1,0 +1,4 @@
+# The site is prebuilt by the nightly job; Netlify just serves dist/.
+[build]
+  publish = "dist"
+  command = ""

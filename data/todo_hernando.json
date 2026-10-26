@@ -1,0 +1,106 @@
+[
+ {
+  "id": "nbf-soe-cands",
+  "subject": "SOE local candidate list (party, status, write-ins for 2026)",
+  "field": "official record",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://www.hernandovotes.gov/1242/Local-Candidate-Information",
+    "sources": []
+   }
+  ],
+  "status": "Open: list renders dynamically; confirm Bigelow write-in and all 2026 statuses"
+ },
+ {
+  "id": "nbf-voterfocus",
+  "subject": "VoterFocus campaign finance (account ids, raised totals)",
+  "field": "official record",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hernando",
+    "sources": []
+   }
+  ],
+  "status": "Open: domain blocked for our tools"
+ },
+ {
+  "id": "nbf-enr-2022",
+  "subject": "2022 general results (Campbell D4; Rodriguez SB3; Johnson SB1 runoff)",
+  "field": "official record",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://enr.electionsfl.org/HER/3268/Reports/",
+    "sources": []
+   }
+  ],
+  "status": "Open: certified results for inOfficeSince of Campbell, Rodriguez, Johnson"
+ },
+ {
+  "id": "nbf-enr-2024",
+  "subject": "2024 general results (Amsler D1, Allocco D3, Champion D5)",
+  "field": "official record",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://enr.electionsfl.org/HER/Summary/3737/",
+    "sources": []
+   }
+  ],
+  "status": "Open: certified 2024 results to back lastElection"
+ },
+ {
+  "id": "nbf-flgov-mitten",
+  "subject": "Governor's release appointing John Mitten",
+  "field": "official record",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-appoints-john-mitten-hernando-county-board-county",
+    "sources": []
+   }
+  ],
+  "status": "Open: linked from the county districts page; confirms appointment date"
+ },
+ {
+  "id": "nbf-holcomb-site",
+  "subject": "Jeff Holcomb campaign site (confirm ownership and social accounts)",
+  "field": "official record",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://jeffholcomb.org/",
+    "sources": []
+   }
+  ],
+  "status": "Open: campaign URL known only from The Ballot Brief; social links not yet confirmed"
+ },
+ {
+  "id": "nbf-legistar",
+  "subject": "Legistar calendar and Web API",
+  "field": "official record",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://webapi.legistar.com/v1/hernandocountyfl/bodies",
+    "sources": []
+   }
+  ],
+  "status": "Open: confirm API client and pull roll calls"
+ },
+ {
+  "id": "nbf-ethics",
+  "subject": "Form 6 filings, Hernando County filers",
+  "field": "official record",
+  "kind": "needs-browser-fetch",
+  "versions": [
+   {
+    "value": "https://disclosure.floridaethics.gov/PublicSearch/Filings",
+    "sources": []
+   }
+  ],
+  "status": "Open: form-based search; no query URLs"
+ }
+]

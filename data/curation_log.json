@@ -1,0 +1,462 @@
+[
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "field": "term",
+  "action": "reworded to one shared wording",
+  "before": [
+   {
+    "value": "Re-elected 2024; seat not on the 2026 ballot",
+    "source": "hc-nov2024"
+   },
+   {
+    "value": "Re-elected 2024; seat not on the 2026 ballot",
+    "source": "soe-offices"
+   }
+  ],
+  "after": [
+   {
+    "value": "Re-elected 2024; seat not on the 2026 ballot",
+    "source": "hc-nov2024"
+   },
+   {
+    "value": "Re-elected 2024; seat not on the 2026 ballot",
+    "source": "soe-offices"
+   }
+  ]
+ },
+ {
+  "county": "hillsborough",
+  "person": "miller",
+  "field": "inOfficeSince",
+  "action": "reworded to one shared wording",
+  "before": [
+   {
+    "value": "Appointed Jun 26, 2024, sworn in Jul 1, 2024; elected Nov 2024",
+    "source": "hc-miller-sworn"
+   },
+   {
+    "value": "Appointed Jun 26, 2024, sworn in Jul 1, 2024; elected Nov 2024",
+    "source": "hc-miller"
+   }
+  ],
+  "after": [
+   {
+    "value": "Appointed Jun 26, 2024, sworn in Jul 1, 2024; elected Nov 2024",
+    "source": "hc-miller-sworn"
+   },
+   {
+    "value": "Appointed Jun 26, 2024, sworn in Jul 1, 2024; elected Nov 2024",
+    "source": "hc-miller"
+   }
+  ]
+ },
+ {
+  "county": "hillsborough",
+  "person": "cepeda",
+  "field": "inOfficeSince",
+  "action": "reworded to one shared wording",
+  "before": [
+   {
+    "value": "Elected Nov 2022",
+    "source": "tbt-2022"
+   },
+   {
+    "value": "Elected Nov 2022",
+    "source": "osprey-2022"
+   }
+  ],
+  "after": [
+   {
+    "value": "Elected Nov 2022",
+    "source": "tbt-2022"
+   },
+   {
+    "value": "Elected Nov 2022",
+    "source": "osprey-2022"
+   }
+  ]
+ },
+ {
+  "county": "hillsborough",
+  "person": "wostal",
+  "field": "inOfficeSince",
+  "action": "reworded to one shared wording",
+  "before": [
+   {
+    "value": "Elected Nov 2022",
+    "source": "tbt-2022"
+   },
+   {
+    "value": "Elected Nov 2022",
+    "source": "osprey-2022"
+   }
+  ],
+  "after": [
+   {
+    "value": "Elected Nov 2022",
+    "source": "tbt-2022"
+   },
+   {
+    "value": "Elected Nov 2022",
+    "source": "osprey-2022"
+   }
+  ]
+ },
+ {
+  "county": "hillsborough",
+  "person": "boles",
+  "field": "inOfficeSince",
+  "action": "reworded to one shared wording",
+  "before": [
+   {
+    "value": "Elected Nov 2024, sworn in Nov 19, 2024",
+    "source": "bp-boles"
+   },
+   {
+    "value": "Elected Nov 2024, sworn in Nov 19, 2024",
+    "source": "hc-nov2024"
+   },
+   {
+    "value": "Elected Nov 2024, sworn in Nov 19, 2024",
+    "source": "hc-boles"
+   }
+  ],
+  "after": [
+   {
+    "value": "Elected Nov 2024, sworn in Nov 19, 2024",
+    "source": "bp-boles"
+   },
+   {
+    "value": "Elected Nov 2024, sworn in Nov 19, 2024",
+    "source": "hc-nov2024"
+   },
+   {
+    "value": "Elected Nov 2024, sworn in Nov 19, 2024",
+    "source": "hc-boles"
+   }
+  ]
+ },
+ {
+  "county": "hillsborough",
+  "person": "toledo",
+  "field": "job",
+  "action": "reworded to one shared wording",
+  "before": [
+   {
+    "value": "Engineer and small business owner; former state representative",
+    "source": "bb-d1"
+   },
+   {
+    "value": "Engineer and small business owner; former state representative",
+    "source": "beacons-qual"
+   }
+  ],
+  "after": [
+   {
+    "value": "Engineer and small business owner; former state representative",
+    "source": "bb-d1"
+   },
+   {
+    "value": "Engineer and small business owner; former state representative",
+    "source": "beacons-qual"
+   }
+  ]
+ },
+ {
+  "county": "hillsborough",
+  "person": "lyssy",
+  "field": "job",
+  "action": "reworded to one shared wording",
+  "before": [
+   {
+    "value": "Attorney",
+    "source": "wusf-sb"
+   },
+   {
+    "value": "Attorney",
+    "source": "beacons-sb"
+   }
+  ],
+  "after": [
+   {
+    "value": "Attorney",
+    "source": "wusf-sb"
+   },
+   {
+    "value": "Attorney",
+    "source": "beacons-sb"
+   }
+  ]
+ },
+ {
+  "county": "hillsborough",
+  "person": "simic",
+  "field": "job",
+  "action": "reworded to one shared wording",
+  "before": [
+   {
+    "value": "Longtime educator and former assistant superintendent for curriculum; now an account executive with Magic School AI",
+    "source": "wusf-sb"
+   },
+   {
+    "value": "Longtime educator and former assistant superintendent for curriculum; now an account executive with Magic School AI",
+    "source": "beacons-sb"
+   }
+  ],
+  "after": [
+   {
+    "value": "Longtime educator and former assistant superintendent for curriculum; now an account executive with Magic School AI",
+    "source": "wusf-sb"
+   },
+   {
+    "value": "Longtime educator and former assistant superintendent for curriculum; now an account executive with Magic School AI",
+    "source": "beacons-sb"
+   }
+  ]
+ },
+ {
+  "county": "hillsborough",
+  "person": "lyssy",
+  "field": "raised",
+  "action": "dropped an older undated report",
+  "before": [
+   {
+    "value": "$65,558 (as of Jul 27, 2026)",
+    "source": "wusf-sb"
+   },
+   {
+    "value": "$104,256 in contributions (as of Oct 26, 2026)",
+    "source": "soe-cf-hillsborough"
+   }
+  ],
+  "after": [
+   {
+    "value": "$65,558 (as of Jul 27, 2026)",
+    "source": "wusf-sb"
+   },
+   {
+    "value": "$104,256 in contributions (as of Oct 26, 2026)",
+    "source": "soe-cf-hillsborough"
+   }
+  ]
+ },
+ {
+  "county": "hillsborough",
+  "person": "simic",
+  "field": "raised",
+  "action": "dropped an older undated report",
+  "before": [
+   {
+    "value": "$37,618 (as of Jul 27, 2026)",
+    "source": "wusf-sb"
+   },
+   {
+    "value": "$83,861.41 in contributions, plus $972.86 in-kind (as of Oct 26, 2026)",
+    "source": "soe-cf-hillsborough"
+   }
+  ],
+  "after": [
+   {
+    "value": "$37,618 (as of Jul 27, 2026)",
+    "source": "wusf-sb"
+   },
+   {
+    "value": "$83,861.41 in contributions, plus $972.86 in-kind (as of Oct 26, 2026)",
+    "source": "soe-cf-hillsborough"
+   }
+  ]
+ },
+ {
+  "county": "hillsborough",
+  "person": "perez",
+  "field": "raised",
+  "action": "dropped an older undated report",
+  "before": [
+   {
+    "value": "$49,121 (as of Jul 27, 2026)",
+    "source": "wusf-sb"
+   },
+   {
+    "value": "$59,398.47 in contributions, plus $9,423.41 in-kind (as of Oct 26, 2026)",
+    "source": "soe-cf-hillsborough"
+   }
+  ],
+  "after": [
+   {
+    "value": "$49,121 (as of Jul 27, 2026)",
+    "source": "wusf-sb"
+   },
+   {
+    "value": "$59,398.47 in contributions, plus $9,423.41 in-kind (as of Oct 26, 2026)",
+    "source": "soe-cf-hillsborough"
+   }
+  ]
+ },
+ {
+  "county": "hillsborough",
+  "person": "gay",
+  "field": "raised",
+  "action": "dropped an older undated report",
+  "before": [
+   {
+    "value": "$31,052 (as of Jul 27, 2026), mostly self-funded",
+    "source": "wusf-sb"
+   },
+   {
+    "value": "$37,627.54 in contributions (as of Oct 26, 2026)",
+    "source": "soe-cf-hillsborough"
+   }
+  ],
+  "after": [
+   {
+    "value": "$31,052 (as of Jul 27, 2026), mostly self-funded",
+    "source": "wusf-sb"
+   },
+   {
+    "value": "$37,627.54 in contributions (as of Oct 26, 2026)",
+    "source": "soe-cf-hillsborough"
+   }
+  ]
+ },
+ {
+  "county": "pasco",
+  "person": "weightman",
+  "field": "lastElection",
+  "action": "reworded to one shared wording",
+  "before": [
+   {
+    "value": "Won the Aug 23, 2022 Republican primary with 48.87%, then unopposed in Nov 2022",
+    "source": "soe-pri22"
+   },
+   {
+    "value": "Won the Aug 23, 2022 Republican primary with 48.87%, then unopposed in Nov 2022",
+    "source": "soe-2022"
+   }
+  ],
+  "after": [
+   {
+    "value": "Won the Aug 23, 2022 Republican primary with 48.87%, then unopposed in Nov 2022",
+    "source": "soe-pri22"
+   },
+   {
+    "value": "Won the Aug 23, 2022 Republican primary with 48.87%, then unopposed in Nov 2022",
+    "source": "soe-2022"
+   }
+  ]
+ },
+ {
+  "county": "pasco",
+  "person": "yeager",
+  "field": "term",
+  "action": "reworded to one shared wording",
+  "before": [
+   {
+    "value": "2024 to 2026, finishing the late Gary Bradford's term",
+    "source": "soe-2024"
+   },
+   {
+    "value": "2024 to 2026, finishing the late Gary Bradford's term",
+    "source": "pc-d4"
+   }
+  ],
+  "after": [
+   {
+    "value": "2024 to 2026, finishing the late Gary Bradford's term",
+    "source": "soe-2024"
+   },
+   {
+    "value": "2024 to 2026, finishing the late Gary Bradford's term",
+    "source": "pc-d4"
+   }
+  ]
+ },
+ {
+  "county": "pasco",
+  "person": "yeager",
+  "field": "lastElection",
+  "action": "dropped an older undated report",
+  "before": [
+   {
+    "value": "Won the Aug 18, 2026 Republican primary 62.38% to 37.62% over Jonathan Deckard",
+    "source": "soe-pri26"
+   }
+  ],
+  "after": [
+   {
+    "value": "Won the Aug 18, 2026 Republican primary 62.38% to 37.62% over Jonathan Deckard",
+    "source": "soe-pri26"
+   }
+  ]
+ },
+ {
+  "county": "pasco",
+  "person": "harding",
+  "field": "inOfficeSince",
+  "action": "dropped an older undated report",
+  "before": [
+   {
+    "value": "Won the District 5 seat in Nov 2018 over Tara O'Connor",
+    "source": "tbt-sb5-2018"
+   }
+  ],
+  "after": [
+   {
+    "value": "Won the District 5 seat in Nov 2018 over Tara O'Connor",
+    "source": "tbt-sb5-2018"
+   }
+  ]
+ },
+ {
+  "county": "pasco",
+  "person": "harding",
+  "field": "lastElection",
+  "action": "reworded to one shared wording",
+  "before": [
+   {
+    "value": "Won outright in the Aug 18, 2026 primary, 72.15% to 27.85% over Michelle R. Mandarin",
+    "source": "soe-2026"
+   },
+   {
+    "value": "Won outright in the Aug 18, 2026 primary, 72.15% to 27.85% over Michelle R. Mandarin",
+    "source": "soe-pri26"
+   }
+  ],
+  "after": [
+   {
+    "value": "Won outright in the Aug 18, 2026 primary, 72.15% to 27.85% over Michelle R. Mandarin",
+    "source": "soe-2026"
+   },
+   {
+    "value": "Won outright in the Aug 18, 2026 primary, 72.15% to 27.85% over Michelle R. Mandarin",
+    "source": "soe-pri26"
+   }
+  ]
+ },
+ {
+  "county": "hernando",
+  "person": "mitten",
+  "field": "inOfficeSince",
+  "action": "reworded to one shared wording",
+  "before": [
+   {
+    "value": "Appointed Jul 31, 2026; sworn in Aug 4, 2026",
+    "source": "hc-districts"
+   },
+   {
+    "value": "Appointed Jul 31, 2026; sworn in Aug 4, 2026",
+    "source": "hc-mitten"
+   }
+  ],
+  "after": [
+   {
+    "value": "Appointed Jul 31, 2026; sworn in Aug 4, 2026",
+    "source": "hc-districts"
+   },
+   {
+    "value": "Appointed Jul 31, 2026; sworn in Aug 4, 2026",
+    "source": "hc-mitten"
+   }
+  ]
+ }
+]
