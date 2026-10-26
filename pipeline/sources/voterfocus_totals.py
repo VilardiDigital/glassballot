@@ -33,7 +33,10 @@ def apply(path: Path, asof: str):
                 cands = [p for p in cands if p["name"].lower().startswith(first)] or cands
             if len(cands) != 1:
                 print("  no match", county, name); continue
-            p = cands[0]; hit += 1
+            p = cands[0]
+            if p.get("status") == "former" or "Now files with State" in status:
+                continue  # not running for a county seat this cycle
+            hit += 1
             cl = p.setdefault("claims", {})
             from datetime import date
             y, mth, dd = map(int, asof.split("-"))

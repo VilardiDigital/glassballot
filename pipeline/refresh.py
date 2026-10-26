@@ -68,7 +68,7 @@ def refresh_legistar(county: str, today: str) -> str:
     base = f"https://webapi.legistar.com/v1/{client}"
     flt = " or ".join(f"EventBodyId eq {b}" for b in bodies)
     q = urllib.parse.quote(f"({flt}) and EventDate ge datetime'{since}' and EventDate le datetime'{today}'")
-    events = get(f"{base}/events?$filter={q}&$orderby=EventDate desc")
+    events = get(f"{base}/events?$filter={q}&$orderby=EventDate%20desc")
     with cf.ThreadPoolExecutor(6) as ex:
         items = list(ex.map(lambda e: (e, get(f"{base}/events/{e['EventId']}/eventitems?AgendaNote=1&MinutesNote=1")), events))
     acted = [(e, i) for e, its in items for i in its if i.get("EventItemPassedFlag") is not None or i.get("EventItemActionName")]

@@ -1283,24 +1283,7 @@
    "district": "2",
    "seatType": "At-large",
    "status": "former",
-   "claims": {
-    "raised": [
-     {
-      "value": "$60,675 in contributions (as of Oct 26, 2026)",
-      "source": "soe-cf-hernando"
-     }
-    ],
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-cf-hernando"
-     }
-    ]
-   },
-   "finance": {
-    "voterfocusId": "609",
-    "status": "Active- Now files with State of Florida"
-   }
+   "claims": {}
   }
  ],
  "races": [
