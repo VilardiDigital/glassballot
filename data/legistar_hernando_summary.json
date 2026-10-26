@@ -2,7 +2,7 @@
  "source": "Hernando County Legistar",
  "api": "https://webapi.legistar.com/v1/hernandocountyfl",
  "calendarUrl": "https://hernandocountyfl.legistar.com/Calendar.aspx",
- "pulledAt": "2026-10-26T23:12:10Z",
+ "pulledAt": "2026-10-26T23:18:27Z",
  "scope": "Nov 19, 2024",
  "totals": {
   "meetings": 76,
@@ -714,7 +714,7 @@
     "hawkins"
    ],
    "mover": "campbell",
-   "seconder": null,
+   "seconder": "allocco",
    "officialTitle": "Ordinance Amending Hernando County Code of Ordinances, Chapter 14, Article IV; Division 2: Name; Subsection 14-102 Definitions; Subsection 14-104 Creation of Unit and Legal Description of Hernando County Solid Waste Collection Municipal Services Benefit Unit",
    "motion": "Agenda Item",
    "headline": "Rejected changes to the solid waste collection district",

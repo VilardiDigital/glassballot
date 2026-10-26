@@ -4,7 +4,11 @@
   "state": "FL",
   "electionDate": "2026-11-03",
   "updated": "2026-10-26",
-  "refreshLog": [],
+  "refreshLog": [
+   "pinellas Legistar: 1268 roll calls, 0 new split votes awaiting review",
+   "hernando Legistar: 1851 roll calls, 0 new split votes awaiting review",
+   "Campaign totals: 49 candidates"
+  ],
   "refreshErrors": []
  },
  "order": [
@@ -36,7 +40,7 @@
     "splitRollCalls": 38
    },
    "legistarScope": "Board of County Commissioners regular and special meetings, Nov 19, 2024 to Oct 22, 2026 (the current seven members)",
-   "legistarPulledAt": "2026-10-26T23:07:50Z",
+   "legistarPulledAt": "2026-10-26T23:14:03Z",
    "sources": {
     "pc-bcc": {
      "title": "Pinellas County Board of County Commissioners",
@@ -12297,7 +12301,7 @@
     "splitRollCalls": 78
    },
    "legistarScope": "Nov 19, 2024",
-   "legistarPulledAt": "2026-10-26T23:12:10Z",
+   "legistarPulledAt": "2026-10-26T23:18:27Z",
    "sources": {
     "hc-bcc": {
      "title": "Hernando County Board of County Commissioners",
@@ -17447,7 +17451,7 @@
      "sourceUrl": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1331&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
      "fileNumber": "14905",
      "mover": "campbell",
-     "seconder": null,
+     "seconder": "allocco",
      "motion": "Agenda Item",
      "split": true,
      "rollExtra": {},
@@ -17826,8 +17830,8 @@
     {
      "key": "pinellas/vote/lg-95566",
      "subject": "Vote: Turned down denser housing on a former landfill site in Largo",
-     "before": "Denied 4 to 2",
-     "after": "Passed 4 to 2",
+     "before": "Passed 4 to 2",
+     "after": "Denied 4 to 2",
      "label": "single",
      "sources": [
       "legistar"
@@ -17836,8 +17840,8 @@
     {
      "key": "pinellas/vote/lg-94414",
      "subject": "Vote: Rejected a deeper property tax cut",
-     "before": "Failed 2 to 5",
-     "after": "Passed 2 to 5",
+     "before": "Passed 2 to 5",
+     "after": "Failed 2 to 5",
      "label": "single",
      "sources": [
       "legistar"
@@ -17846,46 +17850,16 @@
     {
      "key": "pinellas/vote/lg-91883",
      "subject": "Vote: Refused to hold a hearing on a dredge permit appeal in Palm Harbor",
-     "before": "Denied 4 to 3",
-     "after": "Passed 4 to 3",
+     "before": "Passed 4 to 3",
+     "after": "Denied 4 to 3",
      "label": "single",
      "sources": [
       "legistar"
      ]
-    },
-    {
-     "key": "hernando/hawkins/party",
-     "subject": "Brian Hawkins: party",
-     "before": "Republican",
-     "after": null,
-     "label": "unknown",
-     "sources": []
-    },
-    {
-     "key": "hernando/hawkins/attendance",
-     "subject": "Brian Hawkins: attendance",
-     "before": "Attended 54 of 60 meetings with roll calls",
-     "after": "Attended 53 of 60 meetings with roll calls",
-     "label": "single",
-     "sources": [
-      "legistar"
-     ]
-    },
-    {
-     "key": "hernando/hawkins/raised",
-     "subject": "Brian Hawkins: raised",
-     "before": "$60,675 in contributions (as of Oct 26, 2026)",
-     "after": null,
-     "label": "unknown",
-     "sources": []
     }
    ],
    "added": [],
-   "log": [
-    "pinellas Legistar: 1268 roll calls, 0 new split votes awaiting review",
-    "hernando Legistar: 1851 roll calls, 0 new split votes awaiting review",
-    "Campaign totals: 49 candidates"
-   ],
+   "log": [],
    "errors": []
   }
  ],
