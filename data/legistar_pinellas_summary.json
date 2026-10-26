@@ -531,7 +531,7 @@
    "date": "2026-01-20",
    "file": "25-1956A",
    "topic": "growth",
-   "result": "Passed 4 to 2",
+   "result": "Denied 4 to 2",
    "yes": [
     "flowers",
     "latvala",
@@ -693,7 +693,7 @@
    "date": "2025-09-04",
    "file": "25-0999A",
    "topic": "taxes",
-   "result": "Passed 2 to 5",
+   "result": "Failed 2 to 5",
    "yes": [
     "nowicki",
     "scherer"
@@ -931,7 +931,7 @@
    "date": "2024-11-19",
    "file": "24-1870A",
    "topic": "environment",
-   "result": "Passed 4 to 3",
+   "result": "Denied 4 to 3",
    "yes": [
     "flowers",
     "peters",

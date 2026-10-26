@@ -100,12 +100,14 @@ def refresh_legistar(county: str, today: str) -> str:
             it = i["EventItemId"]
             c = curated.get(it, {})
             n_y, n_n = len(rec["yes"]), len(rec["no"])
-            passed = i.get("EventItemPassedFlag") == 1 or (i.get("EventItemActionName") or "").lower() in ("adopted", "approved", "passed")
+            # A motion carries when more members vote yes than no. The county's "passed" flag is not
+            # reliable on motions to deny, so a reviewed result is never overwritten.
+            passed = n_y > n_n
             split.append({
                 "item": it, "ev": e["EventId"], "date": e["EventDate"][:10], "file": i.get("EventItemMatterFile"),
-                "topic": c.get("topic", "other"), "result": f"{'Passed' if passed else 'Failed'} {n_y} to {n_n}",
+                "topic": c.get("topic", "other"), "result": c.get("result") or f"Motion {'passed' if passed else 'failed'} {n_y} to {n_n}",
                 "yes": sorted(rec["yes"]), "no": sorted(rec["no"]), **({"absent": rec["absent"]} if rec["absent"] else {}),
-                "mover": _pid(i.get("EventItemMover") or "x", people), "seconder": _pid(i.get("EventItemSeconder") or "x", people),
+                "mover": c.get("mover") or _pid(i.get("EventItemMover") or "x", people), "seconder": c.get("seconder") or _pid(i.get("EventItemSeconder") or "x", people),
                 "officialTitle": i.get("EventItemTitle") or c.get("officialTitle") or "",
                 "motion": c.get("motion") or (i.get("EventItemActionText") or "").strip() or None,
                 "headline": c.get("headline") or (i.get("EventItemTitle") or "Untitled item")[:120],

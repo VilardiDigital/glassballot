@@ -253,8 +253,8 @@
     "allocco",
     "campbell"
    ],
-   "mover": "allocco",
-   "seconder": "campbell",
+   "mover": "champion",
+   "seconder": "amsler",
    "officialTitle": "Contract for Sale and Purchase of Real Estate With Antonio J. Cancelli-Patrick for Property Located on Leonard Street for Affordable/Workforce Housing (Key #11310)",
    "motion": "To purchase it with the intent of selling to a nonprofit for affordable housing.",
    "headline": "A motion to buy a Leonard Street lot for affordable housing failed 2 to 2",
@@ -545,8 +545,8 @@
     "amsler",
     "champion"
    ],
-   "mover": "allocco",
-   "seconder": "hawkins",
+   "mover": "hawkins",
+   "seconder": "allocco",
    "officialTitle": "Contract for Purchase of Real Estate With Sundara Holdings, LLC, for Property Located at 924 Hale Avenue for Clerk of Circuit Court and Comptroller Building",
    "motion": "To approve the staff recommendation.",
    "headline": "Bought 924 Hale Avenue for a Clerk of Court building",
@@ -569,8 +569,8 @@
     "campbell",
     "hawkins"
    ],
-   "mover": "champion",
-   "seconder": "amsler",
+   "mover": "amsler",
+   "seconder": "champion",
    "officialTitle": "Ordinance Recognizing Manatee Protection Zone Located at Mud River and Weeki Wachee Gardens Area",
    "motion": "To deny and leave as-is, revised to include signage and education to the public.",
    "headline": "A motion to leave Mud River as-is, with signs instead of a new manatee zone, failed",
@@ -714,7 +714,7 @@
     "hawkins"
    ],
    "mover": "campbell",
-   "seconder": "allocco",
+   "seconder": null,
    "officialTitle": "Ordinance Amending Hernando County Code of Ordinances, Chapter 14, Article IV; Division 2: Name; Subsection 14-102 Definitions; Subsection 14-104 Creation of Unit and Legal Description of Hernando County Solid Waste Collection Municipal Services Benefit Unit",
    "motion": "Agenda Item",
    "headline": "Rejected changes to the solid waste collection district",
