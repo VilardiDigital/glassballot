@@ -660,7 +660,7 @@
    },
    "finance": {
     "voterfocusId": "629",
-    "status": "Active-Qualified"
+    "status": "Active- Qualified"
    }
   },
   {
@@ -683,7 +683,7 @@
    },
    "finance": {
     "voterfocusId": "627",
-    "status": "Active-Qualified Write-In"
+    "status": "Active- Qualified Write-In"
    }
   },
   {
@@ -741,7 +741,7 @@
    },
    "finance": {
     "voterfocusId": "628",
-    "status": "Active-Unopposed"
+    "status": "Active- Unopposed"
    }
   },
   {
@@ -779,7 +779,7 @@
    },
    "finance": {
     "voterfocusId": "612",
-    "status": "Inactive-Defeated"
+    "status": "Inactive - Defeated"
    }
   },
   {
@@ -817,7 +817,7 @@
    },
    "finance": {
     "voterfocusId": "637",
-    "status": "Inactive-Defeated"
+    "status": "Inactive - Defeated"
    }
   },
   {
@@ -855,7 +855,7 @@
    },
    "finance": {
     "voterfocusId": "602",
-    "status": "Inactive-Defeated"
+    "status": "Inactive - Defeated"
    }
   },
   {
@@ -893,7 +893,7 @@
    },
    "finance": {
     "voterfocusId": "607",
-    "status": "Inactive-Defeated"
+    "status": "Inactive - Defeated"
    }
   },
   {
@@ -970,7 +970,7 @@
    },
    "finance": {
     "voterfocusId": "620",
-    "status": "Active-Runoff"
+    "status": "Active- Runoff"
    }
   },
   {
@@ -1034,7 +1034,7 @@
    "note": "Daughter of County Commissioner Steve Champion (wusf-sb-preview).",
    "finance": {
     "voterfocusId": "618",
-    "status": "Active-Runoff"
+    "status": "Active- Runoff"
    }
   },
   {
@@ -1073,7 +1073,7 @@
    },
    "finance": {
     "voterfocusId": "605",
-    "status": "Active-Unopposed"
+    "status": "Active- Unopposed"
    }
   },
   {
@@ -1134,7 +1134,7 @@
    },
    "finance": {
     "voterfocusId": "608",
-    "status": "Inactive-Defeated"
+    "status": "Inactive - Defeated"
    }
   },
   {
@@ -1203,7 +1203,7 @@
    },
    "finance": {
     "voterfocusId": "606",
-    "status": "Inactive-Unopposed"
+    "status": "Inactive - Unopposed"
    }
   },
   {
@@ -1238,7 +1238,7 @@
    },
    "finance": {
     "voterfocusId": "610",
-    "status": "Active-Defeated"
+    "status": "Active- Defeated"
    }
   },
   {
@@ -1273,7 +1273,7 @@
    },
    "finance": {
     "voterfocusId": "603",
-    "status": "Active-Defeated"
+    "status": "Active- Defeated"
    }
   },
   {
@@ -1283,7 +1283,24 @@
    "district": "2",
    "seatType": "At-large",
    "status": "former",
-   "claims": {}
+   "claims": {
+    "raised": [
+     {
+      "value": "$60,675 in contributions (as of Oct 26, 2026)",
+      "source": "soe-cf-hernando"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-cf-hernando"
+     }
+    ]
+   },
+   "finance": {
+    "voterfocusId": "609",
+    "status": "Active- Now files with State of Florida"
+   }
   }
  ],
  "races": [

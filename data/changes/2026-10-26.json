@@ -1,0 +1,33 @@
+{
+ "date": "2026-10-26",
+ "changed": [
+  {
+   "key": "hernando/hawkins/party",
+   "subject": "Brian Hawkins: party",
+   "before": null,
+   "after": "Republican",
+   "label": "single",
+   "sources": [
+    "soe-cf-hernando"
+   ]
+  },
+  {
+   "key": "hernando/hawkins/raised",
+   "subject": "Brian Hawkins: raised",
+   "before": null,
+   "after": "$60,675 in contributions (as of Oct 26, 2026)",
+   "label": "single",
+   "sources": [
+    "soe-cf-hernando"
+   ]
+  }
+ ],
+ "added": [],
+ "log": [
+  "Campaign totals: 49 candidates"
+ ],
+ "errors": [
+  "pinellas Legistar pull failed, kept last good data: URL can't contain control characters. '/v1/pinellas/events?$filter=%28EventBodyId%20eq%20213%20or%20EventBodyId%20eq%20212%29%20and%20EventDate%20ge%20datetime%272024-11-19%27%20and%20EventDate%20le%20datetime%272026-10-26%27&$orderby=EventDate desc' (found at least ' ')",
+  "hernando Legistar pull failed, kept last good data: URL can't contain control characters. '/v1/hernandocountyfl/events?$filter=%28EventBodyId%20eq%20138%20or%20EventBodyId%20eq%20235%29%20and%20EventDate%20ge%20datetime%272024-11-19%27%20and%20EventDate%20le%20datetime%272026-10-26%27&$orderby=EventDate desc' (found at least ' ')"
+ ]
+}

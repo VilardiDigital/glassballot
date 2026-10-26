@@ -3,7 +3,14 @@
   "name": "Tampa Bay",
   "state": "FL",
   "electionDate": "2026-11-03",
-  "updated": "2026-10-26"
+  "updated": "2026-10-26",
+  "refreshLog": [
+   "Campaign totals: 49 candidates"
+  ],
+  "refreshErrors": [
+   "pinellas Legistar pull failed, kept last good data: URL can't contain control characters. '/v1/pinellas/events?$filter=%28EventBodyId%20eq%20213%20or%20EventBodyId%20eq%20212%29%20and%20EventDate%20ge%20datetime%272024-11-19%27%20and%20EventDate%20le%20datetime%272026-10-26%27&$orderby=EventDate desc' (found at least ' ')",
+   "hernando Legistar pull failed, kept last good data: URL can't contain control characters. '/v1/hernandocountyfl/events?$filter=%28EventBodyId%20eq%20138%20or%20EventBodyId%20eq%20235%29%20and%20EventDate%20ge%20datetime%272024-11-19%27%20and%20EventDate%20le%20datetime%272026-10-26%27&$orderby=EventDate desc' (found at least ' ')"
+  ]
  },
  "order": [
   "pinellas",
@@ -6377,7 +6384,7 @@
      "race": "bcc-d1",
      "finance": {
       "voterfocusId": "2640",
-      "status": "Active-Qualified"
+      "status": "Active- Qualified"
      },
      "facts": {
       "party": {
@@ -6725,7 +6732,7 @@
      "race": "bcc-d3",
      "finance": {
       "voterfocusId": "2621",
-      "status": "Active-Qualified"
+      "status": "Active- Qualified"
      },
      "facts": {
       "party": {
@@ -7101,7 +7108,7 @@
      "status": "incumbent",
      "finance": {
       "voterfocusId": "2611",
-      "status": "Active-Defeated"
+      "status": "Active- Defeated"
      },
      "facts": {
       "party": {
@@ -7433,7 +7440,7 @@
      "race": "bcc-d7",
      "finance": {
       "voterfocusId": "2620",
-      "status": "Active-Qualified"
+      "status": "Active- Qualified"
      },
      "facts": {
       "party": {
@@ -7651,7 +7658,7 @@
      "race": "bcc-d1",
      "finance": {
       "voterfocusId": "2880",
-      "status": "Active-Qualified"
+      "status": "Active- Qualified"
      },
      "facts": {
       "party": {
@@ -7829,7 +7836,7 @@
      "race": "bcc-d3",
      "finance": {
       "voterfocusId": "2646",
-      "status": "Active-Qualified"
+      "status": "Active- Qualified"
      },
      "facts": {
       "party": {
@@ -7988,7 +7995,7 @@
      "race": "bcc-d5",
      "finance": {
       "voterfocusId": "2661",
-      "status": "Active-Qualified"
+      "status": "Active- Qualified"
      },
      "facts": {
       "party": {
@@ -8153,7 +8160,7 @@
      "race": "bcc-d5",
      "finance": {
       "voterfocusId": "2636",
-      "status": "Active-Qualified"
+      "status": "Active- Qualified"
      },
      "facts": {
       "party": {
@@ -8346,7 +8353,7 @@
      "race": "bcc-d7",
      "finance": {
       "voterfocusId": "2660",
-      "status": "Active-Qualified"
+      "status": "Active- Qualified"
      },
      "facts": {
       "party": {
@@ -8539,7 +8546,7 @@
      "nonpartisan": true,
      "finance": {
       "voterfocusId": "2677",
-      "status": "Active-Runoff"
+      "status": "Active- Runoff"
      },
      "facts": {
       "party": {
@@ -8699,7 +8706,7 @@
      "nonpartisan": true,
      "finance": {
       "voterfocusId": "2675",
-      "status": "Active-Runoff"
+      "status": "Active- Runoff"
      },
      "facts": {
       "party": {
@@ -8856,7 +8863,7 @@
      "nonpartisan": true,
      "finance": {
       "voterfocusId": "2672",
-      "status": "Active-Unopposed"
+      "status": "Active- Unopposed"
      },
      "facts": {
       "party": {
@@ -9009,7 +9016,7 @@
      "nonpartisan": true,
      "finance": {
       "voterfocusId": "2645",
-      "status": "Active-Runoff"
+      "status": "Active- Runoff"
      },
      "facts": {
       "party": {
@@ -9189,7 +9196,7 @@
      "nonpartisan": true,
      "finance": {
       "voterfocusId": "2610",
-      "status": "Active-Runoff"
+      "status": "Active- Runoff"
      },
      "facts": {
       "party": {
@@ -10480,7 +10487,7 @@
      "race": "bcc-d2",
      "finance": {
       "voterfocusId": "1876",
-      "status": "Active-Qualified"
+      "status": "Active- Qualified"
      },
      "facts": {
       "party": {
@@ -10802,7 +10809,7 @@
      "race": "bcc-d4",
      "finance": {
       "voterfocusId": "1828",
-      "status": "Active-Unopposed"
+      "status": "Active- Unopposed"
      },
      "facts": {
       "party": {
@@ -11153,7 +11160,7 @@
      "race": "bcc-d2",
      "finance": {
       "voterfocusId": "1846",
-      "status": "Active-Qualified"
+      "status": "Active- Qualified"
      },
      "facts": {
       "party": {
@@ -11337,7 +11344,7 @@
      "nonpartisan": true,
      "finance": {
       "voterfocusId": "1883",
-      "status": "Active-Qualified"
+      "status": "Active- Qualified"
      },
      "facts": {
       "party": {
@@ -11477,7 +11484,7 @@
      "nonpartisan": true,
      "finance": {
       "voterfocusId": "1889",
-      "status": "Active-Qualified"
+      "status": "Active- Qualified"
      },
      "facts": {
       "party": {
@@ -11648,7 +11655,7 @@
      "nonpartisan": true,
      "finance": {
       "voterfocusId": "1856",
-      "status": "Active-Qualified"
+      "status": "Active- Qualified"
      },
      "facts": {
       "party": {
@@ -11798,7 +11805,7 @@
      "nonpartisan": true,
      "finance": {
       "voterfocusId": "1852",
-      "status": "Active-Qualified"
+      "status": "Active- Qualified"
      },
      "facts": {
       "party": {
@@ -11938,7 +11945,7 @@
      "nonpartisan": true,
      "finance": {
       "voterfocusId": "1864",
-      "status": "Active-Qualified"
+      "status": "Active- Qualified"
      },
      "facts": {
       "party": {
@@ -14213,7 +14220,7 @@
      "race": "bcc-d4",
      "finance": {
       "voterfocusId": "629",
-      "status": "Active-Qualified"
+      "status": "Active- Qualified"
      },
      "facts": {
       "party": {
@@ -14395,7 +14402,7 @@
      "writeIn": true,
      "finance": {
       "voterfocusId": "627",
-      "status": "Active-Qualified Write-In"
+      "status": "Active- Qualified Write-In"
      },
      "facts": {
       "party": {
@@ -14526,7 +14533,7 @@
      "race": "bcc-d2",
      "finance": {
       "voterfocusId": "628",
-      "status": "Active-Unopposed"
+      "status": "Active- Unopposed"
      },
      "facts": {
       "party": {
@@ -14681,7 +14688,7 @@
      "race": "bcc-d2",
      "finance": {
       "voterfocusId": "612",
-      "status": "Inactive-Defeated"
+      "status": "Inactive - Defeated"
      },
      "facts": {
       "party": {
@@ -14818,7 +14825,7 @@
      "race": "bcc-d2",
      "finance": {
       "voterfocusId": "637",
-      "status": "Inactive-Defeated"
+      "status": "Inactive - Defeated"
      },
      "facts": {
       "party": {
@@ -14955,7 +14962,7 @@
      "race": "bcc-d2",
      "finance": {
       "voterfocusId": "602",
-      "status": "Inactive-Defeated"
+      "status": "Inactive - Defeated"
      },
      "facts": {
       "party": {
@@ -15092,7 +15099,7 @@
      "race": "bcc-d2",
      "finance": {
       "voterfocusId": "607",
-      "status": "Inactive-Defeated"
+      "status": "Inactive - Defeated"
      },
      "facts": {
       "party": {
@@ -15230,7 +15237,7 @@
      "nonpartisan": true,
      "finance": {
       "voterfocusId": "620",
-      "status": "Active-Runoff"
+      "status": "Active- Runoff"
      },
      "facts": {
       "party": {
@@ -15411,7 +15418,7 @@
      "note": "Daughter of County Commissioner Steve Champion (wusf-sb-preview).",
      "finance": {
       "voterfocusId": "618",
-      "status": "Active-Runoff"
+      "status": "Active- Runoff"
      },
      "facts": {
       "party": {
@@ -15580,7 +15587,7 @@
      "nonpartisan": true,
      "finance": {
       "voterfocusId": "605",
-      "status": "Active-Unopposed"
+      "status": "Active- Unopposed"
      },
      "facts": {
       "party": {
@@ -15725,7 +15732,7 @@
      "nonpartisan": true,
      "finance": {
       "voterfocusId": "608",
-      "status": "Inactive-Defeated"
+      "status": "Inactive - Defeated"
      },
      "facts": {
       "party": {
@@ -15879,7 +15886,7 @@
      "nonpartisan": true,
      "finance": {
       "voterfocusId": "606",
-      "status": "Inactive-Unopposed"
+      "status": "Inactive - Unopposed"
      },
      "facts": {
       "party": {
@@ -16041,7 +16048,7 @@
      "nonpartisan": true,
      "finance": {
       "voterfocusId": "610",
-      "status": "Active-Defeated"
+      "status": "Active- Defeated"
      },
      "facts": {
       "party": {
@@ -16178,7 +16185,7 @@
      "note": "Eliminated in the Aug 18 primary; not on the Nov 3 ballot.",
      "finance": {
       "voterfocusId": "603",
-      "status": "Active-Defeated"
+      "status": "Active- Defeated"
      },
      "facts": {
       "party": {
@@ -16308,11 +16315,18 @@
      "district": "2",
      "seatType": "At-large",
      "status": "former",
+     "finance": {
+      "voterfocusId": "609",
+      "status": "Active- Now files with State of Florida"
+     },
      "facts": {
       "party": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": "Republican",
+       "label": "single",
+       "sources": [
+        "soe-cf-hernando"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "inOfficeSince": {
        "value": null,
@@ -16376,9 +16390,12 @@
        "sources": []
       },
       "raised": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": "$60,675 in contributions (as of Oct 26, 2026)",
+       "label": "single",
+       "sources": [
+        "soe-cf-hernando"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "moneyWhere": {
        "value": null,
@@ -18205,10 +18222,10 @@
    ],
    "labelCounts": {
     "verified": 8,
-    "single": 121,
+    "single": 123,
     "unverified": 29,
     "conflict": 0,
-    "unknown": 16
+    "unknown": 15
    }
   }
  },
