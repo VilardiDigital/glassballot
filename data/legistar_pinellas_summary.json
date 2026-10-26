@@ -1,42 +1,16 @@
 {
  "source": "legistar",
  "api": "https://webapi.legistar.com/v1/pinellas",
- "pulledAt": "2026-10-26T16:48:14Z",
+ "pulledAt": "2026-10-26T23:07:50Z",
  "scope": "Board of County Commissioners regular and special meetings, Nov 19, 2024 to Oct 22, 2026 (the current seven members)",
  "totals": {
-  "meetings": 42,
+  "meetings": 43,
   "meetingsWithRollCalls": 37,
   "items": 1346,
   "rollCalls": 1268,
-  "splitRollCalls": 38,
-  "abstentions": 1,
-  "tallyMismatches": 0
+  "splitRollCalls": 38
  },
  "stats": {
-  "scott": {
-   "aye": 1232,
-   "nay": 7,
-   "absent": 29,
-   "abstain": 0,
-   "meetingsHeld": 37,
-   "meetingsMissed": 1
-  },
-  "latvala": {
-   "aye": 1118,
-   "nay": 8,
-   "absent": 142,
-   "abstain": 0,
-   "meetingsHeld": 37,
-   "meetingsMissed": 3
-  },
-  "scherer": {
-   "aye": 1210,
-   "nay": 12,
-   "absent": 46,
-   "abstain": 0,
-   "meetingsHeld": 37,
-   "meetingsMissed": 1
-  },
   "eggers": {
    "aye": 1209,
    "nay": 5,
@@ -45,10 +19,10 @@
    "meetingsHeld": 37,
    "meetingsMissed": 1
   },
-  "peters": {
-   "aye": 1037,
-   "nay": 3,
-   "absent": 228,
+  "latvala": {
+   "aye": 1118,
+   "nay": 8,
+   "absent": 142,
    "abstain": 0,
    "meetingsHeld": 37,
    "meetingsMissed": 3
@@ -68,6 +42,30 @@
    "abstain": 0,
    "meetingsHeld": 37,
    "meetingsMissed": 0
+  },
+  "peters": {
+   "aye": 1037,
+   "nay": 3,
+   "absent": 228,
+   "abstain": 0,
+   "meetingsHeld": 37,
+   "meetingsMissed": 3
+  },
+  "scherer": {
+   "aye": 1210,
+   "nay": 12,
+   "absent": 46,
+   "abstain": 0,
+   "meetingsHeld": 37,
+   "meetingsMissed": 1
+  },
+  "scott": {
+   "aye": 1232,
+   "nay": 7,
+   "absent": 29,
+   "abstain": 0,
+   "meetingsHeld": 37,
+   "meetingsMissed": 1
   }
  },
  "recusals": [
@@ -108,7 +106,30 @@
   "10057": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10057&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
   "10053": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10053&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
   "10037": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10037&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
-  "10034": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10034&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08"
+  "10034": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10034&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+  "10175": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10175&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+  "10139": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10139&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+  "10128": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10128&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+  "10126": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10126&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+  "10170": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10170&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+  "10122": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10122&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+  "10120": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10120&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+  "10168": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10168&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+  "10117": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10117&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+  "10115": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10115&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+  "10157": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10157&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+  "10096": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10096&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+  "10110": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10110&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+  "7812": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=7812&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+  "10074": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10074&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+  "10066": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10066&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+  "10059": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10059&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+  "10055": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10055&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+  "10043": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10043&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+  "10051": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10051&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+  "10049": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10049&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+  "10047": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10047&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+  "10045": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10045&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08"
  },
  "matches": {
   "rays-bonds": {
@@ -234,40 +255,11 @@
    ],
    "mover": "flowers",
    "seconder": "peters",
+   "officialTitle": "Case No. CW 26-12 - Pinellas County\r\nCountywide Plan Map amendment from Residential Rural and Scenic/Noncommercial Corridor to Public-Semi-Public and Scenic/Noncommercial Corridor, regarding 2.69 acres more or less, located at 2577 Keystone Road.",
+   "motion": "A motion was made by Commissioner Flowers, seconded by Commissioner Peters, that the item be approved. The motion carried by the following vote:",
    "headline": "Changed 2.69 acres on Keystone Road from rural homes to public use",
    "inShort": "Sitting as the Countywide Planning Authority, the board changed the countywide land use map for 2.69 acres at 2577 Keystone Road from Residential Rural to Public/Semi-Public, tied to redeveloping an existing community meeting facility there.",
-   "officialTitle": "Case No. CW 26-12 - Pinellas County Countywide Plan Map amendment from Residential Rural and Scenic/Noncommercial Corridor to Public-Semi-Public and Scenic/Noncommercial Corridor, regarding 2.69 acres more or less, located at 2577 Keystone Road.",
-   "facts": [
-    "Forward Pinellas and the Planners Advisory Committee recommended approval.",
-    "No correspondence was received and no one spoke at the hearing."
-   ]
-  },
-  {
-   "item": 97796,
-   "ev": 10150,
-   "date": "2026-09-24",
-   "file": "26-1453A",
-   "topic": "taxes",
-   "result": "Passed 6 to 1",
-   "yes": [
-    "eggers",
-    "flowers",
-    "latvala",
-    "peters",
-    "scherer",
-    "scott"
-   ],
-   "no": [
-    "nowicki"
-   ],
-   "mover": "peters",
-   "seconder": "flowers",
-   "headline": "Adopted the final 2027 county budget and tax rates",
-   "inShort": "At the second and final budget hearing, the board adopted the tax rates and budgets for the year starting Oct 1, 2026, for the General Fund, Health Department, EMS and the other county taxing districts.",
-   "officialTitle": "Resolutions to adopt final millage rates and budgets for Fiscal Year 2027 (Second Public Budget Hearing).",
-   "facts": [
-    "Resolution No. 26-79 approved the final General Fund and Health Department budgets."
-   ]
+   "needsReview": false
   },
   {
    "item": 97348,
@@ -289,13 +281,37 @@
    ],
    "mover": "scott",
    "seconder": "peters",
+   "officialTitle": "Agreement with American Infrastructure Development, Inc. for Passenger Terminal Improvements - Owner’s Representative.",
+   "motion": "A motion was made by Commissioner Scott, seconded by Commissioner Peters, that the item be approved. The motion carried by the following vote:",
    "headline": "Hired a project manager for the airport terminal upgrade, up to $1.74 million",
    "inShort": "The board approved a contract with American Infrastructure Development, Inc. to act as the county's representative on passenger terminal improvements at St. Pete-Clearwater International Airport.",
-   "officialTitle": "Agreement with American Infrastructure Development, Inc. for Passenger Terminal Improvements - Owner's Representative.",
-   "facts": [
-    "Not to exceed $1,742,865.82, for 2,320 days from the notice to proceed.",
-    "Commissioner Nowicki raised concerns about how bids were scored, citing a federal rule on rating firms by Disadvantaged Business Enterprise status. The county attorney's office said it had not yet reviewed the issue."
-   ]
+   "needsReview": false
+  },
+  {
+   "item": 97796,
+   "ev": 10150,
+   "date": "2026-09-24",
+   "file": "26-1453A",
+   "topic": "taxes",
+   "result": "Passed 6 to 1",
+   "yes": [
+    "eggers",
+    "flowers",
+    "latvala",
+    "peters",
+    "scherer",
+    "scott"
+   ],
+   "no": [
+    "nowicki"
+   ],
+   "mover": "peters",
+   "seconder": "flowers",
+   "officialTitle": "Resolutions to adopt final millage rates and budgets for Fiscal Year 2027 (Second Public Budget Hearing).",
+   "motion": "A motion was made by Commissioner Peters, seconded by Commissioner Flowers, that the final Fiscal Year 2027 budgets for the General Fund and Health Department Fund be approved. The motion carried by the following vote:",
+   "headline": "Adopted the final 2027 county budget and tax rates",
+   "inShort": "At the second and final budget hearing, the board adopted the tax rates and budgets for the year starting Oct 1, 2026, for the General Fund, Health Department, EMS and the other county taxing districts.",
+   "needsReview": false
   },
   {
    "item": 97157,
@@ -317,39 +333,11 @@
    ],
    "mover": "peters",
    "seconder": "scott",
+   "officialTitle": "Petition of Charles and Rita King, to vacate a portion of a 33-foot-wide right-of-way known as Portsmouth Road, lying east of lots 41 through 43, Gulf Breeze Estates, Plat Book 27, Page 57, lying in Section 30-29-16, Pinellas County, Florida.",
+   "motion": "A motion was made by Commissioner Peters, seconded by Commissioner Scott, that the item be approved. The motion carried by the following vote:",
    "headline": "Gave up the public's right to a 33-foot strip of Portsmouth Road",
    "inShort": "Approved a property owners' petition to vacate part of the Portsmouth Road right-of-way next to Gulf Breeze Estates. Vacating means the county gives up its claim to the strip.",
-   "officialTitle": "Petition of Charles and Rita King, to vacate a portion of a 33-foot-wide right-of-way known as Portsmouth Road, lying east of lots 41 through 43, Gulf Breeze Estates.",
-   "facts": [
-    "No correspondence was received and no one spoke at the hearing."
-   ]
-  },
-  {
-   "item": 96765,
-   "ev": 10137,
-   "date": "2026-07-21",
-   "file": "26-0986A",
-   "topic": "fees",
-   "result": "Passed 6 to 1",
-   "yes": [
-    "eggers",
-    "flowers",
-    "latvala",
-    "peters",
-    "scherer",
-    "scott"
-   ],
-   "no": [
-    "nowicki"
-   ],
-   "mover": "peters",
-   "seconder": "scherer",
-   "headline": "Raised the county dump fee for the next two years",
-   "inShort": "The fee to dump a ton of trash at the county's solid waste facility goes to $63.57 on Oct 1, 2026 and $68.65 on Oct 1, 2027.",
-   "officialTitle": "Resolution adopting an increased Solid Waste tipping fee for Fiscal Years 2027 and 2028.",
-   "facts": [
-    "No correspondence was received and no one spoke."
-   ]
+   "needsReview": false
   },
   {
    "item": 96763,
@@ -371,12 +359,37 @@
    ],
    "mover": "scott",
    "seconder": "flowers",
+   "officialTitle": "Annual certificate of the Non-Ad Valorem Assessment Roll and Resolution increasing the Non-Ad Valorem Assessment for the Lealman Solid Waste Collection and Disposal District.",
+   "motion": "A motion was made by Commissioner Scott, seconded by Commissioner Flowers, that the item be approved. The motion carried by the following vote:",
    "headline": "Raised the trash collection charge for Lealman homes to $288 a year",
    "inShort": "Lealman residential property owners pay for county trash pickup through a charge on their tax bill. The board raised it to $288 per home per year.",
-   "officialTitle": "Annual certificate of the Non-Ad Valorem Assessment Roll and Resolution increasing the Non-Ad Valorem Assessment for the Lealman Solid Waste Collection and Disposal District.",
-   "facts": [
-    "Five letters and three voicemails in opposition, and one letter of concern, were received."
-   ]
+   "needsReview": false
+  },
+  {
+   "item": 96765,
+   "ev": 10137,
+   "date": "2026-07-21",
+   "file": "26-0986A",
+   "topic": "fees",
+   "result": "Passed 6 to 1",
+   "yes": [
+    "eggers",
+    "flowers",
+    "latvala",
+    "peters",
+    "scherer",
+    "scott"
+   ],
+   "no": [
+    "nowicki"
+   ],
+   "mover": "peters",
+   "seconder": "scherer",
+   "officialTitle": "Resolution adopting an increased Solid Waste tipping fee for Fiscal Years 2027 and 2028.",
+   "motion": "A motion was made by Commissioner Peters, seconded by Commissioner Scherer, that the item be approved. The motion carried by the following vote:",
+   "headline": "Raised the county dump fee for the next two years",
+   "inShort": "The fee to dump a ton of trash at the county's solid waste facility goes to $63.57 on Oct 1, 2026 and $68.65 on Oct 1, 2027.",
+   "needsReview": false
   },
   {
    "item": 96842,
@@ -398,12 +411,11 @@
    ],
    "mover": "peters",
    "seconder": "flowers",
+   "officialTitle": "Ordinance amending the Pinellas County Code, Chapter 122, related to the County Towing Ordinance.",
+   "motion": "A motion was made by Commissioner Peters, seconded by Commissioner Flowers, that the item be approved as amended. The motion carried by the following vote:",
    "headline": "Changed the county towing law, adding new fees",
    "inShort": "Amended the towing ordinance to allow an emergency fuel surcharge, yearly inflation increases to the base tow rate, and an electric vehicle fee, plus new signage rules.",
-   "officialTitle": "Ordinance amending the Pinellas County Code, Chapter 122, related to the County Towing Ordinance.",
-   "facts": [
-    "Staff said its recommendations could change depending on pending litigation over a $250 state lien release fee."
-   ]
+   "needsReview": false
   },
   {
    "item": 96804,
@@ -425,38 +437,11 @@
    ],
    "mover": "flowers",
    "seconder": "peters",
+   "officialTitle": "County Administrator Reports:\r\n·\tTEFRA Hearing scheduled for July 21 BCC meeting\r\n·\tCDBG-DR Update\r\n·\tTowing Update",
+   "motion": "A motion was made by Commissioner Flowers, seconded by Commissioner Peters, that the Board move forward with a base tow rate of $175.00, a mileage rate of $60.00, and a storage rate of $35.00. The motion carried by the following vote:",
    "headline": "Set new maximum towing rates: $175 a tow",
    "inShort": "Resolution No. 26-46 set the county's towing rates at a $175 base tow, $60 mileage rate and $35 storage rate.",
-   "officialTitle": "County Administrator Reports: TEFRA Hearing scheduled for July 21 BCC meeting; CDBG-DR Update; Towing Update.",
-   "facts": []
-  },
-  {
-   "item": 96551,
-   "ev": 10133,
-   "date": "2026-06-16",
-   "file": "26-0801A",
-   "topic": "health",
-   "result": "Deferred, 6 to 0 with 1 abstaining",
-   "yes": [
-    "eggers",
-    "latvala",
-    "nowicki",
-    "peters",
-    "scherer",
-    "scott"
-   ],
-   "no": [],
-   "abstain": [
-    "flowers"
-   ],
-   "mover": "scherer",
-   "seconder": "nowicki",
-   "headline": "Delayed the social services grant awards for next year",
-   "inShort": "The board pushed its decision on Social Action grant awards for nonprofits to the July 21 meeting, so they could line up with the 2027 budget.",
-   "officialTitle": "Funding recommendations for the Fiscal Year 2027 Human Services Social Action Grant Program.",
-   "facts": [
-    "Commissioner Flowers recused herself because she serves on the board of the Area Agency on Aging of Pasco-Pinellas, one of the groups recommended for funding."
-   ]
+   "needsReview": false
   },
   {
    "item": 96263,
@@ -478,72 +463,11 @@
    ],
    "mover": "latvala",
    "seconder": "nowicki",
+   "officialTitle": "Term Sheet for the redevelopment and improvements to the BayCare Ballpark Stadium Facility inclusive of BayCare Ballpark, Phillies Complex, and Carpenter Complex.",
+   "motion": "A motion was made by Vice-Chair Latvala, seconded by Commissioner Nowicki, that the item be approved. The motion carried by the following vote:",
    "headline": "Agreed to put $85 million toward upgrading the Phillies' spring training ballpark",
    "inShort": "Approved a term sheet to redevelop BayCare Ballpark, the Phillies Complex and the Carpenter Complex in Clearwater. The county's share is expected to come from the tourist development tax.",
-   "officialTitle": "Term Sheet for the redevelopment and improvements to the BayCare Ballpark Stadium Facility inclusive of BayCare Ballpark, Phillies Complex, and Carpenter Complex.",
-   "facts": [
-    "County capital contribution: $85,000,000, expected from the Tourist Development Tax fund. Funding is not yet budgeted.",
-    "The Phillies would give the county tourism agency $850,000 a year for marketing starting in 2026, rising 3% a year from 2032.",
-    "Commissioner Scott said the public share was excessive and voted no."
-   ]
-  },
-  {
-   "item": 95566,
-   "ev": 10113,
-   "date": "2026-01-20",
-   "file": "25-1956A",
-   "topic": "growth",
-   "result": "Denied 4 to 2",
-   "yes": [
-    "flowers",
-    "latvala",
-    "nowicki",
-    "scott"
-   ],
-   "no": [
-    "peters",
-    "scherer"
-   ],
-   "absent": [
-    "eggers"
-   ],
-   "mover": "scott",
-   "seconder": "nowicki",
-   "headline": "Turned down denser housing on a former landfill site in Largo",
-   "inShort": "Denied a request to change 18.43 acres at 13400 Pine Street from Residential Urban to Residential Medium, which would allow more homes per acre. The site was once a construction debris landfill. The denial leaves the owner free to apply again.",
-   "officialTitle": "Case No. FLU-25-09 (Green Energy for North America, LLC) A request for a Future Land Use Map amendment from Residential Urban to Residential Medium on approximately 18.43 acres located at 13400 Pine Street in unincorporated Largo.",
-   "facts": [
-    "The Local Planning Agency recommended denial, and staff agreed.",
-    "Two emails and seven voicemails in opposition, and one letter of concern, were received.",
-    "Here a YES vote was a vote to deny the request."
-   ]
-  },
-  {
-   "item": 95336,
-   "ev": 10113,
-   "date": "2026-01-20",
-   "file": "25-1929A",
-   "topic": "fees",
-   "result": "Passed 5 to 1",
-   "yes": [
-    "flowers",
-    "latvala",
-    "peters",
-    "scherer",
-    "scott"
-   ],
-   "no": [
-    "nowicki"
-   ],
-   "absent": [
-    "eggers"
-   ],
-   "mover": "peters",
-   "seconder": "flowers",
-   "headline": "Raised the county dump fee to $58.86 a ton",
-   "inShort": "Raised the solid waste tipping fee to $58.86 per ton, effective Oct 1, 2025.",
-   "officialTitle": "Resolution adopting an increased Solid Waste tipping fee for Fiscal Year 2026.",
-   "facts": []
+   "needsReview": false
   },
   {
    "item": 95280,
@@ -567,10 +491,67 @@
    ],
    "mover": "peters",
    "seconder": "scott",
+   "officialTitle": "Revisions to the Capital Projects Funding Program Guidelines from the Tourist Development Council for Fiscal Year 2026.",
+   "motion": "A motion was made by Commissioner Peters, seconded by Commissioner Scott, that the item be approved. The motion carried by the following vote:",
    "headline": "Changed the rules for tourist tax grants to big local projects",
    "inShort": "Revised the guidelines for how tourist development tax money is awarded to capital projects. A point system for geographic spread was removed, and language about waivers for projects asking over $10 million was dropped.",
-   "officialTitle": "Revisions to the Capital Projects Funding Program Guidelines from the Tourist Development Council for Fiscal Year 2026.",
-   "facts": []
+   "needsReview": false
+  },
+  {
+   "item": 95336,
+   "ev": 10113,
+   "date": "2026-01-20",
+   "file": "25-1929A",
+   "topic": "fees",
+   "result": "Passed 5 to 1",
+   "yes": [
+    "flowers",
+    "latvala",
+    "peters",
+    "scherer",
+    "scott"
+   ],
+   "no": [
+    "nowicki"
+   ],
+   "absent": [
+    "eggers"
+   ],
+   "mover": "peters",
+   "seconder": "flowers",
+   "officialTitle": "Resolution adopting an increased Solid Waste tipping fee for Fiscal Year 2026.",
+   "motion": "A motion was made by Commissioner Peters, seconded by Commissioner Flowers, that the item be approved. The motion carried by the following vote:",
+   "headline": "Raised the county dump fee to $58.86 a ton",
+   "inShort": "Raised the solid waste tipping fee to $58.86 per ton, effective Oct 1, 2025.",
+   "needsReview": false
+  },
+  {
+   "item": 95566,
+   "ev": 10113,
+   "date": "2026-01-20",
+   "file": "25-1956A",
+   "topic": "growth",
+   "result": "Passed 4 to 2",
+   "yes": [
+    "flowers",
+    "latvala",
+    "nowicki",
+    "scott"
+   ],
+   "no": [
+    "peters",
+    "scherer"
+   ],
+   "absent": [
+    "eggers"
+   ],
+   "mover": "scott",
+   "seconder": "nowicki",
+   "officialTitle": "Case No. FLU-25-09 (Green Energy for North America, LLC) \r\nA request for a Future Land Use Map amendment from Residential Urban to Residential Medium on approximately 18.43 acres located at 13400 Pine Street in unincorporated Largo.",
+   "motion": "A motion was made by Commissioner Scott, seconded by Commissioner Nowicki, that the item be denied without prejudice. The motion carried by the following vote:",
+   "headline": "Turned down denser housing on a former landfill site in Largo",
+   "inShort": "Denied a request to change 18.43 acres at 13400 Pine Street from Residential Urban to Residential Medium, which would allow more homes per acre. The site was once a construction debris landfill. The denial leaves the owner free to apply again.",
+   "needsReview": false
   },
   {
    "item": 95249,
@@ -592,10 +573,11 @@
    ],
    "mover": "flowers",
    "seconder": "latvala",
+   "officialTitle": "Revision to the Fiscal Year 2026 Elite Event Funding Recommendations from the Tourist Development Council.",
+   "motion": "A motion was made by Commissioner Flowers, seconded by Commissioner Latvala, that the item be approved. The motion carried by the following vote:",
    "headline": "Raised tourist tax funding for 49 local events to $2.76 million",
    "inShort": "Revised the 2026 funding list for events paid for with tourist development tax money, up to $2,755,000 for 49 events.",
-   "officialTitle": "Revision to the Fiscal Year 2026 Elite Event Funding Recommendations from the Tourist Development Council.",
-   "facts": []
+   "needsReview": false
   },
   {
    "item": 94936,
@@ -619,38 +601,11 @@
    ],
    "mover": "flowers",
    "seconder": "eggers",
+   "officialTitle": "Memorandum of Understanding between Pinellas County and the University of Florida Institute of Food and Agricultural Sciences for salary and fringe.",
+   "motion": "A motion was made by Commissioner Flowers, seconded by Vice-Chair Eggers, that the item be approved. The motion carried by the following vote:",
    "headline": "Renewed cost-sharing for UF/IFAS county extension staff",
    "inShort": "Renewed the county's agreement with the University of Florida Institute of Food and Agricultural Sciences to share the salary and benefit costs of extension staff.",
-   "officialTitle": "Memorandum of Understanding between Pinellas County and the University of Florida Institute of Food and Agricultural Sciences for salary and fringe.",
-   "facts": [
-    "Estimated total cost: $297,986.45.",
-    "Five people spoke in support."
-   ]
-  },
-  {
-   "item": 94597,
-   "ev": 10084,
-   "date": "2025-09-18",
-   "file": "25-1000A",
-   "topic": "taxes",
-   "result": "Passed 6 to 1",
-   "yes": [
-    "eggers",
-    "flowers",
-    "latvala",
-    "peters",
-    "scherer",
-    "scott"
-   ],
-   "no": [
-    "nowicki"
-   ],
-   "mover": "flowers",
-   "seconder": "peters",
-   "headline": "Adopted the final 2026 county budget",
-   "inShort": "Final approval of the General Fund and Health Department budgets for the year that started Oct 1, 2025.",
-   "officialTitle": "Resolutions to adopt final millage rates and budgets for Fiscal Year 2026 (second public hearing).",
-   "facts": []
+   "needsReview": false
   },
   {
    "item": 94324,
@@ -674,40 +629,37 @@
    ],
    "mover": "flowers",
    "seconder": "scherer",
+   "officialTitle": "Agreement with Horne LLP for requirements of services for the management, administration and implementation of Community Development Block Grant -Disaster Recovery Program.",
+   "motion": "A motion was made by Commissioner Flowers, seconded by Commissioner Scherer, that the item be approved. The motion carried by the following vote:",
    "headline": "Hired a firm to run the $813 million hurricane recovery grant program",
    "inShort": "Contracted with Horne LLP to manage the county's federal Community Development Block Grant disaster recovery program.",
-   "officialTitle": "Agreement with Horne LLP for requirements of services for the management, administration and implementation of Community Development Block Grant - Disaster Recovery Program.",
-   "facts": [
-    "36-month contract value: $565,656,023.17, which includes grant money passed through to residents as well as the firm's costs.",
-    "The county received $813,000,000 in grant funding, and nearly 5,000 people were already waiting for help."
-   ]
+   "needsReview": false
   },
   {
-   "item": 94414,
-   "ev": 10077,
-   "date": "2025-09-04",
-   "file": "25-0999A",
+   "item": 94597,
+   "ev": 10084,
+   "date": "2025-09-18",
+   "file": "25-1000A",
    "topic": "taxes",
-   "result": "Failed 2 to 5",
+   "result": "Passed 6 to 1",
    "yes": [
-    "nowicki",
-    "scherer"
-   ],
-   "no": [
     "eggers",
     "flowers",
     "latvala",
     "peters",
+    "scherer",
     "scott"
    ],
-   "mover": "scherer",
-   "seconder": "nowicki",
-   "headline": "Rejected a deeper property tax cut",
-   "inShort": "Commissioner Scherer moved to cut the general county tax rate to 4.5049 mills, halfway back to the rolled-back rate. He said the tentative budget was only about $5 million away from that. The motion failed.",
-   "officialTitle": "Resolutions adopting tentative millage rates and budgets for Fiscal Year 2026 (first public hearing).",
-   "facts": [
-    "Commissioners Latvala, Flowers, Peters and Eggers expressed concern about the motion's effects."
-   ]
+   "no": [
+    "nowicki"
+   ],
+   "mover": "flowers",
+   "seconder": "peters",
+   "officialTitle": "Resolutions to adopt final millage rates and budgets for Fiscal Year 2026 (second public hearing).",
+   "motion": "A motion was made by Commissioner Flowers, seconded by Commissioner Peters, that the final Fiscal Year 2026 budgets for the General Fund and Health Department Fund be approved. The motion carried by the following vote:",
+   "headline": "Adopted the final 2026 county budget",
+   "inShort": "Final approval of the General Fund and Health Department budgets for the year that started Oct 1, 2025.",
+   "needsReview": false
   },
   {
    "item": 94047,
@@ -729,39 +681,37 @@
    ],
    "mover": "latvala",
    "seconder": "peters",
+   "officialTitle": "Resolutions adopting tentative millage rates and budgets for Fiscal Year 2026 (first public hearing).",
+   "motion": "A motion was made by Commissioner Latvala, seconded by Commissioner Peters, that the tentative budget be amended, as discussed at the August 28 work session and as recommended by the County Administrator in a memorandum distributed to the members on September 3. The motion carried by the following vote:",
    "headline": "Set tentative 2026 tax rates and budgets",
    "inShort": "After the deeper cut failed, the board approved tentative tax rates and budgets for the General Fund, Health Department, EMS, Planning Council and other districts.",
-   "officialTitle": "Resolutions adopting tentative millage rates and budgets for Fiscal Year 2026 (first public hearing).",
-   "facts": []
+   "needsReview": false
   },
   {
-   "item": 93963,
-   "ev": 10072,
-   "date": "2025-08-05",
-   "file": "25-0932A",
-   "topic": "contracts",
-   "result": "Passed 5 to 2",
+   "item": 94414,
+   "ev": 10077,
+   "date": "2025-09-04",
+   "file": "25-0999A",
+   "topic": "taxes",
+   "result": "Passed 2 to 5",
    "yes": [
+    "nowicki",
+    "scherer"
+   ],
+   "no": [
     "eggers",
     "flowers",
     "latvala",
     "peters",
     "scott"
    ],
-   "no": [
-    "nowicki",
-    "scherer"
-   ],
-   "mover": "eggers",
-   "seconder": "flowers",
-   "headline": "Gave Keep Pinellas Beautiful a $1.94 million, 5-year contract",
-   "inShort": "Approved a 60-month contract with Keep Pinellas Beautiful, Inc. to manage the county's Adopt-A-Program services.",
-   "officialTitle": "Agreement with Keep Pinellas Beautiful, Inc. for Adopt-A-Program Management Services.",
-   "facts": [
-    "Total: $1,936,600 over 60 months.",
-    "The county administrator said he did not believe the contract was competitively bid.",
-    "Commissioner Nowicki cited the price increase and the lack of competitive bidding and performance requirements."
-   ]
+   "mover": "scherer",
+   "seconder": "nowicki",
+   "officialTitle": "Resolutions adopting tentative millage rates and budgets for Fiscal Year 2026 (first public hearing).",
+   "motion": "A motion was made by Commissioner Scherer, seconded by Commissioner Nowicki, for a 50% rollback and a millage rate of 4.5049. The motion failed by the following vote:",
+   "headline": "Rejected a deeper property tax cut",
+   "inShort": "Commissioner Scherer moved to cut the general county tax rate to 4.5049 mills, halfway back to the rolled-back rate. He said the tentative budget was only about $5 million away from that. The motion failed.",
+   "needsReview": false
   },
   {
    "item": 93830,
@@ -783,10 +733,37 @@
    ],
    "mover": "flowers",
    "seconder": "peters",
+   "officialTitle": "Annual certificate of the Lealman Solid Waste Collection and Disposal District Non-Ad Valorem Assessment Roll.",
+   "motion": "A motion was made by Commissioner Flowers, seconded by Commissioner Peters, that the item be approved. The motion carried by the following vote:",
    "headline": "Set the 2025 Lealman trash collection charge at $288 per home",
    "inShort": "Certified the yearly trash collection charge on Lealman residential tax bills at $288 per unit through Dec 31, 2025.",
-   "officialTitle": "Annual certificate of the Lealman Solid Waste Collection and Disposal District Non-Ad Valorem Assessment Roll.",
-   "facts": []
+   "needsReview": false
+  },
+  {
+   "item": 93963,
+   "ev": 10072,
+   "date": "2025-08-05",
+   "file": "25-0932A",
+   "topic": "contracts",
+   "result": "Passed 5 to 2",
+   "yes": [
+    "eggers",
+    "flowers",
+    "latvala",
+    "peters",
+    "scott"
+   ],
+   "no": [
+    "nowicki",
+    "scherer"
+   ],
+   "mover": "eggers",
+   "seconder": "flowers",
+   "officialTitle": "Agreement with Keep Pinellas Beautiful, Inc. for Adopt-A-Program Management Services.",
+   "motion": "A motion was made by Vice-Chair Eggers, seconded by Commissioner Flowers, that the item be approved. The motion carried by the following vote:",
+   "headline": "Gave Keep Pinellas Beautiful a $1.94 million, 5-year contract",
+   "inShort": "Approved a 60-month contract with Keep Pinellas Beautiful, Inc. to manage the county's Adopt-A-Program services.",
+   "needsReview": false
   },
   {
    "item": 93995,
@@ -810,12 +787,11 @@
    ],
    "mover": "flowers",
    "seconder": "latvala",
+   "officialTitle": "Fiscal Year 2026 Elite Event funding recommendations from the Tourist Development Council.",
+   "motion": "A motion was made by Commissioner Flowers, seconded by Commissioner Latvala, that the item be approved. The motion carried by the following vote:",
    "headline": "Spent up to $2.69 million in tourist tax money on local events",
    "inShort": "Funded 2026 events such as the Firestone Grand Prix, Valspar Championship, St. Pete Pride and the Clearwater Jazz Festival with tourist development tax money.",
-   "officialTitle": "Fiscal Year 2026 Elite Event funding recommendations from the Tourist Development Council.",
-   "facts": [
-    "Cumulative maximum: $2,685,000."
-   ]
+   "needsReview": false
   },
   {
    "item": 93179,
@@ -837,12 +813,11 @@
    ],
    "mover": "flowers",
    "seconder": "eggers",
+   "officialTitle": "Resolution making a finding that conditions of blight exist within the Central Tarpon Springs study area, establishing the Community Redevelopment Area boundary, authorizing the preparation of the Central Tarpon Springs Redevelopment Plan, and delegating redevelopment authority to the City of Tarpon Springs.",
+   "motion": "A motion was made by Commissioner Flowers, seconded by Vice-Chair Eggers, that the item be approved. The motion carried by the following vote:",
    "headline": "Declared central Tarpon Springs blighted to start a redevelopment district",
    "inShort": "Found that blight exists in central Tarpon Springs, set the boundary of a Community Redevelopment Area, and handed redevelopment authority to the city. In a CRA, future growth in property taxes there is set aside for improvements in that area.",
-   "officialTitle": "Resolution making a finding that conditions of blight exist within the Central Tarpon Springs study area, establishing the Community Redevelopment Area boundary, authorizing the preparation of the Central Tarpon Springs Redevelopment Plan, and delegating redevelopment authority to the City of Tarpon Springs.",
-   "facts": [
-    "One email of concern was received; no one spoke."
-   ]
+   "needsReview": false
   },
   {
    "item": 93001,
@@ -864,12 +839,11 @@
    ],
    "mover": "nowicki",
    "seconder": "scherer",
+   "officialTitle": "County Commission New Business:\r\nPertinent and timely Committee/Board updates, policy considerations, administrative/procedural considerations, and other new business:\r\n\r\n- Duke Energy Clean Energy Resolution - Commissioner Nowicki",
+   "motion": "A motion was made by Commissioner Nowicki, seconded by Commissioner Scherer, that the item be approved as amended. The motion carried by the following vote:",
    "headline": "Pulled the county out of Duke Energy's Clean Energy Connection program",
    "inShort": "Commissioner Nowicki's resolution directs the county administrator to withdraw the county from Duke Energy's Clean Energy Connection program.",
-   "officialTitle": "Duke Energy Clean Energy Resolution - Commissioner Nowicki.",
-   "facts": [
-    "Commissioner Flowers said she could not support it and asked for a board discussion of clean energy goals."
-   ]
+   "needsReview": false
   },
   {
    "item": 93018,
@@ -891,13 +865,11 @@
    ],
    "mover": "scherer",
    "seconder": "flowers",
+   "officialTitle": "Case No. ZON-24-05 (Dushyant Gulati)\r\nA request for a zoning change from R-R, Rural Residential and R-3-CO, Single-Family Residential with Conditional Overlay to R-3-CO, Single Family Residential with Conditional Overlay on approximately 3.2 acres located at 2281 Kersey Road and 1736 Winchester Road in unincorporated Largo. (Quasi-Judicial) (Companion to No. 24)",
+   "motion": "A motion was made by Commissioner Scherer, seconded by Commissioner Flowers, that the item be approved as amended. The motion carried by the following vote:",
    "headline": "Rezoned 3.2 acres on Kersey Road for more single-family homes",
    "inShort": "Approved a rezoning at 2281 Kersey Road and 1736 Winchester Road in unincorporated Largo, with a 70-foot minimum lot width added as a condition.",
-   "officialTitle": "Case No. ZON-24-05: zoning change from R-R, Rural Residential and R-3-CO to R-3-CO, Single Family Residential with Conditional Overlay on approximately 3.2 acres.",
-   "facts": [
-    "The Local Planning Agency recommended approval, and staff agreed.",
-    "One letter in opposition and six voicemails in support were received."
-   ]
+   "needsReview": false
   },
   {
    "item": 92807,
@@ -921,66 +893,11 @@
    ],
    "mover": "eggers",
    "seconder": "nowicki",
+   "officialTitle": "Recommendation from the Tourist Development Council to fund five Fiscal Year 2024 Capital Projects Funding Program applications.",
+   "motion": "A motion was made by Vice-Chair Eggers, seconded by Commissioner Nowicki, that the item be approved, as amended. The motion carried by the following vote:",
    "headline": "Gave up to $26.4 million in tourist tax money to five building projects",
    "inShort": "Funded five capital projects recommended by the Tourist Development Council, after amendments, for up to $26.4 million.",
-   "officialTitle": "Recommendation from the Tourist Development Council to fund five Fiscal Year 2024 Capital Projects Funding Program applications.",
-   "facts": [
-    "Projects discussed included the Clearwater Beach Municipal Marina and the Arts Center and Chihuly Collection."
-   ]
-  },
-  {
-   "item": 92080,
-   "ev": 10034,
-   "date": "2024-11-19",
-   "file": "24-1966A",
-   "topic": "board",
-   "result": "Passed 6 to 1",
-   "yes": [
-    "eggers",
-    "latvala",
-    "nowicki",
-    "peters",
-    "scherer",
-    "scott"
-   ],
-   "no": [
-    "flowers"
-   ],
-   "mover": "latvala",
-   "seconder": "nowicki",
-   "headline": "Picked the 2025 chair and vice chair",
-   "inShort": "The board chose its leaders for 2025. Commissioner Scott was set to become chair in January.",
-   "officialTitle": "Selection of the 2025 Chair and Vice-Chair.",
-   "facts": [
-    "Commissioner Flowers nominated herself for vice chair."
-   ]
-  },
-  {
-   "item": 91883,
-   "ev": 10034,
-   "date": "2024-11-19",
-   "file": "24-1870A",
-   "topic": "environment",
-   "result": "Denied 4 to 3",
-   "yes": [
-    "flowers",
-    "peters",
-    "scherer",
-    "scott"
-   ],
-   "no": [
-    "eggers",
-    "latvala",
-    "nowicki"
-   ],
-   "mover": "scott",
-   "seconder": null,
-   "headline": "Refused to hold a hearing on a dredge permit appeal in Palm Harbor",
-   "inShort": "Declined a request for a public hearing to appeal a county dredge and fill permit for 106 Harbor Drive. The county attorney said hearing the appeal was up to the board.",
-   "officialTitle": "Request for a public hearing to appeal the issuance of County Dredge and Fill Permit No. WND-24-00077 for 106 Harbor Drive, Palm Harbor.",
-   "facts": [
-    "The board had heard an earlier dock-related appeal involving the same parties."
-   ]
+   "needsReview": false
   },
   {
    "item": 91835,
@@ -1002,12 +919,63 @@
    ],
    "mover": "scott",
    "seconder": "eggers",
+   "officialTitle": "Resolution electing to not exempt property under Section 196.1978(3)(o), Florida Statutes, commonly known as the Live Local Act Property Tax Exemption.",
+   "motion": "A motion was made by Vice-Chair Scott, seconded by Commissioner Eggers, that the item be approved. The motion carried by the following vote:",
    "headline": "Opted out of a state tax break for some workforce housing",
    "inShort": "Florida's Live Local Act lets counties choose whether to give a 75% property tax exemption to rental units for households earning 80% to 120% of area median income. Pinellas chose not to give it.",
-   "officialTitle": "Resolution electing to not exempt property under Section 196.1978(3)(o), Florida Statutes, commonly known as the Live Local Act Property Tax Exemption.",
-   "facts": [
-    "It needed a two-thirds supermajority, five votes, to pass."
-   ]
+   "needsReview": false
+  },
+  {
+   "item": 91883,
+   "ev": 10034,
+   "date": "2024-11-19",
+   "file": "24-1870A",
+   "topic": "environment",
+   "result": "Passed 4 to 3",
+   "yes": [
+    "flowers",
+    "peters",
+    "scherer",
+    "scott"
+   ],
+   "no": [
+    "eggers",
+    "latvala",
+    "nowicki"
+   ],
+   "mover": "scott",
+   "seconder": null,
+   "officialTitle": "Request for a public hearing to appeal the issuance of County Dredge and Fill Permit No. WND-24-00077 for 106 Harbor Drive, Palm Harbor.",
+   "motion": "A motion was made by Vice-Chair Scott, seconded by Commissioner Flowers, that the item be denied. The motion carried by the following vote:",
+   "headline": "Refused to hold a hearing on a dredge permit appeal in Palm Harbor",
+   "inShort": "Declined a request for a public hearing to appeal a county dredge and fill permit for 106 Harbor Drive. The county attorney said hearing the appeal was up to the board.",
+   "needsReview": false
+  },
+  {
+   "item": 92080,
+   "ev": 10034,
+   "date": "2024-11-19",
+   "file": "24-1966A",
+   "topic": "board",
+   "result": "Passed 6 to 1",
+   "yes": [
+    "eggers",
+    "latvala",
+    "nowicki",
+    "peters",
+    "scherer",
+    "scott"
+   ],
+   "no": [
+    "flowers"
+   ],
+   "mover": "latvala",
+   "seconder": "nowicki",
+   "officialTitle": "Selection of the 2025 Chair and Vice-Chair.",
+   "motion": "A motion was made by Commissioner Latvala, seconded by Commissioner Nowicki, that Commissioner Eggers serve as the BCC Vice-Chair for 2025. The motion carried by the following vote:",
+   "headline": "Picked the 2025 chair and vice chair",
+   "inShort": "The board chose its leaders for 2025. Commissioner Scott was set to become chair in January.",
+   "needsReview": false
   }
  ]
 }

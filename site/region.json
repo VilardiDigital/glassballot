@@ -5,12 +5,11 @@
   "electionDate": "2026-11-03",
   "updated": "2026-10-26",
   "refreshLog": [
+   "pinellas Legistar: 1268 roll calls, 0 new split votes awaiting review",
+   "hernando Legistar: 1851 roll calls, 0 new split votes awaiting review",
    "Campaign totals: 49 candidates"
   ],
-  "refreshErrors": [
-   "pinellas Legistar pull failed, kept last good data: URL can't contain control characters. '/v1/pinellas/events?$filter=%28EventBodyId%20eq%20213%20or%20EventBodyId%20eq%20212%29%20and%20EventDate%20ge%20datetime%272024-11-19%27%20and%20EventDate%20le%20datetime%272026-10-26%27&$orderby=EventDate desc' (found at least ' ')",
-   "hernando Legistar pull failed, kept last good data: URL can't contain control characters. '/v1/hernandocountyfl/events?$filter=%28EventBodyId%20eq%20138%20or%20EventBodyId%20eq%20235%29%20and%20EventDate%20ge%20datetime%272024-11-19%27%20and%20EventDate%20le%20datetime%272026-10-26%27&$orderby=EventDate desc' (found at least ' ')"
-  ]
+  "refreshErrors": []
  },
  "order": [
   "pinellas",
@@ -34,16 +33,14 @@
    "accessed": "2026-10-26",
    "legistarLoaded": true,
    "legistarTotals": {
-    "meetings": 42,
+    "meetings": 43,
     "meetingsWithRollCalls": 37,
     "items": 1346,
     "rollCalls": 1268,
-    "splitRollCalls": 38,
-    "abstentions": 1,
-    "tallyMismatches": 0
+    "splitRollCalls": 38
    },
    "legistarScope": "Board of County Commissioners regular and special meetings, Nov 19, 2024 to Oct 22, 2026 (the current seven members)",
-   "legistarPulledAt": "2026-10-26T16:48:14Z",
+   "legistarPulledAt": "2026-10-26T23:07:50Z",
    "sources": {
     "pc-bcc": {
      "title": "Pinellas County Board of County Commissioners",
@@ -496,12 +493,12 @@
        "how": "yes"
       },
       {
-       "vote": "lg-97796",
-       "how": "yes"
-      },
-      {
        "vote": "lg-97348",
        "how": "no"
+      },
+      {
+       "vote": "lg-97796",
+       "how": "yes"
       },
       {
        "vote": "fy27-tentative",
@@ -516,11 +513,11 @@
        "how": "yes"
       },
       {
-       "vote": "lg-96765",
+       "vote": "lg-96763",
        "how": "yes"
       },
       {
-       "vote": "lg-96763",
+       "vote": "lg-96765",
        "how": "yes"
       },
       {
@@ -532,24 +529,20 @@
        "how": "no"
       },
       {
-       "vote": "lg-96551",
-       "how": "yes"
-      },
-      {
        "vote": "lg-96263",
        "how": "yes"
       },
       {
-       "vote": "lg-95566",
-       "how": "no"
+       "vote": "lg-95280",
+       "how": "yes"
       },
       {
        "vote": "lg-95336",
        "how": "yes"
       },
       {
-       "vote": "lg-95280",
-       "how": "yes"
+       "vote": "lg-95566",
+       "how": "no"
       },
       {
        "vote": "lg-95249",
@@ -560,15 +553,11 @@
        "how": "no"
       },
       {
-       "vote": "lg-94597",
-       "how": "yes"
-      },
-      {
        "vote": "lg-94324",
        "how": "yes"
       },
       {
-       "vote": "lg-94414",
+       "vote": "lg-94597",
        "how": "yes"
       },
       {
@@ -576,12 +565,16 @@
        "how": "yes"
       },
       {
-       "vote": "lg-93963",
-       "how": "no"
+       "vote": "lg-94414",
+       "how": "yes"
       },
       {
        "vote": "lg-93830",
        "how": "yes"
+      },
+      {
+       "vote": "lg-93963",
+       "how": "no"
       },
       {
        "vote": "lg-93995",
@@ -608,16 +601,16 @@
        "how": "no"
       },
       {
-       "vote": "lg-92080",
-       "how": "yes"
+       "vote": "lg-91835",
+       "how": "no"
       },
       {
        "vote": "lg-91883",
        "how": "yes"
       },
       {
-       "vote": "lg-91835",
-       "how": "no"
+       "vote": "lg-92080",
+       "how": "yes"
       }
      ],
      "score": {
@@ -903,11 +896,11 @@
        "how": "yes"
       },
       {
-       "vote": "lg-97796",
+       "vote": "lg-97348",
        "how": "yes"
       },
       {
-       "vote": "lg-97348",
+       "vote": "lg-97796",
        "how": "yes"
       },
       {
@@ -923,11 +916,11 @@
        "how": "yes"
       },
       {
-       "vote": "lg-96765",
+       "vote": "lg-96763",
        "how": "yes"
       },
       {
-       "vote": "lg-96763",
+       "vote": "lg-96765",
        "how": "yes"
       },
       {
@@ -939,15 +932,11 @@
        "how": "no"
       },
       {
-       "vote": "lg-96551",
-       "how": "yes"
-      },
-      {
        "vote": "lg-96263",
        "how": "no"
       },
       {
-       "vote": "lg-95566",
+       "vote": "lg-95280",
        "how": "yes"
       },
       {
@@ -955,7 +944,7 @@
        "how": "yes"
       },
       {
-       "vote": "lg-95280",
+       "vote": "lg-95566",
        "how": "yes"
       },
       {
@@ -967,11 +956,15 @@
        "how": "yes"
       },
       {
+       "vote": "lg-94324",
+       "how": "yes"
+      },
+      {
        "vote": "lg-94597",
        "how": "yes"
       },
       {
-       "vote": "lg-94324",
+       "vote": "lg-94047",
        "how": "yes"
       },
       {
@@ -979,15 +972,11 @@
        "how": "no"
       },
       {
-       "vote": "lg-94047",
+       "vote": "lg-93830",
        "how": "yes"
       },
       {
        "vote": "lg-93963",
-       "how": "yes"
-      },
-      {
-       "vote": "lg-93830",
        "how": "yes"
       },
       {
@@ -1015,7 +1004,7 @@
        "how": "yes"
       },
       {
-       "vote": "lg-92080",
+       "vote": "lg-91835",
        "how": "yes"
       },
       {
@@ -1023,7 +1012,7 @@
        "how": "yes"
       },
       {
-       "vote": "lg-91835",
+       "vote": "lg-92080",
        "how": "yes"
       }
      ],
@@ -1447,11 +1436,11 @@
        "how": "yes"
       },
       {
-       "vote": "lg-97796",
+       "vote": "lg-97348",
        "how": "no"
       },
       {
-       "vote": "lg-97348",
+       "vote": "lg-97796",
        "how": "no"
       },
       {
@@ -1467,11 +1456,11 @@
        "how": "yes"
       },
       {
-       "vote": "lg-96765",
+       "vote": "lg-96763",
        "how": "no"
       },
       {
-       "vote": "lg-96763",
+       "vote": "lg-96765",
        "how": "no"
       },
       {
@@ -1483,15 +1472,11 @@
        "how": "yes"
       },
       {
-       "vote": "lg-96551",
-       "how": "yes"
-      },
-      {
        "vote": "lg-96263",
        "how": "yes"
       },
       {
-       "vote": "lg-95566",
+       "vote": "lg-95280",
        "how": "yes"
       },
       {
@@ -1499,7 +1484,7 @@
        "how": "no"
       },
       {
-       "vote": "lg-95280",
+       "vote": "lg-95566",
        "how": "yes"
       },
       {
@@ -1511,27 +1496,27 @@
        "how": "yes"
       },
       {
-       "vote": "lg-94597",
-       "how": "no"
-      },
-      {
        "vote": "lg-94324",
        "how": "no"
       },
       {
-       "vote": "lg-94414",
-       "how": "yes"
+       "vote": "lg-94597",
+       "how": "no"
       },
       {
        "vote": "lg-94047",
        "how": "yes"
       },
       {
-       "vote": "lg-93963",
-       "how": "no"
+       "vote": "lg-94414",
+       "how": "yes"
       },
       {
        "vote": "lg-93830",
+       "how": "no"
+      },
+      {
+       "vote": "lg-93963",
        "how": "no"
       },
       {
@@ -1559,16 +1544,16 @@
        "how": "no"
       },
       {
-       "vote": "lg-92080",
-       "how": "yes"
+       "vote": "lg-91835",
+       "how": "no"
       },
       {
        "vote": "lg-91883",
        "how": "no"
       },
       {
-       "vote": "lg-91835",
-       "how": "no"
+       "vote": "lg-92080",
+       "how": "yes"
       }
      ],
      "score": {
@@ -1802,11 +1787,11 @@
        "how": "yes"
       },
       {
-       "vote": "lg-97796",
+       "vote": "lg-97348",
        "how": "yes"
       },
       {
-       "vote": "lg-97348",
+       "vote": "lg-97796",
        "how": "yes"
       },
       {
@@ -1822,11 +1807,11 @@
        "how": "yes"
       },
       {
-       "vote": "lg-96765",
+       "vote": "lg-96763",
        "how": "yes"
       },
       {
-       "vote": "lg-96763",
+       "vote": "lg-96765",
        "how": "yes"
       },
       {
@@ -1838,15 +1823,11 @@
        "how": "yes"
       },
       {
-       "vote": "lg-96551",
-       "how": "yes"
-      },
-      {
        "vote": "lg-96263",
        "how": "yes"
       },
       {
-       "vote": "lg-95566",
+       "vote": "lg-95280",
        "how": "absent"
       },
       {
@@ -1854,7 +1835,7 @@
        "how": "absent"
       },
       {
-       "vote": "lg-95280",
+       "vote": "lg-95566",
        "how": "absent"
       },
       {
@@ -1866,27 +1847,27 @@
        "how": "yes"
       },
       {
-       "vote": "lg-94597",
-       "how": "yes"
-      },
-      {
        "vote": "lg-94324",
        "how": "yes"
       },
       {
-       "vote": "lg-94414",
-       "how": "no"
+       "vote": "lg-94597",
+       "how": "yes"
       },
       {
        "vote": "lg-94047",
        "how": "no"
       },
       {
-       "vote": "lg-93963",
-       "how": "yes"
+       "vote": "lg-94414",
+       "how": "no"
       },
       {
        "vote": "lg-93830",
+       "how": "yes"
+      },
+      {
+       "vote": "lg-93963",
        "how": "yes"
       },
       {
@@ -1914,7 +1895,7 @@
        "how": "yes"
       },
       {
-       "vote": "lg-92080",
+       "vote": "lg-91835",
        "how": "yes"
       },
       {
@@ -1922,7 +1903,7 @@
        "how": "no"
       },
       {
-       "vote": "lg-91835",
+       "vote": "lg-92080",
        "how": "yes"
       }
      ],
@@ -2147,12 +2128,12 @@
        "how": "yes"
       },
       {
-       "vote": "lg-97796",
-       "how": "yes"
-      },
-      {
        "vote": "lg-97348",
        "how": "no"
+      },
+      {
+       "vote": "lg-97796",
+       "how": "yes"
       },
       {
        "vote": "fy27-tentative",
@@ -2167,11 +2148,11 @@
        "how": "no"
       },
       {
-       "vote": "lg-96765",
+       "vote": "lg-96763",
        "how": "yes"
       },
       {
-       "vote": "lg-96763",
+       "vote": "lg-96765",
        "how": "yes"
       },
       {
@@ -2183,15 +2164,11 @@
        "how": "no"
       },
       {
-       "vote": "lg-96551",
-       "how": "yes"
-      },
-      {
        "vote": "lg-96263",
        "how": "yes"
       },
       {
-       "vote": "lg-95566",
+       "vote": "lg-95280",
        "how": "yes"
       },
       {
@@ -2199,7 +2176,7 @@
        "how": "yes"
       },
       {
-       "vote": "lg-95280",
+       "vote": "lg-95566",
        "how": "yes"
       },
       {
@@ -2211,11 +2188,15 @@
        "how": "absent"
       },
       {
+       "vote": "lg-94324",
+       "how": "yes"
+      },
+      {
        "vote": "lg-94597",
        "how": "yes"
       },
       {
-       "vote": "lg-94324",
+       "vote": "lg-94047",
        "how": "yes"
       },
       {
@@ -2223,15 +2204,11 @@
        "how": "no"
       },
       {
-       "vote": "lg-94047",
+       "vote": "lg-93830",
        "how": "yes"
       },
       {
        "vote": "lg-93963",
-       "how": "yes"
-      },
-      {
-       "vote": "lg-93830",
        "how": "yes"
       },
       {
@@ -2259,7 +2236,7 @@
        "how": "yes"
       },
       {
-       "vote": "lg-92080",
+       "vote": "lg-91835",
        "how": "yes"
       },
       {
@@ -2267,7 +2244,7 @@
        "how": "no"
       },
       {
-       "vote": "lg-91835",
+       "vote": "lg-92080",
        "how": "yes"
       }
      ],
@@ -2629,11 +2606,11 @@
        "how": "yes"
       },
       {
-       "vote": "lg-97796",
+       "vote": "lg-97348",
        "how": "yes"
       },
       {
-       "vote": "lg-97348",
+       "vote": "lg-97796",
        "how": "yes"
       },
       {
@@ -2649,11 +2626,11 @@
        "how": "yes"
       },
       {
-       "vote": "lg-96765",
+       "vote": "lg-96763",
        "how": "yes"
       },
       {
-       "vote": "lg-96763",
+       "vote": "lg-96765",
        "how": "yes"
       },
       {
@@ -2665,24 +2642,20 @@
        "how": "yes"
       },
       {
-       "vote": "lg-96551",
-       "how": "yes"
-      },
-      {
        "vote": "lg-96263",
        "how": "yes"
       },
       {
-       "vote": "lg-95566",
-       "how": "no"
+       "vote": "lg-95280",
+       "how": "yes"
       },
       {
        "vote": "lg-95336",
        "how": "yes"
       },
       {
-       "vote": "lg-95280",
-       "how": "yes"
+       "vote": "lg-95566",
+       "how": "no"
       },
       {
        "vote": "lg-95249",
@@ -2693,27 +2666,27 @@
        "how": "absent"
       },
       {
-       "vote": "lg-94597",
-       "how": "yes"
-      },
-      {
        "vote": "lg-94324",
        "how": "absent"
       },
       {
-       "vote": "lg-94414",
-       "how": "no"
+       "vote": "lg-94597",
+       "how": "yes"
       },
       {
        "vote": "lg-94047",
        "how": "yes"
       },
       {
-       "vote": "lg-93963",
-       "how": "yes"
+       "vote": "lg-94414",
+       "how": "no"
       },
       {
        "vote": "lg-93830",
+       "how": "yes"
+      },
+      {
+       "vote": "lg-93963",
        "how": "yes"
       },
       {
@@ -2741,7 +2714,7 @@
        "how": "yes"
       },
       {
-       "vote": "lg-92080",
+       "vote": "lg-91835",
        "how": "yes"
       },
       {
@@ -2749,7 +2722,7 @@
        "how": "yes"
       },
       {
-       "vote": "lg-91835",
+       "vote": "lg-92080",
        "how": "yes"
       }
      ],
@@ -3146,11 +3119,11 @@
        "how": "yes"
       },
       {
-       "vote": "lg-97796",
+       "vote": "lg-97348",
        "how": "yes"
       },
       {
-       "vote": "lg-97348",
+       "vote": "lg-97796",
        "how": "yes"
       },
       {
@@ -3166,11 +3139,11 @@
        "how": "yes"
       },
       {
-       "vote": "lg-96765",
+       "vote": "lg-96763",
        "how": "yes"
       },
       {
-       "vote": "lg-96763",
+       "vote": "lg-96765",
        "how": "yes"
       },
       {
@@ -3182,24 +3155,20 @@
        "how": "yes"
       },
       {
-       "vote": "lg-96551",
-       "how": "abstain"
-      },
-      {
        "vote": "lg-96263",
        "how": "yes"
       },
       {
-       "vote": "lg-95566",
-       "how": "yes"
+       "vote": "lg-95280",
+       "how": "no"
       },
       {
        "vote": "lg-95336",
        "how": "yes"
       },
       {
-       "vote": "lg-95280",
-       "how": "no"
+       "vote": "lg-95566",
+       "how": "yes"
       },
       {
        "vote": "lg-95249",
@@ -3210,27 +3179,27 @@
        "how": "yes"
       },
       {
-       "vote": "lg-94597",
-       "how": "yes"
-      },
-      {
        "vote": "lg-94324",
        "how": "yes"
       },
       {
-       "vote": "lg-94414",
-       "how": "no"
+       "vote": "lg-94597",
+       "how": "yes"
       },
       {
        "vote": "lg-94047",
        "how": "no"
       },
       {
-       "vote": "lg-93963",
-       "how": "yes"
+       "vote": "lg-94414",
+       "how": "no"
       },
       {
        "vote": "lg-93830",
+       "how": "yes"
+      },
+      {
+       "vote": "lg-93963",
        "how": "yes"
       },
       {
@@ -3258,16 +3227,16 @@
        "how": "yes"
       },
       {
-       "vote": "lg-92080",
-       "how": "no"
+       "vote": "lg-91835",
+       "how": "yes"
       },
       {
        "vote": "lg-91883",
        "how": "yes"
       },
       {
-       "vote": "lg-91835",
-       "how": "yes"
+       "vote": "lg-92080",
+       "how": "no"
       }
      ],
      "score": {
@@ -3736,12 +3705,12 @@
      "topic": "growth",
      "headline": "Changed 2.69 acres on Keystone Road from rural homes to public use",
      "inShort": "Sitting as the Countywide Planning Authority, the board changed the countywide land use map for 2.69 acres at 2577 Keystone Road from Residential Rural to Public/Semi-Public, tied to redeveloping an existing community meeting facility there.",
-     "officialTitle": "Case No. CW 26-12 - Pinellas County Countywide Plan Map amendment from Residential Rural and Scenic/Noncommercial Corridor to Public-Semi-Public and Scenic/Noncommercial Corridor, regarding 2.69 acres more or less, located at 2577 Keystone Road.",
+     "officialTitle": "Case No. CW 26-12 - Pinellas County\r\nCountywide Plan Map amendment from Residential Rural and Scenic/Noncommercial Corridor to Public-Semi-Public and Scenic/Noncommercial Corridor, regarding 2.69 acres more or less, located at 2577 Keystone Road.",
      "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10153&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
      "fileNumber": "26-1546A",
      "mover": "flowers",
      "seconder": "peters",
-     "motion": null,
+     "motion": "A motion was made by Commissioner Flowers, seconded by Commissioner Peters, that the item be approved. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
      "result": {
@@ -3772,26 +3741,7 @@
       ],
       "note": "One official record, nothing yet to check it against."
      },
-     "facts": [
-      {
-       "text": "Forward Pinellas and the Planners Advisory Committee recommended approval.",
-       "value": "Forward Pinellas and the Planners Advisory Committee recommended approval.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      },
-      {
-       "text": "No correspondence was received and no one spoke at the hearing.",
-       "value": "No correspondence was received and no one spoke at the hearing.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      }
-     ]
+     "facts": []
     },
     {
      "id": "behavioral-urgent-care",
@@ -3856,71 +3806,17 @@
      ]
     },
     {
-     "id": "lg-97796",
-     "date": "2026-09-24",
-     "topic": "taxes",
-     "headline": "Adopted the final 2027 county budget and tax rates",
-     "inShort": "At the second and final budget hearing, the board adopted the tax rates and budgets for the year starting Oct 1, 2026, for the General Fund, Health Department, EMS and the other county taxing districts.",
-     "officialTitle": "Resolutions to adopt final millage rates and budgets for Fiscal Year 2027 (Second Public Budget Hearing).",
-     "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10150&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
-     "fileNumber": "26-1453A",
-     "mover": "peters",
-     "seconder": "flowers",
-     "motion": null,
-     "split": true,
-     "rollExtra": {},
-     "result": {
-      "value": "Passed 6 to 1",
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
-     "roll": {
-      "value": {
-       "yes": [
-        "eggers",
-        "flowers",
-        "latvala",
-        "peters",
-        "scherer",
-        "scott"
-       ],
-       "no": [
-        "nowicki"
-       ]
-      },
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
-     "facts": [
-      {
-       "text": "Resolution No. 26-79 approved the final General Fund and Health Department budgets.",
-       "value": "Resolution No. 26-79 approved the final General Fund and Health Department budgets.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      }
-     ]
-    },
-    {
      "id": "lg-97348",
      "date": "2026-09-24",
      "topic": "airport",
      "headline": "Hired a project manager for the airport terminal upgrade, up to $1.74 million",
      "inShort": "The board approved a contract with American Infrastructure Development, Inc. to act as the county's representative on passenger terminal improvements at St. Pete-Clearwater International Airport.",
-     "officialTitle": "Agreement with American Infrastructure Development, Inc. for Passenger Terminal Improvements - Owner's Representative.",
+     "officialTitle": "Agreement with American Infrastructure Development, Inc. for Passenger Terminal Improvements - Owner’s Representative.",
      "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10150&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
      "fileNumber": "26-1364A",
      "mover": "scott",
      "seconder": "peters",
-     "motion": null,
+     "motion": "A motion was made by Commissioner Scott, seconded by Commissioner Peters, that the item be approved. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
      "result": {
@@ -3951,26 +3847,51 @@
       ],
       "note": "One official record, nothing yet to check it against."
      },
-     "facts": [
-      {
-       "text": "Not to exceed $1,742,865.82, for 2,320 days from the notice to proceed.",
-       "value": "Not to exceed $1,742,865.82, for 2,320 days from the notice to proceed.",
-       "label": "single",
-       "sources": [
-        "legistar"
+     "facts": []
+    },
+    {
+     "id": "lg-97796",
+     "date": "2026-09-24",
+     "topic": "taxes",
+     "headline": "Adopted the final 2027 county budget and tax rates",
+     "inShort": "At the second and final budget hearing, the board adopted the tax rates and budgets for the year starting Oct 1, 2026, for the General Fund, Health Department, EMS and the other county taxing districts.",
+     "officialTitle": "Resolutions to adopt final millage rates and budgets for Fiscal Year 2027 (Second Public Budget Hearing).",
+     "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10150&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+     "fileNumber": "26-1453A",
+     "mover": "peters",
+     "seconder": "flowers",
+     "motion": "A motion was made by Commissioner Peters, seconded by Commissioner Flowers, that the final Fiscal Year 2027 budgets for the General Fund and Health Department Fund be approved. The motion carried by the following vote:",
+     "split": true,
+     "rollExtra": {},
+     "result": {
+      "value": "Passed 6 to 1",
+      "label": "single",
+      "sources": [
+       "legistar"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "roll": {
+      "value": {
+       "yes": [
+        "eggers",
+        "flowers",
+        "latvala",
+        "peters",
+        "scherer",
+        "scott"
        ],
-       "note": "One official record, nothing yet to check it against."
+       "no": [
+        "nowicki"
+       ]
       },
-      {
-       "text": "Commissioner Nowicki raised concerns about how bids were scored, citing a federal rule on rating firms by Disadvantaged Business Enterprise status. The county attorney's office said it had not yet reviewed the issue.",
-       "value": "Commissioner Nowicki raised concerns about how bids were scored, citing a federal rule on rating firms by Disadvantaged Business Enterprise status. The county attorney's office said it had not yet reviewed the issue.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      }
-     ]
+      "label": "single",
+      "sources": [
+       "legistar"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "facts": []
     },
     {
      "id": "fy27-tentative",
@@ -4096,12 +4017,12 @@
      "topic": "growth",
      "headline": "Gave up the public's right to a 33-foot strip of Portsmouth Road",
      "inShort": "Approved a property owners' petition to vacate part of the Portsmouth Road right-of-way next to Gulf Breeze Estates. Vacating means the county gives up its claim to the strip.",
-     "officialTitle": "Petition of Charles and Rita King, to vacate a portion of a 33-foot-wide right-of-way known as Portsmouth Road, lying east of lots 41 through 43, Gulf Breeze Estates.",
+     "officialTitle": "Petition of Charles and Rita King, to vacate a portion of a 33-foot-wide right-of-way known as Portsmouth Road, lying east of lots 41 through 43, Gulf Breeze Estates, Plat Book 27, Page 57, lying in Section 30-29-16, Pinellas County, Florida.",
      "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10141&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
      "fileNumber": "26-1250A",
      "mover": "peters",
      "seconder": "scott",
-     "motion": null,
+     "motion": "A motion was made by Commissioner Peters, seconded by Commissioner Scott, that the item be approved. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
      "result": {
@@ -4132,17 +4053,7 @@
       ],
       "note": "One official record, nothing yet to check it against."
      },
-     "facts": [
-      {
-       "text": "No correspondence was received and no one spoke at the hearing.",
-       "value": "No correspondence was received and no one spoke at the hearing.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      }
-     ]
+     "facts": []
     },
     {
      "id": "trim-max",
@@ -4187,60 +4098,6 @@
      "sourceUrl": null
     },
     {
-     "id": "lg-96765",
-     "date": "2026-07-21",
-     "topic": "fees",
-     "headline": "Raised the county dump fee for the next two years",
-     "inShort": "The fee to dump a ton of trash at the county's solid waste facility goes to $63.57 on Oct 1, 2026 and $68.65 on Oct 1, 2027.",
-     "officialTitle": "Resolution adopting an increased Solid Waste tipping fee for Fiscal Years 2027 and 2028.",
-     "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10137&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
-     "fileNumber": "26-0986A",
-     "mover": "peters",
-     "seconder": "scherer",
-     "motion": null,
-     "split": true,
-     "rollExtra": {},
-     "result": {
-      "value": "Passed 6 to 1",
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
-     "roll": {
-      "value": {
-       "yes": [
-        "eggers",
-        "flowers",
-        "latvala",
-        "peters",
-        "scherer",
-        "scott"
-       ],
-       "no": [
-        "nowicki"
-       ]
-      },
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
-     "facts": [
-      {
-       "text": "No correspondence was received and no one spoke.",
-       "value": "No correspondence was received and no one spoke.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      }
-     ]
-    },
-    {
      "id": "lg-96763",
      "date": "2026-07-21",
      "topic": "fees",
@@ -4251,7 +4108,7 @@
      "fileNumber": "26-0978A",
      "mover": "scott",
      "seconder": "flowers",
-     "motion": null,
+     "motion": "A motion was made by Commissioner Scott, seconded by Commissioner Flowers, that the item be approved. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
      "result": {
@@ -4282,17 +4139,51 @@
       ],
       "note": "One official record, nothing yet to check it against."
      },
-     "facts": [
-      {
-       "text": "Five letters and three voicemails in opposition, and one letter of concern, were received.",
-       "value": "Five letters and three voicemails in opposition, and one letter of concern, were received.",
-       "label": "single",
-       "sources": [
-        "legistar"
+     "facts": []
+    },
+    {
+     "id": "lg-96765",
+     "date": "2026-07-21",
+     "topic": "fees",
+     "headline": "Raised the county dump fee for the next two years",
+     "inShort": "The fee to dump a ton of trash at the county's solid waste facility goes to $63.57 on Oct 1, 2026 and $68.65 on Oct 1, 2027.",
+     "officialTitle": "Resolution adopting an increased Solid Waste tipping fee for Fiscal Years 2027 and 2028.",
+     "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10137&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+     "fileNumber": "26-0986A",
+     "mover": "peters",
+     "seconder": "scherer",
+     "motion": "A motion was made by Commissioner Peters, seconded by Commissioner Scherer, that the item be approved. The motion carried by the following vote:",
+     "split": true,
+     "rollExtra": {},
+     "result": {
+      "value": "Passed 6 to 1",
+      "label": "single",
+      "sources": [
+       "legistar"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "roll": {
+      "value": {
+       "yes": [
+        "eggers",
+        "flowers",
+        "latvala",
+        "peters",
+        "scherer",
+        "scott"
        ],
-       "note": "One official record, nothing yet to check it against."
-      }
-     ]
+       "no": [
+        "nowicki"
+       ]
+      },
+      "label": "single",
+      "sources": [
+       "legistar"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "facts": []
     },
     {
      "id": "lg-96842",
@@ -4305,7 +4196,7 @@
      "fileNumber": "26-1051A",
      "mover": "peters",
      "seconder": "flowers",
-     "motion": null,
+     "motion": "A motion was made by Commissioner Peters, seconded by Commissioner Flowers, that the item be approved as amended. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
      "moneyNotes": [
@@ -4356,17 +4247,7 @@
       ],
       "note": "One official record, nothing yet to check it against."
      },
-     "facts": [
-      {
-       "text": "Staff said its recommendations could change depending on pending litigation over a $250 state lien release fee.",
-       "value": "Staff said its recommendations could change depending on pending litigation over a $250 state lien release fee.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      }
-     ]
+     "facts": []
     },
     {
      "id": "lg-96804",
@@ -4374,12 +4255,12 @@
      "topic": "fees",
      "headline": "Set new maximum towing rates: $175 a tow",
      "inShort": "Resolution No. 26-46 set the county's towing rates at a $175 base tow, $60 mileage rate and $35 storage rate.",
-     "officialTitle": "County Administrator Reports: TEFRA Hearing scheduled for July 21 BCC meeting; CDBG-DR Update; Towing Update.",
+     "officialTitle": "County Administrator Reports:\r\n·\tTEFRA Hearing scheduled for July 21 BCC meeting\r\n·\tCDBG-DR Update\r\n·\tTowing Update",
      "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10133&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
      "fileNumber": "26-0641A",
      "mover": "flowers",
      "seconder": "peters",
-     "motion": null,
+     "motion": "A motion was made by Commissioner Flowers, seconded by Commissioner Peters, that the Board move forward with a base tow rate of $175.00, a mileage rate of $60.00, and a storage rate of $35.00. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
      "moneyNotes": [
@@ -4424,62 +4305,6 @@
      "facts": []
     },
     {
-     "id": "lg-96551",
-     "date": "2026-06-16",
-     "topic": "health",
-     "headline": "Delayed the social services grant awards for next year",
-     "inShort": "The board pushed its decision on Social Action grant awards for nonprofits to the July 21 meeting, so they could line up with the 2027 budget.",
-     "officialTitle": "Funding recommendations for the Fiscal Year 2027 Human Services Social Action Grant Program.",
-     "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10133&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
-     "fileNumber": "26-0801A",
-     "mover": "scherer",
-     "seconder": "nowicki",
-     "motion": null,
-     "split": true,
-     "rollExtra": {
-      "abstain": [
-       "flowers"
-      ]
-     },
-     "result": {
-      "value": "Deferred, 6 to 0 with 1 abstaining",
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
-     "roll": {
-      "value": {
-       "yes": [
-        "eggers",
-        "latvala",
-        "nowicki",
-        "peters",
-        "scherer",
-        "scott"
-       ],
-       "no": []
-      },
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
-     "facts": [
-      {
-       "text": "Commissioner Flowers recused herself because she serves on the board of the Area Agency on Aging of Pasco-Pinellas, one of the groups recommended for funding.",
-       "value": "Commissioner Flowers recused herself because she serves on the board of the Area Agency on Aging of Pasco-Pinellas, one of the groups recommended for funding.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      }
-     ]
-    },
-    {
      "id": "lg-96263",
      "date": "2026-04-21",
      "topic": "stadium",
@@ -4490,7 +4315,7 @@
      "fileNumber": "26-0586A",
      "mover": "latvala",
      "seconder": "nowicki",
-     "motion": null,
+     "motion": "A motion was made by Vice-Chair Latvala, seconded by Commissioner Nowicki, that the item be approved. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
      "result": {
@@ -4521,156 +4346,6 @@
       ],
       "note": "One official record, nothing yet to check it against."
      },
-     "facts": [
-      {
-       "text": "County capital contribution: $85,000,000, expected from the Tourist Development Tax fund. Funding is not yet budgeted.",
-       "value": "County capital contribution: $85,000,000, expected from the Tourist Development Tax fund. Funding is not yet budgeted.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      },
-      {
-       "text": "The Phillies would give the county tourism agency $850,000 a year for marketing starting in 2026, rising 3% a year from 2032.",
-       "value": "The Phillies would give the county tourism agency $850,000 a year for marketing starting in 2026, rising 3% a year from 2032.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      },
-      {
-       "text": "Commissioner Scott said the public share was excessive and voted no.",
-       "value": "Commissioner Scott said the public share was excessive and voted no.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      }
-     ]
-    },
-    {
-     "id": "lg-95566",
-     "date": "2026-01-20",
-     "topic": "growth",
-     "headline": "Turned down denser housing on a former landfill site in Largo",
-     "inShort": "Denied a request to change 18.43 acres at 13400 Pine Street from Residential Urban to Residential Medium, which would allow more homes per acre. The site was once a construction debris landfill. The denial leaves the owner free to apply again.",
-     "officialTitle": "Case No. FLU-25-09 (Green Energy for North America, LLC) A request for a Future Land Use Map amendment from Residential Urban to Residential Medium on approximately 18.43 acres located at 13400 Pine Street in unincorporated Largo.",
-     "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10113&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
-     "fileNumber": "25-1956A",
-     "mover": "scott",
-     "seconder": "nowicki",
-     "motion": null,
-     "split": true,
-     "rollExtra": {
-      "absent": [
-       "eggers"
-      ]
-     },
-     "result": {
-      "value": "Denied 4 to 2",
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
-     "roll": {
-      "value": {
-       "yes": [
-        "flowers",
-        "latvala",
-        "nowicki",
-        "scott"
-       ],
-       "no": [
-        "peters",
-        "scherer"
-       ]
-      },
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
-     "facts": [
-      {
-       "text": "The Local Planning Agency recommended denial, and staff agreed.",
-       "value": "The Local Planning Agency recommended denial, and staff agreed.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      },
-      {
-       "text": "Two emails and seven voicemails in opposition, and one letter of concern, were received.",
-       "value": "Two emails and seven voicemails in opposition, and one letter of concern, were received.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      },
-      {
-       "text": "Here a YES vote was a vote to deny the request.",
-       "value": "Here a YES vote was a vote to deny the request.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      }
-     ]
-    },
-    {
-     "id": "lg-95336",
-     "date": "2026-01-20",
-     "topic": "fees",
-     "headline": "Raised the county dump fee to $58.86 a ton",
-     "inShort": "Raised the solid waste tipping fee to $58.86 per ton, effective Oct 1, 2025.",
-     "officialTitle": "Resolution adopting an increased Solid Waste tipping fee for Fiscal Year 2026.",
-     "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10113&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
-     "fileNumber": "25-1929A",
-     "mover": "peters",
-     "seconder": "flowers",
-     "motion": null,
-     "split": true,
-     "rollExtra": {
-      "absent": [
-       "eggers"
-      ]
-     },
-     "result": {
-      "value": "Passed 5 to 1",
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
-     "roll": {
-      "value": {
-       "yes": [
-        "flowers",
-        "latvala",
-        "peters",
-        "scherer",
-        "scott"
-       ],
-       "no": [
-        "nowicki"
-       ]
-      },
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
      "facts": []
     },
     {
@@ -4684,7 +4359,7 @@
      "fileNumber": "25-1879A",
      "mover": "peters",
      "seconder": "scott",
-     "motion": null,
+     "motion": "A motion was made by Commissioner Peters, seconded by Commissioner Scott, that the item be approved. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {
       "absent": [
@@ -4721,6 +4396,100 @@
      "facts": []
     },
     {
+     "id": "lg-95336",
+     "date": "2026-01-20",
+     "topic": "fees",
+     "headline": "Raised the county dump fee to $58.86 a ton",
+     "inShort": "Raised the solid waste tipping fee to $58.86 per ton, effective Oct 1, 2025.",
+     "officialTitle": "Resolution adopting an increased Solid Waste tipping fee for Fiscal Year 2026.",
+     "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10113&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+     "fileNumber": "25-1929A",
+     "mover": "peters",
+     "seconder": "flowers",
+     "motion": "A motion was made by Commissioner Peters, seconded by Commissioner Flowers, that the item be approved. The motion carried by the following vote:",
+     "split": true,
+     "rollExtra": {
+      "absent": [
+       "eggers"
+      ]
+     },
+     "result": {
+      "value": "Passed 5 to 1",
+      "label": "single",
+      "sources": [
+       "legistar"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "roll": {
+      "value": {
+       "yes": [
+        "flowers",
+        "latvala",
+        "peters",
+        "scherer",
+        "scott"
+       ],
+       "no": [
+        "nowicki"
+       ]
+      },
+      "label": "single",
+      "sources": [
+       "legistar"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "facts": []
+    },
+    {
+     "id": "lg-95566",
+     "date": "2026-01-20",
+     "topic": "growth",
+     "headline": "Turned down denser housing on a former landfill site in Largo",
+     "inShort": "Denied a request to change 18.43 acres at 13400 Pine Street from Residential Urban to Residential Medium, which would allow more homes per acre. The site was once a construction debris landfill. The denial leaves the owner free to apply again.",
+     "officialTitle": "Case No. FLU-25-09 (Green Energy for North America, LLC) \r\nA request for a Future Land Use Map amendment from Residential Urban to Residential Medium on approximately 18.43 acres located at 13400 Pine Street in unincorporated Largo.",
+     "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10113&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+     "fileNumber": "25-1956A",
+     "mover": "scott",
+     "seconder": "nowicki",
+     "motion": "A motion was made by Commissioner Scott, seconded by Commissioner Nowicki, that the item be denied without prejudice. The motion carried by the following vote:",
+     "split": true,
+     "rollExtra": {
+      "absent": [
+       "eggers"
+      ]
+     },
+     "result": {
+      "value": "Passed 4 to 2",
+      "label": "single",
+      "sources": [
+       "legistar"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "roll": {
+      "value": {
+       "yes": [
+        "flowers",
+        "latvala",
+        "nowicki",
+        "scott"
+       ],
+       "no": [
+        "peters",
+        "scherer"
+       ]
+      },
+      "label": "single",
+      "sources": [
+       "legistar"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "facts": []
+    },
+    {
      "id": "lg-95249",
      "date": "2025-12-16",
      "topic": "tourism",
@@ -4731,7 +4500,7 @@
      "fileNumber": "25-1873A",
      "mover": "flowers",
      "seconder": "latvala",
-     "motion": null,
+     "motion": "A motion was made by Commissioner Flowers, seconded by Commissioner Latvala, that the item be approved. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
      "result": {
@@ -4775,7 +4544,7 @@
      "fileNumber": "25-1698A",
      "mover": "flowers",
      "seconder": "eggers",
-     "motion": null,
+     "motion": "A motion was made by Commissioner Flowers, seconded by Vice-Chair Eggers, that the item be approved. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {
       "absent": [
@@ -4809,69 +4578,6 @@
       ],
       "note": "One official record, nothing yet to check it against."
      },
-     "facts": [
-      {
-       "text": "Estimated total cost: $297,986.45.",
-       "value": "Estimated total cost: $297,986.45.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      },
-      {
-       "text": "Five people spoke in support.",
-       "value": "Five people spoke in support.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      }
-     ]
-    },
-    {
-     "id": "lg-94597",
-     "date": "2025-09-18",
-     "topic": "taxes",
-     "headline": "Adopted the final 2026 county budget",
-     "inShort": "Final approval of the General Fund and Health Department budgets for the year that started Oct 1, 2025.",
-     "officialTitle": "Resolutions to adopt final millage rates and budgets for Fiscal Year 2026 (second public hearing).",
-     "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10084&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
-     "fileNumber": "25-1000A",
-     "mover": "flowers",
-     "seconder": "peters",
-     "motion": null,
-     "split": true,
-     "rollExtra": {},
-     "result": {
-      "value": "Passed 6 to 1",
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
-     "roll": {
-      "value": {
-       "yes": [
-        "eggers",
-        "flowers",
-        "latvala",
-        "peters",
-        "scherer",
-        "scott"
-       ],
-       "no": [
-        "nowicki"
-       ]
-      },
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
      "facts": []
     },
     {
@@ -4880,12 +4586,12 @@
      "topic": "contracts",
      "headline": "Hired a firm to run the $813 million hurricane recovery grant program",
      "inShort": "Contracted with Horne LLP to manage the county's federal Community Development Block Grant disaster recovery program.",
-     "officialTitle": "Agreement with Horne LLP for requirements of services for the management, administration and implementation of Community Development Block Grant - Disaster Recovery Program.",
+     "officialTitle": "Agreement with Horne LLP for requirements of services for the management, administration and implementation of Community Development Block Grant -Disaster Recovery Program.",
      "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10084&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
      "fileNumber": "25-1039A",
      "mover": "flowers",
      "seconder": "scherer",
-     "motion": null,
+     "motion": "A motion was made by Commissioner Flowers, seconded by Commissioner Scherer, that the item be approved. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {
       "absent": [
@@ -4919,209 +4625,20 @@
       ],
       "note": "One official record, nothing yet to check it against."
      },
-     "facts": [
-      {
-       "text": "36-month contract value: $565,656,023.17, which includes grant money passed through to residents as well as the firm's costs.",
-       "value": "36-month contract value: $565,656,023.17, which includes grant money passed through to residents as well as the firm's costs.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      },
-      {
-       "text": "The county received $813,000,000 in grant funding, and nearly 5,000 people were already waiting for help.",
-       "value": "The county received $813,000,000 in grant funding, and nearly 5,000 people were already waiting for help.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      }
-     ]
-    },
-    {
-     "id": "lg-94414",
-     "date": "2025-09-04",
-     "topic": "taxes",
-     "headline": "Rejected a deeper property tax cut",
-     "inShort": "Commissioner Scherer moved to cut the general county tax rate to 4.5049 mills, halfway back to the rolled-back rate. He said the tentative budget was only about $5 million away from that. The motion failed.",
-     "officialTitle": "Resolutions adopting tentative millage rates and budgets for Fiscal Year 2026 (first public hearing).",
-     "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10077&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
-     "fileNumber": "25-0999A",
-     "mover": "scherer",
-     "seconder": "nowicki",
-     "motion": null,
-     "split": true,
-     "rollExtra": {},
-     "result": {
-      "value": "Failed 2 to 5",
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
-     "roll": {
-      "value": {
-       "yes": [
-        "nowicki",
-        "scherer"
-       ],
-       "no": [
-        "eggers",
-        "flowers",
-        "latvala",
-        "peters",
-        "scott"
-       ]
-      },
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
-     "facts": [
-      {
-       "text": "Commissioners Latvala, Flowers, Peters and Eggers expressed concern about the motion's effects.",
-       "value": "Commissioners Latvala, Flowers, Peters and Eggers expressed concern about the motion's effects.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      }
-     ]
-    },
-    {
-     "id": "lg-94047",
-     "date": "2025-09-04",
-     "topic": "taxes",
-     "headline": "Set tentative 2026 tax rates and budgets",
-     "inShort": "After the deeper cut failed, the board approved tentative tax rates and budgets for the General Fund, Health Department, EMS, Planning Council and other districts.",
-     "officialTitle": "Resolutions adopting tentative millage rates and budgets for Fiscal Year 2026 (first public hearing).",
-     "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10077&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
-     "fileNumber": "25-0999A",
-     "mover": "latvala",
-     "seconder": "peters",
-     "motion": null,
-     "split": true,
-     "rollExtra": {},
-     "result": {
-      "value": "Passed 5 to 2",
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
-     "roll": {
-      "value": {
-       "yes": [
-        "latvala",
-        "nowicki",
-        "peters",
-        "scherer",
-        "scott"
-       ],
-       "no": [
-        "eggers",
-        "flowers"
-       ]
-      },
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
      "facts": []
     },
     {
-     "id": "lg-93963",
-     "date": "2025-08-05",
-     "topic": "contracts",
-     "headline": "Gave Keep Pinellas Beautiful a $1.94 million, 5-year contract",
-     "inShort": "Approved a 60-month contract with Keep Pinellas Beautiful, Inc. to manage the county's Adopt-A-Program services.",
-     "officialTitle": "Agreement with Keep Pinellas Beautiful, Inc. for Adopt-A-Program Management Services.",
-     "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10072&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
-     "fileNumber": "25-0932A",
-     "mover": "eggers",
-     "seconder": "flowers",
-     "motion": null,
-     "split": true,
-     "rollExtra": {},
-     "result": {
-      "value": "Passed 5 to 2",
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
-     "roll": {
-      "value": {
-       "yes": [
-        "eggers",
-        "flowers",
-        "latvala",
-        "peters",
-        "scott"
-       ],
-       "no": [
-        "nowicki",
-        "scherer"
-       ]
-      },
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
-     "facts": [
-      {
-       "text": "Total: $1,936,600 over 60 months.",
-       "value": "Total: $1,936,600 over 60 months.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      },
-      {
-       "text": "The county administrator said he did not believe the contract was competitively bid.",
-       "value": "The county administrator said he did not believe the contract was competitively bid.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      },
-      {
-       "text": "Commissioner Nowicki cited the price increase and the lack of competitive bidding and performance requirements.",
-       "value": "Commissioner Nowicki cited the price increase and the lack of competitive bidding and performance requirements.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      }
-     ]
-    },
-    {
-     "id": "lg-93830",
-     "date": "2025-08-05",
-     "topic": "fees",
-     "headline": "Set the 2025 Lealman trash collection charge at $288 per home",
-     "inShort": "Certified the yearly trash collection charge on Lealman residential tax bills at $288 per unit through Dec 31, 2025.",
-     "officialTitle": "Annual certificate of the Lealman Solid Waste Collection and Disposal District Non-Ad Valorem Assessment Roll.",
-     "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10072&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
-     "fileNumber": "25-0979A",
+     "id": "lg-94597",
+     "date": "2025-09-18",
+     "topic": "taxes",
+     "headline": "Adopted the final 2026 county budget",
+     "inShort": "Final approval of the General Fund and Health Department budgets for the year that started Oct 1, 2025.",
+     "officialTitle": "Resolutions to adopt final millage rates and budgets for Fiscal Year 2026 (second public hearing).",
+     "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10084&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+     "fileNumber": "25-1000A",
      "mover": "flowers",
      "seconder": "peters",
-     "motion": null,
+     "motion": "A motion was made by Commissioner Flowers, seconded by Commissioner Peters, that the final Fiscal Year 2026 budgets for the General Fund and Health Department Fund be approved. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
      "result": {
@@ -5155,6 +4672,182 @@
      "facts": []
     },
     {
+     "id": "lg-94047",
+     "date": "2025-09-04",
+     "topic": "taxes",
+     "headline": "Set tentative 2026 tax rates and budgets",
+     "inShort": "After the deeper cut failed, the board approved tentative tax rates and budgets for the General Fund, Health Department, EMS, Planning Council and other districts.",
+     "officialTitle": "Resolutions adopting tentative millage rates and budgets for Fiscal Year 2026 (first public hearing).",
+     "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10077&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+     "fileNumber": "25-0999A",
+     "mover": "latvala",
+     "seconder": "peters",
+     "motion": "A motion was made by Commissioner Latvala, seconded by Commissioner Peters, that the tentative budget be amended, as discussed at the August 28 work session and as recommended by the County Administrator in a memorandum distributed to the members on September 3. The motion carried by the following vote:",
+     "split": true,
+     "rollExtra": {},
+     "result": {
+      "value": "Passed 5 to 2",
+      "label": "single",
+      "sources": [
+       "legistar"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "roll": {
+      "value": {
+       "yes": [
+        "latvala",
+        "nowicki",
+        "peters",
+        "scherer",
+        "scott"
+       ],
+       "no": [
+        "eggers",
+        "flowers"
+       ]
+      },
+      "label": "single",
+      "sources": [
+       "legistar"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "facts": []
+    },
+    {
+     "id": "lg-94414",
+     "date": "2025-09-04",
+     "topic": "taxes",
+     "headline": "Rejected a deeper property tax cut",
+     "inShort": "Commissioner Scherer moved to cut the general county tax rate to 4.5049 mills, halfway back to the rolled-back rate. He said the tentative budget was only about $5 million away from that. The motion failed.",
+     "officialTitle": "Resolutions adopting tentative millage rates and budgets for Fiscal Year 2026 (first public hearing).",
+     "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10077&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+     "fileNumber": "25-0999A",
+     "mover": "scherer",
+     "seconder": "nowicki",
+     "motion": "A motion was made by Commissioner Scherer, seconded by Commissioner Nowicki, for a 50% rollback and a millage rate of 4.5049. The motion failed by the following vote:",
+     "split": true,
+     "rollExtra": {},
+     "result": {
+      "value": "Passed 2 to 5",
+      "label": "single",
+      "sources": [
+       "legistar"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "roll": {
+      "value": {
+       "yes": [
+        "nowicki",
+        "scherer"
+       ],
+       "no": [
+        "eggers",
+        "flowers",
+        "latvala",
+        "peters",
+        "scott"
+       ]
+      },
+      "label": "single",
+      "sources": [
+       "legistar"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "facts": []
+    },
+    {
+     "id": "lg-93830",
+     "date": "2025-08-05",
+     "topic": "fees",
+     "headline": "Set the 2025 Lealman trash collection charge at $288 per home",
+     "inShort": "Certified the yearly trash collection charge on Lealman residential tax bills at $288 per unit through Dec 31, 2025.",
+     "officialTitle": "Annual certificate of the Lealman Solid Waste Collection and Disposal District Non-Ad Valorem Assessment Roll.",
+     "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10072&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+     "fileNumber": "25-0979A",
+     "mover": "flowers",
+     "seconder": "peters",
+     "motion": "A motion was made by Commissioner Flowers, seconded by Commissioner Peters, that the item be approved. The motion carried by the following vote:",
+     "split": true,
+     "rollExtra": {},
+     "result": {
+      "value": "Passed 6 to 1",
+      "label": "single",
+      "sources": [
+       "legistar"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "roll": {
+      "value": {
+       "yes": [
+        "eggers",
+        "flowers",
+        "latvala",
+        "peters",
+        "scherer",
+        "scott"
+       ],
+       "no": [
+        "nowicki"
+       ]
+      },
+      "label": "single",
+      "sources": [
+       "legistar"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "facts": []
+    },
+    {
+     "id": "lg-93963",
+     "date": "2025-08-05",
+     "topic": "contracts",
+     "headline": "Gave Keep Pinellas Beautiful a $1.94 million, 5-year contract",
+     "inShort": "Approved a 60-month contract with Keep Pinellas Beautiful, Inc. to manage the county's Adopt-A-Program services.",
+     "officialTitle": "Agreement with Keep Pinellas Beautiful, Inc. for Adopt-A-Program Management Services.",
+     "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10072&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+     "fileNumber": "25-0932A",
+     "mover": "eggers",
+     "seconder": "flowers",
+     "motion": "A motion was made by Vice-Chair Eggers, seconded by Commissioner Flowers, that the item be approved. The motion carried by the following vote:",
+     "split": true,
+     "rollExtra": {},
+     "result": {
+      "value": "Passed 5 to 2",
+      "label": "single",
+      "sources": [
+       "legistar"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "roll": {
+      "value": {
+       "yes": [
+        "eggers",
+        "flowers",
+        "latvala",
+        "peters",
+        "scott"
+       ],
+       "no": [
+        "nowicki",
+        "scherer"
+       ]
+      },
+      "label": "single",
+      "sources": [
+       "legistar"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "facts": []
+    },
+    {
      "id": "lg-93995",
      "date": "2025-07-22",
      "topic": "tourism",
@@ -5165,7 +4858,7 @@
      "fileNumber": "25-0978A",
      "mover": "flowers",
      "seconder": "latvala",
-     "motion": null,
+     "motion": "A motion was made by Commissioner Flowers, seconded by Commissioner Latvala, that the item be approved. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {
       "absent": [
@@ -5199,17 +4892,7 @@
       ],
       "note": "One official record, nothing yet to check it against."
      },
-     "facts": [
-      {
-       "text": "Cumulative maximum: $2,685,000.",
-       "value": "Cumulative maximum: $2,685,000.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      }
-     ]
+     "facts": []
     },
     {
      "id": "lg-93179",
@@ -5222,7 +4905,7 @@
      "fileNumber": "25-0532A",
      "mover": "flowers",
      "seconder": "eggers",
-     "motion": null,
+     "motion": "A motion was made by Commissioner Flowers, seconded by Vice-Chair Eggers, that the item be approved. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
      "result": {
@@ -5253,17 +4936,7 @@
       ],
       "note": "One official record, nothing yet to check it against."
      },
-     "facts": [
-      {
-       "text": "One email of concern was received; no one spoke.",
-       "value": "One email of concern was received; no one spoke.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      }
-     ]
+     "facts": []
     },
     {
      "id": "lg-93001",
@@ -5271,12 +4944,12 @@
      "topic": "environment",
      "headline": "Pulled the county out of Duke Energy's Clean Energy Connection program",
      "inShort": "Commissioner Nowicki's resolution directs the county administrator to withdraw the county from Duke Energy's Clean Energy Connection program.",
-     "officialTitle": "Duke Energy Clean Energy Resolution - Commissioner Nowicki.",
+     "officialTitle": "County Commission New Business:\r\nPertinent and timely Committee/Board updates, policy considerations, administrative/procedural considerations, and other new business:\r\n\r\n- Duke Energy Clean Energy Resolution - Commissioner Nowicki",
      "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10057&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
      "fileNumber": "25-0475A",
      "mover": "nowicki",
      "seconder": "scherer",
-     "motion": null,
+     "motion": "A motion was made by Commissioner Nowicki, seconded by Commissioner Scherer, that the item be approved as amended. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
      "result": {
@@ -5307,17 +4980,7 @@
       ],
       "note": "One official record, nothing yet to check it against."
      },
-     "facts": [
-      {
-       "text": "Commissioner Flowers said she could not support it and asked for a board discussion of clean energy goals.",
-       "value": "Commissioner Flowers said she could not support it and asked for a board discussion of clean energy goals.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      }
-     ]
+     "facts": []
     },
     {
      "id": "lg-93018",
@@ -5325,12 +4988,12 @@
      "topic": "growth",
      "headline": "Rezoned 3.2 acres on Kersey Road for more single-family homes",
      "inShort": "Approved a rezoning at 2281 Kersey Road and 1736 Winchester Road in unincorporated Largo, with a 70-foot minimum lot width added as a condition.",
-     "officialTitle": "Case No. ZON-24-05: zoning change from R-R, Rural Residential and R-3-CO to R-3-CO, Single Family Residential with Conditional Overlay on approximately 3.2 acres.",
+     "officialTitle": "Case No. ZON-24-05 (Dushyant Gulati)\r\nA request for a zoning change from R-R, Rural Residential and R-3-CO, Single-Family Residential with Conditional Overlay to R-3-CO, Single Family Residential with Conditional Overlay on approximately 3.2 acres located at 2281 Kersey Road and 1736 Winchester Road in unincorporated Largo. (Quasi-Judicial) (Companion to No. 24)",
      "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10057&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
      "fileNumber": "25-0414A",
      "mover": "scherer",
      "seconder": "flowers",
-     "motion": null,
+     "motion": "A motion was made by Commissioner Scherer, seconded by Commissioner Flowers, that the item be approved as amended. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
      "result": {
@@ -5361,26 +5024,7 @@
       ],
       "note": "One official record, nothing yet to check it against."
      },
-     "facts": [
-      {
-       "text": "The Local Planning Agency recommended approval, and staff agreed.",
-       "value": "The Local Planning Agency recommended approval, and staff agreed.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      },
-      {
-       "text": "One letter in opposition and six voicemails in support were received.",
-       "value": "One letter in opposition and six voicemails in support were received.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      }
-     ]
+     "facts": []
     },
     {
      "id": "lg-92807",
@@ -5393,7 +5037,7 @@
      "fileNumber": "25-0342A",
      "mover": "eggers",
      "seconder": "nowicki",
-     "motion": null,
+     "motion": "A motion was made by Vice-Chair Eggers, seconded by Commissioner Nowicki, that the item be approved, as amended. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {
       "absent": [
@@ -5427,17 +5071,7 @@
       ],
       "note": "One official record, nothing yet to check it against."
      },
-     "facts": [
-      {
-       "text": "Projects discussed included the Clearwater Beach Municipal Marina and the Arts Center and Chihuly Collection.",
-       "value": "Projects discussed included the Clearwater Beach Municipal Marina and the Arts Center and Chihuly Collection.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      }
-     ]
+     "facts": []
     },
     {
      "id": "rays-bonds",
@@ -5544,114 +5178,6 @@
      ]
     },
     {
-     "id": "lg-92080",
-     "date": "2024-11-19",
-     "topic": "board",
-     "headline": "Picked the 2025 chair and vice chair",
-     "inShort": "The board chose its leaders for 2025. Commissioner Scott was set to become chair in January.",
-     "officialTitle": "Selection of the 2025 Chair and Vice-Chair.",
-     "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10034&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
-     "fileNumber": "24-1966A",
-     "mover": "latvala",
-     "seconder": "nowicki",
-     "motion": null,
-     "split": true,
-     "rollExtra": {},
-     "result": {
-      "value": "Passed 6 to 1",
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
-     "roll": {
-      "value": {
-       "yes": [
-        "eggers",
-        "latvala",
-        "nowicki",
-        "peters",
-        "scherer",
-        "scott"
-       ],
-       "no": [
-        "flowers"
-       ]
-      },
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
-     "facts": [
-      {
-       "text": "Commissioner Flowers nominated herself for vice chair.",
-       "value": "Commissioner Flowers nominated herself for vice chair.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      }
-     ]
-    },
-    {
-     "id": "lg-91883",
-     "date": "2024-11-19",
-     "topic": "environment",
-     "headline": "Refused to hold a hearing on a dredge permit appeal in Palm Harbor",
-     "inShort": "Declined a request for a public hearing to appeal a county dredge and fill permit for 106 Harbor Drive. The county attorney said hearing the appeal was up to the board.",
-     "officialTitle": "Request for a public hearing to appeal the issuance of County Dredge and Fill Permit No. WND-24-00077 for 106 Harbor Drive, Palm Harbor.",
-     "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10034&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
-     "fileNumber": "24-1870A",
-     "mover": "scott",
-     "seconder": null,
-     "motion": null,
-     "split": true,
-     "rollExtra": {},
-     "result": {
-      "value": "Denied 4 to 3",
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
-     "roll": {
-      "value": {
-       "yes": [
-        "flowers",
-        "peters",
-        "scherer",
-        "scott"
-       ],
-       "no": [
-        "eggers",
-        "latvala",
-        "nowicki"
-       ]
-      },
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
-     "facts": [
-      {
-       "text": "The board had heard an earlier dock-related appeal involving the same parties.",
-       "value": "The board had heard an earlier dock-related appeal involving the same parties.",
-       "label": "single",
-       "sources": [
-        "legistar"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      }
-     ]
-    },
-    {
      "id": "lg-91835",
      "date": "2024-11-19",
      "topic": "growth",
@@ -5662,7 +5188,7 @@
      "fileNumber": "24-1533A",
      "mover": "scott",
      "seconder": "eggers",
-     "motion": null,
+     "motion": "A motion was made by Vice-Chair Scott, seconded by Commissioner Eggers, that the item be approved. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
      "result": {
@@ -5693,17 +5219,95 @@
       ],
       "note": "One official record, nothing yet to check it against."
      },
-     "facts": [
-      {
-       "text": "It needed a two-thirds supermajority, five votes, to pass.",
-       "value": "It needed a two-thirds supermajority, five votes, to pass.",
-       "label": "single",
-       "sources": [
-        "legistar"
+     "facts": []
+    },
+    {
+     "id": "lg-91883",
+     "date": "2024-11-19",
+     "topic": "environment",
+     "headline": "Refused to hold a hearing on a dredge permit appeal in Palm Harbor",
+     "inShort": "Declined a request for a public hearing to appeal a county dredge and fill permit for 106 Harbor Drive. The county attorney said hearing the appeal was up to the board.",
+     "officialTitle": "Request for a public hearing to appeal the issuance of County Dredge and Fill Permit No. WND-24-00077 for 106 Harbor Drive, Palm Harbor.",
+     "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10034&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+     "fileNumber": "24-1870A",
+     "mover": "scott",
+     "seconder": null,
+     "motion": "A motion was made by Vice-Chair Scott, seconded by Commissioner Flowers, that the item be denied. The motion carried by the following vote:",
+     "split": true,
+     "rollExtra": {},
+     "result": {
+      "value": "Passed 4 to 3",
+      "label": "single",
+      "sources": [
+       "legistar"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "roll": {
+      "value": {
+       "yes": [
+        "flowers",
+        "peters",
+        "scherer",
+        "scott"
        ],
-       "note": "One official record, nothing yet to check it against."
-      }
-     ]
+       "no": [
+        "eggers",
+        "latvala",
+        "nowicki"
+       ]
+      },
+      "label": "single",
+      "sources": [
+       "legistar"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "facts": []
+    },
+    {
+     "id": "lg-92080",
+     "date": "2024-11-19",
+     "topic": "board",
+     "headline": "Picked the 2025 chair and vice chair",
+     "inShort": "The board chose its leaders for 2025. Commissioner Scott was set to become chair in January.",
+     "officialTitle": "Selection of the 2025 Chair and Vice-Chair.",
+     "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10034&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
+     "fileNumber": "24-1966A",
+     "mover": "latvala",
+     "seconder": "nowicki",
+     "motion": "A motion was made by Commissioner Latvala, seconded by Commissioner Nowicki, that Commissioner Eggers serve as the BCC Vice-Chair for 2025. The motion carried by the following vote:",
+     "split": true,
+     "rollExtra": {},
+     "result": {
+      "value": "Passed 6 to 1",
+      "label": "single",
+      "sources": [
+       "legistar"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "roll": {
+      "value": {
+       "yes": [
+        "eggers",
+        "latvala",
+        "nowicki",
+        "peters",
+        "scherer",
+        "scott"
+       ],
+       "no": [
+        "flowers"
+       ]
+      },
+      "label": "single",
+      "sources": [
+       "legistar"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "facts": []
     }
    ],
    "topics": [
@@ -5938,7 +5542,7 @@
    ],
    "labelCounts": {
     "verified": 18,
-    "single": 182,
+    "single": 147,
     "unverified": 33,
     "conflict": 0,
     "unknown": 5
@@ -12690,14 +12294,14 @@
    "accessed": "2026-10-26",
    "legistarLoaded": true,
    "legistarTotals": {
-    "meetings": 77,
+    "meetings": 76,
     "meetingsWithRollCalls": 73,
     "items": 1861,
     "rollCalls": 1851,
     "splitRollCalls": 78
    },
    "legistarScope": "Nov 19, 2024",
-   "legistarPulledAt": "2026-10-26T22:30:00Z",
+   "legistarPulledAt": "2026-10-26T23:12:10Z",
    "sources": {
     "hc-bcc": {
      "title": "Hernando County Board of County Commissioners",
@@ -13196,11 +12800,11 @@
        "how": "no"
       },
       {
-       "vote": "lg-43248",
+       "vote": "lg-43204",
        "how": "no"
       },
       {
-       "vote": "lg-43204",
+       "vote": "lg-43248",
        "how": "no"
       },
       {
@@ -13635,11 +13239,11 @@
        "how": "yes"
       },
       {
-       "vote": "lg-43248",
+       "vote": "lg-43204",
        "how": "yes"
       },
       {
-       "vote": "lg-43204",
+       "vote": "lg-43248",
        "how": "yes"
       },
       {
@@ -13898,11 +13502,11 @@
        "how": "yes"
       },
       {
-       "vote": "lg-43248",
+       "vote": "lg-43204",
        "how": "yes"
       },
       {
-       "vote": "lg-43204",
+       "vote": "lg-43248",
        "how": "yes"
       },
       {
@@ -14164,12 +13768,12 @@
        "how": "no"
       },
       {
-       "vote": "lg-43248",
-       "how": "no"
-      },
-      {
        "vote": "lg-43204",
        "how": "yes"
+      },
+      {
+       "vote": "lg-43248",
+       "how": "no"
       },
       {
        "vote": "lg-42669",
@@ -16315,18 +15919,11 @@
      "district": "2",
      "seatType": "At-large",
      "status": "former",
-     "finance": {
-      "voterfocusId": "609",
-      "status": "Active- Now files with State of Florida"
-     },
      "facts": {
       "party": {
-       "value": "Republican",
-       "label": "single",
-       "sources": [
-        "soe-cf-hernando"
-       ],
-       "note": "One official record, nothing yet to check it against."
+       "value": null,
+       "label": "unknown",
+       "sources": []
       },
       "inOfficeSince": {
        "value": null,
@@ -16372,7 +15969,7 @@
        "note": "One official record, nothing yet to check it against."
       },
       "attendance": {
-       "value": "Attended 54 of 60 meetings with roll calls",
+       "value": "Attended 53 of 60 meetings with roll calls",
        "label": "single",
        "sources": [
         "legistar"
@@ -16390,12 +15987,9 @@
        "sources": []
       },
       "raised": {
-       "value": "$60,675 in contributions (as of Oct 26, 2026)",
-       "label": "single",
-       "sources": [
-        "soe-cf-hernando"
-       ],
-       "note": "One official record, nothing yet to check it against."
+       "value": null,
+       "label": "unknown",
+       "sources": []
       },
       "moneyWhere": {
        "value": null,
@@ -16490,11 +16084,11 @@
        "how": "yes"
       },
       {
-       "vote": "lg-43248",
+       "vote": "lg-43204",
        "how": "yes"
       },
       {
-       "vote": "lg-43204",
+       "vote": "lg-43248",
        "how": "yes"
       },
       {
@@ -16524,7 +16118,7 @@
        "conflict_handling": null,
        "money_timing": null,
        "promise_match": null,
-       "openness": 90.0
+       "openness": 88.3
       },
       "scoredVotes": 1411,
       "reason": "Not enough record yet: 1 of 4 parts have data."
@@ -16748,7 +16342,7 @@
      "topic": "growth",
      "headline": "Committed state housing money to an affordable housing project",
      "inShort": "Signed the local government form that commits State Housing Initiative Partnership (SHIP) money to a developer that won Florida Housing Finance Corporation funding for an affordable housing project, on condition of a 50-year affordability period and no tax abatement.",
-     "officialTitle": "Local Government Verification of Contribution Loan Form Committing Funds From State Housing Initiative Partnership Program to Developer Awarded Funding From Florida Housing Finance Corporation for Affordable Housing Project",
+     "officialTitle": "Local Government Verification of Contribution Loan Form Committing Funds From State Housing Initiative Partnership Program to Developer Awarded Funding From Florida Housing Finance Corporation for Affordable Housing Project for The Brook",
      "sourceUrl": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1491&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
      "fileNumber": "17914",
      "mover": "allocco",
@@ -16898,7 +16492,7 @@
      "topic": "growth",
      "headline": "A motion to deny short-term vacation rental rules failed on a 2 to 2 tie",
      "inShort": "At the first public hearing on an ordinance creating requirements for short-term vacation rentals, Amsler moved to deny it and not bring it back for a second hearing. That motion failed 2 to 2, with Amsler and Champion voting yes.",
-     "officialTitle": "First Public Hearing to Consider Ordinance Regarding Short-Term Vacation Rentals; Creating New Section 6 of Code, Appendix A, Article III, to be Entitled, Requirements for Short-Term Vacation Rentals",
+     "officialTitle": "First Public Hearing to Consider Ordinance Regarding Short-Term Vacation Rentals; Creating New Section 6 of Code, Appendix A, Article III, to be Entitled, Requirements for Short-Term Vacation Rentals; Providing for Regulations of Short-Term Vacation Rentals Consistent With F.S. Chapter 633 and are Comparable With Those That State Applies to Other Transient Public Lodging Establishments",
      "sourceUrl": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1483&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
      "fileNumber": "17763",
      "mover": "amsler",
@@ -16993,8 +16587,8 @@
      "officialTitle": "Contract for Sale and Purchase of Real Estate With Antonio J. Cancelli-Patrick for Property Located on Leonard Street for Affordable/Workforce Housing (Key #11310)",
      "sourceUrl": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1480&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
      "fileNumber": "17499",
-     "mover": "champion",
-     "seconder": "amsler",
+     "mover": "allocco",
+     "seconder": "campbell",
      "motion": "To purchase it with the intent of selling to a nonprofit for affordable housing.",
      "split": true,
      "rollExtra": {},
@@ -17036,7 +16630,7 @@
      "fileNumber": "17190",
      "mover": "hawkins",
      "seconder": "allocco",
-     "motion": null,
+     "motion": "To approve staff recommendation.",
      "split": true,
      "rollExtra": {},
      "result": {
@@ -17207,7 +16801,7 @@
      "fileNumber": "16984",
      "mover": "allocco",
      "seconder": "champion",
-     "motion": null,
+     "motion": "To approve the staff recommendation (Resolution No. 2026-028).",
      "split": true,
      "rollExtra": {},
      "result": {
@@ -17388,12 +16982,12 @@
      "topic": "budget",
      "headline": "Awarded a $2 million tourism marketing contract",
      "inShort": "Awarded a $2,040,000 contract to Miles Partnership for marketing and advertising for Florida's Adventure Coast Visitors' Bureau.",
-     "officialTitle": "Award of Contract to Miles Partnership, LLLP for Marketing and Advertising Services for Florida's Adventure Coast Visitors' Bureau (Contract No. 25-RFP00983/CT; Amount: $2,040,000.00)",
+     "officialTitle": "Award of Contract to Miles Partnership, LLLP for Marketing and Advertising Services for Florida’s Adventure Coast Visitors’ Bureau (Contract No. 25-RFP00983/CT; Amount: $2,040,000.00)",
      "sourceUrl": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1370&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
      "fileNumber": "16666",
      "mover": "amsler",
      "seconder": "hawkins",
-     "motion": null,
+     "motion": "To approve Item No. M-4.",
      "split": true,
      "rollExtra": {
       "absent": [
@@ -17562,9 +17156,9 @@
      "officialTitle": "Contract for Purchase of Real Estate With Sundara Holdings, LLC, for Property Located at 924 Hale Avenue for Clerk of Circuit Court and Comptroller Building",
      "sourceUrl": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1359&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
      "fileNumber": "14241",
-     "mover": "hawkins",
-     "seconder": "allocco",
-     "motion": null,
+     "mover": "allocco",
+     "seconder": "hawkins",
+     "motion": "To approve the staff recommendation.",
      "split": true,
      "rollExtra": {},
      "result": {
@@ -17604,8 +17198,8 @@
      "officialTitle": "Ordinance Recognizing Manatee Protection Zone Located at Mud River and Weeki Wachee Gardens Area",
      "sourceUrl": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1356&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
      "fileNumber": "15988",
-     "mover": "amsler",
-     "seconder": "champion",
+     "mover": "champion",
+     "seconder": "amsler",
      "motion": "To deny and leave as-is, revised to include signage and education to the public.",
      "split": true,
      "rollExtra": {},
@@ -17680,48 +17274,6 @@
      "facts": []
     },
     {
-     "id": "lg-43248",
-     "date": "2025-03-25",
-     "topic": "safety",
-     "headline": "Bought land to expand the Sheriff's Office",
-     "inShort": "Approved buying real estate from Bulk Transport Company East for a Hernando County Sheriff's Office expansion, with a budget amendment.",
-     "officialTitle": "Contract for Sale and Purchase of Real Estate With Bulk Transport Company East, Inc., for Hernando County Sheriff's Office Expansion and Associated Budget Amendment",
-     "sourceUrl": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1338&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
-     "fileNumber": "15446",
-     "mover": "allocco",
-     "seconder": "campbell",
-     "motion": null,
-     "split": true,
-     "rollExtra": {},
-     "result": {
-      "value": "Passed 3 to 2",
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
-     "roll": {
-      "value": {
-       "yes": [
-        "allocco",
-        "campbell",
-        "hawkins"
-       ],
-       "no": [
-        "amsler",
-        "champion"
-       ]
-      },
-      "label": "single",
-      "sources": [
-       "legistar"
-      ],
-      "note": "One official record, nothing yet to check it against."
-     },
-     "facts": []
-    },
-    {
      "id": "lg-43204",
      "date": "2025-03-25",
      "topic": "other",
@@ -17764,6 +17316,48 @@
      "facts": []
     },
     {
+     "id": "lg-43248",
+     "date": "2025-03-25",
+     "topic": "safety",
+     "headline": "Bought land to expand the Sheriff's Office",
+     "inShort": "Approved buying real estate from Bulk Transport Company East for a Hernando County Sheriff's Office expansion, with a budget amendment.",
+     "officialTitle": "Contract for Sale and Purchase of Real Estate With Bulk Transport Company East, Inc., for Hernando County Sheriff’s Office Expansion and Associated Budget Amendment",
+     "sourceUrl": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1338&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+     "fileNumber": "15446",
+     "mover": "allocco",
+     "seconder": "campbell",
+     "motion": "To approve the staff recommendation.",
+     "split": true,
+     "rollExtra": {},
+     "result": {
+      "value": "Passed 3 to 2",
+      "label": "single",
+      "sources": [
+       "legistar"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "roll": {
+      "value": {
+       "yes": [
+        "allocco",
+        "campbell",
+        "hawkins"
+       ],
+       "no": [
+        "amsler",
+        "champion"
+       ]
+      },
+      "label": "single",
+      "sources": [
+       "legistar"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "facts": []
+    },
+    {
      "id": "lg-42669",
      "date": "2025-02-25",
      "topic": "growth",
@@ -17774,7 +17368,7 @@
      "fileNumber": "15541",
      "mover": "champion",
      "seconder": "allocco",
-     "motion": null,
+     "motion": "To approve the staff recommendation with modifications of 90-units, delivering the conservation land, no fence, 15% at 3-bedrooms, 45% at 2-bedrooms and unlimited for 1-bedroom units, with 10% holiday parking and to work with the County regarding a bus stop/sidewalk. (Resolution No. 2025-039).",
      "split": true,
      "rollExtra": {},
      "result": {
@@ -17853,12 +17447,12 @@
      "topic": "budget",
      "headline": "Rejected changes to the solid waste collection district",
      "inShort": "An ordinance amending the code for the Hernando County Solid Waste Collection Municipal Service Benefit Unit failed 1 to 4.",
-     "officialTitle": "Ordinance Amending Hernando County Code of Ordinances, Chapter 14, Article IV; Division 2; Hernando County Solid Waste Collection Municipal Service Benefit Unit",
+     "officialTitle": "Ordinance Amending Hernando County Code of Ordinances, Chapter 14, Article IV; Division 2: Name; Subsection 14-102 Definitions; Subsection 14-104 Creation of Unit and Legal Description of Hernando County Solid Waste Collection Municipal Services Benefit Unit",
      "sourceUrl": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1331&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
      "fileNumber": "14905",
      "mover": "campbell",
-     "seconder": null,
-     "motion": null,
+     "seconder": "allocco",
+     "motion": "Agenda Item",
      "split": true,
      "rollExtra": {},
      "result": {
@@ -17900,7 +17494,7 @@
      "fileNumber": "15106",
      "mover": "allocco",
      "seconder": "campbell",
-     "motion": null,
+     "motion": "To approve the staff recommendation (Ordinance No. 2024-18).",
      "split": true,
      "rollExtra": {},
      "result": {
@@ -17937,12 +17531,12 @@
      "topic": "safety",
      "headline": "Returned and re-requested Sheriff's cybersecurity money",
      "inShort": "Approved the return of excess FY 2023-24 cybersecurity funds and a new FY 2024-25 cybersecurity funding request from the Sheriff's Office.",
-     "officialTitle": "Return of Excess Cyber Security Funds for FY 2023-24 and Request for Cyber Security Funds for FY 2024-25 From Hernando County Sheriff's Office",
+     "officialTitle": "Return of Excess Cyber Security Funds for FY 2023-24 and Request for Cyber Security Funds for FY 2024-25 From Hernando County Sheriff’s Office",
      "sourceUrl": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1264&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
      "fileNumber": "14901",
      "mover": "allocco",
      "seconder": "campbell",
-     "motion": null,
+     "motion": "To approve Item No. P-6.",
      "split": true,
      "rollExtra": {},
      "result": {
@@ -18222,14 +17816,48 @@
    ],
    "labelCounts": {
     "verified": 8,
-    "single": 123,
+    "single": 121,
     "unverified": 29,
     "conflict": 0,
-    "unknown": 15
+    "unknown": 16
    }
   }
  },
- "changes": [],
+ "changes": [
+  {
+   "date": "2026-10-26",
+   "changed": [
+    {
+     "key": "hernando/hawkins/party",
+     "subject": "Brian Hawkins: party",
+     "before": null,
+     "after": "Republican",
+     "label": "single",
+     "sources": [
+      "soe-cf-hernando"
+     ]
+    },
+    {
+     "key": "hernando/hawkins/raised",
+     "subject": "Brian Hawkins: raised",
+     "before": null,
+     "after": "$60,675 in contributions (as of Oct 26, 2026)",
+     "label": "single",
+     "sources": [
+      "soe-cf-hernando"
+     ]
+    }
+   ],
+   "added": [],
+   "log": [
+    "Campaign totals: 49 candidates"
+   ],
+   "errors": [
+    "pinellas Legistar pull failed, kept last good data: URL can't contain control characters. '/v1/pinellas/events?$filter=%28EventBodyId%20eq%20213%20or%20EventBodyId%20eq%20212%29%20and%20EventDate%20ge%20datetime%272024-11-19%27%20and%20EventDate%20le%20datetime%272026-10-26%27&$orderby=EventDate desc' (found at least ' ')",
+    "hernando Legistar pull failed, kept last good data: URL can't contain control characters. '/v1/hernandocountyfl/events?$filter=%28EventBodyId%20eq%20138%20or%20EventBodyId%20eq%20235%29%20and%20EventDate%20ge%20datetime%272024-11-19%27%20and%20EventDate%20le%20datetime%272026-10-26%27&$orderby=EventDate desc' (found at least ' ')"
+   ]
+  }
+ ],
  "corrections": [],
  "map": {
   "w": 520,

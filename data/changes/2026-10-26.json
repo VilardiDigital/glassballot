@@ -2,32 +2,67 @@
  "date": "2026-10-26",
  "changed": [
   {
-   "key": "hernando/hawkins/party",
-   "subject": "Brian Hawkins: party",
-   "before": null,
-   "after": "Republican",
+   "key": "pinellas/vote/lg-95566",
+   "subject": "Vote: Turned down denser housing on a former landfill site in Largo",
+   "before": "Denied 4 to 2",
+   "after": "Passed 4 to 2",
    "label": "single",
    "sources": [
-    "soe-cf-hernando"
+    "legistar"
+   ]
+  },
+  {
+   "key": "pinellas/vote/lg-94414",
+   "subject": "Vote: Rejected a deeper property tax cut",
+   "before": "Failed 2 to 5",
+   "after": "Passed 2 to 5",
+   "label": "single",
+   "sources": [
+    "legistar"
+   ]
+  },
+  {
+   "key": "pinellas/vote/lg-91883",
+   "subject": "Vote: Refused to hold a hearing on a dredge permit appeal in Palm Harbor",
+   "before": "Denied 4 to 3",
+   "after": "Passed 4 to 3",
+   "label": "single",
+   "sources": [
+    "legistar"
+   ]
+  },
+  {
+   "key": "hernando/hawkins/party",
+   "subject": "Brian Hawkins: party",
+   "before": "Republican",
+   "after": null,
+   "label": "unknown",
+   "sources": []
+  },
+  {
+   "key": "hernando/hawkins/attendance",
+   "subject": "Brian Hawkins: attendance",
+   "before": "Attended 54 of 60 meetings with roll calls",
+   "after": "Attended 53 of 60 meetings with roll calls",
+   "label": "single",
+   "sources": [
+    "legistar"
    ]
   },
   {
    "key": "hernando/hawkins/raised",
    "subject": "Brian Hawkins: raised",
-   "before": null,
-   "after": "$60,675 in contributions (as of Oct 26, 2026)",
-   "label": "single",
-   "sources": [
-    "soe-cf-hernando"
-   ]
+   "before": "$60,675 in contributions (as of Oct 26, 2026)",
+   "after": null,
+   "label": "unknown",
+   "sources": []
   }
  ],
  "added": [],
  "log": [
+  "pinellas Legistar: 1268 roll calls, 0 new split votes awaiting review",
+  "hernando Legistar: 1851 roll calls, 0 new split votes awaiting review",
   "Campaign totals: 49 candidates"
  ],
- "errors": [
-  "pinellas Legistar pull failed, kept last good data: URL can't contain control characters. '/v1/pinellas/events?$filter=%28EventBodyId%20eq%20213%20or%20EventBodyId%20eq%20212%29%20and%20EventDate%20ge%20datetime%272024-11-19%27%20and%20EventDate%20le%20datetime%272026-10-26%27&$orderby=EventDate desc' (found at least ' ')",
-  "hernando Legistar pull failed, kept last good data: URL can't contain control characters. '/v1/hernandocountyfl/events?$filter=%28EventBodyId%20eq%20138%20or%20EventBodyId%20eq%20235%29%20and%20EventDate%20ge%20datetime%272024-11-19%27%20and%20EventDate%20le%20datetime%272026-10-26%27&$orderby=EventDate desc' (found at least ' ')"
- ]
+ "errors": []
 }

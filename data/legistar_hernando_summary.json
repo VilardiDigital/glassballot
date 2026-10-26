@@ -2,46 +2,22 @@
  "source": "Hernando County Legistar",
  "api": "https://webapi.legistar.com/v1/hernandocountyfl",
  "calendarUrl": "https://hernandocountyfl.legistar.com/Calendar.aspx",
- "pulledAt": "2026-10-26T22:30:00Z",
+ "pulledAt": "2026-10-26T23:12:10Z",
  "scope": "Nov 19, 2024",
  "totals": {
-  "meetings": 77,
+  "meetings": 76,
   "meetingsWithRollCalls": 73,
   "items": 1861,
   "rollCalls": 1851,
   "splitRollCalls": 78
  },
  "stats": {
-  "hawkins": {
-   "aye": 1398,
-   "nay": 12,
-   "absent": 159,
-   "abstain": 1,
-   "meetingsHeld": 60,
-   "meetingsMissed": 6
-  },
   "campbell": {
    "aye": 1834,
    "nay": 15,
    "absent": 2,
    "abstain": 0,
    "meetingsHeld": 73,
-   "meetingsMissed": 0
-  },
-  "allocco": {
-   "aye": 1780,
-   "nay": 22,
-   "absent": 49,
-   "abstain": 0,
-   "meetingsHeld": 73,
-   "meetingsMissed": 1
-  },
-  "mitten": {
-   "aye": 161,
-   "nay": 1,
-   "absent": 0,
-   "abstain": 0,
-   "meetingsHeld": 9,
    "meetingsMissed": 0
   },
   "amsler": {
@@ -59,6 +35,30 @@
    "abstain": 0,
    "meetingsHeld": 73,
    "meetingsMissed": 5
+  },
+  "allocco": {
+   "aye": 1780,
+   "nay": 22,
+   "absent": 49,
+   "abstain": 0,
+   "meetingsHeld": 73,
+   "meetingsMissed": 1
+  },
+  "mitten": {
+   "aye": 161,
+   "nay": 1,
+   "absent": 0,
+   "abstain": 0,
+   "meetingsHeld": 9,
+   "meetingsMissed": 0
+  },
+  "hawkins": {
+   "aye": 1398,
+   "nay": 12,
+   "absent": 159,
+   "abstain": 1,
+   "meetingsHeld": 60,
+   "meetingsMissed": 7
   }
  },
  "recusals": [],
@@ -86,7 +86,60 @@
   "1370": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1370&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
   "1264": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1264&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
   "1265": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1265&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
-  "1266": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1266&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2"
+  "1266": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1266&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1494": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1494&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1493": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1493&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1492": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1492&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1489": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1489&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1490": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1490&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1488": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1488&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1487": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1487&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1485": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1485&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1484": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1484&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1482": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1482&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1481": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1481&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1479": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1479&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1478": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1478&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1476": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1476&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1475": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1475&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1474": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1474&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1538": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1538&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1472": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1472&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1471": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1471&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1470": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1470&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1468": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1468&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1467": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1467&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1465": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1465&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1464": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1464&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1502": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1502&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1367": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1367&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1509": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1509&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1364": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1364&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1360": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1360&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1372": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1372&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1373": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1373&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1358": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1358&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1357": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1357&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1354": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1354&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1352": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1352&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1424": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1424&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1351": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1351&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1349": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1349&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1417": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1417&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1348": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1348&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1427": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1427&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1423": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1423&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1346": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1346&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1345": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1345&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1344": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1344&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1343": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1343&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1342": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1342&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1341": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1341&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1339": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1339&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1337": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1337&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1332": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1332&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1393": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1393&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1394": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1394&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2"
  },
  "matches": {},
  "splitVotes": [
@@ -98,8 +151,8 @@
    "topic": "transport",
    "result": "Passed 3 to 2",
    "yes": [
-    "campbell",
     "allocco",
+    "campbell",
     "mitten"
    ],
    "no": [
@@ -108,10 +161,11 @@
    ],
    "mover": "mitten",
    "seconder": "allocco",
+   "officialTitle": "Amendment No. 5 to Contract With RATP Dev USA, Inc., for Transit Operator Services for TheBus (Contract No. 21-RG0010/PH; Amount: $1,757,078.12 Funded by Federal Grant and 9th Cent Gas Tax)",
+   "motion": "To approve the staff recommendation and place an item on the agenda for the first meeting in January to discuss the bus routes.",
    "headline": "Approved a $1.76 million amendment to the contract that runs TheBus",
    "inShort": "Approved Amendment No. 5 to the county's contract with RATP Dev USA, the company that operates TheBus, for $1,757,078.12, paid for with a federal grant and the 9th-cent gas tax. The motion also put a discussion of bus routes on the first January agenda.",
-   "officialTitle": "Amendment No. 5 to Contract With RATP Dev USA, Inc., for Transit Operator Services for TheBus (Contract No. 21-RG0010/PH; Amount: $1,757,078.12 Funded by Federal Grant and 9th Cent Gas Tax)",
-   "motion": "To approve the staff recommendation and place an item on the agenda for the first meeting in January to discuss the bus routes."
+   "needsReview": false
   },
   {
    "item": 57133,
@@ -121,8 +175,8 @@
    "topic": "growth",
    "result": "Passed 3 to 2",
    "yes": [
-    "campbell",
     "allocco",
+    "campbell",
     "mitten"
    ],
    "no": [
@@ -131,10 +185,11 @@
    ],
    "mover": "allocco",
    "seconder": "mitten",
+   "officialTitle": "Local Government Verification of Contribution Loan Form Committing Funds From State Housing Initiative Partnership Program to Developer Awarded Funding From Florida Housing Finance Corporation for Affordable Housing Project for The Brook",
+   "motion": "To approve with conditions of a 50-year affordability period and an agreement that there will be no tax abatement.",
    "headline": "Committed state housing money to an affordable housing project",
    "inShort": "Signed the local government form that commits State Housing Initiative Partnership (SHIP) money to a developer that won Florida Housing Finance Corporation funding for an affordable housing project, on condition of a 50-year affordability period and no tax abatement.",
-   "officialTitle": "Local Government Verification of Contribution Loan Form Committing Funds From State Housing Initiative Partnership Program to Developer Awarded Funding From Florida Housing Finance Corporation for Affordable Housing Project",
-   "motion": "To approve with conditions of a 50-year affordability period and an agreement that there will be no tax abatement."
+   "needsReview": false
   },
   {
    "item": 56262,
@@ -144,8 +199,8 @@
    "topic": "growth",
    "result": "Passed 4 to 1",
    "yes": [
-    "campbell",
     "amsler",
+    "campbell",
     "champion",
     "mitten"
    ],
@@ -154,10 +209,11 @@
    ],
    "mover": "amsler",
    "seconder": "champion",
+   "officialTitle": "Petition Submitted by Hideaway Commercial, LLC, to Vacate Right-of-Ways Located on Nicasio Jay Court in Royal Highlands",
+   "motion": "To approve the staff recommendation (Resolution No. 2026-152).",
    "headline": "Approved a business's request to vacate right-of-way on Nicasio Jay Court",
    "inShort": "Approved a petition from Hideaway Commercial, LLC to vacate public right-of-way on Nicasio Jay Court in Royal Highlands (Resolution No. 2026-152).",
-   "officialTitle": "Petition Submitted by Hideaway Commercial, LLC, to Vacate Right-of-Ways Located on Nicasio Jay Court in Royal Highlands",
-   "motion": "To approve the staff recommendation (Resolution No. 2026-152)."
+   "needsReview": false
   },
   {
    "item": 55779,
@@ -171,15 +227,16 @@
     "champion"
    ],
    "no": [
-    "campbell",
-    "allocco"
+    "allocco",
+    "campbell"
    ],
    "mover": "amsler",
    "seconder": "champion",
+   "officialTitle": "First Public Hearing to Consider Ordinance Regarding Short-Term Vacation Rentals; Creating New Section 6 of Code, Appendix A, Article III, to be Entitled, Requirements for Short-Term Vacation Rentals; Providing for Regulations of Short-Term Vacation Rentals Consistent With F.S. Chapter 633 and are Comparable With Those That State Applies to Other Transient Public Lodging Establishments",
+   "motion": "To deny, and to not bring it back for a second hearing.",
    "headline": "A motion to deny short-term vacation rental rules failed on a 2 to 2 tie",
    "inShort": "At the first public hearing on an ordinance creating requirements for short-term vacation rentals, Amsler moved to deny it and not bring it back for a second hearing. That motion failed 2 to 2, with Amsler and Champion voting yes.",
-   "officialTitle": "First Public Hearing to Consider Ordinance Regarding Short-Term Vacation Rentals; Creating New Section 6 of Code, Appendix A, Article III, to be Entitled, Requirements for Short-Term Vacation Rentals",
-   "motion": "To deny, and to not bring it back for a second hearing."
+   "needsReview": false
   },
   {
    "item": 54971,
@@ -193,15 +250,16 @@
     "champion"
    ],
    "no": [
-    "campbell",
-    "allocco"
+    "allocco",
+    "campbell"
    ],
-   "mover": "champion",
-   "seconder": "amsler",
+   "mover": "allocco",
+   "seconder": "campbell",
+   "officialTitle": "Contract for Sale and Purchase of Real Estate With Antonio J. Cancelli-Patrick for Property Located on Leonard Street for Affordable/Workforce Housing (Key #11310)",
+   "motion": "To purchase it with the intent of selling to a nonprofit for affordable housing.",
    "headline": "A motion to buy a Leonard Street lot for affordable housing failed 2 to 2",
    "inShort": "Champion moved to buy property on Leonard Street from Antonio J. Cancelli-Patrick, intending to sell it to a nonprofit for affordable housing. The motion failed on a 2 to 2 tie.",
-   "officialTitle": "Contract for Sale and Purchase of Real Estate With Antonio J. Cancelli-Patrick for Property Located on Leonard Street for Affordable/Workforce Housing (Key #11310)",
-   "motion": "To purchase it with the intent of selling to a nonprofit for affordable housing."
+   "needsReview": false
   },
   {
    "item": 54466,
@@ -211,9 +269,9 @@
    "topic": "safety",
    "result": "Passed 4 to 1",
    "yes": [
-    "campbell",
-    "amsler",
     "allocco",
+    "amsler",
+    "campbell",
     "hawkins"
    ],
    "no": [
@@ -221,9 +279,11 @@
    ],
    "mover": "hawkins",
    "seconder": "allocco",
+   "officialTitle": "Award of Construction Contract to Bandes Construction Company, Inc., for Fire Station No. 15 Construction Project (Contract No. 26-C01265; Amount: $6,511,800.00)",
+   "motion": "To approve staff recommendation.",
    "headline": "Hired a builder for Fire Station No. 15 for $6.5 million",
    "inShort": "Awarded the construction contract for Fire Station No. 15 to Bandes Construction Company for $6,511,800.",
-   "officialTitle": "Award of Construction Contract to Bandes Construction Company, Inc., for Fire Station No. 15 Construction Project (Contract No. 26-C01265; Amount: $6,511,800.00)"
+   "needsReview": false
   },
   {
    "item": 53419,
@@ -233,21 +293,23 @@
    "topic": "budget",
    "result": "Passed 3 to 1",
    "yes": [
-    "campbell",
+    "allocco",
     "amsler",
-    "allocco"
+    "campbell"
    ],
    "no": [
     "champion"
    ],
-   "mover": "amsler",
-   "seconder": "allocco",
-   "headline": "Awarded a $1.2 million contract to replace jail rooftop air conditioning",
-   "inShort": "Awarded a $1,214,000 contract to Air Mechanical and Service Corporation to replace rooftop air conditioning at the Hernando County Detention Center. The county's roll calls show Champion as the only no vote on this and eight other purchasing items that day.",
-   "officialTitle": "Award of Construction Contract to Air Mechanical and Service Corporation for Hernando County Detention Center Bravo Rooftop Air Conditioning Unit Replacement Project (Contract No. 26-C01184/JG; Amount: $1,214,000.00)",
    "absent": [
     "hawkins"
-   ]
+   ],
+   "mover": "amsler",
+   "seconder": "allocco",
+   "officialTitle": "Award of Construction Contract to Air Mechanical and Service Corporation for Hernando County Detention Center Bravo Rooftop Air Conditioning Unit Replacement Project (Contract No. 26-C01184/JG; Amount: $1,214,000.00)",
+   "motion": null,
+   "headline": "Awarded a $1.2 million contract to replace jail rooftop air conditioning",
+   "inShort": "Awarded a $1,214,000 contract to Air Mechanical and Service Corporation to replace rooftop air conditioning at the Hernando County Detention Center. The county's roll calls show Champion as the only no vote on this and eight other purchasing items that day.",
+   "needsReview": false
   },
   {
    "item": 52259,
@@ -257,9 +319,9 @@
    "topic": "growth",
    "result": "Passed 4 to 1",
    "yes": [
+    "allocco",
     "campbell",
     "champion",
-    "allocco",
     "hawkins"
    ],
    "no": [
@@ -267,9 +329,11 @@
    ],
    "mover": "hawkins",
    "seconder": "champion",
+   "officialTitle": "Rezoning Petition Submitted by Dirt Doctor 11011, LLC, on Behalf of Dirt Doctor 0, LLC, for Property Located on Sunshine Grove Road (H2552)",
+   "motion": null,
    "headline": "Approved a rezoning on Sunshine Grove Road",
    "inShort": "Approved a rezoning petition from Dirt Doctor 11011, LLC for property on Sunshine Grove Road (case H2552).",
-   "officialTitle": "Rezoning Petition Submitted by Dirt Doctor 11011, LLC, on Behalf of Dirt Doctor 0, LLC, for Property Located on Sunshine Grove Road (H2552)"
+   "needsReview": false
   },
   {
    "item": 55353,
@@ -279,9 +343,9 @@
    "topic": "growth",
    "result": "Passed 3 to 2",
    "yes": [
+    "allocco",
     "campbell",
-    "champion",
-    "allocco"
+    "champion"
    ],
    "no": [
     "amsler",
@@ -289,9 +353,11 @@
    ],
    "mover": "champion",
    "seconder": "allocco",
+   "officialTitle": "Master Plan Revision Petition Submitted by SV Tampa Land LP, LLC, for Property Located on Kelso Street (H2549)",
+   "motion": null,
    "headline": "Changed the master plan for land on Kelso Street",
    "inShort": "Approved a master plan revision for SV Tampa Land LP on Kelso Street (case H2549).",
-   "officialTitle": "Master Plan Revision Petition Submitted by SV Tampa Land LP, LLC, for Property Located on Kelso Street (H2549)"
+   "needsReview": false
   },
   {
    "item": 51109,
@@ -301,9 +367,9 @@
    "topic": "growth",
    "result": "Passed 3 to 2",
    "yes": [
+    "allocco",
     "campbell",
-    "champion",
-    "allocco"
+    "champion"
    ],
    "no": [
     "amsler",
@@ -311,9 +377,11 @@
    ],
    "mover": "allocco",
    "seconder": "champion",
+   "officialTitle": "Rezoning Petition Submitted by Soffron Holdings, LLC, for Property Located on Landover Boulevard (H2551)",
+   "motion": "To approve the staff recommendation (Resolution No. 2026-028).",
    "headline": "Approved a rezoning on Landover Boulevard",
    "inShort": "Approved a rezoning petition from Soffron Holdings, LLC for property on Landover Boulevard (case H2551).",
-   "officialTitle": "Rezoning Petition Submitted by Soffron Holdings, LLC, for Property Located on Landover Boulevard (H2551)"
+   "needsReview": false
   },
   {
    "item": 50165,
@@ -328,14 +396,16 @@
     "hawkins"
    ],
    "no": [
-    "campbell",
-    "allocco"
+    "allocco",
+    "campbell"
    ],
    "mover": "champion",
    "seconder": "amsler",
+   "officialTitle": "Master Plan Revision and Rezoning Petition Submitted by 520 SW 15 Street, LLC, for Property Located on Cortez Boulevard (H2527)",
+   "motion": null,
    "headline": "Approved a rezoning on Cortez Boulevard",
    "inShort": "Approved a master plan revision and rezoning for 520 SW 15 Street, LLC on Cortez Boulevard (case H2527).",
-   "officialTitle": "Master Plan Revision and Rezoning Petition Submitted by 520 SW 15 Street, LLC, for Property Located on Cortez Boulevard (H2527)"
+   "needsReview": false
   },
   {
    "item": 49264,
@@ -345,9 +415,9 @@
    "topic": "growth",
    "result": "Passed 4 to 1",
    "yes": [
-    "campbell",
-    "amsler",
     "allocco",
+    "amsler",
+    "campbell",
     "hawkins"
    ],
    "no": [
@@ -355,9 +425,11 @@
    ],
    "mover": "hawkins",
    "seconder": "allocco",
+   "officialTitle": "Rezoning Petition Submitted by David Kato on Behalf of D.R. Horton, Inc., for Property Located on Waterfall Drive (H2531)",
+   "motion": null,
    "headline": "Approved a D.R. Horton rezoning on Waterfall Drive",
    "inShort": "Approved a rezoning for homebuilder D.R. Horton on Waterfall Drive (case H2531).",
-   "officialTitle": "Rezoning Petition Submitted by David Kato on Behalf of D.R. Horton, Inc., for Property Located on Waterfall Drive (H2531)"
+   "needsReview": false
   },
   {
    "item": 48915,
@@ -367,21 +439,23 @@
    "topic": "budget",
    "result": "Passed 3 to 1",
    "yes": [
-    "hawkins",
+    "amsler",
     "campbell",
-    "amsler"
+    "hawkins"
    ],
    "no": [
     "champion"
    ],
-   "mover": "amsler",
-   "seconder": "hawkins",
-   "headline": "Awarded a $2 million tourism marketing contract",
-   "inShort": "Awarded a $2,040,000 contract to Miles Partnership for marketing and advertising for Florida's Adventure Coast Visitors' Bureau.",
-   "officialTitle": "Award of Contract to Miles Partnership, LLLP for Marketing and Advertising Services for Florida's Adventure Coast Visitors' Bureau (Contract No. 25-RFP00983/CT; Amount: $2,040,000.00)",
    "absent": [
     "allocco"
-   ]
+   ],
+   "mover": "amsler",
+   "seconder": "hawkins",
+   "officialTitle": "Award of Contract to Miles Partnership, LLLP for Marketing and Advertising Services for Florida’s Adventure Coast Visitors’ Bureau (Contract No. 25-RFP00983/CT; Amount: $2,040,000.00)",
+   "motion": "To approve Item No. M-4.",
+   "headline": "Awarded a $2 million tourism marketing contract",
+   "inShort": "Awarded a $2,040,000 contract to Miles Partnership for marketing and advertising for Florida's Adventure Coast Visitors' Bureau.",
+   "needsReview": false
   },
   {
    "item": 48436,
@@ -395,16 +469,17 @@
     "champion"
    ],
    "no": [
-    "hawkins",
+    "allocco",
     "campbell",
-    "allocco"
+    "hawkins"
    ],
    "mover": "amsler",
    "seconder": "champion",
+   "officialTitle": "Rezoning Petition Submitted by Mark Keschl of Meridien Development, LLC, on Behalf of Gary Haber, Evelyn Haber, Kenneth L. Haber, and Martha Haber for Property Located on Commercial Way (H2482)",
+   "motion": "To leave lots one and two as PDPSU, go ahead with lots three, four and five, remove the southernmost U.S. 19 entrance and exit, and add a reasonable sound barrier.",
    "headline": "Rejected a motion to approve part of the Commercial Way rezoning",
    "inShort": "Amsler moved to approve part of the Meridien Development (Haber family) rezoning on Commercial Way, keeping lots one and two as they were and adding a sound barrier. That motion failed 2 to 3.",
-   "officialTitle": "Rezoning Petition Submitted by Mark Keschl of Meridien Development, LLC, on Behalf of Gary Haber, Evelyn Haber, Kenneth L. Haber, and Martha Haber for Property Located on Commercial Way (H2482)",
-   "motion": "To leave lots one and two as PDPSU, go ahead with lots three, four and five, remove the southernmost U.S. 19 entrance and exit, and add a reasonable sound barrier."
+   "needsReview": false
   },
   {
    "item": 49574,
@@ -414,20 +489,21 @@
    "topic": "growth",
    "result": "Passed 4 to 1",
    "yes": [
-    "hawkins",
-    "campbell",
     "allocco",
-    "amsler"
+    "amsler",
+    "campbell",
+    "hawkins"
    ],
    "no": [
     "champion"
    ],
    "mover": "allocco",
    "seconder": "hawkins",
+   "officialTitle": "Rezoning Petition Submitted by Mark Keschl of Meridien Development, LLC, on Behalf of Gary Haber, Evelyn Haber, Kenneth L. Haber, and Martha Haber for Property Located on Commercial Way (H2482)",
+   "motion": "To deny.",
    "headline": "Denied the Commercial Way rezoning",
    "inShort": "After the partial approval failed, the board voted 4 to 1 to deny the Meridien Development (Haber family) rezoning on Commercial Way. Champion voted no.",
-   "officialTitle": "Rezoning Petition Submitted by Mark Keschl of Meridien Development, LLC, on Behalf of Gary Haber, Evelyn Haber, Kenneth L. Haber, and Martha Haber for Property Located on Commercial Way (H2482)",
-   "motion": "To deny."
+   "needsReview": false
   },
   {
    "item": 47842,
@@ -437,9 +513,9 @@
    "topic": "budget",
    "result": "Passed 3 to 2",
    "yes": [
-    "hawkins",
+    "allocco",
     "campbell",
-    "allocco"
+    "hawkins"
    ],
    "no": [
     "amsler",
@@ -447,10 +523,11 @@
    ],
    "mover": "campbell",
    "seconder": "allocco",
+   "officialTitle": "Discussion Regarding County Debt Financing",
+   "motion": "To approve the conceptual plan of bond issuance.",
    "headline": "Agreed in concept to move forward with a bond issuance",
    "inShort": "After a discussion of county debt financing, the board voted 3 to 2 to approve a conceptual plan for issuing bonds. The County Attorney clarified the motion was about whether the board wants to move forward with a bond issuance in concept.",
-   "officialTitle": "Discussion Regarding County Debt Financing",
-   "motion": "To approve the conceptual plan of bond issuance."
+   "needsReview": false
   },
   {
    "item": 47560,
@@ -460,19 +537,21 @@
    "topic": "budget",
    "result": "Passed 3 to 2",
    "yes": [
-    "hawkins",
+    "allocco",
     "campbell",
-    "allocco"
+    "hawkins"
    ],
    "no": [
     "amsler",
     "champion"
    ],
-   "mover": "hawkins",
-   "seconder": "allocco",
+   "mover": "allocco",
+   "seconder": "hawkins",
+   "officialTitle": "Contract for Purchase of Real Estate With Sundara Holdings, LLC, for Property Located at 924 Hale Avenue for Clerk of Circuit Court and Comptroller Building",
+   "motion": "To approve the staff recommendation.",
    "headline": "Bought 924 Hale Avenue for a Clerk of Court building",
    "inShort": "Approved buying property at 924 Hale Avenue from Sundara Holdings, LLC for a Clerk of Circuit Court and Comptroller building.",
-   "officialTitle": "Contract for Purchase of Real Estate With Sundara Holdings, LLC, for Property Located at 924 Hale Avenue for Clerk of Circuit Court and Comptroller Building"
+   "needsReview": false
   },
   {
    "item": 47439,
@@ -486,16 +565,17 @@
     "champion"
    ],
    "no": [
-    "hawkins",
+    "allocco",
     "campbell",
-    "allocco"
+    "hawkins"
    ],
-   "mover": "amsler",
-   "seconder": "champion",
+   "mover": "champion",
+   "seconder": "amsler",
+   "officialTitle": "Ordinance Recognizing Manatee Protection Zone Located at Mud River and Weeki Wachee Gardens Area",
+   "motion": "To deny and leave as-is, revised to include signage and education to the public.",
    "headline": "A motion to leave Mud River as-is, with signs instead of a new manatee zone, failed",
    "inShort": "On an ordinance recognizing a manatee protection zone at Mud River and the Weeki Wachee Gardens area, Champion moved to leave things as they are and add signage and public education instead. That motion failed 2 to 3. This record doesn't show a later vote on the ordinance itself.",
-   "officialTitle": "Ordinance Recognizing Manatee Protection Zone Located at Mud River and Weeki Wachee Gardens Area",
-   "motion": "To deny and leave as-is, revised to include signage and education to the public."
+   "needsReview": false
   },
   {
    "item": 44798,
@@ -505,9 +585,9 @@
    "topic": "taxes",
    "result": "Passed 3 to 2",
    "yes": [
-    "hawkins",
+    "allocco",
     "campbell",
-    "allocco"
+    "hawkins"
    ],
    "no": [
     "amsler",
@@ -515,31 +595,11 @@
    ],
    "mover": "campbell",
    "seconder": "allocco",
+   "officialTitle": "Resolution Amending Non-Ad Valorem Assessment Rates of Municipal Service Benefit Unit for Fire Rescue Services",
+   "motion": null,
    "headline": "Changed the fire rescue assessment rates",
    "inShort": "Amended the non-ad valorem assessment rates for the fire rescue Municipal Service Benefit Unit, the yearly fee property owners pay for fire rescue.",
-   "officialTitle": "Resolution Amending Non-Ad Valorem Assessment Rates of Municipal Service Benefit Unit for Fire Rescue Services"
-  },
-  {
-   "item": 43248,
-   "ev": 1338,
-   "date": "2025-03-25",
-   "file": "15446",
-   "topic": "safety",
-   "result": "Passed 3 to 2",
-   "yes": [
-    "hawkins",
-    "campbell",
-    "allocco"
-   ],
-   "no": [
-    "amsler",
-    "champion"
-   ],
-   "mover": "allocco",
-   "seconder": "campbell",
-   "headline": "Bought land to expand the Sheriff's Office",
-   "inShort": "Approved buying real estate from Bulk Transport Company East for a Hernando County Sheriff's Office expansion, with a budget amendment.",
-   "officialTitle": "Contract for Sale and Purchase of Real Estate With Bulk Transport Company East, Inc., for Hernando County Sheriff's Office Expansion and Associated Budget Amendment"
+   "needsReview": false
   },
   {
    "item": 43204,
@@ -549,20 +609,45 @@
    "topic": "other",
    "result": "Passed 4 to 1",
    "yes": [
-    "hawkins",
-    "campbell",
     "allocco",
-    "champion"
+    "campbell",
+    "champion",
+    "hawkins"
    ],
    "no": [
     "amsler"
    ],
    "mover": "campbell",
    "seconder": "allocco",
+   "officialTitle": "Proposed Ordinance to Regulate Distribution and Delivery of Unsolicited Newspapers or Circulars on Private Premises",
+   "motion": "To approve the staff recommendation (Ordinance No. 2025-03).",
    "headline": "Adopted an ordinance regulating delivery of unsolicited newspapers and circulars",
    "inShort": "Adopted Ordinance No. 2025-03, which regulates the distribution and delivery of unsolicited newspapers and circulars on private property.",
-   "officialTitle": "Proposed Ordinance to Regulate Distribution and Delivery of Unsolicited Newspapers or Circulars on Private Premises",
-   "motion": "To approve the staff recommendation (Ordinance No. 2025-03)."
+   "needsReview": false
+  },
+  {
+   "item": 43248,
+   "ev": 1338,
+   "date": "2025-03-25",
+   "file": "15446",
+   "topic": "safety",
+   "result": "Passed 3 to 2",
+   "yes": [
+    "allocco",
+    "campbell",
+    "hawkins"
+   ],
+   "no": [
+    "amsler",
+    "champion"
+   ],
+   "mover": "allocco",
+   "seconder": "campbell",
+   "officialTitle": "Contract for Sale and Purchase of Real Estate With Bulk Transport Company East, Inc., for Hernando County Sheriff’s Office Expansion and Associated Budget Amendment",
+   "motion": "To approve the staff recommendation.",
+   "headline": "Bought land to expand the Sheriff's Office",
+   "inShort": "Approved buying real estate from Bulk Transport Company East for a Hernando County Sheriff's Office expansion, with a budget amendment.",
+   "needsReview": false
   },
   {
    "item": 42669,
@@ -572,19 +657,21 @@
    "topic": "growth",
    "result": "Passed 3 to 2",
    "yes": [
-    "campbell",
     "allocco",
+    "campbell",
     "champion"
    ],
    "no": [
-    "hawkins",
-    "amsler"
+    "amsler",
+    "hawkins"
    ],
    "mover": "champion",
    "seconder": "allocco",
+   "officialTitle": "Mediated Settlement Agreement With Raysor Ventures, LLC, Dated January 10, 2025, and Associated Resolution",
+   "motion": "To approve the staff recommendation with modifications of 90-units, delivering the conservation land, no fence, 15% at 3-bedrooms, 45% at 2-bedrooms and unlimited for 1-bedroom units, with 10% holiday parking and to work with the County regarding a bus stop/sidewalk. (Resolution No. 2025-039).",
    "headline": "Approved a mediated settlement with Raysor Ventures",
    "inShort": "Approved a mediated settlement agreement with Raysor Ventures, LLC dated Jan 10, 2025, with modifications including 90 units, delivering conservation land and a set mix of bedroom sizes.",
-   "officialTitle": "Mediated Settlement Agreement With Raysor Ventures, LLC, Dated January 10, 2025, and Associated Resolution"
+   "needsReview": false
   },
   {
    "item": 42285,
@@ -594,19 +681,21 @@
    "topic": "growth",
    "result": "Passed 3 to 2",
    "yes": [
-    "hawkins",
     "amsler",
-    "champion"
+    "champion",
+    "hawkins"
    ],
    "no": [
-    "campbell",
-    "allocco"
+    "allocco",
+    "campbell"
    ],
    "mover": "amsler",
    "seconder": "champion",
+   "officialTitle": "Declaration of County Owned Property Located on Kane Road as Surplus Property and Consideration of Donation to Mid Florida Community Services, Inc., d/b/a You Thrive Florida for Affordable Housing (Key #321342)",
+   "motion": null,
    "headline": "Declared county land on Kane Road surplus and donated it for affordable housing",
    "inShort": "Declared county-owned property on Kane Road surplus and approved donating it to Mid Florida Community Services (You Thrive Florida) for affordable housing.",
-   "officialTitle": "Declaration of County Owned Property Located on Kane Road as Surplus Property and Consideration of Donation to Mid Florida Community Services, Inc., d/b/a You Thrive Florida for Affordable Housing (Key #321342)"
+   "needsReview": false
   },
   {
    "item": 41095,
@@ -619,16 +708,18 @@
     "campbell"
    ],
    "no": [
-    "hawkins",
     "allocco",
     "amsler",
-    "champion"
+    "champion",
+    "hawkins"
    ],
    "mover": "campbell",
-   "seconder": null,
+   "seconder": "allocco",
+   "officialTitle": "Ordinance Amending Hernando County Code of Ordinances, Chapter 14, Article IV; Division 2: Name; Subsection 14-102 Definitions; Subsection 14-104 Creation of Unit and Legal Description of Hernando County Solid Waste Collection Municipal Services Benefit Unit",
+   "motion": "Agenda Item",
    "headline": "Rejected changes to the solid waste collection district",
    "inShort": "An ordinance amending the code for the Hernando County Solid Waste Collection Municipal Service Benefit Unit failed 1 to 4.",
-   "officialTitle": "Ordinance Amending Hernando County Code of Ordinances, Chapter 14, Article IV; Division 2; Hernando County Solid Waste Collection Municipal Service Benefit Unit"
+   "needsReview": false
   },
   {
    "item": 39811,
@@ -638,9 +729,9 @@
    "topic": "other",
    "result": "Passed 3 to 2",
    "yes": [
-    "hawkins",
+    "allocco",
     "campbell",
-    "allocco"
+    "hawkins"
    ],
    "no": [
     "amsler",
@@ -648,9 +739,11 @@
    ],
    "mover": "allocco",
    "seconder": "campbell",
+   "officialTitle": "Proposed Ordinance Amending Hernando County Code No. 6-43 to Authorize Board of County Commissioners to Enter Into Contracts With Third-Parties to Provide Animal Sheltering Services",
+   "motion": "To approve the staff recommendation (Ordinance No. 2024-18).",
    "headline": "Allowed outside groups to run animal sheltering",
    "inShort": "Amended county code so the commission can contract with third parties to provide animal sheltering services.",
-   "officialTitle": "Proposed Ordinance Amending Hernando County Code No. 6-43 to Authorize Board of County Commissioners to Enter Into Contracts With Third-Parties to Provide Animal Sheltering Services"
+   "needsReview": false
   },
   {
    "item": 38379,
@@ -660,9 +753,9 @@
    "topic": "safety",
    "result": "Passed 3 to 2",
    "yes": [
-    "hawkins",
+    "allocco",
     "campbell",
-    "allocco"
+    "hawkins"
    ],
    "no": [
     "amsler",
@@ -670,9 +763,11 @@
    ],
    "mover": "allocco",
    "seconder": "campbell",
+   "officialTitle": "Return of Excess Cyber Security Funds for FY 2023-24 and Request for Cyber Security Funds for FY 2024-25 From Hernando County Sheriff’s Office",
+   "motion": "To approve Item No. P-6.",
    "headline": "Returned and re-requested Sheriff's cybersecurity money",
    "inShort": "Approved the return of excess FY 2023-24 cybersecurity funds and a new FY 2024-25 cybersecurity funding request from the Sheriff's Office.",
-   "officialTitle": "Return of Excess Cyber Security Funds for FY 2023-24 and Request for Cyber Security Funds for FY 2024-25 From Hernando County Sheriff's Office"
+   "needsReview": false
   }
  ]
 }
