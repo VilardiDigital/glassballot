@@ -5,6 +5,8 @@ on:
   schedule:
     - cron: "17 9 * * *"   # 5:17 am Eastern (9:17 UTC), every day
   workflow_dispatch: {}     # "Run workflow" button for an on-demand refresh
+  push:
+    paths: [".github/workflows/refresh.yml", "pipeline/refresh.py"]   # test run whenever the job itself changes
 permissions:
   contents: write
 jobs:
