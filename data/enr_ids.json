@@ -647,18 +647,6 @@
   "primary": 4045,
   "general": 4085
  },
- "pinellas": {
-  "vendor": "clarity",
-  "base": "https://enr.votepinellas.gov/FL/Pinellas",
-  "all": [
-   [
-    126780,
-    "2026 Primary Election",
-    "8/18/2026"
-   ]
-  ],
-  "primary": 126780
- },
  "polk": {
   "code": "POL",
   "all": [
@@ -844,5 +832,17 @@
   ],
   "primary": 4034,
   "general": 4104
+ },
+ "pinellas": {
+  "vendor": "clarity",
+  "base": "https://enr.votepinellas.gov/FL/Pinellas",
+  "all": [
+   [
+    126780,
+    "2026 Primary Election",
+    "8/18/2026"
+   ]
+  ],
+  "primary": 126780
  }
 }
