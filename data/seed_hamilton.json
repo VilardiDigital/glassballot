@@ -99,26 +99,6 @@
    }
   },
   {
-   "id": "ratliff",
-   "name": "Derek R. Ratliff",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "4",
-   "race": "bcc-d4",
-   "finance": {
-    "voterfocusId": "177",
-    "status": "Active- Defeated"
-   }
-  },
-  {
    "id": "mccall",
    "name": "Cheryl Deas McCall",
    "claims": {},
@@ -212,13 +192,12 @@
    "office": "County Commissioner District 4",
    "people": [
     "erixton",
-    "pinello",
-    "ratliff"
+    "pinello"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": false
+   "onNovBallot": true
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",

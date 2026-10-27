@@ -101,34 +101,6 @@
    "nonpartisan": true
   },
   {
-   "id": "koch",
-   "name": "Colleen Koch",
-   "claims": {},
-   "office": "Candidate, School Board",
-   "status": "open",
-   "district": "3",
-   "race": "sb-d3",
-   "finance": {
-    "voterfocusId": "740",
-    "status": "Active- Defeated"
-   },
-   "nonpartisan": true
-  },
-  {
-   "id": "manley",
-   "name": "Glenn Manley",
-   "claims": {},
-   "office": "Candidate, School Board",
-   "status": "open",
-   "district": "3",
-   "race": "sb-d3",
-   "finance": {
-    "voterfocusId": "735",
-    "status": "Active- Defeated"
-   },
-   "nonpartisan": true
-  },
-  {
    "id": "moore",
    "name": "Christopher Moore",
    "claims": {},
@@ -155,82 +127,6 @@
     "status": "Inactive - Elected"
    },
    "nonpartisan": true
-  },
-  {
-   "id": "birdsell",
-   "name": "Bobby J. Birdsell",
-   "claims": {
-    "party": [
-     {
-      "value": "NON",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "race": "bcc-callaway-commissioner-ward-1",
-   "finance": {
-    "voterfocusId": "729",
-    "status": "Active- Qualified"
-   }
-  },
-  {
-   "id": "custer",
-   "name": "Karen Custer",
-   "claims": {
-    "party": [
-     {
-      "value": "NON",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "race": "bcc-callaway-commissioner-ward-1",
-   "finance": {
-    "voterfocusId": "726",
-    "status": "Active- Qualified"
-   }
-  },
-  {
-   "id": "kirkland",
-   "name": "Jamie Kirkland",
-   "claims": {
-    "party": [
-     {
-      "value": "NON",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "race": "bcc-callaway-commissioner-ward-2",
-   "finance": {
-    "voterfocusId": "732",
-    "status": "Active- Qualified"
-   }
-  },
-  {
-   "id": "overway",
-   "name": "Spring Overway",
-   "claims": {
-    "party": [
-     {
-      "value": "NON",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "race": "bcc-callaway-commissioner-ward-2",
-   "finance": {
-    "voterfocusId": "742",
-    "status": "Active- Qualified"
-   }
   }
  ],
  "races": [
@@ -284,14 +180,12 @@
    "office": "School Board Member, District 3",
    "people": [
     "haley",
-    "koch",
-    "manley",
     "moore"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": false
+   "onNovBallot": true
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -306,34 +200,6 @@
    ],
    "onNovBallot": false,
    "decided": "Steve Moss (elected)"
-  },
-  {
-   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "bcc-callaway-commissioner-ward-1",
-   "title": "County Commission",
-   "office": "Callaway Commissioner Ward 1",
-   "people": [
-    "birdsell",
-    "custer"
-   ],
-   "sources": [
-    "soe-vf"
-   ],
-   "onNovBallot": true
-  },
-  {
-   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "bcc-callaway-commissioner-ward-2",
-   "title": "County Commission",
-   "office": "Callaway Commissioner Ward 2",
-   "people": [
-    "kirkland",
-    "overway"
-   ],
-   "sources": [
-    "soe-vf"
-   ],
-   "onNovBallot": true
   }
  ],
  "votes": [],

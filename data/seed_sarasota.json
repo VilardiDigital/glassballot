@@ -99,26 +99,6 @@
    }
   },
   {
-   "id": "neunder",
-   "name": "Joe Neunder",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "4",
-   "race": "bcc-d4",
-   "finance": {
-    "voterfocusId": "1261",
-    "status": "Active- Defeated"
-   }
-  },
-  {
    "id": "brandt",
    "name": "Heidi Brandt",
    "claims": {},
@@ -129,20 +109,6 @@
    "finance": {
     "voterfocusId": "1267",
     "status": "Active- Advanced"
-   },
-   "nonpartisan": true
-  },
-  {
-   "id": "dewitt",
-   "name": "Teresa DeWitt",
-   "claims": {},
-   "office": "Candidate, School Board",
-   "status": "open",
-   "district": "1",
-   "race": "sb-d1",
-   "finance": {
-    "voterfocusId": "1306",
-    "status": "Active- Defeated"
    },
    "nonpartisan": true
   },
@@ -240,13 +206,12 @@
    "office": "County Commissioner, Dist. 4",
    "people": [
     "deniro",
-    "london",
-    "neunder"
+    "london"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": false
+   "onNovBallot": true
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -255,13 +220,12 @@
    "office": "School Board, Dist. 1",
    "people": [
     "brandt",
-    "dewitt",
     "glover"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": false
+   "onNovBallot": true
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",

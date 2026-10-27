@@ -59,82 +59,6 @@
     "status": "Inactive - Unopposed"
    },
    "nonpartisan": true
-  },
-  {
-   "id": "correa",
-   "name": "Robbi Correa",
-   "claims": {
-    "party": [
-     {
-      "value": "NP",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "race": "bcc-palatka-mayor-commissioner",
-   "finance": {
-    "voterfocusId": "512",
-    "status": "Inactive - Defeated"
-   }
-  },
-  {
-   "id": "daniel",
-   "name": "Tatyiana Henry Daniel",
-   "claims": {
-    "party": [
-     {
-      "value": "NP",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "race": "bcc-palatka-mayor-commissioner",
-   "finance": {
-    "voterfocusId": "505",
-    "status": "Inactive - Defeated"
-   }
-  },
-  {
-   "id": "daniels",
-   "name": "Constance Daniels",
-   "claims": {
-    "party": [
-     {
-      "value": "NP",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "race": "bcc-palatka-mayor-commissioner",
-   "finance": {
-    "voterfocusId": "509",
-    "status": "Active- Defeated"
-   }
-  },
-  {
-   "id": "flagg",
-   "name": "Karl N. Flagg",
-   "claims": {
-    "party": [
-     {
-      "value": "NP",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "race": "bcc-palatka-mayor-commissioner",
-   "finance": {
-    "voterfocusId": "501",
-    "status": "Active- Elected"
-   }
   }
  ],
  "races": [
@@ -179,23 +103,6 @@
    ],
    "onNovBallot": false,
    "decided": "Phil Leary (unopposed)"
-  },
-  {
-   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "bcc-palatka-mayor-commissioner",
-   "title": "County Commission",
-   "office": "Palatka Mayor/ Commissioner",
-   "people": [
-    "correa",
-    "daniel",
-    "daniels",
-    "flagg"
-   ],
-   "sources": [
-    "soe-vf"
-   ],
-   "onNovBallot": false,
-   "decided": "Karl N. Flagg (elected)"
   }
  ],
  "votes": [],

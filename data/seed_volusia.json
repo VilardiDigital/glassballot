@@ -19,6 +19,116 @@
  },
  "people": [
   {
+   "id": "miller",
+   "name": "Nancy J. Miller",
+   "claims": {},
+   "office": "Candidate, County Council",
+   "status": "open",
+   "race": "bcc-county-council-at-large",
+   "finance": {
+    "voterfocusId": "1083",
+    "status": "Active- Advanced"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "poniatowski",
+   "name": "Mike Poniatowski",
+   "claims": {},
+   "office": "Candidate, County Council",
+   "status": "open",
+   "race": "bcc-county-council-at-large",
+   "finance": {
+    "voterfocusId": "1087",
+    "status": "Active- Advanced"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "anderson",
+   "name": "Wendy Anderson",
+   "claims": {},
+   "office": "Candidate, County Council",
+   "status": "open",
+   "district": "1",
+   "race": "bcc-d1",
+   "finance": {
+    "voterfocusId": "1099",
+    "status": "Active- Advanced"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "dempsey",
+   "name": "Don Dempsey",
+   "claims": {},
+   "office": "Candidate, County Council",
+   "status": "open",
+   "district": "1",
+   "race": "bcc-d1",
+   "finance": {
+    "voterfocusId": "1139",
+    "status": "Active- Advanced"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "robins",
+   "name": "Danny Robins",
+   "claims": {},
+   "office": "Candidate, County Council",
+   "status": "open",
+   "district": "3",
+   "race": "bcc-d3",
+   "finance": {
+    "voterfocusId": "1088",
+    "status": "Active- Advanced"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "white",
+   "name": "Bryon White",
+   "claims": {},
+   "office": "Candidate, County Council",
+   "status": "open",
+   "district": "3",
+   "race": "bcc-d3",
+   "finance": {
+    "voterfocusId": "1093",
+    "status": "Active- Advanced"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "santiago",
+   "name": "David Santiago",
+   "claims": {},
+   "office": "Candidate, County Council",
+   "status": "open",
+   "district": "5",
+   "race": "bcc-d5",
+   "finance": {
+    "voterfocusId": "1114",
+    "status": "Active- Advanced"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "sosa",
+   "name": "J. David Sosa",
+   "claims": {},
+   "office": "Candidate, County Council",
+   "status": "open",
+   "district": "5",
+   "race": "bcc-d5",
+   "finance": {
+    "voterfocusId": "1182",
+    "status": "Active- Advanced"
+   },
+   "nonpartisan": false
+  },
+  {
    "id": "beery",
    "name": "Brenda Beery",
    "claims": {},
@@ -29,20 +139,6 @@
    "finance": {
     "voterfocusId": "1131",
     "status": "Active- Advanced"
-   },
-   "nonpartisan": true
-  },
-  {
-   "id": "carrell",
-   "name": "Jaclyn Carrell",
-   "claims": {},
-   "office": "Candidate, School Board",
-   "status": "open",
-   "district": "1",
-   "race": "sb-d1",
-   "finance": {
-    "voterfocusId": "1158",
-    "status": "Active- Defeated"
    },
    "nonpartisan": true
   },
@@ -120,18 +216,73 @@
  "races": [
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-county-council-at-large",
+   "title": "County Council",
+   "office": "County Council At Large",
+   "people": [
+    "miller",
+    "poniatowski"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d1",
+   "title": "County Council, District 1",
+   "office": "County Council Member, District 1",
+   "people": [
+    "anderson",
+    "dempsey"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d3",
+   "title": "County Council, District 3",
+   "office": "County Council Member, District 3",
+   "people": [
+    "robins",
+    "white"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d5",
+   "title": "County Council, District 5",
+   "office": "County Council Member, District 5",
+   "people": [
+    "santiago",
+    "sosa"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
    "id": "sb-d1",
    "title": "School Board, District 1",
    "office": "School Board Member, District 1",
    "people": [
     "beery",
-    "carrell",
     "haynes"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": false
+   "onNovBallot": true
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",

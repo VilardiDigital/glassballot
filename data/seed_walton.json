@@ -19,26 +19,6 @@
  },
  "people": [
   {
-   "id": "glidewell",
-   "name": "Danny Glidewell",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "2",
-   "race": "bcc-d2",
-   "finance": {
-    "voterfocusId": "659",
-    "status": "Active- Defeated"
-   }
-  },
-  {
    "id": "whitaker",
    "name": "Warren Whitaker",
    "claims": {
@@ -76,46 +56,6 @@
    "finance": {
     "voterfocusId": "657",
     "status": "Active- Advanced"
-   }
-  },
-  {
-   "id": "calkins",
-   "name": "James Calkins",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "4",
-   "race": "bcc-d4",
-   "finance": {
-    "voterfocusId": "656",
-    "status": "Active- Defeated"
-   }
-  },
-  {
-   "id": "johns",
-   "name": "Donna Johns",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "4",
-   "race": "bcc-d4",
-   "finance": {
-    "voterfocusId": "676",
-    "status": "Active- Defeated"
    }
   },
   {
@@ -182,13 +122,12 @@
    "title": "County Commission, District 2",
    "office": "County Commissioner, District 2",
    "people": [
-    "glidewell",
     "whitaker"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": false
+   "onNovBallot": true
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -196,14 +135,12 @@
    "title": "County Commission, District 4",
    "office": "County Commissioner, District 4",
    "people": [
-    "bagby",
-    "calkins",
-    "johns"
+    "bagby"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": false
+   "onNovBallot": true
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",

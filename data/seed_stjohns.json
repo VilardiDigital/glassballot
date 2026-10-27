@@ -201,20 +201,6 @@
    "nonpartisan": true
   },
   {
-   "id": "leifnp",
-   "name": "Leif M. Jonassen III (N/P)",
-   "claims": {},
-   "office": "Candidate, School Board",
-   "status": "open",
-   "district": "4",
-   "race": "sb-d4",
-   "finance": {
-    "voterfocusId": "1502",
-    "status": "Active- Defeated"
-   },
-   "nonpartisan": true
-  },
-  {
    "id": "tammienp",
    "name": "Tammie McClafferty (N/P)",
    "claims": {},
@@ -312,14 +298,13 @@
    "title": "School Board, District 4",
    "office": "School Board - Dist 4",
    "people": [
-    "leifnp",
     "tammienp",
     "jilliannp"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": false
+   "onNovBallot": true
   }
  ],
  "votes": [],

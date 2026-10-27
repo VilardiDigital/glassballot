@@ -31,7 +31,8 @@
    },
    "office": "Candidate, County Commission",
    "status": "open",
-   "race": "bcc-county-commissioner-2",
+   "district": "2",
+   "race": "bcc-d2",
    "finance": {
     "voterfocusId": "2235",
     "status": "Active- Qualified"
@@ -50,7 +51,8 @@
    },
    "office": "Candidate, County Commission",
    "status": "open",
-   "race": "bcc-county-commissioner-2",
+   "district": "2",
+   "race": "bcc-d2",
    "finance": {
     "voterfocusId": "2397",
     "status": "Active- Qualified"
@@ -69,7 +71,8 @@
    },
    "office": "Candidate, County Commission",
    "status": "open",
-   "race": "bcc-county-commissioner-4",
+   "district": "4",
+   "race": "bcc-d4",
    "finance": {
     "voterfocusId": "2413",
     "status": "Active- Qualified"
@@ -88,7 +91,8 @@
    },
    "office": "Candidate, County Commission",
    "status": "open",
-   "race": "bcc-county-commissioner-4",
+   "district": "4",
+   "race": "bcc-d4",
    "finance": {
     "voterfocusId": "2222",
     "status": "Active- Qualified"
@@ -107,7 +111,8 @@
    },
    "office": "Candidate, County Commission",
    "status": "open",
-   "race": "bcc-county-commissioner-5",
+   "district": "5",
+   "race": "bcc-d5",
    "finance": {
     "voterfocusId": "2224",
     "status": "Inactive - Elected"
@@ -126,7 +131,8 @@
    },
    "office": "Candidate, County Commission",
    "status": "open",
-   "race": "bcc-county-commissioner-5",
+   "district": "5",
+   "race": "bcc-d5",
    "finance": {
     "voterfocusId": "2232",
     "status": "Active- Defeated"
@@ -138,7 +144,8 @@
    "claims": {},
    "office": "Candidate, School Board",
    "status": "open",
-   "race": "sb-school-board-1",
+   "district": "1",
+   "race": "sb-d1",
    "finance": {
     "voterfocusId": "2226",
     "status": "Inactive - Elected"
@@ -151,7 +158,8 @@
    "claims": {},
    "office": "Candidate, School Board",
    "status": "open",
-   "race": "sb-school-board-1",
+   "district": "1",
+   "race": "sb-d1",
    "finance": {
     "voterfocusId": "2238",
     "status": "Active- Defeated"
@@ -164,7 +172,8 @@
    "claims": {},
    "office": "Candidate, School Board",
    "status": "open",
-   "race": "sb-school-board-4",
+   "district": "4",
+   "race": "sb-d4",
    "finance": {
     "voterfocusId": "2216",
     "status": "Active- Qualified"
@@ -177,7 +186,8 @@
    "claims": {},
    "office": "Candidate, School Board",
    "status": "open",
-   "race": "sb-school-board-4",
+   "district": "4",
+   "race": "sb-d4",
    "finance": {
     "voterfocusId": "2207",
     "status": "Active- Qualified"
@@ -190,7 +200,8 @@
    "claims": {},
    "office": "Candidate, School Board",
    "status": "open",
-   "race": "sb-school-board-5",
+   "district": "5",
+   "race": "sb-d5",
    "finance": {
     "voterfocusId": "2239",
     "status": "Active- Qualified"
@@ -203,7 +214,8 @@
    "claims": {},
    "office": "Candidate, School Board",
    "status": "open",
-   "race": "sb-school-board-5",
+   "district": "5",
+   "race": "sb-d5",
    "finance": {
     "voterfocusId": "2204",
     "status": "Active- Qualified"
@@ -216,7 +228,8 @@
    "claims": {},
    "office": "Candidate, School Board",
    "status": "open",
-   "race": "sb-school-board-6-at-large",
+   "district": "6",
+   "race": "sb-d6",
    "finance": {
     "voterfocusId": "2225",
     "status": "Active- Elected"
@@ -229,7 +242,8 @@
    "claims": {},
    "office": "Candidate, School Board",
    "status": "open",
-   "race": "sb-school-board-6-at-large",
+   "district": "6",
+   "race": "sb-d6",
    "finance": {
     "voterfocusId": "2201",
     "status": "Inactive - Defeated"
@@ -240,8 +254,8 @@
  "races": [
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "bcc-county-commissioner-2",
-   "title": "County Commission",
+   "id": "bcc-d2",
+   "title": "County Commission, District 2",
    "office": "COUNTY COMMISSIONER-2",
    "people": [
     "pendergrass",
@@ -254,8 +268,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "bcc-county-commissioner-4",
-   "title": "County Commission",
+   "id": "bcc-d4",
+   "title": "County Commission, District 4",
    "office": "COUNTY COMMISSIONER-4",
    "people": [
     "artis",
@@ -268,8 +282,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "bcc-county-commissioner-5",
-   "title": "County Commission",
+   "id": "bcc-d5",
+   "title": "County Commission, District 5",
    "office": "COUNTY COMMISSIONER-5",
    "people": [
     "cochran",
@@ -283,8 +297,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "sb-school-board-1",
-   "title": "School Board",
+   "id": "sb-d1",
+   "title": "School Board, District 1",
    "office": "SCHOOL BOARD-1",
    "people": [
     "fisher",
@@ -298,8 +312,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "sb-school-board-4",
-   "title": "School Board",
+   "id": "sb-d4",
+   "title": "School Board, District 4",
    "office": "SCHOOL BOARD-4",
    "people": [
     "beougher",
@@ -312,8 +326,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "sb-school-board-5",
-   "title": "School Board",
+   "id": "sb-d5",
+   "title": "School Board, District 5",
    "office": "SCHOOL BOARD-5",
    "people": [
     "johnson",
@@ -326,8 +340,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "sb-school-board-6-at-large",
-   "title": "School Board",
+   "id": "sb-d6",
+   "title": "School Board, District 6",
    "office": "SCHOOL BOARD-6 AT LARGE",
    "people": [
     "langfordfleming",

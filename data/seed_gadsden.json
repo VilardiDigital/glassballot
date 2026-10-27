@@ -119,46 +119,6 @@
    }
   },
   {
-   "id": "holt",
-   "name": "Brenda Holt",
-   "claims": {
-    "party": [
-     {
-      "value": "Democrat",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "4",
-   "race": "bcc-d4",
-   "finance": {
-    "voterfocusId": "452",
-    "status": "Active- Defeated"
-   }
-  },
-  {
-   "id": "mcnealy",
-   "name": "Jeff McNealy",
-   "claims": {
-    "party": [
-     {
-      "value": "Democrat",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "4",
-   "race": "bcc-d4",
-   "finance": {
-    "voterfocusId": "420",
-    "status": "Active- Defeated"
-   }
-  },
-  {
    "id": "moore",
    "name": "Rodney Moore",
    "claims": {},
@@ -252,14 +212,12 @@
    "office": "County Commissioner District 4",
    "people": [
     "blocker",
-    "brown",
-    "holt",
-    "mcnealy"
+    "brown"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": false
+   "onNovBallot": true
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",

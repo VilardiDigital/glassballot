@@ -39,46 +39,6 @@
    }
   },
   {
-   "id": "clemons",
-   "name": "Jeff Clemons",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "2",
-   "race": "bcc-d2",
-   "finance": {
-    "voterfocusId": "335",
-    "status": "Active- Defeated"
-   }
-  },
-  {
-   "id": "smith",
-   "name": "Jimmy Smith",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "2",
-   "race": "bcc-d2",
-   "finance": {
-    "voterfocusId": "336",
-    "status": "Active- Defeated"
-   }
-  },
-  {
    "id": "talleda",
    "name": "Jenna Talleda",
    "claims": {
@@ -96,26 +56,6 @@
    "finance": {
     "voterfocusId": "342",
     "status": "Active- Advanced"
-   }
-  },
-  {
-   "id": "thomas",
-   "name": "Brad Thomas",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "2",
-   "race": "bcc-d2",
-   "finance": {
-    "voterfocusId": "330",
-    "status": "Active- Defeated"
    }
   },
   {
@@ -209,15 +149,12 @@
    "office": "County Commissioner District 2",
    "people": [
     "bennett",
-    "clemons",
-    "smith",
-    "talleda",
-    "thomas"
+    "talleda"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": false
+   "onNovBallot": true
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",

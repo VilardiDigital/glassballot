@@ -249,20 +249,6 @@
    "nonpartisan": true
   },
   {
-   "id": "peden",
-   "name": "Scott Peden",
-   "claims": {},
-   "office": "Candidate, School Board",
-   "status": "open",
-   "district": "5",
-   "race": "sb-d5",
-   "finance": {
-    "voterfocusId": "230",
-    "status": "Active- Defeated"
-   },
-   "nonpartisan": true
-  },
-  {
    "id": "teston",
    "name": "Jill Broxson Teston",
    "claims": {},
@@ -349,13 +335,12 @@
    "office": "School Board District 5",
    "people": [
     "locklin",
-    "peden",
     "teston"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": false
+   "onNovBallot": true
   }
  ],
  "votes": [],

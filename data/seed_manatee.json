@@ -39,66 +39,6 @@
    }
   },
   {
-   "id": "dunn",
-   "name": "John Dunn",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "1",
-   "race": "bcc-d1",
-   "finance": {
-    "voterfocusId": "2503",
-    "status": "Active- Defeated"
-   }
-  },
-  {
-   "id": "harrison",
-   "name": "Michael L Harrison",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "1",
-   "race": "bcc-d1",
-   "finance": {
-    "voterfocusId": "2502",
-    "status": "Active- Defeated"
-   }
-  },
-  {
-   "id": "johnson",
-   "name": "Adam Johnson",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "1",
-   "race": "bcc-d1",
-   "finance": {
-    "voterfocusId": "2510",
-    "status": "Active- Defeated"
-   }
-  },
-  {
    "id": "lindroosvalimaki",
    "name": "Sari Lindroos-Valimaki",
    "claims": {
@@ -136,66 +76,6 @@
    "finance": {
     "voterfocusId": "2548",
     "status": "Active- Qualified Write-In"
-   }
-  },
-  {
-   "id": "stanoch",
-   "name": "Mark Stanoch",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "1",
-   "race": "bcc-d1",
-   "finance": {
-    "voterfocusId": "2511",
-    "status": "Active- Defeated"
-   }
-  },
-  {
-   "id": "taylor",
-   "name": "Leland M Taylor",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "1",
-   "race": "bcc-d1",
-   "finance": {
-    "voterfocusId": "2521",
-    "status": "Active- Defeated"
-   }
-  },
-  {
-   "id": "bailey",
-   "name": "Edward A Bailey Jr",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "2",
-   "race": "bcc-d2",
-   "finance": {
-    "voterfocusId": "2492",
-    "status": "Active- Defeated"
    }
   },
   {
@@ -279,26 +159,6 @@
    }
   },
   {
-   "id": "barrett",
-   "name": "Tony Barrett",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "6",
-   "race": "bcc-d6",
-   "finance": {
-    "voterfocusId": "2467",
-    "status": "Active- Defeated"
-   }
-  },
-  {
    "id": "bellamy",
    "name": "Reggie J Bellamy",
    "claims": {
@@ -316,46 +176,6 @@
    "finance": {
     "voterfocusId": "2499",
     "status": "Active- Advanced"
-   }
-  },
-  {
-   "id": "calovich",
-   "name": "John B. Calovich",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "6",
-   "race": "bcc-d6",
-   "finance": {
-    "voterfocusId": "2468",
-    "status": "Active- Defeated"
-   }
-  },
-  {
-   "id": "ference",
-   "name": "Edward J Ference",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "6",
-   "race": "bcc-d6",
-   "finance": {
-    "voterfocusId": "2458",
-    "status": "Active- Defeated"
    }
   },
   {
@@ -457,18 +277,13 @@
    "office": "COUNTY COMMISSION - DIST. 1",
    "people": [
     "arnold",
-    "dunn",
-    "harrison",
-    "johnson",
     "lindroosvalimaki",
-    "may",
-    "stanoch",
-    "taylor"
+    "may"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": false
+   "onNovBallot": true
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -476,14 +291,13 @@
    "title": "County Commission, District 2",
    "office": "COUNTY COMMISSION - DIST. 2",
    "people": [
-    "bailey",
     "ballard",
     "smith"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": false
+   "onNovBallot": true
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -506,16 +320,13 @@
    "title": "County Commission, District 6",
    "office": "COUNTY COMMISSION - DIST. 6 - AT LRG",
    "people": [
-    "barrett",
     "bellamy",
-    "calovich",
-    "ference",
     "poulton"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": false
+   "onNovBallot": true
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",

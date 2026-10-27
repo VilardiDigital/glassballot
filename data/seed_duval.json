@@ -33,20 +33,6 @@
    "nonpartisan": true
   },
   {
-   "id": "myers",
-   "name": "Terence Lavele Myers",
-   "claims": {},
-   "office": "Candidate, School Board",
-   "status": "open",
-   "district": "2",
-   "race": "sb-d2",
-   "finance": {
-    "voterfocusId": "1421",
-    "status": "Active- Defeated"
-   },
-   "nonpartisan": true
-  },
-  {
    "id": "westrich",
    "name": "Donna Mae Westrich",
    "claims": {},
@@ -62,20 +48,6 @@
   },
   {
    "id": "butler",
-   "name": "Alfreda Denson Butler",
-   "claims": {},
-   "office": "Candidate, School Board",
-   "status": "open",
-   "district": "4",
-   "race": "sb-d4",
-   "finance": {
-    "voterfocusId": "1380",
-    "status": "Active- Defeated"
-   },
-   "nonpartisan": true
-  },
-  {
-   "id": "rhodesiabutler",
    "name": "Rhodesia \"Rho\" Butler",
    "claims": {},
    "office": "Candidate, School Board",
@@ -143,48 +115,6 @@
     "status": "Active- Advanced"
    },
    "nonpartisan": true
-  },
-  {
-   "id": "petty",
-   "name": "Michelle Petty",
-   "claims": {},
-   "office": "Candidate, School Board",
-   "status": "open",
-   "district": "6",
-   "race": "sb-d6",
-   "finance": {
-    "voterfocusId": "1386",
-    "status": "Inactive - Defeated"
-   },
-   "nonpartisan": true
-  },
-  {
-   "id": "stafford",
-   "name": "Robert Stafford",
-   "claims": {},
-   "office": "Candidate, School Board",
-   "status": "open",
-   "district": "6",
-   "race": "sb-d6",
-   "finance": {
-    "voterfocusId": "1418",
-    "status": "Active- Defeated"
-   },
-   "nonpartisan": true
-  },
-  {
-   "id": "thomas",
-   "name": "Tammyette Thomas",
-   "claims": {},
-   "office": "Candidate, School Board",
-   "status": "open",
-   "district": "6",
-   "race": "sb-d6",
-   "finance": {
-    "voterfocusId": "1471",
-    "status": "Active- Defeated"
-   },
-   "nonpartisan": true
   }
  ],
  "races": [
@@ -195,13 +125,12 @@
    "office": "School Board Dist 2",
    "people": [
     "bradley",
-    "myers",
     "westrich"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": false
+   "onNovBallot": true
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -210,14 +139,13 @@
    "office": "School Board Dist 4",
    "people": [
     "butler",
-    "rhodesiabutler",
     "jacobs",
     "kearsemccastler"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": false
+   "onNovBallot": true
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -226,15 +154,12 @@
    "office": "School Board Dist 6",
    "people": [
     "denmark",
-    "james",
-    "petty",
-    "stafford",
-    "thomas"
+    "james"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": false
+   "onNovBallot": true
   }
  ],
  "votes": [],

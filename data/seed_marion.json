@@ -113,7 +113,8 @@
    "claims": {},
    "office": "Candidate, County Commission",
    "status": "open",
-   "race": "bcc-county-commissioner-1",
+   "district": "1",
+   "race": "bcc-d1",
    "finance": {
     "voterfocusId": "584",
     "status": "Inactive"
@@ -126,7 +127,8 @@
    "claims": {},
    "office": "Candidate, County Commission",
    "status": "open",
-   "race": "bcc-county-commissioner-2",
+   "district": "2",
+   "race": "bcc-d2",
    "finance": {
     "voterfocusId": "477",
     "status": "Inactive"
@@ -139,7 +141,8 @@
    "claims": {},
    "office": "Candidate, County Commission",
    "status": "open",
-   "race": "bcc-county-commissioner-3",
+   "district": "3",
+   "race": "bcc-d3",
    "finance": {
     "voterfocusId": "583",
     "status": "Inactive"
@@ -152,7 +155,8 @@
    "claims": {},
    "office": "Candidate, County Commission",
    "status": "open",
-   "race": "bcc-county-commissioner-4",
+   "district": "4",
+   "race": "bcc-d4",
    "finance": {
     "voterfocusId": "478",
     "status": "Active"
@@ -165,7 +169,8 @@
    "claims": {},
    "office": "Candidate, County Commission",
    "status": "open",
-   "race": "bcc-county-commissioner-5",
+   "district": "5",
+   "race": "bcc-d5",
    "finance": {
     "voterfocusId": "579",
     "status": "Active"
@@ -176,8 +181,8 @@
  "races": [
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "bcc-county-commissioner-1",
-   "title": "County Commission",
+   "id": "bcc-d1",
+   "title": "County Commission, District 1",
    "office": "COUNTY COMMISSIONER - 1",
    "people": [
     "account"
@@ -189,8 +194,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "bcc-county-commissioner-2",
-   "title": "County Commission",
+   "id": "bcc-d2",
+   "title": "County Commission, District 2",
    "office": "COUNTY COMMISSIONER - 2",
    "people": [
     "kathyaccount"
@@ -202,8 +207,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "bcc-county-commissioner-3",
-   "title": "County Commission",
+   "id": "bcc-d3",
+   "title": "County Commission, District 3",
    "office": "COUNTY COMMISSIONER - 3",
    "people": [
     "jeffaccount"
@@ -215,8 +220,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "bcc-county-commissioner-4",
-   "title": "County Commission",
+   "id": "bcc-d4",
+   "title": "County Commission, District 4",
    "office": "COUNTY COMMISSIONER - 4",
    "people": [
     "carlaccount"
@@ -228,8 +233,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "bcc-county-commissioner-5",
-   "title": "County Commission",
+   "id": "bcc-d5",
+   "title": "County Commission, District 5",
    "office": "COUNTY COMMISSIONER - 5",
    "people": [
     "michelleaccount"

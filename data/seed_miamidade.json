@@ -24,8 +24,8 @@
    "claims": {},
    "office": "Candidate, School Board",
    "status": "open",
-   "district": "01",
-   "race": "sb-d01",
+   "district": "1",
+   "race": "sb-d1",
    "finance": {
     "voterfocusId": "3076",
     "status": "Active- Runoff"
@@ -38,8 +38,8 @@
    "claims": {},
    "office": "Candidate, School Board",
    "status": "open",
-   "district": "01",
-   "race": "sb-d01",
+   "district": "1",
+   "race": "sb-d1",
    "finance": {
     "voterfocusId": "3070",
     "status": "Active- Runoff"
@@ -52,8 +52,8 @@
    "claims": {},
    "office": "Candidate, School Board",
    "status": "open",
-   "district": "02",
-   "race": "sb-d02",
+   "district": "2",
+   "race": "sb-d2",
    "finance": {
     "voterfocusId": "2926",
     "status": "Active- Unopposed"
@@ -66,8 +66,8 @@
    "claims": {},
    "office": "Candidate, School Board",
    "status": "open",
-   "district": "04",
-   "race": "sb-d04",
+   "district": "4",
+   "race": "sb-d4",
    "finance": {
     "voterfocusId": "2956",
     "status": "Inactive - Unopposed"
@@ -80,8 +80,8 @@
    "claims": {},
    "office": "Candidate, School Board",
    "status": "open",
-   "district": "06",
-   "race": "sb-d06",
+   "district": "6",
+   "race": "sb-d6",
    "finance": {
     "voterfocusId": "2914",
     "status": "Inactive - Unopposed"
@@ -94,8 +94,8 @@
    "claims": {},
    "office": "Candidate, School Board",
    "status": "open",
-   "district": "08",
-   "race": "sb-d08",
+   "district": "8",
+   "race": "sb-d8",
    "finance": {
     "voterfocusId": "2953",
     "status": "Active- Elected"
@@ -108,8 +108,8 @@
    "claims": {},
    "office": "Candidate, School Board",
    "status": "open",
-   "district": "08",
-   "race": "sb-d08",
+   "district": "8",
+   "race": "sb-d8",
    "finance": {
     "voterfocusId": "3048",
     "status": "Active- Defeated"
@@ -129,8 +129,8 @@
    },
    "office": "Candidate, County Commission",
    "status": "open",
-   "district": "01",
-   "race": "bcc-d01",
+   "district": "1",
+   "race": "bcc-d1",
    "finance": {
     "voterfocusId": "2981",
     "status": "Inactive - Unopposed"
@@ -149,8 +149,8 @@
    },
    "office": "Candidate, County Commission",
    "status": "open",
-   "district": "02",
-   "race": "bcc-d02",
+   "district": "2",
+   "race": "bcc-d2",
    "finance": {
     "voterfocusId": "2964",
     "status": "Active- Elected"
@@ -169,8 +169,8 @@
    },
    "office": "Candidate, County Commission",
    "status": "open",
-   "district": "02",
-   "race": "bcc-d02",
+   "district": "2",
+   "race": "bcc-d2",
    "finance": {
     "voterfocusId": "2969",
     "status": "Active- Defeated"
@@ -189,8 +189,8 @@
    },
    "office": "Candidate, County Commission",
    "status": "open",
-   "district": "02",
-   "race": "bcc-d02",
+   "district": "2",
+   "race": "bcc-d2",
    "finance": {
     "voterfocusId": "2940",
     "status": "Active- Defeated"
@@ -209,8 +209,8 @@
    },
    "office": "Candidate, County Commission",
    "status": "open",
-   "district": "04",
-   "race": "bcc-d04",
+   "district": "4",
+   "race": "bcc-d4",
    "finance": {
     "voterfocusId": "2954",
     "status": "Inactive - Unopposed"
@@ -229,8 +229,8 @@
    },
    "office": "Candidate, County Commission",
    "status": "open",
-   "district": "05",
-   "race": "bcc-d05",
+   "district": "5",
+   "race": "bcc-d5",
    "finance": {
     "voterfocusId": "2949",
     "status": "Active- Runoff"
@@ -249,8 +249,8 @@
    },
    "office": "Candidate, County Commission",
    "status": "open",
-   "district": "05",
-   "race": "bcc-d05",
+   "district": "5",
+   "race": "bcc-d5",
    "finance": {
     "voterfocusId": "2998",
     "status": "Active- Runoff"
@@ -269,8 +269,8 @@
    },
    "office": "Candidate, County Commission",
    "status": "open",
-   "district": "06",
-   "race": "bcc-d06",
+   "district": "6",
+   "race": "bcc-d6",
    "finance": {
     "voterfocusId": "2922",
     "status": "Inactive - Unopposed"
@@ -289,8 +289,8 @@
    },
    "office": "Candidate, County Commission",
    "status": "open",
-   "district": "08",
-   "race": "bcc-d08",
+   "district": "8",
+   "race": "bcc-d8",
    "finance": {
     "voterfocusId": "2962",
     "status": "Inactive - Elected"
@@ -309,8 +309,8 @@
    },
    "office": "Candidate, County Commission",
    "status": "open",
-   "district": "08",
-   "race": "bcc-d08",
+   "district": "8",
+   "race": "bcc-d8",
    "finance": {
     "voterfocusId": "3016",
     "status": "Active- Defeated"
@@ -329,8 +329,8 @@
    },
    "office": "Candidate, County Commission",
    "status": "open",
-   "district": "08",
-   "race": "bcc-d08",
+   "district": "8",
+   "race": "bcc-d8",
    "finance": {
     "voterfocusId": "2958",
     "status": "Inactive - Defeated"
@@ -380,8 +380,8 @@
  "races": [
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "sb-d01",
-   "title": "School Board, District 01",
+   "id": "sb-d1",
+   "title": "School Board, District 1",
    "office": "School Board District 01",
    "people": [
     "cothiere",
@@ -394,8 +394,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "sb-d02",
-   "title": "School Board, District 02",
+   "id": "sb-d2",
+   "title": "School Board, District 2",
    "office": "School Board District 02",
    "people": [
     "bendrossmindingall"
@@ -408,8 +408,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "sb-d04",
-   "title": "School Board, District 04",
+   "id": "sb-d4",
+   "title": "School Board, District 4",
    "office": "School Board District 04",
    "people": [
     "alonso"
@@ -422,8 +422,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "sb-d06",
-   "title": "School Board, District 06",
+   "id": "sb-d6",
+   "title": "School Board, District 6",
    "office": "School Board District 06",
    "people": [
     "rojas"
@@ -436,8 +436,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "sb-d08",
-   "title": "School Board, District 08",
+   "id": "sb-d8",
+   "title": "School Board, District 8",
    "office": "School Board District 08",
    "people": [
     "colucci",
@@ -451,8 +451,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "bcc-d01",
-   "title": "County Commission, District 01",
+   "id": "bcc-d1",
+   "title": "County Commission, District 1",
    "office": "County Commission District 01",
    "people": [
     "gallon"
@@ -465,8 +465,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "bcc-d02",
-   "title": "County Commission, District 02",
+   "id": "bcc-d2",
+   "title": "County Commission, District 2",
    "office": "County Commission District 02",
    "people": [
     "bastien",
@@ -481,8 +481,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "bcc-d04",
-   "title": "County Commission, District 04",
+   "id": "bcc-d4",
+   "title": "County Commission, District 4",
    "office": "County Commission District 04",
    "people": [
     "steinberg"
@@ -495,8 +495,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "bcc-d05",
-   "title": "County Commission, District 05",
+   "id": "bcc-d5",
+   "title": "County Commission, District 5",
    "office": "County Commission District 05",
    "people": [
     "lopez",
@@ -509,8 +509,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "bcc-d06",
-   "title": "County Commission, District 06",
+   "id": "bcc-d6",
+   "title": "County Commission, District 6",
    "office": "County Commission District 06",
    "people": [
     "orbis"
@@ -523,8 +523,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "bcc-d08",
-   "title": "County Commission, District 08",
+   "id": "bcc-d8",
+   "title": "County Commission, District 8",
    "office": "County Commission District 08",
    "people": [
     "higgins",

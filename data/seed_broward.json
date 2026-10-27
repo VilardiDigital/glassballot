@@ -399,7 +399,8 @@
    "claims": {},
    "office": "Candidate, School Board",
    "status": "open",
-   "race": "sb-school-board-at-large-8",
+   "district": "8",
+   "race": "sb-d8",
    "finance": {
     "voterfocusId": "1201",
     "status": "Active- Defeated"
@@ -412,7 +413,8 @@
    "claims": {},
    "office": "Candidate, School Board",
    "status": "open",
-   "race": "sb-school-board-at-large-8",
+   "district": "8",
+   "race": "sb-d8",
    "finance": {
     "voterfocusId": "1195",
     "status": "Active- Elected"
@@ -541,8 +543,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "sb-school-board-at-large-8",
-   "title": "School Board",
+   "id": "sb-d8",
+   "title": "School Board, District 8",
    "office": "School Board, At Large 8",
    "people": [
     "azim",

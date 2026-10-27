@@ -24,7 +24,8 @@
    "claims": {},
    "office": "Candidate, School Board",
    "status": "open",
-   "race": "sb-dist-1-school-board",
+   "district": "1",
+   "race": "sb-d1",
    "finance": {
     "voterfocusId": "163",
     "status": "Active- Incumbent"
@@ -37,7 +38,8 @@
    "claims": {},
    "office": "Candidate, School Board",
    "status": "open",
-   "race": "sb-dist-1-school-board",
+   "district": "1",
+   "race": "sb-d1",
    "finance": {
     "voterfocusId": "162",
     "status": "Active- Filed"
@@ -50,7 +52,8 @@
    "claims": {},
    "office": "Candidate, School Board",
    "status": "open",
-   "race": "sb-dist-3-school-board",
+   "district": "3",
+   "race": "sb-d3",
    "finance": {
     "voterfocusId": "164",
     "status": "Active- Unopposed"
@@ -63,7 +66,8 @@
    "claims": {},
    "office": "Candidate, School Board",
    "status": "open",
-   "race": "sb-dist-5-school-board",
+   "district": "5",
+   "race": "sb-d5",
    "finance": {
     "voterfocusId": "165",
     "status": "Active- Unopposed"
@@ -83,7 +87,8 @@
    },
    "office": "Candidate, County Commission",
    "status": "open",
-   "race": "bcc-dist-2-county-commissioner",
+   "district": "2",
+   "race": "bcc-d2",
    "finance": {
     "voterfocusId": "160",
     "status": "Active- Filed"
@@ -102,7 +107,8 @@
    },
    "office": "Candidate, County Commission",
    "status": "open",
-   "race": "bcc-dist-2-county-commissioner",
+   "district": "2",
+   "race": "bcc-d2",
    "finance": {
     "voterfocusId": "166",
     "status": "Active- Incumbent"
@@ -121,7 +127,8 @@
    },
    "office": "Candidate, County Commission",
    "status": "open",
-   "race": "bcc-dist-4-county-commissioner",
+   "district": "4",
+   "race": "bcc-d4",
    "finance": {
     "voterfocusId": "161",
     "status": "Active- Incumbent"
@@ -140,7 +147,8 @@
    },
    "office": "Candidate, County Commission",
    "status": "open",
-   "race": "bcc-dist-4-county-commissioner",
+   "district": "4",
+   "race": "bcc-d4",
    "finance": {
     "voterfocusId": "159",
     "status": "Active- Filed"
@@ -150,8 +158,8 @@
  "races": [
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "sb-dist-1-school-board",
-   "title": "School Board",
+   "id": "sb-d1",
+   "title": "School Board, District 1",
    "office": "Dist # 1 School Board",
    "people": [
     "hodgson",
@@ -164,8 +172,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "sb-dist-3-school-board",
-   "title": "School Board",
+   "id": "sb-d3",
+   "title": "School Board, District 3",
    "office": "Dist # 3 School Board",
    "people": [
     "clyatt"
@@ -178,8 +186,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "sb-dist-5-school-board",
-   "title": "School Board",
+   "id": "sb-d5",
+   "title": "School Board, District 5",
    "office": "Dist # 5 School Board",
    "people": [
     "johnson"
@@ -192,8 +200,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "bcc-dist-2-county-commissioner",
-   "title": "County Commission",
+   "id": "bcc-d2",
+   "title": "County Commission, District 2",
    "office": "Dist #2 County Commissioner",
    "people": [
     "clark",
@@ -206,8 +214,8 @@
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "bcc-dist-4-county-commissioner",
-   "title": "County Commission",
+   "id": "bcc-d4",
+   "title": "County Commission, District 4",
    "office": "Dist #4 County Commissioner",
    "people": [
     "johns",

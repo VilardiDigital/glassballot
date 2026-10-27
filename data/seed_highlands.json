@@ -93,20 +93,6 @@
    "nonpartisan": true
   },
   {
-   "id": "parris",
-   "name": "Chantel Parris",
-   "claims": {},
-   "office": "Candidate, School Board",
-   "status": "open",
-   "district": "1",
-   "race": "sb-d1",
-   "finance": {
-    "voterfocusId": "162",
-    "status": "Active- Defeated"
-   },
-   "nonpartisan": true
-  },
-  {
    "id": "pritchett",
    "name": "Kari Pritchett",
    "claims": {},
@@ -163,20 +149,6 @@
    "nonpartisan": true
   },
   {
-   "id": "casto",
-   "name": "Savannah Casto",
-   "claims": {},
-   "office": "Candidate, School Board",
-   "status": "open",
-   "district": "5",
-   "race": "sb-d5",
-   "finance": {
-    "voterfocusId": "163",
-    "status": "Active- Defeated"
-   },
-   "nonpartisan": true
-  },
-  {
    "id": "andytuck",
    "name": "Andy Tuck",
    "claims": {},
@@ -228,13 +200,12 @@
    "office": "School Board District 1",
    "people": [
     "jonsten",
-    "parris",
     "pritchett"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": false
+   "onNovBallot": true
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -258,13 +229,12 @@
    "office": "School Board District 5",
    "people": [
     "brown",
-    "casto",
     "andytuck"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": false
+   "onNovBallot": true
   }
  ],
  "votes": [],
