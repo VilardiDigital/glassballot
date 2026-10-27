@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=gulf&el=61"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=gulf&el=61",
+  "pastCycles": {
+   "2024": 56,
+   "2022": 49
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,11 +19,140 @@
    "publisher": "Gulf County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "Gulf County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=gulf&el=56",
+   "publisher": "Gulf County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "soe-vf-2022": {
+   "title": "Gulf County Supervisor of Elections: 2022 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=gulf&el=49",
+   "publisher": "Gulf County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
   {
+   "id": "mclemore",
+   "name": "Christopher 'Spike' McLemore",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commission Dist 1)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1",
+   "fromElections": true
+  },
+  {
    "id": "husband",
+   "name": "Jack Husband",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commission Dist 2)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "2",
+   "fromElections": true
+  },
+  {
+   "id": "pridgeon",
+   "name": "Randy Pridgeon",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commission Dist 3)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true
+  },
+  {
+   "id": "mccroan",
+   "name": "Phillip McCroan",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commission Dist 5)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5",
+   "fromElections": true
+  },
+  {
+   "id": "quinn",
+   "name": "Sandy Quinn",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected unopposed in 2022 (County Commission Dist 4)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "fromElections": true,
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "401",
+    "status": "Active- Elected"
+   }
+  },
+  {
+   "id": "lloydhusband",
    "name": "Lloyd Jack Husband",
    "claims": {
     "party": [
@@ -36,26 +169,6 @@
    "finance": {
     "voterfocusId": "403",
     "status": "Active- Unopposed"
-   }
-  },
-  {
-   "id": "quinn",
-   "name": "Sandy Quinn",
-   "claims": {
-    "party": [
-     {
-      "value": "Democrat",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "4",
-   "race": "bcc-d4",
-   "finance": {
-    "voterfocusId": "401",
-    "status": "Active- Elected"
    }
   },
   {
@@ -155,7 +268,7 @@
    "nonpartisan": true
   },
   {
-   "id": "pridgeon",
+   "id": "lisapridgeon",
    "name": "Lisa Pridgeon",
    "claims": {},
    "office": "Candidate, School Board",
@@ -190,7 +303,7 @@
    "title": "County Commission, District 2",
    "office": "County Commission Dist 2",
    "people": [
-    "husband"
+    "lloydhusband"
    ],
    "sources": [
     "soe-vf"
@@ -249,7 +362,7 @@
    "title": "School Board, District 3",
    "office": "School Board Dist 3",
    "people": [
-    "pridgeon"
+    "lisapridgeon"
    ],
    "sources": [
     "soe-vf"

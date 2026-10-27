@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=orange&el=105"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=orange&el=105",
+  "pastCycles": {
+   "2024": 102,
+   "2022": 10
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,9 +19,125 @@
    "publisher": "Orange County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "Orange County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=orange&el=102",
+   "publisher": "Orange County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "soe-vf-2022": {
+   "title": "Orange County Supervisor of Elections: 2022 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=orange&el=10",
+   "publisher": "Orange County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
+  {
+   "id": "wilson",
+   "name": "Nicole H Wilson",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner District 1)",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1",
+   "fromElections": true
+  },
+  {
+   "id": "uribe",
+   "name": "Mayra Uribe",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner District 3)",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true
+  },
+  {
+   "id": "semrad",
+   "name": "Kelly Semrad",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner District 5)",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5",
+   "fromElections": true
+  },
+  {
+   "id": "moore",
+   "name": "Christine Moore",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commissioner District 2)",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "2",
+   "fromElections": true
+  },
+  {
+   "id": "cordero",
+   "name": "Maribel Gomez Cordero",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commissioner District 4)",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "fromElections": true
+  },
+  {
+   "id": "scott",
+   "name": "Michael \"Mike\" Scott",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commissioner District 6)",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "6",
+   "fromElections": true,
+   "race": "bcc-d6",
+   "finance": {
+    "voterfocusId": "1265",
+    "status": "Active- Runoff"
+   },
+   "nonpartisan": false
+  },
   {
    "id": "brown",
    "name": "Kamia Brown",
@@ -98,20 +218,6 @@
    "race": "bcc-d6",
    "finance": {
     "voterfocusId": "1295",
-    "status": "Active- Runoff"
-   },
-   "nonpartisan": false
-  },
-  {
-   "id": "scott",
-   "name": "Michael \"Mike\" Scott",
-   "claims": {},
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "6",
-   "race": "bcc-d6",
-   "finance": {
-    "voterfocusId": "1265",
     "status": "Active- Runoff"
    },
    "nonpartisan": false
@@ -255,7 +361,7 @@
    "nonpartisan": true
   },
   {
-   "id": "moore",
+   "id": "dianamoore",
    "name": "Diana Moore",
    "claims": {},
    "office": "Candidate, School Board",
@@ -406,7 +512,7 @@
    "title": "School Board, District 3",
    "office": "School Board Dist. 3",
    "people": [
-    "moore",
+    "dianamoore",
     "pea"
    ],
    "sources": [

@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=levy&el=23"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=levy&el=23",
+  "pastCycles": {
+   "2024": 21,
+   "2022": 20
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,9 +19,138 @@
    "publisher": "Levy County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "Levy County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=levy&el=21",
+   "publisher": "Levy County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "soe-vf-2022": {
+   "title": "Levy County Supervisor of Elections: 2022 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=levy&el=20",
+   "publisher": "Levy County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
+  {
+   "id": "kennedy",
+   "name": "Charlie Kennedy",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commission Dist. 1)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1",
+   "fromElections": true
+  },
+  {
+   "id": "mills",
+   "name": "Desiree Jerrels Mills",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected unopposed in 2024 (County Commission Dist. 3)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true
+  },
+  {
+   "id": "hiers",
+   "name": "Johnny Hiers",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commission Dist. 5)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5",
+   "fromElections": true
+  },
+  {
+   "id": "meeks",
+   "name": "Rock Meeks",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commission Dist. 2)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "2",
+   "fromElections": true
+  },
+  {
+   "id": "hodge",
+   "name": "Tim Hodge",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commission Dist. 4)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "fromElections": true,
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "327",
+    "status": "Inactive - Elected"
+   }
+  },
   {
    "id": "cannon",
    "name": "Lincoln Cannon",
@@ -96,26 +229,6 @@
    "finance": {
     "voterfocusId": "339",
     "status": "Inactive - Defeated"
-   }
-  },
-  {
-   "id": "hodge",
-   "name": "Tim Hodge",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "4",
-   "race": "bcc-d4",
-   "finance": {
-    "voterfocusId": "327",
-    "status": "Inactive - Elected"
    }
   },
   {

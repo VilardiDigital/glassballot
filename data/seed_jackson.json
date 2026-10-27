@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=jackson&el=19"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=jackson&el=19",
+  "pastCycles": {
+   "2024": 17,
+   "2022": 16
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,11 +19,140 @@
    "publisher": "Jackson County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "Jackson County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=jackson&el=17",
+   "publisher": "Jackson County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "soe-vf-2022": {
+   "title": "Jackson County Supervisor of Elections: 2022 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=jackson&el=16",
+   "publisher": "Jackson County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
   {
+   "id": "spires",
+   "name": "Willie E. Spires",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner District 1)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1",
+   "fromElections": true
+  },
+  {
+   "id": "donofro",
+   "name": "Paul A. Donofro, Jr.",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner District 3)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true
+  },
+  {
+   "id": "westbrook",
+   "name": "Jamey Westbrook",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner District 5)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5",
+   "fromElections": true
+  },
+  {
    "id": "crutchfield",
+   "name": "Edward Crutchfield",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commissioner District 2)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "2",
+   "fromElections": true
+  },
+  {
+   "id": "branch",
+   "name": "Donnie Branch",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commissioner District 4)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "fromElections": true,
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "384",
+    "status": "Active- Unopposed"
+   }
+  },
+  {
+   "id": "edwardcrutchfield",
    "name": "Edward E. Crutchfield",
    "claims": {
     "party": [
@@ -56,26 +189,6 @@
    "finance": {
     "voterfocusId": "381",
     "status": "Active- Qualified"
-   }
-  },
-  {
-   "id": "branch",
-   "name": "Donnie Branch",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "4",
-   "race": "bcc-d4",
-   "finance": {
-    "voterfocusId": "384",
-    "status": "Active- Unopposed"
    }
   },
   {
@@ -170,7 +283,7 @@
    "title": "County Commission, District 2",
    "office": "County Commissioner District 2",
    "people": [
-    "crutchfield",
+    "edwardcrutchfield",
     "fortunato"
    ],
    "sources": [

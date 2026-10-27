@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=alachua&el=54"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=alachua&el=54",
+  "pastCycles": {
+   "2024": 49,
+   "2022": 48
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,9 +19,82 @@
    "publisher": "Alachua County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "Alachua County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=alachua&el=49",
+   "publisher": "Alachua County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
+  {
+   "id": "alford",
+   "name": "Mary Alford",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commission District 1)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1",
+   "fromElections": true
+  },
+  {
+   "id": "prizzia",
+   "name": "Anna Prizzia",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commission District 3)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true
+  },
+  {
+   "id": "chestnut",
+   "name": "Charles S. \"Chuck\" Chestnut iV",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected unopposed in 2024 (County Commission District 5)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5",
+   "fromElections": true
+  },
   {
    "id": "bradbrook",
    "name": "Donna Bradbrook",

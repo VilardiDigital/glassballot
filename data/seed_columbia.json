@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=columbia&el=29"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=columbia&el=29",
+  "pastCycles": {
+   "2024": 28,
+   "2022": 26
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,22 +19,108 @@
    "publisher": "Columbia County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "Columbia County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=columbia&el=28",
+   "publisher": "Columbia County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "soe-vf-2022": {
+   "title": "Columbia County Supervisor of Elections: 2022 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=columbia&el=26",
+   "publisher": "Columbia County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
   {
+   "id": "parnell",
+   "name": "KEVIN A PARNELL",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (COUNTY COMMISSION DIST 1)",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1",
+   "fromElections": true
+  },
+  {
+   "id": "hollingsworth",
+   "name": "ROBERT HOLLINGSWORTH",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (COUNTY COMMISSION DIST 3)",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true
+  },
+  {
+   "id": "murphy",
+   "name": "TIM MURPHY",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected unopposed in 2024 (COUNTY COMMISSION DIST 5)",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5",
+   "fromElections": true
+  },
+  {
    "id": "ford",
-   "name": "ROCKY FORD",
-   "claims": {},
-   "office": "Candidate, County Commission",
-   "status": "open",
+   "name": "Rocky Ford",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected unopposed in 2022 (COUNTY COMMISSION DIST 2)",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
    "district": "2",
+   "fromElections": true,
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "1314",
     "status": "Active- Runoff"
    },
    "nonpartisan": false
+  },
+  {
+   "id": "phillips",
+   "name": "Everett Phillips",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (COUNTY COMMISSION DIST 4)",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "fromElections": true
   },
   {
    "id": "pittman",
@@ -61,7 +151,7 @@
    "nonpartisan": false
   },
   {
-   "id": "phillips",
+   "id": "everettphillips",
    "name": "EVERETT A. PHILLIPS",
    "claims": {},
    "office": "Candidate, County Commission",
@@ -153,7 +243,7 @@
    "office": "COUNTY COMMISSION DIST 4",
    "people": [
     "dicks",
-    "phillips"
+    "everettphillips"
    ],
    "sources": [
     "soe-vf"

@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=gadsden&el=37"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=gadsden&el=37",
+  "pastCycles": {
+   "2024": 31,
+   "2022": 32
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,9 +19,89 @@
    "publisher": "Gadsden County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "Gadsden County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=gadsden&el=31",
+   "publisher": "Gadsden County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "soe-vf-2022": {
+   "title": "Gadsden County Supervisor of Elections: 2022 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=gadsden&el=32",
+   "publisher": "Gadsden County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
+  {
+   "id": "wood",
+   "name": "Shawn Wood",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner District 3)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true
+  },
+  {
+   "id": "johnsonsimpkins",
+   "name": "Alonzetta Johnson-Simpkins",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commissioner District 2)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "2",
+   "fromElections": true
+  },
+  {
+   "id": "holt",
+   "name": "Brenda Holt",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commissioner District 4)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "fromElections": true
+  },
   {
    "id": "lightfoot",
    "name": "Amanda Lightfoot",

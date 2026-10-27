@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36",
+  "pastCycles": {
+   "2024": 33,
+   "2022": 29
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,9 +19,136 @@
    "publisher": "Volusia County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "Volusia County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=33",
+   "publisher": "Volusia County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "soe-vf-2022": {
+   "title": "Volusia County Supervisor of Elections: 2022 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=29",
+   "publisher": "Volusia County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
+  {
+   "id": "reinhart",
+   "name": "Matt Reinhart",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Council Member, District 2)",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "2",
+   "fromElections": true
+  },
+  {
+   "id": "kent",
+   "name": "Troy Kent",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Council Member, District 4)",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "fromElections": true
+  },
+  {
+   "id": "johansson",
+   "name": "Jake Johansson",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Council At Large)",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "fromElections": true
+  },
+  {
+   "id": "dempsey",
+   "name": "Don Dempsey",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Council Member, District 1)",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1",
+   "fromElections": true,
+   "race": "bcc-d1",
+   "finance": {
+    "voterfocusId": "1139",
+    "status": "Active- Advanced"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "robins",
+   "name": "Danny Robins",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Council Member, District 3)",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true,
+   "race": "bcc-d3",
+   "finance": {
+    "voterfocusId": "1088",
+    "status": "Active- Advanced"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "santiago",
+   "name": "David Santiago",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Council Member, District 5)",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5",
+   "fromElections": true,
+   "race": "bcc-d5",
+   "finance": {
+    "voterfocusId": "1114",
+    "status": "Active- Advanced"
+   },
+   "nonpartisan": false
+  },
   {
    "id": "miller",
    "name": "Nancy J. Miller",
@@ -59,34 +190,6 @@
    "nonpartisan": false
   },
   {
-   "id": "dempsey",
-   "name": "Don Dempsey",
-   "claims": {},
-   "office": "Candidate, County Council",
-   "status": "open",
-   "district": "1",
-   "race": "bcc-d1",
-   "finance": {
-    "voterfocusId": "1139",
-    "status": "Active- Advanced"
-   },
-   "nonpartisan": false
-  },
-  {
-   "id": "robins",
-   "name": "Danny Robins",
-   "claims": {},
-   "office": "Candidate, County Council",
-   "status": "open",
-   "district": "3",
-   "race": "bcc-d3",
-   "finance": {
-    "voterfocusId": "1088",
-    "status": "Active- Advanced"
-   },
-   "nonpartisan": false
-  },
-  {
    "id": "white",
    "name": "Bryon White",
    "claims": {},
@@ -96,20 +199,6 @@
    "race": "bcc-d3",
    "finance": {
     "voterfocusId": "1093",
-    "status": "Active- Advanced"
-   },
-   "nonpartisan": false
-  },
-  {
-   "id": "santiago",
-   "name": "David Santiago",
-   "claims": {},
-   "office": "Candidate, County Council",
-   "status": "open",
-   "district": "5",
-   "race": "bcc-d5",
-   "finance": {
-    "voterfocusId": "1114",
     "status": "Active- Advanced"
    },
    "nonpartisan": false

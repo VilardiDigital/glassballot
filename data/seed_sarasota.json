@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sarasota&el=134"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sarasota&el=134",
+  "pastCycles": {
+   "2024": 133,
+   "2022": 11
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,9 +19,138 @@
    "publisher": "Sarasota County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "Sarasota County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sarasota&el=133",
+   "publisher": "Sarasota County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "soe-vf-2022": {
+   "title": "Sarasota County Supervisor of Elections: 2022 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sarasota&el=11",
+   "publisher": "Sarasota County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
+  {
+   "id": "mast",
+   "name": "Teresa Mast",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner, Dist. 1)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1",
+   "fromElections": true
+  },
+  {
+   "id": "knight",
+   "name": "Tom Knight",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner, Dist. 3)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true
+  },
+  {
+   "id": "cutsinger",
+   "name": "Ron Cutsinger",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner, Dist. 5)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5",
+   "fromElections": true
+  },
+  {
+   "id": "smith",
+   "name": "Mark Smith",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commissioner, Dist. 2)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "2",
+   "fromElections": true,
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "1260",
+    "status": "Active- Elected"
+   }
+  },
+  {
+   "id": "neunder",
+   "name": "Joseph Neunder",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commissioner, Dist. 4)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "fromElections": true
+  },
   {
    "id": "sargent",
    "name": "Kristina Sargent",
@@ -36,26 +169,6 @@
    "finance": {
     "voterfocusId": "1272",
     "status": "Active- Defeated"
-   }
-  },
-  {
-   "id": "smith",
-   "name": "Mark Smith",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "2",
-   "race": "bcc-d2",
-   "finance": {
-    "voterfocusId": "1260",
-    "status": "Active- Elected"
    }
   },
   {

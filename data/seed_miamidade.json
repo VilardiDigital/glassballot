@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=miamidade&el=30"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=miamidade&el=30",
+  "pastCycles": {
+   "2024": 29,
+   "2022": 28
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,9 +19,334 @@
    "publisher": "Miami-Dade County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "Miami-Dade County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=miamidade&el=29",
+   "publisher": "Miami-Dade County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "soe-vf-2022": {
+   "title": "Miami-Dade County Supervisor of Elections: 2022 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=miamidade&el=28",
+   "publisher": "Miami-Dade County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
+  {
+   "id": "gilbert",
+   "name": "Oliver Gilbert",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected unopposed in 2024 (County Commission District 01)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1",
+   "fromElections": true
+  },
+  {
+   "id": "hardemon",
+   "name": "Keon Hardemon",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commission District 03)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true
+  },
+  {
+   "id": "higgins",
+   "name": "Eileen Higgins",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected unopposed in 2024 (County Commission District 05)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5",
+   "fromElections": true
+  },
+  {
+   "id": "regalado",
+   "name": "Raquel A. Regalado",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commission District 07)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "7",
+   "fromElections": true
+  },
+  {
+   "id": "mcghee",
+   "name": "Kionne McGhee",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected unopposed in 2024 (County Commission District 09)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "9",
+   "fromElections": true
+  },
+  {
+   "id": "gonzalez",
+   "name": "Roberto J. Gonzalez",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commission District 11)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "11",
+   "fromElections": true
+  },
+  {
+   "id": "garcia",
+   "name": "Rene Garcia",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected unopposed in 2024 (County Commission District 13)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "13",
+   "fromElections": true
+  },
+  {
+   "id": "bastien",
+   "name": "Marleine Bastien",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commission District 02)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "2",
+   "fromElections": true,
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "2964",
+    "status": "Active- Elected"
+   }
+  },
+  {
+   "id": "steinberg",
+   "name": "Micky Steinberg",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected unopposed in 2022 (County Commission District 04)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "fromElections": true,
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "2954",
+    "status": "Inactive - Unopposed"
+   }
+  },
+  {
+   "id": "cabrera",
+   "name": "Kevin Marino Cabrera",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commission District 06)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "6",
+   "fromElections": true
+  },
+  {
+   "id": "daniellehiggins",
+   "name": "Danielle Cohen Higgins",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commission District 08)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "8",
+   "fromElections": true,
+   "race": "bcc-d8",
+   "finance": {
+    "voterfocusId": "2962",
+    "status": "Inactive - Elected"
+   }
+  },
+  {
+   "id": "rodriguez",
+   "name": "Anthony Rodriguez",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commission District 10)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "10",
+   "fromElections": true,
+   "race": "bcc-d10",
+   "finance": {
+    "voterfocusId": "2972",
+    "status": "Inactive - Unopposed"
+   }
+  },
+  {
+   "id": "bermudez",
+   "name": "Juan Carlos \"JC\" Bermudez",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commission District 12)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "12",
+   "fromElections": true,
+   "race": "bcc-d12",
+   "finance": {
+    "voterfocusId": "2955",
+    "status": "Inactive - Unopposed"
+   }
+  },
   {
    "id": "cothiere",
    "name": "Linda Cothiere",
@@ -137,26 +466,6 @@
    }
   },
   {
-   "id": "bastien",
-   "name": "Marleine Bastien",
-   "claims": {
-    "party": [
-     {
-      "value": "NOP",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "2",
-   "race": "bcc-d2",
-   "finance": {
-    "voterfocusId": "2964",
-    "status": "Active- Elected"
-   }
-  },
-  {
    "id": "louis",
    "name": "Ernst Jean Louis",
    "claims": {
@@ -194,26 +503,6 @@
    "finance": {
     "voterfocusId": "2940",
     "status": "Active- Defeated"
-   }
-  },
-  {
-   "id": "steinberg",
-   "name": "Micky Steinberg",
-   "claims": {
-    "party": [
-     {
-      "value": "NOP",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "4",
-   "race": "bcc-d4",
-   "finance": {
-    "voterfocusId": "2954",
-    "status": "Inactive - Unopposed"
    }
   },
   {
@@ -277,26 +566,6 @@
    }
   },
   {
-   "id": "higgins",
-   "name": "Danielle Cohen Higgins",
-   "claims": {
-    "party": [
-     {
-      "value": "NOP",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "8",
-   "race": "bcc-d8",
-   "finance": {
-    "voterfocusId": "2962",
-    "status": "Inactive - Elected"
-   }
-  },
-  {
    "id": "dubois",
    "name": "John Edward DuBois",
    "claims": {
@@ -334,46 +603,6 @@
    "finance": {
     "voterfocusId": "2958",
     "status": "Inactive - Defeated"
-   }
-  },
-  {
-   "id": "rodriguez",
-   "name": "Anthony Rodriguez",
-   "claims": {
-    "party": [
-     {
-      "value": "NOP",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "10",
-   "race": "bcc-d10",
-   "finance": {
-    "voterfocusId": "2972",
-    "status": "Inactive - Unopposed"
-   }
-  },
-  {
-   "id": "bermudez",
-   "name": "Juan Carlos \"JC\" Bermudez",
-   "claims": {
-    "party": [
-     {
-      "value": "NOP",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "12",
-   "race": "bcc-d12",
-   "finance": {
-    "voterfocusId": "2955",
-    "status": "Inactive - Unopposed"
    }
   }
  ],
@@ -527,7 +756,7 @@
    "title": "County Commission, District 8",
    "office": "County Commission District 08",
    "people": [
-    "higgins",
+    "daniellehiggins",
     "dubois",
     "hero"
    ],

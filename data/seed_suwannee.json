@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=suwannee&el=29"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=suwannee&el=29",
+  "pastCycles": {
+   "2024": 27,
+   "2022": 25
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,9 +19,82 @@
    "publisher": "Suwannee County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "Suwannee County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=suwannee&el=27",
+   "publisher": "Suwannee County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
+  {
+   "id": "hale",
+   "name": "William Don Hale, Jr",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner Dist. 1)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1",
+   "fromElections": true
+  },
+  {
+   "id": "land",
+   "name": "Travis Land",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner Dist. 3)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true
+  },
+  {
+   "id": "white",
+   "name": "Franklin White",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected unopposed in 2024 (County Commissioner Dist. 5)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5",
+   "fromElections": true
+  },
   {
    "id": "blue",
    "name": "Stefan Blue",

@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=holmes&el=11"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=holmes&el=11",
+  "pastCycles": {
+   "2024": 10,
+   "2022": 7
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,9 +19,138 @@
    "publisher": "Holmes County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "Holmes County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=holmes&el=10",
+   "publisher": "Holmes County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "soe-vf-2022": {
+   "title": "Holmes County Supervisor of Elections: 2022 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=holmes&el=7",
+   "publisher": "Holmes County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
+  {
+   "id": "stafford",
+   "name": "Wilmer Stafford",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner, District 1)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1",
+   "fromElections": true
+  },
+  {
+   "id": "johnson",
+   "name": "Mitch Johnson",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner, District 3)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true
+  },
+  {
+   "id": "erickson",
+   "name": "Clint Erickson",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner, District 5)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5",
+   "fromElections": true
+  },
+  {
+   "id": "newsom",
+   "name": "Brandon Newsom",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commissioner, District 2)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "2",
+   "fromElections": true,
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "185",
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "earlstafford",
+   "name": "Earl Stafford",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected unopposed in 2022 (County Commissioner, District 4)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "fromElections": true
+  },
   {
    "id": "bowers",
    "name": "Rodney Bowers",
@@ -75,26 +208,6 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "179",
-    "status": "Active- Defeated"
-   }
-  },
-  {
-   "id": "newsom",
-   "name": "Brandon Newsom",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "2",
-   "race": "bcc-d2",
-   "finance": {
-    "voterfocusId": "185",
     "status": "Active- Defeated"
    }
   },

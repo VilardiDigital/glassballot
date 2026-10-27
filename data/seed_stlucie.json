@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=stlucie&el=26"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=stlucie&el=26",
+  "pastCycles": {
+   "2024": 22,
+   "2022": 21
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,9 +19,138 @@
    "publisher": "St. Lucie County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "St. Lucie County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=stlucie&el=22",
+   "publisher": "St. Lucie County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "soe-vf-2022": {
+   "title": "St. Lucie County Supervisor of Elections: 2022 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=stlucie&el=21",
+   "publisher": "St. Lucie County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
+  {
+   "id": "clasby",
+   "name": "James Clasby",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner, District 1)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1",
+   "fromElections": true
+  },
+  {
+   "id": "lowry",
+   "name": "Erin Lowry",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner, District 3)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true
+  },
+  {
+   "id": "townsend",
+   "name": "Cathy Townsend",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner, District 5)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5",
+   "fromElections": true
+  },
+  {
+   "id": "leet",
+   "name": "Larry D. Leet",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commissioner, District 2)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "2",
+   "fromElections": true
+  },
+  {
+   "id": "fowler",
+   "name": "Jamie Lee Fowler",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commissioner, District 4)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "fromElections": true,
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "741",
+    "status": "Active- Qualified"
+   }
+  },
   {
    "id": "dorsainvil",
    "name": "Rolin Dorsainvil",
@@ -39,7 +172,7 @@
    }
   },
   {
-   "id": "leet",
+   "id": "larryleet",
    "name": "Larry Leet",
    "claims": {
     "party": [
@@ -75,26 +208,6 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "762",
-    "status": "Active- Qualified"
-   }
-  },
-  {
-   "id": "fowler",
-   "name": "Jamie Lee Fowler",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "4",
-   "race": "bcc-d4",
-   "finance": {
-    "voterfocusId": "741",
     "status": "Active- Qualified"
    }
   },
@@ -211,7 +324,7 @@
    "office": "County Commissioner, District 2",
    "people": [
     "dorsainvil",
-    "leet"
+    "larryleet"
    ],
    "sources": [
     "soe-vf"

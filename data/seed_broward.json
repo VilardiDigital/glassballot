@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=broward&el=150"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=broward&el=150",
+  "pastCycles": {
+   "2024": 149,
+   "2022": 148
+  }
  },
  "sources": {
   "soe-vf": {

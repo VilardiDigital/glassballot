@@ -6,12 +6,22 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=wakulla&el=15"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=wakulla&el=15",
+  "pastCycles": {
+   "2022": 12
+  }
  },
  "sources": {
   "soe-vf": {
    "title": "Wakulla County Supervisor of Elections: 2026 candidates and campaign reports",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=wakulla&el=15",
+   "publisher": "Wakulla County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "soe-vf-2022": {
+   "title": "Wakulla County Supervisor of Elections: 2022 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=wakulla&el=12",
    "publisher": "Wakulla County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
@@ -22,6 +32,12 @@
    "id": "nichols",
    "name": "Fred Nichols",
    "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commissioner District 2)",
+      "source": "soe-vf-2022"
+     }
+    ],
     "party": [
      {
       "value": "Republican",
@@ -29,14 +45,37 @@
      }
     ]
    },
-   "office": "Candidate, County Commission",
-   "status": "open",
+   "office": "County Commissioner",
+   "status": "incumbent",
    "district": "2",
+   "fromElections": true,
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "133",
     "status": "Active- Unopposed"
    }
+  },
+  {
+   "id": "messersmith",
+   "name": "Quincee Messersmith",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commissioner District 4)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "fromElections": true
   },
   {
    "id": "dyszer",

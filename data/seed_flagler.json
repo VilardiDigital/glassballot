@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=flagler&el=41"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=flagler&el=41",
+  "pastCycles": {
+   "2024": 37,
+   "2022": 30
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,9 +19,138 @@
    "publisher": "Flagler County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "Flagler County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=flagler&el=37",
+   "publisher": "Flagler County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "soe-vf-2022": {
+   "title": "Flagler County Supervisor of Elections: 2022 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=flagler&el=30",
+   "publisher": "Flagler County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
+  {
+   "id": "dance",
+   "name": "Andy Dance",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commission District 1)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1",
+   "fromElections": true
+  },
+  {
+   "id": "carney",
+   "name": "Kim M. Carney",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commission District 3)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true
+  },
+  {
+   "id": "richardson",
+   "name": "Pam Richardson",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commission District 5)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5",
+   "fromElections": true
+  },
+  {
+   "id": "hansen",
+   "name": "Gregory L. Hansen",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commission District 2)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "2",
+   "fromElections": true
+  },
+  {
+   "id": "pennington",
+   "name": "Leann Pennington",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commission District 4)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "fromElections": true,
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "737",
+    "status": "Active- Qualified"
+   }
+  },
   {
    "id": "pontieri",
    "name": "Theresa Pontieri",
@@ -76,26 +209,6 @@
    "finance": {
     "voterfocusId": "779",
     "status": "Active- Qualified Write-In"
-   }
-  },
-  {
-   "id": "pennington",
-   "name": "Leann Pennington",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "4",
-   "race": "bcc-d4",
-   "finance": {
-    "voterfocusId": "737",
-    "status": "Active- Qualified"
    }
   },
   {

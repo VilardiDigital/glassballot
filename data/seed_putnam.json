@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=putnam&el=34"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=putnam&el=34",
+  "pastCycles": {
+   "2024": 29,
+   "2022": 25
+  }
  },
  "sources": {
   "soe-vf": {

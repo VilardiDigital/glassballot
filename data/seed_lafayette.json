@@ -6,7 +6,10 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=lafayette&el=8"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=lafayette&el=8",
+  "pastCycles": {
+   "2022": 5
+  }
  },
  "sources": {
   "soe-vf": {

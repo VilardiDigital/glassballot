@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hamilton&el=14"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hamilton&el=14",
+  "pastCycles": {
+   "2024": 13,
+   "2022": 12
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,9 +19,143 @@
    "publisher": "Hamilton County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "Hamilton County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hamilton&el=13",
+   "publisher": "Hamilton County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "soe-vf-2022": {
+   "title": "Hamilton County Supervisor of Elections: 2022 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hamilton&el=12",
+   "publisher": "Hamilton County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
+  {
+   "id": "murphy",
+   "name": "James E. \"Jimmy\" Murphy",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected unopposed in 2024 (County Commissioner District 1)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1",
+   "fromElections": true
+  },
+  {
+   "id": "howell",
+   "name": "James I. Howell",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner District 3)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true
+  },
+  {
+   "id": "mccoy",
+   "name": "Richie McCoy",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner District 5)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5",
+   "fromElections": true
+  },
+  {
+   "id": "roberson",
+   "name": "Robby Roberson",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commissioner District 2)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "2",
+   "fromElections": true,
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "181",
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "erixton",
+   "name": "Travis Erixton",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commissioner District 4)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "fromElections": true,
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "178",
+    "status": "Active- Advanced"
+   }
+  },
   {
    "id": "altman",
    "name": "Josh Altman",
@@ -36,46 +174,6 @@
    "finance": {
     "voterfocusId": "186",
     "status": "Active- Elected"
-   }
-  },
-  {
-   "id": "roberson",
-   "name": "Robby Roberson",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "2",
-   "race": "bcc-d2",
-   "finance": {
-    "voterfocusId": "181",
-    "status": "Active- Defeated"
-   }
-  },
-  {
-   "id": "erixton",
-   "name": "Travis Erixton",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "4",
-   "race": "bcc-d4",
-   "finance": {
-    "voterfocusId": "178",
-    "status": "Active- Advanced"
    }
   },
   {
@@ -155,7 +253,7 @@
    "nonpartisan": true
   },
   {
-   "id": "mccoy",
+   "id": "sammymccoy",
    "name": "Sammy McCoy",
    "claims": {},
    "office": "Candidate, School Board",
@@ -234,7 +332,7 @@
    "office": "School Board Member District 5",
    "people": [
     "kennedy",
-    "mccoy"
+    "sammymccoy"
    ],
    "sources": [
     "soe-vf"

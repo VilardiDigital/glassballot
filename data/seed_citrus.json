@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=citrus&el=21"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=citrus&el=21",
+  "pastCycles": {
+   "2024": 20,
+   "2022": 19
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,13 +19,99 @@
    "publisher": "Citrus County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "Citrus County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=citrus&el=20",
+   "publisher": "Citrus County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "soe-vf-2022": {
+   "title": "Citrus County Supervisor of Elections: 2022 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=citrus&el=19",
+   "publisher": "Citrus County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
   {
+   "id": "kinnard",
+   "name": "Jeff Kinnard",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner District 1)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1",
+   "fromElections": true
+  },
+  {
+   "id": "barek",
+   "name": "Janet A. Barek",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner District 3)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true
+  },
+  {
+   "id": "davis",
+   "name": "Holly L. Davis",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner District 5)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5",
+   "fromElections": true
+  },
+  {
    "id": "finegan",
    "name": "Diana Finegan",
    "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commissioner District 2)",
+      "source": "soe-vf-2022"
+     }
+    ],
     "party": [
      {
       "value": "Republican",
@@ -29,12 +119,40 @@
      }
     ]
    },
-   "office": "Candidate, County Commission",
-   "status": "open",
+   "office": "County Commissioner",
+   "status": "incumbent",
    "district": "2",
+   "fromElections": true,
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "625",
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "bays",
+   "name": "Rebecca Bays",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commissioner District 4)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "fromElections": true,
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "626",
     "status": "Active- Defeated"
    }
   },
@@ -56,26 +174,6 @@
    "finance": {
     "voterfocusId": "627",
     "status": "Active- Elected"
-   }
-  },
-  {
-   "id": "bays",
-   "name": "Rebecca Bays",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "4",
-   "race": "bcc-d4",
-   "finance": {
-    "voterfocusId": "626",
-    "status": "Active- Defeated"
    }
   },
   {

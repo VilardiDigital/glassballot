@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sumter&el=26"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sumter&el=26",
+  "pastCycles": {
+   "2024": 25,
+   "2022": 24
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,11 +19,135 @@
    "publisher": "Sumter County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "Sumter County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sumter&el=25",
+   "publisher": "Sumter County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "soe-vf-2022": {
+   "title": "Sumter County Supervisor of Elections: 2022 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sumter&el=24",
+   "publisher": "Sumter County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
   {
+   "id": "butterfield",
+   "name": "Debora K. \"Deb\" Butterfield",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner, Dist. 1)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1",
+   "fromElections": true
+  },
+  {
+   "id": "coon",
+   "name": "Todd Coon",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner, Dist. 3)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true
+  },
+  {
+   "id": "wiley",
+   "name": "Donald Wiley",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner, Dist. 5)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5",
+   "fromElections": true
+  },
+  {
    "id": "bilardello",
+   "name": "Andrew Bilardello",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commissioner, Dist. 2)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "2",
+   "fromElections": true
+  },
+  {
+   "id": "bogue",
+   "name": "Jeff Bogue",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commissioner, Dist. 4)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "fromElections": true
+  },
+  {
+   "id": "andrewbilardello",
    "name": "Andrew \"Andy\" Bilardello",
    "claims": {
     "party": [
@@ -39,7 +167,7 @@
    }
   },
   {
-   "id": "bogue",
+   "id": "jeffreybogue",
    "name": "Jeffrey Bogue",
    "claims": {
     "party": [
@@ -170,7 +298,7 @@
    "title": "County Commission, District 2",
    "office": "County Commissioner, Dist. 2",
    "people": [
-    "bilardello"
+    "andrewbilardello"
    ],
    "sources": [
     "soe-vf"
@@ -184,7 +312,7 @@
    "title": "County Commission, District 4",
    "office": "County Commissioner, Dist. 4",
    "people": [
-    "bogue",
+    "jeffreybogue",
     "squier"
    ],
    "sources": [

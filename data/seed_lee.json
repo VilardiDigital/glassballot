@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=lee&el=34"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=lee&el=34",
+  "pastCycles": {
+   "2024": 28,
+   "2022": 27
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,11 +19,140 @@
    "publisher": "Lee County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "Lee County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=lee&el=28",
+   "publisher": "Lee County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "soe-vf-2022": {
+   "title": "Lee County Supervisor of Elections: 2022 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=lee&el=27",
+   "publisher": "Lee County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
   {
+   "id": "ruane",
+   "name": "Kevin Ruane",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (COUNTY COMMISSIONER-1)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1",
+   "fromElections": true
+  },
+  {
+   "id": "mulicka",
+   "name": "David Mulicka",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (COUNTY COMMISSIONER-3)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true
+  },
+  {
+   "id": "greenwell",
+   "name": "Mike Greenwell",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (COUNTY COMMISSIONER-5)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5",
+   "fromElections": true
+  },
+  {
    "id": "pendergrass",
+   "name": "Cecil Pendergrass",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (COUNTY COMMISSIONER-2)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "2",
+   "fromElections": true
+  },
+  {
+   "id": "hamman",
+   "name": "Brian Hamman",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (COUNTY COMMISSIONER-4)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "fromElections": true,
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "2222",
+    "status": "Active- Qualified"
+   }
+  },
+  {
+   "id": "cecilpendergrass",
    "name": "Cecil L Pendergrass",
    "claims": {
     "party": [
@@ -75,26 +208,6 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "2413",
-    "status": "Active- Qualified"
-   }
-  },
-  {
-   "id": "hamman",
-   "name": "Brian Hamman",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "4",
-   "race": "bcc-d4",
-   "finance": {
-    "voterfocusId": "2222",
     "status": "Active- Qualified"
    }
   },
@@ -258,7 +371,7 @@
    "title": "County Commission, District 2",
    "office": "COUNTY COMMISSIONER-2",
    "people": [
-    "pendergrass",
+    "cecilpendergrass",
     "taylor"
    ],
    "sources": [

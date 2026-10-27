@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=stjohns&el=20"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=stjohns&el=20",
+  "pastCycles": {
+   "2024": 19,
+   "2022": 18
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,9 +19,138 @@
    "publisher": "St. Johns County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "St. Johns County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=stjohns&el=19",
+   "publisher": "St. Johns County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "soe-vf-2022": {
+   "title": "St. Johns County Supervisor of Elections: 2022 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=stjohns&el=18",
+   "publisher": "St. Johns County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
+  {
+   "id": "whitehurst",
+   "name": "Christian Whitehurst",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commission - Dist 1)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1",
+   "fromElections": true
+  },
+  {
+   "id": "murphy",
+   "name": "Clay Murphy",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commission - Dist 3)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true
+  },
+  {
+   "id": "taylor",
+   "name": "Ann Taylor",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commission - Dist 5)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5",
+   "fromElections": true
+  },
+  {
+   "id": "arnold",
+   "name": "Sarah Arnold",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commission - Dist 2)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "2",
+   "fromElections": true
+  },
+  {
+   "id": "keatingjoseph",
+   "name": "Krista Keating-Joseph",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commission - Dist 4)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "fromElections": true,
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "1514",
+    "status": "Active- Elected"
+   }
+  },
   {
    "id": "brofford",
    "name": "Heather Brofford",
@@ -116,26 +249,6 @@
    "finance": {
     "voterfocusId": "1532",
     "status": "Active- Defeated"
-   }
-  },
-  {
-   "id": "keatingjoseph",
-   "name": "Krista Keating-Joseph",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "4",
-   "race": "bcc-d4",
-   "finance": {
-    "voterfocusId": "1514",
-    "status": "Active- Elected"
    }
   },
   {

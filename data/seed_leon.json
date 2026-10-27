@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=leon&el=25"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=leon&el=25",
+  "pastCycles": {
+   "2024": 24,
+   "2022": 21
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,9 +19,103 @@
    "publisher": "Leon County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "Leon County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=leon&el=24",
+   "publisher": "Leon County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "soe-vf-2022": {
+   "title": "Leon County Supervisor of Elections: 2022 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=leon&el=21",
+   "publisher": "Leon County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
+  {
+   "id": "cummings",
+   "name": "Carolyn D. Cummings",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (Leon County Commission - At Large, Group 1)",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1",
+   "fromElections": true
+  },
+  {
+   "id": "caban",
+   "name": "Christian Caban",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected unopposed in 2024 (Leon County Commission - District 2)",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "2",
+   "fromElections": true
+  },
+  {
+   "id": "welch",
+   "name": "Brian Welch",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (Leon County Commission - District 4)",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "fromElections": true
+  },
+  {
+   "id": "minor",
+   "name": "Rick Minor",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (Leon County Commission - District 3)",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true
+  },
+  {
+   "id": "keefe",
+   "name": "David T. O Keefe",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (Leon County Commission - District 5)",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5",
+   "fromElections": true
+  },
   {
    "id": "maddox",
    "name": "Nick Maddox",
@@ -75,7 +173,7 @@
    "nonpartisan": false
   },
   {
-   "id": "minor",
+   "id": "williamminor",
    "name": "William Minor",
    "claims": {},
    "office": "Candidate, County Commission",
@@ -103,7 +201,7 @@
    "nonpartisan": false
   },
   {
-   "id": "keefe",
+   "id": "davidkeefe",
    "name": "David O Keefe",
    "claims": {},
    "office": "Candidate, County Commission",
@@ -223,7 +321,7 @@
    "office": "Leon County Commission - District 3",
    "people": [
     "lorch",
-    "minor"
+    "williamminor"
    ],
    "sources": [
     "soe-vf"
@@ -237,7 +335,7 @@
    "office": "Leon County Commission - District 5",
    "people": [
     "hawkins",
-    "keefe"
+    "davidkeefe"
    ],
    "sources": [
     "soe-vf"

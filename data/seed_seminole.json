@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=seminole&el=116"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=seminole&el=116",
+  "pastCycles": {
+   "2024": 104,
+   "2022": 92
+  }
  },
  "sources": {
   "soe-vf": {

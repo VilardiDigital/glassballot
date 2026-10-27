@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=indianriver&el=18"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=indianriver&el=18",
+  "pastCycles": {
+   "2024": 17,
+   "2022": 16
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,9 +19,133 @@
    "publisher": "Indian River County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "Indian River County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=indianriver&el=17",
+   "publisher": "Indian River County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "soe-vf-2022": {
+   "title": "Indian River County Supervisor of Elections: 2022 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=indianriver&el=16",
+   "publisher": "Indian River County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
+  {
+   "id": "adams",
+   "name": "Susan Parker Adams",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (Board of County Commissioners - Dist 1)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1",
+   "fromElections": true
+  },
+  {
+   "id": "earman",
+   "name": "Joseph H. Earman",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (Board of County Commissioners - Dist 3)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true
+  },
+  {
+   "id": "moss",
+   "name": "Laura Moss",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (Board of County Commissioners - Dist 5)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5",
+   "fromElections": true
+  },
+  {
+   "id": "flescher",
+   "name": "Joseph E. Flescher",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (Board of County Commissioners - Dist 2)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "2",
+   "fromElections": true
+  },
+  {
+   "id": "loar",
+   "name": "Deryl Loar",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (Board of County Commissioners - Dist 4)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "fromElections": true
+  },
   {
    "id": "hardingham",
    "name": "Robert (Robbie) D. Hardingham",
@@ -99,7 +227,7 @@
    }
   },
   {
-   "id": "loar",
+   "id": "derylloar",
    "name": "Deryl Byron Loar",
    "claims": {
     "party": [
@@ -198,7 +326,7 @@
    "office": "Board of County Commissioners - Dist 4",
    "people": [
     "jaffe",
-    "loar"
+    "derylloar"
    ],
    "sources": [
     "soe-vf"

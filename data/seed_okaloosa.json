@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=okaloosa&el=220"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=okaloosa&el=220",
+  "pastCycles": {
+   "2024": 216,
+   "2022": 212
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,13 +19,99 @@
    "publisher": "Okaloosa County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "Okaloosa County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=okaloosa&el=216",
+   "publisher": "Okaloosa County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "soe-vf-2022": {
+   "title": "Okaloosa County Supervisor of Elections: 2022 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=okaloosa&el=212",
+   "publisher": "Okaloosa County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
   {
+   "id": "mixon",
+   "name": "Paul Mixon",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner, Dist. 1)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1",
+   "fromElections": true
+  },
+  {
+   "id": "cox",
+   "name": "Sherri Cox",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner, Dist. 3)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true
+  },
+  {
+   "id": "palmer",
+   "name": "Thomas Andrew Palmer",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner, Dist. 5)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5",
+   "fromElections": true
+  },
+  {
    "id": "ketchel",
    "name": "Carolyn Ketchel",
    "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commissioner, Dist. 2)",
+      "source": "soe-vf-2022"
+     }
+    ],
     "party": [
      {
       "value": "Republican",
@@ -29,9 +119,10 @@
      }
     ]
    },
-   "office": "Candidate, County Commission",
-   "status": "open",
+   "office": "County Commissioner",
+   "status": "incumbent",
    "district": "2",
+   "fromElections": true,
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "910",
@@ -40,6 +131,28 @@
   },
   {
    "id": "goodwin",
+   "name": "Trey Goodwin",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected unopposed in 2022 (County Commissioner, Dist. 4)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "fromElections": true
+  },
+  {
+   "id": "treygoodwin",
    "name": "Trey Goodwin III",
    "claims": {
     "party": [
@@ -136,7 +249,7 @@
    "title": "County Commission, District 4",
    "office": "County Commissioner, Dist. 4",
    "people": [
-    "goodwin"
+    "treygoodwin"
    ],
    "sources": [
     "soe-vf"

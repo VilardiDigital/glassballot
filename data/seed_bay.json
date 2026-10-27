@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=bay&el=35"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=bay&el=35",
+  "pastCycles": {
+   "2024": 26,
+   "2022": 27
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,13 +19,99 @@
    "publisher": "Bay County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "Bay County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=bay&el=26",
+   "publisher": "Bay County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "soe-vf-2022": {
+   "title": "Bay County Supervisor of Elections: 2022 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=bay&el=27",
+   "publisher": "Bay County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
   {
+   "id": "raffield",
+   "name": "Daniel Raffield",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner, District 1)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1",
+   "fromElections": true
+  },
+  {
+   "id": "crosby",
+   "name": "Doug Crosby",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner, District 3)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true
+  },
+  {
+   "id": "pease",
+   "name": "Clair Pease",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commissioner, District 5)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5",
+   "fromElections": true
+  },
+  {
    "id": "carroll",
    "name": "Robert Carroll",
    "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commissioner, District 2)",
+      "source": "soe-vf-2022"
+     }
+    ],
     "party": [
      {
       "value": "Republican",
@@ -29,14 +119,37 @@
      }
     ]
    },
-   "office": "Candidate, County Commission",
-   "status": "open",
+   "office": "County Commissioner",
+   "status": "incumbent",
    "district": "2",
+   "fromElections": true,
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "722",
     "status": "Active- Elected"
    }
+  },
+  {
+   "id": "moore",
+   "name": "Doug Moore",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2022 (County Commissioner, District 4)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "fromElections": true
   },
   {
    "id": "duvall",
@@ -101,7 +214,7 @@
    "nonpartisan": true
   },
   {
-   "id": "moore",
+   "id": "christophermoore",
    "name": "Christopher Moore",
    "claims": {},
    "office": "Candidate, School Board",
@@ -180,7 +293,7 @@
    "office": "School Board Member, District 3",
    "people": [
     "haley",
-    "moore"
+    "christophermoore"
    ],
    "sources": [
     "soe-vf"

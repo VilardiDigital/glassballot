@@ -6,7 +6,11 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=okeechobee&el=32"
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=okeechobee&el=32",
+  "pastCycles": {
+   "2024": 30,
+   "2022": 28
+  }
  },
  "sources": {
   "soe-vf": {
@@ -15,13 +19,99 @@
    "publisher": "Okeechobee County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-vf-2024": {
+   "title": "Okeechobee County Supervisor of Elections: 2024 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=okeechobee&el=30",
+   "publisher": "Okeechobee County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "soe-vf-2022": {
+   "title": "Okeechobee County Supervisor of Elections: 2022 candidates",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=okeechobee&el=28",
+   "publisher": "Okeechobee County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
   {
+   "id": "hazellief",
+   "name": "David E. Hazellief",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commission, District 1)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1",
+   "fromElections": true
+  },
+  {
+   "id": "goodbread",
+   "name": "Bradley Goodbread",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commission, District 3)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3",
+   "fromElections": true
+  },
+  {
+   "id": "sumner",
+   "name": "Michael A Sumner",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected in 2024 (County Commission, District 5)",
+      "source": "soe-vf-2024"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2024"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5",
+   "fromElections": true
+  },
+  {
    "id": "decarlo",
    "name": "Frank DeCarlo",
    "claims": {
+    "lastElection": [
+     {
+      "value": "Elected unopposed in 2022 (County Commission, District 2)",
+      "source": "soe-vf-2022"
+     }
+    ],
     "party": [
      {
       "value": "Republican",
@@ -29,9 +119,10 @@
      }
     ]
    },
-   "office": "Candidate, County Commission",
-   "status": "open",
+   "office": "County Commissioner",
+   "status": "incumbent",
    "district": "2",
+   "fromElections": true,
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "225",
@@ -40,6 +131,28 @@
   },
   {
    "id": "burroughs",
+   "name": "Terry Burroughs",
+   "claims": {
+    "lastElection": [
+     {
+      "value": "Elected unopposed in 2022 (County Commission, District 4)",
+      "source": "soe-vf-2022"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf-2022"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "fromElections": true
+  },
+  {
+   "id": "terryburroughs",
    "name": "Terry W Burroughs",
    "claims": {
     "party": [
@@ -122,7 +235,7 @@
    "title": "County Commission, District 4",
    "office": "County Commission, District 4",
    "people": [
-    "burroughs"
+    "terryburroughs"
    ],
    "sources": [
     "soe-vf"
