@@ -320,6 +320,42 @@ html.big .h1{font-size:clamp(32px,7vw,50px)}
 .vfacts{display:flex;flex-direction:column;gap:6px}
 details.more > summary{cursor:pointer;font-weight:600;color:var(--glass);list-style:none;min-height:40px;display:flex;align-items:center}
 details.more > summary::-webkit-details-marker{display:none}
+/* Answer first: short version, jump bar and drawers */
+.short{display:flex;flex-direction:column;gap:6px;padding:14px 16px}
+.short ul{display:flex;flex-direction:column;list-style:none;margin:0;padding:0}
+.short li a{display:grid;grid-template-columns:minmax(0,1fr) 16px;grid-template-areas:"k c" "t c";gap:2px 10px;align-items:center;padding:10px 0;border-top:1px solid var(--line);text-decoration:none;color:var(--char)}
+.short li:first-child a{border-top:0}
+.short .k{grid-area:k;font-size:12px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.03em}
+.short .t{grid-area:t;font-weight:600;font-size:15.5px;line-height:1.35}
+.short svg{grid-area:c;width:14px;height:14px;color:var(--muted)}
+.jumpbar{position:sticky;top:calc(60px + env(safe-area-inset-top,0px));z-index:20;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin:-12px -16px;padding:10px 16px;background:rgba(244,247,252,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.jumpbar::-webkit-scrollbar{display:none}
+.jumpbar a{flex-shrink:0;font-size:14px;font-weight:600;padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:var(--paper);color:var(--char);text-decoration:none}
+.jumpbar a:hover{border-color:var(--glass);color:var(--civic)}
+details.drawer{scroll-margin-top:120px}
+details.drawer.plain{background:var(--paper);border:1px solid var(--line);border-radius:var(--r-lg);padding:18px}
+details.drawer > summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:12px;min-height:44px}
+details.drawer > summary::-webkit-details-marker{display:none}
+details.drawer .dh{display:flex;flex-direction:column;gap:3px;flex:1;min-width:0}
+details.drawer .dh .h2{font-size:clamp(19px,4.6vw,24px)}
+details.drawer .dchev{width:28px;height:28px;border-radius:50%;background:var(--wash);flex-shrink:0;position:relative}
+details.drawer .dchev::after{content:"";position:absolute;left:9px;top:8px;width:8px;height:8px;border-right:2px solid var(--char);border-bottom:2px solid var(--char);transform:rotate(45deg);transition:transform .15s}
+details.drawer[open] .dchev::after{transform:translateY(4px) rotate(-135deg)}
+details.drawer[open] > summary{margin-bottom:12px}
+.vs{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:12px 16px;border:1px solid var(--line);border-radius:var(--r-lg);background:var(--paper);text-decoration:none;color:var(--char)}
+.vs b{flex:1;min-width:0}
+.vs svg{width:14px;height:14px}
+.cx{padding-top:12px;border-top:1px solid var(--line)}
+/* Quieter sourcing: badges become small text, warnings keep their color */
+.cite .src{border:0;padding:0;background:none}
+.cite .lab.single,.cite .lab.verified{background:none;padding:0;color:var(--muted);font-weight:500}
+@media (max-width:560px){
+  .stack-lg{gap:20px}
+  .panel{padding:16px}
+  .fact{padding:11px 0}
+  .h1{font-size:clamp(26px,7.4vw,34px)}
+  .lede{font-size:16.5px}
+}
 @media print{.top,.tabs,footer,.noprint{display:none!important}main{padding:0}body{background:#fff;font-size:14pt}.panel,.list{border:1px solid #999}}
 .fbar{display:flex;height:16px;border-radius:8px;overflow:hidden;background:var(--mist)}.fbar span{display:block;height:100%}
 .flegend{display:grid;gap:6px;margin:8px 0 0}.flegend li{display:grid;grid-template-columns:14px 1fr auto 3.2em;gap:8px;align-items:center;font-size:15px}.flegend i{width:12px;height:12px;border-radius:3px;display:block}
@@ -452,7 +488,7 @@ const LAB = {
 const TIERS = {1:["Government record","Meeting minutes, election filings, certified results and official county pages"],2:["Other government source","Meeting video, agenda packets and government press releases"],3:["Research group","Nonpartisan databases such as Ballotpedia and The Ballot Brief"],4:["News report","Local and state news coverage"],5:["From the candidate","Campaign websites and posts. We treat these as the candidate's own words, not as facts"]};
 const chip = (label, note) => { const l = LAB[label] || LAB.unknown; return `<span class="lab ${label}" title="${esc(note || l.d)}"><svg viewBox="0 0 12 12" aria-hidden="true">${l.i}</svg>${l.t}</span>`; };
 const srcLinks = ids => { const seen = new Set(); const u = [...new Set(ids || [])].filter(id => S[id]).filter(id => { const k = S[id].publisher + S[id].tier; if (seen.has(k)) return false; seen.add(k); return true; }); if (!u.length) return ""; return u.map(id => { const s = S[id]; return `<a class="src" href="${href("s/" + id)}" title="${esc(TIERS[s.tier]?.[0] || "")}: ${esc(s.title)}"><span class="t t${s.tier}">${s.tier}</span><span>${esc(s.publisher)}</span></a>`; }).join(""); };
-const valueText = v => Array.isArray(v) ? `<ul class="plain">${v.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : esc(typeof v === "object" && v ? JSON.stringify(v) : v);
+const valueText = v => Array.isArray(v) ? (v.length > 4 ? `<ul class="plain">${v.slice(0, 3).map(x => `<li>${esc(x)}</li>`).join("")}</ul><details class="more"><summary>Show all ${v.length}</summary><ul class="plain">${v.slice(3).map(x => `<li>${esc(x)}</li>`).join("")}</ul></details>` : `<ul class="plain">${v.map(x => `<li>${esc(x)}</li>`).join("")}</ul>`) : esc(typeof v === "object" && v ? JSON.stringify(v) : v);
 const shownText = v => Array.isArray(v) ? v.join("; ") : (typeof v === "object" && v ? JSON.stringify(v) : String(v ?? ""));
 const PENCIL = `<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13l1-3.5L11 2.5l2.5 2.5L6.5 12z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>`;
 const fixBtn = (factId, shown) => `<button class="fixbtn icon" type="button" data-fix="${esc(factId)}" data-shown="${esc(String(shown).slice(0,400))}" title="Report a mistake in this fact">${PENCIL}<span>Report a mistake in this fact</span></button>`;
@@ -514,7 +550,7 @@ function mapSvg(active) {
 }
 const edayLine = () => { const d = daysLeft(); const hrs = (HTV.statewide || []).find(x => x.id === "poll-hours");
   const when = d > 1 ? `${d} days from now` : d === 1 ? "tomorrow" : d === 0 ? "today" : "";
-  return d >= 0 ? `Election Day is Tuesday, Nov 3${when ? ", " + when : ""}.${hrs ? " " + esc(hrs.text.replace(/^On Election Day, [^,]+, [^,]+, polls/i, "Polls")) : ""}` : ""; };
+  return d >= 0 ? `<span><b>Election Day: Tuesday, Nov 3${when ? ", " + when : ""}.</b>${hrs ? " Polls open 7 a.m. to 7 p.m." : ""}</span>` : ""; };
 
 views.home = () => {
   const close = (DATA.closeRace || null);
@@ -834,11 +870,40 @@ function trackRecord(p, fn) {
   const d = p.dig || {};
   const parts = DIG_PARTS.filter(([k]) => (d[k] || []).length);
   if (!parts.length) return "";
-  return `<section class="panel stack" aria-labelledby="tr"><h2 class="h2" id="tr">${fn}'s track record</h2>
-    <p class="small muted">Each line links to the record or report it came from. If something is wrong or missing, tell us.</p>
-    ${parts.map(([k, title, note]) => `<div class="stack-sm"><h3 class="h3">${title}</h3><p class="tiny muted">${note}</p>
-      <ul class="plain stack-sm">${d[k].map((r, i) => `<li><span>${esc(r.text)}</span><div class="cite">${srcLinks([r.source])}${fixBtn(`${CK}/person/${p.id}/${k}-${i}`, r.text)}</div></li>`).join("")}</ul></div>`).join("")}
-  </section>`;
+  const li = k => (r, i) => `<li><span>${esc(r.text)}</span><div class="cite">${srcLinks([r.source])}${fixBtn(`${CK}/person/${p.id}/${k}-${i}`, r.text)}</div></li>`;
+  return `${parts.map(([k, title, note]) => { const items = d[k].map((r, i) => li(k)(r, i));
+    return `<div class="stack-sm"><h3 class="h3">${title}</h3><p class="tiny muted">${note}</p>
+      <ul class="plain stack-sm">${items.slice(0, 3).join("")}</ul>${items.length > 3 ? `<details class="more"><summary>Show ${items.length - 3} more</summary><ul class="plain stack-sm">${items.slice(3).join("")}</ul></details>` : ""}</div>`; }).join("")}
+    <p class="tiny muted">Each line links to the record or report it came from. If something is wrong or missing, tell us.</p>`;
+}
+
+/* Drawers: a section that starts closed on phones, with a one-line preview so you know what's inside */
+const openD = new Set();
+const WIDE = () => window.matchMedia("(min-width:960px)").matches;
+const drawer = (key, id, title, preview, body, cls = "panel") => `<details class="drawer ${cls}" id="${id}" data-d="${esc(key)}"${openD.has(key) || WIDE() ? " open" : ""}><summary><span class="dh"><h2 class="h2">${title}</h2>${preview ? `<span class="small muted">${preview}</span>` : ""}</span><span class="dchev" aria-hidden="true"></span></summary><div class="dbody stack">${body}</div></details>`;
+document.addEventListener("toggle", e => { const d = e.target; if (d.matches && d.matches("details.drawer")) { if (d.open) openD.add(d.dataset.d); else openD.delete(d.dataset.d); } }, true);
+const firstSentence = t => { const x = String(t || "").split(/(?<=[.!?])\s/)[0]; return x.length > 110 ? x.slice(0, 107).replace(/\s\S*$/, "") + "…" : x; };
+const topN = (items, n, render, more) => `${items.slice(0, n).map(render).join("")}${items.length > n ? `<details class="more"><summary>${more(items.length - n)}</summary>${items.slice(n).map(render).join("")}</details>` : ""}`;
+
+function shortVersion(p, fn, has) {
+  const fv = f => { const x = p.facts[f]; return x && x.label !== "unknown" && x.value != null ? shownText(x.value) : null; };
+  const lines = [];
+  if (p.tally) { const n = p.tally.aye + p.tally.nay + p.tally.abstain; lines.push(["hv", "Votes", `${n.toLocaleString()} votes cast: ${p.tally.aye.toLocaleString()} yes, ${p.tally.nay.toLocaleString()} no${p.tally.absent ? `, missed ${p.tally.absent.toLocaleString()}` : ""}`]); }
+  else if (p.status !== "incumbent") lines.push(["hv", "Votes", `Hasn't served on this board yet, so no votes to show`]);
+  const f = p.funding;
+  if (f && f.total) { const top = f.sectors.find(x => !["unstated","nojob","other-job","other-business"].includes(x.id));
+    lines.push(["mo", "Money", `Raised ${usd(f.total)}${f.cycle && f.cycle !== "2026" ? ` for the ${esc(f.cycle)} race` : ""}${top ? `. Biggest industry: ${esc(top.label.toLowerCase())} (${pctTxt(top.amount, f.total)})` : ""}`]); }
+  else if (fv("raised")) lines.push(["mo", "Money", esc(firstSentence(fv("raised")))]);
+  if (has.cx) lines.push(["cx", "Donor ties", `${has.cx} donor${has.cx > 1 ? "s" : ""} also had business before the commission`]);
+  const att = fv("attendance"); if (att) lines.push(["ab", "Attendance", esc(firstSentence(att))]);
+  const d = p.dig || {};
+  if (has.promises) lines.push(["pr", "Promises", "Has a list of priorities for this campaign"]);
+  else if ((d.promises || []).length) lines.push(["tr", "Promises", `${d.promises.length} past campaign promise${d.promises.length > 1 ? "s" : ""} on record`]);
+  if ((d.conflicts || []).length) lines.push(["tr", "Ethics", `${d.conflicts.length} ethics or conduct record${d.conflicts.length > 1 ? "s" : ""} to read`]);
+  else if ((d.checked || []).length) lines.push(["tr", "Ethics", "No ethics findings in the records we searched"]);
+  if (!lines.length) return "";
+  return `<section class="short panel" aria-labelledby="sv"><h2 class="h3" id="sv">The short version</h2>
+    <ul class="plain">${lines.map(([id, k, t]) => `<li><a href="#${id}" data-jump="${id}"><span class="k">${k}</span><span class="t">${t}</span>${chev}</a></li>`).join("")}</ul></section>`;
 }
 
 views.person = id => {
@@ -849,60 +914,63 @@ views.person = id => {
   const moneyShown = Object.keys(MONEY_FIELDS).filter(f => p.facts[f] && (p.facts[f].label !== "unknown" || (f === "raised" && !p.funding)));
   const cnx = (p.connections || []).slice().sort((a,b) => (b.inWindow - a.inWindow) || (b.amount - a.amount));
   const promises = p.facts.promises;
+  const hasPromises = promises && promises.label !== "unknown";
   const myVotes = p.votes.map(x => ({...x, v: V[x.vote]})).filter(x => x.v);
   const allSources = [...new Set([...Object.values(p.facts).flatMap(f => f.sources || (f.versions || []).flatMap(v => v.sources || [])), ...Object.values(p.dig || {}).flat().map(r => r.source)])].filter(id => S[id]);
   const fid = f => `${CK}/person/${p.id}/${f}`;
   const fn = esc(firstName(p));
-  return `<div class="stack-lg view">
+  const dk = s => p.id + "/" + s;
+  const d = p.dig || {};
+  const trCount = DIG_PARTS.reduce((a, [k]) => a + (d[k] || []).length, 0);
+  const jumps = [["hv","Votes"],["mo","Money"],cnx.length ? ["cx","Donor ties"] : null,["pr","Promises"],trCount ? ["tr","Track record"] : null,["ab","About"]].filter(Boolean);
+  const nVotes = myVotes.length;
+  const voteBody = `${p.tally ? `<div class="stats">${[["Yes",p.tally.aye],["No",p.tally.nay],["Absent",p.tally.absent],["Abstained",p.tally.abstain]].map(([k,n]) => `<div class="stat"><b>${n.toLocaleString()}</b><span class="small muted">${k}</span></div>`).join("")}</div>
+        <p class="small muted">From the county's official meeting records since ${esc(C.legistarScope || "this term began")}. Most items pass with everyone agreeing, so below are the votes where commissioners split, plus a few big decisions.</p>` : ""}
+      ${myVotes.length ? `<div class="list">${myVotes.slice(0, showAll.has(p.id) ? 999 : 5).map(({how, v}) => `<a href="${href("v/" + v.id)}"><span class="vote ${how}">${how.toUpperCase()}</span><span class="body"><span class="title">${esc(v.headline)}</span><span class="tiny muted">${esc(voteDate(v))}${v.result.value ? " · " + esc(v.result.value) : ""}</span></span>${chev}</a>`).join("")}</div>`
+        : `<p class="small muted">${p.status !== "incumbent" ? `${fn} hasn't served on this board, so there are no votes to show.` : "We haven't loaded individual votes for this person yet."}</p>`}
+      ${myVotes.length > 5 && !showAll.has(p.id) ? `<button class="btn" type="button" data-more="${p.id}">Show all ${myVotes.length} votes</button>` : ""}`;
+  const f = p.funding;
+  const moneyPrev = f && f.total ? `${usd(f.total)} in itemized gifts${f.cycle && f.cycle !== "2026" ? `, from the ${esc(f.cycle)} campaign` : ""}` : (moneyShown.length ? "What's on file so far" : "No reports on file yet");
+  const promPrev = hasPromises ? "In the campaign's own words" : ((d.promises || []).length ? "None listed this time; past promises are in the track record" : "None found yet");
+  const aboutPrev = [p.facts.inOfficeSince && p.facts.inOfficeSince.value ? `In office since ${esc(shownText(p.facts.inOfficeSince.value).replace(/^Elected\s+/i, "").replace(/^since\s+/i, ""))}` : "", (p.links || []).length ? "website and social media" : ""].filter(Boolean).join(", ") || "Background, work and filings";
+  return `<div class="stack-lg view person-v">
     <a class="back" href="${race ? href("r/" + race.id) : href("officials")}">‹ ${race ? esc(race.title) : `${esc(cname(CK))} commissioners`}</a>
-    <section class="who" style="gap:18px;align-items:flex-end">
+    <section class="who" style="gap:16px;align-items:flex-end">
       ${face(p, "lg")}
       <div class="stack-sm" style="min-width:0">
         <h1 class="h1">${esc(p.name)}</h1>
         <p class="lede" style="font-size:17px">${esc(p.office)}${p.district ? `, District ${esc(p.district)}` : ""}${partyOf(p) ? ` · ${esc(partyOf(p))}` : ""}</p>
-        <div class="row">${race ? `<a class="pill blue" href="${href("r/" + race.id)}" style="text-decoration:none">On your Nov 3 ballot</a>` : ""}<span class="pill">${statusText(p)}</span>${C.county.auto ? '<span class="pill">Early version: official records only</span>' : ""}</div>
+        <div class="row">${race ? `<a class="pill blue" href="${href("r/" + race.id)}" style="text-decoration:none">On your Nov 3 ballot</a>` : ""}<span class="pill">${statusText(p)}</span>${C.county.auto ? '<span class="pill">Early version</span>' : ""}</div>
       </div>
     </section>
-    ${glance(p)}
-    ${rivals.length ? `<section class="panel stack-sm"><div class="between"><h2 class="h3">Running against</h2><a class="small" href="${href("r/" + race.id)}">Compare them side by side</a></div><div class="row" style="gap:18px">${rivals.map(r => `<a class="who" href="${href("p/" + r.id)}" style="text-decoration:none">${face(r)}<b>${esc(r.name)}</b></a>`).join("")}</div></section>` : ""}
+    ${rivals.length ? `<a class="vs" href="${href("r/" + race.id)}"><span class="small muted">Running against</span><b>${rivals.map(r => esc(r.name)).join(", ")}</b><span class="small">Compare</span>${chev}</a>` : ""}
+    ${shortVersion(p, fn, {cx: cnx.length, promises: hasPromises})}
+    <nav class="jumpbar" aria-label="Sections on this page">${jumps.map(([id, t]) => `<a href="#${id}" data-jump="${id}">${t}</a>`).join("")}</nav>
 
-    <section class="panel stack" aria-labelledby="ab"><h2 class="h2" id="ab">About ${fn}</h2>
-      <dl class="facts">${p.facts.party && !p.nonpartisan ? `<div class="fact"><dt>Party</dt><dd>${factBlock(p.facts.party, fid("party"))}</dd></div>` : ""}${shown.map(f => `<div class="fact"><dt>${FIELD_NAMES[f]}</dt><dd>${factBlock(p.facts[f], fid(f))}</dd></div>`).join("")}</dl>
-      <h3 class="h3" style="margin-top:6px">Website and social media</h3>${linksBlock(p)}
-    </section>
+    ${drawer(dk("hv"), "hv", `How ${fn} has voted`, nVotes ? `${nVotes} vote${nVotes > 1 ? "s" : ""} explained in plain English` : (p.tally ? "Totals from the county's records" : "No votes on this board"), voteBody, "plain")}
 
-    <section class="stack" aria-labelledby="hv">
-      <h2 class="h2" id="hv">How ${fn} has voted</h2>
-      ${p.tally ? `<div class="stats">${[["Yes",p.tally.aye],["No",p.tally.nay],["Absent",p.tally.absent],["Abstained",p.tally.abstain]].map(([k,n]) => `<div class="stat"><b>${n.toLocaleString()}</b><span class="small muted">${k}</span></div>`).join("")}</div>
-        <p class="small muted">Every vote recorded in the county's official meeting records since ${esc(C.legistarScope || "this term began")}. Most items pass with everyone agreeing. Below are the votes where commissioners disagreed, plus a few big decisions.</p>` : ""}
-      ${myVotes.length ? `<div class="list">${myVotes.slice(0, showAll.has(p.id) ? 999 : 8).map(({how, v}) => `<a href="${href("v/" + v.id)}"><span class="vote ${how}">${how.toUpperCase()}</span><span class="body"><span class="title">${esc(v.headline)}</span><span class="tiny muted">${esc(voteDate(v))}${itemRef(v) ? " · " + itemRef(v) : ""}${v.result.value ? " · " + esc(v.result.value) : ""}</span></span>${chev}</a>`).join("")}</div>`
-        : `<div class="panel small muted">${p.status !== "incumbent" ? `${fn} hasn't served on this board, so there are no votes to show.` : "We haven't loaded individual votes for this person yet."}</div>`}
-      ${myVotes.length > 8 && !showAll.has(p.id) ? `<button class="btn" type="button" data-more="${p.id}">Show all ${myVotes.length} votes</button>` : ""}
-    </section>
-
-    <section class="panel stack" aria-labelledby="mo"><h2 class="h2" id="mo">Who is paying for the campaign</h2>
-      <dl class="facts">${moneyShown.map(f => `<div class="fact"><dt>${MONEY_FIELDS[f]}</dt><dd>${factBlock(p.facts[f], fid(f), {unknownText: "No campaign finance reports on file yet."})}</dd></div>`).join("")}</dl>
+    ${drawer(dk("mo"), "mo", "Who is paying for the campaign", moneyPrev, `
+      ${f && f.total ? "" : `<dl class="facts">${moneyShown.map(x => `<div class="fact"><dt>${MONEY_FIELDS[x]}</dt><dd>${factBlock(p.facts[x], fid(x), {unknownText: "No campaign finance reports on file yet."})}</dd></div>`).join("")}</dl>`}
       ${fundingBlock(p, fid)}
-      ${C.county.financeUrl ? `<p class="small muted">Every donation, with the donor's name, date and amount, is in the <a href="${esc(C.county.financeUrl)}" target="_blank" rel="noopener">Supervisor of Elections campaign reports</a>.</p>` : ""}
-    </section>
+      ${f && f.total && moneyShown.filter(x => x !== "raised").length ? `<details class="more"><summary>More money details</summary><dl class="facts">${moneyShown.filter(x => x !== "raised").map(x => `<div class="fact"><dt>${MONEY_FIELDS[x]}</dt><dd>${factBlock(p.facts[x], fid(x))}</dd></div>`).join("")}</dl></details>` : ""}
+      ${C.county.financeUrl ? `<p class="small muted">Every donation, with the donor's name, date and amount, is in the <a href="${esc(C.county.financeUrl)}" target="_blank" rel="noopener">Supervisor of Elections campaign reports</a>.</p>` : ""}`)}
 
-    ${cnx.length ? `<section class="stack" aria-labelledby="cx">
-      <h2 class="h2" id="cx">Donors who had business before the commission</h2>
+    ${cnx.length ? drawer(dk("cx"), "cx", "Donors who had business before the commission", `${cnx.length} donor${cnx.length > 1 ? "s" : ""}`, `
       <p class="small muted">Giving to a campaign is legal and public. We list these so you can see the connection. It is not a claim that anyone did something wrong.</p>
-      ${cnx.map((c, i) => `<article class="panel stack-sm">
+      ${cnx.map((c, i) => `<article class="stack-sm cx">
         <p><b>${esc(c.donor)}</b> gave <span class="num">$${c.amount.toLocaleString()}</span>, most recently on ${fmtDate(c.date)}.${c.inWindow ? " That was within 90 days of a vote about them." : ""}</p>
         ${c.votes.length ? `<ul class="plain small">${c.votes.map(v => `<li>${esc(v)}</li>`).join("")}</ul>` : ""}
         ${c.note ? `<p class="small muted">${esc(c.note)}</p>` : ""}
         <div class="cite">${chip(c.label)}${srcLinks(c.sources)}${fixBtn(`${CK}/person/${p.id}/connection-${i}`, `${c.donor} gave $${c.amount}`)}</div>
-      </article>`).join("")}
-    </section>` : ""}
+      </article>`).join("")}`) : ""}
 
-    <section class="panel stack" aria-labelledby="pr"><h2 class="h2" id="pr">What ${fn} says they'll do</h2>
-      ${!promises || promises.label === "unknown" ? `<p class="small muted">${(p.dig?.promises || []).length ? `We haven't found a list of priorities for this campaign yet. What ${fn} promised in past campaigns is under <a href="#tr" data-jump="tr">track record</a> below.` : "We haven't found a list of priorities from this campaign yet."} ${fixBtn(fid("promises"), "None on file")}</p>` : `${valueText(promises.value)}<div class="cite">${chip(promises.label, "In the campaign's own words. A promise, not a fact.")}${srcLinks(promises.sources)}${fixBtn(fid("promises"), shownText(promises.value))}</div><p class="small muted">These are the campaign's own words. We'll compare them with future votes.</p>`}
-    </section>
+    ${drawer(dk("pr"), "pr", `What ${fn} says they'll do`, promPrev, !hasPromises ? `<p class="small muted">${(d.promises || []).length ? `We haven't found a list of priorities for this campaign yet. What ${fn} promised in past campaigns is under <a href="#tr" data-jump="tr">track record</a>.` : "We haven't found a list of priorities from this campaign yet."} ${fixBtn(fid("promises"), "None on file")}</p>` : `${valueText(promises.value)}<div class="cite">${chip(promises.label, "In the campaign's own words. A promise, not a fact.")}${srcLinks(promises.sources)}${fixBtn(fid("promises"), shownText(promises.value))}</div><p class="small muted">These are the campaign's own words, not facts. We'll compare them with future votes.</p>`)}
 
-    ${trackRecord(p, fn)}
+    ${trCount ? drawer(dk("tr"), "tr", `${fn}'s track record`, (DIG_PARTS.filter(([k]) => k !== "checked" && (d[k] || []).length).map(([k, t]) => `${d[k].length} ${t.toLowerCase().replace(/ records$/, "")}`).join(" · ") || "Records we searched"), trackRecord(p, fn)) : ""}
 
+    ${drawer(dk("ab"), "ab", `About ${fn}`, aboutPrev, `
+      <dl class="facts">${p.facts.party && !p.nonpartisan ? `<div class="fact"><dt>Party</dt><dd>${factBlock(p.facts.party, fid("party"))}</dd></div>` : ""}${shown.map(x => `<div class="fact"><dt>${FIELD_NAMES[x]}</dt><dd>${factBlock(p.facts[x], fid(x))}</dd></div>`).join("")}</dl>
+      <h3 class="h3">Website and social media</h3>${linksBlock(p)}`)}
 
     <details class="more panel"><summary>Every source used on this page (${allSources.length})</summary>
       <div class="list" style="border-radius:14px;margin-top:8px">${allSources.map(id => `<a href="${href("s/" + id)}"><span class="src" style="border:0;padding:0"><span class="t t${S[id].tier}">${S[id].tier}</span></span><span class="body"><span class="title small">${esc(S[id].title)}</span><span class="tiny muted">${esc(S[id].publisher)} · ${esc(TIERS[S[id].tier]?.[0] || "")}</span></span>${chev}</a>`).join("")}</div>
@@ -939,18 +1007,19 @@ function fundingBlock(p, fid) {
     ${f.prior ? `<p class="small">Plus <b>${usd(f.prior)}</b> raised before this campaign switched to this race. Those gifts are itemized in state records, not the county's, so they aren't in the breakdown below.</p>` : ""}
     ${bar}
     ${named.length ? `<h3 class="h3" style="margin-top:8px">By industry</h3>
-      <p class="small muted">Businesses grouped by their stated line of work, and people by the job they reported. Tap a row to see who's in it.</p>
-      <div class="fsectors">${named.map(sectorRow).join("")}</div>
+      <p class="small muted">Tap a row to see who's in it.</p>
+      <div class="fsectors">${named.slice(0, 3).map(sectorRow).join("")}</div>
+      ${named.length > 3 ? `<details class="more"><summary>Show ${named.length - 3} more industries</summary><div class="fsectors">${named.slice(3).map(sectorRow).join("")}</div></details>` : ""}
       ${rest.length ? `<details class="more"><summary>Gifts we couldn't group (${usd(rest.reduce((a,x)=>a+x.amount,0))})</summary><div class="fsectors">${rest.map(sectorRow).join("")}</div></details>` : ""}` : ""}
     ${f.committees.length ? `<h3 class="h3" style="margin-top:8px">Political committees (PACs) that gave</h3>
-      <p class="small muted">A political committee pools money from people, companies and other committees, then gives it to candidates. Like everyone else, it can give a county candidate up to $1,000 per election. Its name often doesn't say who's behind it, and the county's reports cut long names short; the state's committee records list each committee's own donors. <a href="#/money">How this works</a></p>
+      <details class="more"><summary>What's a PAC?</summary><p class="small muted">A political committee pools money from people, companies and other committees, then gives it to candidates. Like everyone else, it can give a county candidate up to $1,000 per election. Its name often doesn't say who's behind it, and the county's reports cut long names short; the state's committee records list each committee's own donors. <a href="#/money">How this works</a></p></details>
       ${(() => { const li = c => `<li class="fcom"><span><b>${esc(c.name)}</b><br><span class="tiny muted">${kinds[c.kind] || c.kindLabel}</span></span><b class="num">${usd(c.amount)}</b></li>`;
-        return `<ul class="plain stack-sm">${f.committees.slice(0, 5).map(li).join("")}</ul>${f.committees.length > 5 ? `<details class="more"><summary>Show all ${f.committees.length} committees (${usd(f.committees.reduce((a, c) => a + c.amount, 0))} in total)</summary><ul class="plain stack-sm" style="margin-top:8px">${f.committees.slice(5).map(li).join("")}</ul></details>` : ""}`; })()}
+        return `<ul class="plain stack-sm">${f.committees.slice(0, 3).map(li).join("")}</ul>${f.committees.length > 3 ? `<details class="more"><summary>Show all ${f.committees.length} committees (${usd(f.committees.reduce((a, c) => a + c.amount, 0))} in total)</summary><ul class="plain stack-sm" style="margin-top:8px">${f.committees.slice(3).map(li).join("")}</ul></details>` : ""}`; })()}
 
       <a class="small" href="https://dos.elections.myflorida.com/committees/" target="_blank" rel="noopener">Look up any Florida committee's donors (Florida Division of Elections)</a>` : ""}
     ${f.parties.length ? `<p class="small"><b>Political party money:</b> ${f.parties.map(x => `${esc(x.name)} ${usd(x.amount)}`).join("; ")}.</p>` : ""}
     ${f.sharedAddress.length ? `<h3 class="h3" style="margin-top:8px">Companies giving from the same address</h3>
-      <p class="small muted">Each company counts as its own donor, so related companies can together give more than the $1,000 one donor can. This is legal. We show it because it tells you who is giving.</p>
+      <p class="small muted">Related companies can each give $1,000, so together they can give more than one donor could. This is legal. We show it because it tells you who is giving.</p>
       <ul class="plain stack-sm small">${f.sharedAddress.map(c => `<li><b class="num">${usd(c.amount)}</b> from ${c.names.length} companies at one address: ${c.names.map(esc).join(", ")}</li>`).join("")}</ul>` : ""}
     <div class="cite">${srcLinks([f.source])}${f.reportUrl ? `<a class="small" href="${esc(f.reportUrl)}" target="_blank" rel="noopener">Open every report</a>` : ""}${fixBtn(fid("funding"), "Funding breakdown")}</div>
     <p class="tiny muted">The industry groups are ours, made by matching words in each donor's name and reported job, so a few gifts may land in the wrong group. We don't name private individuals who gave; their gifts are in the county's reports. Updated every night from the Supervisor of Elections.</p>
@@ -1011,27 +1080,22 @@ views.vote_item = id => {
       <span class="kicker">${esc(voteDate(v))}${itemRef(v) ? `<span class="sep"></span>${itemRef(v)}` : ""}</span>
       <h1 class="h1">${esc(v.headline)}</h1>
       ${v.inShort ? `<p class="lede">${esc(v.inShort)}</p>` : `<p class="lede">We haven't written a plain-English summary of this one yet. The official wording is at the bottom of this page.</p>`}
-      <div class="cite-box">
-        <b>Which vote this is</b>
-        <span>${esc(cname(CK))} County ${esc(body)}${v.date ? `, meeting of ${fmtDate(v.date)}` : ""}${v.fileNumber ? `, agenda item ${esc(v.fileNumber)}` : ""}.</span>
-        ${official ? `<a href="${esc(official)}" target="_blank" rel="noopener">Open the county's official record of this meeting</a>` : `<span class="small muted">This vote comes from news reports. We haven't matched it to the county's meeting record yet.</span>`}
-        <span class="tiny muted">The summary above is our plain-English description. If it doesn't match the official record, the record is what counts. ${fixBtn(fid("summary"), v.inShort || v.headline)}</span>
-      </div>
+    </section>
+
+    <section class="panel stack" aria-labelledby="res">
+      <div class="between"><h2 class="h2" id="res">${esc(v.result.value || "Result not confirmed yet")}</h2>${chip(v.result.label, v.result.note)}</div>
+      ${glassRoll(v)}
+      ${v.motion ? `<p class="small"><b>The motion:</b> ${esc(v.motion)} <span class="muted">A yes vote was a vote for this motion.</span></p>` : ""}
+      ${v.minutesText ? (v.minutesText.length > 220 ? `<details class="more small"><summary>What the minutes say</summary><p>"${esc(v.minutesText)}"</p></details>` : `<p class="small"><b>What the minutes say:</b> "${esc(v.minutesText)}"</p>`) : ""}
+      ${v.mover && P[v.mover] ? `<p class="small muted">Proposed by ${esc(P[v.mover].name)}${v.seconder && P[v.seconder] ? `, seconded by ${esc(P[v.seconder].name)}` : ""}.</p>` : ""}
+      <div class="cite">${chip(v.roll.label, v.roll.note)}${srcLinks(v.roll.sources)}${fixBtn(fid("roll"), v.result.value || "")}</div>
+      ${v.roll.label === "conflict" ? factBlock(v.roll, fid("roll")) : ""}
     </section>
 
     ${impactBlock(v, fid)}
 
     ${publicBlock(v, fid)}
 
-    <section class="panel stack" aria-labelledby="res">
-      <div class="between"><h2 class="h2" id="res">${esc(v.result.value || "Result not confirmed yet")}</h2>${chip(v.result.label, v.result.note)}</div>
-      ${glassRoll(v)}
-      ${v.motion ? `<p class="small"><b>The motion:</b> ${esc(v.motion)} <span class="muted">A yes vote was a vote for this motion.</span></p>` : ""}
-      ${v.minutesText ? `<p class="small"><b>What the minutes say:</b> "${esc(v.minutesText)}"</p>` : ""}
-      ${v.mover && P[v.mover] ? `<p class="small muted">Proposed by ${esc(P[v.mover].name)}${v.seconder && P[v.seconder] ? `, seconded by ${esc(P[v.seconder].name)}` : ""}.</p>` : ""}
-      <div class="cite">${chip(v.roll.label, v.roll.note)}${srcLinks(v.roll.sources)}${fixBtn(fid("roll"), v.result.value || "")}</div>
-      ${v.roll.label === "conflict" ? factBlock(v.roll, fid("roll")) : ""}
-    </section>
 
     ${v.moneyNotes ? `<section class="panel stack" aria-labelledby="mc"><h2 class="h3" id="mc">Campaign money connected to this vote</h2>
       ${v.moneyNotes.map((m, i) => `<div class="stack-sm"><p>${esc(m.text)}</p>${m.note ? `<p class="small muted">${esc(m.note)}</p>` : ""}<div class="cite">${chip(m.label)}${srcLinks(m.sources)}${fixBtn(fid("money-" + i), m.text)}</div></div>`).join("")}
@@ -1039,6 +1103,15 @@ views.vote_item = id => {
 
     ${v.facts.length ? `<section class="stack" aria-labelledby="mean"><h2 class="h2" id="mean">More details</h2>
       <div class="list">${v.facts.map((f, i) => `<div class="li"><span class="body" style="gap:8px"><span>${esc(f.text)}</span><span class="cite">${chip(f.label, f.note)}${srcLinks(f.sources)}${fixBtn(fid("fact-" + i), f.text)}</span></span></div>`).join("")}</div></section>` : ""}
+
+    <section class="stack-sm">
+      <div class="cite-box">
+        <b>Which vote this is</b>
+        <span>${esc(cname(CK))} County ${esc(body)}${v.date ? `, meeting of ${fmtDate(v.date)}` : ""}${v.fileNumber ? `, agenda item ${esc(v.fileNumber)}` : ""}.</span>
+        ${official ? `<a href="${esc(official)}" target="_blank" rel="noopener">Open the county's official record of this meeting</a>` : `<span class="small muted">This vote comes from news reports. We haven't matched it to the county's meeting record yet.</span>`}
+        <span class="tiny muted">The summary above is our plain-English description. If it doesn't match the official record, the record is what counts. ${fixBtn(fid("summary"), v.inShort || v.headline)}</span>
+      </div>
+    </section>
 
     <section class="stack" aria-labelledby="legal">
       <h2 class="h2" id="legal">The official wording</h2>
@@ -1388,7 +1461,7 @@ document.addEventListener("click", e => {
   if (e.target.closest("#pickCounty")) { countyChoices(); $("#countyDlg").showModal(); return; }
   if (e.target.closest("#openSearch")) { $("#search").hidden = false; $("#q").value = ""; runSearch(""); $("#q").focus(); return; }
   if (e.target.closest("#closeSearch")) { $("#search").hidden = true; return; }
-  const jump = e.target.closest("[data-jump]"); if (jump) { e.preventDefault(); document.getElementById(jump.dataset.jump)?.scrollIntoView({behavior: "smooth"}); return; }
+  const jump = e.target.closest("[data-jump]"); if (jump) { e.preventDefault(); const el = document.getElementById(jump.dataset.jump); if (el) { if (el.tagName === "DETAILS") el.open = true; el.scrollIntoView({behavior: "smooth", block: "start"}); } return; }
   const link = e.target.closest('a[href^="#"]'); if (link && link.getAttribute("href") === location.hash) { route(); }
 });
 document.addEventListener("submit", e => { if (e.target.id === "zipForm") { e.preventDefault(); zipLookup($("#zipIn").value.trim()); } });
