@@ -898,10 +898,23 @@ function glassRoll(v) {
     ${(r.absent?.length || r.abstain?.length) ? `<p class="small muted">Not voting: ${[...(r.absent||[]).map(id => esc(P[id]?.name || id) + " (absent)"), ...(r.abstain||[]).map(id => esc(P[id]?.name || id) + " (abstained)")].join(", ")}.</p>` : ""}`;
 }
 
+function impactBlock(v, fid) {
+  const im = v.impact || {};
+  if (!v.impact) return ""; // shown once the fact-checked research for this vote is in
+  return `<section class="panel stack" aria-labelledby="eff"><h2 class="h2" id="eff">What this decision does</h2>
+    ${im.does ? `<p>${esc(im.does.text)}</p><div class="cite">${srcLinks(im.does.sources)}${fixBtn(fid("does"), im.does.text)}</div>`
+      : `<p class="small muted">We're still looking into what this changes on the ground. ${fixBtn(fid("does"), "Effect not written yet")}</p>`}
+    <h3 class="h3" style="margin-top:4px">What happened after</h3>
+    ${(im.after || []).length ? `<ol class="plain stack-sm">${im.after.map((a, i) => `<li><span class="kicker" style="font-size:13px">${a.date ? esc(fmtDate(a.date)) : ""}</span><br>${esc(a.text)}<div class="cite">${srcLinks(a.sources)}${fixBtn(fid("after-" + i), a.text)}</div></li>`).join("")}</ol>`
+      : `<p class="small muted">We haven't found any reported follow-up yet. If you know of one, ${fixBtn(fid("after"), "No follow-up listed")}</p>`}
+    <p class="tiny muted">We report what happened and who said so. We don't say whether a decision was good or bad; that's yours to judge.</p>
+  </section>`;
+}
+
 views.vote_item = id => {
   const v = V[id]; if (!v) return notFound();
   const others = C.votes.filter(x => x.topic === v.topic && x.id !== v.id).slice(0, 4);
-  const allSources = [...new Set([...(v.result.sources||[]), ...(v.roll.sources||[]), ...v.facts.flatMap(f => f.sources || [])])].filter(id => S[id]);
+  const allSources = [...new Set([...(v.result.sources||[]), ...(v.roll.sources||[]), ...v.facts.flatMap(f => f.sources || []), ...(v.impact?.does?.sources || []), ...(v.impact?.after || []).flatMap(a => a.sources)])].filter(id => S[id]);
   const fid = f => `${CK}/vote/${v.id}/${f}`;
   const official = v.sourceUrl || (v.fileNumber && S.legistar ? S.legistar.url : null);
   const body = C.county.body || "Board of County Commissioners";
@@ -918,6 +931,8 @@ views.vote_item = id => {
         <span class="tiny muted">The summary above is our plain-English description. If it doesn't match the official record, the record is what counts. ${fixBtn(fid("summary"), v.inShort || v.headline)}</span>
       </div>
     </section>
+
+    ${impactBlock(v, fid)}
 
     <section class="panel stack" aria-labelledby="res">
       <div class="between"><h2 class="h2" id="res">${esc(v.result.value || "Result not confirmed yet")}</h2>${chip(v.result.label, v.result.note)}</div>
