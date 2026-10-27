@@ -331,7 +331,7 @@ details.more > summary::-webkit-details-marker{display:none}
     </a>
     <nav class="topnav" aria-label="Main">
       <a href="#" data-tab="ballot">My ballot</a>
-      <a href="#" data-tab="vote">How to vote</a>
+      <a href="#" data-tab="vote">When &amp; where</a>
       <a href="#" data-tab="officials">Who's in office</a>
       <a href="#/about" data-tab="about">About</a>
     </nav>
@@ -350,7 +350,7 @@ details.more > summary::-webkit-details-marker{display:none}
 
 <nav class="tabs" aria-label="Main">
   <a href="#" data-tab="ballot"><svg viewBox="0 0 22 22" aria-hidden="true"><rect x="3" y="9" width="16" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M8 9V3.5h6V9" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M9.2 6.3l1.3 1.3 2.4-2.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>My ballot</a>
-  <a href="#" data-tab="vote"><svg viewBox="0 0 22 22" aria-hidden="true"><rect x="3.5" y="4.5" width="15" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M3.5 9h15M8 2.5v4M14 2.5v4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>How to vote</a>
+  <a href="#" data-tab="vote"><svg viewBox="0 0 22 22" aria-hidden="true"><rect x="3.5" y="4.5" width="15" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M3.5 9h15M8 2.5v4M14 2.5v4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>When &amp; where</a>
   <a href="#" data-tab="officials"><svg viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="7.5" r="3.8" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M3.5 20c1-3.8 3.8-5.6 7.5-5.6s6.5 1.8 7.5 5.6" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>In office</a>
   <a href="#/about" data-tab="about"><svg viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="8" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M11 10v5.5M11 6.8v.2" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>About</a>
 </nav>
@@ -492,7 +492,7 @@ function mapSvg(active) {
 }
 const edayLine = () => { const d = daysLeft(); const hrs = (HTV.statewide || []).find(x => x.id === "poll-hours");
   const when = d > 1 ? `${d} days from now` : d === 1 ? "tomorrow" : d === 0 ? "today" : "";
-  return d >= 0 ? `Election Day is Tuesday, Nov 3${when ? ", " + when : ""}.${hrs ? " " + esc(hrs.text) : ""}` : ""; };
+  return d >= 0 ? `Election Day is Tuesday, Nov 3${when ? ", " + when : ""}.${hrs ? " " + esc(hrs.text.replace(/^On Election Day, [^,]+, [^,]+, polls/i, "Polls")) : ""}` : ""; };
 
 views.home = () => {
   const close = (DATA.closeRace || null);
@@ -562,7 +562,7 @@ views.ballot = () => {
   const lookup = (HTV.counties[CK] || {}).pollingPlaceUrl || C.county.lookupUrl;
   return `<div class="stack-lg view">
     ${band(`${esc(C.county.name)}, Florida`, `Your ${esc(cname(CK))} County ballot`, `${live.length} local race${live.length === 1 ? "" : "s"} on the Nov 3 ballot. ${edayLine()}`, COUNTY_IMG[CK] || "09-town-square",
-      `<div class="row noprint"><a class="btn primary" href="${href("vote")}">How to vote in ${esc(cname(CK))}</a>${nPicked ? `<a class="btn" href="${href("mylist")}">My list (${nPicked} of ${live.length})</a>` : ""}</div>`)}
+      `<div class="row noprint"><a class="btn primary" href="${href("vote")}">When and where to vote</a>${nPicked ? `<a class="btn" href="${href("mylist")}">My list (${nPicked} of ${live.length})</a>` : ""}</div>`)}
 
     ${dists.length ? `<section class="panel stack" aria-labelledby="dq">
       <h2 class="h3" id="dq"><span class="stepn">1</span>Do you know your county commission district?</h2>
@@ -669,22 +669,22 @@ views.mylist = () => {
       <p class="lede">Your choices for the ${esc(cname(CK))} County races we cover. This list is saved only on this device.</p>
       ${notes ? `<p class="notice">${esc(notes.text)} <a href="${esc(notes.url)}" target="_blank" rel="noopener">Source</a></p>` : ""}</section>
     <div class="list">${live.map(r => { const p = P[myp[r.id]]; return `<a href="${href("r/" + r.id)}"><span class="body"><span class="tiny muted">${esc(r.title)}</span><span class="title" style="font-size:18px">${p ? esc(p.name) : '<span class="muted">Not chosen yet</span>'}</span></span>${chev}</a>`; }).join("")}</div>
-    <div class="row noprint"><button class="btn primary" type="button" onclick="window.print()">Print my list</button><a class="btn" href="${href("vote")}">How to vote</a></div>
+    <div class="row noprint"><button class="btn primary" type="button" onclick="window.print()">Print my list</button><a class="btn" href="${href("vote")}">When and where to vote</a></div>
     <p class="small muted">Your ballot also has federal, state and city races and ballot questions that aren't on this list. ${info.sampleBallotUrl ? `<a href="${esc(info.sampleBallotUrl)}" target="_blank" rel="noopener">See your full sample ballot</a>.` : ""}</p>
   </div>`;
 };
 
-/* ---------- how to vote ---------- */
+/* ---------- when and where to vote ---------- */
 views.vote = () => {
   const info = HTV.counties[CK] || {};
   const st = HTV.statewide || [];
   const item = (t, u, pub) => `<div class="li"><span class="body"><span>${esc(t)}</span>${u ? `<a class="tiny" href="${esc(u)}" target="_blank" rel="noopener">Source: ${esc(pub || "Official source")}</a>` : ""}</span></div>`;
   return `<div class="stack-lg view">
-    ${band(esc(C.county.name), `How to vote in ${esc(cname(CK))} County`, edayLine(), "01-local-courthouse")}
+    ${band(esc(C.county.name), `When and where to vote in ${esc(cname(CK))} County`, edayLine(), "01-local-courthouse")}
     <section class="stack"><h2 class="h2">In ${esc(cname(CK))} County</h2>
       <div class="list">
-        ${info.earlyVoting ? item("Early voting: " + info.earlyVoting, info.earlyVotingUrl, `${cname(CK)} County Supervisor of Elections`) : ""}
-        ${info.mailBallotDropOff ? item("Mail ballots: " + info.mailBallotDropOff, (info.sources || [])[0], `${cname(CK)} County Supervisor of Elections`) : ""}
+        ${info.earlyVoting ? item((/^early voting/i.test(info.earlyVoting) ? "" : "Early voting: ") + info.earlyVoting, info.earlyVotingUrl, `${cname(CK)} County Supervisor of Elections`) : ""}
+        ${info.mailBallotDropOff ? item((/^mail/i.test(info.mailBallotDropOff) ? "" : "Mail ballots: ") + info.mailBallotDropOff, (info.sources || [])[0], `${cname(CK)} County Supervisor of Elections`) : ""}
         ${info.pollingPlaceUrl ? `<a href="${esc(info.pollingPlaceUrl)}" target="_blank" rel="noopener"><span class="body"><span class="title">Find your polling place and sample ballot</span><span class="tiny muted">On the ${esc(cname(CK))} County Supervisor of Elections website</span></span>${chev}</a>` : ""}
         ${info.phone ? `<a href="tel:${esc(info.phone.replace(/[^0-9]/g, ""))}"><span class="body"><span class="title">Questions? Call the Supervisor of Elections</span><span class="tiny muted">${esc(info.phone)}</span></span>${chev}</a>` : ""}
       </div>
