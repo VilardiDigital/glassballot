@@ -22,12 +22,12 @@ jobs:
       - name: Build page
         run: |
           rm -f site/og.png
-          python -m pipeline.dist
+          python -m pipeline.refresh --offline
           ls dist/og.html dist/assets/logo-box.png
       - name: Render image
         run: python tools/render_og.py
       - name: Rebuild site with image
-        run: python -m pipeline.dist
+        run: python -m pipeline.refresh --offline
       - name: Publish
         run: |
           git config user.name "Glass Ballot"
