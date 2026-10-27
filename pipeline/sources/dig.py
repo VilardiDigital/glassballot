@@ -107,6 +107,8 @@ def merge(seed: dict, county: str) -> dict:
             items = blocks.get(kind) or []
             for idx, it in enumerate(items):
                 chk = checks.get((pid, kind, idx))
+                if checks and not chk:
+                    chk = {"verdict": "unreachable"}  # the checker never got to it: same rule as a page that wouldn't open
                 if chk and chk.get("verdict") == "drop":
                     continue
                 # A quote we could not check against its source stays off the site until someone does.

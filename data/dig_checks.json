@@ -3850,5 +3850,826 @@
   "index": 1,
   "verdict": "ok",
   "evidence": "SOE Aug 25, 2026 certified summary: Kenneth \"Ken\" Gay 52,808 27.23% (second to Perez)"
+ },
+ {
+  "county": "pasco",
+  "person": "weightman",
+  "kind": "conflicts",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "Times article (Lizzy Alspach, Aug 18 2026) is paywalled on tampabay.com; same story syndicated in Tampa Bay Beacon (Aug 25 2026) reads verbatim: \"Weightman faced backlash because he previously didn't live in his commission district.\" and says he moved into the district two months later. Context: Times Feb 28 2023 deck says Weightman says he moved in Jan. 20, more than two months after the general election."
+ },
+ {
+  "county": "pasco",
+  "person": "starkey",
+  "kind": "conflicts",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "CoE press release dated June 14, 2023: meeting June 9 in closed session; under 'The Commission dismissed the following complaints for lack of legal sufficiency': \"KATHRYN STARKEY, Pasco County Commission;\""
+ },
+ {
+  "county": "pasco",
+  "person": "starkey",
+  "kind": "conflicts",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "CoE press release dated August 2, 2023: meeting July 28; dismissed for lack of legal sufficiency: \"KATHY STARKEY, Pasco County Commission Member;\""
+ },
+ {
+  "county": "pasco",
+  "person": "oakley",
+  "kind": "promises",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "LLN Aug 9 2012: \"We need leaders more concerned about creating jobs than protecting their own.\""
+ },
+ {
+  "county": "pasco",
+  "person": "oakley",
+  "kind": "promises",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "LLN 2012: \"It is imperative we stimulate the local economy by reducing the taxes on citizens and businesses.\" ... \"The Penny for Pasco sales tax helps do just that by distributing the burden equally to all citizens\""
+ },
+ {
+  "county": "pasco",
+  "person": "oakley",
+  "kind": "promises",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "LLN 2012: nationwide search for administrator with \"experience in a county with a population 750,000 to 1,000,000.\""
+ },
+ {
+  "county": "pasco",
+  "person": "oakley",
+  "kind": "promises",
+  "index": 3,
+  "verdict": "ok",
+  "evidence": "LLN 2012: does not understand \"replacing impact fees with mobility fees, which don't cover the entire cost of infrastructure.\""
+ },
+ {
+  "county": "pasco",
+  "person": "oakley",
+  "kind": "promises",
+  "index": 4,
+  "verdict": "unreachable",
+  "evidence": "Times KYC 2016 page shows only caption/metadata; article body paywalled."
+ },
+ {
+  "county": "pasco",
+  "person": "oakley",
+  "kind": "promises",
+  "index": 5,
+  "verdict": "unreachable",
+  "evidence": "Times KYC 2016 page shows only caption/metadata; article body paywalled."
+ },
+ {
+  "county": "pasco",
+  "person": "oakley",
+  "kind": "promises",
+  "index": 6,
+  "verdict": "unreachable",
+  "evidence": "Times KYC 2016 page shows only caption/metadata; article body paywalled."
+ },
+ {
+  "county": "pasco",
+  "person": "oakley",
+  "kind": "promises",
+  "index": 7,
+  "verdict": "unreachable",
+  "evidence": "Times KYC 2016 page shows only caption/metadata; article body paywalled."
+ },
+ {
+  "county": "pasco",
+  "person": "oakley",
+  "kind": "promises",
+  "index": 8,
+  "verdict": "unreachable",
+  "evidence": "Times Dec 2015 article body paywalled; only headline/meta visible."
+ },
+ {
+  "county": "pasco",
+  "person": "oakley",
+  "kind": "electionHistory",
+  "index": 7,
+  "verdict": "unreachable",
+  "evidence": "Times Dec 2015 article body paywalled; $176,000 figure not verified."
+ },
+ {
+  "county": "pasco",
+  "person": "oakley",
+  "kind": "keyPositions",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "LLN Jan 19 2021: \"I think the project fits,\" Oakley said."
+ },
+ {
+  "county": "pasco",
+  "person": "oakley",
+  "kind": "keyPositions",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "LLN Apr 13 2021: board voted 3-2; Chairman Ron Oakley, Starkey and Fitzpatrick voted yes."
+ },
+ {
+  "county": "pasco",
+  "person": "oakley",
+  "kind": "keyPositions",
+  "index": 3,
+  "verdict": "ok",
+  "evidence": "LLN Jan 18 2022: Moore moved to deny, \"seconded by Commissioner Ron Oakley\"; Oakley said the development was too big for the site (paraphrase, matches item which has no quote marks)."
+ },
+ {
+  "county": "pasco",
+  "person": "oakley",
+  "kind": "keyPositions",
+  "index": 4,
+  "verdict": "ok",
+  "evidence": "LLN Sep 5 2024 (Aug 21 vote): Chairman Oakley: \"there's a demand for schools in Pasco County to get bigger and better,\" tied to people moving in."
+ },
+ {
+  "county": "pasco",
+  "person": "oakley",
+  "kind": "electionHistory",
+  "index": 4,
+  "verdict": "ok",
+  "evidence": "SOE ENR 3717: Ron Oakley (REP) 59.56%, Lisa Moretti (NPA) 40.44%."
+ },
+ {
+  "county": "pasco",
+  "person": "oakley",
+  "kind": "electionHistory",
+  "index": 6,
+  "verdict": "ok",
+  "evidence": "LLN: \"This will be the third term for Oakley who was first elected in 2016.\""
+ },
+ {
+  "county": "pasco",
+  "person": "weightman",
+  "kind": "promises",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "Times Aug 11 2022 body paywalled; the quote does not appear in the visible text."
+ },
+ {
+  "county": "pasco",
+  "person": "weightman",
+  "kind": "keyPositions",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "LLN Sep 5 2024: verbatim quote confirmed; vote 4-1 with Weightman the sole dissenter."
+ },
+ {
+  "county": "pasco",
+  "person": "weightman",
+  "kind": "keyPositions",
+  "index": 3,
+  "verdict": "ok",
+  "evidence": "LLN Jun 29 2026: he and others \"were concerned about applicants finding loopholes within the moratorium ordinance\" (paraphrase; his quote: \"Sounds a little loose.\")."
+ },
+ {
+  "county": "pasco",
+  "person": "weightman",
+  "kind": "electionHistory",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "SOE Pri22all: Weightman 48.87%, Christie Zimmer 27.11%, Troy F. Stevenson 24.02%. SOE 2022GEN_BYGROUP page shows no County Commissioner District 2 contest."
+ },
+ {
+  "county": "pasco",
+  "person": "weightman",
+  "kind": "electionHistory",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "LLN: \"He will face write-in candidate Louie Rodriguez in the November election.\""
+ },
+ {
+  "county": "pasco",
+  "person": "weightman",
+  "kind": "electionHistory",
+  "index": 3,
+  "verdict": "unreachable",
+  "evidence": "Ballotpedia page blocked. Ballot pairing confirmed by SOE 2026 candidate list (Vazquez DEM and Weightman REP, both qualified), but the Candidate Connection survey claim was not verified."
+ },
+ {
+  "county": "pasco",
+  "person": "starkey",
+  "kind": "keyPositions",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "LLN Jan 19 2021: \"I'm not sure this area is overbuilt for this price point.\""
+ },
+ {
+  "county": "pasco",
+  "person": "starkey",
+  "kind": "keyPositions",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "LLN Apr 13 2021: voted yes in 3-2 approval; \"Starkey said she wants to see evidence that the area is oversaturated with apartments.\""
+ },
+ {
+  "county": "pasco",
+  "person": "starkey",
+  "kind": "keyPositions",
+  "index": 4,
+  "verdict": "ok",
+  "evidence": "LLN Jan 18 2022: Starkey and Fitzpatrick voted against Moore's motion to deny; request rejected 3-2."
+ },
+ {
+  "county": "pasco",
+  "person": "starkey",
+  "kind": "keyPositions",
+  "index": 5,
+  "verdict": "ok",
+  "evidence": "LLN Sep 5 2024: Pasco's cost of living is \"still very affordable\" compared with some other Florida counties."
+ },
+ {
+  "county": "pasco",
+  "person": "starkey",
+  "kind": "promises",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "Times 2004 archive page shows only meta description; body not available."
+ },
+ {
+  "county": "pasco",
+  "person": "starkey",
+  "kind": "promises",
+  "index": 1,
+  "verdict": "unreachable",
+  "evidence": "Times 2004 archive page shows only meta description; body not available."
+ },
+ {
+  "county": "pasco",
+  "person": "starkey",
+  "kind": "promises",
+  "index": 2,
+  "verdict": "unreachable",
+  "evidence": "Times 2004 archive page shows only meta description; body not available."
+ },
+ {
+  "county": "pasco",
+  "person": "starkey",
+  "kind": "promises",
+  "index": 3,
+  "verdict": "unreachable",
+  "evidence": "Times 2004 archive page shows only meta description; body not available."
+ },
+ {
+  "county": "pasco",
+  "person": "starkey",
+  "kind": "keyPositions",
+  "index": 11,
+  "verdict": "unreachable",
+  "evidence": "Times 2004 archive body not available."
+ },
+ {
+  "county": "pasco",
+  "person": "starkey",
+  "kind": "promises",
+  "index": 8,
+  "verdict": "unreachable",
+  "evidence": "Times Oct 23 2020 body paywalled."
+ },
+ {
+  "county": "pasco",
+  "person": "starkey",
+  "kind": "promises",
+  "index": 9,
+  "verdict": "unreachable",
+  "evidence": "Times Oct 23 2020 body paywalled."
+ },
+ {
+  "county": "pasco",
+  "person": "starkey",
+  "kind": "electionHistory",
+  "index": 7,
+  "verdict": "ok",
+  "evidence": "SOE ENR 3717: Kathryn Elizabeth Starkey (REP) 89.48%, Write-in 10.52%."
+ },
+ {
+  "county": "pasco",
+  "person": "starkey",
+  "kind": "electionHistory",
+  "index": 8,
+  "verdict": "ok",
+  "evidence": "LLN: \"This will be Starkey's fourth term on the commission. She was first elected in 2012.\""
+ },
+ {
+  "county": "pasco",
+  "person": "starkey",
+  "kind": "electionHistory",
+  "index": 9,
+  "verdict": "ok",
+  "evidence": "Patch: \"Previous elective offices : School Board, 2004, 2008\"; \"Unsuccessful bids for elective offices : 2010\"."
+ },
+ {
+  "county": "pasco",
+  "person": "mariano",
+  "kind": "keyPositions",
+  "index": 1,
+  "verdict": "fix",
+  "fix": "Opposed an apartment request in Jan 2021, saying the site on an arterial roadway \"screams for something commercial,\" which he described as a job generator; moved for a 60-day continuance",
+  "evidence": "LLN Jan 19 2021: \"with the connection that we have right there, it screams for something commercial [em dash] a job generator.\" Item replaced the source's dash with a comma inside the quote marks. 60-day continuance confirmed (Moore seconded, passed 5-0)."
+ },
+ {
+  "county": "pasco",
+  "person": "mariano",
+  "kind": "keyPositions",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "LLN Apr 13 2021: Moore and Mariano voted no; \"The county should retain land designated for uses that create jobs.\""
+ },
+ {
+  "county": "pasco",
+  "person": "mariano",
+  "kind": "keyPositions",
+  "index": 3,
+  "verdict": "ok",
+  "evidence": "LLN Jan 18 2022: \"Commissioner Jack Mariano also voted against the proposal\"; part of the 3-2 majority rejecting it."
+ },
+ {
+  "county": "pasco",
+  "person": "mariano",
+  "kind": "keyPositions",
+  "index": 6,
+  "verdict": "ok",
+  "evidence": "LLN Sep 5 2024: paraphrased as favoring the increase because newer residents are covering the costs of growth (item has no quote marks)."
+ },
+ {
+  "county": "pasco",
+  "person": "mariano",
+  "kind": "keyPositions",
+  "index": 9,
+  "verdict": "ok",
+  "evidence": "LLN Jun 29 2026: \"This is something that we feel strongly about,\" Chairman Jack Mariano said."
+ },
+ {
+  "county": "pasco",
+  "person": "mariano",
+  "kind": "promises",
+  "index": 3,
+  "verdict": "unreachable",
+  "evidence": "Times Oct 23 2020 body paywalled."
+ },
+ {
+  "county": "pasco",
+  "person": "mariano",
+  "kind": "promises",
+  "index": 4,
+  "verdict": "unreachable",
+  "evidence": "Times Oct 23 2020 body paywalled."
+ },
+ {
+  "county": "pasco",
+  "person": "mariano",
+  "kind": "keyPositions",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "Times Oct 23 2020 body paywalled."
+ },
+ {
+  "county": "pasco",
+  "person": "mariano",
+  "kind": "electionHistory",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "SOE gen08all: Jack Mariano (REP) 54.10% (105,963), Virginia \"Ginny\" Miller (DEM) 45.90% (89,907)."
+ },
+ {
+  "county": "pasco",
+  "person": "mariano",
+  "kind": "electionHistory",
+  "index": 8,
+  "verdict": "ok",
+  "evidence": "SOE ENR 3717: Jack Mariano (REP) 64.91%, Thomas Celotto (NPA) 35.09%."
+ },
+ {
+  "county": "pasco",
+  "person": "mariano",
+  "kind": "electionHistory",
+  "index": 9,
+  "verdict": "ok",
+  "evidence": "LLN: \"This will be Mariano's sixth term as a county commissioner. He was first elected in 2004.\""
+ },
+ {
+  "county": "pasco",
+  "person": "yeager",
+  "kind": "keyPositions",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "LLN Sep 5 2024: both quoted phrases confirmed verbatim."
+ },
+ {
+  "county": "pasco",
+  "person": "yeager",
+  "kind": "keyPositions",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "LLN Jun 29 2026: she \"threw out the idea of someone slipping a project through for a data hub or colocation facility.\""
+ },
+ {
+  "county": "pasco",
+  "person": "yeager",
+  "kind": "keyPositions",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "Neighborhood News Jul 15 2026: \"There are too many unanswered questions and uncertainty.\""
+ },
+ {
+  "county": "pasco",
+  "person": "yeager",
+  "kind": "promises",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "WFTS questionnaire: \"cutting taxes, keeping our streets safe, and ensuring growth is smart and sustainable.\""
+ },
+ {
+  "county": "pasco",
+  "person": "yeager",
+  "kind": "promises",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "WFTS: \"We should ensure that growth puts our people first,\" balancing development with \"traffic, infrastructure, and quality of life.\""
+ },
+ {
+  "county": "pasco",
+  "person": "yeager",
+  "kind": "promises",
+  "index": 3,
+  "verdict": "ok",
+  "evidence": "WFTS: revitalizing Moon Lake \"a personal mission.\""
+ },
+ {
+  "county": "pasco",
+  "person": "yeager",
+  "kind": "promises",
+  "index": 4,
+  "verdict": "fix",
+  "fix": "Listed as her record: cutting taxes, advancing economic development, partnering with the Sheriff, expanding recreational opportunities, and helping lead recovery efforts after Hurricanes Helene and Milton, including removing more than 200 tons of debris (candidate's own description)",
+  "evidence": "WFTS: \"we cut taxes\", \"advanced economic development\", \"partnered with the Sheriff\", \"expanded recreational opportunities\", \"helped lead recovery efforts\", \"removing more than 200 tons of debris\". She did not say she helped lead debris removal specifically."
+ },
+ {
+  "county": "pasco",
+  "person": "yeager",
+  "kind": "promises",
+  "index": 5,
+  "verdict": "ok",
+  "evidence": "Neighborhood News Jul 15 2026: her written answer reads verbatim \"...lowering taxes, protecting our quality of life from unchecked growth, strengthening our community against flooding and storms and creating opportunities for our children and families to thrive.\" (her own written words, not a reporter paraphrase)."
+ },
+ {
+  "county": "pasco",
+  "person": "yeager",
+  "kind": "promises",
+  "index": 6,
+  "verdict": "ok",
+  "evidence": "Neighborhood News: \"Development is happening fast, too fast in many cases\"; growth should be \"smart, thoughtful, consider future needs...\""
+ },
+ {
+  "county": "pasco",
+  "person": "yeager",
+  "kind": "promises",
+  "index": 7,
+  "verdict": "ok",
+  "evidence": "Neighborhood News: \"responding to Hurricanes Helene and Milton\", \"helping establish senior food programs\", \"Pasco's first low-barrier homeless shelter\", \"revitalizing Moon Lake\", \"I fought to roll back the tax rate\", \"Moffitt's Speros campus\"."
+ },
+ {
+  "county": "pasco",
+  "person": "yeager",
+  "kind": "electionHistory",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "SOE ENR 3717: Lisa Yeager (REP) 64.72%, Danny Ackroyd-Isales (DEM) 35.28%."
+ },
+ {
+  "county": "pasco",
+  "person": "yeager",
+  "kind": "electionHistory",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "SOE ENR 4045 (122/122 precincts): Lisa Yeager 62.38%, Jonathan Deckard 37.62%."
+ },
+ {
+  "county": "pasco",
+  "person": "yeager",
+  "kind": "electionHistory",
+  "index": 3,
+  "verdict": "ok",
+  "evidence": "LLN: \"sworn in to represent District 4 during the May 21 meeting\"; \"one of four Republican candidates\" for the Aug 20 primary."
+ },
+ {
+  "county": "pasco",
+  "person": "yeager",
+  "kind": "electionHistory",
+  "index": 4,
+  "verdict": "ok",
+  "evidence": "LLN: \"Gov. Ron DeSantis appointed Yeager to the District 4 seat following the April 21 death of Gary Bradford\"; winner \"will serve the remaining two years of Bradford's term.\""
+ },
+ {
+  "county": "pasco",
+  "person": "yeager",
+  "kind": "electionHistory",
+  "index": 5,
+  "verdict": "fix",
+  "fix": "2026: Won the Aug 18 Republican primary for District 4 over Jonathan Deckard by a nearly two-to-one margin (62.38% to 37.62%); write-in Louie Rodriguez later withdrew, and the Supervisor of Elections lists Yeager as unopposed after the primary",
+  "evidence": "Times/Beacon (Aug 2026): won \"by a nearly two-to-one margin\"; spells the opponent \"Jonathon\" (SOE spells it Jonathan E. Deckard). SOE 2026 candidate list (Sep 16 2026) now shows write-in Louie Rodriguez \"Withdrawn\" and Yeager \"Unopposed after Primary\", so the November write-in reference is outdated. Note: the Times and Beacon caption call it her District 5 seat; SOE shows District 4."
+ },
+ {
+  "county": "pasco",
+  "person": "vazquez",
+  "kind": "promises",
+  "index": 5,
+  "verdict": "ok",
+  "evidence": "Beacon reprint of Times story: \"She's running to 'stop reckless growth' in the county and shorten commutes, her website says.\""
+ },
+ {
+  "county": "pasco",
+  "person": "vazquez",
+  "kind": "promises",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "Neighborhood News May 12 2025 lists: fixing broken roads, drainage and outdated storm systems; flooding and climate change; term limits; \"Curbing reckless growth that strains neighborhoods and schools.\""
+ },
+ {
+  "county": "pasco",
+  "person": "vazquez",
+  "kind": "promises",
+  "index": 1,
+  "verdict": "fix",
+  "fix": "Said funding schools with development impact fees would be her top priority, followed by funding for new and improved roads, then flood mitigation and drainage projects",
+  "evidence": "Neighborhood News: ranks school funding through development impact fees first, roads second, flood mitigation and drainage third. The 'commission-controlled' qualifier was not seen in the source text."
+ },
+ {
+  "county": "pasco",
+  "person": "vazquez",
+  "kind": "promises",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "Neighborhood News: \"If the population is increasing, we need to prioritize schools, and developers need to pay their fair share.\""
+ },
+ {
+  "county": "pasco",
+  "person": "vazquez",
+  "kind": "promises",
+  "index": 3,
+  "verdict": "ok",
+  "evidence": "Neighborhood News: would \"Vote No!\" on large developments without parks and school sites; \"Do we need it? Does it put the people of Pasco first? Are we ready for it?\""
+ },
+ {
+  "county": "pasco",
+  "person": "vazquez",
+  "kind": "promises",
+  "index": 4,
+  "verdict": "ok",
+  "evidence": "Neighborhood News: decisions \"made in the open, with transparency and accountability.\""
+ },
+ {
+  "county": "pasco",
+  "person": "vazquez",
+  "kind": "electionHistory",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "Ballotpedia page blocked; substance confirmed by SOE 2026 candidate list: County Commissioner District 2 has only Vazquez, Stephanie C. (DEM, Qualified) and Weightman, Seth (REP, Qualified), so there was no primary."
+ },
+ {
+  "county": "pasco",
+  "person": "harding",
+  "kind": "promises",
+  "index": 8,
+  "verdict": "fix",
+  "fix": "Emphasized strengthening relationships with local teacher colleges and securing state funding for school safety; listed civics education, reading and math achievement and fiscal responsibility as priorities (as reported by WUSF, 2026)",
+  "evidence": "WUSF Jul 27 2026 lists these priorities but gives no source for them; it does not say they came from the Florida Public Media Voter Guide (an update note mentions her WUSF Voter Guide survey response was added)."
+ },
+ {
+  "county": "pasco",
+  "person": "harding",
+  "kind": "promises",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "2018 Times story body paywalled; quotes not verified."
+ },
+ {
+  "county": "pasco",
+  "person": "harding",
+  "kind": "promises",
+  "index": 1,
+  "verdict": "unreachable",
+  "evidence": "2018 Times story body paywalled; quotes not verified."
+ },
+ {
+  "county": "pasco",
+  "person": "harding",
+  "kind": "promises",
+  "index": 2,
+  "verdict": "unreachable",
+  "evidence": "2018 Times story body paywalled; quotes not verified."
+ },
+ {
+  "county": "pasco",
+  "person": "harding",
+  "kind": "promises",
+  "index": 3,
+  "verdict": "unreachable",
+  "evidence": "2018 Times story body paywalled; quotes not verified."
+ },
+ {
+  "county": "pasco",
+  "person": "harding",
+  "kind": "promises",
+  "index": 4,
+  "verdict": "unreachable",
+  "evidence": "2018 Times story body paywalled; quotes not verified."
+ },
+ {
+  "county": "pasco",
+  "person": "harding",
+  "kind": "promises",
+  "index": 5,
+  "verdict": "unreachable",
+  "evidence": "2018 Times story body paywalled; quotes not verified."
+ },
+ {
+  "county": "pasco",
+  "person": "harding",
+  "kind": "electionHistory",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "SOE pri18all: Tara M. O'Connor 33.90%, Megan Harding 33.60%, Mike Aday 19.13%, Kassie Hutchinson 13.36%."
+ },
+ {
+  "county": "pasco",
+  "person": "harding",
+  "kind": "electionHistory",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "SOE Pri22all: Megan Harding 71.33%, Charles Philip Touseull 28.67%."
+ },
+ {
+  "county": "pasco",
+  "person": "harding",
+  "kind": "electionHistory",
+  "index": 3,
+  "verdict": "ok",
+  "evidence": "SOE ENR 4045: Megan Harding 72.15%, Michelle R. Mandarin 27.85%."
+ },
+ {
+  "county": "pasco",
+  "person": "geiger",
+  "kind": "promises",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "WUSF: from his United School Employees of Pasco questionnaire: \"My top priority is ensuring every child receives a high-quality, academically rigorous education free from ideological indoctrination\"; \"We need to emphasize phonics-based reading, basic math proficiency and American exceptionalism\"."
+ },
+ {
+  "county": "pasco",
+  "person": "geiger",
+  "kind": "promises",
+  "index": 3,
+  "verdict": "ok",
+  "evidence": "WUSF: district-owned affordable housing modeled on \"Teacher Village\" in Chicago; safety officers who can ticket students for repeated misbehavior."
+ },
+ {
+  "county": "pasco",
+  "person": "geiger",
+  "kind": "promises",
+  "index": 4,
+  "verdict": "ok",
+  "evidence": "WUSF: backs a local property tax referendum but sees it as \"somewhat of a Band-Aid solution\" (paraphrase, unquoted, matching item); \"The solution is not just more money but better working conditions.\""
+ },
+ {
+  "county": "pasco",
+  "person": "geiger",
+  "kind": "electionHistory",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "SOE Pri22all: Cynthia Armstrong 58.88%, Matthew Geiger 41.12%."
+ },
+ {
+  "county": "pasco",
+  "person": "geiger",
+  "kind": "electionHistory",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "SOE ENR 4045: Geiger 28.74%, Ward 21.12%, Stroupe 19.05%, O'Flannery 17.31%, Phillips 13.79%."
+ },
+ {
+  "county": "pasco",
+  "person": "ward",
+  "kind": "promises",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "WUSF: partnerships with \"USF College of Education,\" \"PHSC,\" and alternative certification; \"listed A.I. threat detection, bus driver recruitment, and curriculum oversight as priorities.\""
+ },
+ {
+  "county": "pasco",
+  "person": "ward",
+  "kind": "promises",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "WUSF: from her Florida Public Media Voter Guide entry: \"Book challenges should be handled through a clear, lawful process that respects parents' rights and age-appropriate standards\""
+ },
+ {
+  "county": "pasco",
+  "person": "ward",
+  "kind": "electionHistory",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "SOE ENR 4045: Ward 21.12%, second of five behind Geiger 28.74%."
+ },
+ {
+  "county": "pasco",
+  "person": "collura",
+  "kind": "promises",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "WUSF: priorities competitive teacher pay, limiting excessive personal technology use, threat management technology."
+ },
+ {
+  "county": "pasco",
+  "person": "collura",
+  "kind": "promises",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "WUSF: \"A huge deciding factor in running is the volume of explosive growth that's happening in this county\""
+ },
+ {
+  "county": "pasco",
+  "person": "collura",
+  "kind": "promises",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "Neighborhood News Jul 12 2026: \"I want to focus on proactive security measures, not reactive,\" naming threat assessments and open-source intelligence gathering."
+ },
+ {
+  "county": "pasco",
+  "person": "collura",
+  "kind": "promises",
+  "index": 3,
+  "verdict": "ok",
+  "evidence": "Neighborhood News: \"parents reserve the right to choose\"; \"We may have to shut some schools down because of changes happening in the area\"; open to possibilities \"as long as all students are getting the same opportunities.\""
+ },
+ {
+  "county": "pasco",
+  "person": "collura",
+  "kind": "electionHistory",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "SOE ENR 4045: Collura 30.89%, Coward 35.43%, King 20.29%, Perras 13.38%."
+ },
+ {
+  "county": "pasco",
+  "person": "coward",
+  "kind": "promises",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "WUSF: in the \"Florida Public Media Voter Guide\" she supports \"data-driven, fiscally responsible\" solutions to teacher pay and declining enrollment."
+ },
+ {
+  "county": "pasco",
+  "person": "coward",
+  "kind": "promises",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "Neighborhood News: declining enrollment and closures; wants \"to see what the budget looks like\"; \"be a good steward of the finances.\""
+ },
+ {
+  "county": "pasco",
+  "person": "coward",
+  "kind": "promises",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "Neighborhood News: \"If it helps students to do well, I support school choice, I support parent choice\"; \"We have to make sure our teachers are paid better.\""
+ },
+ {
+  "county": "pasco",
+  "person": "coward",
+  "kind": "promises",
+  "index": 3,
+  "verdict": "ok",
+  "evidence": "Neighborhood News: \"You can trust that I will always make the best decision for the students.\""
+ },
+ {
+  "county": "pasco",
+  "person": "coward",
+  "kind": "electionHistory",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "SOE ENR 4045: Coward 35.43%, first of four."
+ },
+ {
+  "county": "pasco",
+  "person": "mariano",
+  "kind": "conflicts",
+  "index": 0,
+  "verdict": "drop",
+  "evidence": "Held: paywalled 2018 Times story not verified."
+ },
+ {
+  "county": "pasco",
+  "person": "harding",
+  "kind": "conflicts",
+  "index": 0,
+  "verdict": "drop",
+  "evidence": "Held: paywalled 2018 Times story not verified."
  }
 ]

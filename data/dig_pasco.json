@@ -1,0 +1,1678 @@
+{
+ "sources": {
+  "soe-pri04": {
+   "title": "2004 primary election results, cumulative",
+   "url": "https://www.pascovotes.gov/revize/pascocountysupervisorofelectionsfl/portals/pasco/Results/pri04all.html",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1,
+   "date": "2004-08-31"
+  },
+  "soe-gen04": {
+   "title": "2004 general election results, cumulative",
+   "url": "https://www.pascovotes.gov/revize/pascocountysupervisorofelectionsfl/portals/pasco/Results/gen04all.html",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1,
+   "date": "2004-11-02"
+  },
+  "soe-pri08": {
+   "title": "2008 primary election results, cumulative",
+   "url": "https://www.pascovotes.gov/revize/pascocountysupervisorofelectionsfl/portals/pasco/Results/pri08all.html",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1,
+   "date": "2008-08-26"
+  },
+  "soe-gen08": {
+   "title": "2008 general election results, cumulative",
+   "url": "https://www.pascovotes.gov/revize/pascocountysupervisorofelectionsfl/portals/pasco/Results/gen08all.html",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1,
+   "date": "2008-11-04"
+  },
+  "soe-pri10": {
+   "title": "2010 primary election results, cumulative",
+   "url": "https://www.pascovotes.gov/revize/pascocountysupervisorofelectionsfl/portals/pasco/Results/pri10all.html",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1,
+   "date": "2010-08-24"
+  },
+  "soe-pri12": {
+   "title": "2012 primary election results, cumulative",
+   "url": "https://www.pascovotes.gov/revize/pascocountysupervisorofelectionsfl/portals/pasco/Results/pri12all.html",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1,
+   "date": "2012-08-14"
+  },
+  "soe-gen12": {
+   "title": "2012 general election results, cumulative",
+   "url": "https://www.pascovotes.gov/revize/pascocountysupervisorofelectionsfl/portals/pasco/Results/gen12all.html",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1,
+   "date": "2012-11-06"
+  },
+  "soe-pri16": {
+   "title": "2016 primary election results, cumulative",
+   "url": "https://www.pascovotes.gov/revize/pascocountysupervisorofelectionsfl/portals/pasco/Results/pri16all.html",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1,
+   "date": "2016-08-30"
+  },
+  "soe-gen16": {
+   "title": "2016 general election results, cumulative",
+   "url": "https://www.pascovotes.gov/revize/pascocountysupervisorofelectionsfl/portals/pasco/Results/gen16all.html",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1,
+   "date": "2016-11-08"
+  },
+  "soe-pri18": {
+   "title": "2018 primary election results, cumulative",
+   "url": "https://www.pascovotes.gov/revize/pascocountysupervisorofelectionsfl/portals/pasco/Results/pri18all.html",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1,
+   "date": "2018-08-28"
+  },
+  "soe-gen18": {
+   "title": "2018 general election results, cumulative",
+   "url": "https://www.pascovotes.gov/revize/pascocountysupervisorofelectionsfl/portals/pasco/Results/gen18all.html",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1,
+   "date": "2018-11-06"
+  },
+  "soe-gen20": {
+   "title": "2020 general election results, cumulative",
+   "url": "https://www.pascovotes.gov/revize/pascocountysupervisorofelectionsfl/portals/pasco/Results/gen20all.html",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1,
+   "date": "2020-11-03"
+  },
+  "soe-pri22": {
+   "title": "2022 primary election official results",
+   "url": "https://www.pascovotes.gov/revize/pascocountysupervisorofelectionsfl/portals/pasco/Results/Pri22all.html",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1,
+   "date": "2022-08-23"
+  },
+  "soe-pri24": {
+   "title": "2024 Primary Election summary results (site last updated Aug 28, 2024)",
+   "url": "https://enr.electionsfl.org/PAS/3626/Summary/",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1,
+   "date": "2024-08-20"
+  },
+  "soe-gen24": {
+   "title": "2024 General Election summary results (site last updated Nov 18, 2024)",
+   "url": "https://enr.electionsfl.org/PAS/3717/Summary/",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1,
+   "date": "2024-11-05"
+  },
+  "soe-pri26": {
+   "title": "2026 Primary Election summary results (site last updated Aug 24, 2026)",
+   "url": "https://enr.electionsfl.org/PAS/4045/Summary/",
+   "publisher": "Pasco Supervisor of Elections",
+   "tier": 1,
+   "date": "2026-08-18"
+  },
+  "coe-mariano": {
+   "title": "Filing history for Hon Jack Mariano (EFDMS public search)",
+   "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/85230",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2026-10-27"
+  },
+  "coe-oakley": {
+   "title": "Filing history for Hon Ronald Eugene Oakley (EFDMS public search)",
+   "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/85235",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2026-10-27"
+  },
+  "coe-starkey": {
+   "title": "Filing history for Mrs Kathryn Elizabeth Starkey (EFDMS public search)",
+   "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/94664",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2026-10-27"
+  },
+  "coe-weightman": {
+   "title": "Filing history for Hon Seth Weightman (EFDMS public search)",
+   "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/69609",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2026-10-27"
+  },
+  "coe-yeager": {
+   "title": "Filing history for Hon Lisa Marie Yeager (EFDMS public search)",
+   "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/515315",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2026-10-27"
+  },
+  "coe-harding": {
+   "title": "Filing history for Ms Megan Catherine Harding (EFDMS public search)",
+   "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/89029",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2026-10-27"
+  },
+  "tbt-2020-bcc": {
+   "title": "Pasco County Commission candidates focus on economic and citizen involvement issues",
+   "url": "https://www.tampabay.com/news/florida-politics/elections/2020/10/23/pasco-county-commission-candidates-focus-on-economic-and-citizen-involvement-issues/",
+   "publisher": "Tampa Bay Times",
+   "tier": 4,
+   "date": "2020-10-23"
+  },
+  "lln-2012-d1": {
+   "title": "Pasco County Commission District 1 (candidate questionnaire)",
+   "url": "https://lakerlutznews.com/pasco-county-commission-district-1/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2012-08-09"
+  },
+  "tbt-2022-d2": {
+   "title": "3 Pasco Republicans vying for the District 2 seat on the County Commission",
+   "url": "https://www.tampabay.com/news/pasco/2022/08/11/three-pasco-republicans-vying-for-the-district-2-seat-on-the-county-commission/",
+   "publisher": "Tampa Bay Times",
+   "tier": 4,
+   "date": "2022-08-11"
+  },
+  "lln-2012-d3": {
+   "title": "Pasco County Commission District 3 (candidate questionnaire)",
+   "url": "https://lakerlutznews.com/pasco-county-commission-district-3/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2012-08-09"
+  },
+  "lln-2020-keyraces": {
+   "title": "Pasco voters to weigh in on key races",
+   "url": "https://lakerlutznews.com/pasco-voters-to-weigh-in-on-key-races/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2020-08-11"
+  },
+  "lln-2020-civil": {
+   "title": "Pasco calls for civil campaign behavior",
+   "url": "https://lakerlutznews.com/pasco-calls-for-civil-campaign-behavior/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2020-01-29"
+  },
+  "lln-apt-2021a": {
+   "title": "Pasco commissioners clash on apartment request",
+   "url": "https://lakerlutznews.com/pasco-commissioners-clash-on-apartment-request/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2021-01-19"
+  },
+  "lln-apt-2021b": {
+   "title": "Divided county board approves apartment request",
+   "url": "https://lakerlutznews.com/divided-county-board-approves-apartment-request/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2021-04-13"
+  },
+  "lln-gas-2021": {
+   "title": "Divided Pasco board rejects gas station request",
+   "url": "https://lakerlutznews.com/divided-pasco-board-rejects-gas-station-request/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2021-04-27"
+  },
+  "lln-sevenoaks-2022": {
+   "title": "Divided board rejects Seven Oaks' apartments",
+   "url": "https://lakerlutznews.com/divided-board-rejects-seven-oaks-apartments/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2022-01-18"
+  },
+  "lln-hale-2022": {
+   "title": "Hale Road rezoning is rejected",
+   "url": "https://lakerlutznews.com/hale-road-rezoning-is-rejected/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2022-11-22"
+  },
+  "lln-impact-2024": {
+   "title": "School impact fees to increase in Pasco County",
+   "url": "https://lakerlutznews.com/school-impact-fees-to-increase-in-pasco-county/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2024-09-05"
+  },
+  "lln-senior-2023": {
+   "title": "Senior citizens expected to get a property tax break in Pasco",
+   "url": "https://lakerlutznews.com/senior-citizens-expected-to-get-a-property-tax-break-in-pasco/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2023-10-31"
+  },
+  "lln-saddle-2023": {
+   "title": "Pasco board sends Saddlebrook request to state for review",
+   "url": "https://lakerlutznews.com/pasco-board-sends-saddlebrook-request-to-state-for-review/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2023-04-11"
+  },
+  "lln-rabbits-2021": {
+   "title": "Pasco takes step toward banning retail sale of rabbits",
+   "url": "https://lakerlutznews.com/pasco-takes-step-toward-banning-retail-sale-of-rabbits/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2021-12-21"
+  },
+  "lln-dc-2026": {
+   "title": "Pasco County moves closer to data center moratorium",
+   "url": "https://lakerlutznews.com/pasco-county-moves-closer-to-data-center-moratorium/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2026-06-29"
+  },
+  "lln-livelocal-2024": {
+   "title": "Pasco County 'all in' in battle against state's Live Local Act",
+   "url": "https://lakerlutznews.com/pasco-county-all-in-in-battle-against-states-live-local-act/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2024-01-30"
+  },
+  "lln-celltower-2023": {
+   "title": "Divided school board approves cell tower easement",
+   "url": "https://lakerlutznews.com/divided-school-board-approves-cell-tower-easement/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2023-04-25"
+  },
+  "lln-patel-2023": {
+   "title": "Divided Pasco school board approves Patel Charter deal",
+   "url": "https://lakerlutznews.com/divided-pasco-school-board-approves-patel-charter-deal/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2023-05-23"
+  },
+  "lln-dress-2023": {
+   "title": "Pasco school board approves dress code change",
+   "url": "https://lakerlutznews.com/pasco-school-board-approves-dress-code-change/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2023-11-07"
+  },
+  "lln-charter-2023": {
+   "title": "Pasco school officials voice concerns over charter schools",
+   "url": "https://lakerlutznews.com/pasco-school-officials-voices-concerns-over-charter-schools/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2023-10-10"
+  },
+  "lln-legis-2025": {
+   "title": "Pasco school leaders hold breath during legislative crunch time",
+   "url": "https://lakerlutznews.com/pasco-school-leaders-hold-breath-during-legislative-crunch-time/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2025-04-04"
+  },
+  "lln-pri22": {
+   "title": "Pasco and Hillsborough voters make choices known in Primary",
+   "url": "https://lakerlutznews.com/pasco-and-hillsborough-voters-make-choices-known-in-primary/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2022-08-30"
+  },
+  "lln-yeager-sworn": {
+   "title": "Lisa Yeager sworn in as commissioner",
+   "url": "https://lakerlutznews.com/lisa-yeager-sworn-in-as-commissioner/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2024-05-28"
+  },
+  "lln-pri24": {
+   "title": "Newcomer defeats veteran Pasco school board member",
+   "url": "https://lakerlutznews.com/newcomer-defeats-veteran-pasco-school-board-member/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2024-08-29"
+  },
+  "lln-gen24": {
+   "title": "Legg wins superintendent's race in Pasco County",
+   "url": "https://lakerlutznews.com/legg-wins-superintendents-race-in-pasco-county/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2024-11-08"
+  },
+  "wusf-sb26": {
+   "title": "Veterans, teachers, podcasters and constitutionalists vie for Pasco County school board seats",
+   "url": "https://www.wusf.org/education/2026-07-27/veterans-teachers-podcasters-constitutionalists-vie-for-pasco-county-school-board-seats",
+   "publisher": "WUSF",
+   "tier": 4,
+   "date": "2026-07-27"
+  },
+  "wfts-d4-26": {
+   "title": "Meet the candidates: Questionnaire for Pasco County Commission D-4",
+   "url": "https://www.tampabay28.com/news/election-2026/meet-the-candidates-questionnaire-for-pasco-county-commission-d-4",
+   "publisher": "Tampa Bay 28 (WFTS)",
+   "tier": 4,
+   "date": "2026-07-31"
+  },
+  "nn-vazquez-2025": {
+   "title": "Stephanie Vazquez To Challenge Seth Weightman For Dist. 2 Commission Seat",
+   "url": "https://neighborhoodnewsonline.net/stephanie-vazquez-tochallenge-seth-weightman-for-dist-2-commission-seat/",
+   "publisher": "Neighborhood News (Wesley Chapel)",
+   "tier": 4,
+   "date": "2025-05-12"
+  },
+  "nn-sb1-2026": {
+   "title": "Previewing Wesley Chapel's District 1 Pasco County School Board Election",
+   "url": "https://neighborhoodnewsonline.net/previewing-wesley-chapels-district-1-pasco-county-school-board-election/",
+   "publisher": "Neighborhood News (Wesley Chapel)",
+   "tier": 4,
+   "date": "2026-07-12"
+  },
+  "nn-sb3-2026": {
+   "title": "Five Candidates Vie For Cynthia Armstrong's District 3 Pasco School Board Seat!",
+   "url": "https://neighborhoodnewsonline.net/five-candidates-vie-for-cynthia-armstrongs-district-3-pasco-school-board-seat/",
+   "publisher": "Neighborhood News (Wesley Chapel)",
+   "tier": 4,
+   "date": "2026-08-08"
+  },
+  "nn-d4-2026": {
+   "title": "Previewing The District 4 Pasco Board Of County Commissioners Election",
+   "url": "https://neighborhoodnewsonline.net/previewing-the-district-4-pasco-board-of-county-commissioners-election/",
+   "publisher": "Neighborhood News (Wesley Chapel)",
+   "tier": 4,
+   "date": "2026-07-15"
+  },
+  "nn-bios-2022": {
+   "title": "Do You Know Who You're Voting For In Pasco On August 23?",
+   "url": "https://neighborhoodnewsonline.net/do-you-know-who-youre-voting-for-in-pasco-on-august-23/",
+   "publisher": "Neighborhood News (Wesley Chapel)",
+   "tier": 4,
+   "date": "2022-08-18"
+  },
+  "nn-pri-2022": {
+   "title": "Weightman, Teachers Big Winners On Primary Night",
+   "url": "https://neighborhoodnewsonline.net/weightman-teachers-big-winners-on-primary-night/",
+   "publisher": "Neighborhood News (Wesley Chapel)",
+   "tier": 4,
+   "date": "2022-09-05"
+  },
+  "nn-tree-2026": {
+   "title": "Pasco Commissioners Unanimously Approve Stronger Tree Ordinance Rules",
+   "url": "https://neighborhoodnewsonline.net/pasco-commissioners-unanimously-approve-stronger-tree-ordinance-rules/",
+   "publisher": "Neighborhood News (Wesley Chapel)",
+   "tier": 4,
+   "date": "2026-04-13"
+  },
+  "nn-sidewalk-2025": {
+   "title": "Schools On Wells Rd. To Get Sidewalks, Thanks To State Grant & A Weightman Student!",
+   "url": "https://neighborhoodnewsonline.net/schools-on-wells-rd-to-get-sidewalks-thanks-to-state-grant-a-weightman-student2/",
+   "publisher": "Neighborhood News (Wesley Chapel)",
+   "tier": 4,
+   "date": "2025-09-28"
+  },
+  "nn-livelocal-2024": {
+   "title": "Commissioners Talk Affordable Housing After Vote Opting Out Of 'Live Local'",
+   "url": "https://neighborhoodnewsonline.net/commissioners-talk-affordable-housing-after-vote-opting-out-of-live-local/",
+   "publisher": "Neighborhood News (Wesley Chapel)",
+   "tier": 4,
+   "date": "2024-06-17"
+  },
+  "nn-apts-2021": {
+   "title": "Commissioners Spar Over Need For More Apartments",
+   "url": "https://neighborhoodnewsonline.net/commissioners-spar-over-need-for-more-apartments/",
+   "publisher": "Neighborhood News (Wesley Chapel)",
+   "tier": 4,
+   "date": "2021-02-18"
+  },
+  "nn-moratorium-2022": {
+   "title": "Commissioners Expand Apartment Moratorium Area",
+   "url": "https://neighborhoodnewsonline.net/commissioners-expand-apartment-moratorium-area/",
+   "publisher": "Neighborhood News (Wesley Chapel)",
+   "tier": 4,
+   "date": "2022-03-01"
+  },
+  "nn-sevenoaks-2022": {
+   "title": "Developer Finally Gets Approval For Seven Oaks Project",
+   "url": "https://neighborhoodnewsonline.net/developer-finally-gets-approval-for-seven-oaks-project/",
+   "publisher": "Neighborhood News (Wesley Chapel)",
+   "tier": 4,
+   "date": "2022-11-04"
+  },
+  "nn-epperson-2025": {
+   "title": "New Townhome Community In Epperson May Get An Elam Rd. Entrance After All",
+   "url": "https://neighborhoodnewsonline.net/new-townhome-community-in-epperson-may-get-an-elam-rd-entrance-after-all/",
+   "publisher": "Neighborhood News (Wesley Chapel)",
+   "tier": 4,
+   "date": "2025-05-14"
+  },
+  "tbt-kyc-2016-d1": {
+   "title": "Pasco County Commission | District 1 (Know Your Candidates, 2016 general election)",
+   "url": "https://www.tampabay.com/news/politics/kyc/pasco-county-commission------district-1/2298138/",
+   "publisher": "Tampa Bay Times",
+   "tier": 4,
+   "date": "2016"
+  },
+  "tbt-2004-starkey": {
+   "title": "Starkey's background will balance school board (Times editorial recommendation)",
+   "url": "https://www.tampabay.com/archive/2004/08/19/starkey-s-background-will-balance-school-board/",
+   "publisher": "Tampa Bay Times (St. Petersburg Times)",
+   "tier": 4,
+   "date": "2004-08-19"
+  },
+  "tbt-2018-sb5": {
+   "title": "Four younger candidates vie for open Pasco School Board seat",
+   "url": "https://www.tampabay.com/news/politics/Four-younger-candidates-vie-for-open-Pasco-School-Board-seat_170486052/",
+   "publisher": "Tampa Bay Times",
+   "tier": 4,
+   "date": "2018"
+  },
+  "tbt-oakley-2016file": {
+   "title": "Oakley to make second run for Pasco commission",
+   "url": "https://www.tampabay.com/oakley-to-make-second-run-for-pasco-commission/2256026/",
+   "publisher": "Tampa Bay Times",
+   "tier": 4,
+   "date": "2016"
+  },
+  "tbt-yeager-pri26": {
+   "title": "Incumbent Lisa Yeager wins Pasco Commission primary",
+   "url": "https://www.tampabay.com/news/florida-politics/elections/2026/08/18/desantis-appointee-yeager-republican-primary/",
+   "publisher": "Tampa Bay Times",
+   "tier": 4,
+   "date": "2026-08-18"
+  },
+  "wfts-sb-2022": {
+   "title": "A closer look at the candidates for Pasco County School Board",
+   "url": "https://www.tampabay28.com/news/election-2022/a-closer-look-at-the-candidates-for-pasco-county-school-board",
+   "publisher": "Tampa Bay 28 (WFTS)",
+   "tier": 4,
+   "date": "2022-08-16"
+  },
+  "patch-starkey-2012": {
+   "title": "Kathryn Elizabeth Starkey, candidate, Pasco County Commission 3 (candidate profile)",
+   "url": "https://patch.com/florida/landolakes/kathryn-elizabeth-starkey-candidate-pasco-county-commission-3",
+   "publisher": "Patch (Land O' Lakes)",
+   "tier": 4,
+   "date": "2012-08-14"
+  },
+  "arch-mariano-2008": {
+   "title": "Jack Mariano campaign site (archived Aug 27, 2008)",
+   "url": "https://web.archive.org/web/20080827183814/http://jackmariano.com/",
+   "publisher": "Jack Mariano campaign (via Internet Archive)",
+   "tier": 5,
+   "date": "2008-08-27"
+  },
+  "arch-mariano-2012": {
+   "title": "Jack Mariano Main Page, 2012 campaign (archived Jan 2, 2014)",
+   "url": "https://web.archive.org/web/20140102161734/http://jackmariano.com/",
+   "publisher": "Jack Mariano campaign (via Internet Archive)",
+   "tier": 5,
+   "date": "2014-01-02"
+  },
+  "arch-weightman-2025": {
+   "title": "Conservative Seth Weightman for Pasco County Commission District 2 (archived Mar 20, 2025)",
+   "url": "https://web.archive.org/web/20250320224313/https://sethweightman.com/",
+   "publisher": "Seth Weightman campaign (via Internet Archive)",
+   "tier": 5,
+   "date": "2025-03-20"
+  },
+  "arch-starkey-2012": {
+   "title": "Kathryn Starkey campaign site (archived Jun 15, 2012)",
+   "url": "https://web.archive.org/web/20120615092103/http://kathrynstarkey.com/",
+   "publisher": "Kathryn Starkey campaign (via Internet Archive)",
+   "tier": 5,
+   "date": "2012-06-15"
+  },
+  "arch-yeager-2024": {
+   "title": "Lisa Yeager campaign site (archived Aug 10, 2024)",
+   "url": "https://web.archive.org/web/20240810105826/https://votelisayeager.com/",
+   "publisher": "Lisa Yeager campaign (via Internet Archive)",
+   "tier": 5,
+   "date": "2024-08-10"
+  },
+  "arch-vazquez-2026": {
+   "title": "Stephanie Vazquez for Pasco County Commission (archived Mar 17, 2026)",
+   "url": "https://web.archive.org/web/20260317141714/https://stephanievazquez.com/",
+   "publisher": "Stephanie Vazquez campaign (via Internet Archive)",
+   "tier": 5,
+   "date": "2026-03-17"
+  },
+  "arch-oakley-2024": {
+   "title": "Ron Oakley for Pasco County Commissioner (archived Sep 26, 2024)",
+   "url": "https://web.archive.org/web/20240926195032/https://voteronoakley.com/",
+   "publisher": "Ron Oakley campaign (via Internet Archive)",
+   "tier": 5,
+   "date": "2024-09-26"
+  },
+  "lln-billboards-2016": {
+   "title": "Digital billboards illuminate controversy",
+   "url": "https://lakerlutznews.com/digital-billboards-illuminate-controversy/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2016-11-23"
+  },
+  "lln-hemp-2019": {
+   "title": "Pasco supports legalizing hemp as a crop",
+   "url": "https://lakerlutznews.com/pasco-supports-legalizing-hemp-as-a-crop/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2019-01-30"
+  },
+  "lln-solar-2018": {
+   "title": "Controversy continues over solar in Pasco",
+   "url": "https://lakerlutznews.com/controversy-continues-over-solar-in-pasco/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2018-06-13"
+  },
+  "lln-parkfees-2023": {
+   "title": "Higher park impact fees are coming to Pasco, so are more parks",
+   "url": "https://lakerlutznews.com/higher-park-impact-fees-are-coming-to-pasco-so-are-more-parks/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2023-08-08"
+  },
+  "lln-paving-2022": {
+   "title": "Pasco halts new applications in its Paving Assessment program",
+   "url": "https://lakerlutznews.com/pasco-halts-new-applications-in-its-paving-assessment-program/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2022-12-20"
+  },
+  "lln-ridge-2020": {
+   "title": "County marks Ridge Road extension milestone",
+   "url": "https://lakerlutznews.com/county-marks-ridge-road-extension-milestone/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2020-01-22"
+  },
+  "lln-housing-2024": {
+   "title": "Official: Pasco needs more affordable housing",
+   "url": "https://lakerlutznews.com/official-pasco-needs-more-affordable-housing/",
+   "publisher": "The Laker/Lutz News",
+   "tier": 4,
+   "date": "2024-06-04"
+  },
+  "coe-pr-jun23": {
+   "title": "Florida Commission on Ethics press release, June 14, 2023 (actions from June 9 meeting)",
+   "url": "https://ethics.state.fl.us/Documents/Ethics/PressReleases/Jun23pres.pdf",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2023-06-14"
+  },
+  "coe-pr-jul23": {
+   "title": "Florida Commission on Ethics press release, August 2, 2023 (actions from July 28 meeting)",
+   "url": "https://ethics.state.fl.us/Documents/Ethics/PressReleases/Jul23pres.pdf",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2023-08-02"
+  },
+  "bp-weightman-2026": {
+   "title": "Seth Weightman (Pasco County Commissioner Board District 2, Florida, candidate 2026)",
+   "url": "https://ballotpedia.org/Seth_Weightman_(Pasco_County_Commissioner_Board_District_2,_Florida,_candidate_2026)",
+   "publisher": "Ballotpedia",
+   "tier": 3,
+   "date": "2026-10-27"
+  },
+  "bp-mariano-2024": {
+   "title": "Jack Mariano (Pasco County Board of Commissioners District 5, Florida, candidate 2024)",
+   "url": "https://ballotpedia.org/Jack_Mariano_(Pasco_County_Board_of_Commissioners_District_5,_Florida,_candidate_2024)",
+   "publisher": "Ballotpedia",
+   "tier": 3,
+   "date": "2026-10-27"
+  }
+ },
+ "people": {
+  "oakley": {
+   "promises": [
+    {
+     "value": "Why running: \"We need leaders more concerned about creating jobs than protecting their own.\"",
+     "year": 2012,
+     "source": "lln-2012-d1"
+    },
+    {
+     "value": "Priority on taxes: said it is imperative to stimulate the local economy by reducing taxes on citizens and businesses; said the Penny for Pasco sales tax distributes the burden equally",
+     "year": 2012,
+     "source": "lln-2012-d1"
+    },
+    {
+     "value": "Priority on county leadership: called for a nationwide search for a new county administrator with experience in a county of 750,000 to 1,000,000 people",
+     "year": 2012,
+     "source": "lln-2012-d1"
+    },
+    {
+     "value": "Priority on mobility fees: said he did not understand replacing impact fees with mobility fees, which he said do not cover the entire cost of infrastructure",
+     "year": 2012,
+     "source": "lln-2012-d1"
+    },
+    {
+     "value": "Supported pursuing the Ridge Road extension: \"I think the problem we've had in east Pasco is we need more than two-lane roads\"",
+     "year": 2016,
+     "source": "tbt-kyc-2016-d1"
+    },
+    {
+     "value": "On paying for storm water drainage: \"Assessment is fine. Everyone has storm water.\"",
+     "year": 2016,
+     "source": "tbt-kyc-2016-d1"
+    },
+    {
+     "value": "Said the mobility fee formula should change so rural and urban areas pay the same rate; said he did not favor increasing school impact fees",
+     "year": 2016,
+     "source": "tbt-kyc-2016-d1"
+    },
+    {
+     "value": "On expanding the tax base: \"Pasco County has to get more friendly and realize they are in a service position\"",
+     "year": 2016,
+     "source": "tbt-kyc-2016-d1"
+    },
+    {
+     "value": "When filing for the 2016 race, named flooding, redevelopment and transportation as top issues facing the county",
+     "year": 2016,
+     "source": "tbt-oakley-2016file"
+    },
+    {
+     "value": "2024 campaign site: \"If you want a no-nonsense leader who actually understands the issues facing Pasco County, look no further. I'm not here for recognition; I'm here to get the job done.\" Site lists \"A Commonsense Vision For Our Future\" without further policy detail in the archived copy",
+     "year": 2024,
+     "source": "arch-oakley-2024"
+    }
+   ],
+   "electionHistory": [
+    {
+     "value": "2012 Republican primary: Lost County Commission District 1 with 31.29%; Ted Schrader won with 37.49%, Rachel O'Connor 31.22%",
+     "source": "soe-pri12"
+    },
+    {
+     "value": "2016 Republican primary: Won County Commission District 1, 40.29% over Debbie Wells 32.72% and Rachel O'Connor 26.98%",
+     "source": "soe-pri16"
+    },
+    {
+     "value": "2016 general: Won County Commission District 1, 69.27% over Dimitri A. Delgado (NPA) 30.35%, with write-in votes",
+     "source": "soe-gen16"
+    },
+    {
+     "value": "2020: No District 1 contest appears on the Nov 2020 general results page",
+     "source": "soe-gen20"
+    },
+    {
+     "value": "2024 general: Won County Commission District 1, 59.56% to 40.44% over Lisa Moretti (NPA)",
+     "source": "soe-gen24"
+    },
+    {
+     "value": "2020: Re-elected to District 1 without a vote after opponent Christopher King withdrew",
+     "source": "lln-2020-keyraces"
+    },
+    {
+     "value": "2024: News report says this is Oakley's third term; first elected in 2016",
+     "source": "lln-gen24"
+    },
+    {
+     "value": "2012: Spent $176,000 of his own money in the 2012 primary, which he lost to incumbent Ted Schrader; said he did not plan to do so again in 2016",
+     "source": "tbt-oakley-2016file"
+    }
+   ],
+   "keyPositions": [
+    {
+     "value": "Supported an apartment request in Jan 2021: \"I think the project fits\"",
+     "source": "lln-apt-2021a"
+    },
+    {
+     "value": "As chairman, voted yes as the board approved an apartment request 3-2 (Apr 2021)",
+     "source": "lln-apt-2021b"
+    },
+    {
+     "value": "Voted against a gas station land use change, which failed 2-3 (Apr 2021)",
+     "source": "lln-gas-2021"
+    },
+    {
+     "value": "Seconded the motion to deny the Seven Oaks apartments, saying the development was too big for the site (Jan 2022)",
+     "source": "lln-sevenoaks-2022"
+    },
+    {
+     "value": "As chairman, voted for higher school impact fees (2024), citing demand for schools from new residents",
+     "source": "lln-impact-2024"
+    },
+    {
+     "value": "On the Live Local Act (Jan 2024): \"you'd think Live Local is for affordable housing and it's not at all affordable\"",
+     "source": "lln-livelocal-2024"
+    },
+    {
+     "value": "Changed his vote to approve the revised Seven Oaks project (Nov 2022) after voting against it in January, saying \"It's a better fit on the site than it was prior\"",
+     "source": "nn-sevenoaks-2022"
+    },
+    {
+     "value": "Said the county needs more ball fields but \"we can't build more parks without having the money to maintain them\" (May 2025)",
+     "source": "nn-epperson-2025"
+    },
+    {
+     "value": "Said a proposed solar farm site on Blanton Road with nearby transmission lines seemed suitable, while solar would not work on all farmland (Jun 2018)",
+     "source": "lln-solar-2018"
+    },
+    {
+     "value": "On paving assessments (Dec 2022): \"We've got growing pains and we need our roads repaired\"",
+     "source": "lln-paving-2022"
+    },
+    {
+     "value": "As chairman (2024), said most new Pasco homes cost $300,000 to $500,000 and many people moving for jobs cannot afford them",
+     "source": "lln-housing-2024"
+    }
+   ],
+   "financialDisclosures": [
+    {
+     "value": "Form 6 filed for form years 2016 through 2025. Filing dates: 2016 on 6/29/2017; 2017 on 7/2/2018; 2018 on 6/27/2019; 2019 on 6/8/2020; 2020 on 7/1/2021; 2021 on 7/6/2022; 2022 (listed as Form 6 and Form 6X) on 6/28/2023; 2023 on 5/31/2024; 2024 on 6/16/2025; 2025 on 6/2/2026.",
+     "source": "coe-oakley"
+    },
+    {
+     "value": "2025 filing lists organizations: Pasco County Elected Constitutional Officer, Pasco County MPO, Tampa Bay Water Board of Directors.",
+     "source": "coe-oakley"
+    }
+   ],
+   "conflicts": []
+  },
+  "weightman": {
+   "promises": [
+    {
+     "value": "At a 2022 Greater Pasco Chamber forum, spoke about the county's continued development and his hope for its future: \"Pasco is on the forefront of tremendous growth\"",
+     "year": 2022,
+     "source": "tbt-2022-d2"
+    },
+    {
+     "value": "2022 campaign (as summarized from his website): said he would work to strengthen the local economy, invest in sustainable infrastructure, promote public safety and \"preserve Pasco's identity with smart growth\"",
+     "year": 2022,
+     "source": "nn-bios-2022"
+    },
+    {
+     "value": "2022 campaign website, as cited: described himself as a \"common sense leader\" and said he voted to cut taxes twice on the SWFWMD board",
+     "year": 2022,
+     "source": "nn-bios-2022"
+    },
+    {
+     "value": "Campaign site (archived Mar 2025) lists issues: \"Strengthen Our Local Economy,\" \"Invest In Sustainable Infrastructure,\" \"Promote Public Safety,\" \"Preserving Pasco's Identity With Smart Growth\"",
+     "year": 2026,
+     "source": "arch-weightman-2025"
+    }
+   ],
+   "electionHistory": [
+    {
+     "value": "2020 general: Lost Mosquito Control Commissioner Seat 1, 33.49% to 66.51% for Randy Evans",
+     "source": "soe-gen20"
+    },
+    {
+     "value": "2022 Republican primary: Won County Commission District 2, 48.87% over Christie Zimmer 27.11% and Troy F. Stevenson 24.02%. No District 2 contest appears on the Nov 2022 general results page.",
+     "source": "soe-pri22"
+    },
+    {
+     "value": "2022: After the primary, news report said Weightman would face write-in candidate Louie Rodriguez in November",
+     "source": "lln-pri22"
+    },
+    {
+     "value": "2026: On the Nov 3, 2026 general election ballot for District 2 against Stephanie C. Vazquez (D); had not completed Ballotpedia's 2026 Candidate Connection survey as of Oct 27, 2026",
+     "source": "bp-weightman-2026"
+    }
+   ],
+   "keyPositions": [
+    {
+     "value": "Cast the only vote against higher school impact fees (2024): \"I'm concerned with our fee structure that it's going to erode away the opportunity of home ownership for folks\"",
+     "source": "lln-impact-2024"
+    },
+    {
+     "value": "Championed an additional senior property tax exemption during budget hearings and said he supports the maximum exemption (Oct 2023)",
+     "source": "lln-senior-2023"
+    },
+    {
+     "value": "Supported sending the Saddlebrook plan to state review but said he was not overly enthusiastic about its multifamily units or density (Apr 2023)",
+     "source": "lln-saddle-2023"
+    },
+    {
+     "value": "Raised concerns that data center moratorium language could leave loopholes (Jun 2026)",
+     "source": "lln-dc-2026"
+    },
+    {
+     "value": "Advocated a cap exemption for Heritage trees in the tree ordinance approved unanimously (Apr 2026): \"You can't mitigate the destruction of Heritage trees\"",
+     "source": "nn-tree-2026"
+    },
+    {
+     "value": "Criticized state House Bill 399 (2026): \"It erodes the ability for local planning commissioners to have a say\"",
+     "source": "nn-tree-2026"
+    },
+    {
+     "value": "Said sidewalk appropriation requests are his legislative ask every session; the state approved $1.5 million for sidewalks on Wells Rd. and Curley Rd. (2025)",
+     "source": "nn-sidewalk-2025"
+    },
+    {
+     "value": "Led Pasco's push to change the state Live Local Act in 2024: \"Live Local just did not seem to accomplish that goal\"; the board voted 5-0 to opt out of its tax portion",
+     "source": "nn-livelocal-2024"
+    },
+    {
+     "value": "Said the county should revisit diverting Connected City funds to the Villages of Pasadena Hills Superpark (May 2025)",
+     "source": "nn-epperson-2025"
+    },
+    {
+     "value": "Opposed a requested park impact fee exemption for affordable housing (Aug 2023) \"until we understand the full impacts of the Live Local Act\"",
+     "source": "lln-parkfees-2023"
+    }
+   ],
+   "financialDisclosures": [
+    {
+     "value": "Form 6 filed for form years 2022 through 2025: 2022 on 6/30/2023; 2023 on 6/28/2024; 2024 on 6/25/2025; 2025 on 6/9/2026.",
+     "source": "coe-weightman"
+    },
+    {
+     "value": "Earlier Form 1 filings: 2015 (Public Service Commission Nominating Council) on 6/20/2016; 2016 and 2017 (CareerSource Pasco-Hernando board and PSC Nominating Council) on 6/19/2017 and 8/7/2018; 2019, 2020 and 2021 (Southwest Florida Water Management District Governing Board) on 6/4/2020, 6/17/2021 and 6/16/2022.",
+     "source": "coe-weightman"
+    }
+   ],
+   "conflicts": [
+    {
+     "value": "Residency: The Times reported (Aug 18, 2026) that Weightman \"faced backlash because he previously didn't live in his commission district\" and that he moved into the district two months after he was elected",
+     "source": "tbt-yeager-pri26"
+    }
+   ]
+  },
+  "starkey": {
+   "promises": [
+    {
+     "value": "2004 School Board District 4 race: proposed seeking corporate sponsorship to build a Pasco version of Largo's Enterprise Village for elementary students",
+     "year": 2004,
+     "source": "tbt-2004-starkey"
+    },
+    {
+     "value": "Said the district should consider a magnet school or other alternatives for academically advanced children",
+     "year": 2004,
+     "source": "tbt-2004-starkey"
+    },
+    {
+     "value": "Wanted greater environmental awareness in the curriculum, expanding teaching space at the Energy and Marine Center and the SWFWMD facility at Starkey Wilderness Park",
+     "year": 2004,
+     "source": "tbt-2004-starkey"
+    },
+    {
+     "value": "Wanted school green space and athletic fields more accessible to the public",
+     "year": 2004,
+     "source": "tbt-2004-starkey"
+    },
+    {
+     "value": "Priority 1: \"Provide incentives for new and existing businesses to create jobs in our community\"; said she would devote time to analyzing the county's permit approval process to find solutions",
+     "year": 2012,
+     "source": "lln-2012-d3"
+    },
+    {
+     "value": "Priority 2: \"Reduce our county budget and eliminate wasteful programs,\" in part by increasing technology and improving workflow",
+     "year": 2012,
+     "source": "lln-2012-d3"
+    },
+    {
+     "value": "Priority 3: \"Protect our county's natural resources and pristine environment\"; said the county should continue protecting environmentally sensitive lands from development",
+     "year": 2012,
+     "source": "lln-2012-d3"
+    },
+    {
+     "value": "2012 campaign site: said her run was prompted by retirements of key county figures: \"Maybe my background and experiences and leadership could be of value to the board and the community\"",
+     "year": 2012,
+     "source": "arch-starkey-2012"
+    },
+    {
+     "value": "Said she supports continuing the Penny for Pasco sales tax and defended the current mix of projects it funds; named environmentally sensitive lands preservation, transportation projects and economic development as important areas for future county spending (2020 forum)",
+     "year": 2020,
+     "source": "tbt-2020-bcc"
+    },
+    {
+     "value": "Said the county is already acquiring green areas and offering rural designations and wildlife corridor protections, while providing room for residential and business growth: \"We're growing in a good way\"",
+     "year": 2020,
+     "source": "tbt-2020-bcc"
+    }
+   ],
+   "electionHistory": [
+    {
+     "value": "2004 nonpartisan primary: Won School Board District 4 (listed as Kathryn Elizabeth STARKEY), 68.34% to 31.66% over \"Woody\" Wodstrchill",
+     "source": "soe-pri04"
+    },
+    {
+     "value": "2010 Republican primary: Lost State House District 45 in Pasco results, 36.14%, behind Richard Corcoran 45.03%; Fabian Calvo 18.83% (Pasco SOE results page)",
+     "source": "soe-pri10"
+    },
+    {
+     "value": "2012 Republican primary: Won County Commission District 3 with 43.04% in a five-way race (Chris Gregg 18.39%, Karen King 14.15%, Randy Evans 14.07%, Joshua Josiah Griffin 10.36%)",
+     "source": "soe-pri12"
+    },
+    {
+     "value": "2012 general: Won County Commission District 3, 58.56% to 41.44% over Matt Murphy (DEM)",
+     "source": "soe-gen12"
+    },
+    {
+     "value": "2016 Republican primary: Won County Commission District 3, 55.79% to 44.21% over Randy Evans",
+     "source": "soe-pri16"
+    },
+    {
+     "value": "2016 general: Won County Commission District 3, 62.19% to 37.81% over Barry Horvath (DEM)",
+     "source": "soe-gen16"
+    },
+    {
+     "value": "2020 general: Won County Commission District 3, 61.29% to 38.71% over Jessica Stempien (DEM)",
+     "source": "soe-gen20"
+    },
+    {
+     "value": "2024 general: Won County Commission District 3, 89.48% to 10.52% for write-in",
+     "source": "soe-gen24"
+    },
+    {
+     "value": "2024: News report says this is Starkey's fourth term on the commission; first elected in 2012",
+     "source": "lln-gen24"
+    },
+    {
+     "value": "School Board: Patch profile lists previous elective office as School Board (2004 and 2008) and an unsuccessful bid in 2010",
+     "source": "patch-starkey-2012"
+    },
+    {
+     "value": "School Board: campaign site (2012) says she was elected to the School Board in 2004 and served until 2010",
+     "source": "arch-starkey-2012"
+    }
+   ],
+   "keyPositions": [
+    {
+     "value": "On a proposed campaign civility pledge (Jan 2020): \"I would just say I have no objections to sign anything that says civility and good behavior should be in order.\" Added: \"It doesn't inhibit anyone's free speech.\"",
+     "source": "lln-2020-civil"
+    },
+    {
+     "value": "Said an apartment site was suitable (Jan 2021): \"I'm not sure this area is overbuilt for this price point\"",
+     "source": "lln-apt-2021a"
+    },
+    {
+     "value": "Voted yes as the board approved an apartment request 3-2 (Apr 2021); said she wanted evidence the area was oversaturated with apartments",
+     "source": "lln-apt-2021b"
+    },
+    {
+     "value": "Moved to approve a gas station land use change (Apr 2021); motion failed 2-3",
+     "source": "lln-gas-2021"
+    },
+    {
+     "value": "Voted against denial as the board rejected the Seven Oaks apartments (Jan 2022)",
+     "source": "lln-sevenoaks-2022"
+    },
+    {
+     "value": "Voted for higher school impact fees (2024), saying Pasco's cost of living is \"still very affordable\" compared with other counties",
+     "source": "lln-impact-2024"
+    },
+    {
+     "value": "Said the state Live Local Act benefits institutional investors rather than local developers; met with Senate President Passidomo on it (Jan 2024)",
+     "source": "lln-livelocal-2024"
+    },
+    {
+     "value": "Opposed a motion to deny apartments near the future BayCare hospital (Jan 2021): \"Not everyone can live in a $500,000 (home in a) gated community\"",
+     "source": "nn-apts-2021"
+    },
+    {
+     "value": "Voted to expand an apartment moratorium area (2022) while saying the county needs more workforce and affordable housing",
+     "source": "nn-moratorium-2022"
+    },
+    {
+     "value": "Voted for the revised Seven Oaks project, approved Nov 2022",
+     "source": "nn-sevenoaks-2022"
+    },
+    {
+     "value": "On the 2026 tree ordinance: \"I am happy to protect ag all day long. I'm not happy to take ag and let them (developers) skirt around this tree protection ordinance\"",
+     "source": "nn-tree-2026"
+    },
+    {
+     "value": "Before holding office, led the effort to ban new billboards and founded Scenic Pasco, which lobbied for sign, landscaping and architectural rules (as described in 2004)",
+     "source": "tbt-2004-starkey"
+    },
+    {
+     "value": "As chairwoman (Nov 2016) opposed delaying action on digital billboards that Moore, Mariano and Wells favored: \"I think you guys are being played by a savvy industry\"",
+     "source": "lln-billboards-2016"
+    },
+    {
+     "value": "Supported a 2019 resolution backing legal hemp cultivation, saying a long wait by the state would put it at a disadvantage",
+     "source": "lln-hemp-2019"
+    },
+    {
+     "value": "On halting new paving assessment applications (Dec 2022): \"To keep filling potholes because people don't want to pay for their roads to get fixed, it's money out the window\"",
+     "source": "lln-paving-2022"
+    },
+    {
+     "value": "At the Ridge Road extension milestone (Jan 2020), said the road is an important hurricane evacuation route and will add access for the River Ridge school complex",
+     "source": "lln-ridge-2020"
+    }
+   ],
+   "financialDisclosures": [
+    {
+     "value": "Form 6 filed for form years 2015 through 2025. Filing dates: 2015 on 6/20/2016; 2016 on 6/29/2017 (a Form 1 is also listed for 2016, same date); 2017 on 6/29/2018; 2018 on 8/2/2019; 2019 on 6/9/2020; 2020 on 8/9/2021; 2021 on 7/13/2022; 2022 on 6/13/2023; 2023 on 6/10/2024; 2024 on 6/26/2025; 2025 on 6/29/2026.",
+     "source": "coe-starkey"
+    }
+   ],
+   "conflicts": [
+    {
+     "value": "Ethics complaint dismissed: The Florida Commission on Ethics, meeting June 9, 2023, dismissed a complaint against \"KATHRYN STARKEY, Pasco County Commission\" for lack of legal sufficiency.",
+     "source": "coe-pr-jun23"
+    },
+    {
+     "value": "Ethics complaint dismissed: The Commission, meeting July 28, 2023, dismissed a complaint against \"KATHY STARKEY, Pasco County Commission Member\" for lack of legal sufficiency",
+     "source": "coe-pr-jul23"
+    }
+   ]
+  },
+  "yeager": {
+   "promises": [
+    {
+     "value": "2024 campaign site \"Pasco Priorities\": keep taxes low to combat inflation; grow smarter, not faster; back first responders to improve public safety; protect farmers and ranchers; invest in road and infrastructure improvements; streamline county government",
+     "year": 2024,
+     "source": "arch-yeager-2024"
+    },
+    {
+     "value": "Candidate questionnaire: named \"cutting taxes, keeping our streets safe, and ensuring growth is smart and sustainable\" as top priorities",
+     "year": 2026,
+     "source": "wfts-d4-26"
+    },
+    {
+     "value": "Said growth should put \"our people first,\" balancing new development with traffic, infrastructure and quality of life",
+     "year": 2026,
+     "source": "wfts-d4-26"
+    },
+    {
+     "value": "Said she has made revitalizing the Moon Lake community \"a personal mission\"",
+     "year": 2026,
+     "source": "wfts-d4-26"
+    },
+    {
+     "value": "Listed as her record: cutting taxes, advancing economic development, partnering with the Sheriff, expanding recreation, and helping lead debris removal (more than 200 tons) after Hurricanes Helene and Milton (candidate's own description)",
+     "year": 2026,
+     "source": "wfts-d4-26"
+    },
+    {
+     "value": "Said her guiding principles are \"lowering taxes, protecting our quality of life from unchecked growth, strengthening our community against flooding and storms and creating opportunities for our children and families to thrive\"",
+     "year": 2026,
+     "source": "nn-d4-2026"
+    },
+    {
+     "value": "On development: \"Development is happening fast, too fast in many cases\"; said growth should be smart and consider future needs",
+     "year": 2026,
+     "source": "nn-d4-2026"
+    },
+    {
+     "value": "Listed as accomplishments: hurricane response, senior food programs, Pasco's first low-barrier homeless shelter, Moon Lake revitalization, a tax rate rollback she said she fought for, and economic development projects such as Moffitt's Speros campus (candidate's own description)",
+     "year": 2026,
+     "source": "nn-d4-2026"
+    }
+   ],
+   "electionHistory": [
+    {
+     "value": "2024 Republican primary: Won County Commission District 4, 63.44% over Gabriel \"Gabe\" Papadopoulos 19.52% and Christina \"Fitzy\" Fitzpatrick 17.04%",
+     "source": "soe-pri24"
+    },
+    {
+     "value": "2024 general: Won County Commission District 4, 64.72% to 35.28% over Danny Ackroyd-Isales (DEM)",
+     "source": "soe-gen24"
+    },
+    {
+     "value": "2026 Republican primary: Won County Commission District 4, 62.38% to 37.62% over Jonathan Deckard",
+     "source": "soe-pri26"
+    },
+    {
+     "value": "2024: Sworn in to District 4 at the May 21, 2024 commission meeting after appointment; was then one of four Republicans seeking the Aug 20 nomination",
+     "source": "lln-yeager-sworn"
+    },
+    {
+     "value": "2024: Appointed by Gov. Ron DeSantis after the Apr 21 death of Commissioner Gary Bradford; the Nov 2024 winner serves the remaining two years of Bradford's term",
+     "source": "lln-pri24"
+    },
+    {
+     "value": "2026: Won the Aug 18 Republican primary over Jonathon Deckard by a nearly two-to-one margin; write-in Louie Rodriguez remained for November at the time of the story",
+     "source": "tbt-yeager-pri26"
+    }
+   ],
+   "keyPositions": [
+    {
+     "value": "Voted for higher school impact fees (2024) and said, \"We've got to make sure that we get our money to schools,\" while suggesting the board \"back off the parks a little bit\"",
+     "source": "lln-impact-2024"
+    },
+    {
+     "value": "Raised the possibility of projects slipping through the data center moratorium as data hubs or colocation facilities (Jun 2026)",
+     "source": "lln-dc-2026"
+    },
+    {
+     "value": "Said she supports the moratorium on data centers: \"There are too many unanswered questions and uncertainty\" (Jul 2026)",
+     "source": "nn-d4-2026"
+    },
+    {
+     "value": "Voted with the full board, in her first meeting (May 21, 2024), to opt out of the tax portion of the state Live Local Act",
+     "source": "nn-livelocal-2024"
+    }
+   ],
+   "financialDisclosures": [
+    {
+     "value": "Form 6 filed for form years 2023 through 2025: 2023 on 7/16/2024; 2024 on 6/24/2025; 2025 on 5/27/2026.",
+     "source": "coe-yeager"
+    }
+   ],
+   "conflicts": []
+  },
+  "mariano": {
+   "promises": [
+    {
+     "value": "2008 campaign site slogans: \"Putting People First,\" \"Champion for Green Building, Pasco,\" \"Creating More Employment Opportunity,\" \"Keep Taxes Low\"",
+     "year": 2008,
+     "source": "arch-mariano-2008"
+    },
+    {
+     "value": "2012 campaign site: \"Repeal County Parking Fees at the Parks we paid for!\"",
+     "year": 2012,
+     "source": "arch-mariano-2012"
+    },
+    {
+     "value": "2012 campaign site themes: \"Insuring Growth Enhances Existing Development,\" \"Tax Payers Speak First at County Commission Meetings,\" \"Creating More Employment,\" \"Keeping Taxes Low\"",
+     "year": 2012,
+     "source": "arch-mariano-2012"
+    },
+    {
+     "value": "Backed the Ridge Road Extension, saying new north-to-south routes are needed and the road design has limited environmental impact (2020 forum)",
+     "year": 2020,
+     "source": "tbt-2020-bcc"
+    },
+    {
+     "value": "Said he would continue a focus on economic development and creating well-paying jobs",
+     "year": 2020,
+     "source": "tbt-2020-bcc"
+    }
+   ],
+   "electionHistory": [
+    {
+     "value": "2004 general: Won County Commission District 5 (REP), 50.96% to 49.04% over Peter A. Altman (DEM)",
+     "source": "soe-gen04"
+    },
+    {
+     "value": "2008 Republican primary: Won County Commission District 5, 59.79% to 40.21% over Rich Jenkins",
+     "source": "soe-pri08"
+    },
+    {
+     "value": "2008 general: Won County Commission District 5, 54.10% to 45.90% over Virginia \"Ginny\" Miller (DEM)",
+     "source": "soe-gen08"
+    },
+    {
+     "value": "2012 Republican primary: Won County Commission District 5, 50.73% to 49.27% over Bill Gunter. No District 5 contest appears on the Nov 2012 general results page.",
+     "source": "soe-pri12"
+    },
+    {
+     "value": "2016 Republican primary: Won County Commission District 5, 52.11% to 47.89% over Chris Cooley",
+     "source": "soe-pri16"
+    },
+    {
+     "value": "2016 general: Won County Commission District 5, 96.33% to 3.67% for write-in",
+     "source": "soe-gen16"
+    },
+    {
+     "value": "2020 general: Won County Commission District 5, 58.83% over Brandi Geoit (DEM) 34.46% and Victor Rodriguez (NPA) 6.71%",
+     "source": "soe-gen20"
+    },
+    {
+     "value": "2024 Republican primary: Won County Commission District 5, 73.70% to 26.30% over Gina Finocchiaro",
+     "source": "soe-pri24"
+    },
+    {
+     "value": "2024 general: Won County Commission District 5, 64.91% to 35.09% over Thomas Celotto (NPA)",
+     "source": "soe-gen24"
+    },
+    {
+     "value": "2024: News report says this is Mariano's sixth term; first elected in 2004",
+     "source": "lln-gen24"
+    },
+    {
+     "value": "2024: Ballotpedia lists Mariano vs. Thomas A. Celotto (Independent) for the Nov 5, 2024 general; Mariano did not complete Ballotpedia's 2024 Candidate Connection survey",
+     "source": "bp-mariano-2024"
+    }
+   ],
+   "keyPositions": [
+    {
+     "value": "In 2020 continued to push for Pasco to end its mask order, saying the county should strongly recommend but not require masks (reported Oct 23, 2020)",
+     "source": "tbt-2020-bcc"
+    },
+    {
+     "value": "Opposed an apartment request in Jan 2021, saying the arterial-road site \"screams for something commercial, a job generator\"; moved for a 60-day continuance",
+     "source": "lln-apt-2021a"
+    },
+    {
+     "value": "Voted no when the board approved an apartment request 3-2 (Apr 2021), saying the county should retain land designated for job-creating uses",
+     "source": "lln-apt-2021b"
+    },
+    {
+     "value": "Voted against the Seven Oaks apartment request, which the board rejected (Jan 2022)",
+     "source": "lln-sevenoaks-2022"
+    },
+    {
+     "value": "Moved to deny the Hale Road rezoning (Nov 2022), citing safety, compatibility, stormwater runoff and a substandard road: \"This just doesn't fit\"",
+     "source": "lln-hale-2022"
+    },
+    {
+     "value": "Cast the lone no vote as the board voted 4-1 to send Mast Capital's Saddlebrook plan to state review (Apr 2023)",
+     "source": "lln-saddle-2023"
+    },
+    {
+     "value": "Voted for higher school impact fees (2024), saying new residents are paying for the cost of growth",
+     "source": "lln-impact-2024"
+    },
+    {
+     "value": "Said the board should consider a ban on retail rabbit sales; board voted to have staff bring back an item (Dec 2021)",
+     "source": "lln-rabbits-2021"
+    },
+    {
+     "value": "On the state Live Local Act (Jan 2024), said the county may need to impose a moratorium to protect its citizens",
+     "source": "lln-livelocal-2024"
+    },
+    {
+     "value": "As chairman on the data center moratorium (Jun 2026): \"This is something that we feel strongly about\"",
+     "source": "lln-dc-2026"
+    },
+    {
+     "value": "Pushed for a 5-0 vote to send a letter asking the property appraiser not to grant Live Local tax exemptions to two rental communities (May 2024)",
+     "source": "nn-livelocal-2024"
+    },
+    {
+     "value": "Remained opposed when the Seven Oaks project was approved (Nov 2022), arguing the commercial land should stay for jobs",
+     "source": "nn-sevenoaks-2022"
+    },
+    {
+     "value": "Favored delaying action on digital billboards (Nov 2016)",
+     "source": "lln-billboards-2016"
+    },
+    {
+     "value": "Brought back and encouraged a 2019 resolution supporting legal hemp farming, calling the federal Farm Bill change \"a monumental step forward\"; commissioners approved it",
+     "source": "lln-hemp-2019"
+    },
+    {
+     "value": "Found residents' safety concerns about a proposed solar farm persuasive, including disposal of old panels (Jun 2018)",
+     "source": "lln-solar-2018"
+    },
+    {
+     "value": "At the Ridge Road extension milestone (Jan 2020): \"The future's bright for Pasco County\"",
+     "source": "lln-ridge-2020"
+    }
+   ],
+   "financialDisclosures": [
+    {
+     "value": "Form 6 filed for form years 2015 through 2025 (11 filings). Filing dates: 2015 on 6/22/2016; 2016 on 6/30/2017; 2017 on 7/9/2018; 2018 on 7/8/2019; 2019 on 6/11/2020; 2020 on 7/6/2021; 2021 on 6/28/2022; 2022 on 6/29/2023; 2023 on 6/10/2024; 2024 on 6/30/2025; 2025 on 7/1/2026.",
+     "source": "coe-mariano"
+    },
+    {
+     "value": "2025 filing lists organizations: Pasco County Elected Constitutional Officer, Pasco County MPO, Tampa Bay Estuary Program, Tampa Bay Regional Planning Council, Tampa Bay Water Board of Directors.",
+     "source": "coe-mariano"
+    },
+    {
+     "value": "The system shows forms from 2015 on; the Commission says forms filed before 2021 not shown online must be requested from it.",
+     "source": "coe-mariano"
+    }
+   ],
+   "conflicts": [
+    {
+     "value": "A 2018 Times story on the School Board District 5 race reported that Mariano backed candidate Megan Harding and that he works for Harding's husband",
+     "source": "tbt-2018-sb5"
+    }
+   ]
+  },
+  "harding": {
+   "promises": [
+    {
+     "value": "On running: \"Running for the School Board will give me a bigger voice\"",
+     "year": 2018,
+     "source": "tbt-2018-sb5"
+    },
+    {
+     "value": "Said the district budget is filled with \"inefficiencies\" and cited rezoning lawsuits as money that could have been saved with advance planning: \"I think it's cool that our county is booming. But I don't feel we've prepared for it.\"",
+     "year": 2018,
+     "source": "tbt-2018-sb5"
+    },
+    {
+     "value": "Wanted teachers not to have to spend their own money on supplies",
+     "year": 2018,
+     "source": "tbt-2018-sb5"
+    },
+    {
+     "value": "Said she would seek to reduce district testing; supported approving more charter schools",
+     "year": 2018,
+     "source": "tbt-2018-sb5"
+    },
+    {
+     "value": "Said she was \"neutral\" about asking voters to increase taxes",
+     "year": 2018,
+     "source": "tbt-2018-sb5"
+    },
+    {
+     "value": "\"I'm not scared to vote against\"",
+     "year": 2018,
+     "source": "tbt-2018-sb5"
+    },
+    {
+     "value": "2022 campaign biography: taught in Pasco schools for seven years before running \"with the aim to give a greater voice to students, teachers, staff, and community\"",
+     "year": 2022,
+     "source": "nn-bios-2022"
+    },
+    {
+     "value": "2022 re-election: wants raises for staff and wants parents more engaged and involved",
+     "year": 2022,
+     "source": "wfts-sb-2022"
+    },
+    {
+     "value": "Emphasized strengthening relationships with local teacher colleges and securing state funding for school safety; listed civics education, reading and math achievement and fiscal responsibility as priorities (2026 Florida Public Media Voter Guide response, as reported by WUSF)",
+     "year": 2026,
+     "source": "wusf-sb26"
+    }
+   ],
+   "electionHistory": [
+    {
+     "value": "2018 nonpartisan primary: School Board District 5, 33.60%, second to Tara M. O'Connor 33.90% (Mike Aday 19.13%, Kassie Hutchinson 13.36%); both advanced",
+     "source": "soe-pri18"
+    },
+    {
+     "value": "2018 general: Won School Board District 5, 58.50% to 41.50% over Tara M. O'Connor",
+     "source": "soe-gen18"
+    },
+    {
+     "value": "2022 primary: Won School Board District 5 outright, 71.33% to 28.67% over Charles Philip Touseull",
+     "source": "soe-pri22"
+    },
+    {
+     "value": "2026 primary: Won School Board District 5 outright, 72.15% to 27.85% over Michelle R. Mandarin",
+     "source": "soe-pri26"
+    }
+   ],
+   "keyPositions": [
+    {
+     "value": "As chair during the Apr 2023 cell tower easement debate near Starkey Ranch K-8 (approved 3-2), said she found weak cell service on campus and raised campus security; the story does not give a roll call",
+     "source": "lln-celltower-2023"
+    },
+    {
+     "value": "Voted for the school district partnership with Patel Charter at the Starkey/Tower site, approved 3-2 (May 2023)",
+     "source": "lln-patel-2023"
+    },
+    {
+     "value": "Favored keeping an existing dress code requirement during board debate; was absent from the Oct 17, 2023 vote that approved the change 4-0",
+     "source": "lln-dress-2023"
+    },
+    {
+     "value": "On a charter school's reported $1.9 million net deficit (Oct 2023): \"That's huge\"",
+     "source": "lln-charter-2023"
+    },
+    {
+     "value": "Said board discussions with legislators in 2025 covered sidewalks, hazardous walkways, transportation and school safety",
+     "source": "lln-legis-2025"
+    }
+   ],
+   "financialDisclosures": [
+    {
+     "value": "Form 6 filed for form years 2018 through 2025 (Pasco County School District): 2018 on 6/3/2019; 2019 on 7/9/2020; 2020 on 6/28/2021; 2021 on 6/13/2022; 2022 on 6/29/2023; 2023 on 7/1/2024; 2024 on 7/1/2025; 2025 on 6/8/2026.",
+     "source": "coe-harding"
+    }
+   ],
+   "conflicts": [
+    {
+     "value": "The 2018 Times story reported that Harding was backed by County Commissioner Jack Mariano, who the story said works for Harding's husband",
+     "source": "tbt-2018-sb5"
+    }
+   ]
+  },
+  "vazquez": {
+   "promises": [
+    {
+     "value": "Listed campaign issues: fixing broken roads, drainage and outdated storm systems; preparing for flooding and climate change; establishing term limits; and curbing growth that strains neighborhoods and schools",
+     "year": 2026,
+     "source": "nn-vazquez-2025"
+    },
+    {
+     "value": "Said funding schools with commission-controlled development impact fees would be her top priority, followed by funding for new and improved roads, then flood mitigation and drainage projects",
+     "year": 2026,
+     "source": "nn-vazquez-2025"
+    },
+    {
+     "value": "Said new large-scale developments should be required to include school sites: \"If the population is increasing, we need to prioritize schools, and developers need to pay their fair share\"",
+     "year": 2026,
+     "source": "nn-vazquez-2025"
+    },
+    {
+     "value": "Said she would vote no on proposed large-scale developments unwilling to include parks and school sites; proposed three questions for growth decisions: \"Do we need it? Does it put the people of Pasco first? Are we ready for it?\"",
+     "year": 2026,
+     "source": "nn-vazquez-2025"
+    },
+    {
+     "value": "Said she wants decisions \"made in the open, with transparency and accountability\"",
+     "year": 2026,
+     "source": "nn-vazquez-2025"
+    },
+    {
+     "value": "Running to \"stop reckless growth\" in the county and shorten commutes, according to her website as reported by the Times",
+     "year": 2026,
+     "source": "tbt-yeager-pri26"
+    },
+    {
+     "value": "Campaign site (Mar 2026): \"We're fighting to fix our roads, prepare for disasters, stop reckless growth, and bring term limits\"",
+     "year": 2026,
+     "source": "arch-vazquez-2026"
+    }
+   ],
+   "electionHistory": [
+    {
+     "value": "2026: On the Nov 3, 2026 general election ballot for County Commission District 2 against incumbent Seth Weightman (R); no primary contest",
+     "source": "bp-weightman-2026"
+    }
+   ],
+   "keyPositions": [],
+   "financialDisclosures": [],
+   "conflicts": []
+  },
+  "collura": {
+   "promises": [
+    {
+     "value": "Said he intends to prioritize competitive teacher pay packages, curbing excessive personal technology use, and threat management technologies to improve school safety",
+     "year": 2026,
+     "source": "wusf-sb26"
+    },
+    {
+     "value": "On why he is running: \"A huge deciding factor in running is the volume of explosive growth that's happening in this county\"",
+     "year": 2026,
+     "source": "wusf-sb26"
+    },
+    {
+     "value": "On school safety: \"I want to focus on proactive security measures, not reactive,\" such as behavioral threat assessments and open-source intelligence gathering on public internet posts",
+     "year": 2026,
+     "source": "nn-sb1-2026"
+    },
+    {
+     "value": "Described himself as a supporter of school choice: \"parents reserve the right to choose\"; said the district may have to shut some schools down because of changes in the area, as long as all students get the same opportunities",
+     "year": 2026,
+     "source": "nn-sb1-2026"
+    }
+   ],
+   "electionHistory": [
+    {
+     "value": "2026 primary: School Board District 1, 30.89%, second of four (Kimberly D. Coward 35.43%, Christopher A. King 20.29%, Brian Perras 13.38%); advanced to Nov 3 runoff",
+     "source": "soe-pri26"
+    }
+   ],
+   "keyPositions": [],
+   "financialDisclosures": [],
+   "conflicts": []
+  },
+  "coward": {
+   "promises": [
+    {
+     "value": "Wrote in the Florida Public Media Voter Guide that she supports \"data-driven, fiscally responsible\" solutions to teacher pay and declining enrollment (as quoted by WUSF)",
+     "year": 2026,
+     "source": "wusf-sb26"
+    },
+    {
+     "value": "Said she wants to identify issues around declining enrollment, school closures and mergers, review the budget and \"be a good steward of the finances\"",
+     "year": 2026,
+     "source": "nn-sb1-2026"
+    },
+    {
+     "value": "Said she supports school choice and parent choice if it helps students, and that \"We have to make sure our teachers are paid better\"",
+     "year": 2026,
+     "source": "nn-sb1-2026"
+    },
+    {
+     "value": "Said political endorsements in the nonpartisan race concern her and that \"You can trust that I will always make the best decision for the students\"",
+     "year": 2026,
+     "source": "nn-sb1-2026"
+    }
+   ],
+   "electionHistory": [
+    {
+     "value": "2026 primary: School Board District 1, 35.43%, first of four (Gino Collura 30.89%, Christopher A. King 20.29%, Brian Perras 13.38%); advanced to Nov 3 runoff",
+     "source": "soe-pri26"
+    }
+   ],
+   "keyPositions": [],
+   "financialDisclosures": [],
+   "conflicts": []
+  },
+  "geiger": {
+   "promises": [
+    {
+     "value": "2022 platform: \"listen and fight for the rights of students and parents, increase teachers salaries and seek an independent Financial Audit to find wasteful spending in the District\"; also proposed a parent council and an after-hours information hub for educational and career planning",
+     "year": 2022,
+     "source": "nn-bios-2022"
+    },
+    {
+     "value": "2022: became interested in joining the School Board after struggling to find special education services for his own children",
+     "year": 2022,
+     "source": "wfts-sb-2022"
+    },
+    {
+     "value": "In a United School Employees of Pasco questionnaire, as quoted by WUSF: \"My top priority is ensuring every child receives a high-quality, academically rigorous education free from ideological indoctrination\"; called for phonics-based reading, basic math proficiency and \"American exceptionalism\"",
+     "year": 2026,
+     "source": "wusf-sb26"
+    },
+    {
+     "value": "Proposed district-owned affordable housing for teachers, modeled after Chicago's Teacher Village, and school safety officers who would write citations for chronic misbehavior",
+     "year": 2026,
+     "source": "wusf-sb26"
+    },
+    {
+     "value": "Said he would support a local-option property tax referendum to raise teacher pay, while calling it somewhat of a Band-Aid; wrote that \"the solution is not just more money but better working conditions\"",
+     "year": 2026,
+     "source": "wusf-sb26"
+    },
+    {
+     "value": "Said an effective board member prioritizes \"transparency, data-driven decisions, parental involvement, fiscal responsibility and measurable student outcomes\"",
+     "year": 2026,
+     "source": "nn-sb3-2026"
+    },
+    {
+     "value": "Said he will inform the community about the teacher pay tax referendum through town halls and outreach, while insisting on accountability measures such as tying increases to performance metrics and reducing administrative overhead",
+     "year": 2026,
+     "source": "nn-sb3-2026"
+    },
+    {
+     "value": "Committed to monthly district listening sessions rotating between east and west Pasco, school visits and community forums",
+     "year": 2026,
+     "source": "nn-sb3-2026"
+    },
+    {
+     "value": "Said funding should prioritize the classroom; supports auditing spending to eliminate waste and addressing east-west capacity imbalances",
+     "year": 2026,
+     "source": "nn-sb3-2026"
+    },
+    {
+     "value": "On safety: pushes for clear codes of conduct with consistent enforcement, expanded mental health resources and \"zero tolerance for violence against teachers or personnel\"",
+     "year": 2026,
+     "source": "nn-sb3-2026"
+    },
+    {
+     "value": "Said he strongly supports school choice, including expanding charter access where traditional schools are underperforming or overcrowded and protecting voucher/ESA programs",
+     "year": 2026,
+     "source": "nn-sb3-2026"
+    },
+    {
+     "value": "Supports restrictions on personal phone and non-instructional tablet use during class; said schools he led had strict cell phone policies",
+     "year": 2026,
+     "source": "nn-sb3-2026"
+    },
+    {
+     "value": "On attendance: proposed early intervention (mentorship, family engagement) combined with firm enforcement of attendance policies",
+     "year": 2026,
+     "source": "nn-sb3-2026"
+    }
+   ],
+   "electionHistory": [
+    {
+     "value": "2022 primary: Lost School Board District 3 (listed as Matthew Geiger), 41.12% to 58.88% for Cynthia Armstrong. Same-person match is by name only.",
+     "source": "soe-pri22"
+    },
+    {
+     "value": "2026 primary: School Board District 3, 28.74%, first of five (Mollyana Ward 21.12%, Erin Stroupe 19.05%, Sean Michael O'Flannery 17.31%, Kirk Phillips 13.79%); advanced to Nov 3 runoff",
+     "source": "soe-pri26"
+    },
+    {
+     "value": "2022: Lost School Board District 3 to incumbent Cynthia Armstrong, who had about 58% (news report)",
+     "source": "nn-pri-2022"
+    }
+   ],
+   "keyPositions": [],
+   "financialDisclosures": [],
+   "conflicts": []
+  },
+  "ward": {
+   "promises": [
+    {
+     "value": "Plans to strengthen local teacher pipelines through partnerships with the USF College of Education, PHSC and alternative certification programs; listed AI threat detection, bus driver recruitment and curriculum oversight as priorities",
+     "year": 2026,
+     "source": "wusf-sb26"
+    },
+    {
+     "value": "On book challenges (Florida Public Media Voter Guide, as quoted by WUSF): \"Book challenges should be handled through a clear, lawful process that respects parents' rights and age-appropriate standards\"",
+     "year": 2026,
+     "source": "wusf-sb26"
+    },
+    {
+     "value": "Named budget transparency and teacher retention as key issues: \"We have to be able to find the money to pay the teachers without an additional tax\"",
+     "year": 2026,
+     "source": "nn-sb3-2026"
+    },
+    {
+     "value": "Said she would look into the cost of district health insurance for teachers' family plans",
+     "year": 2026,
+     "source": "nn-sb3-2026"
+    },
+    {
+     "value": "On safety: said the least expensive step is a culture of communication so students report concerns; supports retrofitting single-point entry and mentioned AI weapons-detection technology and cameras",
+     "year": 2026,
+     "source": "nn-sb3-2026"
+    },
+    {
+     "value": "Said she is \"a big proponent of school choice\" and that \"I think it brings excellence and competition\"",
+     "year": 2026,
+     "source": "nn-sb3-2026"
+    },
+    {
+     "value": "On the teacher pay referendum: said she is sharing others' social media posts about it and that, if it is taken away, teachers, janitors and bus drivers would suffer",
+     "year": 2026,
+     "source": "nn-sb3-2026"
+    },
+    {
+     "value": "First-year plan: increase career education paths and expand partnerships with community organizations; suggested converting schools with declining enrollment into Junior Achievement-type facilities for certifications and apprenticeships",
+     "year": 2026,
+     "source": "nn-sb3-2026"
+    },
+    {
+     "value": "Said she is running on \"putting paper back in the classroom,\" saying handwriting is important and \"nothing can replace teacher interaction\"",
+     "year": 2026,
+     "source": "nn-sb3-2026"
+    }
+   ],
+   "electionHistory": [
+    {
+     "value": "2026 primary: School Board District 3, 21.12%, second of five (Matt Geiger 28.74%, Erin Stroupe 19.05%, Sean Michael O'Flannery 17.31%, Kirk Phillips 13.79%); advanced to Nov 3 runoff",
+     "source": "soe-pri26"
+    }
+   ],
+   "keyPositions": [],
+   "financialDisclosures": [],
+   "conflicts": []
+  }
+ },
+ "blocked": [
+  "https://www.tampabaybeacons.com/ (browser: navigation to this domain not allowed; curl/WebFetch also blocked)",
+  "https://ethics.state.fl.us/Documents/Ethics/PressReleases/Jun23pres.pdf (read via WebFetch on Oct 27, 2026; a direct browser request the same day returned 404, so re-verify)",
+  "Florida Commission on Ethics press releases before 2024 other than Jun23 and Jul23 could not be enumerated (not on the current server; Internet Archive was temporarily offline)",
+  "Florida Commission on Ethics complaint records: no searchable public complaint database found; only press releases checked",
+  "https://ballotpedia.org/ (WebFetch and curl blocked; browser pages opened: Mariano 2024 and Weightman 2026 candidate pages show no Candidate Connection survey; no Ballotpedia pages exist for most of these people)",
+  "https://www.pascovotes.gov/ and https://disclosure.floridaethics.gov/ (blocked for curl/WebFetch; opened through the browser instead)",
+  "https://www.vote411.org/ (curl blocked; no Pasco 2026 VOTE411 guide found before the web search budget ran out)",
+  "https://www.tampabay.com/news/education/2026/06/12/pasco-school-board-candidates-election-district/ (article body not returned)",
+  "https://www.tampabay.com/blogs/gradebook/2018/08/28/pasco-school-board-5/ and /2018/11/06/pasco-school-board-5-2/ (article body not returned)",
+  "Tampa Bay Times archive for Mariano 2004 to 2016 and Starkey 2016 to 2024 campaign coverage (not found before the web search budget ran out)",
+  "Candidate Form 6 filings for Vazquez, Collura, Coward, Geiger and Ward (filed with qualifying papers at the SOE; not in the EFDMS annual filer search, and the SOE candidate pages were not checked)",
+  "Florida Commission on Ethics press releases Jan 2024 to Aug 2026 were text-searched: no entries for any of these 11 people"
+ ]
+}
