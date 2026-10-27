@@ -418,8 +418,17 @@ const COUNTIES = DATA.counties;
 const HTV = DATA.howToVote || {statewide: [], counties: {}, jobs: {}};
 
 let CK = null, C = null, P = {}, V = {}, R = {}, T = {}, S = {};
+/* Each county's full data is its own file, fetched the first time you open that county. */
+const nRaces = k => COUNTIES[k].stub ? COUNTIES[k].nRaces : COUNTIES[k].races.filter(r => r.onNovBallot !== false).length;
+const nProblems = k => COUNTIES[k].stub ? COUNTIES[k].nProblems : COUNTIES[k].problems.length;
+const LOADING = {};
+function loadCounty(k) {
+  return LOADING[k] ||= fetch(`/data/c/${k}.json`).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(d => { COUNTIES[k] = d; return d; }).catch(e => { delete LOADING[k]; throw e; });
+}
 function useCounty(k) {
   if (!COUNTIES[k]) return false;
+  if (COUNTIES[k].stub) return "load";
   CK = k; C = COUNTIES[k];
   P = Object.fromEntries(C.people.map(p => [p.id, p]));
   V = Object.fromEntries(C.votes.map(v => [v.id, v]));
@@ -514,7 +523,7 @@ views.home = () => {
       </div>
       <div class="mapwrap">
         <p style="color:#fff;font-weight:700;margin-bottom:8px">Or pick your county</p>
-        <div class="bigpick">${ORDER.map(k => `<a href="#/${k}"><b>${esc(cname(k))}</b><span>${COUNTIES[k].races.filter(r => r.onNovBallot !== false).length} races on your ballot</span></a>`).join("")}</div>
+        <div class="bigpick">${ORDER.map(k => `<a href="#/${k}"><b>${esc(cname(k))}</b><span>${nRaces(k)} races on your ballot</span></a>`).join("")}</div>
         ${mapSvg(store.get("gb-county"))}
       </div>
     </section>
@@ -1066,7 +1075,8 @@ views.sources = () => {
   return `<div class="stack-lg view">
     ${band("", "Where our information comes from", "Every source behind every fact on this site, government records first. Each one has a link to the original and a saved copy.", "02-public-records")}
     ${CK ? `<div class="chips">${ORDER.map(k => `<a class="chip" style="display:inline-flex;align-items:center;text-decoration:none" aria-pressed="${k === CK}" href="#/${k}/sources">${esc(cname(k))}</a>`).join("")}</div>` : ""}
-    ${ks.map(k => { const src = COUNTIES[k].sources; const ids = Object.keys(src).sort((a,b) => src[a].tier - src[b].tier || src[a].publisher.localeCompare(src[b].publisher));
+    ${!CK ? `<div class="list">${ORDER.map(k => `<a href="#/${k}/sources"><span class="body"><span class="title">${esc(COUNTIES[k].county.name)}</span><span class="tiny muted">${COUNTIES[k].stub ? COUNTIES[k].nSources : Object.keys(COUNTIES[k].sources).length} sources</span></span>${chev}</a>`).join("")}</div>` : ""}
+    ${ks.filter(k => !COUNTIES[k].stub).map(k => { const src = COUNTIES[k].sources; const ids = Object.keys(src).sort((a,b) => src[a].tier - src[b].tier || src[a].publisher.localeCompare(src[b].publisher));
       return `<section class="stack"><h2 class="h2">${esc(COUNTIES[k].county.name)} <span class="muted small" style="font-family:var(--body);font-weight:500">${ids.length} sources</span></h2>
         <div class="list">${ids.map(id => { const s = src[id]; return `<a href="#/${k}/s/${id}"><span class="src" style="border:0;padding:0"><span class="t t${s.tier}">${s.tier}</span></span><span class="body"><span class="title small">${esc(s.title)}</span><span class="tiny muted">${esc(s.publisher)} · ${esc(TIERS[s.tier]?.[0] || "")}</span></span>${chev}</a>`; }).join("")}</div></section>`; }).join("")}
     <p class="small"><a href="/data/glassballot.json">Download every fact and source as one data file</a></p>
@@ -1206,7 +1216,7 @@ views.corrections = () => { const list = (DATA.corrections || []).slice().sort((
   <section class="stack"><h2 class="h2">Updates from the nightly check</h2>
     ${(DATA.changes || []).length ? `<div class="list">${DATA.changes.map(c => `<div class="li"><span class="body" style="gap:6px"><span class="title">${fmtDate(c.date)}</span><span class="small muted">${c.changed.length} fact${c.changed.length === 1 ? "" : "s"} changed${c.errors.length ? `. ${c.errors.length} source${c.errors.length === 1 ? "" : "s"} couldn't be reached, so we kept the last good data` : ""}.</span>${c.changed.slice(0, 12).map(x => `<span class="small"><b>${esc(x.subject)}</b>: ${esc(shownText(x.before))} <span class="muted">now</span> ${esc(shownText(x.after))}</span>`).join("")}</span></div>`).join("")}</div>` : `<p class="notice">No automatic updates yet.</p>`}
   </section>
-  <section class="stack"><h2 class="h2">Where sources disagree</h2><div class="list">${ORDER.map(k => `<a href="#/${k}/problems"><span class="body"><span class="title">${esc(cname(k))} County</span><span class="tiny muted">${COUNTIES[k].problems.length} open</span></span>${chev}</a>`).join("")}</div></section>
+  <section class="stack"><h2 class="h2">Where sources disagree</h2><div class="list">${ORDER.map(k => `<a href="#/${k}/problems"><span class="body"><span class="title">${esc(cname(k))} County</span><span class="tiny muted">${nProblems(k)} open</span></span>${chev}</a>`).join("")}</div></section>
 </div>`; };
 
 views.thanks = () => `<div class="stack-lg view"><section class="band"><h1 class="h1">Thank you. We got your report.</h1><p class="lede">A person will check it against the link you sent. If we change anything, it will be listed on our corrections page.</p><div class="row"><a class="btn primary" href="${CK ? href() : "#/"}">Back to the ballot</a></div></section></div>`;
@@ -1267,6 +1277,7 @@ function zipLookup(z) {
 /* ---------- search ---------- */
 function searchIndex() { const out = [];
   ORDER.forEach(k => { const c = COUNTIES[k], n = cname(k);
+    if (c.stub) { c.index.forEach(([h, t, s]) => out.push({h, t, s})); return; }
     c.people.forEach(p => out.push({h:`#/${k}/p/${p.id}`, t:p.name, s:`${p.office}${p.district ? ", District " + p.district : ""} · ${n}`}));
     c.votes.forEach(v => out.push({h:`#/${k}/v/${v.id}`, t:v.headline, s:`${voteDate(v)} · ${n}`}));
     c.races.forEach(r => out.push({h:`#/${k}/r/${r.id}`, t:r.title, s:`${n} County ballot`}));
@@ -1289,6 +1300,11 @@ function route() {
   let html, tab = "ballot";
   if (!parts.length) { CK = null; html = views.home(); tab = "home"; }
   else if (parts[0] in GLOBAL) { if (parts[0] === "sources") CK = null; html = views[parts[0]](); tab = GLOBAL[parts[0]]; }
+  else if (useCounty(parts[0]) === "load") {
+    $("#app").innerHTML = `<div class="stack view"><p class="muted">Loading ${esc(COUNTIES[parts[0]].county.name)}…</p></div>`;
+    loadCounty(parts[0]).then(route).catch(() => { $("#app").innerHTML = `<div class="stack view"><h1 class="h1">We couldn't load this county</h1><p>Check your connection and <a href="${esc(location.hash)}" onclick="location.reload()">try again</a>.</p></div>`; });
+    return;
+  }
   else if (useCounty(parts[0])) {
     const [, a, b] = parts;
     if (!a) html = views.ballot();
@@ -1317,7 +1333,7 @@ function route() {
   window.scrollTo(0, 0);
 }
 
-function countyChoices() { $("#countyChoices").innerHTML = ORDER.map(k => `<a href="#/${k}" data-close><span class="body"><span class="title">${esc(COUNTIES[k].county.name)}</span><span class="tiny muted">${COUNTIES[k].races.filter(r => r.onNovBallot !== false).length} races on the Nov 3 ballot</span></span>${chev}</a>`).join("") + `<a href="#/" data-close><span class="body"><span class="title">Start over</span><span class="tiny muted">Look up by ZIP code</span></span>${chev}</a>`; }
+function countyChoices() { $("#countyChoices").innerHTML = ORDER.map(k => `<a href="#/${k}" data-close><span class="body"><span class="title">${esc(COUNTIES[k].county.name)}</span><span class="tiny muted">${nRaces(k)} races on the Nov 3 ballot</span></span>${chev}</a>`).join("") + `<a href="#/" data-close><span class="body"><span class="title">Start over</span><span class="tiny muted">Look up by ZIP code</span></span>${chev}</a>`; }
 
 function setBig(on) { document.documentElement.classList.toggle("big", on); $("#textSize").setAttribute("aria-pressed", String(on)); $("#textSize").setAttribute("aria-label", on ? "Make text smaller" : "Make text bigger"); store.set("gb-big", on ? "1" : ""); }
 setBig(store.get("gb-big") === "1");

@@ -68,9 +68,25 @@ def build_region(accessed: str | None = None) -> dict:
     }
 
 
+def _stub(k: str, c: dict) -> dict:
+    """What the front page needs about a county before you open it. The full county loads on demand."""
+    n = c["county"]["name"].replace(" County", "")
+    idx = [[f"#/{k}/p/{p['id']}", p["name"], f"{p.get('office', '')}{', District ' + str(p['district']) if p.get('district') else ''} · {n}"] for p in c["people"]]
+    idx += [[f"#/{k}/v/{v['id']}", v["headline"], n] for v in c["votes"]]
+    idx += [[f"#/{k}/r/{r['id']}", r["title"], f"{n} County ballot"] for r in c["races"]]
+    return {"stub": True, "county": c["county"], "labelCounts": c.get("labelCounts", {}), "nProblems": len(c.get("problems", [])),
+            "nRaces": sum(1 for r in c["races"] if r.get("onNovBallot") is not False), "nSources": len(c.get("sources", {})), "index": idx}
+
+
 def bake(data: dict) -> Path:
     tpl = (ROOT / "site" / "template.html").read_text()
-    blob = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    # Each county is its own file (site/c/<county>.json); the page itself carries only a small summary of each.
+    cdir = ROOT / "site" / "c"
+    cdir.mkdir(exist_ok=True)
+    for k, c in data["counties"].items():
+        (cdir / f"{k}.json").write_text(json.dumps(c, ensure_ascii=False, separators=(",", ":")))
+    light = {**data, "counties": {k: _stub(k, c) for k, c in data["counties"].items()}}
+    blob = json.dumps(light, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     out = ROOT / "site" / "glassballot.html"
     out.write_text(tpl.replace("/*__DATA__*/null", blob))
     (ROOT / "site" / "region.json").write_text(json.dumps(data, ensure_ascii=False, indent=1))

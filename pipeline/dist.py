@@ -77,6 +77,10 @@ def build_dist() -> Path:
     (out / "data").mkdir()
     if region.exists():
         shutil.copy(region, out / "data" / "glassballot.json")
+    cd = out / "data" / "c"
+    if cd.exists():
+        shutil.rmtree(cd)
+    shutil.copytree(ROOT / "site" / "c", cd)
     (out / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     (out / "sitemap.xml").write_text(
