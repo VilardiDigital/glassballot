@@ -173,13 +173,13 @@ label.f span.h{font-weight:400;color:var(--muted);font-size:13px}
 @media (min-width:860px){.mapwrap{margin-top:0}}
 .map{width:100%;height:auto;max-height:440px;display:block;margin:0 auto}
 @media (max-width:859px){.map{max-height:300px}}
-.map g.soon path{fill:rgba(232,246,255,.05);stroke:rgba(232,246,255,.35);stroke-dasharray:4 4}
+.map g.soon path{fill:rgba(232,246,255,.06);stroke:rgba(232,246,255,.3);stroke-width:.8}
 .map g.soon text{fill:#A9C8FF;font-size:14px}
-.map a path{fill:rgba(232,246,255,.16);stroke:rgba(232,246,255,.85);stroke-width:1.6;transition:fill .15s}
+.map a path{fill:rgba(20,184,166,.45);stroke:#fff;stroke-width:1.2;transition:fill .15s}
 .map a:hover path,.map a:focus path{fill:rgba(20,184,166,.55)}
 .map a.on path{fill:rgba(232,246,255,.42)}
-.map text{font-family:var(--head);font-weight:800;font-size:17px;fill:#fff;pointer-events:none;paint-order:stroke;stroke:rgba(11,61,145,.65);stroke-width:4px}
-.map a:focus{outline:none}
+.map text{font-family:var(--head);font-weight:800;font-size:15px;fill:#fff;pointer-events:none;paint-order:stroke;stroke:rgba(11,61,145,.65);stroke-width:4px}
+.map a:focus{outline:none}.map line.lead{stroke:rgba(255,255,255,.7);stroke-width:1}
 .countylist{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}
 @media (max-width:859px){.mapwrap{display:flex;flex-direction:column}.mapwrap .countylist{order:-1;margin:0 0 6px}}
 .countylist .pick{grid-column:1/-1;font-family:var(--head);font-weight:700;color:#fff;font-size:15px}
@@ -499,8 +499,15 @@ const showAll = new Set();
 /* ---------- home ---------- */
 function mapSvg(active) {
   const m = DATA.map;
-  return `<svg class="map" viewBox="0 0 ${m.w} ${m.h}" role="img" aria-label="Map of the four counties we cover">
-    ${Object.entries(m.c).map(([k, c]) => COUNTIES[k] ? `<a href="#/${k}" class="${k === active ? "on" : ""}" aria-label="${esc(COUNTIES[k].county.name)}"><path d="${c.d}"/><text x="${c.x}" y="${c.y}" text-anchor="middle">${esc(cname(k))}</text></a>` : "").join("")}
+  // All 67 counties. The ones we cover are links; the rest are drawn so you can see where we're headed.
+  const live = Object.entries(m.c).filter(([k]) => COUNTIES[k]);
+  return `<svg class="map" viewBox="0 0 ${m.w} ${m.h}" role="img" aria-label="Map of Florida's 67 counties. We cover ${live.map(([k]) => esc(cname(k))).join(", ")} so far.">
+    <g class="soon">${Object.entries(m.c).filter(([k]) => !COUNTIES[k]).map(([k, c]) => `<path d="${c.d}"><title>${esc(c.name)} County: coming soon</title></path>`).join("")}</g>
+    ${live.map(([k, c]) => `<a href="#/${k}" class="${k === active ? "on" : ""}" aria-label="${esc(COUNTIES[k].county.name)}"><path d="${c.d}"/></a>`).join("")}
+    ${(() => { // labels in a column to the left, spaced apart, with a thin line to each county
+      const col = Math.min(...live.map(([, c]) => c.x)) - 34; let lastY = -99;
+      return live.slice().sort((a, b) => a[1].y - b[1].y).map(([k, c]) => { const y = Math.max(c.y, lastY + 19); lastY = y;
+        return `<line x1="${col + 3}" y1="${y - 5}" x2="${c.x}" y2="${c.y}" class="lead"/><text x="${col}" y="${y}" text-anchor="end">${esc(cname(k))}</text>`; }).join(""); })()}
   </svg>`;
 }
 const edayLine = () => { const d = daysLeft(); const hrs = (HTV.statewide || []).find(x => x.id === "poll-hours");

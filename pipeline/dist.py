@@ -73,7 +73,7 @@ def build_dist() -> Path:
     out.mkdir()
     (out / "index.html").write_text(HEAD + src.read_text() + "\n</body>\n</html>\n")
     (out / "favicon.svg").write_text(FAVICON)
-    shutil.copytree(ROOT / "site" / "assets", out / "assets", ignore=shutil.ignore_patterns("tb4.json"))
+    shutil.copytree(ROOT / "site" / "assets", out / "assets", ignore=shutil.ignore_patterns("tb4.json", "fl.json"))
     (out / "data").mkdir()
     if region.exists():
         shutil.copy(region, out / "data" / "glassballot.json")
