@@ -6,7 +6,7 @@
   "body": "Board of County Commissioners",
   "electionDate": "2026-11-03",
   "auto": true,
-  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=marion&el=28",
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=marion&el=47",
   "pastCycles": {
    "2024": 40,
    "2022": 35
@@ -15,7 +15,7 @@
  "sources": {
   "soe-vf": {
    "title": "Marion County Supervisor of Elections: 2026 candidates and campaign reports",
-   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=marion&el=28",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=marion&el=47",
    "publisher": "Marion County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
@@ -112,115 +112,206 @@
    "status": "incumbent"
   },
   {
-   "id": "account",
-   "name": "Craig Curry Office Account",
-   "claims": {},
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "1",
-   "race": "bcc-d1",
-   "finance": {
-    "voterfocusId": "584",
-    "status": "Inactive"
+   "id": "cretul",
+   "name": "Matt Cretul",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
    },
-   "nonpartisan": false
-  },
-  {
-   "id": "kathyaccount",
-   "name": "Kathy Bryant Office Account",
-   "claims": {},
    "office": "Candidate, County Commission",
    "status": "open",
    "district": "2",
    "race": "bcc-d2",
    "finance": {
-    "voterfocusId": "477",
-    "status": "Inactive"
-   },
-   "nonpartisan": false
+    "voterfocusId": "791",
+    "status": "Active- Defeated"
+   }
   },
   {
-   "id": "jeffaccount",
-   "name": "Jeff Gold Office Account",
-   "claims": {},
+   "id": "crimi",
+   "name": "Mike Crimi",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
-   "district": "3",
-   "race": "bcc-d3",
+   "district": "2",
+   "race": "bcc-d2",
    "finance": {
-    "voterfocusId": "583",
-    "status": "Inactive"
-   },
-   "nonpartisan": false
+    "voterfocusId": "790",
+    "status": "Active- Elected"
+   }
   },
   {
-   "id": "carlaccount",
-   "name": "Carl Zalak III Office Account",
-   "claims": {},
+   "id": "weidemiller",
+   "name": "Brien Weidemiller",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "795",
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "bairstow",
+   "name": "Jeff Bairstow",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
    "district": "4",
    "race": "bcc-d4",
    "finance": {
-    "voterfocusId": "478",
-    "status": "Active"
-   },
-   "nonpartisan": false
+    "voterfocusId": "789",
+    "status": "Active- Advanced"
+   }
   },
   {
-   "id": "michelleaccount",
-   "name": "Michelle Stone Office Account",
-   "claims": {},
+   "id": "racioppi",
+   "name": "Leonard Michael Racioppi",
+   "claims": {
+    "party": [
+     {
+      "value": "Write-in",
+      "source": "soe-vf"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
-   "district": "5",
-   "race": "bcc-d5",
+   "district": "4",
+   "race": "bcc-d4",
    "finance": {
-    "voterfocusId": "579",
-    "status": "Active"
+    "voterfocusId": "811",
+    "status": "Active- Advanced"
+   }
+  },
+  {
+   "id": "cummings",
+   "name": "Eric R. Cummings",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "3",
+   "race": "sb-d3",
+   "finance": {
+    "voterfocusId": "799",
+    "status": "Active- Elected"
    },
-   "nonpartisan": false
+   "nonpartisan": true
+  },
+  {
+   "id": "swett",
+   "name": "Steve Swett",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "3",
+   "race": "sb-d3",
+   "finance": {
+    "voterfocusId": "805",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "mills",
+   "name": "Mike Mills",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "4",
+   "race": "sb-d4",
+   "finance": {
+    "voterfocusId": "802",
+    "status": "Active- Advanced"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "smith",
+   "name": "Brigitte Smith",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "4",
+   "race": "sb-d4",
+   "finance": {
+    "voterfocusId": "803",
+    "status": "Active- Advanced"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "barber",
+   "name": "Donald \"Donny\" Barber",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "5",
+   "race": "sb-d5",
+   "finance": {
+    "voterfocusId": "793",
+    "status": "Active- Advanced"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "james",
+   "name": "Sarah James",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "5",
+   "race": "sb-d5",
+   "finance": {
+    "voterfocusId": "801",
+    "status": "Active- Advanced"
+   },
+   "nonpartisan": true
   }
  ],
  "races": [
-  {
-   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "bcc-d1",
-   "title": "County Commission, District 1",
-   "office": "COUNTY COMMISSIONER - 1",
-   "people": [
-    "account"
-   ],
-   "sources": [
-    "soe-vf"
-   ],
-   "onNovBallot": false
-  },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
    "id": "bcc-d2",
    "title": "County Commission, District 2",
    "office": "COUNTY COMMISSIONER - 2",
    "people": [
-    "kathyaccount"
+    "cretul",
+    "crimi",
+    "weidemiller"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": false
-  },
-  {
-   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "bcc-d3",
-   "title": "County Commission, District 3",
-   "office": "COUNTY COMMISSIONER - 3",
-   "people": [
-    "jeffaccount"
-   ],
-   "sources": [
-    "soe-vf"
-   ],
-   "onNovBallot": false
+   "onNovBallot": false,
+   "decided": "Mike Crimi (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -228,25 +319,56 @@
    "title": "County Commission, District 4",
    "office": "COUNTY COMMISSIONER - 4",
    "people": [
-    "carlaccount"
+    "bairstow",
+    "racioppi"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": false
+   "onNovBallot": true
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
-   "id": "bcc-d5",
-   "title": "County Commission, District 5",
-   "office": "COUNTY COMMISSIONER - 5",
+   "id": "sb-d3",
+   "title": "School Board, District 3",
+   "office": "SCHOOL BOARD - 3",
    "people": [
-    "michelleaccount"
+    "cummings",
+    "swett"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": false
+   "onNovBallot": false,
+   "decided": "Eric R. Cummings (elected)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d4",
+   "title": "School Board, District 4",
+   "office": "SCHOOL BOARD - 4",
+   "people": [
+    "mills",
+    "smith"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d5",
+   "title": "School Board, District 5",
+   "office": "SCHOOL BOARD - 5",
+   "people": [
+    "barber",
+    "james"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
   }
  ],
  "votes": [],
