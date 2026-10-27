@@ -6,7 +6,7 @@ from pipeline.sources.public_comment import parse
 class PublicComment(unittest.TestCase):
     def test_list_with_side(self):
         t = ("Upon the Chair's call for public comment, the following individuals appeared and expressed their concerns:\n\n"
-             " Joe Gariboldi, Largo\n Suzy Orr, Largo\n Clara Murzynski, Largo (spoke on behalf of others)\n\n In rebuttal, the applicant spoke.")
+             " Joe Gariboldi, Largo\n\n Suzy Orr, Largo\n\n Clara Murzynski, Largo (spoke on behalf of others)\n\n In rebuttal, the applicant spoke.")
         p = parse(t)
         self.assertEqual((p["speakers"], p["against"], p["groups"]), (3, 3, True))
         self.assertEqual(p["cities"], ["Largo"])

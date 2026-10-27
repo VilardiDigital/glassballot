@@ -1069,11 +1069,12 @@
    "people": [
     "eggers"
    ],
-   "note": "Only one candidate is listed for November.",
    "sources": [
     "soe-offices",
     "bb-d4"
-   ]
+   ],
+   "onNovBallot": false,
+   "decided": "Dave Eggers (won the Aug 18 primary; the Supervisor of Elections lists him as elected)"
   },
   {
    "id": "bcc-d6",

@@ -615,7 +615,7 @@ views.ballot = () => {
     ${decided.length ? `<section class="stack" aria-labelledby="dec">
       <h2 class="h2" id="dec">Already decided</h2>
       <p class="small muted">These seats were settled before November, so they won't be on your ballot.</p>
-      <div class="list">${decided.map(r => `<a href="${href("r/" + r.id)}"><span class="body"><span class="title">${esc(r.title)}</span>${r.note ? `<span class="small muted">${esc(r.note)}</span>` : ""}</span>${chev}</a>`).join("")}</div>
+      <div class="list">${decided.map(r => `<a href="${href("r/" + r.id)}"><span class="body"><span class="title">${esc(r.title)}</span>${r.decided || r.note ? `<span class="small muted">${esc(r.decided ? "Winner: " + r.decided : r.note)}</span>` : ""}</span>${chev}</a>`).join("")}</div>
     </section>` : ""}
 
     ${heads.length ? `<section class="stack" aria-labelledby="hl">

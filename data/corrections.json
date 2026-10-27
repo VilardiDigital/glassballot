@@ -94,5 +94,16 @@
   "sources": [
    "legistar"
   ]
+ },
+ {
+  "date": "2026-10-27",
+  "county": "pinellas",
+  "subject": "Pinellas County Commission, District 4",
+  "before": "Listed as a race on the Nov 3 ballot with one candidate",
+  "after": "Already decided: Dave Eggers won the Aug 18 primary and the Supervisor of Elections lists him as elected",
+  "why": "Checked against the Supervisor of Elections' candidate list.",
+  "sources": [
+   "soe-cf"
+  ]
  }
 ]

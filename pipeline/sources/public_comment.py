@@ -35,11 +35,13 @@ def parse(note: str) -> dict | None:
         out["speakers"] = 0
     found = False
     # "the following individuals appeared and expressed their support:" then one "Name, City" per line
-    for blk in re.finditer(r"following (?:individuals|persons|citizens) appeared(?: and)? ([^:\n]*):\s*\n((?:[ \t]*[^\n]+,\s*[A-Z][^\n]*\n?)+)", t):
+    for blk in re.finditer(r"following (?:individuals|persons|citizens) appeared(?: and)? ([^:\n]*):\s*\n((?:\s*[^\n]+,\s*[A-Z][^\n]*\n?)+)", t):
         side = _side(blk.group(1))
         for line in blk.group(2).strip().split("\n"):
             line = line.strip()
-            if not re.match(r"^[A-Z][\w.'\- ]+,\s*[A-Z]", line):
+            if not line:
+                continue  # the minutes often leave a blank line between names
+            if len(line) > 90 or re.search(r"\b(Commissioner|Chair|Attorney|staff|whereupon)\b", line) or not re.match(r"^[A-Z][\w.'\- ]+,\s*[A-Z]", line):
                 break
             city = re.sub(r"\s*\(.*$", "", line.split(",", 1)[1]).strip()
             out[side] += 1
