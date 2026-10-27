@@ -1,0 +1,17 @@
+{
+ "_about": "Every county the site covers or plans to cover, and the systems each one uses. The nightly job reads this file; adding a county is a config change plus a seed file.",
+ "counties": {
+  "pinellas": {"name": "Pinellas County", "live": true, "order": 1,
+    "meetings": {"vendor": "legistar", "client": "pinellas", "bodies": [213, 212], "since": "2024-11-19"},
+    "finance": {"vendor": "voterfocus", "slug": "pinellas", "cycle": 35, "past": {"2024": 31, "2022": 28, "2020": 26}}},
+  "hillsborough": {"name": "Hillsborough County", "live": true, "order": 2,
+    "meetings": {"vendor": "clerk-pdf", "note": "Clerk of Court voting records (PDF); land use only on Legistar"},
+    "finance": {"vendor": "voterfocus", "slug": "hillsborough", "cycle": 27, "past": {"2024": 24, "2022": 23, "2020": 21}}},
+  "pasco": {"name": "Pasco County", "live": true, "order": 3,
+    "meetings": {"vendor": "civicclerk", "tenant": "pascocofl"},
+    "finance": {"vendor": "voterfocus", "slug": "pasco", "cycle": 38, "past": {"2024": 34, "2022": 31, "2020": 26}}},
+  "hernando": {"name": "Hernando County", "live": true, "order": 4,
+    "meetings": {"vendor": "legistar", "client": "hernandocountyfl", "bodies": [138, 235], "since": "2024-11-19"},
+    "finance": {"vendor": "voterfocus", "slug": "hernando", "cycle": 32, "past": {"2024": 29, "2022": 26, "2020": 22}}}
+ }
+}

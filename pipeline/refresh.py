@@ -34,11 +34,10 @@ from .rtf import rtf_to_text
 ROOT = Path(__file__).resolve().parents[1]
 UA = {"User-Agent": "GlassBallot/1.0 (+https://glassballot.org; nonpartisan voter guide)", "Accept": "application/json"}
 
-LEGISTAR = {  # county: (client, body ids, since)
-    "pinellas": ("pinellas", [213, 212], "2024-11-19"),
-    "hernando": ("hernandocountyfl", [138, 235], "2024-11-19"),
-}
-VOTERFOCUS = {"pasco": 38, "hillsborough": 27, "hernando": 32}  # 2026 cycle ids. Pinellas money comes from the itemized exports in data/money_pinellas.json
+REGISTRY = json.loads((ROOT / "data" / "counties.json").read_text())["counties"]
+LIVE = {k: c for k, c in REGISTRY.items() if c.get("live")}
+LEGISTAR = {k: (c["meetings"]["client"], c["meetings"]["bodies"], c["meetings"]["since"]) for k, c in LIVE.items() if c["meetings"].get("vendor") == "legistar"}
+VOTERFOCUS = {k: c["finance"]["cycle"] for k, c in LIVE.items() if c["finance"].get("vendor") == "voterfocus" and k != "pinellas"}  # Pinellas totals come from data/money_pinellas.json
 
 
 def get(url: str, as_json: bool = True, tries: int = 4):
@@ -134,13 +133,14 @@ def refresh_legistar(county: str, today: str) -> str:
 
 def refresh_voterfocus(county: str, el: int | None, today: str) -> list[str]:
     base = "https://www.voterfocus.com/CampaignFinance/candidate_pr.php"
+    county_slug = REGISTRY[county]["finance"].get("slug", county)
     if el is None:
-        page = get(f"{base}?c={county}", as_json=False)
+        page = get(f"{base}?c={county_slug}", as_json=False)
         m = re.search(r"<option value=['\"](\d+)['\"][^>]*>\s*2026 Candidate", page, re.I)
         if not m:
             raise RuntimeError("2026 cycle not listed")
         el = int(m.group(1))
-    page = get(f"{base}?c={county}&el={el}", as_json=False)
+    page = get(f"{base}?c={county_slug}&el={el}", as_json=False)
     rows = []
     for g in re.split(r'class="col-xs-12 officegroup"', page)[1:]:
         om = re.search(r'officename">\s*Office:\s*(.*?)</div>', g, re.S)
@@ -155,10 +155,9 @@ def refresh_voterfocus(county: str, el: int | None, today: str) -> list[str]:
     return rows
 
 
-CONTRIB_CYCLES = {"pinellas": 35, "pasco": 38, "hillsborough": 27, "hernando": 32}
+CONTRIB_CYCLES = {k: c["finance"]["cycle"] for k, c in LIVE.items() if c["finance"].get("vendor") == "voterfocus"}
 # Earlier cycles, for officials not on this year's ballot. These reports are final, so each is pulled once.
-PAST_CYCLES = {"pinellas": {"2024": 31, "2022": 28, "2020": 26}, "pasco": {"2024": 34, "2022": 31, "2020": 26},
-               "hillsborough": {"2024": 24, "2022": 23, "2020": 21}, "hernando": {"2024": 29, "2022": 26, "2020": 22}}
+PAST_CYCLES = {k: c["finance"].get("past", {}) for k, c in LIVE.items() if c["finance"].get("vendor") == "voterfocus"}
 
 
 def refresh_contrib(county: str, el: int, today: str, year: str = "2026", only=None) -> str:
@@ -169,7 +168,8 @@ def refresh_contrib(county: str, el: int, today: str, year: str = "2026", only=N
     address, to spot several companies at one address)."""
     import csv, io
     base = "https://www.voterfocus.com/CampaignFinance"
-    page = get(f"{base}/candidate_pr.php?c={county}&el={el}", as_json=False)
+    slug = REGISTRY[county]["finance"].get("slug", county)
+    page = get(f"{base}/candidate_pr.php?c={slug}&el={el}", as_json=False)
     camps = {}
     for g in re.split(r'class="col-xs-12 officegroup"', page)[1:]:
         om = re.search(r'officename">\s*Office:\s*(.*?)</div>', g, re.S)
@@ -182,7 +182,7 @@ def refresh_contrib(county: str, el: int, today: str, year: str = "2026", only=N
             if not m or re.search(r"Did not qualify|Withdrawn", m.group(2)) or (only and not only(m.group(1))):
                 continue
             ca = a.group(1)
-            raw = get(f"{base}/export.php?op=CFINANCE&cand_id={ca}&dhc=0&county={county}", as_json=False)
+            raw = get(f"{base}/export.php?op=CFINANCE&cand_id={ca}&dhc=0&county={slug}", as_json=False)
             rows = []
             for r in csv.DictReader(io.StringIO(raw)):
                 if (r.get("Cont/Exp") or "").strip() != "C":
@@ -200,16 +200,16 @@ def refresh_contrib(county: str, el: int, today: str, year: str = "2026", only=N
                 if t == "B":
                     row["addr"] = re.sub(r"\b(ste|suite|unit|#)\b.*$", "", (r.get("address 1") or "").lower()).strip(" .,")
                 rows.append(row)
-            cv = get(f"{base}/candidate_pr.php?op=cv&e={el}&c={county}&ca={ca}&rellevel=4&committee=N", as_json=False)
+            cv = get(f"{base}/candidate_pr.php?op=cv&e={el}&c={slug}&ca={ca}&rellevel=4&committee=N", as_json=False)
             pm = re.search(r"PRIOR CONTRIBUTIONS.*?Contributions\s*\$([\d,.]+)", re.sub(r"<[^>]+>", " ", cv), re.S)
             prior = float(pm.group(1).replace(",", "")) if pm else 0
             camps[ca] = {"candidate": m.group(1).strip(), "office": office, "status": m.group(2), **({"prior": prior} if prior else {}),
-                         "url": f"{base}/candidate_pr.php?op=cv&e={el}&c={county}&ca={ca}&rellevel=4&committee=N", "rows": rows}
+                         "url": f"{base}/candidate_pr.php?op=cv&e={el}&c={slug}&ca={ca}&rellevel=4&committee=N", "rows": rows}
             time.sleep(0.4)
     out = ROOT / "data" / "contrib"
     out.mkdir(exist_ok=True)
     (out / (f"{county}.json" if year == "2026" else f"{county}_{year}.json")).write_text(json.dumps({"county": county, "cycle": year, "el": el, "pulledAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-                                                    "url": f"{base}/candidate_pr.php?c={county}&el={el}", "campaigns": camps}, ensure_ascii=False))
+                                                    "url": f"{base}/candidate_pr.php?c={slug}&el={el}", "campaigns": camps}, ensure_ascii=False))
     return f"{county} itemized contributions: {len(camps)} campaigns, {sum(len(c['rows']) for c in camps.values())} gifts"
 
 

@@ -22,7 +22,8 @@ from .sources.impact import merge as merge_impact
 from .sources.funding import merge as merge_funding
 
 ROOT = Path(__file__).resolve().parents[1]
-ORDER = ["pinellas", "hillsborough", "pasco", "hernando"]  # rough size order for the picker
+_REG = json.loads((ROOT / "data" / "counties.json").read_text())["counties"]
+ORDER = sorted((k for k, c in _REG.items() if c.get("live")), key=lambda k: _REG[k].get("order", 999))
 
 
 def build_county(cid: str, accessed: str | None) -> dict | None:
