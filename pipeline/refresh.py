@@ -36,7 +36,7 @@ UA = {"User-Agent": "GlassBallot/1.0 (+https://glassballot.org; nonpartisan vote
 
 REGISTRY = json.loads((ROOT / "data" / "counties.json").read_text())["counties"]
 LIVE = {k: c for k, c in REGISTRY.items() if c.get("live")}
-LEGISTAR = {k: (c["meetings"]["client"], c["meetings"]["bodies"], c["meetings"]["since"]) for k, c in LIVE.items() if c["meetings"].get("vendor") == "legistar"}
+LEGISTAR = {k: (c["meetings"]["client"], c["meetings"]["bodies"], c["meetings"]["since"]) for k, c in REGISTRY.items() if (c.get("live") or c.get("auto")) and c["meetings"].get("vendor") == "legistar" and (ROOT / "data" / f"seed_{k}.json").exists()}
 VOTERFOCUS = {k: c["finance"]["cycle"] for k, c in LIVE.items() if c["finance"].get("vendor") == "voterfocus" and k != "pinellas"}  # Pinellas totals come from data/money_pinellas.json
 
 
