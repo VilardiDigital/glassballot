@@ -4,7 +4,15 @@
   "state": "FL",
   "electionDate": "2026-11-03",
   "updated": "2026-10-27",
-  "refreshLog": [],
+  "refreshLog": [
+   "pinellas Legistar: 1268 roll calls, 0 new split votes awaiting review",
+   "hernando Legistar: 1851 roll calls, 0 new split votes awaiting review",
+   "pinellas itemized contributions: 14 campaigns, 2134 gifts",
+   "hillsborough itemized contributions: 18 campaigns, 4765 gifts",
+   "pasco itemized contributions: 15 campaigns, 2367 gifts",
+   "hernando itemized contributions: 16 campaigns, 666 gifts",
+   "Campaign totals: 49 candidates"
+  ],
   "refreshErrors": []
  },
  "order": [
@@ -36,7 +44,7 @@
     "splitRollCalls": 38
    },
    "legistarScope": "Board of County Commissioners regular and special meetings, Nov 19, 2024 to Oct 22, 2026 (the current seven members)",
-   "legistarPulledAt": "2026-10-27T05:39:55Z",
+   "legistarPulledAt": "2026-10-27T05:59:02Z",
    "sources": {
     "pc-bcc": {
      "title": "Pinellas County Board of County Commissioners",
@@ -30172,7 +30180,7 @@
     "splitRollCalls": 78
    },
    "legistarScope": "Nov 19, 2024",
-   "legistarPulledAt": "2026-10-27T05:44:06Z",
+   "legistarPulledAt": "2026-10-27T06:03:31Z",
    "sources": {
     "hc-bcc": {
      "title": "Hernando County Board of County Commissioners",
