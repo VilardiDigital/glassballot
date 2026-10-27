@@ -1,0 +1,266 @@
+{
+ "pulledAt": "2026-10-27T12:05:12Z",
+ "totals": {
+  "meetings": 31,
+  "meetingsWithRollCalls": 21,
+  "items": 320,
+  "rollCalls": 316,
+  "splitRollCalls": 7
+ },
+ "stats": {
+  "deriso": {
+   "aye": 307,
+   "nay": 5,
+   "absent": 0,
+   "abstain": 4,
+   "meetingsHeld": 21,
+   "meetingsMissed": 0
+  },
+  "schaefer": {
+   "aye": 289,
+   "nay": 1,
+   "absent": 26,
+   "abstain": 0,
+   "meetingsHeld": 21,
+   "meetingsMissed": 2
+  },
+  "hickox": {
+   "aye": 306,
+   "nay": 0,
+   "absent": 0,
+   "abstain": 10,
+   "meetingsHeld": 21,
+   "meetingsMissed": 0
+  },
+  "langford": {
+   "aye": 316,
+   "nay": 0,
+   "absent": 0,
+   "abstain": 0,
+   "meetingsHeld": 21,
+   "meetingsMissed": 0
+  },
+  "gross": {
+   "aye": 276,
+   "nay": 2,
+   "absent": 38,
+   "abstain": 0,
+   "meetingsHeld": 21,
+   "meetingsMissed": 2
+  }
+ },
+ "splitVotes": [
+  {
+   "item": 34838,
+   "ev": 3793,
+   "date": "2026-09-22",
+   "file": "26-2027",
+   "topic": "other",
+   "result": "Motion passed 3 to 1",
+   "yes": [
+    "gross",
+    "hickox",
+    "langford"
+   ],
+   "no": [
+    "deriso"
+   ],
+   "absent": [
+    "schaefer"
+   ],
+   "mover": "gross",
+   "seconder": "langford",
+   "officialTitle": "Resolution to amend the Planning and Zoning Division fee schedule",
+   "motion": "A motion was made by Commissioner Gross, seconded by Commissioner Langford, to adopt this Resolution. The motion carried by the following vote:",
+   "headline": "Resolution to amend the Planning and Zoning Division fee schedule",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Misty Servia, Planning Director, introduced John Osborne with Green Street Associates, who presented proposed updates to the Planning and Zoning fee schedule for traffic consultant review of land development applications. Mr. Osborne explained that the proposed process would establish criteria for determining the appropriate level of traffic study based on a project's size, location, and anticipated impacts and would allow the County to recover outside consultant review costs from applicants rather than taxpayers. The Board discussed potential impacts on smaller property owners and developments, including concerns regarding additional costs resulting from consultant recommendations. Staff clarified that the intent is to appropriately scale traffic review requirements, protect smaller applicants from unnecessary studies, and ensure larger developments adequately address their transportation impacts. The Board would retain final authority regarding development conditions. Staff recommended Option 2, which would require applicants to pay an established amount upfront, with actual consultant costs tracked and either refunded or additionally billed as necessary. Staff stated this option would provide the closest opportunity for full cost recovery without requiring a new fee study."
+  },
+  {
+   "item": 34840,
+   "ev": 3793,
+   "date": "2026-09-22",
+   "file": "26-2029",
+   "topic": "other",
+   "result": "Motion passed 3 to 1",
+   "yes": [
+    "deriso",
+    "hickox",
+    "langford"
+   ],
+   "no": [
+    "gross"
+   ],
+   "absent": [
+    "schaefer"
+   ],
+   "mover": "langford",
+   "seconder": "deriso",
+   "officialTitle": "Resolution / Spanish Trails Farming & Land Company (Chastain Pit) Special Exception modification (USE-0243-2026)",
+   "motion": "A motion was made by Commissioner Langford, seconded by Commissioner Deriso, that this Resolution be adopted. The motion carried by the following vote:",
+   "headline": "Resolution / Spanish Trails Farming & Land Company (Chastain Pit) Special Exception modification (USE-0243-2026)",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Misty Servia presented a request for approval to amend the hours of operation for the Spanish Trails/Chastain excavation operation to conform with DeSoto County Code. The requested hours are 6:00 a.m. to 6:00 p.m., Monday through Friday, and 7:00 a.m. to 5:00 p.m. on Saturday. Ms. Servia explained that the more restrictive hours shown on the previously approved plans were included in error based on requirements from another jurisdiction. The Planning Commission unanimously recommended approval. The applicant was present and spoke in support of the request, confirming that the hours shown on the plans were included in error and that the requested hours would conform with County Code. The applicant stated that the anticipated traffic volume would remain the same, with the additional hours extending the time frame in which hauling could occur.\n\nFollowing discussion regarding Saturday hauling and truck traffic, Commissioner Langford made a motion to close the public hearing, seconded by Commissioner Deriso. The motion carried unanimously."
+  },
+  {
+   "item": 34448,
+   "ev": 3791,
+   "date": "2026-08-25",
+   "file": "26-1958",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "gross",
+    "hickox",
+    "langford",
+    "schaefer"
+   ],
+   "no": [
+    "deriso"
+   ],
+   "mover": "langford",
+   "seconder": "schaefer",
+   "officialTitle": "Resolution / Appointment of one (1) Alternate Planning Commission member",
+   "motion": "A motion was made by Commissioner Langford, seconded by Commissioner Schaefer, that this Resolution be approved. The motion carried by the following vote:",
+   "headline": "Resolution / Appointment of one (1) Alternate Planning Commission member",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Misty Servia presented a request to approve the appointment of Nathan Headrick as an alternate member of the DeSoto County Planning Commission and Board of Adjustment. The Board discussed the vacant Planning Board alternate position and emphasized the importance of training, impartiality, and considering all facts before making decisions. Pastor Hedrick addressed concerns regarding potential bias, stating that he had met with representatives and participated in a fact-finding tour regarding the proposed data center and that his previous comments reflected concerns expressed by community members rather than predetermined opposition. He reiterated his willingness to serve the community."
+  },
+  {
+   "item": 34462,
+   "ev": 3791,
+   "date": "2026-08-25",
+   "file": "26-1980",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "gross",
+    "hickox",
+    "langford",
+    "schaefer"
+   ],
+   "no": [
+    "deriso"
+   ],
+   "mover": "gross",
+   "seconder": "langford",
+   "officialTitle": "Resolution / Consent to Voluntary Annexation of County Property into the Incorporated limits of the City of Arcadia.",
+   "motion": "A motion was made by Commissioner Gross, seconded by Commissioner Langford, that this Resolution be adopted. The motion carried by the following vote:",
+   "headline": "Resolution / Consent to Voluntary Annexation of County Property into the Incorporated limits of the City of Arcadia.",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Mandy Hines presented a request to adopt a Resolution consenting to the voluntary City of Arcadia annexation of a portion of a County owned and maintained drainage ditch. Beth Carsten with The City of Arcadia sought consent to annex a County-owned drainage ditch along NE Roan Street. The annexation would provide the required contiguity for the City to annex the adjacent Arcadia Village area. Arcadia Village has received City water since 1990 under a developer agreement. Residents currently pay a higher non-city surcharge; annexation could allow individual City water meters and potentially facilitate future sewer service. County staff indicated the annexation was not expected to negatively affect the County's tax base."
+  },
+  {
+   "item": 33694,
+   "ev": 3787,
+   "date": "2026-06-23",
+   "file": "26-1782",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "deriso",
+    "hickox",
+    "langford",
+    "schaefer"
+   ],
+   "no": [
+    "gross"
+   ],
+   "mover": "deriso",
+   "seconder": "langford",
+   "officialTitle": "Ordinance / Maria's Rentals / Rezone (RZNE-0046-2023)",
+   "motion": "A motion was made by Commissioner Deriso, seconded by Commissioner Langford, to adopt this Ordinance. The motion carried by the following vote:",
+   "headline": "Ordinance / Maria's Rentals / Rezone (RZNE-0046-2023)",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Misty Servia presented a request to rezone approximately 41 acres at 5906 SE Residential Way from an expired Planned Unit Development (PUD) to Residential Multi-Family 8 (RMF-8). The property, formerly part of the Power Auto development, contains 16 existing single-family homes built between the 1940s and 1960s. Ms. Servia explained that the original PUD expired after it was never developed according to the approved plan and portions of the property were sold in violation of the PUD conditions, leaving the existing homes unable to be occupied until the property is rezoned. Planning staff recommended RMF-8 because it is the zoning district most consistent with the property's Urban Center Mixed Use Future Land Use designation and accommodates the existing homes on a single parcel. Staff cautioned, however, that while the applicant intends only to rehabilitate the existing homes, the zoning would also permit a future development proposal of up to 205 multifamily units. Any proposal to increase the number of dwelling units would require a separate development plan and Board approval. Commissioners discussed the property's history, compatibility with surrounding development, utility infrastructure, and the need to repair aging water and wastewater systems before the homes can be occupied again. Staff explained that utility improvements and building permits would be required even if only the existing homes are rehabilitated. The applicant stated the homes will be renovated for H-2A agricultural worker housing, reducing the need for seasonal workers to commute daily from Fort Meade to local agricultural operations. The applicant advised that plans are already underway to repair the lift station, rehabilitate the homes, and maintain the property through dedicated maintenance and cleaning crews. Commissioners acknowledged the need for workforce housing and agreed that restoring the long-vacant property would improve the area. Several commissioners expressed concern that approving RMF-8 would permanently entitle the property to much higher residential density than currently exists. Commissioner Langford favored a new Planned Unit Development application because it could include project-specific conditions and provide greater long-term control over future development. Staff noted that pursuing a PUD would require withdrawing the current application, paying additional fees, and restarting the review process, despite the applicant having followed staff's recommendation in pursuing RMF-8. Commissioner Gross made a motion to close the public hearing, seconded by Commissioner Schaefer. The motion carried unanimously."
+  },
+  {
+   "item": 33699,
+   "ev": 3787,
+   "date": "2026-06-23",
+   "file": "26-1852",
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "gross",
+    "hickox",
+    "langford"
+   ],
+   "no": [
+    "deriso",
+    "schaefer"
+   ],
+   "mover": "langford",
+   "seconder": "gross",
+   "officialTitle": "Ordinance / RD Welch / Rezone (RZNE0080-2026)",
+   "motion": "A motion was made by Commissioner Langford, seconded by Commissioner Gross, to deny the rezone. The motion carried by the following vote:",
+   "headline": "Ordinance / RD Welch / Rezone (RZNE0080-2026)",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Laura McClelland presented a request from R.D. Welch Company to rezone approximately 5.07 acres on Southwest Reese Street from A-5 (Agriculture) to RSF-2 (Residential Single Family 2). Staff found the request consistent with the property's Low Density Residential future land use designation and compatible with nearby residential development. Several residents opposed the rezoning, citing concerns about flooding, drainage, wetlands, wildlife impacts especially to the gopher tortoise, septic systems near the river, increased density, and the loss of the area's rural character. Neighbors also expressed concerns that the rezoning could allow multiple homes on the property and negatively affect surrounding properties. Ms. McClelland explained that the request was only for a zoning change and that issues such as drainage, environmental impacts, utilities, and site design would be evaluated during any future development review. The applicant stated his intention was to develop larger residential lots rather than maximize density. Commissioner Schaefer made a motion to close the public hearing, seconded by Commissioner Deriro. The motion carried unanimously."
+  },
+  {
+   "item": 32805,
+   "ev": 3813,
+   "date": "2026-04-14",
+   "file": "26-1708",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "gross",
+    "hickox",
+    "langford",
+    "schaefer"
+   ],
+   "no": [
+    "deriso"
+   ],
+   "mover": "gross",
+   "seconder": "langford",
+   "officialTitle": "Resolution to amend the Planning and Zoning Division fee schedule (Tabled from 3/24/26)",
+   "motion": "A motion was made by Commissioner Gross, seconded by Commissioner Langford, to adopt the Resolution. The motion carried by the following vote:",
+   "headline": "Resolution to amend the Planning and Zoning Division fee schedule (Tabled from 3/24/26)",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "John Osborne brought back a motion that was tabled on March 24, 2026 for reconsideration to adopt the proposed resolution amending the Planning and Zoning Division fee schedule."
+  }
+ ],
+ "meetingUrls": {
+  "3795": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3795&GUID=38626BCA-5AB8-404C-A5A5-568D9A6993BA",
+  "3794": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3794&GUID=C439BD23-2073-47F0-9AFD-2085131A31A8",
+  "3793": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3793&GUID=95AACD05-832A-4561-9FEC-DF35F1AFD34A",
+  "3819": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3819&GUID=0EE245B0-EEF4-4602-9487-AA3A3B3CD5D6",
+  "3792": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3792&GUID=D829E4D8-2655-4293-A1FF-AC9B403F1550",
+  "3818": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3818&GUID=083ED113-1910-45FC-9E7E-22DA725E189B",
+  "3791": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3791&GUID=1DDD2E78-E0F9-4C30-BBC8-54A222405EA1",
+  "3817": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3817&GUID=74591E6A-DC05-4B80-AF72-D9432CC24540",
+  "3828": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3828&GUID=98248C48-3111-499B-96D4-FA5A846C9D06",
+  "3790": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3790&GUID=4DF705F8-927C-4FB8-80C2-DCA8EF1572B6",
+  "3816": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3816&GUID=227AF3B3-8D3A-4002-A956-646362CD3AA6",
+  "3789": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3789&GUID=A0FCEEE2-81D9-4FD1-A843-73D2C226CCE9",
+  "3815": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3815&GUID=DB7979DC-B448-408D-A5A3-BC3C45EFAD59",
+  "3788": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3788&GUID=79582C41-E10A-4FE9-AD60-A92284C02D79",
+  "3814": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3814&GUID=6FBB4E01-5717-4E54-B69F-AE125B0AE0B3",
+  "3787": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3787&GUID=D8B5F9DD-A2E0-4ADB-8118-4F84CFE9EE03",
+  "3786": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3786&GUID=2E476560-F17E-405E-BB1E-65B74BF211C8",
+  "3804": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3804&GUID=A3535329-2673-4602-BAC0-DC39F687D29D",
+  "3735": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3735&GUID=BC2B9BA5-A380-4FC2-9F88-D1C8A5D5763E",
+  "3743": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3743&GUID=F73A1656-7A9C-4985-B05C-B8D77C2AB555",
+  "3803": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3803&GUID=E9BCC013-DD15-41F3-B911-53384951ADD4",
+  "3820": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3820&GUID=A4D5B551-CC51-4A87-9444-C7FC38933BA7",
+  "3802": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3802&GUID=52513A6A-2166-48AA-81D9-C93EECCFBA98",
+  "3813": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3813&GUID=DD44150B-5793-4123-AAED-14F7FA297402",
+  "3776": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3776&GUID=41968FBE-BAAC-4D27-B698-D57B50AEB627",
+  "3775": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3775&GUID=7FDE4A67-4BF5-4066-ABF2-02E5DF47BFF0",
+  "3799": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3799&GUID=53C75A66-7149-476E-9160-ECDC99E07BAC",
+  "3741": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3741&GUID=2CA16B83-B2C9-4CE8-989B-41DAD87EA433",
+  "3740": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3740&GUID=36D28EED-A134-4079-B5CA-92D3CFB8FC35",
+  "3738": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3738&GUID=7FEC3492-C581-4FAE-9378-285C6FBD4D85",
+  "3737": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3737&GUID=89A26F66-9B70-4E35-9545-401E6E01FA6F"
+ }
+}

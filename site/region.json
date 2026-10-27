@@ -70,6 +70,14 @@
    "washington: 8 people, 5 races, 0 commissioners (automatic)",
    "pinellas Legistar: 1268 roll calls, 0 new split votes awaiting review",
    "hernando Legistar: 1851 roll calls, 0 new split votes awaiting review",
+   "brevard Legistar: 356 roll calls, 0 new split votes awaiting review",
+   "broward Legistar: 0 roll calls, 0 new split votes awaiting review",
+   "charlotte Legistar: 0 roll calls, 0 new split votes awaiting review",
+   "desoto Legistar: 316 roll calls, 7 new split votes awaiting review",
+   "marion Legistar: 354 roll calls, 17 new split votes awaiting review",
+   "martin Legistar: 313 roll calls, 69 new split votes awaiting review",
+   "polk Legistar: 1025 roll calls, 11 new split votes awaiting review",
+   "seminole Legistar: 344 roll calls, 0 new split votes awaiting review",
    "pinellas itemized contributions: 14 campaigns, 2134 gifts",
    "hillsborough itemized contributions: 18 campaigns, 4765 gifts",
    "pasco itemized contributions: 15 campaigns, 2367 gifts",
@@ -283,7 +291,7 @@
     "splitRollCalls": 38
    },
    "legistarScope": "Board of County Commissioners regular and special meetings, Nov 19, 2024 to Oct 22, 2026 (the current seven members)",
-   "legistarPulledAt": "2026-10-27T12:00:19Z",
+   "legistarPulledAt": "2026-10-27T12:00:13Z",
    "sources": {
     "pc-bcc": {
      "title": "Pinellas County Board of County Commissioners",
@@ -30419,7 +30427,7 @@
     "splitRollCalls": 78
    },
    "legistarScope": "Nov 19, 2024",
-   "legistarPulledAt": "2026-10-27T12:04:38Z",
+   "legistarPulledAt": "2026-10-27T12:04:13Z",
    "sources": {
     "hc-bcc": {
      "title": "Hernando County Board of County Commissioners",

@@ -1,0 +1,1806 @@
+{
+ "pulledAt": "2026-10-27T12:08:12Z",
+ "totals": {
+  "meetings": 23,
+  "meetingsWithRollCalls": 19,
+  "items": 323,
+  "rollCalls": 313,
+  "splitRollCalls": 69
+ },
+ "stats": {
+  "hetherington": {
+   "aye": 300,
+   "nay": 5,
+   "absent": 1,
+   "abstain": 1,
+   "meetingsHeld": 19,
+   "meetingsMissed": 0
+  },
+  "vargas": {
+   "aye": 253,
+   "nay": 59,
+   "absent": 1,
+   "abstain": 0,
+   "meetingsHeld": 19,
+   "meetingsMissed": 0
+  },
+  "capps": {
+   "aye": 308,
+   "nay": 5,
+   "absent": 0,
+   "abstain": 0,
+   "meetingsHeld": 19,
+   "meetingsMissed": 0
+  },
+  "heard": {
+   "aye": 302,
+   "nay": 11,
+   "absent": 0,
+   "abstain": 0,
+   "meetingsHeld": 19,
+   "meetingsMissed": 0
+  },
+  "ciampi": {
+   "aye": 307,
+   "nay": 5,
+   "absent": 1,
+   "abstain": 0,
+   "meetingsHeld": 19,
+   "meetingsMissed": 0
+  }
+ },
+ "splitVotes": [
+  {
+   "item": 241232,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "27-0042",
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "capps",
+    "heard",
+    "vargas"
+   ],
+   "no": [
+    "ciampi",
+    "hetherington"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "ARTICLE 10 APPEAL: RE-CONSIDERATION OF ARTICLE 10 APPEAL BY CORY BEATON REGARDING DENIAL OF BUILDING PERMIT NO. BLD2025080317 FOR THE CONSTRUCTION OF A SINGLE-FAMILY RESIDENCE",
+   "motion": "MOTION: A motion was made by Commissioner Capps, seconded by Commissioner Vargas, to approve staff's recommendation to remand the Building Permit No. BLD2025080317 back to staff to review the newly discovered information with Mr. Beaton.  The motion carried by the following vote:",
+   "headline": "ARTICLE 10 APPEAL: RE-CONSIDERATION OF ARTICLE 10 APPEAL BY CORY BEATON REGARDING DENIAL OF BUILDING PERMIT NO. BLD20250",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "RESOLUTION NO. 26-9.49\n\nEx parte communication disclosures were filed by the Commissioners. There no receipts. There were no interveners. The participants were sworn in by the deputy clerk.\n\nCOUNTY: County Attorney Elysse Elder provided an overview of the item to the Board. County Administrator Don Donaldson and Growth Management Director Paul Schilling assisted with Board questions.\n\nAPPLICANT: Cory Beaton, property owner addressed the Board."
+  },
+  {
+   "item": 241235,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0812",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "OFFICE OF MANAGEMENT AND BUDGET ITEMS WHICH REQUIRE BOARD APPROVAL",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Hetherington, to approve Item 10.  The motion carried by the following vote:",
+   "headline": "OFFICE OF MANAGEMENT AND BUDGET ITEMS WHICH REQUIRE BOARD APPROVAL",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "RESOLUTION NOs. 26-9.42 through 26-9.43 and 26-9.50 through 26-9.60\n\nOMB Director Stephanie Merle presented the item to the Board. Martin County Fire Rescue Chief Chad Cianciulli, Fire Rescue Administrator Matt Resch, Airport Director Andrew McBean, and County Administrator Don Donaldson assisted with Board questions. \n\nThe following items were approved: (1) Florida Department of State Division of Library and Information Services Annual State (2) Cities for Financial Empowerment Fund 2026 CityStart Grant, (3) BJA 2026 Edward Byrne Memorial Justice Assistance Grant, (4) Amendment No 1 for FDOT Vehicle Gate at the Martin County Airport, (5) FDOT Grant for Pavement Dressing Conditioner and Medium Intensity Lighting, (6) FDOT public transportation Grant Agreement for South Airport Facilities- Environmental, (7) Accept Amendment No. 2 Loan Agreement WW430350 or the Clean Water State Revolving Fund (SRF), (8) Clean Water State Revolving Fund (SRF) Construction Loan Agreement WW430251, (9) FIND Small Derelict Vessel Removal Project Grant Funds, (10) Resolution Authorizing the Lease Purchase Financing for the Acquisition of Fire Equipment, and (11) Adjustments to the 2026 (A) FPL Care to Share Funding, (B) Allocate Unanticipated Contribution from the Paradise Lake PUD Agreement, (C) Allocate Insurance Proceeds for Damages Sustained at Various Park Locations, (D) Martin County Sheriff Office Request for Funds Previously Earmarked for Future Helicopter Purchase, (E) Allocate Additional Revenues Collected for Health Insurance, (F) Allocate Unanticipated Reimbursement from FDOT, (G) Allocate Additional Revenues Collected for the Martin County Airport, and (H) Allocate Additional Revenues Collected by the Martin County Library."
+  },
+  {
+   "item": 242644,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of District Three MSTU. The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242645,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of District Three MSTU. The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242650,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of District Five MSTU.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242651,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of Special District A-61 (Hutchinson Island) MSTU.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242652,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of Special District A-61 (Hutchinson Island) MSTU.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242653,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of County Fire/Rescue (Unincorporated) MSTU.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242654,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of County Fire/Rescue (Unincorporated) MSTU.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242657,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of Parks and Recreation MSTU.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242658,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of Parks and Recreation MSTU.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242659,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of County Stormwater & Road Maintenance (Unicorporated) MSTU.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242660,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of County Stormwater & Road Maintenance (Unicorporated) MSTU.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242661,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of General Unicorporated MSTU.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242662,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of Building and Permitting MSTU.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242663,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of Impact Fee Funds.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242664,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of Special Revenue Funds.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242665,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of Grant Funds.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242666,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of Other Debt Service Funds.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242667,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of Other Capital Project Funds.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242668,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of Utilities Funds.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242669,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of Solid Waste Enterprise Fund.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242670,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of Airport Enterprise Fund.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242671,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of Golf Course Fund.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242672,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of Internal Service Funds.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242673,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of Trust Funds.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242674,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for final approval of Community Redevelopment Area Trust Funds.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242675,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "26-0955",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Commissioner Hetherington, seconded by Vice Chair Ciampi, to approve the FY2026-2027 Strategic Plan.  The motion carried by the following vote:",
+   "headline": "FINAL FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 242677,
+   "ev": 2880,
+   "date": "2026-09-29",
+   "file": "27-0042",
+   "topic": "other",
+   "result": "Motion failed 2 to 3",
+   "yes": [
+    "ciampi",
+    "hetherington"
+   ],
+   "no": [
+    "capps",
+    "heard",
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "ARTICLE 10 APPEAL: RE-CONSIDERATION OF ARTICLE 10 APPEAL BY CORY BEATON REGARDING DENIAL OF BUILDING PERMIT NO. BLD2025080317 FOR THE CONSTRUCTION OF A SINGLE-FAMILY RESIDENCE",
+   "motion": "MOTION: A motion was made by Commissioner Hetherington, seconded by Vice Chair Ciampi, to refer back to the original motion, to consider all evidence and issue the building permit.  The motion failed by the following vote:",
+   "headline": "ARTICLE 10 APPEAL: RE-CONSIDERATION OF ARTICLE 10 APPEAL BY CORY BEATON REGARDING DENIAL OF BUILDING PERMIT NO. BLD20250",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 240427,
+   "ev": 2879,
+   "date": "2026-09-15",
+   "file": "26-0990",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "LIBRARY BOARD OF TRUSTEES APPOINTMENTS",
+   "motion": "MOTION: A motion was made by Commissioner Hetherington, seconded by Vice Chair Ciampi, to waive Samanatha Suffich conflict of interest.  The motion carried by the following vote:",
+   "headline": "LIBRARY BOARD OF TRUSTEES APPOINTMENTS",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "RESOLUTION NO. 26-9.2\n\nAdministrative Services Program Coordinator Donna Gordon announced the appointment of Teena White, Samantha Suffich, and Amanda Zeigler to the Library Board of Trustees."
+  },
+  {
+   "item": 240429,
+   "ev": 2879,
+   "date": "2026-09-15",
+   "file": "26-0954",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for tentative approval of County Wide MSTU Funds.  The motion carried by the following vote:",
+   "headline": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "RESOLUTION NOs. 26-9.8 through 26-9.41\n\nOMB Director Stephanie Merle presented the tentative FY 2026/2027 budget to the Board. County Administrator Don Donaldson assisted with Board questions.\n\nThe following members of the public addressed the Board regarding this item: Ethan Pence, Linda Russell, Kayla Glancy, Steve Williams,Vincent Kai Encomio, Richard Geisinger, Darlene VanRiper, Josh Mills, Jonathan Perry, Olivia Lockwood, Jason Bultman, Lucas Jones, James Jones Jr., Amilya Cecilia Jones, Gary Ehrler, Susan O'Rouke, John Dial, Jim Moir, and Martin Moss.\n\nThe Board commended staff for their efforts."
+  },
+  {
+   "item": 241860,
+   "ev": 2879,
+   "date": "2026-09-15",
+   "file": "26-0990",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "LIBRARY BOARD OF TRUSTEES APPOINTMENTS",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, to appoint Samantha Suffich for a term to begin October 1, 2026 and end September 30, 2029, and Amanda Zeigler for a term to begin immediately and end April 20, 2027.  The motion carried by the following vote:",
+   "headline": "LIBRARY BOARD OF TRUSTEES APPOINTMENTS",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 241863,
+   "ev": 2879,
+   "date": "2026-09-15",
+   "file": "26-0954",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for tentative approval of County Wide MSTU Funds.  The motion carried by the following vote:",
+   "headline": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 241874,
+   "ev": 2879,
+   "date": "2026-09-15",
+   "file": "26-0954",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for tentative approval of Special District A-61 (Hutchinson Island) MSTU.  The motion carried by the following vote:",
+   "headline": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 241875,
+   "ev": 2879,
+   "date": "2026-09-15",
+   "file": "26-0954",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for tentative approval of Special District A-61 (Hutchinson Island) MSTU.  The motion carried by the following vote:",
+   "headline": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 241876,
+   "ev": 2879,
+   "date": "2026-09-15",
+   "file": "26-0954",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for tentative approval of County Fire/Rescue (Unincorporated)  MSTU.  The motion carried by the following vote:",
+   "headline": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 241877,
+   "ev": 2879,
+   "date": "2026-09-15",
+   "file": "26-0954",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for tentative approval of County Fire/Rescue (Unincorporated)  MSTU.  The motion carried by the following vote:",
+   "headline": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 241878,
+   "ev": 2879,
+   "date": "2026-09-15",
+   "file": "26-0954",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for tentative approval of Parks and Recreation  MSTU.  The motion carried by the following vote:",
+   "headline": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 241879,
+   "ev": 2879,
+   "date": "2026-09-15",
+   "file": "26-0954",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for tentative approval of Parks and Recreation  MSTU.  The motion carried by the following vote:",
+   "headline": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 241880,
+   "ev": 2879,
+   "date": "2026-09-15",
+   "file": "26-0954",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for tentative approval of County Stormwater & Road Maintenance (Unincorporated)  MSTU.  The motion carried by the following vote:",
+   "headline": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 241881,
+   "ev": 2879,
+   "date": "2026-09-15",
+   "file": "26-0954",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for tentative approval of County Stormwater & Road Maintenance (Unincorporated)  MSTU.  The motion carried by the following vote:",
+   "headline": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 241886,
+   "ev": 2879,
+   "date": "2026-09-15",
+   "file": "26-0954",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for tentative approval of Grant Funds.  The motion carried by the following vote:",
+   "headline": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 241888,
+   "ev": 2879,
+   "date": "2026-09-15",
+   "file": "26-0954",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for tentative approval of Other Capital Project Funds.  The motion carried by the following vote:",
+   "headline": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 241893,
+   "ev": 2879,
+   "date": "2026-09-15",
+   "file": "26-0954",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for tentative approval of Internal Services Funds.  The motion carried by the following vote:",
+   "headline": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 241895,
+   "ev": 2879,
+   "date": "2026-09-15",
+   "file": "26-0954",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, for tentative approval of Community Redevelopment Area Trust Funds.  The motion carried by the following vote:",
+   "headline": "FIRST FISCAL YEAR 2026/2027 BUDGET PUBLIC HEARING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 241898,
+   "ev": 2879,
+   "date": "2026-09-15",
+   "file": "26-1103",
+   "topic": "other",
+   "result": "Motion failed 2 to 3",
+   "yes": [
+    "capps",
+    "heard"
+   ],
+   "no": [
+    "ciampi",
+    "hetherington",
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "PUBLIC HEARING TO CONSIDER ADOPTION OF AN AMENDMENT TO THE MARTIN COUNTY ZONING ATLAS TO CHANGE THE ZONING DISTRICT CLASSIFICATION FOR HOBE SOUND BUSINESS PARK LLC (B114-003)",
+   "motion": "MOTION: A motion was made by Commissioner Capps, seconded by Chair Heard, to approve LI designation on 3.7 acres and leave existing M1 zoning on the larger portion.  The motion failed by the following vote:",
+   "headline": "PUBLIC HEARING TO CONSIDER ADOPTION OF AN AMENDMENT TO THE MARTIN COUNTY ZONING ATLAS TO CHANGE THE ZONING DISTRICT CLAS",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "RESOLUTION NO. 26-9.3\n\nEx parte communication disclosures were provided by the Commissioners. There is an intervener. The participants were sworn in by the deputy clerk.\n\nCOUNTY: Growth Management Principal Planner John Sinnott provide staff's presentation to the Board. Growth Management Deputy Director Peter Walden, Senior Assistant County Attorney Sebastian Fox, Growth Management Director Paul Schilling, and County Attorney Elysse Elder assisted with Board questions.\n\nThe following County exhibits were filed for the record: (1) agenda item/ staff report and (2) John Sinnott's resume.\n\nAPPLICANT: Gunster Law Firm Land Use Attorney Bob Raynes addressed the Board on behalf of the applicant; he stated the applicant is amendable to LI instead if GI. Brian Nolan with Lucido & Associates provided a presentation to the Board. Proof of notices were filed at the LPA.\n\nINTERVENER: Kevin Mackey addressed the Board; he asked the board to maintain the LPA's recommendation.\n\nChair Heard solicited public comment; none were heard."
+  },
+  {
+   "item": 241899,
+   "ev": 2879,
+   "date": "2026-09-15",
+   "file": "26-1103",
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "ciampi",
+    "hetherington",
+    "vargas"
+   ],
+   "no": [
+    "capps",
+    "heard"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "PUBLIC HEARING TO CONSIDER ADOPTION OF AN AMENDMENT TO THE MARTIN COUNTY ZONING ATLAS TO CHANGE THE ZONING DISTRICT CLASSIFICATION FOR HOBE SOUND BUSINESS PARK LLC (B114-003)",
+   "motion": "MOTION: A motion was made by Commissioner Vargas, seconded by Commissioner Hetherington, to rezone to LI on the entire property.  The motion carried by the following vote:",
+   "headline": "PUBLIC HEARING TO CONSIDER ADOPTION OF AN AMENDMENT TO THE MARTIN COUNTY ZONING ATLAS TO CHANGE THE ZONING DISTRICT CLAS",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 239199,
+   "ev": 2878,
+   "date": "2026-08-25",
+   "file": null,
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "vargas"
+   ],
+   "no": [
+    "hetherington"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "Commissioners",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, directing staff to bring forward an agenda item for a one year moratorium on hyperscale data centers to allow legal staff sufficient time to research.  The motion carried by the following vote:",
+   "headline": "Commissioners",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "AM\n\nChair Heard asked whether the Board was interested in considering a moratorium on data centers. \n\nVice Chair Ciampi shared information about actions taken by other counties and emphasized the need to research the potential benefits and drawbacks of data centers. \n\nCommissioner Vargas said she had spoken with a Commissioner from Loudoun County, Virginia, and urged the Board to pause consideration of data centers. \n\nCommissioner Hetherington supported further research and requested staff to bring back a presentation concerning Senate Bills 180 and 484. Commissioner Hetherington congratulated Chair Heard and Commissioner Elect Christopher Collins on their election victories and thanked all candidates. \n\nVice Chair Ciampi thanked Commissioner Hetherington for her services and congratulated Chair Heard on her reelection and tenure as Martin County's longest serving commissioner. He commended the other candidates, including Susan O'Rouke, for her commitment to the community beyond the election. Vice Chair Ciampi also acknowledged the passing of Choral Director Ronald L. Corbin. \n\nCommissioner Capps acknowledged the passing of Hobe Sound resident and law enforcement officer Mark Budensiek. He congratulated Chair Heard and Commissioner Elect Christopher Collins. He offered encouragement to the other candidates, and discussed the train collision in Hobe Sound. \n\nCommissioner Vargas congratulated Chair Heard and Commissioner Elect Christopher Collins, and commended Susan O'rourke. She echoed Commissioner Capps' concerns about railroad crossings, including the crossing in Jensen Beach, and discussed additional lighting and signage along Jensen Beach Boulevard. She also spoke to Supervisor of Elections Vicki Davis regarding voter participation. Commissioner Vargas requested reconsideration of Article 10, citing concerns about information provided by the applicant.\n\nPM\n\nChair Heard thanked residents for their continued confidence in her and congratulated all candidates in this primary season."
+  },
+  {
+   "item": 238705,
+   "ev": 2877,
+   "date": "2026-08-11",
+   "file": "26-1044",
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "ciampi",
+    "hetherington",
+    "vargas"
+   ],
+   "no": [
+    "capps",
+    "heard"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "ARTICLE 10 APPEAL: CONSIDERATION OF AN ARTICLE 10 APPEAL BY CORY BEATON REGARDING DENIAL OF BUILDING PERMIT NO. BLD2025080317 FOR THE CONSTRUCTION OF A SINGLE-FAMILY RESIDENCE",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Hetherington, to direct staff to issue a building permit on the property.  The motion carried by the following vote:",
+   "headline": "ARTICLE 10 APPEAL: CONSIDERATION OF AN ARTICLE 10 APPEAL BY CORY BEATON REGARDING DENIAL OF BUILDING PERMIT NO. BLD20250",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "RESOLUTION NO. 26-8.6\n\nEx parte communication disclosures were provided by the Commissioners. There were no interveners. Receipts were not required. The participants were sworn in by the deputy clerk.\n\nCOUNTY: County Attorney Elysse Elder provided staff's presentation to the Board. Growth Management Director Paul Schilling, Growth Management Deputy Director Peter Walden, and County Administrator Don Donaldson assisted with Board questions. \n\nThe following County exhibits were filed for the record: (1) agenda/item staff report and (2) exhibits I through L.\n\nAPPLICANT: Cory Beaton provided testimony before the Board.\n\nChair Heard solicited public comment; none was heard."
+  },
+  {
+   "item": 237656,
+   "ev": 2823,
+   "date": "2026-07-13",
+   "file": "26-0835",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "BOARD OF COUNTY COMMISSIONERS’ FISCAL YEAR 2026/2027 BUDGET WORKSHOP",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Hetherington, for tentative approval of the Non-Departmental FY 2026/2027 budget.  The motion carried by the following vote:",
+   "headline": "BOARD OF COUNTY COMMISSIONERS’ FISCAL YEAR 2026/2027 BUDGET WORKSHOP",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "NON-DEPARTMENTAL \n\nOMB Director Stephanie Merle presented the Non-Departmental FY 2026/2027 tentative budget."
+  },
+  {
+   "item": 237783,
+   "ev": 2823,
+   "date": "2026-07-13",
+   "file": "26-0835",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "BOARD OF COUNTY COMMISSIONERS’ FISCAL YEAR 2026/2027 BUDGET WORKSHOP",
+   "motion": "MOTION: A motion was made by Commissioner Hetherington, seconded by Commissioner Capps, for tentative approval of Administration's FY 2026/2027 budget.  The motion carried by the following vote:",
+   "headline": "BOARD OF COUNTY COMMISSIONERS’ FISCAL YEAR 2026/2027 BUDGET WORKSHOP",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "ADMINISTRATION\n\nAssistant County Administrator George Stokus presented the tentative Administration's FY 2026/2027 tentative budget. OMB Director Stephanie Merle and County Administrator Don Donaldson assisted with Board questions."
+  },
+  {
+   "item": 233981,
+   "ev": 2745,
+   "date": "2026-05-19",
+   "file": "26-0854",
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "ciampi",
+    "hetherington",
+    "vargas"
+   ],
+   "no": [
+    "capps",
+    "heard"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "PUBLIC HEARING TO CONSIDER ADOPTION OF AN ORDINANCE AMENDING DIVISIONS 1 & 5, ARTICLE 12, COMMUNITY REDEVELOPMENT CODE, LAND DEVELOPMENT REGULATIONS, MARTIN COUNTY CODE, REGARDING RECREATIONAL VEHICLE PARKS IN THE HOBE SOUND COMMUNITY REDEVELOPMENT AREA",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Vargas, to approve the ordinance with a maximum of four, year round units for employees only. The motion carried by the following vote:",
+   "headline": "PUBLIC HEARING TO CONSIDER ADOPTION OF AN ORDINANCE AMENDING DIVISIONS 1 & 5, ARTICLE 12, COMMUNITY REDEVELOPMENT CODE, ",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "ORDINANCE NO. 1274\n\nGrowth Management Principal Planner John Sinnott presented the item to the Board. Growth Management Deputy Director Peter Walden, County Attorney Elysse Elder, and Senior Assistant County Attorney Sebastian Fox assisted with Board questions.\n\nPolymath Law Attorney Krista Storey provided the applicant's presentation to the Board. Floridays RV Park owners Suzy and Mike Graham provided opening remarks. \n\nThe following applicant's items were filed for the record: (1) PowerPoint presentation and applicant's handouts.\n\nThe following member of the public addressed the Board in support of this item: Scott Price, Steven Oenbrink, and Toby Overdorf."
+  },
+  {
+   "item": 233994,
+   "ev": 2745,
+   "date": "2026-05-19",
+   "file": "26-0738",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "ADOPT A RESOLUTION APPROVING AN OPTION TO LEASE AND LEASE AGREEMENT WITH MARTIN COUNTY HEALTHY START COALITION, INC., A FLORIDA NOT-FOR-PROFIT CORPORATION, FOR USE OF COUNTY OWNED PROPERTY ON SE TOWER DRIVE IN STUART",
+   "motion": "MOTION: A motion was made by Commissioner Hetherington, seconded by Vice Chair Ciampi, to approve staff's recommendation.  The motion carried by the following vote:",
+   "headline": "ADOPT A RESOLUTION APPROVING AN OPTION TO LEASE AND LEASE AGREEMENT WITH MARTIN COUNTY HEALTHY START COALITION, INC., A ",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "RESOLUTION NO. 26-5.16\n\nPublic Works Real Property Manager Carla Segura presented the item to the Board. Samatha Suffich with the Martin County Healthy Start Coalition Inc. addressed the Board.\n\nThe following members of the public addressed the Board regarding this item: Dr. Brian Moriarty, Dr. Fernando Petra, Angela Aulisio, Cara Good, and Tyler Raynes."
+  },
+  {
+   "item": 236234,
+   "ev": 2745,
+   "date": "2026-05-19",
+   "file": "26-0854",
+   "topic": "other",
+   "result": "Motion failed 2 to 3",
+   "yes": [
+    "heard",
+    "vargas"
+   ],
+   "no": [
+    "capps",
+    "ciampi",
+    "hetherington"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "PUBLIC HEARING TO CONSIDER ADOPTION OF AN ORDINANCE AMENDING DIVISIONS 1 & 5, ARTICLE 12, COMMUNITY REDEVELOPMENT CODE, LAND DEVELOPMENT REGULATIONS, MARTIN COUNTY CODE, REGARDING RECREATIONAL VEHICLE PARKS IN THE HOBE SOUND COMMUNITY REDEVELOPMENT AREA",
+   "motion": "MOTION: A motion was made by Commissioner Capps, seconded by Chair Heard, to deny application.  The motion failed by the following vote:",
+   "headline": "PUBLIC HEARING TO CONSIDER ADOPTION OF AN ORDINANCE AMENDING DIVISIONS 1 & 5, ARTICLE 12, COMMUNITY REDEVELOPMENT CODE, ",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 236971,
+   "ev": 2745,
+   "date": "2026-05-19",
+   "file": null,
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "capps",
+    "heard",
+    "vargas"
+   ],
+   "no": [
+    "ciampi",
+    "hetherington"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "",
+   "motion": "MOTION: A motion was made by Commissioner Capps, seconded by Commissioner Vargas, to remove the June 9th date, and have a Federal Rail Administration expert in attendance as soon as they are available.  The motion carried by the following vote:",
+   "headline": "Untitled item",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 231470,
+   "ev": 2743,
+   "date": "2026-04-21",
+   "file": "26-0707",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "PUBLIC MEETING FOR CONSIDERATION AND APPROVAL OF COMPREHENSIVE AGREEMENT FOR PUBLIC-PRIVATE PARTNERSHIP (P3) - THIRD REQUIRED MEETING",
+   "motion": "MOTION: A motion was made by Commissioner Capps, seconded by Vice Chair Ciampi, to approve this project; (items 1, 2, and 4).  The motion carried by the following vote:",
+   "headline": "PUBLIC MEETING FOR CONSIDERATION AND APPROVAL OF COMPREHENSIVE AGREEMENT FOR PUBLIC-PRIVATE PARTNERSHIP (P3) - THIRD REQ",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "RESOLUTION NOs. 26-4.14 through 26-4.16\n\nAssistant County Administrator Matthew Graham presented the item to the Board. County Administrator Don Donaldson and Public Works Director Jim Gorton assisted with Board questions.\n\nGeneral Services Director Sean Donahue provided an overview of the extensive evaluation.\n\nOMB Director Stephanie Merle presented the financing structure to the Board.\n\nThe following member of the public addressed the Board regarding this item: Frank McChrystal."
+  },
+  {
+   "item": 234038,
+   "ev": 2743,
+   "date": "2026-04-21",
+   "file": "26-0707",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "PUBLIC MEETING FOR CONSIDERATION AND APPROVAL OF COMPREHENSIVE AGREEMENT FOR PUBLIC-PRIVATE PARTNERSHIP (P3) - THIRD REQUIRED MEETING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Hetherington, to approve items 3 and 5.  The motion carried by the following vote:",
+   "headline": "PUBLIC MEETING FOR CONSIDERATION AND APPROVAL OF COMPREHENSIVE AGREEMENT FOR PUBLIC-PRIVATE PARTNERSHIP (P3) - THIRD REQ",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 230313,
+   "ev": 2742,
+   "date": "2026-04-07",
+   "file": "26-0685",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "heard",
+    "hetherington",
+    "vargas"
+   ],
+   "no": [
+    "ciampi"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "PUBLIC HEARING TO REQUEST APPROVAL OF THE SIXTH AMENDMENT TO THE ISLAND CROSSINGS COMMERCIAL PLANNED UNIT DEVELOPMENT (PUD) ZONING AGREEMENT (R059-011) INCLUDING A REVISED MASTER SITE PLAN AND OUTPARCEL “A” FINAL SITE PLAN",
+   "motion": "MOTION: A motion was made by Commissioner Capps, seconded by Commissioner Vargas, to deny the application.  The motion carried by the following vote:",
+   "headline": "PUBLIC HEARING TO REQUEST APPROVAL OF THE SIXTH AMENDMENT TO THE ISLAND CROSSINGS COMMERCIAL PLANNED UNIT DEVELOPMENT (P",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Ex parte communication disclosures were filed by the Commissioners. There were no interveners. No return receipts. The participants were sworn in by the deputy clerk.\n\nCOUNTY: Growth Management Principal Planner Luis Aguilar provided staff's presentation to the Board. Growth Management Deputy Director Peter Walden and Senior Assistant County Attorney Sebastian Fox assisted with Board questions.\n\nThe following County exhibits were filed for the record: (1) agenda item/staff report and (2) Luis Aguilar's resume.\n\nAPPLICANT: McCarthy Summers Attorney Audra Creech addressed the Board on behalf of the applicant. Certification of re-notice was filed for the record.\n\nMcCarty & Associates Mike McCarty provided the applicant's presentation to the Board. \n\nChair Heard solicited public comment; none were heard."
+  },
+  {
+   "item": 228322,
+   "ev": 2740,
+   "date": "2026-03-10",
+   "file": "26-0611",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "hetherington",
+    "vargas"
+   ],
+   "no": [
+    "heard"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "APPROVE FACILITY USE AGREEMENT FOR UPLAND SINGLE OCCUPANCY RESTROOM BETWEEN MARTIN COUNTY BOARD OF COUNTY COMMISSIONERS AND PORT SALERNO COMMERCIAL FISHING DOCK AUTHORITY",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Hetherington, to approve staff's recommendation; and amend to include that the County may terminate the agreement with cause upon 90 days notice.  The motion carried by the following vote:",
+   "headline": "APPROVE FACILITY USE AGREEMENT FOR UPLAND SINGLE OCCUPANCY RESTROOM BETWEEN MARTIN COUNTY BOARD OF COUNTY COMMISSIONERS ",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Assistant County Administrator George Stokus presented the item to the Board. Senior Assistant County Attorney Melissa Pietryzk assisted with Board questions. \n\nButch Olsen addressed the Board on behalf of the Port Salerno Dock Authority."
+  },
+  {
+   "item": 227442,
+   "ev": 2739,
+   "date": "2026-02-24",
+   "file": "26-0443",
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "capps",
+    "ciampi",
+    "hetherington"
+   ],
+   "no": [
+    "heard",
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "LEGISLATIVE PUBLIC HEARING TO CONSIDER ADOPTION OF AN ORDINANCE AMENDING ARTICLE 3, ZONING DISTRICTS, LAND DEVELOPMENT REGULATIONS, MARTIN COUNTY CODE, REGARDING ACCESSORY DWELLING UNITS, (LDR 25-03) A TEXT AMENDMENT",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, to approve staff's recommendation.  The motion carried by the following vote:",
+   "headline": "LEGISLATIVE PUBLIC HEARING TO CONSIDER ADOPTION OF AN ORDINANCE AMENDING ARTICLE 3, ZONING DISTRICTS, LAND DEVELOPMENT R",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "ORDINANCE NO. 1270\n\nGrowth Management Planner Amy Offenbach presented the item to the Board. Growth Management Comprehensive Planning Administrator Clyde Dulin, Director Paul Schilling, and Senior Assistant County Attorney Sebastian Fox assisted with Board questions.\n\nThe following member of the public addressed the Board regarding this issue: Rob Ranieri (House of Hope)."
+  },
+  {
+   "item": 227443,
+   "ev": 2739,
+   "date": "2026-02-24",
+   "file": "26-0529",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "hetherington",
+    "vargas"
+   ],
+   "no": [
+    "heard"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "PUBLIC HEARING TO CONSIDER ADOPTION OF AN ORDINANCE AMENDING DIVISION 6, SITE DEVELOPMENT STANDARDS, ARTICLE 11, PLANNED MIXED-USE VILLAGE, LAND DEVELOPMENT REGULATIONS, MARTIN COUNTY CODE, REGARDING EXCAVATION STANDARDS",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Hetherington, to approve staff's recommendation.  The motion carried by the following vote:",
+   "headline": "PUBLIC HEARING TO CONSIDER ADOPTION OF AN ORDINANCE AMENDING DIVISION 6, SITE DEVELOPMENT STANDARDS, ARTICLE 11, PLANNED",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "ORDINANCE NO. 1269\n\nGrowth Management Principal Planner John Sinnott presented the item to the Board. Growth Management Deputy Director Peter Walden and Senior Assistant County Attorney Sebastian Fox assisted with Board questions. \n\nGunster Attorney Kristen Spake addressed the Board in support of staff's recommendation. Mattamy Homes Vice President of Development James Fitzgerald discussed the necessity for this request. Bob Higgins with Higgins Engineering spoke about excavating and water issues. Sean Mckenzie with McKenzie Engineering spoke regarding traffic issues.\n\nThe following member of the public addressed the Board regarding this item: Jacqui Thurlow-Lippisch."
+  },
+  {
+   "item": 227453,
+   "ev": 2739,
+   "date": "2026-02-24",
+   "file": "26-0480",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "PUBLIC MEETING FOR EVALUATION OF UNSOLICITED PROPOSAL FOR PUBLIC-PRIVATE PARTNERSHIP (P3) - SECOND REQUIRED MEETING",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Hetherington, to approve staff's recommendation.  The motion carried by the following vote:",
+   "headline": "PUBLIC MEETING FOR EVALUATION OF UNSOLICITED PROPOSAL FOR PUBLIC-PRIVATE PARTNERSHIP (P3) - SECOND REQUIRED MEETING",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "RESOLUTION NO. 26-2.50\n\nAssistant County Administrator Matt Graham introduced the item to the Board. General Services Director Sean Donahue provided the presentation to the Board. OMB Director Stephanie Merle provided a financial presentation to the Board. Assistant County Attorney Frank Moehrle, County Attorney Elysse Elder, and County Administrator Don Donaldson assisted with Board questions.\n\nCPZ Architects Joe Berry presented the programming and conceptual design to the Board.\n\nThe following members of the public addressed the Board regarding this item: Lauren Hollander, John Fumero, Debbie Schatz, Greg Fagan, Brandon Smith, and Jonathan Atz."
+  },
+  {
+   "item": 228588,
+   "ev": 2739,
+   "date": "2026-02-24",
+   "file": "26-0618",
+   "topic": "other",
+   "result": "Motion passed 3 to 1",
+   "yes": [
+    "capps",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "absent": [
+    "ciampi"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "PUBLIC MEETING FOR CONSIDERATION OF UNSOLICITED PROPOSAL FOR PUBLIC-PRIVATE PARTNERSHIP (P3) TO BUILD MARTIN COUNTY OPERATIONS FACILITY",
+   "motion": "MOTION: A motion was made by Commissioner Capps, seconded by Chair Heard, to deny DEPT-5 and continue with the expedited process and original proposal.  The motion carried by the following vote:",
+   "headline": "PUBLIC MEETING FOR CONSIDERATION OF UNSOLICITED PROPOSAL FOR PUBLIC-PRIVATE PARTNERSHIP (P3) TO BUILD MARTIN COUNTY OPER",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Assistant County Administrator Matt Graham presented the item to the Board. General Services Director Sean Donahue, OBM Director Stephanie Merle, and Assistant County Attorney Frank Moehrle assisted with Board questions."
+  },
+  {
+   "item": 227743,
+   "ev": 2738,
+   "date": "2026-02-10",
+   "file": "26-0339",
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "capps",
+    "ciampi",
+    "hetherington"
+   ],
+   "no": [
+    "heard",
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "CONTRACTS THAT MEET THE THRESHOLD FOR BOARD APPROVAL $1 MILLION OR GREATER",
+   "motion": "MOTION: A motion was made by Commissioner Hetherington, seconded by Vice Chair Ciampi, to approve item B1.  The motion carried by the following vote:",
+   "headline": "CONTRACTS THAT MEET THE THRESHOLD FOR BOARD APPROVAL $1 MILLION OR GREATER",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 227744,
+   "ev": 2738,
+   "date": "2026-02-10",
+   "file": "26-0507",
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "capps",
+    "ciampi",
+    "hetherington"
+   ],
+   "no": [
+    "heard",
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "INTERLOCAL AGREEMENT FOR THE SOUTH SEWALL’S POINT FORCE MAIN EXTENSION PROJECT PHASE 3",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, to approve staff's recommendation.  The motion carried by the following vote:",
+   "headline": "INTERLOCAL AGREEMENT FOR THE SOUTH SEWALL’S POINT FORCE MAIN EXTENSION PROJECT PHASE 3",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "At the Board's direction, the Town of Sewall's Point Town Manager Robert Daniels and Town Engineer Joe Capra addressed the Board and residents' concerns. \n\nUtilities and Solid Waste Director Sam Amerson, Assistant County Attorney Frank Moehrle, and County Administrator Don Donaldson assisted with Board questions.\n\nChair Heard solicited public comment; none were heard."
+  },
+  {
+   "item": 225317,
+   "ev": 2737,
+   "date": "2026-01-27",
+   "file": "26-0139",
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "capps",
+    "ciampi",
+    "hetherington"
+   ],
+   "no": [
+    "heard",
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "LEGISLATIVE PUBLIC HEARING TO CONSIDER AN ORDINANCE AMENDING ARTICLE 3, ZONING DISTRICTS, LAND DEVELOPMENT REGULATIONS, MARTIN COUNTY CODE, REGARDING ACCESSORY DWELLING UNITS, A TEXT AMENDMENT (LDR 25-03)",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Hetherington, to approve staff's recommendation; and hold the second public hearing on February 24, 2026 at 5:05 pm.  The motion carried by the following vote:",
+   "headline": "LEGISLATIVE PUBLIC HEARING TO CONSIDER AN ORDINANCE AMENDING ARTICLE 3, ZONING DISTRICTS, LAND DEVELOPMENT REGULATIONS, ",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Growth Management Planner Amy Offenbach provided the item to the Board; proof of public notice was filed for the record. Growth Management Comprehensive Planning Administrator Clyde Dulin, Growth Management Director Paul Schilling, and Senior Assistant County Attorney Sebastian Fox assisted with Board questions."
+  },
+  {
+   "item": 225318,
+   "ev": 2737,
+   "date": "2026-01-27",
+   "file": "26-0416",
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "capps",
+    "ciampi",
+    "hetherington"
+   ],
+   "no": [
+    "heard",
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "LEGISLATIVE PUBLIC HEARING TO CONSIDER APPROVAL OF COMPREHENSIVE PLAN AMENDMENT (CPA 25-04), ACCESSORY DWELLING UNITS, A TEXT AMENDMENT",
+   "motion": "MOTION: A motion was made by Commissioner Capps, seconded by Vice Chair Ciampi, to approve staff's recommendation.  The motion carried by the following vote:",
+   "headline": "LEGISLATIVE PUBLIC HEARING TO CONSIDER APPROVAL OF COMPREHENSIVE PLAN AMENDMENT (CPA 25-04), ACCESSORY DWELLING UNITS, A",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "ORDINANCE NO. 1267\n\nGrowth Management Planner Amy Offenbach provided the item to the Board; proof of public notice was filed for the record. Growth Management Comprehensive Planning Administrator Clyde Dulin, Growth Management Director Paul Schilling, and Senior Assistant County Attorney Sebastian Fox assisted with Board questions. \n\nThe following member of the public addressed the Board in support of this item: Rob Ranieri."
+  },
+  {
+   "item": 224248,
+   "ev": 2736,
+   "date": "2026-01-06",
+   "file": null,
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "5:05 PM - Public Comment",
+   "motion": "A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, that this agenda item be approved.. The motion carried by the following vote:",
+   "headline": "5:05 PM - Public Comment",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 224281,
+   "ev": 2736,
+   "date": "2026-01-06",
+   "file": "26-0393",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "PUBLIC HEARING TO CONSIDER ADOPTION OF A RESOLUTION DESIGNATING A BROWNFIELD AT 9450 SE GOMEZ AVENUE, AS REQUESTED BY THE PALMS OF HOBE SOUND, LLC",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, to approve staff's recommendation.  The motion carried by the following vote:",
+   "headline": "PUBLIC HEARING TO CONSIDER ADOPTION OF A RESOLUTION DESIGNATING A BROWNFIELD AT 9450 SE GOMEZ AVENUE, AS REQUESTED BY TH",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "RESOLUTION NO. 26-1.19\n\nEx parte communication disclosures were provided by the Commissioners. There were no interveners. The participants were sworn in by the deputy clerk. \n\nCOUNTY: Growth Management Senior Planner Jenna Knobbe presented staff's presentation to the Board. Growth Management Comprehensive Planning Administrator Clyde Dulin, Director Paul Schilling, and County Attorney Elysse Elder assisted with Board questions. \n\nThe following County exhibits were filed for the record: (1) agenda item/staff report, (2) Jenna Knobbe's resume.\n\nAPPLICANT: Cobb Cole Attorney Michael Sznapstajler provided the applicant's presentation to the Board. Fishkind Consulting Senior Associate Anthony DiNardo and Applicant Richard Wasserstein assisted with Board questions.\n\nThe following applicant's exhibits were filed for the record: (1) Anthony Dinardo's resume.\n\nThe following member of the public addressed the Board regarding this item: Mary Gavin, Kelly Layman, Jan Forrest,Ted Jonczak, and Chris Metzger."
+  }
+ ],
+ "meetingUrls": {
+  "2916": "https://martin.legistar.com/MeetingDetail.aspx?ID=2916&GUID=3263A5DC-27BE-4ADC-8E11-0F90D10D53B5",
+  "2915": "https://martin.legistar.com/MeetingDetail.aspx?ID=2915&GUID=5D71B673-78D3-463A-B839-0CE79BAEA309",
+  "2917": "https://martin.legistar.com/MeetingDetail.aspx?ID=2917&GUID=A0D0D894-19F8-4585-B9AC-103506355B58",
+  "2880": "https://martin.legistar.com/MeetingDetail.aspx?ID=2880&GUID=485B6250-E8D8-4313-AD9D-3C577E9DA89A",
+  "2879": "https://martin.legistar.com/MeetingDetail.aspx?ID=2879&GUID=8608944C-2A07-4ACD-A13C-F0EF8735C5B3",
+  "2878": "https://martin.legistar.com/MeetingDetail.aspx?ID=2878&GUID=E97FC640-DD2A-44A5-9878-30E49A4F894E",
+  "2877": "https://martin.legistar.com/MeetingDetail.aspx?ID=2877&GUID=21BEED8B-FFC6-4C63-8743-97FC78067A3A",
+  "2824": "https://martin.legistar.com/MeetingDetail.aspx?ID=2824&GUID=45E98336-3432-4843-AB58-D4BE3BEA0C24",
+  "2823": "https://martin.legistar.com/MeetingDetail.aspx?ID=2823&GUID=17C80455-ED4E-422B-8B58-7AEAF3103D6C",
+  "2747": "https://martin.legistar.com/MeetingDetail.aspx?ID=2747&GUID=7FE5F543-99BE-4666-89EC-DCD7866E9703",
+  "2889": "https://martin.legistar.com/MeetingDetail.aspx?ID=2889&GUID=CF533F24-46DC-45D2-8171-30032253467F",
+  "2746": "https://martin.legistar.com/MeetingDetail.aspx?ID=2746&GUID=18D1917E-94A4-466C-82FE-A7A1219600CB",
+  "2745": "https://martin.legistar.com/MeetingDetail.aspx?ID=2745&GUID=8B9C9C12-CF00-4042-83F6-D6603199BBED",
+  "2744": "https://martin.legistar.com/MeetingDetail.aspx?ID=2744&GUID=2834417C-449C-4B39-904A-F1539CF2A675",
+  "2743": "https://martin.legistar.com/MeetingDetail.aspx?ID=2743&GUID=76CE6F41-46F9-4BCD-94D8-437EDA4F5664",
+  "2742": "https://martin.legistar.com/MeetingDetail.aspx?ID=2742&GUID=F90F5CF1-3BC7-41E8-9701-E5694B4DD7CF",
+  "2741": "https://martin.legistar.com/MeetingDetail.aspx?ID=2741&GUID=ACC194BE-CE35-4745-AE81-6AEB98E836F5",
+  "2740": "https://martin.legistar.com/MeetingDetail.aspx?ID=2740&GUID=14DF127E-2AC6-4F5B-A5FD-84107A29794E",
+  "2739": "https://martin.legistar.com/MeetingDetail.aspx?ID=2739&GUID=50805F7A-4319-49A8-9EAC-B51D04EC8153",
+  "2809": "https://martin.legistar.com/MeetingDetail.aspx?ID=2809&GUID=CDDF0BCE-1893-4E81-B697-6D469A8CF322",
+  "2738": "https://martin.legistar.com/MeetingDetail.aspx?ID=2738&GUID=9EBAC5BB-8E32-4DB3-8799-4B52DC77A5EB",
+  "2737": "https://martin.legistar.com/MeetingDetail.aspx?ID=2737&GUID=A5F7D492-E185-4362-8B37-3125CB75752E",
+  "2736": "https://martin.legistar.com/MeetingDetail.aspx?ID=2736&GUID=32D89BAC-07EB-44A0-AAEE-A7798173C5EF"
+ }
+}

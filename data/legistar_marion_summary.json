@@ -1,0 +1,506 @@
+{
+ "pulledAt": "2026-10-27T12:08:03Z",
+ "totals": {
+  "meetings": 23,
+  "meetingsWithRollCalls": 21,
+  "items": 362,
+  "rollCalls": 354,
+  "splitRollCalls": 17
+ },
+ "stats": {
+  "bryant": {
+   "aye": 328,
+   "nay": 7,
+   "absent": 4,
+   "abstain": 1,
+   "meetingsHeld": 20,
+   "meetingsMissed": 0
+  },
+  "zalak": {
+   "aye": 320,
+   "nay": 6,
+   "absent": 1,
+   "abstain": 0,
+   "meetingsHeld": 19,
+   "meetingsMissed": 0
+  },
+  "curry": {
+   "aye": 337,
+   "nay": 5,
+   "absent": 2,
+   "abstain": 0,
+   "meetingsHeld": 21,
+   "meetingsMissed": 1
+  },
+  "stone": {
+   "aye": 347,
+   "nay": 3,
+   "absent": 4,
+   "abstain": 0,
+   "meetingsHeld": 21,
+   "meetingsMissed": 0
+  },
+  "mcclain": {
+   "aye": 347,
+   "nay": 6,
+   "absent": 1,
+   "abstain": 0,
+   "meetingsHeld": 21,
+   "meetingsMissed": 0
+  }
+ },
+ "splitVotes": [
+  {
+   "item": 203944,
+   "ev": 3566,
+   "date": "2026-10-20",
+   "file": "2026-24764",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "curry",
+    "mcclain",
+    "stone",
+    "zalak"
+   ],
+   "no": [
+    "bryant"
+   ],
+   "mover": "stone",
+   "seconder": "mcclain",
+   "officialTitle": "Request Direction from the Board of County Commissioners Regarding the Implementation of the Approved 3% Pay Adjustment Approved in the FY 2026-27 Budget (Budget Impact - Neutral; as approved in the FY 2026-27 budget)",
+   "motion": "Motion by Commissioner Stone, second by Vice Chair McClain, to approve this agenda item. The motion carried by the following vote:",
+   "headline": "Request Direction from the Board of County Commissioners Regarding the Implementation of the Approved 3% Pay Adjustment ",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Option 3\n\nOption 3\n\nOption 3\n\n\u0000"
+  },
+  {
+   "item": 200030,
+   "ev": 3552,
+   "date": "2026-09-15",
+   "file": "2026-24265",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "curry",
+    "mcclain",
+    "stone",
+    "zalak"
+   ],
+   "no": [
+    "bryant"
+   ],
+   "mover": "mcclain",
+   "seconder": "curry",
+   "officialTitle": "PUBLIC HEARING to Consider an Ordinance to Impose a Temporary Moratorium on Acceptance, Review, or Approval of Applications for Development Permits, Development Orders, Rezoning, or Site Plans Related to Data Centers, Data Processing Facilities, Data Mining, or Cryptocurrency Mining Operations for a Period Up to 365 Days, Unless Extended or Terminated",
+   "motion": "Motion by Vice Chair McClain, second by Commissioner Curry, to approve agenda item 15.4.2. The motion carried 4 / 1.",
+   "headline": "PUBLIC HEARING to Consider an Ordinance to Impose a Temporary Moratorium on Acceptance, Review, or Approval of Applicati",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 198452,
+   "ev": 3541,
+   "date": "2026-08-18",
+   "file": "2026-23536",
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "bryant",
+    "mcclain",
+    "stone"
+   ],
+   "no": [
+    "curry",
+    "zalak"
+   ],
+   "mover": "mcclain",
+   "seconder": "stone",
+   "officialTitle": "Request Approval of Waiver Request for Land Development Code 2.16.1.B(10) -  Family Division of Parcel 50099-009-00 into Two Tracts, Application Number: Fam Div 000766-2026",
+   "motion": "Motion by Vice Chair McClain, second by Commissioner Stone, to approve agenda items 15.1.1.  The motion carried 3 / 2.",
+   "headline": "Request Approval of Waiver Request for Land Development Code 2.16.1.B(10) -  Family Division of Parcel 50099-009-00 into",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "it is a privately owned maintained road, not a county owned maintained road. they would have five years to own the property. what obligation does the county have for the privately owned non maintained roads, just make the road passable. could potentially put an msbu on the road in the future. per Mr. Bouyounes, the county will not have any responsibility to maintain the road. Commissioner McClain asked are we setting a precedence if the board approves this one? Mr. Minter stated it should be on a case by case basis. Commissioner Curry asked about if there are other structures on all other parcels and about sewer and water. Commissioner Curry does not support this. Commissioner McClain does support it. Commissioner Bryant supports it."
+  },
+  {
+   "item": 195807,
+   "ev": 3498,
+   "date": "2026-07-21",
+   "file": "2026-23426",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "bryant",
+    "curry",
+    "stone",
+    "zalak"
+   ],
+   "no": [
+    "mcclain"
+   ],
+   "mover": "bryant",
+   "seconder": "curry",
+   "officialTitle": "Request Approval of Waiver from Land Development Code Section 6.8.6.K(2) Related to Buffer Requirements for EFP Commercial, Waiver PIR-000920-2026, Menadier Engineering, Parcel 29884-000-00,",
+   "motion": "Motion by Commissioner Bryant, second by Commissioner Curry, to deny waiver request for agenda item 15.1.1. The motion carried 4 / 1.",
+   "headline": "Request Approval of Waiver from Land Development Code Section 6.8.6.K(2) Related to Buffer Requirements for EFP Commerci",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Motion to deny waiver request"
+  },
+  {
+   "item": 191658,
+   "ev": 3472,
+   "date": "2026-06-16",
+   "file": "2026-23208",
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "bryant",
+    "curry",
+    "zalak"
+   ],
+   "no": [
+    "mcclain",
+    "stone"
+   ],
+   "mover": "bryant",
+   "seconder": "curry",
+   "officialTitle": "Request Approval to Reject all Submittals: 20Q-161 Additional Construction Managers 2026",
+   "motion": "Motion by Commissioner Bryant, second by Commissioner Curry, to approve agenda item 9.5. The motion carried 3 / 2.",
+   "headline": "Request Approval to Reject all Submittals: 20Q-161 Additional Construction Managers 2026",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 191738,
+   "ev": 3472,
+   "date": "2026-06-16",
+   "file": "2026-23209",
+   "topic": "other",
+   "result": "Motion failed 2 to 3",
+   "yes": [
+    "curry",
+    "zalak"
+   ],
+   "no": [
+    "bryant",
+    "mcclain",
+    "stone"
+   ],
+   "mover": "curry",
+   "seconder": "zalak",
+   "officialTitle": "260601SU - Juan Carlos Diaz Marrero and Yelaine Trujillo Ravelo, Special Use Permit for parking of five (5) tractor trailers in a General Agriculture (A-1) zone, ±4.83 Acres, Parcel Account Number 45453-000-00, 13660 SE 80th Avenue, Summerfield, FL.",
+   "motion": "Motion by Commissioner Curry, second by Chairman Zalak, to deny agenda item 15.4.1. The motion failed 2 / 3..",
+   "headline": "260601SU - Juan Carlos Diaz Marrero and Yelaine Trujillo Ravelo, Special Use Permit for parking of five (5) tractor trai",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Commissioners approve 1 truck and trailer with using 1 driveway and close off the other driveway by McClain seconded by Bryant vote 3-2 at 2:53 pm\n\nMr. Riveria-against the 4 trucks"
+  },
+  {
+   "item": 191742,
+   "ev": 3472,
+   "date": "2026-06-16",
+   "file": "2026-23265",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "curry",
+    "mcclain",
+    "stone",
+    "zalak"
+   ],
+   "no": [
+    "bryant"
+   ],
+   "mover": "stone",
+   "seconder": "curry",
+   "officialTitle": "260808ZP - Jax Road, LLC., Zoning Change from Planned Unit Development (PUD) to Planned Unit Development (PUD) for Amendment to a Previously Approved Conceptual Plan, 79.21 acres, Parcels 14973-000-00 and 14971-001-00, Site Address 5823 NE Jacksonville Road, Ocala, FL 34479",
+   "motion": "Motion by Commissioner Stone, second by Commissioner Curry, to approve agenda item 15.4.5. with conditions. The motion carried 4 / 1.",
+   "headline": "260808ZP - Jax Road, LLC., Zoning Change from Planned Unit Development (PUD) to Planned Unit Development (PUD) for Amend",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 191766,
+   "ev": 3472,
+   "date": "2026-06-16",
+   "file": "2026-23294",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "bryant",
+    "curry",
+    "mcclain",
+    "stone"
+   ],
+   "no": [
+    "zalak"
+   ],
+   "mover": "stone",
+   "seconder": "mcclain",
+   "officialTitle": "Request Approval of Waiver from Land Development Code Section 6.8.6.K(1) & (5) Related to Buffer Requirements for Melody Preserve Waiver STA-000807-2026 Kimley-Horn and Associates, Parcels 35300-000-15 and 35474-000-00",
+   "motion": "Motion by Commissioner Stone, second by Vice Chair McClain, to approve waiver agenda item 15.1.3. The motion carried 4 / 1.",
+   "headline": "Request Approval of Waiver from Land Development Code Section 6.8.6.K(1) & (5) Related to Buffer Requirements for Melody",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Opaque fence versus vegetation buffer. Trees may or may not thrive in the location. Hedges or ornamental trees would be helpful. Fencing 1 foot off Liberty Village property is being proposed."
+  },
+  {
+   "item": 191847,
+   "ev": 3472,
+   "date": "2026-06-16",
+   "file": "2026-23209",
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "bryant",
+    "mcclain",
+    "stone"
+   ],
+   "no": [
+    "curry",
+    "zalak"
+   ],
+   "mover": "mcclain",
+   "seconder": "stone",
+   "officialTitle": "260601SU - Juan Carlos Diaz Marrero and Yelaine Trujillo Ravelo, Special Use Permit for parking of five (5) tractor trailers in a General Agriculture (A-1) zone, ±4.83 Acres, Parcel Account Number 45453-000-00, 13660 SE 80th Avenue, Summerfield, FL.",
+   "motion": "Motion by Vice Chair McCalin, second by Commissioner Stone, to approve staff recommendation for agenda item 15.4.1. and allow one tractor trailer.  The motion carried 3 / 2.",
+   "headline": "260601SU - Juan Carlos Diaz Marrero and Yelaine Trujillo Ravelo, Special Use Permit for parking of five (5) tractor trai",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 190281,
+   "ev": 3489,
+   "date": "2026-05-14",
+   "file": null,
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "mcclain",
+    "stone",
+    "zalak"
+   ],
+   "no": [
+    "bryant",
+    "curry"
+   ],
+   "mover": "stone",
+   "seconder": "mcclain",
+   "officialTitle": "ADOPT THE FOLLOWING MINUTES: ",
+   "motion": "Motion by Commissioner Stone, second by Vice Chair McClain, to deny this agenda item. The motion carried by the following vote:",
+   "headline": "ADOPT THE FOLLOWING MINUTES: ",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Meeting went into Recess\n\nMeeting reconvened"
+  },
+  {
+   "item": 189612,
+   "ev": 3385,
+   "date": "2026-04-21",
+   "file": "2026-22591",
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "curry",
+    "mcclain",
+    "stone"
+   ],
+   "no": [
+    "bryant",
+    "zalak"
+   ],
+   "mover": "mcclain",
+   "seconder": "stone",
+   "officialTitle": "260401SU - Skyway Towers LLC on Behalf of Bess Pasture Hunt Club, Inc, Special Use Permit to Allow for a 185’ Lattice Telecommunication Tower Facility, in General Agriculture (A-1) Zone, 1.25 Acres, Parcel 4122-498-000, Site Address 7485 SW 160th Street, Dunnellon, FL, 34432",
+   "motion": "Motion by Vice Chair McClain, second by Commissioner Stone, to approve agenda item 15.3.2. The motion carried 3 / 2.",
+   "headline": "260401SU - Skyway Towers LLC on Behalf of Bess Pasture Hunt Club, Inc, Special Use Permit to Allow for a 185’ Lattice Te",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Agenda item 15.3.2. was pulled for individual discussion."
+  },
+  {
+   "item": 188140,
+   "ev": 3383,
+   "date": "2026-03-17",
+   "file": "2026-22266",
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "bryant",
+    "curry",
+    "mcclain"
+   ],
+   "no": [
+    "stone",
+    "zalak"
+   ],
+   "mover": "bryant",
+   "seconder": "mcclain",
+   "officialTitle": "260302SU - Libor & Rachael Zavalsky, Special Use Permit to Allow for the Operation of a Training Facility and Canine Breeding Kennel for German Shepards and Dobermans, in a General Agriculture (A-1) Zone, 19.73 Acre Parcel, on Parcel 35581-002-03, Site Addresses 8201 and 8205 SW 27th Avenue, Ocala, FL 34476",
+   "motion": "Motion by Commissioner Bryant, second by Vice-Chair McClain, to approve agenda item 15.4.1. The motion carried 3 / 2.",
+   "headline": "260302SU - Libor & Rachael Zavalsky, Special Use Permit to Allow for the Operation of a Training Facility and Canine Bre",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Move the conex boxes and make sure they are permitted. Six months to permit and move conex boxes and inspected. Will be allowed to resume after completion. remove the last condition of the hedge and does not need the fence."
+  },
+  {
+   "item": 188144,
+   "ev": 3383,
+   "date": "2026-03-17",
+   "file": "2026-22283",
+   "topic": "other",
+   "result": "Motion passed 3 to 1",
+   "yes": [
+    "mcclain",
+    "stone",
+    "zalak"
+   ],
+   "no": [
+    "curry"
+   ],
+   "absent": [
+    "bryant"
+   ],
+   "mover": "mcclain",
+   "seconder": "stone",
+   "officialTitle": "260303SU - Andres Hernandez and Gladisleidys Gonzalez, Special Use Permit to Allow Two (2) Horses for Personal Use, in a Single-Family Dwelling (R-1) Zone, 1.29 Acre Parcel, Parcel 3490-059-007, Site Address 13516 SW 80th Street, Dunnellon, FL 34432",
+   "motion": "Motion by Vice Chair McClain, second by Commissioner Stone, to approve agenda item 15.4.5. The motion carried 3 / 1.",
+   "headline": "260303SU - Andres Hernandez and Gladisleidys Gonzalez, Special Use Permit to Allow Two (2) Horses for Personal Use, in a",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 186252,
+   "ev": 3381,
+   "date": "2026-02-17",
+   "file": "2025-21744",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "bryant",
+    "curry",
+    "stone",
+    "zalak"
+   ],
+   "no": [
+    "mcclain"
+   ],
+   "mover": "bryant",
+   "seconder": "curry",
+   "officialTitle": "Request for Waiver from Land Development Code Section 6.8.6 - Buffers for Major Site Plan 162-2025 Commercial Retail Store, Parcel 3758-030-001, Application Number Waiver STA-000004-2025 (Budget Impact - None)",
+   "motion": "Motion by Commissioner Bryant, second by Commissioner Curry, to deny this agenda item 15.1.1. The motion carried 4 / 1.",
+   "headline": "Request for Waiver from Land Development Code Section 6.8.6 - Buffers for Major Site Plan 162-2025 Commercial Retail Sto",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 185147,
+   "ev": 3379,
+   "date": "2026-01-20",
+   "file": "2026-21755",
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "curry",
+    "stone",
+    "zalak"
+   ],
+   "no": [
+    "bryant",
+    "mcclain"
+   ],
+   "mover": "curry",
+   "seconder": "stone",
+   "officialTitle": "Request Approval of Contract Direction: 20Q-161 Construction Manager Services - Dinkins Construction LLC (Ocala, FL), Cullison-Wright Construction Corp. (Ocala, FL), D.E. Scorpio Corporation (Gainesville, FL), Ausley Construction Company LLC (Ocala, FL), Charles Perry Partners, Inc. (Gainesville, FL) (Budget Impact - None)",
+   "motion": "Motion by Commissioner Curry, second by Commissioner Stone, to approve agenda item 9.1. The motion carried 3 / 2.",
+   "headline": "Request Approval of Contract Direction: 20Q-161 Construction Manager Services - Dinkins Construction LLC (Ocala, FL), Cu",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Option 2"
+  },
+  {
+   "item": 184314,
+   "ev": 3378,
+   "date": "2026-01-06",
+   "file": "2025-21573",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "bryant",
+    "curry",
+    "stone",
+    "zalak"
+   ],
+   "no": [
+    "mcclain"
+   ],
+   "mover": "stone",
+   "seconder": "bryant",
+   "officialTitle": "Request Consideration of Reduction and/or Release of Civil Restitution Lien for Sarah Ames",
+   "motion": "Motion by Commissioner Stone, second by Commissioner Bryant, to approve 8.2. agenda item. The motion carried 5 / 0.",
+   "headline": "Request Consideration of Reduction and/or Release of Civil Restitution Lien for Sarah Ames",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 184355,
+   "ev": 3378,
+   "date": "2026-01-06",
+   "file": "2025-21572",
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "bryant",
+    "mcclain",
+    "stone"
+   ],
+   "no": [
+    "curry",
+    "zalak"
+   ],
+   "mover": "bryant",
+   "seconder": "stone",
+   "officialTitle": "260108RA - Consideration for Yuriel Perez & Emelina Rosell, Reasonable Accommodation Four (4) Goats, in a Single-Family Dwelling (R-1) Zone, 1.03 Acre Parcel, Parcel Account Number 1753-028-027, Site Address 7498 SW 204th Avenue, Dunnellon, FL 34431",
+   "motion": "Motion by Commissioner Bryant, second by Commissioner Stone, to approve 15.2.1. agenda item. The motion carried 3 / 2.",
+   "headline": "260108RA - Consideration for Yuriel Perez & Emelina Rosell, Reasonable Accommodation Four (4) Goats, in a Single-Family ",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  }
+ ],
+ "meetingUrls": {
+  "3566": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3566&GUID=EFC2F26A-CABA-4075-B125-73CD999F29B3",
+  "3565": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3565&GUID=7090191A-1B0A-4FF4-9965-F3349CB78B2A",
+  "3552": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3552&GUID=B0478270-53C1-4B46-88CF-20DFDBA0054D",
+  "3555": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3555&GUID=13FEB950-1704-4194-A956-AD3117060FC7",
+  "3541": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3541&GUID=BD5C01EF-9524-471B-89CF-00E089D9A0C3",
+  "3512": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3512&GUID=8578C7C8-E210-4E2D-A0FE-4B0DEA67723C",
+  "3498": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3498&GUID=970EA810-D0BF-48EC-ABB0-8F09673DC86F",
+  "3484": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3484&GUID=957F9022-DCC4-46CD-B28B-92710963B9E0",
+  "3472": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3472&GUID=1028626F-A11E-4023-AC8E-ECD7D0B1BEFB",
+  "3471": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3471&GUID=284BA413-EFD3-449C-93E3-953116CB14A8",
+  "3459": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3459&GUID=623AEECB-44CC-434F-9239-1A0BF0D64EFA",
+  "3489": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3489&GUID=D46233A9-9BB3-4D19-953D-E8E08FBDE42E",
+  "3458": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3458&GUID=417541C5-5E78-43AC-AE58-4C58EF826819",
+  "3385": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3385&GUID=29680A0E-24D4-4B82-B475-769ACBA1588B",
+  "3389": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3389&GUID=CA929F0F-6DA5-4830-BF23-117DDED1F8AB",
+  "3383": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3383&GUID=16E45A1C-B33C-4254-A038-D1D83E84A214",
+  "3454": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3454&GUID=32CEBA96-1C55-4CC8-9753-241C37567423",
+  "3382": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3382&GUID=A3B3A83A-4181-4A6C-BE95-41461F32F05E",
+  "3381": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3381&GUID=909D8DFA-19CB-4FD0-8644-A1B07F28EC1D",
+  "3438": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3438&GUID=1D3D85D8-305F-4DD8-9542-F0AC6F73B720",
+  "3380": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3380&GUID=D11E9476-8314-42A0-9711-0C1273D05A94",
+  "3379": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3379&GUID=FB6743AA-F708-4ACD-9220-EFBD6146DDF1",
+  "3378": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3378&GUID=D38A4E1E-3C62-4905-BBC9-87C9328BB161"
+ }
+}

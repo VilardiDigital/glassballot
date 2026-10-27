@@ -1,0 +1,87 @@
+{
+ "pulledAt": "2026-10-27T12:04:47Z",
+ "totals": {
+  "meetings": 32,
+  "meetingsWithRollCalls": 21,
+  "items": 364,
+  "rollCalls": 356,
+  "splitRollCalls": 0
+ },
+ "stats": {
+  "pritchett": {
+   "aye": 0,
+   "nay": 1,
+   "absent": 66,
+   "abstain": 0,
+   "meetingsHeld": 4,
+   "meetingsMissed": 3
+  },
+  "goodson": {
+   "aye": 0,
+   "nay": 6,
+   "absent": 350,
+   "abstain": 0,
+   "meetingsHeld": 21,
+   "meetingsMissed": 16
+  },
+  "adkinson": {
+   "aye": 0,
+   "nay": 6,
+   "absent": 349,
+   "abstain": 1,
+   "meetingsHeld": 21,
+   "meetingsMissed": 15
+  },
+  "feltner": {
+   "aye": 0,
+   "nay": 10,
+   "absent": 346,
+   "abstain": 0,
+   "meetingsHeld": 21,
+   "meetingsMissed": 15
+  },
+  "altman": {
+   "aye": 0,
+   "nay": 6,
+   "absent": 349,
+   "abstain": 1,
+   "meetingsHeld": 21,
+   "meetingsMissed": 16
+  }
+ },
+ "splitVotes": [],
+ "meetingUrls": {
+  "1819": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1819&GUID=04953A75-1A25-44E7-BD68-CB8D5E3D10D3",
+  "1818": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1818&GUID=0E818875-1923-46F1-8803-0F3154F38291",
+  "1817": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1817&GUID=ACEC2B95-7BFA-4816-95B7-B630F3972F15",
+  "1816": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1816&GUID=4535078B-AE1E-445F-B3C5-A4EA71A1E188",
+  "1815": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1815&GUID=B133B670-87EE-40AF-A7F1-5C6051D56843",
+  "1813": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1813&GUID=76777B30-CFC8-4CB9-A6E1-52FD655B5CAF",
+  "1814": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1814&GUID=8B89053B-7400-4853-974E-6B5E3F07E121",
+  "1811": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1811&GUID=602F4543-9362-4597-A076-117BC58EB64D",
+  "1812": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1812&GUID=E82380CC-E747-4A05-AEE6-B5BCDCBC8D67",
+  "1810": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1810&GUID=D9DE33A9-70E7-4359-94E2-2269732E902A",
+  "1809": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1809&GUID=6762EBDE-9973-491D-AD30-74C338C4FB46",
+  "1808": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1808&GUID=C1B007CD-EF78-4FF0-909A-24A9175E1F89",
+  "1807": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1807&GUID=8D0C2A10-C124-4793-B30B-190D2C512D1E",
+  "1806": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1806&GUID=0E39EE1B-EC88-4594-A015-3235F85EDE29",
+  "1805": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1805&GUID=99A72B34-3DFD-4AA7-8FDF-7AC828FB5FA5",
+  "1804": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1804&GUID=02D80FC6-5DCE-48B6-B13F-16A6587DC4D1",
+  "1803": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1803&GUID=A9A1C9B0-0D06-4B7D-8F9F-945B379520DF",
+  "1802": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1802&GUID=4FEFC926-64D5-4BE2-9A6A-3F845219218F",
+  "1863": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1863&GUID=5DA6A589-3113-4D3F-B3CE-EF1D27495C3A",
+  "1801": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1801&GUID=1639A852-56C5-4E18-932A-27FFE4DA2B19",
+  "1800": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1800&GUID=75BB13CC-1D65-4701-873C-39D03D66DD09",
+  "1855": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1855&GUID=7DE720C6-5BE5-455B-BC6D-15B2ED0FD089",
+  "1799": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1799&GUID=224DC976-083E-4050-8FF8-DF4D2552F761",
+  "1798": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1798&GUID=85F7D306-2799-4853-82A9-D9BDAFFBC344",
+  "1797": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1797&GUID=A591EB4C-68AE-41F4-A7B9-65AE328114A5",
+  "1796": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1796&GUID=30B9166E-B6A1-4087-9450-A4811FE82B6B",
+  "1795": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1795&GUID=600BA878-8C82-4E46-9AEF-70688D1D7DE3",
+  "1794": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1794&GUID=0D6F10C2-FD0D-4A63-BFAD-21D4B46EA573",
+  "1793": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1793&GUID=13837366-80E7-4B57-89D4-08D60FF1FE27",
+  "1791": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1791&GUID=7DD7D22D-A620-4F21-A1CD-E15B93487EBD",
+  "1831": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1831&GUID=003E0C8B-3524-4090-B4BE-D02CE44CEED6",
+  "1830": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1830&GUID=4E20E434-64A6-4DB8-9A43-48388CC6E9B2"
+ }
+}
