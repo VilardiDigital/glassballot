@@ -179,7 +179,7 @@ label.f span.h{font-weight:400;color:var(--muted);font-size:13px}
 .map a:hover path,.map a:focus path{fill:rgba(20,184,166,.55)}
 .map a.on path{fill:rgba(232,246,255,.42)}
 .map text{font-family:var(--head);font-weight:800;font-size:15px;fill:#fff;pointer-events:none;paint-order:stroke;stroke:rgba(11,61,145,.65);stroke-width:4px}
-.map a:focus{outline:none}.map line.lead{stroke:rgba(255,255,255,.7);stroke-width:1}
+.map a:focus{outline:none}.countysel{width:100%;max-width:340px;font:inherit;font-size:17px;padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.5);background:#fff;color:var(--char)}.map line.lead{stroke:rgba(255,255,255,.7);stroke-width:1}
 .countylist{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}
 @media (max-width:859px){.mapwrap{display:flex;flex-direction:column}.mapwrap .countylist{order:-1;margin:0 0 6px}}
 .countylist .pick{grid-column:1/-1;font-family:var(--head);font-weight:700;color:#fff;font-size:15px}
@@ -520,7 +520,7 @@ views.home = () => {
     <section class="hero">
       <div class="stack" style="gap:14px">
         <h1>What's on your ballot, in plain English</h1>
-        <p>The races for county commission and school board in Pinellas, Hillsborough, Pasco and Hernando. Who's running, what the job does, how the people in office have voted, and who is paying for each campaign. All of it comes from public records you can check yourself.</p>
+        <p>The races for county commission and school board ${ORDER.length > 4 ? `in all ${ORDER.length} Florida counties we cover` : `in ${ORDER.map(cname).join(", ").replace(/, ([^,]*)$/, " and $1")}`}. Who's running, what the job does, how the people in office have voted, and who is paying for each campaign. All of it comes from public records you can check yourself.</p>
         <form class="stack-sm" id="zipForm" autocomplete="off">
           <label for="zipIn" style="font-weight:700;color:#fff">Start with your ZIP code</label>
           <div class="zip"><input id="zipIn" inputmode="numeric" pattern="[0-9]{5}" maxlength="5" placeholder="33701" aria-describedby="zipMsg"><button class="btn" type="submit">Show my ballot</button></div>
@@ -530,7 +530,11 @@ views.home = () => {
       </div>
       <div class="mapwrap">
         <p style="color:#fff;font-weight:700;margin-bottom:8px">Or pick your county</p>
-        <div class="bigpick">${ORDER.map(k => `<a href="#/${k}"><b>${esc(cname(k))}</b><span>${nRaces(k)} races on your ballot</span></a>`).join("")}</div>
+        ${(() => { const full = ORDER.filter(k => !COUNTIES[k].county.auto), auto = ORDER.filter(k => COUNTIES[k].county.auto);
+          return `${auto.length ? `<p class="small" style="color:#DCE8FF;margin:0 0 6px">Full guides, with votes explained and track records:</p>` : ""}
+          <div class="bigpick">${full.map(k => `<a href="#/${k}"><b>${esc(cname(k))}</b><span>${nRaces(k)} races on your ballot</span></a>`).join("")}</div>
+          ${auto.length ? `<label class="small" for="countySel" style="color:#DCE8FF;display:block;margin:12px 0 6px">Every other county (early automatic versions):</label>
+          <select id="countySel" class="countysel" onchange="if(this.value) location.hash='#/'+this.value"><option value="">Choose a county</option>${auto.slice().sort((a, b) => cname(a).localeCompare(cname(b))).map(k => `<option value="${k}">${esc(cname(k))}</option>`).join("")}</select>` : ""}`; })()}
         ${mapSvg(store.get("gb-county"))}
       </div>
     </section>
@@ -568,10 +572,16 @@ function singleDistricts() {
   return [...ds].filter(Boolean).sort((a,b) => a - b);
 }
 
+function autoNotice() {
+  const m = (C.county.meetings || "");
+  return `<section class="notice stack-sm" style="border-left:4px solid var(--glass)"><b>This is an early, automatic version of ${esc(C.county.name)}.</b>
+    <span class="small">The races, candidates and campaign money come straight from the Supervisor of Elections' official reports${C.votes.length ? ", and the votes from the county's own meeting records" : ""}. We haven't yet added plain-English summaries, candidate track records or fact checks for this county, and we haven't checked which seats are voted on countywide. If something looks wrong, tell us with the report button.</span></section>`;
+}
+
 views.ballot = () => {
   const key = "gb-district-" + CK;
   const mine = store.get(key);
-  const dists = singleDistricts();
+  const dists = C.county.auto ? [] : singleDistricts();  // automatic counties: we don't know yet which seats are district-only
   const pick = mine && mine !== "unsure" && dists.includes(mine);
   const live = C.races.filter(r => r.onNovBallot !== false);
   const decided = C.races.filter(r => r.onNovBallot === false);
@@ -583,6 +593,8 @@ views.ballot = () => {
   return `<div class="stack-lg view">
     ${band(`${esc(C.county.name)}, Florida`, `Your ${esc(cname(CK))} County ballot`, `${live.length} local race${live.length === 1 ? "" : "s"} on the Nov 3 ballot. ${edayLine()}`, COUNTY_IMG[CK] || "09-town-square",
       `<div class="row noprint"><a class="btn primary" href="${href("vote")}">When and where to vote</a>${nPicked ? `<a class="btn" href="${href("mylist")}">My list (${nPicked} of ${live.length})</a>` : ""}</div>`)}
+
+    ${C.county.auto ? autoNotice() : ""}
 
     ${dists.length ? `<section class="panel stack" aria-labelledby="dq">
       <h2 class="h3" id="dq"><span class="stepn">1</span>Do you know your county commission district?</h2>
@@ -696,7 +708,7 @@ views.mylist = () => {
 
 /* ---------- when and where to vote ---------- */
 views.vote = () => {
-  const info = HTV.counties[CK] || {};
+  const info = HTV.counties[CK] || (C.county.auto ? {pollingPlaceUrl: "https://dos.fl.gov/elections/contacts/supervisor-of-elections/"} : {});
   const st = HTV.statewide || [];
   const item = (t, u, pub) => `<div class="li"><span class="body"><span>${esc(t)}</span>${u ? `<a class="tiny" href="${esc(u)}" target="_blank" rel="noopener">Source: ${esc(pub || "Official source")}</a>` : ""}</span></div>`;
   return `<div class="stack-lg view">
@@ -1098,7 +1110,7 @@ views.about = () => {
   const lc = {verified:0,single:0,unverified:0,conflict:0,unknown:0};
   ORDER.forEach(k => Object.entries(COUNTIES[k].labelCounts).forEach(([l,n]) => lc[l] += n));
   return `<div class="stack-lg view">
-    ${band("", "About Glass Ballot", "A free, independent guide to local elections in the Tampa Bay area.", "09-town-square")}
+    ${band("", "About Glass Ballot", "A free, independent guide to local elections in Florida.", "09-town-square")}
     <section class="panel stack">
       <h2 class="h3">Why we built this</h2>
       <p>County commissioners and school board members make decisions that reach every household: property taxes, what gets built down the street, how the schools are run. Yet these races get very little coverage, and the records about them are spread across a dozen government websites. Glass Ballot puts them in one place and explains them in everyday language.</p>
@@ -1337,7 +1349,7 @@ function route() {
     const t = a.dataset.tab;
     if (t === "ballot") a.href = ck ? `#/${ck}` : "#/"; else if (t === "officials") a.href = ck ? `#/${ck}/officials` : "#/"; else if (t === "vote") a.href = ck ? `#/${ck}/vote` : "#/";
     if (t === tab) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); });
-  document.title = CK ? `${cname(CK)} County ballot guide | Glass Ballot` : "Glass Ballot | Tampa Bay local election guide";
+  document.title = CK ? `${cname(CK)} County ballot guide | Glass Ballot` : "Glass Ballot | Florida local election guide";
   $("#search").hidden = true;
   window.scrollTo(0, 0);
 }
@@ -1370,7 +1382,7 @@ window.addEventListener("hashchange", route);
 
 $("#foot").innerHTML = `<div class="wrap stack" style="gap:14px">
   <span class="wordmark">Glass<b>Ballot</b><i>.org</i></span>
-  <p style="max-width:62ch">A free, independent guide to local elections in Tampa Bay. We don't endorse candidates or take money from campaigns. Information comes from public records and published reports and was last updated ${fmtDate(DATA.region.updated)}. Photos at the top of pages are illustrations.</p>
+  <p style="max-width:62ch">A free, independent guide to Florida's local elections. We don't endorse candidates or take money from campaigns. Information comes from public records and published reports and was last updated ${fmtDate(DATA.region.updated)}. Photos at the top of pages are illustrations.</p>
   <p class="row" style="gap:6px 18px"><a href="#/about">About</a><a href="#/standards">Our standards</a><a href="#/sources">Sources</a><a href="#/corrections">Corrections</a><a href="#/terms">Terms</a><a href="#/privacy">Privacy</a><a href="#/accessibility">Accessibility</a><a href="mailto:glassballotinfo@gmail.com">Contact</a></p>
 </div>`;
 route();

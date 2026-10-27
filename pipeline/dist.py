@@ -14,7 +14,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = "https://glassballot.org"
-DESC = ("Nonpartisan voter guide for Tampa Bay: Pinellas, Hillsborough, Pasco and Hernando. Every local race, "
+DESC = ("Nonpartisan voter guide to Florida county commission and school board races. Every local race, "
         "every commission vote, who funds each candidate, and a source behind every fact.")
 
 FAVICON = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><rect x="3" y="10" width="24" height="17" rx="3" fill="#0A6B62" fill-opacity="0.14" stroke="#0A6B62" stroke-width="2"/><rect x="10.5" y="3" width="9" height="14" rx="1.5" fill="#fff" stroke="#0A6B62" stroke-width="2"/><path d="M12.8 9.6l1.6 1.6 3-3.2" fill="none" stroke="#0A6B62" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>"""
@@ -38,7 +38,7 @@ HEAD = f"""<!doctype html>
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Glass Ballot: Tampa Bay voter guide">
+<meta name="twitter:title" content="Glass Ballot: Florida local voter guide">
 <meta name="twitter:description" content="{DESC}">
 <meta name="twitter:image" content="{SITE}/og.png">
 <style>:root{{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}}body{{margin:0}}img{{max-width:100%}}[hidden]{{display:none!important}}</style>

@@ -1,17 +1,1048 @@
 {
  "_about": "Every county the site covers or plans to cover, and the systems each one uses. The nightly job reads this file; adding a county is a config change plus a seed file.",
  "counties": {
-  "pinellas": {"name": "Pinellas County", "live": true, "order": 1,
-    "meetings": {"vendor": "legistar", "client": "pinellas", "bodies": [213, 212], "since": "2024-11-19"},
-    "finance": {"vendor": "voterfocus", "slug": "pinellas", "cycle": 35, "past": {"2024": 31, "2022": 28, "2020": 26}}},
-  "hillsborough": {"name": "Hillsborough County", "live": true, "order": 2,
-    "meetings": {"vendor": "clerk-pdf", "note": "Clerk of Court voting records (PDF); land use only on Legistar"},
-    "finance": {"vendor": "voterfocus", "slug": "hillsborough", "cycle": 27, "past": {"2024": 24, "2022": 23, "2020": 21}}},
-  "pasco": {"name": "Pasco County", "live": true, "order": 3,
-    "meetings": {"vendor": "civicclerk", "tenant": "pascocofl"},
-    "finance": {"vendor": "voterfocus", "slug": "pasco", "cycle": 38, "past": {"2024": 34, "2022": 31, "2020": 26}}},
-  "hernando": {"name": "Hernando County", "live": true, "order": 4,
-    "meetings": {"vendor": "legistar", "client": "hernandocountyfl", "bodies": [138, 235], "since": "2024-11-19"},
-    "finance": {"vendor": "voterfocus", "slug": "hernando", "cycle": 32, "past": {"2024": 29, "2022": 26, "2020": 22}}}
+  "pinellas": {
+   "name": "Pinellas County",
+   "live": true,
+   "order": 1,
+   "meetings": {
+    "vendor": "legistar",
+    "client": "pinellas",
+    "bodies": [
+     213,
+     212
+    ],
+    "since": "2024-11-19"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "pinellas",
+    "cycle": 35,
+    "past": {
+     "2024": 31,
+     "2022": 28,
+     "2020": 26
+    }
+   },
+   "survey": {}
+  },
+  "hillsborough": {
+   "name": "Hillsborough County",
+   "live": true,
+   "order": 2,
+   "meetings": {
+    "vendor": "clerk-pdf",
+    "note": "Clerk of Court voting records (PDF); land use only on Legistar"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "hillsborough",
+    "cycle": 27,
+    "past": {
+     "2024": 24,
+     "2022": 23,
+     "2020": 21
+    }
+   },
+   "survey": {}
+  },
+  "pasco": {
+   "name": "Pasco County",
+   "live": true,
+   "order": 3,
+   "meetings": {
+    "vendor": "civicclerk",
+    "tenant": "pascocofl"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "pasco",
+    "cycle": 38,
+    "past": {
+     "2024": 34,
+     "2022": 31,
+     "2020": 26
+    }
+   },
+   "survey": {}
+  },
+  "hernando": {
+   "name": "Hernando County",
+   "live": true,
+   "order": 4,
+   "meetings": {
+    "vendor": "legistar",
+    "client": "hernandocountyfl",
+    "bodies": [
+     138,
+     235
+    ],
+    "since": "2024-11-19"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "hernando",
+    "cycle": 32,
+    "past": {
+     "2024": 29,
+     "2022": 26,
+     "2020": 22
+    }
+   },
+   "survey": {}
+  },
+  "alachua": {
+   "name": "Alachua County",
+   "live": false,
+   "auto": true,
+   "order": 104,
+   "meetings": {
+    "vendor": "civicclerk",
+    "tenant": "alachuafl"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "alachua",
+    "cycle": 54
+   }
+  },
+  "baker": {
+   "name": "Baker County",
+   "live": false,
+   "auto": true,
+   "order": 105,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "baker",
+    "cycle": 33
+   }
+  },
+  "bay": {
+   "name": "Bay County",
+   "live": false,
+   "auto": true,
+   "order": 106,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "bay",
+    "cycle": 35
+   }
+  },
+  "bradford": {
+   "name": "Bradford County",
+   "live": false,
+   "auto": true,
+   "order": 107,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "bradford",
+    "cycle": 23
+   }
+  },
+  "brevard": {
+   "name": "Brevard County",
+   "live": false,
+   "auto": true,
+   "order": 108,
+   "meetings": {
+    "vendor": "legistar",
+    "client": "brevardfl",
+    "bodies": [
+     138
+    ],
+    "since": "2024-11-19",
+    "perMemberVotes": false
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "brevard",
+    "cycle": 30
+   }
+  },
+  "broward": {
+   "name": "Broward County",
+   "live": false,
+   "auto": true,
+   "order": 109,
+   "meetings": {
+    "vendor": "legistar",
+    "client": "broward",
+    "bodies": [
+     138
+    ],
+    "since": "2024-11-19",
+    "perMemberVotes": false
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "broward",
+    "cycle": 150
+   }
+  },
+  "calhoun": {
+   "name": "Calhoun County",
+   "live": false,
+   "auto": true,
+   "order": 110,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "calhoun",
+    "cycle": 22
+   }
+  },
+  "charlotte": {
+   "name": "Charlotte County",
+   "live": false,
+   "auto": true,
+   "order": 111,
+   "meetings": {
+    "vendor": "legistar",
+    "client": "charlottecountyfl",
+    "bodies": [
+     138
+    ],
+    "since": "2024-11-19",
+    "perMemberVotes": false
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "charlotte",
+    "cycle": 27
+   }
+  },
+  "citrus": {
+   "name": "Citrus County",
+   "live": false,
+   "auto": true,
+   "order": 112,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "citrus",
+    "cycle": 21
+   }
+  },
+  "clay": {
+   "name": "Clay County",
+   "live": false,
+   "auto": true,
+   "order": 113,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "clay",
+    "cycle": 94
+   }
+  },
+  "collier": {
+   "name": "Collier County",
+   "live": false,
+   "auto": true,
+   "order": 114,
+   "meetings": {
+    "vendor": "civicclerk",
+    "tenant": "colliercofl"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "collier",
+    "cycle": 15
+   }
+  },
+  "columbia": {
+   "name": "Columbia County",
+   "live": false,
+   "auto": true,
+   "order": 115,
+   "meetings": {
+    "vendor": "granicus",
+    "site": "columbiaco"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "columbia",
+    "cycle": 29
+   }
+  },
+  "desoto": {
+   "name": "DeSoto County",
+   "live": false,
+   "auto": true,
+   "order": 116,
+   "meetings": {
+    "vendor": "legistar",
+    "client": "desotobocc",
+    "bodies": [
+     138
+    ],
+    "since": "2024-11-19",
+    "perMemberVotes": true
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "desoto",
+    "cycle": 6
+   }
+  },
+  "dixie": {
+   "name": "Dixie County",
+   "live": false,
+   "auto": true,
+   "order": 117,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "dixie",
+    "cycle": 13
+   }
+  },
+  "duval": {
+   "name": "Duval County",
+   "live": false,
+   "auto": true,
+   "order": 118,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "duval",
+    "cycle": 40
+   },
+   "notes": "Consolidated with the City of Jacksonville: the 19-member City Council acts as the county commission (Legistar client jaxcityc)."
+  },
+  "escambia": {
+   "name": "Escambia County",
+   "live": false,
+   "auto": true,
+   "order": 119,
+   "meetings": {
+    "vendor": "civicclerk",
+    "tenant": "escambiacofl"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "escambia",
+    "cycle": 26
+   }
+  },
+  "flagler": {
+   "name": "Flagler County",
+   "live": false,
+   "auto": true,
+   "order": 120,
+   "meetings": {
+    "vendor": "civicclerk",
+    "tenant": "flaglercofl"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "flagler",
+    "cycle": 41
+   }
+  },
+  "franklin": {
+   "name": "Franklin County",
+   "live": false,
+   "auto": true,
+   "order": 121,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "franklin",
+    "cycle": 26
+   }
+  },
+  "gadsden": {
+   "name": "Gadsden County",
+   "live": false,
+   "auto": true,
+   "order": 122,
+   "meetings": {
+    "vendor": "granicus",
+    "site": "gadsdencountyfl"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "gadsden",
+    "cycle": 37
+   }
+  },
+  "gilchrist": {
+   "name": "Gilchrist County",
+   "live": false,
+   "auto": true,
+   "order": 123,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "gilchrist",
+    "cycle": 24
+   }
+  },
+  "glades": {
+   "name": "Glades County",
+   "live": false,
+   "auto": true,
+   "order": 124,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "glades",
+    "cycle": 6
+   }
+  },
+  "gulf": {
+   "name": "Gulf County",
+   "live": false,
+   "auto": true,
+   "order": 125,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "gulf",
+    "cycle": 61
+   }
+  },
+  "hamilton": {
+   "name": "Hamilton County",
+   "live": false,
+   "auto": true,
+   "order": 126,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "hamilton",
+    "cycle": 14
+   }
+  },
+  "hardee": {
+   "name": "Hardee County",
+   "live": false,
+   "auto": true,
+   "order": 127,
+   "meetings": {
+    "vendor": "granicus",
+    "site": "hardeecountyfl"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "hardee",
+    "cycle": 16
+   }
+  },
+  "hendry": {
+   "name": "Hendry County",
+   "live": false,
+   "auto": true,
+   "order": 128,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "hendry",
+    "cycle": 17
+   }
+  },
+  "highlands": {
+   "name": "Highlands County",
+   "live": false,
+   "auto": true,
+   "order": 129,
+   "meetings": {
+    "vendor": "civicclerk",
+    "tenant": "highlandscofl"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "highlands",
+    "cycle": 10
+   }
+  },
+  "holmes": {
+   "name": "Holmes County",
+   "live": false,
+   "auto": true,
+   "order": 130,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "holmes",
+    "cycle": 11
+   }
+  },
+  "indianriver": {
+   "name": "Indian River County",
+   "live": false,
+   "auto": true,
+   "order": 131,
+   "meetings": {
+    "vendor": "civicclerk",
+    "tenant": "indianrivercofl"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "indianriver",
+    "cycle": 18
+   }
+  },
+  "jackson": {
+   "name": "Jackson County",
+   "live": false,
+   "auto": true,
+   "order": 132,
+   "meetings": {
+    "vendor": "civicclerk",
+    "tenant": "jacksoncofl"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "jackson",
+    "cycle": 19
+   }
+  },
+  "jefferson": {
+   "name": "Jefferson County",
+   "live": false,
+   "auto": true,
+   "order": 133,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "jefferson",
+    "cycle": 8
+   }
+  },
+  "lafayette": {
+   "name": "Lafayette County",
+   "live": false,
+   "auto": true,
+   "order": 134,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "lafayette",
+    "cycle": 8
+   }
+  },
+  "lake": {
+   "name": "Lake County",
+   "live": false,
+   "auto": true,
+   "order": 135,
+   "meetings": {
+    "vendor": "civicclerk",
+    "tenant": "lakecountyfl"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "lake",
+    "cycle": 17
+   }
+  },
+  "lee": {
+   "name": "Lee County",
+   "live": false,
+   "auto": true,
+   "order": 136,
+   "meetings": {
+    "vendor": "civicclerk",
+    "tenant": "leecofl"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "lee",
+    "cycle": 34
+   }
+  },
+  "leon": {
+   "name": "Leon County",
+   "live": false,
+   "auto": true,
+   "order": 137,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "leon",
+    "cycle": 25
+   }
+  },
+  "levy": {
+   "name": "Levy County",
+   "live": false,
+   "auto": true,
+   "order": 138,
+   "meetings": {
+    "vendor": "civicclerk",
+    "tenant": "levycofl"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "levy",
+    "cycle": 23
+   }
+  },
+  "liberty": {
+   "name": "Liberty County",
+   "live": false,
+   "auto": true,
+   "order": 139,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "liberty",
+    "cycle": 25
+   }
+  },
+  "madison": {
+   "name": "Madison County",
+   "live": false,
+   "auto": true,
+   "order": 140,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "madison",
+    "cycle": 8
+   }
+  },
+  "manatee": {
+   "name": "Manatee County",
+   "live": false,
+   "auto": true,
+   "order": 141,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "manatee",
+    "cycle": 212
+   }
+  },
+  "marion": {
+   "name": "Marion County",
+   "live": false,
+   "auto": true,
+   "order": 142,
+   "meetings": {
+    "vendor": "legistar",
+    "client": "marionfl",
+    "bodies": [
+     138
+    ],
+    "since": "2024-11-19",
+    "perMemberVotes": true
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "marion",
+    "cycle": 28
+   }
+  },
+  "martin": {
+   "name": "Martin County",
+   "live": false,
+   "auto": true,
+   "order": 143,
+   "meetings": {
+    "vendor": "legistar",
+    "client": "martin",
+    "bodies": [
+     138
+    ],
+    "since": "2024-11-19",
+    "perMemberVotes": true
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "martin",
+    "cycle": 16
+   }
+  },
+  "miamidade": {
+   "name": "Miami-Dade County",
+   "live": false,
+   "auto": true,
+   "order": 144,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "miamidade",
+    "cycle": 30
+   }
+  },
+  "monroe": {
+   "name": "Monroe County",
+   "live": false,
+   "auto": true,
+   "order": 145,
+   "meetings": {
+    "vendor": "granicus",
+    "site": "monroecountyfl"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "monroe",
+    "cycle": 49
+   }
+  },
+  "nassau": {
+   "name": "Nassau County",
+   "live": false,
+   "auto": true,
+   "order": 146,
+   "meetings": {
+    "vendor": "civicclerk",
+    "tenant": "nassaucofl"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "nassau",
+    "cycle": 46
+   }
+  },
+  "okaloosa": {
+   "name": "Okaloosa County",
+   "live": false,
+   "auto": true,
+   "order": 147,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "okaloosa",
+    "cycle": 220
+   }
+  },
+  "okeechobee": {
+   "name": "Okeechobee County",
+   "live": false,
+   "auto": true,
+   "order": 148,
+   "meetings": {
+    "vendor": "granicus",
+    "site": "okeechobee"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "okeechobee",
+    "cycle": 32
+   }
+  },
+  "orange": {
+   "name": "Orange County",
+   "live": false,
+   "auto": true,
+   "order": 149,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "orange",
+    "cycle": 105
+   }
+  },
+  "osceola": {
+   "name": "Osceola County",
+   "live": false,
+   "auto": true,
+   "order": 150,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "osceola",
+    "cycle": 17
+   }
+  },
+  "palmbeach": {
+   "name": "Palm Beach County",
+   "live": false,
+   "auto": true,
+   "order": 151,
+   "meetings": {
+    "vendor": "civicclerk",
+    "tenant": "palmbeachfl"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "palmbeach",
+    "cycle": 12
+   }
+  },
+  "polk": {
+   "name": "Polk County",
+   "live": false,
+   "auto": true,
+   "order": 152,
+   "meetings": {
+    "vendor": "legistar",
+    "client": "polkcountyfl",
+    "bodies": [
+     138
+    ],
+    "since": "2024-11-19",
+    "perMemberVotes": true
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "polk",
+    "cycle": 22
+   }
+  },
+  "putnam": {
+   "name": "Putnam County",
+   "live": false,
+   "auto": true,
+   "order": 153,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "putnam",
+    "cycle": 34
+   }
+  },
+  "stjohns": {
+   "name": "St. Johns County",
+   "live": false,
+   "auto": true,
+   "order": 154,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "stjohns",
+    "cycle": 20
+   }
+  },
+  "stlucie": {
+   "name": "St. Lucie County",
+   "live": false,
+   "auto": true,
+   "order": 155,
+   "meetings": {
+    "vendor": "civicclerk",
+    "tenant": "stluciecofl"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "stlucie",
+    "cycle": 26
+   }
+  },
+  "santarosa": {
+   "name": "Santa Rosa County",
+   "live": false,
+   "auto": true,
+   "order": 156,
+   "meetings": {
+    "vendor": "civicclerk",
+    "tenant": "santarosacofl"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "santarosa",
+    "cycle": 11
+   }
+  },
+  "sarasota": {
+   "name": "Sarasota County",
+   "live": false,
+   "auto": true,
+   "order": 157,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "sarasota",
+    "cycle": 134
+   }
+  },
+  "seminole": {
+   "name": "Seminole County",
+   "live": false,
+   "auto": true,
+   "order": 158,
+   "meetings": {
+    "vendor": "legistar",
+    "client": "seminolecountyfl",
+    "bodies": [
+     138
+    ],
+    "since": "2024-11-19",
+    "perMemberVotes": true
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "seminole",
+    "cycle": 116
+   }
+  },
+  "sumter": {
+   "name": "Sumter County",
+   "live": false,
+   "auto": true,
+   "order": 159,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "sumter",
+    "cycle": 26
+   }
+  },
+  "suwannee": {
+   "name": "Suwannee County",
+   "live": false,
+   "auto": true,
+   "order": 160,
+   "meetings": {
+    "vendor": "civicclerk",
+    "tenant": "suwanneecofl"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "suwannee",
+    "cycle": 29
+   }
+  },
+  "taylor": {
+   "name": "Taylor County",
+   "live": false,
+   "auto": true,
+   "order": 161,
+   "meetings": {
+    "vendor": "civicclerk",
+    "tenant": "taylorcofl"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "taylor",
+    "cycle": 16
+   }
+  },
+  "union": {
+   "name": "Union County",
+   "live": false,
+   "auto": true,
+   "order": 162,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "union",
+    "cycle": 11
+   }
+  },
+  "volusia": {
+   "name": "Volusia County",
+   "live": false,
+   "auto": true,
+   "order": 163,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "volusia",
+    "cycle": 36
+   }
+  },
+  "wakulla": {
+   "name": "Wakulla County",
+   "live": false,
+   "auto": true,
+   "order": 164,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "wakulla",
+    "cycle": 15
+   }
+  },
+  "walton": {
+   "name": "Walton County",
+   "live": false,
+   "auto": true,
+   "order": 165,
+   "meetings": {
+    "vendor": "unknown"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "walton",
+    "cycle": 42
+   }
+  },
+  "washington": {
+   "name": "Washington County",
+   "live": false,
+   "auto": true,
+   "order": 166,
+   "meetings": {
+    "vendor": "granicus",
+    "site": "washingtonco"
+   },
+   "finance": {
+    "vendor": "voterfocus",
+    "slug": "washington",
+    "cycle": 10
+   }
+  }
  }
 }

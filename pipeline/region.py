@@ -1,4 +1,4 @@
-"""Build every county and bake one Tampa Bay site.
+"""Build every county and bake one statewide site.
 
     python -m pipeline.region --accessed 2026-10-26
 
@@ -57,7 +57,7 @@ def build_region(accessed: str | None = None) -> dict:
             counties[cid] = d
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     return {
-        "region": {"name": "Tampa Bay", "state": "FL", "electionDate": "2026-11-03", "updated": accessed or today},
+        "region": {"name": "Florida", "state": "FL", "electionDate": "2026-11-03", "updated": accessed or today},
         "order": [c for c in ORDER if c in counties],
         "counties": counties,
         "changes": [json.loads(f.read_text()) for f in sorted((ROOT / "data" / "changes").glob("*.json"), reverse=True)[:30]] if (ROOT / "data" / "changes").exists() else [],

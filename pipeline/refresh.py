@@ -182,7 +182,10 @@ def refresh_contrib(county: str, el: int, today: str, year: str = "2026", only=N
             if not m or re.search(r"Did not qualify|Withdrawn", m.group(2)) or (only and not only(m.group(1))):
                 continue
             ca = a.group(1)
-            raw = get(f"{base}/export.php?op=CFINANCE&cand_id={ca}&dhc=0&county={slug}", as_json=False)
+            try:
+                raw = get(f"{base}/export.php?op=CFINANCE&cand_id={ca}&dhc=0&county={slug}", as_json=False)
+            except Exception:
+                continue  # one campaign's report failing to load shouldn't drop the county
             rows = []
             for r in csv.DictReader(io.StringIO(raw)):
                 if (r.get("Cont/Exp") or "").strip() != "C":
@@ -200,7 +203,10 @@ def refresh_contrib(county: str, el: int, today: str, year: str = "2026", only=N
                 if t == "B":
                     row["addr"] = re.sub(r"\b(ste|suite|unit|#)\b.*$", "", (r.get("address 1") or "").lower()).strip(" .,")
                 rows.append(row)
-            cv = get(f"{base}/candidate_pr.php?op=cv&e={el}&c={slug}&ca={ca}&rellevel=4&committee=N", as_json=False)
+            try:
+                cv = get(f"{base}/candidate_pr.php?op=cv&e={el}&c={slug}&ca={ca}&rellevel=4&committee=N", as_json=False)
+            except Exception:
+                cv = ""
             pm = re.search(r"PRIOR CONTRIBUTIONS.*?Contributions\s*\$([\d,.]+)", re.sub(r"<[^>]+>", " ", cv), re.S)
             prior = float(pm.group(1).replace(",", "")) if pm else 0
             camps[ca] = {"candidate": m.group(1).strip(), "office": office, "status": m.group(2), **({"prior": prior} if prior else {}),
@@ -236,6 +242,14 @@ def main():
     log, errors = [], []
     before = snapshot()
     if not a.offline:
+        # Counties in their automatic first version: rebuild races and candidates from official records.
+        from .bootstrap import run as bootstrap
+        for county, cfg in REGISTRY.items():  # including ones not live yet, so they can be reviewed first
+            if cfg.get("auto"):
+                try:
+                    log.append(bootstrap(county, cfg))
+                except Exception as e:
+                    errors.append(f"{county} automatic setup failed, kept last version: {e}")
         for county in LEGISTAR:
             try:
                 log.append(refresh_legistar(county, today))
@@ -253,7 +267,10 @@ def main():
             except Exception as e:
                 errors.append(f"{county} itemized contributions pull failed, kept last good data: {e}")
             # Officials not running this year: their most recent campaign, pulled once.
-            seed = json.loads((ROOT / "data" / f"seed_{county}.json").read_text())
+            sp_ = ROOT / "data" / f"seed_{county}.json"
+            if not sp_.exists():
+                continue
+            seed = json.loads(sp_.read_text())
             lasts = {p["name"].replace('"', "").split()[-1].lower() for p in seed["people"] if p.get("status") == "incumbent"}
             for yr, pel in PAST_CYCLES[county].items():
                 if (ROOT / "data" / "contrib" / f"{county}_{yr}.json").exists():
