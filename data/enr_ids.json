@@ -1,0 +1,832 @@
+{
+ "alachua": {
+  "code": "ALA",
+  "all": [
+   [
+    4023,
+    "2026 Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4097,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4023,
+  "general": 4097
+ },
+ "baker": {
+  "code": "BAK",
+  "all": [
+   [
+    4047,
+    "Election Date: 8/18/2026",
+    "8/18/2026"
+   ]
+  ]
+ },
+ "bay": {
+  "code": "BAY",
+  "all": [
+   [
+    4001,
+    "Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4075,
+    "General Election",
+    "11/3/2026"
+   ],
+   [
+    4078,
+    "General Election",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4001,
+  "general": 4078
+ },
+ "bradford": {
+  "code": "BRA",
+  "all": [
+   [
+    4017,
+    "Election Date: 8/18/2026",
+    "8/18/2026"
+   ],
+   [
+    4113,
+    "Election Date: 11/3/2026",
+    "11/3/2026"
+   ]
+  ]
+ },
+ "brevard": {
+  "code": "BRE",
+  "all": []
+ },
+ "broward": {
+  "code": "BRO",
+  "all": []
+ },
+ "calhoun": {
+  "code": "CAL",
+  "all": []
+ },
+ "charlotte": {
+  "code": "CHA",
+  "all": [
+   [
+    4016,
+    "2026 Primary Election",
+    "8/18/2026"
+   ]
+  ],
+  "primary": 4016
+ },
+ "citrus": {
+  "code": "CIT",
+  "all": [
+   [
+    4070,
+    "Election Date: 11/3/2026",
+    "11/3/2026"
+   ]
+  ]
+ },
+ "clay": {
+  "code": "CLA",
+  "all": [
+   [
+    4086,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "general": 4086
+ },
+ "collier": {
+  "code": "CLL",
+  "all": [
+   [
+    4039,
+    "2026 Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4083,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4039,
+  "general": 4083
+ },
+ "columbia": {
+  "code": "CLM",
+  "all": [
+   [
+    4020,
+    "2026 Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4069,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4020,
+  "general": 4069
+ },
+ "desoto": {
+  "code": "DES",
+  "all": [
+   [
+    4094,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "general": 4094
+ },
+ "dixie": {
+  "code": "DIX",
+  "all": [
+   [
+    4125,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "general": 4125
+ },
+ "duval": {
+  "code": "DUV",
+  "all": [
+   [
+    4003,
+    "Election Date: 8/18/2026",
+    "8/18/2026"
+   ],
+   [
+    4053,
+    "Election Date: 8/10/2026",
+    "8/10/2026"
+   ],
+   [
+    4076,
+    "Election Date: 11/3/2026",
+    "11/3/2026"
+   ]
+  ]
+ },
+ "escambia": {
+  "code": "ESC",
+  "all": []
+ },
+ "flagler": {
+  "code": "FLA",
+  "all": [
+   [
+    4029,
+    "2026 Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4088,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4029,
+  "general": 4088
+ },
+ "franklin": {
+  "code": "FRA",
+  "all": [
+   [
+    4028,
+    "2026 Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4130,
+    "2026 General Election",
+    "11/5/2026"
+   ]
+  ],
+  "primary": 4028
+ },
+ "gadsden": {
+  "code": "GAD",
+  "all": [
+   [
+    4009,
+    "2026 Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4066,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4009,
+  "general": 4066
+ },
+ "gilchrist": {
+  "code": "GIL",
+  "all": []
+ },
+ "glades": {
+  "code": "GLA",
+  "all": [
+   [
+    4065,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "general": 4065
+ },
+ "gulf": {
+  "code": "GUL",
+  "all": [
+   [
+    4044,
+    "2026 Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4084,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4044,
+  "general": 4084
+ },
+ "hamilton": {
+  "code": "HAM",
+  "all": [
+   [
+    4019,
+    "Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4101,
+    "General Election",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4019,
+  "general": 4101
+ },
+ "hardee": {
+  "code": "HAR",
+  "all": [
+   [
+    4063,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "general": 4063
+ },
+ "hendry": {
+  "code": "HEN",
+  "all": [
+   [
+    4077,
+    "Election Date: 11/3/2026",
+    "11/3/2026"
+   ]
+  ]
+ },
+ "hernando": {
+  "code": "HER",
+  "all": [
+   [
+    4046,
+    "2026 Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4106,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4046,
+  "general": 4106
+ },
+ "highlands": {
+  "code": "HIG",
+  "all": [
+   [
+    4037,
+    "2026 Primary Election",
+    "8/18/2026"
+   ]
+  ],
+  "primary": 4037
+ },
+ "hillsborough": {
+  "code": "HIL",
+  "all": [
+   [
+    4002,
+    "2026 Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4074,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4002,
+  "general": 4074
+ },
+ "holmes": {
+  "code": "HOL",
+  "all": [
+   [
+    4040,
+    "Election Date: 8/18/2026",
+    "8/18/2026"
+   ]
+  ]
+ },
+ "indianriver": {
+  "code": "IND",
+  "all": [
+   [
+    4032,
+    "Official Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4096,
+    "Official General Election",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4032,
+  "general": 4096
+ },
+ "jackson": {
+  "code": "JAC",
+  "all": [
+   [
+    4048,
+    "2026 Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4118,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4048,
+  "general": 4118
+ },
+ "jefferson": {
+  "code": "JEF",
+  "all": [
+   [
+    4043,
+    "2026 Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4115,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4043,
+  "general": 4115
+ },
+ "lafayette": {
+  "code": "LAF",
+  "all": [
+   [
+    4033,
+    "2026 Primary Election",
+    "8/18/2026"
+   ]
+  ],
+  "primary": 4033
+ },
+ "lake": {
+  "code": "LAK",
+  "all": [
+   [
+    4079,
+    "Election Date: 11/3/2026",
+    "11/3/2026"
+   ]
+  ]
+ },
+ "lee": {
+  "code": "LEE",
+  "all": [
+   [
+    4025,
+    "Election Date: 8/18/2026",
+    "8/18/2026"
+   ]
+  ]
+ },
+ "leon": {
+  "code": "LEO",
+  "all": [
+   [
+    4072,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "general": 4072
+ },
+ "levy": {
+  "code": "LEV",
+  "all": [
+   [
+    4058,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "general": 4058
+ },
+ "liberty": {
+  "code": "LIB",
+  "all": [
+   [
+    4049,
+    "2026 Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4098,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4049,
+  "general": 4098
+ },
+ "madison": {
+  "code": "MAD",
+  "all": [
+   [
+    4008,
+    "2026 Madison County Primary Election",
+    "8/18/2026"
+   ]
+  ],
+  "primary": 4008
+ },
+ "manatee": {
+  "code": "MAN",
+  "all": [
+   [
+    4031,
+    "2026 Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4126,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4031,
+  "general": 4126
+ },
+ "marion": {
+  "code": "MRN",
+  "all": [
+   [
+    4007,
+    "2026 Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4099,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4007,
+  "general": 4099
+ },
+ "martin": {
+  "code": "MRT",
+  "all": []
+ },
+ "miamidade": {
+  "code": "DAD",
+  "all": [
+   [
+    4010,
+    "Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4087,
+    "General Election",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4010,
+  "general": 4087
+ },
+ "monroe": {
+  "code": "MON",
+  "all": [
+   [
+    4006,
+    "Monroe County 2026 Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4109,
+    "Election Date: 11/3/2026",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4006
+ },
+ "nassau": {
+  "code": "NAS",
+  "all": [
+   [
+    4021,
+    "2026 Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4080,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4021,
+  "general": 4080
+ },
+ "okaloosa": {
+  "code": "OKA",
+  "all": [
+   [
+    4026,
+    "2026 Primary Election",
+    "8/18/2026"
+   ]
+  ],
+  "primary": 4026
+ },
+ "okeechobee": {
+  "code": "OKE",
+  "all": [
+   [
+    4060,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "general": 4060
+ },
+ "orange": {
+  "code": "ORA",
+  "all": []
+ },
+ "osceola": {
+  "code": "OSC",
+  "all": []
+ },
+ "palmbeach": {
+  "code": "PAL",
+  "all": [
+   [
+    4035,
+    "2026 Primary Election",
+    "8/18/2026"
+   ]
+  ],
+  "primary": 4035
+ },
+ "pasco": {
+  "code": "PAS",
+  "all": [
+   [
+    4045,
+    "2026 Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4085,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4045,
+  "general": 4085
+ },
+ "pinellas": {
+  "code": "PIN",
+  "all": []
+ },
+ "polk": {
+  "code": "POL",
+  "all": [
+   [
+    4000,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "general": 4000
+ },
+ "putnam": {
+  "code": "PUT",
+  "all": [
+   [
+    4013,
+    "2026 Primary Election",
+    "8/18/2026"
+   ]
+  ],
+  "primary": 4013
+ },
+ "stjohns": {
+  "code": "STJ",
+  "all": [
+   [
+    4011,
+    "2026 Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4082,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4011,
+  "general": 4082
+ },
+ "stlucie": {
+  "code": "STL",
+  "all": [
+   [
+    4030,
+    "Election Date: 8/18/2026",
+    "8/18/2026"
+   ],
+   [
+    4089,
+    "Election Date: 11/3/2026",
+    "11/3/2026"
+   ]
+  ]
+ },
+ "santarosa": {
+  "code": "SAN",
+  "all": [
+   [
+    4036,
+    "2026 Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4093,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4036,
+  "general": 4093
+ },
+ "sarasota": {
+  "code": "SAR",
+  "all": [
+   [
+    4038,
+    "Primary Election 2026",
+    "8/18/2026"
+   ],
+   [
+    4105,
+    "General Election 2026",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4038,
+  "general": 4105
+ },
+ "seminole": {
+  "code": "SEM",
+  "all": []
+ },
+ "sumter": {
+  "code": "SUM",
+  "all": [
+   [
+    4056,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "general": 4056
+ },
+ "suwannee": {
+  "code": "SUW",
+  "all": [
+   [
+    4050,
+    "2026 Primary Election",
+    "8/18/2026"
+   ]
+  ],
+  "primary": 4050
+ },
+ "taylor": {
+  "code": "TAY",
+  "all": [
+   [
+    4018,
+    "2026 Primary Election",
+    "8/18/2026"
+   ]
+  ],
+  "primary": 4018
+ },
+ "union": {
+  "code": "UNI",
+  "all": []
+ },
+ "volusia": {
+  "code": "VOL",
+  "all": [
+   [
+    4004,
+    "2026 Primary Election",
+    "8/18/2026"
+   ]
+  ],
+  "primary": 4004
+ },
+ "wakulla": {
+  "code": "WAK",
+  "all": [
+   [
+    4128,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "general": 4128
+ },
+ "walton": {
+  "code": "WAL",
+  "all": [
+   [
+    4027,
+    "2026 Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4091,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4027,
+  "general": 4091
+ },
+ "washington": {
+  "code": "WAS",
+  "all": [
+   [
+    4034,
+    "2026 Primary Election",
+    "8/18/2026"
+   ],
+   [
+    4104,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "primary": 4034,
+  "general": 4104
+ }
+}
