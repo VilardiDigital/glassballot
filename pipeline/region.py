@@ -20,6 +20,7 @@ from .sources.filings import merge as merge_filings
 from .sources.dig import merge as merge_dig
 from .sources.impact import merge as merge_impact
 from .sources.funding import merge as merge_funding
+from .sources.results import merge as merge_results
 
 ROOT = Path(__file__).resolve().parents[1]
 _REG = json.loads((ROOT / "data" / "counties.json").read_text())["counties"]
@@ -41,6 +42,7 @@ def build_county(cid: str, accessed: str | None) -> dict | None:
     seed = merge_dig(seed, cid)
     seed = merge_impact(seed, cid)
     seed = merge_funding(seed, cid)
+    seed = merge_results(seed, cid)
     d = build(seed, None, accessed)
     # "We still need to open this page" is our work queue, not a problem with the public record.
     todo = [x for x in d["problems"] if x.get("kind") == "needs-browser-fetch"]

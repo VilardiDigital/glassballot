@@ -204,7 +204,7 @@ label.f span.h{font-weight:400;color:var(--muted);font-size:13px}
 .map a:hover path,.map a:focus path{fill:rgba(20,184,166,.55)}
 .map a.on path{fill:rgba(232,246,255,.42)}
 .map text{font-family:var(--head);font-weight:800;font-size:15px;fill:#fff;pointer-events:none;paint-order:stroke;stroke:rgba(11,61,145,.65);stroke-width:4px}
-.map a:focus{outline:none}.maplegend{display:flex;gap:16px;flex-wrap:wrap;margin:8px 0 0;font-size:13px;color:#DCE8FF}.maplegend span{display:inline-flex;align-items:center;gap:6px}.lg{width:14px;height:14px;border-radius:3px;display:inline-block;border:1px solid #fff}.lg.full{background:rgba(20,184,166,.8)}.lg.auto{background:rgba(232,246,255,.3)}.jobs{display:grid;gap:8px}@media (min-width:860px){.jobs{grid-template-columns:1fr 1fr}}.countysel{width:100%;max-width:340px;font:inherit;font-size:17px;padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.5);background:#fff;color:var(--char)}.map line.lead{stroke:rgba(255,255,255,.7);stroke-width:1}
+.map a:focus{outline:none}.results{display:grid;gap:8px;font-size:15px}.rlist{display:grid;gap:6px}.rlist li{display:grid;grid-template-columns:minmax(0,1fr) 30% 3.6em auto;gap:8px;align-items:center}.rb{height:8px;background:var(--light);border-radius:4px;overflow:hidden}.rb span{display:block;height:100%;background:var(--glass)}.rlist li:first-child .rb span{background:var(--civic)}.rlist a{display:inline;border:0;padding:0;background:none;box-shadow:none;font-weight:600}.maplegend{display:flex;gap:16px;flex-wrap:wrap;margin:8px 0 0;font-size:13px;color:#DCE8FF}.maplegend span{display:inline-flex;align-items:center;gap:6px}.lg{width:14px;height:14px;border-radius:3px;display:inline-block;border:1px solid #fff}.lg.full{background:rgba(20,184,166,.8)}.lg.auto{background:rgba(232,246,255,.3)}.jobs{display:grid;gap:8px}@media (min-width:860px){.jobs{grid-template-columns:1fr 1fr}}.countysel{width:100%;max-width:340px;font:inherit;font-size:17px;padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.5);background:#fff;color:var(--char)}.map line.lead{stroke:rgba(255,255,255,.7);stroke-width:1}
 .countylist{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}
 @media (max-width:859px){.mapwrap{display:flex;flex-direction:column}.mapwrap .countylist{order:-1;margin:0 0 6px}}
 .countylist .pick{grid-column:1/-1;font-family:var(--head);font-weight:700;color:#fff;font-size:15px}
@@ -654,13 +654,25 @@ views.ballot = () => {
   </div>`;
 };
 
+/* ---------- election night results ---------- */
+function resultsBlock(r, big) {
+  const x = r.results; if (!x || !x.total) return "";
+  const st = x.status === "official" ? "Official results" : "Unofficial results";
+  const prog = x.precincts ? `${x.reported} of ${x.precincts} precincts reporting` : "";
+  const top = x.candidates[0];
+  const head = x.counted ? (x.status === "official" ? `<b>Winner: ${esc((P[top.person] || top).name)}</b>` : `<b>${esc((P[top.person] || top).name)} leads with all precincts counted</b>`) : `<b>${esc((P[top.person] || top).name)} leads</b>`;
+  return `<div class="results${big ? " big" : ""}"><div class="between" style="gap:8px;flex-wrap:wrap">${head}<span class="tiny muted">${st}${prog ? " · " + prog : ""}</span></div>
+    <ul class="plain rlist">${x.candidates.map(c => `<li><span class="rn">${big && c.person && P[c.person] ? `<a href="${href("p/" + c.person)}">${esc(P[c.person].name)}</a>` : esc(c.person && P[c.person] ? P[c.person].name : c.name)}</span><span class="rb"><span style="width:${Math.max(1, c.pct)}%"></span></span><b class="num">${c.pct.toFixed(1)}%</b><span class="num muted small">${c.votes.toLocaleString()}</span></li>`).join("")}</ul>
+    <p class="tiny muted">${x.counted && x.status !== "official" ? "Every precinct is in, but counties keep counting mail and provisional ballots for several days, and results become official after the canvassing board certifies them. " : !x.counted ? "Still counting. We don't call races; the county does. " : ""}From the ${esc(C.county.name)} Supervisor of Elections.${big ? " " + srcLinks([x.source]) : ""}</p></div>`;
+}
+
 function raceCard(r) {
   const ppl = r.people.map(id => P[id]).filter(Boolean);
   const myp = (picks()[CK] || {})[r.id];
   return `<a class="race" href="${href("r/" + r.id)}">
     <div class="rh"><h3 class="h3" style="font-size:19px">${esc(r.title)}</h3><span class="small muted">Who votes: ${esc(whoVotes(r))}</span></div>
     <div class="rp">${ppl.map(p => `<div>${face(p)}<span class="stack-sm" style="gap:1px"><b style="font-family:var(--head);font-weight:700;color:var(--char)">${esc(p.name)}${myp === p.id ? " ✓" : ""}</b><span class="tiny muted">${statusText(p)}${partyOf(p) ? " · " + esc(partyOf(p)) : ""}</span></span></div>`).join("")}</div>
-    ${r.note ? `<p class="small muted" style="padding:12px 16px 0">${esc(r.note)}</p>` : ""}
+    ${r.results ? `<div style="padding:12px 16px 0">${resultsBlock(r, false)}</div>` : r.note ? `<p class="small muted" style="padding:12px 16px 0">${esc(r.note)}</p>` : ""}
     <span class="go">${ppl.length > 1 ? "Compare the candidates" : "See the candidate"}${myp ? " · You marked a choice" : ""}</span>
   </a>`;
 }
@@ -688,8 +700,9 @@ views.race = id => {
       <h1 class="h1">${esc(r.title)}</h1>
       <p class="lede">Who votes: ${esc(whoVotes(r))}.</p>
       <p class="job"><b>What the job does:</b> ${esc(jobLine(r))}${jobSrc(r)}</p>
-      ${r.note ? `<p class="notice">${esc(r.note)}</p>` : ""}
+      ${r.note && !r.results ? `<p class="notice">${esc(r.note)}</p>` : ""}
     </section>
+    ${r.results ? `<section class="panel stack" aria-labelledby="res"><h2 class="h2" id="res">Results</h2>${resultsBlock(r, true)}</section>` : ""}
     <section class="stack" aria-label="Candidates">
       <p class="small muted">Listed in alphabetical order by last name. We never rank or recommend candidates.${isSchool(r) ? " School board races are nonpartisan, so party isn't on the ballot." : ""}</p>
       <div class="cands">${ppl.slice().sort((a,b) => lastName(a).localeCompare(lastName(b))).map(p => {
