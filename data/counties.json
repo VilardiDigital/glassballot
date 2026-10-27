@@ -93,7 +93,7 @@
   },
   "alachua": {
    "name": "Alachua County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 104,
    "meetings": {
@@ -108,7 +108,7 @@
   },
   "baker": {
    "name": "Baker County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 105,
    "meetings": {
@@ -122,7 +122,7 @@
   },
   "bay": {
    "name": "Bay County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 106,
    "meetings": {
@@ -136,7 +136,7 @@
   },
   "bradford": {
    "name": "Bradford County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 107,
    "meetings": {
@@ -150,7 +150,7 @@
   },
   "brevard": {
    "name": "Brevard County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 108,
    "meetings": {
@@ -170,7 +170,7 @@
   },
   "broward": {
    "name": "Broward County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 109,
    "meetings": {
@@ -190,7 +190,7 @@
   },
   "calhoun": {
    "name": "Calhoun County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 110,
    "meetings": {
@@ -204,7 +204,7 @@
   },
   "charlotte": {
    "name": "Charlotte County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 111,
    "meetings": {
@@ -224,7 +224,7 @@
   },
   "citrus": {
    "name": "Citrus County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 112,
    "meetings": {
@@ -238,7 +238,7 @@
   },
   "clay": {
    "name": "Clay County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 113,
    "meetings": {
@@ -252,7 +252,7 @@
   },
   "collier": {
    "name": "Collier County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 114,
    "meetings": {
@@ -267,7 +267,7 @@
   },
   "columbia": {
    "name": "Columbia County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 115,
    "meetings": {
@@ -282,7 +282,7 @@
   },
   "desoto": {
    "name": "DeSoto County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 116,
    "meetings": {
@@ -302,7 +302,7 @@
   },
   "dixie": {
    "name": "Dixie County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 117,
    "meetings": {
@@ -316,7 +316,7 @@
   },
   "duval": {
    "name": "Duval County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 118,
    "meetings": {
@@ -331,7 +331,7 @@
   },
   "escambia": {
    "name": "Escambia County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 119,
    "meetings": {
@@ -346,7 +346,7 @@
   },
   "flagler": {
    "name": "Flagler County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 120,
    "meetings": {
@@ -361,7 +361,7 @@
   },
   "franklin": {
    "name": "Franklin County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 121,
    "meetings": {
@@ -375,7 +375,7 @@
   },
   "gadsden": {
    "name": "Gadsden County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 122,
    "meetings": {
@@ -390,7 +390,7 @@
   },
   "gilchrist": {
    "name": "Gilchrist County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 123,
    "meetings": {
@@ -404,7 +404,7 @@
   },
   "glades": {
    "name": "Glades County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 124,
    "meetings": {
@@ -418,7 +418,7 @@
   },
   "gulf": {
    "name": "Gulf County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 125,
    "meetings": {
@@ -432,7 +432,7 @@
   },
   "hamilton": {
    "name": "Hamilton County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 126,
    "meetings": {
@@ -446,7 +446,7 @@
   },
   "hardee": {
    "name": "Hardee County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 127,
    "meetings": {
@@ -461,7 +461,7 @@
   },
   "hendry": {
    "name": "Hendry County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 128,
    "meetings": {
@@ -475,7 +475,7 @@
   },
   "highlands": {
    "name": "Highlands County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 129,
    "meetings": {
@@ -490,7 +490,7 @@
   },
   "holmes": {
    "name": "Holmes County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 130,
    "meetings": {
@@ -504,7 +504,7 @@
   },
   "indianriver": {
    "name": "Indian River County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 131,
    "meetings": {
@@ -519,7 +519,7 @@
   },
   "jackson": {
    "name": "Jackson County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 132,
    "meetings": {
@@ -534,7 +534,7 @@
   },
   "jefferson": {
    "name": "Jefferson County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 133,
    "meetings": {
@@ -548,7 +548,7 @@
   },
   "lafayette": {
    "name": "Lafayette County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 134,
    "meetings": {
@@ -562,7 +562,7 @@
   },
   "lake": {
    "name": "Lake County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 135,
    "meetings": {
@@ -577,7 +577,7 @@
   },
   "lee": {
    "name": "Lee County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 136,
    "meetings": {
@@ -592,7 +592,7 @@
   },
   "leon": {
    "name": "Leon County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 137,
    "meetings": {
@@ -606,7 +606,7 @@
   },
   "levy": {
    "name": "Levy County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 138,
    "meetings": {
@@ -621,7 +621,7 @@
   },
   "liberty": {
    "name": "Liberty County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 139,
    "meetings": {
@@ -635,7 +635,7 @@
   },
   "madison": {
    "name": "Madison County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 140,
    "meetings": {
@@ -649,7 +649,7 @@
   },
   "manatee": {
    "name": "Manatee County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 141,
    "meetings": {
@@ -663,7 +663,7 @@
   },
   "marion": {
    "name": "Marion County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 142,
    "meetings": {
@@ -683,7 +683,7 @@
   },
   "martin": {
    "name": "Martin County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 143,
    "meetings": {
@@ -703,7 +703,7 @@
   },
   "miamidade": {
    "name": "Miami-Dade County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 144,
    "meetings": {
@@ -717,7 +717,7 @@
   },
   "monroe": {
    "name": "Monroe County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 145,
    "meetings": {
@@ -732,7 +732,7 @@
   },
   "nassau": {
    "name": "Nassau County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 146,
    "meetings": {
@@ -747,7 +747,7 @@
   },
   "okaloosa": {
    "name": "Okaloosa County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 147,
    "meetings": {
@@ -761,7 +761,7 @@
   },
   "okeechobee": {
    "name": "Okeechobee County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 148,
    "meetings": {
@@ -776,7 +776,7 @@
   },
   "orange": {
    "name": "Orange County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 149,
    "meetings": {
@@ -790,7 +790,7 @@
   },
   "osceola": {
    "name": "Osceola County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 150,
    "meetings": {
@@ -804,7 +804,7 @@
   },
   "palmbeach": {
    "name": "Palm Beach County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 151,
    "meetings": {
@@ -819,7 +819,7 @@
   },
   "polk": {
    "name": "Polk County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 152,
    "meetings": {
@@ -839,7 +839,7 @@
   },
   "putnam": {
    "name": "Putnam County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 153,
    "meetings": {
@@ -853,7 +853,7 @@
   },
   "stjohns": {
    "name": "St. Johns County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 154,
    "meetings": {
@@ -867,7 +867,7 @@
   },
   "stlucie": {
    "name": "St. Lucie County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 155,
    "meetings": {
@@ -882,7 +882,7 @@
   },
   "santarosa": {
    "name": "Santa Rosa County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 156,
    "meetings": {
@@ -897,7 +897,7 @@
   },
   "sarasota": {
    "name": "Sarasota County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 157,
    "meetings": {
@@ -911,7 +911,7 @@
   },
   "seminole": {
    "name": "Seminole County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 158,
    "meetings": {
@@ -931,7 +931,7 @@
   },
   "sumter": {
    "name": "Sumter County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 159,
    "meetings": {
@@ -945,7 +945,7 @@
   },
   "suwannee": {
    "name": "Suwannee County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 160,
    "meetings": {
@@ -960,7 +960,7 @@
   },
   "taylor": {
    "name": "Taylor County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 161,
    "meetings": {
@@ -975,7 +975,7 @@
   },
   "union": {
    "name": "Union County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 162,
    "meetings": {
@@ -989,7 +989,7 @@
   },
   "volusia": {
    "name": "Volusia County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 163,
    "meetings": {
@@ -1003,7 +1003,7 @@
   },
   "wakulla": {
    "name": "Wakulla County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 164,
    "meetings": {
@@ -1017,7 +1017,7 @@
   },
   "walton": {
    "name": "Walton County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 165,
    "meetings": {
@@ -1031,7 +1031,7 @@
   },
   "washington": {
    "name": "Washington County",
-   "live": false,
+   "live": true,
    "auto": true,
    "order": 166,
    "meetings": {

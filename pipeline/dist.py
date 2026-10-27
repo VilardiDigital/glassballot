@@ -31,7 +31,7 @@ HEAD = f"""<!doctype html>
 <meta name="theme-color" content="#0B3D91">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Glass Ballot">
-<meta property="og:title" content="Glass Ballot: know who you're voting for">
+<meta property="og:title" content="Glass Ballot: every Florida local race, every vote, every dollar">
 <meta property="og:description" content="{DESC}">
 <meta property="og:url" content="{SITE}/">
 <meta property="og:image" content="{SITE}/og.png">
@@ -58,7 +58,7 @@ p{margin:0;font-size:30px;color:#DCE8FF;line-height:1.35;font-family:Inter,syste
 .box img{width:250px}
 </style></head><body><div class="w"><div>
 <div class="b">Glass<b>Ballot</b><i>.org</i></div>
-<h1>Know who you're voting for.</h1>
+<h1>Every Florida local race. Every vote. Every dollar.</h1>
 <p>How your county commissioners and school board members vote, who pays for their campaigns, and what they promised. In plain English, with a source for every fact.</p>
 <div class="t">NONPARTISAN. SOURCED. FREE.</div></div>
 <div class="box"><img src="assets/logo-box.png"></div></div></body></html>"""

@@ -175,11 +175,11 @@ label.f span.h{font-weight:400;color:var(--muted);font-size:13px}
 @media (max-width:859px){.map{max-height:300px}}
 .map g.soon path{fill:rgba(232,246,255,.06);stroke:rgba(232,246,255,.3);stroke-width:.8}
 .map g.soon text{fill:#A9C8FF;font-size:14px}
-.map a path{fill:rgba(20,184,166,.45);stroke:#fff;stroke-width:1.2;transition:fill .15s}
+.map a.auto path{fill:rgba(232,246,255,.22);stroke:rgba(255,255,255,.7);stroke-width:.8}.map a path{fill:rgba(20,184,166,.6);stroke:#fff;stroke-width:1.2;transition:fill .15s}
 .map a:hover path,.map a:focus path{fill:rgba(20,184,166,.55)}
 .map a.on path{fill:rgba(232,246,255,.42)}
 .map text{font-family:var(--head);font-weight:800;font-size:15px;fill:#fff;pointer-events:none;paint-order:stroke;stroke:rgba(11,61,145,.65);stroke-width:4px}
-.map a:focus{outline:none}.countysel{width:100%;max-width:340px;font:inherit;font-size:17px;padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.5);background:#fff;color:var(--char)}.map line.lead{stroke:rgba(255,255,255,.7);stroke-width:1}
+.map a:focus{outline:none}.maplegend{display:flex;gap:16px;flex-wrap:wrap;margin:8px 0 0;font-size:13px;color:#DCE8FF}.maplegend span{display:inline-flex;align-items:center;gap:6px}.lg{width:14px;height:14px;border-radius:3px;display:inline-block;border:1px solid #fff}.lg.full{background:rgba(20,184,166,.8)}.lg.auto{background:rgba(232,246,255,.3)}.jobs{display:grid;gap:8px}@media (min-width:860px){.jobs{grid-template-columns:1fr 1fr}}.countysel{width:100%;max-width:340px;font:inherit;font-size:17px;padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.5);background:#fff;color:var(--char)}.map line.lead{stroke:rgba(255,255,255,.7);stroke-width:1}
 .countylist{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}
 @media (max-width:859px){.mapwrap{display:flex;flex-direction:column}.mapwrap .countylist{order:-1;margin:0 0 6px}}
 .countylist .pick{grid-column:1/-1;font-family:var(--head);font-weight:700;color:#fff;font-size:15px}
@@ -503,10 +503,12 @@ function mapSvg(active) {
   const live = Object.entries(m.c).filter(([k]) => COUNTIES[k]);
   return `<svg class="map" viewBox="0 0 ${m.w} ${m.h}" role="img" aria-label="Map of Florida's 67 counties. We cover ${live.map(([k]) => esc(cname(k))).join(", ")} so far.">
     <g class="soon">${Object.entries(m.c).filter(([k]) => !COUNTIES[k]).map(([k, c]) => `<path d="${c.d}"><title>${esc(c.name)} County: coming soon</title></path>`).join("")}</g>
-    ${live.map(([k, c]) => `<a href="#/${k}" class="${k === active ? "on" : ""}" aria-label="${esc(COUNTIES[k].county.name)}"><path d="${c.d}"/></a>`).join("")}
+    ${live.map(([k, c]) => `<a href="#/${k}" class="${[k === active ? "on" : "", COUNTIES[k].county.auto ? "auto" : "full"].join(" ")}" aria-label="${esc(COUNTIES[k].county.name)}"><path d="${c.d}"><title>${esc(COUNTIES[k].county.name)}</title></path></a>`).join("")}
     ${(() => { // labels in a column to the left, spaced apart, with a thin line to each county
-      const col = Math.min(...live.map(([, c]) => c.x)) - 34; let lastY = -99;
-      return live.slice().sort((a, b) => a[1].y - b[1].y).map(([k, c]) => { const y = Math.max(c.y, lastY + 19); lastY = y;
+      const lab = live.filter(([k]) => !COUNTIES[k].county.auto);
+      if (lab.length > 8) return "";
+      const col = Math.min(...lab.map(([, c]) => c.x)) - 34; let lastY = -99;
+      return lab.slice().sort((a, b) => a[1].y - b[1].y).map(([k, c]) => { const y = Math.max(c.y, lastY + 19); lastY = y;
         return `<line x1="${col + 3}" y1="${y - 5}" x2="${c.x}" y2="${c.y}" class="lead"/><text x="${col}" y="${y}" text-anchor="end">${esc(cname(k))}</text>`; }).join(""); })()}
   </svg>`;
 }
@@ -519,8 +521,8 @@ views.home = () => {
   return `<div class="stack-lg view">
     <section class="hero">
       <div class="stack" style="gap:14px">
-        <h1>What's on your ballot, in plain English</h1>
-        <p>The races for county commission and school board ${ORDER.length > 4 ? `in all ${ORDER.length} Florida counties we cover` : `in ${ORDER.map(cname).join(", ").replace(/, ([^,]*)$/, " and $1")}`}. Who's running, what the job does, how the people in office have voted, and who is paying for each campaign. All of it comes from public records you can check yourself.</p>
+        <h1>Every Florida local race. Every vote. Every dollar.</h1>
+        <p>See how your county commissioners and school board members have voted, who funds their campaigns and what they promised. In plain English, with a source for every fact.</p>
         <form class="stack-sm" id="zipForm" autocomplete="off">
           <label for="zipIn" style="font-weight:700;color:#fff">Start with your ZIP code</label>
           <div class="zip"><input id="zipIn" inputmode="numeric" pattern="[0-9]{5}" maxlength="5" placeholder="33701" aria-describedby="zipMsg"><button class="btn" type="submit">Show my ballot</button></div>
@@ -536,6 +538,7 @@ views.home = () => {
           ${auto.length ? `<label class="small" for="countySel" style="color:#DCE8FF;display:block;margin:12px 0 6px">Every other county (early automatic versions):</label>
           <select id="countySel" class="countysel" onchange="if(this.value) location.hash='#/'+this.value"><option value="">Choose a county</option>${auto.slice().sort((a, b) => cname(a).localeCompare(cname(b))).map(k => `<option value="${k}">${esc(cname(k))}</option>`).join("")}</select>` : ""}`; })()}
         ${mapSvg(store.get("gb-county"))}
+        <p class="maplegend"><span><i class="lg full"></i>Full guide</span><span><i class="lg auto"></i>Early version, official records only</span></p>
       </div>
     </section>
 
@@ -591,7 +594,7 @@ views.ballot = () => {
   const heads = C.votes.filter(v => v.fileNumber || v.inShort).slice(0, 4);
   const lookup = (HTV.counties[CK] || {}).pollingPlaceUrl || C.county.lookupUrl;
   return `<div class="stack-lg view">
-    ${band(`${esc(C.county.name)}, Florida`, `Your ${esc(cname(CK))} County ballot`, `${live.length} local race${live.length === 1 ? "" : "s"} on the Nov 3 ballot. ${edayLine()}`, COUNTY_IMG[CK] || "09-town-square",
+    ${band(`${esc(C.county.name)}, Florida${C.county.auto ? ' <span class="pill" style="margin-left:6px">Early version</span>' : ""}`, `Your ${esc(cname(CK))} County ballot`, `${live.length} local race${live.length === 1 ? "" : "s"} on the Nov 3 ballot${(() => { const d = daysLeft(); return d > 1 ? `, ${d} days from now` : d === 1 ? ", tomorrow" : d === 0 ? ", today" : ""; })()}.`, COUNTY_IMG[CK] || "09-town-square",
       `<div class="row noprint"><a class="btn primary" href="${href("vote")}">When and where to vote</a>${nPicked ? `<a class="btn" href="${href("mylist")}">My list (${nPicked} of ${live.length})</a>` : ""}</div>`)}
 
     ${C.county.auto ? autoNotice() : ""}
@@ -608,7 +611,8 @@ views.ballot = () => {
     <section class="stack" aria-labelledby="races">
       <h2 class="h2" id="races"><span class="stepn">${dists.length ? 2 : 1}</span>The races on your ballot</h2>
       ${pick && !live.some(r => /^bcc/.test(r.id) && !isCountywide(r) && raceDistrict(r) === mine) ? `<p class="notice">There's no District ${esc(mine)} commission race this year. You still vote in the countywide races below.</p>` : ""}
-      ${races.length ? `<div class="grid">${races.map(raceCard).join("")}</div>` : `<p class="notice">We don't have races loaded for this county yet.</p>`}
+      ${races.length ? `<div class="jobs">${[["bcc", "County commission"], ["sb", "School board"]].filter(([k]) => races.some(r => r.id.startsWith(k))).map(([k, n]) => { const r = races.find(x => x.id.startsWith(k)); return `<p class="job"><b>${n}:</b> ${esc(jobLine(r))}</p>`; }).join("")}</div>
+        <div class="grid">${races.map(raceCard).join("")}</div>` : `<p class="notice">We don't have races loaded for this county yet.</p>`}
       <p class="small muted">We cover county commission and school board races. Your full ballot also has federal, state and city races and ballot questions. Your <a href="${esc(lookup || "#")}" target="_blank" rel="noopener">sample ballot</a> shows all of them.</p>
     </section>
 
@@ -630,7 +634,6 @@ function raceCard(r) {
   const myp = (picks()[CK] || {})[r.id];
   return `<a class="race" href="${href("r/" + r.id)}">
     <div class="rh"><h3 class="h3" style="font-size:19px">${esc(r.title)}</h3><span class="small muted">Who votes: ${esc(whoVotes(r))}</span></div>
-    <p class="job" style="margin:12px 16px 0"><b>What the job does:</b> ${esc(jobLine(r))}</p>
     <div class="rp">${ppl.map(p => `<div>${face(p)}<span class="stack-sm" style="gap:1px"><b style="font-family:var(--head);font-weight:700;color:var(--char)">${esc(p.name)}${myp === p.id ? " ✓" : ""}</b><span class="tiny muted">${statusText(p)}${partyOf(p) ? " · " + esc(partyOf(p)) : ""}</span></span></div>`).join("")}</div>
     ${r.note ? `<p class="small muted" style="padding:12px 16px 0">${esc(r.note)}</p>` : ""}
     <span class="go">${ppl.length > 1 ? "Compare the candidates" : "See the candidate"}${myp ? " · You marked a choice" : ""}</span>
@@ -844,7 +847,7 @@ views.person = id => {
       <div class="stack-sm" style="min-width:0">
         <h1 class="h1">${esc(p.name)}</h1>
         <p class="lede" style="font-size:17px">${esc(p.office)}${p.district ? `, District ${esc(p.district)}` : ""}${partyOf(p) ? ` · ${esc(partyOf(p))}` : ""}</p>
-        <div class="row">${race ? `<a class="pill blue" href="${href("r/" + race.id)}" style="text-decoration:none">On your Nov 3 ballot</a>` : ""}<span class="pill">${statusText(p)}</span></div>
+        <div class="row">${race ? `<a class="pill blue" href="${href("r/" + race.id)}" style="text-decoration:none">On your Nov 3 ballot</a>` : ""}<span class="pill">${statusText(p)}</span>${C.county.auto ? '<span class="pill">Early version: official records only</span>' : ""}</div>
       </div>
     </section>
     ${glance(p)}
@@ -887,7 +890,6 @@ views.person = id => {
 
     ${trackRecord(p, fn)}
 
-    ${scoreCard(p)}
 
     <details class="more panel"><summary>Every source used on this page (${allSources.length})</summary>
       <div class="list" style="border-radius:14px;margin-top:8px">${allSources.map(id => `<a href="${href("s/" + id)}"><span class="src" style="border:0;padding:0"><span class="t t${S[id].tier}">${S[id].tier}</span></span><span class="body"><span class="title small">${esc(S[id].title)}</span><span class="tiny muted">${esc(S[id].publisher)} · ${esc(TIERS[S[id].tier]?.[0] || "")}</span></span>${chev}</a>`).join("")}</div>
@@ -929,7 +931,9 @@ function fundingBlock(p, fid) {
       ${rest.length ? `<details class="more"><summary>Gifts we couldn't group (${usd(rest.reduce((a,x)=>a+x.amount,0))})</summary><div class="fsectors">${rest.map(sectorRow).join("")}</div></details>` : ""}` : ""}
     ${f.committees.length ? `<h3 class="h3" style="margin-top:8px">Political committees (PACs) that gave</h3>
       <p class="small muted">A political committee pools money from people, companies and other committees, then gives it to candidates. Like everyone else, it can give a county candidate up to $1,000 per election. Its name often doesn't say who's behind it, and the county's reports cut long names short; the state's committee records list each committee's own donors. <a href="#/money">How this works</a></p>
-      <ul class="plain stack-sm">${f.committees.map(c => `<li class="fcom"><span><b>${esc(c.name)}</b><br><span class="tiny muted">${kinds[c.kind] || c.kindLabel}</span></span><b class="num">${usd(c.amount)}</b></li>`).join("")}</ul>
+      ${(() => { const li = c => `<li class="fcom"><span><b>${esc(c.name)}</b><br><span class="tiny muted">${kinds[c.kind] || c.kindLabel}</span></span><b class="num">${usd(c.amount)}</b></li>`;
+        return `<ul class="plain stack-sm">${f.committees.slice(0, 5).map(li).join("")}</ul>${f.committees.length > 5 ? `<details class="more"><summary>Show all ${f.committees.length} committees (${usd(f.committees.reduce((a, c) => a + c.amount, 0))} in total)</summary><ul class="plain stack-sm" style="margin-top:8px">${f.committees.slice(5).map(li).join("")}</ul></details>` : ""}`; })()}
+
       <a class="small" href="https://dos.elections.myflorida.com/committees/" target="_blank" rel="noopener">Look up any Florida committee's donors (Florida Division of Elections)</a>` : ""}
     ${f.parties.length ? `<p class="small"><b>Political party money:</b> ${f.parties.map(x => `${esc(x.name)} ${usd(x.amount)}`).join("; ")}.</p>` : ""}
     ${f.sharedAddress.length ? `<h3 class="h3" style="margin-top:8px">Companies giving from the same address</h3>
