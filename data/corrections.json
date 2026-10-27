@@ -61,5 +61,38 @@
    "bn9-zoo"
   ],
   "county": "hillsborough"
+ },
+ {
+  "date": "2026-10-27",
+  "county": "pinellas",
+  "subject": "Pinellas event funding vote (MLK Dream Parade)",
+  "before": "Raised tourist tax funding for 49 local events to $2.76 million",
+  "after": "The vote let the parade's existing $65,000 also cover the Collard Green Festival; it added no new money",
+  "why": "Checked against the county's agenda record.",
+  "sources": [
+   "legistar"
+  ]
+ },
+ {
+  "date": "2026-10-27",
+  "county": "pinellas",
+  "subject": "Pinellas airport rental car contracts",
+  "before": "Worth about $8.5 million to $10.4 million",
+  "after": "Staff estimated $28.2 million in revenue over 60 months",
+  "why": "Checked against the county's staff report.",
+  "sources": [
+   "legistar"
+  ]
+ },
+ {
+  "date": "2026-10-27",
+  "county": "hernando",
+  "subject": "Hernando fire rescue assessment",
+  "before": "Described only as changing rates",
+  "after": "Per-home rate went down ($345.260 to $337.024); vacant land and the base fee went up",
+  "why": "Checked against Resolution 2025-120.",
+  "sources": [
+   "legistar"
+  ]
  }
 ]

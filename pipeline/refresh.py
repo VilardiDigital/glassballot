@@ -126,7 +126,7 @@ def refresh_legistar(county: str, today: str) -> str:
            "totals": {"meetings": len(events), "meetingsWithRollCalls": len({e["EventId"] for (e, i), vs in zip(acted, votes) if vs}),
                       "items": len(acted), "rollCalls": sum(1 for v in votes if v), "splitRollCalls": len(split)},
            "stats": stats, "splitVotes": keep,
-           "meetingUrls": {**old.get("meetingUrls", {}), **{str(e["EventId"]): e.get("EventInSiteURL") for e in events if e.get("EventInSiteURL")}}}
+           "meetingUrls": {**old.get("meetingUrls", {}), **{str(e["EventId"]): (f"https://{client}.legistar.com/MeetingDetail.aspx?ID={e['EventId']}&GUID={e['EventGuid']}" if e.get("EventGuid") else e.get("EventInSiteURL")) for e in events if e.get("EventGuid") or e.get("EventInSiteURL")}}}
     sp.write_text(json.dumps(out, indent=1, ensure_ascii=False))
     new = [s for s in keep if s["item"] not in curated]
     return f"{county} Legistar: {out['totals']['rollCalls']} roll calls, {len(new)} new split votes awaiting review"
