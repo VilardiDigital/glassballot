@@ -109,8 +109,16 @@ def merge(seed: dict, county: str) -> dict:
                 chk = checks.get((pid, kind, idx))
                 if chk and chk.get("verdict") == "drop":
                     continue
+                # A quote we could not check against its source stays off the site until someone does.
+                if chk and chk.get("verdict") == "unreachable" and '"' in json.dumps(it.get("value", "") if isinstance(it, dict) else it):
+                    continue
                 if chk and chk.get("verdict") == "fix" and chk.get("fix") and isinstance(it, dict):
-                    it = {**it, "value": chk["fix"]}
+                    fx = chk["fix"]
+                    try:
+                        fx = json.loads(fx)
+                    except Exception:
+                        pass
+                    it = {**it, **{k: v for k, v in fx.items() if v is not None}} if isinstance(fx, dict) else {**it, "value": fx}
                 src = it.get("source") if isinstance(it, dict) else None
                 note = (it.get("note") or "") if isinstance(it, dict) else ""
                 if not src or (isinstance(it, dict) and it.get("caution")) or src in SKIP_SOURCES or src not in seed["sources"] or any(w in note.lower() for w in SKIP_WORDS):

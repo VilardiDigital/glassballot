@@ -698,12 +698,38 @@ function agreement(bcc) {
   const split = C.votes.filter(v => v.split);
   if (split.length < 5) return "";
   const side = (v, id) => { const r = rollOf(v) || {}; if ((r.yes||[]).includes(id)) return "y"; if ((r.no||[]).includes(id)) return "n"; return null; };
-  const pct = (a, b) => { let same = 0, both = 0; split.forEach(v => { const x = side(v,a), y = side(v,b); if (x && y) { both++; if (x === y) same++; } }); return both ? Math.round(100*same/both) : null; };
+  const pairStat = (a, b) => { let same = 0, both = 0; split.forEach(v => { const x = side(v,a), y = side(v,b); if (x && y) { both++; if (x === y) same++; } }); return {same, both, pct: both ? Math.round(100*same/both) : null}; };
+  // A vote "decided" the outcome if switching it alone would have flipped the result (ties fail).
+  const per = bcc.map(p => {
+    let won = 0, lost = 0, decided = 0, cast = 0;
+    split.forEach(v => {
+      const r = rollOf(v) || {}; const y = (r.yes||[]).length, n = (r.no||[]).length, me = side(v, p.id);
+      if (!me) return; cast++;
+      const passed = y > n, onWin = (me === "y") === passed;
+      onWin ? won++ : lost++;
+      if (onWin && (passed ? y - n <= 2 : n - y <= 1)) decided++;
+    });
+    return {p, won, lost, decided, cast};
+  });
+  const pairs = [];
+  bcc.forEach((a, i) => bcc.slice(i + 1).forEach(b => { const st = pairStat(a.id, b.id); if (st.both >= 5) pairs.push({a, b, ...st}); }));
+  pairs.sort((x, y) => y.pct - x.pct);
+  const close = pairs.slice(0, 2), far = pairs.length ? pairs[pairs.length - 1] : null;
+  const ballot = per.filter(x => x.p.race);
+  const nm = p => esc(p.name);
   const head = bcc.map(p => `<th scope="col">${esc(lastName(p))}</th>`).join("");
-  const rows = bcc.map(a => `<tr><th scope="row">${esc(a.name)}</th>${bcc.map(b => { if (a.id === b.id) return `<td class="muted">·</td>`; const n = pct(a.id,b.id); return `<td class="num" style="font-weight:${n >= 75 ? 700 : 400};color:${n >= 75 ? "var(--civic)" : "inherit"}">${n == null ? "–" : n + "%"}</td>`; }).join("")}</tr>`).join("");
-  return `<details class="more panel"><summary>Who tends to vote together?</summary>
-    <p class="small muted" style="margin:8px 0">On the ${split.length} votes where commissioners disagreed, how often each pair voted the same way. Votes where everyone agreed are left out.</p>
-    <div class="tablewrap"><table style="min-width:640px"><thead><tr><th scope="col"><span class="sr">Commissioner</span></th>${head}</tr></thead><tbody>${rows}</tbody></table></div></details>`;
+  const rows = bcc.map(a => `<tr><th scope="row">${esc(a.name)}</th>${bcc.map(b => { if (a.id === b.id) return `<td class="muted">·</td>`; const n = pairStat(a.id,b.id).pct; return `<td class="num" style="font-weight:${n >= 75 ? 700 : 400};color:${n >= 75 ? "var(--civic)" : "inherit"}">${n == null ? "–" : n + "%"}</td>`; }).join("")}</tr>`).join("");
+  return `<section class="panel stack" aria-labelledby="vt"><h2 class="h2" id="vt">Who votes with whom, and why it matters to you</h2>
+    <p>Most items pass with everyone agreeing. The ${split.length} votes where commissioners split are where your choice of commissioner actually changes what the county does. It takes ${Math.floor(bcc.length / 2) + 1} of ${bcc.length} votes to pass anything.</p>
+    ${ballot.length ? `<div class="panel stack-sm" style="background:var(--light);border:0"><h3 class="h3">The seat${ballot.length > 1 ? "s" : ""} on your ballot</h3>${ballot.map(x => `<p><b>${nm(x.p)}</b>${x.p.district ? ` (District ${esc(x.p.district)})` : ""} cast the vote that decided the outcome on <b class="num">${x.decided}</b> of these ${split.length} split votes. If that seat had voted the other way, those decisions would have gone the other way.</p>`).join("")}<p class="small muted">Whoever wins ${ballot.length > 1 ? "these seats inherits" : "this seat inherits"} that weight.</p></div>` : ""}
+    ${close.length ? `<p><b>Most often on the same side:</b> ${close.map(x => `${nm(x.a)} and ${nm(x.b)} (${x.pct}% of ${x.both} split votes)`).join("; ")}.${far && far.pct < 60 ? ` <b>Least often:</b> ${nm(far.a)} and ${nm(far.b)} (${far.pct}%).` : ""}</p>` : ""}
+    <div class="tablewrap"><table><thead><tr><th scope="col">Commissioner</th><th scope="col">On the winning side</th><th scope="col">On the losing side</th><th scope="col">Their vote decided it</th></tr></thead>
+      <tbody>${per.map(x => `<tr><th scope="row"><a href="${href("p/" + x.p.id)}">${nm(x.p)}</a></th><td class="num">${x.won}</td><td class="num">${x.lost}</td><td class="num">${x.decided}</td></tr>`).join("")}</tbody></table></div>
+    <p class="small muted">"Their vote decided it" means switching that one vote would have flipped the result. A tie fails. Voting together is not a sign of a deal; people who share views vote alike. Counts cover the split votes we have loaded, listed on the votes page.</p>
+    <details class="more"><summary>See every pair</summary>
+      <p class="small muted" style="margin:8px 0">How often each pair voted the same way on the ${split.length} split votes.</p>
+      <div class="tablewrap"><table style="min-width:640px"><thead><tr><th scope="col"><span class="sr">Commissioner</span></th>${head}</tr></thead><tbody>${rows}</tbody></table></div></details>
+  </section>`;
 }
 
 views.officials = () => {
