@@ -17,6 +17,7 @@ from .build import build
 from .sources.legistar_summary import merge as merge_summary
 from .sources.money import merge as merge_money
 from .sources.filings import merge as merge_filings
+from .sources.dig import merge as merge_dig
 
 ROOT = Path(__file__).resolve().parents[1]
 ORDER = ["pinellas", "hillsborough", "pasco", "hernando"]  # rough size order for the picker
@@ -34,6 +35,7 @@ def build_county(cid: str, accessed: str | None) -> dict | None:
     if money.exists():
         seed = merge_money(seed, json.loads(money.read_text()))
     seed = merge_filings(seed, cid)
+    seed = merge_dig(seed, cid)
     d = build(seed, None, accessed)
     # "We still need to open this page" is our work queue, not a problem with the public record.
     todo = [x for x in d["problems"] if x.get("kind") == "needs-browser-fetch"]

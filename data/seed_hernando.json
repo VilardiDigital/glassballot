@@ -283,6 +283,12 @@
    "publisher": "Jeff Holcomb campaign",
    "tier": 5,
    "accessed": "2026-10-26"
+  },
+  "bp-holcomb": {
+   "title": "Jeff Holcomb (Florida)",
+   "url": "https://ballotpedia.org/Jeff_Holcomb_(Florida)",
+   "publisher": "Ballotpedia",
+   "tier": 3
   }
  },
  "people": [
@@ -655,6 +661,12 @@
      {
       "value": "Current State Representative, District 53 (term ends Nov 2026)",
       "source": "tbb-qualify"
+     }
+    ],
+    "pastOffice": [
+     {
+      "value": "Hernando County Commission, District 4 (2014 to 2022); Florida House, District 53 (2022 to 2026)",
+      "source": "bp-holcomb"
      }
     ]
    },

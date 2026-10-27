@@ -3,7 +3,9 @@
   "name": "Tampa Bay",
   "state": "FL",
   "electionDate": "2026-11-03",
-  "updated": "2026-10-27"
+  "updated": "2026-10-27",
+  "refreshLog": [],
+  "refreshErrors": []
  },
  "order": [
   "pinellas",
@@ -13049,12 +13051,458 @@
      "tier": 5,
      "accessed": "2026-10-26"
     },
+    "bp-holcomb": {
+     "title": "Jeff Holcomb (Florida)",
+     "url": "https://ballotpedia.org/Jeff_Holcomb_(Florida)",
+     "publisher": "Ballotpedia",
+     "tier": 3
+    },
     "ethics-efdms": {
      "title": "Florida Commission on Ethics, financial disclosure public search",
      "url": "https://disclosure.floridaethics.gov/PublicSearch/Filings",
      "publisher": "Florida Commission on Ethics",
      "tier": 1,
      "accessed": "2026-10-27"
+    },
+    "enr-2016p": {
+     "title": "2016 Primary Election summary results",
+     "url": "https://enr.electionsfl.org/HER/1558/Summary/",
+     "publisher": "Hernando Supervisor of Elections (Election Night Reporting)",
+     "tier": 1,
+     "accessed": "2016-08-30"
+    },
+    "enr-2016g": {
+     "title": "2016 General Election summary results",
+     "url": "https://enr.electionsfl.org/HER/1623/Summary/",
+     "publisher": "Hernando Supervisor of Elections (Election Night Reporting)",
+     "tier": 1,
+     "accessed": "2016-11-08"
+    },
+    "soe-2018g": {
+     "title": "2018 General Election official summary report",
+     "url": "https://www.hernandovotes.com/Portals/Hernando/HER%202018%20General%20Official%20Summary%20Report.pdf",
+     "publisher": "Hernando Supervisor of Elections",
+     "tier": 1,
+     "accessed": "2018-11-06"
+    },
+    "enr-2020p": {
+     "title": "2020 Primary Election summary results",
+     "url": "https://enr.electionsfl.org/HER/2685/Summary/",
+     "publisher": "Hernando Supervisor of Elections (Election Night Reporting)",
+     "tier": 1,
+     "accessed": "2020-08-18"
+    },
+    "enr-2020g": {
+     "title": "2020 General Election summary results",
+     "url": "https://enr.electionsfl.org/HER/2777/Summary/",
+     "publisher": "Hernando Supervisor of Elections (Election Night Reporting)",
+     "tier": 1,
+     "accessed": "2020-11-03"
+    },
+    "enr-2022p": {
+     "title": "2022 Primary Election summary results",
+     "url": "https://enr.electionsfl.org/HER/3186/Summary/",
+     "publisher": "Hernando Supervisor of Elections (Election Night Reporting)",
+     "tier": 1,
+     "accessed": "2022-08-23"
+    },
+    "enr-2022g": {
+     "title": "2022 General Election summary results",
+     "url": "https://enr.electionsfl.org/HER/Summary/3268/",
+     "publisher": "Hernando Supervisor of Elections (Election Night Reporting)",
+     "tier": 1,
+     "accessed": "2022-11-08"
+    },
+    "enr-2024p": {
+     "title": "2024 Primary Election summary results",
+     "url": "https://enr.electionsfl.org/HER/3620/Summary/",
+     "publisher": "Hernando Supervisor of Elections (Election Night Reporting)",
+     "tier": 1,
+     "accessed": "2024-08-20"
+    },
+    "enr-2024g": {
+     "title": "2024 General Election summary results",
+     "url": "https://enr.electionsfl.org/HER/Summary/3737/",
+     "publisher": "Hernando Supervisor of Elections (Election Night Reporting)",
+     "tier": 1,
+     "accessed": "2024-11-05"
+    },
+    "hc-d5": {
+     "title": "Commissioner Steve Champion, District 5",
+     "url": "https://www.hernandocounty.us/departments/departments-a-e/board-of-county-commission/district-5",
+     "publisher": "Hernando County",
+     "tier": 1
+    },
+    "legistar-2023-03-28": {
+     "title": "Board of County Commissioners minutes, Mar 28, 2023",
+     "url": "https://hernandocountyfl.legistar.com/View.ashx?GUID=49C4FB97-A775-4A82-80C4-D2BD581B2B17&ID=1057217&M=M",
+     "publisher": "Hernando County Board of County Commissioners",
+     "tier": 1,
+     "accessed": "2023-03-28"
+    },
+    "legistar-2024-11-19": {
+     "title": "Board of County Commissioners minutes, Nov 19, 2024 (accessible version)",
+     "url": "https://hernandocountyfl.legistar.com/View.ashx?GUID=29E7CE2B-DE4A-4798-A312-99FDB95E9546&ID=1180661&M=MADA",
+     "publisher": "Hernando County Board of County Commissioners",
+     "tier": 1,
+     "accessed": "2024-11-19"
+    },
+    "legistar-2024-11-19-pdf": {
+     "title": "Board of County Commissioners minutes, Nov 19, 2024 (PDF)",
+     "url": "https://hernandocountyfl.legistar.com/View.ashx?GUID=AAF95AB1-6598-4FA1-9360-34EC7E851E31&ID=14112151&M=F",
+     "publisher": "Hernando County Board of County Commissioners",
+     "tier": 1,
+     "accessed": "2024-11-19"
+    },
+    "coe-dec24": {
+     "title": "Florida Commission on Ethics press release, December 2024 meeting",
+     "url": "https://ethics.state.fl.us/Documents/Ethics/PressReleases/Dec24pres.pdf?cp=2025116",
+     "publisher": "Florida Commission on Ethics",
+     "tier": 1,
+     "accessed": "2024-12-11"
+    },
+    "flgov-mitten": {
+     "title": "Governor Ron DeSantis Appoints John Mitten to the Hernando County Board of County Commissioners",
+     "url": "https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-appoints-john-mitten-hernando-county-board-county",
+     "publisher": "Executive Office of the Governor",
+     "tier": 1,
+     "accessed": "2026-07-31"
+    },
+    "flsenate-hb773-2023": {
+     "title": "CS/HB 773 (2023) Hernando County School District, Hernando County",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/773/ByCategory",
+     "publisher": "The Florida Senate",
+     "tier": 1,
+     "accessed": "2023-06-09"
+    },
+    "swfwmd-mitten": {
+     "title": "John Mitten, Governing Board",
+     "url": "https://www.swfwmd.state.fl.us/about/about-the-district/governing-board/john-mitten",
+     "publisher": "Southwest Florida Water Management District",
+     "tier": 2
+    },
+    "opengov-holcomb": {
+     "title": "FY 2021-2022 Annual Budget: Commissioner Holcomb page",
+     "url": "https://stories.opengov.com/hernandocountyfl/published/PCruK0KQA",
+     "publisher": "Hernando County (budget book hosted on OpenGov)",
+     "tier": 2
+    },
+    "opengov-campbell": {
+     "title": "FY 2023-2024 Annual Budget: Commissioner Campbell page",
+     "url": "https://stories.opengov.com/hernandocountyfl/published/MtZkOvkk9",
+     "publisher": "Hernando County (budget book hosted on OpenGov)",
+     "tier": 2
+    },
+    "fac-2024p": {
+     "title": "2024 Primary Election Results, County Commissioners and Constitutional Officers",
+     "url": "https://www.fl-counties.com/wp-content/uploads/2024/08/FINAL-Election-2024-Primary-Results.pdf",
+     "publisher": "Florida Association of Counties",
+     "tier": 2,
+     "accessed": "2024-08"
+    },
+    "fsba-2018": {
+     "title": "2018 School Board Elections (as of 8/28/18)",
+     "url": "https://fsba.org/wp-content/uploads/2018/09/2018-School-Board-Elections-Primary.pdf",
+     "publisher": "Florida School Boards Association",
+     "tier": 3,
+     "accessed": "2018-08-28"
+    },
+    "bp-duval": {
+     "title": "Susan Duval",
+     "url": "https://ballotpedia.org/Susan_Duval",
+     "publisher": "Ballotpedia",
+     "tier": 3
+    },
+    "wuft-2016-d3": {
+     "title": "Florida Votes 2016: Hernando County Commissioner District 3",
+     "url": "https://www.wuft.org/news/2016/10/20/florida-votes-2016-hernando-county-commissioner-district-3/",
+     "publisher": "WUFT",
+     "tier": 4,
+     "accessed": "2016-10-20"
+    },
+    "wuft-2016-d5": {
+     "title": "Florida Votes 2016: Hernando County Commission District 5",
+     "url": "https://www.wuft.org/news/2016/10/20/florida-votes-2016-hernando-county-commission-district-5/",
+     "publisher": "WUFT",
+     "tier": 4,
+     "accessed": "2016-10-20"
+    },
+    "bn9-2014-duval": {
+     "title": "Susan Duval, candidate for Hernando County School Board District 5",
+     "url": "https://baynews9.com/fl/tampa/news/2014/7/29/susan_duval_hernando",
+     "publisher": "Bay News 9",
+     "tier": 4,
+     "accessed": "2014-07-31"
+    },
+    "bn9-2014-holcomb": {
+     "title": "Jeff Holcomb, Republican candidate for Hernando County Commission District 4",
+     "url": "https://mynews13.com/fl/orlando/news/2014/8/18/jeff_holcomb_republi",
+     "publisher": "Bay News 9 / Spectrum News",
+     "tier": 4,
+     "accessed": "2014-10-21"
+    },
+    "bn9-2014-primary": {
+     "title": "Winners decided for Hernando County commission, school board",
+     "url": "https://www.baynews9.com/fl/tampa/news/2014/8/26/hernando_county_winn",
+     "publisher": "Bay News 9",
+     "tier": 4,
+     "accessed": "2014-08-26"
+    },
+    "tbt-2014-holcomb": {
+     "title": "Final tally gives nod to Jeff Holcomb in GOP commission primary in Hernando",
+     "url": "https://www.tampabay.com/news/politics/elections/final-tally-gives-nod-to-jeff-holcomb-in-gop-commission-primary-in-hernando/2194862/",
+     "publisher": "Tampa Bay Times",
+     "tier": 4,
+     "accessed": "2014-08-27"
+    },
+    "bn9-2018-holcomb": {
+     "title": "Decision 2018: Familiar figures face off for Hernando commission seat",
+     "url": "https://baynews9.com/fl/tampa/news/2018/08/20/familiar-figures-face-off-for-hernando-commission-seat",
+     "publisher": "Bay News 9",
+     "tier": 4,
+     "accessed": "2018-08-20"
+    },
+    "bn9-2018-primary": {
+     "title": "LOCAL RACES: County Commission races in the Bay area",
+     "url": "https://baynews9.com/fl/tampa/news/2018/08/28/local-races--county-commission-races-in-the-bay-area",
+     "publisher": "Bay News 9",
+     "tier": 4,
+     "accessed": "2018-08-28"
+    },
+    "tbt-2018-holcomb-gen": {
+     "title": "Hernando Commission 4: Jeff Holcomb wins over Nancy Makar",
+     "url": "https://www.tampabay.com/blogs/baybuzz/2018/11/05/hernando-commission-4/",
+     "publisher": "Tampa Bay Times",
+     "tier": 4,
+     "accessed": "2018-11-07"
+    },
+    "sun-2018-duval": {
+     "title": "Primary 2018: District 5 Hernando County School Board Candidates",
+     "url": "https://www.hernandosun.com/2018/08/11/primary-2018-district-5-hernando-county-school-board-candidates/",
+     "publisher": "Hernando Sun",
+     "tier": 4,
+     "accessed": "2018-08-11"
+    },
+    "tbt-2018-duval": {
+     "title": "Incumbent Susan Duval re-elected to District 5 seat of Hernando School Board",
+     "url": "https://www.tampabay.com/blogs/gradebook/2018/08/25/hernando-school-board-5/",
+     "publisher": "Tampa Bay Times",
+     "tier": 4,
+     "accessed": "2018-08-29"
+    },
+    "fox13-2018-mitten": {
+     "title": "Gov. Scott appoints Mitten to Hernando Board of County Commissioners",
+     "url": "http://www.fox13news.com/news/local-news/gov-scott-appoints-john-mitten-to-the-hernando-county-board-of-county-commissioners",
+     "publisher": "FOX 13 Tampa Bay",
+     "tier": 4,
+     "accessed": "2018-06-15"
+    },
+    "bn9-2019-admin": {
+     "title": "Commissioners at Odds After Hernando County Administrator Fired",
+     "url": "https://baynews9.com/fl/tampa/news/2019/01/30/commissioners-at-odds-after-hernando-county-administrator-fired",
+     "publisher": "Bay News 9",
+     "tier": 4,
+     "accessed": "2019-01-30"
+    },
+    "sun-2019-2a": {
+     "title": "Commissioner Champion asks county to go on record supporting 2nd amendment",
+     "url": "https://www.hernandosun.com/2019/09/12/commissioner-champion-asks-county-go-record-supporting-2nd-amendment/",
+     "publisher": "Hernando Sun",
+     "tier": 4,
+     "accessed": "2019-09-12"
+    },
+    "tbt-2019-2a": {
+     "title": "Hernando County is a 'Second Amendment sanctuary,' commissioners declare",
+     "url": "https://www.tampabay.com/news/hernando/2019/12/18/hernando-county-is-a-second-amendment-sanctuary-commissioners-declare/",
+     "publisher": "Tampa Bay Times",
+     "tier": 4,
+     "accessed": "2019-12-18"
+    },
+    "tbt-2017-lobby": {
+     "title": "Lacking support, lobbying ordinance gets no hearing in Hernando",
+     "url": "https://www.tampabay.com/news/localgovernment/lacking-support-lobbying-ordinance-gets-no-hearing-in-hernando/2337995/",
+     "publisher": "Tampa Bay Times",
+     "tier": 4,
+     "accessed": "2017-09-19"
+    },
+    "sun-2022-sb3": {
+     "title": "Meet the Candidates: School Board District 3, Aug. 23 Primary",
+     "url": "https://www.hernandosun.com/2022/07/23/meet-the-candidates-school-board-district-3-aug-23-primary/",
+     "publisher": "Hernando Sun",
+     "tier": 4,
+     "accessed": "2022-07-23"
+    },
+    "sun-2022-endorse": {
+     "title": "Hernando Sun Editorial Board endorses local candidates",
+     "url": "https://www.hernandosun.com/2022/07/24/hernando-sun-editorial-board-endorses-local-candidates/",
+     "publisher": "Hernando Sun",
+     "tier": 4,
+     "accessed": "2022-07-24"
+    },
+    "sun-2022p": {
+     "title": "Aug. 23 2022 Hernando County Election Round Up",
+     "url": "https://www.hernandosun.com/2022/08/23/aug-23-2022-hernando-county-election-round-up/",
+     "publisher": "Hernando Sun",
+     "tier": 4,
+     "accessed": "2022-08-23"
+    },
+    "sun-2023-impact": {
+     "title": "Commissioners in favor of impact fee increase up to 50 percent over four years",
+     "url": "https://www.hernandosun.com/2023/03/24/commissioners-in-favor-of-impact-fee-increase-up-to-50-percent-over-four-years/",
+     "publisher": "Hernando Sun",
+     "tier": 4,
+     "accessed": "2023-03-24"
+    },
+    "suncoast-impact-study": {
+     "title": "Commission narrowly approves study of impact fee changes",
+     "url": "https://www.suncoastnews.com/news/commission-narrowly-approves-study-of-impact-fee-changes/article_11093008-3dd0-11ee-8f6d-433fb9b66ac8.html",
+     "publisher": "Suncoast News",
+     "tier": 4
+    },
+    "bn9-2023-rodriguez": {
+     "title": "Online petition started against school board member in Hernando",
+     "url": "https://baynews9.com/fl/tampa/news/2023/05/19/online-petition-started-against-school-board-member-in-hernando-classroom-disney-flap-",
+     "publisher": "Spectrum News Bay News 9",
+     "tier": 4,
+     "accessed": "2023-05-19"
+    },
+    "wusf-2023-0531": {
+     "title": "Hundreds gather into the wee hours at a contentious Hernando County School Board meeting",
+     "url": "https://www.wusf.org/education/2023-05-31/hundreds-gather-wee-hours-contentious-hernando-school-board-meeting",
+     "publisher": "WUSF",
+     "tier": 4,
+     "accessed": "2023-05-31"
+    },
+    "sun-2024-bcc": {
+     "title": "Hernando County Commission Candidates",
+     "url": "https://www.hernandosun.com/2024/06/23/hernando-county-commission-candidates/",
+     "publisher": "Hernando Sun",
+     "tier": 4,
+     "accessed": "2024-06-23"
+    },
+    "suncoast-2024-d1": {
+     "title": "Amsler narrowly defeats Narverud in District 1 Commission race",
+     "url": "https://www.suncoastnews.com/news/amsler-narrowly-defeats-narverud-in-district-1-commission-race/article_b74f855e-5f6a-11ef-ba06-7bed7c108532.html",
+     "publisher": "Suncoast News",
+     "tier": 4,
+     "accessed": "2024-08"
+    },
+    "wfla-2025-doge": {
+     "title": "Hernando County commissioners consider establishing their own DOGE",
+     "url": "https://www.yahoo.com/news/hernando-county-commissioners-consider-establishing-034615887.html",
+     "publisher": "WFLA (via Yahoo News)",
+     "tier": 4,
+     "accessed": "2025-02-26"
+    },
+    "bn9-2025-doge": {
+     "title": "Hernando County commissioner pitches local government efficiency committee",
+     "url": "https://baynews9.com/fl/tampa/news/2025/02/27/hernando-county-to-consider-establishing-own-form-of--doge--as-proposed-by-county-commissioner",
+     "publisher": "Spectrum News Bay News 9",
+     "tier": 4,
+     "accessed": "2025-02-27"
+    },
+    "sun-2026-flock": {
+     "title": "Hernando County Commissioners Debate Flock Cameras",
+     "url": "https://www.hernandosun.com/2026/01/24/hernando-county-commissioners-debate-flock-cameras/",
+     "publisher": "Hernando Sun",
+     "tier": 4,
+     "accessed": "2026-01-24"
+    },
+    "tbb-seville": {
+     "title": "Hundreds more homes coming to Seville West after narrow Hernando commission vote",
+     "url": "https://www.tampabaybeacons.com/2026/04/28/hundreds-more-homes-coming-to-seville-west-after-narrow-hernando-commission-vote/",
+     "publisher": "Tampa Bay Beacons (Hernando Today)",
+     "tier": 4,
+     "accessed": "2026-04-28"
+    },
+    "rnews-allocco-terms": {
+     "title": "Allocco Will Have to Explain Why He Broke a Promise to Only Serve Two-Term",
+     "url": "https://www.rnews.news/story/2024/04/29/news/allocco-will-have-to-explain-why-he-broke-a-promise-to-only-serve-two-term/666.html",
+     "publisher": "R News",
+     "tier": 4,
+     "accessed": "2024-05-01"
+    },
+    "tb28-datacenter": {
+     "title": "Hernando County leaders move forward with moratorium, regulations for data centers",
+     "url": "https://www.tampabay28.com/news/region-citrus-hernando/hernando-county-leaders-move-forward-with-moratorium-regulations-for-data-centers",
+     "publisher": "ABC Action News (WFTS)",
+     "tier": 4,
+     "accessed": "2026-06-02"
+    },
+    "rnews-kc-0607": {
+     "title": "School Board Candidate Kara Champion Says Parents Must Take Active Role in Ending Classroom Indoctrination",
+     "url": "https://www.rnews.news/story/2026/06/07/news/school-board-candidate-kara-champion-says-parents-must-take-active-role-in-ending-classroom-indoctrination/1276.html",
+     "publisher": "R News",
+     "tier": 4,
+     "accessed": "2026-06-09"
+    },
+    "rnews-kc-0630": {
+     "title": "Standing for America: School Board Candidate Calls on Teachers to Lead the Pledge",
+     "url": "https://www.rnews.news/story/2026/06/30/news/standing-for-america-school-board-candidate-calls-on-teachers-to-lead-the-pledge/1299.html",
+     "publisher": "R News",
+     "tier": 4,
+     "accessed": "2026-07-01"
+    },
+    "sun-2026-sb3": {
+     "title": "Q&A: Hernando School Board Dist. 3",
+     "url": "https://www.hernandosun.com/2026/07/24/qa-hernando-school-board-dist-3/",
+     "publisher": "Hernando Sun",
+     "tier": 4,
+     "accessed": "2026-07-24"
+    },
+    "tbb-growth": {
+     "title": "Growth dominates as candidates court Hernando voters",
+     "url": "https://www.tampabaybeacons.com/2026/08/03/growth-dominates-as-candidates-court-hernando-voters/",
+     "publisher": "Tampa Bay Beacons (Hernando Today)",
+     "tier": 4,
+     "accessed": "2026-08-03"
+    },
+    "rnews-mitten-seat": {
+     "title": "Sheriff's Budget Looms Over Explosive Challenge to Mitten's Seat on Hernando County Commission",
+     "url": "https://www.rnews.news/story/2026/08/10/news/sheriffs-budget-looms-over-explosive-challenge-to-mittens-seat-on-hernando-county-commission/1336.html",
+     "publisher": "R News",
+     "tier": 4,
+     "accessed": "2026-08-13"
+    },
+    "sun-2026-millage": {
+     "title": "Hernando BOCC Approves Millage Rate Below Rollback, Cutting Total Budget by 6.67%",
+     "url": "https://www.hernandosun.com/2026/09/18/hernando-bocc-approves-millage-rate-below-rollback-cutting-total-budget-by-6-67/",
+     "publisher": "Hernando Sun",
+     "tier": 4,
+     "accessed": "2026-09-18"
+    },
+    "tbb-budget": {
+     "title": "Hernando commissioners tentatively approve $927 million budget",
+     "url": "https://www.tampabaybeacons.com/2026/09/21/hernando-commissioners-tentatively-approve-927-million-budget/",
+     "publisher": "Tampa Bay Beacons (Hernando Today)",
+     "tier": 4,
+     "accessed": "2026-09-21"
+    },
+    "tbb-health": {
+     "title": "School Board OKs self-funded health plan on 3-2 vote",
+     "url": "https://www.tampabaybeacons.com/2026/09/28/school-board-oks-self-funded-health-plan-on-3-2-vote/",
+     "publisher": "Tampa Bay Beacons (Hernando Today)",
+     "tier": 4,
+     "accessed": "2026-09-28"
+    },
+    "wlrn-hb917": {
+     "title": "Bill proposal targets vaccination discrimination in Florida",
+     "url": "https://www.wlrn.org/health/2025-12-30/bill-proposal-targets-vaccination-discrimination-in-florida",
+     "publisher": "WLRN (News Service of Florida)",
+     "tier": 4,
+     "accessed": "2025-12-30"
+    },
+    "duval-site": {
+     "title": "Susan Duval campaign site",
+     "url": "https://www.votesusanduval.com/",
+     "publisher": "Susan Duval campaign",
+     "tier": 5
+    },
+    "holcomb-site": {
+     "title": "Jeff Holcomb campaign site",
+     "url": "https://jeffholcomb.org/",
+     "publisher": "Jeff Holcomb campaign",
+     "tier": 5
     }
    },
    "people": [
@@ -13065,6 +13513,49 @@
      "district": "1",
      "seatType": "At-large",
      "status": "incumbent",
+     "dig": {
+      "promises": [
+       {
+        "text": "2024 campaign: Described himself as \"a no-nonsense, rugged individualist with a passion for preserving traditional values and local autonomy\"; backs protecting personal liberties, budget discipline and smaller government, guided by a \"pragmatic resident-first approach\".",
+        "source": "sun-2024-bcc",
+        "when": "2024"
+       },
+       {
+        "text": "2024 campaign: \"My main campaign promises were transparency, accountability, putting the residents first, and that's what DOGE is all about\" (his own later description of his 2024 campaign promises).",
+        "source": "wfla-2025-doge",
+        "when": "2024"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2024 universal primary (all voters), County Commission District 1: Won with 50.3% (15,114 votes). Others: Beth Kirshy Narverud (incumbent) 49.7%. Decided in the primary; no District 1 contest on the Nov 5, 2024 ballot.",
+        "source": "enr-2024p",
+        "when": "2024"
+       }
+      ],
+      "keyPositions": [
+       {
+        "text": "Nov 19, 2024: Sheriff's Office cyber security funds (Item P-6). Voted no. Return of excess FY 2023-24 cyber security funds and request for FY 2024-25 funds passed 3-2; Amsler and Champion voted no.",
+        "source": "legistar-2024-11-19",
+        "when": "2024"
+       },
+       {
+        "text": "Feb 25, 2025: County efficiency committee (local DOGE). Proposed. Presented an ordinance for a Hernando County Department of Government Efficiency. Said: \"I'd love to see some bidding on some of our jobs so that we're driving some of the free market there.\" No vote was reported.",
+        "source": "bn9-2025-doge",
+        "when": "2025"
+       },
+       {
+        "text": "Jan 24, 2026: Flock license plate reader cameras. Proposed an ordinance; objected to installation without board approval. Said: \"Government works best when it works in the light.\" No vote; the board agreed to hold a workshop.",
+        "source": "sun-2026-flock",
+        "when": "2026"
+       },
+       {
+        "text": "May 8, 2026: Half-cent sales tax referendum for roads. Voted yes (motion failed 3-2). Only Champion and Amsler voted to put the roads surtax on the November ballot.",
+        "source": "sun-roads",
+        "when": "2026"
+       }
+      ]
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -13338,6 +13829,42 @@
      "seatType": "At-large",
      "status": "incumbent",
      "note": "Appointed by the governor after Brian Hawkins resigned to run for the Florida House. Not a candidate for this seat in 2026.",
+     "dig": {
+      "electionHistory": [
+       {
+        "text": "2017, County Commission District 4: Appointed by Gov. Rick Scott. Agency bio gives the year only.",
+        "source": "swfwmd-mitten",
+        "when": "2017"
+       },
+       {
+        "text": "2018, County Commission District 1: Appointed by Gov. Rick Scott to the seat of suspended Commissioner Nick Nicholson; term Jun 14, 2018 to Nov 16, 2020",
+        "source": "fox13-2018-mitten",
+        "when": "2018"
+       },
+       {
+        "text": "2026, County Commission District 2: Appointed by Gov. Ron DeSantis to the seat vacated by Brian Hawkins; sworn in Aug 4, 2026",
+        "source": "flgov-mitten",
+        "when": "2026"
+       },
+       {
+        "text": "2020, County Commission District 1: Not a candidate: his name is not among the four District 1 candidates on the Aug 18, 2020 primary results",
+        "source": "enr-2020p",
+        "when": "2020"
+       }
+      ],
+      "keyPositions": [
+       {
+        "text": "Jan 30, 2019: Firing County Administrator Leonard Sossamon. Voted yes (passed 3-2). Holcomb, Allocco and Mitten voted to end the contract; Champion and Dukes voted no.",
+        "source": "bn9-2019-admin",
+        "when": "2019"
+       },
+       {
+        "text": "Sep 18, 2026: FY 2027 tentative millage and budget. Cast the only no vote on a 4-1 resolution. Questioned whether the Utilities Department should use taxpayer dollars to fund structures it effectively already owns (reporter's summary; no direct quote).",
+        "source": "sun-2026-millage",
+        "when": "2026"
+       }
+      ]
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -13526,6 +14053,78 @@
      "district": "3",
      "seatType": "At-large",
      "status": "incumbent",
+     "dig": {
+      "promises": [
+       {
+        "text": "2016 campaign: Would \"bring a new perspective to the county\"; wants to recruit new businesses and help existing ones grow, and to work closely with the sheriff's office, the school board and the community (first run for office; reporter's summary, no interview).",
+        "source": "wuft-2016-d3",
+        "when": "2016"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2016 general, County Commission District 3: Won with 58.6% (52,667 votes). Others: Diane Rowden (DEM, incumbent) 41.4%",
+        "source": "enr-2016g",
+        "when": "2016"
+       },
+       {
+        "text": "2020 primary, County Commission District 3: Won with 68.7% (25,515 votes). Others: Burton Melaugh (REP) 31.3%. No District 3 contest on the Nov 3, 2020 general results page.",
+        "source": "enr-2020p",
+        "when": "2020"
+       },
+       {
+        "text": "2024 Republican primary, County Commission District 3: Won with 61.3% (11,660 votes). Others: Marvin Baynham (REP) 38.7%",
+        "source": "enr-2024p",
+        "when": "2024"
+       },
+       {
+        "text": "2024 general, County Commission District 3: Won with 64.9% (68,729 votes). Others: Luciano S. Vignali (DEM) 29.9%; Burton Melaugh (NPA) 5.2%",
+        "source": "enr-2024g",
+        "when": "2024"
+       }
+      ],
+      "keyPositions": [
+       {
+        "text": "Jan 30, 2019: Firing County Administrator Leonard Sossamon. Voted yes (passed 3-2).",
+        "source": "bn9-2019-admin",
+        "when": "2019"
+       },
+       {
+        "text": "Mar 7, 2023: Impact fee increases (workshop). Supported reviewing fee categories; disagreed that impact fees would hurt growth. On drive-through car washes: \"I don't think we're categorizing (drive-through car washes) properly\".",
+        "source": "sun-2023-impact",
+        "when": "2023"
+       },
+       {
+        "text": "Mar 28, 2023: Surplus county property sales (Casey Road, Eagle Drive, Oakhurst Drive). Voted yes (adopted 3-2). Aye: Allocco, Campbell, Hawkins. Nay: Narverud, Champion.",
+        "source": "legistar-2023-03-28",
+        "when": "2023"
+       },
+       {
+        "text": "Study of raising school impact fees all at once. Supported (implied by 3-2 count). Said \"the county is not prepared for the influx of school students and adults seeking homes and recreation.\" The article names only Champion and Campbell as no votes.",
+        "source": "suncoast-impact-study"
+       },
+       {
+        "text": "Nov 19, 2024: Sheriff's Office cyber security funds (Item P-6). Voted yes (passed 3-2).",
+        "source": "legistar-2024-11-19",
+        "when": "2024"
+       },
+       {
+        "text": "Mar 3, 2026: Seville West master plan revision. Questioned late-filed documents. Said: \"The public is wondering what's going on.\" The plan passed 3-2; the article does not give individual votes.",
+        "source": "tbb-seville",
+        "when": "2026"
+       },
+       {
+        "text": "May 8, 2026: Half-cent sales tax referendum for roads. Did not support placing it on the ballot (by implication of the 3-2 vote). Said: \"If we do nothing, if we don't shift any ad-valorem millage, we're going to get exactly what we have right now.\"",
+        "source": "sun-roads",
+        "when": "2026"
+       },
+       {
+        "text": "Jun 2, 2026: Data center moratorium. Supported. Said he is not opposed to data centers but wants guardrails: \"If you're not proactive, you're going to get run over.\"",
+        "source": "tb28-datacenter",
+        "when": "2026"
+       }
+      ]
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -13803,6 +14402,45 @@
      "seatType": "At-large",
      "status": "incumbent",
      "note": "Not seeking re-election in 2026 (tbb-qualify).",
+     "dig": {
+      "electionHistory": [
+       {
+        "text": "2022 primary, County Commission District 4: Won with 70.8% (23,619 votes). Others: Anthony Joseph Arenz (REP) 29.1%. No County Commission contest on the Nov 8, 2022 general ballot. County records say he was elected Nov 8, 2022.",
+        "source": "enr-2022p",
+        "when": "2022"
+       },
+       {
+        "text": "2026, County Commission District 4: Did not seek re-election",
+        "source": "tbb-qualify",
+        "when": "2026"
+       }
+      ],
+      "keyPositions": [
+       {
+        "text": "Mar 7, 2023: Impact fee categories (workshop). Favored a closer look at fee categories; introduced a Multi-Modal Mobility fee idea. Asked: \"How is a car wash not a drive-through?\"",
+        "source": "sun-2023-impact",
+        "when": "2023"
+       },
+       {
+        "text": "Mar 28, 2023: Surplus county property sales. Voted yes (adopted 3-2); seconded the motion.",
+        "source": "legistar-2023-03-28",
+        "when": "2023"
+       },
+       {
+        "text": "Study of raising school impact fees all at once. Voted no (study approved 3-2).",
+        "source": "suncoast-impact-study"
+       },
+       {
+        "text": "Nov 19, 2024: Sheriff's Office cyber security funds (Item P-6). Voted yes (passed 3-2).",
+        "source": "legistar-2024-11-19",
+        "when": "2024"
+       },
+       {
+        "text": "Stated priorities in county budget book bio. Helping families and businesses succeed, economic development that attracts career-based employers, and fiscal responsibility (paraphrase of the bio).",
+        "source": "opengov-campbell"
+       }
+      ]
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -14074,6 +14712,105 @@
      "district": "5",
      "seatType": "At-large",
      "status": "incumbent",
+     "dig": {
+      "promises": [
+       {
+        "text": "2016 campaign: Presented himself as Hernando County's \"conservative voice\" and said he would focus on policies that mainly help small businesses and promote economic growth. Campaign site: \"I'm running for County Commission because the people need a voice.\"",
+        "source": "wuft-2016-d5",
+        "when": "2016"
+       },
+       {
+        "text": "2024 campaign: \"I believe in small government, low taxes and freedom! I support President Trump 100 percent.\"",
+        "source": "sun-2024-bcc",
+        "when": "2024"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2016 Republican primary, County Commission District 5: Won with 53.7% (8,167 votes). Others: Dave Russell (REP) 46.3%",
+        "source": "enr-2016p",
+        "when": "2016"
+       },
+       {
+        "text": "2016 general, County Commission District 5: Won with 63.3% (55,892 votes). Others: Paul Douglas (DEM) 36.7%",
+        "source": "enr-2016g",
+        "when": "2016"
+       },
+       {
+        "text": "2020 Republican primary, County Commission District 5: Won with 59.8% (12,271 votes). Others: Kevin Hohn (REP) 40.2%",
+        "source": "enr-2020p",
+        "when": "2020"
+       },
+       {
+        "text": "2020 general, County Commission District 5: Won with 64.5% (66,256 votes). Others: Michael Burmann (NPA) 35.5%",
+        "source": "enr-2020g",
+        "when": "2020"
+       },
+       {
+        "text": "2024 Republican primary, County Commission District 5: Won with 69.4% (13,096 votes). Others: Pam Everett (REP) 30.6%. No District 5 contest on the Nov 5, 2024 general results page. County records say he was re-elected Nov 19, 2024.",
+        "source": "enr-2024p",
+        "when": "2024"
+       }
+      ],
+      "keyPositions": [
+       {
+        "text": "Sep 19, 2017: Lobbyist registration ordinance. Said there was no consensus to bring it forward. Said \"there was not a consensus to bring a lobbying ordinance forward\" and argued it should not have been placed on the agenda.",
+        "source": "tbt-2017-lobby",
+        "when": "2017"
+       },
+       {
+        "text": "Jan 30, 2019: Firing County Administrator Leonard Sossamon. Voted no (passed 3-2). Said: \"I think it sets us back. We had a seven-year tenured administrator.\"",
+        "source": "bn9-2019-admin",
+        "when": "2019"
+       },
+       {
+        "text": "Sep 10, 2019: Second Amendment support letter and resolution. Proposed. Asked the board to send a letter to Gov. DeSantis affirming support for the Second Amendment: \"It doesn't change policy ... but it does send a message to Tallahassee.\" In December 2019 the Tampa Bay Times reported he spearheaded the resolution declaring the county a \"Second Amendment sanctuary\" (vote count not readable).",
+        "source": "sun-2019-2a",
+        "when": "2019"
+       },
+       {
+        "text": "Mar 7, 2023: Impact fee increases (workshop). Opposed any increase. Said: \"Growth is not guaranteed, and it's not happening right now.\"",
+        "source": "sun-2023-impact",
+        "when": "2023"
+       },
+       {
+        "text": "Mar 28, 2023: Surplus county property sales. Voted no (adopted 3-2).",
+        "source": "legistar-2023-03-28",
+        "when": "2023"
+       },
+       {
+        "text": "Study of raising school impact fees all at once. Voted no (study approved 3-2). Said he \"did not favor a fee increase in the first year without a tax decrease and would vote against it.\"",
+        "source": "suncoast-impact-study"
+       },
+       {
+        "text": "Nov 19, 2024: Sheriff's Office cyber security funds (Item P-6). Voted no (passed 3-2).",
+        "source": "legistar-2024-11-19",
+        "when": "2024"
+       },
+       {
+        "text": "Jan 24, 2026: Flock license plate reader cameras. Opposed the automated cameras. Said: \"This is not an attack on the Sheriff or law enforcement.\" and \"But the Constitution is absolute; it has to be followed.\"",
+        "source": "sun-2026-flock",
+        "when": "2026"
+       },
+       {
+        "text": "May 8, 2026: Half-cent sales tax referendum for roads. Voted yes (motion failed 3-2). Said: \"We have to do something about the roads.\"",
+        "source": "sun-roads",
+        "when": "2026"
+       },
+       {
+        "text": "Sep 21, 2026: FY 2027 Sheriff's Office budget. Supported the sheriff's budget. Thanked Sheriff Al Nienhuis for removing the Flock cameras. His own vote on the 4-1 budget resolution was not reported. On the property tax amendment he said it would be \"probably the most painful thing we've ever done in our lives if it passes.\"",
+        "source": "tbb-budget",
+        "when": "2026"
+       }
+      ],
+      "conflicts": [
+       {
+        "text": "The Florida Commission on Ethics listed a complaint against \"STEVE D. CHAMPION, Hernando County Commissioner\" among complaints it \"dismissed ... for lack of legal sufficiency\" at its Dec 6, 2024 meeting. The release gives no details of the allegation. Legal sufficiency review involves no factual investigation.",
+        "source": "coe-dec24",
+        "when": "2024"
+       }
+      ]
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -14359,6 +15096,94 @@
       "voterfocusId": "629",
       "status": "Active- Qualified"
      },
+     "dig": {
+      "promises": [
+       {
+        "text": "2014 campaign: Pledged to \"hold the line on spending to keep taxes low\" and \"improve the county's economy\"; priorities: economic development, attracting businesses, and making the county attractive through amenities such as schools and adult skills training.",
+        "source": "bn9-2014-holcomb",
+        "when": "2014"
+       },
+       {
+        "text": "2014 campaign: Campaign focused on strengthening the local economy, encouraging economic development, and opposing tax rate increases (reporter's summary).",
+        "source": "tbt-2014-holcomb",
+        "when": "2014"
+       },
+       {
+        "text": "2018 campaign: Said he had not \"raised property taxes my whole time in office\"; hoped to strengthen relationships with the sheriff's office; on parks: \"we need to get those parks up to the status that they were before.\"",
+        "source": "bn9-2018-holcomb",
+        "when": "2018"
+       },
+       {
+        "text": "2026 campaign: Campaign site priorities (as listed by The Ballot Brief): protect the 2nd Amendment; support small business, job creation and education; fight illegal immigration.",
+        "source": "bb-d4",
+        "when": "2026"
+       },
+       {
+        "text": "2026 campaign: Wants the county prepared if the property tax amendment passes; priorities include first responders, future infrastructure and county libraries; pledged to push for more public engagement: \"It's all come from listening to the folks when they're reaching out to me.\"",
+        "source": "tbb-growth",
+        "when": "2026"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2014 Republican primary, County Commission District 4: Won by 79 votes over Laurie Pizzo. Vote totals not found in a source that could be opened.",
+        "source": "tbt-2014-holcomb",
+        "when": "2014"
+       },
+       {
+        "text": "2014 general, County Commission District 4: Won. Others: Dan Oliver (DEM); H. David Werder (NPA). County budget book says 'Elected November 4, 2014'. Official 2014 results PDF (hernandovotes.gov DocumentCenter/View/272) would not load.",
+        "source": "opengov-holcomb",
+        "when": "2014"
+       },
+       {
+        "text": "2018 Republican primary, County Commission District 4: Won. Others: Natalie Kahler (REP). No vote totals in the source.",
+        "source": "bn9-2018-primary",
+        "when": "2018"
+       },
+       {
+        "text": "2018 general, County Commission District 4: Won with 61.9% (48,864 votes). Others: Nancy Makar (DEM) 38.1%",
+        "source": "soe-2018g",
+        "when": "2018"
+       },
+       {
+        "text": "2022 Republican primary, Florida House District 53: Won with 82.9% (15,752 votes). Others: Anthony Kocovic (REP) 17.1%. District-wide. Hernando portion: 12,630 to 2,586.",
+        "source": "bp-holcomb",
+        "when": "2022"
+       },
+       {
+        "text": "2022 general, Florida House District 53: Won with 70.1% (50,650 votes). Others: Keith Laufenberg (DEM) 29.9%. District-wide. Hernando portion: 40,049 to 17,973.",
+        "source": "bp-holcomb",
+        "when": "2022"
+       },
+       {
+        "text": "2024 general, Florida House District 53: Won with 69.0% (66,146 votes). Others: Keith Laufenberg (DEM) 31.0%. District-wide; primaries canceled. Hernando portion: 53,132 to 25,058.",
+        "source": "bp-holcomb",
+        "when": "2024"
+       },
+       {
+        "text": "2026 Republican primary, County Commission District 4: Won with 59.1% (13,141 votes). Others: Marvin Baynham (REP) 40.9%. Moved from the State House race to this seat in June 2026. Faces write-in Donald Bigelow on Nov 3.",
+        "source": "soe-primary-results",
+        "when": "2026"
+       }
+      ],
+      "keyPositions": [
+       {
+        "text": "Jan 30, 2019: Firing County Administrator Leonard Sossamon. Put the item on the agenda as chair; voted yes (passed 3-2). Said: \"Really it just came down to leadership\" and \"Money was misallocated in the second year to the tune where we couldn't pay our bills.\"",
+        "source": "bn9-2019-admin",
+        "when": "2019"
+       },
+       {
+        "text": "Jun 9, 2023: Elected school superintendent for Hernando (CS/HB 773). House sponsor; became law. Official summary: \"Repeals School Board of Hernando County resolution which provides for appointed superintendent of schools; provides for elected superintendent of schools; requires referendum.\" Passed House 96-18 and Senate 39-0; approved by the Governor Jun 9, 2023 (Chapter 2023-328).",
+        "source": "flsenate-hb773-2023",
+        "when": "2023"
+       },
+       {
+        "text": "Dec 30, 2025: Vaccination-status discrimination and ivermectin access (HB 917, 2026 session). Filed the bill. Would bar health care providers from discriminating by vaccination status, add a 'conscience' exemption to school-entry health exams, and allow ivermectin without a prescription from behind the pharmacy counter.",
+        "source": "wlrn-hb917",
+        "when": "2025"
+       }
+      ]
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -14404,9 +15229,12 @@
        ]
       },
       "pastOffice": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": "Hernando County Commission, District 4 (2014 to 2022); Florida House, District 53 (2022 to 2026)",
+       "label": "unverified",
+       "sources": [
+        "bp-holcomb"
+       ],
+       "note": "One non-official source. Not yet matched to an official record."
       },
       "lastElection": {
        "value": "Won the Aug 18, 2026 Republican primary with 13,141 votes over Marvin Baynham (9,106) (official)",
@@ -14671,6 +15499,27 @@
      "finance": {
       "voterfocusId": "628",
       "status": "Active- Unopposed"
+     },
+     "dig": {
+      "promises": [
+       {
+        "text": "2026 campaign: Plans regular evening town halls: \"I hear your frustration when you say the county commission doesn't listen.\" \"I want to change that.\"",
+        "source": "tbb-growth",
+        "when": "2026"
+       },
+       {
+        "text": "2026 campaign: Priorities (as summarized from the Hernando Sun Q&A): regular evening town halls; manage growth while preserving county character; fiscal discipline in budgeting.",
+        "source": "bb-d2",
+        "when": "2026"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2026 universal primary (all voters), County Commission District 2: Won (elected; seat not on the Nov 3 ballot) with 31.0% (10,334 votes). Others: Maxwell Joseph Glenn 26.0%; Diane M. Greenwell 15.3%; Silvia Dukes 14.4%; James Scavetta 13.4%",
+        "source": "soe-primary-results",
+        "when": "2026"
+       }
+      ]
      },
      "facts": {
       "party": {
@@ -15376,6 +16225,79 @@
       "voterfocusId": "620",
       "status": "Active- Runoff"
      },
+     "dig": {
+      "promises": [
+       {
+        "text": "2014 campaign: Running \"to continue my service on behalf of the students, staff and parents of Hernando County\"; priorities: help the board keep the district financially stable, proven programs for academic growth, access to vocational, fine arts and physical education, and being personally accessible to students, staff and parents.",
+        "source": "bn9-2014-duval",
+        "when": "2014"
+       },
+       {
+        "text": "2018 campaign: Top issue: \"ensuring that all students receive quality career and college readiness educational programs\"; also fiscal accountability and a safe learning environment. Supported meeting state requirements for \"resource officers/trained guardians at all schools\" and hardening campuses; supported funding projects approved in the half-cent sales tax referendum.",
+        "source": "sun-2018-duval",
+        "when": "2018"
+       },
+       {
+        "text": "2026 campaign: Campaign site priorities: \"Student achievement\"; \"Qualified teachers in our classrooms\"; \"Parent involvement\"; \"Safe, productive schools\"; \"College, career and workforce pathways\"; \"Responsible use of taxpayer dollars\"; \"Decisions based on facts and results\"; \"Independent, nonpartisan leadership\". Slogan: \"Students first. Hernando County always.\"",
+        "source": "duval-site",
+        "when": "2026"
+       },
+       {
+        "text": "2026 campaign: Said the district needs to do a \"better job of marketing ourselves\" because public schools are \"not the only option in town anymore\"; wants the board to work together: \"Not some of them. All of them.\"",
+        "source": "wusf-sb-preview",
+        "when": "2026"
+       },
+       {
+        "text": "2026 campaign: Priorities (as summarized from the Hernando Sun Q&A): continuous improvement through a shared board focus; teacher recruitment through programs such as \"Para to Pro\"; funding well-qualified classroom instruction.",
+        "source": "bb-sb5",
+        "when": "2026"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2014 primary, School Board District 5: Advanced to runoff with 37.1% (6,945 votes). Others: Robert Neuhausen 30.3%; Cynthia Moore (incumbent) 20.5%; Anna Liisa Covell 12.2%",
+        "source": "bp-duval",
+        "when": "2014"
+       },
+       {
+        "text": "2014 runoff (general election), School Board District 5: Won with 62.0% (34,863 votes). Others: Robert Neuhausen 38.0%",
+        "source": "bp-duval",
+        "when": "2014"
+       },
+       {
+        "text": "2018 primary, School Board District 5: Re-elected. Others: Joseph Santerelli. Vote totals not found in any source that could be opened.",
+        "source": "fsba-2018",
+        "when": "2018"
+       },
+       {
+        "text": "2022 primary, School Board District 5: Advanced to runoff with 36.2% (12,836 votes). Others: Monty Floyd 28.6%; Pam Everett 20.5%; Lara Dedmon 14.7%",
+        "source": "enr-2022p",
+        "when": "2022"
+       },
+       {
+        "text": "2022 runoff (general election), School Board District 5: Won with 52.4% (37,870 votes). Others: Monty Floyd 47.6%",
+        "source": "enr-2022g",
+        "when": "2022"
+       },
+       {
+        "text": "2026 primary, School Board District 5: Advanced to Nov 3 runoff (second place) with 38.9% (13,717 votes). Others: Kara Champion 39.0%; Amanda Cunningham-Rud 22.1%. Official counts. WUSF election-night counts (Duval 13,714; Champion 13,717) differ.",
+        "source": "soe-primary-results",
+        "when": "2026"
+       }
+      ],
+      "keyPositions": [
+       {
+        "text": "May 30, 2023: Removing 'The Sun and Her Flowers' from school libraries. Voted yes (unanimous). Said: \"Please keep in mind, it's not about the content. It was only about the images (in the book).\"",
+        "source": "wusf-2023-0531",
+        "when": "2023"
+       },
+       {
+        "text": "May 30, 2023: No-confidence vote on Superintendent John Stratton. Voted no (motion failed 3-2).",
+        "source": "wusf-2023-0531",
+        "when": "2023"
+       }
+      ]
+     },
      "facts": {
       "party": {
        "value": null,
@@ -15570,6 +16492,37 @@
      "finance": {
       "voterfocusId": "618",
       "status": "Active- Runoff"
+     },
+     "dig": {
+      "promises": [
+       {
+        "text": "2026 campaign: Facebook post: \"We don't want indoctrination or politics.\" On families leaving for charter and private schools: \"I would partner with them and see why parents are enrolling in those schools\"; supports parental choice but wants stronger oversight of the state voucher program.",
+        "source": "wusf-sb-preview",
+        "when": "2026"
+       },
+       {
+        "text": "2026 campaign: \"There should be no political matter in schools\"; \"Students should be learning about the Constitution, loving America, and receiving a quality education.\"",
+        "source": "rnews-kc-0607",
+        "when": "2026"
+       },
+       {
+        "text": "2026 campaign: \"If parents are expected to trust our schools, then transparency has to work both ways\"; \"Parents deserve to know who is teaching their children and what values are being modeled in the classroom.\"; \"I am not suggesting students should be forced to recite the Pledge\".",
+        "source": "rnews-kc-0630",
+        "when": "2026"
+       },
+       {
+        "text": "2026 campaign: Priorities (as summarized from the Hernando Sun Q&A): parental choice and transparency in school decisions; teacher retention through less bureaucracy and stronger classroom discipline; a return to reading, writing, math and civics.",
+        "source": "bb-sb5",
+        "when": "2026"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2026 primary, School Board District 5: Advanced to Nov 3 runoff (first place) with 39.0% (13,724 votes). Others: Susan Duval (incumbent) 38.9%; Amanda Cunningham-Rud 22.1%. First run for office. WUSF reports she is the daughter of Commissioner Steve Champion.",
+        "source": "soe-primary-results",
+        "when": "2026"
+       }
+      ]
      },
      "facts": {
       "party": {
@@ -16038,6 +16991,59 @@
      "finance": {
       "voterfocusId": "606",
       "status": "Inactive - Unopposed"
+     },
+     "dig": {
+      "promises": [
+       {
+        "text": "2022 campaign: Would form alliances with other county boards, especially the county commission, and resolve issues \"through cooperation, not frivolous litigation\"; be visible in schools; push for curriculum transparency and workforce skills such as cursive; opposes critical race theory in the district; would save money through LED lighting, thermostat settings, renting facility space and transportation changes; opposes raising impact fees as a first step.",
+        "source": "sun-2022-sb3",
+        "when": "2022"
+       },
+       {
+        "text": "2022 campaign: Plans as summarized by the Hernando Sun editorial board: conservative values and fiscal responsibility, unity between the district and county commission, more support for teachers and consequences for misbehavior, restore cursive, accommodate growth without large spending increases, remove CRT and \"woke ideology\".",
+        "source": "sun-2022-endorse",
+        "when": "2022"
+       },
+       {
+        "text": "2026 campaign: \"If re-elected, I will continue working to increase teacher salaries as our budget allows\"; \"Our job is to make Hernando County Schools the first choice for families\"; \"I support a transparent review process that values parental input\"; \"The areas I would fiercely protect are our teachers, classroom instruction, school safety\".",
+        "source": "sun-2026-sb3",
+        "when": "2026"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2022 primary, School Board District 3: Won with 60.6% (21,730 votes). Others: Jimmy Lodato 39.4%",
+        "source": "enr-2022p",
+        "when": "2022"
+       },
+       {
+        "text": "2026 primary, School Board District 3: Won with 65.3% (22,804 votes). Others: Luciano Stefan Vignali 34.7%",
+        "source": "soe-primary-results",
+        "when": "2026"
+       }
+      ],
+      "keyPositions": [
+       {
+        "text": "May 19, 2023: Showing the film 'Strange World' to a fifth-grade class. Opposed showing the film. Said at a board meeting: \"Allowing movies such as this, assist teachers in opening a door\" for \"conversations that have no place in our classrooms.\" A teacher said Rodriguez reported her to the Florida Department of Education; Rodriguez did not confirm, and the department would neither confirm nor deny an investigation. A change.org petition seeking her removal passed 13,000 signatures.",
+        "source": "bn9-2023-rodriguez",
+        "when": "2023"
+       },
+       {
+        "text": "May 30, 2023: Removing 'The Sun and Her Flowers' from school libraries. Voted yes (unanimous). Said: \"We're not going to stop until all these books are removed.\"",
+        "source": "wusf-2023-0531",
+        "when": "2023"
+       },
+       {
+        "text": "May 30, 2023: No-confidence vote on Superintendent John Stratton. Voted yes (motion failed 3-2).",
+        "source": "wusf-2023-0531",
+        "when": "2023"
+       },
+       {
+        "text": "Sep 22, 2026: Switching to a self-funded employee health plan. Voted no (approved 3-2). Moved to table until Oct 6, saying members \"should not vote on a report the same day they received it\"; the motion died for lack of a second.",
+        "source": "tbb-health",
+        "when": "2026"
+       }
+      ]
      },
      "facts": {
       "party": {
@@ -18372,13 +19378,31 @@
    "labelCounts": {
     "verified": 8,
     "single": 128,
-    "unverified": 29,
+    "unverified": 30,
     "conflict": 0,
     "unknown": 16
    }
   }
  },
  "changes": [
+  {
+   "date": "2026-10-27",
+   "changed": [
+    {
+     "key": "hernando/holcomb/pastOffice",
+     "subject": "Jeff Holcomb: pastOffice",
+     "before": null,
+     "after": "Hernando County Commission, District 4 (2014 to 2022); Florida House, District 53 (2022 to 2026)",
+     "label": "unverified",
+     "sources": [
+      "bp-holcomb"
+     ]
+    }
+   ],
+   "added": [],
+   "log": [],
+   "errors": []
+  },
   {
    "date": "2026-10-26",
    "changed": [

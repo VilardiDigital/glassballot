@@ -754,6 +754,18 @@ function linksBlock(p) {
     <p class="tiny muted">We only list accounts we could confirm through their campaign website, the county or election filings.</p>`;
 }
 
+const DIG_PARTS = [["electionHistory","Election history","How they won (or got) the seat each time. Official results where we could open them."],["promises","Past campaign promises","What they said when running before, in their own words or as reported. A promise, not a fact."],["keyPositions","Positions taken in office","Stands they took on the record: votes, motions and public statements."],["conflicts","Ethics records","Public ethics findings or complaints. A dismissed complaint is not a finding of wrongdoing."]];
+function trackRecord(p, fn) {
+  const d = p.dig || {};
+  const parts = DIG_PARTS.filter(([k]) => (d[k] || []).length);
+  if (!parts.length) return "";
+  return `<section class="panel stack" aria-labelledby="tr"><h2 class="h2" id="tr">${fn}'s track record</h2>
+    <p class="small muted">Each line links to the record or report it came from. If something is wrong or missing, tell us.</p>
+    ${parts.map(([k, title, note]) => `<div class="stack-sm"><h3 class="h3">${title}</h3><p class="tiny muted">${note}</p>
+      <ul class="plain stack-sm">${d[k].map((r, i) => `<li><span>${esc(r.text)}</span><div class="cite">${srcLinks([r.source])}${fixBtn(`${CK}/person/${p.id}/${k}-${i}`, r.text)}</div></li>`).join("")}</ul></div>`).join("")}
+  </section>`;
+}
+
 views.person = id => {
   const p = P[id]; if (!p) return notFound();
   const race = p.race ? R[p.race] : null;
@@ -763,7 +775,7 @@ views.person = id => {
   const cnx = (p.connections || []).slice().sort((a,b) => (b.inWindow - a.inWindow) || (b.amount - a.amount));
   const promises = p.facts.promises;
   const myVotes = p.votes.map(x => ({...x, v: V[x.vote]})).filter(x => x.v);
-  const allSources = [...new Set(Object.values(p.facts).flatMap(f => f.sources || (f.versions || []).flatMap(v => v.sources || [])))].filter(id => S[id]);
+  const allSources = [...new Set([...Object.values(p.facts).flatMap(f => f.sources || (f.versions || []).flatMap(v => v.sources || [])), ...Object.values(p.dig || {}).flat().map(r => r.source)])].filter(id => S[id]);
   const fid = f => `${CK}/person/${p.id}/${f}`;
   const fn = esc(firstName(p));
   return `<div class="stack-lg view">
@@ -810,8 +822,10 @@ views.person = id => {
     </section>` : ""}
 
     <section class="panel stack" aria-labelledby="pr"><h2 class="h2" id="pr">What ${fn} says they'll do</h2>
-      ${!promises || promises.label === "unknown" ? `<p class="small muted">We haven't found a list of priorities from this campaign yet. ${fixBtn(fid("promises"), "None on file")}</p>` : `${valueText(promises.value)}<div class="cite">${chip(promises.label, "In the campaign's own words. A promise, not a fact.")}${srcLinks(promises.sources)}${fixBtn(fid("promises"), shownText(promises.value))}</div><p class="small muted">These are the campaign's own words. We'll compare them with future votes.</p>`}
+      ${!promises || promises.label === "unknown" ? `<p class="small muted">${(p.dig?.promises || []).length ? `We haven't found a list of priorities for this campaign yet. What ${fn} promised in past campaigns is under <a href="#tr" data-jump="tr">track record</a> below.` : "We haven't found a list of priorities from this campaign yet."} ${fixBtn(fid("promises"), "None on file")}</p>` : `${valueText(promises.value)}<div class="cite">${chip(promises.label, "In the campaign's own words. A promise, not a fact.")}${srcLinks(promises.sources)}${fixBtn(fid("promises"), shownText(promises.value))}</div><p class="small muted">These are the campaign's own words. We'll compare them with future votes.</p>`}
     </section>
+
+    ${trackRecord(p, fn)}
 
     ${scoreCard(p)}
 
@@ -1183,6 +1197,7 @@ document.addEventListener("click", e => {
   if (e.target.closest("#pickCounty")) { countyChoices(); $("#countyDlg").showModal(); return; }
   if (e.target.closest("#openSearch")) { $("#search").hidden = false; $("#q").value = ""; runSearch(""); $("#q").focus(); return; }
   if (e.target.closest("#closeSearch")) { $("#search").hidden = true; return; }
+  const jump = e.target.closest("[data-jump]"); if (jump) { e.preventDefault(); document.getElementById(jump.dataset.jump)?.scrollIntoView({behavior: "smooth"}); return; }
   const link = e.target.closest('a[href^="#"]'); if (link && link.getAttribute("href") === location.hash) { route(); }
 });
 document.addEventListener("submit", e => { if (e.target.id === "zipForm") { e.preventDefault(); zipLookup($("#zipIn").value.trim()); } });
