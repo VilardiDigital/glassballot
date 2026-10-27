@@ -4,15 +4,7 @@
   "state": "FL",
   "electionDate": "2026-11-03",
   "updated": "2026-10-27",
-  "refreshLog": [
-   "pinellas Legistar: 1268 roll calls, 0 new split votes awaiting review",
-   "hernando Legistar: 1851 roll calls, 0 new split votes awaiting review",
-   "pinellas itemized contributions: 14 campaigns, 2134 gifts",
-   "hillsborough itemized contributions: 18 campaigns, 4765 gifts",
-   "pasco itemized contributions: 15 campaigns, 2367 gifts",
-   "hernando itemized contributions: 16 campaigns, 666 gifts",
-   "Campaign totals: 49 candidates"
-  ],
+  "refreshLog": [],
   "refreshErrors": []
  },
  "order": [
@@ -40667,6 +40659,1922 @@
   }
  ],
  "zips": {
+  "32003": [
+   "clay"
+  ],
+  "32008": [
+   "lafayette",
+   "gilchrist",
+   "suwannee",
+   "dixie"
+  ],
+  "32009": [
+   "nassau"
+  ],
+  "32011": [
+   "nassau"
+  ],
+  "32013": [
+   "lafayette"
+  ],
+  "32024": [
+   "columbia",
+   "suwannee"
+  ],
+  "32025": [
+   "columbia"
+  ],
+  "32026": [
+   "bradford",
+   "union"
+  ],
+  "32033": [
+   "stjohns"
+  ],
+  "32034": [
+   "nassau"
+  ],
+  "32038": [
+   "columbia"
+  ],
+  "32040": [
+   "baker"
+  ],
+  "32043": [
+   "clay",
+   "putnam"
+  ],
+  "32044": [
+   "bradford",
+   "alachua"
+  ],
+  "32046": [
+   "nassau"
+  ],
+  "32052": [
+   "hamilton"
+  ],
+  "32053": [
+   "hamilton"
+  ],
+  "32054": [
+   "union",
+   "bradford"
+  ],
+  "32055": [
+   "columbia"
+  ],
+  "32058": [
+   "bradford",
+   "union",
+   "clay"
+  ],
+  "32059": [
+   "madison"
+  ],
+  "32060": [
+   "suwannee"
+  ],
+  "32061": [
+   "columbia"
+  ],
+  "32062": [
+   "suwannee"
+  ],
+  "32063": [
+   "baker"
+  ],
+  "32064": [
+   "suwannee"
+  ],
+  "32065": [
+   "clay"
+  ],
+  "32066": [
+   "lafayette"
+  ],
+  "32068": [
+   "clay"
+  ],
+  "32071": [
+   "suwannee"
+  ],
+  "32072": [
+   "baker"
+  ],
+  "32073": [
+   "clay"
+  ],
+  "32079": [
+   "clay"
+  ],
+  "32080": [
+   "stjohns"
+  ],
+  "32081": [
+   "stjohns",
+   "duval"
+  ],
+  "32082": [
+   "stjohns"
+  ],
+  "32083": [
+   "union"
+  ],
+  "32084": [
+   "stjohns"
+  ],
+  "32086": [
+   "stjohns"
+  ],
+  "32087": [
+   "baker"
+  ],
+  "32091": [
+   "bradford",
+   "clay"
+  ],
+  "32092": [
+   "stjohns"
+  ],
+  "32094": [
+   "suwannee",
+   "columbia"
+  ],
+  "32095": [
+   "stjohns"
+  ],
+  "32096": [
+   "columbia",
+   "hamilton"
+  ],
+  "32097": [
+   "nassau"
+  ],
+  "32102": [
+   "lake",
+   "volusia"
+  ],
+  "32110": [
+   "flagler"
+  ],
+  "32112": [
+   "putnam"
+  ],
+  "32113": [
+   "marion"
+  ],
+  "32114": [
+   "volusia"
+  ],
+  "32117": [
+   "volusia"
+  ],
+  "32118": [
+   "volusia"
+  ],
+  "32119": [
+   "volusia"
+  ],
+  "32124": [
+   "volusia"
+  ],
+  "32127": [
+   "volusia"
+  ],
+  "32128": [
+   "volusia"
+  ],
+  "32129": [
+   "volusia"
+  ],
+  "32130": [
+   "volusia"
+  ],
+  "32131": [
+   "putnam",
+   "stjohns"
+  ],
+  "32132": [
+   "volusia"
+  ],
+  "32133": [
+   "marion"
+  ],
+  "32134": [
+   "marion",
+   "putnam"
+  ],
+  "32136": [
+   "flagler",
+   "volusia"
+  ],
+  "32137": [
+   "flagler"
+  ],
+  "32139": [
+   "putnam"
+  ],
+  "32140": [
+   "putnam",
+   "clay"
+  ],
+  "32141": [
+   "volusia"
+  ],
+  "32145": [
+   "stjohns"
+  ],
+  "32147": [
+   "putnam"
+  ],
+  "32148": [
+   "putnam"
+  ],
+  "32157": [
+   "putnam"
+  ],
+  "32159": [
+   "lake",
+   "sumter"
+  ],
+  "32162": [
+   "sumter",
+   "marion"
+  ],
+  "32163": [
+   "sumter",
+   "lake"
+  ],
+  "32164": [
+   "flagler"
+  ],
+  "32168": [
+   "volusia"
+  ],
+  "32169": [
+   "volusia"
+  ],
+  "32174": [
+   "volusia",
+   "flagler"
+  ],
+  "32176": [
+   "volusia"
+  ],
+  "32177": [
+   "putnam"
+  ],
+  "32179": [
+   "marion"
+  ],
+  "32180": [
+   "volusia",
+   "flagler"
+  ],
+  "32181": [
+   "putnam"
+  ],
+  "32182": [
+   "marion"
+  ],
+  "32187": [
+   "putnam"
+  ],
+  "32189": [
+   "putnam"
+  ],
+  "32190": [
+   "volusia"
+  ],
+  "32192": [
+   "marion"
+  ],
+  "32193": [
+   "putnam"
+  ],
+  "32195": [
+   "marion",
+   "lake"
+  ],
+  "32202": [
+   "duval"
+  ],
+  "32203": [
+   "duval"
+  ],
+  "32204": [
+   "duval"
+  ],
+  "32205": [
+   "duval"
+  ],
+  "32206": [
+   "duval"
+  ],
+  "32207": [
+   "duval"
+  ],
+  "32208": [
+   "duval"
+  ],
+  "32209": [
+   "duval"
+  ],
+  "32210": [
+   "duval"
+  ],
+  "32211": [
+   "duval"
+  ],
+  "32212": [
+   "duval"
+  ],
+  "32214": [
+   "duval"
+  ],
+  "32216": [
+   "duval"
+  ],
+  "32217": [
+   "duval"
+  ],
+  "32218": [
+   "duval"
+  ],
+  "32219": [
+   "duval"
+  ],
+  "32220": [
+   "duval"
+  ],
+  "32221": [
+   "duval"
+  ],
+  "32222": [
+   "duval"
+  ],
+  "32223": [
+   "duval"
+  ],
+  "32224": [
+   "duval",
+   "stjohns"
+  ],
+  "32225": [
+   "duval"
+  ],
+  "32226": [
+   "duval"
+  ],
+  "32227": [
+   "duval"
+  ],
+  "32228": [
+   "duval"
+  ],
+  "32233": [
+   "duval"
+  ],
+  "32234": [
+   "duval",
+   "clay",
+   "baker",
+   "nassau"
+  ],
+  "32244": [
+   "duval"
+  ],
+  "32246": [
+   "duval"
+  ],
+  "32250": [
+   "duval"
+  ],
+  "32254": [
+   "duval"
+  ],
+  "32256": [
+   "duval"
+  ],
+  "32257": [
+   "duval"
+  ],
+  "32258": [
+   "duval"
+  ],
+  "32259": [
+   "stjohns"
+  ],
+  "32266": [
+   "duval"
+  ],
+  "32277": [
+   "duval"
+  ],
+  "32301": [
+   "leon"
+  ],
+  "32303": [
+   "leon"
+  ],
+  "32304": [
+   "leon"
+  ],
+  "32305": [
+   "leon"
+  ],
+  "32306": [
+   "leon"
+  ],
+  "32307": [
+   "leon"
+  ],
+  "32308": [
+   "leon"
+  ],
+  "32309": [
+   "leon"
+  ],
+  "32310": [
+   "leon"
+  ],
+  "32311": [
+   "leon"
+  ],
+  "32312": [
+   "leon"
+  ],
+  "32313": [
+   "leon"
+  ],
+  "32317": [
+   "leon"
+  ],
+  "32320": [
+   "franklin"
+  ],
+  "32321": [
+   "liberty",
+   "franklin"
+  ],
+  "32322": [
+   "franklin"
+  ],
+  "32323": [
+   "franklin"
+  ],
+  "32324": [
+   "gadsden"
+  ],
+  "32327": [
+   "wakulla"
+  ],
+  "32328": [
+   "franklin"
+  ],
+  "32330": [
+   "gadsden"
+  ],
+  "32331": [
+   "madison",
+   "taylor",
+   "jefferson"
+  ],
+  "32332": [
+   "gadsden"
+  ],
+  "32333": [
+   "gadsden"
+  ],
+  "32334": [
+   "liberty"
+  ],
+  "32336": [
+   "taylor",
+   "jefferson",
+   "madison"
+  ],
+  "32337": [
+   "jefferson"
+  ],
+  "32340": [
+   "madison"
+  ],
+  "32343": [
+   "gadsden"
+  ],
+  "32344": [
+   "jefferson"
+  ],
+  "32346": [
+   "wakulla",
+   "franklin"
+  ],
+  "32347": [
+   "taylor"
+  ],
+  "32348": [
+   "taylor"
+  ],
+  "32350": [
+   "madison"
+  ],
+  "32351": [
+   "gadsden"
+  ],
+  "32352": [
+   "gadsden"
+  ],
+  "32355": [
+   "wakulla"
+  ],
+  "32356": [
+   "taylor"
+  ],
+  "32358": [
+   "wakulla",
+   "franklin"
+  ],
+  "32359": [
+   "dixie",
+   "taylor"
+  ],
+  "32360": [
+   "liberty"
+  ],
+  "32361": [
+   "jefferson"
+  ],
+  "32399": [
+   "leon"
+  ],
+  "32401": [
+   "bay"
+  ],
+  "32403": [
+   "bay"
+  ],
+  "32404": [
+   "bay"
+  ],
+  "32405": [
+   "bay"
+  ],
+  "32407": [
+   "bay"
+  ],
+  "32408": [
+   "bay"
+  ],
+  "32409": [
+   "bay"
+  ],
+  "32410": [
+   "bay"
+  ],
+  "32413": [
+   "bay"
+  ],
+  "32420": [
+   "jackson",
+   "washington"
+  ],
+  "32421": [
+   "calhoun"
+  ],
+  "32423": [
+   "jackson"
+  ],
+  "32424": [
+   "calhoun"
+  ],
+  "32425": [
+   "holmes",
+   "washington"
+  ],
+  "32426": [
+   "jackson"
+  ],
+  "32427": [
+   "washington"
+  ],
+  "32428": [
+   "washington"
+  ],
+  "32430": [
+   "calhoun"
+  ],
+  "32431": [
+   "jackson",
+   "washington"
+  ],
+  "32432": [
+   "jackson"
+  ],
+  "32433": [
+   "walton"
+  ],
+  "32435": [
+   "walton"
+  ],
+  "32437": [
+   "washington",
+   "bay"
+  ],
+  "32438": [
+   "bay",
+   "calhoun",
+   "jackson"
+  ],
+  "32439": [
+   "walton"
+  ],
+  "32440": [
+   "jackson",
+   "holmes"
+  ],
+  "32442": [
+   "jackson",
+   "calhoun"
+  ],
+  "32443": [
+   "jackson"
+  ],
+  "32444": [
+   "bay"
+  ],
+  "32445": [
+   "jackson"
+  ],
+  "32446": [
+   "jackson"
+  ],
+  "32448": [
+   "jackson"
+  ],
+  "32449": [
+   "calhoun"
+  ],
+  "32455": [
+   "walton",
+   "holmes"
+  ],
+  "32456": [
+   "gulf",
+   "bay",
+   "franklin"
+  ],
+  "32459": [
+   "walton"
+  ],
+  "32460": [
+   "jackson"
+  ],
+  "32461": [
+   "walton"
+  ],
+  "32462": [
+   "washington",
+   "walton"
+  ],
+  "32463": [
+   "washington"
+  ],
+  "32464": [
+   "holmes",
+   "walton"
+  ],
+  "32465": [
+   "gulf"
+  ],
+  "32466": [
+   "bay",
+   "calhoun",
+   "washington"
+  ],
+  "32501": [
+   "escambia"
+  ],
+  "32502": [
+   "escambia"
+  ],
+  "32503": [
+   "escambia"
+  ],
+  "32504": [
+   "escambia"
+  ],
+  "32505": [
+   "escambia"
+  ],
+  "32506": [
+   "escambia"
+  ],
+  "32507": [
+   "escambia"
+  ],
+  "32508": [
+   "escambia"
+  ],
+  "32509": [
+   "escambia"
+  ],
+  "32511": [
+   "escambia"
+  ],
+  "32512": [
+   "escambia"
+  ],
+  "32514": [
+   "escambia"
+  ],
+  "32526": [
+   "escambia"
+  ],
+  "32530": [
+   "santarosa"
+  ],
+  "32531": [
+   "okaloosa",
+   "santarosa"
+  ],
+  "32533": [
+   "escambia"
+  ],
+  "32534": [
+   "escambia"
+  ],
+  "32535": [
+   "escambia"
+  ],
+  "32536": [
+   "okaloosa"
+  ],
+  "32539": [
+   "okaloosa",
+   "walton"
+  ],
+  "32541": [
+   "okaloosa"
+  ],
+  "32542": [
+   "okaloosa"
+  ],
+  "32544": [
+   "okaloosa"
+  ],
+  "32547": [
+   "okaloosa"
+  ],
+  "32548": [
+   "okaloosa"
+  ],
+  "32550": [
+   "walton"
+  ],
+  "32561": [
+   "escambia",
+   "santarosa"
+  ],
+  "32563": [
+   "santarosa"
+  ],
+  "32564": [
+   "okaloosa",
+   "santarosa"
+  ],
+  "32565": [
+   "santarosa"
+  ],
+  "32566": [
+   "santarosa"
+  ],
+  "32567": [
+   "okaloosa",
+   "walton"
+  ],
+  "32568": [
+   "escambia"
+  ],
+  "32569": [
+   "okaloosa"
+  ],
+  "32570": [
+   "santarosa"
+  ],
+  "32571": [
+   "santarosa"
+  ],
+  "32577": [
+   "escambia"
+  ],
+  "32578": [
+   "okaloosa",
+   "walton"
+  ],
+  "32579": [
+   "okaloosa"
+  ],
+  "32580": [
+   "okaloosa"
+  ],
+  "32583": [
+   "santarosa"
+  ],
+  "32601": [
+   "alachua"
+  ],
+  "32603": [
+   "alachua"
+  ],
+  "32605": [
+   "alachua"
+  ],
+  "32606": [
+   "alachua"
+  ],
+  "32607": [
+   "alachua"
+  ],
+  "32608": [
+   "alachua"
+  ],
+  "32609": [
+   "alachua"
+  ],
+  "32610": [
+   "alachua"
+  ],
+  "32612": [
+   "alachua"
+  ],
+  "32615": [
+   "alachua"
+  ],
+  "32616": [
+   "alachua"
+  ],
+  "32617": [
+   "marion"
+  ],
+  "32618": [
+   "alachua",
+   "levy"
+  ],
+  "32619": [
+   "gilchrist"
+  ],
+  "32621": [
+   "levy"
+  ],
+  "32622": [
+   "bradford",
+   "alachua"
+  ],
+  "32625": [
+   "levy"
+  ],
+  "32626": [
+   "levy"
+  ],
+  "32628": [
+   "dixie"
+  ],
+  "32631": [
+   "alachua"
+  ],
+  "32634": [
+   "marion"
+  ],
+  "32639": [
+   "levy"
+  ],
+  "32640": [
+   "alachua",
+   "putnam"
+  ],
+  "32641": [
+   "alachua"
+  ],
+  "32643": [
+   "alachua",
+   "gilchrist",
+   "columbia"
+  ],
+  "32648": [
+   "dixie"
+  ],
+  "32653": [
+   "alachua"
+  ],
+  "32656": [
+   "clay",
+   "bradford"
+  ],
+  "32658": [
+   "alachua"
+  ],
+  "32664": [
+   "marion"
+  ],
+  "32666": [
+   "putnam",
+   "clay",
+   "alachua",
+   "bradford"
+  ],
+  "32667": [
+   "alachua",
+   "marion"
+  ],
+  "32668": [
+   "levy",
+   "marion"
+  ],
+  "32669": [
+   "alachua",
+   "gilchrist",
+   "levy"
+  ],
+  "32680": [
+   "dixie"
+  ],
+  "32681": [
+   "marion"
+  ],
+  "32683": [
+   "levy"
+  ],
+  "32686": [
+   "marion"
+  ],
+  "32692": [
+   "dixie"
+  ],
+  "32693": [
+   "gilchrist",
+   "levy"
+  ],
+  "32694": [
+   "alachua"
+  ],
+  "32696": [
+   "levy",
+   "marion"
+  ],
+  "32697": [
+   "union"
+  ],
+  "32701": [
+   "seminole"
+  ],
+  "32702": [
+   "lake",
+   "marion"
+  ],
+  "32703": [
+   "orange",
+   "seminole"
+  ],
+  "32707": [
+   "seminole"
+  ],
+  "32708": [
+   "seminole"
+  ],
+  "32709": [
+   "orange"
+  ],
+  "32712": [
+   "orange"
+  ],
+  "32713": [
+   "volusia"
+  ],
+  "32714": [
+   "seminole"
+  ],
+  "32720": [
+   "volusia",
+   "lake"
+  ],
+  "32723": [
+   "volusia"
+  ],
+  "32724": [
+   "volusia"
+  ],
+  "32725": [
+   "volusia"
+  ],
+  "32726": [
+   "lake"
+  ],
+  "32730": [
+   "seminole"
+  ],
+  "32732": [
+   "seminole"
+  ],
+  "32735": [
+   "lake"
+  ],
+  "32736": [
+   "lake"
+  ],
+  "32738": [
+   "volusia"
+  ],
+  "32744": [
+   "volusia"
+  ],
+  "32746": [
+   "seminole"
+  ],
+  "32750": [
+   "seminole"
+  ],
+  "32751": [
+   "orange",
+   "seminole"
+  ],
+  "32754": [
+   "brevard",
+   "volusia"
+  ],
+  "32757": [
+   "lake",
+   "orange"
+  ],
+  "32759": [
+   "volusia"
+  ],
+  "32763": [
+   "volusia"
+  ],
+  "32764": [
+   "volusia"
+  ],
+  "32765": [
+   "seminole"
+  ],
+  "32766": [
+   "seminole"
+  ],
+  "32767": [
+   "lake"
+  ],
+  "32768": [
+   "orange"
+  ],
+  "32771": [
+   "seminole"
+  ],
+  "32773": [
+   "seminole"
+  ],
+  "32775": [
+   "brevard"
+  ],
+  "32776": [
+   "lake",
+   "orange"
+  ],
+  "32778": [
+   "lake"
+  ],
+  "32779": [
+   "seminole"
+  ],
+  "32780": [
+   "brevard"
+  ],
+  "32784": [
+   "marion",
+   "lake"
+  ],
+  "32789": [
+   "orange"
+  ],
+  "32792": [
+   "orange",
+   "seminole"
+  ],
+  "32796": [
+   "brevard"
+  ],
+  "32798": [
+   "orange"
+  ],
+  "32801": [
+   "orange"
+  ],
+  "32803": [
+   "orange"
+  ],
+  "32804": [
+   "orange"
+  ],
+  "32805": [
+   "orange"
+  ],
+  "32806": [
+   "orange"
+  ],
+  "32807": [
+   "orange"
+  ],
+  "32808": [
+   "orange"
+  ],
+  "32809": [
+   "orange"
+  ],
+  "32810": [
+   "orange"
+  ],
+  "32811": [
+   "orange"
+  ],
+  "32812": [
+   "orange"
+  ],
+  "32814": [
+   "orange"
+  ],
+  "32816": [
+   "orange"
+  ],
+  "32817": [
+   "orange"
+  ],
+  "32818": [
+   "orange"
+  ],
+  "32819": [
+   "orange"
+  ],
+  "32820": [
+   "orange"
+  ],
+  "32821": [
+   "orange"
+  ],
+  "32822": [
+   "orange"
+  ],
+  "32824": [
+   "orange"
+  ],
+  "32825": [
+   "orange"
+  ],
+  "32826": [
+   "orange"
+  ],
+  "32827": [
+   "orange"
+  ],
+  "32828": [
+   "orange"
+  ],
+  "32829": [
+   "orange"
+  ],
+  "32830": [
+   "orange"
+  ],
+  "32831": [
+   "orange"
+  ],
+  "32832": [
+   "orange"
+  ],
+  "32833": [
+   "orange"
+  ],
+  "32835": [
+   "orange"
+  ],
+  "32836": [
+   "orange"
+  ],
+  "32837": [
+   "orange"
+  ],
+  "32839": [
+   "orange"
+  ],
+  "32899": [
+   "brevard"
+  ],
+  "32901": [
+   "brevard"
+  ],
+  "32903": [
+   "brevard"
+  ],
+  "32904": [
+   "brevard"
+  ],
+  "32905": [
+   "brevard"
+  ],
+  "32907": [
+   "brevard"
+  ],
+  "32908": [
+   "brevard"
+  ],
+  "32909": [
+   "brevard"
+  ],
+  "32920": [
+   "brevard"
+  ],
+  "32922": [
+   "brevard"
+  ],
+  "32925": [
+   "brevard"
+  ],
+  "32926": [
+   "brevard"
+  ],
+  "32927": [
+   "brevard"
+  ],
+  "32931": [
+   "brevard"
+  ],
+  "32934": [
+   "brevard"
+  ],
+  "32935": [
+   "brevard"
+  ],
+  "32937": [
+   "brevard"
+  ],
+  "32940": [
+   "brevard"
+  ],
+  "32948": [
+   "indianriver",
+   "brevard"
+  ],
+  "32949": [
+   "brevard"
+  ],
+  "32950": [
+   "brevard"
+  ],
+  "32951": [
+   "brevard"
+  ],
+  "32952": [
+   "brevard"
+  ],
+  "32953": [
+   "brevard"
+  ],
+  "32955": [
+   "brevard"
+  ],
+  "32958": [
+   "indianriver"
+  ],
+  "32959": [
+   "brevard"
+  ],
+  "32960": [
+   "indianriver"
+  ],
+  "32962": [
+   "indianriver"
+  ],
+  "32963": [
+   "indianriver"
+  ],
+  "32966": [
+   "indianriver"
+  ],
+  "32967": [
+   "indianriver"
+  ],
+  "32968": [
+   "indianriver"
+  ],
+  "32970": [
+   "indianriver"
+  ],
+  "32976": [
+   "brevard"
+  ],
+  "33001": [
+   "monroe"
+  ],
+  "33004": [
+   "broward"
+  ],
+  "33009": [
+   "broward"
+  ],
+  "33010": [
+   "miamidade"
+  ],
+  "33012": [
+   "miamidade"
+  ],
+  "33013": [
+   "miamidade"
+  ],
+  "33014": [
+   "miamidade"
+  ],
+  "33015": [
+   "miamidade"
+  ],
+  "33016": [
+   "miamidade"
+  ],
+  "33018": [
+   "miamidade"
+  ],
+  "33019": [
+   "broward"
+  ],
+  "33020": [
+   "broward"
+  ],
+  "33021": [
+   "broward"
+  ],
+  "33022": [
+   "broward"
+  ],
+  "33023": [
+   "broward"
+  ],
+  "33024": [
+   "broward"
+  ],
+  "33025": [
+   "broward"
+  ],
+  "33026": [
+   "broward"
+  ],
+  "33027": [
+   "broward"
+  ],
+  "33028": [
+   "broward"
+  ],
+  "33029": [
+   "broward"
+  ],
+  "33030": [
+   "miamidade"
+  ],
+  "33031": [
+   "miamidade"
+  ],
+  "33032": [
+   "miamidade"
+  ],
+  "33033": [
+   "miamidade"
+  ],
+  "33034": [
+   "miamidade",
+   "monroe"
+  ],
+  "33035": [
+   "miamidade"
+  ],
+  "33036": [
+   "monroe"
+  ],
+  "33037": [
+   "monroe"
+  ],
+  "33039": [
+   "miamidade"
+  ],
+  "33040": [
+   "monroe"
+  ],
+  "33042": [
+   "monroe"
+  ],
+  "33043": [
+   "monroe"
+  ],
+  "33050": [
+   "monroe"
+  ],
+  "33051": [
+   "monroe"
+  ],
+  "33054": [
+   "miamidade"
+  ],
+  "33055": [
+   "miamidade"
+  ],
+  "33056": [
+   "miamidade"
+  ],
+  "33060": [
+   "broward"
+  ],
+  "33062": [
+   "broward"
+  ],
+  "33063": [
+   "broward"
+  ],
+  "33064": [
+   "broward"
+  ],
+  "33065": [
+   "broward"
+  ],
+  "33066": [
+   "broward"
+  ],
+  "33067": [
+   "broward"
+  ],
+  "33068": [
+   "broward"
+  ],
+  "33069": [
+   "broward"
+  ],
+  "33070": [
+   "monroe"
+  ],
+  "33071": [
+   "broward"
+  ],
+  "33073": [
+   "broward"
+  ],
+  "33076": [
+   "broward"
+  ],
+  "33101": [
+   "miamidade"
+  ],
+  "33109": [
+   "miamidade"
+  ],
+  "33122": [
+   "miamidade"
+  ],
+  "33125": [
+   "miamidade"
+  ],
+  "33126": [
+   "miamidade"
+  ],
+  "33127": [
+   "miamidade"
+  ],
+  "33128": [
+   "miamidade"
+  ],
+  "33129": [
+   "miamidade"
+  ],
+  "33130": [
+   "miamidade"
+  ],
+  "33131": [
+   "miamidade"
+  ],
+  "33132": [
+   "miamidade"
+  ],
+  "33133": [
+   "miamidade"
+  ],
+  "33134": [
+   "miamidade"
+  ],
+  "33135": [
+   "miamidade"
+  ],
+  "33136": [
+   "miamidade"
+  ],
+  "33137": [
+   "miamidade"
+  ],
+  "33138": [
+   "miamidade"
+  ],
+  "33139": [
+   "miamidade"
+  ],
+  "33140": [
+   "miamidade"
+  ],
+  "33141": [
+   "miamidade"
+  ],
+  "33142": [
+   "miamidade"
+  ],
+  "33143": [
+   "miamidade"
+  ],
+  "33144": [
+   "miamidade"
+  ],
+  "33145": [
+   "miamidade"
+  ],
+  "33146": [
+   "miamidade"
+  ],
+  "33147": [
+   "miamidade"
+  ],
+  "33149": [
+   "miamidade"
+  ],
+  "33150": [
+   "miamidade"
+  ],
+  "33154": [
+   "miamidade"
+  ],
+  "33155": [
+   "miamidade"
+  ],
+  "33156": [
+   "miamidade"
+  ],
+  "33157": [
+   "miamidade"
+  ],
+  "33158": [
+   "miamidade"
+  ],
+  "33160": [
+   "miamidade"
+  ],
+  "33161": [
+   "miamidade"
+  ],
+  "33162": [
+   "miamidade"
+  ],
+  "33165": [
+   "miamidade"
+  ],
+  "33166": [
+   "miamidade"
+  ],
+  "33167": [
+   "miamidade"
+  ],
+  "33168": [
+   "miamidade"
+  ],
+  "33169": [
+   "miamidade"
+  ],
+  "33170": [
+   "miamidade"
+  ],
+  "33172": [
+   "miamidade"
+  ],
+  "33173": [
+   "miamidade"
+  ],
+  "33174": [
+   "miamidade"
+  ],
+  "33175": [
+   "miamidade"
+  ],
+  "33176": [
+   "miamidade"
+  ],
+  "33177": [
+   "miamidade"
+  ],
+  "33178": [
+   "miamidade"
+  ],
+  "33179": [
+   "miamidade"
+  ],
+  "33180": [
+   "miamidade"
+  ],
+  "33181": [
+   "miamidade"
+  ],
+  "33182": [
+   "miamidade"
+  ],
+  "33183": [
+   "miamidade"
+  ],
+  "33184": [
+   "miamidade"
+  ],
+  "33185": [
+   "miamidade"
+  ],
+  "33186": [
+   "miamidade"
+  ],
+  "33187": [
+   "miamidade"
+  ],
+  "33189": [
+   "miamidade"
+  ],
+  "33190": [
+   "miamidade"
+  ],
+  "33193": [
+   "miamidade"
+  ],
+  "33194": [
+   "miamidade"
+  ],
+  "33196": [
+   "miamidade"
+  ],
+  "33301": [
+   "broward"
+  ],
+  "33304": [
+   "broward"
+  ],
+  "33305": [
+   "broward"
+  ],
+  "33306": [
+   "broward"
+  ],
+  "33308": [
+   "broward"
+  ],
+  "33309": [
+   "broward"
+  ],
+  "33311": [
+   "broward"
+  ],
+  "33312": [
+   "broward"
+  ],
+  "33313": [
+   "broward"
+  ],
+  "33314": [
+   "broward"
+  ],
+  "33315": [
+   "broward"
+  ],
+  "33316": [
+   "broward"
+  ],
+  "33317": [
+   "broward"
+  ],
+  "33319": [
+   "broward"
+  ],
+  "33321": [
+   "broward"
+  ],
+  "33322": [
+   "broward"
+  ],
+  "33323": [
+   "broward"
+  ],
+  "33324": [
+   "broward"
+  ],
+  "33325": [
+   "broward"
+  ],
+  "33326": [
+   "broward"
+  ],
+  "33327": [
+   "broward"
+  ],
+  "33328": [
+   "broward"
+  ],
+  "33330": [
+   "broward"
+  ],
+  "33331": [
+   "broward"
+  ],
+  "33332": [
+   "broward"
+  ],
+  "33334": [
+   "broward"
+  ],
+  "33351": [
+   "broward"
+  ],
+  "33388": [
+   "broward"
+  ],
+  "33401": [
+   "palmbeach"
+  ],
+  "33403": [
+   "palmbeach"
+  ],
+  "33404": [
+   "palmbeach"
+  ],
+  "33405": [
+   "palmbeach"
+  ],
+  "33406": [
+   "palmbeach"
+  ],
+  "33407": [
+   "palmbeach"
+  ],
+  "33408": [
+   "palmbeach"
+  ],
+  "33409": [
+   "palmbeach"
+  ],
+  "33410": [
+   "palmbeach"
+  ],
+  "33411": [
+   "palmbeach"
+  ],
+  "33412": [
+   "palmbeach"
+  ],
+  "33413": [
+   "palmbeach"
+  ],
+  "33414": [
+   "palmbeach"
+  ],
+  "33415": [
+   "palmbeach"
+  ],
+  "33417": [
+   "palmbeach"
+  ],
+  "33418": [
+   "palmbeach"
+  ],
+  "33426": [
+   "palmbeach"
+  ],
+  "33428": [
+   "palmbeach"
+  ],
+  "33430": [
+   "palmbeach"
+  ],
+  "33431": [
+   "palmbeach"
+  ],
+  "33432": [
+   "palmbeach"
+  ],
+  "33433": [
+   "palmbeach"
+  ],
+  "33434": [
+   "palmbeach"
+  ],
+  "33435": [
+   "palmbeach"
+  ],
+  "33436": [
+   "palmbeach"
+  ],
+  "33437": [
+   "palmbeach"
+  ],
+  "33438": [
+   "martin",
+   "palmbeach"
+  ],
+  "33440": [
+   "hendry",
+   "palmbeach"
+  ],
+  "33441": [
+   "broward"
+  ],
+  "33442": [
+   "broward"
+  ],
+  "33444": [
+   "palmbeach"
+  ],
+  "33445": [
+   "palmbeach"
+  ],
+  "33446": [
+   "palmbeach"
+  ],
+  "33449": [
+   "palmbeach"
+  ],
+  "33455": [
+   "martin"
+  ],
+  "33458": [
+   "palmbeach",
+   "martin"
+  ],
+  "33460": [
+   "palmbeach"
+  ],
+  "33461": [
+   "palmbeach"
+  ],
+  "33462": [
+   "palmbeach"
+  ],
+  "33463": [
+   "palmbeach"
+  ],
+  "33467": [
+   "palmbeach"
+  ],
+  "33469": [
+   "martin",
+   "palmbeach"
+  ],
+  "33470": [
+   "palmbeach"
+  ],
+  "33471": [
+   "glades"
+  ],
+  "33472": [
+   "palmbeach"
+  ],
+  "33473": [
+   "palmbeach"
+  ],
+  "33476": [
+   "palmbeach"
+  ],
+  "33477": [
+   "palmbeach"
+  ],
+  "33478": [
+   "palmbeach",
+   "martin"
+  ],
+  "33480": [
+   "palmbeach"
+  ],
+  "33483": [
+   "palmbeach"
+  ],
+  "33484": [
+   "palmbeach"
+  ],
+  "33486": [
+   "palmbeach"
+  ],
+  "33487": [
+   "palmbeach"
+  ],
+  "33493": [
+   "palmbeach"
+  ],
+  "33496": [
+   "palmbeach"
+  ],
+  "33498": [
+   "palmbeach"
+  ],
   "33503": [
    "hillsborough"
   ],
@@ -40676,9 +42584,18 @@
   "33511": [
    "hillsborough"
   ],
+  "33513": [
+   "sumter"
+  ],
+  "33514": [
+   "sumter"
+  ],
+  "33521": [
+   "sumter"
+  ],
   "33523": [
-   "hernando",
-   "pasco"
+   "pasco",
+   "hernando"
   ],
   "33525": [
    "pasco"
@@ -40692,9 +42609,12 @@
   "33534": [
    "hillsborough"
   ],
+  "33538": [
+   "sumter"
+  ],
   "33540": [
-   "hillsborough",
-   "pasco"
+   "pasco",
+   "hillsborough"
   ],
   "33541": [
    "pasco"
@@ -40712,10 +42632,12 @@
    "pasco"
   ],
   "33547": [
-   "hillsborough"
+   "hillsborough",
+   "polk"
   ],
   "33548": [
-   "hillsborough"
+   "hillsborough",
+   "pasco"
   ],
   "33549": [
    "hillsborough",
@@ -40775,6 +42697,9 @@
   "33584": [
    "hillsborough"
   ],
+  "33585": [
+   "sumter"
+  ],
   "33592": [
    "hillsborough"
   ],
@@ -40785,12 +42710,13 @@
    "hillsborough"
   ],
   "33597": [
+   "sumter",
    "hernando",
-   "pasco",
-   "other"
+   "pasco"
   ],
   "33598": [
-   "hillsborough"
+   "hillsborough",
+   "manatee"
   ],
   "33602": [
    "hillsborough"
@@ -40990,9 +42916,649 @@
   "33786": [
    "pinellas"
   ],
+  "33801": [
+   "polk"
+  ],
+  "33803": [
+   "polk"
+  ],
+  "33805": [
+   "polk"
+  ],
+  "33809": [
+   "polk"
+  ],
   "33810": [
-   "hillsborough",
-   "other"
+   "polk",
+   "hillsborough"
+  ],
+  "33811": [
+   "polk"
+  ],
+  "33812": [
+   "polk"
+  ],
+  "33813": [
+   "polk"
+  ],
+  "33815": [
+   "polk"
+  ],
+  "33823": [
+   "polk"
+  ],
+  "33825": [
+   "highlands",
+   "polk"
+  ],
+  "33827": [
+   "polk"
+  ],
+  "33830": [
+   "polk"
+  ],
+  "33834": [
+   "hardee",
+   "polk"
+  ],
+  "33835": [
+   "polk"
+  ],
+  "33837": [
+   "polk"
+  ],
+  "33838": [
+   "polk"
+  ],
+  "33839": [
+   "polk"
+  ],
+  "33840": [
+   "polk"
+  ],
+  "33841": [
+   "polk"
+  ],
+  "33843": [
+   "polk"
+  ],
+  "33844": [
+   "polk"
+  ],
+  "33847": [
+   "polk"
+  ],
+  "33848": [
+   "osceola"
+  ],
+  "33849": [
+   "polk"
+  ],
+  "33850": [
+   "polk"
+  ],
+  "33851": [
+   "polk"
+  ],
+  "33852": [
+   "highlands"
+  ],
+  "33853": [
+   "polk"
+  ],
+  "33854": [
+   "polk"
+  ],
+  "33855": [
+   "polk"
+  ],
+  "33856": [
+   "polk"
+  ],
+  "33857": [
+   "highlands"
+  ],
+  "33858": [
+   "polk"
+  ],
+  "33859": [
+   "polk"
+  ],
+  "33860": [
+   "polk"
+  ],
+  "33865": [
+   "hardee",
+   "desoto"
+  ],
+  "33867": [
+   "polk"
+  ],
+  "33868": [
+   "polk"
+  ],
+  "33870": [
+   "highlands"
+  ],
+  "33872": [
+   "highlands"
+  ],
+  "33873": [
+   "hardee"
+  ],
+  "33875": [
+   "highlands"
+  ],
+  "33876": [
+   "highlands"
+  ],
+  "33877": [
+   "polk"
+  ],
+  "33880": [
+   "polk"
+  ],
+  "33881": [
+   "polk"
+  ],
+  "33884": [
+   "polk"
+  ],
+  "33890": [
+   "hardee"
+  ],
+  "33896": [
+   "osceola",
+   "polk"
+  ],
+  "33897": [
+   "polk"
+  ],
+  "33898": [
+   "polk",
+   "osceola"
+  ],
+  "33901": [
+   "lee"
+  ],
+  "33903": [
+   "lee"
+  ],
+  "33904": [
+   "lee"
+  ],
+  "33905": [
+   "lee"
+  ],
+  "33907": [
+   "lee"
+  ],
+  "33908": [
+   "lee"
+  ],
+  "33909": [
+   "lee"
+  ],
+  "33912": [
+   "lee"
+  ],
+  "33913": [
+   "lee"
+  ],
+  "33914": [
+   "lee"
+  ],
+  "33916": [
+   "lee"
+  ],
+  "33917": [
+   "lee",
+   "charlotte"
+  ],
+  "33919": [
+   "lee"
+  ],
+  "33920": [
+   "lee"
+  ],
+  "33921": [
+   "lee",
+   "charlotte"
+  ],
+  "33922": [
+   "lee"
+  ],
+  "33924": [
+   "lee"
+  ],
+  "33928": [
+   "lee"
+  ],
+  "33930": [
+   "hendry"
+  ],
+  "33931": [
+   "lee"
+  ],
+  "33935": [
+   "hendry",
+   "glades"
+  ],
+  "33936": [
+   "hendry",
+   "lee"
+  ],
+  "33944": [
+   "glades"
+  ],
+  "33946": [
+   "charlotte"
+  ],
+  "33947": [
+   "charlotte"
+  ],
+  "33948": [
+   "charlotte"
+  ],
+  "33950": [
+   "charlotte"
+  ],
+  "33952": [
+   "charlotte"
+  ],
+  "33953": [
+   "charlotte"
+  ],
+  "33954": [
+   "charlotte"
+  ],
+  "33955": [
+   "charlotte"
+  ],
+  "33956": [
+   "lee"
+  ],
+  "33957": [
+   "lee"
+  ],
+  "33960": [
+   "highlands",
+   "glades"
+  ],
+  "33965": [
+   "lee"
+  ],
+  "33966": [
+   "lee"
+  ],
+  "33967": [
+   "lee"
+  ],
+  "33971": [
+   "lee"
+  ],
+  "33972": [
+   "lee"
+  ],
+  "33973": [
+   "lee"
+  ],
+  "33974": [
+   "lee"
+  ],
+  "33976": [
+   "lee"
+  ],
+  "33980": [
+   "charlotte"
+  ],
+  "33981": [
+   "charlotte"
+  ],
+  "33982": [
+   "charlotte"
+  ],
+  "33983": [
+   "charlotte"
+  ],
+  "33990": [
+   "lee"
+  ],
+  "33991": [
+   "lee"
+  ],
+  "33993": [
+   "lee"
+  ],
+  "34101": [
+   "collier"
+  ],
+  "34102": [
+   "collier"
+  ],
+  "34103": [
+   "collier"
+  ],
+  "34104": [
+   "collier"
+  ],
+  "34105": [
+   "collier"
+  ],
+  "34108": [
+   "collier"
+  ],
+  "34109": [
+   "collier"
+  ],
+  "34110": [
+   "collier",
+   "lee"
+  ],
+  "34112": [
+   "collier"
+  ],
+  "34113": [
+   "collier"
+  ],
+  "34114": [
+   "collier"
+  ],
+  "34116": [
+   "collier"
+  ],
+  "34117": [
+   "collier"
+  ],
+  "34119": [
+   "collier"
+  ],
+  "34120": [
+   "collier"
+  ],
+  "34134": [
+   "lee",
+   "collier"
+  ],
+  "34135": [
+   "lee"
+  ],
+  "34137": [
+   "collier"
+  ],
+  "34138": [
+   "collier"
+  ],
+  "34139": [
+   "collier"
+  ],
+  "34140": [
+   "collier"
+  ],
+  "34141": [
+   "collier",
+   "monroe",
+   "miamidade"
+  ],
+  "34142": [
+   "collier",
+   "hendry"
+  ],
+  "34145": [
+   "collier"
+  ],
+  "34201": [
+   "manatee"
+  ],
+  "34202": [
+   "manatee"
+  ],
+  "34203": [
+   "manatee"
+  ],
+  "34205": [
+   "manatee"
+  ],
+  "34207": [
+   "manatee"
+  ],
+  "34208": [
+   "manatee"
+  ],
+  "34209": [
+   "manatee"
+  ],
+  "34210": [
+   "manatee"
+  ],
+  "34211": [
+   "manatee"
+  ],
+  "34212": [
+   "manatee"
+  ],
+  "34215": [
+   "manatee"
+  ],
+  "34216": [
+   "manatee"
+  ],
+  "34217": [
+   "manatee"
+  ],
+  "34219": [
+   "manatee"
+  ],
+  "34221": [
+   "manatee"
+  ],
+  "34222": [
+   "manatee"
+  ],
+  "34223": [
+   "sarasota",
+   "charlotte"
+  ],
+  "34224": [
+   "charlotte",
+   "sarasota"
+  ],
+  "34228": [
+   "sarasota",
+   "manatee"
+  ],
+  "34229": [
+   "sarasota"
+  ],
+  "34231": [
+   "sarasota"
+  ],
+  "34232": [
+   "sarasota"
+  ],
+  "34233": [
+   "sarasota"
+  ],
+  "34234": [
+   "sarasota"
+  ],
+  "34235": [
+   "sarasota"
+  ],
+  "34236": [
+   "sarasota"
+  ],
+  "34237": [
+   "sarasota"
+  ],
+  "34238": [
+   "sarasota"
+  ],
+  "34239": [
+   "sarasota"
+  ],
+  "34240": [
+   "sarasota"
+  ],
+  "34241": [
+   "sarasota"
+  ],
+  "34242": [
+   "sarasota"
+  ],
+  "34243": [
+   "manatee",
+   "sarasota"
+  ],
+  "34250": [
+   "manatee"
+  ],
+  "34251": [
+   "manatee"
+  ],
+  "34266": [
+   "desoto",
+   "sarasota"
+  ],
+  "34267": [
+   "desoto"
+  ],
+  "34268": [
+   "desoto"
+  ],
+  "34269": [
+   "desoto"
+  ],
+  "34275": [
+   "sarasota"
+  ],
+  "34285": [
+   "sarasota"
+  ],
+  "34286": [
+   "sarasota"
+  ],
+  "34287": [
+   "sarasota"
+  ],
+  "34288": [
+   "sarasota"
+  ],
+  "34289": [
+   "sarasota"
+  ],
+  "34291": [
+   "sarasota"
+  ],
+  "34292": [
+   "sarasota"
+  ],
+  "34293": [
+   "sarasota"
+  ],
+  "34420": [
+   "marion"
+  ],
+  "34428": [
+   "citrus"
+  ],
+  "34429": [
+   "citrus"
+  ],
+  "34431": [
+   "marion",
+   "levy"
+  ],
+  "34432": [
+   "marion"
+  ],
+  "34433": [
+   "citrus"
+  ],
+  "34434": [
+   "citrus"
+  ],
+  "34436": [
+   "citrus"
+  ],
+  "34442": [
+   "citrus"
+  ],
+  "34445": [
+   "citrus"
+  ],
+  "34446": [
+   "citrus"
+  ],
+  "34448": [
+   "citrus"
+  ],
+  "34449": [
+   "levy",
+   "citrus"
+  ],
+  "34450": [
+   "citrus"
+  ],
+  "34452": [
+   "citrus"
+  ],
+  "34453": [
+   "citrus"
+  ],
+  "34461": [
+   "citrus"
+  ],
+  "34465": [
+   "citrus"
+  ],
+  "34470": [
+   "marion"
+  ],
+  "34471": [
+   "marion"
+  ],
+  "34472": [
+   "marion"
+  ],
+  "34473": [
+   "marion"
+  ],
+  "34474": [
+   "marion"
+  ],
+  "34475": [
+   "marion"
+  ],
+  "34476": [
+   "marion"
+  ],
+  "34479": [
+   "marion"
+  ],
+  "34480": [
+   "marion"
+  ],
+  "34481": [
+   "marion"
+  ],
+  "34482": [
+   "marion"
+  ],
+  "34484": [
+   "sumter"
+  ],
+  "34487": [
+   "citrus"
+  ],
+  "34488": [
+   "marion"
+  ],
+  "34491": [
+   "marion"
+  ],
+  "34498": [
+   "levy"
   ],
   "34601": [
    "hernando"
@@ -41092,6 +43658,177 @@
   ],
   "34698": [
    "pinellas"
+  ],
+  "34705": [
+   "lake"
+  ],
+  "34711": [
+   "lake"
+  ],
+  "34714": [
+   "lake"
+  ],
+  "34715": [
+   "lake"
+  ],
+  "34729": [
+   "lake"
+  ],
+  "34731": [
+   "lake"
+  ],
+  "34734": [
+   "orange"
+  ],
+  "34736": [
+   "lake"
+  ],
+  "34737": [
+   "lake"
+  ],
+  "34739": [
+   "osceola"
+  ],
+  "34741": [
+   "osceola"
+  ],
+  "34743": [
+   "osceola"
+  ],
+  "34744": [
+   "osceola"
+  ],
+  "34746": [
+   "osceola"
+  ],
+  "34747": [
+   "osceola",
+   "orange"
+  ],
+  "34748": [
+   "lake"
+  ],
+  "34753": [
+   "lake"
+  ],
+  "34756": [
+   "lake"
+  ],
+  "34758": [
+   "osceola"
+  ],
+  "34759": [
+   "polk",
+   "osceola"
+  ],
+  "34760": [
+   "orange"
+  ],
+  "34761": [
+   "orange"
+  ],
+  "34762": [
+   "lake"
+  ],
+  "34769": [
+   "osceola"
+  ],
+  "34771": [
+   "osceola"
+  ],
+  "34772": [
+   "osceola"
+  ],
+  "34773": [
+   "osceola"
+  ],
+  "34785": [
+   "sumter"
+  ],
+  "34786": [
+   "orange"
+  ],
+  "34787": [
+   "orange",
+   "lake"
+  ],
+  "34788": [
+   "lake"
+  ],
+  "34797": [
+   "lake"
+  ],
+  "34945": [
+   "stlucie"
+  ],
+  "34946": [
+   "stlucie"
+  ],
+  "34947": [
+   "stlucie"
+  ],
+  "34949": [
+   "stlucie"
+  ],
+  "34950": [
+   "stlucie"
+  ],
+  "34951": [
+   "stlucie"
+  ],
+  "34952": [
+   "stlucie"
+  ],
+  "34953": [
+   "stlucie"
+  ],
+  "34956": [
+   "martin"
+  ],
+  "34957": [
+   "martin",
+   "stlucie"
+  ],
+  "34972": [
+   "okeechobee",
+   "osceola",
+   "stlucie"
+  ],
+  "34974": [
+   "glades",
+   "okeechobee",
+   "martin",
+   "highlands"
+  ],
+  "34981": [
+   "stlucie"
+  ],
+  "34982": [
+   "stlucie"
+  ],
+  "34983": [
+   "stlucie"
+  ],
+  "34984": [
+   "stlucie"
+  ],
+  "34986": [
+   "stlucie"
+  ],
+  "34987": [
+   "stlucie"
+  ],
+  "34990": [
+   "martin"
+  ],
+  "34994": [
+   "martin"
+  ],
+  "34996": [
+   "martin"
+  ],
+  "34997": [
+   "martin"
   ]
  },
  "howToVote": {

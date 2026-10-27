@@ -1274,11 +1274,13 @@ $("#fixForm").addEventListener("submit", e => {
 /* ---------- ZIP lookup ---------- */
 function zipLookup(z) {
   const msg = $("#zipMsg"); const hit = (DATA.zips || {})[z];
+  const nm = k => COUNTIES[k] ? cname(k) : (DATA.map.c[k]?.name || k);
   if (!/^\d{5}$/.test(z)) { msg.textContent = "Please type a 5-digit ZIP code."; return; }
-  if (!hit) { msg.innerHTML = `We don't cover that ZIP code yet. We cover ${ORDER.map(k => `<a href="#/${k}">${esc(cname(k))}</a>`).join(", ")} counties.`; return; }
-  const ours = hit.filter(k => COUNTIES[k]);
-  if (ours.length === 1 && !hit.includes("other")) { location.hash = "#/" + ours[0]; return; }
-  msg.innerHTML = `ZIP ${esc(z)} crosses county lines. Which county do you live in? ${ours.map(k => `<a href="#/${k}">${esc(cname(k))}</a>`).join(" or ")}${hit.includes("other") ? " (or a county we don't cover yet)" : ""}`;
+  if (!hit) { msg.textContent = "That doesn't look like a Florida ZIP code. Glass Ballot covers Florida counties."; return; }
+  const ours = hit.filter(k => COUNTIES[k]), soon = hit.filter(k => !COUNTIES[k]);
+  if (ours.length === 1 && !soon.length) { location.hash = "#/" + ours[0]; return; }
+  if (!ours.length) { msg.innerHTML = `ZIP ${esc(z)} is in ${soon.map(k => esc(nm(k)) + " County").join(" and ")}. We don't cover ${soon.length > 1 ? "those counties" : "that county"} yet, but we're adding every Florida county. Right now we cover ${ORDER.map(k => `<a href="#/${k}">${esc(cname(k))}</a>`).join(", ")}.`; return; }
+  msg.innerHTML = `ZIP ${esc(z)} crosses county lines. Which county do you live in? ${ours.map(k => `<a href="#/${k}">${esc(cname(k))}</a>`).join(" or ")}${soon.length ? ` (or ${soon.map(k => esc(nm(k))).join(", ")}, which we don't cover yet)` : ""}`;
 }
 
 /* ---------- search ---------- */

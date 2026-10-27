@@ -62,7 +62,7 @@ def build_region(accessed: str | None = None) -> dict:
         "counties": counties,
         "changes": [json.loads(f.read_text()) for f in sorted((ROOT / "data" / "changes").glob("*.json"), reverse=True)[:30]] if (ROOT / "data" / "changes").exists() else [],
         "corrections": json.loads((ROOT / "data" / "corrections.json").read_text()),
-        "zips": json.loads((ROOT / "site" / "assets" / "zips.json").read_text()),
+        "zips": json.loads((ROOT / "site" / "assets" / "zips_fl.json").read_text()),  # every Florida ZIP to its county (Census 2020)
         "howToVote": json.loads((ROOT / "data" / "howtovote.json").read_text()) if (ROOT / "data" / "howtovote.json").exists() else {"statewide": [], "counties": {}, "jobs": {}},
         "closeRace": {"headline": "Local races can be very close.", "detail": "In Hernando County's Aug 18 primary, the top two School Board District 5 candidates finished 7 votes apart: 13,724 to 13,717.", "url": "https://www.hernandovotes.gov/DocumentCenter/View/798"},
         "map": json.loads((ROOT / "site" / "assets" / "fl.json").read_text()),
