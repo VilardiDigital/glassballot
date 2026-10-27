@@ -339,6 +339,27 @@
    "publisher": "Pasco County",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "pa-min-0811": {
+   "title": "BCC annotated agenda (minutes), Aug 11, 2026",
+   "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11907,plainText=false)",
+   "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+   "tier": 1,
+   "accessed": "2026-08-11"
+  },
+  "pa-min-0825": {
+   "title": "BCC annotated agenda (minutes), Aug 25, 2026",
+   "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11998,plainText=false)",
+   "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+   "tier": 1,
+   "accessed": "2026-08-25"
+  },
+  "pa-min-0909": {
+   "title": "BCC annotated agenda (minutes), Sep 9, 2026",
+   "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11997,plainText=false)",
+   "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+   "tier": 1,
+   "accessed": "2026-09-09"
   }
  },
  "people": [
@@ -1280,8 +1301,8 @@
    "id": "lpr-renewal",
    "date": "2026-08-11",
    "topic": "policing",
-   "headline": "Split on renewing the Sheriff's license-plate camera contract",
-   "inShort": "Commissioner Yeager moved to renew the county's agreement letting the Sheriff's Office run license-plate cameras on county roads. Two commissioners voted no. The Sheriff later ended the agreement himself.",
+   "headline": "Renewal of the Sheriff's license-plate camera agreement failed on a 2 to 2 tie",
+   "inShort": "Commissioner Yeager moved to renew the county's agreement letting the Sheriff's Office run license-plate cameras on county roads. The motion failed 2 to 2, with Commissioner Weightman absent. A tie means a motion fails.",
    "agendaMatch": {
     "system": "civicclerk",
     "date": "2026-08-11",
@@ -1293,13 +1314,17 @@
    "claims": {
     "result": [
      {
-      "value": "Outcome not stated by the source",
-      "source": "tbb-lpr"
+      "value": "Motion failed 2 to 2",
+      "source": "pa-min-0811"
      }
     ],
     "roll": [
      {
       "value": {
+       "yes": [
+        "starkey",
+        "yeager"
+       ],
        "no": [
         "mariano",
         "oakley"
@@ -1308,7 +1333,7 @@
         "weightman"
        ]
       },
-      "source": "tbb-lpr"
+      "source": "pa-min-0811"
      }
     ]
    },
@@ -1340,15 +1365,15 @@
       }
      ]
     }
-   ]
+   ],
+   "split": true
   },
   {
    "id": "two-rivers-surf-park",
-   "date": "2026-09-19",
-   "dateNote": "Date the Tampa Bay Times story ran. The exact vote date is not confirmed (see manualProblems).",
+   "date": "2026-09-09",
    "topic": "growth",
    "headline": "Approved the Two Rivers expansion and a path for a surf park",
-   "inShort": "Commissioners approved a land use change and rezoning that expand the Two Rivers community in Wesley Chapel and clear the way for a proposed 35-acre surf park, with 240 new apartments tied to it.",
+   "inShort": "Commissioners approved a land use change and rezoning (items P47 and P56) that expand the Two Rivers community in Wesley Chapel and clear the way for a proposed 35-acre surf park. The change adds 900 multifamily homes, of which no more than 240 can be garden-style apartments.",
    "agendaMatch": {
     "system": "civicclerk",
     "date": "2026-09",
@@ -1359,18 +1384,34 @@
    "claims": {
     "result": [
      {
-      "value": "Approved",
-      "source": "tbt-surf"
+      "value": "Passed 3 to 0",
+      "source": "pa-min-0909"
      },
      {
       "value": "Passed 3 to 0",
       "source": "wcc-surf"
      }
+    ],
+    "roll": [
+     {
+      "value": {
+       "yes": [
+        "mariano",
+        "oakley",
+        "weightman"
+       ],
+       "absent": [
+        "starkey",
+        "yeager"
+       ]
+      },
+      "source": "pa-min-0909"
+     }
     ]
    },
    "facts": [
     {
-     "text": "Adds up to 240 garden-style apartments, which cannot break ground until the surf park gets its certificate of occupancy or three years pass, whichever comes first.",
+     "text": "Of the 900 added multifamily homes, no more than 240 can be garden-style apartments; the rest must be condos, townhomes, duplexes or villas. Per Wesley Chapel Community, the apartments can't break ground until the surf park gets its certificate of occupancy or three years pass.",
      "claims": [
       {
        "value": "240 apartments",
@@ -1395,11 +1436,10 @@
   },
   {
    "id": "storm-mitigation-235m",
-   "date": "2026-09-19",
-   "dateNote": "Date Bay News 9 published; the article does not give the vote date.",
+   "date": "2026-08-25",
    "topic": "storms",
-   "headline": "Approved $235 million for hurricane repair and storm-proofing projects",
-   "inShort": "The county approved about $235 million for its Better Future Infrastructure and Mitigation Program to repair damage from Hurricanes Idalia, Helene and Milton and harden areas against future storms.",
+   "headline": "Approved $156.2 million in federal disaster recovery money for storm projects",
+   "inShort": "The board approved $156,162,158.85 in federal disaster recovery (CDBG-DR) money for the first phase of its storm repair and mitigation program after Hurricanes Idalia, Helene and Milton: 22 projects plus $1 million for the county's share of FEMA projects (item R43).",
    "agendaMatch": {
     "system": "civicclerk",
     "date": "2026-09",
@@ -1411,7 +1451,7 @@
     "result": [
      {
       "value": "Approved",
-      "source": "bn9-storm"
+      "source": "pa-min-0825"
      }
     ]
    },
@@ -1426,11 +1466,11 @@
      ]
     },
     {
-     "text": "This is the first of what could be three phases, and projects must be finished within five years or money may have to be repaid.",
+     "text": "A Bay News 9 story reported the program as $235 million. That figure does not appear in Pasco's records; the county lists $206,418,800 for the whole program.",
      "claims": [
       {
-       "value": "first of three phases; five years",
-       "source": "bn9-storm"
+       "value": "$206,418,800 program total",
+       "source": "pa-min-0825"
       }
      ]
     }

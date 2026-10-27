@@ -280,6 +280,13 @@
      "publisher": "Pinellas County Supervisor of Elections",
      "tier": 1
     },
+    "m-24-2121A": {
+     "title": "Legistar file 24-2121A: Tourist Development Tax Revenue Supplemental Bond Resolution for Rays stadium (agenda item text and staff report)",
+     "url": "https://webapi.legistar.com/v1/pinellas/matters/73004/texts/39377",
+     "publisher": "Pinellas County Board of County Commissioners (Legistar)",
+     "tier": 1,
+     "accessed": "2024-12-17"
+    },
     "soe-cf": {
      "title": "Pinellas Supervisor of Elections campaign finance reports (VoterFocus)",
      "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=Pinellas",
@@ -8051,8 +8058,8 @@
      "id": "rays-bonds",
      "date": "2024-12-17",
      "topic": "stadium",
-     "headline": "Approved $312.5 million in bonds for a new Rays stadium",
-     "inShort": "The county agreed to borrow $312.5 million for its share of a new Tampa Bay Rays ballpark in St. Petersburg, to be repaid from the tourist development tax that visitors pay on hotel stays.",
+     "headline": "Approved up to $335 million in bonds for a new Rays stadium",
+     "inShort": "The county approved borrowing up to $335 million in bonds for its share of a new Tampa Bay Rays ballpark in St. Petersburg, to be repaid from the tourist development tax that visitors pay on hotel stays. The county's net contribution to the project was $312.5 million; the bonds are larger to cover borrowing costs and reserves.",
      "officialTitle": "Pinellas County adoption of a Tourist Development Tax Revenue Supplemental Bond Resolution Supplementing Resolution No. 24-42 adopted on July 30, 2024, and approval of the documents to support funding for the design and construction of a new stadium in St. Petersburg to be the new home of the Tampa Bay Rays Major League Baseball franchise.",
      "sourceUrl": "https://pinellas.legistar.com/MeetingDetail.aspx?LEGID=10037&GID=532&G=4892F4D9-36FE-48F2-8E4D-022D5221CB08",
      "result": {
@@ -8087,13 +8094,13 @@
      },
      "facts": [
       {
-       "text": "Bond amount: $312.5 million.",
-       "value": "$312.5 million",
-       "label": "unverified",
+       "text": "Bond amount: up to $335 million, covering the county's $312.5 million contribution plus borrowing costs and reserves.",
+       "value": "up to $335 million",
+       "label": "single",
        "sources": [
-        "fp-rays"
+        "m-24-2121A"
        ],
-       "note": "One non-official source. Not yet matched to an official record."
+       "note": "One official record, nothing yet to check it against."
       },
       {
        "text": "Repaid from the county's tourist development tax, paid by visitors on hotel and other lodging stays.",
@@ -8544,8 +8551,8 @@
    ],
    "labelCounts": {
     "verified": 18,
-    "single": 148,
-    "unverified": 32,
+    "single": 149,
+    "unverified": 31,
     "conflict": 0,
     "unknown": 5
    }
@@ -8978,6 +8985,13 @@
      "tier": 5,
      "accessed": "2026-10-26"
     },
+    "hc-oct21": {
+     "title": "Board of County Commissioners Regular Meeting Recap for Oct. 21, 2026",
+     "url": "https://hcfl.gov/newsroom/2026/10/22/board-of-county-commissioners-regular-meeting-recap-for-oct-21-2026-",
+     "publisher": "Hillsborough County",
+     "tier": 2,
+     "accessed": "2026-10-22"
+    },
     "ethics-efdms": {
      "title": "Florida Commission on Ethics, financial disclosure public search",
      "url": "https://disclosure.floridaethics.gov/PublicSearch/Filings",
@@ -9376,6 +9390,20 @@
      "publisher": "Karen Perez campaign",
      "tier": 5,
      "accessed": "2026-10-27"
+    },
+    "hc-proptax": {
+     "title": "Your Property Tax Investment",
+     "url": "https://hcfl.gov/government/your-property-tax-investment",
+     "publisher": "Hillsborough County",
+     "tier": 1,
+     "accessed": "2026-10-16"
+    },
+    "hc-jul15": {
+     "title": "Board of County Commissioners meeting recap for July 15, 2026",
+     "url": "https://hcfl.gov/newsroom/2026/07/16/board-of-county-commissioners-meeting-recap-for-july-15-2026",
+     "publisher": "Hillsborough County",
+     "tier": 2,
+     "accessed": "2026-07-16"
     },
     "soe-itemized": {
      "title": "Itemized campaign contribution reports, 2026 election",
@@ -10189,6 +10217,10 @@
      ],
      "votes": [
       {
+       "vote": "zootampa-75m",
+       "how": "no"
+      },
+      {
        "vote": "rays-final",
        "how": "yes"
       },
@@ -10205,8 +10237,8 @@
        "promise_match": null,
        "openness": 50.0
       },
-      "scoredVotes": 2,
-      "reason": "Not enough record yet: 2 of 25 scored votes loaded."
+      "scoredVotes": 3,
+      "reason": "Not enough record yet: 3 of 25 scored votes loaded."
      }
     },
     {
@@ -10547,6 +10579,10 @@
      ],
      "votes": [
       {
+       "vote": "zootampa-75m",
+       "how": "no"
+      },
+      {
        "vote": "rays-final",
        "how": "yes"
       },
@@ -10563,8 +10599,8 @@
        "promise_match": null,
        "openness": 30.0
       },
-      "scoredVotes": 2,
-      "reason": "Not enough record yet: 2 of 25 scored votes loaded."
+      "scoredVotes": 3,
+      "reason": "Not enough record yet: 3 of 25 scored votes loaded."
      }
     },
     {
@@ -11227,6 +11263,10 @@
      ],
      "votes": [
       {
+       "vote": "zootampa-75m",
+       "how": "no"
+      },
+      {
        "vote": "rays-final",
        "how": "yes"
       },
@@ -11243,8 +11283,8 @@
        "promise_match": null,
        "openness": 100.0
       },
-      "scoredVotes": 2,
-      "reason": "Not enough record yet: 2 of 25 scored votes loaded."
+      "scoredVotes": 3,
+      "reason": "Not enough record yet: 3 of 25 scored votes loaded."
      }
     },
     {
@@ -17730,11 +17770,110 @@
    ],
    "votes": [
     {
+     "id": "zootampa-75m",
+     "date": "2026-10-21",
+     "topic": "tourism",
+     "headline": "Approved $75 million for ZooTampa renovations and expansion",
+     "inShort": "The county will pay ZooTampa $5 million a year through 2041 from Community Investment Tax (half-cent sales tax) money, and the zoo must match it, for $150 million in upgrades and a new South America section. Some commissioners argued the money should be shared with other cultural groups.",
+     "impact": {
+      "does": {
+       "text": "The board approved this package 4 to 3 on Oct 21, 2026, after a public hearing, with Commissioners Cohen, Hagan and Myers voting no; on Oct 7 it had voted 4 to 3 to move toward finalizing the agreement. Approves a 15-year agreement under which the county pays ZooTampa up to $75 million, $5 million a year through 2041, from Community Investment Tax money (a half-cent sales tax), and the zoo matches it one to one, for about $150 million of work. The plan includes upgrades to older habitats, an expanded elephant habitat, a family coaster and a new South America section that extends across North Boulevard onto about 14 acres now used as a City of Tampa maintenance lot. Some commissioners questioned why other eligible groups such as the Children's Museum, Tampa Bay History Center and Straz Center got nothing from this package, while others noted that the same fund sends far more to the Rays stadium, per Bay News 9.",
+       "sources": [
+        "fox13-zoo",
+        "bn9-zoo",
+        "hc-oct21"
+       ]
+      },
+      "after": [
+       {
+        "date": "2026-10-21",
+        "text": "A majority of the board voted to add ZooTampa capital improvements to the list of projects paid for by the renewed Community Investment Tax. The board also approved an FY 2027 budget amendment putting $5,000,000 in the CIT Extension Project Fund for ZooTampa.",
+        "sources": [
+         "hc-oct21"
+        ]
+       }
+      ]
+     },
+     "result": {
+      "value": "Passed 4 to 3",
+      "label": "unverified",
+      "sources": [
+       "fox13-zoo",
+       "bn9-zoo"
+      ],
+      "note": "2 independent sources agree, but none is an official record yet."
+     },
+     "roll": {
+      "value": {
+       "no": [
+        "cohen",
+        "hagan",
+        "myers"
+       ]
+      },
+      "label": "unverified",
+      "sources": [
+       "bn9-zoo"
+      ],
+      "note": "One non-official source. Not yet matched to an official record."
+     },
+     "facts": [
+      {
+       "text": "County money: $75 million, $5 million a year through 2041, matched 1 to 1 by the zoo.",
+       "value": "$75 million",
+       "label": "unverified",
+       "sources": [
+        "fox13-zoo",
+        "bn9-zoo"
+       ],
+       "note": "2 independent sources agree, but none is an official record yet."
+      },
+      {
+       "text": "On Sept 16, 2026 a majority voted to have staff finalize the partnership.",
+       "value": "majority, no count",
+       "label": "single",
+       "sources": [
+        "hc-sep16"
+       ],
+       "note": "One official record, nothing yet to check it against."
+      },
+      {
+       "text": "An earlier 4 to 3 vote on Oct 7, 2026 moved the agreement toward final approval.",
+       "value": "Oct 7, 4 to 3",
+       "label": "unverified",
+       "sources": [
+        "fox13-zoo"
+       ],
+       "note": "One non-official source. Not yet matched to an official record."
+      }
+     ],
+     "officialTitle": null,
+     "sourceUrl": null
+    },
+    {
      "id": "rays-final",
      "date": "2026-08-28",
      "topic": "stadium",
      "headline": "Gave final approval to county funding for a new Rays ballpark",
      "inShort": "At a special meeting, the commission approved the development and funding agreement, guaranty and team non-relocation agreement for a Rays ballpark on Hillsborough College's Dale Mabry campus. The county's share is capped at $796 million, and the Rays cover more than $1.3 billion plus cost overruns.",
+     "impact": {
+      "does": {
+       "text": "Approves the Development and Funding Agreement, a guaranty and a team non-relocation agreement for a Rays ballpark and mixed-use district on Hillsborough College's Dale Mabry campus, at Dale Mabry Highway and West Tampa Bay Boulevard. WUSF reported that the county's share is capped at $796 million, including $360 million from the Community Investment Tax (a half-cent sales tax), $263 million backed by the tourist development tax, $103 million in other county funds and $30 million in federal disaster-recovery money (those listed amounts total $756 million; WUSF did not explain the difference), while the Rays pay more than $1.3 billion plus all cost overruns. The county said the Rays plan to open the ballpark in April 2029, and that the board still had to approve a ballpark license and use agreement, a community benefits agreement and a construction funds trust agreement.",
+       "sources": [
+        "hc-rays-aug28",
+        "wusf-rays-aug"
+       ]
+      },
+      "after": [
+       {
+        "date": "2026-09-16",
+        "text": "A majority of the board approved an interlocal agreement making the Tampa Sports Authority the county's representative under the Development and Funding Agreement. The authority will oversee design documents, construction materials, schedules and budgets for the stadium.",
+        "sources": [
+         "hc-sep16"
+        ]
+       }
+      ]
+     },
      "result": {
       "value": "Passed 5 to 2",
       "label": "verified",
@@ -17836,6 +17975,25 @@
      "topic": "taxes",
      "headline": "Approved changes to the proposed FY 2027 budget",
      "inShort": "At a budget reconciliation hearing on a recommended $14.1 billion FY 2027 budget, commissioners voted on items they had flagged for change. The plan included a millage swap to support public safety and other county services.",
+     "impact": {
+      "does": {
+       "text": "At the July 29 budget reconciliation hearing, commissioners voted 7 to 0 to approve changes to items they had flagged in the recommended FY 2027 budget, which the county described as a proposed $14.1 billion budget, including a millage swap to support public safety and other services, per a Govly meeting summary. The summary says the board discussed moving money from some nonprofits back to county departments for local infrastructure, but it does not list the individual changes or the tax rates. The vote applied to the recommended budget; the final FY 2027 budget and tax rates were adopted later.",
+       "sources": [
+        "hc-jul15",
+        "govly-jul29",
+        "hc-proptax"
+       ]
+      },
+      "after": [
+       {
+        "date": "2026-10-16",
+        "text": "The county's property tax page, last updated Oct 16, 2026, said the adopted FY 2027 budget cut the countywide property tax rate to 5.3608 mills, down from 5.4608 in FY 2026, and set the unincorporated-area rate at 4.7163 mills. It said about 70% of the adopted unincorporated-area general fund goes to public safety.",
+        "sources": [
+         "hc-proptax"
+        ]
+       }
+      ]
+     },
      "result": {
       "value": "Passed 7 to 0",
       "label": "unverified",
@@ -17875,6 +18033,40 @@
      "topic": "stadium",
      "headline": "Approved a non-binding deal to pursue a new Rays ballpark in Tampa",
      "inShort": "The commission approved a non-binding memorandum of understanding with the Tampa Bay Rays and the City of Tampa for a ballpark and mixed-use district on Hillsborough College's Dale Mabry campus. It set the terms the final contracts would follow.",
+     "impact": {
+      "does": {
+       "text": "Approves a non-binding memorandum of understanding with the Tampa Bay Rays and the City of Tampa for a ballpark and mixed-use district on Hillsborough College's Dale Mabry campus. It passed 5 to 2 on May 20, 2026. Because it was non-binding, it set the terms for the final contracts but did not commit county money by itself; the final agreements came up for a separate vote in August. WWSB reported a total project cost of about $2.3 billion and a county share in the MOU of up to $796 million ($360 million Community Investment Tax, more than $260 million in tourist tax bonds and $103 million in other county funds).",
+       "sources": [
+        "tbt-rays-may",
+        "wwsb-rays-may",
+        "hc-rays-aug28"
+       ]
+      },
+      "after": [
+       {
+        "date": "2026-08-27",
+        "text": "The Tampa City Council approved the city's part of the final stadium deal 4 to 3.",
+        "sources": [
+         "wusf-rays-aug"
+        ]
+       },
+       {
+        "date": "2026-08-28",
+        "text": "The County Commission voted 5 to 2 to approve the Development and Funding Agreement, guaranty and team non-relocation agreement, with the county's share capped at $796 million. WUSF reported that figure was $100 million less than the May MOU.",
+        "sources": [
+         "hc-rays-aug28",
+         "wusf-rays-aug"
+        ]
+       },
+       {
+        "date": "2026-09-16",
+        "text": "A majority of the board approved an interlocal agreement with the Tampa Sports Authority to act as the county's representative under the Development and Funding Agreement.",
+        "sources": [
+         "hc-sep16"
+        ]
+       }
+      ]
+     },
      "result": {
       "value": "Passed 5 to 2",
       "label": "verified",
@@ -17931,57 +18123,6 @@
         "wwsb-rays-may"
        ],
        "note": "One non-official source. Not yet matched to an official record."
-      }
-     ],
-     "officialTitle": null,
-     "sourceUrl": null
-    },
-    {
-     "id": "zootampa-75m",
-     "date": null,
-     "dateNote": "FOX 13 reported a 4-3 approval on Oct 7, 2026; Bay News 9 reported a 4-3 final approval on Oct 21, 2026.",
-     "topic": "tourism",
-     "headline": "Approved $75 million for ZooTampa renovations and expansion",
-     "inShort": "The county will pay ZooTampa $5 million a year through 2041 from Community Investment Tax (half-cent sales tax) money, and the zoo must match it, for $150 million in upgrades and a new South America section. Some commissioners argued the money should be shared with other cultural groups.",
-     "result": {
-      "value": "Passed 4 to 3",
-      "label": "unverified",
-      "sources": [
-       "fox13-zoo",
-       "bn9-zoo"
-      ],
-      "note": "2 independent sources agree, but none is an official record yet."
-     },
-     "roll": {
-      "value": null,
-      "label": "unknown",
-      "sources": []
-     },
-     "facts": [
-      {
-       "text": "County money: $75 million, $5 million a year through 2041, matched 1 to 1 by the zoo.",
-       "value": "$75 million",
-       "label": "unverified",
-       "sources": [
-        "fox13-zoo",
-        "bn9-zoo"
-       ],
-       "note": "2 independent sources agree, but none is an official record yet."
-      },
-      {
-       "text": "On Sept 16, 2026 a majority voted to have staff finalize the partnership.",
-       "value": "majority, no count",
-       "label": "single",
-       "sources": [
-        "hc-sep16"
-       ],
-       "note": "One official record, nothing yet to check it against."
-      },
-      {
-       "text": "How each commissioner voted.",
-       "value": null,
-       "label": "unknown",
-       "sources": []
       }
      ],
      "officialTitle": null,
@@ -18243,9 +18384,9 @@
    "labelCounts": {
     "verified": 14,
     "single": 54,
-    "unverified": 42,
+    "unverified": 44,
     "conflict": 1,
-    "unknown": 7
+    "unknown": 5
    }
   },
   "pasco": {
@@ -18595,6 +18736,27 @@
      "publisher": "Pasco County",
      "tier": 1,
      "accessed": "2026-10-27"
+    },
+    "pa-min-0811": {
+     "title": "BCC annotated agenda (minutes), Aug 11, 2026",
+     "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11907,plainText=false)",
+     "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+     "tier": 1,
+     "accessed": "2026-08-11"
+    },
+    "pa-min-0825": {
+     "title": "BCC annotated agenda (minutes), Aug 25, 2026",
+     "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11998,plainText=false)",
+     "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+     "tier": 1,
+     "accessed": "2026-08-25"
+    },
+    "pa-min-0909": {
+     "title": "BCC annotated agenda (minutes), Sep 9, 2026",
+     "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11997,plainText=false)",
+     "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+     "tier": 1,
+     "accessed": "2026-09-09"
     },
     "ethics-efdms": {
      "title": "Florida Commission on Ethics, financial disclosure public search",
@@ -19205,6 +19367,62 @@
      "tier": 3,
      "accessed": "2026-10-27"
     },
+    "pa-min-0714": {
+     "title": "BCC annotated agenda (minutes), Jul 14, 2026",
+     "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11963,plainText=false)",
+     "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+     "tier": 1,
+     "accessed": "2026-07-14"
+    },
+    "pa-pkt-0714": {
+     "title": "BCC agenda packet, Jul 14, 2026 (agenda memo PDE26-0777, data center moratorium)",
+     "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=10743,plainText=false)",
+     "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+     "tier": 1,
+     "accessed": "2026-07-14"
+    },
+    "pa-pkt-0811": {
+     "title": "BCC agenda packet, Aug 11, 2026 (agenda memo TED26-0339)",
+     "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11794,plainText=false)",
+     "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+     "tier": 1,
+     "accessed": "2026-08-11"
+    },
+    "pa-pkt-0825": {
+     "title": "BCC agenda packet, Aug 25, 2026 (agenda memos PDE26-7914 and ODRR26-0025)",
+     "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11845,plainText=false)",
+     "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+     "tier": 1,
+     "accessed": "2026-08-25"
+    },
+    "pa-pkt-0909": {
+     "title": "BCC agenda packet, Sep 9, 2026 (agenda memos OMB26-0068 and PDE26-7856)",
+     "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11896,plainText=false)",
+     "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+     "tier": 1,
+     "accessed": "2026-09-09"
+    },
+    "pa-min-0922": {
+     "title": "BCC annotated agenda (minutes), Sep 22, 2026",
+     "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=12002,plainText=false)",
+     "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+     "tier": 1,
+     "accessed": "2026-09-22"
+    },
+    "pa-min-1006": {
+     "title": "BCC annotated agenda (minutes), Oct 6, 2026",
+     "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=12001,plainText=false)",
+     "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+     "tier": 1,
+     "accessed": "2026-10-06"
+    },
+    "pa-pkt-1006": {
+     "title": "BCC agenda packet, Oct 6, 2026 (agenda memo PDE27-7866)",
+     "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11988,plainText=false)",
+     "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+     "tier": 1,
+     "accessed": "2026-10-06"
+    },
     "soe-itemized": {
      "title": "Itemized campaign contribution reports, 2026 election",
      "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=pasco&el=38",
@@ -19475,6 +19693,10 @@
        "how": "yes"
       },
       {
+       "vote": "two-rivers-surf-park",
+       "how": "yes"
+      },
+      {
        "vote": "pa-c16-2026-09-09",
        "how": "yes"
       },
@@ -19499,8 +19721,8 @@
        "promise_match": null,
        "openness": 90.0
       },
-      "scoredVotes": 5,
-      "reason": "Not enough record yet: 5 of 25 scored votes loaded."
+      "scoredVotes": 6,
+      "reason": "Not enough record yet: 6 of 25 scored votes loaded."
      }
     },
     {
@@ -20196,6 +20418,10 @@
        "how": "yes"
       },
       {
+       "vote": "two-rivers-surf-park",
+       "how": "yes"
+      },
+      {
        "vote": "pa-c16-2026-09-09",
        "how": "yes"
       },
@@ -20220,8 +20446,8 @@
        "promise_match": null,
        "openness": 83.3
       },
-      "scoredVotes": 5,
-      "reason": "Not enough record yet: 5 of 25 scored votes loaded."
+      "scoredVotes": 6,
+      "reason": "Not enough record yet: 6 of 25 scored votes loaded."
      }
     },
     {
@@ -20516,11 +20742,19 @@
        "how": "yes"
       },
       {
+       "vote": "two-rivers-surf-park",
+       "how": "absent"
+      },
+      {
        "vote": "pa-c16-2026-09-09",
        "how": "yes"
       },
       {
        "vote": "pa-p52-2026-08-25",
+       "how": "yes"
+      },
+      {
+       "vote": "lpr-renewal",
        "how": "yes"
       },
       {
@@ -20536,8 +20770,8 @@
        "promise_match": null,
        "openness": 70.0
       },
-      "scoredVotes": 4,
-      "reason": "Not enough record yet: 4 of 25 scored votes loaded."
+      "scoredVotes": 6,
+      "reason": "Not enough record yet: 6 of 25 scored votes loaded."
      }
     },
     {
@@ -21278,12 +21512,20 @@
        "how": "yes"
       },
       {
+       "vote": "two-rivers-surf-park",
+       "how": "absent"
+      },
+      {
        "vote": "pa-c16-2026-09-09",
        "how": "absent"
       },
       {
        "vote": "pa-p52-2026-08-25",
        "how": "no"
+      },
+      {
+       "vote": "lpr-renewal",
+       "how": "yes"
       },
       {
        "vote": "pa-r58-2026-08-11",
@@ -21298,8 +21540,8 @@
        "promise_match": null,
        "openness": 100.0
       },
-      "scoredVotes": 4,
-      "reason": "Not enough record yet: 4 of 25 scored votes loaded."
+      "scoredVotes": 6,
+      "reason": "Not enough record yet: 6 of 25 scored votes loaded."
      }
     },
     {
@@ -21585,6 +21827,10 @@
        "how": "no"
       },
       {
+       "vote": "two-rivers-surf-park",
+       "how": "yes"
+      },
+      {
        "vote": "pa-c16-2026-09-09",
        "how": "no"
       },
@@ -21609,8 +21855,8 @@
        "promise_match": null,
        "openness": 70.0
       },
-      "scoredVotes": 5,
-      "reason": "Not enough record yet: 5 of 25 scored votes loaded."
+      "scoredVotes": 6,
+      "reason": "Not enough record yet: 6 of 25 scored votes loaded."
      }
     },
     {
@@ -24045,6 +24291,15 @@
      "split": true,
      "rollExtra": {},
      "minutesText": "Approved Staff's recommendation with Chairman Mariano voting nay.",
+     "impact": {
+      "does": {
+       "text": "Rezones about 20.42 acres of mostly vacant land south of Chancey Road, east of Gall Boulevard in southeast Pasco, from agricultural-residential to a master planned unit development that allows up to 96 townhomes, about 4.7 homes per acre. The owner, Chanzep LLC, must follow staff's conditions, including landscape buffers along Crystal Springs Road and Chancey Road, a 5-foot sidewalk extension on Crystal Springs Road and a 10-foot multi-use path along Chancey Road. The off-site part of that walking and biking work can be credited against the bike and pedestrian share of the project's mobility fees.",
+       "sources": [
+        "pa-pkt-1006",
+        "pa-min-1006"
+       ]
+      }
+     },
      "result": {
       "value": "Passed 4 to 1",
       "label": "single",
@@ -24075,11 +24330,10 @@
     },
     {
      "id": "two-rivers-surf-park",
-     "date": "2026-09-19",
-     "dateNote": "Date the Tampa Bay Times story ran. The exact vote date is not confirmed (see manualProblems).",
+     "date": "2026-09-09",
      "topic": "growth",
      "headline": "Approved the Two Rivers expansion and a path for a surf park",
-     "inShort": "Commissioners approved a land use change and rezoning that expand the Two Rivers community in Wesley Chapel and clear the way for a proposed 35-acre surf park, with 240 new apartments tied to it.",
+     "inShort": "Commissioners approved a land use change and rezoning (items P47 and P56) that expand the Two Rivers community in Wesley Chapel and clear the way for a proposed 35-acre surf park. The change adds 900 multifamily homes, of which no more than 240 can be garden-style apartments.",
      "agendaMatch": {
       "system": "civicclerk",
       "date": "2026-09",
@@ -24087,23 +24341,45 @@
        "two rivers"
       ]
      },
+     "impact": {
+      "does": {
+       "text": "Expands what can be built in the 3,405-acre Two Rivers development along State Road 56 between Morris Bridge Road and Gall Boulevard in Wesley Chapel. The apartment limit rises from 1,600 to 2,500 units, retail space roughly doubles to about 1.3 million square feet, up to 480 hotel rooms, a 300-bed assisted living facility and one water park of up to 35 acres are added, 209 age-restricted homes are dropped, and the 4,047 single-family homes already allowed stay the same; the board also adopted a matching change to the county's comprehensive plan for Two Rivers. Of the 900 added multifamily homes, no more than 240 may be apartments; the rest must be condos, townhomes, duplexes, villas or similar, per the staff memo. The board changed the condition tying the apartments to the water park at the hearing; Wesley Chapel Community reported the final rule as: the apartments cannot break ground until the surf park gets its certificate of occupancy or three years pass, whichever comes first.",
+       "sources": [
+        "pa-pkt-0909",
+        "pa-min-0909",
+        "wcc-surf"
+       ]
+      }
+     },
      "result": {
       "value": "Passed 3 to 0",
-      "label": "unverified",
+      "label": "verified",
       "sources": [
-       "tbt-surf",
+       "pa-min-0909",
        "wcc-surf"
-      ],
-      "note": "2 independent sources agree, but none is an official record yet."
+      ]
      },
      "roll": {
-      "value": null,
-      "label": "unknown",
-      "sources": []
+      "value": {
+       "yes": [
+        "mariano",
+        "oakley",
+        "weightman"
+       ],
+       "absent": [
+        "starkey",
+        "yeager"
+       ]
+      },
+      "label": "single",
+      "sources": [
+       "pa-min-0909"
+      ],
+      "note": "One official record, nothing yet to check it against."
      },
      "facts": [
       {
-       "text": "Adds up to 240 garden-style apartments, which cannot break ground until the surf park gets its certificate of occupancy or three years pass, whichever comes first.",
+       "text": "Of the 900 added multifamily homes, no more than 240 can be garden-style apartments; the rest must be condos, townhomes, duplexes or villas. Per Wesley Chapel Community, the apartments can't break ground until the surf park gets its certificate of occupancy or three years pass.",
        "value": "240 apartments",
        "label": "unverified",
        "sources": [
@@ -24126,56 +24402,6 @@
      "sourceUrl": null
     },
     {
-     "id": "storm-mitigation-235m",
-     "date": "2026-09-19",
-     "dateNote": "Date Bay News 9 published; the article does not give the vote date.",
-     "topic": "storms",
-     "headline": "Approved $235 million for hurricane repair and storm-proofing projects",
-     "inShort": "The county approved about $235 million for its Better Future Infrastructure and Mitigation Program to repair damage from Hurricanes Idalia, Helene and Milton and harden areas against future storms.",
-     "agendaMatch": {
-      "system": "civicclerk",
-      "date": "2026-09",
-      "contains": [
-       "mitigation"
-      ]
-     },
-     "result": {
-      "value": "Approved",
-      "label": "unverified",
-      "sources": [
-       "bn9-storm"
-      ],
-      "note": "One non-official source. Not yet matched to an official record."
-     },
-     "roll": {
-      "value": null,
-      "label": "unknown",
-      "sources": []
-     },
-     "facts": [
-      {
-       "text": "Projects include stormwater work in Sea Pines in Hudson and renovating the Hudson Library.",
-       "value": "Sea Pines; Hudson Library",
-       "label": "unverified",
-       "sources": [
-        "bn9-storm"
-       ],
-       "note": "One non-official source. Not yet matched to an official record."
-      },
-      {
-       "text": "This is the first of what could be three phases, and projects must be finished within five years or money may have to be repaid.",
-       "value": "first of three phases; five years",
-       "label": "unverified",
-       "sources": [
-        "bn9-storm"
-       ],
-       "note": "One non-official source. Not yet matched to an official record."
-      }
-     ],
-     "officialTitle": null,
-     "sourceUrl": null
-    },
-    {
      "id": "pa-c16-2026-09-09",
      "date": "2026-09-09",
      "topic": "budget",
@@ -24191,6 +24417,15 @@
       ]
      },
      "minutesText": "Approved Staff's recommendation with Chairman Mariano voting nay.",
+     "impact": {
+      "does": {
+       "text": "Moves $2,000,000 from the county's General Fund reserves and pays it to the City of New Port Richey for the Town and Country Villas neighborhood, where the city plans to replace septic tanks with a sanitary sewer system. The payment carries out a Dec 5, 2023 agreement in which the county pledged $2 million for water and sewer work and the city pledged at least $1.5 million for roads, stormwater, trees and streetlights; the county had budgeted the money in FY 2023, but the agreement terms were not met that year and it was never paid. The city asked for the money after its application for a state Water Quality Improvement Grant for the sewer system was not selected.",
+       "sources": [
+        "pa-pkt-0909",
+        "pa-min-0909"
+       ]
+      }
+     },
      "result": {
       "value": "Passed 3 to 1",
       "label": "single",
@@ -24219,6 +24454,81 @@
      "facts": []
     },
     {
+     "id": "storm-mitigation-235m",
+     "date": "2026-08-25",
+     "topic": "storms",
+     "headline": "Approved $156.2 million in federal disaster recovery money for storm projects",
+     "inShort": "The board approved $156,162,158.85 in federal disaster recovery (CDBG-DR) money for the first phase of its storm repair and mitigation program after Hurricanes Idalia, Helene and Milton: 22 projects plus $1 million for the county's share of FEMA projects (item R43).",
+     "agendaMatch": {
+      "system": "civicclerk",
+      "date": "2026-09",
+      "contains": [
+       "mitigation"
+      ]
+     },
+     "impact": {
+      "does": {
+       "text": "Approves Phase 1 of Pasco's Better Future Infrastructure and Mitigation Program: 22 projects totaling $155,162,158.85 plus $1,000,000 for the local share of future FEMA repair projects, for $156,162,158.85 in all, paid with federal Community Development Block Grant Disaster Recovery (CDBG-DR) money for recovery from Hurricanes Idalia, Helene and Milton. Projects include Sea Pines flood abatement in Hudson (about $28.9 million across two line items), Double Hammock Creek flood abatement ($23.9 million), Mitchell Boulevard ($15 million), Elfers septic-to-sewer ($10 million), a Dade City recreation, veterans center and shelter ($12 million) and the Hudson Library renovation. Each project still needs final eligibility, environmental and duplication-of-benefits reviews, procurement and signed agreements before money is committed or construction starts; Bay News 9 reported that projects must be finished within five years or the county may have to repay funds.",
+       "sources": [
+        "pa-pkt-0825",
+        "pa-min-0825",
+        "bn9-storm"
+       ]
+      },
+      "after": [
+       {
+        "date": "2026-09-22",
+        "text": "On the consent agenda, the board approved Better Future public services policies and procedures covering $10,000,000 in CDBG-DR funds (item C40, ODRR26-0026).",
+        "sources": [
+         "pa-min-0922"
+        ]
+       },
+       {
+        "date": "2026-10-06",
+        "text": "On the consent agenda, the board approved a budget amendment for Phase 1 Better Future planning projects funded with $7,404,010.20 in CDBG-DR money (item C24, ODRR27-0002).",
+        "sources": [
+         "pa-min-1006"
+        ]
+       }
+      ]
+     },
+     "result": {
+      "value": "Approved",
+      "label": "single",
+      "sources": [
+       "pa-min-0825"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "roll": {
+      "value": null,
+      "label": "unknown",
+      "sources": []
+     },
+     "facts": [
+      {
+       "text": "Projects include stormwater work in Sea Pines in Hudson and renovating the Hudson Library.",
+       "value": "Sea Pines; Hudson Library",
+       "label": "unverified",
+       "sources": [
+        "bn9-storm"
+       ],
+       "note": "One non-official source. Not yet matched to an official record."
+      },
+      {
+       "text": "A Bay News 9 story reported the program as $235 million. That figure does not appear in Pasco's records; the county lists $206,418,800 for the whole program.",
+       "value": "$206,418,800 program total",
+       "label": "single",
+       "sources": [
+        "pa-min-0825"
+       ],
+       "note": "One official record, nothing yet to check it against."
+      }
+     ],
+     "officialTitle": null,
+     "sourceUrl": null
+    },
+    {
      "id": "pa-p52-2026-08-25",
      "date": "2026-08-25",
      "topic": "growth",
@@ -24230,6 +24540,15 @@
      "split": true,
      "rollExtra": {},
      "minutesText": "Approved Staff's recommendation with the revision to remove the DeCubellis Road language entirely by roll call vote with Commissioner Yeager voting nay.",
+     "impact": {
+      "does": {
+       "text": "Rezones about 2.3 acres at the northeast corner of Little Road and DeCubellis Road in west Pasco (7026 Little Road and 8531 DeCubellis Road) to C-2 general commercial, so the site can be developed for businesses. Deed restrictions proposed by staff bar uses such as stand-alone car washes, self-storage, auto repair, used-car sales and towing yards. Staff's draft also barred a gas station until the county widens DeCubellis Road to four lanes (project CIP 20032) or a gas station on an opposite corner closes; the minutes say the board removed the DeCubellis Road language entirely but do not quote the wording removed.",
+       "sources": [
+        "pa-pkt-0825",
+        "pa-min-0825"
+       ]
+      }
+     },
      "result": {
       "value": "Passed 4 to 1",
       "label": "single",
@@ -24262,8 +24581,8 @@
      "id": "lpr-renewal",
      "date": "2026-08-11",
      "topic": "policing",
-     "headline": "Split on renewing the Sheriff's license-plate camera contract",
-     "inShort": "Commissioner Yeager moved to renew the county's agreement letting the Sheriff's Office run license-plate cameras on county roads. Two commissioners voted no. The Sheriff later ended the agreement himself.",
+     "headline": "Renewal of the Sheriff's license-plate camera agreement failed on a 2 to 2 tie",
+     "inShort": "Commissioner Yeager moved to renew the county's agreement letting the Sheriff's Office run license-plate cameras on county roads. The motion failed 2 to 2, with Commissioner Weightman absent. A tie means a motion fails.",
      "agendaMatch": {
       "system": "civicclerk",
       "date": "2026-08-11",
@@ -24272,16 +24591,47 @@
        "license plate"
       ]
      },
+     "split": true,
+     "impact": {
+      "does": {
+       "text": "The motion to keep the county's agreement letting the Pasco Sheriff's Office run license-plate reader cameras on county rights-of-way failed on a 2 to 2 tie: Commissioner Yeager, who made the motion, and Commissioner Starkey voted yes; Commissioner Oakley and Chairman Mariano voted no; Commissioner Weightman was absent. A tie means a motion fails. Because it failed, the renewal was not approved that day; Tampa Bay Beacons reported that the new contract would have switched camera vendors from Flock to Axon. The county agreement covered about 60 cameras in county rights-of-way, while about 110 cameras owned by homeowners associations, stores and other private owners were not part of it, per Tampa Bay Beacons.",
+       "sources": [
+        "pa-min-0811",
+        "tbb-lpr"
+       ]
+      },
+      "after": [
+       {
+        "date": "2026-08-25",
+        "text": "Commissioners discussed a possible committee, a workshop and a task force on license-plate readers. Tampa Bay Beacons reported that the board directed staff to form a task force of residents and experts to study the cameras, drones and related technology, with a public workshop expected before any future program.",
+        "sources": [
+         "pa-min-0825",
+         "tbb-lpr"
+        ]
+       },
+       {
+        "date": "2026-08-26",
+        "text": "Tampa Bay Beacons reported that, the day after the Aug 25 meeting, Sheriff Chris Nocco sent a letter ending the agreement effective Sept 30. Nocco blamed commissioners who no longer supported it and warned that losing the cameras would hurt efforts to solve crimes and find missing people.",
+        "sources": [
+         "tbb-lpr"
+        ]
+       }
+      ]
+     },
      "result": {
-      "value": "Outcome not stated by the source",
-      "label": "unverified",
+      "value": "Motion failed 2 to 2",
+      "label": "single",
       "sources": [
-       "tbb-lpr"
+       "pa-min-0811"
       ],
-      "note": "One non-official source. Not yet matched to an official record."
+      "note": "One official record, nothing yet to check it against."
      },
      "roll": {
       "value": {
+       "yes": [
+        "starkey",
+        "yeager"
+       ],
        "no": [
         "mariano",
         "oakley"
@@ -24290,11 +24640,11 @@
         "weightman"
        ]
       },
-      "label": "unverified",
+      "label": "single",
       "sources": [
-       "tbb-lpr"
+       "pa-min-0811"
       ],
-      "note": "One non-official source. Not yet matched to an official record."
+      "note": "One official record, nothing yet to check it against."
      },
      "facts": [
       {
@@ -24344,6 +24694,15 @@
       ]
      },
      "minutesText": "Approved to adopt both programs as per the Sheriff they patrol the schools as much as they can until the program is implemented with Chairman Mariano voting nay.",
+     "impact": {
+      "does": {
+       "text": "Tells county staff to pursue an ordinance allowing school zone speed cameras, and to take part in a no-cost pilot of IntelliRoad's AI-based School Zone Safety System at one school crosswalk. A 2023 state law (HB 657) lets counties ticket drivers going more than 10 mph over a school zone limit. Staff said a Pasco camera program would first need an ordinance, agreements with the Sheriff's Office, New Port Richey and Zephyrhills, a countywide awareness campaign, a vendor and installation, and that ticket money would be split as state law requires among the county, the School District, the state and a crossing guard program. The pilot uses detection cameras, flashing beacons and audio alerts to warn drivers, and staff said this step needs no additional county money.",
+       "sources": [
+        "pa-pkt-0811",
+        "pa-min-0811"
+       ]
+      }
+     },
      "result": {
       "value": "Passed 3 to 1",
       "label": "single",
@@ -24385,6 +24744,17 @@
        "data center",
        "moratorium"
       ]
+     },
+     "impact": {
+      "does": {
+       "text": "For 12 months, Pasco County will not accept applications for building permits, site plans, rezonings, comprehensive plan changes or other approvals for data centers and other 'large load' electricity users in unincorporated Pasco. Server or computer rooms that support a site's main use and draw no more than 2.5 megawatts are exempt, and the board can still approve a development agreement for a data center that is not a large load customer if it sets conditions on location, size, water use, power use, noise, electronic waste and other impacts. Tampa Bay Beacons reported that the moratorium is retroactive to May 27, and that planning director David Engel said a proposed data center at Double Branch cannot proceed under it; the pause can end early if the county adopts permanent rules, or the board can extend it by resolution.",
+       "sources": [
+        "pa-pkt-0714",
+        "pa-min-0714",
+        "tbb-dc",
+        "wusf-dc"
+       ]
+      }
      },
      "result": {
       "value": "Passed unanimously",
@@ -24704,11 +25074,11 @@
     }
    ],
    "labelCounts": {
-    "verified": 4,
-    "single": 54,
-    "unverified": 31,
+    "verified": 5,
+    "single": 59,
+    "unverified": 26,
     "conflict": 0,
-    "unknown": 4
+    "unknown": 3
    }
   },
   "hernando": {
@@ -33222,372 +33592,18 @@
    "date": "2026-10-27",
    "changed": [
     {
-     "key": "hillsborough/cohen/raised",
-     "subject": "Harry Cohen: raised",
-     "before": "$195,577 in contributions, plus $5,613.08 in-kind (as of Oct 26, 2026)",
-     "after": "$195,577 in contributions, plus $5,613.08 in-kind (as of Oct 27, 2026)",
+     "key": "pasco/vote/lpr-renewal",
+     "subject": "Vote: Renewal of the Sheriff's license-plate camera agreement failed on a 2 to 2 tie",
+     "before": "Outcome not stated by the source",
+     "after": "Motion failed 2 to 2",
      "label": "single",
      "sources": [
-      "soe-cf-hillsborough"
-     ]
-    },
-    {
-     "key": "hillsborough/myers/raised",
-     "subject": "Gwen Myers: raised",
-     "before": "$146,130 in contributions, plus $118.51 in-kind (as of Oct 26, 2026)",
-     "after": "$146,130 in contributions, plus $118.51 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hillsborough"
-     ]
-    },
-    {
-     "key": "hillsborough/cepeda/raised",
-     "subject": "Donna Cameron Cepeda: raised",
-     "before": "$32,501.07 in contributions, plus $3,000 in-kind (as of Oct 26, 2026)",
-     "after": "$32,501.07 in contributions, plus $3,000 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hillsborough"
-     ]
-    },
-    {
-     "key": "hillsborough/wostal/raised",
-     "subject": "Joshua Wostal: raised",
-     "before": "$213,387.67 in contributions, plus $3,113.67 in-kind (as of Oct 26, 2026)",
-     "after": "$213,387.67 in contributions, plus $3,113.67 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hillsborough"
-     ]
-    },
-    {
-     "key": "hillsborough/toledo/raised",
-     "subject": "Jackie Toledo: raised",
-     "before": "$140,424.70 in contributions (as of Oct 26, 2026)",
-     "after": "$140,424.70 in contributions (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hillsborough"
-     ]
-    },
-    {
-     "key": "hillsborough/garcia/raised",
-     "subject": "Luiz F. F. Garcia: raised",
-     "before": "$8,280 in contributions (as of Oct 26, 2026)",
-     "after": "$8,280 in contributions (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hillsborough"
-     ]
-    },
-    {
-     "key": "hillsborough/hahn/raised",
-     "subject": "Stacy Hahn: raised",
-     "before": "$184,752 in contributions, plus $1,160 in-kind (as of Oct 26, 2026)",
-     "after": "$184,752 in contributions, plus $1,160 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hillsborough"
-     ]
-    },
-    {
-     "key": "hillsborough/manimala/raised",
-     "subject": "Neil Manimala: raised",
-     "before": "$228,349.82 in contributions, plus $1,616.61 in-kind (as of Oct 26, 2026)",
-     "after": "$228,349.82 in contributions, plus $1,616.61 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hillsborough"
-     ]
-    },
-    {
-     "key": "hillsborough/rodriguez/raised",
-     "subject": "Aileen Rodriguez: raised",
-     "before": "$141,680.96 in contributions, plus $4,884.77 in-kind (as of Oct 26, 2026)",
-     "after": "$141,680.96 in contributions, plus $4,884.77 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hillsborough"
-     ]
-    },
-    {
-     "key": "hillsborough/lyssy/raised",
-     "subject": "Brittany Lyssy: raised",
-     "before": "$104,256 in contributions (as of Oct 26, 2026)",
-     "after": "$104,256 in contributions (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hillsborough"
-     ]
-    },
-    {
-     "key": "hillsborough/simic/raised",
-     "subject": "Daniela Simic: raised",
-     "before": "$83,861.41 in contributions, plus $972.86 in-kind (as of Oct 26, 2026)",
-     "after": "$83,861.41 in contributions, plus $972.86 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hillsborough"
-     ]
-    },
-    {
-     "key": "hillsborough/rendon/raised",
-     "subject": "Patricia \"Patti\" Rendon: raised",
-     "before": "$50,888 in contributions, plus $2,100 in-kind (as of Oct 26, 2026)",
-     "after": "$50,888 in contributions, plus $2,100 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hillsborough"
-     ]
-    },
-    {
-     "key": "hillsborough/perez/raised",
-     "subject": "Karen Perez: raised",
-     "before": "$59,398.47 in contributions, plus $9,423.41 in-kind (as of Oct 26, 2026)",
-     "after": "$59,398.47 in contributions, plus $9,423.41 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hillsborough"
-     ]
-    },
-    {
-     "key": "hillsborough/gay/raised",
-     "subject": "Kenneth \"Ken\" Gay: raised",
-     "before": "$37,627.54 in contributions (as of Oct 26, 2026)",
-     "after": "$37,627.54 in contributions (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hillsborough"
-     ]
-    },
-    {
-     "key": "pasco/weightman/raised",
-     "subject": "Seth Weightman: raised",
-     "before": "$171,675 in contributions, plus $500 in-kind (as of Oct 26, 2026)",
-     "after": "$171,675 in contributions, plus $500 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-pasco"
-     ]
-    },
-    {
-     "key": "pasco/yeager/raised",
-     "subject": "Lisa Yeager: raised",
-     "before": "$123,125 in contributions (as of Oct 26, 2026)",
-     "after": "$123,125 in contributions (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-pasco"
-     ]
-    },
-    {
-     "key": "pasco/vazquez/raised",
-     "subject": "Stephanie C. Vazquez: raised",
-     "before": "$74,780.43 in contributions, plus $3,622.55 in-kind (as of Oct 26, 2026)",
-     "after": "$74,780.43 in contributions, plus $3,622.55 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-pasco"
-     ]
-    },
-    {
-     "key": "pasco/collura/raised",
-     "subject": "Gino Collura: raised",
-     "before": "$48,645 in contributions (as of Oct 26, 2026)",
-     "after": "$48,645 in contributions (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-pasco"
-     ]
-    },
-    {
-     "key": "pasco/coward/raised",
-     "subject": "Kimberly D. Coward: raised",
-     "before": "$33,829.48 in contributions, plus $4,176.77 in-kind (as of Oct 26, 2026)",
-     "after": "$33,829.48 in contributions, plus $4,176.77 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-pasco"
-     ]
-    },
-    {
-     "key": "pasco/geiger/raised",
-     "subject": "Matt Geiger: raised",
-     "before": "$12,280 in contributions, plus $11,948.14 in-kind (as of Oct 26, 2026)",
-     "after": "$12,280 in contributions, plus $11,948.14 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-pasco"
-     ]
-    },
-    {
-     "key": "pasco/ward/raised",
-     "subject": "Mollyana Ward: raised",
-     "before": "$38,935 in contributions, plus $3,182.47 in-kind (as of Oct 26, 2026)",
-     "after": "$38,935 in contributions, plus $3,182.47 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-pasco"
-     ]
-    },
-    {
-     "key": "pasco/harding/raised",
-     "subject": "Megan C. Harding: raised",
-     "before": "$30,745 in contributions, plus $1,600 in-kind (as of Oct 26, 2026)",
-     "after": "$30,745 in contributions, plus $1,600 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-pasco"
-     ]
-    },
-    {
-     "key": "hernando/holcomb/raised",
-     "subject": "Jeff Holcomb: raised",
-     "before": "$107,880 in contributions, plus $1,996 in-kind (as of Oct 26, 2026)",
-     "after": "$107,880 in contributions, plus $1,996 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hernando"
-     ]
-    },
-    {
-     "key": "hernando/bigelow/raised",
-     "subject": "Donald Bigelow: raised",
-     "before": "$0 in contributions (as of Oct 26, 2026)",
-     "after": "$0 in contributions (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hernando"
-     ]
-    },
-    {
-     "key": "hernando/birren/raised",
-     "subject": "Kathryn Birren: raised",
-     "before": "$97,425 in contributions, plus $944.76 in-kind (as of Oct 26, 2026)",
-     "after": "$97,425 in contributions, plus $944.76 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hernando"
-     ]
-    },
-    {
-     "key": "hernando/glenn/raised",
-     "subject": "Maxwell Joseph Glenn: raised",
-     "before": "$22,018.11 in contributions, plus $713.42 in-kind (as of Oct 26, 2026)",
-     "after": "$22,018.11 in contributions, plus $713.42 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hernando"
-     ]
-    },
-    {
-     "key": "hernando/greenwell/raised",
-     "subject": "Diane M. Greenwell: raised",
-     "before": "$28,805.85 in contributions, plus $525 in-kind (as of Oct 26, 2026)",
-     "after": "$28,805.85 in contributions, plus $525 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hernando"
-     ]
-    },
-    {
-     "key": "hernando/dukes/raised",
-     "subject": "Silvia Dukes: raised",
-     "before": "$26,800 in contributions, plus $414.67 in-kind (as of Oct 26, 2026)",
-     "after": "$26,800 in contributions, plus $414.67 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hernando"
-     ]
-    },
-    {
-     "key": "hernando/scavetta/raised",
-     "subject": "James Scavetta: raised",
-     "before": "$7,412 in contributions (as of Oct 26, 2026)",
-     "after": "$7,412 in contributions (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hernando"
-     ]
-    },
-    {
-     "key": "hernando/duval/raised",
-     "subject": "Susan Duval: raised",
-     "before": "$14,975 in contributions, plus $1,775 in-kind (as of Oct 26, 2026)",
-     "after": "$14,975 in contributions, plus $1,775 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hernando"
-     ]
-    },
-    {
-     "key": "hernando/kchampion/raised",
-     "subject": "Kara Champion: raised",
-     "before": "$48,144.41 in contributions, plus $4,477.83 in-kind (as of Oct 26, 2026)",
-     "after": "$48,144.41 in contributions, plus $4,477.83 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hernando"
-     ]
-    },
-    {
-     "key": "hernando/pearce/raised",
-     "subject": "Dana Pearce: raised",
-     "before": "$6,467.70 in contributions, plus $885 in-kind (as of Oct 26, 2026)",
-     "after": "$6,467.70 in contributions, plus $885 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hernando"
-     ]
-    },
-    {
-     "key": "hernando/johnson/raised",
-     "subject": "Mark C. Johnson: raised",
-     "before": "$14,310.01 in contributions (as of Oct 26, 2026)",
-     "after": "$14,310.01 in contributions (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hernando"
-     ]
-    },
-    {
-     "key": "hernando/rodriguez/raised",
-     "subject": "Shannon Rodriguez: raised",
-     "before": "$53,925 in contributions, plus $400 in-kind (as of Oct 26, 2026)",
-     "after": "$53,925 in contributions, plus $400 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hernando"
-     ]
-    },
-    {
-     "key": "hernando/vignali/raised",
-     "subject": "Luciano Stefan Vignali: raised",
-     "before": "$5,116 in contributions, plus $496.26 in-kind (as of Oct 26, 2026)",
-     "after": "$5,116 in contributions, plus $496.26 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hernando"
-     ]
-    },
-    {
-     "key": "hernando/cunninghamrud/raised",
-     "subject": "Amanda Cunningham-Rud: raised",
-     "before": "$3,290 in contributions, plus $95 in-kind (as of Oct 26, 2026)",
-     "after": "$3,290 in contributions, plus $95 in-kind (as of Oct 27, 2026)",
-     "label": "single",
-     "sources": [
-      "soe-cf-hernando"
+      "pa-min-0811"
      ]
     }
    ],
    "added": [],
-   "log": [
-    "pinellas Legistar: 1268 roll calls, 0 new split votes awaiting review",
-    "hernando Legistar: 1851 roll calls, 0 new split votes awaiting review",
-    "Campaign totals: 49 candidates"
-   ],
+   "log": [],
    "errors": []
   },
   {
@@ -33637,6 +33653,61 @@
    "before": "For about 20 minutes our automatic update showed \"Passed 4 to 2\", \"Passed 2 to 5\" and \"Passed 4 to 3\"",
    "after": "Restored to the reviewed results: \"Denied 4 to 2\", \"Failed 2 to 5\" and \"Denied 4 to 3\". The update job now never overwrites a result a person has checked.",
    "source": "https://pinellas.legistar.com/Calendar.aspx"
+  },
+  {
+   "date": "2026-10-27",
+   "subject": "Pasco license-plate camera renewal (Aug 11, 2026)",
+   "before": "Outcome not stated by the source",
+   "after": "Motion failed 2 to 2 (Yeager and Starkey yes; Oakley and Mariano no; Weightman absent)",
+   "why": "Checked against the county's official record.",
+   "sources": [
+    "pa-min-0811"
+   ],
+   "county": "pasco"
+  },
+  {
+   "date": "2026-10-27",
+   "subject": "Pasco Two Rivers and surf park vote",
+   "before": "Dated Sep 19, 2026 (a news story's date)",
+   "after": "Sep 9, 2026, items P47 and P56, passed 3 to 0 with Yeager and Starkey absent",
+   "why": "Checked against the county's official record.",
+   "sources": [
+    "pa-min-0909"
+   ],
+   "county": "pasco"
+  },
+  {
+   "date": "2026-10-27",
+   "subject": "Pasco storm repair money",
+   "before": "$235 million, dated Sep 19, 2026",
+   "after": "$156,162,158.85 for Phase 1, approved Aug 25, 2026 (item R43). $235 million is not in county records",
+   "why": "Checked against the county's official record.",
+   "sources": [
+    "pa-min-0825"
+   ],
+   "county": "pasco"
+  },
+  {
+   "date": "2026-10-27",
+   "subject": "Pinellas Rays stadium bonds (Dec 17, 2024)",
+   "before": "$312.5 million in bonds",
+   "after": "Up to $335 million in bonds; $312.5 million is the county's net contribution",
+   "why": "Checked against the county's official record.",
+   "sources": [
+    "m-24-2121A"
+   ],
+   "county": "pinellas"
+  },
+  {
+   "date": "2026-10-27",
+   "subject": "Hillsborough ZooTampa funding",
+   "before": "No date",
+   "after": "Oct 21, 2026, 4 to 3, with Cohen, Hagan and Myers voting no (news reports)",
+   "why": "Checked against the county's official record.",
+   "sources": [
+    "bn9-zoo"
+   ],
+   "county": "hillsborough"
   }
  ],
  "zips": {

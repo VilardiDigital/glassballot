@@ -6,5 +6,60 @@
   "before": "For about 20 minutes our automatic update showed \"Passed 4 to 2\", \"Passed 2 to 5\" and \"Passed 4 to 3\"",
   "after": "Restored to the reviewed results: \"Denied 4 to 2\", \"Failed 2 to 5\" and \"Denied 4 to 3\". The update job now never overwrites a result a person has checked.",
   "source": "https://pinellas.legistar.com/Calendar.aspx"
+ },
+ {
+  "date": "2026-10-27",
+  "subject": "Pasco license-plate camera renewal (Aug 11, 2026)",
+  "before": "Outcome not stated by the source",
+  "after": "Motion failed 2 to 2 (Yeager and Starkey yes; Oakley and Mariano no; Weightman absent)",
+  "why": "Checked against the county's official record.",
+  "sources": [
+   "pa-min-0811"
+  ],
+  "county": "pasco"
+ },
+ {
+  "date": "2026-10-27",
+  "subject": "Pasco Two Rivers and surf park vote",
+  "before": "Dated Sep 19, 2026 (a news story's date)",
+  "after": "Sep 9, 2026, items P47 and P56, passed 3 to 0 with Yeager and Starkey absent",
+  "why": "Checked against the county's official record.",
+  "sources": [
+   "pa-min-0909"
+  ],
+  "county": "pasco"
+ },
+ {
+  "date": "2026-10-27",
+  "subject": "Pasco storm repair money",
+  "before": "$235 million, dated Sep 19, 2026",
+  "after": "$156,162,158.85 for Phase 1, approved Aug 25, 2026 (item R43). $235 million is not in county records",
+  "why": "Checked against the county's official record.",
+  "sources": [
+   "pa-min-0825"
+  ],
+  "county": "pasco"
+ },
+ {
+  "date": "2026-10-27",
+  "subject": "Pinellas Rays stadium bonds (Dec 17, 2024)",
+  "before": "$312.5 million in bonds",
+  "after": "Up to $335 million in bonds; $312.5 million is the county's net contribution",
+  "why": "Checked against the county's official record.",
+  "sources": [
+   "m-24-2121A"
+  ],
+  "county": "pinellas"
+ },
+ {
+  "date": "2026-10-27",
+  "subject": "Hillsborough ZooTampa funding",
+  "before": "No date",
+  "after": "Oct 21, 2026, 4 to 3, with Cohen, Hagan and Myers voting no (news reports)",
+  "why": "Checked against the county's official record.",
+  "sources": [
+   "bn9-zoo"
+  ],
+  "county": "hillsborough"
  }
 ]

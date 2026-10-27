@@ -1,0 +1,242 @@
+{
+ "county": "Pasco",
+ "sources": {
+  "pa-min-0714": {
+   "title": "BCC annotated agenda (minutes), Jul 14, 2026",
+   "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11963,plainText=false)",
+   "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+   "tier": 1,
+   "date": "2026-07-14"
+  },
+  "pa-pkt-0714": {
+   "title": "BCC agenda packet, Jul 14, 2026 (agenda memo PDE26-0777, data center moratorium)",
+   "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=10743,plainText=false)",
+   "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+   "tier": 1,
+   "date": "2026-07-14"
+  },
+  "pa-min-0811": {
+   "title": "BCC annotated agenda (minutes), Aug 11, 2026",
+   "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11907,plainText=false)",
+   "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+   "tier": 1,
+   "date": "2026-08-11"
+  },
+  "pa-pkt-0811": {
+   "title": "BCC agenda packet, Aug 11, 2026 (agenda memo TED26-0339)",
+   "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11794,plainText=false)",
+   "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+   "tier": 1,
+   "date": "2026-08-11"
+  },
+  "pa-min-0825": {
+   "title": "BCC annotated agenda (minutes), Aug 25, 2026",
+   "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11998,plainText=false)",
+   "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+   "tier": 1,
+   "date": "2026-08-25"
+  },
+  "pa-pkt-0825": {
+   "title": "BCC agenda packet, Aug 25, 2026 (agenda memos PDE26-7914 and ODRR26-0025)",
+   "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11845,plainText=false)",
+   "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+   "tier": 1,
+   "date": "2026-08-25"
+  },
+  "pa-min-0909": {
+   "title": "BCC annotated agenda (minutes), Sep 9, 2026",
+   "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11997,plainText=false)",
+   "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+   "tier": 1,
+   "date": "2026-09-09"
+  },
+  "pa-pkt-0909": {
+   "title": "BCC agenda packet, Sep 9, 2026 (agenda memos OMB26-0068 and PDE26-7856)",
+   "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11896,plainText=false)",
+   "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+   "tier": 1,
+   "date": "2026-09-09"
+  },
+  "pa-min-0922": {
+   "title": "BCC annotated agenda (minutes), Sep 22, 2026",
+   "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=12002,plainText=false)",
+   "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+   "tier": 1,
+   "date": "2026-09-22"
+  },
+  "pa-min-1006": {
+   "title": "BCC annotated agenda (minutes), Oct 6, 2026",
+   "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=12001,plainText=false)",
+   "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+   "tier": 1,
+   "date": "2026-10-06"
+  },
+  "pa-pkt-1006": {
+   "title": "BCC agenda packet, Oct 6, 2026 (agenda memo PDE27-7866)",
+   "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11988,plainText=false)",
+   "publisher": "Pasco County Board of County Commissioners (CivicClerk)",
+   "tier": 1,
+   "date": "2026-10-06"
+  },
+  "wusf-dc": {
+   "title": "Pasco County approves one-year moratorium on large data centers",
+   "url": "https://www.wusf.org/politics-issues/2026-07-15/pasco-county-one-year-moratorium-large-data-centers",
+   "publisher": "WUSF",
+   "tier": 4,
+   "date": "2026-07-15"
+  },
+  "tbb-dc": {
+   "title": "Pasco unanimously passes moratorium on data centers",
+   "url": "https://www.tampabaybeacons.com/2026/07/20/pasco-unanimously-passes-moratorium-on-data-centers/",
+   "publisher": "Tampa Bay Beacons",
+   "tier": 4,
+   "date": "2026-07-20"
+  },
+  "tbb-lpr": {
+   "title": "Public pressure mounts, Pasco's license-plate cameras are coming down",
+   "url": "https://www.tampabaybeacons.com/2026/08/31/public-pressure-mounts-pascos-license-plate-cameras-are-coming-down/",
+   "publisher": "Tampa Bay Beacons",
+   "tier": 4,
+   "date": "2026-08-31"
+  },
+  "wcc-surf": {
+   "title": "Pasco commissioners approve Two Rivers expansion, clear path for 35-acre surf park in Wesley Chapel",
+   "url": "https://wesleychapelcommunity.com/posts/pasco-commissioners-approve-two-rivers-expansion-clear-path-for-35-acre-surf-park-in-wesley-chapel",
+   "publisher": "Wesley Chapel Community",
+   "tier": 4,
+   "date": null
+  },
+  "bn9-storm": {
+   "title": "Pasco officials approve $235M funding for hurricane-damage repair projects",
+   "url": "https://baynews9.com/fl/tampa/news/2026/09/19/pasco-officials-approve--235m-funding-for-hurricane-damage-repair-projects",
+   "publisher": "Bay News 9",
+   "tier": 4,
+   "date": "2026-09-19"
+  }
+ },
+ "votes": {
+  "pa-p48-2026-10-06": {
+   "whatItDoes": {
+    "text": "Rezones about 20.42 acres of mostly vacant land south of Chancey Road, east of Gall Boulevard in southeast Pasco, from agricultural-residential to a master planned unit development that allows up to 96 townhomes, about 4.7 homes per acre. The owner, Chanzep LLC, must follow staff's conditions, including landscape buffers along Crystal Springs Road and Chancey Road, a 5-foot sidewalk extension on Crystal Springs Road and a 10-foot multi-use path along Chancey Road. The off-site part of that walking and biking work can be credited against the bike and pedestrian share of the project's mobility fees.",
+    "sources": [
+     "pa-pkt-1006",
+     "pa-min-1006"
+    ]
+   },
+   "afterward": [],
+   "note": "The hearing had been continued from Aug 11 and Sep 9, 2026 (agenda memo). No later action on PDE27-7866 appears in the Oct 6 minutes or the Oct 20, 2026 agenda. I did not read the full conditions of approval."
+  },
+  "two-rivers-surf-park": {
+   "whatItDoes": {
+    "text": "Expands what can be built in the 3,405-acre Two Rivers development along State Road 56 between Morris Bridge Road and Gall Boulevard in Wesley Chapel. The apartment limit rises from 1,600 to 2,500 units, retail space roughly doubles to about 1.3 million square feet, up to 480 hotel rooms, a 300-bed assisted living facility and one water park of up to 35 acres are added, 209 age-restricted homes are dropped, and the 4,047 single-family homes already allowed stay the same; the board also adopted a matching change to the county's comprehensive plan for Two Rivers. Of the 900 added multifamily homes, no more than 240 may be apartments; the rest must be condos, townhomes, duplexes, villas or similar, per the staff memo. The board changed the condition tying the apartments to the water park at the hearing; Wesley Chapel Community reported the final rule as: the apartments cannot break ground until the surf park gets its certificate of occupancy or three years pass, whichever comes first.",
+    "sources": [
+     "pa-pkt-0909",
+     "pa-min-0909",
+     "wcc-surf"
+    ]
+   },
+   "afterward": [],
+   "note": "County minutes show the votes were on Sep 9, 2026, not Sep 19 (that is the Tampa Bay Times story date): item P47 (comprehensive plan text amendment, PDE26-0437) was adopted by roll call, and item P56 (Two Rivers MPUD substantial modification, PDE26-7856) was approved with a condition change to 41H. Commissioner Yeager was absent and Commissioner Starkey was absent from both votes, which fits the reported 3 to 0. The staff memo gives the new retail figure as both 1,335,000 and 1,355,000 square feet, so the text says about 1.3 million. The Tampa Bay Times article was paywalled, so I could not read its body. No later surf park permits or construction were found."
+  },
+  "storm-mitigation-235m": {
+   "whatItDoes": {
+    "text": "Approves Phase 1 of Pasco's Better Future Infrastructure and Mitigation Program: 22 projects totaling $155,162,158.85 plus $1,000,000 for the local share of future FEMA repair projects, for $156,162,158.85 in all, paid with federal Community Development Block Grant Disaster Recovery (CDBG-DR) money for recovery from Hurricanes Idalia, Helene and Milton. Projects include Sea Pines flood abatement in Hudson (about $28.9 million across two line items), Double Hammock Creek flood abatement ($23.9 million), Mitchell Boulevard ($15 million), Elfers septic-to-sewer ($10 million), a Dade City recreation, veterans center and shelter ($12 million) and the Hudson Library renovation. Each project still needs final eligibility, environmental and duplication-of-benefits reviews, procurement and signed agreements before money is committed or construction starts; Bay News 9 reported that projects must be finished within five years or the county may have to repay funds.",
+    "sources": [
+     "pa-pkt-0825",
+     "pa-min-0825",
+     "bn9-storm"
+    ]
+   },
+   "afterward": [
+    {
+     "date": "2026-09-22",
+     "text": "On the consent agenda, the board approved Better Future public services policies and procedures covering $10,000,000 in CDBG-DR funds (item C40, ODRR26-0026).",
+     "sources": [
+      "pa-min-0922"
+     ]
+    },
+    {
+     "date": "2026-10-06",
+     "text": "On the consent agenda, the board approved a budget amendment for Phase 1 Better Future planning projects funded with $7,404,010.20 in CDBG-DR money (item C24, ODRR27-0002).",
+     "sources": [
+      "pa-min-1006"
+     ]
+    }
+   ],
+   "note": "Matched to Aug 25, 2026 item R43 (ODRR26-0025), approved by roll call. Bay News 9 (published Sep 19) reported about $235 million and gave no vote date; I found no $235 million figure in the county records I read, so the input's amount and Sep 19 date may not match this vote. The Jul 14 consent item C67 (ODRR26-0021) adopted the program's guidelines with no funding."
+  },
+  "pa-c16-2026-09-09": {
+   "whatItDoes": {
+    "text": "Moves $2,000,000 from the county's General Fund reserves and pays it to the City of New Port Richey for the Town and Country Villas neighborhood, where the city plans to replace septic tanks with a sanitary sewer system. The payment carries out a Dec 5, 2023 agreement in which the county pledged $2 million for water and sewer work and the city pledged at least $1.5 million for roads, stormwater, trees and streetlights; the county had budgeted the money in FY 2023, but the agreement terms were not met that year and it was never paid. The city asked for the money after its application for a state Water Quality Improvement Grant for the sewer system was not selected.",
+    "sources": [
+     "pa-pkt-0909",
+     "pa-min-0909"
+    ]
+   },
+   "afterward": [],
+   "note": "No later county action on OMB26-0068 was found in the Sep 22 or Oct 6 minutes. I did not check New Port Richey city records for a construction contract."
+  },
+  "pa-p52-2026-08-25": {
+   "whatItDoes": {
+    "text": "Rezones about 2.3 acres at the northeast corner of Little Road and DeCubellis Road in west Pasco (7026 Little Road and 8531 DeCubellis Road) to C-2 general commercial, so the site can be developed for businesses. Deed restrictions proposed by staff bar uses such as stand-alone car washes, self-storage, auto repair, used-car sales and towing yards. Staff's draft also barred a gas station until the county widens DeCubellis Road to four lanes (project CIP 20032) or a gas station on an opposite corner closes; the minutes say the board removed the DeCubellis Road language entirely but do not quote the wording removed.",
+    "sources": [
+     "pa-pkt-0825",
+     "pa-min-0825"
+    ]
+   },
+   "afterward": [],
+   "note": "The site was zoned R-4 high-density residential, C-1 neighborhood commercial and A-C agricultural. The minutes do not say exactly which DeCubellis Road language was struck. The only DeCubellis Road provision I found in the staff memo's deed restrictions is the gas station timing rule, so treat that link as likely, not confirmed."
+  },
+  "lpr-renewal": {
+   "whatItDoes": {
+    "text": "The motion to keep the county's agreement letting the Pasco Sheriff's Office run license-plate reader cameras on county rights-of-way failed on a 2 to 2 tie: Commissioner Yeager, who made the motion, and Commissioner Starkey voted yes; Commissioner Oakley and Chairman Mariano voted no; Commissioner Weightman was absent. A tie means a motion fails. Because it failed, the renewal was not approved that day; Tampa Bay Beacons reported that the new contract would have switched camera vendors from Flock to Axon. The county agreement covered about 60 cameras in county rights-of-way, while about 110 cameras owned by homeowners associations, stores and other private owners were not part of it, per Tampa Bay Beacons.",
+    "sources": [
+     "pa-min-0811",
+     "tbb-lpr"
+    ]
+   },
+   "afterward": [
+    {
+     "date": "2026-08-25",
+     "text": "Commissioners discussed a possible committee, a workshop and a task force on license-plate readers. Tampa Bay Beacons reported that the board directed staff to form a task force of residents and experts to study the cameras, drones and related technology, with a public workshop expected before any future program.",
+     "sources": [
+      "pa-min-0825",
+      "tbb-lpr"
+     ]
+    },
+    {
+     "date": "2026-08-26",
+     "text": "Tampa Bay Beacons reported that, the day after the Aug 25 meeting, Sheriff Chris Nocco sent a letter ending the agreement effective Sept 30. Nocco blamed commissioners who no longer supported it and warned that losing the cameras would hurt efforts to solve crimes and find missing people.",
+     "sources": [
+      "tbb-lpr"
+     ]
+    }
+   ],
+   "note": "The input says the outcome was not stated. The county's Aug 11, 2026 minutes say the motion 'failed with Commissioner Oakley and Chairman Mariano voting nay'. With Weightman absent, Yeager (who made the motion, per Tampa Bay Beacons) and Starkey made up the other votes. I did not confirm that the cameras were physically removed after Sept 30."
+  },
+  "pa-r58-2026-08-11": {
+   "whatItDoes": {
+    "text": "Tells county staff to pursue an ordinance allowing school zone speed cameras, and to take part in a no-cost pilot of IntelliRoad's AI-based School Zone Safety System at one school crosswalk. A 2023 state law (HB 657) lets counties ticket drivers going more than 10 mph over a school zone limit. Staff said a Pasco camera program would first need an ordinance, agreements with the Sheriff's Office, New Port Richey and Zephyrhills, a countywide awareness campaign, a vendor and installation, and that ticket money would be split as state law requires among the county, the School District, the state and a crossing guard program. The pilot uses detection cameras, flashing beacons and audio alerts to warn drivers, and staff said this step needs no additional county money.",
+    "sources": [
+     "pa-pkt-0811",
+     "pa-min-0811"
+    ]
+   },
+   "afterward": [],
+   "note": "No speed detection ordinance or IntelliRoad item appears in the Aug 25, Sep 9, Sep 22 or Oct 6, 2026 minutes or the Oct 20 agenda. The minutes add that, per the Sheriff, deputies will patrol schools as much as they can until the program starts."
+  },
+  "data-center-moratorium": {
+   "whatItDoes": {
+    "text": "For 12 months, Pasco County will not accept applications for building permits, site plans, rezonings, comprehensive plan changes or other approvals for data centers and other 'large load' electricity users in unincorporated Pasco. Server or computer rooms that support a site's main use and draw no more than 2.5 megawatts are exempt, and the board can still approve a development agreement for a data center that is not a large load customer if it sets conditions on location, size, water use, power use, noise, electronic waste and other impacts. Tampa Bay Beacons reported that the moratorium is retroactive to May 27, and that planning director David Engel said a proposed data center at Double Branch cannot proceed under it; the pause can end early if the county adopts permanent rules, or the board can extend it by resolution.",
+    "sources": [
+     "pa-pkt-0714",
+     "pa-min-0714",
+     "tbb-dc",
+     "wusf-dc"
+    ]
+   },
+   "afterward": [],
+   "note": "Ordinance item P84 (PDE26-0777) was adopted by roll call on Jul 14, 2026. Tampa Bay Beacons said an extension or a permanent ban would be discussed in 2027. No later data center ordinance or rules were found in the Aug to Oct 2026 minutes I read."
+  }
+ }
+}

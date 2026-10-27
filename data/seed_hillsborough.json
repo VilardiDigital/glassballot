@@ -419,6 +419,13 @@
    "publisher": "Kenneth \"Ken\" Gay campaign",
    "tier": 5,
    "accessed": "2026-10-26"
+  },
+  "hc-oct21": {
+   "title": "Board of County Commissioners Regular Meeting Recap for Oct. 21, 2026",
+   "url": "https://hcfl.gov/newsroom/2026/10/22/board-of-county-commissioners-regular-meeting-recap-for-oct-21-2026-",
+   "publisher": "Hillsborough County",
+   "tier": 2,
+   "accessed": "2026-10-22"
   }
  },
  "people": [
@@ -2082,8 +2089,7 @@
   },
   {
    "id": "zootampa-75m",
-   "date": null,
-   "dateNote": "FOX 13 reported a 4-3 approval on Oct 7, 2026; Bay News 9 reported a 4-3 final approval on Oct 21, 2026.",
+   "date": "2026-10-21",
    "topic": "tourism",
    "headline": "Approved $75 million for ZooTampa renovations and expansion",
    "inShort": "The county will pay ZooTampa $5 million a year through 2041 from Community Investment Tax (half-cent sales tax) money, and the zoo must match it, for $150 million in upgrades and a new South America section. Some commissioners argued the money should be shared with other cultural groups.",
@@ -2105,7 +2111,18 @@
       "source": "bn9-zoo"
      }
     ],
-    "roll": []
+    "roll": [
+     {
+      "value": {
+       "no": [
+        "cohen",
+        "hagan",
+        "myers"
+       ]
+      },
+      "source": "bn9-zoo"
+     }
+    ]
    },
    "facts": [
     {
@@ -2131,8 +2148,13 @@
      ]
     },
     {
-     "text": "How each commissioner voted.",
-     "claims": []
+     "text": "An earlier 4 to 3 vote on Oct 7, 2026 moved the agreement toward final approval.",
+     "claims": [
+      {
+       "value": "Oct 7, 4 to 3",
+       "source": "fox13-zoo"
+      }
+     ]
     }
    ]
   },

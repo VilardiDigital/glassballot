@@ -251,6 +251,13 @@
    "url": "https://enr.votepinellas.gov/FL/Pinellas/122583/web.345435/#/summary",
    "publisher": "Pinellas County Supervisor of Elections",
    "tier": 1
+  },
+  "m-24-2121A": {
+   "title": "Legistar file 24-2121A: Tourist Development Tax Revenue Supplemental Bond Resolution for Rays stadium (agenda item text and staff report)",
+   "url": "https://webapi.legistar.com/v1/pinellas/matters/73004/texts/39377",
+   "publisher": "Pinellas County Board of County Commissioners (Legistar)",
+   "tier": 1,
+   "accessed": "2024-12-17"
   }
  },
  "people": [
@@ -1103,8 +1110,8 @@
    "id": "rays-bonds",
    "date": "2024-12-17",
    "topic": "stadium",
-   "headline": "Approved $312.5 million in bonds for a new Rays stadium",
-   "inShort": "The county agreed to borrow $312.5 million for its share of a new Tampa Bay Rays ballpark in St. Petersburg, to be repaid from the tourist development tax that visitors pay on hotel stays.",
+   "headline": "Approved up to $335 million in bonds for a new Rays stadium",
+   "inShort": "The county approved borrowing up to $335 million in bonds for its share of a new Tampa Bay Rays ballpark in St. Petersburg, to be repaid from the tourist development tax that visitors pay on hotel stays. The county's net contribution to the project was $312.5 million; the bonds are larger to cover borrowing costs and reserves.",
    "legistarMatch": {
     "date": "2024-12-17",
     "contains": [
@@ -1161,11 +1168,11 @@
    },
    "facts": [
     {
-     "text": "Bond amount: $312.5 million.",
+     "text": "Bond amount: up to $335 million, covering the county's $312.5 million contribution plus borrowing costs and reserves.",
      "claims": [
       {
-       "value": "$312.5 million",
-       "source": "fp-rays"
+       "value": "up to $335 million",
+       "source": "m-24-2121A"
       }
      ]
     },
