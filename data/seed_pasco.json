@@ -304,6 +304,41 @@
    "publisher": "Kimberly D. Coward campaign",
    "tier": 5,
    "accessed": "2026-10-26"
+  },
+  "pasco-min-1006": {
+   "title": "Pasco County Board of County Commissioners annotated agenda (minutes), Oct 6, 2026",
+   "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=12001,plainText=false)",
+   "publisher": "Pasco County",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "pasco-min-0909": {
+   "title": "Pasco County Board of County Commissioners annotated agenda (minutes), Sep 9, 2026",
+   "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11997,plainText=false)",
+   "publisher": "Pasco County",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "pasco-min-0825": {
+   "title": "Pasco County Board of County Commissioners annotated agenda (minutes), Aug 25, 2026",
+   "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11998,plainText=false)",
+   "publisher": "Pasco County",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "pasco-min-0811": {
+   "title": "Pasco County Board of County Commissioners annotated agenda (minutes), Aug 11, 2026",
+   "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11907,plainText=false)",
+   "publisher": "Pasco County",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "pasco-minutes": {
+   "title": "Pasco County Board of County Commissioners annotated agendas (minutes), May 19 to Oct 6, 2026",
+   "url": "https://pascocofl.portal.civicclerk.com/",
+   "publisher": "Pasco County",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -356,6 +391,12 @@
        "url": "https://www.pascocountyfl.gov/government/county_commissioners/district_1.php"
       },
       "source": "pc-d1"
+     }
+    ],
+    "attendance": [
+     {
+      "value": "Present at roll call for 8 of 9 regular meetings from May 19 to Oct 6, 2026",
+      "source": "pasco-minutes"
      }
     ]
    }
@@ -435,6 +476,12 @@
       "value": "$171,675 in contributions, plus $500 in-kind (as of Oct 26, 2026)",
       "source": "soe-cf-pasco"
      }
+    ],
+    "attendance": [
+     {
+      "value": "Present at roll call for 8 of 9 regular meetings from May 19 to Oct 6, 2026",
+      "source": "pasco-minutes"
+     }
     ]
    },
    "finance": {
@@ -497,6 +544,12 @@
        "url": "https://www.pascocountyfl.gov/government/county_commissioners/district_3.php"
       },
       "source": "pc-d3"
+     }
+    ],
+    "attendance": [
+     {
+      "value": "Present at roll call for 9 of 9 regular meetings from May 19 to Oct 6, 2026 (arrived a few minutes late once)",
+      "source": "pasco-minutes"
      }
     ]
    }
@@ -592,6 +645,12 @@
       },
       "source": "pc-d4"
      }
+    ],
+    "attendance": [
+     {
+      "value": "Present at roll call for 8 of 9 regular meetings from May 19 to Oct 6, 2026",
+      "source": "pasco-minutes"
+     }
     ]
    },
    "finance": {
@@ -662,6 +721,12 @@
        "url": "https://www.pascocountyfl.gov/government/county_commissioners/district_5.php"
       },
       "source": "pc-d5"
+     }
+    ],
+    "attendance": [
+     {
+      "value": "Present at roll call for 9 of 9 regular meetings from May 19 to Oct 6, 2026",
+      "source": "pasco-minutes"
      }
     ]
    }
@@ -1370,6 +1435,164 @@
      ]
     }
    ]
+  },
+  {
+   "id": "pa-p48-2026-10-06",
+   "date": "2026-10-06",
+   "topic": "growth",
+   "headline": "Approved rezoning farmland south of Chancey Road for 96 townhomes",
+   "inShort": "Changed the zoning on about 20.42 acres in southeast Pasco, south of Chancey Road, from agricultural residential to a planned development that allows 96 townhomes, with conditions.",
+   "officialTitle": "Zoning Amendment (Regular) - Chanzep LLC - Chanzep MPUD Master Planned Unit Development - A Rezoning Petition Request From an A-R Agricultural Residential District to an MPUD Master Planned Unit Development District to Allow for the Development of 96 Platted Townhome Units and Associated Infrastructure - Southeast Pasco County - Located South of Chancey Road Approximately 777 Feet East of the Chancey Road and Gall Boulevard Intersection - Containing Approximately 20.42 Acres",
+   "fileNumber": "PDE27-7866",
+   "sourceUrl": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=12001,plainText=false)",
+   "split": true,
+   "rollExtra": {},
+   "claims": {
+    "result": [
+     {
+      "value": "Passed 4 to 1",
+      "source": "pasco-min-1006"
+     }
+    ],
+    "roll": [
+     {
+      "value": {
+       "yes": [
+        "oakley",
+        "starkey",
+        "weightman",
+        "yeager"
+       ],
+       "no": [
+        "mariano"
+       ]
+      },
+      "source": "pasco-min-1006"
+     }
+    ]
+   },
+   "facts": [],
+   "minutesText": "Approved Staff's recommendation with Chairman Mariano voting nay."
+  },
+  {
+   "id": "pa-c16-2026-09-09",
+   "date": "2026-09-09",
+   "topic": "budget",
+   "headline": "Moved $2 million from county reserves to a New Port Richey septic-to-sewer project",
+   "inShort": "Transferred $2,000,000 from the county's general fund reserves to the City of New Port Richey to help pay for connecting the Town and Country Villas neighborhood from septic tanks to sewer.",
+   "officialTitle": "Budget Amendment — Transfer from the Board General Fund Reserves — City of New Port Richey — Funding for Town and Country Villas Septic to Sewer Project — $2,000,000.00",
+   "fileNumber": "OMB26-0068",
+   "sourceUrl": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11997,plainText=false)",
+   "split": true,
+   "rollExtra": {
+    "absent": [
+     "yeager"
+    ]
+   },
+   "claims": {
+    "result": [
+     {
+      "value": "Passed 3 to 1",
+      "source": "pasco-min-0909"
+     }
+    ],
+    "roll": [
+     {
+      "value": {
+       "yes": [
+        "oakley",
+        "starkey",
+        "weightman"
+       ],
+       "no": [
+        "mariano"
+       ]
+      },
+      "source": "pasco-min-0909"
+     }
+    ]
+   },
+   "facts": [],
+   "minutesText": "Approved Staff's recommendation with Chairman Mariano voting nay."
+  },
+  {
+   "id": "pa-p52-2026-08-25",
+   "date": "2026-08-25",
+   "topic": "growth",
+   "headline": "Rezoned a 2.3-acre corner at Little Road and DeCubellis Road for commercial use",
+   "inShort": "Changed the zoning on about 2.3 acres at the northeast corner of Little Road and DeCubellis Road in west Pasco to general commercial, after removing language about DeCubellis Road from the approval.",
+   "officialTitle": "Zoning Amendment (Consent) – 7026 Little Road/Roosevelt Commons, L.L.C. – Change in Zoning from an R-4 High Density Residential District, C-1 Neighborhood Commercial District, and A-C Agricultural District to a C-2 General Commercial District – West Pasco County – Northeast Corner of the Intersection of Little Road and Decubellis Road – Containing Approximately 2.3 Acres",
+   "fileNumber": "PDE26-7914",
+   "sourceUrl": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11998,plainText=false)",
+   "split": true,
+   "rollExtra": {},
+   "claims": {
+    "result": [
+     {
+      "value": "Passed 4 to 1",
+      "source": "pasco-min-0825"
+     }
+    ],
+    "roll": [
+     {
+      "value": {
+       "yes": [
+        "mariano",
+        "oakley",
+        "starkey",
+        "weightman"
+       ],
+       "no": [
+        "yeager"
+       ]
+      },
+      "source": "pasco-min-0825"
+     }
+    ]
+   },
+   "facts": [],
+   "minutesText": "Approved Staff's recommendation with the revision to remove the DeCubellis Road language entirely by roll call vote with Commissioner Yeager voting nay."
+  },
+  {
+   "id": "pa-r58-2026-08-11",
+   "date": "2026-08-11",
+   "topic": "safety",
+   "headline": "Approved pilot programs for school zone speed cameras and safety systems",
+   "inShort": "Approved two pilot programs: school zone speed detection cameras and the IntelliRoad School Zone Safety System. The item said no county funding was required. The minutes note the Sheriff's deputies will patrol schools as much as they can until the programs start.",
+   "officialTitle": "Discussion on School Zone Speed Detection Systems (SDS) and IntelliRoad School Zone Safety System (SZSS) Pilot Program – No Funding Required",
+   "fileNumber": "TED26-0339",
+   "sourceUrl": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11907,plainText=false)",
+   "split": true,
+   "rollExtra": {
+    "absent": [
+     "weightman"
+    ]
+   },
+   "claims": {
+    "result": [
+     {
+      "value": "Passed 3 to 1",
+      "source": "pasco-min-0811"
+     }
+    ],
+    "roll": [
+     {
+      "value": {
+       "yes": [
+        "oakley",
+        "starkey",
+        "yeager"
+       ],
+       "no": [
+        "mariano"
+       ]
+      },
+      "source": "pasco-min-0811"
+     }
+    ]
+   },
+   "facts": [],
+   "minutesText": "Approved to adopt both programs as per the Sheriff they patrol the schools as much as they can until the program is implemented with Chairman Mariano voting nay."
   }
  ],
  "topics": [
@@ -1392,6 +1615,16 @@
    "id": "storms",
    "name": "Storm recovery",
    "blurb": "Hurricane repairs and flood protection projects."
+  },
+  {
+   "id": "budget",
+   "name": "Spending and budget",
+   "blurb": "What the county spends and where the money goes."
+  },
+  {
+   "id": "safety",
+   "name": "Public safety",
+   "blurb": "Sheriff, fire rescue and school safety."
   }
  ],
  "manualProblems": [

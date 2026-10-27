@@ -22,7 +22,7 @@
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--wash);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+body{margin:0;background:var(--wash);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
 a{color:var(--glass);text-underline-offset:3px;text-decoration-thickness:1px}
 a:hover{text-decoration-thickness:2px}
 button{font:inherit;color:inherit}
@@ -275,6 +275,52 @@ footer .wordmark b{color:#8DB8FF}
 footer .wordmark i{color:#A9C0E8}
 footer .tag{font-family:var(--head);font-size:11px;letter-spacing:.3em;font-weight:700;color:#8DB8FF}
 @media (prefers-reduced-motion:no-preference){.view{animation:in .22s ease-out}@keyframes in{from{opacity:.4;transform:translateY(6px)}to{opacity:1;transform:none}}}
+
+/* v3: plain-language layer */
+#countyName{max-width:96px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:inline-block}
+@media (max-width:400px){#countyName{max-width:72px}.tools{gap:6px}}
+html.big body{font-size:19.5px}
+html.big .small{font-size:16px}
+html.big .tiny{font-size:14.5px}
+html.big .h1{font-size:clamp(32px,7vw,50px)}
+.textbtn{font-family:var(--head);font-weight:800;font-size:15px;letter-spacing:-.02em}
+.zip{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+.zip input{flex:1 1 180px;min-width:0;font-size:20px;letter-spacing:.08em;padding:14px 16px;border-radius:14px;border:0;background:#fff;color:var(--char)}
+.zip .btn{min-height:56px;font-size:17px;padding:0 22px;background:var(--aqua);border-color:var(--aqua);color:#06302B;font-weight:700}
+.zipmsg{font-size:15px;color:#fff;min-height:1.2em}
+.zipmsg a{color:#fff;font-weight:700}
+.bigpick{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));gap:8px}
+.bigpick a{display:flex;flex-direction:column;gap:2px;padding:14px 16px;border-radius:16px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);color:#fff;text-decoration:none}
+.bigpick a:hover{background:rgba(255,255,255,.22)}
+.bigpick b{font-family:var(--head);font-size:18px}
+.bigpick span{font-size:13.5px;color:#C9DBFF}
+.why{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr))}
+.why .panel p.big{font-family:var(--head);font-weight:700;font-size:18px;color:var(--char);line-height:1.35}
+.job{font-size:15px;color:var(--char);background:var(--light);border:1px solid #D3E6FB;border-radius:12px;padding:10px 12px}
+.job b{font-weight:600}
+.cands{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))}
+.cand{background:var(--paper);border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden;display:flex;flex-direction:column}
+.cand .ch{display:flex;gap:14px;align-items:center;padding:16px}
+.cand dl{margin:0;padding:0 16px 8px}
+.cand dl > div{padding:10px 0;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:3px}
+.cand dt{font-size:13px;color:var(--muted);font-weight:600}
+.cand dd{margin:0;font-weight:500;color:var(--char)}
+.cand .acts{margin-top:auto;padding:12px 16px 16px;display:flex;gap:8px;flex-wrap:wrap}
+.mine{display:inline-flex;align-items:center;gap:8px;min-height:46px;padding:0 16px;border-radius:999px;border:1.5px solid var(--line-2);background:var(--paper);font-weight:600;font-size:15px;cursor:pointer;color:var(--char)}
+.mine[aria-pressed="true"]{background:var(--aqua);border-color:var(--aqua);color:#06302B}
+.mine .box{width:20px;height:20px;border-radius:6px;border:2px solid currentColor;display:inline-flex;align-items:center;justify-content:center}
+.cite-box{border-left:4px solid var(--civic);background:var(--paper);border-radius:0 14px 14px 0;padding:12px 14px;font-size:15px;display:flex;flex-direction:column;gap:4px}
+.legal{font-family:Georgia,"Times New Roman",serif;font-size:15.5px;line-height:1.6;color:#333;background:#FBFBF8;border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.policy h2{margin-top:10px}
+.policy p,.policy li{max-width:68ch}
+.policy ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.fixbtn.icon{padding:4px;border-radius:8px;text-decoration:none}
+.fixbtn.icon span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.fixbtn.icon:hover{background:var(--wash)}
+.vfacts{display:flex;flex-direction:column;gap:6px}
+details.more > summary{cursor:pointer;font-weight:600;color:var(--glass);list-style:none;min-height:40px;display:flex;align-items:center}
+details.more > summary::-webkit-details-marker{display:none}
+@media print{.top,.tabs,footer,.noprint{display:none!important}main{padding:0}body{background:#fff;font-size:14pt}.panel,.list{border:1px solid #999}}
 </style>
 
 <header class="top">
@@ -284,14 +330,14 @@ footer .tag{font-family:var(--head);font-size:11px;letter-spacing:.3em;font-weig
       <span class="wordmark">Glass<b>Ballot</b><i>.org</i></span>
     </a>
     <nav class="topnav" aria-label="Main">
-      <a href="#" data-tab="ballot">Ballot</a>
-      <a href="#" data-tab="officials">Officials</a>
-      <a href="#" data-tab="votes">Votes</a>
-      <a href="#/sources" data-tab="sources">Sources</a>
-      <a href="#/how" data-tab="how">How it works</a>
+      <a href="#" data-tab="ballot">My ballot</a>
+      <a href="#" data-tab="vote">How to vote</a>
+      <a href="#" data-tab="officials">Who's in office</a>
+      <a href="#/about" data-tab="about">About</a>
     </nav>
     <div class="tools">
-      <button class="countybtn" id="pickCounty" type="button" aria-label="Change county"><span id="countyName">Tampa Bay</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+      <button class="iconbtn textbtn" id="textSize" type="button" aria-label="Make text bigger" aria-pressed="false">A<span style="font-size:.75em">A</span></button>
+      <button class="countybtn" id="pickCounty" type="button" aria-label="Change county"><span id="countyName">County</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
       <button class="iconbtn" id="openSearch" type="button" aria-label="Search">
         <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
       </button>
@@ -303,17 +349,17 @@ footer .tag{font-family:var(--head);font-size:11px;letter-spacing:.3em;font-weig
 <footer id="foot"></footer>
 
 <nav class="tabs" aria-label="Main">
-  <a href="#" data-tab="ballot"><svg viewBox="0 0 22 22" aria-hidden="true"><rect x="3" y="9" width="16" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M8 9V3.5h6V9" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M9.2 6.3l1.3 1.3 2.4-2.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>Ballot</a>
-  <a href="#" data-tab="officials"><svg viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="7.5" r="3.8" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M3.5 20c1-3.8 3.8-5.6 7.5-5.6s6.5 1.8 7.5 5.6" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>Officials</a>
-  <a href="#" data-tab="votes"><svg viewBox="0 0 22 22" aria-hidden="true"><path d="M4.5 11.5l4 4 9-9.5" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/></svg>Votes</a>
-  <a href="#/sources" data-tab="sources"><svg viewBox="0 0 22 22" aria-hidden="true"><path d="M5 3h9l3 3v13H5z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/><path d="M8 10h6M8 13.5h6M8 17h3.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Sources</a>
+  <a href="#" data-tab="ballot"><svg viewBox="0 0 22 22" aria-hidden="true"><rect x="3" y="9" width="16" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M8 9V3.5h6V9" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M9.2 6.3l1.3 1.3 2.4-2.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>My ballot</a>
+  <a href="#" data-tab="vote"><svg viewBox="0 0 22 22" aria-hidden="true"><rect x="3.5" y="4.5" width="15" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M3.5 9h15M8 2.5v4M14 2.5v4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>How to vote</a>
+  <a href="#" data-tab="officials"><svg viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="7.5" r="3.8" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M3.5 20c1-3.8 3.8-5.6 7.5-5.6s6.5 1.8 7.5 5.6" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>In office</a>
+  <a href="#/about" data-tab="about"><svg viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="8" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M11 10v5.5M11 6.8v.2" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>About</a>
 </nav>
 
 <div class="overlay" id="search" hidden>
   <div class="wrap">
     <div class="row" style="flex-wrap:nowrap">
       <label for="q" class="sr">Search</label>
-      <input id="q" type="search" placeholder="Search a name, a vote, a topic" autocomplete="off">
+      <input id="q" type="search" placeholder="Search a name, a vote or a topic" autocomplete="off">
       <button class="btn" id="closeSearch" type="button">Close</button>
     </div>
     <div class="results" id="results"></div>
@@ -328,7 +374,7 @@ footer .tag{font-family:var(--head);font-size:11px;letter-spacing:.3em;font-weig
 <!-- Suggest a correction. Netlify Forms reads this static form at deploy time:
      honeypot field, reCAPTCHA, a required public source link, and Akismet spam filtering on Netlify's side. -->
 <dialog id="fixDlg" aria-labelledby="fxT"><div class="dlg">
-  <div class="between"><h2 class="h2" id="fxT">Suggest a correction</h2><button class="iconbtn" type="button" data-close aria-label="Close">✕</button></div>
+  <div class="between"><h2 class="h2" id="fxT">Report a mistake</h2><button class="iconbtn" type="button" data-close aria-label="Close">✕</button></div>
   <div class="quote" id="fixQuote"></div>
   <form name="correction" method="POST" action="/thanks" data-netlify="true" netlify-honeypot="website" data-netlify-recaptcha="true" class="stack" id="fixForm">
     <input type="hidden" name="form-name" value="correction">
@@ -338,14 +384,14 @@ footer .tag{font-family:var(--head);font-size:11px;letter-spacing:.3em;font-weig
     <input type="hidden" name="shown" id="fxShown">
     <input type="hidden" name="opened" id="fxOpened">
     <p class="hp"><label>Leave this empty <input name="website" tabindex="-1" autocomplete="off"></label></p>
-    <label class="f">What should it say?<textarea name="suggestion" rows="3" required minlength="8" maxlength="1500" placeholder="The correct fact, in a sentence"></textarea></label>
-    <label class="f">Link to your source <span class="h">Required. An official record or a published report we can check. We don't change facts without one.</span><input type="url" name="evidence" required placeholder="https://" pattern="https?://.+"></label>
-    <label class="f">Anything else we should know? <span class="h">Optional</span><textarea name="details" rows="2" maxlength="1500"></textarea></label>
-    <label class="f">Your email <span class="h">Optional, only to follow up. Never published.</span><input type="email" name="email" autocomplete="email"></label>
+    <label class="f">What should it say?<textarea name="suggestion" rows="3" required minlength="8" maxlength="1500" placeholder="The correct information, in a sentence or two"></textarea></label>
+    <label class="f">Where can we check it? <span class="h">Required. A link to a government record or a published news story. We can't change anything without one.</span><input type="url" name="evidence" required placeholder="https://" pattern="https?://.+"></label>
+    <label class="f">Anything else? <span class="h">Optional</span><textarea name="details" rows="2" maxlength="1500"></textarea></label>
+    <label class="f">Your email <span class="h">Optional. Only used if we have a question. Never published or shared.</span><input type="email" name="email" autocomplete="email"></label>
     <div data-netlify-recaptcha="true"></div>
-    <p class="tiny muted">Every suggestion is checked by a person against the source you give. Accepted fixes are logged in public on the corrections page, with the date and what changed.</p>
+    <p class="tiny muted">A person reads every report and checks it against your link. If we change something, we list the change on our corrections page.</p>
     <p class="tiny" id="fxMsg" role="alert" style="color:#B42318"></p>
-    <button class="btn primary" type="submit">Send correction</button>
+    <button class="btn primary" type="submit">Send</button>
   </form>
 </div></dialog>
 
@@ -357,15 +403,16 @@ const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 const fmtDate = iso => { if (!iso) return ""; const [y,m,d] = iso.split("-").map(Number); return `${MONTHS[m-1]} ${d}, ${y}`; };
-const voteDate = v => v.date ? fmtDate(v.date) : (v.dateNote || "Date not yet confirmed");
+const voteDate = v => v.date ? fmtDate(v.date) : (v.dateNote || "Date not confirmed yet");
 const initials = n => n.replace(/[^A-Za-zÀ-ÿ .-]/g,"").split(/\s+/).filter(w => w && !/^(Jr\.?|Sr\.?|III|II|Dr\.)$/.test(w)).map(w => w[0]).slice(0,2).join("").toUpperCase();
 const lastName = p => p.name.replace(/,? (Jr\.?|Sr\.?|III|II)$/,"").split(" ").pop();
+const firstName = p => p.name.replace(/^Dr\.\s+/,"").split(" ")[0];
 const store = { get(k){ try { return localStorage.getItem(k); } catch { return null; } }, set(k,v){ try { localStorage.setItem(k,v); } catch {} } };
 const chev = `<svg class="chev" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`;
 const ORDER = DATA.order;
 const COUNTIES = DATA.counties;
+const HTV = DATA.howToVote || {statewide: [], counties: {}, jobs: {}};
 
-/* Current county context */
 let CK = null, C = null, P = {}, V = {}, R = {}, T = {}, S = {};
 function useCounty(k) {
   if (!COUNTIES[k]) return false;
@@ -381,100 +428,114 @@ function useCounty(k) {
 const cname = k => COUNTIES[k].county.name.replace(" County", "");
 const href = (path = "") => `#/${CK}${path ? "/" + path : ""}`;
 
+/* How sure we are, in plain words */
 const LAB = {
-  verified:{t:"Verified", d:"Matches an official record, and a second independent source agrees.", i:'<path d="M2.5 6.5l2.5 2.5L9.5 3.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'},
-  single:{t:"Official record", d:"From one official government record. Nothing else to check it against yet.", i:'<circle cx="6" cy="6" r="3" fill="currentColor"/>'},
-  unverified:{t:"Unverified", d:"From news, data groups or the candidate. Not yet matched to an official record.", i:'<path d="M6 3v4M6 9h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>'},
-  conflict:{t:"Conflict", d:"Sources disagree. Every version is shown, the official one first.", i:'<path d="M2 4h6l-2-2M10 8H4l2 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>'},
-  unknown:{t:"Unknown", d:"We looked and couldn't find it yet.", i:'<path d="M4.5 4.5a1.6 1.6 0 1 1 2.2 1.5c-.5.2-.7.6-.7 1M6 9.2h.01" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>'}
+  verified:{t:"Verified", d:"A government record says this, and a second source we trust agrees.", i:'<path d="M2.5 6.5l2.5 2.5L9.5 3.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'},
+  single:{t:"Government record", d:"This comes from a government record, such as meeting minutes or election filings.", i:'<circle cx="6" cy="6" r="3" fill="currentColor"/>'},
+  unverified:{t:"Not yet confirmed", d:"This comes from news reports, research groups or the candidate. We haven't matched it to a government record yet.", i:'<path d="M6 3v4M6 9h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>'},
+  conflict:{t:"Sources disagree", d:"Our sources say different things. We show each version so you can see the difference.", i:'<path d="M2 4h6l-2-2M10 8H4l2 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>'},
+  unknown:{t:"Not found yet", d:"We looked and couldn't find this in any record yet.", i:'<path d="M4.5 4.5a1.6 1.6 0 1 1 2.2 1.5c-.5.2-.7.6-.7 1M6 9.2h.01" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>'}
 };
-const TIERS = {1:["Official record","Approved minutes, filed reports, certified results, official government pages"],2:["Official, secondary","Meeting video, agenda packets, government press releases"],3:["Data group","Ballotpedia, The Ballot Brief and similar nonpartisan databases"],4:["Journalism","Local and state news reporting"],5:["Self-reported","Candidate websites, posts and speeches. Always a claim, never a fact"]};
+const TIERS = {1:["Government record","Meeting minutes, election filings, certified results and official county pages"],2:["Other government source","Meeting video, agenda packets and government press releases"],3:["Research group","Nonpartisan databases such as Ballotpedia and The Ballot Brief"],4:["News report","Local and state news coverage"],5:["From the candidate","Campaign websites and posts. We treat these as the candidate's own words, not as facts"]};
 const chip = (label, note) => { const l = LAB[label] || LAB.unknown; return `<span class="lab ${label}" title="${esc(note || l.d)}"><svg viewBox="0 0 12 12" aria-hidden="true">${l.i}</svg>${l.t}</span>`; };
-const srcLinks = ids => { const seen = new Set(); const u = [...new Set(ids || [])].filter(id => S[id]).filter(id => { const k = S[id].publisher + S[id].tier; if (seen.has(k)) return false; seen.add(k); return true; }); if (!u.length) return ""; return u.map(id => { const s = S[id]; return `<a class="src" href="${href("s/" + id)}" title="Tier ${s.tier}: ${esc(TIERS[s.tier]?.[0] || "")}. ${esc(s.title)}"><span class="t t${s.tier}">${s.tier}</span><span>${esc(s.publisher)}</span></a>`; }).join(""); };
+const srcLinks = ids => { const seen = new Set(); const u = [...new Set(ids || [])].filter(id => S[id]).filter(id => { const k = S[id].publisher + S[id].tier; if (seen.has(k)) return false; seen.add(k); return true; }); if (!u.length) return ""; return u.map(id => { const s = S[id]; return `<a class="src" href="${href("s/" + id)}" title="${esc(TIERS[s.tier]?.[0] || "")}: ${esc(s.title)}"><span class="t t${s.tier}">${s.tier}</span><span>${esc(s.publisher)}</span></a>`; }).join(""); };
 const valueText = v => Array.isArray(v) ? `<ul class="plain">${v.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : esc(typeof v === "object" && v ? JSON.stringify(v) : v);
 const shownText = v => Array.isArray(v) ? v.join("; ") : (typeof v === "object" && v ? JSON.stringify(v) : String(v ?? ""));
-const fixBtn = (factId, shown) => `<button class="fixbtn" type="button" data-fix="${esc(factId)}" data-shown="${esc(String(shown).slice(0,400))}"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13l1-3.5L11 2.5l2.5 2.5L6.5 12z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>Suggest a fix</button>`;
+const PENCIL = `<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13l1-3.5L11 2.5l2.5 2.5L6.5 12z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>`;
+const fixBtn = (factId, shown) => `<button class="fixbtn icon" type="button" data-fix="${esc(factId)}" data-shown="${esc(String(shown).slice(0,400))}" title="Report a mistake in this fact">${PENCIL}<span>Report a mistake in this fact</span></button>`;
+const fixLink = (factId, shown, text = "Something wrong on this page? Tell us.") => `<button class="fixbtn" type="button" data-fix="${esc(factId)}" data-shown="${esc(String(shown).slice(0,400))}">${PENCIL}${esc(text)}</button>`;
 
 function factBlock(fact, factId, opts = {}) {
-  if (!fact || fact.label === "unknown") {
-    return `<div class="row">${chip("unknown")}<span class="muted small">${esc(opts.unknownText || "We looked and couldn't find this yet.")}</span></div><div class="cite">${fixBtn(factId, "Unknown")}</div>`;
-  }
+  if (!fact || fact.label === "unknown") return `<div class="row">${chip("unknown")}<span class="muted small">${esc(opts.unknownText || "We haven't found this yet.")}</span>${fixBtn(factId, "Not found")}</div>`;
   if (fact.label === "conflict") {
-    const vs = fact.versions.map(v => `<div class="v"><b>${valueText(v.value)}</b>${srcLinks(v.sources)}${v.official ? '<span class="pill">Official record</span>' : ""}</div>`).join("");
-    return `<div class="row">${chip("conflict")}<span class="small muted">${fact.value ? "The official record is shown first." : "No official record yet, so we don't pick one."}</span></div><div class="versions">${vs}</div><div class="cite">${fixBtn(factId, fact.versions.map(v => shownText(v.value)).join(" | "))}</div>`;
+    const vs = fact.versions.map(v => `<div class="v"><b>${valueText(v.value)}</b>${srcLinks(v.sources)}${v.official ? '<span class="pill">Government record</span>' : ""}</div>`).join("");
+    return `<div class="row">${chip("conflict")}<span class="small muted">${fact.value ? "The government record is listed first." : "There's no government record yet, so we show both."}</span></div><div class="versions">${vs}</div><div class="cite">${fixBtn(factId, fact.versions.map(v => shownText(v.value)).join(" | "))}</div>`;
   }
-  const other = (fact.otherReports || []).length ? `<details class="tiny muted"><summary style="cursor:pointer">Also reported, worded differently</summary><div class="stack-sm" style="margin-top:6px">${fact.otherReports.map(o => `<div>${valueText(o.value)} <span class="cite" style="display:inline-flex">${srcLinks(o.sources)}</span></div>`).join("")}</div></details>` : "";
+  const other = (fact.otherReports || []).length ? `<details class="tiny muted"><summary style="cursor:pointer">Other reports say it a little differently</summary><div class="stack-sm" style="margin-top:6px">${fact.otherReports.map(o => `<div>${valueText(o.value)} <span class="cite" style="display:inline-flex">${srcLinks(o.sources)}</span></div>`).join("")}</div></details>` : "";
   return `<div class="val">${valueText(fact.value)}</div><div class="cite">${chip(fact.label, fact.note)}${srcLinks(fact.sources)}${fixBtn(factId, shownText(fact.value))}</div>${other}`;
 }
 
 const photoOf = p => { const f = p.facts && p.facts.photo; return f && f.label !== "unknown" && typeof f.value === "string" && /^https:\/\//.test(f.value) ? f.value : null; };
 const face = (p, size = "") => { const u = photoOf(p); const ini = esc(initials(p.name));
-  return u ? `<img class="face ${size}" src="${esc(u)}" alt="" loading="lazy" referrerpolicy="no-referrer" data-ini="${ini}">` : `<span class="face ${size}" aria-hidden="true">${ini}</span>`; };
+  return u ? `<img class="face ${size}" src="${esc(u)}" alt="Photo of ${esc(p.name)}" loading="lazy" referrerpolicy="no-referrer" data-ini="${ini}">` : `<span class="face ${size}" aria-hidden="true">${ini}</span>`; };
 document.addEventListener("error", e => { const t = e.target; if (t.tagName === "IMG" && t.classList.contains("face")) { const s = document.createElement("span"); s.className = t.className; s.textContent = t.dataset.ini || ""; s.setAttribute("aria-hidden", "true"); t.replaceWith(s); } }, true);
-const statusText = p => ({incumbent:"Incumbent", open:"Candidate", former:"Former commissioner"})[p.status] || "Challenger";
-const partyOf = p => p.nonpartisan ? "Nonpartisan seat" : (p.facts.party && p.facts.party.value ? p.facts.party.value : "");
-
-const FIELD_NAMES = {party:"Party", inOfficeSince:"In office since", term:"Current term", leadership:"Role", job:"Work", roles:"Community roles", pastOffice:"Past office", lastElection:"Last election", record:"Voting record", attendance:"Attendance", conflicts:"Conflicts of interest", filings:"Financial disclosures"};
-const MONEY_FIELDS = {raised:"Money raised", moneyWhere:"Where it comes from", moneyOwn:"Their own money", topOrgDonors:"Biggest business and group donors", officialGifts:"Money between officials"};
-function rollOf(v) { const r = v.roll; const base = r.value || (r.versions && r.versions[0] && r.versions[0].value) || null; if (!base) return null; return {...base, ...(v.rollExtra || {})}; }
-const daysLeft = () => { const e = new Date(DATA.region.electionDate + "T07:00:00-04:00"); return Math.ceil((e - new Date()) / 864e5); };
+const statusText = p => ({incumbent:"In office now", open:"Running", former:"Former commissioner"})[p.status] || "Running";
+const partyOf = p => p.nonpartisan ? "" : (p.facts.party && p.facts.party.value ? p.facts.party.value : "");
+const isSchool = r => /^sb/.test(r.id) || /school/i.test(r.title);
 const isCountywide = r => /at-large|countywide/i.test(r.seatType || "") || r.countywide;
 const raceDistrict = r => r.district || ((r.id.match(/-d(\d+)$/) || [])[1]);
-const bodyOf = p => /school/i.test(p.office) ? "School Board" : "County Commission";
+const whoVotes = r => r.who || (isCountywide(r) ? `Every ${cname(CK)} County voter` : `Only voters who live in District ${raceDistrict(r)}`);
+const jobLine = r => { const j = HTV.jobs && HTV.jobs[isSchool(r) ? "school-board" : "county-commission"]; return j ? j.oneLine : (isSchool(r) ? "Runs the county's public schools, including the budget." : "Runs county government, including the budget and property tax rate."); };
+const jobSrc = r => { const j = HTV.jobs && HTV.jobs[isSchool(r) ? "school-board" : "county-commission"]; return j && j.url ? ` <a class="tiny" href="${esc(j.url)}" target="_blank" rel="noopener">Source: ${esc(j.publisher || "")}</a>` : ""; };
 
-/* ---------- region home ---------- */
+const FIELD_NAMES = {party:"Party", inOfficeSince:"In office since", term:"Term", leadership:"Role on the board", job:"Work", roles:"Community roles", pastOffice:"Past offices", lastElection:"Last election", record:"Voting record", attendance:"Attendance", conflicts:"Conflicts of interest", filings:"Financial disclosure forms"};
+const MONEY_FIELDS = {raised:"Money raised", moneyWhere:"Where the money comes from", moneyOwn:"Their own money", topOrgDonors:"Largest business and group donors", officialGifts:"Money between officials"};
+function rollOf(v) { const r = v.roll; const base = r.value || (r.versions && r.versions[0] && r.versions[0].value) || null; if (!base) return null; return {...base, ...(v.rollExtra || {})}; }
+const daysLeft = () => { const e = new Date(DATA.region.electionDate + "T07:00:00-05:00"); return Math.ceil((e - new Date()) / 864e5); };
+
+/* Your own list of choices: kept only on this device */
+const picks = () => { try { return JSON.parse(store.get("gb-picks") || "{}"); } catch { return {}; } };
+const setPick = (k, race, pid) => { const all = picks(); all[k] = all[k] || {}; if (all[k][race] === pid) delete all[k][race]; else all[k][race] = pid; store.set("gb-picks", JSON.stringify(all)); };
+
 const views = {};
 const COUNTY_IMG = {pinellas:"04-public-waterfront", hillsborough:"03-downtown-small-businesses", pasco:"07-neighborhoods-and-growth", hernando:"11-community-infrastructure"};
-const band = (kicker, title, lede, img, extra = "") => `<section class="band pic"><div class="bt"><span class="kicker">${kicker}</span><h1 class="h1">${title}</h1>${lede ? `<p class="lede">${lede}</p>` : ""}${extra}</div><img src="/assets/img/${img}.webp" alt="" loading="eager"></section>`;
+const band = (kicker, title, lede, img, extra = "") => `<section class="band pic"><div class="bt">${kicker ? `<span class="kicker">${kicker}</span>` : ""}<h1 class="h1">${title}</h1>${lede ? `<p class="lede">${lede}</p>` : ""}${extra}</div><img src="/assets/img/${img}.webp" alt="" loading="eager"></section>`;
 const showAll = new Set();
 
+/* ---------- home ---------- */
 function mapSvg(active) {
   const m = DATA.map;
-  return `<svg class="map" viewBox="0 0 ${m.w} ${m.h}" role="img" aria-label="Map of Tampa Bay counties. Choose one.">
-    ${Object.entries(m.c).map(([k, c]) => COUNTIES[k] ? `<a href="#/${k}" class="${k === active ? "on" : ""}" aria-label="${esc(COUNTIES[k].county.name)}"><path d="${c.d}"/><text x="${c.x}" y="${c.y}" text-anchor="middle">${esc(cname(k))}</text></a>` : `<g class="soon"><path d="${c.d}"/><text x="${c.x}" y="${c.y}" text-anchor="middle">${esc(k[0].toUpperCase() + k.slice(1))} soon</text></g>`).join("")}
+  return `<svg class="map" viewBox="0 0 ${m.w} ${m.h}" role="img" aria-label="Map of the four counties we cover">
+    ${Object.entries(m.c).map(([k, c]) => COUNTIES[k] ? `<a href="#/${k}" class="${k === active ? "on" : ""}" aria-label="${esc(COUNTIES[k].county.name)}"><path d="${c.d}"/><text x="${c.x}" y="${c.y}" text-anchor="middle">${esc(cname(k))}</text></a>` : "").join("")}
   </svg>`;
 }
+const edayLine = () => { const d = daysLeft(); const hrs = (HTV.statewide || []).find(x => x.id === "poll-hours");
+  const when = d > 1 ? `${d} days from now` : d === 1 ? "tomorrow" : d === 0 ? "today" : "";
+  return d >= 0 ? `Election Day is Tuesday, Nov 3${when ? ", " + when : ""}.${hrs ? " " + esc(hrs.text) : ""}` : ""; };
 
 views.home = () => {
-  const d = daysLeft();
-  const tot = ORDER.reduce((a,k) => a + COUNTIES[k].races.length, 0);
-  const lc = {verified:0,single:0,unverified:0,conflict:0,unknown:0};
-  ORDER.forEach(k => Object.entries(COUNTIES[k].labelCounts).forEach(([l,n]) => lc[l] += n));
-  const srcCount = ORDER.reduce((a,k) => a + Object.keys(COUNTIES[k].sources).length, 0);
+  const close = (DATA.closeRace || null);
   return `<div class="stack-lg view">
     <section class="hero">
-      <div class="stack" style="gap:16px">
-        <span class="tag">CLEARER ELECTIONS. STRONGER DEMOCRACY.</span>
-        <h1>See every vote go in.</h1>
-        <p>Who's on your local ballot in Tampa Bay, how they've voted, who funds them, and how sure we are of every fact. Each one links to its source.</p>
-        ${d > 0 ? `<span class="count"><b class="num">${d}</b> day${d === 1 ? "" : "s"} until Election Day, ${fmtDate(DATA.region.electionDate)}</span>` : d === 0 ? `<span class="count"><b>Today</b> is Election Day</span>` : ""}
+      <div class="stack" style="gap:14px">
+        <h1>What's on your ballot, in plain English</h1>
+        <p>The races for county commission and school board in Pinellas, Hillsborough, Pasco and Hernando. Who's running, what the job does, how the people in office have voted, and who is paying for each campaign. All of it comes from public records you can check yourself.</p>
+        <form class="stack-sm" id="zipForm" autocomplete="off">
+          <label for="zipIn" style="font-weight:700;color:#fff">Start with your ZIP code</label>
+          <div class="zip"><input id="zipIn" inputmode="numeric" pattern="[0-9]{5}" maxlength="5" placeholder="33701" aria-describedby="zipMsg"><button class="btn" type="submit">Show my ballot</button></div>
+          <p class="zipmsg" id="zipMsg" role="status"></p>
+        </form>
+        <span class="count">${edayLine()}</span>
       </div>
       <div class="mapwrap">
+        <p style="color:#fff;font-weight:700;margin-bottom:8px">Or pick your county</p>
+        <div class="bigpick">${ORDER.map(k => `<a href="#/${k}"><b>${esc(cname(k))}</b><span>${COUNTIES[k].races.filter(r => r.onNovBallot !== false).length} races on your ballot</span></a>`).join("")}</div>
         ${mapSvg(store.get("gb-county"))}
-        <div class="countylist"><span class="pick">Start here: pick your county</span>${ORDER.map(k => `<a href="#/${k}"><b>${esc(cname(k))}</b><span>${COUNTIES[k].races.length} local race${COUNTIES[k].races.length === 1 ? "" : "s"}</span></a>`).join("")}</div>
+      </div>
+    </section>
+
+    <section class="stack" aria-labelledby="whyH">
+      <h2 class="h2" id="whyH">Why these races are worth five minutes</h2>
+      <div class="why">
+        <div class="panel stack-sm"><p class="big">Your county commission sets your property tax rate.</p><p class="small muted">${esc((HTV.jobs["county-commission"] || {}).oneLine || "It also decides what gets built near you and how roads, parks and public safety are paid for.")}</p></div>
+        <div class="panel stack-sm"><p class="big">Your school board runs your local public schools.</p><p class="small muted">${esc((HTV.jobs["school-board"] || {}).oneLine || "That includes the school budget, hiring the superintendent and school policies.")}</p></div>
+        ${close ? `<div class="panel stack-sm"><p class="big">${esc(close.headline)}</p><p class="small muted">${esc(close.detail)} <a href="${esc(close.url)}" target="_blank" rel="noopener">See the official results</a></p></div>` : ""}
       </div>
     </section>
 
     <section class="stack" aria-labelledby="how3">
-      <h2 class="h2" id="how3">How to use Glass Ballot</h2>
+      <h2 class="h2" id="how3">How to use this site</h2>
       <ol class="steps">
-        <li><b>Pick your county</b><span>Tap it on the map or in the list above.</span></li>
-        <li><b>See your races</b><span>Choose your commission district, or leave it on "I'm not sure" to see every race.</span></li>
-        <li><b>Compare the candidates</b><span>Open a race to see each candidate's record, money and sources side by side.</span></li>
+        <li><b>Find your ballot</b><span>Type your ZIP code above, or tap your county.</span></li>
+        <li><b>Look at each race</b><span>See who's running, side by side, with what each job does.</span></li>
+        <li><b>Make your list</b><span>Mark your choices as you go. Your list stays on your phone or computer, and you can print it.</span></li>
       </ol>
     </section>
 
-    <section class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr))">
-      ${[["Every vote, in plain English","Commission votes rewritten so anyone can follow them, with who voted yes and no from the official minutes."],
-         ["Follow the money","Who funds each candidate, straight from the Supervisor of Elections' campaign reports, and when donors had business before the board."],
-         ["Every fact has a receipt","Each fact links to its source and wears a label saying how sure we are. If sources disagree, you see every version."]]
-        .map(([t,d]) => `<div class="panel stack-sm"><h2 class="h3">${t}</h2><p class="small muted">${d}</p></div>`).join("")}
-    </section>
-
-    <section class="stack">
-      <div class="between"><h2 class="h2">How sure we are, across Tampa Bay</h2><a class="small" href="#/how">What the labels mean</a></div>
-      <div class="stats">${Object.keys(LAB).map(k => `<div class="stat"><b>${lc[k].toLocaleString()}</b>${chip(k)}</div>`).join("")}</div>
-      <p class="small muted">${tot} local races. ${srcCount} sources, each one listed with its tier and a link. <a href="#/sources">Browse every source</a> or <a href="/data/glassballot.json">download all the data</a>.</p>
+    <section class="panel stack">
+      <h2 class="h3">Our promise</h2>
+      <p>We don't tell anyone how to vote, and we don't take money from candidates, parties or political groups. Every fact links to where it came from. If something is wrong, there's a button to tell us, and every change we make is listed in public.</p>
+      <p class="small"><a href="#/standards">Read our standards</a> · <a href="#/about">Who we are</a> · <a href="#/corrections">Changes and corrections</a></p>
     </section>
   </div>`;
 };
@@ -494,63 +555,145 @@ views.ballot = () => {
   const live = C.races.filter(r => r.onNovBallot !== false);
   const decided = C.races.filter(r => r.onNovBallot === false);
   const races = live.filter(r => !pick || isCountywide(r) || !/^bcc/.test(r.id) || raceDistrict(r) === mine);
-  const heads = C.votes.slice(0, 4);
-  const d = daysLeft();
+  const myp = picks()[CK] || {};
+  const nPicked = live.filter(r => myp[r.id]).length;
+  const heads = C.votes.filter(v => v.fileNumber || v.inShort).slice(0, 4);
+  const lookup = (HTV.counties[CK] || {}).pollingPlaceUrl || C.county.lookupUrl;
   return `<div class="stack-lg view">
-    ${band(`${esc(C.county.name)}, Florida<span class="sep"></span>${d > 0 ? `${d} days to Election Day` : fmtDate(C.county.electionDate)}`, `Your ${esc(cname(CK))} ballot`, `The local races on your ballot ${fmtDate(C.county.electionDate)}, with each candidate's record, money and sources side by side.`, COUNTY_IMG[CK] || "09-town-square")}
+    ${band(`${esc(C.county.name)}, Florida`, `Your ${esc(cname(CK))} County ballot`, `${live.length} local race${live.length === 1 ? "" : "s"} on the Nov 3 ballot. ${edayLine()}`, COUNTY_IMG[CK] || "09-town-square",
+      `<div class="row noprint"><a class="btn primary" href="${href("vote")}">How to vote in ${esc(cname(CK))}</a>${nPicked ? `<a class="btn" href="${href("mylist")}">My list (${nPicked} of ${live.length})</a>` : ""}</div>`)}
 
-    ${dists.length ? `<section class="stack" aria-labelledby="dq">
-      <div class="between"><h2 class="h3" id="dq"><span class="stepn">1</span>Which commission district do you live in?</h2>${C.county.lookupUrl ? `<a class="small" href="${esc(C.county.lookupUrl)}" target="_blank" rel="noopener">Look it up</a>` : ""}</div>
+    ${dists.length ? `<section class="panel stack" aria-labelledby="dq">
+      <h2 class="h3" id="dq"><span class="stepn">1</span>Do you know your county commission district?</h2>
+      <p class="small">Some commission seats are only on the ballot for people who live in that district. If you're not sure, leave it on "I'm not sure" and we'll show every race.${lookup ? ` You can <a href="${esc(lookup)}" target="_blank" rel="noopener">look up your district and sample ballot</a> on the Supervisor of Elections site.` : ""}</p>
       <div class="chips" role="group" aria-label="Your district">
         <button class="chip" type="button" data-district="unsure" aria-pressed="${!pick}">I'm not sure</button>
         ${dists.map(x => `<button class="chip" type="button" data-district="${x}" aria-pressed="${mine === x}">District ${x}</button>`).join("")}
       </div>
-      ${C.county.seats ? `<p class="small muted">${esc(C.county.seats)}</p>` : ""}
     </section>` : ""}
 
     <section class="stack" aria-labelledby="races">
-      <div class="between"><h2 class="h2" id="races"><span class="stepn">${dists.length ? 2 : 1}</span>Your races on Nov 3</h2><span class="small muted">${races.length} local race${races.length === 1 ? "" : "s"}</span></div>
-      ${pick && !live.some(r => /^bcc/.test(r.id) && !isCountywide(r) && raceDistrict(r) === mine) ? `<p class="notice">District ${esc(mine)}'s commission seat isn't on the ballot this year. You still vote in the countywide races below.</p>` : ""}
-      ${races.length ? `<div class="grid">${races.map(raceCard).join("")}</div>` : `<p class="notice">No local races loaded for this county yet.</p>`}
-      <p class="small muted">County commission and school board races. State, federal and city races are next.</p>
+      <h2 class="h2" id="races"><span class="stepn">${dists.length ? 2 : 1}</span>The races on your ballot</h2>
+      ${pick && !live.some(r => /^bcc/.test(r.id) && !isCountywide(r) && raceDistrict(r) === mine) ? `<p class="notice">There's no District ${esc(mine)} commission race this year. You still vote in the countywide races below.</p>` : ""}
+      ${races.length ? `<div class="grid">${races.map(raceCard).join("")}</div>` : `<p class="notice">We don't have races loaded for this county yet.</p>`}
+      <p class="small muted">We cover county commission and school board races. Your full ballot also has federal, state and city races and ballot questions. Your <a href="${esc(lookup || "#")}" target="_blank" rel="noopener">sample ballot</a> shows all of them.</p>
     </section>
 
     ${decided.length ? `<section class="stack" aria-labelledby="dec">
-      <div class="between"><h2 class="h2" id="dec">Already decided in August</h2><span class="small muted">Not on your Nov 3 ballot</span></div>
+      <h2 class="h2" id="dec">Already decided</h2>
+      <p class="small muted">These seats were settled before November, so they won't be on your ballot.</p>
       <div class="list">${decided.map(r => `<a href="${href("r/" + r.id)}"><span class="body"><span class="title">${esc(r.title)}</span>${r.note ? `<span class="small muted">${esc(r.note)}</span>` : ""}</span>${chev}</a>`).join("")}</div>
     </section>` : ""}
 
     ${heads.length ? `<section class="stack" aria-labelledby="hl">
-      <div class="between"><h2 class="h2" id="hl">What the commission did lately</h2><a href="${href("votes")}" class="small">All votes</a></div>
+      <div class="between"><h2 class="h2" id="hl">Recent county commission decisions</h2><a href="${href("votes")}" class="small">See all</a></div>
       <div class="list">${heads.map(voteRow).join("")}</div>
     </section>` : ""}
-
-    <section class="stack">
-      <div class="between"><h2 class="h2">How sure we are</h2><a href="#/how" class="small">How this works</a></div>
-      <div class="stats">${Object.keys(LAB).map(k => `<div class="stat"><b>${(C.labelCounts[k] || 0).toLocaleString()}</b>${chip(k)}</div>`).join("")}</div>
-      <p class="small"><a href="${href("problems")}">See ${C.problems.length} place${C.problems.length === 1 ? "" : "s"} where sources disagree or records are missing</a> · <a href="${href("sources")}">All ${Object.keys(S).length} sources for ${esc(cname(CK))}</a></p>
-    </section>
   </div>`;
 };
 
 function raceCard(r) {
   const ppl = r.people.map(id => P[id]).filter(Boolean);
+  const myp = (picks()[CK] || {})[r.id];
   return `<a class="race" href="${href("r/" + r.id)}">
-    <div class="rh"><span class="kicker">${esc(r.seatType || "")}${r.who ? `<span class="sep"></span><span class="muted" style="font-weight:500">${esc(r.who)}</span>` : ""}</span><h3 class="h3" style="font-size:18px">${esc(r.title)}</h3></div>
-    <div class="rp">${ppl.map(p => `<div>${face(p)}<span class="stack-sm" style="gap:1px"><b style="font-family:var(--head);font-weight:700;color:var(--char)">${esc(p.name)}</b><span class="tiny muted">${statusText(p)}${partyOf(p) ? " · " + esc(partyOf(p)) : ""}</span></span></div>`).join("")}</div>
+    <div class="rh"><h3 class="h3" style="font-size:19px">${esc(r.title)}</h3><span class="small muted">Who votes: ${esc(whoVotes(r))}</span></div>
+    <p class="job" style="margin:12px 16px 0"><b>What the job does:</b> ${esc(jobLine(r))}</p>
+    <div class="rp">${ppl.map(p => `<div>${face(p)}<span class="stack-sm" style="gap:1px"><b style="font-family:var(--head);font-weight:700;color:var(--char)">${esc(p.name)}${myp === p.id ? " ✓" : ""}</b><span class="tiny muted">${statusText(p)}${partyOf(p) ? " · " + esc(partyOf(p)) : ""}</span></span></div>`).join("")}</div>
     ${r.note ? `<p class="small muted" style="padding:12px 16px 0">${esc(r.note)}</p>` : ""}
-    <span class="go">${ppl.length > 1 ? "Compare side by side" : "See the record"}</span>
+    <span class="go">${ppl.length > 1 ? "Compare the candidates" : "See the candidate"}${myp ? " · You marked a choice" : ""}</span>
   </a>`;
 }
 
+const itemRef = v => v.fileNumber ? `Item ${esc(v.fileNumber)}` : "";
 function voteRow(v) {
   return `<a href="${href("v/" + v.id)}"><span class="body">
-    <span class="tiny muted">${esc(voteDate(v))}${v.topic && T[v.topic] ? " · " + esc(T[v.topic].name) : ""}</span>
+    <span class="tiny muted">${esc(voteDate(v))}${itemRef(v) ? " · " + itemRef(v) : ""}</span>
     <span class="title">${esc(v.headline)}</span>
     <span class="row" style="gap:6px;margin-top:3px">${v.result.value ? `<span class="pill">${esc(v.result.value)}</span>` : ""}${chip(v.result.label, v.result.note)}</span>
   </span>${chev}</a>`;
 }
 
+/* ---------- race: candidates side by side ---------- */
+views.race = id => {
+  const r = R[id]; if (!r) return notFound();
+  const ppl = r.people.map(x => P[x]).filter(Boolean);
+  const myp = (picks()[CK] || {})[r.id];
+  const val = (p, f) => { const x = p.facts[f]; if (!x || x.label === "unknown") return null; return x.value != null ? shownText(x.value) : "Sources disagree. See full profile."; };
+  const row = (k, v, extra = "") => v ? `<div><dt>${k}</dt><dd>${esc(v)}${extra}</dd></div>` : "";
+  return `<div class="stack-lg view">
+    <a class="back noprint" href="${href()}">‹ Back to your ${esc(cname(CK))} ballot</a>
+    <section class="stack-sm">
+      <span class="kicker">${r.onNovBallot === false ? "Decided before November" : "On your ballot Nov 3"}</span>
+      <h1 class="h1">${esc(r.title)}</h1>
+      <p class="lede">Who votes: ${esc(whoVotes(r))}.</p>
+      <p class="job"><b>What the job does:</b> ${esc(jobLine(r))}${jobSrc(r)}</p>
+      ${r.note ? `<p class="notice">${esc(r.note)}</p>` : ""}
+    </section>
+    <section class="stack" aria-label="Candidates">
+      <p class="small muted">Listed in alphabetical order by last name. We never rank or recommend candidates.${isSchool(r) ? " School board races are nonpartisan, so party isn't on the ballot." : ""}</p>
+      <div class="cands">${ppl.slice().sort((a,b) => lastName(a).localeCompare(lastName(b))).map(p => {
+        const camp = (p.links || []).find(l => l.kind === "campaign");
+        const votes = p.tally ? `Voted on ${(p.tally.aye + p.tally.nay + p.tally.abstain).toLocaleString()} items as a commissioner` : (p.status !== "incumbent" ? "Hasn't served on this board" : null);
+        return `<article class="cand">
+          <div class="ch">${face(p, "md")}<div class="stack-sm" style="gap:2px"><h2 class="h3" style="font-size:19px">${esc(p.name)}</h2><span class="small muted">${statusText(p)}${partyOf(p) && !isSchool(r) ? " · " + esc(partyOf(p)) : ""}</span></div></div>
+          <dl>
+            ${row("Work", val(p, "job"))}
+            ${row("Experience in office", val(p, "pastOffice") || val(p, "inOfficeSince"))}
+            ${row("Money raised for this campaign", val(p, "raised"))}
+            ${row("Track record", votes)}
+            ${row("What they say they'll focus on", val(p, "promises"))}
+          </dl>
+          <div class="acts">
+            <a class="btn" href="${href("p/" + p.id)}">Full record</a>
+            ${camp ? `<a class="btn" href="${esc(camp.url)}" target="_blank" rel="noopener nofollow">Their website</a>` : ""}
+            ${r.onNovBallot !== false ? `<button class="mine" type="button" data-pick="${esc(r.id)}|${esc(p.id)}" aria-pressed="${myp === p.id}"><span class="box">${myp === p.id ? "✓" : ""}</span>${myp === p.id ? "On my list" : "Add to my list"}</button>` : ""}
+          </div>
+        </article>`; }).join("")}</div>
+      <p class="small muted">Every item above, with its source, is on each candidate's full record page. Your list is saved only on this device. We never see it.</p>
+    </section>
+    <div class="cite noprint">${srcLinks(r.sources)}</div>
+    ${fixLink(`${CK}/race/${r.id}`, r.title)}
+  </div>`;
+};
+
+/* ---------- my list ---------- */
+views.mylist = () => {
+  const myp = picks()[CK] || {};
+  const live = C.races.filter(r => r.onNovBallot !== false);
+  const info = HTV.counties[CK] || {};
+  const notes = (HTV.statewide || []).find(x => x.id === "notes-in-booth");
+  return `<div class="stack-lg view">
+    <a class="back noprint" href="${href()}">‹ Back to your ${esc(cname(CK))} ballot</a>
+    <section class="stack-sm"><h1 class="h1">My list for Nov 3</h1>
+      <p class="lede">Your choices for the ${esc(cname(CK))} County races we cover. This list is saved only on this device.</p>
+      ${notes ? `<p class="notice">${esc(notes.text)} <a href="${esc(notes.url)}" target="_blank" rel="noopener">Source</a></p>` : ""}</section>
+    <div class="list">${live.map(r => { const p = P[myp[r.id]]; return `<a href="${href("r/" + r.id)}"><span class="body"><span class="tiny muted">${esc(r.title)}</span><span class="title" style="font-size:18px">${p ? esc(p.name) : '<span class="muted">Not chosen yet</span>'}</span></span>${chev}</a>`; }).join("")}</div>
+    <div class="row noprint"><button class="btn primary" type="button" onclick="window.print()">Print my list</button><a class="btn" href="${href("vote")}">How to vote</a></div>
+    <p class="small muted">Your ballot also has federal, state and city races and ballot questions that aren't on this list. ${info.sampleBallotUrl ? `<a href="${esc(info.sampleBallotUrl)}" target="_blank" rel="noopener">See your full sample ballot</a>.` : ""}</p>
+  </div>`;
+};
+
+/* ---------- how to vote ---------- */
+views.vote = () => {
+  const info = HTV.counties[CK] || {};
+  const st = HTV.statewide || [];
+  const item = (t, u, pub) => `<div class="li"><span class="body"><span>${esc(t)}</span>${u ? `<a class="tiny" href="${esc(u)}" target="_blank" rel="noopener">Source: ${esc(pub || "Official source")}</a>` : ""}</span></div>`;
+  return `<div class="stack-lg view">
+    ${band(esc(C.county.name), `How to vote in ${esc(cname(CK))} County`, edayLine(), "01-local-courthouse")}
+    <section class="stack"><h2 class="h2">In ${esc(cname(CK))} County</h2>
+      <div class="list">
+        ${info.earlyVoting ? item("Early voting: " + info.earlyVoting, info.earlyVotingUrl, `${cname(CK)} County Supervisor of Elections`) : ""}
+        ${info.mailBallotDropOff ? item("Mail ballots: " + info.mailBallotDropOff, (info.sources || [])[0], `${cname(CK)} County Supervisor of Elections`) : ""}
+        ${info.pollingPlaceUrl ? `<a href="${esc(info.pollingPlaceUrl)}" target="_blank" rel="noopener"><span class="body"><span class="title">Find your polling place and sample ballot</span><span class="tiny muted">On the ${esc(cname(CK))} County Supervisor of Elections website</span></span>${chev}</a>` : ""}
+        ${info.phone ? `<a href="tel:${esc(info.phone.replace(/[^0-9]/g, ""))}"><span class="body"><span class="title">Questions? Call the Supervisor of Elections</span><span class="tiny muted">${esc(info.phone)}</span></span>${chev}</a>` : ""}
+      </div>
+    </section>
+    ${st.length ? `<section class="stack"><h2 class="h2">Rules for every Florida voter</h2><div class="list">${st.map(x => item(x.text, x.url, x.publisher)).join("")}</div></section>` : ""}
+    <p class="small muted">Election rules come from the Florida Division of Elections and your county Supervisor of Elections. If anything here differs from what they tell you, go with them, and please <button class="fixbtn" type="button" data-fix="${CK}/how-to-vote" data-shown="How to vote page">let us know</button>.</p>
+  </div>`;
+};
+
+/* ---------- officials ---------- */
 function agreement(bcc) {
   const split = C.votes.filter(v => v.split);
   if (split.length < 5) return "";
@@ -558,196 +701,183 @@ function agreement(bcc) {
   const pct = (a, b) => { let same = 0, both = 0; split.forEach(v => { const x = side(v,a), y = side(v,b); if (x && y) { both++; if (x === y) same++; } }); return both ? Math.round(100*same/both) : null; };
   const head = bcc.map(p => `<th scope="col">${esc(lastName(p))}</th>`).join("");
   const rows = bcc.map(a => `<tr><th scope="row">${esc(a.name)}</th>${bcc.map(b => { if (a.id === b.id) return `<td class="muted">·</td>`; const n = pct(a.id,b.id); return `<td class="num" style="font-weight:${n >= 75 ? 700 : 400};color:${n >= 75 ? "var(--civic)" : "inherit"}">${n == null ? "–" : n + "%"}</td>`; }).join("")}</tr>`).join("");
-  return `<section class="stack"><div class="between"><h2 class="h2">Who votes together</h2>${chip("single", "Counted from the county's official roll calls.")}</div>
-    <p class="small muted">On the ${split.length} split votes loaded so far, how often each pair voted the same way. Unanimous votes are left out because everyone agrees on those.</p>
-    <div class="tablewrap"><table style="min-width:640px"><thead><tr><th scope="col"><span class="sr">Commissioner</span></th>${head}</tr></thead><tbody>${rows}</tbody></table></div></section>`;
+  return `<details class="more panel"><summary>Who tends to vote together?</summary>
+    <p class="small muted" style="margin:8px 0">On the ${split.length} votes where commissioners disagreed, how often each pair voted the same way. Votes where everyone agreed are left out.</p>
+    <div class="tablewrap"><table style="min-width:640px"><thead><tr><th scope="col"><span class="sr">Commissioner</span></th>${head}</tr></thead><tbody>${rows}</tbody></table></div></details>`;
 }
 
 views.officials = () => {
   const bcc = C.people.filter(p => p.office === "County Commissioner").sort((a,b) => String(a.district).localeCompare(String(b.district), undefined, {numeric:true}));
-  const others = C.people.filter(p => p.office !== "County Commissioner");
+  const others = C.people.filter(p => p.office !== "County Commissioner" && p.status !== "former");
   const row = p => `<a href="${href("p/" + p.id)}">${face(p)}<span class="body">
-      <span class="tiny muted">${p.district ? `District ${esc(p.district)}` : ""}${p.seatType ? ` · ${esc(p.seatType)}` : ""}</span>
-      <span class="title" style="font-family:var(--head);font-size:16.5px">${esc(p.name)}</span>
-      <span class="small muted">${esc(p.office)}${partyOf(p) ? " · " + esc(partyOf(p)) : ""}</span>
-      ${p.race ? `<span class="pill blue" style="align-self:flex-start;margin-top:4px">On the ${MONTHS[10]} 3 ballot</span>` : ""}
+      <span class="title" style="font-family:var(--head);font-size:17px">${esc(p.name)}</span>
+      <span class="small muted">${p.district ? `District ${esc(p.district)}` : ""}${partyOf(p) ? " · " + esc(partyOf(p)) : ""}</span>
+      ${p.race ? `<span class="pill blue" style="align-self:flex-start;margin-top:4px">On your Nov 3 ballot</span>` : ""}
     </span>${chev}</a>`;
   return `<div class="stack-lg view">
-    ${band(esc(C.county.name), esc(C.county.body || "Board of County Commissioners"), `${C.people.filter(p => p.office === "County Commissioner").length} commissioners set the county budget and tax rate, and decide zoning, roads, the jail and public health.`, "10-local-government-boardroom")}
+    ${band(esc(C.county.name), "Your county commissioners", `These ${bcc.length} people run ${esc(cname(CK))} County government right now. Tap a name to see how they've voted and who funds their campaigns.`, "10-local-government-boardroom")}
     <div class="list">${bcc.map(row).join("")}</div>
+    <p class="small"><a href="${href("votes")}">See what the commission has voted on</a></p>
     ${agreement(bcc)}
-    ${others.length ? `<section class="stack"><h2 class="h2">Candidates and other officials</h2><div class="list">${others.map(row).join("")}</div></section>` : ""}
+    ${others.length ? `<section class="stack"><h2 class="h2">Other candidates on your ballot</h2><div class="list">${others.map(row).join("")}</div></section>` : ""}
   </div>`;
 };
 
 const SCORE_PARTS = [
-  ["conflict_handling","Conflict handling","When they or a donor had a stake, did they disclose it and step aside?","Needs Form 1 and Form 6 disclosures and Form 8B voting conflict filings."],
-  ["money_timing","Money timing","Share of their campaign money that did NOT arrive within 90 days of a vote naming that donor.","Applies to sitting commissioners once their campaign reports are matched to votes."],
-  ["promise_match","Promise match","Did their votes match what they said they'd do?","Needs tracked promises matched to votes."],
-  ["openness","Openness","Do they file their financial disclosures on time and show up to meetings?","Needs disclosure filing dates and attendance from official minutes."]
+  ["conflict_handling","Conflicts of interest","When they or a donor had something to gain, did they say so and sit out the vote?","We need their state financial disclosure forms first."],
+  ["money_timing","Money and timing","How much of their campaign money did NOT come from a donor within 90 days of a vote about that donor.","Needs their campaign reports matched to their votes."],
+  ["promise_match","Promises kept","Did their votes match what they said they would do?","Needs their campaign promises matched to votes."],
+  ["openness","Showing up","Do they file disclosure forms on time and come to meetings?","Needs filing dates and meeting attendance."]
 ];
-
 function scoreCard(p) {
   const s = p.score; if (!s) return "";
   const parts = SCORE_PARTS.map(([k, name, q, need]) => { const val = s.parts[k];
-    return `<div class="part"><div><div style="font-weight:600">${name}</div><div class="small muted">${val == null ? need : q}</div></div><div class="num" style="font-family:var(--head);font-weight:800;color:var(--civic)">${val == null ? '<span class="tiny muted" style="font-family:var(--body);font-weight:500">Waiting on data</span>' : val}</div></div>`; }).join("");
-  const have = Object.values(s.parts).filter(v => v != null).length; const enough = s.scoredVotes >= 25;
-  const pct = enough ? Math.round(100 * have / 3) : Math.round(100 * s.scoredVotes / 25);
-  const msg = enough ? `${s.scoredVotes.toLocaleString()} votes on record. ${have} of the 3 parts needed for an overall score have data.` : `${s.scoredVotes} of the 25 votes needed for an overall score.`;
-  return `<section class="panel stack" aria-labelledby="pop">
-    <div class="between"><h2 class="h3" id="pop">Pocket or Public score</h2><a href="#/how" class="small">How it's scored</a></div>
-    <p class="small muted">When this person votes, who stands to gain: them or the public? Scored only from records, never on party.</p>
-    <div class="row" style="gap:16px;flex-wrap:nowrap"><span style="font-family:var(--head);font-size:44px;font-weight:800;line-height:1;color:var(--civic)" class="num">${s.overall ?? "–"}</span><span class="small muted">${esc(s.reason || "Out of 100. Higher means more votes in the public's interest over their own.")}</span></div>
-    <div class="meter" aria-hidden="true"><i style="width:${Math.min(100, pct)}%"></i></div><p class="small muted">${msg}</p>
-    <div>${parts}</div>
-  </section>`;
+    return `<div class="part"><div><div style="font-weight:600">${name}</div><div class="small muted">${val == null ? need : q}</div></div><div class="num" style="font-family:var(--head);font-weight:800;color:var(--civic)">${val == null ? '<span class="tiny muted" style="font-family:var(--body);font-weight:500">Not enough data</span>' : val}</div></div>`; }).join("");
+  return `<details class="more panel"><summary>Pocket or Public: who benefits from their votes? (in progress)</summary>
+    <p class="small muted" style="margin:8px 0">A score from 0 to 100 built only from public records, never from party. We only show an overall number once there's enough data. <a href="#/standards">How it works</a></p>
+    <div>${parts}</div></details>`;
+}
+
+function glance(p) {
+  const v = f => { const x = p.facts[f]; return x && x.label !== "unknown" ? (x.value != null ? shownText(x.value) : "Sources disagree") : null; };
+  const items = [["Party", partyOf(p) || (p.nonpartisan ? "Nonpartisan race" : null)], ["In office since", v("inOfficeSince")], ["Money raised", v("raised")],
+    ["Votes cast", p.tally ? (p.tally.aye + p.tally.nay + p.tally.abstain).toLocaleString() : null], ["Attendance", v("attendance")]].filter(([, x]) => x);
+  if (!items.length) return "";
+  return `<section aria-label="At a glance"><div class="glance">${items.map(([k, x]) => `<div><span class="k">${k}</span><span class="v">${esc(String(x).length > 90 ? String(x).slice(0, 88) + "…" : x)}</span></div>`).join("")}</div></section>`;
+}
+
+const LINK_KINDS = {official:"Official county page", campaign:"Campaign website", facebook:"Facebook", x:"X (Twitter)", instagram:"Instagram", linkedin:"LinkedIn", youtube:"YouTube", tiktok:"TikTok"};
+function linksBlock(p) {
+  const ls = (p.links || []).slice().sort((a,b) => Object.keys(LINK_KINDS).indexOf(a.kind) - Object.keys(LINK_KINDS).indexOf(b.kind));
+  if (!ls.length) return `<p class="small muted">We haven't confirmed a website or social media account for ${esc(firstName(p))} yet. ${fixBtn(`${CK}/person/${p.id}/links`, "No links on file")}</p>`;
+  return `<div class="row" style="gap:8px">${ls.map(l => `<a class="btn" style="min-height:44px;padding:0 14px;font-size:15px" href="${esc(l.url)}" target="_blank" rel="noopener nofollow">${esc(LINK_KINDS[l.kind] || "Link")}</a>`).join("")}${fixBtn(`${CK}/person/${p.id}/links`, ls.map(l => l.url).join(" "))}</div>
+    <p class="tiny muted">We only list accounts we could confirm through their campaign website, the county or election filings.</p>`;
 }
 
 views.person = id => {
   const p = P[id]; if (!p) return notFound();
   const race = p.race ? R[p.race] : null;
   const rivals = race ? race.people.filter(x => x !== p.id).map(x => P[x]).filter(Boolean) : [];
-  const shown = Object.keys(FIELD_NAMES).filter(f => p.facts[f] && (p.facts[f].label !== "unknown" || p.required.includes(f)));
+  const shown = Object.keys(FIELD_NAMES).filter(f => f !== "party" && p.facts[f] && (p.facts[f].label !== "unknown" || p.required.includes(f)));
   const moneyShown = Object.keys(MONEY_FIELDS).filter(f => p.facts[f] && (p.facts[f].label !== "unknown" || f === "raised"));
   const cnx = (p.connections || []).slice().sort((a,b) => (b.inWindow - a.inWindow) || (b.amount - a.amount));
   const promises = p.facts.promises;
   const myVotes = p.votes.map(x => ({...x, v: V[x.vote]})).filter(x => x.v);
   const allSources = [...new Set(Object.values(p.facts).flatMap(f => f.sources || (f.versions || []).flatMap(v => v.sources || [])))].filter(id => S[id]);
-  const pane = store.get("gb-pane") || "about";
   const fid = f => `${CK}/person/${p.id}/${f}`;
+  const fn = esc(firstName(p));
   return `<div class="stack-lg view">
-    <a class="back" href="${href("officials")}">‹ ${esc(cname(CK))} officials</a>
+    <a class="back" href="${race ? href("r/" + race.id) : href("officials")}">‹ ${race ? esc(race.title) : `${esc(cname(CK))} commissioners`}</a>
     <section class="who" style="gap:18px;align-items:flex-end">
       ${face(p, "lg")}
       <div class="stack-sm" style="min-width:0">
-        <span class="kicker">${esc(p.office)}${p.district ? `<span class="sep"></span>District ${esc(p.district)}` : ""}${p.seatType ? `<span class="sep"></span>${esc(p.seatType)}` : ""}</span>
         <h1 class="h1">${esc(p.name)}</h1>
-        <div class="row">${race ? `<a class="pill blue" href="${href("r/" + race.id)}" style="text-decoration:none">On the Nov 3 ballot</a>` : ""}<span class="pill">${statusText(p)}</span>${partyOf(p) ? `<span class="pill">${esc(partyOf(p))}</span>` : ""}</div>
+        <p class="lede" style="font-size:17px">${esc(p.office)}${p.district ? `, District ${esc(p.district)}` : ""}${partyOf(p) ? ` · ${esc(partyOf(p))}` : ""}</p>
+        <div class="row">${race ? `<a class="pill blue" href="${href("r/" + race.id)}" style="text-decoration:none">On your Nov 3 ballot</a>` : ""}<span class="pill">${statusText(p)}</span></div>
       </div>
     </section>
-    ${rivals.length ? `<section class="panel stack"><div class="between"><h2 class="h3">Running against</h2><a class="small" href="${href("r/" + race.id)}">Compare side by side</a></div><div class="row" style="gap:18px">${rivals.map(r => `<a class="who" href="${href("p/" + r.id)}" style="text-decoration:none">${face(r)}<span class="stack-sm" style="gap:0"><b>${esc(r.name)}</b><span class="small muted">${statusText(r)}</span></span></a>`).join("")}</div></section>` : ""}
     ${glance(p)}
-    ${linksBlock(p)}
-    <nav class="seg" aria-label="Sections">${[["about","About"],["votes","Votes"],["money","Money"],["sources","Sources"]].map(([k,t]) => `<a href="#" data-pane-btn="${k}" class="${pane === k ? "on" : ""}">${t}</a>`).join("")}</nav>
-    <div class="split person">
-      <div class="stack-lg">
-        <section class="panel ${pane === "about" ? "show" : ""}" data-pane="about"><h2 class="h3" style="margin-bottom:8px">The basics</h2><dl class="facts">${shown.map(f => `<div class="fact"><dt>${FIELD_NAMES[f]}</dt><dd>${factBlock(p.facts[f], fid(f))}</dd></div>`).join("")}</dl></section>
+    ${rivals.length ? `<section class="panel stack-sm"><div class="between"><h2 class="h3">Running against</h2><a class="small" href="${href("r/" + race.id)}">Compare them side by side</a></div><div class="row" style="gap:18px">${rivals.map(r => `<a class="who" href="${href("p/" + r.id)}" style="text-decoration:none">${face(r)}<b>${esc(r.name)}</b></a>`).join("")}</div></section>` : ""}
 
-        <section class="stack ${pane === "votes" ? "show" : ""}" data-pane="votes" aria-labelledby="hv">
-          <h2 class="h2" id="hv">How they voted</h2>
-          ${p.tally ? `<div class="stats">${[["Yes",p.tally.aye],["No",p.tally.nay],["Absent",p.tally.absent],["Abstained",p.tally.abstain]].map(([k,n]) => `<div class="stat"><b>${n.toLocaleString()}</b><span class="small muted">${k}</span></div>`).join("")}</div><p class="small muted">Every roll call in the county's official record since ${esc(C.legistarScope || "the current term began")}. Below: the votes where commissioners disagreed, and key unanimous votes.</p>` : ""}
-          ${myVotes.length ? `<div class="list">${myVotes.slice(0, showAll.has(p.id) ? 999 : 8).map(({how, v}) => `<a href="${href("v/" + v.id)}"><span class="vote ${how}">${how.toUpperCase()}</span><span class="body"><span class="title">${esc(v.headline)}</span><span class="tiny muted">${esc(voteDate(v))}${v.result.value ? " · " + esc(v.result.value) : ""}</span></span>${chev}</a>`).join("")}</div>`
-            : `<div class="panel small muted">${p.status !== "incumbent" ? "No voting record on this board. This person hasn't held this office." : "No individual votes loaded yet for this person."}</div>`}
-          ${myVotes.length > 8 && !showAll.has(p.id) ? `<button class="btn" type="button" data-more="${p.id}">Show all ${myVotes.length} votes</button>` : ""}
-        </section>
+    <section class="panel stack" aria-labelledby="ab"><h2 class="h2" id="ab">About ${fn}</h2>
+      <dl class="facts">${p.facts.party && !p.nonpartisan ? `<div class="fact"><dt>Party</dt><dd>${factBlock(p.facts.party, fid("party"))}</dd></div>` : ""}${shown.map(f => `<div class="fact"><dt>${FIELD_NAMES[f]}</dt><dd>${factBlock(p.facts[f], fid(f))}</dd></div>`).join("")}</dl>
+      <h3 class="h3" style="margin-top:6px">Website and social media</h3>${linksBlock(p)}
+    </section>
 
-        ${cnx.length ? `<section class="stack ${pane === "money" ? "show" : ""}" data-pane="money" aria-labelledby="cx">
-          <h2 class="h2" id="cx">Money and votes</h2>
-          <p class="small muted">Donors who had business in front of the commission. A connection is a public fact, not proof of wrongdoing. Gifts within 90 days of a vote that named the donor count in the Money timing score.</p>
-          ${cnx.map((c, i) => `<article class="panel stack-sm">
-            <div class="between"><span class="kicker">${esc(c.kind)}</span>${c.inWindow ? '<span class="pill blue">Within 90 days</span>' : ""}</div>
-            <p><b>${esc(c.donor)}</b> gave <span class="num">$${c.amount.toLocaleString()}</span>, most recently on ${fmtDate(c.date)}.</p>
-            ${c.votes.length ? `<ul class="plain small">${c.votes.map(v => `<li>${esc(v)}</li>`).join("")}</ul>` : ""}
-            ${c.note ? `<p class="small muted">${esc(c.note)}</p>` : ""}
-            <div class="cite">${chip(c.label)}${srcLinks(c.sources)}${fixBtn(`${CK}/person/${p.id}/connection-${i}`, `${c.donor} gave $${c.amount}`)}</div>
-          </article>`).join("")}
-        </section>` : ""}
+    <section class="stack" aria-labelledby="hv">
+      <h2 class="h2" id="hv">How ${fn} has voted</h2>
+      ${p.tally ? `<div class="stats">${[["Yes",p.tally.aye],["No",p.tally.nay],["Absent",p.tally.absent],["Abstained",p.tally.abstain]].map(([k,n]) => `<div class="stat"><b>${n.toLocaleString()}</b><span class="small muted">${k}</span></div>`).join("")}</div>
+        <p class="small muted">Every vote recorded in the county's official meeting records since ${esc(C.legistarScope || "this term began")}. Most items pass with everyone agreeing. Below are the votes where commissioners disagreed, plus a few big decisions.</p>` : ""}
+      ${myVotes.length ? `<div class="list">${myVotes.slice(0, showAll.has(p.id) ? 999 : 8).map(({how, v}) => `<a href="${href("v/" + v.id)}"><span class="vote ${how}">${how.toUpperCase()}</span><span class="body"><span class="title">${esc(v.headline)}</span><span class="tiny muted">${esc(voteDate(v))}${itemRef(v) ? " · " + itemRef(v) : ""}${v.result.value ? " · " + esc(v.result.value) : ""}</span></span>${chev}</a>`).join("")}</div>`
+        : `<div class="panel small muted">${p.status !== "incumbent" ? `${fn} hasn't served on this board, so there are no votes to show.` : "We haven't loaded individual votes for this person yet."}</div>`}
+      ${myVotes.length > 8 && !showAll.has(p.id) ? `<button class="btn" type="button" data-more="${p.id}">Show all ${myVotes.length} votes</button>` : ""}
+    </section>
 
-        <section class="panel stack ${pane === "about" ? "show" : ""}" data-pane="about" aria-labelledby="pr">
-          <h2 class="h3" id="pr">What they say they'll do</h2>
-          ${!promises || promises.label === "unknown" ? `<p class="small muted">No stated priorities on file yet.</p><div class="cite">${fixBtn(fid("promises"), "None on file")}</div>` : `${valueText(promises.value)}<div class="cite">${chip(promises.label, "Self-reported priorities, as summarized by a third party. A claim, not a fact.")}${srcLinks(promises.sources)}${fixBtn(fid("promises"), shownText(promises.value))}</div><p class="small muted">These are claims from the campaign. As votes come in, we check each one against the record.</p>`}
-        </section>
-      </div>
+    <section class="panel stack" aria-labelledby="mo"><h2 class="h2" id="mo">Who is paying for the campaign</h2>
+      <dl class="facts">${moneyShown.map(f => `<div class="fact"><dt>${MONEY_FIELDS[f]}</dt><dd>${factBlock(p.facts[f], fid(f), {unknownText: "No campaign finance reports on file yet."})}</dd></div>`).join("")}</dl>
+      ${C.county.financeUrl ? `<p class="small muted">Every donation, with the donor's name, date and amount, is in the <a href="${esc(C.county.financeUrl)}" target="_blank" rel="noopener">Supervisor of Elections campaign reports</a>.</p>` : ""}
+    </section>
 
-      <div class="stack-lg aside">
-        <div class="${pane === "about" ? "show" : ""}" data-pane="about">${scoreCard(p)}</div>
-        <section class="panel stack ${pane === "money" ? "show" : ""}" data-pane="money" aria-labelledby="mo">
-          <h2 class="h3" id="mo">Who funds them</h2>
-          <dl class="facts">${moneyShown.map(f => `<div class="fact" style="grid-template-columns:1fr"><dt>${MONEY_FIELDS[f]}</dt><dd>${factBlock(p.facts[f], fid(f), {unknownText: "No campaign reports on file for this person yet."})}</dd></div>`).join("")}</dl>
-          ${C.county.financeUrl ? `<p class="small muted">Every donor, with dates and amounts, is in the <a href="${esc(C.county.financeUrl)}" target="_blank" rel="noopener">Supervisor of Elections' campaign reports</a>. We group donors by name, not by the filer's type codes.</p>` : ""}
-        </section>
-        <section class="panel stack ${pane === "sources" ? "show" : ""}" data-pane="sources">
-          <h2 class="h3">Every source on this page</h2>
-          <div class="list" style="border-radius:14px">${allSources.map(id => `<a href="${href("s/" + id)}"><span class="src" style="border:0;padding:0"><span class="t t${S[id].tier}">${S[id].tier}</span></span><span class="body"><span class="title small">${esc(S[id].title)}</span><span class="tiny muted">${esc(S[id].publisher)} · ${esc(TIERS[S[id].tier]?.[0] || "")}</span></span>${chev}</a>`).join("")}</div>
-          <p class="small muted">Public posts aren't archived yet. When they are, each one links to the original and keeps a saved copy in case it's deleted.</p>
-        </section>
-      </div>
-    </div>
+    ${cnx.length ? `<section class="stack" aria-labelledby="cx">
+      <h2 class="h2" id="cx">Donors who had business before the commission</h2>
+      <p class="small muted">Giving to a campaign is legal and public. We list these so you can see the connection. It is not a claim that anyone did something wrong.</p>
+      ${cnx.map((c, i) => `<article class="panel stack-sm">
+        <p><b>${esc(c.donor)}</b> gave <span class="num">$${c.amount.toLocaleString()}</span>, most recently on ${fmtDate(c.date)}.${c.inWindow ? " That was within 90 days of a vote about them." : ""}</p>
+        ${c.votes.length ? `<ul class="plain small">${c.votes.map(v => `<li>${esc(v)}</li>`).join("")}</ul>` : ""}
+        ${c.note ? `<p class="small muted">${esc(c.note)}</p>` : ""}
+        <div class="cite">${chip(c.label)}${srcLinks(c.sources)}${fixBtn(`${CK}/person/${p.id}/connection-${i}`, `${c.donor} gave $${c.amount}`)}</div>
+      </article>`).join("")}
+    </section>` : ""}
+
+    <section class="panel stack" aria-labelledby="pr"><h2 class="h2" id="pr">What ${fn} says they'll do</h2>
+      ${!promises || promises.label === "unknown" ? `<p class="small muted">We haven't found a list of priorities from this campaign yet. ${fixBtn(fid("promises"), "None on file")}</p>` : `${valueText(promises.value)}<div class="cite">${chip(promises.label, "In the campaign's own words. A promise, not a fact.")}${srcLinks(promises.sources)}${fixBtn(fid("promises"), shownText(promises.value))}</div><p class="small muted">These are the campaign's own words. We'll compare them with future votes.</p>`}
+    </section>
+
+    ${scoreCard(p)}
+
+    <details class="more panel"><summary>Every source used on this page (${allSources.length})</summary>
+      <div class="list" style="border-radius:14px;margin-top:8px">${allSources.map(id => `<a href="${href("s/" + id)}"><span class="src" style="border:0;padding:0"><span class="t t${S[id].tier}">${S[id].tier}</span></span><span class="body"><span class="title small">${esc(S[id].title)}</span><span class="tiny muted">${esc(S[id].publisher)} · ${esc(TIERS[S[id].tier]?.[0] || "")}</span></span>${chev}</a>`).join("")}</div>
+    </details>
+    ${fixLink(`${CK}/person/${p.id}`, p.name)}
   </div>`;
 };
 
-function glance(p) {
-  const v = f => { const x = p.facts[f]; return x && x.label !== "unknown" ? (x.value != null ? shownText(x.value) : "Sources disagree") : null; };
-  const items = [["Party", p.nonpartisan ? "Nonpartisan seat" : v("party")], ["In office since", v("inOfficeSince")], ["Money raised", v("raised")],
-    ["Votes cast", p.tally ? (p.tally.aye + p.tally.nay + p.tally.abstain).toLocaleString() : null], ["Attendance", v("attendance")]].filter(([, x]) => x);
-  if (!items.length) return "";
-  return `<section aria-label="At a glance"><div class="glance">${items.map(([k, x]) => `<div><span class="k">${k}</span><span class="v">${esc(String(x).length > 90 ? String(x).slice(0, 88) + "…" : x)}</span></div>`).join("")}</div><p class="tiny muted" style="margin-top:6px">At a glance. Each fact, with its source and how sure we are, is in the sections below.</p></section>`;
-}
-const LINK_KINDS = {official:"Official page", campaign:"Campaign website", facebook:"Facebook", x:"X (Twitter)", instagram:"Instagram", linkedin:"LinkedIn", youtube:"YouTube", tiktok:"TikTok"};
-const LINK_ICON = {official:'<path d="M3 9.5L12 4l9 5.5M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>',
-  campaign:'<circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 12h17M12 3.5c2.5 2.6 3.6 5.4 3.6 8.5s-1.1 5.9-3.6 8.5c-2.5-2.6-3.6-5.4-3.6-8.5S9.5 6.1 12 3.5z" fill="none" stroke="currentColor" stroke-width="1.6"/>',
-  facebook:'<path d="M14 8h2.5V4.5H14c-2.5 0-4 1.6-4 4V11H7.5v3.5H10V21h3.5v-6.5H16l.5-3.5h-3V8.8c0-.5.3-.8.5-.8z" fill="currentColor"/>',
-  x:'<path d="M4 4l7 9.3L4.3 20H6l5.8-5.9L16.3 20H20l-7.3-9.8L19 4h-1.7l-5.4 5.5L7.8 4z" fill="currentColor"/>',
-  instagram:'<rect x="4" y="4" width="16" height="16" rx="4.5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="3.6" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="16.8" cy="7.2" r="1.1" fill="currentColor"/>',
-  linkedin:'<rect x="4" y="9" width="3.4" height="11" fill="currentColor"/><circle cx="5.7" cy="5.6" r="1.9" fill="currentColor"/><path d="M10 9h3.2v1.6c.6-1 1.8-1.9 3.6-1.9 3 0 3.7 2 3.7 4.6V20h-3.4v-5.8c0-1.4-.3-2.6-1.8-2.6s-2 1.1-2 2.6V20H10z" fill="currentColor"/>',
-  youtube:'<path d="M21 8.2c-.2-1.4-1.2-2.4-2.6-2.5C16.5 5.5 12 5.5 12 5.5s-4.5 0-6.4.2C4.2 5.8 3.2 6.8 3 8.2 2.8 9.5 2.8 12 2.8 12s0 2.5.2 3.8c.2 1.4 1.2 2.4 2.6 2.5 1.9.2 6.4.2 6.4.2s4.5 0 6.4-.2c1.4-.1 2.4-1.1 2.6-2.5.2-1.3.2-3.8.2-3.8s0-2.5-.2-3.8zM10.2 15V9l5 3z" fill="currentColor"/>',
-  tiktok:'<path d="M14 3.5h3c.2 2 1.5 3.5 3.5 3.7v3c-1.3 0-2.5-.4-3.5-1v6.3c0 3.1-2.5 5.5-5.6 5.5S5.8 18.6 5.8 15.5 8.3 10 11.4 10c.3 0 .6 0 .9.1v3.1c-.3-.1-.6-.2-.9-.2-1.4 0-2.5 1.1-2.5 2.5s1.1 2.5 2.5 2.5 2.6-1.1 2.6-2.5z" fill="currentColor"/>'};
-function linksBlock(p) {
-  const ls = (p.links || []).slice().sort((a,b) => Object.keys(LINK_KINDS).indexOf(a.kind) - Object.keys(LINK_KINDS).indexOf(b.kind));
-  if (!ls.length) return `<section class="panel stack-sm"><h2 class="h3">Website and social accounts</h2><p class="small muted">We haven't confirmed a campaign website or social account for this person yet.</p><div class="cite">${fixBtn(`${CK}/person/${p.id}/links`, "No links on file")}</div></section>`;
-  return `<section class="panel stack-sm" aria-labelledby="lk"><div class="between"><h2 class="h3" id="lk">Website and social accounts</h2>${fixBtn(`${CK}/person/${p.id}/links`, ls.map(l => l.url).join(" "))}</div>
-    <div class="row" style="gap:8px">${ls.map(l => `<a class="btn" style="min-height:42px;padding:0 14px;font-size:14px" href="${esc(l.url)}" target="_blank" rel="noopener nofollow"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">${LINK_ICON[l.kind] || LINK_ICON.campaign}</svg>${esc(LINK_KINDS[l.kind] || "Link")}</a>`).join("")}</div>
-    <p class="tiny muted">Only accounts confirmed through their campaign site, the county, or election filings. Links open the original. Archiving their posts is next.</p></section>`;
-}
-
+/* ---------- a vote ---------- */
 function glassRoll(v) {
   const r = rollOf(v);
-  if (!r || (!r.yes?.length && !r.no?.length)) return `<div class="gbox"><span class="gl">Roll call</span><div class="slips"><span class="slip empty">Individual votes not loaded yet</span></div></div>`;
-  const slip = (id, cls) => P[id] ? `<a class="slip ${cls}" href="${href("p/" + id)}">${esc(lastName(P[id]))}</a>` : `<span class="slip ${cls}">${esc(id)}</span>`;
-  const box = (label, ids, cls) => `<div class="gbox"><span class="gl">${label}</span><span class="gn num">${ids.length}</span><div class="slips">${ids.length ? ids.map(id => slip(id, cls)).join("") : '<span class="slip empty">None</span>'}</div></div>`;
-  return `<div class="boxes">${box("Yes", r.yes || [], "yes")}${box("No", r.no || [], "no")}</div>
-    ${(r.absent?.length || r.abstain?.length) ? `<p class="small muted">Absent: ${(r.absent||[]).map(id => esc(P[id]?.name || id)).join(", ") || "none"}. Abstained: ${(r.abstain||[]).map(id => esc(P[id]?.name || id)).join(", ") || "none"}.</p>` : ""}`;
+  if (!r || (!r.yes?.length && !r.no?.length)) return `<div class="gbox"><span class="gl">How each member voted</span><div class="slips"><span class="slip empty">We don't have each member's vote for this one yet</span></div></div>`;
+  const slip = (id, cls) => P[id] ? `<a class="slip ${cls}" href="${href("p/" + id)}">${esc(P[id].name)}</a>` : `<span class="slip ${cls}">${esc(id)}</span>`;
+  const box = (label, ids, cls) => `<div class="gbox"><span class="gl">${label}</span><span class="gn num">${ids.length}</span><div class="slips">${ids.length ? ids.map(id => slip(id, cls)).join("") : '<span class="slip empty">No one</span>'}</div></div>`;
+  return `<div class="boxes">${box("Voted yes", r.yes || [], "yes")}${box("Voted no", r.no || [], "no")}</div>
+    ${(r.absent?.length || r.abstain?.length) ? `<p class="small muted">Not voting: ${[...(r.absent||[]).map(id => esc(P[id]?.name || id) + " (absent)"), ...(r.abstain||[]).map(id => esc(P[id]?.name || id) + " (abstained)")].join(", ")}.</p>` : ""}`;
 }
 
-views.vote = id => {
+views.vote_item = id => {
   const v = V[id]; if (!v) return notFound();
-  const others = C.votes.filter(x => x.topic === v.topic && x.id !== v.id).slice(0, 5);
+  const others = C.votes.filter(x => x.topic === v.topic && x.id !== v.id).slice(0, 4);
   const allSources = [...new Set([...(v.result.sources||[]), ...(v.roll.sources||[]), ...v.facts.flatMap(f => f.sources || [])])].filter(id => S[id]);
   const fid = f => `${CK}/vote/${v.id}/${f}`;
+  const official = v.sourceUrl || (v.fileNumber && S.legistar ? S.legistar.url : null);
+  const body = C.county.body || "Board of County Commissioners";
   return `<div class="stack-lg view">
-    <a class="back" href="${href("votes")}">‹ All ${esc(cname(CK))} votes</a>
+    <a class="back" href="${href("votes")}">‹ All ${esc(cname(CK))} commission decisions</a>
     <section class="stack">
-      <span class="kicker">County Commission<span class="sep"></span>${esc(voteDate(v))}${v.fileNumber ? `<span class="sep"></span>File ${esc(v.fileNumber)}` : ""}</span>
+      <span class="kicker">${esc(voteDate(v))}${itemRef(v) ? `<span class="sep"></span>${itemRef(v)}` : ""}</span>
       <h1 class="h1">${esc(v.headline)}</h1>
-      ${v.inShort ? `<p class="lede">${esc(v.inShort)}</p>` : `<p class="lede">Plain-English summary pending review. The official wording is below.</p>`}
+      ${v.inShort ? `<p class="lede">${esc(v.inShort)}</p>` : `<p class="lede">We haven't written a plain-English summary of this one yet. The official wording is at the bottom of this page.</p>`}
+      <div class="cite-box">
+        <b>Which vote this is</b>
+        <span>${esc(cname(CK))} County ${esc(body)}${v.date ? `, meeting of ${fmtDate(v.date)}` : ""}${v.fileNumber ? `, agenda item ${esc(v.fileNumber)}` : ""}.</span>
+        ${official ? `<a href="${esc(official)}" target="_blank" rel="noopener">Open the county's official record of this meeting</a>` : `<span class="small muted">This vote comes from news reports. We haven't matched it to the county's meeting record yet.</span>`}
+        <span class="tiny muted">The summary above is our plain-English description. If it doesn't match the official record, the record is what counts. ${fixBtn(fid("summary"), v.inShort || v.headline)}</span>
+      </div>
     </section>
-    <div class="split">
-      <div class="stack-lg">
-        <section class="panel stack" aria-labelledby="res">
-          <div class="between"><h2 class="h2" id="res">${esc(v.result.value || "Result not confirmed")}</h2>${chip(v.result.label, v.result.note)}</div>
-          ${glassRoll(v)}
-          ${v.mover && P[v.mover] ? `<p class="small muted">Moved by ${esc(P[v.mover].name)}${v.seconder && P[v.seconder] ? `, seconded by ${esc(P[v.seconder].name)}` : ""}.</p>` : ""}
-          <div class="cite">${chip(v.roll.label, v.roll.note)}${srcLinks(v.roll.sources)}${fixBtn(fid("roll"), v.result.value || "")}</div>
-          ${v.roll.label === "conflict" ? factBlock(v.roll, fid("roll")) : ""}
-        </section>
-        ${v.moneyNotes ? `<section class="panel stack" style="border:2px solid var(--civic)" aria-labelledby="mc">
-          <h2 class="h3" id="mc">Money connected to this vote</h2>
-          ${v.moneyNotes.map((m, i) => `<div class="stack-sm"><p>${esc(m.text)}</p>${m.note ? `<p class="small muted">${esc(m.note)}</p>` : ""}<div class="cite">${chip(m.label)}${srcLinks(m.sources)}${fixBtn(fid("money-" + i), m.text)}</div></div>`).join("")}
-          <p class="small muted">Donations are legal and public. This shows a connection, not wrongdoing.</p>
-        </section>` : ""}
-        <section class="stack" aria-labelledby="mean">
-          <h2 class="h2" id="mean">What it actually means</h2>
-          ${v.facts.length ? `<div class="list">${v.facts.map((f, i) => `<div class="li"><span class="body" style="gap:8px">${f.label === "unknown" ? `<span>${esc(f.text)}</span><span class="cite">${chip("unknown")}<span class="small muted">We looked and couldn't find this yet.</span>${fixBtn(fid("fact-" + i), f.text)}</span>` : `<span>${esc(f.text)}</span><span class="cite">${chip(f.label, f.note)}${srcLinks(f.sources)}${fixBtn(fid("fact-" + i), f.text)}</span>`}</span></div>`).join("")}</div>` : `<p class="small muted">No details summarized yet.</p>`}
-        </section>
-        ${v.motion ? `<section class="panel stack"><h2 class="h3">The motion they voted on</h2><p>${esc(v.motion)}</p><p class="small muted">A yes vote is a vote for this motion. When a motion is to deny, a yes vote means saying no to the request.</p></section>` : ""}
-        ${v.officialTitle ? `<section class="panel stack"><h2 class="h3">The official wording</h2><p class="small muted">${esc(v.officialTitle)}</p></section>` : ""}
-      </div>
-      <div class="stack-lg aside">
-        <section class="panel stack"><h2 class="h3">Share this vote</h2><p class="small muted">Make an image with the result and its sources printed on it.</p><button class="btn primary" type="button" data-share="${v.id}">Make a share card</button><div id="shareOut" class="stack"></div></section>
-        <section class="panel stack"><h2 class="h3">Sources</h2><div class="cite">${srcLinks(allSources)}</div>${v.sourceUrl ? `<a class="small" href="${esc(v.sourceUrl)}" target="_blank" rel="noopener">Open the official meeting record</a>` : ""}</section>
-        ${others.length ? `<section class="stack"><h2 class="h3">More on ${esc(T[v.topic].name)}</h2><div class="list">${others.map(voteRow).join("")}</div></section>` : ""}
-      </div>
-    </div>
+
+    <section class="panel stack" aria-labelledby="res">
+      <div class="between"><h2 class="h2" id="res">${esc(v.result.value || "Result not confirmed yet")}</h2>${chip(v.result.label, v.result.note)}</div>
+      ${glassRoll(v)}
+      ${v.motion ? `<p class="small"><b>The motion:</b> ${esc(v.motion)} <span class="muted">A yes vote was a vote for this motion.</span></p>` : ""}
+      ${v.minutesText ? `<p class="small"><b>What the minutes say:</b> "${esc(v.minutesText)}"</p>` : ""}
+      ${v.mover && P[v.mover] ? `<p class="small muted">Proposed by ${esc(P[v.mover].name)}${v.seconder && P[v.seconder] ? `, seconded by ${esc(P[v.seconder].name)}` : ""}.</p>` : ""}
+      <div class="cite">${chip(v.roll.label, v.roll.note)}${srcLinks(v.roll.sources)}${fixBtn(fid("roll"), v.result.value || "")}</div>
+      ${v.roll.label === "conflict" ? factBlock(v.roll, fid("roll")) : ""}
+    </section>
+
+    ${v.moneyNotes ? `<section class="panel stack" aria-labelledby="mc"><h2 class="h3" id="mc">Campaign money connected to this vote</h2>
+      ${v.moneyNotes.map((m, i) => `<div class="stack-sm"><p>${esc(m.text)}</p>${m.note ? `<p class="small muted">${esc(m.note)}</p>` : ""}<div class="cite">${chip(m.label)}${srcLinks(m.sources)}${fixBtn(fid("money-" + i), m.text)}</div></div>`).join("")}
+      <p class="small muted">Giving to a campaign is legal and public. This shows a connection, not wrongdoing.</p></section>` : ""}
+
+    ${v.facts.length ? `<section class="stack" aria-labelledby="mean"><h2 class="h2" id="mean">More details</h2>
+      <div class="list">${v.facts.map((f, i) => `<div class="li"><span class="body" style="gap:8px"><span>${esc(f.text)}</span><span class="cite">${chip(f.label, f.note)}${srcLinks(f.sources)}${fixBtn(fid("fact-" + i), f.text)}</span></span></div>`).join("")}</div></section>` : ""}
+
+    <section class="stack" aria-labelledby="legal">
+      <h2 class="h2" id="legal">The official wording</h2>
+      ${v.officialTitle ? `<div class="legal">${esc(v.officialTitle)}</div><p class="tiny muted">Copied exactly from the county's agenda${v.fileNumber ? ` for item ${esc(v.fileNumber)}` : ""}.${official ? ` <a href="${esc(official)}" target="_blank" rel="noopener">See it on the county's site</a>.` : ""}</p>` : `<p class="small muted">We don't have the county's official wording for this vote yet.</p>`}
+    </section>
+
+    <section class="stack noprint"><h2 class="h3">Sources</h2><div class="cite">${srcLinks(allSources)}</div>
+      <div class="row"><button class="btn" type="button" data-share="${v.id}">Make a shareable image</button></div><div id="shareOut" class="stack"></div></section>
+    ${others.length ? `<section class="stack noprint"><h2 class="h3">Related decisions</h2><div class="list">${others.map(voteRow).join("")}</div></section>` : ""}
   </div>`;
 };
 
@@ -756,60 +886,31 @@ views.votes = () => {
   const list = C.votes.filter(v => t === "all" || v.topic === t);
   const used = C.topics.filter(x => C.votes.some(v => v.topic === x.id));
   return `<div class="stack-lg view">
-    ${band(`${esc(C.county.name)} Commission`, "Votes", "Every vote rewritten in plain English, newest first. Tap one to see who voted how and what it really does.", "05-community-council-meeting")}
+    ${band(`${esc(C.county.name)}`, "What the commission has decided", "Recent votes, explained in plain English, with the official wording and a link to the county's record for each one.", "05-community-council-meeting")}
     <div class="chips" role="group" aria-label="Filter by topic">
-      <button class="chip" type="button" data-topic="all" aria-pressed="${t === "all"}">All</button>
+      <button class="chip" type="button" data-topic="all" aria-pressed="${t === "all"}">All topics</button>
       ${used.map(x => `<button class="chip" type="button" data-topic="${x.id}" aria-pressed="${t === x.id}">${esc(x.name)}</button>`).join("")}
     </div>
-    ${list.length ? `<div class="list">${list.map(voteRow).join("")}</div>` : `<p class="notice">No votes loaded for this topic yet.</p>`}
-    ${C.legistarTotals ? `<p class="notice">From the county's official record: ${C.legistarTotals.rollCalls.toLocaleString()} roll call votes across ${C.legistarTotals.meetings} meetings. Most pass unanimously. This page shows the ${C.legistarTotals.splitRollCalls} where commissioners disagreed, plus key unanimous votes.</p>` : `<p class="notice">These ${C.votes.length} votes come from news reports and county pages, labeled by how well they're confirmed. Official roll calls from the county's minutes are next.</p>`}
+    ${list.length ? `<div class="list">${list.map(voteRow).join("")}</div>` : `<p class="notice">No votes on this topic yet.</p>`}
+    ${C.legistarTotals ? `<p class="small muted">The county's records show ${C.legistarTotals.rollCalls.toLocaleString()} recorded votes across ${C.legistarTotals.meetings} meetings since ${esc(C.legistarScope || "the current board took office")}. Most pass with everyone in agreement. This page lists the ones where commissioners disagreed, plus a few major decisions.</p>` : `<p class="small muted">These votes come from the county's meeting minutes and news reports. We're still loading the full set of meeting records.</p>`}
   </div>`;
 };
 
 views.topic = id => { const t = T[id]; if (!t) return notFound(); const list = C.votes.filter(v => v.topic === id);
-  return `<div class="stack-lg view"><a class="back" href="${href("votes")}">‹ Votes</a><section class="stack-sm"><span class="kicker">Topic</span><h1 class="h1">${esc(t.name)}</h1><p class="lede">${esc(t.blurb)}</p></section><div class="list">${list.map(voteRow).join("")}</div></div>`; };
-
-views.race = id => {
-  const r = R[id]; if (!r) return notFound();
-  const ppl = r.people.map(x => P[x]).filter(Boolean);
-  const rows = [
-    ["Party", p => p.nonpartisan ? {value:"Nonpartisan seat", label:"single", sources:[]} : p.facts.party, "party"],
-    ["Incumbent?", p => ({value: p.status === "incumbent" ? "Yes" : "No", label:"single", sources: []}), null],
-    ["Work", p => p.facts.job, "job"],
-    ["Past office", p => p.facts.pastOffice, "pastOffice"],
-    ["Money raised", p => p.facts.raised, "raised"],
-    ["Votes on record here", p => ({value: p.status !== "incumbent" ? "None. Hasn't held this office." : `${p.votes.length} loaded so far`, label: "single", sources: []}), null],
-    ["What they say they'll do", p => p.facts.promises, "promises"],
-    ["Website and socials", p => ({links: p.links}), "links"],
-  ];
-  const cell = (f, p, key) => { if (f && f.links !== undefined) return f.links.length ? `<div class="stack-sm">${f.links.map(l => `<a class="small" href="${esc(l.url)}" target="_blank" rel="noopener nofollow">${esc(LINK_KINDS[l.kind] || "Link")}</a>`).join("")}</div>` : `<span class="small muted">None confirmed yet</span>`;
-    const fix = key ? fixBtn(`${CK}/person/${p.id}/${key}`, f && f.value ? shownText(f.value) : "Unknown") : "";
-    if (!f || f.label === "unknown") return `${chip("unknown")}<div>${fix}</div>`; if (f.label === "conflict") return factBlock(f, `${CK}/person/${p.id}/${key}`);
-    return `<div>${valueText(f.value)}</div>${f.sources && f.sources.length ? `<div class="cite" style="margin-top:6px">${chip(f.label, f.note)}${srcLinks(f.sources)}</div>` : ""}<div>${fix}</div>`; };
-  return `<div class="stack-lg view">
-    <a class="back" href="${href()}">‹ ${esc(cname(CK))} ballot</a>
-    <section class="stack-sm"><span class="kicker">${r.onNovBallot === false ? "Decided in the Aug 18 primary" : "On the ballot " + fmtDate(C.county.electionDate)}${r.who ? `<span class="sep"></span>${esc(r.who)}` : ""}</span><h1 class="h1">${esc(r.title)}</h1>
-      <p class="lede">Candidates listed alphabetically by last name. We never rank, rate or recommend candidates.</p>
-      ${r.note ? `<p class="notice">${esc(r.note)}</p>` : ""}</section>
-    <div class="tablewrap"><table>
-      <thead><tr><th scope="col"><span class="sr">Fact</span></th>${ppl.map(p => `<th scope="col"><a href="${href("p/" + p.id)}" class="who" style="text-decoration:none;flex-direction:column;align-items:flex-start;gap:8px">${face(p, "md")}<b>${esc(p.name)}</b></a></th>`).join("")}</tr></thead>
-      <tbody>${rows.map(([name, fn, key]) => `<tr><th scope="row">${name}</th>${ppl.map(p => `<td>${cell(fn(p), p, key)}</td>`).join("")}</tr>`).join("")}</tbody>
-    </table></div>
-    <div class="cite">${srcLinks(r.sources)}</div>
-  </div>`;
-};
+  return `<div class="stack-lg view"><a class="back" href="${href("votes")}">‹ All decisions</a><section class="stack-sm"><h1 class="h1">${esc(t.name)}</h1><p class="lede">${esc(t.blurb)}</p></section><div class="list">${list.map(voteRow).join("")}</div></div>`; };
 
 views.problems = () => `<div class="stack-lg view">
-  <a class="back" href="${href()}">‹ ${esc(cname(CK))} ballot</a>
-  <section class="stack-sm"><span class="kicker">${esc(C.county.name)}<span class="sep"></span>Public log</span><h1 class="h1">Where sources disagree</h1><p class="lede">When sources disagree, a number doesn't add up, or a record is missing, it goes here, in public, until it's fixed.</p></section>
+  <a class="back" href="#/corrections">‹ Changes and corrections</a>
+  <section class="stack-sm"><h1 class="h1">Where our sources disagree</h1><p class="lede">When two sources say different things, or a record is missing or doesn't add up, we list it here until it's settled.</p></section>
   ${C.problems.length ? `<div class="stack">${C.problems.map(pr => `<article class="panel stack-sm">
-    <div class="between"><span class="kicker">${esc(({"needs-browser-fetch":"Record we still need to check"})[pr.kind] || pr.kind)}</span><span class="pill wrap-ok">${esc(pr.status)}</span></div>
+    <span class="kicker">${esc(pr.kind)}</span>
     <h2 class="h3">${esc(pr.subject)}: ${esc(pr.field === "inOfficeSince" ? "start date in office" : pr.field)}</h2>
-    <div class="versions">${pr.versions.map(v => `<div class="v"><b>${esc(typeof v.value === "object" ? JSON.stringify(v.value) : v.value)}</b>${srcLinks(v.sources)}${v.official ? '<span class="pill">Official record</span>' : ""}</div>`).join("")}</div>
-  </article>`).join("")}</div>` : `<p class="notice">No record problems found for this county yet.</p>`}
+    <div class="versions">${pr.versions.map(v => `<div class="v"><b>${esc(typeof v.value === "object" ? JSON.stringify(v.value) : v.value)}</b>${srcLinks(v.sources)}${v.official ? '<span class="pill">Government record</span>' : ""}</div>`).join("")}</div>
+    <span class="tiny muted">${esc(pr.status || "")}</span>
+  </article>`).join("")}</div>` : `<p class="notice">Nothing open for this county right now.</p>`}
 </div>`;
 
-/* ---------- sources: full transparency ---------- */
+/* ---------- sources ---------- */
 function citesOf(sid) {
   const out = [];
   C.people.forEach(p => Object.entries(p.facts).forEach(([f, x]) => { const ids = x.sources || (x.versions || []).flatMap(v => v.sources || []); if (ids.includes(sid)) out.push({h: href("p/" + p.id), t: `${p.name}: ${FIELD_NAMES[f] || MONEY_FIELDS[f] || f}`}); }));
@@ -818,67 +919,146 @@ function citesOf(sid) {
   return out;
 }
 const archiveUrl = u => "https://web.archive.org/web/2026/" + u;
-
 views.source = id => {
   const s = S[id]; if (!s) return notFound();
   const cites = citesOf(id);
   return `<div class="stack-lg view">
     <a class="back" href="${href("sources")}">‹ All ${esc(cname(CK))} sources</a>
-    <section class="stack-sm"><span class="kicker">Source<span class="sep"></span>Tier ${s.tier}: ${esc(TIERS[s.tier]?.[0] || "")}</span><h1 class="h1" style="font-size:clamp(24px,5vw,36px)">${esc(s.title)}</h1><p class="lede">${esc(s.publisher)}</p></section>
+    <section class="stack-sm"><span class="kicker">${esc(TIERS[s.tier]?.[0] || "Source")}</span><h1 class="h1" style="font-size:clamp(24px,5vw,36px)">${esc(s.title)}</h1><p class="lede">${esc(s.publisher)}</p></section>
     <section class="panel"><dl class="facts">
       <div class="fact"><dt>Link</dt><dd><a href="${esc(s.url)}" target="_blank" rel="noopener" style="word-break:break-all">${esc(s.url)}</a></dd></div>
-      <div class="fact"><dt>Saved copy</dt><dd><a href="${esc(archiveUrl(s.url))}" target="_blank" rel="noopener">Internet Archive copy</a><span class="small muted">If the original page changes or disappears, the archive keeps a dated copy.</span></dd></div>
-      <div class="fact"><dt>Kind of source</dt><dd><span><b>Tier ${s.tier}, ${esc(TIERS[s.tier]?.[0] || "")}.</b> ${esc(TIERS[s.tier]?.[1] || "")}.</span><span class="small muted">${s.tier <= 2 ? "Government records can make a fact Verified when a second independent source agrees." : "On its own this can only make a fact Unverified. It needs an official record to be Verified."}</span></dd></div>
-      <div class="fact"><dt>Read on</dt><dd>${fmtDate(s.accessed || C.accessed)}</dd></div>
-      ${s.caution ? `<div class="fact"><dt>Caution</dt><dd>${esc(s.caution)}</dd></div>` : ""}
+      <div class="fact"><dt>Saved copy</dt><dd><a href="${esc(archiveUrl(s.url))}" target="_blank" rel="noopener">Internet Archive copy</a><span class="small muted">If the page changes or goes away, the Internet Archive may have a dated copy.</span></dd></div>
+      <div class="fact"><dt>What kind of source</dt><dd><span>${esc(TIERS[s.tier]?.[1] || "")}.</span><span class="small muted">${s.tier <= 2 ? "Government sources can support a Verified label when a second source agrees." : "On its own, this kind of source can't make a fact Verified. That takes a government record."}</span></dd></div>
+      <div class="fact"><dt>We read it on</dt><dd>${fmtDate(s.accessed || C.accessed)}</dd></div>
+      ${s.caution ? `<div class="fact"><dt>Note</dt><dd>${esc(s.caution)}</dd></div>` : ""}
     </dl></section>
-    <section class="stack"><h2 class="h2">What this source backs up</h2>${cites.length ? `<div class="list">${cites.map(c => `<a href="${c.h}"><span class="body"><span class="title small">${esc(c.t)}</span></span>${chev}</a>`).join("")}</div>` : `<p class="small muted">Used for background on this county's page.</p>`}</section>
-    <div class="cite">${fixBtn(`${CK}/source/${id}`, s.title + " " + s.url)}</div>
+    <section class="stack"><h2 class="h2">What we used it for</h2>${cites.length ? `<div class="list">${cites.map(c => `<a href="${c.h}"><span class="body"><span class="title small">${esc(c.t)}</span></span>${chev}</a>`).join("")}</div>` : `<p class="small muted">General background for this county.</p>`}</section>
+    ${fixLink(`${CK}/source/${id}`, s.title + " " + s.url, "Is this source wrong or out of date? Tell us.")}
   </div>`;
 };
-
 views.sources = () => {
   const ks = CK ? [CK] : ORDER;
   return `<div class="stack-lg view">
-    ${band("Full transparency", "Every source we use", "Nothing on Glass Ballot comes from nowhere. Here is every source behind every fact, sorted strongest first, with a saved copy in case the original changes.", "02-public-records")}
-    <section class="panel stack"><h2 class="h3">How we rank sources</h2>
-      ${Object.entries(TIERS).map(([n,[t,d]]) => `<div class="part" style="grid-template-columns:34px minmax(0,1fr)"><span class="src" style="border:0;padding:0"><span class="t t${n}" style="width:26px;height:26px;font-size:13px">${n}</span></span><div><b>${t}</b><div class="small muted">${d}</div></div></div>`).join("")}
-      <p class="small muted">A fact is Verified only when an official record and a second independent source agree. Outlets owned by the same company count as one source. <a href="/data/glassballot.json">Download every fact and source</a> as one file.</p></section>
+    ${band("", "Where our information comes from", "Every source behind every fact on this site, government records first. Each one has a link to the original and a saved copy.", "02-public-records")}
     ${CK ? `<div class="chips">${ORDER.map(k => `<a class="chip" style="display:inline-flex;align-items:center;text-decoration:none" aria-pressed="${k === CK}" href="#/${k}/sources">${esc(cname(k))}</a>`).join("")}</div>` : ""}
     ${ks.map(k => { const src = COUNTIES[k].sources; const ids = Object.keys(src).sort((a,b) => src[a].tier - src[b].tier || src[a].publisher.localeCompare(src[b].publisher));
       return `<section class="stack"><h2 class="h2">${esc(COUNTIES[k].county.name)} <span class="muted small" style="font-family:var(--body);font-weight:500">${ids.length} sources</span></h2>
-        <div class="list">${ids.map(id => { const s = src[id]; return `<a href="#/${k}/s/${id}"><span class="src" style="border:0;padding:0"><span class="t t${s.tier}">${s.tier}</span></span><span class="body"><span class="title small">${esc(s.title)}</span><span class="tiny muted">${esc(s.publisher)}</span></span>${chev}</a>`; }).join("")}</div></section>`; }).join("")}
+        <div class="list">${ids.map(id => { const s = src[id]; return `<a href="#/${k}/s/${id}"><span class="src" style="border:0;padding:0"><span class="t t${s.tier}">${s.tier}</span></span><span class="body"><span class="title small">${esc(s.title)}</span><span class="tiny muted">${esc(s.publisher)} · ${esc(TIERS[s.tier]?.[0] || "")}</span></span>${chev}</a>`; }).join("")}</div></section>`; }).join("")}
+    <p class="small"><a href="/data/glassballot.json">Download every fact and source as one data file</a></p>
   </div>`;
 };
 
-views.how = () => `<div class="stack-lg view">
-  ${band("Methods", "How Glass Ballot works", "We don't pick sides. Every fact has a source, we check it against other sources, and we label how sure we are. If we can't find something, we say so.", "08-understanding-the-issues")}
-  <section class="panel stack"><h2 class="h3">What the labels mean</h2>${Object.entries(LAB).map(([k,l]) => `<div class="row" style="flex-wrap:nowrap;gap:12px;align-items:flex-start">${chip(k)}<span class="small">${l.d}</span></div>`).join("")}</section>
-  <section class="panel stack"><h2 class="h3">Sources, strongest first</h2>${Object.entries(TIERS).map(([n,[t,d]]) => `<div class="part" style="grid-template-columns:34px minmax(0,1fr)"><b class="num" style="font-family:var(--head);color:var(--civic)">${n}</b><div><b>${t}</b><div class="small muted">${d}</div></div></div>`).join("")}
-    <p class="small muted">Verified needs a tier 1 record plus a second independent source. News outlets that agree with each other still need the official record. <a href="#/sources">See every source</a>.</p></section>
-  <section class="panel stack"><h2 class="h3">Corrections</h2>
-    <p>Every fact has a "Suggest a fix" button. A suggestion needs a link to a public source, and a person checks it against that source before anything changes. Spam is filtered with a hidden trap field, a CAPTCHA and automatic spam screening, and suggestions without a checkable source are set aside.</p>
-    <p class="small muted">Accepted corrections are <a href="#/corrections">logged in public</a> with the date and what changed. Disagreements between sources stay on each county's Record problems page until they're settled.</p></section>
-  <section class="panel stack" id="score"><h2 class="h3">The Pocket or Public score</h2>
-    <p>One question: when this person votes, who stands to gain, them or the public? We don't score whether a vote was good or bad for the community. That depends on what you value, so we show the facts and let you judge.</p>
-    ${SCORE_PARTS.map(([k,n,q]) => `<div class="part" style="grid-template-columns:1fr"><b>${n}</b><span class="small muted">${q}</span></div>`).join("")}
-    <p class="small muted">Each part is 0 to 100. The overall score is the average of the parts that have data, shown only after at least 25 scored votes and 3 of 4 parts. A donation isn't a conflict unless the donor had a direct stake, like their own rezoning or contract. The formula is public, and every number links to the votes behind it.</p></section>
-  <section class="panel stack"><h2 class="h3">Who runs this</h2><p class="small">Glass Ballot is an independent, nonpartisan project. We don't endorse candidates, parties or ballot questions, and we don't take money from campaigns. Questions or corrections: <a href="mailto:glassballotinfo@gmail.com">glassballotinfo@gmail.com</a>.</p></section>
-</div>`;
+/* ---------- about and policy pages ---------- */
+const UPDATED = "October 27, 2026";
+const policy = (title, lede, body) => `<div class="stack-lg view policy"><a class="back" href="#/about">‹ About Glass Ballot</a><section class="stack-sm"><h1 class="h1">${title}</h1>${lede ? `<p class="lede">${lede}</p>` : ""}<p class="tiny muted">Last updated ${UPDATED}</p></section><div class="panel stack">${body}</div></div>`;
+
+views.about = () => {
+  const lc = {verified:0,single:0,unverified:0,conflict:0,unknown:0};
+  ORDER.forEach(k => Object.entries(COUNTIES[k].labelCounts).forEach(([l,n]) => lc[l] += n));
+  return `<div class="stack-lg view">
+    ${band("", "About Glass Ballot", "A free, independent guide to local elections in the Tampa Bay area.", "09-town-square")}
+    <section class="panel stack">
+      <h2 class="h3">Why we built this</h2>
+      <p>County commissioners and school board members make decisions that reach every household: property taxes, what gets built down the street, how the schools are run. Yet these races get very little coverage, and the records about them are spread across a dozen government websites. Glass Ballot puts them in one place and explains them in everyday language.</p>
+      <h2 class="h3">What we promise</h2>
+      <ul class="plain">
+        <li>We never tell you who to vote for, and we never rank candidates.</li>
+        <li>We don't accept money from candidates, campaigns, political parties or political committees.</li>
+        <li>Every fact links to where it came from, and government records come first.</li>
+        <li>When we get something wrong, we fix it and list the change in public.</li>
+      </ul>
+      <p class="small"><a href="#/standards">Read our full standards</a></p>
+    </section>
+    <section class="panel stack">
+      <h2 class="h3">How sure we are about each fact</h2>
+      <p class="small">Next to each fact you'll see one of these labels:</p>
+      ${Object.entries(LAB).map(([k,l]) => `<div class="row" style="flex-wrap:nowrap;gap:12px;align-items:flex-start">${chip(k)}<span class="small">${l.d} <span class="muted">(${lc[k].toLocaleString()} on the site)</span></span></div>`).join("")}
+      <p class="small">The small numbered tags show what kind of source a fact comes from:</p>
+      ${Object.entries(TIERS).map(([n,[t,d]]) => `<div class="row" style="flex-wrap:nowrap;gap:12px;align-items:flex-start"><span class="src" style="border:0;padding:0"><span class="t t${n}" style="width:24px;height:24px;font-size:12px">${n}</span></span><span class="small"><b>${t}.</b> ${d}.</span></div>`).join("")}
+    </section>
+    <section class="panel stack">
+      <h2 class="h3">How the site stays current</h2>
+      <p class="small">Every morning, we automatically recheck the counties' meeting records and the campaign finance reports filed with each Supervisor of Elections. When a number changes, the site updates and the change is listed on our <a href="#/corrections">changes page</a>. Plain-English summaries are always written and checked by a person.</p>
+    </section>
+    <section class="list">
+      ${[["#/sources","Where our information comes from"],["#/corrections","Changes and corrections"],["#/standards","Our standards"],["#/terms","Terms of use"],["#/privacy","Privacy policy"],["#/accessibility","Accessibility"],["/data/glassballot.json","Download all of our data"],["https://github.com/VilardiDigital/glassballot","See our code and every change on GitHub"]].map(([h,t]) => `<a href="${h}"${/^http/.test(h) ? ' target="_blank" rel="noopener"' : ""}><span class="body"><span class="title">${t}</span></span>${chev}</a>`).join("")}
+    </section>
+    <p class="small">Questions or tips: <a href="mailto:glassballotinfo@gmail.com">glassballotinfo@gmail.com</a></p>
+  </div>`;
+};
+
+views.standards = () => policy("Our standards", "How we decide what goes on this site, and what we do when we get something wrong.", `
+  <h2 class="h3">We don't take sides</h2>
+  <p>Glass Ballot does not endorse, rate or rank candidates, parties or ballot questions. We list candidates alphabetically. We describe every candidate using the same kinds of facts, and we write about every vote the same way, whoever voted for it.</p>
+  <h2 class="h3">Where facts come from</h2>
+  <p>We use government records first: meeting minutes and votes, campaign finance reports, election results and official county pages. We also use news reports, nonpartisan research groups and the candidates' own websites, and we label each one so you can tell the difference. Something a candidate says about themselves is shown as their claim, not as a fact.</p>
+  <h2 class="h3">How we label facts</h2>
+  <ul><li><b>Verified</b> means a government record says it and a second, independent source agrees.</li><li><b>Government record</b> means it comes from a government record we haven't been able to check against a second source.</li><li><b>Not yet confirmed</b> means it comes only from news, research groups or the candidate.</li><li><b>Sources disagree</b> means our sources say different things. We show each version and the government record first.</li><li><b>Not found yet</b> means we looked and couldn't find it.</li></ul>
+  <p>Two news outlets owned by the same company count as one source.</p>
+  <h2 class="h3">How we write about votes</h2>
+  <p>Each vote page has our plain-English summary, the name of the meeting, the agenda item number, a link to the county's official record, the exact motion when the record includes it, and the official wording copied from the county's agenda. If our summary and the record ever differ, the record is right and we will fix the summary.</p>
+  <h2 class="h3">Money and connections</h2>
+  <p>We show how much each candidate has raised, using the reports they file with their county Supervisor of Elections. When someone who gave money to a commissioner later had business before the commission, we list that connection, with the dates. A donation is legal and public. Listing a connection does not mean anyone did anything wrong, and we never say or suggest that it does.</p>
+  <h2 class="h3">The Pocket or Public score</h2>
+  <p>This is a measure we're building to show, from public records only, how often an official's votes may have benefited themselves or their donors rather than the public. It never uses party or our opinion of whether a vote was good. Its parts are conflicts of interest, money and timing, promises kept, and showing up. We only show an overall score once we have enough data, and the formula is public on GitHub.</p>
+  <h2 class="h3">Corrections</h2>
+  <p>Anyone can report a mistake using the pencil button next to any fact. We need a link to a record or published report so we can check it. A person reviews every report. If we change a fact, we list the date, what it said before and what it says now on our <a href="#/corrections">changes and corrections page</a>. We do not quietly edit facts. Candidates and officials can use the same form, or email us at glassballotinfo@gmail.com.</p>
+  <h2 class="h3">Independence</h2>
+  <p>Glass Ballot is free to use. We do not accept money from candidates, campaigns, political parties, political committees or anyone appearing on the ballot, and we do not run political ads. If we ever accept funding from anyone else, we will list it on this page.</p>
+  <h2 class="h3">Automation</h2>
+  <p>Software collects public records each night and updates numbers like vote counts and campaign totals. Software also helps us find and organize records. A person writes and reviews every plain-English summary before it appears as a summary. When something is waiting for review, the page says so.</p>`);
+
+views.terms = () => policy("Terms of use", "", `
+  <p>By using glassballot.org you agree to these terms. If you don't agree, please don't use the site.</p>
+  <h2 class="h3">What this site is</h2>
+  <p>Glass Ballot is a free, nonpartisan source of information about local elections, gathered from public records and published reports. It is for general information only. It is not legal advice, and it is not an official election resource.</p>
+  <h2 class="h3">Check official sources before you vote</h2>
+  <p>We work hard to be accurate, but we can make mistakes, and records change. For anything about how, when or where to vote, rely on your county Supervisor of Elections and the Florida Division of Elections. Nothing on this site replaces your official sample ballot.</p>
+  <h2 class="h3">No endorsements</h2>
+  <p>Nothing on this site is an endorsement of, or opposition to, any candidate, party or ballot question. Listing a fact, a vote or a donation is not a claim that anyone did anything wrong.</p>
+  <h2 class="h3">Links to other sites</h2>
+  <p>We link to government sites, news outlets, campaign websites and social media. We don't control those sites and aren't responsible for what they say or do.</p>
+  <h2 class="h3">Reports you send us</h2>
+  <p>When you report a mistake, you agree that what you send is truthful to the best of your knowledge, and that we may use it to review and correct the site. Don't send anything that is abusive, misleading, or that you don't have the right to share. We may ignore or delete reports that are spam, off topic or abusive. We don't publish your name or email address.</p>
+  <h2 class="h3">Using our information</h2>
+  <p>The facts on this site come from public records. You are welcome to share and quote them. Please link back to the page you used so others can see the sources. Our site design, logo and written summaries belong to Glass Ballot. Photos belong to their owners, listed with each source.</p>
+  <h2 class="h3">No warranty</h2>
+  <p>The site is provided "as is," without warranties of any kind. To the fullest extent the law allows, Glass Ballot is not liable for any loss or damage that comes from using the site or relying on its information.</p>
+  <h2 class="h3">Changes and governing law</h2>
+  <p>We may update these terms. The date at the top shows the latest version. These terms are governed by the laws of the State of Florida.</p>
+  <h2 class="h3">Contact</h2>
+  <p>glassballotinfo@gmail.com</p>`);
+
+views.privacy = () => policy("Privacy policy", "Short version: we don't track you, we don't sell anything, and your choices stay on your device.", `
+  <h2 class="h3">What we don't do</h2>
+  <ul><li>We don't use advertising or tracking cookies.</li><li>We don't run analytics that follow you around the web.</li><li>We don't sell or rent information about anyone.</li></ul>
+  <h2 class="h3">What stays on your device</h2>
+  <p>Your county, your district, your text-size setting and the list of choices you mark are saved in your own browser so the site remembers them next time. We never receive them. You can clear them by clearing your browser's site data.</p>
+  <h2 class="h3">If you report a mistake</h2>
+  <p>The report form sends us what you type, the page you were on, and your email address if you choose to give it. We use this only to review the report and, if needed, to ask you a question. We don't publish your name or email address, and we don't add you to any mailing list. Reports are stored by our web host, Netlify, and copies come to our email inbox.</p>
+  <h2 class="h3">Services that help run the site</h2>
+  <ul><li><b>Netlify</b> hosts the site and the report form, and keeps standard server logs, such as IP addresses, for security.</li><li><b>Google reCAPTCHA</b> on the report form blocks spam. Google's privacy policy and terms apply to it.</li><li><b>Google Fonts</b> provides the site's typefaces, so your browser contacts Google to load them.</li><li><b>Candidate photos</b> load from county and election office websites, so your browser contacts those sites when a photo appears.</li></ul>
+  <h2 class="h3">Children</h2>
+  <p>This site is meant for voters and isn't directed at children under 13. We don't knowingly collect information from them.</p>
+  <h2 class="h3">Questions</h2>
+  <p>Email glassballotinfo@gmail.com. If you sent us a report and want it deleted, tell us and we will delete it.</p>`);
+
+views.accessibility = () => policy("Accessibility", "We want everyone to be able to use this site, including people who use screen readers, keyboards or large text.", `
+  <p>We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.1, level AA. The site works with a keyboard, supports screen readers, and has a text-size button at the top of every page. It also works with your phone's or browser's own text-size settings.</p>
+  <p>If something on the site is hard to use, or you need information in another format, email glassballotinfo@gmail.com and we'll help.</p>`);
 
 views.corrections = () => { const list = (DATA.corrections || []).slice().sort((a,b) => (b.date || "").localeCompare(a.date || ""));
   return `<div class="stack-lg view">
-  ${band("Public log", "Corrections", "Every change we make to a fact after it's published, with the date, what it said before, what it says now, and the source that settled it.", "06-city-hall-details")}
-  ${list.length ? `<div class="list">${list.map(c => `<div class="li"><span class="body" style="gap:6px"><span class="tiny muted">${fmtDate(c.date)}${c.county && COUNTIES[c.county] ? " · " + esc(cname(c.county)) : ""}</span><span class="title">${esc(c.subject)}</span><span class="small"><span class="muted">Before:</span> ${esc(c.before)}</span><span class="small"><span class="muted">Now:</span> ${esc(c.after)}</span>${c.source ? `<a class="small" href="${esc(c.source)}" target="_blank" rel="noopener">Source for the change</a>` : ""}</span></div>`).join("")}</div>`
-    : `<p class="notice">No corrections yet. When a fact changes, it's listed here with the source that settled it.</p>`}
-  <section class="stack"><h2 class="h2">Automatic updates</h2>
-    <p class="small muted">Every night we re-check the official records: county roll-call votes and the Supervisors of Elections' campaign reports. Any fact that changes is listed here with its old and new value.</p>
-    ${(DATA.changes || []).length ? `<div class="list">${DATA.changes.map(c => `<div class="li"><span class="body" style="gap:6px"><span class="title">${fmtDate(c.date)}</span><span class="small muted">${c.changed.length} fact${c.changed.length === 1 ? "" : "s"} changed, ${c.added.length} added${c.errors.length ? `, ${c.errors.length} source${c.errors.length === 1 ? "" : "s"} couldn't be reached (last good data kept)` : ""}</span>${c.changed.slice(0, 12).map(x => `<span class="small"><b>${esc(x.subject)}</b>: ${esc(shownText(x.before))} <span class="muted">now</span> ${esc(shownText(x.after))}</span>`).join("")}</span></div>`).join("")}</div>` : `<p class="notice">The nightly check starts once automatic publishing is connected. Until then, updates are made by hand and logged above.</p>`}
+  ${band("", "Changes and corrections", "Every time we correct a fact, and every change from our nightly records check, listed in public.", "06-city-hall-details")}
+  <section class="stack"><h2 class="h2">Corrections</h2>
+  ${list.length ? `<div class="list">${list.map(c => `<div class="li"><span class="body" style="gap:6px"><span class="tiny muted">${fmtDate(c.date)}${c.county && COUNTIES[c.county] ? " · " + esc(cname(c.county)) + " County" : ""}</span><span class="title">${esc(c.subject)}</span><span class="small"><span class="muted">Before:</span> ${esc(c.before)}</span><span class="small"><span class="muted">Now:</span> ${esc(c.after)}</span>${c.source ? `<a class="small" href="${esc(c.source)}" target="_blank" rel="noopener">The record we checked</a>` : ""}</span></div>`).join("")}</div>` : `<p class="notice">No corrections yet.</p>`}</section>
+  <section class="stack"><h2 class="h2">Updates from the nightly check</h2>
+    ${(DATA.changes || []).length ? `<div class="list">${DATA.changes.map(c => `<div class="li"><span class="body" style="gap:6px"><span class="title">${fmtDate(c.date)}</span><span class="small muted">${c.changed.length} fact${c.changed.length === 1 ? "" : "s"} changed${c.errors.length ? `. ${c.errors.length} source${c.errors.length === 1 ? "" : "s"} couldn't be reached, so we kept the last good data` : ""}.</span>${c.changed.slice(0, 12).map(x => `<span class="small"><b>${esc(x.subject)}</b>: ${esc(shownText(x.before))} <span class="muted">now</span> ${esc(shownText(x.after))}</span>`).join("")}</span></div>`).join("")}</div>` : `<p class="notice">No automatic updates yet.</p>`}
   </section>
-  <p class="small muted">Disagreements we haven't settled stay on each county's "Where sources disagree" page.</p>
+  <section class="stack"><h2 class="h2">Where sources disagree</h2><div class="list">${ORDER.map(k => `<a href="#/${k}/problems"><span class="body"><span class="title">${esc(cname(k))} County</span><span class="tiny muted">${COUNTIES[k].problems.length} open</span></span>${chev}</a>`).join("")}</div></section>
 </div>`; };
 
-views.thanks = () => `<div class="stack-lg view"><section class="band"><span class="kicker">Correction received</span><h1 class="h1">Thanks. A person will check it.</h1><p class="lede">We compare your suggestion with the source you linked. If it holds up, the fact is updated and the change is logged in public.</p><div class="row"><a class="btn primary" href="${CK ? href() : "#/"}">Back to the ballot</a></div></section></div>`;
+views.thanks = () => `<div class="stack-lg view"><section class="band"><h1 class="h1">Thank you. We got your report.</h1><p class="lede">A person will check it against the link you sent. If we change anything, it will be listed on our corrections page.</p><div class="row"><a class="btn primary" href="${CK ? href() : "#/"}">Back to the ballot</a></div></section></div>`;
 
 /* ---------- share card ---------- */
 function wrapText(ctx, text, maxW) { const words = text.split(" "); const lines = []; let line = ""; for (const w of words) { const t = line ? line + " " + w : w; if (ctx.measureText(t).width > maxW && line) { lines.push(line); line = w; } else line = t; } if (line) lines.push(line); return lines; }
@@ -889,113 +1069,123 @@ async function makeShare(id) {
   const H = '"Plus Jakarta Sans", system-ui, sans-serif', B = 'Inter, system-ui, sans-serif';
   const g = x.createLinearGradient(0,0,1080,1080); g.addColorStop(0,"#0B3D91"); g.addColorStop(1,"#1A56D0"); x.fillStyle = g; x.fillRect(0,0,1080,1080);
   x.fillStyle = "#FFFFFF"; x.font = `800 46px ${H}`; x.fillText("Glass", 72, 120); const gw = x.measureText("Glass").width; x.fillStyle = "#8DB8FF"; x.fillText("Ballot", 72 + gw + 6, 120);
-  x.fillStyle = "#A9C8FF"; x.font = `600 28px ${B}`; x.fillText(`${C.county.name} Commission, ${voteDate(v)}`, 72, 230);
-  x.fillStyle = "#FFFFFF"; x.font = `800 70px ${H}`;
-  const lines = wrapText(x, v.headline, 936).slice(0,4); lines.forEach((l,i) => x.fillText(l, 72, 330 + i*82));
-  let y = 330 + lines.length*82 + 44;
+  x.fillStyle = "#A9C8FF"; x.font = `600 28px ${B}`; x.fillText(`${C.county.name} Commission, ${voteDate(v)}${v.fileNumber ? ", item " + v.fileNumber : ""}`, 72, 230);
+  x.fillStyle = "#FFFFFF"; x.font = `800 66px ${H}`;
+  const lines = wrapText(x, v.headline, 936).slice(0,4); lines.forEach((l,i) => x.fillText(l, 72, 330 + i*78));
+  let y = 330 + lines.length*78 + 44;
   x.fillStyle = "#5EEAD4"; x.font = `800 50px ${H}`; x.fillText(v.result.value || "Result not confirmed", 72, y);
   const r = rollOf(v); y += 70;
   if (r && (r.yes?.length || r.no?.length)) { x.fillStyle = "#E8F6FF"; x.font = `500 32px ${B}`;
     wrapText(x, `Yes: ${(r.yes||[]).map(i => P[i] ? lastName(P[i]) : i).join(", ")}`, 936).forEach(l => { x.fillText(l, 72, y); y += 44; });
     wrapText(x, `No: ${(r.no||[]).map(i => P[i] ? lastName(P[i]) : i).join(", ") || "none"}`, 936).forEach(l => { x.fillText(l, 72, y); y += 44; }); }
-  const lab = LAB[v.result.label]; x.font = `600 28px ${B}`; const pubs = [...new Set((v.result.sources||[]).map(s => S[s]?.publisher).filter(Boolean))].join(", ");
-  x.fillStyle = "#A9C8FF"; wrapText(x, `${lab.t}. Source: ${pubs || "none yet"}`, 936).forEach(l => { x.fillText(l, 72, y + 10); y += 40; });
+  x.fillStyle = "#A9C8FF"; x.font = `600 28px ${B}`; x.fillText("Official record linked at glassballot.org", 72, y + 20);
   x.fillStyle = "#FFFFFF"; x.font = `800 40px ${H}`; x.fillText("glassballot.org", 72, 1010);
   c.toBlob(blob => { const url = URL.createObjectURL(blob);
-    out.innerHTML = `<img src="${url}" alt="Share card: ${esc(v.headline)}" style="border-radius:14px;border:1px solid var(--line)"><a class="btn" href="${url}" download="glassballot-${esc(id)}.png">Save image</a>`; }, "image/png");
+    out.innerHTML = `<img src="${url}" alt="Shareable image: ${esc(v.headline)}" style="border-radius:14px;border:1px solid var(--line);max-width:420px"><a class="btn" href="${url}" download="glassballot-${esc(id)}.png">Save image</a>`; }, "image/png");
 }
 
-/* ---------- corrections ---------- */
+/* ---------- corrections form ---------- */
 const fixDlg = $("#fixDlg");
 function openFix(btn) {
   const sent = Number(store.get("gb-fix-count") || 0);
-  if (sent >= 5) { $("#fixQuote").textContent = "You've sent several corrections already. Thanks. To send more, email glassballotinfo@gmail.com with your sources."; $("#fixForm").hidden = true; fixDlg.showModal(); return; }
+  if (sent >= 5) { $("#fixQuote").textContent = "You've already sent several reports. Thank you. To send more, please email glassballotinfo@gmail.com with your links."; $("#fixForm").hidden = true; fixDlg.showModal(); return; }
   $("#fixForm").hidden = false; $("#fxMsg").textContent = "";
   $("#fxCounty").value = CK || ""; $("#fxPage").value = location.hash; $("#fxFact").value = btn.dataset.fix; $("#fxShown").value = btn.dataset.shown; $("#fxOpened").value = String(Date.now());
-  $("#fixQuote").innerHTML = `<span class="tiny muted">We show</span><div style="font-weight:600">${esc(btn.dataset.shown || "Unknown")}</div>`;
+  $("#fixQuote").innerHTML = `<span class="tiny muted">You're reporting a problem with:</span><div style="font-weight:600">${esc(btn.dataset.shown || "This page")}</div>`;
   fixDlg.showModal();
 }
 $("#fixForm").addEventListener("submit", e => {
   const f = e.target, msg = $("#fxMsg");
-  const opened = Number($("#fxOpened").value || 0);
   if (f.website.value) { e.preventDefault(); return; }
-  if (Date.now() - opened < 4000) { e.preventDefault(); msg.textContent = "Take a moment to check the source, then send."; return; }
-  const ev = f.evidence.value.trim();
-  if (!/^https?:\/\/[^\s/]+\.[^\s]+$/.test(ev)) { e.preventDefault(); msg.textContent = "Add a full link to a public source, starting with https://"; return; }
-  if (/(https?:\/\/)/g.test(f.suggestion.value) && (f.suggestion.value.match(/https?:\/\//g) || []).length > 2) { e.preventDefault(); msg.textContent = "Put the source in the link box. Too many links in the suggestion."; return; }
+  if (Date.now() - Number($("#fxOpened").value || 0) < 4000) { e.preventDefault(); msg.textContent = "Please take a moment to check your link, then send."; return; }
+  if (!/^https?:\/\/[^\s/]+\.[^\s]+$/.test(f.evidence.value.trim())) { e.preventDefault(); msg.textContent = "Please add a full link, starting with https://"; return; }
+  if ((f.suggestion.value.match(/https?:\/\//g) || []).length > 2) { e.preventDefault(); msg.textContent = "Please put your link in the link box."; return; }
   store.set("gb-fix-count", String(Number(store.get("gb-fix-count") || 0) + 1));
 });
+
+/* ---------- ZIP lookup ---------- */
+function zipLookup(z) {
+  const msg = $("#zipMsg"); const hit = (DATA.zips || {})[z];
+  if (!/^\d{5}$/.test(z)) { msg.textContent = "Please type a 5-digit ZIP code."; return; }
+  if (!hit) { msg.innerHTML = `We don't cover that ZIP code yet. We cover ${ORDER.map(k => `<a href="#/${k}">${esc(cname(k))}</a>`).join(", ")} counties.`; return; }
+  const ours = hit.filter(k => COUNTIES[k]);
+  if (ours.length === 1 && !hit.includes("other")) { location.hash = "#/" + ours[0]; return; }
+  msg.innerHTML = `ZIP ${esc(z)} crosses county lines. Which county do you live in? ${ours.map(k => `<a href="#/${k}">${esc(cname(k))}</a>`).join(" or ")}${hit.includes("other") ? " (or a county we don't cover yet)" : ""}`;
+}
 
 /* ---------- search ---------- */
 function searchIndex() { const out = [];
   ORDER.forEach(k => { const c = COUNTIES[k], n = cname(k);
     c.people.forEach(p => out.push({h:`#/${k}/p/${p.id}`, t:p.name, s:`${p.office}${p.district ? ", District " + p.district : ""} · ${n}`}));
     c.votes.forEach(v => out.push({h:`#/${k}/v/${v.id}`, t:v.headline, s:`${voteDate(v)} · ${n}`}));
-    c.races.forEach(r => out.push({h:`#/${k}/r/${r.id}`, t:r.title, s:`On the Nov 3 ballot · ${n}`}));
+    c.races.forEach(r => out.push({h:`#/${k}/r/${r.id}`, t:r.title, s:`${n} County ballot`}));
     c.topics.forEach(t => out.push({h:`#/${k}/t/${t.id}`, t:t.name, s:`Topic · ${n}`})); });
-  out.push({h:"#/sources", t:"Every source we use", s:"Full transparency"}, {h:"#/how", t:"How Glass Ballot works", s:"Labels, sources, corrections, scoring"});
+  out.push({h:"#/about", t:"About Glass Ballot", s:"Who we are"}, {h:"#/standards", t:"Our standards", s:"How we work"});
   return out; }
 function runSearch(q) { const ql = q.trim().toLowerCase(); const items = searchIndex().filter(i => !ql || (i.t + " " + i.s).toLowerCase().includes(ql)).slice(0, 14);
-  $("#results").innerHTML = items.length ? items.map(i => `<a href="${i.h}"><span><b>${esc(i.t)}</b></span><span class="small muted" style="text-align:right">${esc(i.s)}</span></a>`).join("") : `<p class="muted">Nothing matches "${esc(q)}". Try a last name or a topic like taxes.</p>`; }
+  $("#results").innerHTML = items.length ? items.map(i => `<a href="${i.h}"><span><b>${esc(i.t)}</b></span><span class="small muted" style="text-align:right">${esc(i.s)}</span></a>`).join("") : `<p class="muted">Nothing matches "${esc(q)}". Try a last name or a word like taxes.</p>`; }
 
 /* ---------- router ---------- */
-function notFound() { return `<div class="stack view"><h1 class="h1">Page not found</h1><p><a href="#/">Back to the start</a></p></div>`; }
-const LEGACY = {p:"p", v:"v", r:"r", t:"t"};
+function notFound() { return `<div class="stack view"><h1 class="h1">We couldn't find that page</h1><p><a href="#/">Go to the start</a></p></div>`; }
+const GLOBAL = {about:"about", standards:"about", terms:"about", privacy:"about", accessibility:"about", corrections:"about", sources:"about", thanks:""};
 function route() {
   if (location.pathname === "/thanks") { history.replaceState(null, "", "/#/thanks"); }
   let h = (location.hash || "#/").slice(1);
   const old = h.match(/^(p|v|r|t)-(.+)$/); if (old) { location.replace(`#/pinellas/${old[1]}/${old[2]}`); return; }
-  if (["ballot","officials","votes","topics","problems","how"].includes(h)) { location.replace(h === "how" ? "#/how" : `#/pinellas${h === "ballot" ? "" : "/" + h}`); return; }
+  if (["ballot","officials","votes","topics","problems"].includes(h)) { location.replace(`#/pinellas${h === "ballot" ? "" : "/" + h}`); return; }
+  if (h === "how" || h === "/how") { location.replace("#/standards"); return; }
   const parts = h.replace(/^\//, "").split("/").filter(Boolean);
   let html, tab = "ballot";
   if (!parts.length) { CK = null; html = views.home(); tab = "home"; }
-  else if (parts[0] === "sources") { CK = null; html = views.sources(); tab = "sources"; }
-  else if (parts[0] === "how") { html = views.how(); tab = "how"; }
-  else if (parts[0] === "corrections") { html = views.corrections(); tab = "how"; }
-  else if (parts[0] === "thanks") { html = views.thanks(); tab = ""; }
+  else if (parts[0] in GLOBAL) { if (parts[0] === "sources") CK = null; html = views[parts[0]](); tab = GLOBAL[parts[0]]; }
   else if (useCounty(parts[0])) {
     const [, a, b] = parts;
     if (!a) html = views.ballot();
     else if (a === "officials") { html = views.officials(); tab = "officials"; }
-    else if (a === "votes") { html = views.votes(); tab = "votes"; }
-    else if (a === "problems") html = views.problems();
-    else if (a === "sources") { html = views.sources(); tab = "sources"; }
-    else if (a === "p") { html = views.person(b); tab = "officials"; }
-    else if (a === "v") { html = views.vote(b); tab = "votes"; }
+    else if (a === "votes") { html = views.votes(); tab = "officials"; }
+    else if (a === "vote") { html = views.vote(); tab = "vote"; }
+    else if (a === "mylist") html = views.mylist();
+    else if (a === "problems") { html = views.problems(); tab = "about"; }
+    else if (a === "sources") { html = views.sources(); tab = "about"; }
+    else if (a === "p") { html = views.person(b); tab = P[b] && P[b].race ? "ballot" : "officials"; }
+    else if (a === "v") { html = views.vote_item(b); tab = "officials"; }
     else if (a === "r") html = views.race(b);
-    else if (a === "t") { html = views.topic(b); tab = "votes"; }
-    else if (a === "s") { html = views.source(b); tab = "sources"; }
+    else if (a === "t") { html = views.topic(b); tab = "officials"; }
+    else if (a === "s") { html = views.source(b); tab = "about"; }
     else html = notFound();
   } else html = notFound();
   $("#app").innerHTML = html;
-  const ck = CK || store.get("gb-county") || ORDER[0];
-  $("#countyName").textContent = CK ? cname(CK) : "Tampa Bay";
+  const ck = CK || store.get("gb-county");
+  $("#countyName").textContent = CK ? cname(CK) : (ck && COUNTIES[ck] ? cname(ck) : "County");
   document.querySelectorAll("[data-tab]").forEach(a => {
     const t = a.dataset.tab;
-    if (t === "ballot") a.href = `#/${ck}`; else if (t === "officials") a.href = `#/${ck}/officials`; else if (t === "votes") a.href = `#/${ck}/votes`;
+    if (t === "ballot") a.href = ck ? `#/${ck}` : "#/"; else if (t === "officials") a.href = ck ? `#/${ck}/officials` : "#/"; else if (t === "vote") a.href = ck ? `#/${ck}/vote` : "#/";
     if (t === tab) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); });
-  document.title = CK ? `${cname(CK)} County | Glass Ballot` : "Glass Ballot | Tampa Bay voter guide";
+  document.title = CK ? `${cname(CK)} County ballot guide | Glass Ballot` : "Glass Ballot | Tampa Bay local election guide";
   $("#search").hidden = true;
   window.scrollTo(0, 0);
 }
 
-function countyChoices() { $("#countyChoices").innerHTML = ORDER.map(k => `<a href="#/${k}" data-close><span class="body"><span class="title">${esc(COUNTIES[k].county.name)}</span><span class="tiny muted">${COUNTIES[k].races.length} local races · ${COUNTIES[k].people.length} people</span></span>${chev}</a>`).join("") + `<a href="#/" data-close><span class="body"><span class="title">All of Tampa Bay</span><span class="tiny muted">Map and overview</span></span>${chev}</a>`; }
+function countyChoices() { $("#countyChoices").innerHTML = ORDER.map(k => `<a href="#/${k}" data-close><span class="body"><span class="title">${esc(COUNTIES[k].county.name)}</span><span class="tiny muted">${COUNTIES[k].races.filter(r => r.onNovBallot !== false).length} races on the Nov 3 ballot</span></span>${chev}</a>`).join("") + `<a href="#/" data-close><span class="body"><span class="title">Start over</span><span class="tiny muted">Look up by ZIP code</span></span>${chev}</a>`; }
+
+function setBig(on) { document.documentElement.classList.toggle("big", on); $("#textSize").setAttribute("aria-pressed", String(on)); $("#textSize").setAttribute("aria-label", on ? "Make text smaller" : "Make text bigger"); store.set("gb-big", on ? "1" : ""); }
+setBig(store.get("gb-big") === "1");
 
 document.addEventListener("click", e => {
   const cl = e.target.closest("[data-close]"); if (cl) { cl.closest("dialog")?.close(); if (cl.tagName !== "A") return; }
   const fx = e.target.closest("[data-fix]"); if (fx) { openFix(fx); return; }
-  const pb = e.target.closest("[data-pane-btn]"); if (pb) { e.preventDefault(); store.set("gb-pane", pb.dataset.paneBtn);
-    document.querySelectorAll("[data-pane-btn]").forEach(x => x.classList.toggle("on", x === pb));
-    document.querySelectorAll("[data-pane]").forEach(x => x.classList.toggle("show", x.dataset.pane === pb.dataset.paneBtn)); return; }
+  const pk = e.target.closest("[data-pick]"); if (pk) { const [race, pid] = pk.dataset.pick.split("|"); setPick(CK, race, pid); const y = window.scrollY; route(); window.scrollTo(0, y); return; }
   const mo = e.target.closest("[data-more]"); if (mo) { showAll.add(mo.dataset.more); const y = window.scrollY; route(); window.scrollTo(0, y); return; }
   const d = e.target.closest("[data-district]"); if (d) { store.set("gb-district-" + CK, d.dataset.district); const y = window.scrollY; route(); window.scrollTo(0, y); return; }
   const t = e.target.closest("[data-topic]"); if (t) { store.set("gb-topic-" + CK, t.dataset.topic); const y = window.scrollY; route(); window.scrollTo(0, y); return; }
   const s = e.target.closest("[data-share]"); if (s) { makeShare(s.dataset.share); return; }
+  if (e.target.closest("#textSize")) { setBig(!document.documentElement.classList.contains("big")); return; }
   if (e.target.closest("#pickCounty")) { countyChoices(); $("#countyDlg").showModal(); return; }
   if (e.target.closest("#openSearch")) { $("#search").hidden = false; $("#q").value = ""; runSearch(""); $("#q").focus(); return; }
   if (e.target.closest("#closeSearch")) { $("#search").hidden = true; return; }
   const link = e.target.closest('a[href^="#"]'); if (link && link.getAttribute("href") === location.hash) { route(); }
 });
+document.addEventListener("submit", e => { if (e.target.id === "zipForm") { e.preventDefault(); zipLookup($("#zipIn").value.trim()); } });
 document.querySelectorAll("dialog").forEach(dl => dl.addEventListener("click", e => { if (e.target === dl) dl.close(); }));
 $("#q").addEventListener("input", e => runSearch(e.target.value));
 document.addEventListener("keydown", e => { if (e.key === "Escape" && !$("#search").hidden) $("#search").hidden = true; });
@@ -1003,9 +1193,8 @@ window.addEventListener("hashchange", route);
 
 $("#foot").innerHTML = `<div class="wrap stack" style="gap:14px">
   <span class="wordmark">Glass<b>Ballot</b><i>.org</i></span>
-  <span class="tag">A MORE TRANSPARENT TOMORROW</span>
-  <p style="max-width:62ch">Independent and nonpartisan. We never endorse a candidate, party or ballot question. Facts gathered from public records and reporting, last updated ${fmtDate(DATA.region.updated)}. Photos are illustrations, not pictures of specific county buildings.</p>
-  <p class="row" style="gap:6px 18px"><a href="#/how">How it works</a><a href="#/sources">Every source</a><a href="#/corrections">Corrections and updates</a><a href="/data/glassballot.json">Download the data</a><a href="mailto:glassballotinfo@gmail.com">glassballotinfo@gmail.com</a></p>
+  <p style="max-width:62ch">A free, independent guide to local elections in Tampa Bay. We don't endorse candidates or take money from campaigns. Information comes from public records and published reports and was last updated ${fmtDate(DATA.region.updated)}. Photos at the top of pages are illustrations.</p>
+  <p class="row" style="gap:6px 18px"><a href="#/about">About</a><a href="#/standards">Our standards</a><a href="#/sources">Sources</a><a href="#/corrections">Corrections</a><a href="#/terms">Terms</a><a href="#/privacy">Privacy</a><a href="#/accessibility">Accessibility</a><a href="mailto:glassballotinfo@gmail.com">Contact</a></p>
 </div>`;
 route();
 </script>

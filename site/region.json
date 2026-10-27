@@ -3,7 +3,7 @@
   "name": "Tampa Bay",
   "state": "FL",
   "electionDate": "2026-11-03",
-  "updated": "2026-10-26"
+  "updated": "2026-10-27"
  },
  "order": [
   "pinellas",
@@ -23,8 +23,8 @@
     "lookupUrl": "https://www.votepinellas.gov/",
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=pinellas"
    },
-   "generatedAt": "2026-10-26",
-   "accessed": "2026-10-26",
+   "generatedAt": "2026-10-27",
+   "accessed": "2026-10-27",
    "legistarLoaded": true,
    "legistarTotals": {
     "meetings": 43,
@@ -5552,8 +5552,8 @@
     "seats": "7 commissioners. Districts 1 to 4 are single-member, so only voters who live in that district vote. Districts 5, 6 and 7 are countywide (at-large), so every Hillsborough voter votes on them. Districts 1, 3, 5 and 7 are on the 2026 ballot.",
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hillsborough&el=27"
    },
-   "generatedAt": "2026-10-26",
-   "accessed": "2026-10-26",
+   "generatedAt": "2026-10-27",
+   "accessed": "2026-10-27",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -5969,6 +5969,13 @@
      "publisher": "Kenneth \"Ken\" Gay campaign",
      "tier": 5,
      "accessed": "2026-10-26"
+    },
+    "ethics-efdms": {
+     "title": "Florida Commission on Ethics, financial disclosure public search",
+     "url": "https://disclosure.floridaethics.gov/PublicSearch/Filings",
+     "publisher": "Florida Commission on Ethics",
+     "tier": 1,
+     "accessed": "2026-10-27"
     }
    },
    "people": [
@@ -6073,9 +6080,19 @@
        "sources": []
       },
       "filings": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": [
+        "Form 6 for 2020: filed Jul 6, 2021, 5 days after the Jul 1, 2021 due date",
+        "Form 6 for 2021: filed Jun 14, 2022",
+        "Form 6 for 2022: filed Aug 20, 2023, 48 days after the Jul 3, 2023 due date",
+        "Form 6 for 2023: filed Jul 1, 2024",
+        "Form 6 for 2024: filed Jul 22, 2025, 21 days after the Jul 1, 2025 due date",
+        "Form 6 for 2025: filed Jun 2, 2026"
+       ],
+       "label": "single",
+       "sources": [
+        "ethics-efdms"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "raised": {
        "value": "$195,577 in contributions, plus $5,613.08 in-kind (as of Oct 26, 2026)",
@@ -6157,7 +6174,7 @@
        "conflict_handling": null,
        "money_timing": null,
        "promise_match": null,
-       "openness": null
+       "openness": 50.0
       },
       "scoredVotes": 2,
       "reason": "Not enough record yet: 2 of 25 scored votes loaded."
@@ -6243,9 +6260,23 @@
        "sources": []
       },
       "filings": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": [
+        "Form 6 for 2016: filed Aug 31, 2017, 59 days after the Jul 3, 2017 due date",
+        "Form 6 for 2017: filed Jun 21, 2018",
+        "Form 6 for 2018: filed Sep 3, 2019, 64 days after the Jul 1, 2019 due date",
+        "Form 6 for 2019: filed Aug 31, 2020, 61 days after the Jul 1, 2020 due date",
+        "Form 6 for 2020: filed Aug 31, 2021, 61 days after the Jul 1, 2021 due date",
+        "Form 6 for 2021: filed Jun 17, 2022",
+        "Form 6 for 2022: filed Aug 25, 2023, 53 days after the Jul 3, 2023 due date",
+        "Form 6 for 2023: filed Jun 13, 2024",
+        "Form 6 for 2024: filed Aug 27, 2025, 57 days after the Jul 1, 2025 due date",
+        "Form 6 for 2025: filed Aug 31, 2026, 61 days after the Jul 1, 2026 due date"
+       ],
+       "label": "single",
+       "sources": [
+        "ethics-efdms"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "raised": {
        "value": null,
@@ -6314,7 +6345,7 @@
        "conflict_handling": null,
        "money_timing": null,
        "promise_match": null,
-       "openness": null
+       "openness": 30.0
       },
       "scoredVotes": 2,
       "reason": "Not enough record yet: 2 of 25 scored votes loaded."
@@ -6419,9 +6450,19 @@
        "sources": []
       },
       "filings": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": [
+        "Form 6 for 2020: filed Jul 1, 2021",
+        "Form 6 for 2021: filed Jun 10, 2022",
+        "Form 6 for 2022: filed Jun 30, 2023",
+        "Form 6 for 2023: filed Jun 27, 2024",
+        "Form 6 for 2024: filed Jun 30, 2025",
+        "Form 6 for 2025: filed May 26, 2026"
+       ],
+       "label": "single",
+       "sources": [
+        "ethics-efdms"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "raised": {
        "value": "$146,130 in contributions, plus $118.51 in-kind (as of Oct 26, 2026)",
@@ -6534,7 +6575,7 @@
        "conflict_handling": null,
        "money_timing": null,
        "promise_match": null,
-       "openness": null
+       "openness": 100.0
       },
       "scoredVotes": 2,
       "reason": "Not enough record yet: 2 of 25 scored votes loaded."
@@ -6620,9 +6661,15 @@
        "sources": []
       },
       "filings": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": [
+        "Form 6 for 2024: filed Aug 27, 2025, 57 days after the Jul 1, 2025 due date",
+        "Form 6 for 2025: filed Aug 30, 2026, 60 days after the Jul 1, 2026 due date"
+       ],
+       "label": "single",
+       "sources": [
+        "ethics-efdms"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "raised": {
        "value": null,
@@ -6691,7 +6738,7 @@
        "conflict_handling": null,
        "money_timing": null,
        "promise_match": null,
-       "openness": null
+       "openness": 0.0
       },
       "scoredVotes": 2,
       "reason": "Not enough record yet: 2 of 25 scored votes loaded."
@@ -6790,9 +6837,18 @@
        "sources": []
       },
       "filings": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": [
+        "Form 6 for 2022: filed May 16, 2023",
+        "Form 6 for 2023: filed Jun 21, 2024",
+        "Form 6X for 2023: filed Jun 26, 2024",
+        "Form 6 for 2024: filed Jun 30, 2025",
+        "Form 6 for 2025: filed Jun 2, 2026"
+       ],
+       "label": "single",
+       "sources": [
+        "ethics-efdms"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "raised": {
        "value": "$32,501.07 in contributions, plus $3,000 in-kind (as of Oct 26, 2026)",
@@ -6864,7 +6920,7 @@
        "conflict_handling": null,
        "money_timing": null,
        "promise_match": null,
-       "openness": null
+       "openness": 100.0
       },
       "scoredVotes": 2,
       "reason": "Not enough record yet: 2 of 25 scored votes loaded."
@@ -6951,9 +7007,15 @@
        "sources": []
       },
       "filings": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": [
+        "Form 6 for 2024: filed Feb 6, 2025",
+        "Form 6 for 2025: filed Jan 14, 2026"
+       ],
+       "label": "single",
+       "sources": [
+        "ethics-efdms"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "raised": {
        "value": null,
@@ -7022,7 +7084,7 @@
        "conflict_handling": null,
        "money_timing": null,
        "promise_match": null,
-       "openness": null
+       "openness": 100.0
       },
       "scoredVotes": 2,
       "reason": "Not enough record yet: 2 of 25 scored votes loaded."
@@ -7119,9 +7181,17 @@
        "sources": []
       },
       "filings": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": [
+        "Form 6 for 2022: filed Jun 14, 2023",
+        "Form 6 for 2023: filed Jun 25, 2024",
+        "Form 6 for 2024: filed Jun 3, 2025",
+        "Form 6 for 2025: filed Jun 4, 2026"
+       ],
+       "label": "single",
+       "sources": [
+        "ethics-efdms"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "raised": {
        "value": "$213,387.67 in contributions, plus $3,113.67 in-kind (as of Oct 26, 2026)",
@@ -7240,7 +7310,7 @@
        "conflict_handling": null,
        "money_timing": null,
        "promise_match": null,
-       "openness": null
+       "openness": 100.0
       },
       "scoredVotes": 2,
       "reason": "Not enough record yet: 2 of 25 scored votes loaded."
@@ -8534,9 +8604,18 @@
        "sources": []
       },
       "filings": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": [
+        "Form 6 for 2022: filed Jun 19, 2023",
+        "Form 6X for 2022: filed Apr 4, 2024, 276 days after the Jul 3, 2023 due date",
+        "Form 6 for 2023: filed Jun 22, 2024",
+        "Form 6 for 2024: filed Jun 23, 2025",
+        "Form 6 for 2025: filed Jun 1, 2026"
+       ],
+       "label": "single",
+       "sources": [
+        "ethics-efdms"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "raised": {
        "value": "$50,888 in contributions, plus $2,100 in-kind (as of Oct 26, 2026)",
@@ -8597,7 +8676,7 @@
        "conflict_handling": null,
        "money_timing": null,
        "promise_match": null,
-       "openness": null
+       "openness": 100.0
       },
       "scoredVotes": 0,
       "reason": "Not enough record yet: 0 of 25 scored votes loaded."
@@ -8693,9 +8772,21 @@
        "sources": []
       },
       "filings": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": [
+        "Form 6 for 2018: filed Jul 1, 2019",
+        "Form 6 for 2019: filed Jun 24, 2020",
+        "Form 6 for 2020: filed Jul 1, 2021",
+        "Form 6 for 2021: filed May 23, 2022",
+        "Form 6 for 2022: filed Apr 27, 2023",
+        "Form 6 for 2023: filed Jun 9, 2024",
+        "Form 6 for 2024: filed Jun 9, 2025",
+        "Form 6 for 2025: filed May 13, 2026"
+       ],
+       "label": "single",
+       "sources": [
+        "ethics-efdms"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "raised": {
        "value": "$59,398.47 in contributions, plus $9,423.41 in-kind (as of Oct 26, 2026)",
@@ -8777,7 +8868,7 @@
        "conflict_handling": null,
        "money_timing": null,
        "promise_match": null,
-       "openness": null
+       "openness": 100.0
       },
       "scoredVotes": 0,
       "reason": "Not enough record yet: 0 of 25 scored votes loaded."
@@ -9597,7 +9688,7 @@
    ],
    "labelCounts": {
     "verified": 14,
-    "single": 45,
+    "single": 54,
     "unverified": 42,
     "conflict": 1,
     "unknown": 7
@@ -9613,8 +9704,8 @@
     "seats": "5 commissioners. Each must live in their district, but every Pasco voter votes on every seat. The 5 School Board members are elected the same way, on a nonpartisan ballot.",
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=pasco&el=38"
    },
-   "generatedAt": "2026-10-26",
-   "accessed": "2026-10-26",
+   "generatedAt": "2026-10-27",
+   "accessed": "2026-10-27",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -9915,6 +10006,48 @@
      "publisher": "Kimberly D. Coward campaign",
      "tier": 5,
      "accessed": "2026-10-26"
+    },
+    "pasco-min-1006": {
+     "title": "Pasco County Board of County Commissioners annotated agenda (minutes), Oct 6, 2026",
+     "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=12001,plainText=false)",
+     "publisher": "Pasco County",
+     "tier": 1,
+     "accessed": "2026-10-27"
+    },
+    "pasco-min-0909": {
+     "title": "Pasco County Board of County Commissioners annotated agenda (minutes), Sep 9, 2026",
+     "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11997,plainText=false)",
+     "publisher": "Pasco County",
+     "tier": 1,
+     "accessed": "2026-10-27"
+    },
+    "pasco-min-0825": {
+     "title": "Pasco County Board of County Commissioners annotated agenda (minutes), Aug 25, 2026",
+     "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11998,plainText=false)",
+     "publisher": "Pasco County",
+     "tier": 1,
+     "accessed": "2026-10-27"
+    },
+    "pasco-min-0811": {
+     "title": "Pasco County Board of County Commissioners annotated agenda (minutes), Aug 11, 2026",
+     "url": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11907,plainText=false)",
+     "publisher": "Pasco County",
+     "tier": 1,
+     "accessed": "2026-10-27"
+    },
+    "pasco-minutes": {
+     "title": "Pasco County Board of County Commissioners annotated agendas (minutes), May 19 to Oct 6, 2026",
+     "url": "https://pascocofl.portal.civicclerk.com/",
+     "publisher": "Pasco County",
+     "tier": 1,
+     "accessed": "2026-10-27"
+    },
+    "ethics-efdms": {
+     "title": "Florida Commission on Ethics, financial disclosure public search",
+     "url": "https://disclosure.floridaethics.gov/PublicSearch/Filings",
+     "publisher": "Florida Commission on Ethics",
+     "tier": 1,
+     "accessed": "2026-10-27"
     }
    },
    "people": [
@@ -9992,9 +10125,12 @@
        "sources": []
       },
       "attendance": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": "Present at roll call for 8 of 9 regular meetings from May 19 to Oct 6, 2026",
+       "label": "single",
+       "sources": [
+        "pasco-minutes"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "conflicts": {
        "value": null,
@@ -10002,9 +10138,24 @@
        "sources": []
       },
       "filings": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": [
+        "Form 6 for 2016: filed Jun 29, 2017",
+        "Form 6 for 2017: filed Jul 2, 2018",
+        "Form 6 for 2018: filed Jun 27, 2019",
+        "Form 6 for 2019: filed Jun 8, 2020",
+        "Form 6 for 2020: filed Jul 1, 2021",
+        "Form 6 for 2021: filed Jul 6, 2022, 5 days after the Jul 1, 2022 due date",
+        "Form 6 for 2022: filed Jun 28, 2023",
+        "Form 6X for 2022: filed Jun 28, 2023",
+        "Form 6 for 2023: filed May 31, 2024",
+        "Form 6 for 2024: filed Jun 16, 2025",
+        "Form 6 for 2025: filed Jun 2, 2026"
+       ],
+       "label": "single",
+       "sources": [
+        "ethics-efdms"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "raised": {
        "value": null,
@@ -10059,8 +10210,24 @@
      ],
      "votes": [
       {
+       "vote": "pa-p48-2026-10-06",
+       "how": "yes"
+      },
+      {
+       "vote": "pa-c16-2026-09-09",
+       "how": "yes"
+      },
+      {
+       "vote": "pa-p52-2026-08-25",
+       "how": "yes"
+      },
+      {
        "vote": "lpr-renewal",
        "how": "no"
+      },
+      {
+       "vote": "pa-r58-2026-08-11",
+       "how": "yes"
       }
      ],
      "score": {
@@ -10069,10 +10236,10 @@
        "conflict_handling": null,
        "money_timing": null,
        "promise_match": null,
-       "openness": null
+       "openness": 90.0
       },
-      "scoredVotes": 1,
-      "reason": "Not enough record yet: 1 of 25 scored votes loaded."
+      "scoredVotes": 5,
+      "reason": "Not enough record yet: 5 of 25 scored votes loaded."
      }
     },
     {
@@ -10154,9 +10321,12 @@
        "sources": []
       },
       "attendance": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": "Present at roll call for 8 of 9 regular meetings from May 19 to Oct 6, 2026",
+       "label": "single",
+       "sources": [
+        "pasco-minutes"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "conflicts": {
        "value": null,
@@ -10164,9 +10334,19 @@
        "sources": []
       },
       "filings": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": [
+        "Form 1 for 2016: filed Jun 19, 2017",
+        "Form 1 for 2017: filed Aug 7, 2018, 36 days after the Jul 2, 2018 due date",
+        "Form 1 for 2019: filed Jun 4, 2020",
+        "Form 1 for 2020: filed Jun 17, 2021",
+        "Form 1 for 2021: filed Jun 16, 2022",
+        "Form 6 for 2023: filed Jun 28, 2024"
+       ],
+       "label": "single",
+       "sources": [
+        "ethics-efdms"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "raised": {
        "value": "$171,675 in contributions, plus $500 in-kind (as of Oct 26, 2026)",
@@ -10226,7 +10406,23 @@
      ],
      "votes": [
       {
+       "vote": "pa-p48-2026-10-06",
+       "how": "yes"
+      },
+      {
+       "vote": "pa-c16-2026-09-09",
+       "how": "yes"
+      },
+      {
+       "vote": "pa-p52-2026-08-25",
+       "how": "yes"
+      },
+      {
        "vote": "lpr-renewal",
+       "how": "absent"
+      },
+      {
+       "vote": "pa-r58-2026-08-11",
        "how": "absent"
       }
      ],
@@ -10236,10 +10432,10 @@
        "conflict_handling": null,
        "money_timing": null,
        "promise_match": null,
-       "openness": null
+       "openness": 83.3
       },
-      "scoredVotes": 1,
-      "reason": "Not enough record yet: 1 of 25 scored votes loaded."
+      "scoredVotes": 5,
+      "reason": "Not enough record yet: 5 of 25 scored votes loaded."
      }
     },
     {
@@ -10319,9 +10515,12 @@
        "sources": []
       },
       "attendance": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": "Present at roll call for 9 of 9 regular meetings from May 19 to Oct 6, 2026 (arrived a few minutes late once)",
+       "label": "single",
+       "sources": [
+        "pasco-minutes"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "conflicts": {
        "value": null,
@@ -10329,9 +10528,23 @@
        "sources": []
       },
       "filings": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": [
+        "Form 6 for 2016: filed Jun 29, 2017",
+        "Form 6 for 2017: filed Jun 29, 2018",
+        "Form 6 for 2018: filed Aug 2, 2019, 32 days after the Jul 1, 2019 due date",
+        "Form 6 for 2019: filed Jun 9, 2020",
+        "Form 6 for 2020: filed Aug 9, 2021, 39 days after the Jul 1, 2021 due date",
+        "Form 6 for 2021: filed Jul 13, 2022, 12 days after the Jul 1, 2022 due date",
+        "Form 6 for 2022: filed Jun 13, 2023",
+        "Form 6 for 2023: filed Jun 10, 2024",
+        "Form 6 for 2024: filed Jun 26, 2025",
+        "Form 6 for 2025: filed Jun 29, 2026"
+       ],
+       "label": "single",
+       "sources": [
+        "ethics-efdms"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "raised": {
        "value": null,
@@ -10384,17 +10597,34 @@
        "tier": 1
       }
      ],
-     "votes": [],
+     "votes": [
+      {
+       "vote": "pa-p48-2026-10-06",
+       "how": "yes"
+      },
+      {
+       "vote": "pa-c16-2026-09-09",
+       "how": "yes"
+      },
+      {
+       "vote": "pa-p52-2026-08-25",
+       "how": "yes"
+      },
+      {
+       "vote": "pa-r58-2026-08-11",
+       "how": "yes"
+      }
+     ],
      "score": {
       "overall": null,
       "parts": {
        "conflict_handling": null,
        "money_timing": null,
        "promise_match": null,
-       "openness": null
+       "openness": 70.0
       },
-      "scoredVotes": 0,
-      "reason": "Not enough record yet: 0 of 25 scored votes loaded."
+      "scoredVotes": 4,
+      "reason": "Not enough record yet: 4 of 25 scored votes loaded."
      }
     },
     {
@@ -10490,9 +10720,12 @@
        "sources": []
       },
       "attendance": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": "Present at roll call for 8 of 9 regular meetings from May 19 to Oct 6, 2026",
+       "label": "single",
+       "sources": [
+        "pasco-minutes"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "conflicts": {
        "value": null,
@@ -10500,9 +10733,15 @@
        "sources": []
       },
       "filings": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": [
+        "Form 6 for 2024: filed Jun 24, 2025",
+        "Form 6 for 2025: filed May 27, 2026"
+       ],
+       "label": "single",
+       "sources": [
+        "ethics-efdms"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "raised": {
        "value": "$123,125 in contributions (as of Oct 26, 2026)",
@@ -10571,17 +10810,34 @@
        "tier": 1
       }
      ],
-     "votes": [],
+     "votes": [
+      {
+       "vote": "pa-p48-2026-10-06",
+       "how": "yes"
+      },
+      {
+       "vote": "pa-c16-2026-09-09",
+       "how": "absent"
+      },
+      {
+       "vote": "pa-p52-2026-08-25",
+       "how": "no"
+      },
+      {
+       "vote": "pa-r58-2026-08-11",
+       "how": "yes"
+      }
+     ],
      "score": {
       "overall": null,
       "parts": {
        "conflict_handling": null,
        "money_timing": null,
        "promise_match": null,
-       "openness": null
+       "openness": 100.0
       },
-      "scoredVotes": 0,
-      "reason": "Not enough record yet: 0 of 25 scored votes loaded."
+      "scoredVotes": 4,
+      "reason": "Not enough record yet: 4 of 25 scored votes loaded."
      }
     },
     {
@@ -10665,9 +10921,12 @@
        "sources": []
       },
       "attendance": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": "Present at roll call for 9 of 9 regular meetings from May 19 to Oct 6, 2026",
+       "label": "single",
+       "sources": [
+        "pasco-minutes"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "conflicts": {
        "value": null,
@@ -10675,9 +10934,23 @@
        "sources": []
       },
       "filings": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": [
+        "Form 6 for 2016: filed Jun 30, 2017",
+        "Form 6 for 2017: filed Jul 9, 2018, 7 days after the Jul 2, 2018 due date",
+        "Form 6 for 2018: filed Jul 8, 2019, 7 days after the Jul 1, 2019 due date",
+        "Form 6 for 2019: filed Jun 11, 2020",
+        "Form 6 for 2020: filed Jul 6, 2021, 5 days after the Jul 1, 2021 due date",
+        "Form 6 for 2021: filed Jun 28, 2022",
+        "Form 6 for 2022: filed Jun 29, 2023",
+        "Form 6 for 2023: filed Jun 10, 2024",
+        "Form 6 for 2024: filed Jun 30, 2025",
+        "Form 6 for 2025: filed Jul 1, 2026"
+       ],
+       "label": "single",
+       "sources": [
+        "ethics-efdms"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "raised": {
        "value": null,
@@ -10732,7 +11005,23 @@
      ],
      "votes": [
       {
+       "vote": "pa-p48-2026-10-06",
+       "how": "no"
+      },
+      {
+       "vote": "pa-c16-2026-09-09",
+       "how": "no"
+      },
+      {
+       "vote": "pa-p52-2026-08-25",
+       "how": "yes"
+      },
+      {
        "vote": "lpr-renewal",
+       "how": "no"
+      },
+      {
+       "vote": "pa-r58-2026-08-11",
        "how": "no"
       }
      ],
@@ -10742,10 +11031,10 @@
        "conflict_handling": null,
        "money_timing": null,
        "promise_match": null,
-       "openness": null
+       "openness": 70.0
       },
-      "scoredVotes": 1,
-      "reason": "Not enough record yet: 1 of 25 scored votes loaded."
+      "scoredVotes": 5,
+      "reason": "Not enough record yet: 5 of 25 scored votes loaded."
      }
     },
     {
@@ -11612,9 +11901,21 @@
        "sources": []
       },
       "filings": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": [
+        "Form 6 for 2018: filed Jun 3, 2019",
+        "Form 6 for 2019: filed Jul 9, 2020, 8 days after the Jul 1, 2020 due date",
+        "Form 6 for 2020: filed Jun 28, 2021",
+        "Form 6 for 2021: filed Jun 13, 2022",
+        "Form 6 for 2022: filed Jun 29, 2023",
+        "Form 6 for 2023: filed Jul 1, 2024",
+        "Form 6 for 2024: filed Jul 1, 2025",
+        "Form 6 for 2025: filed Jun 8, 2026"
+       ],
+       "label": "single",
+       "sources": [
+        "ethics-efdms"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "raised": {
        "value": "$30,745 in contributions, plus $1,600 in-kind (as of Oct 26, 2026)",
@@ -11681,7 +11982,7 @@
        "conflict_handling": null,
        "money_timing": null,
        "promise_match": null,
-       "openness": null
+       "openness": 87.5
       },
       "scoredVotes": 0,
       "reason": "Not enough record yet: 0 of 25 scored votes loaded."
@@ -11772,6 +12073,46 @@
     }
    ],
    "votes": [
+    {
+     "id": "pa-p48-2026-10-06",
+     "date": "2026-10-06",
+     "topic": "growth",
+     "headline": "Approved rezoning farmland south of Chancey Road for 96 townhomes",
+     "inShort": "Changed the zoning on about 20.42 acres in southeast Pasco, south of Chancey Road, from agricultural residential to a planned development that allows 96 townhomes, with conditions.",
+     "officialTitle": "Zoning Amendment (Regular) - Chanzep LLC - Chanzep MPUD Master Planned Unit Development - A Rezoning Petition Request From an A-R Agricultural Residential District to an MPUD Master Planned Unit Development District to Allow for the Development of 96 Platted Townhome Units and Associated Infrastructure - Southeast Pasco County - Located South of Chancey Road Approximately 777 Feet East of the Chancey Road and Gall Boulevard Intersection - Containing Approximately 20.42 Acres",
+     "fileNumber": "PDE27-7866",
+     "sourceUrl": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=12001,plainText=false)",
+     "split": true,
+     "rollExtra": {},
+     "minutesText": "Approved Staff's recommendation with Chairman Mariano voting nay.",
+     "result": {
+      "value": "Passed 4 to 1",
+      "label": "single",
+      "sources": [
+       "pasco-min-1006"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "roll": {
+      "value": {
+       "yes": [
+        "oakley",
+        "starkey",
+        "weightman",
+        "yeager"
+       ],
+       "no": [
+        "mariano"
+       ]
+      },
+      "label": "single",
+      "sources": [
+       "pasco-min-1006"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "facts": []
+    },
     {
      "id": "two-rivers-surf-park",
      "date": "2026-09-19",
@@ -11875,6 +12216,89 @@
      "sourceUrl": null
     },
     {
+     "id": "pa-c16-2026-09-09",
+     "date": "2026-09-09",
+     "topic": "budget",
+     "headline": "Moved $2 million from county reserves to a New Port Richey septic-to-sewer project",
+     "inShort": "Transferred $2,000,000 from the county's general fund reserves to the City of New Port Richey to help pay for connecting the Town and Country Villas neighborhood from septic tanks to sewer.",
+     "officialTitle": "Budget Amendment — Transfer from the Board General Fund Reserves — City of New Port Richey — Funding for Town and Country Villas Septic to Sewer Project — $2,000,000.00",
+     "fileNumber": "OMB26-0068",
+     "sourceUrl": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11997,plainText=false)",
+     "split": true,
+     "rollExtra": {
+      "absent": [
+       "yeager"
+      ]
+     },
+     "minutesText": "Approved Staff's recommendation with Chairman Mariano voting nay.",
+     "result": {
+      "value": "Passed 3 to 1",
+      "label": "single",
+      "sources": [
+       "pasco-min-0909"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "roll": {
+      "value": {
+       "yes": [
+        "oakley",
+        "starkey",
+        "weightman"
+       ],
+       "no": [
+        "mariano"
+       ]
+      },
+      "label": "single",
+      "sources": [
+       "pasco-min-0909"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "facts": []
+    },
+    {
+     "id": "pa-p52-2026-08-25",
+     "date": "2026-08-25",
+     "topic": "growth",
+     "headline": "Rezoned a 2.3-acre corner at Little Road and DeCubellis Road for commercial use",
+     "inShort": "Changed the zoning on about 2.3 acres at the northeast corner of Little Road and DeCubellis Road in west Pasco to general commercial, after removing language about DeCubellis Road from the approval.",
+     "officialTitle": "Zoning Amendment (Consent) – 7026 Little Road/Roosevelt Commons, L.L.C. – Change in Zoning from an R-4 High Density Residential District, C-1 Neighborhood Commercial District, and A-C Agricultural District to a C-2 General Commercial District – West Pasco County – Northeast Corner of the Intersection of Little Road and Decubellis Road – Containing Approximately 2.3 Acres",
+     "fileNumber": "PDE26-7914",
+     "sourceUrl": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11998,plainText=false)",
+     "split": true,
+     "rollExtra": {},
+     "minutesText": "Approved Staff's recommendation with the revision to remove the DeCubellis Road language entirely by roll call vote with Commissioner Yeager voting nay.",
+     "result": {
+      "value": "Passed 4 to 1",
+      "label": "single",
+      "sources": [
+       "pasco-min-0825"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "roll": {
+      "value": {
+       "yes": [
+        "mariano",
+        "oakley",
+        "starkey",
+        "weightman"
+       ],
+       "no": [
+        "yeager"
+       ]
+      },
+      "label": "single",
+      "sources": [
+       "pasco-min-0825"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "facts": []
+    },
+    {
      "id": "lpr-renewal",
      "date": "2026-08-11",
      "topic": "policing",
@@ -11943,6 +12367,49 @@
      ],
      "officialTitle": null,
      "sourceUrl": null
+    },
+    {
+     "id": "pa-r58-2026-08-11",
+     "date": "2026-08-11",
+     "topic": "safety",
+     "headline": "Approved pilot programs for school zone speed cameras and safety systems",
+     "inShort": "Approved two pilot programs: school zone speed detection cameras and the IntelliRoad School Zone Safety System. The item said no county funding was required. The minutes note the Sheriff's deputies will patrol schools as much as they can until the programs start.",
+     "officialTitle": "Discussion on School Zone Speed Detection Systems (SDS) and IntelliRoad School Zone Safety System (SZSS) Pilot Program – No Funding Required",
+     "fileNumber": "TED26-0339",
+     "sourceUrl": "https://pascocofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=11907,plainText=false)",
+     "split": true,
+     "rollExtra": {
+      "absent": [
+       "weightman"
+      ]
+     },
+     "minutesText": "Approved to adopt both programs as per the Sheriff they patrol the schools as much as they can until the program is implemented with Chairman Mariano voting nay.",
+     "result": {
+      "value": "Passed 3 to 1",
+      "label": "single",
+      "sources": [
+       "pasco-min-0811"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "roll": {
+      "value": {
+       "yes": [
+        "oakley",
+        "starkey",
+        "yeager"
+       ],
+       "no": [
+        "mariano"
+       ]
+      },
+      "label": "single",
+      "sources": [
+       "pasco-min-0811"
+      ],
+      "note": "One official record, nothing yet to check it against."
+     },
+     "facts": []
     },
     {
      "id": "data-center-moratorium",
@@ -12039,6 +12506,16 @@
      "id": "storms",
      "name": "Storm recovery",
      "blurb": "Hurricane repairs and flood protection projects."
+    },
+    {
+     "id": "budget",
+     "name": "Spending and budget",
+     "blurb": "What the county spends and where the money goes."
+    },
+    {
+     "id": "safety",
+     "name": "Public safety",
+     "blurb": "Sheriff, fire rescue and school safety."
     }
    ],
    "problems": [
@@ -12268,7 +12745,7 @@
    ],
    "labelCounts": {
     "verified": 4,
-    "single": 35,
+    "single": 54,
     "unverified": 31,
     "conflict": 0,
     "unknown": 4
@@ -12284,8 +12761,8 @@
     "seats": "5 commissioners elected at large to four-year terms, so every Hernando voter votes on every seat. Districts 2 and 4 were up in 2026; District 2 was settled in the Aug 18 primary. School Board seats 1, 3 and 5 were up; only District 5 goes to the Nov 3 ballot.",
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hernando&el=32"
    },
-   "generatedAt": "2026-10-26",
-   "accessed": "2026-10-26",
+   "generatedAt": "2026-10-27",
+   "accessed": "2026-10-27",
    "legistarLoaded": true,
    "legistarTotals": {
     "meetings": 76,
@@ -12571,6 +13048,13 @@
      "publisher": "Jeff Holcomb campaign",
      "tier": 5,
      "accessed": "2026-10-26"
+    },
+    "ethics-efdms": {
+     "title": "Florida Commission on Ethics, financial disclosure public search",
+     "url": "https://disclosure.floridaethics.gov/PublicSearch/Filings",
+     "publisher": "Florida Commission on Ethics",
+     "tier": 1,
+     "accessed": "2026-10-27"
     }
    },
    "people": [
@@ -12657,9 +13141,15 @@
        "sources": []
       },
       "filings": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": [
+        "Form 6 for 2024: filed Jun 27, 2025",
+        "Form 6 for 2025: filed Jun 28, 2026"
+       ],
+       "label": "single",
+       "sources": [
+        "ethics-efdms"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "raised": {
        "value": null,
@@ -12828,7 +13318,7 @@
        "conflict_handling": null,
        "money_timing": null,
        "promise_match": null,
-       "openness": 95.9
+       "openness": 97.9
       },
       "scoredVotes": 1810,
       "reason": "Not enough record yet: 1 of 4 parts have data."
@@ -12930,9 +13420,21 @@
        "sources": []
       },
       "filings": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": [
+        "Form 6 for 2018: filed Jul 9, 2019, 8 days after the Jul 1, 2019 due date",
+        "Form 6 for 2019: filed Jul 24, 2020, 23 days after the Jul 1, 2020 due date",
+        "Form 1 for 2020: filed Jun 30, 2021",
+        "Form 1 for 2021: filed Jun 16, 2022",
+        "Form 1 for 2022: filed Jun 21, 2023",
+        "Form 1 for 2023: filed Jun 11, 2024",
+        "Form 1 for 2024: filed Jul 8, 2025, 7 days after the Jul 1, 2025 due date",
+        "Form 1 for 2025: filed Jun 30, 2026"
+       ],
+       "label": "single",
+       "sources": [
+        "ethics-efdms"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "raised": {
        "value": null,
@@ -13005,7 +13507,7 @@
        "conflict_handling": null,
        "money_timing": null,
        "promise_match": null,
-       "openness": 100.0
+       "openness": 81.2
       },
       "scoredVotes": 162,
       "reason": "Not enough record yet: 1 of 4 parts have data."
@@ -13100,9 +13602,23 @@
        "sources": []
       },
       "filings": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": [
+        "Form 6 for 2016: filed Jun 26, 2017",
+        "Form 6 for 2017: filed Jun 19, 2018",
+        "Form 6 for 2018: filed Jun 20, 2019",
+        "Form 6 for 2019: filed May 26, 2020",
+        "Form 6 for 2020: filed Jun 24, 2021",
+        "Form 6 for 2021: filed Jun 13, 2022",
+        "Form 6 for 2022: filed May 17, 2023",
+        "Form 6 for 2023: filed May 28, 2024",
+        "Form 6 for 2024: filed Jun 10, 2025",
+        "Form 6 for 2025: filed May 4, 2026"
+       ],
+       "label": "single",
+       "sources": [
+        "ethics-efdms"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "raised": {
        "value": null,
@@ -13267,7 +13783,7 @@
        "conflict_handling": null,
        "money_timing": null,
        "promise_match": null,
-       "openness": 98.6
+       "openness": 99.3
       },
       "scoredVotes": 1802,
       "reason": "Not enough record yet: 1 of 4 parts have data."
@@ -13363,9 +13879,18 @@
        "sources": []
       },
       "filings": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": [
+        "Form 1 for 2020: filed Jun 24, 2021",
+        "Form 1 for 2021: filed Jun 27, 2022",
+        "Form 6 for 2023: filed Jun 20, 2024",
+        "Form 6 for 2024: filed Jun 12, 2025",
+        "Form 6 for 2025: filed Jun 7, 2026"
+       ],
+       "label": "single",
+       "sources": [
+        "ethics-efdms"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "raised": {
        "value": null,
@@ -13625,9 +14150,23 @@
        "sources": []
       },
       "filings": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": [
+        "Form 6 for 2016: filed Jun 15, 2017",
+        "Form 6 for 2017: filed Jun 11, 2018",
+        "Form 6 for 2018: filed Jul 1, 2019",
+        "Form 6 for 2019: filed Jun 8, 2020",
+        "Form 6 for 2020: filed Jun 23, 2021",
+        "Form 6 for 2021: filed Jun 22, 2022",
+        "Form 6 for 2022: filed Jun 16, 2023",
+        "Form 6 for 2023: filed Jun 5, 2024",
+        "Form 6 for 2024: filed Jun 13, 2025",
+        "Form 6 for 2025: filed Jun 5, 2026"
+       ],
+       "label": "single",
+       "sources": [
+        "ethics-efdms"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "raised": {
        "value": null,
@@ -13796,7 +14335,7 @@
        "conflict_handling": null,
        "money_timing": null,
        "promise_match": null,
-       "openness": 93.2
+       "openness": 96.6
       },
       "scoredVotes": 1755,
       "reason": "Not enough record yet: 1 of 4 parts have data."
@@ -14928,9 +15467,23 @@
        "sources": []
       },
       "filings": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": [
+        "Form 6 for 2016: filed Jun 16, 2017",
+        "Form 6 for 2017: filed May 31, 2018",
+        "Form 6 for 2018: filed Jul 1, 2019",
+        "Form 6 for 2019: filed Jun 26, 2020",
+        "Form 6 for 2020: filed Jun 14, 2021",
+        "Form 6 for 2021: filed Jun 13, 2022",
+        "Form 6 for 2022: filed Jun 30, 2023",
+        "Form 6 for 2023: filed Jun 23, 2024",
+        "Form 6 for 2024: filed May 20, 2025",
+        "Form 6 for 2025: filed May 27, 2026"
+       ],
+       "label": "single",
+       "sources": [
+        "ethics-efdms"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "raised": {
        "value": "$14,975 in contributions, plus $1,775 in-kind (as of Oct 26, 2026)",
@@ -14998,7 +15551,7 @@
        "conflict_handling": null,
        "money_timing": null,
        "promise_match": null,
-       "openness": null
+       "openness": 100.0
       },
       "scoredVotes": 0,
       "reason": "Not enough record yet: 0 of 25 scored votes loaded."
@@ -15566,9 +16119,17 @@
        "sources": []
       },
       "filings": {
-       "value": null,
-       "label": "unknown",
-       "sources": []
+       "value": [
+        "Form 6 for 2022: filed Jun 26, 2023",
+        "Form 6 for 2023: filed Jun 27, 2024",
+        "Form 6 for 2024: filed Jun 30, 2025",
+        "Form 6 for 2025: filed Jun 5, 2026"
+       ],
+       "label": "single",
+       "sources": [
+        "ethics-efdms"
+       ],
+       "note": "One official record, nothing yet to check it against."
       },
       "raised": {
        "value": "$53,925 in contributions, plus $400 in-kind (as of Oct 26, 2026)",
@@ -15629,7 +16190,7 @@
        "conflict_handling": null,
        "money_timing": null,
        "promise_match": null,
-       "openness": null
+       "openness": 100.0
       },
       "scoredVotes": 0,
       "reason": "Not enough record yet: 0 of 25 scored votes loaded."
@@ -17810,7 +18371,7 @@
    ],
    "labelCounts": {
     "verified": 8,
-    "single": 121,
+    "single": 128,
     "unverified": 29,
     "conflict": 0,
     "unknown": 16
@@ -17867,6 +18428,634 @@
    "source": "https://pinellas.legistar.com/Calendar.aspx"
   }
  ],
+ "zips": {
+  "33503": [
+   "hillsborough"
+  ],
+  "33510": [
+   "hillsborough"
+  ],
+  "33511": [
+   "hillsborough"
+  ],
+  "33523": [
+   "hernando",
+   "pasco"
+  ],
+  "33525": [
+   "pasco"
+  ],
+  "33527": [
+   "hillsborough"
+  ],
+  "33530": [
+   "hillsborough"
+  ],
+  "33534": [
+   "hillsborough"
+  ],
+  "33540": [
+   "hillsborough",
+   "pasco"
+  ],
+  "33541": [
+   "pasco"
+  ],
+  "33542": [
+   "pasco"
+  ],
+  "33543": [
+   "pasco"
+  ],
+  "33544": [
+   "pasco"
+  ],
+  "33545": [
+   "pasco"
+  ],
+  "33547": [
+   "hillsborough"
+  ],
+  "33548": [
+   "hillsborough"
+  ],
+  "33549": [
+   "hillsborough",
+   "pasco"
+  ],
+  "33550": [
+   "hillsborough"
+  ],
+  "33556": [
+   "hillsborough",
+   "pasco"
+  ],
+  "33558": [
+   "hillsborough",
+   "pasco"
+  ],
+  "33559": [
+   "hillsborough",
+   "pasco"
+  ],
+  "33563": [
+   "hillsborough"
+  ],
+  "33565": [
+   "hillsborough"
+  ],
+  "33566": [
+   "hillsborough"
+  ],
+  "33567": [
+   "hillsborough"
+  ],
+  "33569": [
+   "hillsborough"
+  ],
+  "33570": [
+   "hillsborough"
+  ],
+  "33572": [
+   "hillsborough"
+  ],
+  "33573": [
+   "hillsborough"
+  ],
+  "33574": [
+   "pasco"
+  ],
+  "33576": [
+   "pasco"
+  ],
+  "33578": [
+   "hillsborough"
+  ],
+  "33579": [
+   "hillsborough"
+  ],
+  "33584": [
+   "hillsborough"
+  ],
+  "33592": [
+   "hillsborough"
+  ],
+  "33594": [
+   "hillsborough"
+  ],
+  "33596": [
+   "hillsborough"
+  ],
+  "33597": [
+   "hernando",
+   "pasco",
+   "other"
+  ],
+  "33598": [
+   "hillsborough"
+  ],
+  "33602": [
+   "hillsborough"
+  ],
+  "33603": [
+   "hillsborough"
+  ],
+  "33604": [
+   "hillsborough"
+  ],
+  "33605": [
+   "hillsborough"
+  ],
+  "33606": [
+   "hillsborough"
+  ],
+  "33607": [
+   "hillsborough"
+  ],
+  "33609": [
+   "hillsborough"
+  ],
+  "33610": [
+   "hillsborough"
+  ],
+  "33611": [
+   "hillsborough"
+  ],
+  "33612": [
+   "hillsborough"
+  ],
+  "33613": [
+   "hillsborough"
+  ],
+  "33614": [
+   "hillsborough"
+  ],
+  "33615": [
+   "hillsborough"
+  ],
+  "33616": [
+   "hillsborough"
+  ],
+  "33617": [
+   "hillsborough"
+  ],
+  "33618": [
+   "hillsborough"
+  ],
+  "33619": [
+   "hillsborough"
+  ],
+  "33620": [
+   "hillsborough"
+  ],
+  "33621": [
+   "hillsborough"
+  ],
+  "33624": [
+   "hillsborough"
+  ],
+  "33625": [
+   "hillsborough"
+  ],
+  "33626": [
+   "hillsborough"
+  ],
+  "33629": [
+   "hillsborough"
+  ],
+  "33634": [
+   "hillsborough"
+  ],
+  "33635": [
+   "hillsborough"
+  ],
+  "33637": [
+   "hillsborough"
+  ],
+  "33647": [
+   "hillsborough"
+  ],
+  "33701": [
+   "pinellas"
+  ],
+  "33702": [
+   "pinellas"
+  ],
+  "33703": [
+   "pinellas"
+  ],
+  "33704": [
+   "pinellas"
+  ],
+  "33705": [
+   "pinellas"
+  ],
+  "33706": [
+   "pinellas"
+  ],
+  "33707": [
+   "pinellas"
+  ],
+  "33708": [
+   "pinellas"
+  ],
+  "33709": [
+   "pinellas"
+  ],
+  "33710": [
+   "pinellas"
+  ],
+  "33711": [
+   "pinellas"
+  ],
+  "33712": [
+   "pinellas"
+  ],
+  "33713": [
+   "pinellas"
+  ],
+  "33714": [
+   "pinellas"
+  ],
+  "33715": [
+   "pinellas"
+  ],
+  "33716": [
+   "pinellas"
+  ],
+  "33744": [
+   "pinellas"
+  ],
+  "33755": [
+   "pinellas"
+  ],
+  "33756": [
+   "pinellas"
+  ],
+  "33759": [
+   "pinellas"
+  ],
+  "33760": [
+   "pinellas"
+  ],
+  "33761": [
+   "pinellas"
+  ],
+  "33762": [
+   "pinellas"
+  ],
+  "33763": [
+   "pinellas"
+  ],
+  "33764": [
+   "pinellas"
+  ],
+  "33765": [
+   "pinellas"
+  ],
+  "33767": [
+   "pinellas"
+  ],
+  "33770": [
+   "pinellas"
+  ],
+  "33771": [
+   "pinellas"
+  ],
+  "33772": [
+   "pinellas"
+  ],
+  "33773": [
+   "pinellas"
+  ],
+  "33774": [
+   "pinellas"
+  ],
+  "33776": [
+   "pinellas"
+  ],
+  "33777": [
+   "pinellas"
+  ],
+  "33778": [
+   "pinellas"
+  ],
+  "33781": [
+   "pinellas"
+  ],
+  "33782": [
+   "pinellas"
+  ],
+  "33785": [
+   "pinellas"
+  ],
+  "33786": [
+   "pinellas"
+  ],
+  "33810": [
+   "hillsborough",
+   "other"
+  ],
+  "34601": [
+   "hernando"
+  ],
+  "34602": [
+   "hernando"
+  ],
+  "34604": [
+   "hernando"
+  ],
+  "34606": [
+   "hernando"
+  ],
+  "34607": [
+   "hernando"
+  ],
+  "34608": [
+   "hernando"
+  ],
+  "34609": [
+   "hernando"
+  ],
+  "34610": [
+   "pasco"
+  ],
+  "34613": [
+   "hernando"
+  ],
+  "34614": [
+   "hernando"
+  ],
+  "34637": [
+   "pasco"
+  ],
+  "34638": [
+   "pasco"
+  ],
+  "34639": [
+   "pasco"
+  ],
+  "34652": [
+   "pasco"
+  ],
+  "34653": [
+   "pasco"
+  ],
+  "34654": [
+   "pasco"
+  ],
+  "34655": [
+   "pasco"
+  ],
+  "34661": [
+   "hernando"
+  ],
+  "34667": [
+   "pasco"
+  ],
+  "34668": [
+   "pasco"
+  ],
+  "34669": [
+   "pasco"
+  ],
+  "34677": [
+   "pinellas"
+  ],
+  "34679": [
+   "pasco"
+  ],
+  "34681": [
+   "pinellas"
+  ],
+  "34683": [
+   "pinellas"
+  ],
+  "34684": [
+   "pinellas"
+  ],
+  "34685": [
+   "pinellas"
+  ],
+  "34688": [
+   "pinellas"
+  ],
+  "34689": [
+   "pinellas"
+  ],
+  "34690": [
+   "pasco"
+  ],
+  "34691": [
+   "pasco"
+  ],
+  "34695": [
+   "pinellas"
+  ],
+  "34698": [
+   "pinellas"
+  ]
+ },
+ "howToVote": {
+  "checkedOn": "2026-10-27",
+  "election": "Florida General Election, Tuesday, November 3, 2026",
+  "statewide": [
+   {
+    "id": "poll-hours",
+    "text": "On Election Day, Tuesday, November 3, polls are open from 7 a.m. to 7 p.m. local time, and anyone in line at 7 p.m. still gets to vote.",
+    "url": "https://www.flsenate.gov/Laws/Statutes/2025/100.011",
+    "publisher": "Florida Legislature (Florida Statutes s. 100.011)"
+   },
+   {
+    "id": "early-voting-statewide",
+    "text": "Every Florida county offers early voting from October 24 to October 31, and some counties offer extra days.",
+    "url": "https://dos.fl.gov/communications/press-releases/2026/secretary-of-state-cord-byrd-reminds-floridians-of-early-voting-options-1/",
+    "publisher": "Florida Department of State"
+   },
+   {
+    "id": "early-voting-any-site",
+    "text": "During early voting you can use any early voting site in the county where you are registered.",
+    "url": "https://dos.fl.gov/elections/for-voters/voting/early-voting-and-secure-ballot-intake-stations/",
+    "publisher": "Florida Division of Elections"
+   },
+   {
+    "id": "precinct",
+    "text": "On Election Day you must vote at the polling place assigned to your precinct, which is listed on your voter information card and your county elections website.",
+    "url": "https://dos.fl.gov/communications/press-releases/2024/press-release-secretary-byrd-announces-polls-open-statewide-on-general-election-day/",
+    "publisher": "Florida Department of State"
+   },
+   {
+    "id": "id-photo-signature",
+    "text": "Bring a current, valid ID that shows your photo and signature, such as a Florida driver license, Florida ID card, U.S. passport, debit or credit card, military ID, student ID, or veteran health ID card.",
+    "url": "https://www.flsenate.gov/Laws/Statutes/2025/101.043",
+    "publisher": "Florida Legislature (Florida Statutes s. 101.043)"
+   },
+   {
+    "id": "id-no-signature",
+    "text": "If your photo ID does not show your signature, bring a second ID that does.",
+    "url": "https://www.flsenate.gov/Laws/Statutes/2025/101.043",
+    "publisher": "Florida Legislature (Florida Statutes s. 101.043)"
+   },
+   {
+    "id": "id-none",
+    "text": "If you do not have an accepted ID with you, you can still vote, but on a provisional ballot.",
+    "url": "https://www.flsenate.gov/Laws/Statutes/2025/101.043",
+    "publisher": "Florida Legislature (Florida Statutes s. 101.043)"
+   },
+   {
+    "id": "id-no-photos",
+    "text": "A picture of your ID on your phone does not count, so bring the actual card.",
+    "url": "https://www.votehillsborough.gov/DocumentCenter/View/124",
+    "publisher": "Hillsborough County Supervisor of Elections (2026 Voter Guide)"
+   },
+   {
+    "id": "provisional-not-on-rolls",
+    "text": "If you believe you are registered but your name cannot be found at your polling place, ask for a provisional ballot.",
+    "url": "https://www.flsenate.gov/Laws/Statutes/2025/101.048",
+    "publisher": "Florida Legislature (Florida Statutes s. 101.048)"
+   },
+   {
+    "id": "provisional-proof",
+    "text": "After voting a provisional ballot, you have until 5 p.m. on the second day after the election (Thursday, November 5) to give your Supervisor of Elections written proof that you are eligible.",
+    "url": "https://www.flsenate.gov/Laws/Statutes/2025/101.048",
+    "publisher": "Florida Legislature (Florida Statutes s. 101.048)"
+   },
+   {
+    "id": "provisional-counts",
+    "text": "A provisional ballot counts if you are eligible, you voted in the right precinct, and your signature matches the one on your voter record.",
+    "url": "https://dos.fl.gov/communications/press-releases/2024/press-release-secretary-byrd-announces-polls-open-statewide-on-general-election-day/",
+    "publisher": "Florida Department of State"
+   },
+   {
+    "id": "mail-received-by",
+    "text": "A mail ballot counts only if it reaches your county Supervisor of Elections by 7 p.m. on Election Day, and a postmark does not count.",
+    "url": "https://dos.fl.gov/elections/for-voters/voting/absentee-voting/",
+    "publisher": "Florida Division of Elections"
+   },
+   {
+    "id": "mail-request-closed",
+    "text": "The deadline to have a mail ballot sent to you was Thursday, October 22, 2026, so it is now too late to request one by mail.",
+    "url": "https://dos.fl.gov/communications/press-releases/2026/secretary-of-state-cord-byrd-reminds-floridians-of-early-voting-options-1/",
+    "publisher": "Florida Department of State"
+   },
+   {
+    "id": "mail-pickup-emergency",
+    "text": "You can still pick up your own mail ballot at your Supervisor of Elections office, but now that early voting has started you must sign a form saying an emergency keeps you from voting early or at your polling place.",
+    "url": "https://dos.fl.gov/elections/for-voters/voting/absentee-voting/",
+    "publisher": "Florida Division of Elections"
+   },
+   {
+    "id": "mail-change-mind",
+    "text": "If you asked for a mail ballot but would rather vote in person, bring the mail ballot with you, filled in or not.",
+    "url": "https://dos.fl.gov/elections/for-voters/voting/absentee-voting/",
+    "publisher": "Florida Division of Elections"
+   },
+   {
+    "id": "notes-in-booth",
+    "text": "You may bring a sample ballot or your own notes into the voting booth to help you remember your choices.",
+    "url": "https://www.votehillsborough.gov/m/newsflash/Home/Detail/66",
+    "publisher": "Hillsborough County Supervisor of Elections (Oct 22, 2026 release)"
+   },
+   {
+    "id": "first-time-skip-and-mistakes",
+    "text": "First time voting? It is okay to skip races, and if you make a mistake on your ballot, ask for a new one instead of crossing it out.",
+    "url": "https://www.votehillsborough.gov/DocumentCenter/View/124",
+    "publisher": "Hillsborough County Supervisor of Elections (2026 Voter Guide)"
+   }
+  ],
+  "counties": {
+   "pinellas": {
+    "earlyVoting": "Early voting runs October 19 through November 1; the county calendar lists it from 7 a.m. October 19 to 7 p.m. November 1, so check VotePinellas.gov for each site's daily hours.",
+    "earlyVotingUrl": "https://www.votepinellas.gov/382",
+    "pollingPlaceUrl": "https://votepinellas.gov/election-information/find-your-precinct-polling-place",
+    "sampleBallotUrl": "https://votepinellas.gov/election-information/find-your-precinct-polling-place",
+    "mailBallotDropOff": "Return your mail ballot to a Supervisor of Elections office or one of the secure ballot return locations listed at VotePinellas.gov so it arrives by 7 p.m. on November 3.",
+    "phone": "727-464-8683",
+    "sources": [
+     "https://www.votepinellas.gov/382",
+     "https://www.votepinellas.gov/204",
+     "https://www.votepinellas.gov/Calendar.aspx",
+     "https://www.votepinellas.gov/DocumentCenter/View/1759",
+     "https://www.votepinellas.gov/CivicAlerts.aspx?AID=32",
+     "https://votepinellas.gov/election-information/find-your-precinct-polling-place",
+     "https://dos.fl.gov/elections/for-voters/voting/absentee-voting/"
+    ]
+   },
+   "hillsborough": {
+    "earlyVoting": "Early voting runs every day from October 19 through November 1, 7 a.m. to 7 p.m., at any of 27 sites.",
+    "earlyVotingUrl": "https://www.votehillsborough.gov/m/newsflash/Home/Detail/65",
+    "pollingPlaceUrl": "https://www.votehillsborough.gov/159",
+    "sampleBallotUrl": "https://www.votehillsborough.gov/",
+    "mailBallotDropOff": "Drop your mail ballot in the secure ballot intake station inside any early voting site during early voting hours, or at a Supervisor of Elections office when it is open, so it arrives by 7 p.m. on November 3; polling places cannot accept it.",
+    "phone": "813-744-5900",
+    "sources": [
+     "https://www.votehillsborough.gov/m/newsflash/Home/Detail/65",
+     "https://www.votehillsborough.gov/m/newsflash/Home/Detail/66",
+     "https://www.votehillsborough.gov/169",
+     "https://www.votehillsborough.gov/159",
+     "https://www.votehillsborough.gov/165/Provisional-Ballot-Status",
+     "https://www.votehillsborough.gov/DocumentCenter/View/124"
+    ]
+   },
+   "pasco": {
+    "earlyVoting": "Early voting runs every day from Monday, October 19 through Saturday, October 31, 7 a.m. to 7 p.m.",
+    "earlyVotingUrl": "https://pascovotes.gov/elections/early_voting/early_voting_schedule.php",
+    "pollingPlaceUrl": "https://pascovotes.gov/precincts/precinct_finder.php",
+    "sampleBallotUrl": "https://www.pascovotes.gov/elections/sample_ballots.php",
+    "mailBallotDropOff": "Mail your ballot or drop it at any Pasco early voting site or one of the three Supervisor of Elections offices so it arrives by 7 p.m. on November 3; polling places cannot accept it.",
+    "phone": "800-851-8754",
+    "sources": [
+     "https://pascovotes.gov/elections/early_voting/early_voting_schedule.php",
+     "https://pascovotes.gov/elections/ways_to_vote.php",
+     "https://pascovotes.gov/elections/vote_by_mail/about_voting_by_mail.php",
+     "https://www.pascovotes.gov/elections/sample_ballots.php"
+    ]
+   },
+   "hernando": {
+    "earlyVoting": "Early voting runs every day from Thursday, October 22 through Saturday, October 31, 8 a.m. to 6 p.m., at five sites.",
+    "earlyVotingUrl": "https://www.hernandovotes.gov/1200",
+    "pollingPlaceUrl": "https://www.hernandovotes.gov/1194",
+    "sampleBallotUrl": "https://www.hernandovotes.gov/1194",
+    "mailBallotDropOff": "Drop your mail ballot at the secure ballot intake station at the Brooksville main office (weekdays 8 a.m. to 4:30 p.m.), the Forest Oaks office in Spring Hill, or any early voting site during early voting hours, so it arrives by 7 p.m. on November 3.",
+    "phone": "352-754-4125",
+    "sources": [
+     "https://www.hernandovotes.gov/1200",
+     "https://www.hernandovotes.gov/DocumentCenter/View/814",
+     "https://www.hernandovotes.gov/1237/Secure-Ballot-Intake-Station",
+     "https://www.hernandovotes.gov/",
+     "https://www.hernandovotes.gov/1206/WaystoVote",
+     "https://www.hernandovotes.gov/DocumentCenter/View/828"
+    ]
+   }
+  },
+  "jobs": {
+   "county-commission": {
+    "oneLine": "Passes county laws, approves the county budget, sets property tax rates, and directly governs areas outside city limits, including zoning decisions.",
+    "url": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/",
+    "publisher": "Pinellas County Government"
+   },
+   "school-board": {
+    "oneLine": "Runs the county's public schools: sets school policies, adopts the school budget and school tax rate, approves building plans, and assigns students to schools.",
+    "url": "https://flsenate.gov/Laws/Statutes/2025/1001.42",
+    "publisher": "Florida Legislature (Florida Statutes s. 1001.42)"
+   }
+  },
+  "unconfirmed": [
+   "Pinellas early voting daily hours: the SOE calendar shows only '7:00 AM Oct 19 to 7:00 PM Nov 1' as one range. FOX 13 reports 7 a.m. to 7 p.m. daily, but no fetched official page states daily hours or the site list.",
+   "Pinellas 2026 general election secure ballot return locations and hours: the SOE says they are listed on its election page, but the list itself (a PDF or page) could not be found or loaded.",
+   "Pasco number and list of 2026 general early voting sites: not shown on the fetched schedule page.",
+   "Hillsborough sample ballot deep link: the SOE says to look it up at VoteHillsborough.gov; the lookup tool's exact URL was not visible in fetched pages.",
+   "Notes or sample ballot in the booth: no Florida Division of Elections page fetched says this. The source is Hillsborough SOE (Oct 22, 2026). Pasco SOE says to bring a marked sample ballot to the polling place. Hernando SOE said the same in a 2014 sample ballot.",
+   "Precinct rule and provisional-counting rule come from a 2024 Florida DOS Election Day press release; the 2026 version was not found. The precinct rule is also stated by Hillsborough SOE (Oct 16, 2026) and Hernando SOE (Ways to Vote page).",
+   "The main Division of Elections Election Day and vote-by-mail pages (dos.fl.gov/elections/for-voters/voting/election-day-voting/ and .../vote-by-mail/) would not load, so the ID and provisional ballot facts cite the Florida Statutes on flsenate.gov.",
+   "No first-time voter tip from the Division of Elections was found; the tip used is from Hillsborough SOE's 2026 Voter Guide."
+  ]
+ },
+ "closeRace": {
+  "headline": "Local races can be very close.",
+  "detail": "In Hernando County's Aug 18 primary, the top two School Board District 5 candidates finished 7 votes apart: 13,724 to 13,717.",
+  "url": "https://www.hernandovotes.gov/DocumentCenter/View/798"
+ },
  "map": {
   "w": 520,
   "h": 640,

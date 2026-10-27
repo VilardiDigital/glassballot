@@ -1,0 +1,195 @@
+{
+  "checkedOn": "2026-10-27",
+  "election": "Florida General Election, Tuesday, November 3, 2026",
+  "statewide": [
+    {
+      "id": "poll-hours",
+      "text": "On Election Day, Tuesday, November 3, polls are open from 7 a.m. to 7 p.m. local time, and anyone in line at 7 p.m. still gets to vote.",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/100.011",
+      "publisher": "Florida Legislature (Florida Statutes s. 100.011)"
+    },
+    {
+      "id": "early-voting-statewide",
+      "text": "Every Florida county offers early voting from October 24 to October 31, and some counties offer extra days.",
+      "url": "https://dos.fl.gov/communications/press-releases/2026/secretary-of-state-cord-byrd-reminds-floridians-of-early-voting-options-1/",
+      "publisher": "Florida Department of State"
+    },
+    {
+      "id": "early-voting-any-site",
+      "text": "During early voting you can use any early voting site in the county where you are registered.",
+      "url": "https://dos.fl.gov/elections/for-voters/voting/early-voting-and-secure-ballot-intake-stations/",
+      "publisher": "Florida Division of Elections"
+    },
+    {
+      "id": "precinct",
+      "text": "On Election Day you must vote at the polling place assigned to your precinct, which is listed on your voter information card and your county elections website.",
+      "url": "https://dos.fl.gov/communications/press-releases/2024/press-release-secretary-byrd-announces-polls-open-statewide-on-general-election-day/",
+      "publisher": "Florida Department of State"
+    },
+    {
+      "id": "id-photo-signature",
+      "text": "Bring a current, valid ID that shows your photo and signature, such as a Florida driver license, Florida ID card, U.S. passport, debit or credit card, military ID, student ID, or veteran health ID card.",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/101.043",
+      "publisher": "Florida Legislature (Florida Statutes s. 101.043)"
+    },
+    {
+      "id": "id-no-signature",
+      "text": "If your photo ID does not show your signature, bring a second ID that does.",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/101.043",
+      "publisher": "Florida Legislature (Florida Statutes s. 101.043)"
+    },
+    {
+      "id": "id-none",
+      "text": "If you do not have an accepted ID with you, you can still vote, but on a provisional ballot.",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/101.043",
+      "publisher": "Florida Legislature (Florida Statutes s. 101.043)"
+    },
+    {
+      "id": "id-no-photos",
+      "text": "A picture of your ID on your phone does not count, so bring the actual card.",
+      "url": "https://www.votehillsborough.gov/DocumentCenter/View/124",
+      "publisher": "Hillsborough County Supervisor of Elections (2026 Voter Guide)"
+    },
+    {
+      "id": "provisional-not-on-rolls",
+      "text": "If you believe you are registered but your name cannot be found at your polling place, ask for a provisional ballot.",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/101.048",
+      "publisher": "Florida Legislature (Florida Statutes s. 101.048)"
+    },
+    {
+      "id": "provisional-proof",
+      "text": "After voting a provisional ballot, you have until 5 p.m. on the second day after the election (Thursday, November 5) to give your Supervisor of Elections written proof that you are eligible.",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/101.048",
+      "publisher": "Florida Legislature (Florida Statutes s. 101.048)"
+    },
+    {
+      "id": "provisional-counts",
+      "text": "A provisional ballot counts if you are eligible, you voted in the right precinct, and your signature matches the one on your voter record.",
+      "url": "https://dos.fl.gov/communications/press-releases/2024/press-release-secretary-byrd-announces-polls-open-statewide-on-general-election-day/",
+      "publisher": "Florida Department of State"
+    },
+    {
+      "id": "mail-received-by",
+      "text": "A mail ballot counts only if it reaches your county Supervisor of Elections by 7 p.m. on Election Day, and a postmark does not count.",
+      "url": "https://dos.fl.gov/elections/for-voters/voting/absentee-voting/",
+      "publisher": "Florida Division of Elections"
+    },
+    {
+      "id": "mail-request-closed",
+      "text": "The deadline to have a mail ballot sent to you was Thursday, October 22, 2026, so it is now too late to request one by mail.",
+      "url": "https://dos.fl.gov/communications/press-releases/2026/secretary-of-state-cord-byrd-reminds-floridians-of-early-voting-options-1/",
+      "publisher": "Florida Department of State"
+    },
+    {
+      "id": "mail-pickup-emergency",
+      "text": "You can still pick up your own mail ballot at your Supervisor of Elections office, but now that early voting has started you must sign a form saying an emergency keeps you from voting early or at your polling place.",
+      "url": "https://dos.fl.gov/elections/for-voters/voting/absentee-voting/",
+      "publisher": "Florida Division of Elections"
+    },
+    {
+      "id": "mail-change-mind",
+      "text": "If you asked for a mail ballot but would rather vote in person, bring the mail ballot with you, filled in or not.",
+      "url": "https://dos.fl.gov/elections/for-voters/voting/absentee-voting/",
+      "publisher": "Florida Division of Elections"
+    },
+    {
+      "id": "notes-in-booth",
+      "text": "You may bring a sample ballot or your own notes into the voting booth to help you remember your choices.",
+      "url": "https://www.votehillsborough.gov/m/newsflash/Home/Detail/66",
+      "publisher": "Hillsborough County Supervisor of Elections (Oct 22, 2026 release)"
+    },
+    {
+      "id": "first-time-skip-and-mistakes",
+      "text": "First time voting? It is okay to skip races, and if you make a mistake on your ballot, ask for a new one instead of crossing it out.",
+      "url": "https://www.votehillsborough.gov/DocumentCenter/View/124",
+      "publisher": "Hillsborough County Supervisor of Elections (2026 Voter Guide)"
+    }
+  ],
+  "counties": {
+    "pinellas": {
+      "earlyVoting": "Early voting runs October 19 through November 1; the county calendar lists it from 7 a.m. October 19 to 7 p.m. November 1, so check VotePinellas.gov for each site's daily hours.",
+      "earlyVotingUrl": "https://www.votepinellas.gov/382",
+      "pollingPlaceUrl": "https://votepinellas.gov/election-information/find-your-precinct-polling-place",
+      "sampleBallotUrl": "https://votepinellas.gov/election-information/find-your-precinct-polling-place",
+      "mailBallotDropOff": "Return your mail ballot to a Supervisor of Elections office or one of the secure ballot return locations listed at VotePinellas.gov so it arrives by 7 p.m. on November 3.",
+      "phone": "727-464-8683",
+      "sources": [
+        "https://www.votepinellas.gov/382",
+        "https://www.votepinellas.gov/204",
+        "https://www.votepinellas.gov/Calendar.aspx",
+        "https://www.votepinellas.gov/DocumentCenter/View/1759",
+        "https://www.votepinellas.gov/CivicAlerts.aspx?AID=32",
+        "https://votepinellas.gov/election-information/find-your-precinct-polling-place",
+        "https://dos.fl.gov/elections/for-voters/voting/absentee-voting/"
+      ]
+    },
+    "hillsborough": {
+      "earlyVoting": "Early voting runs every day from October 19 through November 1, 7 a.m. to 7 p.m., at any of 27 sites.",
+      "earlyVotingUrl": "https://www.votehillsborough.gov/m/newsflash/Home/Detail/65",
+      "pollingPlaceUrl": "https://www.votehillsborough.gov/159",
+      "sampleBallotUrl": "https://www.votehillsborough.gov/",
+      "mailBallotDropOff": "Drop your mail ballot in the secure ballot intake station inside any early voting site during early voting hours, or at a Supervisor of Elections office when it is open, so it arrives by 7 p.m. on November 3; polling places cannot accept it.",
+      "phone": "813-744-5900",
+      "sources": [
+        "https://www.votehillsborough.gov/m/newsflash/Home/Detail/65",
+        "https://www.votehillsborough.gov/m/newsflash/Home/Detail/66",
+        "https://www.votehillsborough.gov/169",
+        "https://www.votehillsborough.gov/159",
+        "https://www.votehillsborough.gov/165/Provisional-Ballot-Status",
+        "https://www.votehillsborough.gov/DocumentCenter/View/124"
+      ]
+    },
+    "pasco": {
+      "earlyVoting": "Early voting runs every day from Monday, October 19 through Saturday, October 31, 7 a.m. to 7 p.m.",
+      "earlyVotingUrl": "https://pascovotes.gov/elections/early_voting/early_voting_schedule.php",
+      "pollingPlaceUrl": "https://pascovotes.gov/precincts/precinct_finder.php",
+      "sampleBallotUrl": "https://www.pascovotes.gov/elections/sample_ballots.php",
+      "mailBallotDropOff": "Mail your ballot or drop it at any Pasco early voting site or one of the three Supervisor of Elections offices so it arrives by 7 p.m. on November 3; polling places cannot accept it.",
+      "phone": "800-851-8754",
+      "sources": [
+        "https://pascovotes.gov/elections/early_voting/early_voting_schedule.php",
+        "https://pascovotes.gov/elections/ways_to_vote.php",
+        "https://pascovotes.gov/elections/vote_by_mail/about_voting_by_mail.php",
+        "https://www.pascovotes.gov/elections/sample_ballots.php"
+      ]
+    },
+    "hernando": {
+      "earlyVoting": "Early voting runs every day from Thursday, October 22 through Saturday, October 31, 8 a.m. to 6 p.m., at five sites.",
+      "earlyVotingUrl": "https://www.hernandovotes.gov/1200",
+      "pollingPlaceUrl": "https://www.hernandovotes.gov/1194",
+      "sampleBallotUrl": "https://www.hernandovotes.gov/1194",
+      "mailBallotDropOff": "Drop your mail ballot at the secure ballot intake station at the Brooksville main office (weekdays 8 a.m. to 4:30 p.m.), the Forest Oaks office in Spring Hill, or any early voting site during early voting hours, so it arrives by 7 p.m. on November 3.",
+      "phone": "352-754-4125",
+      "sources": [
+        "https://www.hernandovotes.gov/1200",
+        "https://www.hernandovotes.gov/DocumentCenter/View/814",
+        "https://www.hernandovotes.gov/1237/Secure-Ballot-Intake-Station",
+        "https://www.hernandovotes.gov/",
+        "https://www.hernandovotes.gov/1206/WaystoVote",
+        "https://www.hernandovotes.gov/DocumentCenter/View/828"
+      ]
+    }
+  },
+  "jobs": {
+    "county-commission": {
+      "oneLine": "Passes county laws, approves the county budget, sets property tax rates, and directly governs areas outside city limits, including zoning decisions.",
+      "url": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/",
+      "publisher": "Pinellas County Government"
+    },
+    "school-board": {
+      "oneLine": "Runs the county's public schools: sets school policies, adopts the school budget and school tax rate, approves building plans, and assigns students to schools.",
+      "url": "https://flsenate.gov/Laws/Statutes/2025/1001.42",
+      "publisher": "Florida Legislature (Florida Statutes s. 1001.42)"
+    }
+  },
+  "unconfirmed": [
+    "Pinellas early voting daily hours: the SOE calendar shows only '7:00 AM Oct 19 to 7:00 PM Nov 1' as one range. FOX 13 reports 7 a.m. to 7 p.m. daily, but no fetched official page states daily hours or the site list.",
+    "Pinellas 2026 general election secure ballot return locations and hours: the SOE says they are listed on its election page, but the list itself (a PDF or page) could not be found or loaded.",
+    "Pasco number and list of 2026 general early voting sites: not shown on the fetched schedule page.",
+    "Hillsborough sample ballot deep link: the SOE says to look it up at VoteHillsborough.gov; the lookup tool's exact URL was not visible in fetched pages.",
+    "Notes or sample ballot in the booth: no Florida Division of Elections page fetched says this. The source is Hillsborough SOE (Oct 22, 2026). Pasco SOE says to bring a marked sample ballot to the polling place. Hernando SOE said the same in a 2014 sample ballot.",
+    "Precinct rule and provisional-counting rule come from a 2024 Florida DOS Election Day press release; the 2026 version was not found. The precinct rule is also stated by Hillsborough SOE (Oct 16, 2026) and Hernando SOE (Ways to Vote page).",
+    "The main Division of Elections Election Day and vote-by-mail pages (dos.fl.gov/elections/for-voters/voting/election-day-voting/ and .../vote-by-mail/) would not load, so the ID and provisional ballot facts cite the Florida Statutes on flsenate.gov.",
+    "No first-time voter tip from the Division of Elections was found; the tip used is from Hillsborough SOE's 2026 Voter Guide."
+  ]
+}
