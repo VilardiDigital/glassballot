@@ -29,6 +29,8 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
+from .rtf import rtf_to_text
+
 ROOT = Path(__file__).resolve().parents[1]
 UA = {"User-Agent": "GlassBallot/1.0 (+https://glassballot.org; nonpartisan voter guide)", "Accept": "application/json"}
 
@@ -113,7 +115,7 @@ def refresh_legistar(county: str, today: str) -> str:
                 "headline": c.get("headline") or (i.get("EventItemTitle") or "Untitled item")[:120],
                 "inShort": c.get("inShort"), "needsReview": not c.get("inShort"),
                 # The clerk's minutes for this item. On public hearings they usually record who spoke and on which side.
-                "minutesNote": re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", i.get("EventItemMinutesNote") or ""))).strip() or c.get("minutesNote"),
+                "minutesNote": rtf_to_text(i.get("EventItemMinutesNote") or "") or c.get("minutesNote"),
             })
     for pid, a in att.items():
         stats[pid]["meetingsHeld"] = len(a)

@@ -4774,6 +4774,16 @@
      "motion": "A motion was made by Commissioner Flowers, seconded by Commissioner Peters, that the item be approved. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": 0,
+      "for": 0,
+      "against": 0,
+      "other": 0,
+      "cities": [],
+      "groups": false,
+      "mail": "No letters or emails were received."
+     },
      "result": {
       "value": "Passed 4 to 3",
       "label": "single",
@@ -5086,6 +5096,16 @@
      "motion": "A motion was made by Commissioner Peters, seconded by Commissioner Scott, that the item be approved. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": 0,
+      "for": 0,
+      "against": 0,
+      "other": 0,
+      "cities": [],
+      "groups": false,
+      "mail": "No letters or emails were received."
+     },
      "result": {
       "value": "Passed 6 to 1",
       "label": "single",
@@ -5172,6 +5192,16 @@
      "motion": "A motion was made by Commissioner Scott, seconded by Commissioner Flowers, that the item be approved. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": 0,
+      "for": 0,
+      "against": 0,
+      "other": 0,
+      "cities": [],
+      "groups": false,
+      "mail": "Five letters and three voicemails in opposition and one letter in concern have been received."
+     },
      "result": {
       "value": "Passed 6 to 1",
       "label": "single",
@@ -5216,6 +5246,16 @@
      "motion": "A motion was made by Commissioner Peters, seconded by Commissioner Scherer, that the item be approved. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": 0,
+      "for": 0,
+      "against": 0,
+      "other": 0,
+      "cities": [],
+      "groups": false,
+      "mail": "No letters or emails were received."
+     },
      "result": {
       "value": "Passed 6 to 1",
       "label": "single",
@@ -5260,6 +5300,18 @@
      "motion": "A motion was made by Commissioner Peters, seconded by Commissioner Flowers, that the item be approved as amended. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": 2,
+      "for": 0,
+      "against": 0,
+      "other": 2,
+      "cities": [
+       "St. Petersburg"
+      ],
+      "groups": true,
+      "mail": "No letters or emails were received."
+     },
      "moneyNotes": [
       {
        "text": "Kathleen Peters received $2,000 from Commtow, LLC and A-1 Recovery, Inc. (towing companies) on May 19, 2026, 63 days before this vote, and voted yes.",
@@ -5324,6 +5376,18 @@
      "motion": "A motion was made by Commissioner Flowers, seconded by Commissioner Peters, that the Board move forward with a base tow rate of $175.00, a mileage rate of $60.00, and a storage rate of $35.00. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": 1,
+      "for": 1,
+      "against": 0,
+      "other": 0,
+      "cities": [
+       "St. Petersburg"
+      ],
+      "groups": false,
+      "mail": null
+     },
      "moneyNotes": [
       {
        "text": "Kathleen Peters received $2,000 from Commtow, LLC and A-1 Recovery, Inc. (towing companies) on May 19, 2026, 28 days before this vote, and voted yes.",
@@ -5379,6 +5443,18 @@
      "motion": "A motion was made by Vice-Chair Latvala, seconded by Commissioner Nowicki, that the item be approved. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": 1,
+      "for": 1,
+      "against": 0,
+      "other": 0,
+      "cities": [
+       "Belleair"
+      ],
+      "groups": false,
+      "mail": null
+     },
      "result": {
       "value": "Passed 6 to 1",
       "label": "single",
@@ -5474,6 +5550,16 @@
        "eggers"
       ]
      },
+     "public": {
+      "applicant": 0,
+      "speakers": 0,
+      "for": 0,
+      "against": 0,
+      "other": 0,
+      "cities": [],
+      "groups": false,
+      "mail": "No letters or emails were received."
+     },
      "result": {
       "value": "Passed 5 to 1",
       "label": "single",
@@ -5520,6 +5606,18 @@
       "absent": [
        "eggers"
       ]
+     },
+     "public": {
+      "applicant": 2,
+      "speakers": 5,
+      "for": 0,
+      "against": 5,
+      "other": 0,
+      "cities": [
+       "Largo"
+      ],
+      "groups": false,
+      "mail": "Two emails and seven voicemails in opposition and one letter of concern have been received."
      },
      "result": {
       "value": "Denied 4 to 2",
@@ -5612,6 +5710,20 @@
        "latvala",
        "peters"
       ]
+     },
+     "public": {
+      "applicant": 0,
+      "speakers": 5,
+      "for": 5,
+      "against": 0,
+      "other": 0,
+      "cities": [
+       "Clearwater",
+       "Largo",
+       "Tarpon Springs"
+      ],
+      "groups": true,
+      "mail": null
      },
      "result": {
       "value": "Passed 4 to 1",
@@ -5746,6 +5858,28 @@
      "motion": "A motion was made by Commissioner Latvala, seconded by Commissioner Peters, that the tentative budget be amended, as discussed at the August 28 work session and as recommended by the County Administrator in a memorandum distributed to the members on September 3. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": 54,
+      "for": 0,
+      "against": 54,
+      "other": 0,
+      "cities": [
+       "Belleair",
+       "Clearwater",
+       "Dunedin",
+       "Gulfport",
+       "Largo",
+       "Palm Harbor",
+       "Pinellas Park",
+       "Safety Harbor",
+       "Seminole",
+       "St. Petersburg",
+       "Tarpon Springs"
+      ],
+      "groups": true,
+      "mail": "156 emails and 108 voicemails in opposition, regarding the tentative budget, have been received."
+     },
      "result": {
       "value": "Passed 5 to 2",
       "label": "single",
@@ -5969,6 +6103,16 @@
      "motion": "A motion was made by Commissioner Flowers, seconded by Vice-Chair Eggers, that the item be approved. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": 0,
+      "for": 0,
+      "against": 0,
+      "other": 0,
+      "cities": [],
+      "groups": false,
+      "mail": "One email of concern has been received."
+     },
      "result": {
       "value": "Passed 4 to 3",
       "label": "single",
@@ -6057,6 +6201,16 @@
      "motion": "A motion was made by Commissioner Scherer, seconded by Commissioner Flowers, that the item be approved as amended. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": null,
+      "for": 0,
+      "against": 0,
+      "other": 0,
+      "cities": [],
+      "groups": false,
+      "mail": "One letter in opposition and six voicemails in support have been received."
+     },
      "result": {
       "value": "Passed 6 to 1",
       "label": "single",
@@ -6105,6 +6259,20 @@
        "flowers",
        "peters"
       ]
+     },
+     "public": {
+      "applicant": 0,
+      "speakers": 5,
+      "for": 0,
+      "against": 0,
+      "other": 5,
+      "cities": [
+       "Clearwater",
+       "Seminole",
+       "St. Petersburg"
+      ],
+      "groups": false,
+      "mail": null
      },
      "result": {
       "value": "Passed 4 to 1",
@@ -6252,6 +6420,18 @@
      "motion": "A motion was made by Vice-Chair Scott, seconded by Commissioner Eggers, that the item be approved. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": 1,
+      "for": 0,
+      "against": 1,
+      "other": 0,
+      "cities": [
+       "Temple Terrace"
+      ],
+      "groups": false,
+      "mail": "No letters or emails were received."
+     },
      "result": {
       "value": "Passed 5 to 2",
       "label": "single",
@@ -6296,6 +6476,16 @@
      "motion": "A motion was made by Vice-Chair Scott, seconded by Commissioner Flowers, that the item be denied. The motion carried by the following vote:",
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 1,
+      "speakers": 0,
+      "for": 0,
+      "against": 0,
+      "other": 0,
+      "cities": [],
+      "groups": false,
+      "mail": null
+     },
      "result": {
       "value": "Denied 4 to 3",
       "label": "single",
@@ -21933,6 +22123,16 @@
      "motion": "To approve the staff recommendation (Resolution No. 2026-152).",
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": 0,
+      "for": 0,
+      "against": 0,
+      "other": 0,
+      "cities": [],
+      "groups": false,
+      "mail": null
+     },
      "result": {
       "value": "Passed 4 to 1",
       "label": "single",
@@ -21975,6 +22175,16 @@
      "motion": "To deny, and to not bring it back for a second hearing.",
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": "some",
+      "for": 0,
+      "against": 0,
+      "other": 0,
+      "cities": [],
+      "groups": false,
+      "mail": null
+     },
      "result": {
       "value": "Failed 2 to 2",
       "label": "single",
@@ -22067,6 +22277,16 @@
      "motion": "To purchase it with the intent of selling to a nonprofit for affordable housing.",
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": "some",
+      "for": 0,
+      "against": 0,
+      "other": 0,
+      "cities": [],
+      "groups": false,
+      "mail": null
+     },
      "result": {
       "value": "Failed 2 to 2",
       "label": "single",
@@ -22195,6 +22415,16 @@
      "motion": null,
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": 0,
+      "for": 0,
+      "against": 0,
+      "other": 0,
+      "cities": [],
+      "groups": false,
+      "mail": null
+     },
      "result": {
       "value": "Passed 4 to 1",
       "label": "single",
@@ -22279,6 +22509,16 @@
      "motion": "To approve the staff recommendation (Resolution No. 2026-028).",
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": 0,
+      "for": 0,
+      "against": 0,
+      "other": 0,
+      "cities": [],
+      "groups": false,
+      "mail": null
+     },
      "result": {
       "value": "Passed 3 to 2",
       "label": "single",
@@ -22381,6 +22621,16 @@
      "motion": null,
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": "some",
+      "for": 0,
+      "against": 0,
+      "other": 0,
+      "cities": [],
+      "groups": false,
+      "mail": null
+     },
      "result": {
       "value": "Passed 3 to 2",
       "label": "single",
@@ -22423,6 +22673,16 @@
      "motion": null,
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": 0,
+      "for": 0,
+      "against": 0,
+      "other": 0,
+      "cities": [],
+      "groups": false,
+      "mail": null
+     },
      "result": {
       "value": "Passed 4 to 1",
       "label": "single",
@@ -22510,6 +22770,16 @@
      "motion": "To leave lots one and two as PDPSU, go ahead with lots three, four and five, remove the southernmost U.S. 19 entrance and exit, and add a reasonable sound barrier.",
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": "some",
+      "for": 0,
+      "against": 0,
+      "other": 0,
+      "cities": [],
+      "groups": false,
+      "mail": null
+     },
      "result": {
       "value": "Failed 2 to 3",
       "label": "single",
@@ -22678,6 +22948,16 @@
      "motion": "To deny and leave as-is, revised to include signage and education to the public.",
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": "some",
+      "for": 0,
+      "against": 0,
+      "other": 0,
+      "cities": [],
+      "groups": false,
+      "mail": null
+     },
      "result": {
       "value": "Failed 2 to 3",
       "label": "single",
@@ -22720,6 +23000,16 @@
      "motion": null,
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": "some",
+      "for": 0,
+      "against": 0,
+      "other": 0,
+      "cities": [],
+      "groups": false,
+      "mail": null
+     },
      "result": {
       "value": "Passed 3 to 2",
       "label": "single",
@@ -22762,6 +23052,16 @@
      "motion": "To approve the staff recommendation (Ordinance No. 2025-03).",
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": 0,
+      "for": 0,
+      "against": 0,
+      "other": 0,
+      "cities": [],
+      "groups": false,
+      "mail": null
+     },
      "result": {
       "value": "Passed 4 to 1",
       "label": "single",
@@ -22846,6 +23146,16 @@
      "motion": "To approve the staff recommendation with modifications of 90-units, delivering the conservation land, no fence, 15% at 3-bedrooms, 45% at 2-bedrooms and unlimited for 1-bedroom units, with 10% holiday parking and to work with the County regarding a bus stop/sidewalk. (Resolution No. 2025-039).",
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": "some",
+      "for": 0,
+      "against": 0,
+      "other": 0,
+      "cities": [],
+      "groups": false,
+      "mail": null
+     },
      "result": {
       "value": "Passed 3 to 2",
       "label": "single",
@@ -22930,6 +23240,16 @@
      "motion": "Agenda Item",
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": "some",
+      "for": 0,
+      "against": 0,
+      "other": 0,
+      "cities": [],
+      "groups": false,
+      "mail": null
+     },
      "result": {
       "value": "Failed 1 to 4",
       "label": "single",
@@ -22972,6 +23292,16 @@
      "motion": "To approve the staff recommendation (Ordinance No. 2024-18).",
      "split": true,
      "rollExtra": {},
+     "public": {
+      "applicant": 0,
+      "speakers": 0,
+      "for": 0,
+      "against": 0,
+      "other": 0,
+      "cities": [],
+      "groups": false,
+      "mail": null
+     },
      "result": {
       "value": "Passed 3 to 2",
       "label": "single",

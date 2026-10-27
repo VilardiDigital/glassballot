@@ -919,6 +919,24 @@ function glassRoll(v) {
     ${(r.absent?.length || r.abstain?.length) ? `<p class="small muted">Not voting: ${[...(r.absent||[]).map(id => esc(P[id]?.name || id) + " (absent)"), ...(r.abstain||[]).map(id => esc(P[id]?.name || id) + " (abstained)")].join(", ")}.</p>` : ""}`;
 }
 
+function publicBlock(v, fid) {
+  const pc = v.public; if (!pc) return "";
+  const n = pc.speakers;
+  let line;
+  if (n === 0) line = "No one from the public spoke on this item." + (pc.applicant ? " The applicant's team spoke." : "");
+  else if (n === "some") line = "The board took public comment on this item. The county's minutes don't record how many people spoke or what they said; the meeting video does.";
+  else if (typeof n === "number") {
+    const sides = [[pc.for, "spoke in support"], [pc.against, "spoke against it or raised concerns"], [pc.other, "spoke without the minutes recording a side"]].filter(([k]) => k > 0);
+    line = sides.length === 1 ? `${n} ${n === 1 ? "person" : "people"} ${sides[0][1].replace(/^spoke /, "spoke ").replace(/^spoke against it or raised concerns$/, "spoke against it or raised concerns")}.` : `${n} people spoke: ${sides.map(([k, t]) => `${k} ${t}`).join(", ")}.`;
+    line +=  `${pc.cities.length ? ` Speakers gave their city as ${pc.cities.join(", ")}.` : ""}${pc.groups ? " At least one speaker spoke for a group of people in the room." : ""}${pc.applicant ? ` The applicant's team also spoke (not counted here).` : ""}`;
+  }
+  return `<section class="panel stack-sm" aria-labelledby="pub"><h2 class="h3" id="pub">What the public said</h2>
+    ${line ? `<p>${esc(line)}</p>` : ""}
+    ${pc.mail ? `<p>${esc(pc.mail)}</p>` : ""}
+    <p class="tiny muted">From the clerk's official minutes. Public comment isn't a poll: the people who come to speak aren't a sample of the county, and applicants and organized groups often bring supporters. We don't name members of the public. ${fixBtn(fid("public"), line || pc.mail || "")}</p>
+  </section>`;
+}
+
 function impactBlock(v, fid) {
   const im = v.impact || {};
   if (!v.impact) return ""; // shown once the fact-checked research for this vote is in
@@ -954,6 +972,8 @@ views.vote_item = id => {
     </section>
 
     ${impactBlock(v, fid)}
+
+    ${publicBlock(v, fid)}
 
     <section class="panel stack" aria-labelledby="res">
       <div class="between"><h2 class="h2" id="res">${esc(v.result.value || "Result not confirmed yet")}</h2>${chip(v.result.label, v.result.note)}</div>

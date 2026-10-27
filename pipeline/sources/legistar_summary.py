@@ -12,6 +12,8 @@ with the meeting page as the link.
 
 from __future__ import annotations
 
+from .public_comment import parse as parse_public
+
 import copy
 
 SRC = "legistar"
@@ -54,6 +56,7 @@ def merge(seed: dict, summary: dict) -> dict:
             "sourceUrl": urls.get(str(s["ev"]), seed["sources"][SRC]["url"]),
             "fileNumber": s.get("file"), "mover": s.get("mover"), "seconder": s.get("seconder"), "motion": s.get("motion"),
             "split": True, "rollExtra": extra,
+            **({"public": pc} if (pc := parse_public(s.get("minutesNote"))) else {}),
             "claims": {
                 "result": [{"value": s["result"], "source": SRC}],
                 "roll": [{"value": roll, "source": SRC}],
