@@ -118,6 +118,21 @@ def legistar_members(client: str, body_id: int):
     return [m for m in out if m["name"]]
 
 
+SKIP_CYCLE = r"committee|party|municipal|city of|town of|special|recall|club|estates|district|welaka|freeport|quincy|longboat|belleview|dunnellon|altamonte|casselberry|lake mary|longwood|oviedo|sanford|winter springs|naples|fort pierce|live oak|gainesville|office accounts"
+
+
+def past_cycles(slug_: str) -> dict:
+    """The county's 2022 and 2024 candidate cycles on VoterFocus, by year."""
+    page = get(f"{VF}?c={slug_}")
+    out = {}
+    for v, t in re.findall(r"<option value=['\"](\d+)['\"][^>]*>([^<]*)", page):
+        t = re.sub(r"\s+", " ", t)
+        m = re.search(r"\b(2022|2024)\b", t)
+        if m and not re.search(SKIP_CYCLE, t, re.I) and m.group(1) not in out:
+            out[m.group(1)] = int(v)
+    return out
+
+
 PARTY = {"REP": "Republican", "DEM": "Democrat", "NPA": "No party affiliation", "LPF": "Libertarian", "WRI": "Write-in", "GRE": "Green", "IND": "Independent"}
 
 
@@ -156,6 +171,33 @@ def build(county: str, cfg: dict) -> dict:
                 p["claims"]["inOfficeSince"] = [{"value": mem["start"][:4], "source": "legistar"}]
             if re.search(r"chair|vice", mem["title"], re.I):
                 p["claims"]["leadership"] = [{"value": mem["title"], "source": "legistar"}]
+
+    # Sitting commissioners where the meeting system didn't list them: the winners of the last two
+    # commission elections (4-year terms, staggered). Appointments made since then won't show.
+    try:
+        cyc = past_cycles(slug_)
+    except Exception:
+        cyc = {}
+    seed["county"]["pastCycles"] = cyc
+    if not any(p.get("status") == "incumbent" for p in seed["people"]):
+        for yr in sorted(cyc, reverse=True):
+            for r in voterfocus_races(county, slug_, cyc[yr], council=county == "duval"):
+                if r["kind"] != "bcc":
+                    continue
+                won = [c for c in r["candidates"] if re.search(r"elected|unopposed", c["status"], re.I)]
+                if len(won) != 1 or (r["district"] and any(p.get("district") == r["district"] and p.get("status") == "incumbent" for p in seed["people"])):
+                    continue
+                sid = f"soe-vf-{yr}"
+                seed["sources"].setdefault(sid, {"title": f"{name} Supervisor of Elections: {yr} candidates", "url": f"{VF}?c={slug_}&el={cyc[yr]}",
+                                                 "publisher": f"{name} Supervisor of Elections", "tier": 1, "accessed": now})
+                p = person(won[0]["name"])
+                p.update({"office": "County Commissioner", "status": "incumbent"})
+                if r["district"]:
+                    p["district"] = r["district"]
+                p["claims"]["lastElection"] = [{"value": f"{'Elected' if 'elected' in won[0]['status'].lower() else 'Elected unopposed'} in {yr} ({r['office']})", "source": sid}]
+                if won[0]["party"] and won[0]["party"] not in ("NON", "NP"):
+                    p["claims"]["party"] = [{"value": PARTY.get(won[0]["party"], won[0]["party"]), "source": sid}]
+                p["fromElections"] = True
 
     for r in voterfocus_races(county, slug_, el, council=county == "duval"):
         rid = f"{r['kind']}-d{r['district']}" if r["district"] else f"{r['kind']}-{re.sub(r'[^a-z0-9]+', '-', r['office'].lower()).strip('-')[:30]}"

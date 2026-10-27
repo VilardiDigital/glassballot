@@ -155,7 +155,7 @@ def refresh_voterfocus(county: str, el: int | None, today: str) -> list[str]:
     return rows
 
 
-CONTRIB_CYCLES = {k: c["finance"]["cycle"] for k, c in LIVE.items() if c["finance"].get("vendor") == "voterfocus"}
+CONTRIB_CYCLES = {k: c["finance"]["cycle"] for k, c in REGISTRY.items() if (c.get("live") or c.get("auto")) and c["finance"].get("vendor") == "voterfocus"}
 # Earlier cycles, for officials not on this year's ballot. These reports are final, so each is pulled once.
 PAST_CYCLES = {k: c["finance"].get("past", {}) for k, c in LIVE.items() if c["finance"].get("vendor") == "voterfocus"}
 
@@ -263,6 +263,8 @@ def main():
             except Exception as e:
                 errors.append(f"{county} campaign finance pull failed, kept last good data: {e}")
         for county, el in CONTRIB_CYCLES.items():
+            if not (ROOT / "data" / f"seed_{county}.json").exists():
+                continue
             try:
                 log.append(refresh_contrib(county, el, today))
             except Exception as e:
@@ -273,7 +275,7 @@ def main():
                 continue
             seed = json.loads(sp_.read_text())
             lasts = {p["name"].replace('"', "").split()[-1].lower() for p in seed["people"] if p.get("status") == "incumbent"}
-            for yr, pel in PAST_CYCLES[county].items():
+            for yr, pel in (PAST_CYCLES.get(county) or seed.get("county", {}).get("pastCycles") or {}).items():
                 if (ROOT / "data" / "contrib" / f"{county}_{yr}.json").exists():
                     continue
                 try:

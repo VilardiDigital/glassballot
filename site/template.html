@@ -575,7 +575,7 @@ function singleDistricts() {
 function autoNotice() {
   const m = (C.county.meetings || "");
   return `<section class="notice stack-sm" style="border-left:4px solid var(--glass)"><b>This is an early, automatic version of ${esc(C.county.name)}.</b>
-    <span class="small">The races, candidates and campaign money come straight from the Supervisor of Elections' official reports${C.votes.length ? ", and the votes from the county's own meeting records" : ""}. We haven't yet added plain-English summaries, candidate track records or fact checks for this county, and we haven't checked which seats are voted on countywide. If something looks wrong, tell us with the report button.</span></section>`;
+    <span class="small">The races, candidates and campaign money come straight from the Supervisor of Elections' official reports${C.votes.length ? ", and the votes from the county's own meeting records" : ""}. We haven't yet added plain-English summaries, candidate track records or fact checks for this county, and we haven't checked which seats are voted on countywide.${C.people.some(p => p.fromElections) ? " Current commissioners are taken from the 2022 and 2024 election results, so anyone appointed since then won't show yet." : ""} If something looks wrong, tell us with the report button.</span></section>`;
 }
 
 views.ballot = () => {
