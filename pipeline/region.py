@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -27,6 +28,20 @@ _REG = json.loads((ROOT / "data" / "counties.json").read_text())["counties"]
 ORDER = sorted((k for k, c in _REG.items() if c.get("live")), key=lambda k: _REG[k].get("order", 999))
 
 
+
+def _nice_name(n: str) -> str:
+    """County filings sometimes list a name in ALL CAPS. Show it the normal way (keeps Jr., II, McX, O'X)."""
+    if n != n.upper() or not re.search(r"[A-Z]{2}", n):
+        return n
+    def w(x):
+        if re.fullmatch(r"(II|III|IV|V)", x):
+            return x
+        t = x.capitalize()
+        t = re.sub(r"^Mc(\w)", lambda m: "Mc" + m.group(1).upper(), t)
+        t = re.sub(r"([-'])(\w)", lambda m: m.group(1) + m.group(2).upper(), t)
+        return t
+    return " ".join(w(x) for x in n.split())
+
 def build_county(cid: str, accessed: str | None) -> dict | None:
     seed_p = ROOT / "data" / f"seed_{cid}.json"
     if not seed_p.exists():
@@ -43,6 +58,8 @@ def build_county(cid: str, accessed: str | None) -> dict | None:
     seed = merge_impact(seed, cid)
     seed = merge_funding(seed, cid)
     seed = merge_results(seed, cid)
+    for person in seed.get("people", []):
+        person["name"] = _nice_name(person["name"])
     soe = json.loads((ROOT / "data" / "soe_sites.json").read_text()).get(cid)
     if soe:
         seed["county"].setdefault("soeUrl", soe)

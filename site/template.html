@@ -360,6 +360,12 @@ details.drawer[open] > summary{margin-bottom:12px}
 .sharebtn svg{width:18px;height:18px}
 #toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom,0px));transform:translate(-50%,20px);background:var(--char);color:#fff;padding:10px 16px;border-radius:12px;font-size:15px;opacity:0;pointer-events:none;transition:.2s;z-index:60;max-width:calc(100% - 32px)}
 #toast.on{opacity:1;transform:translate(-50%,0)}
+.namesearch{margin-top:18px}
+.namesearch input{width:100%;font:inherit;font-size:17px;padding:13px 16px;border-radius:14px;border:1px solid rgba(255,255,255,.5);background:#fff;color:var(--char)}
+.nameout{display:flex;flex-direction:column;gap:6px}
+.nameout a{display:flex;flex-direction:column;gap:1px;padding:10px 14px;border-radius:12px;background:rgba(255,255,255,.95);color:var(--char);text-decoration:none}
+.nameout a span{font-size:13.5px;color:var(--muted)}
+.nameout p{color:#DCE8FF;font-size:14.5px;margin:0}
 @media print{.top,.tabs,footer,.noprint{display:none!important}main{padding:0}body{background:#fff;font-size:14pt}.panel,.list{border:1px solid #999}}
 .fbar{display:flex;height:16px;border-radius:8px;overflow:hidden;background:var(--mist)}.fbar span{display:block;height:100%}
 .flegend{display:grid;gap:6px;margin:8px 0 0}.flegend li{display:grid;grid-template-columns:14px 1fr auto 3.2em;gap:8px;align-items:center;font-size:15px}.flegend i{width:12px;height:12px;border-radius:3px;display:block}
@@ -509,7 +515,9 @@ function factBlock(fact, factId, opts = {}) {
 }
 
 const photoOf = p => { const f = p.facts && p.facts.photo; return f && f.label !== "unknown" && typeof f.value === "string" && /^https:\/\//.test(f.value) ? f.value : null; };
-const face = (p, size = "") => { const u = photoOf(p); const ini = esc(initials(p.name));
+// Fairness: candidates in the same race are shown the same way. If any of them has no photo we can source, all show initials.
+const evenPhotos = r => !r || r.people.map(id => P[id]).filter(Boolean).every(x => photoOf(x));
+const face = (p, size = "", plain = false) => { const u = plain ? null : photoOf(p); const ini = esc(initials(p.name));
   return u ? `<img class="face ${size}" src="${esc(u)}" alt="Photo of ${esc(p.name)}" loading="lazy" referrerpolicy="no-referrer" data-ini="${ini}">` : `<span class="face ${size}" aria-hidden="true">${ini}</span>`; };
 document.addEventListener("error", e => { const t = e.target; if (t.tagName === "IMG" && t.classList.contains("face")) { const s = document.createElement("span"); s.className = t.className; s.textContent = t.dataset.ini || ""; s.setAttribute("aria-hidden", "true"); t.replaceWith(s); } }, true);
 const statusText = p => ({incumbent:"In office now", open:"Running", former:"Former commissioner"})[p.status] || "Running";
@@ -577,6 +585,11 @@ views.home = () => {
           <div class="zip"><input id="zipIn" inputmode="numeric" pattern="[0-9]{5}" maxlength="5" placeholder="33701" aria-describedby="zipMsg"><button class="btn" type="submit">Show my ballot</button></div>
           <p class="zipmsg" id="zipMsg" role="status"></p>
         </form>
+        <div class="stack-sm namesearch">
+          <label for="nameIn" style="font-weight:700;color:#fff">Or look up a name</label>
+          <input id="nameIn" type="search" autocomplete="off" placeholder="A candidate or commissioner" aria-controls="nameOut">
+          <div id="nameOut" class="nameout" role="region" aria-live="polite"></div>
+        </div>
         <span class="count">${edayLine()}</span>
       </div>
       <div class="mapwrap">
@@ -701,7 +714,7 @@ function raceCard(r) {
   const myp = (picks()[CK] || {})[r.id];
   return `<a class="race" href="${href("r/" + r.id)}">
     <div class="rh"><h3 class="h3" style="font-size:19px">${esc(r.title)}</h3><span class="small muted">Who votes: ${esc(whoVotes(r))}</span></div>
-    <div class="rp">${ppl.map(p => `<div>${face(p)}<span class="stack-sm" style="gap:1px"><b style="font-family:var(--head);font-weight:700;color:var(--char)">${esc(p.name)}${myp === p.id ? " ✓" : ""}</b><span class="tiny muted">${statusText(p)}${partyOf(p) ? " · " + esc(partyOf(p)) : ""}</span></span></div>`).join("")}</div>
+    <div class="rp">${ppl.map(p => `<div>${face(p, "", !evenPhotos(r))}<span class="stack-sm" style="gap:1px"><b style="font-family:var(--head);font-weight:700;color:var(--char)">${esc(p.name)}${myp === p.id ? " ✓" : ""}</b><span class="tiny muted">${statusText(p)}${partyOf(p) ? " · " + esc(partyOf(p)) : ""}</span></span></div>`).join("")}</div>
     ${r.results ? `<div style="padding:12px 16px 0">${resultsBlock(r, false)}</div>` : r.note ? `<p class="small muted" style="padding:12px 16px 0">${esc(r.note)}</p>` : ""}
     <span class="go">${ppl.length > 1 ? "Compare the candidates" : "See the candidate"}${myp ? " · You marked a choice" : ""}</span>
   </a>`;
@@ -740,7 +753,7 @@ views.race = id => {
         const camp = (p.links || []).find(l => l.kind === "campaign");
         const votes = p.tally ? `Voted on ${(p.tally.aye + p.tally.nay + p.tally.abstain).toLocaleString()} items as a commissioner` : (p.status !== "incumbent" ? "Hasn't served on this board" : null);
         return `<article class="cand">
-          <div class="ch">${face(p, "md")}<div class="stack-sm" style="gap:2px"><h2 class="h3" style="font-size:19px">${esc(p.name)}</h2><span class="small muted">${statusText(p)}${partyOf(p) && !isSchool(r) ? " · " + esc(partyOf(p)) : ""}</span></div></div>
+          <div class="ch">${face(p, "md", !evenPhotos(r))}<div class="stack-sm" style="gap:2px"><h2 class="h3" style="font-size:19px">${esc(p.name)}</h2><span class="small muted">${statusText(p)}${partyOf(p) && !isSchool(r) ? " · " + esc(partyOf(p)) : ""}</span></div></div>
           <dl>
             ${row("Work", val(p, "job"))}
             ${row("Experience in office", val(p, "pastOffice") || val(p, "inOfficeSince"))}
@@ -956,7 +969,7 @@ views.person = id => {
   return `<div class="stack-lg view person-v">
     <a class="back" href="${race ? href("r/" + race.id) : href("officials")}">‹ ${race ? esc(race.title) : `${esc(cname(CK))} commissioners`}</a>
     <section class="who" style="gap:16px;align-items:flex-end">
-      ${face(p, "lg")}
+      ${face(p, "lg", race && !evenPhotos(race))}
       <div class="stack-sm" style="min-width:0">
         <h1 class="h1">${esc(p.name)}</h1>
         <p class="lede" style="font-size:17px">${esc(p.office)}${p.district ? `, District ${esc(p.district)}` : ""}${partyOf(p) ? ` · ${esc(partyOf(p))}` : ""}</p>
@@ -1490,6 +1503,11 @@ document.addEventListener("click", e => {
 document.addEventListener("submit", e => { if (e.target.id === "zipForm") { e.preventDefault(); zipLookup($("#zipIn").value.trim()); } });
 document.querySelectorAll("dialog").forEach(dl => dl.addEventListener("click", e => { if (e.target === dl) dl.close(); }));
 $("#q").addEventListener("input", e => runSearch(e.target.value));
+const fold = t => String(t).normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+document.addEventListener("input", e => { if (e.target.id !== "nameIn") return;
+  const q = fold(e.target.value.trim()), out = $("#nameOut"); if (q.length < 2) { out.innerHTML = ""; return; }
+  const people = searchIndex().filter(i => /\/p\//.test(i.h) && fold(i.t).includes(q)).slice(0, 8);
+  out.innerHTML = people.length ? people.map(i => `<a href="${i.h}"><b>${esc(i.t)}</b><span>${esc(i.s)}</span></a>`).join("") : `<p>No one by that name yet. Try a last name, or pick a county below.</p>`; });
 document.addEventListener("keydown", e => { if (e.key === "Escape" && !$("#search").hidden) $("#search").hidden = true; });
 window.addEventListener("hashchange", route);
 
