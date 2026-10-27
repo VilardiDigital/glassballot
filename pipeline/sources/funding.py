@@ -50,8 +50,9 @@ def sector(text: str) -> str | None:
 # Political committees. Names alone often don't say who is behind a committee, so we only describe
 # the ones whose names plainly say it; the rest are listed as "purpose not stated in its name".
 COMMITTEE_KINDS = [
-    ("union", "Labor union committee", r"\bunion\b|local \d|\biuoe\b|\bibew\b|teamsters|\bcta\b|education association|labor|firefighters|benevolent|\bpba\b|iron workers|pipefitters|\bafl|\bseiu\b|\bpcta\b|teachers|\bflame\b"),
-    ("industry", "Industry or trade group committee", r"realtor|home builders|apartment|\bftba\b|transportation builders|\babc\b|builders and contractors|podiatr|osteopath|medical|hospital|physician|\bwgi\b|infrastructure|shumaker|chamber|\bbar\b|prescription|nurses|dental|engineers|bankers|auto dealers|farm bureau"),
+    ("industry", "Industry or trade group committee", r"realtor|home builders|apartment|\bftba\b|transportation builders|\babc\b|builders and contractors|podiatr|osteopath|medical|hospital|physician|\bwgi\b|infrastructure|shumaker|chamber|\bbar\b|nurses|dental|engineers|bankers|auto dealers|farm bureau"),
+    ("publicsafety", "Firefighters' or police officers' group committee", r"firefight|fire action|\bflame\b|police|benevolent|\bpba\b|sheriff"),
+    ("union", "Labor union committee", r"\bunion\b|local \d|\biuoe\b|\bibew\b|teamsters|\bcta\b|education association|labor|iron workers|pipefitters|\bafl|\bseiu\b|\bpcta\b|teachers|\bfea\b"),
     ("politician", "Another politician's committee", r"^friends of|for florida$|^committee to elect|\bfor (?:senate|house|sheriff|commission|congress)\b"),
 ]
 
@@ -78,7 +79,8 @@ def is_entity(name: str) -> bool:
 
 
 def _clean(name: str) -> str:
-    return re.sub(r"\s+", " ", name or "").strip()
+    n = re.sub(r"\s+", " ", name or "").strip()
+    return n + "…" if len(name or "") == 30 else n  # the county's export cuts names at 30 characters
 
 
 def summarize(rows: list[dict]) -> dict:
@@ -151,31 +153,38 @@ def summarize(rows: list[dict]) -> dict:
 
 
 def _match(name: str, people: list[dict]) -> dict | None:
-    base = name.replace(" Jr.", "").replace(" Jr", "").replace(" II", "").strip()
-    last = base.split()[-1].lower()
-    first = base.split()[0].lower().strip('"')
-    c = [p for p in people if p["name"].lower().replace(" jr.", "").split()[-1].strip(".,") == last]
-    if len(c) > 1:
-        c = [p for p in c if p["name"].lower().startswith(first)] or c
+    """Same last name and same first name (or nickname), so a different person with a shared surname never matches."""
+    base = name.replace('"', " ").replace(" Jr.", "").replace(" Jr", "").replace(" II", "").split()
+    last, firsts = base[-1].lower(), {w.lower().strip(".") for w in base[:-1]}
+    c = [p for p in people if p["name"].replace('"', " ").lower().replace(" jr.", "").split()[-1].strip(".,") == last
+         and firsts & {w.lower().strip(".") for w in p["name"].replace('"', " ").split()[:-1]}]
     return c[0] if len(c) == 1 else None
 
 
 def merge(seed: dict, county: str) -> dict:
-    f = ROOT / "data" / "contrib" / f"{county}.json"
-    if not f.exists():
+    files = sorted((ROOT / "data" / "contrib").glob(f"{county}*.json"), key=lambda f: f.stem, reverse=False)
+    # 2026 file first, then 2024, 2022, 2020: each person gets their most recent campaign.
+    files = sorted(files, key=lambda f: "9999" if f.stem == county else f.stem.split("_")[-1], reverse=True)
+    if not files:
         return seed
-    d = json.loads(f.read_text())
-    seed["sources"].setdefault(SOURCE_ID, {
-        "title": f"Itemized campaign contribution reports, {d.get('cycle', '2026')} election",
-        "url": d.get("url") or "https://www.voterfocus.com/CampaignFinance/candidate_pr.php",
-        "publisher": f"{seed['county']['name']} Supervisor of Elections" if isinstance(seed.get("county"), dict) else "County Supervisor of Elections",
-        "tier": 1, "accessed": d.get("pulledAt", "")[:10]})
-    for ca, c in d.get("campaigns", {}).items():
-        p = _match(c["candidate"], seed["people"])
-        if not p:
-            continue
-        s = summarize(c["rows"])
-        s.update({"office": c.get("office"), "reportUrl": c.get("url"), "through": max((r["date"] for r in c["rows"] if r.get("date")), default=None),
-                  "source": SOURCE_ID})
-        p["funding"] = s
+    pub = seed["county"]["name"] if isinstance(seed.get("county"), dict) else "County"
+    for f in files:
+        d = json.loads(f.read_text())
+        year = d.get("cycle", "2026")
+        sid = SOURCE_ID if year == "2026" else f"{SOURCE_ID}-{year}"
+        seed["sources"].setdefault(sid, {
+            "title": f"Itemized campaign contribution reports, {year} election", "url": d.get("url") or "https://www.voterfocus.com/CampaignFinance/candidate_pr.php",
+            "publisher": f"{pub} Supervisor of Elections", "tier": 1, "accessed": d.get("pulledAt", "")[:10]})
+        for ca, c in d.get("campaigns", {}).items():
+            p = _match(c["candidate"], seed["people"])
+            if not p or p.get("funding"):
+                continue
+            if year != "2026" and p.get("status") != "incumbent":
+                continue
+            s = summarize(c["rows"])
+            if not s["total"]:
+                continue
+            s.update({"cycle": year, "office": c.get("office"), "reportUrl": c.get("url"), "prior": round(c.get("prior") or 0),
+                      "through": max((r["date"] for r in c["rows"] if r.get("date")), default=None), "source": sid})
+            p["funding"] = s
     return seed

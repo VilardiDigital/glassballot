@@ -51,8 +51,8 @@ class Funding(unittest.TestCase):
         self.assertEqual(ids["construction"]["amount"], 1000)
         self.assertEqual(ids["realestate"]["amount"], 2000)
         self.assertEqual(ids["law"]["fromPeople"], 500)
-        self.assertEqual([c["name"] for c in s["committees"]], ["Firefighters For A Better Hern"])
-        self.assertEqual(s["committees"][0]["kind"], "union")
+        self.assertEqual([c["name"] for c in s["committees"]], ["Firefighters For A Better Hern…"])
+        self.assertEqual(s["committees"][0]["kind"], "publicsafety")
 
 
 if __name__ == "__main__":

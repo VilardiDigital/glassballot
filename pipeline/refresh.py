@@ -156,9 +156,12 @@ def refresh_voterfocus(county: str, el: int | None, today: str) -> list[str]:
 
 
 CONTRIB_CYCLES = {"pinellas": 35, "pasco": 38, "hillsborough": 27, "hernando": 32}
+# Earlier cycles, for officials not on this year's ballot. These reports are final, so each is pulled once.
+PAST_CYCLES = {"pinellas": {"2024": 31, "2022": 28, "2020": 26}, "pasco": {"2024": 34, "2022": 31, "2020": 26},
+               "hillsborough": {"2024": 24, "2022": 23, "2020": 21}, "hernando": {"2024": 29, "2022": 26, "2020": 22}}
 
 
-def refresh_contrib(county: str, el: int, today: str) -> str:
+def refresh_contrib(county: str, el: int, today: str, year: str = "2026", only=None) -> str:
     """Itemized contributions for every county commission and school board campaign this cycle.
 
     Private donors keep their occupation, city, state and ZIP only; we don't store their names or
@@ -176,7 +179,7 @@ def refresh_contrib(county: str, el: int, today: str) -> str:
         for a in re.finditer(r'href="[^"]*ca=(\d+)[^"]*">(.*?)</a>', g, re.S):
             text = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", a.group(2)))).strip()
             m = re.match(r"(.*?)(?: \(\w+\))? status \((.*?)\)", text)
-            if not m or re.search(r"Did not qualify|Withdrawn", m.group(2)):
+            if not m or re.search(r"Did not qualify|Withdrawn", m.group(2)) or (only and not only(m.group(1))):
                 continue
             ca = a.group(1)
             raw = get(f"{base}/export.php?op=CFINANCE&cand_id={ca}&dhc=0&county={county}", as_json=False)
@@ -197,12 +200,15 @@ def refresh_contrib(county: str, el: int, today: str) -> str:
                 if t == "B":
                     row["addr"] = re.sub(r"\b(ste|suite|unit|#)\b.*$", "", (r.get("address 1") or "").lower()).strip(" .,")
                 rows.append(row)
-            camps[ca] = {"candidate": m.group(1).strip(), "office": office, "status": m.group(2),
+            cv = get(f"{base}/candidate_pr.php?op=cv&e={el}&c={county}&ca={ca}&rellevel=4&committee=N", as_json=False)
+            pm = re.search(r"PRIOR CONTRIBUTIONS.*?Contributions\s*\$([\d,.]+)", re.sub(r"<[^>]+>", " ", cv), re.S)
+            prior = float(pm.group(1).replace(",", "")) if pm else 0
+            camps[ca] = {"candidate": m.group(1).strip(), "office": office, "status": m.group(2), **({"prior": prior} if prior else {}),
                          "url": f"{base}/candidate_pr.php?op=cv&e={el}&c={county}&ca={ca}&rellevel=4&committee=N", "rows": rows}
             time.sleep(0.4)
     out = ROOT / "data" / "contrib"
     out.mkdir(exist_ok=True)
-    (out / f"{county}.json").write_text(json.dumps({"county": county, "cycle": "2026", "el": el, "pulledAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+    (out / (f"{county}.json" if year == "2026" else f"{county}_{year}.json")).write_text(json.dumps({"county": county, "cycle": year, "el": el, "pulledAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                                                     "url": f"{base}/candidate_pr.php?c={county}&el={el}", "campaigns": camps}, ensure_ascii=False))
     return f"{county} itemized contributions: {len(camps)} campaigns, {sum(len(c['rows']) for c in camps.values())} gifts"
 
@@ -246,6 +252,16 @@ def main():
                 log.append(refresh_contrib(county, el, today))
             except Exception as e:
                 errors.append(f"{county} itemized contributions pull failed, kept last good data: {e}")
+            # Officials not running this year: their most recent campaign, pulled once.
+            seed = json.loads((ROOT / "data" / f"seed_{county}.json").read_text())
+            lasts = {p["name"].replace('"', "").split()[-1].lower() for p in seed["people"] if p.get("status") == "incumbent"}
+            for yr, pel in PAST_CYCLES[county].items():
+                if (ROOT / "data" / "contrib" / f"{county}_{yr}.json").exists():
+                    continue
+                try:
+                    log.append(refresh_contrib(county, pel, today, yr, only=lambda n: n.replace(" Jr.", "").replace(" Jr", "").split()[-1].lower() in lasts))
+                except Exception as e:
+                    errors.append(f"{county} {yr} itemized contributions pull failed: {e}")
         if rows:
             p = ROOT / "data" / f"voterfocus_totals_{today}.txt"
             p.write_text("\n".join(rows) + "\n")

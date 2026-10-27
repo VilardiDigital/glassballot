@@ -323,8 +323,8 @@ details.more > summary::-webkit-details-marker{display:none}
 @media print{.top,.tabs,footer,.noprint{display:none!important}main{padding:0}body{background:#fff;font-size:14pt}.panel,.list{border:1px solid #999}}
 .fbar{display:flex;height:16px;border-radius:8px;overflow:hidden;background:var(--mist)}.fbar span{display:block;height:100%}
 .flegend{display:grid;gap:6px;margin:8px 0 0}.flegend li{display:grid;grid-template-columns:14px 1fr auto 3.2em;gap:8px;align-items:center;font-size:15px}.flegend i{width:12px;height:12px;border-radius:3px;display:block}
-.fsectors{display:grid;gap:2px}.frow summary{display:grid;grid-template-columns:minmax(0,1fr) 28% auto 3em;gap:8px;align-items:center;cursor:pointer;padding:8px 0;border-bottom:1px solid var(--mist);list-style:none}.frow summary::-webkit-details-marker{display:none}
-.fl{font-size:15px;min-width:0}.fb{height:8px;background:var(--light);border-radius:4px;overflow:hidden}.fb span{display:block;height:100%;background:var(--glass)}
+.fsectors{display:grid;gap:2px}.frow summary{display:grid;grid-template-columns:minmax(0,1fr) auto 3em;gap:4px 10px;align-items:center;cursor:pointer;padding:8px 0;border-bottom:1px solid var(--mist);list-style:none}.frow summary::-webkit-details-marker{display:none}
+.fl{font-size:15px;min-width:0;grid-column:1/-1}.frow summary b{white-space:nowrap}.fcom{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:start}.fcom b.num{white-space:nowrap}.fb{height:8px;background:var(--light);border-radius:4px;overflow:hidden}.fb span{display:block;height:100%;background:var(--glass)}
 </style>
 
 <header class="top">
@@ -887,18 +887,20 @@ function fundingBlock(p, fid) {
         <p>${x.fromBusinesses ? `${usd(x.fromBusinesses)} from businesses` : ""}${x.fromBusinesses && x.fromPeople ? " and " : ""}${x.fromPeople ? `${usd(x.fromPeople)} from people who listed a job in this field` : ""}.</p>
         ${x.topBusinesses.length ? `<p class="muted">Businesses in this group: ${x.topBusinesses.map(([n,a]) => `${esc(n)} (${usd(a)})`).join("; ")}</p>` : ""}
       </div></details>`;
-  const kinds = {union:"Labor union committee", industry:"Industry or trade group committee", politician:"Another politician's committee", other:"Its name doesn't say who funds it"};
+  const kinds = {publicsafety:"Firefighters' or police officers' group committee", union:"Labor union committee", industry:"Industry or trade group committee", politician:"Another politician's committee", other:"Its name doesn't say who funds it"};
   return `<div class="stack" style="margin-top:6px">
     <h3 class="h3">Where the money came from</h3>
-    <p class="small muted">${usd(T)} in reported gifts${f.inKind ? `, including ${usd(f.inKind)} given as goods or services` : ""}, through ${f.through ? fmtDate(f.through) : "the latest report"}. Refunds are subtracted.</p>
+    ${f.cycle && f.cycle !== "2026" ? `<p class="small"><b>${esc(firstName(p))} isn't on the ballot this year.</b> This is from their most recent campaign, the ${esc(f.cycle)} election${f.office ? ` (${esc(f.office)})` : ""}.</p>` : ""}
+    <p class="small muted">${usd(T)} in itemized gifts${f.inKind ? `, including ${usd(f.inKind)} given as goods or services` : ""}, through ${f.through ? fmtDate(f.through) : "the latest report"}. Refunds are subtracted.</p>
+    ${f.prior ? `<p class="small">Plus <b>${usd(f.prior)}</b> raised before this campaign switched to this race. Those gifts are itemized in state records, not the county's, so they aren't in the breakdown below.</p>` : ""}
     ${bar}
     ${named.length ? `<h3 class="h3" style="margin-top:8px">By industry</h3>
       <p class="small muted">Businesses grouped by their stated line of work, and people by the job they reported. Tap a row to see who's in it.</p>
       <div class="fsectors">${named.map(sectorRow).join("")}</div>
       ${rest.length ? `<details class="more"><summary>Gifts we couldn't group (${usd(rest.reduce((a,x)=>a+x.amount,0))})</summary><div class="fsectors">${rest.map(sectorRow).join("")}</div></details>` : ""}` : ""}
     ${f.committees.length ? `<h3 class="h3" style="margin-top:8px">Political committees (PACs) that gave</h3>
-      <p class="small muted">A political committee pools money from people, companies and other committees, then gives it to candidates. Like everyone else, it can give a county candidate up to $1,000 per election. Its name often doesn't say who's behind it; the state's committee records do. <a href="#/money">How this works</a></p>
-      <ul class="plain stack-sm">${f.committees.map(c => `<li class="between" style="gap:12px;align-items:flex-start"><span><b>${esc(c.name)}</b><br><span class="tiny muted">${kinds[c.kind] || c.kindLabel}</span></span><b class="num">${usd(c.amount)}</b></li>`).join("")}</ul>
+      <p class="small muted">A political committee pools money from people, companies and other committees, then gives it to candidates. Like everyone else, it can give a county candidate up to $1,000 per election. Its name often doesn't say who's behind it, and the county's reports cut long names short; the state's committee records list each committee's own donors. <a href="#/money">How this works</a></p>
+      <ul class="plain stack-sm">${f.committees.map(c => `<li class="fcom"><span><b>${esc(c.name)}</b><br><span class="tiny muted">${kinds[c.kind] || c.kindLabel}</span></span><b class="num">${usd(c.amount)}</b></li>`).join("")}</ul>
       <a class="small" href="https://dos.elections.myflorida.com/committees/" target="_blank" rel="noopener">Look up any Florida committee's donors (Florida Division of Elections)</a>` : ""}
     ${f.parties.length ? `<p class="small"><b>Political party money:</b> ${f.parties.map(x => `${esc(x.name)} ${usd(x.amount)}`).join("; ")}.</p>` : ""}
     ${f.sharedAddress.length ? `<h3 class="h3" style="margin-top:8px">Companies giving from the same address</h3>

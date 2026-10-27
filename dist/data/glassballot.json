@@ -4,15 +4,7 @@
   "state": "FL",
   "electionDate": "2026-11-03",
   "updated": "2026-10-27",
-  "refreshLog": [
-   "pinellas Legistar: 1268 roll calls, 0 new split votes awaiting review",
-   "hernando Legistar: 1851 roll calls, 0 new split votes awaiting review",
-   "pinellas itemized contributions: 14 campaigns, 2134 gifts",
-   "pasco itemized contributions: 15 campaigns, 2367 gifts",
-   "hillsborough itemized contributions: 18 campaigns, 4765 gifts",
-   "hernando itemized contributions: 16 campaigns, 666 gifts",
-   "Campaign totals: 49 candidates"
-  ],
+  "refreshLog": [],
   "refreshErrors": []
  },
  "order": [
@@ -1382,7 +1374,7 @@
         "gifts": 28,
         "topBusinesses": [
          [
-          "Brandon Construction Company G",
+          "Brandon Construction Company G…",
           2000
          ],
          [
@@ -1398,7 +1390,7 @@
           1000
          ],
          [
-          "Ajax Paving Industries of Flor",
+          "Ajax Paving Industries of Flor…",
           1000
          ],
          [
@@ -1489,7 +1481,7 @@
         "gifts": 11,
         "topBusinesses": [
          [
-          "Florida Fisherman, Inc. dba Hu",
+          "Florida Fisherman, Inc. dba Hu…",
           1000
          ]
         ]
@@ -1517,7 +1509,7 @@
         "gifts": 2,
         "topBusinesses": [
          [
-          "Waste Management Inc of Florid",
+          "Waste Management Inc of Florid…",
           1000
          ]
         ]
@@ -1544,7 +1536,7 @@
           500
          ],
          [
-          "Seven 7's Operations Center, L",
+          "Seven 7's Operations Center, L…",
           250
          ]
         ]
@@ -1579,7 +1571,7 @@
       ],
       "committees": [
        {
-        "name": "Shumaker Florida Political Com",
+        "name": "Shumaker Florida Political Com…",
         "amount": 2000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
@@ -1597,19 +1589,19 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Realtors Political Activity Co",
+        "name": "Realtors Political Activity Co…",
         "amount": 2000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "Realtors Political Action Comm",
+        "name": "Realtors Political Action Comm…",
         "amount": 2000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "Realtors Political Advocacy Co",
+        "name": "Realtors Political Advocacy Co…",
         "amount": 2000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
@@ -1651,7 +1643,7 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Florian Labor Association of M",
+        "name": "Florian Labor Association of M…",
         "amount": 1000,
         "kind": "union",
         "kindLabel": "Labor union committee"
@@ -1695,7 +1687,7 @@
       ],
       "parties": [
        {
-        "name": "Pinellas County Republican Par",
+        "name": "Pinellas County Republican Par…",
         "amount": 10000
        }
       ],
@@ -1719,8 +1711,10 @@
         "amount": 5000
        }
       ],
+      "cycle": "2026",
       "office": "Board of County Commissioners - Dist. 2 - At Large",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=35&c=pinellas&ca=1174&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-16",
       "source": "soe-itemized"
      },
@@ -2185,8 +2179,10 @@
        }
       ],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "Board of County Commissioners - Dist. 2 - At Large",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=35&c=pinellas&ca=1208&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-11",
       "source": "soe-itemized"
      },
@@ -3066,7 +3062,7 @@
         "kindLabel": "Another politician's committee"
        },
        {
-        "name": "Floridians for Economic Prospe",
+        "name": "Floridians for Economic Prospe…",
         "amount": 1000,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
@@ -3078,25 +3074,25 @@
         "kindLabel": "Another politician's committee"
        },
        {
-        "name": "Apartment Political Action Com",
+        "name": "Apartment Political Action Com…",
         "amount": 1000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "Realtors Political Activity Co",
+        "name": "Realtors Political Activity Co…",
         "amount": 1000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "Realtors Political Advocacy Co",
+        "name": "Realtors Political Advocacy Co…",
         "amount": 1000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "Realtors Political Action Comm",
+        "name": "Realtors Political Action Comm…",
         "amount": 1000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
@@ -3114,7 +3110,7 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Shumaker Florida Political Com",
+        "name": "Shumaker Florida Political Com…",
         "amount": 500,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
@@ -3122,13 +3118,15 @@
       ],
       "parties": [
        {
-        "name": "Pinellas County Republican Par",
+        "name": "Pinellas County Republican Par…",
         "amount": 10000
        }
       ],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "Board of County Commissioners - Dist. 4 - Single M",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=35&c=pinellas&ca=1182&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-08-11",
       "source": "soe-itemized"
      },
@@ -4134,7 +4132,7 @@
           1000
          ],
          [
-          "DLR Government Consulting, LLC",
+          "DLR Government Consulting, LLC…",
           1000
          ],
          [
@@ -4172,11 +4170,11 @@
           1000
          ],
          [
-          "Bayview Real Estate Group, LLC",
+          "Bayview Real Estate Group, LLC…",
           1000
          ],
          [
-          "Marina Bay Development II, LLC",
+          "Marina Bay Development II, LLC…",
           1000
          ],
          [
@@ -4261,7 +4259,7 @@
           1000
          ],
          [
-          "Bay Star Restaurant Group, Inc",
+          "Bay Star Restaurant Group, Inc…",
           1000
          ],
          [
@@ -4269,7 +4267,7 @@
           1000
          ],
          [
-          "Sunshine Recreation & Entertai",
+          "Sunshine Recreation & Entertai…",
           1000
          ],
          [
@@ -4300,7 +4298,7 @@
         "gifts": 17,
         "topBusinesses": [
          [
-          "William Karns Enterprises, Inc",
+          "William Karns Enterprises, Inc…",
           1500
          ],
          [
@@ -4439,25 +4437,25 @@
       ],
       "committees": [
        {
-        "name": "Apartment Political Action Com",
+        "name": "Apartment Political Action Com…",
         "amount": 2000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "Realtors Political Advocacy Co",
+        "name": "Realtors Political Advocacy Co…",
         "amount": 2000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "Realtors Political Action Comm",
+        "name": "Realtors Political Action Comm…",
         "amount": 2000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "Realtors Political Activity Co",
+        "name": "Realtors Political Activity Co…",
         "amount": 2000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
@@ -4489,8 +4487,8 @@
        {
         "name": "SPAFF Flame PC",
         "amount": 1000,
-        "kind": "union",
-        "kindLabel": "Labor union committee"
+        "kind": "publicsafety",
+        "kindLabel": "Firefighters' or police officers' group committee"
        },
        {
         "name": "Florida Speaks",
@@ -4505,10 +4503,10 @@
         "kindLabel": "Another politician's committee"
        },
        {
-        "name": "Sun Coast Police Benevolent As",
+        "name": "Sun Coast Police Benevolent As…",
         "amount": 1000,
-        "kind": "union",
-        "kindLabel": "Labor union committee"
+        "kind": "publicsafety",
+        "kindLabel": "Firefighters' or police officers' group committee"
        },
        {
         "name": "WGI Infrastructure PAC",
@@ -4547,7 +4545,7 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Florida Coalition for Safe Com",
+        "name": "Florida Coalition for Safe Com…",
         "amount": 250,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
@@ -4565,7 +4563,7 @@
          "BAB Enterprises, LLC",
          "Dough Bros., LLC",
          "John's Pass Village, LLC",
-         "William Karns Enterprises, Inc"
+         "William Karns Enterprises, Inc…"
         ],
         "amount": 4000
        },
@@ -4579,15 +4577,17 @@
        },
        {
         "names": [
-         "Bayview Real Estate Group, LLC",
+         "Bayview Real Estate Group, LLC…",
          "ITI Development, LLC",
-         "Marina Bay Development II, LLC"
+         "Marina Bay Development II, LLC…"
         ],
         "amount": 3000
        }
       ],
+      "cycle": "2026",
       "office": "Board of County Commissioners - Dist. 6 - Single M",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=35&c=pinellas&ca=1177&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-15",
       "source": "soe-itemized"
      },
@@ -5061,7 +5061,7 @@
       ],
       "committees": [
        {
-        "name": "Greater Pinellas Democratic Cl",
+        "name": "Greater Pinellas Democratic Cl…",
         "amount": 300,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
@@ -5073,7 +5073,7 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Democratice Club of St Petersb",
+        "name": "Democratice Club of St Petersb…",
         "amount": 200,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
@@ -5085,7 +5085,7 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Pinellas Dem Envornmental Club",
+        "name": "Pinellas Dem Envornmental Club…",
         "amount": 100,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
@@ -5105,8 +5105,10 @@
       ],
       "parties": [],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "Board of County Commissioners - Dist. 6 - Single M",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=35&c=pinellas&ca=1186&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-16",
       "source": "soe-itemized"
      },
@@ -5832,7 +5834,7 @@
         "gifts": 2,
         "topBusinesses": [
          [
-          "Circuit Electric Services, Inc",
+          "Circuit Electric Services, Inc…",
           250
          ]
         ]
@@ -5877,8 +5879,10 @@
        }
       ],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "School Board Member - District 3 - At Large",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=35&c=pinellas&ca=1181&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-15",
       "source": "soe-itemized"
      },
@@ -6273,8 +6277,10 @@
        }
       ],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "School Board Member - District 3 - At Large",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=35&c=pinellas&ca=1180&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-16",
       "source": "soe-itemized"
      },
@@ -9722,7 +9728,7 @@
           1000
          ],
          [
-          "Waste Management Inc of Florid",
+          "Waste Management Inc of Florid…",
           1000
          ],
          [
@@ -9752,7 +9758,7 @@
           500
          ],
          [
-          "Algo Transportation Group, LLC",
+          "Algo Transportation Group, LLC…",
           500
          ]
         ]
@@ -9788,7 +9794,7 @@
           1000
          ],
          [
-          "A.Plus Car Wash & Detailing In",
+          "A.Plus Car Wash & Detailing In…",
           400
          ],
          [
@@ -9827,16 +9833,16 @@
       ],
       "committees": [
        {
-        "name": "Plumbers & Pipefitters Local 1",
+        "name": "Plumbers & Pipefitters Local 1…",
         "amount": 2000,
         "kind": "union",
         "kindLabel": "Labor union committee"
        },
        {
-        "name": "Hillsborough Fire Action Commi",
+        "name": "Hillsborough Fire Action Commi…",
         "amount": 2000,
-        "kind": "other",
-        "kindLabel": "Political committee (its name doesn't say who funds it)"
+        "kind": "publicsafety",
+        "kindLabel": "Firefighters' or police officers' group committee"
        },
        {
         "name": "P.c. Iuoe 487 FL",
@@ -9863,13 +9869,13 @@
         "kindLabel": "Another politician's committee"
        },
        {
-        "name": "Friends of Tampa General Hospi",
+        "name": "Friends of Tampa General Hospi…",
         "amount": 1000,
         "kind": "politician",
         "kindLabel": "Another politician's committee"
        },
        {
-        "name": "teamsters local union 79 PAC f",
+        "name": "teamsters local union 79 PAC f…",
         "amount": 1000,
         "kind": "union",
         "kindLabel": "Labor union committee"
@@ -9905,49 +9911,49 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Realtors Political Activity Co",
+        "name": "Realtors Political Activity Co…",
         "amount": 1000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "Realtors Political Action Comm",
+        "name": "Realtors Political Action Comm…",
         "amount": 1000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "Realtors Political Advocacy Co",
+        "name": "Realtors Political Advocacy Co…",
         "amount": 1000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "Florida Gulf Coast Chapter, As",
+        "name": "Florida Gulf Coast Chapter, As…",
         "amount": 1000,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Teamster Local Union 79 PAC fo",
+        "name": "Teamster Local Union 79 PAC fo…",
         "amount": 1000,
         "kind": "union",
         "kindLabel": "Labor union committee"
        },
        {
-        "name": "Gray Robinson PA Florida Polit",
+        "name": "Gray Robinson PA Florida Polit…",
         "amount": 500,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Iron Workers Local 397 Politic",
+        "name": "Iron Workers Local 397 Politic…",
         "amount": 500,
         "kind": "union",
         "kindLabel": "Labor union committee"
        },
        {
-        "name": "GrayRobinson, P.A., Florida Po",
+        "name": "GrayRobinson, P.A., Florida Po…",
         "amount": 500,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
@@ -9965,7 +9971,7 @@
         "kindLabel": "Labor union committee"
        },
        {
-        "name": "West Central Florida Labor Cou",
+        "name": "West Central Florida Labor Cou…",
         "amount": 250,
         "kind": "union",
         "kindLabel": "Labor union committee"
@@ -10007,8 +10013,10 @@
         "amount": 3000
        }
       ],
+      "cycle": "2026",
       "office": "County Commissioner, Dist. 1",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=27&c=hillsborough&ca=2640&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-16",
       "source": "soe-itemized"
      },
@@ -10739,7 +10747,7 @@
           1000
          ],
          [
-          "Astin Strawberry Exchange, LLC",
+          "Astin Strawberry Exchange, LLC…",
           1000
          ],
          [
@@ -10872,7 +10880,7 @@
           1000
          ],
          [
-          "AMQ International Corp DBA Evo",
+          "AMQ International Corp DBA Evo…",
           1000
          ],
          [
@@ -10972,8 +10980,8 @@
        {
         "name": "Hillsborough Fire Action Committee",
         "amount": 1000,
-        "kind": "other",
-        "kindLabel": "Political committee (its name doesn't say who funds it)"
+        "kind": "publicsafety",
+        "kindLabel": "Firefighters' or police officers' group committee"
        },
        {
         "name": "Florida Gulf Coast Chapter ABC, PAC",
@@ -11014,8 +11022,10 @@
       ],
       "parties": [],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "County Commissioner, Dist. 3",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=27&c=hillsborough&ca=2621&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-15",
       "source": "soe-itemized"
      },
@@ -11625,11 +11635,11 @@
           500
          ],
          [
-          "V. M. Z. E. Specialty Services",
+          "V. M. Z. E. Specialty Services…",
           500
          ],
          [
-          "United Pastors of America Corp",
+          "United Pastors of America Corp…",
           100
          ]
         ]
@@ -11647,7 +11657,7 @@
           1000
          ],
          [
-          "Jono Heritage Land Development",
+          "Jono Heritage Land Development…",
           500
          ],
          [
@@ -11705,8 +11715,10 @@
       "committees": [],
       "parties": [],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "County Commissioner, Dist. 5",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=27&c=hillsborough&ca=2611&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-08-12",
       "source": "soe-itemized"
      },
@@ -12248,7 +12260,7 @@
           1000
          ],
          [
-          "Sinatra and Company Real Estat",
+          "Sinatra and Company Real Estat…",
           1000
          ]
         ]
@@ -12296,7 +12308,7 @@
           1000
          ],
          [
-          "Ajax Paving Industries of Flor",
+          "Ajax Paving Industries of Flor…",
           1000
          ],
          [
@@ -12342,7 +12354,7 @@
           1000
          ],
          [
-          "NT Lee Te Kim Lawn Care & Nurs",
+          "NT Lee Te Kim Lawn Care & Nurs…",
           1000
          ],
          [
@@ -12398,7 +12410,7 @@
           1000
          ],
          [
-          "Travis Mitchell & Associates I",
+          "Travis Mitchell & Associates I…",
           1000
          ],
          [
@@ -12406,7 +12418,7 @@
           1000
          ],
          [
-          "The Law Office Of Amber Boles,",
+          "The Law Office Of Amber Boles,…",
           500
          ],
          [
@@ -12478,11 +12490,11 @@
           1000
          ],
          [
-          "Waste Management Inc Of Florid",
+          "Waste Management Inc Of Florid…",
           1000
          ],
          [
-          "Republic Services of Florida L",
+          "Republic Services of Florida L…",
           1000
          ],
          [
@@ -12592,10 +12604,10 @@
       ],
       "committees": [
        {
-        "name": "Hillsborough Fire Action Commi",
+        "name": "Hillsborough Fire Action Commi…",
         "amount": 2000,
-        "kind": "other",
-        "kindLabel": "Political committee (its name doesn't say who funds it)"
+        "kind": "publicsafety",
+        "kindLabel": "Firefighters' or police officers' group committee"
        },
        {
         "name": "FTBA Transportation PAC",
@@ -12604,7 +12616,7 @@
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "Investing in Floridas Future N",
+        "name": "Investing in Floridas Future N…",
         "amount": 1000,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
@@ -12628,7 +12640,7 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Friends of Tampa General Hospi",
+        "name": "Friends of Tampa General Hospi…",
         "amount": 1000,
         "kind": "politician",
         "kindLabel": "Another politician's committee"
@@ -12646,13 +12658,13 @@
         "kindLabel": "Another politician's committee"
        },
        {
-        "name": "Hillsborough County Agricultur",
+        "name": "Hillsborough County Agricultur…",
         "amount": 1000,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Conservatives For Florida Agri",
+        "name": "Conservatives For Florida Agri…",
         "amount": 1000,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
@@ -12664,19 +12676,19 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Realtors Political Activity Co",
+        "name": "Realtors Political Activity Co…",
         "amount": 1000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "Realtors Political Advocacy Co",
+        "name": "Realtors Political Advocacy Co…",
         "amount": 1000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "Realtors Political Action Comm",
+        "name": "Realtors Political Action Comm…",
         "amount": 1000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
@@ -12704,9 +12716,9 @@
          "EPG1 LLC",
          "Eisenhower Property Group LLC",
          "Hills & Associates Inc",
-         "JSH SM-Ruskin Development II L",
+         "JSH SM-Ruskin Development II L…",
          "Kinward Living LLC",
-         "North Park Isle Development LL",
+         "North Park Isle Development LL…",
          "SM-Ruskin Development LLC"
         ],
         "amount": 10000
@@ -12728,8 +12740,10 @@
         "amount": 3000
        }
       ],
+      "cycle": "2026",
       "office": "County Commissioner, Dist. 7",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=27&c=hillsborough&ca=2620&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-15",
       "source": "soe-itemized"
      },
@@ -13194,15 +13208,15 @@
           1000
          ],
          [
-          "Ajax Paving Industries of Fla.",
+          "Ajax Paving Industries of Fla.…",
           1000
          ],
          [
-          "Kisinger Campo & Associates Co",
+          "Kisinger Campo & Associates Co…",
           1000
          ],
          [
-          "Globetrotters Engineering Corp",
+          "Globetrotters Engineering Corp…",
           1000
          ],
          [
@@ -13374,7 +13388,7 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Conservatives for Effective Go",
+        "name": "Conservatives for Effective Go…",
         "amount": 1000,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
@@ -13410,7 +13424,7 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Friends of Tampa General Hospi",
+        "name": "Friends of Tampa General Hospi…",
         "amount": 1000,
         "kind": "politician",
         "kindLabel": "Another politician's committee"
@@ -13428,7 +13442,7 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Committee to Protect Northwest",
+        "name": "Committee to Protect Northwest…",
         "amount": 500,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
@@ -13448,8 +13462,10 @@
       ],
       "parties": [],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "County Commissioner, Dist. 1",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=27&c=hillsborough&ca=2880&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-16",
       "source": "soe-itemized"
      },
@@ -13701,7 +13717,7 @@
         "gifts": 1,
         "topBusinesses": [
          [
-          "After Glow Anesthetics & Welln",
+          "After Glow Anesthetics & Welln…",
           100
          ]
         ]
@@ -13728,8 +13744,10 @@
       "committees": [],
       "parties": [],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "County Commissioner, Dist. 3",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=27&c=hillsborough&ca=2646&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-07-23",
       "source": "soe-itemized"
      },
@@ -13982,7 +14000,7 @@
           1000
          ],
          [
-          "Choice Commerical Construction",
+          "Choice Commerical Construction…",
           1000
          ],
          [
@@ -14101,7 +14119,7 @@
           1000
          ],
          [
-          "Henederson Family Office, Inc.",
+          "Henederson Family Office, Inc.…",
           1000
          ]
         ]
@@ -14184,7 +14202,7 @@
           1000
          ],
          [
-          "Ferman Managaement Services Co",
+          "Ferman Managaement Services Co…",
           1000
          ]
         ]
@@ -14247,7 +14265,7 @@
         "kindLabel": "Another politician's committee"
        },
        {
-        "name": "Florida Gulf Coast Chapter ABC",
+        "name": "Florida Gulf Coast Chapter ABC…",
         "amount": 1000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
@@ -14271,7 +14289,7 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Plumbers & Pipefitters 123 PAC",
+        "name": "Plumbers & Pipefitters 123 PAC…",
         "amount": 1000,
         "kind": "union",
         "kindLabel": "Labor union committee"
@@ -14283,7 +14301,7 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "FL Gulf Coast Chapter ABC, PAC",
+        "name": "FL Gulf Coast Chapter ABC, PAC…",
         "amount": 1000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
@@ -14291,22 +14309,24 @@
       ],
       "parties": [
        {
-        "name": "Hillsborough County Republican",
+        "name": "Hillsborough County Republican…",
         "amount": 2000
        }
       ],
       "sharedAddress": [
        {
         "names": [
-         "Ferman Managaement Services Co",
+         "Ferman Managaement Services Co…",
          "Island Center Corporation",
          "SFFIG Inc."
         ],
         "amount": 3000
        }
       ],
+      "cycle": "2026",
       "office": "County Commissioner, Dist. 5",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=27&c=hillsborough&ca=2661&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-16",
       "source": "soe-itemized"
      },
@@ -14523,7 +14543,7 @@
         "gifts": 111,
         "topBusinesses": [
          [
-          "Integrated Practice Associates",
+          "Integrated Practice Associates…",
           500
          ]
         ]
@@ -14648,19 +14668,19 @@
       ],
       "committees": [
        {
-        "name": "Teamsters Local 79 PAC for Bet",
+        "name": "Teamsters Local 79 PAC for Bet…",
         "amount": 2000,
         "kind": "union",
         "kindLabel": "Labor union committee"
        },
        {
-        "name": "Local Union 915 IBEW Political",
+        "name": "Local Union 915 IBEW Political…",
         "amount": 1000,
         "kind": "union",
         "kindLabel": "Labor union committee"
        },
        {
-        "name": "Apartment Political Action Com",
+        "name": "Apartment Political Action Com…",
         "amount": 1000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
@@ -14672,7 +14692,7 @@
         "kindLabel": "Labor union committee"
        },
        {
-        "name": "Plumbers & Pipefitters Local 1",
+        "name": "Plumbers & Pipefitters Local 1…",
         "amount": 1000,
         "kind": "union",
         "kindLabel": "Labor union committee"
@@ -14684,7 +14704,7 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "West Central Florida Labor Cou",
+        "name": "West Central Florida Labor Cou…",
         "amount": 500,
         "kind": "union",
         "kindLabel": "Labor union committee"
@@ -14702,7 +14722,7 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Democratic Women's Club of Flo",
+        "name": "Democratic Women's Club of Flo…",
         "amount": 250,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
@@ -14721,8 +14741,10 @@
        }
       ],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "County Commissioner, Dist. 5",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=27&c=hillsborough&ca=2636&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-16",
       "source": "soe-itemized"
      },
@@ -15049,7 +15071,7 @@
         "gifts": 15,
         "topBusinesses": [
          [
-          "Serenity Village El Bethel LLC",
+          "Serenity Village El Bethel LLC…",
           1000
          ]
         ]
@@ -15108,7 +15130,7 @@
         "kindLabel": "Labor union committee"
        },
        {
-        "name": "Teamsters Local 79 PAC for Bet",
+        "name": "Teamsters Local 79 PAC for Bet…",
         "amount": 2000,
         "kind": "union",
         "kindLabel": "Labor union committee"
@@ -15120,19 +15142,19 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Local Union 915 IBEW Political",
+        "name": "Local Union 915 IBEW Political…",
         "amount": 1000,
         "kind": "union",
         "kindLabel": "Labor union committee"
        },
        {
-        "name": "West Central Florida Labor Cou",
+        "name": "West Central Florida Labor Cou…",
         "amount": 1000,
         "kind": "union",
         "kindLabel": "Labor union committee"
        },
        {
-        "name": "Iron Workers Local 397 Politic",
+        "name": "Iron Workers Local 397 Politic…",
         "amount": 750,
         "kind": "union",
         "kindLabel": "Labor union committee"
@@ -15150,7 +15172,7 @@
         "kindLabel": "Labor union committee"
        },
        {
-        "name": "Equality Florida Action PAC, I",
+        "name": "Equality Florida Action PAC, I…",
         "amount": 289,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
@@ -15185,8 +15207,10 @@
        }
       ],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "County Commissioner, Dist. 7",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=27&c=hillsborough&ca=2660&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-16",
       "source": "soe-itemized"
      },
@@ -15442,7 +15466,7 @@
           2000
          ],
          [
-          "Travis Mitchell and Associates",
+          "Travis Mitchell and Associates…",
           2000
          ],
          [
@@ -15530,7 +15554,7 @@
         "gifts": 7,
         "topBusinesses": [
          [
-          "Snively Insurance Agency, Inc.",
+          "Snively Insurance Agency, Inc.…",
           500
          ],
          [
@@ -15631,19 +15655,19 @@
         "kindLabel": "Another politician's committee"
        },
        {
-        "name": "Realtors Political Activity Co",
+        "name": "Realtors Political Activity Co…",
         "amount": 2000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "Realtors Political Advocacy Co",
+        "name": "Realtors Political Advocacy Co…",
         "amount": 2000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "Realtors Political Action Comm",
+        "name": "Realtors Political Action Comm…",
         "amount": 2000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
@@ -15667,7 +15691,7 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Florida Gulf Coast Chapter ABC",
+        "name": "Florida Gulf Coast Chapter ABC…",
         "amount": 1000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
@@ -15685,21 +15709,23 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Hillsborough Fire Action Commi",
+        "name": "Hillsborough Fire Action Commi…",
         "amount": 500,
-        "kind": "other",
-        "kindLabel": "Political committee (its name doesn't say who funds it)"
+        "kind": "publicsafety",
+        "kindLabel": "Firefighters' or police officers' group committee"
        }
       ],
       "parties": [
        {
-        "name": "Hillsborough County Republican",
+        "name": "Hillsborough County Republican…",
         "amount": 3000
        }
       ],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "School Board Member, Dist. 2",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=27&c=hillsborough&ca=2677&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-16",
       "source": "soe-itemized"
      },
@@ -15959,7 +15985,7 @@
         "gifts": 5,
         "topBusinesses": [
          [
-          "Choice commercial construction",
+          "Choice commercial construction…",
           1000
          ],
          [
@@ -16056,13 +16082,13 @@
         "kindLabel": "Labor union committee"
        },
        {
-        "name": "Local Union 915 IBEW Political",
+        "name": "Local Union 915 IBEW Political…",
         "amount": 2000,
         "kind": "union",
         "kindLabel": "Labor union committee"
        },
        {
-        "name": "Teamsters Local 79 PAC for Bet",
+        "name": "Teamsters Local 79 PAC for Bet…",
         "amount": 1500,
         "kind": "union",
         "kindLabel": "Labor union committee"
@@ -16098,19 +16124,19 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Hillsborough Fire Action Commi",
+        "name": "Hillsborough Fire Action Commi…",
+        "amount": 500,
+        "kind": "publicsafety",
+        "kindLabel": "Firefighters' or police officers' group committee"
+       },
+       {
+        "name": "Florida Carpenters Regional Co…",
         "amount": 500,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Florida Carpenters Regional Co",
-        "amount": 500,
-        "kind": "other",
-        "kindLabel": "Political committee (its name doesn't say who funds it)"
-       },
-       {
-        "name": "West Central Florida Labor Cou",
+        "name": "West Central Florida Labor Cou…",
         "amount": 500,
         "kind": "union",
         "kindLabel": "Labor union committee"
@@ -16135,8 +16161,10 @@
        }
       ],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "School Board Member, Dist. 2",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=27&c=hillsborough&ca=2675&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-16",
       "source": "soe-itemized"
      },
@@ -16365,7 +16393,7 @@
           1000
          ],
          [
-          "Horus Construction Services In",
+          "Horus Construction Services In…",
           1000
          ],
          [
@@ -16395,7 +16423,7 @@
         "gifts": 10,
         "topBusinesses": [
          [
-          "Travis Mitchell & Associates I",
+          "Travis Mitchell & Associates I…",
           1000
          ],
          [
@@ -16436,7 +16464,7 @@
         "gifts": 4,
         "topBusinesses": [
          [
-          "EAGLES BENEFITS BY DESIGN, INC",
+          "EAGLES BENEFITS BY DESIGN, INC…",
           1000
          ],
          [
@@ -16466,7 +16494,7 @@
           1000
          ],
          [
-          "Brewington Towing & Recovery L",
+          "Brewington Towing & Recovery L…",
           250
          ]
         ]
@@ -16576,7 +16604,7 @@
         "names": [
          "AMJR Services LLC",
          "B. Moore Kool, LLC",
-         "Horus Construction Services In",
+         "Horus Construction Services In…",
          "Horus East LLC",
          "Par Development Partners Inc.",
          "SMD Services LLC"
@@ -16584,8 +16612,10 @@
         "amount": 6000
        }
       ],
+      "cycle": "2026",
       "office": "School Board Member, Dist. 4",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=27&c=hillsborough&ca=2672&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-05-29",
       "source": "soe-itemized"
      },
@@ -17047,19 +17077,19 @@
         "kindLabel": "Labor union committee"
        },
        {
-        "name": "Realtors Political Advocacy Co",
+        "name": "Realtors Political Advocacy Co…",
         "amount": 1000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "Realtors Political Action Comm",
+        "name": "Realtors Political Action Comm…",
         "amount": 1000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "Realtors Political Activity Co",
+        "name": "Realtors Political Activity Co…",
         "amount": 1000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
@@ -17118,8 +17148,10 @@
        }
       ],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "School Board Member, Dist. 6",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=27&c=hillsborough&ca=2645&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-15",
       "source": "soe-itemized"
      },
@@ -17397,13 +17429,15 @@
       "committees": [],
       "parties": [
        {
-        "name": "Hillsborough County Republican",
+        "name": "Hillsborough County Republican…",
         "amount": 5000
        }
       ],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "School Board Member, Dist. 6",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=27&c=hillsborough&ca=2610&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-09-24",
       "source": "soe-itemized"
      },
@@ -19572,7 +19606,7 @@
           1000
          ],
          [
-          "Galvin Harris Land Services LL",
+          "Galvin Harris Land Services LL…",
           1000
          ],
          [
@@ -19666,7 +19700,7 @@
           1000
          ],
          [
-          "Ferman Management Services Cor",
+          "Ferman Management Services Cor…",
           1000
          ]
         ]
@@ -19680,7 +19714,7 @@
         "gifts": 9,
         "topBusinesses": [
          [
-          "Coastal Design Consultants Inc",
+          "Coastal Design Consultants Inc…",
           1000
          ],
          [
@@ -19688,7 +19722,7 @@
           1000
          ],
          [
-          "Pasco Bail Agencies Inc (dba B",
+          "Pasco Bail Agencies Inc (dba B…",
           1000
          ],
          [
@@ -19704,7 +19738,7 @@
           1000
          ],
          [
-          "Chesterfield Park Associates L",
+          "Chesterfield Park Associates L…",
           1000
          ],
          [
@@ -19722,7 +19756,7 @@
         "gifts": 9,
         "topBusinesses": [
          [
-          "Swift Ranch Cattle Company Inc",
+          "Swift Ranch Cattle Company Inc…",
           1000
          ],
          [
@@ -19764,7 +19798,7 @@
           1000
          ],
          [
-          "Waste Management Inc Of Florid",
+          "Waste Management Inc Of Florid…",
           1000
          ],
          [
@@ -19782,7 +19816,7 @@
         "gifts": 12,
         "topBusinesses": [
          [
-          "Travis Mitchell & Associates I",
+          "Travis Mitchell & Associates I…",
           1000
          ],
          [
@@ -19808,7 +19842,7 @@
           1000
          ],
          [
-          "Roche Surety & Casualty Compan",
+          "Roche Surety & Casualty Compan…",
           500
          ],
          [
@@ -19838,7 +19872,7 @@
       ],
       "committees": [
        {
-        "name": "Realtors Political Advocacy Co",
+        "name": "Realtors Political Advocacy Co…",
         "amount": 2000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
@@ -19906,8 +19940,8 @@
        {
         "name": "Firefighters of Pasco FIREPAC",
         "amount": 1000,
-        "kind": "union",
-        "kindLabel": "Labor union committee"
+        "kind": "publicsafety",
+        "kindLabel": "Firefighters' or police officers' group committee"
        },
        {
         "name": "The Southern Group of Florida",
@@ -19922,13 +19956,13 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Realtors Political Activity Co",
+        "name": "Realtors Political Activity Co…",
         "amount": 1000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "Realtors Political Action Comm",
+        "name": "Realtors Political Action Comm…",
         "amount": 1000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
@@ -19946,7 +19980,7 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Committee for Whole Person Hea",
+        "name": "Committee for Whole Person Hea…",
         "amount": 500,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
@@ -19960,7 +19994,7 @@
       ],
       "parties": [
        {
-        "name": "Sumter County Republican Execu",
+        "name": "Sumter County Republican Execu…",
         "amount": 1000
        }
       ],
@@ -19992,15 +20026,17 @@
        },
        {
         "names": [
-         "Ferman Management Services Cor",
+         "Ferman Management Services Cor…",
          "Island Center Corporation",
          "SFFIG Inc"
         ],
         "amount": 3000
        }
       ],
+      "cycle": "2026",
       "office": "County Commissioner District 2",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=38&c=pasco&ca=1876&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-16",
       "source": "soe-itemized"
      },
@@ -20679,7 +20715,7 @@
           1000
          ],
          [
-          "DEEB CONSTRUCTION & DEVELOP CO",
+          "DEEB CONSTRUCTION & DEVELOP CO…",
           1000
          ],
          [
@@ -20883,7 +20919,7 @@
       ],
       "committees": [
        {
-        "name": "FLORIDIANS FOR ECONOMIC FREEDO",
+        "name": "FLORIDIANS FOR ECONOMIC FREEDO…",
         "amount": 1000,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
@@ -20891,8 +20927,8 @@
        {
         "name": "FIREFIGHTERS OF PASCO FIREPAC",
         "amount": 1000,
-        "kind": "union",
-        "kindLabel": "Labor union committee"
+        "kind": "publicsafety",
+        "kindLabel": "Firefighters' or police officers' group committee"
        },
        {
         "name": "FRIENDS OF ED HOOPER",
@@ -20919,19 +20955,19 @@
         "kindLabel": "Another politician's committee"
        },
        {
-        "name": "FLORIDIANS FOR ECONOMIC PROSPE",
+        "name": "FLORIDIANS FOR ECONOMIC PROSPE…",
         "amount": 1000,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "REALTORS POLITICAL ACTION COMM",
+        "name": "REALTORS POLITICAL ACTION COMM…",
         "amount": 1000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "REALTORS POLITICAL ACTIVITY CO",
+        "name": "REALTORS POLITICAL ACTIVITY CO…",
         "amount": 1000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
@@ -20967,13 +21003,13 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "PRESCRIPTION FOR FL PROSPERITY",
+        "name": "PRESCRIPTION FOR FL PROSPERITY…",
         "amount": 1000,
-        "kind": "industry",
-        "kindLabel": "Industry or trade group committee"
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "DEFENDING CONSERVATION AND DEM",
+        "name": "DEFENDING CONSERVATION AND DEM…",
         "amount": 1000,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
@@ -21025,7 +21061,7 @@
       "sharedAddress": [
        {
         "names": [
-         "DEEB CONSTRUCTION & DEVELOP CO",
+         "DEEB CONSTRUCTION & DEVELOP CO…",
          "HUNTERS RIDGE APARTMENTS LTD",
          "STARKEY MINI STORAGE LP",
          "TRI COUNTY DEVELOPMENT INC"
@@ -21058,8 +21094,10 @@
         "amount": 3000
        }
       ],
+      "cycle": "2026",
       "office": "County Commissioner District 4",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=38&c=pasco&ca=1828&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-08-13",
       "source": "soe-itemized"
      },
@@ -21744,8 +21782,10 @@
        }
       ],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "County Commissioner District 2",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=38&c=pasco&ca=1846&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-15",
       "source": "soe-itemized"
      },
@@ -21994,7 +22034,7 @@
           1000
          ],
          [
-          "Coastal Design Consultants Inc",
+          "Coastal Design Consultants Inc…",
           1000
          ]
         ]
@@ -22115,7 +22155,7 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Realtors Political Advocacy Co",
+        "name": "Realtors Political Advocacy Co…",
         "amount": 2000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
@@ -22127,7 +22167,7 @@
         "kindLabel": "Another politician's committee"
        },
        {
-        "name": "Defending Conservatism & Democ",
+        "name": "Defending Conservatism & Democ…",
         "amount": 1000,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
@@ -22193,13 +22233,13 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Realtors Political Action Comm",
+        "name": "Realtors Political Action Comm…",
         "amount": 1000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "Realtors Political Activity Co",
+        "name": "Realtors Political Activity Co…",
         "amount": 1000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
@@ -22219,8 +22259,10 @@
       ],
       "parties": [],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "School Board Member District 1",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=38&c=pasco&ca=1883&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-15",
       "source": "soe-itemized"
      },
@@ -22413,7 +22455,7 @@
         "gifts": 50,
         "topBusinesses": [
          [
-          "Law Offices of Perry E Thursto",
+          "Law Offices of Perry E Thursto…",
           250
          ],
          [
@@ -22539,7 +22581,7 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "Heritage Pines Democratic Club",
+        "name": "Heritage Pines Democratic Club…",
         "amount": 100,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
@@ -22551,13 +22593,15 @@
         "amount": 4255
        },
        {
-        "name": "Pasco Cty Democratic Exec Comm",
+        "name": "Pasco Cty Democratic Exec Comm…",
         "amount": 2500
        }
       ],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "School Board Member District 1",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=38&c=pasco&ca=1889&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-13",
       "source": "soe-itemized"
      },
@@ -22926,8 +22970,10 @@
       "committees": [],
       "parties": [],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "School Board Member District 3",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=38&c=pasco&ca=1856&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-16",
       "source": "soe-itemized"
      },
@@ -23153,11 +23199,11 @@
           1250
          ],
          [
-          "ABC Insurance Inc Dba Accurate",
+          "ABC Insurance Inc Dba Accurate…",
           1000
          ],
          [
-          "Foundations Risk Partners Corp",
+          "Foundations Risk Partners Corp…",
           750
          ]
         ]
@@ -23251,19 +23297,19 @@
       ],
       "committees": [
        {
-        "name": "Realtors Political Advocacy Co",
+        "name": "Realtors Political Advocacy Co…",
         "amount": 2000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "Realtors Political Action Comm",
+        "name": "Realtors Political Action Comm…",
         "amount": 2000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "Realtors Political Activity Co",
+        "name": "Realtors Political Activity Co…",
         "amount": 2000,
         "kind": "industry",
         "kindLabel": "Industry or trade group committee"
@@ -23277,8 +23323,10 @@
       ],
       "parties": [],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "School Board Member District 3",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=38&c=pasco&ca=1852&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-15",
       "source": "soe-itemized"
      },
@@ -23713,7 +23761,7 @@
         "kindLabel": "Industry or trade group committee"
        },
        {
-        "name": "Floridians for Educational Inn",
+        "name": "Floridians for Educational Inn…",
         "amount": 500,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
@@ -23739,8 +23787,10 @@
       ],
       "parties": [],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "School Board Member District 5",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=38&c=pasco&ca=1864&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-08-12",
       "source": "soe-itemized"
      },
@@ -27160,7 +27210,7 @@
         "gifts": 12,
         "topBusinesses": [
          [
-          "Deeb Construction & Developmen",
+          "Deeb Construction & Developmen…",
           1000
          ],
          [
@@ -27176,7 +27226,7 @@
           500
          ],
          [
-          "Coastal Engineering Associates",
+          "Coastal Engineering Associates…",
           500
          ]
         ]
@@ -27270,10 +27320,10 @@
       ],
       "committees": [
        {
-        "name": "Firefighters For A Better Hern",
+        "name": "Firefighters For A Better Hern…",
         "amount": 1500,
-        "kind": "union",
-        "kindLabel": "Labor union committee"
+        "kind": "publicsafety",
+        "kindLabel": "Firefighters' or police officers' group committee"
        },
        {
         "name": "Friends Of Judson Sapp",
@@ -27288,10 +27338,10 @@
         "kindLabel": "Another politician's committee"
        },
        {
-        "name": "Prescription For Florida's Pro",
+        "name": "Prescription For Florida's Pro…",
         "amount": 1000,
-        "kind": "industry",
-        "kindLabel": "Industry or trade group committee"
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
         "name": "Yeager for Florida",
@@ -27312,7 +27362,7 @@
         "kindLabel": "Another politician's committee"
        },
        {
-        "name": "Friends of Tampa General Hospi",
+        "name": "Friends of Tampa General Hospi…",
         "amount": 500,
         "kind": "politician",
         "kindLabel": "Another politician's committee"
@@ -27320,14 +27370,14 @@
       ],
       "parties": [
        {
-        "name": "Florida House Republican Campa",
+        "name": "Florida House Republican Campa…",
         "amount": 1996
        }
       ],
       "sharedAddress": [
        {
         "names": [
-         "Deeb Construction & Developmen",
+         "Deeb Construction & Developmen…",
          "Forest Oaks Villas LTD",
          "Labibi LTD",
          "The Villas at Seven Hills LTD",
@@ -27344,8 +27394,10 @@
         "amount": 3000
        }
       ],
+      "cycle": "2026",
       "office": "County Commission, Dist 4",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=32&c=hernando&ca=629&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-06",
       "source": "soe-itemized"
      },
@@ -27533,19 +27585,6 @@
      "finance": {
       "voterfocusId": "627",
       "status": "Active- Qualified Write-In"
-     },
-     "funding": {
-      "total": 0,
-      "inKind": 0,
-      "byGiver": {},
-      "sectors": [],
-      "committees": [],
-      "parties": [],
-      "sharedAddress": [],
-      "office": "County Commission, Dist 4",
-      "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=32&c=hernando&ca=627&rellevel=4&committee=N",
-      "through": null,
-      "source": "soe-itemized"
      },
      "facts": {
       "party": {
@@ -27785,7 +27824,7 @@
           1000
          ],
          [
-          "Deeb Construction & Developmen",
+          "Deeb Construction & Developmen…",
           1000
          ],
          [
@@ -27793,7 +27832,7 @@
           1000
          ],
          [
-          "Coastal Engineering Associates",
+          "Coastal Engineering Associates…",
           500
          ],
          [
@@ -27881,7 +27920,7 @@
       "sharedAddress": [
        {
         "names": [
-         "Deeb Construction & Developmen",
+         "Deeb Construction & Developmen…",
          "Forest Oaks Villas LTD",
          "Labibi LTD",
          "The Villas at Seven Hills LTD",
@@ -27890,8 +27929,10 @@
         "amount": 5000
        }
       ],
+      "cycle": "2026",
       "office": "County Commission, Dist 2",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=32&c=hernando&ca=628&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-08-11",
       "source": "soe-itemized"
      },
@@ -28125,8 +28166,10 @@
       "committees": [],
       "parties": [],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "County Commission, Dist 2",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=32&c=hernando&ca=612&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-08-07",
       "source": "soe-itemized"
      },
@@ -28333,8 +28376,10 @@
       "committees": [],
       "parties": [],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "County Commission, Dist 2",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=32&c=hernando&ca=637&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-07-26",
       "source": "soe-itemized"
      },
@@ -28562,8 +28607,10 @@
       ],
       "parties": [],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "County Commission, Dist 2",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=32&c=hernando&ca=602&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-08-03",
       "source": "soe-itemized"
      },
@@ -28730,8 +28777,10 @@
       "committees": [],
       "parties": [],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "County Commission, Dist 2",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=32&c=hernando&ca=607&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-06-15",
       "source": "soe-itemized"
      },
@@ -29021,10 +29070,10 @@
       ],
       "committees": [
        {
-        "name": "Firefighters for A Better Hern",
+        "name": "Firefighters for A Better Hern…",
         "amount": 1000,
-        "kind": "union",
-        "kindLabel": "Labor union committee"
+        "kind": "publicsafety",
+        "kindLabel": "Firefighters' or police officers' group committee"
        },
        {
         "name": "HCTA Advocate Fund",
@@ -29047,8 +29096,8 @@
        {
         "name": "FEA Solidarity Fund Inc",
         "amount": 1000,
-        "kind": "other",
-        "kindLabel": "Political committee (its name doesn't say who funds it)"
+        "kind": "union",
+        "kindLabel": "Labor union committee"
        },
        {
         "name": "Island Coast Education PAC",
@@ -29057,7 +29106,7 @@
         "kindLabel": "Political committee (its name doesn't say who funds it)"
        },
        {
-        "name": "PEA Political Action Committee",
+        "name": "PEA Political Action Committee…",
         "amount": 500,
         "kind": "other",
         "kindLabel": "Political committee (its name doesn't say who funds it)"
@@ -29065,8 +29114,10 @@
       ],
       "parties": [],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "School Board, Dist 5",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=32&c=hernando&ca=620&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-16",
       "source": "soe-itemized"
      },
@@ -29324,7 +29375,7 @@
         "gifts": 9,
         "topBusinesses": [
          [
-          "Lucas Macyszyn & Dyer Law Firm",
+          "Lucas Macyszyn & Dyer Law Firm…",
           1000
          ]
         ]
@@ -29490,8 +29541,10 @@
         "amount": 6000
        }
       ],
+      "cycle": "2026",
       "office": "School Board, Dist 5",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=32&c=hernando&ca=618&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-10-13",
       "source": "soe-itemized"
      },
@@ -29730,8 +29783,10 @@
       "committees": [],
       "parties": [],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "School Board, Dist 1",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=32&c=hernando&ca=605&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-08-06",
       "source": "soe-itemized"
      },
@@ -29956,7 +30011,7 @@
         "gifts": 1,
         "topBusinesses": [
          [
-          "Coastal Engineering Assoc. Inc",
+          "Coastal Engineering Assoc. Inc…",
           500
          ]
         ]
@@ -30013,8 +30068,10 @@
         "amount": 3000
        }
       ],
+      "cycle": "2026",
       "office": "School Board, Dist 1",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=32&c=hernando&ca=608&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-08-12",
       "source": "soe-itemized"
      },
@@ -30252,7 +30309,7 @@
           1000
          ],
          [
-          "Deeb Construction & Develop.Co",
+          "Deeb Construction & Develop.Co…",
           1000
          ],
          [
@@ -30327,7 +30384,7 @@
         "gifts": 3,
         "topBusinesses": [
          [
-          "Deeb Construction & Develop.Co",
+          "Deeb Construction & Develop.Co…",
           1000
          ],
          [
@@ -30396,7 +30453,7 @@
       "sharedAddress": [
        {
         "names": [
-         "Deeb Construction & Develop.Co",
+         "Deeb Construction & Develop.Co…",
          "Forest Oaks Villas, LTD",
          "Rialto Apartments LTD",
          "Tri County Development Inc"
@@ -30404,8 +30461,10 @@
         "amount": 5000
        }
       ],
+      "cycle": "2026",
       "office": "School Board, Dist 3",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=32&c=hernando&ca=606&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-08-13",
       "source": "soe-itemized"
      },
@@ -30648,8 +30707,10 @@
        }
       ],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "School Board, Dist 3",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=32&c=hernando&ca=610&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-08-13",
       "source": "soe-itemized"
      },
@@ -30856,8 +30917,10 @@
       "committees": [],
       "parties": [],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "School Board, Dist 5",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=32&c=hernando&ca=603&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-07-16",
       "source": "soe-itemized"
      },
@@ -31103,8 +31166,10 @@
       ],
       "parties": [],
       "sharedAddress": [],
+      "cycle": "2026",
       "office": "County Commission, Dist 2",
       "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=32&c=hernando&ca=609&rellevel=4&committee=N",
+      "prior": 0,
       "through": "2026-06-02",
       "source": "soe-itemized"
      },
