@@ -1,0 +1,25 @@
+name: Survey county systems
+on:
+  workflow_dispatch:
+  push:
+    paths: ["tools/probe.py", ".github/workflows/probe.yml"]
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: python tools/probe.py
+      - name: Save results
+        run: |
+          git config user.name "Glass Ballot refresh"
+          git config user.email "glassballotinfo@gmail.com"
+          git add data/survey_probe.json
+          git diff --cached --quiet && exit 0
+          git commit -m "County systems survey $(date -u +%F)"
+          git pull --rebase -X theirs || true
+          git push
