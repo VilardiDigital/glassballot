@@ -9,6 +9,10 @@ on:
     paths: [".github/workflows/refresh.yml", "pipeline/refresh.py"]   # test run whenever the job itself changes
 permissions:
   contents: write
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
