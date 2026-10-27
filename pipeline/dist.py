@@ -31,7 +31,7 @@ HEAD = f"""<!doctype html>
 <meta name="theme-color" content="#0B3D91">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Glass Ballot">
-<meta property="og:title" content="Glass Ballot: see every vote go in">
+<meta property="og:title" content="Glass Ballot: know who you're voting for">
 <meta property="og:description" content="{DESC}">
 <meta property="og:url" content="{SITE}/">
 <meta property="og:image" content="{SITE}/og.png">
@@ -51,16 +51,16 @@ body{margin:0;width:1200px;height:630px;font-family:"Plus Jakarta Sans",system-u
 background:radial-gradient(90% 90% at 88% 8%,rgba(20,184,166,.38),transparent 55%),radial-gradient(80% 80% at 0% 100%,rgba(37,99,235,.6),transparent 60%),linear-gradient(160deg,#0B3D91,#1A56D0)}
 .w{box-sizing:border-box;height:630px;padding:64px 72px;display:grid;grid-template-columns:1fr 330px;gap:30px;align-items:center}
 .b{font-weight:800;font-size:44px;letter-spacing:-.03em}.b b{color:#8DB8FF}.b i{font-style:normal;color:#A9C0E8;font-weight:700}
-h1{margin:26px 0 18px;font-size:86px;line-height:1;letter-spacing:-.035em;font-weight:800}
+h1{margin:26px 0 18px;font-size:72px;line-height:1;letter-spacing:-.035em;font-weight:800}
 p{margin:0;font-size:30px;color:#DCE8FF;line-height:1.35;font-family:Inter,system-ui,sans-serif}
 .t{margin-top:34px;font-size:18px;letter-spacing:.32em;font-weight:700;color:#A9C8FF}
 .box{width:330px;height:330px;border-radius:64px;background:rgba(255,255,255,.95);display:flex;align-items:center;justify-content:center;box-shadow:0 30px 60px rgba(0,0,0,.25)}
 .box img{width:250px}
 </style></head><body><div class="w"><div>
 <div class="b">Glass<b>Ballot</b><i>.org</i></div>
-<h1>See every vote go in.</h1>
-<p>Pinellas, Hillsborough, Pasco and Hernando. Every local race, every vote, every dollar, with sources.</p>
-<div class="t">CLEARER ELECTIONS. STRONGER DEMOCRACY.</div></div>
+<h1>Know who you're voting for.</h1>
+<p>How your county commissioners and school board members vote, who pays for their campaigns, and what they promised. In plain English, with a source for every fact.</p>
+<div class="t">NONPARTISAN. SOURCED. FREE.</div></div>
 <div class="box"><img src="assets/logo-box.png"></div></div></body></html>"""
 
 
