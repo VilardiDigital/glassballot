@@ -57,10 +57,12 @@ def main():
     f = ROOT / "data" / "enr_ids.json"
     old = json.loads(f.read_text()) if f.exists() else {}
     for k, v in old.items():
-        if v.get("general"):
+        if v.get("general") and v.get("code"):
             KNOWN[v["code"]] = v
+    other = {k: v for k, v in old.items() if v.get("vendor", "vr") != "vr"}  # Clarity and other vendors: see probe_clarity.py
     with cf.ThreadPoolExecutor(6) as ex:
-        res = dict(ex.map(scan, CODES.items()))
+        res = dict(ex.map(scan, [(k, c) for k, c in CODES.items() if k not in other]))
+    res.update(other)
     (ROOT / "data" / "enr_ids.json").write_text(json.dumps(res, indent=1))
     print(sum(1 for v in res.values() if v.get("general")), "counties with a Nov 3 results page;",
           [k for k, v in res.items() if not v.get("general")], "without")

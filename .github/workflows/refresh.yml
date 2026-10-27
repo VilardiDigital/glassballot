@@ -26,6 +26,7 @@ jobs:
       - name: Pull official records, rebuild, log changes
         run: |
           python tools/probe_enr.py || true
+          python tools/probe_clarity.py || true
           python -m pipeline.sources.results || true
           python -m pipeline.refresh
       - name: Publish if anything changed

@@ -21,6 +21,7 @@ jobs:
         with: {python-version: "3.12"}
       - name: Pull results and rebuild
         run: |
+          python tools/probe_clarity.py || true
           python -m pipeline.sources.results
           python -m pipeline.refresh --offline
       - name: Publish

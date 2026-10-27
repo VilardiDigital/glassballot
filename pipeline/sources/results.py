@@ -1,7 +1,8 @@
 """Election night results for county commission and school board races.
 
-Source: each county Supervisor of Elections' results page on enr.electionsfl.org (VR Systems),
-found by tools/probe_enr.py and listed in data/enr_ids.json. We record exactly what the page shows:
+Source: each county Supervisor of Elections' results page. Most counties use enr.electionsfl.org
+(VR Systems), found by tools/probe_enr.py. A few (Pinellas) use Clarity Elections, which publishes a
+summary file (json/sum.json); tools/probe_clarity.py finds those. Both are listed in data/enr_ids.json. We record exactly what the page shows:
 votes, percentages, precincts reporting, and whether the county calls the results unofficial or official.
 We never call a winner ourselves before every precinct is counted.
 
@@ -52,6 +53,21 @@ def parse(page: str) -> dict:
     return {"status": status, "updated": m.group(1).strip() if m else None, "races": races}
 
 
+def parse_clarity(summary: dict) -> dict:
+    """Turn a Clarity Elections json/sum.json file into races. Clarity doesn't mark results official,
+    so these stay 'unofficial' until the county certifies and we check the certified report."""
+    races = []
+    for c in summary.get("Contests", []):
+        names, votes, pcts, parties = c.get("CH") or [], c.get("V") or [], c.get("PCT") or [], c.get("P") or []
+        cands = []
+        for i, n in enumerate(names):
+            party = parties[i] if i < len(parties) else None
+            cands.append({"name": re.sub(r"\s+", " ", n).strip(), "party": None if party in (None, "", "NON", "NPA") else party,
+                          "pct": round(float(pcts[i]), 2) if i < len(pcts) and pcts[i] is not None else 0.0, "votes": int(votes[i]) if i < len(votes) else 0})
+        races.append({"office": re.sub(r"\s+", " ", c.get("C", "")).strip(), "reported": c.get("PR"), "precincts": c.get("TP"), "candidates": cands})
+    return {"status": "unofficial", "updated": None, "races": races}
+
+
 def _key(office: str):
     from ..bootstrap import office_kind, district_of
     kind, _ = office_kind(office, council="city council" in office.lower())
@@ -97,11 +113,15 @@ def merge(seed: dict, county: str) -> dict:
     return seed
 
 
-def pull(county: str, code: str, eid: int) -> str:
+def pull(county: str, code: str, eid: int, vendor: str = "vr", base: str | None = None) -> str:
     from ..refresh import get
-    url = f"{ENR}/{code}/{eid}/Summary/"
-    page = get(url, as_json=False)
-    res = parse(page)
+    if vendor == "clarity":
+        ver = get(f"{base}/{eid}/current_ver.txt", as_json=False).strip()
+        res = parse_clarity(get(f"{base}/{eid}/{ver}/json/sum.json"))
+        url = f"{base}/{eid}/"
+    else:
+        url = f"{ENR}/{code}/{eid}/Summary/"
+        res = parse(get(url, as_json=False))
     keep = [r for r in res["races"] if _key(r["office"])]
     out = ROOT / "data" / "results"
     out.mkdir(exist_ok=True)
@@ -119,7 +139,7 @@ def main(argv: list[str]):
             continue
         if v.get("general"):
             try:
-                log.append(pull(county, v["code"], v["general"]))
+                log.append(pull(county, v.get("code"), v["general"], v.get("vendor", "vr"), v.get("base")))
             except Exception as e:
                 log.append(f"{county}: results pull failed: {e}")
     print("\n".join(log))
