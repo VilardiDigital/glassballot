@@ -110,7 +110,7 @@ def merge(seed: dict, county: str) -> dict:
                 if chk and chk.get("verdict") == "drop":
                     continue
                 # A quote we could not check against its source stays off the site until someone does.
-                if chk and chk.get("verdict") == "unreachable" and '"' in json.dumps(it.get("value", "") if isinstance(it, dict) else it):
+                if chk and chk.get("verdict") == "unreachable" and '"' in str((it.get("value") or "") if isinstance(it, dict) else it):
                     continue
                 if chk and chk.get("verdict") == "fix" and chk.get("fix") and isinstance(it, dict):
                     fx = chk["fix"]

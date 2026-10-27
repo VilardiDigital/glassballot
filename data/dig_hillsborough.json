@@ -1,0 +1,2881 @@
+{
+ "county": "hillsborough",
+ "compiled": "2026-10-27",
+ "sources": {
+  "clerk-votes-2026": {
+   "title": "BOCC vote comparison 2026 (roll calls 01/13/2026 to 09/24/2026)",
+   "url": "https://hillsclerk.com/documents/d/guest/bocc-vote-comparison?download=true",
+   "publisher": "Hillsborough County Clerk of the Circuit Court",
+   "tier": 1,
+   "date": "2026-10-27",
+   "note": "Accessed date. Glass Ballot parsed 408 roll calls; Y/N/X/A as printed."
+  },
+  "clerk-votes-2025": {
+   "title": "BOCC vote comparison 2025 (roll calls 01/07/2025 to 12/17/2025)",
+   "url": "https://hillsclerk.com/documents/d/guest/bocc-vote-comparison-2025-pdf",
+   "publisher": "Hillsborough County Clerk of the Circuit Court",
+   "tier": 1,
+   "date": "2026-10-27",
+   "note": "Accessed date. 545 roll calls parsed."
+  },
+  "clerk-votes-2024": {
+   "title": "BOCC vote comparison 2024 (roll calls 01/09/2024 to 10/31/2024)",
+   "url": "https://hillsclerk.com/documents/d/guest/bocc-vote-comparison-2024",
+   "publisher": "Hillsborough County Clerk of the Circuit Court",
+   "tier": 1,
+   "date": "2026-10-27",
+   "note": "Accessed date. 446 roll calls parsed."
+  },
+  "clerk-votes-2023": {
+   "title": "BOCC vote comparison 2023 (roll calls 01/10/2023 to 12/20/2023)",
+   "url": "https://hillsclerk.com/documents/d/guest/bocc-vote-comparison-2023",
+   "publisher": "Hillsborough County Clerk of the Circuit Court",
+   "tier": 1,
+   "date": "2026-10-27",
+   "note": "Accessed date. 512 roll calls parsed."
+  },
+  "clerk-votes-2022": {
+   "title": "BOCC vote comparison 2022",
+   "url": "https://hillsclerk.com/documents/d/guest/bocc-vote-comparison-2022",
+   "publisher": "Hillsborough County Clerk of the Circuit Court",
+   "tier": 1,
+   "date": "2026-10-27",
+   "note": "Accessed date. PDF prints members in two column blocks; only the first block (Cameron Cepeda, Cohen, Hagan, Kemp, Myers, Overman, Owen, Smith) was parsed."
+  },
+  "soe-2026p": {
+   "title": "Aug 18, 2026 Primary Election official certified results (summary report 08/25/2026)",
+   "url": "https://www.votehillsborough.gov/DocumentCenter/View/2600/08-25-2026-SUMMARY-RESULTS-REPORT_OFFICIAL-CERTIFIED-RESULTS-PDF",
+   "publisher": "Hillsborough County Supervisor of Elections",
+   "tier": 1,
+   "date": "2026-08-25"
+  },
+  "soe-2010g": {
+   "title": "2010 General Election official results",
+   "url": "https://www.votehillsborough.gov/DocumentCenter/View/158/2010-General-Election-Official-Results-PDF",
+   "publisher": "Hillsborough County Supervisor of Elections",
+   "tier": 1,
+   "date": "2010-11-02"
+  },
+  "soe-2010p": {
+   "title": "2010 Primary Election official results",
+   "url": "https://www.votehillsborough.gov/DocumentCenter/View/160/2010-Primary-Election-Official-Results-PDF",
+   "publisher": "Hillsborough County Supervisor of Elections",
+   "tier": 1,
+   "date": "2010-08-24"
+  },
+  "soe-2006g": {
+   "title": "2006 General Election official results",
+   "url": "https://www.votehillsborough.gov/DocumentCenter/View/142/2006-General-Election-Official-Results-PDF",
+   "publisher": "Hillsborough County Supervisor of Elections",
+   "tier": 1,
+   "date": "2006-11-07"
+  },
+  "soe-2006p": {
+   "title": "2006 Primary Election official results",
+   "url": "https://www.votehillsborough.gov/DocumentCenter/View/144/2006-Primary-Election-Official-Results-PDF",
+   "publisher": "Hillsborough County Supervisor of Elections",
+   "tier": 1,
+   "date": "2006-09-05"
+  },
+  "soe-2014g": {
+   "title": "2014 General Election results (ENR)",
+   "url": "https://enr.electionsfl.org/HIL/Summary/1210",
+   "publisher": "Hillsborough County Supervisor of Elections",
+   "tier": 1,
+   "date": "2014-11-04"
+  },
+  "soe-2014p": {
+   "title": "2014 Primary Election results (ENR)",
+   "url": "https://enr.electionsfl.org/HIL/Summary/1047/",
+   "publisher": "Hillsborough County Supervisor of Elections",
+   "tier": 1,
+   "date": "2014-08-26"
+  },
+  "soe-2011": {
+   "title": "2011 City of Tampa Municipal Election official results",
+   "url": "https://www.votehillsborough.gov/DocumentCenter/View/166/2011-City-of-Tampa-Municipal-Election-Official-Results-PDF",
+   "publisher": "Hillsborough County Supervisor of Elections",
+   "tier": 1,
+   "date": "2011"
+  },
+  "soe-2011r": {
+   "title": "2011 City of Tampa Municipal Runoff Election official results",
+   "url": "https://www.votehillsborough.gov/DocumentCenter/View/168/2011-City-of-Tampa-Municipal-Runoff-Election-Official-Results-PDF",
+   "publisher": "Hillsborough County Supervisor of Elections",
+   "tier": 1,
+   "date": "2011"
+  },
+  "soe-results-index": {
+   "title": "Election Results (archive index)",
+   "url": "https://www.votehillsborough.gov/183/Election-Results",
+   "publisher": "Hillsborough County Supervisor of Elections",
+   "tier": 1,
+   "date": "2026-10-27",
+   "note": "Index lists official results from 2006 onward; 2002 and 2004 files not found on it."
+  },
+  "coe-2014q4": {
+   "title": "Listing of Unpublished Final Orders, Fourth Quarter 2014",
+   "url": "https://www.ethics.state.fl.us/Documents/Orders/2014/2014_fourth.pdf",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2014-12-31"
+  },
+  "coe-2018q1": {
+   "title": "Listing of Unpublished Final Orders, First Quarter 2018",
+   "url": "https://www.ethics.state.fl.us/Documents/Orders/2018/2018_first.pdf",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2018-03-31"
+  },
+  "coe-2021q4": {
+   "title": "Listing of Unpublished Final Orders, Fourth Quarter 2021",
+   "url": "https://www.ethics.state.fl.us/Documents/Orders/2021/2021_fourth.pdf",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2021-12-31"
+  },
+  "coe-orders": {
+   "title": "Orders (index of final order listings 2005 to 2026 Q1)",
+   "url": "https://www.ethics.state.fl.us/Research/Orders.aspx",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2026-10-27",
+   "note": "All 85 quarterly listings scanned for every name in this file."
+  },
+  "hc-hagan": {
+   "title": "District 2 County Commissioner: Ken Hagan",
+   "url": "https://hcfl.gov/commissioners/ken-hagan",
+   "publisher": "Hillsborough County",
+   "tier": 1,
+   "date": "2025-12-03",
+   "note": "Page last modified date."
+  },
+  "hc-miller": {
+   "title": "District 4 County Commissioner: Christine Miller",
+   "url": "https://hcfl.gov/commissioners/christine-miller",
+   "publisher": "Hillsborough County",
+   "tier": 1,
+   "date": "2026-09-28",
+   "note": "Page last modified date."
+  },
+  "hc-myers": {
+   "title": "District 3 County Commissioner: Gwen Myers",
+   "url": "https://hcfl.gov/commissioners/gwen-myers",
+   "publisher": "Hillsborough County",
+   "tier": 1,
+   "date": "2026-08-17",
+   "note": "Page last modified date."
+  },
+  "hc-boles": {
+   "title": "District 6 County Commissioner: Chris Boles",
+   "url": "https://hcfl.gov/commissioners/chris-boles",
+   "publisher": "Hillsborough County",
+   "tier": 1,
+   "date": "2026-01-28",
+   "note": "Page last modified date."
+  },
+  "efdms-hagan": {
+   "title": "Filings for Ken Hagan (EFDMS filing history)",
+   "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/84301",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2026-10-27",
+   "note": "Accessed date. The system lists electronic and scanned filings for form years 2015 onward only."
+  },
+  "efdms-cohen": {
+   "title": "Filings for Harry Cohen (EFDMS filing history)",
+   "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/67224",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2026-10-27",
+   "note": "Accessed date. The system lists electronic and scanned filings for form years 2015 onward only."
+  },
+  "efdms-myers": {
+   "title": "Filings for Gwendolyn Williams Myers (EFDMS filing history)",
+   "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/76727",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2026-10-27",
+   "note": "Accessed date. The system lists electronic and scanned filings for form years 2015 onward only."
+  },
+  "efdms-miller": {
+   "title": "Filings for Christine Miller (EFDMS filing history)",
+   "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/512858",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2026-10-27",
+   "note": "Accessed date. The system lists electronic and scanned filings for form years 2015 onward only."
+  },
+  "efdms-cepeda": {
+   "title": "Filings for Donna Cameron Cepeda (EFDMS filing history)",
+   "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/501390",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2026-10-27",
+   "note": "Accessed date. The system lists electronic and scanned filings for form years 2015 onward only."
+  },
+  "efdms-boles": {
+   "title": "Filings for CHRIS BOLES (EFDMS filing history)",
+   "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/514188",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2026-10-27",
+   "note": "Accessed date. The system lists electronic and scanned filings for form years 2015 onward only."
+  },
+  "efdms-wostal": {
+   "title": "Filings for Joshua Wostal (EFDMS filing history)",
+   "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/500025",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2026-10-27",
+   "note": "Accessed date. The system lists electronic and scanned filings for form years 2015 onward only."
+  },
+  "efdms-rendon": {
+   "title": "Filings for Patricia L. Rendon (EFDMS filing history)",
+   "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/501141",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2026-10-27",
+   "note": "Accessed date. The system lists electronic and scanned filings for form years 2015 onward only."
+  },
+  "efdms-perez": {
+   "title": "Filings for Karen Perez (EFDMS filing history)",
+   "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/96446",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2026-10-27",
+   "note": "Accessed date. The system lists electronic and scanned filings for form years 2015 onward only."
+  },
+  "efdms-toledo": {
+   "title": "Filings for Jackeline Toledo (EFDMS filing history)",
+   "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/81499",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2026-10-27",
+   "note": "Accessed date. The system lists electronic and scanned filings for form years 2015 onward only."
+  },
+  "efdms-hahn": {
+   "title": "Filings for Stacy Ann Hahn (EFDMS filing history)",
+   "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/87058",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2026-10-27",
+   "note": "Accessed date. The system lists electronic and scanned filings for form years 2015 onward only."
+  },
+  "bp-hagan": {
+   "title": "Ken Hagan (Florida) - Ballotpedia",
+   "url": "https://ballotpedia.org/Ken_Hagan_(Florida)",
+   "publisher": "Ballotpedia",
+   "tier": 3,
+   "date": "2026-10-27",
+   "note": "Accessed date. Survey and campaign-site quotes carry their own dates in each item."
+  },
+  "bp-cohen": {
+   "title": "Harry Cohen - Ballotpedia",
+   "url": "https://ballotpedia.org/Harry_Cohen",
+   "publisher": "Ballotpedia",
+   "tier": 3,
+   "date": "2026-10-27",
+   "note": "Accessed date. Survey and campaign-site quotes carry their own dates in each item."
+  },
+  "bp-myers": {
+   "title": "Gwen Myers - Ballotpedia",
+   "url": "https://ballotpedia.org/Gwen_Myers",
+   "publisher": "Ballotpedia",
+   "tier": 3,
+   "date": "2026-10-27",
+   "note": "Accessed date. Survey and campaign-site quotes carry their own dates in each item."
+  },
+  "bp-miller": {
+   "title": "Christine Miller (Florida) - Ballotpedia",
+   "url": "https://ballotpedia.org/Christine_Miller_(Florida)",
+   "publisher": "Ballotpedia",
+   "tier": 3,
+   "date": "2026-10-27",
+   "note": "Accessed date. Survey and campaign-site quotes carry their own dates in each item."
+  },
+  "bp-cepeda": {
+   "title": "Donna Cameron Cepeda - Ballotpedia",
+   "url": "https://ballotpedia.org/Donna_Cameron_Cepeda",
+   "publisher": "Ballotpedia",
+   "tier": 3,
+   "date": "2026-10-27",
+   "note": "Accessed date. Survey and campaign-site quotes carry their own dates in each item."
+  },
+  "bp-boles": {
+   "title": "Chris Boles - Ballotpedia",
+   "url": "https://ballotpedia.org/Chris_Boles",
+   "publisher": "Ballotpedia",
+   "tier": 3,
+   "date": "2026-10-27",
+   "note": "Accessed date. Survey and campaign-site quotes carry their own dates in each item."
+  },
+  "bp-wostal": {
+   "title": "Joshua Wostal - Ballotpedia",
+   "url": "https://ballotpedia.org/Joshua_Wostal",
+   "publisher": "Ballotpedia",
+   "tier": 3,
+   "date": "2026-10-27",
+   "note": "Accessed date. Survey and campaign-site quotes carry their own dates in each item."
+  },
+  "bp-rendon": {
+   "title": "Patricia Rendon - Ballotpedia",
+   "url": "https://ballotpedia.org/Patricia_Rendon",
+   "publisher": "Ballotpedia",
+   "tier": 3,
+   "date": "2026-10-27",
+   "note": "Accessed date. Survey and campaign-site quotes carry their own dates in each item."
+  },
+  "bp-perez": {
+   "title": "Karen Perez - Ballotpedia",
+   "url": "https://ballotpedia.org/Karen_Perez",
+   "publisher": "Ballotpedia",
+   "tier": 3,
+   "date": "2026-10-27",
+   "note": "Accessed date. Survey and campaign-site quotes carry their own dates in each item."
+  },
+  "bp-toledo": {
+   "title": "Jackie Toledo - Ballotpedia",
+   "url": "https://ballotpedia.org/Jackie_Toledo",
+   "publisher": "Ballotpedia",
+   "tier": 3,
+   "date": "2026-10-27",
+   "note": "Accessed date. Survey and campaign-site quotes carry their own dates in each item."
+  },
+  "bp-hahn": {
+   "title": "Stacy Hahn - Ballotpedia",
+   "url": "https://ballotpedia.org/Stacy_Hahn",
+   "publisher": "Ballotpedia",
+   "tier": 3,
+   "date": "2026-10-27",
+   "note": "Accessed date. Survey and campaign-site quotes carry their own dates in each item."
+  },
+  "bp-manimala": {
+   "title": "Neil Manimala - Ballotpedia",
+   "url": "https://ballotpedia.org/Neil_Manimala",
+   "publisher": "Ballotpedia",
+   "tier": 3,
+   "date": "2026-10-27",
+   "note": "Accessed date. Survey and campaign-site quotes carry their own dates in each item."
+  },
+  "bp-rodriguez": {
+   "title": "Aileen Rodriguez - Ballotpedia",
+   "url": "https://ballotpedia.org/Aileen_Rodriguez",
+   "publisher": "Ballotpedia",
+   "tier": 3,
+   "date": "2026-10-27",
+   "note": "Accessed date. Survey and campaign-site quotes carry their own dates in each item."
+  },
+  "bp-garcia": {
+   "title": "Luiz Garcia - Ballotpedia",
+   "url": "https://ballotpedia.org/Luiz_Garcia",
+   "publisher": "Ballotpedia",
+   "tier": 3,
+   "date": "2026-10-27",
+   "note": "Accessed date. Survey and campaign-site quotes carry their own dates in each item."
+  },
+  "bp-lyssy": {
+   "title": "Brittany Lyssy - Ballotpedia",
+   "url": "https://ballotpedia.org/Brittany_Lyssy",
+   "publisher": "Ballotpedia",
+   "tier": 3,
+   "date": "2026-10-27",
+   "note": "Accessed date. Survey and campaign-site quotes carry their own dates in each item."
+  },
+  "bp-simic": {
+   "title": "Daniela Simic - Ballotpedia",
+   "url": "https://ballotpedia.org/Daniela_Simic",
+   "publisher": "Ballotpedia",
+   "tier": 3,
+   "date": "2026-10-27",
+   "note": "Accessed date. Survey and campaign-site quotes carry their own dates in each item."
+  },
+  "bp-gay": {
+   "title": "Kenneth Gay - Ballotpedia",
+   "url": "https://ballotpedia.org/Kenneth_Gay",
+   "publisher": "Ballotpedia",
+   "tier": 3,
+   "date": "2026-10-27",
+   "note": "Accessed date. Survey and campaign-site quotes carry their own dates in each item."
+  },
+  "wusf-rays-aug": {
+   "title": "New Rays stadium in Tampa approved by Hillsborough County Commission",
+   "url": "https://www.wusf.org/politics-issues/2026-08-28/new-rays-stadium-tampa-approved-hillsborough-county-commission",
+   "publisher": "WUSF",
+   "tier": 4,
+   "date": "2026-08-28",
+   "note": "Read through WebFetch summary."
+  },
+  "wusf-sb": {
+   "title": "Hillsborough County School Board candidates tackle district challenges",
+   "url": "https://www.wusf.org/local-state/2026-07-27/hillsborough-county-school-board-candidates-tackle-district-challenges",
+   "publisher": "WUSF (Isabella Oefelein)",
+   "tier": 4,
+   "date": "2026-07-27"
+  },
+  "tbt-2022": {
+   "title": "Hillsborough commission's new faces bring GOP majority",
+   "url": "https://www.tampabay.com/news/hillsborough/2022/11/10/hillsborough-commissions-new-faces-bring-gop-majority/",
+   "publisher": "Tampa Bay Times",
+   "tier": 4,
+   "date": "2022-11-10"
+  },
+  "tbt-sb-june": {
+   "title": "Hillsborough school board races set for August election",
+   "url": "https://www.tampabay.com/news/education/2026/06/12/hillsborough-school-board-election-candidates-rendon-district/",
+   "publisher": "Tampa Bay Times",
+   "tier": 4,
+   "date": "2026-06-12"
+  },
+  "tbt-toledo-ethics": {
+   "title": "Ethics Commission says Jackie Toledo's financial disclosures incorrect",
+   "url": "https://www.tampabay.com/news/hillsborough/2021/10/29/ethics-commission-says-jackie-toledos-financial-disclosures-incorrect/",
+   "publisher": "Tampa Bay Times (William March)",
+   "tier": 4,
+   "date": "2021-10-29",
+   "note": "Only headline, subtitle and byline were readable."
+  },
+  "yahoo-2022": {
+   "title": "Pair of Democratic incumbent commissioners fall in Hillsborough",
+   "url": "https://news.yahoo.com/pair-democratic-incumbent-commissioners-fall-011900380.html",
+   "publisher": "Tampa Bay Times via Yahoo News",
+   "tier": 4,
+   "date": "2022-11",
+   "note": "No date or byline shown; covers Nov 8, 2022 results. Read through WebFetch summary, so wording is a close paraphrase."
+  },
+  "fp-toledo-ethics": {
+   "title": "Ethics commission confirms violations in Jackie Toledo financial disclosures",
+   "url": "https://floridapolitics.com/archives/466963-ethics-commission-confirms-violations-in-jackie-toledo-financial-disclosures/",
+   "publisher": "Florida Politics",
+   "tier": 4,
+   "date": "2021",
+   "note": "No date shown in the fetched text; Ethics final order 21-027 is listed in Q4 2021. Read through WebFetch summary."
+  },
+  "fp-hagan-fees": {
+   "title": "Ethics commission delays Ken Hagan's legal fee case",
+   "url": "https://floridapolitics.com/?p=254045",
+   "publisher": "Florida Politics (Mitch Perry)",
+   "tier": 4,
+   "date": "2017",
+   "note": "No date shown in the fetched text; the fee petition order (18-014) is listed in Q1 2018. Read through WebFetch summary."
+  },
+  "tt-hagan-2014": {
+   "title": "Ethics panel to investigate Hagan",
+   "url": "https://insurancenewsnet.com/oarticle/Ethics-panel-to-investigate-Hagan-a-549660",
+   "publisher": "Tampa Tribune (Mike Salinero), republished by InsuranceNewsNet",
+   "tier": 4,
+   "date": "2014-08-29",
+   "note": "Read through WebFetch summary."
+  },
+  "osprey-2014": {
+   "title": "County commissioners take oaths of office; Commissioner Murman chosen as chairwoman",
+   "url": "https://ospreyobserver.com/2014/12/county-commissioners-take-oaths-of-office-commissioner-murman-chosen-as-chairwoman",
+   "publisher": "Osprey Observer",
+   "tier": 4,
+   "date": "2014-12-17",
+   "note": "Read through WebFetch summary."
+  },
+  "nno-hagan-2018": {
+   "title": "Commissioners Hagan, Crist trying to swap seats in November",
+   "url": "https://neighborhoodnewsonline.net/commissioners-hagan-crist-trying-swap-seats-november/",
+   "publisher": "Neighborhood News (John Cotey)",
+   "tier": 4,
+   "date": "2018-08-17",
+   "note": "Read through WebFetch summary."
+  },
+  "bn9-tbx-2020": {
+   "title": "TBX vote a point of disagreement for Democrats in Hillsborough County Commission District 1 race",
+   "url": "https://baynews9.com/fl/tampa/local-politics/2020/07/15/tbx-vote-disagreement-democrats-hillsborough-county-commission-district-one-race",
+   "publisher": "Spectrum Bay News 9 (Mitch Perry)",
+   "tier": 4,
+   "date": "2020-07-16",
+   "note": "Read through WebFetch summary."
+  },
+  "politifact-hagan": {
+   "title": "Ken Hagan's file",
+   "url": "https://www.politifact.com/personalities/ken-hagan",
+   "publisher": "PolitiFact",
+   "tier": 4,
+   "date": "2013-12-20",
+   "note": "Date of the one ruling listed. Read through WebFetch summary."
+  },
+  "site-hagan": {
+   "title": "Ken Hagan, Republican, for Hillsborough County Commissioner District 2",
+   "url": "https://votekenhagan.com/",
+   "publisher": "Ken Hagan campaign",
+   "tier": 5,
+   "date": "2026-10-27",
+   "note": "Undated campaign site; Ballotpedia lists it as his campaign website for the 2024 race."
+  },
+  "site-boles": {
+   "title": "Chris Boles for County Commissioner",
+   "url": "https://www.chrisboles.com/",
+   "publisher": "Chris Boles campaign",
+   "tier": 5,
+   "date": "2026-10-27",
+   "note": "Undated campaign site from his 2024 race (Ballotpedia campaign link)."
+  },
+  "site-myers": {
+   "title": "Accomplishments | Vote Gwen Myers",
+   "url": "https://www.votegwenmyers.com/platform",
+   "publisher": "Gwen Myers campaign",
+   "tier": 5,
+   "date": "2026-10-27",
+   "note": "2026 campaign site."
+  },
+  "site-perez": {
+   "title": "Karen Perez for School Board District 6",
+   "url": "https://keepkarenperez.com/",
+   "publisher": "Karen Perez campaign",
+   "tier": 5,
+   "date": "2026-10-27",
+   "note": "Undated campaign site; text asks voters to re-elect her and says she was elected in 2018."
+  },
+  "ethics-search": {
+   "title": "Financial disclosure public search (Forms 6, 1 and 2)",
+   "url": "https://disclosure.floridaethics.gov/PublicSearch/Filings",
+   "publisher": "Florida Commission on Ethics",
+   "tier": 1,
+   "date": "2026-10-27",
+   "note": "Searched by first and last name for every candidate; no record means none in EFDMS."
+  }
+ },
+ "people": {
+  "hagan": {
+   "promises": [
+    {
+     "value": "Continue to make developers pay their fair share.",
+     "year": 2024,
+     "source": "site-hagan",
+     "note": "Campaign site is undated; listed by Ballotpedia for the 2024 race."
+    },
+    {
+     "value": "Fight to keep taxes low, budgets balanced, and county spending transparent.",
+     "year": 2024,
+     "source": "site-hagan"
+    },
+    {
+     "value": "Work with the Sheriff to keep families safe and fund new initiatives to reduce violent crimes.",
+     "year": 2024,
+     "source": "site-hagan"
+    },
+    {
+     "value": "Focus on keeping housing affordable, especially in urban cores.",
+     "year": 2024,
+     "source": "site-hagan"
+    },
+    {
+     "value": "Develop new programs and projects that protect the quantity and quality of drinking water.",
+     "year": 2024,
+     "source": "site-hagan"
+    },
+    {
+     "value": "In his 2022 race he highlighted opposing a brownfield designation for the former Pebble Creek Country Club, objecting to a yard waste incinerator zoning change in Lutz, backing a New Tampa Performing Arts Center and seeking funds for residential road paving.",
+     "year": 2022,
+     "source": "yahoo-2022"
+    },
+    {
+     "value": "Proposed adding $250,000 to the county budget to speed a potential Kinnan Street connection to Mansfield Boulevard (reported during his 2018 District 2 campaign).",
+     "year": 2018,
+     "source": "nno-hagan-2018"
+    }
+   ],
+   "electionHistory": [
+    {
+     "year": 2002,
+     "office": "Hillsborough County Commission District 2",
+     "stage": "general",
+     "result": "Won (first elected)",
+     "source": "hc-hagan",
+     "note": "County page says first elected in 2002. Official 2002 results are not on the SOE results archive, so vote share is not available."
+    },
+    {
+     "year": 2006,
+     "office": "Hillsborough County Commission District 2",
+     "stage": "general",
+     "result": "Kept seat; no District 2 contest appears in the official 2006 primary or general results",
+     "source": "soe-2006g",
+     "note": "Neighborhood News (nno-hagan-2018) reports he held District 2 from 2002 to 2010. The SOE results do not say whether he was unopposed."
+    },
+    {
+     "year": 2010,
+     "office": "Hillsborough County Commission District 5 (countywide)",
+     "stage": "general",
+     "result": "Won",
+     "source": "soe-2010g",
+     "date": "2010-11-02",
+     "voteShare": 52.68,
+     "votes": 163020,
+     "note": "Linda Saul-Sena (DEM) 42.49% (131,504); Jim Hosler (NPA) 4.83% (14,957). No District 5 contest in the 2010 primary results (soe-2010p)."
+    },
+    {
+     "year": 2014,
+     "office": "Hillsborough County Commission District 5 (countywide)",
+     "stage": "general",
+     "result": "Re-elected; no District 5 contest appears in the 2014 primary or general results",
+     "source": "osprey-2014",
+     "note": "Osprey Observer (Dec 17, 2014) calls him re-elected for Countywide District 5. SOE ENR pages soe-2014p and soe-2014g list no District 5 race."
+    },
+    {
+     "year": 2018,
+     "office": "Hillsborough County Commission District 2",
+     "stage": "Republican primary",
+     "result": "Won",
+     "source": "bp-hagan",
+     "date": "2018-08-28",
+     "voteShare": 72.4,
+     "votes": 19664,
+     "note": "Chris Paradies 27.6% (7,504)."
+    },
+    {
+     "year": 2018,
+     "office": "Hillsborough County Commission District 2",
+     "stage": "general",
+     "result": "Won",
+     "source": "bp-hagan",
+     "date": "2018-11-06",
+     "voteShare": 52.4,
+     "votes": 74040,
+     "note": "Angela Birdsong (D) 47.6% (67,378)."
+    },
+    {
+     "year": 2022,
+     "office": "Hillsborough County Commission District 2",
+     "stage": "general",
+     "result": "Won",
+     "source": "bp-hagan",
+     "date": "2022-11-08",
+     "voteShare": 56.6,
+     "votes": 70978,
+     "note": "Angela Birdsong (D) 43.4% (54,444). Republican primary canceled."
+    },
+    {
+     "year": 2024,
+     "office": "Hillsborough County Commission District 2",
+     "stage": "Republican primary",
+     "result": "Won",
+     "source": "bp-hagan",
+     "date": "2024-08-20",
+     "voteShare": 78.2,
+     "votes": 15061,
+     "note": "Melissa Nordbeck 21.8% (4,188)."
+    },
+    {
+     "year": 2024,
+     "office": "Hillsborough County Commission District 2",
+     "stage": "general",
+     "result": "Won",
+     "source": "bp-hagan",
+     "date": "2024-11-05",
+     "voteShare": 55.1,
+     "votes": 90942,
+     "note": "Patricia Altagracia Alonzo (D) 44.9% (74,084). Term ends 2028."
+    }
+   ],
+   "keyPositions": [
+    {
+     "value": "Voted yes on the Development and Funding Agreement, Guaranty and Team Non-Relocation Agreement for a Rays ballpark (RCS 5622; passed 5 to 2).",
+     "date": "2026-08-28",
+     "type": "vote",
+     "source": "clerk-votes-2026",
+     "vote": "Y"
+    },
+    {
+     "value": "Before the Rays vote he said: \"To be a world-class community requires vision, courage, bold leadership, and the ability to think big.\"",
+     "date": "2026-08-28",
+     "type": "statement",
+     "source": "wusf-rays-aug"
+    },
+    {
+     "value": "Voted yes on the non-binding Rays memorandum of understanding (RCS 5486).",
+     "date": "2026-05-20",
+     "type": "vote",
+     "source": "clerk-votes-2026",
+     "vote": "Y"
+    },
+    {
+     "value": "Voted no on a motion to approve the finalized ZooTampa public-private partnership and proceed to a contract (RCS 5654; Cohen, Hagan and Myers voted no).",
+     "date": "2026-09-16",
+     "type": "vote",
+     "source": "clerk-votes-2026",
+     "vote": "N"
+    },
+    {
+     "value": "Voted yes to adopt FY2027 millage rates (RCS 5671).",
+     "date": "2026-09-24",
+     "type": "vote",
+     "source": "clerk-votes-2026",
+     "vote": "Y"
+    },
+    {
+     "value": "Voted no on enacting the ordinance setting the Community Investment Tax renewal referendum (RCS 4308, Ordinance 24-3; Hagan and Kemp voted no).",
+     "date": "2024-04-17",
+     "type": "vote",
+     "source": "clerk-votes-2024",
+     "vote": "N"
+    },
+    {
+     "value": "Voted no on approving the School Board's Nov 5, 2024 referendum for additional operating property taxes (RCS 4437; 3 yes, 4 no).",
+     "date": "2024-07-17",
+     "type": "vote",
+     "source": "clerk-votes-2024",
+     "vote": "N"
+    },
+    {
+     "value": "Voted no on placing the 1 percent transportation surtax ordinance on the Nov 8, 2022 ballot (RCS 3284, Ordinance 22-9).",
+     "date": "2022-04-20",
+     "type": "vote",
+     "source": "clerk-votes-2022",
+     "vote": "N"
+    },
+    {
+     "value": "Voted no on the resolution calling the Aug 23, 2022 School Board referendum (RCS 3299).",
+     "date": "2022-05-04",
+     "type": "vote",
+     "source": "clerk-votes-2022",
+     "vote": "N"
+    },
+    {
+     "value": "Only no vote on transmitting an Urban Service Area expansion of about 295.6 acres on Lutz Lake Fern Road (RCS 4886).",
+     "date": "2025-05-08",
+     "type": "vote",
+     "source": "clerk-votes-2025",
+     "vote": "N"
+    },
+    {
+     "value": "Voted yes to adopt FY2026 millage and budget (RCS 5124, 5125; unanimous).",
+     "date": "2025-09-18",
+     "type": "vote",
+     "source": "clerk-votes-2025",
+     "vote": "Y"
+    },
+    {
+     "value": "Roll-call tally (Glass Ballot count of the Clerk PDF, Yes/No/not voting): 2023 476/14/22; 2024 409/17/20; 2025 491/17/37; 2026 through Sep 24: 384/11/13.",
+     "date": "2026-09-24",
+     "type": "tally",
+     "source": "clerk-votes-2026"
+    },
+    {
+     "value": "County page calls him the board's leading voice for a Rays ballpark in Ybor City and credits him with creating the Tampa/Hillsborough Film Commission.",
+     "date": "2025-12-03",
+     "type": "official bio",
+     "source": "hc-hagan"
+    },
+    {
+     "value": "Campaign site claims he \"voted 20 times to lower property taxes\" and \"voted to impose term limits on county politicians\" (not checked against roll calls).",
+     "date": null,
+     "type": "self-reported claim",
+     "source": "site-hagan"
+    },
+    {
+     "value": "PolitiFact rated Mostly False his Dec 2013 claim that studies suggest the 2017 College Football Playoff championship game would bring about 1,700 to 1,800 full-time jobs.",
+     "date": "2013-12-20",
+     "type": "fact-check",
+     "source": "politifact-hagan"
+    }
+   ],
+   "financialDisclosures": [
+    {
+     "formYear": 2025,
+     "form": "Form 6",
+     "filed": "2026-08-31",
+     "source": "efdms-hagan"
+    },
+    {
+     "formYear": 2024,
+     "form": "Form 6",
+     "filed": "2025-08-27",
+     "source": "efdms-hagan"
+    },
+    {
+     "formYear": 2023,
+     "form": "Form 6",
+     "filed": "2024-06-13",
+     "source": "efdms-hagan"
+    },
+    {
+     "formYear": 2022,
+     "form": "Form 6",
+     "filed": "2023-08-25",
+     "source": "efdms-hagan"
+    },
+    {
+     "formYear": 2021,
+     "form": "Form 6",
+     "filed": "2022-06-17",
+     "source": "efdms-hagan"
+    },
+    {
+     "formYear": 2020,
+     "form": "Form 6",
+     "filed": "2021-08-31",
+     "source": "efdms-hagan"
+    },
+    {
+     "formYear": 2019,
+     "form": "Form 6",
+     "filed": "2020-08-31",
+     "source": "efdms-hagan"
+    },
+    {
+     "formYear": 2018,
+     "form": "Form 6",
+     "filed": "2019-09-03",
+     "source": "efdms-hagan"
+    },
+    {
+     "formYear": 2017,
+     "form": "Form 6",
+     "filed": "2018-06-21",
+     "source": "efdms-hagan"
+    },
+    {
+     "formYear": 2016,
+     "form": "Form 6",
+     "filed": "2017-08-31",
+     "source": "efdms-hagan"
+    },
+    {
+     "formYear": 2015,
+     "form": "Form 6",
+     "filed": "2016-09-01",
+     "source": "efdms-hagan"
+    },
+    {
+     "formYear": "2002-2014",
+     "form": "Form 6",
+     "filed": null,
+     "note": "Not in EFDMS; earlier forms must be requested from the Commission on Ethics.",
+     "source": "efdms-hagan"
+    }
+   ],
+   "conflicts": [
+    {
+     "value": "Ethics complaint 14-124 resolved by stipulation (final order 14-117) on Article II, Section 8 of the Florida Constitution (financial disclosure).",
+     "date": "2014-12-31",
+     "type": "ethics complaint",
+     "source": "coe-2014q4"
+    },
+    {
+     "value": "Florida Politics reports the 2014 complaint led Hagan to pay a $2,000 fine for failing to properly disclose assets on financial disclosure forms.",
+     "date": "2017",
+     "type": "ethics complaint",
+     "source": "fp-hagan-fees"
+    },
+    {
+     "value": "Aug 2014: the Commission on Ethics agreed to investigate a complaint by George Niemann that Hagan's disclosure listed an investment account ($401,000) and retirement accounts ($219,000) without naming specific assets. Hagan called the complaint \"laughable\".",
+     "date": "2014-08-29",
+     "type": "ethics complaint",
+     "source": "tt-hagan-2014"
+    },
+    {
+     "value": "A complaint by Niemann and three others alleging free campaign help from consultant Beth Leytham in connection with a Go Hillsborough contract was dismissed by the Commission on Ethics; the Sheriff's Office found no criminal violations in 2016 (as reported).",
+     "date": "2017",
+     "type": "ethics complaint",
+     "source": "fp-hagan-fees"
+    },
+    {
+     "value": "Hagan's petition to recover attorney fees from complainant (F 15-215, final order 18-014) was dismissed.",
+     "date": "2018-03-31",
+     "type": "attorney fee petition",
+     "source": "coe-2018q1"
+    },
+    {
+     "value": "No Abstain votes recorded for Hagan in the 2018 to 2026 Clerk vote comparisons.",
+     "date": "2026-09-24",
+     "type": "search-negative",
+     "source": "clerk-votes-2026"
+    }
+   ]
+  },
+  "cohen": {
+   "promises": [
+    {
+     "value": "On the voter-approved transportation sales tax: \"If I'm elected and it's overturned, I absolutely will vote to put it back on the ballot.\"",
+     "year": 2020,
+     "source": "bn9-tbx-2020"
+    },
+    {
+     "value": "Said of the 2018 transportation tax: \"I supported it when it was on the ballot. I support it now.\"",
+     "year": 2020,
+     "source": "bn9-tbx-2020"
+    },
+    {
+     "value": "Said he would bring his Tampa City Council work on stormwater and flooding to District 1 (reporter's paraphrase).",
+     "year": 2020,
+     "source": "bn9-tbx-2020"
+    }
+   ],
+   "electionHistory": [
+    {
+     "year": 2011,
+     "office": "Tampa City Council District 4",
+     "stage": "general",
+     "result": "Advanced to runoff (first place)",
+     "source": "soe-2011",
+     "voteShare": 44.31,
+     "votes": 6429,
+     "note": "Julie Jenkins 28.94% (4,199); Tony DeSisto 12.33%; Dennis Meyers 7.68%; Joseph V. Citro 6.74%."
+    },
+    {
+     "year": 2011,
+     "office": "Tampa City Council District 4",
+     "stage": "runoff",
+     "result": "Won",
+     "source": "soe-2011r",
+     "voteShare": 60.74,
+     "votes": 9168,
+     "note": "Julie Jenkins 39.26% (5,926)."
+    },
+    {
+     "year": 2015,
+     "office": "Tampa City Council District 4",
+     "stage": "general",
+     "result": "Won",
+     "source": "bp-cohen",
+     "date": "2015-03-03",
+     "voteShare": 71.2,
+     "votes": 6999,
+     "note": "Kent S. King 28.8% (2,825)."
+    },
+    {
+     "year": 2019,
+     "office": "Mayor of Tampa",
+     "stage": "general",
+     "result": "Lost (third place)",
+     "source": "bp-cohen",
+     "date": "2019-03-05",
+     "voteShare": 12.2,
+     "votes": 5907,
+     "note": "Jane Castor 48.0% and David Straz 15.5% advanced to the runoff."
+    },
+    {
+     "year": 2020,
+     "office": "Hillsborough County Commission District 1",
+     "stage": "Democratic primary",
+     "result": "Won",
+     "source": "bp-cohen",
+     "date": "2020-08-18",
+     "voteShare": 54.2,
+     "votes": 13971,
+     "note": "Jen McDonald 45.8% (11,785)."
+    },
+    {
+     "year": 2020,
+     "office": "Hillsborough County Commission District 1",
+     "stage": "general",
+     "result": "Won",
+     "source": "bp-cohen",
+     "date": "2020-11-03",
+     "voteShare": 50.7,
+     "votes": 91458,
+     "note": "Scott Levinson (R) 49.3% (88,803)."
+    },
+    {
+     "year": 2022,
+     "office": "Hillsborough County Commission District 1",
+     "stage": "general",
+     "result": "Won",
+     "source": "bp-cohen",
+     "date": "2022-11-08",
+     "voteShare": 50.4,
+     "votes": 58749,
+     "note": "Scott Levinson (R) 49.6% (57,922). Primaries canceled."
+    },
+    {
+     "year": 2026,
+     "office": "Hillsborough County Commission District 1",
+     "stage": "Democratic primary",
+     "result": "Canceled; advanced without appearing on ballot",
+     "source": "bp-cohen",
+     "date": "2026-08-18",
+     "note": "Faces Jackie Toledo (R) on Nov 3, 2026."
+    }
+   ],
+   "keyPositions": [
+    {
+     "value": "Voted yes on placing the 1 percent transportation surtax ordinance on the Nov 8, 2022 ballot (RCS 3284, Ordinance 22-9), consistent with his 2020 pledge.",
+     "date": "2022-04-20",
+     "type": "vote",
+     "source": "clerk-votes-2022",
+     "vote": "Y"
+    },
+    {
+     "value": "Voted yes on the Community Investment Tax renewal referendum ordinance (RCS 4308, Ordinance 24-3).",
+     "date": "2024-04-17",
+     "type": "vote",
+     "source": "clerk-votes-2024",
+     "vote": "Y"
+    },
+    {
+     "value": "Voted yes on approving the School Board's Nov 5, 2024 operating-tax referendum (RCS 4437; failed 3 to 4).",
+     "date": "2024-07-17",
+     "type": "vote",
+     "source": "clerk-votes-2024",
+     "vote": "Y"
+    },
+    {
+     "value": "Voted yes on the Rays memorandum of understanding (RCS 5486) and the final Rays funding agreements (RCS 5622).",
+     "date": "2026-08-28",
+     "type": "vote",
+     "source": "clerk-votes-2026",
+     "vote": "Y"
+    },
+    {
+     "value": "Said before the Rays vote: \"This is our moment to decide what kind of community we want to be.\"",
+     "date": "2026-08-28",
+     "type": "statement",
+     "source": "wusf-rays-aug"
+    },
+    {
+     "value": "Voted no on approving the finalized ZooTampa public-private partnership (RCS 5654), and no on the motion to only receive the ZooTampa report (RCS 5653).",
+     "date": "2026-09-16",
+     "type": "vote",
+     "source": "clerk-votes-2026",
+     "vote": "N"
+    },
+    {
+     "value": "Voted yes to adopt FY2027 millage rates (RCS 5671) and FY2026 millage and budget (RCS 5124, 5125).",
+     "date": "2026-09-24",
+     "type": "vote",
+     "source": "clerk-votes-2026",
+     "vote": "Y"
+    },
+    {
+     "value": "As a Hillsborough MPO member he voted yes on the TBX expressway plan in 2016 and later called that vote \"complicated\".",
+     "date": "2020-07-16",
+     "type": "statement",
+     "source": "bn9-tbx-2020"
+    },
+    {
+     "value": "Roll-call tally (Yes/No/not voting): 2023 478/26/7; 2024 412/33/1; 2025 530/15/0; 2026 through Sep 24: 388/9/11.",
+     "date": "2026-09-24",
+     "type": "tally",
+     "source": "clerk-votes-2026"
+    }
+   ],
+   "financialDisclosures": [
+    {
+     "formYear": 2025,
+     "form": "Form 6",
+     "filed": "2026-06-02",
+     "source": "efdms-cohen"
+    },
+    {
+     "formYear": 2024,
+     "form": "Form 6",
+     "filed": "2025-07-22",
+     "source": "efdms-cohen"
+    },
+    {
+     "formYear": 2023,
+     "form": "Form 6",
+     "filed": "2024-07-01",
+     "source": "efdms-cohen"
+    },
+    {
+     "formYear": 2022,
+     "form": "Form 6",
+     "filed": "2023-08-20",
+     "source": "efdms-cohen"
+    },
+    {
+     "formYear": 2021,
+     "form": "Form 6",
+     "filed": "2022-06-14",
+     "source": "efdms-cohen"
+    },
+    {
+     "formYear": 2020,
+     "form": "Form 6",
+     "filed": "2021-07-06",
+     "source": "efdms-cohen"
+    },
+    {
+     "formYear": 2018,
+     "form": "Form 1",
+     "filed": "2019-01-16",
+     "source": "efdms-cohen"
+    },
+    {
+     "formYear": 2017,
+     "form": "Form 1",
+     "filed": "2018-07-02",
+     "source": "efdms-cohen"
+    },
+    {
+     "formYear": 2016,
+     "form": "Form 1",
+     "filed": "2017-06-30",
+     "source": "efdms-cohen"
+    },
+    {
+     "formYear": 2015,
+     "form": "Form 1",
+     "filed": "2016-07-01",
+     "source": "efdms-cohen"
+    }
+   ],
+   "conflicts": [
+    {
+     "value": "Recorded as Abstain on PRS 22-1174, Big Bend LA, LLC (RCS 3739). The PDF does not state a reason.",
+     "date": "2023-03-07",
+     "type": "recusal",
+     "source": "clerk-votes-2023"
+    },
+    {
+     "value": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+     "date": "2026-10-27",
+     "type": "search-negative",
+     "source": "coe-orders"
+    }
+   ]
+  },
+  "myers": {
+   "promises": [
+    {
+     "value": "Campaign theme: \"It's About the People\".",
+     "year": 2026,
+     "source": "site-myers"
+    },
+    {
+     "value": "County page says she plans to lead the county in building an African American Arts and Cultural Center on N. Rome Avenue.",
+     "year": 2026,
+     "source": "hc-myers",
+     "note": "Official bio, not a campaign document."
+    }
+   ],
+   "electionHistory": [
+    {
+     "year": 2020,
+     "office": "Hillsborough County Commission District 3",
+     "stage": "Democratic primary",
+     "result": "Won",
+     "source": "bp-myers",
+     "date": "2020-08-18",
+     "voteShare": 26.5,
+     "votes": 7174,
+     "note": "Thomas Scott 25.7%, Sky White 21.4%, Ricardo Fernandez 13.8%, Frank Reddick 12.6%."
+    },
+    {
+     "year": 2020,
+     "office": "Hillsborough County Commission District 3",
+     "stage": "general",
+     "result": "Won",
+     "source": "bp-myers",
+     "date": "2020-11-03",
+     "voteShare": 72.3,
+     "votes": 88443,
+     "note": "Maura Cruz Lanz (R) 27.7% (33,832)."
+    },
+    {
+     "year": 2022,
+     "office": "Hillsborough County Commission District 3",
+     "stage": "general",
+     "result": "Won without appearing on the ballot",
+     "source": "bp-myers"
+    },
+    {
+     "year": 2026,
+     "office": "Hillsborough County Commission District 3",
+     "stage": "Democratic primary",
+     "result": "Won",
+     "source": "soe-2026p",
+     "date": "2026-08-18",
+     "voteShare": 69.48,
+     "votes": 14729,
+     "note": "Twanda E. Bradley 30.52% (6,470). Faces Luiz Garcia (R) on Nov 3."
+    }
+   ],
+   "keyPositions": [
+    {
+     "value": "Voted yes on placing the 1 percent transportation surtax on the Nov 2022 ballot (RCS 3284).",
+     "date": "2022-04-20",
+     "type": "vote",
+     "source": "clerk-votes-2022",
+     "vote": "Y"
+    },
+    {
+     "value": "Voted no on setting Nov 5, 2024 as the CIT renewal referendum date (RCS 4288), then yes on the referendum ordinance a week later (RCS 4308).",
+     "date": "2024-04-17",
+     "type": "vote",
+     "source": "clerk-votes-2024",
+     "vote": "Y"
+    },
+    {
+     "value": "Campaign site says she \"Championed the passing of the 2026 Community Investment Tax (CIT)\".",
+     "date": null,
+     "type": "self-reported claim",
+     "source": "site-myers"
+    },
+    {
+     "value": "Voted yes on the School Board's 2024 operating-tax referendum (RCS 4437; failed 3 to 4).",
+     "date": "2024-07-17",
+     "type": "vote",
+     "source": "clerk-votes-2024",
+     "vote": "Y"
+    },
+    {
+     "value": "Voted yes on the Rays memorandum (RCS 5486) and final Rays agreements (RCS 5622).",
+     "date": "2026-08-28",
+     "type": "vote",
+     "source": "clerk-votes-2026",
+     "vote": "Y"
+    },
+    {
+     "value": "Voted no on approving the finalized ZooTampa partnership (RCS 5654).",
+     "date": "2026-09-16",
+     "type": "vote",
+     "source": "clerk-votes-2026",
+     "vote": "N"
+    },
+    {
+     "value": "Campaign site lists \"Declared Juneteenth a County Holiday\" and \"Expanded Hillsborough County Health Care Plan Eligibility\" among her accomplishments.",
+     "date": null,
+     "type": "self-reported claim",
+     "source": "site-myers"
+    },
+    {
+     "value": "Roll-call tally (Yes/No/not voting): 2023 482/22/8; 2024 405/31/10; 2025 498/14/33; 2026 through Sep 24: 377/5/25.",
+     "date": "2026-09-24",
+     "type": "tally",
+     "source": "clerk-votes-2026"
+    }
+   ],
+   "financialDisclosures": [
+    {
+     "formYear": 2025,
+     "form": "Form 6",
+     "filed": "2026-05-26",
+     "source": "efdms-myers"
+    },
+    {
+     "formYear": 2024,
+     "form": "Form 6",
+     "filed": "2025-06-30",
+     "source": "efdms-myers"
+    },
+    {
+     "formYear": 2023,
+     "form": "Form 6",
+     "filed": "2024-06-27",
+     "source": "efdms-myers"
+    },
+    {
+     "formYear": 2022,
+     "form": "Form 6",
+     "filed": "2023-06-30",
+     "source": "efdms-myers"
+    },
+    {
+     "formYear": 2021,
+     "form": "Form 6",
+     "filed": "2022-06-10",
+     "source": "efdms-myers"
+    },
+    {
+     "formYear": 2020,
+     "form": "Form 6",
+     "filed": "2021-07-01",
+     "source": "efdms-myers"
+    },
+    {
+     "formYear": 2020,
+     "form": "Form 1",
+     "filed": "2021-07-01",
+     "source": "efdms-myers"
+    }
+   ],
+   "conflicts": [
+    {
+     "value": "No Abstain votes recorded in the 2023 to 2026 Clerk vote comparisons (one 2026 Abstain is on an item marked VOID, RCS 5349).",
+     "date": "2026-09-24",
+     "type": "search-negative",
+     "source": "clerk-votes-2026"
+    },
+    {
+     "value": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+     "date": "2026-10-27",
+     "type": "search-negative",
+     "source": "coe-orders"
+    }
+   ]
+  },
+  "miller": {
+   "promises": [],
+   "electionHistory": [
+    {
+     "year": 2024,
+     "office": "Hillsborough County Commission District 4",
+     "stage": "appointment",
+     "result": "Appointed by the governor",
+     "source": "bp-miller",
+     "date": "2024-06-27",
+     "note": "Ballotpedia appointment date. The seed's county press release (hc-miller-sworn, not reopened here) gives Jun 26, 2024."
+    },
+    {
+     "year": 2024,
+     "office": "Hillsborough County Commission District 4",
+     "stage": "Republican primary",
+     "result": "Won",
+     "source": "bp-miller",
+     "date": "2024-08-20",
+     "voteShare": 68.7,
+     "votes": 19328,
+     "note": "Cody Powell 31.3% (8,787)."
+    },
+    {
+     "year": 2024,
+     "office": "Hillsborough County Commission District 4",
+     "stage": "general",
+     "result": "Won",
+     "source": "bp-miller",
+     "date": "2024-11-05",
+     "voteShare": 58.2,
+     "votes": 115986,
+     "note": "Nicole Payne (D) 36.4% (72,455); Matt The Welder (NPA) 5.4% (10,830). Term ends 2028."
+    }
+   ],
+   "keyPositions": [
+    {
+     "value": "County page credits her with establishing the county's first citizen-led DOGE committee and a stormwater task force for Baker Creek, Pemberton Creek, Lake Thonotosassa and Shangri-La in Seffner.",
+     "date": "2026-09-28",
+     "type": "official bio",
+     "source": "hc-miller"
+    },
+    {
+     "value": "Voted no on adopting FY2025 millage (RCS 4578) and budget (RCS 4579).",
+     "date": "2024-09-19",
+     "type": "vote",
+     "source": "clerk-votes-2024",
+     "vote": "N"
+    },
+    {
+     "value": "Voted no on the School Board's 2024 operating-tax referendum (RCS 4437).",
+     "date": "2024-07-17",
+     "type": "vote",
+     "source": "clerk-votes-2024",
+     "vote": "N"
+    },
+    {
+     "value": "Voted yes to adopt FY2026 millage and budget (RCS 5124, 5125) and FY2027 millage (RCS 5671).",
+     "date": "2026-09-24",
+     "type": "vote",
+     "source": "clerk-votes-2026",
+     "vote": "Y"
+    },
+    {
+     "value": "Voted yes on the Rays memorandum (RCS 5486) and final Rays agreements (RCS 5622).",
+     "date": "2026-08-28",
+     "type": "vote",
+     "source": "clerk-votes-2026",
+     "vote": "Y"
+    },
+    {
+     "value": "Voted yes on approving the finalized ZooTampa partnership (RCS 5654).",
+     "date": "2026-09-16",
+     "type": "vote",
+     "source": "clerk-votes-2026",
+     "vote": "Y"
+    },
+    {
+     "value": "Roll-call tally (Yes/No/not voting): 2024 (from July) 177/11/5; 2025 520/8/16; 2026 through Sep 24: 366/17/25.",
+     "date": "2026-09-24",
+     "type": "tally",
+     "source": "clerk-votes-2026"
+    }
+   ],
+   "financialDisclosures": [
+    {
+     "formYear": 2025,
+     "form": "Form 6",
+     "filed": "2026-08-30",
+     "source": "efdms-miller"
+    },
+    {
+     "formYear": 2024,
+     "form": "Form 6",
+     "filed": "2025-08-27",
+     "source": "efdms-miller"
+    },
+    {
+     "formYear": 2023,
+     "form": "Form 6",
+     "filed": "2024-07-02",
+     "source": "efdms-miller"
+    }
+   ],
+   "conflicts": [
+    {
+     "value": "Recorded as Abstain on an agreement with the Greater Plant City Chamber of Commerce, Inc. for up to $11,000 (RCS 4714). Her county page says she was previously President and CEO of the Plant City Chamber of Commerce.",
+     "date": "2025-01-15",
+     "type": "recusal",
+     "source": "clerk-votes-2025"
+    },
+    {
+     "value": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+     "date": "2026-10-27",
+     "type": "search-negative",
+     "source": "coe-orders"
+    }
+   ]
+  },
+  "cepeda": {
+   "promises": [
+    {
+     "value": "After winning: \"I believe this is what the people want ... to stop raising taxes and stop wasting taxpayer money.\"",
+     "year": 2022,
+     "source": "tbt-2022"
+    },
+    {
+     "value": "Ran as a self-described pro-life candidate who wanted to protect U.S. borders from illegal immigration; her website said she would stop the \"transgenderism agenda\" in public schools (as reported).",
+     "year": 2022,
+     "source": "yahoo-2022"
+    },
+    {
+     "value": "2026 campaign site priorities: roads, infrastructure and transportation; veterans services and housing; anti-human trafficking advocacy; fiscal responsibility and taxpayer accountability.",
+     "year": 2026,
+     "source": "bp-cepeda",
+     "note": "Ballotpedia quoting her campaign website as of Jun 28, 2026."
+    }
+   ],
+   "electionHistory": [
+    {
+     "year": 2022,
+     "office": "Hillsborough County Commission District 5 (countywide)",
+     "stage": "general",
+     "result": "Won",
+     "source": "bp-cepeda",
+     "date": "2022-11-08",
+     "voteShare": 52.7,
+     "votes": 248424,
+     "note": "Defeated incumbent Mariella Smith (D) 47.3% (222,689). Primaries canceled."
+    },
+    {
+     "year": 2026,
+     "office": "Hillsborough County Commission District 5 (countywide)",
+     "stage": "Republican primary",
+     "result": "Lost",
+     "source": "soe-2026p",
+     "date": "2026-08-18",
+     "voteShare": 45.1,
+     "votes": 38731,
+     "note": "Stacy Hahn 54.90% (47,146)."
+    }
+   ],
+   "keyPositions": [
+    {
+     "value": "Voted no on the Rays memorandum (RCS 5486) and the final Rays agreements (RCS 5622).",
+     "date": "2026-08-28",
+     "type": "vote",
+     "source": "clerk-votes-2026",
+     "vote": "N"
+    },
+    {
+     "value": "Only no vote on adopting FY2027 millage rates (RCS 5671).",
+     "date": "2026-09-24",
+     "type": "vote",
+     "source": "clerk-votes-2026",
+     "vote": "N"
+    },
+    {
+     "value": "Voted no on adopting FY2025 millage (RCS 4578); yes on FY2026 millage and budget (RCS 5124, 5125).",
+     "date": "2024-09-19",
+     "type": "vote",
+     "source": "clerk-votes-2024",
+     "vote": "N"
+    },
+    {
+     "value": "Voted yes on the CIT renewal referendum ordinance (RCS 4308).",
+     "date": "2024-04-17",
+     "type": "vote",
+     "source": "clerk-votes-2024",
+     "vote": "Y"
+    },
+    {
+     "value": "Voted no on the School Board's 2024 operating-tax referendum (RCS 4437).",
+     "date": "2024-07-17",
+     "type": "vote",
+     "source": "clerk-votes-2024",
+     "vote": "N"
+    },
+    {
+     "value": "Voted no on the plan for spending $569,782,845 collected under the 2018 transportation surtax (RCS 3721).",
+     "date": "2023-02-15",
+     "type": "vote",
+     "source": "clerk-votes-2023",
+     "vote": "N"
+    },
+    {
+     "value": "Only no vote on a $50,000 county sponsorship of the 2025 Tampa Bay Caribbean Carnival (RCS 4604).",
+     "date": "2024-10-23",
+     "type": "vote",
+     "source": "clerk-votes-2024",
+     "vote": "N"
+    },
+    {
+     "value": "Only no vote on an Urban Service Area expansion of 31.83 acres at 1620 South Dover Road (RCS 4955).",
+     "date": "2025-06-12",
+     "type": "vote",
+     "source": "clerk-votes-2025",
+     "vote": "N"
+    },
+    {
+     "value": "Voted yes on approving the finalized ZooTampa partnership (RCS 5654).",
+     "date": "2026-09-16",
+     "type": "vote",
+     "source": "clerk-votes-2026",
+     "vote": "Y"
+    },
+    {
+     "value": "Roll-call tally (Yes/No/not voting): 2023 461/41/9; 2024 411/31/4; 2025 482/24/39; 2026 through Sep 24: 345/24/39.",
+     "date": "2026-09-24",
+     "type": "tally",
+     "source": "clerk-votes-2026"
+    }
+   ],
+   "financialDisclosures": [
+    {
+     "formYear": 2025,
+     "form": "Form 6",
+     "filed": "2026-06-02",
+     "source": "efdms-cepeda"
+    },
+    {
+     "formYear": 2024,
+     "form": "Form 6",
+     "filed": "2025-06-30",
+     "source": "efdms-cepeda"
+    },
+    {
+     "formYear": 2023,
+     "form": "Form 6",
+     "filed": "2024-06-21",
+     "source": "efdms-cepeda"
+    },
+    {
+     "formYear": 2023,
+     "form": "Form 6X (amendment)",
+     "filed": "2024-06-26",
+     "source": "efdms-cepeda"
+    },
+    {
+     "formYear": 2022,
+     "form": "Form 6",
+     "filed": "2023-05-16",
+     "source": "efdms-cepeda"
+    }
+   ],
+   "conflicts": [
+    {
+     "value": "Recorded as Abstain on item a.7 of the 2023 Pollution Recovery Fund grant applications (RCS 4068). The PDF does not state a reason.",
+     "date": "2023-10-19",
+     "type": "recusal",
+     "source": "clerk-votes-2023"
+    },
+    {
+     "value": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+     "date": "2026-10-27",
+     "type": "search-negative",
+     "source": "coe-orders"
+    }
+   ]
+  },
+  "boles": {
+   "promises": [
+    {
+     "value": "\"It's more important now than ever to stop wasteful spending and unnecessary costs in Hillsborough County's budget.\"",
+     "year": 2024,
+     "source": "site-boles"
+    },
+    {
+     "value": "Committed to core functions: \"ensuring adequate public safety, enhancing our roadways, developing infrastructure to support sustainable growth, and maintaining fiscal responsibility with taxpayer funds.\"",
+     "year": 2024,
+     "source": "site-boles"
+    },
+    {
+     "value": "\"We need to bring critical thinking and common sense back to our government.\"",
+     "year": 2024,
+     "source": "site-boles"
+    }
+   ],
+   "electionHistory": [
+    {
+     "year": 2024,
+     "office": "Hillsborough County Commission District 6 (countywide)",
+     "stage": "Republican primary",
+     "result": "Won",
+     "source": "bp-boles",
+     "date": "2024-08-20",
+     "voteShare": 59.0,
+     "votes": 39193,
+     "note": "Jim Davison 41.0% (27,207)."
+    },
+    {
+     "year": 2024,
+     "office": "Hillsborough County Commission District 6 (countywide)",
+     "stage": "general",
+     "result": "Won",
+     "source": "bp-boles",
+     "date": "2024-11-05",
+     "voteShare": 52.1,
+     "votes": 334304,
+     "note": "Sean Shaw (D) 47.9% (307,112). Term ends 2028."
+    }
+   ],
+   "keyPositions": [
+    {
+     "value": "County page features his \"Budgeting with Purpose: Nonprofit Policy Changes Proposal\" for county nonprofit funding, with a 2026 budget workshop.",
+     "date": "2026-01-28",
+     "type": "official bio",
+     "source": "hc-boles"
+    },
+    {
+     "value": "Voted yes on the Rays memorandum (RCS 5486) and final Rays agreements (RCS 5622).",
+     "date": "2026-08-28",
+     "type": "vote",
+     "source": "clerk-votes-2026",
+     "vote": "Y"
+    },
+    {
+     "value": "Voted yes on approving the finalized ZooTampa partnership (RCS 5654).",
+     "date": "2026-09-16",
+     "type": "vote",
+     "source": "clerk-votes-2026",
+     "vote": "Y"
+    },
+    {
+     "value": "Voted yes on FY2026 millage and budget (RCS 5124, 5125) and FY2027 millage (RCS 5671).",
+     "date": "2026-09-24",
+     "type": "vote",
+     "source": "clerk-votes-2026",
+     "vote": "Y"
+    },
+    {
+     "value": "Roll-call tally (Yes/No/not voting): 2025 537/7/1; 2026 through Sep 24: 380/9/19.",
+     "date": "2026-09-24",
+     "type": "tally",
+     "source": "clerk-votes-2026"
+    }
+   ],
+   "financialDisclosures": [
+    {
+     "formYear": 2025,
+     "form": "Form 6",
+     "filed": "2026-01-14",
+     "source": "efdms-boles"
+    },
+    {
+     "formYear": 2024,
+     "form": "Form 6",
+     "filed": "2025-02-06",
+     "source": "efdms-boles"
+    },
+    {
+     "formYear": 2023,
+     "form": "Form 6",
+     "filed": "2025-02-06",
+     "source": "efdms-boles"
+    }
+   ],
+   "conflicts": [
+    {
+     "value": "No Abstain votes recorded in the 2025 and 2026 Clerk vote comparisons.",
+     "date": "2026-09-24",
+     "type": "search-negative",
+     "source": "clerk-votes-2026"
+    },
+    {
+     "value": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+     "date": "2026-10-27",
+     "type": "search-negative",
+     "source": "coe-orders"
+    }
+   ]
+  },
+  "wostal": {
+   "promises": [
+    {
+     "value": "Three key messages: \"End Wasteful Spending\", \"Stop The Tax Hikes\", \"Fix Our Crumbling Infrastructure\".",
+     "year": 2022,
+     "source": "bp-wostal",
+     "note": "Ballotpedia Candidate Connection survey submitted Jul 20, 2022."
+    },
+    {
+     "value": "Campaign platform included opposition to the proposed transportation sales tax referendum.",
+     "year": 2022,
+     "source": "tbt-2022"
+    },
+    {
+     "value": "\"I'm running again to keep cutting waste, auditing spending, increasing transparency, and making county government fiscally responsible for working families.\"",
+     "year": 2026,
+     "source": "bp-wostal",
+     "note": "Survey submitted Aug 7, 2026."
+    },
+    {
+     "value": "\"I've voted against four property tax hike attempts and will keep fighting for lower taxes.\"",
+     "year": 2026,
+     "source": "bp-wostal"
+    },
+    {
+     "value": "\"I've fought to make sure infrastructure tax dollars are spent on roads not pet projects.\"",
+     "year": 2026,
+     "source": "bp-wostal"
+    }
+   ],
+   "electionHistory": [
+    {
+     "year": 2022,
+     "office": "Hillsborough County Commission District 7 (countywide)",
+     "stage": "Republican primary",
+     "result": "Won",
+     "source": "bp-wostal",
+     "date": "2022-08-23",
+     "voteShare": 50.6,
+     "votes": 43013,
+     "note": "Chase Harrison 49.4% (41,999)."
+    },
+    {
+     "year": 2022,
+     "office": "Hillsborough County Commission District 7 (countywide)",
+     "stage": "general",
+     "result": "Won",
+     "source": "bp-wostal",
+     "date": "2022-11-08",
+     "voteShare": 52.4,
+     "votes": 246947,
+     "note": "Defeated incumbent Kimberly Overman (D) 47.6% (224,530)."
+    },
+    {
+     "year": 2026,
+     "office": "Hillsborough County Commission District 7 (countywide)",
+     "stage": "Republican primary",
+     "result": "Canceled; advanced without appearing on ballot",
+     "source": "bp-wostal",
+     "date": "2026-08-18",
+     "note": "Faces Aileen Rodriguez (D) on Nov 3."
+    }
+   ],
+   "keyPositions": [
+    {
+     "value": "Voted no on the Rays memorandum (RCS 5486) and the final Rays agreements (RCS 5622).",
+     "date": "2026-08-28",
+     "type": "vote",
+     "source": "clerk-votes-2026",
+     "vote": "N"
+    },
+    {
+     "value": "On the Rays deal he said the money was \"dedicated and promised and marketed to the community in 2024.\"",
+     "date": "2026-08-28",
+     "type": "statement",
+     "source": "wusf-rays-aug"
+    },
+    {
+     "value": "Only no vote on the tentative FY2027 millage resolution (RCS 5641); recorded as not voting on final FY2027 millage (RCS 5671).",
+     "date": "2026-09-10",
+     "type": "vote",
+     "source": "clerk-votes-2026",
+     "vote": "N"
+    },
+    {
+     "value": "Voted no on adopting FY2025 millage (RCS 4578) and budget (RCS 4579); yes on FY2026 millage and budget (RCS 5124, 5125).",
+     "date": "2024-09-19",
+     "type": "vote",
+     "source": "clerk-votes-2024",
+     "vote": "N"
+    },
+    {
+     "value": "Voted yes on the CIT renewal referendum ordinance (RCS 4308).",
+     "date": "2024-04-17",
+     "type": "vote",
+     "source": "clerk-votes-2024",
+     "vote": "Y"
+    },
+    {
+     "value": "Voted no on the School Board's 2024 operating-tax referendum (RCS 4437).",
+     "date": "2024-07-17",
+     "type": "vote",
+     "source": "clerk-votes-2024",
+     "vote": "N"
+    },
+    {
+     "value": "Only no vote on asking the County Attorney to review the CIT renewal ballot language (RCS 5395).",
+     "date": "2026-04-01",
+     "type": "vote",
+     "source": "clerk-votes-2026",
+     "vote": "N"
+    },
+    {
+     "value": "Voted yes on approving the finalized ZooTampa partnership (RCS 5654).",
+     "date": "2026-09-16",
+     "type": "vote",
+     "source": "clerk-votes-2026",
+     "vote": "Y"
+    },
+    {
+     "value": "Survey says he stopped $235 million in funding to non-government entities and redirected $200,000 from excess election spending to East Tampa road repairs (not checked against records).",
+     "date": "2026-08-07",
+     "type": "self-reported claim",
+     "source": "bp-wostal"
+    },
+    {
+     "value": "Roll-call tally (Yes/No/not voting/abstain): 2023 449/45/17/1; 2024 402/38/6/0; 2025 507/22/16/0; 2026 through Sep 24: 375/18/15/0.",
+     "date": "2026-09-24",
+     "type": "tally",
+     "source": "clerk-votes-2026"
+    }
+   ],
+   "financialDisclosures": [
+    {
+     "formYear": 2025,
+     "form": "Form 6",
+     "filed": "2026-06-04",
+     "source": "efdms-wostal"
+    },
+    {
+     "formYear": 2024,
+     "form": "Form 6",
+     "filed": "2025-06-03",
+     "source": "efdms-wostal"
+    },
+    {
+     "formYear": 2023,
+     "form": "Form 6",
+     "filed": "2024-06-25",
+     "source": "efdms-wostal"
+    },
+    {
+     "formYear": 2022,
+     "form": "Form 6",
+     "filed": "2023-06-14",
+     "source": "efdms-wostal"
+    }
+   ],
+   "conflicts": [
+    {
+     "value": "Recorded as Abstain on the Transportation Plan for $569,782,845 collected under the 2018 transportation surtax (RCS 3721). The PDF does not state a reason.",
+     "date": "2023-02-15",
+     "type": "recusal",
+     "source": "clerk-votes-2023"
+    },
+    {
+     "value": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+     "date": "2026-10-27",
+     "type": "search-negative",
+     "source": "coe-orders"
+    }
+   ]
+  },
+  "rendon": {
+   "promises": [],
+   "electionHistory": [
+    {
+     "year": 2022,
+     "office": "Hillsborough County School Board District 4",
+     "stage": "nonpartisan primary",
+     "result": "Won outright",
+     "source": "bp-rendon",
+     "date": "2022-08-23",
+     "voteShare": 53.1,
+     "votes": 28842,
+     "note": "Hunter Gambrell 28.4% (15,442); Danielle Smalley 18.5% (10,033). Open seat (Melissa Snively)."
+    },
+    {
+     "year": 2026,
+     "office": "Hillsborough County School Board District 4",
+     "stage": "qualifying",
+     "result": "Re-elected without appearing on the ballot (only qualified candidate)",
+     "source": "bp-rendon",
+     "note": "Also reported by tbt-sb-june (Jun 12, 2026) and wusf-sb."
+    }
+   ],
+   "keyPositions": [
+    {
+     "value": "Endorsed Brittany Lyssy in the 2026 District 2 School Board race.",
+     "date": "2026-07-27",
+     "type": "endorsement",
+     "source": "wusf-sb"
+    },
+    {
+     "value": "Endorsed by the Hillsborough Classroom Teachers Association in 2026.",
+     "date": "2026-06-12",
+     "type": "endorsement",
+     "source": "tbt-sb-june"
+    }
+   ],
+   "financialDisclosures": [
+    {
+     "formYear": 2025,
+     "form": "Form 6",
+     "filed": "2026-06-01",
+     "source": "efdms-rendon"
+    },
+    {
+     "formYear": 2024,
+     "form": "Form 6",
+     "filed": "2025-06-23",
+     "source": "efdms-rendon"
+    },
+    {
+     "formYear": 2023,
+     "form": "Form 6",
+     "filed": "2024-06-22",
+     "source": "efdms-rendon"
+    },
+    {
+     "formYear": 2022,
+     "form": "Form 6",
+     "filed": "2023-06-19",
+     "source": "efdms-rendon"
+    },
+    {
+     "formYear": 2022,
+     "form": "Form 6X (amendment)",
+     "filed": "2024-04-04",
+     "source": "efdms-rendon"
+    }
+   ],
+   "conflicts": [
+    {
+     "value": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+     "date": "2026-10-27",
+     "type": "search-negative",
+     "source": "coe-orders"
+    }
+   ]
+  },
+  "perez": {
+   "promises": [
+    {
+     "value": "\"Improving student academic performance will always be my top priority.\" Plans to strengthen core instruction and expand advanced programs, career and technical education and early childhood VPK.",
+     "year": 2026,
+     "source": "bp-perez",
+     "note": "Ballotpedia survey submitted Jul 15, 2026."
+    },
+    {
+     "value": "\"I will continue to advocate for competitive teacher compensation that attracts, retains, and rewards outstanding educators.\"",
+     "year": 2026,
+     "source": "bp-perez"
+    },
+    {
+     "value": "Said she, other board members and the superintendent are discussing plans to minimize computer use in classrooms.",
+     "year": 2026,
+     "source": "wusf-sb"
+    },
+    {
+     "value": "Re-election site says she works \"to ensure our limited resources make it to the classroom\" and fought for first budget cuts to be \"at the administration level and not among our teachers and support staff\".",
+     "year": null,
+     "source": "site-perez",
+     "note": "Undated campaign site."
+    }
+   ],
+   "electionHistory": [
+    {
+     "year": 2018,
+     "office": "Hillsborough County School Board District 6 (countywide)",
+     "stage": "nonpartisan primary",
+     "result": "Advanced to runoff (second place)",
+     "source": "bp-perez",
+     "date": "2018-08-28",
+     "voteShare": 28.1,
+     "votes": 54034,
+     "note": "Henry Washington 32.7% (62,962); four others."
+    },
+    {
+     "year": 2018,
+     "office": "Hillsborough County School Board District 6 (countywide)",
+     "stage": "general (runoff)",
+     "result": "Won",
+     "source": "bp-perez",
+     "date": "2018-11-06",
+     "voteShare": 54.2,
+     "votes": 234122,
+     "note": "Henry Washington 45.8% (197,859)."
+    },
+    {
+     "year": 2022,
+     "office": "Hillsborough County School Board District 6 (countywide)",
+     "stage": "nonpartisan primary",
+     "result": "Won outright",
+     "source": "bp-perez",
+     "date": "2022-08-23",
+     "voteShare": 50.7,
+     "votes": 108547,
+     "note": "Alysha Legge 37.5% (80,239); Roshaun Gendrett 11.7% (25,134)."
+    },
+    {
+     "year": 2026,
+     "office": "Hillsborough County School Board District 6 (countywide)",
+     "stage": "nonpartisan primary",
+     "result": "Advanced to Nov 3 runoff (first place)",
+     "source": "soe-2026p",
+     "date": "2026-08-18",
+     "voteShare": 48.27,
+     "votes": 93616,
+     "note": "Kenneth Gay 27.23% (52,808); Sally Harris Williamson 24.50% (47,517)."
+    }
+   ],
+   "keyPositions": [
+    {
+     "value": "Re-election site says her \"fight against waste, such as overpriced software and bloating of the top executive payroll, is well known\" (not checked against board records).",
+     "date": null,
+     "type": "self-reported claim",
+     "source": "site-perez"
+    },
+    {
+     "value": "Endorsed by the Florida Education Association and the Hillsborough Classroom Teachers Association in 2026.",
+     "date": "2026-06-12",
+     "type": "endorsement",
+     "source": "tbt-sb-june"
+    }
+   ],
+   "financialDisclosures": [
+    {
+     "formYear": 2025,
+     "form": "Form 6",
+     "filed": "2026-05-13",
+     "source": "efdms-perez"
+    },
+    {
+     "formYear": 2024,
+     "form": "Form 6",
+     "filed": "2025-06-09",
+     "source": "efdms-perez"
+    },
+    {
+     "formYear": 2023,
+     "form": "Form 6",
+     "filed": "2024-06-09",
+     "source": "efdms-perez"
+    },
+    {
+     "formYear": 2022,
+     "form": "Form 6",
+     "filed": "2023-04-27",
+     "source": "efdms-perez"
+    },
+    {
+     "formYear": 2021,
+     "form": "Form 6",
+     "filed": "2022-05-23",
+     "source": "efdms-perez"
+    },
+    {
+     "formYear": 2020,
+     "form": "Form 6",
+     "filed": "2021-07-01",
+     "source": "efdms-perez"
+    },
+    {
+     "formYear": 2019,
+     "form": "Form 6",
+     "filed": "2020-06-24",
+     "source": "efdms-perez"
+    },
+    {
+     "formYear": 2018,
+     "form": "Form 6",
+     "filed": "2019-07-01",
+     "source": "efdms-perez"
+    },
+    {
+     "formYear": 2017,
+     "form": "Form 6",
+     "filed": "2018-06-22",
+     "source": "efdms-perez"
+    }
+   ],
+   "conflicts": [
+    {
+     "value": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+     "date": "2026-10-27",
+     "type": "search-negative",
+     "source": "coe-orders"
+    }
+   ]
+  },
+  "toledo": {
+   "promises": [
+    {
+     "value": "Focus on accelerating transportation improvements, reducing congestion and improving traffic flow.",
+     "year": 2026,
+     "source": "bp-toledo",
+     "note": "Ballotpedia quoting her campaign website as of Jul 17, 2026."
+    },
+    {
+     "value": "Infrastructure should come before unchecked development; work to develop affordable housing options with transportation coordination in the urban core.",
+     "year": 2026,
+     "source": "bp-toledo"
+    },
+    {
+     "value": "Strongly support law enforcement, firefighters and emergency responders.",
+     "year": 2026,
+     "source": "bp-toledo"
+    },
+    {
+     "value": "Ensure transparency and accountability, discipline in government spending, eliminate waste and prioritize core services.",
+     "year": 2026,
+     "source": "bp-toledo"
+    },
+    {
+     "value": "Prioritize infrastructure resilience, stormwater improvements, flood mitigation and emergency preparedness.",
+     "year": 2026,
+     "source": "bp-toledo"
+    },
+    {
+     "value": "2022 congressional platform (FL-15): \"Finish the wall\"; \"Outlaw sanctuary cities\"; \"Eliminate the federal department of education and return control to the states\"; \"Prosecute voter fraud\"; \"Build on the success of the Trump tax cuts\".",
+     "year": 2022,
+     "source": "bp-toledo",
+     "note": "Ballotpedia quoting her 2022 campaign website (accessed Aug 22, 2022)."
+    }
+   ],
+   "electionHistory": [
+    {
+     "year": 2015,
+     "office": "Tampa City Council District 6",
+     "stage": "general",
+     "result": "Advanced to runoff (first place)",
+     "source": "bp-toledo",
+     "date": "2015-03-03",
+     "voteShare": 46.0,
+     "votes": 3720,
+     "note": "Guido Maniscalco 29.1%; Thomas Clark Castellano 24.9%."
+    },
+    {
+     "year": 2015,
+     "office": "Tampa City Council District 6",
+     "stage": "runoff",
+     "result": "Lost",
+     "source": "bp-toledo",
+     "date": "2015-03-24",
+     "voteShare": 49.0,
+     "votes": 3582,
+     "note": "Guido Maniscalco 51% (3,731)."
+    },
+    {
+     "year": 2016,
+     "office": "Florida House District 60",
+     "stage": "Republican primary",
+     "result": "Won",
+     "source": "bp-toledo",
+     "date": "2016-08-30",
+     "voteShare": 50.99,
+     "votes": 6393,
+     "note": "Rebecca Smith 49.01% (6,145)."
+    },
+    {
+     "year": 2016,
+     "office": "Florida House District 60",
+     "stage": "general",
+     "result": "Won",
+     "source": "bp-toledo",
+     "date": "2016-11-08",
+     "voteShare": 57.13,
+     "votes": 50443,
+     "note": "David Singer (D) 42.87% (37,855)."
+    },
+    {
+     "year": 2018,
+     "office": "Florida House District 60",
+     "stage": "general",
+     "result": "Won",
+     "source": "bp-toledo",
+     "date": "2018-11-06",
+     "voteShare": 52.3,
+     "votes": 41951,
+     "note": "Debra Bellanti (D) 47.7% (38,299). Unopposed in primary."
+    },
+    {
+     "year": 2020,
+     "office": "Florida House District 60",
+     "stage": "general",
+     "result": "Won",
+     "source": "bp-toledo",
+     "date": "2020-11-03",
+     "voteShare": 54.3,
+     "votes": 57502,
+     "note": "Julie Jenkins (D) 45.7% (48,352)."
+    },
+    {
+     "year": 2022,
+     "office": "U.S. House Florida District 15",
+     "stage": "Republican primary",
+     "result": "Lost (third place)",
+     "source": "bp-toledo",
+     "date": "2022-08-23",
+     "voteShare": 11.6,
+     "votes": 6307,
+     "note": "Laurel Lee 41.5%; Kelli Stargel 27.8%. Ballotpedia also lists her as withdrawn from the 2022 House District 60 primary."
+    },
+    {
+     "year": 2026,
+     "office": "Hillsborough County Commission District 1",
+     "stage": "Republican primary",
+     "result": "Canceled; advanced without appearing on ballot",
+     "source": "bp-toledo",
+     "date": "2026-08-18",
+     "note": "Faces incumbent Harry Cohen (D) on Nov 3."
+    }
+   ],
+   "keyPositions": [
+    {
+     "value": "Sponsored HB 1475 (2022), cleanup of PFAS substances; signed by officers and presented to the governor.",
+     "date": "2022-06-09",
+     "type": "legislation",
+     "source": "bp-toledo"
+    },
+    {
+     "value": "Sponsored HB 395 (2022), Victims of Communism Day; became Chapter 2022-98.",
+     "date": "2022-05-09",
+     "type": "legislation",
+     "source": "bp-toledo"
+    },
+    {
+     "value": "Sponsored HB 235 (2022), restraint of students with disabilities in public schools; became Chapter 2022-20.",
+     "date": "2022-03-28",
+     "type": "legislation",
+     "source": "bp-toledo"
+    },
+    {
+     "value": "Sponsored HB 1 (2022), joint resolution for an additional homestead exemption for critical public service workers; filed with the Secretary of State.",
+     "date": "2022-03-23",
+     "type": "legislation",
+     "source": "bp-toledo"
+    },
+    {
+     "value": "Served as vice chair of the House Rules & Ethics Committee (2019-2020).",
+     "date": "2020",
+     "type": "committee",
+     "source": "bp-toledo"
+    }
+   ],
+   "financialDisclosures": [
+    {
+     "formYear": 2022,
+     "form": "Form 6F (final)",
+     "filed": "2023-01-12",
+     "source": "efdms-toledo"
+    },
+    {
+     "formYear": 2021,
+     "form": "Form 6",
+     "filed": "2022-09-01",
+     "source": "efdms-toledo"
+    },
+    {
+     "formYear": 2020,
+     "form": "Form 6",
+     "filed": "2021-08-13",
+     "source": "efdms-toledo"
+    },
+    {
+     "formYear": 2020,
+     "form": "Form 6X (amendment)",
+     "filed": "2021-08-24",
+     "source": "efdms-toledo"
+    },
+    {
+     "formYear": 2019,
+     "form": "Form 6",
+     "filed": "2020-06-09",
+     "source": "efdms-toledo"
+    },
+    {
+     "formYear": 2018,
+     "form": "Form 6",
+     "filed": "2019-07-08",
+     "source": "efdms-toledo"
+    },
+    {
+     "formYear": 2018,
+     "form": "Form 6X (amendment)",
+     "filed": "2021-08-13",
+     "source": "efdms-toledo"
+    },
+    {
+     "formYear": 2017,
+     "form": "Form 6",
+     "filed": "2018-06-20",
+     "source": "efdms-toledo"
+    },
+    {
+     "formYear": 2017,
+     "form": "Form 6X (amendment)",
+     "filed": "2021-08-24",
+     "source": "efdms-toledo"
+    },
+    {
+     "formYear": 2016,
+     "form": "Form 6",
+     "filed": "2017-09-01",
+     "source": "efdms-toledo"
+    },
+    {
+     "formYear": 2026,
+     "form": "Form 6 (candidate qualifying)",
+     "filed": null,
+     "note": "County candidate qualifying forms are filed with the SOE and are not in EFDMS; not checked.",
+     "source": "efdms-toledo"
+    }
+   ],
+   "conflicts": [
+    {
+     "value": "Ethics complaint 20-206 resolved by stipulation (final order 21-027) on Article II, Section 8 and section 112.3144 (financial disclosure).",
+     "date": "2021-12-31",
+     "type": "ethics complaint",
+     "source": "coe-2021q4"
+    },
+    {
+     "value": "Florida Politics reports the investigation confirmed her 2017 Form 6 omitted profits from the sale of a Tampa home and her 2018 form referred to an asset list that was not attached; a third allegation was dropped and her 2019 form was found accurate. She later filed amended 2017 and 2018 forms. The complaint was filed Oct 5, 2020 by attorney Max Solomon.",
+     "date": "2021",
+     "type": "ethics complaint",
+     "source": "fp-toledo-ethics"
+    },
+    {
+     "value": "Toledo said the mistakes \"were inadvertent, caused in part by financial fallout from her divorce\".",
+     "date": "2021-10-29",
+     "type": "response",
+     "source": "tbt-toledo-ethics"
+    }
+   ]
+  },
+  "hahn": {
+   "promises": [
+    {
+     "value": "Fiscal responsibility: \"keeping taxes low, cutting wasteful spending, and improving efficiency inside government first\".",
+     "year": 2026,
+     "source": "bp-hahn",
+     "note": "Ballotpedia quoting her campaign website as of Jun 28, 2026."
+    },
+    {
+     "value": "Safer communities: \"Supporting law enforcement, strengthening crime prevention, and prioritizing public safety\".",
+     "year": 2026,
+     "source": "bp-hahn"
+    },
+    {
+     "value": "Responsible growth: \"improving roads and transportation, investing in infrastructure, and protecting our quality of life\".",
+     "year": 2026,
+     "source": "bp-hahn"
+    },
+    {
+     "value": "School Board key messages: fiscal responsibility so students and teachers come first; multiple pathways to graduation aligned to college and career; improving student achievement with resources for educators and parent involvement.",
+     "year": 2022,
+     "source": "bp-hahn",
+     "note": "Ballotpedia survey submitted Jul 25, 2022."
+    },
+    {
+     "value": "\"Student achievement should be our number one priority!\" Also listed increasing school choice options, more technical certificates, and maximizing \"the dollars that are spent in the classroom\".",
+     "year": 2014,
+     "source": "bp-hahn",
+     "note": "Ballotpedia quoting her 2014 campaign website."
+    }
+   ],
+   "electionHistory": [
+    {
+     "year": 2014,
+     "office": "Hillsborough County School Board District 6 (countywide)",
+     "stage": "nonpartisan primary",
+     "result": "Lost (third place, did not advance)",
+     "source": "bp-hahn",
+     "date": "2014-08-26",
+     "voteShare": 15.7,
+     "votes": 18214,
+     "note": "April Griffin 27%; Dipa Shah 16.4% advanced."
+    },
+    {
+     "year": 2018,
+     "office": "Hillsborough County School Board District 2",
+     "stage": "nonpartisan primary",
+     "result": "Won outright",
+     "source": "bp-hahn",
+     "date": "2018-08-28",
+     "voteShare": 53.8,
+     "votes": 26740,
+     "note": "Incumbent Sally Harris 32.8% (16,305); Rod Mayhew 13.3% (6,622)."
+    },
+    {
+     "year": 2022,
+     "office": "Hillsborough County School Board District 2",
+     "stage": "nonpartisan primary",
+     "result": "Won outright",
+     "source": "bp-hahn",
+     "date": "2022-08-23",
+     "voteShare": 63.7,
+     "votes": 31759,
+     "note": "Damaris Allen 36.3% (18,062)."
+    },
+    {
+     "year": 2026,
+     "office": "Hillsborough County Commission District 5 (countywide)",
+     "stage": "Republican primary",
+     "result": "Won",
+     "source": "soe-2026p",
+     "date": "2026-08-18",
+     "voteShare": 54.9,
+     "votes": 47146,
+     "note": "Defeated incumbent Donna Cameron Cepeda 45.10% (38,731). Faces Neil Manimala (D) on Nov 3."
+    }
+   ],
+   "keyPositions": [
+    {
+     "value": "Endorsed by the Tampa Bay Times editorial board for County Commission in 2026.",
+     "date": "2026",
+     "type": "endorsement",
+     "source": "bp-hahn"
+    }
+   ],
+   "financialDisclosures": [
+    {
+     "formYear": 2025,
+     "form": "Form 6",
+     "filed": "2026-06-10",
+     "source": "efdms-hahn"
+    },
+    {
+     "formYear": 2024,
+     "form": "Form 6",
+     "filed": "2025-07-10",
+     "source": "efdms-hahn"
+    },
+    {
+     "formYear": 2023,
+     "form": "Form 6",
+     "filed": "2024-08-28",
+     "source": "efdms-hahn"
+    },
+    {
+     "formYear": 2022,
+     "form": "Form 6",
+     "filed": "2023-07-27",
+     "source": "efdms-hahn"
+    },
+    {
+     "formYear": 2021,
+     "form": "Form 6",
+     "filed": "2022-06-13",
+     "source": "efdms-hahn"
+    },
+    {
+     "formYear": 2020,
+     "form": "Form 6",
+     "filed": "2021-08-11",
+     "source": "efdms-hahn"
+    },
+    {
+     "formYear": 2019,
+     "form": "Form 6",
+     "filed": "2020-07-06",
+     "source": "efdms-hahn"
+    },
+    {
+     "formYear": 2018,
+     "form": "Form 6",
+     "filed": "2019-07-08",
+     "source": "efdms-hahn"
+    },
+    {
+     "formYear": 2018,
+     "form": "Form 1",
+     "filed": "2019-07-02",
+     "source": "efdms-hahn"
+    },
+    {
+     "formYear": 2017,
+     "form": "Form 6",
+     "filed": "2018-06-18",
+     "source": "efdms-hahn"
+    }
+   ],
+   "conflicts": [
+    {
+     "value": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+     "date": "2026-10-27",
+     "type": "search-negative",
+     "source": "coe-orders"
+    }
+   ]
+  },
+  "garcia": {
+   "promises": [
+    {
+     "value": "\"Structured, intentional development that improves infrastructure before new projects break ground\", including holding builders accountable.",
+     "year": 2026,
+     "source": "bp-garcia",
+     "note": "Ballotpedia quoting his campaign website as of Aug 6, 2026."
+    },
+    {
+     "value": "Protect historic districts like Ybor City while revitalizing them.",
+     "year": 2026,
+     "source": "bp-garcia"
+    },
+    {
+     "value": "Improve response times and make sure deputies, firefighters and first responders have the tools, training and resources they need.",
+     "year": 2026,
+     "source": "bp-garcia"
+    },
+    {
+     "value": "Cut red tape and permitting delays and modernize county operations.",
+     "year": 2026,
+     "source": "bp-garcia"
+    },
+    {
+     "value": "\"Bring full transparency to the county's budgeting, permitting, and development processes\" and push for performance-based evaluations in county departments.",
+     "year": 2026,
+     "source": "bp-garcia"
+    }
+   ],
+   "electionHistory": [
+    {
+     "year": 2026,
+     "office": "Hillsborough County Commission District 3",
+     "stage": "Republican primary",
+     "result": "Canceled; advanced without appearing on ballot",
+     "source": "bp-garcia",
+     "date": "2026-08-18",
+     "note": "Faces incumbent Gwen Myers (D) on Nov 3."
+    }
+   ],
+   "keyPositions": [],
+   "financialDisclosures": [
+    {
+     "formYear": 2026,
+     "form": "Form 6 (candidate qualifying)",
+     "filed": null,
+     "note": "No EFDMS record found for Luiz Garcia; qualifying forms are filed with the SOE and were not checked.",
+     "source": "ethics-search"
+    }
+   ],
+   "conflicts": [
+    {
+     "value": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+     "date": "2026-10-27",
+     "type": "search-negative",
+     "source": "coe-orders"
+    }
+   ]
+  },
+  "manimala": {
+   "promises": [
+    {
+     "value": "\"Protect and strengthen Hillsborough County's safety net\", from defending the county health plan to keeping housing within reach for working families.",
+     "year": 2026,
+     "source": "bp-manimala",
+     "note": "Ballotpedia survey submitted Aug 9, 2025."
+    },
+    {
+     "value": "\"Invest in a modern, connected transit system and stop unchecked sprawl.\"",
+     "year": 2026,
+     "source": "bp-manimala"
+    },
+    {
+     "value": "Clear, accessible budgets and public input before major spending decisions.",
+     "year": 2026,
+     "source": "bp-manimala"
+    },
+    {
+     "value": "Campaign site priorities: workforce development and affordable housing; fully resource law enforcement and fire rescue, youth diversion and mental health crisis teams; bus lanes and service expansion; stormwater drainage and anti-sprawl planning; protect the Hillsborough County Health Care Plan; open meetings.",
+     "year": 2026,
+     "source": "bp-manimala",
+     "note": "Ballotpedia quoting his campaign website as of Jun 28, 2026."
+    }
+   ],
+   "electionHistory": [
+    {
+     "year": 2026,
+     "office": "Hillsborough County Commission District 5 (countywide)",
+     "stage": "Democratic primary",
+     "result": "Canceled; advanced without appearing on ballot",
+     "source": "bp-manimala",
+     "date": "2026-08-18",
+     "note": "Faces Stacy Hahn (R) on Nov 3."
+    }
+   ],
+   "keyPositions": [],
+   "financialDisclosures": [
+    {
+     "formYear": 2026,
+     "form": "Form 6 (candidate qualifying)",
+     "filed": null,
+     "note": "No EFDMS record found; SOE qualifying forms not checked.",
+     "source": "ethics-search"
+    }
+   ],
+   "conflicts": [
+    {
+     "value": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+     "date": "2026-10-27",
+     "type": "search-negative",
+     "source": "coe-orders"
+    }
+   ]
+  },
+  "rodriguez": {
+   "promises": [
+    {
+     "value": "Tackle housing and transportation costs so teachers, first responders and young families are not priced out.",
+     "year": 2026,
+     "source": "bp-rodriguez",
+     "note": "Ballotpedia quoting her campaign website as of Jun 28, 2026."
+    },
+    {
+     "value": "\"Reinvest tax dollars directly into the neighborhoods most impacted by development.\"",
+     "year": 2026,
+     "source": "bp-rodriguez"
+    },
+    {
+     "value": "\"Hold developers accountable and ensure they pay their fair share.\"",
+     "year": 2026,
+     "source": "bp-rodriguez"
+    },
+    {
+     "value": "Support funding the fire and police stations a growing population needs.",
+     "year": 2026,
+     "source": "bp-rodriguez"
+    }
+   ],
+   "electionHistory": [
+    {
+     "year": 2026,
+     "office": "Hillsborough County Commission District 7 (countywide)",
+     "stage": "Democratic primary",
+     "result": "Won",
+     "source": "soe-2026p",
+     "date": "2026-08-18",
+     "voteShare": 62.36,
+     "votes": 52291,
+     "note": "Cindy Stuart 37.64% (31,569). Faces incumbent Joshua Wostal (R) on Nov 3."
+    }
+   ],
+   "keyPositions": [],
+   "financialDisclosures": [
+    {
+     "formYear": 2026,
+     "form": "Form 6 (candidate qualifying)",
+     "filed": null,
+     "note": "No EFDMS record found; SOE qualifying forms not checked.",
+     "source": "ethics-search"
+    }
+   ],
+   "conflicts": [
+    {
+     "value": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+     "date": "2026-10-27",
+     "type": "search-negative",
+     "source": "coe-orders"
+    }
+   ]
+  },
+  "lyssy": {
+   "promises": [
+    {
+     "value": "\"We must strengthen reading and math instruction, use tax dollars transparently, and put classrooms first.\"",
+     "year": 2026,
+     "source": "wusf-sb",
+     "note": "From her Florida Public Media voter guide survey, as quoted by WUSF."
+    },
+    {
+     "value": "\"I would support consistent student discipline, teacher support and retention and strong parental involvement.\"",
+     "year": 2026,
+     "source": "wusf-sb"
+    },
+    {
+     "value": "\"I will prioritize proven instruction, measurable academic progress, and early support for students who are falling behind\"; supports expanding career and technical education.",
+     "year": 2026,
+     "source": "bp-lyssy",
+     "note": "Ballotpedia survey submitted Jul 28, 2026."
+    },
+    {
+     "value": "Running \"to defend parental rights, demand financial responsibility\".",
+     "year": 2026,
+     "source": "bp-lyssy",
+     "note": "Ballotpedia quoting her campaign website as of Jul 22, 2026."
+    }
+   ],
+   "electionHistory": [
+    {
+     "year": 2026,
+     "office": "Hillsborough County School Board District 2",
+     "stage": "nonpartisan primary",
+     "result": "Advanced to Nov 3 runoff (second place)",
+     "source": "soe-2026p",
+     "date": "2026-08-18",
+     "voteShare": 36.84,
+     "votes": 16625,
+     "note": "Daniela Simic 38.73% (17,481); Chris Taylor 24.43% (11,026)."
+    }
+   ],
+   "keyPositions": [
+    {
+     "value": "Served on the City of Tampa Citizens Advisory Budget and Finance Committee.",
+     "date": "2026-06-12",
+     "type": "background",
+     "source": "tbt-sb-june"
+    }
+   ],
+   "financialDisclosures": [
+    {
+     "formYear": 2026,
+     "form": "Form 6 (candidate qualifying)",
+     "filed": null,
+     "note": "No EFDMS record found; SOE qualifying forms not checked.",
+     "source": "ethics-search"
+    }
+   ],
+   "conflicts": [
+    {
+     "value": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+     "date": "2026-10-27",
+     "type": "search-negative",
+     "source": "coe-orders"
+    }
+   ]
+  },
+  "simic": {
+   "promises": [
+    {
+     "value": "\"We must reduce unnecessary workload, protect instructional time, and create a culture where every employee feels respected and supported.\"",
+     "year": 2026,
+     "source": "bp-simic",
+     "note": "Ballotpedia survey submitted Jun 26, 2026."
+    },
+    {
+     "value": "Strong reading foundation, multiple pathways including career and technical education, and services for students with disabilities.",
+     "year": 2026,
+     "source": "bp-simic"
+    },
+    {
+     "value": "\"I will protect your investment and focus funding on classrooms and the teachers who make learning possible.\"",
+     "year": 2026,
+     "source": "bp-simic",
+     "note": "Campaign website as quoted by Ballotpedia, Jun 28, 2026."
+    },
+    {
+     "value": "\"I will insist on clear goals, regular reporting, and honest evaluation.\"",
+     "year": 2026,
+     "source": "bp-simic"
+    },
+    {
+     "value": "Proposed protecting teacher planning hours and building a public-facing dashboard to improve communication.",
+     "year": 2026,
+     "source": "wusf-sb"
+    }
+   ],
+   "electionHistory": [
+    {
+     "year": 2026,
+     "office": "Hillsborough County School Board District 2",
+     "stage": "nonpartisan primary",
+     "result": "Advanced to Nov 3 runoff (first place)",
+     "source": "soe-2026p",
+     "date": "2026-08-18",
+     "voteShare": 38.73,
+     "votes": 17481,
+     "note": "Brittany Lyssy 36.84% (16,625); Chris Taylor 24.43%."
+    }
+   ],
+   "keyPositions": [
+    {
+     "value": "Described as a former assistant superintendent for curriculum in the district.",
+     "date": "2026-06-12",
+     "type": "background",
+     "source": "tbt-sb-june"
+    }
+   ],
+   "financialDisclosures": [
+    {
+     "formYear": 2026,
+     "form": "Form 6 (candidate qualifying)",
+     "filed": null,
+     "note": "No EFDMS record found; SOE qualifying forms not checked.",
+     "source": "ethics-search"
+    }
+   ],
+   "conflicts": [
+    {
+     "value": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+     "date": "2026-10-27",
+     "type": "search-negative",
+     "source": "coe-orders"
+    }
+   ]
+  },
+  "gay": {
+   "promises": [
+    {
+     "value": "Campaign site goals: \"Retain & Recruit Experienced Teachers\"; \"Tackle Student Behavioral Challenges\"; \"Improve Literacy & Math Proficiency\"; \"Prioritize Money Directly to Student Learning\".",
+     "year": 2026,
+     "source": "bp-gay",
+     "note": "Ballotpedia quoting his campaign website as of Jun 28, 2026."
+    },
+    {
+     "value": "\"Rather than funding new programs, fund the basics.\"",
+     "year": 2026,
+     "source": "wusf-sb"
+    },
+    {
+     "value": "Use AI tools to take compliance paperwork off teachers and build consistency in how student behavior is handled.",
+     "year": 2026,
+     "source": "wusf-sb"
+    }
+   ],
+   "electionHistory": [
+    {
+     "year": 2024,
+     "office": "Hillsborough County School Board District 5",
+     "stage": "nonpartisan primary",
+     "result": "Lost (second place)",
+     "source": "bp-gay",
+     "date": "2024-08-20",
+     "voteShare": 24.4,
+     "votes": 4750,
+     "note": "Incumbent Henry Washington won outright with 60.6%."
+    },
+    {
+     "year": 2026,
+     "office": "Hillsborough County School Board District 6 (countywide)",
+     "stage": "nonpartisan primary",
+     "result": "Advanced to Nov 3 runoff (second place)",
+     "source": "soe-2026p",
+     "date": "2026-08-18",
+     "voteShare": 27.23,
+     "votes": 52808,
+     "note": "Karen Perez 48.27%; Sally Harris Williamson 24.50%."
+    }
+   ],
+   "keyPositions": [],
+   "financialDisclosures": [
+    {
+     "formYear": 2026,
+     "form": "Form 6 (candidate qualifying)",
+     "filed": null,
+     "note": "No EFDMS record found for Kenneth Gay; SOE qualifying forms not checked.",
+     "source": "ethics-search"
+    }
+   ],
+   "conflicts": [
+    {
+     "value": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+     "date": "2026-10-27",
+     "type": "search-negative",
+     "source": "coe-orders"
+    }
+   ]
+  }
+ },
+ "blocked": [
+  "Web search quota for this session ran out partway through (200 searches shared across agents), so many earlier-campaign news Q&As (Tampa Bay Times candidate questionnaires, Creative Loafing, Florida Politics archives) could not be located. Re-run to fill promises for Miller, Rendon, Myers (2020), Cohen (2022, 2026) and Hagan (2002 to 2014).",
+  "VOTE411 (League of Women Voters) not checked: reaching candidate pages needs the site's own search, which was not used after the search quota ran out.",
+  "web.archive.org copies of old campaign sites not used (fetching through an archive service was not allowed once search ran out).",
+  "Hillsborough SOE results archive starts at 2006; 2002 and 2004 county commission results are not posted, so Hagan's first two races have no vote shares.",
+  "Florida Commission on Ethics EFDMS lists Form 6 filings only for form years 2015 onward; Hagan's 2002 to 2014 forms and Cohen's earlier Clerk/City Council forms must be requested from the Commission.",
+  "Candidate qualifying Form 6s (Garcia, Manimala, Rodriguez, Lyssy, Simic, Gay, and Toledo for 2026) are filed with the SOE, not EFDMS, and were not retrieved.",
+  "Commission on Ethics press releases are online only for 2024 to 2026 (no matches for any name); older complaint outcomes rely on the quarterly final-order listings plus news.",
+  "Clerk vote comparisons for 2016 and 2017 use a transposed layout and were not parsed; 2018, 2020 and 2022 print members in two blocks, so only the first block was parsed. Clerk online vote search (commissionvotes.hillsclerk.com) not used.",
+  "School Board voting records for Rendon, Perez and Hahn not retrieved: the seed's board page https://www.hillsboroughschools.org/Page/8833 now returns 404 and BoardDocs did not load.",
+  "Browser could not read votechristinemiller.com, ospreyobserver.com or news.yahoo.com directly; Osprey and Yahoo items come from WebFetch summaries and are marked as such.",
+  "The Ballot Brief District 1 page loaded only partially and was not used.",
+  "Some sources (WUSF Rays, Florida Politics ethics stories, Tampa Tribune 2014, PolitiFact, Neighborhood News, Bay News 9) were read through an automated page summary rather than full text; quotes from them are short and should be spot-checked before publishing.",
+  "Conflict flagged for the editor: Ballotpedia gives Christine Miller's appointment as Jun 27, 2024; the seed's county press release (hc-miller-sworn) says Jun 26. Not re-checked here.",
+  "Roll-call tallies are Glass Ballot counts from the Clerk PDFs, not official totals. 'X' (not voting) is counted separately; seats a member did not yet hold are excluded."
+ ]
+}

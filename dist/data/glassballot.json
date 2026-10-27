@@ -768,12 +768,35 @@
         "text": "2024 campaign: After the election, wrote on Facebook that \"Pinellas County needs rebuilding now and I can't wait to roll up my sleeve and get the job done.\"",
         "source": "patch-2024-gen",
         "when": "2024"
+       },
+       {
+        "text": "2024 campaign: Did not complete Ballotpedia's 2024 Candidate Connection survey.",
+        "source": "bp-scherer",
+        "when": "2024"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2024 general, County Commission District 1: won. Chris Scherer (R) 262,740 (52.98%); Joanne 'Cookie' Kennedy (D) 233,197 (47.02%).",
+        "source": "soe-2024g"
+       },
+       {
+        "text": "2024 Republican primary, District 1: canceled; Scherer advanced without appearing on the ballot.",
+        "source": "bp-scherer"
+       },
+       {
+        "text": "Assumed office Nov 19, 2024; current term ends Nov 21, 2028.",
+        "source": "bp-scherer"
        }
       ],
       "keyPositions": [
        {
         "text": "Voted no on the $312.5 million Rays stadium bond resolution, which passed 5 to 2 on Dec 17, 2024.",
         "source": "fp-rays"
+       },
+       {
+        "text": "Before the Dec 17, 2024 bond vote, pushed for another delay, saying the commission should not vote on bonds until the Rays met all conditions.",
+        "source": "tbt-rays"
        },
        {
         "text": "On the Rays deal after his election (Nov 2024): \"We are in a new era right here,\" adding that \"whatever was agreed to before needs to be looked at differently now.\"",
@@ -1184,6 +1207,29 @@
         "text": "2022 campaign: Said he wants to bring \"a conservative majority back to the Pinellas County Commission\" and proposed smart grid technology to improve traffic signal timing.",
         "source": "yahoo-allrep-2022",
         "when": "2022"
+       },
+       {
+        "text": "2026 campaign: Did not complete Ballotpedia's 2022 or 2026 Candidate Connection survey.",
+        "source": "bp-scott",
+        "when": "2026"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2022 Republican primary, County Commission District 2: won. Brian Scott 57,798 (66.27%); Debbie Buschman 29,418 (33.73%).",
+        "source": "soe-2022p"
+       },
+       {
+        "text": "2022 general, District 2: won, unseating the incumbent. Brian Scott 223,865 (53.99%); Patricia 'Pat' Gerard 190,779 (46.01%).",
+        "source": "soe-2022g"
+       },
+       {
+        "text": "2026: Republican primary canceled; on the Nov 3, 2026 general election ballot against Tim Hughes (D).",
+        "source": "bp-scott"
+       },
+       {
+        "text": "Assumed office Nov 22, 2022; current term ends Nov 17, 2026.",
+        "source": "bp-scott"
        }
       ],
       "keyPositions": [
@@ -1548,7 +1594,21 @@
       "pctPinellas": 52,
       "pctOutOfState": 34
      },
-     "dig": {},
+     "dig": {
+      "promises": [
+       {
+        "text": "2026 campaign: Proposes converting old mobile home parks into affordable condominium parks, with low-income mobile home owners eligible to buy a unit.",
+        "source": "bp-hughes",
+        "when": "2026"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2026: Democratic primary canceled; on the Nov 3, 2026 general election ballot for County Commission District 2 against incumbent Brian Scott (R). No earlier races found.",
+        "source": "bp-hughes"
+       }
+      ]
+     },
      "facts": {
       "party": {
        "value": "Democrat",
@@ -1765,6 +1825,11 @@
         "when": "2023"
        },
        {
+        "text": "2024 campaign: Declined to answer all questions in the League of Women Voters guide for the Aug 2024 elections.",
+        "source": "lwv-2024-aug",
+        "when": "2024"
+       },
+       {
         "text": "2024 campaign: Declined to answer all five questions in the League of Women Voters guide for the Nov 2024 general election.",
         "source": "lwv-2024-nov",
         "when": "2024"
@@ -1773,12 +1838,29 @@
         "text": "2024 campaign: After the election, wrote on Facebook: \"We won this race because Pinellas voters wanted a Conservative change, and I will work day and night to bring that change.\"",
         "source": "patch-2024-gen",
         "when": "2024"
+       },
+       {
+        "text": "2024 campaign: Did not complete Ballotpedia's 2024 Candidate Connection survey.",
+        "source": "bp-nowicki",
+        "when": "2024"
        }
       ],
       "electionHistory": [
        {
+        "text": "2024 general, County Commission District 3: won, unseating the incumbent. Vince Nowicki (R) 253,412 (51.31%); Charlie Justice (D) 240,458 (48.69%).",
+        "source": "soe-2024g"
+       },
+       {
+        "text": "2024 Republican primary, District 3: canceled; David Leatherwood (R) withdrew or was disqualified.",
+        "source": "bp-nowicki"
+       },
+       {
         "text": "2021: ran for St. Petersburg mayor but withdrew before the qualifying deadline.",
         "source": "fp-nowicki-backers"
+       },
+       {
+        "text": "Assumed office Nov 19, 2024; current term ends Nov 21, 2028.",
+        "source": "bp-nowicki"
        }
       ],
       "keyPositions": [
@@ -2195,8 +2277,16 @@
         "source": "soe-2022p"
        },
        {
+        "text": "2026 Republican primary, District 4: won. Dave Eggers 35,071 (78.51%); Anthony Ringelspaugh 9,600 (21.49%).",
+        "source": "soe-2026p"
+       },
+       {
         "text": "2026 general election for District 4 canceled; Eggers won without appearing on the Nov 3 ballot.",
         "source": "bp-eggers"
+       },
+       {
+        "text": "Candidate-supplied bio: Dunedin City Commission 2003 to 2009; Dunedin Mayor 2009 to 2014; County Commissioner 2014 to present.",
+        "source": "lwv-2022-aug"
        }
       ],
       "keyPositions": [
@@ -2569,14 +2659,50 @@
       "pctOutOfState": 0
      },
      "dig": {
+      "promises": [
+       {
+        "text": "2022 county campaign site emphasized his House record (Jordan's Law, appropriations to Pinellas) and listed focus areas: protecting children, mobile homes, education and law enforcement. It listed no specific county pledges.",
+        "source": "arch-latvala-2022",
+        "when": "2022"
+       },
+       {
+        "text": "2024 campaign: Did not complete Ballotpedia's Candidate Connection survey in 2020, 2022 or 2024.",
+        "source": "bp-latvala",
+        "when": "2024"
+       }
+      ],
       "electionHistory": [
+       {
+        "text": "2014 Republican primary, Florida House District 67: won. Christopher Latvala 6,108 (67.2%); Christopher Shepard 2,985 (32.8%).",
+        "source": "bp-latvala"
+       },
        {
         "text": "2014 general, House District 67: defeated Steve Sarnoff (D) with 53%.",
         "source": "wiki-latvala"
        },
        {
+        "text": "2016 general, House District 67: won. Latvala 40,587 (58.57%); David S. Vogel (D) 28,711 (41.43%).",
+        "source": "bp-latvala"
+       },
+       {
+        "text": "2018 general, House District 67: won. Latvala 33,600 (54.0%); Dawn Douglas (D) 28,672 (46.0%).",
+        "source": "bp-latvala"
+       },
+       {
+        "text": "2020 general, House District 67: won. Latvala 47,018 (57.0%); Dawn Douglas (D) 35,457 (43.0%).",
+        "source": "bp-latvala"
+       },
+       {
+        "text": "2022, County Commission District 5: won without opposition; general election canceled.",
+        "source": "bp-latvala"
+       },
+       {
         "text": "Context for 2022: a state election law (SB 524) required single-member commission seats, including District 5, to be on the 2022 ballot. Latvala had filed in 2021 to run for the seat in 2024; commissioners referred to the bill as aiding him, and he pushed back on those allegations.",
         "source": "cat-sb524"
+       },
+       {
+        "text": "2024, District 5: won re-election without appearing on the ballot; term ends Nov 21, 2028.",
+        "source": "bp-latvala"
        }
       ],
       "keyPositions": [
@@ -2595,6 +2721,10 @@
        {
         "text": "In 2021, as chair of the House Education and Employment Committee, supported legislation to bar transgender athletes from high school girls' sports.",
         "source": "wiki-latvala"
+       },
+       {
+        "text": "Ballotpedia's BillTrack50 list of bills he sponsored includes HB 1557 Parental Rights in Education (2022) and HB 7 Individual Freedom (2022), both later chaptered into law.",
+        "source": "bp-latvala"
        }
       ]
      },
@@ -3060,9 +3190,55 @@
         "text": "2026 campaign: Pledged to \"practice fiscal discipline, investing in resilient infrastructure, and protecting taxpayers.\"",
         "source": "abc-d6-2026",
         "when": "2026"
+       },
+       {
+        "text": "2026 campaign: Declined to answer all six questions in the League of Women Voters November 2026 guide.",
+        "source": "lwv-2026-nov",
+        "when": "2026"
+       },
+       {
+        "text": "2026 campaign: Did not complete Ballotpedia's 2022 or 2026 Candidate Connection survey.",
+        "source": "bp-kpeters",
+        "when": "2026"
        }
       ],
       "electionHistory": [
+       {
+        "text": "2012 Republican primary, Florida House District 69: won. Kathleen Peters 6,662 (51%); David Phillips 4,756 (36.4%); Jim Dobyns 1,643 (12.6%).",
+        "source": "bp-kpeters"
+       },
+       {
+        "text": "2012 general, House District 69: won. Peters 40,164 (52.3%); Josh Shulman (D) 36,577 (47.7%).",
+        "source": "bp-kpeters"
+       },
+       {
+        "text": "Jan 14, 2014 special Republican primary, U.S. House District 13: lost. David Jolly 20,337 (44.6%); Peters 14,120 (31%); Mark Bircher 11,158 (24.5%). Unofficial AP results.",
+        "source": "bp-kpeters"
+       },
+       {
+        "text": "2014 general, House District 69: defeated Scott T. Orsini (D); unopposed in the primary. Vote totals not listed.",
+        "source": "bp-kpeters"
+       },
+       {
+        "text": "2016 general, House District 69: won. Peters 47,882 (56.55%); Jennifer Webb (D) 36,791 (43.45%).",
+        "source": "bp-kpeters"
+       },
+       {
+        "text": "2018 Republican primary, County Commission District 6: won. Kathleen Peters 12,034 (47.93%); Larry Ahern 8,937 (35.59%); Barb Haselden 4,137 (16.48%).",
+        "source": "soe-2018p"
+       },
+       {
+        "text": "2018 general, District 6: won. Kathleen Peters 66,963 (60.24%); Amy Kedron (D) 44,203 (39.76%).",
+        "source": "soe-2018g"
+       },
+       {
+        "text": "2022: won District 6 without appearing on the ballot.",
+        "source": "bp-kpeters"
+       },
+       {
+        "text": "2026: Republican primary canceled; on the Nov 3, 2026 ballot against David Glenn Jr. (D). Term ends Nov 17, 2026.",
+        "source": "bp-kpeters"
+       },
        {
         "text": "Elected to the South Pasadena City Commission in 2008; selected mayor in 2009; served until 2012.",
         "source": "wiki-kpeters"
@@ -3092,6 +3268,10 @@
        {
         "text": "Says property tax rate cuts in four of the last five years returned more than $100 million to taxpayers (candidate's statement).",
         "source": "abc-d6-2026"
+       },
+       {
+        "text": "As a state representative, sponsored HB 1137 (Pinellas County Construction Licensing Board), which became Chapter 2018-179.",
+        "source": "bp-kpeters"
        }
       ]
      },
@@ -3486,6 +3666,12 @@
         "source": "abc-d6-2026",
         "when": "2026"
        }
+      ],
+      "electionHistory": [
+       {
+        "text": "2026: Democratic primary canceled; on the Nov 3, 2026 general election ballot for County Commission District 6 against incumbent Kathleen Peters (R). No earlier races found.",
+        "source": "bp-kpeters"
+       }
       ]
      },
      "facts": {
@@ -3702,12 +3888,41 @@
         "text": "2020 campaign: In an op-ed on her school board record, wrote that she tried to \"focus on moving the needle for our most struggling students\" and advance \"technical trade trainings.\"",
         "source": "twc-flowers-oped-2020",
         "when": "2020"
+       },
+       {
+        "text": "2024 campaign: Did not complete Ballotpedia's Candidate Connection survey in 2020, 2022 or 2024.",
+        "source": "bp-flowers",
+        "when": "2024"
        }
       ],
       "electionHistory": [
        {
+        "text": "2014 general, School Board District 7: won. Rene Flowers 64,245 (96%); write-in 2,645 (4%).",
+        "source": "bp-flowers"
+       },
+       {
+        "text": "2018 primary, School Board District 7: won outright. Rene Flowers 29,941 (66.9%); Nicholas Wright 9,078 (20.3%); Bilan Joseph 3,336 (7.5%); Tharius Bethel 2,411 (5.4%).",
+        "source": "bp-flowers"
+       },
+       {
+        "text": "2020 Democratic primary, County Commission District 7: won. Rene Flowers 16,911 (51.65%); Wengay 'Newt' Newton 10,744 (32.81%); Frank Peterman Jr 5,087 (15.54%).",
+        "source": "soe-2020p"
+       },
+       {
+        "text": "2020 general, District 7: won. Rene Flowers (D) 83,091 (67.35%); Maria L. Scruggs 40,285 (32.65%).",
+        "source": "soe-2020g"
+       },
+       {
+        "text": "2022, District 7: general election canceled (unopposed candidate).",
+        "source": "bp-flowers"
+       },
+       {
         "text": "Context for 2022: a state law (SB 524) required Flowers and District 5 Commissioner Karen Seel to run again in 2022 with two years left on their terms.",
         "source": "cat-sb524"
+       },
+       {
+        "text": "2024, District 7: won without appearing on the ballot; term ends Nov 21, 2028.",
+        "source": "bp-flowers"
        },
        {
         "text": "County bio: St. Petersburg City Council; Pinellas County School Board, Board Chair for two consecutive terms, as written on the page.",
@@ -4068,6 +4283,11 @@
         "when": "2022"
        },
        {
+        "text": "2022 campaign: Gave no response to all six questions in the League of Women Voters guide for the Aug 2022 primary.",
+        "source": "lwv-2022-aug",
+        "when": "2022"
+       },
+       {
         "text": "2022 campaign: Declined to respond to all six questions in the League of Women Voters guide for the Nov 2022 general election.",
         "source": "lwv-2022-nov",
         "when": "2022"
@@ -4076,6 +4296,24 @@
         "text": "2026 campaign: \"I will continue into the next term with focus and without disruption\" (from her Florida Public Media voter guide survey); declined an interview.",
         "source": "wusf-sb-2026",
         "when": "2026"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2022 primary, School Board District 3: advanced to runoff. Keesha Benson 81,019 (40.14%); Dawn Peters 76,762 (38.03%); Carl 'Z' Zimmermann 44,056 (21.83%).",
+        "source": "soe-2022p"
+       },
+       {
+        "text": "2022 general, School Board District 3: won. Dawn Peters 184,244 (52.05%); Keesha Benson 169,700 (47.95%).",
+        "source": "soe-2022g"
+       },
+       {
+        "text": "2026 primary, School Board District 3: advanced to the Nov 3 runoff. Dawn Peters 61,277 (36.11%); Curtis Campogni 59,346 (34.98%); Dawn Douglas 49,056 (28.91%).",
+        "source": "soe-2026p"
+       },
+       {
+        "text": "Assumed office Nov 22, 2022; term ends Nov 17, 2026.",
+        "source": "bp-dpeters"
        }
       ]
      },
@@ -4278,6 +4516,12 @@
         "text": "2026 campaign: On teachers: \"teachers are really tired of performative listening\"; wants to listen to, empower and pay them.",
         "source": "wusf-sb-2026",
         "when": "2026"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2026 primary, School Board District 3: advanced to the Nov 3 runoff. Curtis Campogni 59,346 (34.98%), second to Dawn Peters 61,277 (36.11%). No earlier races found.",
+        "source": "soe-2026p"
        }
       ]
      },
@@ -6805,6 +7049,398 @@
      "publisher": "Florida Commission on Ethics",
      "tier": 1,
      "accessed": "2026-10-27"
+    },
+    "clerk-votes-2025": {
+     "title": "BOCC vote comparison 2025 (roll calls 01/07/2025 to 12/17/2025)",
+     "url": "https://hillsclerk.com/documents/d/guest/bocc-vote-comparison-2025-pdf",
+     "publisher": "Hillsborough County Clerk of the Circuit Court",
+     "tier": 1,
+     "accessed": "2026-10-27"
+    },
+    "clerk-votes-2024": {
+     "title": "BOCC vote comparison 2024 (roll calls 01/09/2024 to 10/31/2024)",
+     "url": "https://hillsclerk.com/documents/d/guest/bocc-vote-comparison-2024",
+     "publisher": "Hillsborough County Clerk of the Circuit Court",
+     "tier": 1,
+     "accessed": "2026-10-27"
+    },
+    "clerk-votes-2023": {
+     "title": "BOCC vote comparison 2023 (roll calls 01/10/2023 to 12/20/2023)",
+     "url": "https://hillsclerk.com/documents/d/guest/bocc-vote-comparison-2023",
+     "publisher": "Hillsborough County Clerk of the Circuit Court",
+     "tier": 1,
+     "accessed": "2026-10-27"
+    },
+    "clerk-votes-2022": {
+     "title": "BOCC vote comparison 2022",
+     "url": "https://hillsclerk.com/documents/d/guest/bocc-vote-comparison-2022",
+     "publisher": "Hillsborough County Clerk of the Circuit Court",
+     "tier": 1,
+     "accessed": "2026-10-27"
+    },
+    "soe-2026p": {
+     "title": "Aug 18, 2026 Primary Election official certified results (summary report 08/25/2026)",
+     "url": "https://www.votehillsborough.gov/DocumentCenter/View/2600/08-25-2026-SUMMARY-RESULTS-REPORT_OFFICIAL-CERTIFIED-RESULTS-PDF",
+     "publisher": "Hillsborough County Supervisor of Elections",
+     "tier": 1,
+     "accessed": "2026-08-25"
+    },
+    "soe-2010g": {
+     "title": "2010 General Election official results",
+     "url": "https://www.votehillsborough.gov/DocumentCenter/View/158/2010-General-Election-Official-Results-PDF",
+     "publisher": "Hillsborough County Supervisor of Elections",
+     "tier": 1,
+     "accessed": "2010-11-02"
+    },
+    "soe-2010p": {
+     "title": "2010 Primary Election official results",
+     "url": "https://www.votehillsborough.gov/DocumentCenter/View/160/2010-Primary-Election-Official-Results-PDF",
+     "publisher": "Hillsborough County Supervisor of Elections",
+     "tier": 1,
+     "accessed": "2010-08-24"
+    },
+    "soe-2006g": {
+     "title": "2006 General Election official results",
+     "url": "https://www.votehillsborough.gov/DocumentCenter/View/142/2006-General-Election-Official-Results-PDF",
+     "publisher": "Hillsborough County Supervisor of Elections",
+     "tier": 1,
+     "accessed": "2006-11-07"
+    },
+    "soe-2006p": {
+     "title": "2006 Primary Election official results",
+     "url": "https://www.votehillsborough.gov/DocumentCenter/View/144/2006-Primary-Election-Official-Results-PDF",
+     "publisher": "Hillsborough County Supervisor of Elections",
+     "tier": 1,
+     "accessed": "2006-09-05"
+    },
+    "soe-2014g": {
+     "title": "2014 General Election results (ENR)",
+     "url": "https://enr.electionsfl.org/HIL/Summary/1210",
+     "publisher": "Hillsborough County Supervisor of Elections",
+     "tier": 1,
+     "accessed": "2014-11-04"
+    },
+    "soe-2014p": {
+     "title": "2014 Primary Election results (ENR)",
+     "url": "https://enr.electionsfl.org/HIL/Summary/1047/",
+     "publisher": "Hillsborough County Supervisor of Elections",
+     "tier": 1,
+     "accessed": "2014-08-26"
+    },
+    "soe-2011": {
+     "title": "2011 City of Tampa Municipal Election official results",
+     "url": "https://www.votehillsborough.gov/DocumentCenter/View/166/2011-City-of-Tampa-Municipal-Election-Official-Results-PDF",
+     "publisher": "Hillsborough County Supervisor of Elections",
+     "tier": 1,
+     "accessed": "2011"
+    },
+    "soe-2011r": {
+     "title": "2011 City of Tampa Municipal Runoff Election official results",
+     "url": "https://www.votehillsborough.gov/DocumentCenter/View/168/2011-City-of-Tampa-Municipal-Runoff-Election-Official-Results-PDF",
+     "publisher": "Hillsborough County Supervisor of Elections",
+     "tier": 1,
+     "accessed": "2011"
+    },
+    "soe-results-index": {
+     "title": "Election Results (archive index)",
+     "url": "https://www.votehillsborough.gov/183/Election-Results",
+     "publisher": "Hillsborough County Supervisor of Elections",
+     "tier": 1,
+     "accessed": "2026-10-27"
+    },
+    "coe-2014q4": {
+     "title": "Listing of Unpublished Final Orders, Fourth Quarter 2014",
+     "url": "https://www.ethics.state.fl.us/Documents/Orders/2014/2014_fourth.pdf",
+     "publisher": "Florida Commission on Ethics",
+     "tier": 1,
+     "accessed": "2014-12-31"
+    },
+    "coe-2018q1": {
+     "title": "Listing of Unpublished Final Orders, First Quarter 2018",
+     "url": "https://www.ethics.state.fl.us/Documents/Orders/2018/2018_first.pdf",
+     "publisher": "Florida Commission on Ethics",
+     "tier": 1,
+     "accessed": "2018-03-31"
+    },
+    "coe-2021q4": {
+     "title": "Listing of Unpublished Final Orders, Fourth Quarter 2021",
+     "url": "https://www.ethics.state.fl.us/Documents/Orders/2021/2021_fourth.pdf",
+     "publisher": "Florida Commission on Ethics",
+     "tier": 1,
+     "accessed": "2021-12-31"
+    },
+    "coe-orders": {
+     "title": "Orders (index of final order listings 2005 to 2026 Q1)",
+     "url": "https://www.ethics.state.fl.us/Research/Orders.aspx",
+     "publisher": "Florida Commission on Ethics",
+     "tier": 1,
+     "accessed": "2026-10-27"
+    },
+    "efdms-hagan": {
+     "title": "Filings for Ken Hagan (EFDMS filing history)",
+     "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/84301",
+     "publisher": "Florida Commission on Ethics",
+     "tier": 1,
+     "accessed": "2026-10-27"
+    },
+    "efdms-cohen": {
+     "title": "Filings for Harry Cohen (EFDMS filing history)",
+     "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/67224",
+     "publisher": "Florida Commission on Ethics",
+     "tier": 1,
+     "accessed": "2026-10-27"
+    },
+    "efdms-myers": {
+     "title": "Filings for Gwendolyn Williams Myers (EFDMS filing history)",
+     "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/76727",
+     "publisher": "Florida Commission on Ethics",
+     "tier": 1,
+     "accessed": "2026-10-27"
+    },
+    "efdms-miller": {
+     "title": "Filings for Christine Miller (EFDMS filing history)",
+     "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/512858",
+     "publisher": "Florida Commission on Ethics",
+     "tier": 1,
+     "accessed": "2026-10-27"
+    },
+    "efdms-cepeda": {
+     "title": "Filings for Donna Cameron Cepeda (EFDMS filing history)",
+     "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/501390",
+     "publisher": "Florida Commission on Ethics",
+     "tier": 1,
+     "accessed": "2026-10-27"
+    },
+    "efdms-boles": {
+     "title": "Filings for CHRIS BOLES (EFDMS filing history)",
+     "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/514188",
+     "publisher": "Florida Commission on Ethics",
+     "tier": 1,
+     "accessed": "2026-10-27"
+    },
+    "efdms-wostal": {
+     "title": "Filings for Joshua Wostal (EFDMS filing history)",
+     "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/500025",
+     "publisher": "Florida Commission on Ethics",
+     "tier": 1,
+     "accessed": "2026-10-27"
+    },
+    "efdms-rendon": {
+     "title": "Filings for Patricia L. Rendon (EFDMS filing history)",
+     "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/501141",
+     "publisher": "Florida Commission on Ethics",
+     "tier": 1,
+     "accessed": "2026-10-27"
+    },
+    "efdms-perez": {
+     "title": "Filings for Karen Perez (EFDMS filing history)",
+     "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/96446",
+     "publisher": "Florida Commission on Ethics",
+     "tier": 1,
+     "accessed": "2026-10-27"
+    },
+    "efdms-toledo": {
+     "title": "Filings for Jackeline Toledo (EFDMS filing history)",
+     "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/81499",
+     "publisher": "Florida Commission on Ethics",
+     "tier": 1,
+     "accessed": "2026-10-27"
+    },
+    "efdms-hahn": {
+     "title": "Filings for Stacy Ann Hahn (EFDMS filing history)",
+     "url": "https://disclosure.floridaethics.gov/PublicSearch/FilingHistory/87058",
+     "publisher": "Florida Commission on Ethics",
+     "tier": 1,
+     "accessed": "2026-10-27"
+    },
+    "bp-hagan": {
+     "title": "Ken Hagan (Florida) - Ballotpedia",
+     "url": "https://ballotpedia.org/Ken_Hagan_(Florida)",
+     "publisher": "Ballotpedia",
+     "tier": 3,
+     "accessed": "2026-10-27"
+    },
+    "bp-miller": {
+     "title": "Christine Miller (Florida) - Ballotpedia",
+     "url": "https://ballotpedia.org/Christine_Miller_(Florida)",
+     "publisher": "Ballotpedia",
+     "tier": 3,
+     "accessed": "2026-10-27"
+    },
+    "bp-cepeda": {
+     "title": "Donna Cameron Cepeda - Ballotpedia",
+     "url": "https://ballotpedia.org/Donna_Cameron_Cepeda",
+     "publisher": "Ballotpedia",
+     "tier": 3,
+     "accessed": "2026-10-27"
+    },
+    "bp-wostal": {
+     "title": "Joshua Wostal - Ballotpedia",
+     "url": "https://ballotpedia.org/Joshua_Wostal",
+     "publisher": "Ballotpedia",
+     "tier": 3,
+     "accessed": "2026-10-27"
+    },
+    "bp-rendon": {
+     "title": "Patricia Rendon - Ballotpedia",
+     "url": "https://ballotpedia.org/Patricia_Rendon",
+     "publisher": "Ballotpedia",
+     "tier": 3,
+     "accessed": "2026-10-27"
+    },
+    "bp-perez": {
+     "title": "Karen Perez - Ballotpedia",
+     "url": "https://ballotpedia.org/Karen_Perez",
+     "publisher": "Ballotpedia",
+     "tier": 3,
+     "accessed": "2026-10-27"
+    },
+    "bp-toledo": {
+     "title": "Jackie Toledo - Ballotpedia",
+     "url": "https://ballotpedia.org/Jackie_Toledo",
+     "publisher": "Ballotpedia",
+     "tier": 3,
+     "accessed": "2026-10-27"
+    },
+    "bp-hahn": {
+     "title": "Stacy Hahn - Ballotpedia",
+     "url": "https://ballotpedia.org/Stacy_Hahn",
+     "publisher": "Ballotpedia",
+     "tier": 3,
+     "accessed": "2026-10-27"
+    },
+    "bp-manimala": {
+     "title": "Neil Manimala - Ballotpedia",
+     "url": "https://ballotpedia.org/Neil_Manimala",
+     "publisher": "Ballotpedia",
+     "tier": 3,
+     "accessed": "2026-10-27"
+    },
+    "bp-rodriguez": {
+     "title": "Aileen Rodriguez - Ballotpedia",
+     "url": "https://ballotpedia.org/Aileen_Rodriguez",
+     "publisher": "Ballotpedia",
+     "tier": 3,
+     "accessed": "2026-10-27"
+    },
+    "bp-garcia": {
+     "title": "Luiz Garcia - Ballotpedia",
+     "url": "https://ballotpedia.org/Luiz_Garcia",
+     "publisher": "Ballotpedia",
+     "tier": 3,
+     "accessed": "2026-10-27"
+    },
+    "bp-lyssy": {
+     "title": "Brittany Lyssy - Ballotpedia",
+     "url": "https://ballotpedia.org/Brittany_Lyssy",
+     "publisher": "Ballotpedia",
+     "tier": 3,
+     "accessed": "2026-10-27"
+    },
+    "bp-simic": {
+     "title": "Daniela Simic - Ballotpedia",
+     "url": "https://ballotpedia.org/Daniela_Simic",
+     "publisher": "Ballotpedia",
+     "tier": 3,
+     "accessed": "2026-10-27"
+    },
+    "bp-gay": {
+     "title": "Kenneth Gay - Ballotpedia",
+     "url": "https://ballotpedia.org/Kenneth_Gay",
+     "publisher": "Ballotpedia",
+     "tier": 3,
+     "accessed": "2026-10-27"
+    },
+    "tbt-toledo-ethics": {
+     "title": "Ethics Commission says Jackie Toledo's financial disclosures incorrect",
+     "url": "https://www.tampabay.com/news/hillsborough/2021/10/29/ethics-commission-says-jackie-toledos-financial-disclosures-incorrect/",
+     "publisher": "Tampa Bay Times (William March)",
+     "tier": 4,
+     "accessed": "2021-10-29"
+    },
+    "yahoo-2022": {
+     "title": "Pair of Democratic incumbent commissioners fall in Hillsborough",
+     "url": "https://news.yahoo.com/pair-democratic-incumbent-commissioners-fall-011900380.html",
+     "publisher": "Tampa Bay Times via Yahoo News",
+     "tier": 4,
+     "accessed": "2022-11"
+    },
+    "fp-toledo-ethics": {
+     "title": "Ethics commission confirms violations in Jackie Toledo financial disclosures",
+     "url": "https://floridapolitics.com/archives/466963-ethics-commission-confirms-violations-in-jackie-toledo-financial-disclosures/",
+     "publisher": "Florida Politics",
+     "tier": 4,
+     "accessed": "2021"
+    },
+    "fp-hagan-fees": {
+     "title": "Ethics commission delays Ken Hagan's legal fee case",
+     "url": "https://floridapolitics.com/?p=254045",
+     "publisher": "Florida Politics (Mitch Perry)",
+     "tier": 4,
+     "accessed": "2017"
+    },
+    "tt-hagan-2014": {
+     "title": "Ethics panel to investigate Hagan",
+     "url": "https://insurancenewsnet.com/oarticle/Ethics-panel-to-investigate-Hagan-a-549660",
+     "publisher": "Tampa Tribune (Mike Salinero), republished by InsuranceNewsNet",
+     "tier": 4,
+     "accessed": "2014-08-29"
+    },
+    "osprey-2014": {
+     "title": "County commissioners take oaths of office; Commissioner Murman chosen as chairwoman",
+     "url": "https://ospreyobserver.com/2014/12/county-commissioners-take-oaths-of-office-commissioner-murman-chosen-as-chairwoman",
+     "publisher": "Osprey Observer",
+     "tier": 4,
+     "accessed": "2014-12-17"
+    },
+    "nno-hagan-2018": {
+     "title": "Commissioners Hagan, Crist trying to swap seats in November",
+     "url": "https://neighborhoodnewsonline.net/commissioners-hagan-crist-trying-swap-seats-november/",
+     "publisher": "Neighborhood News (John Cotey)",
+     "tier": 4,
+     "accessed": "2018-08-17"
+    },
+    "bn9-tbx-2020": {
+     "title": "TBX vote a point of disagreement for Democrats in Hillsborough County Commission District 1 race",
+     "url": "https://baynews9.com/fl/tampa/local-politics/2020/07/15/tbx-vote-disagreement-democrats-hillsborough-county-commission-district-one-race",
+     "publisher": "Spectrum Bay News 9 (Mitch Perry)",
+     "tier": 4,
+     "accessed": "2020-07-16"
+    },
+    "politifact-hagan": {
+     "title": "Ken Hagan's file",
+     "url": "https://www.politifact.com/personalities/ken-hagan",
+     "publisher": "PolitiFact",
+     "tier": 4,
+     "accessed": "2013-12-20"
+    },
+    "site-hagan": {
+     "title": "Ken Hagan, Republican, for Hillsborough County Commissioner District 2",
+     "url": "https://votekenhagan.com/",
+     "publisher": "Ken Hagan campaign",
+     "tier": 5,
+     "accessed": "2026-10-27"
+    },
+    "site-boles": {
+     "title": "Chris Boles for County Commissioner",
+     "url": "https://www.chrisboles.com/",
+     "publisher": "Chris Boles campaign",
+     "tier": 5,
+     "accessed": "2026-10-27"
+    },
+    "site-myers": {
+     "title": "Accomplishments | Vote Gwen Myers",
+     "url": "https://www.votegwenmyers.com/platform",
+     "publisher": "Gwen Myers campaign",
+     "tier": 5,
+     "accessed": "2026-10-27"
+    },
+    "site-perez": {
+     "title": "Karen Perez for School Board District 6",
+     "url": "https://keepkarenperez.com/",
+     "publisher": "Karen Perez campaign",
+     "tier": 5,
+     "accessed": "2026-10-27"
     }
    },
    "people": [
@@ -6819,6 +7455,128 @@
      "finance": {
       "voterfocusId": "2640",
       "status": "Active- Qualified"
+     },
+     "dig": {
+      "promises": [
+       {
+        "text": "2020 campaign: On the voter-approved transportation sales tax: \"If I'm elected and it's overturned, I absolutely will vote to put it back on the ballot.\"",
+        "source": "bn9-tbx-2020",
+        "when": "2020"
+       },
+       {
+        "text": "2020 campaign: Said of the 2018 transportation tax: \"I supported it when it was on the ballot. I support it now.\"",
+        "source": "bn9-tbx-2020",
+        "when": "2020"
+       },
+       {
+        "text": "2020 campaign: Highlighted his Tampa City Council work on stormwater and flooding, a problem in parts of District 1 (reporter's paraphrase).",
+        "source": "bn9-tbx-2020",
+        "when": "2020"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2011 general, Tampa City Council District 4: Advanced to runoff (first place). Julie Jenkins 28.94% (4,199); Tony DeSisto 12.33%; Dennis Meyers 7.68%; Joseph V. Citro 6.74%.",
+        "source": "soe-2011",
+        "when": "2011"
+       },
+       {
+        "text": "2011 runoff, Tampa City Council District 4: Won. Julie Jenkins 39.26% (5,926).",
+        "source": "soe-2011r",
+        "when": "2011"
+       },
+       {
+        "text": "2015 general, Tampa City Council District 4: Won. Kent S. King 28.8% (2,825).",
+        "source": "bp-cohen",
+        "when": "2015"
+       },
+       {
+        "text": "2019 general, Mayor of Tampa: Lost (third place). Jane Castor 48.0% and David Straz 15.5% advanced to the runoff.",
+        "source": "bp-cohen",
+        "when": "2019"
+       },
+       {
+        "text": "2020 Democratic primary, Hillsborough County Commission District 1: Won. Jen McDonald 45.8% (11,785).",
+        "source": "bp-cohen",
+        "when": "2020"
+       },
+       {
+        "text": "2020 general, Hillsborough County Commission District 1: Won. Scott Levinson (R) 49.3% (88,803).",
+        "source": "bp-cohen",
+        "when": "2020"
+       },
+       {
+        "text": "2022 general, Hillsborough County Commission District 1: Won. Scott Levinson (R) 49.6% (57,922). Primaries canceled.",
+        "source": "bp-cohen",
+        "when": "2022"
+       },
+       {
+        "text": "2026 Democratic primary, Hillsborough County Commission District 1: Canceled; advanced without appearing on ballot. Faces Jackie Toledo (R) on Nov 3, 2026.",
+        "source": "bp-cohen",
+        "when": "2026"
+       }
+      ],
+      "keyPositions": [
+       {
+        "text": "Apr 20, 2022: Voted yes on placing the 1 percent transportation surtax ordinance on the Nov 8, 2022 ballot (RCS 3284, Ordinance 22-9), consistent with his 2020 pledge.",
+        "source": "clerk-votes-2022",
+        "when": "2022"
+       },
+       {
+        "text": "Apr 17, 2024: Voted yes on the Community Investment Tax renewal referendum ordinance (RCS 4308, Ordinance 24-3).",
+        "source": "clerk-votes-2024",
+        "when": "2024"
+       },
+       {
+        "text": "Jul 17, 2024: Voted yes on approving the School Board's Nov 5, 2024 operating-tax referendum (RCS 4437; failed 3 to 4).",
+        "source": "clerk-votes-2024",
+        "when": "2024"
+       },
+       {
+        "text": "Aug 28, 2026: Voted yes on the Rays memorandum of understanding (RCS 5486) and the final Rays funding agreements (RCS 5622).",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "Aug 28, 2026: Said before the Rays vote: \"This is our moment to decide what kind of community we want to be.\"",
+        "source": "wusf-rays-aug",
+        "when": "2026"
+       },
+       {
+        "text": "Sep 16, 2026: Voted no on approving the finalized ZooTampa public-private partnership (RCS 5654), and no on the motion to only receive the ZooTampa report (RCS 5653).",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "Sep 24, 2026: Voted yes to adopt FY2027 millage rates (RCS 5671) and FY2026 millage and budget (RCS 5124, 5125).",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "Jul 16, 2020: As a Hillsborough MPO member he voted yes on the TBX expressway plan in 2016 and later called that vote \"complicated\".",
+        "source": "bn9-tbx-2020",
+        "when": "2020"
+       },
+       {
+        "text": "Sep 24, 2026: Roll-call tally (Yes/No/not voting): 2023 478/26/7; 2024 412/33/1; 2025 530/15/0; 2026 through Sep 24: 388/9/11.",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       }
+      ],
+      "conflicts": [
+       {
+        "text": "Recorded as Abstain on PRS 22-1174, Big Bend LA, LLC (RCS 3739). The PDF does not state a reason.",
+        "source": "clerk-votes-2023",
+        "when": "2023"
+       }
+      ],
+      "checked": [
+       {
+        "text": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+        "source": "coe-orders",
+        "when": "2026"
+       }
+      ]
      },
      "facts": {
       "party": {
@@ -7016,6 +7774,193 @@
      "district": "2",
      "seatType": "Single-member",
      "status": "incumbent",
+     "dig": {
+      "promises": [
+       {
+        "text": "2024 campaign: Continue to make developers pay their fair share.",
+        "source": "site-hagan",
+        "when": "2024"
+       },
+       {
+        "text": "2024 campaign: Fight to keep taxes low, budgets balanced, and county spending transparent.",
+        "source": "site-hagan",
+        "when": "2024"
+       },
+       {
+        "text": "2024 campaign: Work with the Sheriff to keep families safe and fund new initiatives to reduce violent crimes.",
+        "source": "site-hagan",
+        "when": "2024"
+       },
+       {
+        "text": "2024 campaign: Focus on keeping housing affordable, especially in urban cores.",
+        "source": "site-hagan",
+        "when": "2024"
+       },
+       {
+        "text": "2024 campaign: Develop new programs and projects that protect the quantity and quality of drinking water.",
+        "source": "site-hagan",
+        "when": "2024"
+       },
+       {
+        "text": "2022 campaign: In his 2022 race he highlighted opposing a brownfield designation for the former Pebble Creek Country Club, objecting to a yard waste incinerator zoning change in Lutz, backing a New Tampa Performing Arts Center and seeking funds for residential road paving.",
+        "source": "yahoo-2022",
+        "when": "2022"
+       },
+       {
+        "text": "2018 campaign: Proposed adding $250,000 to the county budget to speed a potential Kinnan Street connection to Mansfield Boulevard (reported during his 2018 District 2 campaign).",
+        "source": "nno-hagan-2018",
+        "when": "2018"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2002 general, Hillsborough County Commission District 2: Won (first elected). County page says first elected in 2002. Official 2002 results are not on the SOE results archive, so vote share is not available.",
+        "source": "hc-hagan",
+        "when": "2002"
+       },
+       {
+        "text": "2006 general, Hillsborough County Commission District 2: Kept seat; no District 2 contest appears in the official 2006 primary or general results. Neighborhood News reports he held District 2 from 2002 to 2010. The SOE results do not say whether he was unopposed.",
+        "source": "soe-2006g",
+        "when": "2006"
+       },
+       {
+        "text": "2010 general, Hillsborough County Commission District 5 (countywide): Won. Linda Saul-Sena (DEM) 42.49% (131,504); Jim Hosler (NPA) 4.83% (14,957). No District 5 contest in the 2010 primary results.",
+        "source": "soe-2010g",
+        "when": "2010"
+       },
+       {
+        "text": "2014 general, Hillsborough County Commission District 5 (countywide): Re-elected. Osprey Observer (Dec 17, 2014) calls him re-elected for Countywide District 5. SOE ENR pages soe-2014p and soe-2014g list no District 5 race.",
+        "source": "osprey-2014",
+        "when": "2014"
+       },
+       {
+        "text": "2018 Republican primary, Hillsborough County Commission District 2: Won. Chris Paradies 27.6% (7,504).",
+        "source": "bp-hagan",
+        "when": "2018"
+       },
+       {
+        "text": "2018 general, Hillsborough County Commission District 2: Won. Angela Birdsong (D) 47.6% (67,378).",
+        "source": "bp-hagan",
+        "when": "2018"
+       },
+       {
+        "text": "2022 general, Hillsborough County Commission District 2: Won. Angela Birdsong (D) 43.4% (54,444). Republican primary canceled.",
+        "source": "bp-hagan",
+        "when": "2022"
+       },
+       {
+        "text": "2024 Republican primary, Hillsborough County Commission District 2: Won. Melissa Nordbeck 21.8% (4,188).",
+        "source": "bp-hagan",
+        "when": "2024"
+       },
+       {
+        "text": "2024 general, Hillsborough County Commission District 2: Won. Patricia Altagracia Alonzo (D) 44.9% (74,084). Term ends 2028.",
+        "source": "bp-hagan",
+        "when": "2024"
+       }
+      ],
+      "keyPositions": [
+       {
+        "text": "Aug 28, 2026: Voted yes on the Development and Funding Agreement, Guaranty and Team Non-Relocation Agreement for a Rays ballpark (RCS 5622; passed 5 to 2).",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "Aug 28, 2026: Before the Rays vote he said: \"To be a world-class community requires vision, courage, bold leadership, and the ability to think big.\"",
+        "source": "wusf-rays-aug",
+        "when": "2026"
+       },
+       {
+        "text": "May 20, 2026: Voted yes on the non-binding Rays memorandum of understanding (RCS 5486).",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "Sep 16, 2026: Voted no on a motion to approve the finalized ZooTampa public-private partnership and proceed to a contract (RCS 5654; Cohen, Hagan and Myers voted no).",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "Sep 24, 2026: Voted yes to adopt FY2027 millage rates (RCS 5671).",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "Apr 17, 2024: Voted no on enacting the ordinance setting the Community Investment Tax renewal referendum (RCS 4308, Ordinance 24-3; Hagan and Kemp voted no).",
+        "source": "clerk-votes-2024",
+        "when": "2024"
+       },
+       {
+        "text": "Jul 17, 2024: Voted no on approving the School Board's Nov 5, 2024 referendum for additional operating property taxes (RCS 4437; 3 yes, 4 no).",
+        "source": "clerk-votes-2024",
+        "when": "2024"
+       },
+       {
+        "text": "Apr 20, 2022: Voted no on placing the 1 percent transportation surtax ordinance on the Nov 8, 2022 ballot (RCS 3284, Ordinance 22-9).",
+        "source": "clerk-votes-2022",
+        "when": "2022"
+       },
+       {
+        "text": "May 4, 2022: Voted no on the resolution calling the Aug 23, 2022 School Board referendum (RCS 3299).",
+        "source": "clerk-votes-2022",
+        "when": "2022"
+       },
+       {
+        "text": "May 8, 2025: Only no vote on transmitting an Urban Service Area expansion of about 295.6 acres on Lutz Lake Fern Road (RCS 4886).",
+        "source": "clerk-votes-2025",
+        "when": "2025"
+       },
+       {
+        "text": "Sep 18, 2025: Voted yes to adopt FY2026 millage and budget (RCS 5124, 5125; unanimous).",
+        "source": "clerk-votes-2025",
+        "when": "2025"
+       },
+       {
+        "text": "Sep 24, 2026: Roll-call tally (Glass Ballot count of the Clerk PDF, Yes/No/not voting): 2023 476/14/22; 2024 409/17/20; 2025 491/17/37; 2026 through Sep 24: 384/11/13.",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "Dec 3, 2025: County page calls him the board's leading voice for a Rays ballpark in Ybor City and credits him with creating the Tampa/Hillsborough Film Commission.",
+        "source": "hc-hagan",
+        "when": "2025"
+       },
+       {
+        "text": "Dec 20, 2013: PolitiFact rated Mostly False his Dec 2013 claim that studies suggest the 2017 College Football Playoff championship game would bring about 1,700 to 1,800 full-time jobs.",
+        "source": "politifact-hagan",
+        "when": "2013"
+       }
+      ],
+      "conflicts": [
+       {
+        "text": "Ethics complaint 14-124 resolved by stipulation (final order 14-117) on Article II, Section 8 of the Florida Constitution (financial disclosure).",
+        "source": "coe-2014q4",
+        "when": "2014"
+       },
+       {
+        "text": "Florida Politics reports the 2014 complaint led Hagan to pay a $2,000 fine for failing to properly disclose assets on financial disclosure forms.",
+        "source": "fp-hagan-fees",
+        "when": "2017"
+       },
+       {
+        "text": "Aug 2014: the Commission on Ethics agreed to investigate a complaint by George Niemann that Hagan's disclosure listed an investment account ($401,000) and retirement accounts ($219,000) without naming specific assets. Hagan called the complaint \"laughable\".",
+        "source": "tt-hagan-2014",
+        "when": "2014"
+       },
+       {
+        "text": "A complaint by Niemann and three others alleging free campaign help from consultant Beth Leytham in connection with a Go Hillsborough contract was dismissed by the Commission on Ethics; the Sheriff's Office found no criminal violations in 2016 (as reported).",
+        "source": "fp-hagan-fees",
+        "when": "2017"
+       }
+      ],
+      "checked": [
+       {
+        "text": "No Abstain votes recorded for Hagan in the 2018 to 2026 Clerk vote comparisons.",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       }
+      ]
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -7191,6 +8136,81 @@
      "finance": {
       "voterfocusId": "2621",
       "status": "Active- Qualified"
+     },
+     "dig": {
+      "promises": [
+       {
+        "text": "2026 campaign: County page says she plans to lead the county in building an African American Arts and Cultural Center on N. Rome Avenue.",
+        "source": "hc-myers",
+        "when": "2026"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2020 Democratic primary, Hillsborough County Commission District 3: Won. Thomas Scott 25.7%, Sky White 21.4%, Ricardo Fernandez 13.8%, Frank Reddick 12.6%.",
+        "source": "bp-myers",
+        "when": "2020"
+       },
+       {
+        "text": "2020 general, Hillsborough County Commission District 3: Won. Maura Cruz Lanz (R) 27.7% (33,832).",
+        "source": "bp-myers",
+        "when": "2020"
+       },
+       {
+        "text": "2022 general, Hillsborough County Commission District 3: Won without appearing on the ballot",
+        "source": "bp-myers",
+        "when": "2022"
+       },
+       {
+        "text": "2026 Democratic primary, Hillsborough County Commission District 3: Won. Twanda E. Bradley 30.52% (6,470). Faces Luiz Garcia (R) on Nov 3.",
+        "source": "soe-2026p",
+        "when": "2026"
+       }
+      ],
+      "keyPositions": [
+       {
+        "text": "Apr 20, 2022: Voted yes on placing the 1 percent transportation surtax on the Nov 2022 ballot (RCS 3284).",
+        "source": "clerk-votes-2022",
+        "when": "2022"
+       },
+       {
+        "text": "Apr 17, 2024: Voted no on setting Nov 5, 2024 as the CIT renewal referendum date (RCS 4288, Apr 3, 2024), then yes on the referendum ordinance two weeks later (RCS 4308, Apr 17, 2024).",
+        "source": "clerk-votes-2024",
+        "when": "2024"
+       },
+       {
+        "text": "Jul 17, 2024: Voted yes on the School Board's 2024 operating-tax referendum (RCS 4437; failed 3 to 4).",
+        "source": "clerk-votes-2024",
+        "when": "2024"
+       },
+       {
+        "text": "Aug 28, 2026: Voted yes on the Rays memorandum (RCS 5486) and final Rays agreements (RCS 5622).",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "Sep 16, 2026: Voted no on approving the finalized ZooTampa partnership (RCS 5654).",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "Sep 24, 2026: Roll-call tally (Yes/No/not voting): 2023 482/22/8; 2024 405/31/10; 2025 498/14/33; 2026 through Sep 24: 377/5/25.",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       }
+      ],
+      "checked": [
+       {
+        "text": "No Abstain votes recorded in the 2023 to 2026 Clerk vote comparisons (one 2026 Abstain is on an item marked VOID, RCS 5349).",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+        "source": "coe-orders",
+        "when": "2026"
+       }
+      ]
      },
      "facts": {
       "party": {
@@ -7417,6 +8437,76 @@
      "district": "4",
      "seatType": "Single-member",
      "status": "incumbent",
+     "dig": {
+      "electionHistory": [
+       {
+        "text": "2024 appointment, Hillsborough County Commission District 4: Appointed by the governor. Ballotpedia appointment date. The seed's county press release (hc-miller-sworn, not reopened here) gives Jun 26, 2024.",
+        "source": "bp-miller",
+        "when": "2024"
+       },
+       {
+        "text": "2024 Republican primary, Hillsborough County Commission District 4: Won. Cody Powell 31.3% (8,787).",
+        "source": "bp-miller",
+        "when": "2024"
+       },
+       {
+        "text": "2024 general, Hillsborough County Commission District 4: Won. Nicole Payne (D) 36.4% (72,455); Matt The Welder (NPA) 5.4% (10,830). Term ends 2028.",
+        "source": "bp-miller",
+        "when": "2024"
+       }
+      ],
+      "keyPositions": [
+       {
+        "text": "Sep 28, 2026: County page credits her with establishing the county's first citizen-led DOGE committee and a stormwater task force for Baker Creek, Pemberton Creek, Lake Thonotosassa and Shangri-La in Seffner.",
+        "source": "hc-miller",
+        "when": "2026"
+       },
+       {
+        "text": "Sep 19, 2024: Voted no on adopting FY2025 millage (RCS 4578) and budget (RCS 4579).",
+        "source": "clerk-votes-2024",
+        "when": "2024"
+       },
+       {
+        "text": "Jul 17, 2024: Voted no on the School Board's 2024 operating-tax referendum (RCS 4437).",
+        "source": "clerk-votes-2024",
+        "when": "2024"
+       },
+       {
+        "text": "Sep 24, 2026: Voted yes to adopt FY2026 millage and budget (RCS 5124, 5125) and FY2027 millage (RCS 5671).",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "Aug 28, 2026: Voted yes on the Rays memorandum (RCS 5486) and final Rays agreements (RCS 5622).",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "Sep 16, 2026: Voted yes on approving the finalized ZooTampa partnership (RCS 5654).",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "Sep 24, 2026: Roll-call tally (Yes/No/not voting): 2024 (from July) 177/11/5; 2025 520/8/16; 2026 through Sep 24: 366/17/25.",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       }
+      ],
+      "conflicts": [
+       {
+        "text": "Recorded as Abstain on an agreement with the Greater Plant City Chamber of Commerce, Inc. for up to $11,000 (RCS 4714). Her county page says she was previously President and CEO of the Plant City Chamber of Commerce.",
+        "source": "clerk-votes-2025",
+        "when": "2025"
+       }
+      ],
+      "checked": [
+       {
+        "text": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+        "source": "coe-orders",
+        "when": "2026"
+       }
+      ]
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -7583,6 +8673,98 @@
      "finance": {
       "voterfocusId": "2611",
       "status": "Active- Defeated"
+     },
+     "dig": {
+      "promises": [
+       {
+        "text": "2022 campaign: Ran as a self-described pro-life candidate who wanted to protect U.S. borders from illegal immigration; her website said she would stop the \"transgenderism agenda\" in public schools (as reported).",
+        "source": "yahoo-2022",
+        "when": "2022"
+       },
+       {
+        "text": "2026 campaign site priorities: roads, infrastructure and transportation; veterans services and housing; anti-human trafficking advocacy; fiscal responsibility and taxpayer accountability.",
+        "source": "bp-cepeda",
+        "when": "2026"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2022 general, Hillsborough County Commission District 5 (countywide): Won. Defeated incumbent Mariella Smith (D) 47.3% (222,689). Primaries canceled.",
+        "source": "bp-cepeda",
+        "when": "2022"
+       },
+       {
+        "text": "2026 Republican primary, Hillsborough County Commission District 5 (countywide): Lost. Stacy Hahn 54.90% (47,146).",
+        "source": "soe-2026p",
+        "when": "2026"
+       }
+      ],
+      "keyPositions": [
+       {
+        "text": "Aug 28, 2026: Voted no on the Rays memorandum (RCS 5486) and the final Rays agreements (RCS 5622).",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "Sep 24, 2026: Only no vote on adopting FY2027 millage rates (RCS 5671).",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "Sep 19, 2024: Voted no on adopting FY2025 millage (RCS 4578); yes on FY2026 millage and budget (RCS 5124, 5125).",
+        "source": "clerk-votes-2024",
+        "when": "2024"
+       },
+       {
+        "text": "Apr 17, 2024: Voted yes on the CIT renewal referendum ordinance (RCS 4308).",
+        "source": "clerk-votes-2024",
+        "when": "2024"
+       },
+       {
+        "text": "Jul 17, 2024: Voted no on the School Board's 2024 operating-tax referendum (RCS 4437).",
+        "source": "clerk-votes-2024",
+        "when": "2024"
+       },
+       {
+        "text": "Feb 15, 2023: Voted no on the plan for spending $569,782,845 collected under the 2018 transportation surtax (RCS 3721).",
+        "source": "clerk-votes-2023",
+        "when": "2023"
+       },
+       {
+        "text": "Oct 23, 2024: Only no vote on a $50,000 county sponsorship of the 2025 Tampa Bay Caribbean Carnival (RCS 4604).",
+        "source": "clerk-votes-2024",
+        "when": "2024"
+       },
+       {
+        "text": "Jun 12, 2025: Only no vote on an Urban Service Area expansion of 31.83 acres at 1620 South Dover Road (RCS 4955).",
+        "source": "clerk-votes-2025",
+        "when": "2025"
+       },
+       {
+        "text": "Sep 16, 2026: Voted yes on approving the finalized ZooTampa partnership (RCS 5654).",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "Sep 24, 2026: Roll-call tally (Yes/No/not voting): 2023 461/41/9; 2024 411/31/4; 2025 482/24/39; 2026 through Sep 24: 345/24/39.",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       }
+      ],
+      "conflicts": [
+       {
+        "text": "Recorded as Abstain on item a.7 of the 2023 Pollution Recovery Fund grant applications (RCS 4068). The PDF does not state a reason.",
+        "source": "clerk-votes-2023",
+        "when": "2023"
+       }
+      ],
+      "checked": [
+       {
+        "text": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+        "source": "coe-orders",
+        "when": "2026"
+       }
+      ]
      },
      "facts": {
       "party": {
@@ -7762,6 +8944,59 @@
      "district": "6",
      "seatType": "At-large",
      "status": "incumbent",
+     "dig": {
+      "electionHistory": [
+       {
+        "text": "2024 Republican primary, Hillsborough County Commission District 6 (countywide): Won. Jim Davison 41.0% (27,207).",
+        "source": "bp-boles",
+        "when": "2024"
+       },
+       {
+        "text": "2024 general, Hillsborough County Commission District 6 (countywide): Won. Sean Shaw (D) 47.9% (307,112). Term ends 2028.",
+        "source": "bp-boles",
+        "when": "2024"
+       }
+      ],
+      "keyPositions": [
+       {
+        "text": "Jan 28, 2026: County page features his \"Budgeting with Purpose: Nonprofit Policy Changes Proposal\" for county nonprofit funding, with a 2026 budget workshop.",
+        "source": "hc-boles",
+        "when": "2026"
+       },
+       {
+        "text": "Aug 28, 2026: Voted yes on the Rays memorandum (RCS 5486) and final Rays agreements (RCS 5622).",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "Sep 16, 2026: Voted yes on approving the finalized ZooTampa partnership (RCS 5654).",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "Sep 24, 2026: Voted yes on FY2026 millage and budget (RCS 5124, 5125) and FY2027 millage (RCS 5671).",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "Sep 24, 2026: Roll-call tally (Yes/No/not voting): 2025 537/7/1; 2026 through Sep 24: 380/9/19.",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       }
+      ],
+      "checked": [
+       {
+        "text": "No Abstain votes recorded in the 2025 and 2026 Clerk vote comparisons.",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+        "source": "coe-orders",
+        "when": "2026"
+       }
+      ]
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -7930,6 +9165,98 @@
      "finance": {
       "voterfocusId": "2620",
       "status": "Active- Qualified"
+     },
+     "dig": {
+      "promises": [
+       {
+        "text": "2022 campaign: Campaign platform included opposition to the proposed transportation sales tax referendum.",
+        "source": "tbt-2022",
+        "when": "2022"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2022 Republican primary, Hillsborough County Commission District 7 (countywide): Won. Chase Harrison 49.4% (41,999).",
+        "source": "bp-wostal",
+        "when": "2022"
+       },
+       {
+        "text": "2022 general, Hillsborough County Commission District 7 (countywide): Won. Defeated incumbent Kimberly Overman (D) 47.6% (224,530).",
+        "source": "bp-wostal",
+        "when": "2022"
+       },
+       {
+        "text": "2026 Republican primary, Hillsborough County Commission District 7 (countywide): Canceled; advanced without appearing on ballot. Faces Aileen Rodriguez (D) on Nov 3.",
+        "source": "bp-wostal",
+        "when": "2026"
+       }
+      ],
+      "keyPositions": [
+       {
+        "text": "Aug 28, 2026: Voted no on the Rays memorandum (RCS 5486) and the final Rays agreements (RCS 5622).",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "Aug 28, 2026: On the Rays deal he said the money was \"dedicated and promised and marketed to the community in 2024.\"",
+        "source": "wusf-rays-aug",
+        "when": "2026"
+       },
+       {
+        "text": "Sep 10, 2026: Only no vote on the tentative FY2027 millage resolution (RCS 5641); recorded as not voting on final FY2027 millage (RCS 5671).",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "Sep 19, 2024: Voted no on adopting FY2025 millage (RCS 4578) and budget (RCS 4579); yes on FY2026 millage and budget (RCS 5124, 5125).",
+        "source": "clerk-votes-2024",
+        "when": "2024"
+       },
+       {
+        "text": "Apr 17, 2024: Voted yes on the CIT renewal referendum ordinance (RCS 4308).",
+        "source": "clerk-votes-2024",
+        "when": "2024"
+       },
+       {
+        "text": "Jul 17, 2024: Voted no on the School Board's 2024 operating-tax referendum (RCS 4437).",
+        "source": "clerk-votes-2024",
+        "when": "2024"
+       },
+       {
+        "text": "Apr 1, 2026: Only no vote on asking the County Attorney to review the CIT renewal ballot language (RCS 5395).",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "Sep 16, 2026: Voted yes on approving the finalized ZooTampa partnership (RCS 5654).",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       },
+       {
+        "text": "Aug 7, 2026: Survey says he stopped $235 million in funding to non-government entities and redirected $200,000 from excess election spending to East Tampa road repairs (not checked against records).",
+        "source": "bp-wostal",
+        "when": "2026"
+       },
+       {
+        "text": "Sep 24, 2026: Roll-call tally (Yes/No/not voting/abstain): 2023 449/45/17/1; 2024 402/38/6/0; 2025 507/22/16/0; 2026 through Sep 24: 375/18/15/0.",
+        "source": "clerk-votes-2026",
+        "when": "2026"
+       }
+      ],
+      "conflicts": [
+       {
+        "text": "Recorded as Abstain on the Transportation Plan for $569,782,845 collected under the 2018 transportation surtax (RCS 3721). The PDF does not state a reason.",
+        "source": "clerk-votes-2023",
+        "when": "2023"
+       }
+      ],
+      "checked": [
+       {
+        "text": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+        "source": "coe-orders",
+        "when": "2026"
+       }
+      ]
      },
      "facts": {
       "party": {
@@ -8157,6 +9484,106 @@
       "voterfocusId": "2880",
       "status": "Active- Qualified"
      },
+     "dig": {
+      "promises": [
+       {
+        "text": "2026 campaign: Focus on accelerating transportation improvements, reducing congestion and improving traffic flow.",
+        "source": "bp-toledo",
+        "when": "2026"
+       },
+       {
+        "text": "2026 campaign: Infrastructure should come before unchecked development; work to develop affordable housing options with transportation coordination in the urban core.",
+        "source": "bp-toledo",
+        "when": "2026"
+       },
+       {
+        "text": "2026 campaign: Strongly support law enforcement, firefighters and emergency responders.",
+        "source": "bp-toledo",
+        "when": "2026"
+       },
+       {
+        "text": "2026 campaign: Ensure transparency and accountability, discipline in government spending, eliminate waste and prioritize core services.",
+        "source": "bp-toledo",
+        "when": "2026"
+       },
+       {
+        "text": "2026 campaign: Prioritize infrastructure resilience, stormwater improvements, flood mitigation and emergency preparedness.",
+        "source": "bp-toledo",
+        "when": "2026"
+       },
+       {
+        "text": "2022 congressional platform (FL-15): \"Finish the wall\"; \"Outlaw sanctuary cities\"; \"Eliminate the federal department of education and return control to the states\"; \"Prosecute voter fraud\"; \"Build on the success of the Trump tax cuts\".",
+        "source": "bp-toledo",
+        "when": "2022"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2015 general, Tampa City Council District 6: Advanced to runoff (first place). Guido Maniscalco 29.1%; Thomas Clark Castellano 24.9%.",
+        "source": "bp-toledo",
+        "when": "2015"
+       },
+       {
+        "text": "2015 runoff, Tampa City Council District 6: Lost. Guido Maniscalco 51% (3,731).",
+        "source": "bp-toledo",
+        "when": "2015"
+       },
+       {
+        "text": "2016 Republican primary, Florida House District 60: Won. Rebecca Smith 49.01% (6,145).",
+        "source": "bp-toledo",
+        "when": "2016"
+       },
+       {
+        "text": "2016 general, Florida House District 60: Won. David Singer (D) 42.87% (37,855).",
+        "source": "bp-toledo",
+        "when": "2016"
+       },
+       {
+        "text": "2018 general, Florida House District 60: Won. Debra Bellanti (D) 47.7% (38,299). Unopposed in primary.",
+        "source": "bp-toledo",
+        "when": "2018"
+       },
+       {
+        "text": "2020 general, Florida House District 60: Won. Julie Jenkins (D) 45.7% (48,352).",
+        "source": "bp-toledo",
+        "when": "2020"
+       },
+       {
+        "text": "2022 Republican primary, U.S. House Florida District 15: Lost (third place). Laurel Lee 41.5%; Kelli Stargel 27.8%. Ballotpedia also lists her as withdrawn from the 2022 House District 60 primary.",
+        "source": "bp-toledo",
+        "when": "2022"
+       },
+       {
+        "text": "2026 Republican primary, Hillsborough County Commission District 1: Canceled; advanced without appearing on ballot. Faces incumbent Harry Cohen (D) on Nov 3.",
+        "source": "bp-toledo",
+        "when": "2026"
+       }
+      ],
+      "keyPositions": [
+       {
+        "text": "2020: Served as vice chair of the House Rules & Ethics Committee.",
+        "source": "bp-toledo",
+        "when": "2020"
+       }
+      ],
+      "conflicts": [
+       {
+        "text": "Ethics complaint 20-206 resolved by stipulation (final order 21-027) on Article II, Section 8 and section 112.3144 (financial disclosure).",
+        "source": "coe-2021q4",
+        "when": "2021"
+       },
+       {
+        "text": "Florida Politics reports the investigation confirmed her 2017 Form 6 omitted profits from the sale of a Tampa home and her 2018 form referred to an asset list that was not attached; a third allegation was dropped and her 2019 form was found accurate. She later filed amended 2017 and 2018 forms. The complaint was filed Oct 5, 2020 by attorney Max Solomon.",
+        "source": "fp-toledo-ethics",
+        "when": "2021"
+       },
+       {
+        "text": "Toledo said the mistakes were inadvertent and caused in part by financial fallout from her divorce (as reported by the Tampa Bay Times).",
+        "source": "tbt-toledo-ethics",
+        "when": "2021"
+       }
+      ]
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -8335,6 +9762,49 @@
       "voterfocusId": "2646",
       "status": "Active- Qualified"
      },
+     "dig": {
+      "promises": [
+       {
+        "text": "2026 campaign: \"Structured, intentional development that improves infrastructure before new projects break ground\", including holding builders accountable.",
+        "source": "bp-garcia",
+        "when": "2026"
+       },
+       {
+        "text": "2026 campaign: Protect historic districts like Ybor City while revitalizing them.",
+        "source": "bp-garcia",
+        "when": "2026"
+       },
+       {
+        "text": "2026 campaign: Improve response times and make sure deputies, firefighters and first responders have the tools, training and resources they need.",
+        "source": "bp-garcia",
+        "when": "2026"
+       },
+       {
+        "text": "2026 campaign: Cut red tape and permitting delays and modernize county operations.",
+        "source": "bp-garcia",
+        "when": "2026"
+       },
+       {
+        "text": "2026 campaign: \"Bring full transparency to the county's budgeting, permitting, and development processes\" and push for performance-based evaluations in county departments.",
+        "source": "bp-garcia",
+        "when": "2026"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2026 Republican primary, Hillsborough County Commission District 3: Canceled; advanced without appearing on ballot. Faces incumbent Gwen Myers (D) on Nov 3.",
+        "source": "bp-garcia",
+        "when": "2026"
+       }
+      ],
+      "checked": [
+       {
+        "text": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+        "source": "coe-orders",
+        "when": "2026"
+       }
+      ]
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -8493,6 +9963,51 @@
      "finance": {
       "voterfocusId": "2661",
       "status": "Active- Qualified"
+     },
+     "dig": {
+      "promises": [
+       {
+        "text": "2022 campaign: School Board key messages: fiscal responsibility so students and teachers come first; multiple pathways to graduation aligned to college and career; improving student achievement with resources for educators and parent involvement.",
+        "source": "bp-hahn",
+        "when": "2022"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2014 nonpartisan primary, Hillsborough County School Board District 6 (countywide): Lost (third place, did not advance). April Griffin 27%; Dipa Shah 16.4% advanced.",
+        "source": "bp-hahn",
+        "when": "2014"
+       },
+       {
+        "text": "2018 nonpartisan primary, Hillsborough County School Board District 2: Won outright. Incumbent Sally Harris 32.8% (16,305); Rod Mayhew 13.3% (6,622).",
+        "source": "bp-hahn",
+        "when": "2018"
+       },
+       {
+        "text": "2022 nonpartisan primary, Hillsborough County School Board District 2: Won outright. Damaris Allen 36.3% (18,062).",
+        "source": "bp-hahn",
+        "when": "2022"
+       },
+       {
+        "text": "2026 Republican primary, Hillsborough County Commission District 5 (countywide): Won. Defeated incumbent Donna Cameron Cepeda 45.10% (38,731). Faces Neil Manimala (D) on Nov 3.",
+        "source": "soe-2026p",
+        "when": "2026"
+       }
+      ],
+      "keyPositions": [
+       {
+        "text": "2026: Endorsed by the Tampa Bay Times editorial board for County Commission in 2026.",
+        "source": "bp-hahn",
+        "when": "2026"
+       }
+      ],
+      "checked": [
+       {
+        "text": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+        "source": "coe-orders",
+        "when": "2026"
+       }
+      ]
      },
      "facts": {
       "party": {
@@ -8658,6 +10173,34 @@
      "finance": {
       "voterfocusId": "2636",
       "status": "Active- Qualified"
+     },
+     "dig": {
+      "promises": [
+       {
+        "text": "2026 campaign: Clear, accessible budgets and public input before major spending decisions.",
+        "source": "bp-manimala",
+        "when": "2026"
+       },
+       {
+        "text": "2026 campaign: Campaign site priorities: workforce development and affordable housing; fully resource law enforcement and fire rescue, youth diversion and mental health crisis teams; bus lanes and service expansion; stormwater drainage and anti-sprawl planning; protect the Hillsborough County Health Care Plan; open meetings.",
+        "source": "bp-manimala",
+        "when": "2026"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2026 Democratic primary, Hillsborough County Commission District 5 (countywide): Canceled; advanced without appearing on ballot. Faces Stacy Hahn (R) on Nov 3.",
+        "source": "bp-manimala",
+        "when": "2026"
+       }
+      ],
+      "checked": [
+       {
+        "text": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+        "source": "coe-orders",
+        "when": "2026"
+       }
+      ]
      },
      "facts": {
       "party": {
@@ -8852,6 +10395,34 @@
       "voterfocusId": "2660",
       "status": "Active- Qualified"
      },
+     "dig": {
+      "promises": [
+       {
+        "text": "2026 campaign: Tackle housing and transportation costs so teachers, first responders and young families are not priced out.",
+        "source": "bp-rodriguez",
+        "when": "2026"
+       },
+       {
+        "text": "2026 campaign: Support funding the fire and police stations a growing population needs.",
+        "source": "bp-rodriguez",
+        "when": "2026"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2026 Democratic primary, Hillsborough County Commission District 7 (countywide): Won. Cindy Stuart 37.64% (31,569). Faces incumbent Joshua Wostal (R) on Nov 3.",
+        "source": "soe-2026p",
+        "when": "2026"
+       }
+      ],
+      "checked": [
+       {
+        "text": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+        "source": "coe-orders",
+        "when": "2026"
+       }
+      ]
+     },
      "facts": {
       "party": {
        "value": "Democrat",
@@ -9045,6 +10616,41 @@
       "voterfocusId": "2677",
       "status": "Active- Runoff"
      },
+     "dig": {
+      "promises": [
+       {
+        "text": "2026 campaign: \"We must strengthen reading and math instruction, use tax dollars transparently, and put classrooms first.\"",
+        "source": "wusf-sb",
+        "when": "2026"
+       },
+       {
+        "text": "2026 campaign: \"I would support consistent student discipline, teacher support and retention and strong parental involvement.\"",
+        "source": "wusf-sb",
+        "when": "2026"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2026 nonpartisan primary, Hillsborough County School Board District 2: Advanced to Nov 3 runoff (second place). Daniela Simic 38.73% (17,481); Chris Taylor 24.43% (11,026).",
+        "source": "soe-2026p",
+        "when": "2026"
+       }
+      ],
+      "keyPositions": [
+       {
+        "text": "Jun 12, 2026: Served on the City of Tampa Citizens Advisory Budget and Finance Committee.",
+        "source": "tbt-sb-june",
+        "when": "2026"
+       }
+      ],
+      "checked": [
+       {
+        "text": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+        "source": "coe-orders",
+        "when": "2026"
+       }
+      ]
+     },
      "facts": {
       "party": {
        "value": null,
@@ -9205,6 +10811,41 @@
       "voterfocusId": "2675",
       "status": "Active- Runoff"
      },
+     "dig": {
+      "promises": [
+       {
+        "text": "2026 campaign: Strong reading foundation, multiple pathways including career and technical education, and services for students with disabilities.",
+        "source": "bp-simic",
+        "when": "2026"
+       },
+       {
+        "text": "2026 campaign: Proposed protecting teacher planning hours and building a public-facing dashboard to improve communication.",
+        "source": "wusf-sb",
+        "when": "2026"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2026 nonpartisan primary, Hillsborough County School Board District 2: Advanced to Nov 3 runoff (first place). Brittany Lyssy 36.84% (16,625); Chris Taylor 24.43%.",
+        "source": "soe-2026p",
+        "when": "2026"
+       }
+      ],
+      "keyPositions": [
+       {
+        "text": "Jun 12, 2026: Described as a former assistant superintendent for curriculum in the district.",
+        "source": "tbt-sb-june",
+        "when": "2026"
+       }
+      ],
+      "checked": [
+       {
+        "text": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+        "source": "coe-orders",
+        "when": "2026"
+       }
+      ]
+     },
      "facts": {
       "party": {
        "value": null,
@@ -9361,6 +11002,39 @@
      "finance": {
       "voterfocusId": "2672",
       "status": "Active- Unopposed"
+     },
+     "dig": {
+      "electionHistory": [
+       {
+        "text": "2022 nonpartisan primary, Hillsborough County School Board District 4: Won outright. Hunter Gambrell 28.4% (15,442); Danielle Smalley 18.5% (10,033). Open seat (Melissa Snively).",
+        "source": "bp-rendon",
+        "when": "2022"
+       },
+       {
+        "text": "2026 qualifying, Hillsborough County School Board District 4: Re-elected without appearing on the ballot (only qualified candidate). Also reported by tbt-sb-june (Jun 12, 2026) and wusf-sb.",
+        "source": "bp-rendon",
+        "when": "2026"
+       }
+      ],
+      "keyPositions": [
+       {
+        "text": "Jul 27, 2026: Endorsed Brittany Lyssy in the 2026 District 2 School Board race.",
+        "source": "wusf-sb",
+        "when": "2026"
+       },
+       {
+        "text": "Jun 12, 2026: Endorsed by the Hillsborough Classroom Teachers Association in 2026.",
+        "source": "tbt-sb-june",
+        "when": "2026"
+       }
+      ],
+      "checked": [
+       {
+        "text": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+        "source": "coe-orders",
+        "when": "2026"
+       }
+      ]
      },
      "facts": {
       "party": {
@@ -9523,6 +11197,51 @@
      "finance": {
       "voterfocusId": "2645",
       "status": "Active- Runoff"
+     },
+     "dig": {
+      "promises": [
+       {
+        "text": "2026 campaign: Said she, other board members and the superintendent are discussing plans to minimize computer use in classrooms.",
+        "source": "wusf-sb",
+        "when": "2026"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2018 nonpartisan primary, Hillsborough County School Board District 6 (countywide): Advanced to runoff (second place). Henry Washington 32.7% (62,962); four others.",
+        "source": "bp-perez",
+        "when": "2018"
+       },
+       {
+        "text": "2018 general (runoff), Hillsborough County School Board District 6 (countywide): Won. Henry Washington 45.8% (197,859).",
+        "source": "bp-perez",
+        "when": "2018"
+       },
+       {
+        "text": "2022 nonpartisan primary, Hillsborough County School Board District 6 (countywide): Won outright. Alysha Legge 37.5% (80,239); Roshaun Gendrett 11.7% (25,134).",
+        "source": "bp-perez",
+        "when": "2022"
+       },
+       {
+        "text": "2026 nonpartisan primary, Hillsborough County School Board District 6 (countywide): Advanced to Nov 3 runoff (first place). Kenneth Gay 27.23% (52,808); Sally Harris Williamson 24.50% (47,517).",
+        "source": "soe-2026p",
+        "when": "2026"
+       }
+      ],
+      "keyPositions": [
+       {
+        "text": "Jun 12, 2026: Endorsed by the Florida Education Association and the Hillsborough Classroom Teachers Association in 2026.",
+        "source": "tbt-sb-june",
+        "when": "2026"
+       }
+      ],
+      "checked": [
+       {
+        "text": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+        "source": "coe-orders",
+        "when": "2026"
+       }
+      ]
      },
      "facts": {
       "party": {
@@ -9715,6 +11434,39 @@
      "finance": {
       "voterfocusId": "2610",
       "status": "Active- Runoff"
+     },
+     "dig": {
+      "promises": [
+       {
+        "text": "2026 campaign: \"Rather than funding new programs, fund the basics.\"",
+        "source": "wusf-sb",
+        "when": "2026"
+       },
+       {
+        "text": "2026 campaign: Use AI tools to take compliance paperwork off teachers and build consistency in how student behavior is handled.",
+        "source": "wusf-sb",
+        "when": "2026"
+       }
+      ],
+      "electionHistory": [
+       {
+        "text": "2024 nonpartisan primary, Hillsborough County School Board District 5: Lost (second place). Incumbent Henry Washington won outright with 60.6%.",
+        "source": "bp-gay",
+        "when": "2024"
+       },
+       {
+        "text": "2026 nonpartisan primary, Hillsborough County School Board District 6 (countywide): Advanced to Nov 3 runoff (second place). Karen Perez 48.27%; Sally Harris Williamson 24.50%.",
+        "source": "soe-2026p",
+        "when": "2026"
+       }
+      ],
+      "checked": [
+       {
+        "text": "No entry found for this name in the Commission on Ethics listings of unpublished final orders, 2005 to first quarter 2026 (all 85 quarterly listings searched Oct 27, 2026).",
+        "source": "coe-orders",
+        "when": "2026"
+       }
+      ]
      },
      "facts": {
       "party": {
@@ -15591,6 +17343,11 @@
         "when": "2019"
        },
        {
+        "text": "Sep 10, 2019: Second Amendment support letter and resolution. Proposed. Asked the board to send a letter to Gov. DeSantis affirming support for the Second Amendment: \"It doesn't change policy ... but it does send a message to Tallahassee.\" In December 2019 the Tampa Bay Times reported he spearheaded the resolution declaring the county a \"Second Amendment sanctuary\" (vote count not readable).",
+        "source": "sun-2019-2a",
+        "when": "2019"
+       },
+       {
         "text": "Mar 7, 2023: Impact fee increases (workshop). Opposed any increase. Said: \"Growth is not guaranteed, and it's not happening right now.\"",
         "source": "sun-2023-impact",
         "when": "2023"
@@ -15966,6 +17723,21 @@
         "text": "2018 general, County Commission District 4: Won with 61.9% (48,864 votes). Others: Nancy Makar (DEM) 38.1%",
         "source": "soe-2018g",
         "when": "2018"
+       },
+       {
+        "text": "2022 Republican primary, Florida House District 53: Won with 82.9% (15,752 votes). Others: Anthony Kocovic (REP) 17.1%. District-wide. Hernando portion: 12,630 to 2,586.",
+        "source": "bp-holcomb",
+        "when": "2022"
+       },
+       {
+        "text": "2022 general, Florida House District 53: Won with 70.1% (50,650 votes). Others: Keith Laufenberg (DEM) 29.9%. District-wide. Hernando portion: 40,049 to 17,973.",
+        "source": "bp-holcomb",
+        "when": "2022"
+       },
+       {
+        "text": "2024 general, Florida House District 53: Won with 69.0% (66,146 votes). Others: Keith Laufenberg (DEM) 31.0%. District-wide; primaries canceled. Hernando portion: 53,132 to 25,058.",
+        "source": "bp-holcomb",
+        "when": "2024"
        },
        {
         "text": "2026 Republican primary, County Commission District 4: Won with 56.0% (13,141 votes). Others: Marvin Baynham (REP) 38.8%. Moved from the State House race to this seat in June 2026. Faces write-in Donald Bigelow on Nov 3.",
@@ -17061,6 +18833,16 @@
        }
       ],
       "electionHistory": [
+       {
+        "text": "2014 primary, School Board District 5: Advanced to runoff with 37.1% (6,945 votes). Others: Robert Neuhausen 30.3%; Cynthia Moore (incumbent) 20.5%; Anna Liisa Covell 12.2%",
+        "source": "bp-duval",
+        "when": "2014"
+       },
+       {
+        "text": "2014 runoff (general election), School Board District 5: Won with 62.0% (34,863 votes). Others: Robert Neuhausen 38.0%",
+        "source": "bp-duval",
+        "when": "2014"
+       },
        {
         "text": "2018 primary, School Board District 5: Re-elected. Others: Joseph Santerelli. Vote totals not found in any source that could be opened.",
         "source": "fsba-2018",

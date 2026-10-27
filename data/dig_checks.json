@@ -2190,5 +2190,1665 @@
   "verdict": "fix",
   "evidence": "Official Aug 18 2026 summary prints Birren 10,334 27.32%; Glenn 8,668 22.92%; Greenwell 5,103 13.49%; Dukes 4,792 12.67%; Scavetta 4,483 11.85% (percent of ballots cast). Votes match; item percentages are recomputed shares. 'Seat not on the Nov 3 ballot' not stated on this page.",
   "fix": "{\"issue\": null, \"position\": null, \"detail\": null, \"votes\": 10334, \"pct\": 27.32, \"opponents\": [{\"name\": \"Maxwell Joseph Glenn\", \"votes\": 8668, \"pct\": 22.92}, {\"name\": \"Diane M. Greenwell\", \"votes\": 5103, \"pct\": 13.49}, {\"name\": \"Silvia Dukes\", \"votes\": 4792, \"pct\": 12.67}, {\"name\": \"James Scavetta\", \"votes\": 4483, \"pct\": 11.85}], \"result\": \"Won (elected; seat not on the Nov 3 ballot)\"}"
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "promises",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "votekenhagan.com not on fetch allowlist."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "promises",
+  "index": 1,
+  "verdict": "unreachable",
+  "evidence": "votekenhagan.com not on fetch allowlist."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "promises",
+  "index": 2,
+  "verdict": "unreachable",
+  "evidence": "votekenhagan.com not on fetch allowlist."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "promises",
+  "index": 3,
+  "verdict": "unreachable",
+  "evidence": "votekenhagan.com not on fetch allowlist."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "promises",
+  "index": 4,
+  "verdict": "unreachable",
+  "evidence": "votekenhagan.com not on fetch allowlist."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "promises",
+  "index": 5,
+  "verdict": "ok",
+  "evidence": "Yahoo/TBT: Hagan touted \"opposing a brownfield designation for the former Pebble Creek Country Club\", \"objecting to a zoning change to allow a permanent yard waste incinerator in Lutz\", \"advocating for construction of the New Tampa Performing Arts Center\", \"pushing for additional dollars for residential road paving\"."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "promises",
+  "index": 6,
+  "verdict": "unreachable",
+  "evidence": "Neighborhood News page returned only a redirect placeholder."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "keyPositions",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "RCS 5622 not in the readable part of the Clerk PDF (ends at 5611), so the agreement titles and RCS number are unverified. WUSF does confirm Hagan voted yes and the vote was 5-2."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "keyPositions",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "WUSF: Hagan before the vote: \"To be a world-class community requires vision, courage, bold leadership, and the ability to think big,\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "keyPositions",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "Clerk 2026 PDF RCS 5486 (05/20/2026): \"Approve the non-binding Memorandum of Understanding with the Tampa Bay Rays' entities...\" Hagan Y."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "keyPositions",
+  "index": 3,
+  "verdict": "unreachable",
+  "evidence": "Clerk 2026 PDF text truncated at RCS 5611 (82k chars); the cited RCS numbers (5622+, or FY2026 budget 5124/5125, which are also past the 2025 PDF cutoff at 5051) are not visible."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "keyPositions",
+  "index": 4,
+  "verdict": "unreachable",
+  "evidence": "Clerk 2026 PDF text truncated at RCS 5611 (82k chars); the cited RCS numbers (5622+, or FY2026 budget 5124/5125, which are also past the 2025 PDF cutoff at 5051) are not visible."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "keyPositions",
+  "index": 5,
+  "verdict": "ok",
+  "evidence": "Clerk 2024 PDF RCS 4308 (04/17/2024) \"Consider enacting an ordinance generally providing for the renewal of the levy of, and referendum...\": Hagan N, Kemp N, all others Y."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "keyPositions",
+  "index": 6,
+  "verdict": "ok",
+  "evidence": "Clerk 2024 PDF RCS 4437 (07/17/2024) \"Move for approval for the School Board... calling an election on November 5, 2024\": raw row \"N N Y N Y Y N\" over C. Miller, Cameron Cepeda, Cohen, Hagan, Kemp, Myers, Wostal (Owen no longer seated) = Hagan N; 3 Y, 4 N."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "keyPositions",
+  "index": 7,
+  "verdict": "unreachable",
+  "evidence": "Clerk 2022 PDF returned as binary; could not be read."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "keyPositions",
+  "index": 8,
+  "verdict": "unreachable",
+  "evidence": "Clerk 2022 PDF returned as binary; could not be read."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "keyPositions",
+  "index": 9,
+  "verdict": "ok",
+  "evidence": "Clerk 2025 PDF RCS 4886: \"Proposal to expand the Urban Service Area (USA) boundary to incorporate 295.6 acres, more or less. Motioned to transmit HC/CPA 25-04.\" Hagan is the only N."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "keyPositions",
+  "index": 10,
+  "verdict": "unreachable",
+  "evidence": "Clerk 2025 PDF text truncated at RCS 5051; RCS 5124/5125 not visible."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "keyPositions",
+  "index": 11,
+  "verdict": "unreachable",
+  "evidence": "Glass Ballot roll-call tallies require the full PDFs; fetched text of every Clerk PDF is truncated, so counts cannot be reproduced."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "keyPositions",
+  "index": 12,
+  "verdict": "ok",
+  "evidence": "County page: \"Commissioner Hagan has been Hillsborough County's leading voice for a Tampa Bay Rays ballpark in Ybor City\"; \"is responsible for creating Tampa/Hillsborough's Film Commission.\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "keyPositions",
+  "index": 13,
+  "verdict": "unreachable",
+  "evidence": "votekenhagan.com not on fetch allowlist."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "keyPositions",
+  "index": 14,
+  "verdict": "ok",
+  "evidence": "PolitiFact: \"Studies suggest the 2017 College Football Playoff Championship game will bring about 1,700 to 1,800 full-time jobs.\" Rated Mostly False; statement Dec 16, 2013."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "conflicts",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "ethics.state.fl.us not on fetch allowlist; 2014 Q4 orders PDF not opened."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "conflicts",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "Florida Politics: \"Hagan agreed to pay a $2,000 fine after admitting he violated state ethics laws by failing to properly disclose assets on annual financial disclosure forms.\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "conflicts",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "Tampa Tribune via InsuranceNewsNet, Aug 29, 2014: complaint by George Niemann; \"investment account\" $401,000, \"retirement accounts\" $219,000; Hagan called the complaint a \"laughable\" stunt."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "conflicts",
+  "index": 3,
+  "verdict": "ok",
+  "evidence": "Florida Politics: \"Niemann and three others then filed an ethics complaint\"; \"The Ethics Commission threw out the complaint last year against Hagan\"; \"The Hillsborough County Sheriff's Office investigated the matter in 2016 and concluded there were no criminal violations.\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "conflicts",
+  "index": 4,
+  "verdict": "drop",
+  "evidence": "2018 Q1 orders PDF not on fetch allowlist. Florida Politics (2017) says the Commission gave Hagan \"the opportunity to amend\" his fee petition, and a Nov 24, 2017 Florida Fair Accountability headline reads \"Ken Hagan drop effort recover attorneys fees ethics complaint\". If he withdrew it, \"dismissed\" may need to read \"dismissed after Hagan dropped the request\". Verify against final order 18-014. | Held: not verifiable from an opened source yet."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "electionHistory",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "County page: \"first elected in 2002\"; represents District 2."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "electionHistory",
+  "index": 1,
+  "verdict": "unreachable",
+  "evidence": "votehillsborough.gov older results PDF not on fetch allowlist."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "electionHistory",
+  "index": 2,
+  "verdict": "unreachable",
+  "evidence": "votehillsborough.gov older results PDF not on fetch allowlist."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "electionHistory",
+  "index": 3,
+  "verdict": "fix",
+  "fix": "{\"stage\": \"general\", \"result\": \"Re-elected\", \"votes\": null, \"pct\": null, \"opponents\": null, \"office\": \"Hillsborough County Commission District 5 (countywide)\", \"year\": 2014}",
+  "evidence": "Osprey Observer says only \"Re-elected commissioners Victor D. Crist, District 2, and Ken Hagan, Countywide District 5\". It says nothing about whether a 2014 contest appeared on the ballot."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "electionHistory",
+  "index": 4,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "electionHistory",
+  "index": 5,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "electionHistory",
+  "index": 6,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "electionHistory",
+  "index": 7,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hagan",
+  "kind": "electionHistory",
+  "index": 8,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cohen",
+  "kind": "promises",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "Bay News 9: \"If I'm elected and it's overturned, I absolutely will vote to put it back on the ballot.\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "cohen",
+  "kind": "promises",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "Bay News 9: \"I supported it when it was on the ballot. I support it now,\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "cohen",
+  "kind": "promises",
+  "index": 2,
+  "verdict": "fix",
+  "fix": "Highlighted his Tampa City Council work on stormwater and flooding, a problem in parts of District 1 (reporter's paraphrase).",
+  "evidence": "Bay News 9 says only that Cohen \"talks up his work on the council on storm water and flooding issues,\" tied to South Tampa stormwater problems in District 1. It does not say he pledged to bring that work to the county seat."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cohen",
+  "kind": "keyPositions",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "Clerk 2022 PDF returned as binary; could not be read."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cohen",
+  "kind": "keyPositions",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "Clerk 2024 RCS 4308: Cohen Y."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cohen",
+  "kind": "keyPositions",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "Clerk 2024 RCS 4437: Cohen Y; 3 to 4 (see item 13 mapping)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cohen",
+  "kind": "keyPositions",
+  "index": 3,
+  "verdict": "ok",
+  "evidence": "RCS 5486 confirmed in Clerk 2026 PDF; RCS 5622 falls past the point where the fetched PDF text is truncated (ends at 5611), but WUSF confirms the 5-2 final vote with yes from Hagan, Cohen, Myers, Miller, Boles and no from Cepeda and Wostal. RCS number 5622 itself not seen."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cohen",
+  "kind": "keyPositions",
+  "index": 4,
+  "verdict": "ok",
+  "evidence": "WUSF: Cohen before the vote: \"This is our moment to decide what kind of community we want to be.\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "cohen",
+  "kind": "keyPositions",
+  "index": 5,
+  "verdict": "unreachable",
+  "evidence": "Clerk 2026 PDF text truncated at RCS 5611 (82k chars); the cited RCS numbers (5622+, or FY2026 budget 5124/5125, which are also past the 2025 PDF cutoff at 5051) are not visible."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cohen",
+  "kind": "keyPositions",
+  "index": 6,
+  "verdict": "unreachable",
+  "evidence": "Clerk 2026 PDF text truncated at RCS 5611 (82k chars); the cited RCS numbers (5622+, or FY2026 budget 5124/5125, which are also past the 2025 PDF cutoff at 5051) are not visible."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cohen",
+  "kind": "keyPositions",
+  "index": 7,
+  "verdict": "ok",
+  "evidence": "Bay News 9: \"Cohen defends his 2016 'yes' vote as a member of the Hillsborough Metropolitan Planning Organization\"; \"He says it was 'complicated'\"."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cohen",
+  "kind": "keyPositions",
+  "index": 8,
+  "verdict": "unreachable",
+  "evidence": "Glass Ballot roll-call tallies require the full PDFs; fetched text of every Clerk PDF is truncated, so counts cannot be reproduced."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cohen",
+  "kind": "conflicts",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "Clerk 2023 PDF row: \"3739 E-1 03/07/2023 9:14AM 9 Y A Y Y Y Y Y\", \"PRS 22-1174 Big Bend LA, LLC. Moved for approval.\" Cohen column = A. No reason given."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cohen",
+  "kind": "electionHistory",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "votehillsborough.gov older results PDF not on fetch allowlist."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cohen",
+  "kind": "electionHistory",
+  "index": 1,
+  "verdict": "unreachable",
+  "evidence": "votehillsborough.gov older results PDF not on fetch allowlist."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cohen",
+  "kind": "electionHistory",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: 2015 Cohen 6,999 (71.2%) defeated Kent S. King."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cohen",
+  "kind": "electionHistory",
+  "index": 3,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: 2019 mayor, Cohen third with 5,907 (12.2%)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cohen",
+  "kind": "electionHistory",
+  "index": 4,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: 2020 Dem primary Cohen 13,971 (54.2%)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cohen",
+  "kind": "electionHistory",
+  "index": 5,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: 2020 general Cohen 91,458 (50.7%)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cohen",
+  "kind": "electionHistory",
+  "index": 6,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: 2022 general Cohen 58,749 (50.4%)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cohen",
+  "kind": "electionHistory",
+  "index": 7,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: \"The Democratic primary scheduled for August 18, 2026, was canceled.\" Cohen advanced without appearing on ballot."
+ },
+ {
+  "county": "hillsborough",
+  "person": "myers",
+  "kind": "promises",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "votegwenmyers.com not on fetch allowlist."
+ },
+ {
+  "county": "hillsborough",
+  "person": "myers",
+  "kind": "promises",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "County page: \"She plans to lead the County with the new construction of an African American Art and Cultural Center\"; \"African American Arts and Cultural Center facility on N. Rome Avenue.\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "myers",
+  "kind": "keyPositions",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "Clerk 2022 PDF returned as binary; could not be read."
+ },
+ {
+  "county": "hillsborough",
+  "person": "myers",
+  "kind": "keyPositions",
+  "index": 1,
+  "verdict": "fix",
+  "fix": "Voted no on setting Nov 5, 2024 as the CIT renewal referendum date (RCS 4288, Apr 3, 2024), then yes on the referendum ordinance two weeks later (RCS 4308, Apr 17, 2024).",
+  "evidence": "Clerk 2024: RCS 4288 is 04/03/2024 (Myers N, Hagan N) and RCS 4308 is 04/17/2024 (Myers Y). That is two weeks apart, not one."
+ },
+ {
+  "county": "hillsborough",
+  "person": "myers",
+  "kind": "keyPositions",
+  "index": 2,
+  "verdict": "unreachable",
+  "evidence": "votegwenmyers.com not on fetch allowlist."
+ },
+ {
+  "county": "hillsborough",
+  "person": "myers",
+  "kind": "keyPositions",
+  "index": 3,
+  "verdict": "ok",
+  "evidence": "Clerk 2024 RCS 4437: Myers Y; failed 3 to 4."
+ },
+ {
+  "county": "hillsborough",
+  "person": "myers",
+  "kind": "keyPositions",
+  "index": 4,
+  "verdict": "ok",
+  "evidence": "RCS 5486 confirmed in Clerk 2026 PDF; RCS 5622 falls past the point where the fetched PDF text is truncated (ends at 5611), but WUSF confirms the 5-2 final vote with yes from Hagan, Cohen, Myers, Miller, Boles and no from Cepeda and Wostal. RCS number 5622 itself not seen."
+ },
+ {
+  "county": "hillsborough",
+  "person": "myers",
+  "kind": "keyPositions",
+  "index": 5,
+  "verdict": "unreachable",
+  "evidence": "Clerk 2026 PDF text truncated at RCS 5611 (82k chars); the cited RCS numbers (5622+, or FY2026 budget 5124/5125, which are also past the 2025 PDF cutoff at 5051) are not visible."
+ },
+ {
+  "county": "hillsborough",
+  "person": "myers",
+  "kind": "keyPositions",
+  "index": 6,
+  "verdict": "unreachable",
+  "evidence": "votegwenmyers.com not on fetch allowlist."
+ },
+ {
+  "county": "hillsborough",
+  "person": "myers",
+  "kind": "keyPositions",
+  "index": 7,
+  "verdict": "unreachable",
+  "evidence": "Glass Ballot roll-call tallies require the full PDFs; fetched text of every Clerk PDF is truncated, so counts cannot be reproduced."
+ },
+ {
+  "county": "hillsborough",
+  "person": "myers",
+  "kind": "electionHistory",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: 2020 Dem primary Myers 7,174 (26.5%), first place."
+ },
+ {
+  "county": "hillsborough",
+  "person": "myers",
+  "kind": "electionHistory",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: 2020 general Myers 88,443 (72.3%)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "myers",
+  "kind": "electionHistory",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: \"The general election was canceled. Gwen Myers (D) won without appearing on the ballot.\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "myers",
+  "kind": "electionHistory",
+  "index": 3,
+  "verdict": "ok",
+  "evidence": "SOE Aug 25, 2026 certified summary: \"Gwen Myers 14,729 69.48%\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "miller",
+  "kind": "keyPositions",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "County page: \"Establishing Hillsborough County's first ever DOGE citizen-led committee\"; \"Spearheaded the creation of a stormwater prevention task force that would focus on Baker Creek, Pemberton Creek, Lake Thonotosassa and the Shangri-La neighborhood in Seffner\"."
+ },
+ {
+  "county": "hillsborough",
+  "person": "miller",
+  "kind": "keyPositions",
+  "index": 1,
+  "verdict": "unreachable",
+  "evidence": "Clerk 2024 PDF text truncated at RCS 4508; RCS 4578/4579/4604 not visible. Any 5124/5125 reference is also past the 2025 PDF cutoff (5051)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "miller",
+  "kind": "keyPositions",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "Clerk 2024 RCS 4437: C. Miller N."
+ },
+ {
+  "county": "hillsborough",
+  "person": "miller",
+  "kind": "keyPositions",
+  "index": 3,
+  "verdict": "unreachable",
+  "evidence": "Clerk 2026 PDF text truncated at RCS 5611 (82k chars); the cited RCS numbers (5622+, or FY2026 budget 5124/5125, which are also past the 2025 PDF cutoff at 5051) are not visible."
+ },
+ {
+  "county": "hillsborough",
+  "person": "miller",
+  "kind": "keyPositions",
+  "index": 4,
+  "verdict": "ok",
+  "evidence": "RCS 5486 confirmed in Clerk 2026 PDF; RCS 5622 falls past the point where the fetched PDF text is truncated (ends at 5611), but WUSF confirms the 5-2 final vote with yes from Hagan, Cohen, Myers, Miller, Boles and no from Cepeda and Wostal. RCS number 5622 itself not seen."
+ },
+ {
+  "county": "hillsborough",
+  "person": "miller",
+  "kind": "keyPositions",
+  "index": 5,
+  "verdict": "unreachable",
+  "evidence": "Clerk 2026 PDF text truncated at RCS 5611 (82k chars); the cited RCS numbers (5622+, or FY2026 budget 5124/5125, which are also past the 2025 PDF cutoff at 5051) are not visible."
+ },
+ {
+  "county": "hillsborough",
+  "person": "miller",
+  "kind": "keyPositions",
+  "index": 6,
+  "verdict": "unreachable",
+  "evidence": "Glass Ballot roll-call tallies require the full PDFs; fetched text of every Clerk PDF is truncated, so counts cannot be reproduced."
+ },
+ {
+  "county": "hillsborough",
+  "person": "miller",
+  "kind": "conflicts",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "Clerk 2025 PDF row: \"4714 A-11 01/15/2025 ... Y A Y Y Y Y Y\" (C. Miller = A), \"Approve the Agreement with the Greater Plant City Chamber of Commerce, Inc. for an amount not to exceed\" $11,000. County page: \"Christine served as the President & CEO of the Plant City Chamber of Commerce.\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "miller",
+  "kind": "electionHistory",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "Ballotpedia not reachable, but county page: \"She was appointed to the board in 2024 by Governor Ron DeSantis\"."
+ },
+ {
+  "county": "hillsborough",
+  "person": "miller",
+  "kind": "electionHistory",
+  "index": 1,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "miller",
+  "kind": "electionHistory",
+  "index": 2,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cepeda",
+  "kind": "promises",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "Tampa Bay Times article body paywalled; quote text not visible."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cepeda",
+  "kind": "promises",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "Yahoo/TBT: \"a self-described pro-life candidate who wanted to protect U.S. borders from illegal immigration\"; website said she would stop the \"transgenderism agenda\" in public schools (quote marks are the article's, attributed to her website)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cepeda",
+  "kind": "promises",
+  "index": 2,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cepeda",
+  "kind": "keyPositions",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "RCS 5486 confirmed in Clerk 2026 PDF; RCS 5622 falls past the point where the fetched PDF text is truncated (ends at 5611), but WUSF confirms the 5-2 final vote with yes from Hagan, Cohen, Myers, Miller, Boles and no from Cepeda and Wostal. RCS number 5622 itself not seen."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cepeda",
+  "kind": "keyPositions",
+  "index": 1,
+  "verdict": "unreachable",
+  "evidence": "Clerk 2026 PDF text truncated at RCS 5611 (82k chars); the cited RCS numbers (5622+, or FY2026 budget 5124/5125, which are also past the 2025 PDF cutoff at 5051) are not visible."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cepeda",
+  "kind": "keyPositions",
+  "index": 2,
+  "verdict": "unreachable",
+  "evidence": "Clerk 2024 PDF text truncated at RCS 4508; RCS 4578/4579/4604 not visible. Any 5124/5125 reference is also past the 2025 PDF cutoff (5051)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cepeda",
+  "kind": "keyPositions",
+  "index": 3,
+  "verdict": "ok",
+  "evidence": "Clerk 2024 RCS 4308: Cameron Cepeda Y."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cepeda",
+  "kind": "keyPositions",
+  "index": 4,
+  "verdict": "ok",
+  "evidence": "Clerk 2024 RCS 4437: Cameron Cepeda N."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cepeda",
+  "kind": "keyPositions",
+  "index": 5,
+  "verdict": "ok",
+  "evidence": "Clerk 2023 RCS 3721: Cameron Cepeda N on the $569,782,845 2018 surtax transportation plan."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cepeda",
+  "kind": "keyPositions",
+  "index": 6,
+  "verdict": "unreachable",
+  "evidence": "Clerk 2024 PDF text truncated at RCS 4508; RCS 4578/4579/4604 not visible. Any 5124/5125 reference is also past the 2025 PDF cutoff (5051)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cepeda",
+  "kind": "keyPositions",
+  "index": 7,
+  "verdict": "ok",
+  "evidence": "Clerk 2025 RCS 4955: \"Proposal to expand the Urban Service Area boundary to incorporate 31.83 acres, more or less; Location: 1620 South Dover Road.\" Cameron Cepeda is the only N."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cepeda",
+  "kind": "keyPositions",
+  "index": 8,
+  "verdict": "unreachable",
+  "evidence": "Clerk 2026 PDF text truncated at RCS 5611 (82k chars); the cited RCS numbers (5622+, or FY2026 budget 5124/5125, which are also past the 2025 PDF cutoff at 5051) are not visible."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cepeda",
+  "kind": "keyPositions",
+  "index": 9,
+  "verdict": "unreachable",
+  "evidence": "Glass Ballot roll-call tallies require the full PDFs; fetched text of every Clerk PDF is truncated, so counts cannot be reproduced."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cepeda",
+  "kind": "conflicts",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "Fetched text of the 2023 Clerk PDF ends at RCS 4010 (truncated); RCS 4068 not visible."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cepeda",
+  "kind": "electionHistory",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "cepeda",
+  "kind": "electionHistory",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "SOE Aug 25, 2026 certified summary: \"Donna Cameron Cepeda 38,731 45.10%\" vs Hahn 47,146"
+ },
+ {
+  "county": "hillsborough",
+  "person": "boles",
+  "kind": "promises",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "chrisboles.com not on fetch allowlist."
+ },
+ {
+  "county": "hillsborough",
+  "person": "boles",
+  "kind": "promises",
+  "index": 1,
+  "verdict": "unreachable",
+  "evidence": "chrisboles.com not on fetch allowlist."
+ },
+ {
+  "county": "hillsborough",
+  "person": "boles",
+  "kind": "promises",
+  "index": 2,
+  "verdict": "unreachable",
+  "evidence": "chrisboles.com not on fetch allowlist."
+ },
+ {
+  "county": "hillsborough",
+  "person": "boles",
+  "kind": "keyPositions",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "County page has a \"Budgeting with Purpose: Nonprofit Policy Changes Proposal\" section with a \"2026 Budget Workshop Meeting\" link and nonprofit policy PDFs."
+ },
+ {
+  "county": "hillsborough",
+  "person": "boles",
+  "kind": "keyPositions",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "RCS 5486 confirmed in Clerk 2026 PDF; RCS 5622 falls past the point where the fetched PDF text is truncated (ends at 5611), but WUSF confirms the 5-2 final vote with yes from Hagan, Cohen, Myers, Miller, Boles and no from Cepeda and Wostal. RCS number 5622 itself not seen."
+ },
+ {
+  "county": "hillsborough",
+  "person": "boles",
+  "kind": "keyPositions",
+  "index": 2,
+  "verdict": "unreachable",
+  "evidence": "Clerk 2026 PDF text truncated at RCS 5611 (82k chars); the cited RCS numbers (5622+, or FY2026 budget 5124/5125, which are also past the 2025 PDF cutoff at 5051) are not visible."
+ },
+ {
+  "county": "hillsborough",
+  "person": "boles",
+  "kind": "keyPositions",
+  "index": 3,
+  "verdict": "unreachable",
+  "evidence": "Clerk 2026 PDF text truncated at RCS 5611 (82k chars); the cited RCS numbers (5622+, or FY2026 budget 5124/5125, which are also past the 2025 PDF cutoff at 5051) are not visible."
+ },
+ {
+  "county": "hillsborough",
+  "person": "boles",
+  "kind": "keyPositions",
+  "index": 4,
+  "verdict": "unreachable",
+  "evidence": "Glass Ballot roll-call tallies require the full PDFs; fetched text of every Clerk PDF is truncated, so counts cannot be reproduced."
+ },
+ {
+  "county": "hillsborough",
+  "person": "boles",
+  "kind": "electionHistory",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: 2024 GOP primary Boles 39,193 (59.0%)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "boles",
+  "kind": "electionHistory",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: 2024 general Boles 334,304 (52.1%)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "wostal",
+  "kind": "promises",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "wostal",
+  "kind": "promises",
+  "index": 1,
+  "verdict": "unreachable",
+  "evidence": "Tampa Bay Times article body paywalled; quote text not visible."
+ },
+ {
+  "county": "hillsborough",
+  "person": "wostal",
+  "kind": "promises",
+  "index": 2,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "wostal",
+  "kind": "promises",
+  "index": 3,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "wostal",
+  "kind": "promises",
+  "index": 4,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "wostal",
+  "kind": "keyPositions",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "RCS 5486 confirmed in Clerk 2026 PDF; RCS 5622 falls past the point where the fetched PDF text is truncated (ends at 5611), but WUSF confirms the 5-2 final vote with yes from Hagan, Cohen, Myers, Miller, Boles and no from Cepeda and Wostal. RCS number 5622 itself not seen."
+ },
+ {
+  "county": "hillsborough",
+  "person": "wostal",
+  "kind": "keyPositions",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "WUSF: Wostal: \"This is money that was dedicated and promised and marketed to the community in 2024\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "wostal",
+  "kind": "keyPositions",
+  "index": 2,
+  "verdict": "unreachable",
+  "evidence": "Clerk 2026 PDF text truncated at RCS 5611 (82k chars); the cited RCS numbers (5622+, or FY2026 budget 5124/5125, which are also past the 2025 PDF cutoff at 5051) are not visible."
+ },
+ {
+  "county": "hillsborough",
+  "person": "wostal",
+  "kind": "keyPositions",
+  "index": 3,
+  "verdict": "unreachable",
+  "evidence": "Clerk 2024 PDF text truncated at RCS 4508; RCS 4578/4579/4604 not visible. Any 5124/5125 reference is also past the 2025 PDF cutoff (5051)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "wostal",
+  "kind": "keyPositions",
+  "index": 4,
+  "verdict": "ok",
+  "evidence": "Clerk 2024 RCS 4308: Wostal Y."
+ },
+ {
+  "county": "hillsborough",
+  "person": "wostal",
+  "kind": "keyPositions",
+  "index": 5,
+  "verdict": "ok",
+  "evidence": "Clerk 2024 RCS 4437: Wostal N."
+ },
+ {
+  "county": "hillsborough",
+  "person": "wostal",
+  "kind": "keyPositions",
+  "index": 6,
+  "verdict": "ok",
+  "evidence": "Clerk 2026 RCS 5395 (04/01/2026) \"Request the County Attorney's Office to review the CIT renewal ballot language...\": Wostal N only (Cepeda X, others Y)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "wostal",
+  "kind": "keyPositions",
+  "index": 7,
+  "verdict": "unreachable",
+  "evidence": "Clerk 2026 PDF text truncated at RCS 5611 (82k chars); the cited RCS numbers (5622+, or FY2026 budget 5124/5125, which are also past the 2025 PDF cutoff at 5051) are not visible."
+ },
+ {
+  "county": "hillsborough",
+  "person": "wostal",
+  "kind": "keyPositions",
+  "index": 8,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "wostal",
+  "kind": "keyPositions",
+  "index": 9,
+  "verdict": "unreachable",
+  "evidence": "Glass Ballot roll-call tallies require the full PDFs; fetched text of every Clerk PDF is truncated, so counts cannot be reproduced."
+ },
+ {
+  "county": "hillsborough",
+  "person": "wostal",
+  "kind": "conflicts",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "Clerk 2023 PDF row: \"3721 B-2 02/15/2023 11:18AM 0 N Y Y Y Y N A\" (Wostal = A), \"Approve the Hillsborough County Transportation Plan for use of the $569,782,845 collected as a result of the 2018...\" No reason given."
+ },
+ {
+  "county": "hillsborough",
+  "person": "wostal",
+  "kind": "electionHistory",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "wostal",
+  "kind": "electionHistory",
+  "index": 1,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "wostal",
+  "kind": "electionHistory",
+  "index": 2,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "rendon",
+  "kind": "keyPositions",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "WUSF: District 4 board member Patti Rendon endorsed Brittany Lyssy (reported, not quoted)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "rendon",
+  "kind": "keyPositions",
+  "index": 1,
+  "verdict": "unreachable",
+  "evidence": "Tampa Bay Times article body not visible (paywall); none of the claimed details appear in the readable text."
+ },
+ {
+  "county": "hillsborough",
+  "person": "rendon",
+  "kind": "electionHistory",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "rendon",
+  "kind": "electionHistory",
+  "index": 1,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "perez",
+  "kind": "promises",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "perez",
+  "kind": "promises",
+  "index": 1,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "perez",
+  "kind": "promises",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "WUSF paraphrase: Perez, other board members and the superintendent are discussing ways to reduce computer use in classrooms."
+ },
+ {
+  "county": "hillsborough",
+  "person": "perez",
+  "kind": "promises",
+  "index": 3,
+  "verdict": "unreachable",
+  "evidence": "keepkarenperez.com not on fetch allowlist."
+ },
+ {
+  "county": "hillsborough",
+  "person": "perez",
+  "kind": "keyPositions",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "keepkarenperez.com not on fetch allowlist."
+ },
+ {
+  "county": "hillsborough",
+  "person": "perez",
+  "kind": "keyPositions",
+  "index": 1,
+  "verdict": "unreachable",
+  "evidence": "Tampa Bay Times article body not visible (paywall); none of the claimed details appear in the readable text."
+ },
+ {
+  "county": "hillsborough",
+  "person": "perez",
+  "kind": "electionHistory",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "perez",
+  "kind": "electionHistory",
+  "index": 1,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "perez",
+  "kind": "electionHistory",
+  "index": 2,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "perez",
+  "kind": "electionHistory",
+  "index": 3,
+  "verdict": "ok",
+  "evidence": "SOE Aug 25, 2026 certified summary: \"Karen Perez 93,616 48.27%\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "toledo",
+  "kind": "promises",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "Ballotpedia (Toledo site): \"Jackie will focus on accelerating transportation improvements, reducing congestion, improving traffic flow,\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "toledo",
+  "kind": "promises",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: \"infrastructure should come before unchecked development\"; \"Work to develop affordable housing options with transportation coordination within our urban core.\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "toledo",
+  "kind": "promises",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: \"Jackie will strongly support law enforcement, firefighters, emergency responders,\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "toledo",
+  "kind": "promises",
+  "index": 3,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: \"Jackie will work to ensure transparency and accountability, discipline in government spending, eliminate waste and prioritize core services.\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "toledo",
+  "kind": "promises",
+  "index": 4,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: \"Jackie will prioritize infrastructure resilience, stormwater improvements, flood mitigation, and emergency preparedness\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "toledo",
+  "kind": "promises",
+  "index": 5,
+  "verdict": "ok",
+  "evidence": "Ballotpedia 2022 congressional site: \"Finish the wall\", \"Outlaw sanctuary cities\", \"Eliminate the federal department of education and return control to the states\", \"Prosecute voter fraud\", \"Build on the success of the Trump tax cuts.\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "toledo",
+  "kind": "keyPositions",
+  "index": 0,
+  "verdict": "drop",
+  "evidence": "Ballotpedia page text fetched (112k chars) contains no \"1475\", \"395\", \"235\", \"PFAS\", \"restraint\" or \"homestead\"; sponsored-bill table is not in the readable text. Verify on flsenate.gov or myfloridahouse.gov. | Held: not verifiable from an opened source yet."
+ },
+ {
+  "county": "hillsborough",
+  "person": "toledo",
+  "kind": "keyPositions",
+  "index": 1,
+  "verdict": "drop",
+  "evidence": "Ballotpedia page text fetched (112k chars) contains no \"1475\", \"395\", \"235\", \"PFAS\", \"restraint\" or \"homestead\"; sponsored-bill table is not in the readable text. Verify on flsenate.gov or myfloridahouse.gov. | Held: not verifiable from an opened source yet."
+ },
+ {
+  "county": "hillsborough",
+  "person": "toledo",
+  "kind": "keyPositions",
+  "index": 2,
+  "verdict": "drop",
+  "evidence": "Ballotpedia page text fetched (112k chars) contains no \"1475\", \"395\", \"235\", \"PFAS\", \"restraint\" or \"homestead\"; sponsored-bill table is not in the readable text. Verify on flsenate.gov or myfloridahouse.gov. | Held: not verifiable from an opened source yet."
+ },
+ {
+  "county": "hillsborough",
+  "person": "toledo",
+  "kind": "keyPositions",
+  "index": 3,
+  "verdict": "drop",
+  "evidence": "Ballotpedia page text fetched (112k chars) contains no \"1475\", \"395\", \"235\", \"PFAS\", \"restraint\" or \"homestead\"; sponsored-bill table is not in the readable text. Verify on flsenate.gov or myfloridahouse.gov. | Held: not verifiable from an opened source yet."
+ },
+ {
+  "county": "hillsborough",
+  "person": "toledo",
+  "kind": "keyPositions",
+  "index": 4,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: 2019-2020 \"House Rules & Ethics Committee, where she served as vice chair\"."
+ },
+ {
+  "county": "hillsborough",
+  "person": "toledo",
+  "kind": "conflicts",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "ethics.state.fl.us 2021 Q4 orders PDF not on fetch allowlist."
+ },
+ {
+  "county": "hillsborough",
+  "person": "toledo",
+  "kind": "conflicts",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "Florida Politics: \"Toledo in 2017 failed to disclose profits from the sale of a Tampa home\"; 2018 \"attached asset list, but no such list was attached\"; \"The State dropped a third accusation\"; \"her 2019 form was accurate\"; filed \"amended and corrected versions of both her 2017 and 2018\"; \"Tallahassee attorney Max Solomon filed the complaint on Oct. 5, 2020.\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "toledo",
+  "kind": "conflicts",
+  "index": 2,
+  "verdict": "fix",
+  "fix": "Toledo said the mistakes were inadvertent and caused in part by financial fallout from her divorce (as reported by the Tampa Bay Times).",
+  "evidence": "Tampa Bay Times subhead says the mistakes were inadvertent and caused in part by financial fallout from her divorce, but these words are the reporter's paraphrase of Toledo, not in quotation marks. Florida Politics also says it has no direct Toledo quotes."
+ },
+ {
+  "county": "hillsborough",
+  "person": "toledo",
+  "kind": "electionHistory",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: 2015 District 6 general Toledo 3,720 (46%), first place."
+ },
+ {
+  "county": "hillsborough",
+  "person": "toledo",
+  "kind": "electionHistory",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: runoff Maniscalco 3,731 to Toledo 3,582."
+ },
+ {
+  "county": "hillsborough",
+  "person": "toledo",
+  "kind": "electionHistory",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: 2016 HD60 GOP primary Toledo 6,393 (50.99%)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "toledo",
+  "kind": "electionHistory",
+  "index": 3,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: 2016 general Toledo 50,443 (57.13%)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "toledo",
+  "kind": "electionHistory",
+  "index": 4,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: 2018 general Toledo 41,951 (52.3%)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "toledo",
+  "kind": "electionHistory",
+  "index": 5,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: 2020 general Toledo 57,502 (54.3%)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "toledo",
+  "kind": "electionHistory",
+  "index": 6,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: 2022 FL-15 GOP primary Toledo third with 6,307 (11.6%)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "toledo",
+  "kind": "electionHistory",
+  "index": 7,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: 2026 District 1 Republican primary canceled; Toledo advanced without appearing on ballot."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hahn",
+  "kind": "promises",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hahn",
+  "kind": "promises",
+  "index": 1,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hahn",
+  "kind": "promises",
+  "index": 2,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hahn",
+  "kind": "promises",
+  "index": 3,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hahn",
+  "kind": "promises",
+  "index": 4,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hahn",
+  "kind": "keyPositions",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hahn",
+  "kind": "electionHistory",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hahn",
+  "kind": "electionHistory",
+  "index": 1,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hahn",
+  "kind": "electionHistory",
+  "index": 2,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "hahn",
+  "kind": "electionHistory",
+  "index": 3,
+  "verdict": "ok",
+  "evidence": "SOE Aug 25, 2026 certified summary: \"Stacy Hahn 47,146 54.90%\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "garcia",
+  "kind": "promises",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "Ballotpedia (Garcia site): \"structured, intentional development that improves infrastructure before new projects break ground\"; \"holding builders accountable\"."
+ },
+ {
+  "county": "hillsborough",
+  "person": "garcia",
+  "kind": "promises",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: \"At the same time, we must protect historic districts like Ybor City by revitalizing them without erasing their cultural identity.\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "garcia",
+  "kind": "promises",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: \"improving response times, and ensuring our deputies, firefighters, and first responders have the tools, training, and resources they need.\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "garcia",
+  "kind": "promises",
+  "index": 3,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: \"cutting red tape, modernizing county operations\"; \"long permitting delays\"."
+ },
+ {
+  "county": "hillsborough",
+  "person": "garcia",
+  "kind": "promises",
+  "index": 4,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: \"bring full transparency to the county’s budgeting, permitting, and development processes\"; \"performance-based evaluations within county departments.\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "garcia",
+  "kind": "electionHistory",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "Ballotpedia: 2026 Republican primary canceled; Garcia advanced without appearing on ballot."
+ },
+ {
+  "county": "hillsborough",
+  "person": "manimala",
+  "kind": "promises",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "manimala",
+  "kind": "promises",
+  "index": 1,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "manimala",
+  "kind": "promises",
+  "index": 2,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "manimala",
+  "kind": "promises",
+  "index": 3,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "manimala",
+  "kind": "electionHistory",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "rodriguez",
+  "kind": "promises",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "rodriguez",
+  "kind": "promises",
+  "index": 1,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "rodriguez",
+  "kind": "promises",
+  "index": 2,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "rodriguez",
+  "kind": "promises",
+  "index": 3,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "rodriguez",
+  "kind": "electionHistory",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "SOE Aug 25, 2026 certified summary: \"Aileen Rodriguez 52,291 62.36%\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "lyssy",
+  "kind": "promises",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "WUSF: \"We must strengthen reading and math instruction, use tax dollars transparently, and put classrooms first\" (Florida Public Media voter guide survey)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "lyssy",
+  "kind": "promises",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "WUSF: verbatim through \"involvement\"; source sentence continues \"...so families are treated as true partners in their child's education.\" Truncation does not change meaning."
+ },
+ {
+  "county": "hillsborough",
+  "person": "lyssy",
+  "kind": "promises",
+  "index": 2,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "lyssy",
+  "kind": "promises",
+  "index": 3,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "lyssy",
+  "kind": "keyPositions",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "Tampa Bay Times article body not visible (paywall); none of the claimed details appear in the readable text."
+ },
+ {
+  "county": "hillsborough",
+  "person": "lyssy",
+  "kind": "electionHistory",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "SOE Aug 25, 2026 certified summary: \"Brittany Lyssy 16,625 36.84%\" (second to Simic)"
+ },
+ {
+  "county": "hillsborough",
+  "person": "simic",
+  "kind": "promises",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "simic",
+  "kind": "promises",
+  "index": 1,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "simic",
+  "kind": "promises",
+  "index": 2,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "simic",
+  "kind": "promises",
+  "index": 3,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "simic",
+  "kind": "promises",
+  "index": 4,
+  "verdict": "ok",
+  "evidence": "WUSF paraphrase: Simic supports protecting teacher planning time/hours and proposes a public-facing dashboard."
+ },
+ {
+  "county": "hillsborough",
+  "person": "simic",
+  "kind": "keyPositions",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "Tampa Bay Times article body not visible (paywall); none of the claimed details appear in the readable text."
+ },
+ {
+  "county": "hillsborough",
+  "person": "simic",
+  "kind": "electionHistory",
+  "index": 0,
+  "verdict": "ok",
+  "evidence": "SOE Aug 25, 2026 certified summary: \"Daniela Simic 17,481 38.73%\""
+ },
+ {
+  "county": "hillsborough",
+  "person": "gay",
+  "kind": "promises",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "gay",
+  "kind": "promises",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "WUSF: \"rather than funding new programs, fund the basics\" (only capitalization differs)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "gay",
+  "kind": "promises",
+  "index": 2,
+  "verdict": "ok",
+  "evidence": "WUSF paraphrase: Gay suggests AI tools to handle less impactful work such as compliance paperwork, and wants consistent handling of student behavior (stated as separate points in the article)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "gay",
+  "kind": "electionHistory",
+  "index": 0,
+  "verdict": "unreachable",
+  "evidence": "This Ballotpedia page was not on the session fetch allowlist (other Ballotpedia pages were)."
+ },
+ {
+  "county": "hillsborough",
+  "person": "gay",
+  "kind": "electionHistory",
+  "index": 1,
+  "verdict": "ok",
+  "evidence": "SOE Aug 25, 2026 certified summary: Kenneth \"Ken\" Gay 52,808 27.23% (second to Perez)"
  }
 ]
