@@ -34,19 +34,19 @@ HEAD = f"""<!doctype html>
 <meta property="og:title" content="Glass Ballot: every Florida local race, every vote, every dollar">
 <meta property="og:description" content="{DESC}">
 <meta property="og:url" content="{SITE}/">
-<meta property="og:image" content="{SITE}/og.png">
+<meta property="og:image" content="{SITE}/og.png?v=2">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Glass Ballot: Florida local voter guide">
 <meta name="twitter:description" content="{DESC}">
-<meta name="twitter:image" content="{SITE}/og.png">
+<meta name="twitter:image" content="{SITE}/og.png?v=2">
 <style>:root{{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}}body{{margin:0}}img{{max-width:100%}}[hidden]{{display:none!important}}</style>
 </head>
 <body>
 """
 
-OG_HTML = """<!doctype html><html><head><meta charset="utf-8"><style>
+OG_HTML = """<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Plus+Jakarta+Sans:wght@700;800&display=block"><style>
 body{margin:0;width:1200px;height:630px;font-family:"Plus Jakarta Sans",system-ui,sans-serif;color:#fff;
 background:radial-gradient(90% 90% at 88% 8%,rgba(20,184,166,.38),transparent 55%),radial-gradient(80% 80% at 0% 100%,rgba(37,99,235,.6),transparent 60%),linear-gradient(160deg,#0B3D91,#1A56D0)}
 .w{box-sizing:border-box;height:630px;padding:64px 72px;display:grid;grid-template-columns:1fr 330px;gap:30px;align-items:center}

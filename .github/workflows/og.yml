@@ -1,0 +1,34 @@
+name: Render link preview image
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+jobs:
+  og:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - name: Render
+        run: |
+          pip install playwright==1.48.0
+          python -m playwright install --with-deps chromium
+          rm -f site/og.png
+          python -m pipeline.dist
+          cp site/assets/logo-box.png dist/assets/logo-box.png 2>/dev/null || true
+          python tools/render_og.py
+          python -m pipeline.dist
+      - name: Publish
+        run: |
+          git config user.name "Glass Ballot"
+          git config user.email "glassballotinfo@gmail.com"
+          git add site/og.png dist
+          git diff --cached --quiet && exit 0
+          git commit -m "New link preview image"
+          git pull --rebase -X theirs || { git rebase --abort; git pull --no-rebase -X ours --no-edit; }
+          git push
