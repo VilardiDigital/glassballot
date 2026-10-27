@@ -43,6 +43,9 @@ def build_county(cid: str, accessed: str | None) -> dict | None:
     seed = merge_impact(seed, cid)
     seed = merge_funding(seed, cid)
     seed = merge_results(seed, cid)
+    soe = json.loads((ROOT / "data" / "soe_sites.json").read_text()).get(cid)
+    if soe:
+        seed["county"].setdefault("soeUrl", soe)
     d = build(seed, None, accessed)
     # "We still need to open this page" is our work queue, not a problem with the public record.
     todo = [x for x in d["problems"] if x.get("kind") == "needs-browser-fetch"]

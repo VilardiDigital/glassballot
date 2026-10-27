@@ -666,6 +666,12 @@ views.ballot = () => {
 };
 
 /* ---------- election night results ---------- */
+// Election night, before we have this race's count: send people to the county's own results.
+function countingNote(r) {
+  if (r.results || r.decided || daysLeft() > 0 || !C.county.soeUrl) return "";
+  return `<section class="notice stack-sm"><b>Votes are being counted.</b><span>We add results here automatically as the county posts them. For the latest count, see the <a href="${esc(C.county.soeUrl)}" target="_blank" rel="noopener">${esc(C.county.name)} Supervisor of Elections</a>.</span></section>`;
+}
+
 function resultsBlock(r, big) {
   const x = r.results; if (!x || !x.total) return "";
   const st = x.status === "official" ? "Official results" : "Unofficial results";
@@ -713,7 +719,7 @@ views.race = id => {
       <p class="job"><b>What the job does:</b> ${esc(jobLine(r))}${jobSrc(r)}</p>
       ${r.note && !r.results ? `<p class="notice">${esc(r.note)}</p>` : ""}
     </section>
-    ${r.results ? `<section class="panel stack" aria-labelledby="res"><h2 class="h2" id="res">Results</h2>${resultsBlock(r, true)}</section>` : ""}
+    ${r.results ? `<section class="panel stack" aria-labelledby="res"><h2 class="h2" id="res">Results</h2>${resultsBlock(r, true)}</section>` : countingNote(r)}
     <section class="stack" aria-label="Candidates">
       <p class="small muted">Listed in alphabetical order by last name. We never rank or recommend candidates.${isSchool(r) ? " School board races are nonpartisan, so party isn't on the ballot." : ""}</p>
       <div class="cands">${ppl.slice().sort((a,b) => lastName(a).localeCompare(lastName(b))).map(p => {
