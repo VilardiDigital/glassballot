@@ -101,6 +101,8 @@ def merge(seed: dict, county: str) -> dict:
         if not r or not r["candidates"]:
             continue
         total = sum(c["votes"] for c in r["candidates"])
+        if not total:
+            continue  # the county has posted the race but no votes yet
         rows = []
         for c in r["candidates"]:
             pid = next((p for p in race["people"] if people.get(p) and _last(people[p]["name"]) == _last(c["name"])), None)
