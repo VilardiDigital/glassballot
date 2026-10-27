@@ -245,6 +245,12 @@
    "publisher": "Curtis Campogni campaign",
    "tier": 5,
    "accessed": "2026-10-26"
+  },
+  "soe-2024g": {
+   "title": "Official Election Results, November 5, 2024 General Election",
+   "url": "https://enr.votepinellas.gov/FL/Pinellas/122583/web.345435/#/summary",
+   "publisher": "Pinellas County Supervisor of Elections",
+   "tier": 1
   }
  },
  "people": [
@@ -485,8 +491,8 @@
     ],
     "lastElection": [
      {
-      "value": "Won 2024 with 51.51% (unofficial) over incumbent Charlie Justice (D)",
-      "source": "patch-2024"
+      "value": "Won 2024 with 51.31% over incumbent Charlie Justice (D), 48.69%",
+      "source": "soe-2024g"
      }
     ],
     "photo": [
@@ -1485,9 +1491,15 @@
      "sources": [
       "patch-2024"
      ]
+    },
+    {
+     "value": "51.31% + 48.69% = 100% (certified)",
+     "sources": [
+      "soe-2024g"
+     ]
     }
    ],
-   "status": "Open: needs certified results from the Supervisor of Elections"
+   "status": "Resolved: the Supervisor of Elections' certified results show 51.31% to 48.69%. Patch's 51.51% was a typo."
   },
   {
    "id": "soe-finance-years",

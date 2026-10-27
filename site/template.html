@@ -754,7 +754,7 @@ function linksBlock(p) {
     <p class="tiny muted">We only list accounts we could confirm through their campaign website, the county or election filings.</p>`;
 }
 
-const DIG_PARTS = [["electionHistory","Election history","How they won (or got) the seat each time. Official results where we could open them."],["promises","Past campaign promises","What they said when running before, in their own words or as reported. A promise, not a fact."],["keyPositions","Positions taken in office","Stands they took on the record: votes, motions and public statements."],["conflicts","Ethics records","Public ethics findings or complaints. A dismissed complaint is not a finding of wrongdoing."]];
+const DIG_PARTS = [["electionHistory","Election history","How they won (or got) the seat each time. Official results where we could open them."],["promises","Past campaign promises","What they said when running before, in their own words or as reported. A promise, not a fact."],["keyPositions","Positions taken in office","Stands they took on the record: votes, motions and public statements."],["conflicts","Ethics and conduct records","Ethics complaints, opinions or concerns raised in public, with their response when we have it. None of these is a finding of wrongdoing unless it says so."]];
 function trackRecord(p, fn) {
   const d = p.dig || {};
   const parts = DIG_PARTS.filter(([k]) => (d[k] || []).length);

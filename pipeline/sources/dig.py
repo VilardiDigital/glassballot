@@ -90,6 +90,9 @@ def merge(seed: dict, county: str) -> dict:
     if not f.exists():
         return seed
     dig = json.loads(f.read_text())
+    # Fact-check results: data/dig_checks.json lists items to fix or drop after checking them against the source.
+    cf = ROOT / "data" / "dig_checks.json"
+    checks = {(c["person"], c["kind"], c["index"]): c for c in (json.loads(cf.read_text()) if cf.exists() else []) if c.get("county") == county}
     for sid, s in dig.get("sources", {}).items():
         if sid not in seed["sources"]:
             seed["sources"][sid] = {k: s.get(k) for k in ("title", "url", "publisher", "tier") if s.get(k) is not None} | ({"accessed": s["date"]} if s.get("date") else {})
@@ -102,7 +105,12 @@ def merge(seed: dict, county: str) -> dict:
         out = p.setdefault("dig", {})
         for kind, field in FIELDS.items():
             items = blocks.get(kind) or []
-            for it in items:
+            for idx, it in enumerate(items):
+                chk = checks.get((pid, kind, idx))
+                if chk and chk.get("verdict") == "drop":
+                    continue
+                if chk and chk.get("verdict") == "fix" and chk.get("fix") and isinstance(it, dict):
+                    it = {**it, "value": chk["fix"]}
                 src = it.get("source") if isinstance(it, dict) else None
                 note = (it.get("note") or "") if isinstance(it, dict) else ""
                 if not src or (isinstance(it, dict) and it.get("caution")) or src in SKIP_SOURCES or src not in seed["sources"] or any(w in note.lower() for w in SKIP_WORDS):
