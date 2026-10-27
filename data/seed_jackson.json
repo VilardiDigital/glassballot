@@ -1,0 +1,273 @@
+{
+ "county": {
+  "id": "jackson",
+  "name": "Jackson County",
+  "state": "FL",
+  "body": "Board of County Commissioners",
+  "electionDate": "2026-11-03",
+  "auto": true,
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=jackson&el=19"
+ },
+ "sources": {
+  "soe-vf": {
+   "title": "Jackson County Supervisor of Elections: 2026 candidates and campaign reports",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=jackson&el=19",
+   "publisher": "Jackson County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  }
+ },
+ "people": [
+  {
+   "id": "crutchfield",
+   "name": "Edward E. Crutchfield",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "383",
+    "status": "Active- Incumbent"
+   }
+  },
+  {
+   "id": "fortunato",
+   "name": "Peter \"Sonny\" Fortunato, Jr",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "381",
+    "status": "Active- Qualified"
+   }
+  },
+  {
+   "id": "branch",
+   "name": "Donnie Branch",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "384",
+    "status": "Active- Unopposed"
+   }
+  },
+  {
+   "id": "granberry",
+   "name": "Chephus D. Granberry",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "386",
+    "status": "Active- Incumbent"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "king",
+   "name": "Christopher Bryan King",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "390",
+    "status": "Active- Qualified"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "johnson",
+   "name": "Chris Johnson",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "4",
+   "race": "sb-d4",
+   "finance": {
+    "voterfocusId": "385",
+    "status": "Active- Unopposed"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "daniels",
+   "name": "Phyllis T. Daniels",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "5",
+   "race": "sb-d5",
+   "finance": {
+    "voterfocusId": "388",
+    "status": "Active- Qualified"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "jackson",
+   "name": "Michael MJ Jackson",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "5",
+   "race": "sb-d5",
+   "finance": {
+    "voterfocusId": "382",
+    "status": "Active- Incumbent"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "walker",
+   "name": "Danielle Walker",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "5",
+   "race": "sb-d5",
+   "finance": {
+    "voterfocusId": "387",
+    "status": "Active- Qualified"
+   },
+   "nonpartisan": true
+  }
+ ],
+ "races": [
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d2",
+   "title": "County Commission, District 2",
+   "office": "County Commissioner District 2",
+   "people": [
+    "crutchfield",
+    "fortunato"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d4",
+   "title": "County Commission, District 4",
+   "office": "County Commissioner District 4",
+   "people": [
+    "branch"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Donnie Branch (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d1",
+   "title": "School Board, District 1",
+   "office": "School Board Member District 1",
+   "people": [
+    "granberry",
+    "king"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d4",
+   "title": "School Board, District 4",
+   "office": "School Board Member District 4",
+   "people": [
+    "johnson"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Chris Johnson (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d5",
+   "title": "School Board, District 5",
+   "office": "School Board Member District 5",
+   "people": [
+    "daniels",
+    "jackson",
+    "walker"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  }
+ ],
+ "votes": [],
+ "topics": [
+  {
+   "id": "growth",
+   "name": "Growth, land use and housing",
+   "blurb": "Rezonings, land use changes and big new communities."
+  },
+  {
+   "id": "taxes",
+   "name": "Taxes and the budget",
+   "blurb": "Property tax rates, fees and how the county spends money."
+  },
+  {
+   "id": "roads",
+   "name": "Roads and transportation",
+   "blurb": "Road projects, transit and traffic."
+  },
+  {
+   "id": "water",
+   "name": "Water, storms and environment",
+   "blurb": "Flooding, stormwater, beaches and the environment."
+  },
+  {
+   "id": "safety",
+   "name": "Public safety",
+   "blurb": "Sheriff, fire rescue and emergency services."
+  },
+  {
+   "id": "other",
+   "name": "Other decisions",
+   "blurb": "Everything else the commission voted on."
+  }
+ ],
+ "manualProblems": []
+}

@@ -1,0 +1,603 @@
+{
+ "county": {
+  "id": "miamidade",
+  "name": "Miami-Dade County",
+  "state": "FL",
+  "body": "Board of County Commissioners",
+  "electionDate": "2026-11-03",
+  "auto": true,
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=miamidade&el=30"
+ },
+ "sources": {
+  "soe-vf": {
+   "title": "Miami-Dade County Supervisor of Elections: 2026 candidates and campaign reports",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=miamidade&el=30",
+   "publisher": "Miami-Dade County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  }
+ },
+ "people": [
+  {
+   "id": "cothiere",
+   "name": "Linda Cothiere",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "01",
+   "race": "sb-d01",
+   "finance": {
+    "voterfocusId": "3076",
+    "status": "Active- Runoff"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "wilson",
+   "name": "Katrina Wilson",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "01",
+   "race": "sb-d01",
+   "finance": {
+    "voterfocusId": "3070",
+    "status": "Active- Runoff"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "bendrossmindingall",
+   "name": "Dorothy Bendross-Mindingall",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "02",
+   "race": "sb-d02",
+   "finance": {
+    "voterfocusId": "2926",
+    "status": "Active- Unopposed"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "alonso",
+   "name": "Roberto J. Alonso",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "04",
+   "race": "sb-d04",
+   "finance": {
+    "voterfocusId": "2956",
+    "status": "Inactive - Unopposed"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "rojas",
+   "name": "Maria \"Mari Tere\" Rojas",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "06",
+   "race": "sb-d06",
+   "finance": {
+    "voterfocusId": "2914",
+    "status": "Inactive - Unopposed"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "colucci",
+   "name": "Monica Colucci",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "08",
+   "race": "sb-d08",
+   "finance": {
+    "voterfocusId": "2953",
+    "status": "Active- Elected"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "joseph",
+   "name": "Samuel \"Sam\" Joseph",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "08",
+   "race": "sb-d08",
+   "finance": {
+    "voterfocusId": "3048",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "gallon",
+   "name": "Steve Gallon III",
+   "claims": {
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "01",
+   "race": "bcc-d01",
+   "finance": {
+    "voterfocusId": "2981",
+    "status": "Inactive - Unopposed"
+   }
+  },
+  {
+   "id": "bastien",
+   "name": "Marleine Bastien",
+   "claims": {
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "02",
+   "race": "bcc-d02",
+   "finance": {
+    "voterfocusId": "2964",
+    "status": "Active- Elected"
+   }
+  },
+  {
+   "id": "louis",
+   "name": "Ernst Jean Louis",
+   "claims": {
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "02",
+   "race": "bcc-d02",
+   "finance": {
+    "voterfocusId": "2969",
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "quintero",
+   "name": "Miguel 'Skip' Quintero",
+   "claims": {
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "02",
+   "race": "bcc-d02",
+   "finance": {
+    "voterfocusId": "2940",
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "steinberg",
+   "name": "Micky Steinberg",
+   "claims": {
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "04",
+   "race": "bcc-d04",
+   "finance": {
+    "voterfocusId": "2954",
+    "status": "Inactive - Unopposed"
+   }
+  },
+  {
+   "id": "lopez",
+   "name": "Vicki L. Lopez",
+   "claims": {
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "05",
+   "race": "bcc-d05",
+   "finance": {
+    "voterfocusId": "2949",
+    "status": "Active- Runoff"
+   }
+  },
+  {
+   "id": "piper",
+   "name": "Rob Piper",
+   "claims": {
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "05",
+   "race": "bcc-d05",
+   "finance": {
+    "voterfocusId": "2998",
+    "status": "Active- Runoff"
+   }
+  },
+  {
+   "id": "orbis",
+   "name": "Natalie Milian Orbis",
+   "claims": {
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "06",
+   "race": "bcc-d06",
+   "finance": {
+    "voterfocusId": "2922",
+    "status": "Inactive - Unopposed"
+   }
+  },
+  {
+   "id": "higgins",
+   "name": "Danielle Cohen Higgins",
+   "claims": {
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "08",
+   "race": "bcc-d08",
+   "finance": {
+    "voterfocusId": "2962",
+    "status": "Inactive - Elected"
+   }
+  },
+  {
+   "id": "dubois",
+   "name": "John Edward DuBois",
+   "claims": {
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "08",
+   "race": "bcc-d08",
+   "finance": {
+    "voterfocusId": "3016",
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "hero",
+   "name": "Martha \"Vega\" Hero",
+   "claims": {
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "08",
+   "race": "bcc-d08",
+   "finance": {
+    "voterfocusId": "2958",
+    "status": "Inactive - Defeated"
+   }
+  },
+  {
+   "id": "rodriguez",
+   "name": "Anthony Rodriguez",
+   "claims": {
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "10",
+   "race": "bcc-d10",
+   "finance": {
+    "voterfocusId": "2972",
+    "status": "Inactive - Unopposed"
+   }
+  },
+  {
+   "id": "bermudez",
+   "name": "Juan Carlos \"JC\" Bermudez",
+   "claims": {
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "12",
+   "race": "bcc-d12",
+   "finance": {
+    "voterfocusId": "2955",
+    "status": "Inactive - Unopposed"
+   }
+  }
+ ],
+ "races": [
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d01",
+   "title": "School Board, District 01",
+   "office": "School Board District 01",
+   "people": [
+    "cothiere",
+    "wilson"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d02",
+   "title": "School Board, District 02",
+   "office": "School Board District 02",
+   "people": [
+    "bendrossmindingall"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Dorothy Bendross-Mindingall (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d04",
+   "title": "School Board, District 04",
+   "office": "School Board District 04",
+   "people": [
+    "alonso"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Roberto J. Alonso (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d06",
+   "title": "School Board, District 06",
+   "office": "School Board District 06",
+   "people": [
+    "rojas"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Maria \"Mari Tere\" Rojas (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d08",
+   "title": "School Board, District 08",
+   "office": "School Board District 08",
+   "people": [
+    "colucci",
+    "joseph"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Monica Colucci (elected)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d01",
+   "title": "County Commission, District 01",
+   "office": "County Commission District 01",
+   "people": [
+    "gallon"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Steve Gallon III (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d02",
+   "title": "County Commission, District 02",
+   "office": "County Commission District 02",
+   "people": [
+    "bastien",
+    "louis",
+    "quintero"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Marleine Bastien (elected)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d04",
+   "title": "County Commission, District 04",
+   "office": "County Commission District 04",
+   "people": [
+    "steinberg"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Micky Steinberg (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d05",
+   "title": "County Commission, District 05",
+   "office": "County Commission District 05",
+   "people": [
+    "lopez",
+    "piper"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d06",
+   "title": "County Commission, District 06",
+   "office": "County Commission District 06",
+   "people": [
+    "orbis"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Natalie Milian Orbis (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d08",
+   "title": "County Commission, District 08",
+   "office": "County Commission District 08",
+   "people": [
+    "higgins",
+    "dubois",
+    "hero"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Danielle Cohen Higgins (elected)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d10",
+   "title": "County Commission, District 10",
+   "office": "County Commission District 10",
+   "people": [
+    "rodriguez"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Anthony Rodriguez (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d12",
+   "title": "County Commission, District 12",
+   "office": "County Commission District 12",
+   "people": [
+    "bermudez"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Juan Carlos \"JC\" Bermudez (unopposed)"
+  }
+ ],
+ "votes": [],
+ "topics": [
+  {
+   "id": "growth",
+   "name": "Growth, land use and housing",
+   "blurb": "Rezonings, land use changes and big new communities."
+  },
+  {
+   "id": "taxes",
+   "name": "Taxes and the budget",
+   "blurb": "Property tax rates, fees and how the county spends money."
+  },
+  {
+   "id": "roads",
+   "name": "Roads and transportation",
+   "blurb": "Road projects, transit and traffic."
+  },
+  {
+   "id": "water",
+   "name": "Water, storms and environment",
+   "blurb": "Flooding, stormwater, beaches and the environment."
+  },
+  {
+   "id": "safety",
+   "name": "Public safety",
+   "blurb": "Sheriff, fire rescue and emergency services."
+  },
+  {
+   "id": "other",
+   "name": "Other decisions",
+   "blurb": "Everything else the commission voted on."
+  }
+ ],
+ "manualProblems": []
+}

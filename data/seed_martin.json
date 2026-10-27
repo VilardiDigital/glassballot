@@ -1,0 +1,418 @@
+{
+ "county": {
+  "id": "martin",
+  "name": "Martin County",
+  "state": "FL",
+  "body": "Board of County Commissioners",
+  "electionDate": "2026-11-03",
+  "auto": true,
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=martin&el=16"
+ },
+ "sources": {
+  "soe-vf": {
+   "title": "Martin County Supervisor of Elections: 2026 candidates and campaign reports",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=martin&el=16",
+   "publisher": "Martin County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "legistar": {
+   "title": "Martin County Board of County Commissioners meeting records (Legistar)",
+   "url": "https://martin.legistar.com/Calendar.aspx",
+   "publisher": "Martin County Board of County Commissioners",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  }
+ },
+ "people": [
+  {
+   "id": "hetherington",
+   "name": "Stacey Hetherington",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2024",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent"
+  },
+  {
+   "id": "heard",
+   "name": "Sarah Heard",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2024",
+      "source": "legistar"
+     }
+    ],
+    "leadership": [
+     {
+      "value": "Chair",
+      "source": "legistar"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "561",
+    "status": "Active- Elected"
+   }
+  },
+  {
+   "id": "ciampi",
+   "name": "Edward V. Ciampi",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2024",
+      "source": "legistar"
+     }
+    ],
+    "leadership": [
+     {
+      "value": "Vice Chair",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent"
+  },
+  {
+   "id": "vargas",
+   "name": "Eileen Vargas",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2024",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent"
+  },
+  {
+   "id": "capps",
+   "name": "J. Blake Capps",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2024",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent"
+  },
+  {
+   "id": "collins",
+   "name": "Christopher \"Doc\" Collins",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "565",
+    "status": "Active- Elected"
+   }
+  },
+  {
+   "id": "orourke",
+   "name": "Susan O'Rourke",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "570",
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "wiley",
+   "name": "Althea Wiley",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "568",
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "dial",
+   "name": "John Dial",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "564",
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "kazanjian",
+   "name": "John \"Kaz\" Kazanjian",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "554",
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "roberts",
+   "name": "Christia Li Roberts",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "559",
+    "status": "Active- Runoff"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "white",
+   "name": "Cherie White",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "556",
+    "status": "Active- Runoff"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "clarke",
+   "name": "Jackie Gary Clarke",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "3",
+   "race": "sb-d3",
+   "finance": {
+    "voterfocusId": "562",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "russell",
+   "name": "Jen Russell",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "3",
+   "race": "sb-d3",
+   "finance": {
+    "voterfocusId": "558",
+    "status": "Active- Elected"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "anderson",
+   "name": "Anthony (Tony) Anderson",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "4",
+   "race": "sb-d4",
+   "finance": {
+    "voterfocusId": "566",
+    "status": "Active- Runoff"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "pritchett",
+   "name": "Amy Pritchett",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "4",
+   "race": "sb-d4",
+   "finance": {
+    "voterfocusId": "555",
+    "status": "Active- Runoff"
+   },
+   "nonpartisan": true
+  }
+ ],
+ "races": [
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d2",
+   "title": "County Commission, District 2",
+   "office": "County Commissioner, District 2",
+   "people": [
+    "collins",
+    "orourke",
+    "wiley"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Christopher \"Doc\" Collins (elected)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d4",
+   "title": "County Commission, District 4",
+   "office": "County Commissioner, District 4",
+   "people": [
+    "dial",
+    "heard",
+    "kazanjian"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Sarah Heard (elected)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d1",
+   "title": "School Board, District 1",
+   "office": "School Board Member, District 1",
+   "people": [
+    "roberts",
+    "white"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d3",
+   "title": "School Board, District 3",
+   "office": "School Board Member, District 3",
+   "people": [
+    "clarke",
+    "russell"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Jen Russell (elected)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d4",
+   "title": "School Board, District 4",
+   "office": "School Board Member, District 4",
+   "people": [
+    "anderson",
+    "pritchett"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  }
+ ],
+ "votes": [],
+ "topics": [
+  {
+   "id": "growth",
+   "name": "Growth, land use and housing",
+   "blurb": "Rezonings, land use changes and big new communities."
+  },
+  {
+   "id": "taxes",
+   "name": "Taxes and the budget",
+   "blurb": "Property tax rates, fees and how the county spends money."
+  },
+  {
+   "id": "roads",
+   "name": "Roads and transportation",
+   "blurb": "Road projects, transit and traffic."
+  },
+  {
+   "id": "water",
+   "name": "Water, storms and environment",
+   "blurb": "Flooding, stormwater, beaches and the environment."
+  },
+  {
+   "id": "safety",
+   "name": "Public safety",
+   "blurb": "Sheriff, fire rescue and emergency services."
+  },
+  {
+   "id": "other",
+   "name": "Other decisions",
+   "blurb": "Everything else the commission voted on."
+  }
+ ],
+ "manualProblems": []
+}

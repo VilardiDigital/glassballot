@@ -1,0 +1,392 @@
+{
+ "county": {
+  "id": "polk",
+  "name": "Polk County",
+  "state": "FL",
+  "body": "Board of County Commissioners",
+  "electionDate": "2026-11-03",
+  "auto": true,
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=polk&el=22"
+ },
+ "sources": {
+  "soe-vf": {
+   "title": "Polk County Supervisor of Elections: 2026 candidates and campaign reports",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=polk&el=22",
+   "publisher": "Polk County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "legistar": {
+   "title": "Polk County Board of County Commissioners meeting records (Legistar)",
+   "url": "https://polkcountyfl.legistar.com/Calendar.aspx",
+   "publisher": "Polk County Board of County Commissioners",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  }
+ },
+ "people": [
+  {
+   "id": "santiago",
+   "name": "Martha Santiago",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2022",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent"
+  },
+  {
+   "id": "wilson",
+   "name": "Rick Wilson",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2022",
+      "source": "legistar"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "329",
+    "status": "Active- Elected"
+   }
+  },
+  {
+   "id": "scott",
+   "name": "Michael Scott",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2024",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent"
+  },
+  {
+   "id": "troutman",
+   "name": "Becky Troutman",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2024",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent"
+  },
+  {
+   "id": "braswell",
+   "name": "Bill Braswell",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2024",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent"
+  },
+  {
+   "id": "quinn",
+   "name": "Kelly Quinn",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "341",
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "arroyo",
+   "name": "Omar Arroyo",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "325",
+    "status": "Active- Qualified"
+   }
+  },
+  {
+   "id": "gresham",
+   "name": "Elisha Gresham",
+   "claims": {
+    "party": [
+     {
+      "value": "Write-in",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "332",
+    "status": "Active- Qualified"
+   }
+  },
+  {
+   "id": "sims",
+   "name": "Victor Sims",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "3",
+   "race": "sb-d3",
+   "finance": {
+    "voterfocusId": "326",
+    "status": "Active- Runoff"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "wallace",
+   "name": "Kate Wallace",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "3",
+   "race": "sb-d3",
+   "finance": {
+    "voterfocusId": "338",
+    "status": "Active- Runoff"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "fields",
+   "name": "Kay Fields",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "5",
+   "race": "sb-d5",
+   "finance": {
+    "voterfocusId": "339",
+    "status": "Active- Elected"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "neelam",
+   "name": "Sam Neelam",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "5",
+   "race": "sb-d5",
+   "finance": {
+    "voterfocusId": "331",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "hampton",
+   "name": "Kasen Hampton",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "6",
+   "race": "sb-d6",
+   "finance": {
+    "voterfocusId": "333",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "sharpless",
+   "name": "Justin Sharpless",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "6",
+   "race": "sb-d6",
+   "finance": {
+    "voterfocusId": "324",
+    "status": "Active- Elected"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "miller",
+   "name": "Lisa Miller",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "7",
+   "race": "sb-d7",
+   "finance": {
+    "voterfocusId": "335",
+    "status": "Active- Elected"
+   },
+   "nonpartisan": true
+  }
+ ],
+ "races": [
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d2",
+   "title": "County Commission, District 2",
+   "office": "County Commission District 2",
+   "people": [
+    "quinn",
+    "wilson"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Rick Wilson (elected)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d4",
+   "title": "County Commission, District 4",
+   "office": "County Commission District 4",
+   "people": [
+    "arroyo",
+    "gresham"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d3",
+   "title": "School Board, District 3",
+   "office": "School Board District 3",
+   "people": [
+    "sims",
+    "wallace"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d5",
+   "title": "School Board, District 5",
+   "office": "School Board District 5",
+   "people": [
+    "fields",
+    "neelam"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Kay Fields (elected)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d6",
+   "title": "School Board, District 6",
+   "office": "School Board District 6",
+   "people": [
+    "hampton",
+    "sharpless"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Justin Sharpless (elected)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d7",
+   "title": "School Board, District 7",
+   "office": "School Board District 7",
+   "people": [
+    "miller"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Lisa Miller (elected)"
+  }
+ ],
+ "votes": [],
+ "topics": [
+  {
+   "id": "growth",
+   "name": "Growth, land use and housing",
+   "blurb": "Rezonings, land use changes and big new communities."
+  },
+  {
+   "id": "taxes",
+   "name": "Taxes and the budget",
+   "blurb": "Property tax rates, fees and how the county spends money."
+  },
+  {
+   "id": "roads",
+   "name": "Roads and transportation",
+   "blurb": "Road projects, transit and traffic."
+  },
+  {
+   "id": "water",
+   "name": "Water, storms and environment",
+   "blurb": "Flooding, stormwater, beaches and the environment."
+  },
+  {
+   "id": "safety",
+   "name": "Public safety",
+   "blurb": "Sheriff, fire rescue and emergency services."
+  },
+  {
+   "id": "other",
+   "name": "Other decisions",
+   "blurb": "Everything else the commission voted on."
+  }
+ ],
+ "manualProblems": []
+}

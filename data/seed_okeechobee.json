@@ -1,0 +1,210 @@
+{
+ "county": {
+  "id": "okeechobee",
+  "name": "Okeechobee County",
+  "state": "FL",
+  "body": "Board of County Commissioners",
+  "electionDate": "2026-11-03",
+  "auto": true,
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=okeechobee&el=32"
+ },
+ "sources": {
+  "soe-vf": {
+   "title": "Okeechobee County Supervisor of Elections: 2026 candidates and campaign reports",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=okeechobee&el=32",
+   "publisher": "Okeechobee County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  }
+ },
+ "people": [
+  {
+   "id": "decarlo",
+   "name": "Frank DeCarlo",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "225",
+    "status": "Active- Unopposed"
+   }
+  },
+  {
+   "id": "burroughs",
+   "name": "Terry W Burroughs",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "226",
+    "status": "Active- Unopposed"
+   }
+  },
+  {
+   "id": "bishop",
+   "name": "Christine Brennan Bishop",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "227",
+    "status": "Active- Unopposed"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "jahner",
+   "name": "Melisa Jahner",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "3",
+   "race": "sb-d3",
+   "finance": {
+    "voterfocusId": "228",
+    "status": "Active- Unopposed"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "holcomb",
+   "name": "Jill Clericuzio Holcomb",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "5",
+   "race": "sb-d5",
+   "finance": {
+    "voterfocusId": "229",
+    "status": "Active- Unopposed"
+   },
+   "nonpartisan": true
+  }
+ ],
+ "races": [
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d2",
+   "title": "County Commission, District 2",
+   "office": "County Commission, District 2",
+   "people": [
+    "decarlo"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Frank DeCarlo (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d4",
+   "title": "County Commission, District 4",
+   "office": "County Commission, District 4",
+   "people": [
+    "burroughs"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Terry W Burroughs (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d1",
+   "title": "School Board, District 1",
+   "office": "School Board, District 1",
+   "people": [
+    "bishop"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Christine Brennan Bishop (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d3",
+   "title": "School Board, District 3",
+   "office": "School Board, District 3",
+   "people": [
+    "jahner"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Melisa Jahner (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d5",
+   "title": "School Board, District 5",
+   "office": "School Board, District 5",
+   "people": [
+    "holcomb"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Jill Clericuzio Holcomb (unopposed)"
+  }
+ ],
+ "votes": [],
+ "topics": [
+  {
+   "id": "growth",
+   "name": "Growth, land use and housing",
+   "blurb": "Rezonings, land use changes and big new communities."
+  },
+  {
+   "id": "taxes",
+   "name": "Taxes and the budget",
+   "blurb": "Property tax rates, fees and how the county spends money."
+  },
+  {
+   "id": "roads",
+   "name": "Roads and transportation",
+   "blurb": "Road projects, transit and traffic."
+  },
+  {
+   "id": "water",
+   "name": "Water, storms and environment",
+   "blurb": "Flooding, stormwater, beaches and the environment."
+  },
+  {
+   "id": "safety",
+   "name": "Public safety",
+   "blurb": "Sheriff, fire rescue and emergency services."
+  },
+  {
+   "id": "other",
+   "name": "Other decisions",
+   "blurb": "Everything else the commission voted on."
+  }
+ ],
+ "manualProblems": []
+}

@@ -1,0 +1,226 @@
+{
+ "county": {
+  "id": "hardee",
+  "name": "Hardee County",
+  "state": "FL",
+  "body": "Board of County Commissioners",
+  "electionDate": "2026-11-03",
+  "auto": true,
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hardee&el=16"
+ },
+ "sources": {
+  "soe-vf": {
+   "title": "Hardee County Supervisor of Elections: 2026 candidates and campaign reports",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hardee&el=16",
+   "publisher": "Hardee County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  }
+ },
+ "people": [
+  {
+   "id": "flores",
+   "name": "Noey Flores",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "133",
+    "status": "Active- Filed"
+   }
+  },
+  {
+   "id": "bergens",
+   "name": "William Bergens",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "131",
+    "status": "Active- Filed"
+   }
+  },
+  {
+   "id": "melendy",
+   "name": "Russell Melendy",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "135",
+    "status": "Active- Filed"
+   }
+  },
+  {
+   "id": "sharp",
+   "name": "Stacy Sharp",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "136",
+    "status": "Active- Filed"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "dasher",
+   "name": "Marie Dasher",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "4",
+   "race": "sb-d4",
+   "finance": {
+    "voterfocusId": "132",
+    "status": "Active- Filed"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "gilliard",
+   "name": "Mark Gilliard",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "5",
+   "race": "sb-d5",
+   "finance": {
+    "voterfocusId": "134",
+    "status": "Active- Filed"
+   },
+   "nonpartisan": true
+  }
+ ],
+ "races": [
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d2",
+   "title": "County Commission, District 2",
+   "office": "County Commission Dist. 2",
+   "people": [
+    "flores"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d4",
+   "title": "County Commission, District 4",
+   "office": "County Commission Dist. 4",
+   "people": [
+    "bergens",
+    "melendy"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d1",
+   "title": "School Board, District 1",
+   "office": "School Board Member Dist. 1",
+   "people": [
+    "sharp"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d4",
+   "title": "School Board, District 4",
+   "office": "School Board Member Dist. 4",
+   "people": [
+    "dasher"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d5",
+   "title": "School Board, District 5",
+   "office": "School Board Member Dist. 5",
+   "people": [
+    "gilliard"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false
+  }
+ ],
+ "votes": [],
+ "topics": [
+  {
+   "id": "growth",
+   "name": "Growth, land use and housing",
+   "blurb": "Rezonings, land use changes and big new communities."
+  },
+  {
+   "id": "taxes",
+   "name": "Taxes and the budget",
+   "blurb": "Property tax rates, fees and how the county spends money."
+  },
+  {
+   "id": "roads",
+   "name": "Roads and transportation",
+   "blurb": "Road projects, transit and traffic."
+  },
+  {
+   "id": "water",
+   "name": "Water, storms and environment",
+   "blurb": "Flooding, stormwater, beaches and the environment."
+  },
+  {
+   "id": "safety",
+   "name": "Public safety",
+   "blurb": "Sheriff, fire rescue and emergency services."
+  },
+  {
+   "id": "other",
+   "name": "Other decisions",
+   "blurb": "Everything else the commission voted on."
+  }
+ ],
+ "manualProblems": []
+}

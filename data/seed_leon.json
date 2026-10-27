@@ -1,0 +1,325 @@
+{
+ "county": {
+  "id": "leon",
+  "name": "Leon County",
+  "state": "FL",
+  "body": "Board of County Commissioners",
+  "electionDate": "2026-11-03",
+  "auto": true,
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=leon&el=25"
+ },
+ "sources": {
+  "soe-vf": {
+   "title": "Leon County Supervisor of Elections: 2026 candidates and campaign reports",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=leon&el=25",
+   "publisher": "Leon County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  }
+ },
+ "people": [
+  {
+   "id": "maddox",
+   "name": "Nick Maddox",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "760",
+    "status": "Active- Qualified"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "rashid",
+   "name": "Mehwish Rashid",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "781",
+    "status": "Active- Qualified Write-In"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "proctor",
+   "name": "Bill Proctor",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "1",
+   "race": "bcc-d1",
+   "finance": {
+    "voterfocusId": "749",
+    "status": "Inactive - Unopposed"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "lorch",
+   "name": "Charles Bryan Lorch",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "3",
+   "race": "bcc-d3",
+   "finance": {
+    "voterfocusId": "745",
+    "status": "Active- Qualified"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "minor",
+   "name": "William Minor",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "3",
+   "race": "bcc-d3",
+   "finance": {
+    "voterfocusId": "757",
+    "status": "Active- Qualified"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "hawkins",
+   "name": "David T. Hawkins",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "5",
+   "race": "bcc-d5",
+   "finance": {
+    "voterfocusId": "752",
+    "status": "Active- Qualified"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "keefe",
+   "name": "David O Keefe",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "5",
+   "race": "bcc-d5",
+   "finance": {
+    "voterfocusId": "758",
+    "status": "Active- Qualified"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "billingsley",
+   "name": "James Billingsley",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "782",
+    "status": "Active- Qualified Write-In"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "smith",
+   "name": "Alva Swafford Smith",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "774",
+    "status": "Active- Qualified"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "jones",
+   "name": "Darryl Jones",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "3",
+   "race": "sb-d3",
+   "finance": {
+    "voterfocusId": "769",
+    "status": "Active- Unopposed"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "nicolas",
+   "name": "Marcus Nicolas",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "5",
+   "race": "sb-d5",
+   "finance": {
+    "voterfocusId": "767",
+    "status": "Active- Elected"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "reilly",
+   "name": "James G Reilly Jr",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "5",
+   "race": "sb-d5",
+   "finance": {
+    "voterfocusId": "771",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  }
+ ],
+ "races": [
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d2",
+   "title": "County Commission, District 2",
+   "office": "Leon County Commission - At Large, Group 2",
+   "people": [
+    "maddox",
+    "rashid"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d1",
+   "title": "County Commission, District 1",
+   "office": "Leon County Commission - District 1",
+   "people": [
+    "proctor"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Bill Proctor (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d3",
+   "title": "County Commission, District 3",
+   "office": "Leon County Commission - District 3",
+   "people": [
+    "lorch",
+    "minor"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d5",
+   "title": "County Commission, District 5",
+   "office": "Leon County Commission - District 5",
+   "people": [
+    "hawkins",
+    "keefe"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d1",
+   "title": "School Board, District 1",
+   "office": "Leon County School Board - District 1",
+   "people": [
+    "billingsley",
+    "smith"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d3",
+   "title": "School Board, District 3",
+   "office": "Leon County School Board - District 3",
+   "people": [
+    "jones"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Darryl Jones (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d5",
+   "title": "School Board, District 5",
+   "office": "Leon County School Board - District 5",
+   "people": [
+    "nicolas",
+    "reilly"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Marcus Nicolas (elected)"
+  }
+ ],
+ "votes": [],
+ "topics": [
+  {
+   "id": "growth",
+   "name": "Growth, land use and housing",
+   "blurb": "Rezonings, land use changes and big new communities."
+  },
+  {
+   "id": "taxes",
+   "name": "Taxes and the budget",
+   "blurb": "Property tax rates, fees and how the county spends money."
+  },
+  {
+   "id": "roads",
+   "name": "Roads and transportation",
+   "blurb": "Road projects, transit and traffic."
+  },
+  {
+   "id": "water",
+   "name": "Water, storms and environment",
+   "blurb": "Flooding, stormwater, beaches and the environment."
+  },
+  {
+   "id": "safety",
+   "name": "Public safety",
+   "blurb": "Sheriff, fire rescue and emergency services."
+  },
+  {
+   "id": "other",
+   "name": "Other decisions",
+   "blurb": "Everything else the commission voted on."
+  }
+ ],
+ "manualProblems": []
+}

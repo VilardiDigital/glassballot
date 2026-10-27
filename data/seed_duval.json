@@ -1,0 +1,274 @@
+{
+ "county": {
+  "id": "duval",
+  "name": "Duval County",
+  "state": "FL",
+  "body": "Board of County Commissioners",
+  "electionDate": "2026-11-03",
+  "auto": true,
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=duval&el=40"
+ },
+ "sources": {
+  "soe-vf": {
+   "title": "Duval County Supervisor of Elections: 2026 candidates and campaign reports",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=duval&el=40",
+   "publisher": "Duval County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  }
+ },
+ "people": [
+  {
+   "id": "bradley",
+   "name": "Donovan Bradley",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "2",
+   "race": "sb-d2",
+   "finance": {
+    "voterfocusId": "1433",
+    "status": "Active- Advanced"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "myers",
+   "name": "Terence Lavele Myers",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "2",
+   "race": "sb-d2",
+   "finance": {
+    "voterfocusId": "1421",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "westrich",
+   "name": "Donna Mae Westrich",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "2",
+   "race": "sb-d2",
+   "finance": {
+    "voterfocusId": "1401",
+    "status": "Active- Advanced"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "butler",
+   "name": "Alfreda Denson Butler",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "4",
+   "race": "sb-d4",
+   "finance": {
+    "voterfocusId": "1380",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "rhodesiabutler",
+   "name": "Rhodesia \"Rho\" Butler",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "4",
+   "race": "sb-d4",
+   "finance": {
+    "voterfocusId": "1379",
+    "status": "Active- Advanced"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "jacobs",
+   "name": "James \"Coach\" Jacobs",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "4",
+   "race": "sb-d4",
+   "finance": {
+    "voterfocusId": "1253",
+    "status": "Active- Advanced"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "kearsemccastler",
+   "name": "Gracie Bell Kearse-McCastler",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "4",
+   "race": "sb-d4",
+   "finance": {
+    "voterfocusId": "1457",
+    "status": "Active- Qualified Write-In"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "denmark",
+   "name": "Lindsey Denmark",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "6",
+   "race": "sb-d6",
+   "finance": {
+    "voterfocusId": "1403",
+    "status": "Active- Advanced"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "james",
+   "name": "Clarence \"CJ\" James",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "6",
+   "race": "sb-d6",
+   "finance": {
+    "voterfocusId": "1381",
+    "status": "Active- Advanced"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "petty",
+   "name": "Michelle Petty",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "6",
+   "race": "sb-d6",
+   "finance": {
+    "voterfocusId": "1386",
+    "status": "Inactive - Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "stafford",
+   "name": "Robert Stafford",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "6",
+   "race": "sb-d6",
+   "finance": {
+    "voterfocusId": "1418",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "thomas",
+   "name": "Tammyette Thomas",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "6",
+   "race": "sb-d6",
+   "finance": {
+    "voterfocusId": "1471",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  }
+ ],
+ "races": [
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d2",
+   "title": "School Board, District 2",
+   "office": "School Board Dist 2",
+   "people": [
+    "bradley",
+    "myers",
+    "westrich"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d4",
+   "title": "School Board, District 4",
+   "office": "School Board Dist 4",
+   "people": [
+    "butler",
+    "rhodesiabutler",
+    "jacobs",
+    "kearsemccastler"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d6",
+   "title": "School Board, District 6",
+   "office": "School Board Dist 6",
+   "people": [
+    "denmark",
+    "james",
+    "petty",
+    "stafford",
+    "thomas"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false
+  }
+ ],
+ "votes": [],
+ "topics": [
+  {
+   "id": "growth",
+   "name": "Growth, land use and housing",
+   "blurb": "Rezonings, land use changes and big new communities."
+  },
+  {
+   "id": "taxes",
+   "name": "Taxes and the budget",
+   "blurb": "Property tax rates, fees and how the county spends money."
+  },
+  {
+   "id": "roads",
+   "name": "Roads and transportation",
+   "blurb": "Road projects, transit and traffic."
+  },
+  {
+   "id": "water",
+   "name": "Water, storms and environment",
+   "blurb": "Flooding, stormwater, beaches and the environment."
+  },
+  {
+   "id": "safety",
+   "name": "Public safety",
+   "blurb": "Sheriff, fire rescue and emergency services."
+  },
+  {
+   "id": "other",
+   "name": "Other decisions",
+   "blurb": "Everything else the commission voted on."
+  }
+ ],
+ "manualProblems": []
+}

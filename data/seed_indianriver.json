@@ -1,0 +1,286 @@
+{
+ "county": {
+  "id": "indianriver",
+  "name": "Indian River County",
+  "state": "FL",
+  "body": "Board of County Commissioners",
+  "electionDate": "2026-11-03",
+  "auto": true,
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=indianriver&el=18"
+ },
+ "sources": {
+  "soe-vf": {
+   "title": "Indian River County Supervisor of Elections: 2026 candidates and campaign reports",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=indianriver&el=18",
+   "publisher": "Indian River County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  }
+ },
+ "people": [
+  {
+   "id": "hardingham",
+   "name": "Robert (Robbie) D. Hardingham",
+   "claims": {
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "567",
+    "status": "Active- Qualified"
+   }
+  },
+  {
+   "id": "paradiso",
+   "name": "Nicole Paradiso",
+   "claims": {
+    "party": [
+     {
+      "value": "Write-in",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "573",
+    "status": "Active- Qualified Write-In"
+   }
+  },
+  {
+   "id": "pippin",
+   "name": "Jennifer Pippin",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "566",
+    "status": "Active- Qualified"
+   }
+  },
+  {
+   "id": "jaffe",
+   "name": "Marc Jaffe",
+   "claims": {
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "564",
+    "status": "Active- Qualified"
+   }
+  },
+  {
+   "id": "loar",
+   "name": "Deryl Byron Loar",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "560",
+    "status": "Active- Qualified"
+   }
+  },
+  {
+   "id": "matthews",
+   "name": "Ryan Matthews",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "555",
+    "status": "Active- Unopposed"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "lange",
+   "name": "Thomas Lange",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "2",
+   "race": "sb-d2",
+   "finance": {
+    "voterfocusId": "556",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "rosario",
+   "name": "Jacqueline Rosario",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "2",
+   "race": "sb-d2",
+   "finance": {
+    "voterfocusId": "558",
+    "status": "Active- Elected"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "barenborg",
+   "name": "Teri L. Barenborg",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "4",
+   "race": "sb-d4",
+   "finance": {
+    "voterfocusId": "557",
+    "status": "Inactive - Unopposed"
+   },
+   "nonpartisan": true
+  }
+ ],
+ "races": [
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d2",
+   "title": "County Commission, District 2",
+   "office": "Board of County Commissioners - Dist 2",
+   "people": [
+    "hardingham",
+    "paradiso",
+    "pippin"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d4",
+   "title": "County Commission, District 4",
+   "office": "Board of County Commissioners - Dist 4",
+   "people": [
+    "jaffe",
+    "loar"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d1",
+   "title": "School Board, District 1",
+   "office": "School Board - Dist 1",
+   "people": [
+    "matthews"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Ryan Matthews (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d2",
+   "title": "School Board, District 2",
+   "office": "School Board - Dist 2",
+   "people": [
+    "lange",
+    "rosario"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Jacqueline Rosario (elected)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d4",
+   "title": "School Board, District 4",
+   "office": "School Board - Dist 4",
+   "people": [
+    "barenborg"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Teri L. Barenborg (unopposed)"
+  }
+ ],
+ "votes": [],
+ "topics": [
+  {
+   "id": "growth",
+   "name": "Growth, land use and housing",
+   "blurb": "Rezonings, land use changes and big new communities."
+  },
+  {
+   "id": "taxes",
+   "name": "Taxes and the budget",
+   "blurb": "Property tax rates, fees and how the county spends money."
+  },
+  {
+   "id": "roads",
+   "name": "Roads and transportation",
+   "blurb": "Road projects, transit and traffic."
+  },
+  {
+   "id": "water",
+   "name": "Water, storms and environment",
+   "blurb": "Flooding, stormwater, beaches and the environment."
+  },
+  {
+   "id": "safety",
+   "name": "Public safety",
+   "blurb": "Sheriff, fire rescue and emergency services."
+  },
+  {
+   "id": "other",
+   "name": "Other decisions",
+   "blurb": "Everything else the commission voted on."
+  }
+ ],
+ "manualProblems": []
+}

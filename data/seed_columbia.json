@@ -1,0 +1,241 @@
+{
+ "county": {
+  "id": "columbia",
+  "name": "Columbia County",
+  "state": "FL",
+  "body": "Board of County Commissioners",
+  "electionDate": "2026-11-03",
+  "auto": true,
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=columbia&el=29"
+ },
+ "sources": {
+  "soe-vf": {
+   "title": "Columbia County Supervisor of Elections: 2026 candidates and campaign reports",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=columbia&el=29",
+   "publisher": "Columbia County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  }
+ },
+ "people": [
+  {
+   "id": "ford",
+   "name": "ROCKY FORD",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "1314",
+    "status": "Active- Runoff"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "pittman",
+   "name": "CLINT PITTMAN",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "1319",
+    "status": "Active- Runoff"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "dicks",
+   "name": "CHRIS DICKS",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "1308",
+    "status": "Active- Runoff"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "phillips",
+   "name": "EVERETT A. PHILLIPS",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "1310",
+    "status": "Active- Runoff"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "goswami",
+   "name": "NIKI GOSWAMI",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "1318",
+    "status": "Inactive - Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "smith",
+   "name": "NARRAGANSETT SMITH",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "1315",
+    "status": "Inactive - Elected"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "hill",
+   "name": "CHERIE HILL",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "3",
+   "race": "sb-d3",
+   "finance": {
+    "voterfocusId": "1313",
+    "status": "Inactive - Unopposed"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "peeler",
+   "name": "HUNTER PEELER",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "5",
+   "race": "sb-d5",
+   "finance": {
+    "voterfocusId": "1311",
+    "status": "Inactive - Unopposed"
+   },
+   "nonpartisan": true
+  }
+ ],
+ "races": [
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d2",
+   "title": "County Commission, District 2",
+   "office": "COUNTY COMMISSION DIST 2",
+   "people": [
+    "ford",
+    "pittman"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d4",
+   "title": "County Commission, District 4",
+   "office": "COUNTY COMMISSION DIST 4",
+   "people": [
+    "dicks",
+    "phillips"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d1",
+   "title": "School Board, District 1",
+   "office": "SCHOOL BOARD DIST 1",
+   "people": [
+    "goswami",
+    "smith"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "NARRAGANSETT SMITH (elected)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d3",
+   "title": "School Board, District 3",
+   "office": "SCHOOL BOARD DIST 3",
+   "people": [
+    "hill"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "CHERIE HILL (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d5",
+   "title": "School Board, District 5",
+   "office": "SCHOOL BOARD DIST 5",
+   "people": [
+    "peeler"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "HUNTER PEELER (unopposed)"
+  }
+ ],
+ "votes": [],
+ "topics": [
+  {
+   "id": "growth",
+   "name": "Growth, land use and housing",
+   "blurb": "Rezonings, land use changes and big new communities."
+  },
+  {
+   "id": "taxes",
+   "name": "Taxes and the budget",
+   "blurb": "Property tax rates, fees and how the county spends money."
+  },
+  {
+   "id": "roads",
+   "name": "Roads and transportation",
+   "blurb": "Road projects, transit and traffic."
+  },
+  {
+   "id": "water",
+   "name": "Water, storms and environment",
+   "blurb": "Flooding, stormwater, beaches and the environment."
+  },
+  {
+   "id": "safety",
+   "name": "Public safety",
+   "blurb": "Sheriff, fire rescue and emergency services."
+  },
+  {
+   "id": "other",
+   "name": "Other decisions",
+   "blurb": "Everything else the commission voted on."
+  }
+ ],
+ "manualProblems": []
+}

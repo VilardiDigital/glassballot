@@ -1,0 +1,256 @@
+{
+ "county": {
+  "id": "union",
+  "name": "Union County",
+  "state": "FL",
+  "body": "Board of County Commissioners",
+  "electionDate": "2026-11-03",
+  "auto": true,
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=union&el=11"
+ },
+ "sources": {
+  "soe-vf": {
+   "title": "Union County Supervisor of Elections: 2026 candidates and campaign reports",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=union&el=11",
+   "publisher": "Union County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  }
+ },
+ "people": [
+  {
+   "id": "hodgson",
+   "name": "Christopher Hodgson",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "race": "sb-dist-1-school-board",
+   "finance": {
+    "voterfocusId": "163",
+    "status": "Active- Incumbent"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "peter",
+   "name": "Calvin \"Cal\" Jr Peter",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "race": "sb-dist-1-school-board",
+   "finance": {
+    "voterfocusId": "162",
+    "status": "Active- Filed"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "clyatt",
+   "name": "Curtis Clyatt",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "race": "sb-dist-3-school-board",
+   "finance": {
+    "voterfocusId": "164",
+    "status": "Active- Unopposed"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "johnson",
+   "name": "Terra Johnson",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "race": "sb-dist-5-school-board",
+   "finance": {
+    "voterfocusId": "165",
+    "status": "Active- Unopposed"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "clark",
+   "name": "Casey Clark",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "race": "bcc-dist-2-county-commissioner",
+   "finance": {
+    "voterfocusId": "160",
+    "status": "Active- Filed"
+   }
+  },
+  {
+   "id": "dobbs",
+   "name": "Channing Dobbs",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "race": "bcc-dist-2-county-commissioner",
+   "finance": {
+    "voterfocusId": "166",
+    "status": "Active- Incumbent"
+   }
+  },
+  {
+   "id": "johns",
+   "name": "Mac Johns",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "race": "bcc-dist-4-county-commissioner",
+   "finance": {
+    "voterfocusId": "161",
+    "status": "Active- Incumbent"
+   }
+  },
+  {
+   "id": "parrish",
+   "name": "Donald E Jr Parrish",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "race": "bcc-dist-4-county-commissioner",
+   "finance": {
+    "voterfocusId": "159",
+    "status": "Active- Filed"
+   }
+  }
+ ],
+ "races": [
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-dist-1-school-board",
+   "title": "School Board",
+   "office": "Dist # 1 School Board",
+   "people": [
+    "hodgson",
+    "peter"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-dist-3-school-board",
+   "title": "School Board",
+   "office": "Dist # 3 School Board",
+   "people": [
+    "clyatt"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Curtis Clyatt (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-dist-5-school-board",
+   "title": "School Board",
+   "office": "Dist # 5 School Board",
+   "people": [
+    "johnson"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Terra Johnson (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-dist-2-county-commissioner",
+   "title": "County Commission",
+   "office": "Dist #2 County Commissioner",
+   "people": [
+    "clark",
+    "dobbs"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-dist-4-county-commissioner",
+   "title": "County Commission",
+   "office": "Dist #4 County Commissioner",
+   "people": [
+    "johns",
+    "parrish"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false
+  }
+ ],
+ "votes": [],
+ "topics": [
+  {
+   "id": "growth",
+   "name": "Growth, land use and housing",
+   "blurb": "Rezonings, land use changes and big new communities."
+  },
+  {
+   "id": "taxes",
+   "name": "Taxes and the budget",
+   "blurb": "Property tax rates, fees and how the county spends money."
+  },
+  {
+   "id": "roads",
+   "name": "Roads and transportation",
+   "blurb": "Road projects, transit and traffic."
+  },
+  {
+   "id": "water",
+   "name": "Water, storms and environment",
+   "blurb": "Flooding, stormwater, beaches and the environment."
+  },
+  {
+   "id": "safety",
+   "name": "Public safety",
+   "blurb": "Sheriff, fire rescue and emergency services."
+  },
+  {
+   "id": "other",
+   "name": "Other decisions",
+   "blurb": "Everything else the commission voted on."
+  }
+ ],
+ "manualProblems": []
+}

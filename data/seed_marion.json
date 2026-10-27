@@ -1,0 +1,277 @@
+{
+ "county": {
+  "id": "marion",
+  "name": "Marion County",
+  "state": "FL",
+  "body": "Board of County Commissioners",
+  "electionDate": "2026-11-03",
+  "auto": true,
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=marion&el=28"
+ },
+ "sources": {
+  "soe-vf": {
+   "title": "Marion County Supervisor of Elections: 2026 candidates and campaign reports",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=marion&el=28",
+   "publisher": "Marion County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "legistar": {
+   "title": "Marion County Board of County Commissioners meeting records (Legistar)",
+   "url": "https://marionfl.legistar.com/Calendar.aspx",
+   "publisher": "Marion County Board of County Commissioners",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  }
+ },
+ "people": [
+  {
+   "id": "bryant",
+   "name": "Kathy Bryant",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2019",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent"
+  },
+  {
+   "id": "zalak",
+   "name": "Carl Zalak III",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2019",
+      "source": "legistar"
+     }
+    ],
+    "leadership": [
+     {
+      "value": "Chairman",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent"
+  },
+  {
+   "id": "curry",
+   "name": "Craig Curry",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2024",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent"
+  },
+  {
+   "id": "stone",
+   "name": "Michelle Stone",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2024",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent"
+  },
+  {
+   "id": "mcclain",
+   "name": "Matt McClain",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2024",
+      "source": "legistar"
+     }
+    ],
+    "leadership": [
+     {
+      "value": "Vice Chair",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent"
+  },
+  {
+   "id": "account",
+   "name": "Craig Curry Office Account",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "race": "bcc-county-commissioner-1",
+   "finance": {
+    "voterfocusId": "584",
+    "status": "Inactive"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "kathyaccount",
+   "name": "Kathy Bryant Office Account",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "race": "bcc-county-commissioner-2",
+   "finance": {
+    "voterfocusId": "477",
+    "status": "Inactive"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "jeffaccount",
+   "name": "Jeff Gold Office Account",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "race": "bcc-county-commissioner-3",
+   "finance": {
+    "voterfocusId": "583",
+    "status": "Inactive"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "carlaccount",
+   "name": "Carl Zalak III Office Account",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "race": "bcc-county-commissioner-4",
+   "finance": {
+    "voterfocusId": "478",
+    "status": "Active"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "michelleaccount",
+   "name": "Michelle Stone Office Account",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "race": "bcc-county-commissioner-5",
+   "finance": {
+    "voterfocusId": "579",
+    "status": "Active"
+   },
+   "nonpartisan": false
+  }
+ ],
+ "races": [
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-county-commissioner-1",
+   "title": "County Commission",
+   "office": "COUNTY COMMISSIONER - 1",
+   "people": [
+    "account"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-county-commissioner-2",
+   "title": "County Commission",
+   "office": "COUNTY COMMISSIONER - 2",
+   "people": [
+    "kathyaccount"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-county-commissioner-3",
+   "title": "County Commission",
+   "office": "COUNTY COMMISSIONER - 3",
+   "people": [
+    "jeffaccount"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-county-commissioner-4",
+   "title": "County Commission",
+   "office": "COUNTY COMMISSIONER - 4",
+   "people": [
+    "carlaccount"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-county-commissioner-5",
+   "title": "County Commission",
+   "office": "COUNTY COMMISSIONER - 5",
+   "people": [
+    "michelleaccount"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false
+  }
+ ],
+ "votes": [],
+ "topics": [
+  {
+   "id": "growth",
+   "name": "Growth, land use and housing",
+   "blurb": "Rezonings, land use changes and big new communities."
+  },
+  {
+   "id": "taxes",
+   "name": "Taxes and the budget",
+   "blurb": "Property tax rates, fees and how the county spends money."
+  },
+  {
+   "id": "roads",
+   "name": "Roads and transportation",
+   "blurb": "Road projects, transit and traffic."
+  },
+  {
+   "id": "water",
+   "name": "Water, storms and environment",
+   "blurb": "Flooding, stormwater, beaches and the environment."
+  },
+  {
+   "id": "safety",
+   "name": "Public safety",
+   "blurb": "Sheriff, fire rescue and emergency services."
+  },
+  {
+   "id": "other",
+   "name": "Other decisions",
+   "blurb": "Everything else the commission voted on."
+  }
+ ],
+ "manualProblems": []
+}

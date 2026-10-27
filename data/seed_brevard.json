@@ -1,0 +1,422 @@
+{
+ "county": {
+  "id": "brevard",
+  "name": "Brevard County",
+  "state": "FL",
+  "body": "Board of County Commissioners",
+  "electionDate": "2026-11-03",
+  "auto": true,
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=brevard&el=30"
+ },
+ "sources": {
+  "soe-vf": {
+   "title": "Brevard County Supervisor of Elections: 2026 candidates and campaign reports",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=brevard&el=30",
+   "publisher": "Brevard County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "legistar": {
+   "title": "Brevard County Board of County Commissioners meeting records (Legistar)",
+   "url": "https://brevardfl.legistar.com/Calendar.aspx",
+   "publisher": "Brevard County Board of County Commissioners",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  }
+ },
+ "people": [
+  {
+   "id": "goodson",
+   "name": "Tom Goodson",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2022",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "2"
+  },
+  {
+   "id": "feltner",
+   "name": "Rob Feltner",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2022",
+      "source": "legistar"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "1065",
+    "status": "Active- Unopposed"
+   }
+  },
+  {
+   "id": "adkinson",
+   "name": "Kim Adkinson",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2024",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "3"
+  },
+  {
+   "id": "altman",
+   "name": "Thad Altman",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2024",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "5"
+  },
+  {
+   "id": "pritchett",
+   "name": "Rita Pritchett",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2026",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "1"
+  },
+  {
+   "id": "bookhardt",
+   "name": "Aldon Bookhardt",
+   "claims": {
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "1",
+   "race": "bcc-d1",
+   "finance": {
+    "voterfocusId": "1102",
+    "status": "Active- Qualified"
+   }
+  },
+  {
+   "id": "loyd",
+   "name": "Micah Loyd",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "1",
+   "race": "bcc-d1",
+   "finance": {
+    "voterfocusId": "1085",
+    "status": "Active- Qualified"
+   }
+  },
+  {
+   "id": "slusher",
+   "name": "Nathan Ray Slusher",
+   "claims": {
+    "party": [
+     {
+      "value": "Libertarian",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "1",
+   "race": "bcc-d1",
+   "finance": {
+    "voterfocusId": "1084",
+    "status": "Active- Qualified"
+   }
+  },
+  {
+   "id": "sirois",
+   "name": "Tyler Sirois",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "1046",
+    "status": "Active- Unopposed"
+   }
+  },
+  {
+   "id": "dyer",
+   "name": "Adam Dyer",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "1060",
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "gibson",
+   "name": "Tara Gibson",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "1075",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "wright",
+   "name": "Megan Wright",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "1079",
+    "status": "Active- Elected"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "savage",
+   "name": "Kyle Savage",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "2",
+   "race": "sb-d2",
+   "finance": {
+    "voterfocusId": "1082",
+    "status": "Active- Qualified"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "trent",
+   "name": "Gene Trent",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "2",
+   "race": "sb-d2",
+   "finance": {
+    "voterfocusId": "1080",
+    "status": "Active- Qualified"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "dennis",
+   "name": "Tammy Dennis",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "5",
+   "race": "sb-d5",
+   "finance": {
+    "voterfocusId": "1069",
+    "status": "Active- Qualified"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "mccormack",
+   "name": "Michele McCormack",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "5",
+   "race": "sb-d5",
+   "finance": {
+    "voterfocusId": "1068",
+    "status": "Active- Qualified"
+   },
+   "nonpartisan": true
+  }
+ ],
+ "races": [
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d1",
+   "title": "County Commission, District 1",
+   "office": "County Commissioner, District 1",
+   "people": [
+    "bookhardt",
+    "loyd",
+    "slusher"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d2",
+   "title": "County Commission, District 2",
+   "office": "County Commissioner, District 2",
+   "people": [
+    "sirois"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Tyler Sirois (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d4",
+   "title": "County Commission, District 4",
+   "office": "County Commissioner, District 4",
+   "people": [
+    "dyer",
+    "feltner"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Rob Feltner (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d1",
+   "title": "School Board, District 1",
+   "office": "School Board, District 1",
+   "people": [
+    "gibson",
+    "wright"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Megan Wright (elected)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d2",
+   "title": "School Board, District 2",
+   "office": "School Board, District 2",
+   "people": [
+    "savage",
+    "trent"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d5",
+   "title": "School Board, District 5",
+   "office": "School Board, District 5",
+   "people": [
+    "dennis",
+    "mccormack"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  }
+ ],
+ "votes": [],
+ "topics": [
+  {
+   "id": "growth",
+   "name": "Growth, land use and housing",
+   "blurb": "Rezonings, land use changes and big new communities."
+  },
+  {
+   "id": "taxes",
+   "name": "Taxes and the budget",
+   "blurb": "Property tax rates, fees and how the county spends money."
+  },
+  {
+   "id": "roads",
+   "name": "Roads and transportation",
+   "blurb": "Road projects, transit and traffic."
+  },
+  {
+   "id": "water",
+   "name": "Water, storms and environment",
+   "blurb": "Flooding, stormwater, beaches and the environment."
+  },
+  {
+   "id": "safety",
+   "name": "Public safety",
+   "blurb": "Sheriff, fire rescue and emergency services."
+  },
+  {
+   "id": "other",
+   "name": "Other decisions",
+   "blurb": "Everything else the commission voted on."
+  }
+ ],
+ "manualProblems": []
+}

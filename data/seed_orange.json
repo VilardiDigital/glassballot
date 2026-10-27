@@ -1,0 +1,452 @@
+{
+ "county": {
+  "id": "orange",
+  "name": "Orange County",
+  "state": "FL",
+  "body": "Board of County Commissioners",
+  "electionDate": "2026-11-03",
+  "auto": true,
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=orange&el=105"
+ },
+ "sources": {
+  "soe-vf": {
+   "title": "Orange County Supervisor of Elections: 2026 candidates and campaign reports",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=orange&el=105",
+   "publisher": "Orange County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  }
+ },
+ "people": [
+  {
+   "id": "brown",
+   "name": "Kamia Brown",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "1290",
+    "status": "Active- Runoff"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "crabb",
+   "name": "Mike Crabb",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "1384",
+    "status": "Active- Runoff"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "arthur",
+   "name": "Isabella Arthur",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "1378",
+    "status": "Active- Qualified Write-In"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "jones",
+   "name": "Brian Jones",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "1260",
+    "status": "Active- Qualified"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "lopez",
+   "name": "Johanna Lopez",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "1279",
+    "status": "Active- Qualified"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "gelzer",
+   "name": "Lawanna Gelzer",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "6",
+   "race": "bcc-d6",
+   "finance": {
+    "voterfocusId": "1295",
+    "status": "Active- Runoff"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "scott",
+   "name": "Michael \"Mike\" Scott",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "6",
+   "race": "bcc-d6",
+   "finance": {
+    "voterfocusId": "1265",
+    "status": "Active- Runoff"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "rumph",
+   "name": "Patricia Rumph",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "7",
+   "race": "bcc-d7",
+   "finance": {
+    "voterfocusId": "1283",
+    "status": "Active- Runoff"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "vargo",
+   "name": "Vicki Vargo",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "7",
+   "race": "bcc-d7",
+   "finance": {
+    "voterfocusId": "1271",
+    "status": "Active- Runoff"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "hernandez",
+   "name": "Jeannette Quinones Hernandez",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "8",
+   "race": "bcc-d8",
+   "finance": {
+    "voterfocusId": "1275",
+    "status": "Active- Runoff"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "torres",
+   "name": "Victor M. Torres Jr.",
+   "claims": {},
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "8",
+   "race": "bcc-d8",
+   "finance": {
+    "voterfocusId": "1272",
+    "status": "Active- Runoff"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "farrant",
+   "name": "Alicia Farrant",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "race": "sb-school-board-chair",
+   "finance": {
+    "voterfocusId": "1269",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "gallo",
+   "name": "Angie Gallo",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "race": "sb-school-board-chair",
+   "finance": {
+    "voterfocusId": "1245",
+    "status": "Active- Elected"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "marantes",
+   "name": "Melissa Lopez Marantes",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "1270",
+    "status": "Active- Elected"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "shepard",
+   "name": "David Shepard",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "1267",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "lugo",
+   "name": "Marisol Lugo",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "2",
+   "race": "sb-d2",
+   "finance": {
+    "voterfocusId": "1278",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "oneal",
+   "name": "Gloria Reina O'Neal",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "2",
+   "race": "sb-d2",
+   "finance": {
+    "voterfocusId": "1318",
+    "status": "Active- Elected"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "moore",
+   "name": "Diana Moore",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "3",
+   "race": "sb-d3",
+   "finance": {
+    "voterfocusId": "1314",
+    "status": "Active- Runoff"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "pea",
+   "name": "Susanne Peña",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "3",
+   "race": "sb-d3",
+   "finance": {
+    "voterfocusId": "1242",
+    "status": "Active- Runoff"
+   },
+   "nonpartisan": true
+  }
+ ],
+ "races": [
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d2",
+   "title": "County Commission, District 2",
+   "office": "County Commissioner District 2",
+   "people": [
+    "brown",
+    "crabb"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d4",
+   "title": "County Commission, District 4",
+   "office": "County Commissioner District 4",
+   "people": [
+    "arthur",
+    "jones",
+    "lopez"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d6",
+   "title": "County Commission, District 6",
+   "office": "County Commissioner District 6",
+   "people": [
+    "gelzer",
+    "scott"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d7",
+   "title": "County Commission, District 7",
+   "office": "County Commissioner District 7",
+   "people": [
+    "rumph",
+    "vargo"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d8",
+   "title": "County Commission, District 8",
+   "office": "County Commissioner District 8",
+   "people": [
+    "hernandez",
+    "torres"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-school-board-chair",
+   "title": "School Board",
+   "office": "School Board Chair",
+   "people": [
+    "farrant",
+    "gallo"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Angie Gallo (elected)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d1",
+   "title": "School Board, District 1",
+   "office": "School Board Dist. 1",
+   "people": [
+    "marantes",
+    "shepard"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Melissa Lopez Marantes (elected)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d2",
+   "title": "School Board, District 2",
+   "office": "School Board Dist. 2",
+   "people": [
+    "lugo",
+    "oneal"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Gloria Reina O'Neal (elected)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d3",
+   "title": "School Board, District 3",
+   "office": "School Board Dist. 3",
+   "people": [
+    "moore",
+    "pea"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  }
+ ],
+ "votes": [],
+ "topics": [
+  {
+   "id": "growth",
+   "name": "Growth, land use and housing",
+   "blurb": "Rezonings, land use changes and big new communities."
+  },
+  {
+   "id": "taxes",
+   "name": "Taxes and the budget",
+   "blurb": "Property tax rates, fees and how the county spends money."
+  },
+  {
+   "id": "roads",
+   "name": "Roads and transportation",
+   "blurb": "Road projects, transit and traffic."
+  },
+  {
+   "id": "water",
+   "name": "Water, storms and environment",
+   "blurb": "Flooding, stormwater, beaches and the environment."
+  },
+  {
+   "id": "safety",
+   "name": "Public safety",
+   "blurb": "Sheriff, fire rescue and emergency services."
+  },
+  {
+   "id": "other",
+   "name": "Other decisions",
+   "blurb": "Everything else the commission voted on."
+  }
+ ],
+ "manualProblems": []
+}

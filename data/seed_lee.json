@@ -1,0 +1,377 @@
+{
+ "county": {
+  "id": "lee",
+  "name": "Lee County",
+  "state": "FL",
+  "body": "Board of County Commissioners",
+  "electionDate": "2026-11-03",
+  "auto": true,
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=lee&el=34"
+ },
+ "sources": {
+  "soe-vf": {
+   "title": "Lee County Supervisor of Elections: 2026 candidates and campaign reports",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=lee&el=34",
+   "publisher": "Lee County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  }
+ },
+ "people": [
+  {
+   "id": "pendergrass",
+   "name": "Cecil L Pendergrass",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "race": "bcc-county-commissioner-2",
+   "finance": {
+    "voterfocusId": "2235",
+    "status": "Active- Qualified"
+   }
+  },
+  {
+   "id": "taylor",
+   "name": "Elliot Taylor",
+   "claims": {
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "race": "bcc-county-commissioner-2",
+   "finance": {
+    "voterfocusId": "2397",
+    "status": "Active- Qualified"
+   }
+  },
+  {
+   "id": "artis",
+   "name": "DeMaria \"Princess\" Artis",
+   "claims": {
+    "party": [
+     {
+      "value": "No party affiliation",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "race": "bcc-county-commissioner-4",
+   "finance": {
+    "voterfocusId": "2413",
+    "status": "Active- Qualified"
+   }
+  },
+  {
+   "id": "hamman",
+   "name": "Brian Hamman",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "race": "bcc-county-commissioner-4",
+   "finance": {
+    "voterfocusId": "2222",
+    "status": "Active- Qualified"
+   }
+  },
+  {
+   "id": "cochran",
+   "name": "Amanda Cochran",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "race": "bcc-county-commissioner-5",
+   "finance": {
+    "voterfocusId": "2224",
+    "status": "Inactive - Elected"
+   }
+  },
+  {
+   "id": "petrosky",
+   "name": "Trish Petrosky",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "race": "bcc-county-commissioner-5",
+   "finance": {
+    "voterfocusId": "2232",
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "fisher",
+   "name": "Sam Fisher",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "race": "sb-school-board-1",
+   "finance": {
+    "voterfocusId": "2226",
+    "status": "Inactive - Elected"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "mcdaigle",
+   "name": "Jenn McDaigle",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "race": "sb-school-board-1",
+   "finance": {
+    "voterfocusId": "2238",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "beougher",
+   "name": "Tony Beougher",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "race": "sb-school-board-4",
+   "finance": {
+    "voterfocusId": "2216",
+    "status": "Active- Qualified"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "jordan",
+   "name": "Debbie Jordan",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "race": "sb-school-board-4",
+   "finance": {
+    "voterfocusId": "2207",
+    "status": "Active- Qualified"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "johnson",
+   "name": "Crystal Johnson",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "race": "sb-school-board-5",
+   "finance": {
+    "voterfocusId": "2239",
+    "status": "Active- Qualified"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "persons",
+   "name": "Armor Persons",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "race": "sb-school-board-5",
+   "finance": {
+    "voterfocusId": "2204",
+    "status": "Active- Qualified"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "langfordfleming",
+   "name": "Jada Langford-Fleming",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "race": "sb-school-board-6-at-large",
+   "finance": {
+    "voterfocusId": "2225",
+    "status": "Active- Elected"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "palencia",
+   "name": "India Palencia",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "race": "sb-school-board-6-at-large",
+   "finance": {
+    "voterfocusId": "2201",
+    "status": "Inactive - Defeated"
+   },
+   "nonpartisan": true
+  }
+ ],
+ "races": [
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-county-commissioner-2",
+   "title": "County Commission",
+   "office": "COUNTY COMMISSIONER-2",
+   "people": [
+    "pendergrass",
+    "taylor"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-county-commissioner-4",
+   "title": "County Commission",
+   "office": "COUNTY COMMISSIONER-4",
+   "people": [
+    "artis",
+    "hamman"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-county-commissioner-5",
+   "title": "County Commission",
+   "office": "COUNTY COMMISSIONER-5",
+   "people": [
+    "cochran",
+    "petrosky"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Amanda Cochran (elected)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-school-board-1",
+   "title": "School Board",
+   "office": "SCHOOL BOARD-1",
+   "people": [
+    "fisher",
+    "mcdaigle"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Sam Fisher (elected)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-school-board-4",
+   "title": "School Board",
+   "office": "SCHOOL BOARD-4",
+   "people": [
+    "beougher",
+    "jordan"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-school-board-5",
+   "title": "School Board",
+   "office": "SCHOOL BOARD-5",
+   "people": [
+    "johnson",
+    "persons"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-school-board-6-at-large",
+   "title": "School Board",
+   "office": "SCHOOL BOARD-6 AT LARGE",
+   "people": [
+    "langfordfleming",
+    "palencia"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Jada Langford-Fleming (elected)"
+  }
+ ],
+ "votes": [],
+ "topics": [
+  {
+   "id": "growth",
+   "name": "Growth, land use and housing",
+   "blurb": "Rezonings, land use changes and big new communities."
+  },
+  {
+   "id": "taxes",
+   "name": "Taxes and the budget",
+   "blurb": "Property tax rates, fees and how the county spends money."
+  },
+  {
+   "id": "roads",
+   "name": "Roads and transportation",
+   "blurb": "Road projects, transit and traffic."
+  },
+  {
+   "id": "water",
+   "name": "Water, storms and environment",
+   "blurb": "Flooding, stormwater, beaches and the environment."
+  },
+  {
+   "id": "safety",
+   "name": "Public safety",
+   "blurb": "Sheriff, fire rescue and emergency services."
+  },
+  {
+   "id": "other",
+   "name": "Other decisions",
+   "blurb": "Everything else the commission voted on."
+  }
+ ],
+ "manualProblems": []
+}

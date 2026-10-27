@@ -1,0 +1,235 @@
+{
+ "county": {
+  "id": "putnam",
+  "name": "Putnam County",
+  "state": "FL",
+  "body": "Board of County Commissioners",
+  "electionDate": "2026-11-03",
+  "auto": true,
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=putnam&el=34"
+ },
+ "sources": {
+  "soe-vf": {
+   "title": "Putnam County Supervisor of Elections: 2026 candidates and campaign reports",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=putnam&el=34",
+   "publisher": "Putnam County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  }
+ },
+ "people": [
+  {
+   "id": "pickens",
+   "name": "Holly Pickens",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "490",
+    "status": "Inactive - Unopposed"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "wagner",
+   "name": "Linda Wagner",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "4",
+   "race": "sb-d4",
+   "finance": {
+    "voterfocusId": "496",
+    "status": "Inactive - Unopposed"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "leary",
+   "name": "Phil Leary",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "5",
+   "race": "sb-d5",
+   "finance": {
+    "voterfocusId": "487",
+    "status": "Inactive - Unopposed"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "correa",
+   "name": "Robbi Correa",
+   "claims": {
+    "party": [
+     {
+      "value": "NP",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "race": "bcc-palatka-mayor-commissioner",
+   "finance": {
+    "voterfocusId": "512",
+    "status": "Inactive - Defeated"
+   }
+  },
+  {
+   "id": "daniel",
+   "name": "Tatyiana Henry Daniel",
+   "claims": {
+    "party": [
+     {
+      "value": "NP",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "race": "bcc-palatka-mayor-commissioner",
+   "finance": {
+    "voterfocusId": "505",
+    "status": "Inactive - Defeated"
+   }
+  },
+  {
+   "id": "daniels",
+   "name": "Constance Daniels",
+   "claims": {
+    "party": [
+     {
+      "value": "NP",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "race": "bcc-palatka-mayor-commissioner",
+   "finance": {
+    "voterfocusId": "509",
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "flagg",
+   "name": "Karl N. Flagg",
+   "claims": {
+    "party": [
+     {
+      "value": "NP",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "race": "bcc-palatka-mayor-commissioner",
+   "finance": {
+    "voterfocusId": "501",
+    "status": "Active- Elected"
+   }
+  }
+ ],
+ "races": [
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d1",
+   "title": "School Board, District 1",
+   "office": "School Board Dist 1",
+   "people": [
+    "pickens"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Holly Pickens (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d4",
+   "title": "School Board, District 4",
+   "office": "School Board Dist 4",
+   "people": [
+    "wagner"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Linda Wagner (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d5",
+   "title": "School Board, District 5",
+   "office": "School Board Dist 5",
+   "people": [
+    "leary"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Phil Leary (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-palatka-mayor-commissioner",
+   "title": "County Commission",
+   "office": "Palatka Mayor/ Commissioner",
+   "people": [
+    "correa",
+    "daniel",
+    "daniels",
+    "flagg"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Karl N. Flagg (elected)"
+  }
+ ],
+ "votes": [],
+ "topics": [
+  {
+   "id": "growth",
+   "name": "Growth, land use and housing",
+   "blurb": "Rezonings, land use changes and big new communities."
+  },
+  {
+   "id": "taxes",
+   "name": "Taxes and the budget",
+   "blurb": "Property tax rates, fees and how the county spends money."
+  },
+  {
+   "id": "roads",
+   "name": "Roads and transportation",
+   "blurb": "Road projects, transit and traffic."
+  },
+  {
+   "id": "water",
+   "name": "Water, storms and environment",
+   "blurb": "Flooding, stormwater, beaches and the environment."
+  },
+  {
+   "id": "safety",
+   "name": "Public safety",
+   "blurb": "Sheriff, fire rescue and emergency services."
+  },
+  {
+   "id": "other",
+   "name": "Other decisions",
+   "blurb": "Everything else the commission voted on."
+  }
+ ],
+ "manualProblems": []
+}

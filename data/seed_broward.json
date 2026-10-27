@@ -1,0 +1,592 @@
+{
+ "county": {
+  "id": "broward",
+  "name": "Broward County",
+  "state": "FL",
+  "body": "Board of County Commissioners",
+  "electionDate": "2026-11-03",
+  "auto": true,
+  "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=broward&el=150"
+ },
+ "sources": {
+  "soe-vf": {
+   "title": "Broward County Supervisor of Elections: 2026 candidates and campaign reports",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=broward&el=150",
+   "publisher": "Broward County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  },
+  "legistar": {
+   "title": "Broward County Board of County Commissioners meeting records (Legistar)",
+   "url": "https://broward.legistar.com/Calendar.aspx",
+   "publisher": "Broward County Board of County Commissioners",
+   "tier": 1,
+   "accessed": "2026-10-27"
+  }
+ },
+ "people": [
+  {
+   "id": "bogen",
+   "name": "Mark D. Bogen",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2018",
+      "source": "legistar"
+     }
+    ],
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "1179",
+    "status": "Active- Unopposed"
+   }
+  },
+  {
+   "id": "furr",
+   "name": "Beam Furr",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2017",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent"
+  },
+  {
+   "id": "geller",
+   "name": "Steve Geller",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2018",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent"
+  },
+  {
+   "id": "fisher",
+   "name": "Lamar P. Fisher",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2018",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent"
+  },
+  {
+   "id": "rich",
+   "name": "Nan H. Rich",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2018",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent"
+  },
+  {
+   "id": "udine",
+   "name": "Michael Udine",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2018",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent"
+  },
+  {
+   "id": "rogers",
+   "name": "Hazelle P. Rogers",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2022",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent"
+  },
+  {
+   "id": "mckinzie",
+   "name": "Robert McKinzie",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2022",
+      "source": "legistar"
+     }
+    ],
+    "leadership": [
+     {
+      "value": "Vice-Mayor",
+      "source": "legistar"
+     }
+    ],
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "8",
+   "race": "bcc-d8",
+   "finance": {
+    "voterfocusId": "1182",
+    "status": "Active- Unopposed"
+   }
+  },
+  {
+   "id": "davis",
+   "name": "Alexandra P. Davis",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2024",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent"
+  },
+  {
+   "id": "lamarfisher",
+   "name": "Lamar Fisher",
+   "claims": {
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "1178",
+    "status": "Active- Unopposed"
+   }
+  },
+  {
+   "id": "bold",
+   "name": "Eugen Mihai Bold",
+   "claims": {
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "6",
+   "race": "bcc-d6",
+   "finance": {
+    "voterfocusId": "1171",
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "jones",
+   "name": "Jeffery Jones",
+   "claims": {
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "6",
+   "race": "bcc-d6",
+   "finance": {
+    "voterfocusId": "1177",
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "ryan",
+   "name": "Archibald John Ryan IV",
+   "claims": {
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "6",
+   "race": "bcc-d6",
+   "finance": {
+    "voterfocusId": "1185",
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "shuham",
+   "name": "Caryl Sandler Shuham",
+   "claims": {
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-vf"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "6",
+   "race": "bcc-d6",
+   "finance": {
+    "voterfocusId": "1041",
+    "status": "Active- Elected"
+   }
+  },
+  {
+   "id": "bulman",
+   "name": "Maura McCarthy Bulman",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "1194",
+    "status": "Active- Elected"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "gimenez",
+   "name": "Carmen Jackie Gimenez",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "1213",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "kimmel",
+   "name": "Sharry Kimmel",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "4",
+   "race": "sb-d4",
+   "finance": {
+    "voterfocusId": "1189",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "morst",
+   "name": "Nicole Morst",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "4",
+   "race": "sb-d4",
+   "finance": {
+    "voterfocusId": "1191",
+    "status": "Active- Elected"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "cervera",
+   "name": "Adam Cervera",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "6",
+   "race": "sb-d6",
+   "finance": {
+    "voterfocusId": "1184",
+    "status": "Active- Qualified"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "fernandez",
+   "name": "Roberto Fernandez III",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "6",
+   "race": "sb-d6",
+   "finance": {
+    "voterfocusId": "1172",
+    "status": "Active- Qualified"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "dominique",
+   "name": "Cynthia Alceus Dominique",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "7",
+   "race": "sb-d7",
+   "finance": {
+    "voterfocusId": "1254",
+    "status": "Active- Elected"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "soffer",
+   "name": "Rochelle \"Shelly\" Soffer",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "7",
+   "race": "sb-d7",
+   "finance": {
+    "voterfocusId": "1260",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "azim",
+   "name": "Sonja Azim",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "race": "sb-school-board-at-large-8",
+   "finance": {
+    "voterfocusId": "1201",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "zeman",
+   "name": "Allen Zeman",
+   "claims": {},
+   "office": "Candidate, School Board",
+   "status": "open",
+   "race": "sb-school-board-at-large-8",
+   "finance": {
+    "voterfocusId": "1195",
+    "status": "Active- Elected"
+   },
+   "nonpartisan": true
+  }
+ ],
+ "races": [
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d2",
+   "title": "County Commission, District 2",
+   "office": "County Commission, Dist. 2",
+   "people": [
+    "bogen"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Mark D. Bogen (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d4",
+   "title": "County Commission, District 4",
+   "office": "County Commission, Dist. 4",
+   "people": [
+    "lamarfisher"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Lamar Fisher (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d6",
+   "title": "County Commission, District 6",
+   "office": "County Commission, Dist. 6",
+   "people": [
+    "bold",
+    "jones",
+    "ryan",
+    "shuham"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Caryl Sandler Shuham (elected)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "bcc-d8",
+   "title": "County Commission, District 8",
+   "office": "County Commission, Dist. 8",
+   "people": [
+    "mckinzie"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Robert McKinzie (unopposed)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d1",
+   "title": "School Board, District 1",
+   "office": "School Board, Dist. 1",
+   "people": [
+    "bulman",
+    "gimenez"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Maura McCarthy Bulman (elected)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d4",
+   "title": "School Board, District 4",
+   "office": "School Board, Dist. 4",
+   "people": [
+    "kimmel",
+    "morst"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Nicole Morst (elected)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d6",
+   "title": "School Board, District 6",
+   "office": "School Board, Dist. 6",
+   "people": [
+    "cervera",
+    "fernandez"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": true
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-d7",
+   "title": "School Board, District 7",
+   "office": "School Board, Dist. 7",
+   "people": [
+    "dominique",
+    "soffer"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Cynthia Alceus Dominique (elected)"
+  },
+  {
+   "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
+   "id": "sb-school-board-at-large-8",
+   "title": "School Board",
+   "office": "School Board, At Large 8",
+   "people": [
+    "azim",
+    "zeman"
+   ],
+   "sources": [
+    "soe-vf"
+   ],
+   "onNovBallot": false,
+   "decided": "Allen Zeman (elected)"
+  }
+ ],
+ "votes": [],
+ "topics": [
+  {
+   "id": "growth",
+   "name": "Growth, land use and housing",
+   "blurb": "Rezonings, land use changes and big new communities."
+  },
+  {
+   "id": "taxes",
+   "name": "Taxes and the budget",
+   "blurb": "Property tax rates, fees and how the county spends money."
+  },
+  {
+   "id": "roads",
+   "name": "Roads and transportation",
+   "blurb": "Road projects, transit and traffic."
+  },
+  {
+   "id": "water",
+   "name": "Water, storms and environment",
+   "blurb": "Flooding, stormwater, beaches and the environment."
+  },
+  {
+   "id": "safety",
+   "name": "Public safety",
+   "blurb": "Sheriff, fire rescue and emergency services."
+  },
+  {
+   "id": "other",
+   "name": "Other decisions",
+   "blurb": "Everything else the commission voted on."
+  }
+ ],
+ "manualProblems": []
+}
