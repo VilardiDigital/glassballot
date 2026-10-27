@@ -68,10 +68,24 @@ def parse_clarity(summary: dict) -> dict:
     return {"status": "unofficial", "updated": None, "races": races}
 
 
+NOT_LOCAL = re.compile(r"\b(city|town|village|referendum|millage|surtax|sales tax|ad valorem|amendment|amdt|resolution|charter|funding|expenses|"
+                       r"agriculture|single member|question|retention|ballot|residency)\b|amdt", re.I)
+
+
 def _key(office: str):
-    from ..bootstrap import office_kind, district_of
-    kind, _ = office_kind(office, council="city council" in office.lower())
-    return (kind, district_of(office)) if kind else None
+    """(kind, district) for a county commission or school board seat; None for anything else.
+    Strict on purpose: a city council or a school tax question must never land on a county race."""
+    o = re.sub(r"\s+", " ", office).strip()
+    if NOT_LOCAL.search(o):
+        return None
+    if re.search(r"\b(board of county commissioners|county commissioner|county commission|county council)\b", o, re.I):
+        kind = "bcc"
+    elif re.search(r"\bschool board\b", o, re.I):
+        kind = "sb"
+    else:
+        return None
+    from ..bootstrap import district_of
+    return (kind, district_of(o))
 
 
 def _last(n: str) -> str:

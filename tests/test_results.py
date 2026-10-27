@@ -55,6 +55,20 @@ class ClarityTest(unittest.TestCase):
                                        {"EID": "128001", "Name": "2026 General Election", "Date": "11/03/2026"}]), 128001)
         self.assertIsNone(find_general([]))
 
+class KeyTest(unittest.TestCase):
+    def test_strict(self):
+        from pipeline.sources.results import _key
+        ok = {"County Commissioner, District 4": ("bcc", "4"), "Board of County Commissioners - District 4": ("bcc", "4"),
+              "County Commissioner, At Large, Group 2": ("bcc", "2"), "School Board Member, Dist. 5": ("sb", "5"),
+              "School Board  - District 5": ("sb", "5"), "County Commissioner, Dist 2": ("bcc", "2")}
+        for o, k in ok.items():
+            self.assertEqual(_key(o), k, o)
+        for o in ["Commissioner of Agriculture", "Brooksville City Council Member, Seat 1", "Port St. Lucie City Council District 1",
+                  "Pasco School Board Millage", "School Board Resolution 2026-02", "Wakulla County School Board  Referendum No. 2026-35",
+                  "Single Member Districts for County Commissioners", "CntyChatAmdt Residency County Commissioner", "Arcadia City Council",
+                  "City of Crystal River - City Council - Seat 2", "REP United States Senator", "1/2 Cent Surtax Gulf School Bd"]:
+            self.assertIsNone(_key(o), o)
+
 
 if __name__ == "__main__":
     unittest.main()
