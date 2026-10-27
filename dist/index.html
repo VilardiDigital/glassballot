@@ -346,6 +346,10 @@ html.big .h1{font-size:clamp(32px,7vw,50px)}
 details.more > summary{cursor:pointer;font-weight:600;color:var(--glass);list-style:none;min-height:40px;display:flex;align-items:center}
 details.more > summary::-webkit-details-marker{display:none}
 @media print{.top,.tabs,footer,.noprint{display:none!important}main{padding:0}body{background:#fff;font-size:14pt}.panel,.list{border:1px solid #999}}
+.fbar{display:flex;height:16px;border-radius:8px;overflow:hidden;background:var(--mist)}.fbar span{display:block;height:100%}
+.flegend{display:grid;gap:6px;margin:8px 0 0}.flegend li{display:grid;grid-template-columns:14px 1fr auto 3.2em;gap:8px;align-items:center;font-size:15px}.flegend i{width:12px;height:12px;border-radius:3px;display:block}
+.fsectors{display:grid;gap:2px}.frow summary{display:grid;grid-template-columns:minmax(0,1fr) 28% auto 3em;gap:8px;align-items:center;cursor:pointer;padding:8px 0;border-bottom:1px solid var(--mist);list-style:none}.frow summary::-webkit-details-marker{display:none}
+.fl{font-size:15px;min-width:0}.fb{height:8px;background:var(--light);border-radius:4px;overflow:hidden}.fb span{display:block;height:100%;background:var(--glass)}
 </style>
 
 <header class="top">
@@ -859,6 +863,7 @@ views.person = id => {
 
     <section class="panel stack" aria-labelledby="mo"><h2 class="h2" id="mo">Who is paying for the campaign</h2>
       <dl class="facts">${moneyShown.map(f => `<div class="fact"><dt>${MONEY_FIELDS[f]}</dt><dd>${factBlock(p.facts[f], fid(f), {unknownText: "No campaign finance reports on file yet."})}</dd></div>`).join("")}</dl>
+      ${fundingBlock(p, fid)}
       ${C.county.financeUrl ? `<p class="small muted">Every donation, with the donor's name, date and amount, is in the <a href="${esc(C.county.financeUrl)}" target="_blank" rel="noopener">Supervisor of Elections campaign reports</a>.</p>` : ""}
     </section>
 
@@ -887,6 +892,47 @@ views.person = id => {
     ${fixLink(`${CK}/person/${p.id}`, p.name)}
   </div>`;
 };
+
+
+/* ---------- who funds a campaign ---------- */
+const usd = n => "$" + Math.round(n).toLocaleString();
+const pctOf = (a, t) => t > 0 ? Math.round(100 * a / t) : 0;
+function fundingBlock(p, fid) {
+  const f = p.funding; if (!f || !f.total) return "";
+  const T = f.total;
+  const giver = [["people","People giving on their own","#2563EB"],["business","Businesses","#0B3D91"],["committee","Political committees (PACs)","#14B8A6"],["party","Political parties","#64748B"],["self","The candidate's own money","#CBD5E1"]]
+    .filter(([k]) => (f.byGiver[k] || 0) > 0);
+  const bar = `<div class="fbar" role="img" aria-label="${giver.map(([k,l]) => `${l} ${pctOf(f.byGiver[k],T)}%`).join(", ")}">${giver.map(([k,,c]) => `<span style="width:${Math.max(1,pctOf(f.byGiver[k],T))}%;background:${c}"></span>`).join("")}</div>
+    <ul class="plain flegend">${giver.map(([k,l,c]) => `<li><i style="background:${c}"></i><span>${l}</span><b class="num">${usd(f.byGiver[k])}</b><span class="muted num">${pctOf(f.byGiver[k],T)}%</span></li>`).join("")}</ul>`;
+  const named = f.sectors.filter(x => !["unstated","nojob","other-job","other-business"].includes(x.id));
+  const rest = f.sectors.filter(x => ["unstated","nojob","other-job","other-business"].includes(x.id));
+  const maxS = Math.max(1, ...f.sectors.map(x => x.amount));
+  const sectorRow = x => `<details class="frow"><summary><span class="fl">${esc(x.label)}</span><span class="fb"><span style="width:${Math.round(100*x.amount/maxS)}%"></span></span><b class="num">${usd(x.amount)}</b><span class="muted num">${pctOf(x.amount,T)}%</span></summary>
+      <div class="small stack-sm" style="padding:6px 0 10px">
+        <p>${x.fromBusinesses ? `${usd(x.fromBusinesses)} from businesses` : ""}${x.fromBusinesses && x.fromPeople ? " and " : ""}${x.fromPeople ? `${usd(x.fromPeople)} from people who listed a job in this field` : ""}.</p>
+        ${x.topBusinesses.length ? `<p class="muted">Businesses in this group: ${x.topBusinesses.map(([n,a]) => `${esc(n)} (${usd(a)})`).join("; ")}</p>` : ""}
+      </div></details>`;
+  const kinds = {union:"Labor union committee", industry:"Industry or trade group committee", politician:"Another politician's committee", other:"Its name doesn't say who funds it"};
+  return `<div class="stack" style="margin-top:6px">
+    <h3 class="h3">Where the money came from</h3>
+    <p class="small muted">${usd(T)} in reported gifts${f.inKind ? `, including ${usd(f.inKind)} given as goods or services` : ""}, through ${f.through ? fmtDate(f.through) : "the latest report"}. Refunds are subtracted.</p>
+    ${bar}
+    ${named.length ? `<h3 class="h3" style="margin-top:8px">By industry</h3>
+      <p class="small muted">Businesses grouped by their stated line of work, and people by the job they reported. Tap a row to see who's in it.</p>
+      <div class="fsectors">${named.map(sectorRow).join("")}</div>
+      ${rest.length ? `<details class="more"><summary>Gifts we couldn't group (${usd(rest.reduce((a,x)=>a+x.amount,0))})</summary><div class="fsectors">${rest.map(sectorRow).join("")}</div></details>` : ""}` : ""}
+    ${f.committees.length ? `<h3 class="h3" style="margin-top:8px">Political committees (PACs) that gave</h3>
+      <p class="small muted">A political committee pools money from people, companies and other committees, then gives it to candidates. Like everyone else, it can give a county candidate up to $1,000 per election. Its name often doesn't say who's behind it; the state's committee records do. <a href="#/money">How this works</a></p>
+      <ul class="plain stack-sm">${f.committees.map(c => `<li class="between" style="gap:12px;align-items:flex-start"><span><b>${esc(c.name)}</b><br><span class="tiny muted">${kinds[c.kind] || c.kindLabel}</span></span><b class="num">${usd(c.amount)}</b></li>`).join("")}</ul>
+      <a class="small" href="https://dos.elections.myflorida.com/committees/" target="_blank" rel="noopener">Look up any Florida committee's donors (Florida Division of Elections)</a>` : ""}
+    ${f.parties.length ? `<p class="small"><b>Political party money:</b> ${f.parties.map(x => `${esc(x.name)} ${usd(x.amount)}`).join("; ")}.</p>` : ""}
+    ${f.sharedAddress.length ? `<h3 class="h3" style="margin-top:8px">Companies giving from the same address</h3>
+      <p class="small muted">Each company counts as its own donor, so related companies can together give more than the $1,000 one donor can. This is legal. We show it because it tells you who is giving.</p>
+      <ul class="plain stack-sm small">${f.sharedAddress.map(c => `<li><b class="num">${usd(c.amount)}</b> from ${c.names.length} companies at one address: ${c.names.map(esc).join(", ")}</li>`).join("")}</ul>` : ""}
+    <div class="cite">${srcLinks([f.source])}${f.reportUrl ? `<a class="small" href="${esc(f.reportUrl)}" target="_blank" rel="noopener">Open every report</a>` : ""}${fixBtn(fid("funding"), "Funding breakdown")}</div>
+    <p class="tiny muted">The industry groups are ours, made by matching words in each donor's name and reported job, so a few gifts may land in the wrong group. We don't name private individuals who gave; their gifts are in the county's reports. Updated every night from the Supervisor of Elections.</p>
+  </div>`;
+}
 
 /* ---------- a vote ---------- */
 function glassRoll(v) {
@@ -1062,11 +1108,37 @@ views.about = () => {
       <p class="small">Every morning, we automatically recheck the counties' meeting records and the campaign finance reports filed with each Supervisor of Elections. When a number changes, the site updates and the change is listed on our <a href="#/corrections">changes page</a>. Plain-English summaries are always written and checked by a person.</p>
     </section>
     <section class="list">
-      ${[["#/sources","Where our information comes from"],["#/corrections","Changes and corrections"],["#/standards","Our standards"],["#/terms","Terms of use"],["#/privacy","Privacy policy"],["#/accessibility","Accessibility"],["/data/glassballot.json","Download all of our data"],["https://github.com/VilardiDigital/glassballot","See our code and every change on GitHub"]].map(([h,t]) => `<a href="${h}"${/^http/.test(h) ? ' target="_blank" rel="noopener"' : ""}><span class="body"><span class="title">${t}</span></span>${chev}</a>`).join("")}
+      ${[["#/sources","Where our information comes from"],["#/corrections","Changes and corrections"],["#/standards","Our standards"],["#/money","How campaign money works"],["#/terms","Terms of use"],["#/privacy","Privacy policy"],["#/accessibility","Accessibility"],["/data/glassballot.json","Download all of our data"],["https://github.com/VilardiDigital/glassballot","See our code and every change on GitHub"]].map(([h,t]) => `<a href="${h}"${/^http/.test(h) ? ' target="_blank" rel="noopener"' : ""}><span class="body"><span class="title">${t}</span></span>${chev}</a>`).join("")}
     </section>
     <p class="small">Questions or tips: <a href="mailto:glassballotinfo@gmail.com">glassballotinfo@gmail.com</a></p>
   </div>`;
 };
+
+views.money = () => policy("How campaign money works", "Who can give to a county commission or school board campaign in Florida, how much, and how to read what we show.", `
+  <h2 class="h3">Why it matters</h2>
+  <p>County commissioners decide things that are worth a lot of money to some people: what can be built where, which companies get county contracts, what fees and taxes are charged, and how roads, water and trash service are paid for. Many of the businesses and groups affected by those decisions also give to commissioners' campaigns. That is legal and public. Seeing who gives helps you understand whose interests are close to a candidate, and lets you ask good questions. It is not proof that a gift bought a vote.</p>
+  <h2 class="h3">The basic rules in Florida</h2>
+  <ul class="plain stack-sm">
+    <li><b>$1,000 limit.</b> A person, a business or a political committee can give a county or school board candidate up to $1,000 per election.</li>
+    <li><b>The primary and general count separately.</b> So a donor can give $1,000 before the August primary and another $1,000 before the November general, unless the candidate is unopposed.</li>
+    <li><b>Candidates can spend their own money.</b> There is no limit on what candidates give or lend their own campaigns.</li>
+    <li><b>Parties have a bigger limit.</b> A candidate can take up to $50,000 in total from political party committees.</li>
+  </ul>
+  <p class="small muted">Source: Florida Statutes, <a href="https://www.flsenate.gov/laws/statutes/2022/106.08" target="_blank" rel="noopener">section 106.08</a>.</p>
+  <h2 class="h3">Businesses</h2>
+  <p>Companies can give to candidates, and each company counts as its own donor. One owner with several companies (often one company per property or project) can give $1,000 from each of them. When we see three or more companies giving from the same street address, we point it out so you can see who is really giving.</p>
+  <h2 class="h3">Political committees (PACs)</h2>
+  <p>A political committee collects money from people, companies, unions and other committees, then spends it on elections, including gifts to candidates. When a committee gives directly to a candidate, the same $1,000-per-election limit applies.</p>
+  <p>Committee names can be vague ("Florida Prosper", "Building Florida's Future"). The name doesn't tell you who funds it. Every Florida committee files reports listing its own donors with the <a href="https://dos.elections.myflorida.com/committees/" target="_blank" rel="noopener">Florida Division of Elections</a>. Where a committee's name plainly says who it represents, such as a realtors' group or a union local, we say so. Otherwise we label it "its name doesn't say who funds it."</p>
+  <p>Some groups also spend money on ads that support or attack candidates without giving to the campaign. That spending isn't in the candidate's own reports, so it isn't in our totals yet.</p>
+  <h2 class="h3">How we group donors by industry</h2>
+  <p>Florida's reports list each donor's name, city and, for many gifts, an occupation or type of business. We group businesses by the line of work they reported, then by words in their name. We group people by the job they reported. For example, a company that lists "Land Development", or whose name includes "Realty", goes under real estate and land development.</p>
+  <p>This grouping is ours, not the county's, and some gifts will land in the wrong group. Every group can be opened to see the businesses in it, and every candidate's page links to the full reports. If you spot a mistake, use the report button and we'll fix it.</p>
+  <h2 class="h3">Private donors</h2>
+  <p>Individual donors' names and addresses are public record, and you can see them in the county's reports. We don't repeat them. We show only the job they reported, so you can see which fields a campaign's money comes from without singling out private people. Businesses, committees and parties are named.</p>
+  <h2 class="h3">Where the numbers come from</h2>
+  <p>Every candidate files itemized reports with their county Supervisor of Elections. We read those reports every night. Totals include gifts of goods or services (called in-kind), and subtract refunds. Money a candidate lent or gave themselves is shown separately.</p>
+`);
 
 views.standards = () => policy("Our standards", "How we decide what goes on this site, and what we do when we get something wrong.", `
   <h2 class="h3">We don't take sides</h2>
@@ -1208,7 +1280,7 @@ function runSearch(q) { const ql = q.trim().toLowerCase(); const items = searchI
 
 /* ---------- router ---------- */
 function notFound() { return `<div class="stack view"><h1 class="h1">We couldn't find that page</h1><p><a href="#/">Go to the start</a></p></div>`; }
-const GLOBAL = {about:"about", standards:"about", terms:"about", privacy:"about", accessibility:"about", corrections:"about", sources:"about", thanks:""};
+const GLOBAL = {money:"about", about:"about", standards:"about", terms:"about", privacy:"about", accessibility:"about", corrections:"about", sources:"about", thanks:""};
 function route() {
   if (location.pathname === "/thanks") { history.replaceState(null, "", "/#/thanks"); }
   let h = (location.hash || "#/").slice(1);

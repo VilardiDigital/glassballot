@@ -153,6 +153,58 @@ def refresh_voterfocus(county: str, el: int | None, today: str) -> list[str]:
     return rows
 
 
+CONTRIB_CYCLES = {"pinellas": 35, "pasco": 38, "hillsborough": 27, "hernando": 32}
+
+
+def refresh_contrib(county: str, el: int, today: str) -> str:
+    """Itemized contributions for every county commission and school board campaign this cycle.
+
+    Private donors keep their occupation, city, state and ZIP only; we don't store their names or
+    street addresses. Businesses, committees and parties keep their names (and a business's street
+    address, to spot several companies at one address)."""
+    import csv, io
+    base = "https://www.voterfocus.com/CampaignFinance"
+    page = get(f"{base}/candidate_pr.php?c={county}&el={el}", as_json=False)
+    camps = {}
+    for g in re.split(r'class="col-xs-12 officegroup"', page)[1:]:
+        om = re.search(r'officename">\s*Office:\s*(.*?)</div>', g, re.S)
+        office = re.sub(r"\s+", " ", html.unescape(om.group(1))).strip() if om else ""
+        if not re.search(r"commission|school", office, re.I):
+            continue
+        for a in re.finditer(r'href="[^"]*ca=(\d+)[^"]*">(.*?)</a>', g, re.S):
+            text = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", a.group(2)))).strip()
+            m = re.match(r"(.*?)(?: \(\w+\))? status \((.*?)\)", text)
+            if not m or re.search(r"Did not qualify|Withdrawn", m.group(2)):
+                continue
+            ca = a.group(1)
+            raw = get(f"{base}/export.php?op=CFINANCE&cand_id={ca}&dhc=0&county={county}", as_json=False)
+            rows = []
+            for r in csv.DictReader(io.StringIO(raw)):
+                if (r.get("Cont/Exp") or "").strip() != "C":
+                    continue
+                t = (r.get("cont. type") or "").strip()
+                try:
+                    amt = float(r.get("amount") or 0)
+                except ValueError:
+                    continue
+                row = {"date": (r.get("item date") or "")[:10], "type": t, "amount": amt, "item": (r.get("item type") or "").strip(),
+                       "occ": re.sub(r"<br>|\s+", " ", r.get("occupation") or "").strip(),
+                       "city": (r.get("city") or "").strip(), "state": (r.get("state") or "").strip(), "zip": (r.get("zip") or "")[:5]}
+                if t != "I":
+                    row["name"] = re.sub(r"\s+", " ", r.get("name") or "").strip()
+                if t == "B":
+                    row["addr"] = re.sub(r"\b(ste|suite|unit|#)\b.*$", "", (r.get("address 1") or "").lower()).strip(" .,")
+                rows.append(row)
+            camps[ca] = {"candidate": m.group(1).strip(), "office": office, "status": m.group(2),
+                         "url": f"{base}/candidate_pr.php?op=cv&e={el}&c={county}&ca={ca}&rellevel=4&committee=N", "rows": rows}
+            time.sleep(0.4)
+    out = ROOT / "data" / "contrib"
+    out.mkdir(exist_ok=True)
+    (out / f"{county}.json").write_text(json.dumps({"county": county, "cycle": "2026", "el": el, "pulledAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                                                    "url": f"{base}/candidate_pr.php?c={county}&el={el}", "campaigns": camps}, ensure_ascii=False))
+    return f"{county} itemized contributions: {len(camps)} campaigns, {sum(len(c['rows']) for c in camps.values())} gifts"
+
+
 def snapshot() -> dict:
     p = ROOT / "site" / "region.json"
     if not p.exists():
@@ -187,6 +239,11 @@ def main():
                 rows += refresh_voterfocus(county, el, today)
             except Exception as e:
                 errors.append(f"{county} campaign finance pull failed, kept last good data: {e}")
+        for county, el in CONTRIB_CYCLES.items():
+            try:
+                log.append(refresh_contrib(county, el, today))
+            except Exception as e:
+                errors.append(f"{county} itemized contributions pull failed, kept last good data: {e}")
         if rows:
             p = ROOT / "data" / f"voterfocus_totals_{today}.txt"
             p.write_text("\n".join(rows) + "\n")
