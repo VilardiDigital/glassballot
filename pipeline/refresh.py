@@ -174,7 +174,8 @@ def refresh_contrib(county: str, el: int, today: str, year: str = "2026", only=N
     for g in re.split(r'class="col-xs-12 officegroup"', page)[1:]:
         om = re.search(r'officename">\s*Office:\s*(.*?)</div>', g, re.S)
         office = re.sub(r"\s+", " ", html.unescape(om.group(1))).strip() if om else ""
-        if not re.search(r"commission|school", office, re.I):
+        from .bootstrap import office_kind
+        if not office_kind(office, council=county == "duval")[0]:
             continue
         for a in re.finditer(r'href="[^"]*ca=(\d+)[^"]*">(.*?)</a>', g, re.S):
             text = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", a.group(2)))).strip()

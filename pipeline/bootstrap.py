@@ -58,17 +58,22 @@ def office_kind(office: str, council: bool = False):
         return None, None
     if "school" in o:
         return "sb", "School Board"
-    if re.search(r"county commission|board of county|commissioner|\bbcc\b", o) or (council and "city council" in o):
-        return "bcc", "City Council" if council else "County Commission"
+    if council and "city council" in o:
+        return "bcc", "City Council"
+    if "county council" in o:
+        return "bcc", "County Council"
+    if re.search(r"county commission|board of county|\bco\.? commission|\bbcc\b", o) or re.match(r"(county )?commissioner\b", o):
+        return "bcc", "County Commission"
     return None, None
 
 
 def district_of(office: str):
-    m = re.search(r"(?:dist(?:rict)?\.?|seat|group)\s*(\d+)", office, re.I)
+    m = re.search(r"(?:dist(?:rict)?\.?|seat|group)\s*#?\s*(\d+)", office, re.I) or re.search(r"-\s*(\d{1,2})\b", office)
     if m:
-        return m.group(1)
-    if re.search(r"at[- ]large", office, re.I):
-        return None
+        return str(int(m.group(1)))
+    m = re.search(r"(?:-|\s)\s*(\d{1,2})\s*$", office)
+    if m:
+        return str(int(m.group(1)))
     return None
 
 
@@ -154,13 +159,15 @@ def build(county: str, cfg: dict) -> dict:
 
     for r in voterfocus_races(county, slug_, el, council=county == "duval"):
         rid = f"{r['kind']}-d{r['district']}" if r["district"] else f"{r['kind']}-{re.sub(r'[^a-z0-9]+', '-', r['office'].lower()).strip('-')[:30]}"
-        live = [c for c in r["candidates"] if re.search(r"qualified|runoff|write-in", c["status"], re.I) and not re.search(r"defeated", c["status"], re.I)]
+        live = [c for c in r["candidates"] if re.search(r"qualified|runoff|advanced|write-in", c["status"], re.I) and not re.search(r"defeated", c["status"], re.I)]
         decided = [c for c in r["candidates"] if re.search(r"elected|unopposed", c["status"], re.I)]
-        on_ballot = len(live) >= 2 or any(re.search(r"runoff", c["status"], re.I) for c in live)
+        on_ballot = len(live) >= 2 or any(re.search(r"runoff|advanced", c["status"], re.I) for c in live)
         race = {"who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.", "id": rid, "title": f"{r['label']}{', District ' + r['district'] if r['district'] else ''}", "office": r["office"], "people": [],
                 "sources": ["soe-vf"], "onNovBallot": bool(on_ballot)}
         if not on_ballot and decided:
             race["decided"] = f"{decided[0]['name']} ({decided[0]['status'].split('-')[-1].strip().lower()})"
+        elif not on_ballot and len(live) == 1:
+            race["decided"] = f"{live[0]['name']} (the only qualified candidate)"
         for c in r["candidates"]:
             if re.search(r"defeated", c["status"], re.I) and on_ballot:
                 continue
