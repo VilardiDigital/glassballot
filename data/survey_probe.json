@@ -1,0 +1,2154 @@
+{
+ "alachua": {
+  "name": "Alachua County",
+  "legistar": {
+   "client": "alachua",
+   "bodies": [
+    [
+     138,
+     "Board of County Commissioners"
+    ]
+   ],
+   "lastEvent": "2023-05-11",
+   "perMemberVotes": false
+  },
+  "civicclerk": {
+   "tenant": "alachuafl",
+   "lastEvent": "2027-12-13",
+   "name": "City Commission Meeting"
+  },
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "found": true
+  }
+ },
+ "baker": {
+  "name": "Baker County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "baker",
+   "cycle": 33,
+   "cycleName": "General Election (11/3/2026)",
+   "allCycles": [
+    [
+     33,
+     "General Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner District 2",
+    "County Commissioner District 4",
+    "School Board Member District 2",
+    "School Board Member District 4",
+    "School Board Member District 3"
+   ],
+   "candidatesListed": 7
+  }
+ },
+ "bay": {
+  "name": "Bay County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "bay",
+   "cycle": 35,
+   "cycleName": "2026 Primary/General Election (11/3/2026)",
+   "allCycles": [
+    [
+     35,
+     "2026 Primary/General Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner, District 2",
+    "County Commissioner, District 4",
+    "School Board Member, District 2",
+    "School Board Member, District 3",
+    "School Board Member, District 5",
+    "Callaway Commissioner Ward 1",
+    "Callaway Commissioner Ward 2"
+   ],
+   "candidatesListed": 29
+  }
+ },
+ "bradford": {
+  "name": "Bradford County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "bradford",
+   "cycle": 23,
+   "cycleName": "2026 General (11/3/2026)",
+   "allCycles": [
+    [
+     23,
+     "2026 General (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "City Commissioner District 1",
+    "City Commissioner District 3",
+    "City Commissioner District 5",
+    "County Commissioner District 2",
+    "County Commissioner District 4",
+    "School Board Member District 1",
+    "School Board Member District 2",
+    "School Board Member District 5"
+   ],
+   "candidatesListed": 17
+  }
+ },
+ "brevard": {
+  "name": "Brevard County",
+  "legistar": {
+   "client": "brevardfl",
+   "bodies": [
+    [
+     138,
+     "Brevard County Board of County Commissioners"
+    ]
+   ],
+   "lastEvent": "2026-12-30",
+   "perMemberVotes": false
+  },
+  "civicclerk": null,
+  "granicus": {
+   "site": "brevardfl"
+  },
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "brevard",
+   "cycle": 30,
+   "cycleName": "2026 General Election (11/3/2026)",
+   "allCycles": [
+    [
+     30,
+     "2026 General Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner, District 1",
+    "County Commissioner, District 2",
+    "County Commissioner, District 4",
+    "School Board, District 1",
+    "School Board, District 2",
+    "School Board, District 5"
+   ],
+   "candidatesListed": 42
+  }
+ },
+ "broward": {
+  "name": "Broward County",
+  "legistar": {
+   "client": "broward",
+   "bodies": [
+    [
+     138,
+     "County Commission"
+    ]
+   ],
+   "lastEvent": "2026-12-31",
+   "perMemberVotes": false
+  },
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "broward",
+   "cycle": 150,
+   "cycleName": "2026 Election Cycle (11/3/2026)",
+   "allCycles": [
+    [
+     150,
+     "2026 Election Cycle (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commission, Dist. 2",
+    "County Commission, Dist. 4",
+    "County Commission, Dist. 6",
+    "County Commission, Dist. 8",
+    "School Board, Dist. 1",
+    "School Board, Dist. 4",
+    "School Board, Dist. 6",
+    "School Board, Dist. 7",
+    "School Board, At Large 8"
+   ],
+   "candidatesListed": 95
+  }
+ },
+ "calhoun": {
+  "name": "Calhoun County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "calhoun",
+   "cycle": 22,
+   "cycleName": "2026 Primary/General Election (11/3/2026)",
+   "allCycles": [
+    [
+     22,
+     "2026 Primary/General Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner, District 2",
+    "County Commissioner, District 4",
+    "School Board, District 2",
+    "School Board, District 3",
+    "School Board, District 5"
+   ],
+   "candidatesListed": 16
+  }
+ },
+ "charlotte": {
+  "name": "Charlotte County",
+  "legistar": {
+   "client": "charlottecountyfl",
+   "bodies": [
+    [
+     138,
+     "Board of County Commissioners"
+    ]
+   ],
+   "lastEvent": "2026-12-22",
+   "perMemberVotes": false
+  },
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "charlotte",
+   "cycle": 27,
+   "cycleName": "2026 Election Cycle (12/31/2026)",
+   "allCycles": [
+    [
+     27,
+     "2026 Election Cycle (12/31/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner, District 2",
+    "County Commissioner, District 4",
+    "School Board, District 1",
+    "School Board, District 4"
+   ],
+   "candidatesListed": 31
+  }
+ },
+ "citrus": {
+  "name": "Citrus County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "citrus",
+   "cycle": 21,
+   "cycleName": "2026 General Election (11/3/2026)",
+   "allCycles": [
+    [
+     21,
+     "2026 General Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner District 2",
+    "County Commissioner District 4",
+    "School Board District 1",
+    "School Board District 3",
+    "School Board District 5"
+   ],
+   "candidatesListed": 19
+  }
+ },
+ "clay": {
+  "name": "Clay County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "clay",
+   "cycle": 94,
+   "cycleName": "2026 Election Cycle (11/3/2026)",
+   "allCycles": [
+    [
+     94,
+     "2026 Election Cycle (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner District 2",
+    "County Commissioner District 4",
+    "School Board District 1",
+    "School Board District 4",
+    "School Board District 5"
+   ],
+   "candidatesListed": 60
+  }
+ },
+ "collier": {
+  "name": "Collier County",
+  "legistar": null,
+  "civicclerk": {
+   "tenant": "colliercofl",
+   "lastEvent": "2028-01-06",
+   "name": "Planning Commission Meeting (1st Thurs)"
+  },
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "collier",
+   "cycle": 15,
+   "cycleName": "2026 General Election (11/3/2026)",
+   "allCycles": [
+    [
+     15,
+     "2026 General Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commission District 2",
+    "County Commission District 4",
+    "School Board District 1",
+    "School Board District 3",
+    "School Board District 5"
+   ],
+   "candidatesListed": 96
+  }
+ },
+ "columbia": {
+  "name": "Columbia County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": {
+   "site": "columbiaco"
+  },
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "columbia",
+   "cycle": 29,
+   "cycleName": "2026 GENERAL ELECTION (11/3/2026)",
+   "allCycles": [
+    [
+     29,
+     "2026 GENERAL ELECTION (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "COUNTY COMMISSION DIST 2",
+    "COUNTY COMMISSION DIST 4",
+    "SCHOOL BOARD DIST 1",
+    "SCHOOL BOARD DIST 3",
+    "SCHOOL BOARD DIST 5"
+   ],
+   "candidatesListed": 18
+  }
+ },
+ "desoto": {
+  "name": "DeSoto County",
+  "legistar": {
+   "client": "desotobocc",
+   "bodies": [
+    [
+     138,
+     "Board of County Commissioners"
+    ]
+   ],
+   "lastEvent": "2026-11-03",
+   "perMemberVotes": true
+  },
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "desoto",
+   "cycle": 6,
+   "cycleName": "2026 General Election (11/3/2026)",
+   "allCycles": [
+    [
+     6,
+     "2026 General Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "Board of County Commissioners District 2",
+    "Board of County Commissioners District 4",
+    "School Board District 1",
+    "School Board District 4",
+    "School Board District 5"
+   ],
+   "candidatesListed": 17
+  }
+ },
+ "dixie": {
+  "name": "Dixie County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "dixie",
+   "cycle": 13,
+   "cycleName": "2026 Primary/General Election (11/3/2026)",
+   "allCycles": [
+    [
+     13,
+     "2026 Primary/General Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner - District 2",
+    "County Commissioner - District 4",
+    "School Board Member - District 2",
+    "School Board Member - District 3",
+    "School Board Member - District 5"
+   ],
+   "candidatesListed": 13
+  }
+ },
+ "duval": {
+  "name": "Duval County",
+  "legistar": {
+   "client": "jaxcityc",
+   "bodies": [
+    [
+     138,
+     "City Council"
+    ],
+    [
+     262,
+     "Joint City Council & Duval County School Board"
+    ]
+   ],
+   "lastEvent": "2026-10-27",
+   "perMemberVotes": true
+  },
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "duval",
+   "cycle": 40,
+   "cycleName": "2026 General Election (11/3/2026)",
+   "allCycles": [
+    [
+     40,
+     "2026 General Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "School Board Dist 2",
+    "School Board Dist 4",
+    "School Board Dist 6"
+   ],
+   "candidatesListed": 59
+  }
+ },
+ "escambia": {
+  "name": "Escambia County",
+  "legistar": null,
+  "civicclerk": {
+   "tenant": "escambiacofl",
+   "lastEvent": "2027-12-02",
+   "name": "Board of County Commissioners Meeting"
+  },
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "escambia",
+   "cycle": 26,
+   "cycleName": "2026 General Election (11/3/2026)",
+   "allCycles": [
+    [
+     26,
+     "2026 General Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner, District 2",
+    "County Commissioner, District 4",
+    "School Board, District 1",
+    "School Board, District 2",
+    "School Board, District 3"
+   ],
+   "candidatesListed": 40
+  }
+ },
+ "flagler": {
+  "name": "Flagler County",
+  "legistar": null,
+  "civicclerk": {
+   "tenant": "flaglercofl",
+   "lastEvent": "2027-07-13",
+   "name": "Planning and Development Board Meeting"
+  },
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "flagler",
+   "cycle": 41,
+   "cycleName": "2026 Candidates (11/3/2026)",
+   "allCycles": [
+    [
+     41,
+     "2026 Candidates (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commission District 2",
+    "County Commission District 4",
+    "School Board District 1",
+    "School Board District 2",
+    "School Board District 4",
+    "Bunnell City Commissioner",
+    "Beverly Beach Town Commissioner",
+    "Flagler Beach City Commissioner"
+   ],
+   "candidatesListed": 43
+  }
+ },
+ "franklin": {
+  "name": "Franklin County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "franklin",
+   "cycle": 26,
+   "cycleName": "2026 Election Cycle (1/1/2025)",
+   "allCycles": [
+    [
+     26,
+     "2026 Election Cycle (1/1/2025)"
+    ]
+   ],
+   "localOffices": [
+    "County Commission Dist. 2",
+    "County Commission Dist. 4",
+    "School Board Member Dist. 2",
+    "School Board Member Dist. 4"
+   ],
+   "candidatesListed": 6
+  }
+ },
+ "gadsden": {
+  "name": "Gadsden County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": {
+   "site": "gadsdencountyfl"
+  },
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "gadsden",
+   "cycle": 37,
+   "cycleName": "2026 General Election (11/3/2026)",
+   "allCycles": [
+    [
+     37,
+     "2026 General Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner District 2",
+    "County Commissioner District 4",
+    "School Board District 2",
+    "School Board District 3",
+    "School Board District 4"
+   ],
+   "candidatesListed": 16
+  }
+ },
+ "gilchrist": {
+  "name": "Gilchrist County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "gilchrist",
+   "cycle": 24,
+   "cycleName": "2026 Primary/General Election (11/3/2026)",
+   "allCycles": [
+    [
+     24,
+     "2026 Primary/General Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "Co Commissioner Dist 2",
+    "Co Commissioner Dist 4"
+   ],
+   "candidatesListed": 13
+  }
+ },
+ "glades": {
+  "name": "Glades County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "glades",
+   "cycle": 6,
+   "cycleName": "2026 Election Cycle (1/1/2026)",
+   "allCycles": [
+    [
+     6,
+     "2026 Election Cycle (1/1/2026)"
+    ]
+   ],
+   "localOffices": [
+    "School Board District 1",
+    "School Board District  4",
+    "School Board District 5",
+    "County Commissioner District 2",
+    "County Commissioner District 4"
+   ],
+   "candidatesListed": 14
+  }
+ },
+ "gulf": {
+  "name": "Gulf County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "gulf",
+   "cycle": 61,
+   "cycleName": "2026 Candidate Reporting (1/1/2026)",
+   "allCycles": [
+    [
+     61,
+     "2026 Candidate Reporting (1/1/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commission Dist 2",
+    "County Commission Dist 4",
+    "School Board Dist 1",
+    "School Board Dist 2",
+    "School Board Dist 3",
+    "School Board Dist 5",
+    "City Commissioner Group 3",
+    "City Commissioner Group 4"
+   ],
+   "candidatesListed": 13
+  }
+ },
+ "hamilton": {
+  "name": "Hamilton County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "hamilton",
+   "cycle": 14,
+   "cycleName": "2026 General Election (11/3/2026)",
+   "allCycles": [
+    [
+     14,
+     "2026 General Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner District 2",
+    "County Commissioner District 4",
+    "School Board Member District 1",
+    "School Board Member District 4",
+    "School Board Member District 5"
+   ],
+   "candidatesListed": 13
+  }
+ },
+ "hardee": {
+  "name": "Hardee County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": {
+   "site": "hardeecountyfl"
+  },
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "hardee",
+   "cycle": 16,
+   "cycleName": "2026 Election Cycle (11/3/2026)",
+   "allCycles": [
+    [
+     16,
+     "2026 Election Cycle (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commission Dist. 2",
+    "County Commission Dist. 4",
+    "School Board Member Dist. 1",
+    "School Board Member Dist. 4",
+    "School Board Member Dist. 5"
+   ],
+   "candidatesListed": 8
+  }
+ },
+ "hendry": {
+  "name": "Hendry County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "hendry",
+   "cycle": 17,
+   "cycleName": "2026 Election (11/3/2026)",
+   "allCycles": [
+    [
+     17,
+     "2026 Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commission District 2",
+    "County Commission District 4",
+    "Clewiston City Commission",
+    "School Board District 3",
+    "School Board District 4",
+    "School Board District 5"
+   ],
+   "candidatesListed": 25
+  }
+ },
+ "hernando": {
+  "name": "Hernando County",
+  "legistar": {
+   "client": "hernandocountyfl",
+   "bodies": [
+    [
+     138,
+     "Board of County Commissioners"
+    ],
+    [
+     235,
+     "Board of County Commissioners Budget Hearing"
+    ],
+    [
+     236,
+     "Board of County Commissioners Budget Workshop"
+    ],
+    [
+     237,
+     "Board of County Commissioners, School Board, and Brooksville City Council Interlocal Governmental Meeting"
+    ],
+    [
+     239,
+     "Board of County Commissioners Workshop"
+    ]
+   ],
+   "lastEvent": "2026-11-05",
+   "perMemberVotes": true
+  },
+  "civicclerk": null,
+  "granicus": {
+   "site": "hernandocountyfl"
+  },
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "hernando",
+   "cycle": 32,
+   "cycleName": "2026 CANDIDATE ELECTION CYCLE (11/3/2026)",
+   "allCycles": [
+    [
+     32,
+     "2026 CANDIDATE ELECTION CYCLE (11/3/2026)"
+    ],
+    [
+     33,
+     "2028 CANDIDATE ELECTION CYCLE (5/1/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commission, Dist 2",
+    "County Commission, Dist 4",
+    "School Board, Dist 1",
+    "School Board, Dist 3",
+    "School Board, Dist 5"
+   ],
+   "candidatesListed": 38
+  }
+ },
+ "highlands": {
+  "name": "Highlands County",
+  "legistar": null,
+  "civicclerk": {
+   "tenant": "highlandscofl",
+   "lastEvent": "2027-01-05",
+   "name": "Meeting of the Special Districts"
+  },
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "highlands",
+   "cycle": 10,
+   "cycleName": "General 2026 (11/3/2026)",
+   "allCycles": [
+    [
+     10,
+     "General 2026 (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner District 2",
+    "County Commissioner District 4",
+    "School Board District 1",
+    "School Board District 4",
+    "School Board District 5"
+   ],
+   "candidatesListed": 20
+  }
+ },
+ "hillsborough": {
+  "name": "Hillsborough County",
+  "legistar": {
+   "client": "hillsboroughcounty",
+   "bodies": [],
+   "lastEvent": "2026-10-19",
+   "perMemberVotes": null
+  },
+  "civicclerk": null,
+  "granicus": {
+   "site": "hillsboroughcounty"
+  },
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "hillsborough",
+   "cycle": 27,
+   "cycleName": "2026 Candidate Election Cycle (11/3/2026)",
+   "allCycles": [
+    [
+     27,
+     "2026 Candidate Election Cycle (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner, Dist. 1",
+    "County Commissioner, Dist. 3",
+    "County Commissioner, Dist. 5",
+    "County Commissioner, Dist. 7",
+    "School Board Member, Dist. 2",
+    "School Board Member, Dist. 4",
+    "School Board Member, Dist. 6"
+   ],
+   "candidatesListed": 224
+  }
+ },
+ "holmes": {
+  "name": "Holmes County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "holmes",
+   "cycle": 11,
+   "cycleName": "2026 General Election (11/3/2026)",
+   "allCycles": [
+    [
+     11,
+     "2026 General Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner, District 2",
+    "County Commissioner, District 4",
+    "School Board, District 1",
+    "School Board, District 3",
+    "School Board, District  5"
+   ],
+   "candidatesListed": 13
+  }
+ },
+ "indianriver": {
+  "name": "Indian River County",
+  "legistar": {
+   "client": "ircgov",
+   "bodies": [
+    [
+     138,
+     "Board of County Commissioners"
+    ]
+   ],
+   "lastEvent": "2026-03-24",
+   "perMemberVotes": true
+  },
+  "civicclerk": {
+   "tenant": "indianrivercofl",
+   "lastEvent": "2027-09-14",
+   "name": "Children Services Advisory Committee"
+  },
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "indianriver",
+   "cycle": 18,
+   "cycleName": "2026 General Election (11/3/2026)",
+   "allCycles": [
+    [
+     18,
+     "2026 General Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "Board of County Commissioners - Dist 2",
+    "Board of County Commissioners - Dist 4",
+    "School Board - Dist 1",
+    "School Board - Dist 2",
+    "School Board - Dist 4"
+   ],
+   "candidatesListed": 20
+  }
+ },
+ "jackson": {
+  "name": "Jackson County",
+  "legistar": {
+   "client": "jacksonco",
+   "bodies": [],
+   "lastEvent": "2026-10-26",
+   "perMemberVotes": null
+  },
+  "civicclerk": {
+   "tenant": "jacksoncofl",
+   "lastEvent": "2027-12-28",
+   "name": "Commissioners - 4th Tuesday"
+  },
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "jackson",
+   "cycle": 19,
+   "cycleName": "2026 General Election (11/3/2026)",
+   "allCycles": [
+    [
+     19,
+     "2026 General Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner District 2",
+    "County Commissioner District 4",
+    "School Board Member District 1",
+    "School Board Member District 4",
+    "School Board Member District 5"
+   ],
+   "candidatesListed": 10
+  }
+ },
+ "jefferson": {
+  "name": "Jefferson County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "jefferson",
+   "cycle": 8,
+   "cycleName": "2026 Election Cycle (11/3/2026)",
+   "allCycles": [
+    [
+     8,
+     "2026 Election Cycle (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner District 2",
+    "County Commissioner District 4",
+    "School Board District 2",
+    "School Board District 3",
+    "School Board District 5"
+   ],
+   "candidatesListed": 15
+  }
+ },
+ "lafayette": {
+  "name": "Lafayette County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "lafayette",
+   "cycle": 8,
+   "cycleName": "2026 Election Cycle (12/31/2026)",
+   "allCycles": [
+    [
+     8,
+     "2026 Election Cycle (12/31/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner District 2",
+    "County Commissioner District 4",
+    "School Board District 1",
+    "School Board District 3",
+    "School Board District 5"
+   ],
+   "candidatesListed": 8
+  }
+ },
+ "lake": {
+  "name": "Lake County",
+  "legistar": {
+   "client": "lakecounty",
+   "bodies": [
+    [
+     190,
+     "Lake County Commission on Government Reform and Accountability "
+    ]
+   ],
+   "lastEvent": null,
+   "perMemberVotes": null
+  },
+  "civicclerk": {
+   "tenant": "lakecountyfl",
+   "lastEvent": "2028-02-08",
+   "name": "BCC - Regular Board Meeting"
+  },
+  "granicus": {
+   "site": "lakecounty"
+  },
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "lake",
+   "cycle": 17,
+   "cycleName": "2026 General Election (11/3/2026)",
+   "allCycles": [
+    [
+     17,
+     "2026 General Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commission District 2",
+    "County Commission District 4",
+    "School Board Member District 1",
+    "School Board Member District 3",
+    "School Board Member District 5"
+   ],
+   "candidatesListed": 44
+  }
+ },
+ "lee": {
+  "name": "Lee County",
+  "legistar": null,
+  "civicclerk": {
+   "tenant": "leecofl",
+   "lastEvent": "2026-10-20",
+   "name": "Lee Board of County Commissioners Workshop"
+  },
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "lee",
+   "cycle": 34,
+   "cycleName": "2026 CANDIDATES (11/3/2026)",
+   "allCycles": [
+    [
+     34,
+     "2026 CANDIDATES (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "COUNTY COMMISSIONER-2",
+    "COUNTY COMMISSIONER-4",
+    "COUNTY COMMISSIONER-5",
+    "SCHOOL BOARD-1",
+    "SCHOOL BOARD-4",
+    "SCHOOL BOARD-5",
+    "SCHOOL BOARD-6 AT LARGE"
+   ],
+   "candidatesListed": 184
+  }
+ },
+ "leon": {
+  "name": "Leon County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "leon",
+   "cycle": 25,
+   "cycleName": "2026 General Election (11/3/2026)",
+   "allCycles": [
+    [
+     25,
+     "2026 General Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "Leon County Commission - At Large, Group 2",
+    "Leon County Commission - District 1",
+    "Leon County Commission - District 3",
+    "Leon County Commission - District 5",
+    "Leon County School Board - District 1",
+    "Leon County School Board - District 3",
+    "Leon County School Board - District 5",
+    "Tallahassee City Commission - Seat 3",
+    "Tallahassee City Commission - Seat 4/Mayor",
+    "Tallahassee City Commission - Seat 5"
+   ],
+   "candidatesListed": 45
+  }
+ },
+ "levy": {
+  "name": "Levy County",
+  "legistar": null,
+  "civicclerk": {
+   "tenant": "levycofl",
+   "lastEvent": "2027-03-16",
+   "name": "Board of County Commissioners Meeting"
+  },
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "levy",
+   "cycle": 23,
+   "cycleName": "2026 Election (11/3/2026)",
+   "allCycles": [
+    [
+     23,
+     "2026 Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commission Dist. 2",
+    "County Commission Dist. 4",
+    "School Board Dist. 1",
+    "School Board Dist. 3",
+    "School Board Dist. 5"
+   ],
+   "candidatesListed": 13
+  }
+ },
+ "liberty": {
+  "name": "Liberty County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "liberty",
+   "cycle": 25,
+   "cycleName": "2026 Election (1/1/2026)",
+   "allCycles": [
+    [
+     25,
+     "2026 Election (1/1/2026)"
+    ],
+    [
+     26,
+     "2026 Rep Reports (1/1/2026)"
+    ]
+   ],
+   "localOffices": [
+    "Member, Board of County Commissioners, Dist. 2",
+    "Member, Board of County Commissioners, Dist. 4",
+    "School Board Member, Dist. 3",
+    "School Board Member, Dist. 4",
+    "School Board Member, Dist. 5"
+   ],
+   "candidatesListed": 14
+  }
+ },
+ "madison": {
+  "name": "Madison County",
+  "legistar": {
+   "client": "madison",
+   "bodies": [],
+   "lastEvent": "2050-09-24",
+   "perMemberVotes": null
+  },
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "madison",
+   "cycle": 8,
+   "cycleName": "2026 Primary/General Election (11/3/2026)",
+   "allCycles": [
+    [
+     8,
+     "2026 Primary/General Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner District 1",
+    "County Commissioner District 2",
+    "County Commissioner District 4",
+    "School Board District 1",
+    "School Board District 3",
+    "School Board District 5"
+   ],
+   "candidatesListed": 17
+  }
+ },
+ "manatee": {
+  "name": "Manatee County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "manatee",
+   "cycle": 212,
+   "cycleName": "2026 County Elections (11/3/2026)",
+   "allCycles": [
+    [
+     212,
+     "2026 County Elections (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "COUNTY COMMISSION - DIST. 1",
+    "COUNTY COMMISSION - DIST. 2",
+    "COUNTY COMMISSION - DIST. 4",
+    "COUNTY COMMISSION - DIST. 6 - AT LRG",
+    "SCHOOL BOARD DIST. 2",
+    "SCHOOL BOARD DIST. 4",
+    "SCHOOL BOARD DIST. 5"
+   ],
+   "candidatesListed": 165
+  }
+ },
+ "marion": {
+  "name": "Marion County",
+  "legistar": {
+   "client": "marionfl",
+   "bodies": [
+    [
+     138,
+     "Board of County Commissioners"
+    ],
+    [
+     191,
+     "Board of County Commissioners Workshop"
+    ],
+    [
+     193,
+     "Board of County Commissioners Budget Meeting"
+    ],
+    [
+     194,
+     "Board of County Commissioners Public Hearing Meeting"
+    ],
+    [
+     229,
+     "Board of County Commissioners Planning and Zoning"
+    ]
+   ],
+   "lastEvent": "2026-11-12",
+   "perMemberVotes": true
+  },
+  "civicclerk": null,
+  "granicus": {
+   "site": "marionfl"
+  },
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "marion",
+   "cycle": 28,
+   "cycleName": "Office Accounts (12/31/2026)",
+   "allCycles": [
+    [
+     28,
+     "Office Accounts (12/31/2026)"
+    ],
+    [
+     47,
+     "General Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "COUNTY COMMISSIONER - 1",
+    "COUNTY COMMISSIONER - 2",
+    "COUNTY COMMISSIONER - 3",
+    "COUNTY COMMISSIONER - 4",
+    "COUNTY COMMISSIONER - 5"
+   ],
+   "candidatesListed": 5
+  }
+ },
+ "martin": {
+  "name": "Martin County",
+  "legistar": {
+   "client": "martin",
+   "bodies": [
+    [
+     138,
+     "Board of County Commissioners"
+    ]
+   ],
+   "lastEvent": "2026-12-09",
+   "perMemberVotes": true
+  },
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "martin",
+   "cycle": 16,
+   "cycleName": "2026 Election Cycle (11/3/2026)",
+   "allCycles": [
+    [
+     16,
+     "2026 Election Cycle (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner, District 2",
+    "County Commissioner, District 4",
+    "School Board Member, District 1",
+    "School Board Member, District 3",
+    "School Board Member, District 4"
+   ],
+   "candidatesListed": 16
+  }
+ },
+ "miamidade": {
+  "name": "Miami-Dade County",
+  "legistar": {
+   "client": "miamidade",
+   "bodies": [
+    [
+     138,
+     "BOARD OF COUNTY COMMISSIONERS"
+    ]
+   ],
+   "lastEvent": "2018-06-19",
+   "perMemberVotes": true
+  },
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "miamidade",
+   "cycle": 30,
+   "cycleName": "General 2026 (11/3/2026)",
+   "allCycles": [
+    [
+     30,
+     "General 2026 (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "School Board District 01",
+    "School Board District 02",
+    "School Board District 04",
+    "School Board District 06",
+    "School Board District 08",
+    "County Commission District 01",
+    "County Commission District 02",
+    "County Commission District 04",
+    "County Commission District 05",
+    "County Commission District 06",
+    "County Commission District 08",
+    "County Commission District 10",
+    "County Commission District 12"
+   ],
+   "candidatesListed": 133
+  }
+ },
+ "monroe": {
+  "name": "Monroe County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": {
+   "site": "monroecountyfl"
+  },
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "monroe",
+   "cycle": 49,
+   "cycleName": "2026, County, State, Federal Elections (11/3/2026)",
+   "allCycles": [
+    [
+     49,
+     "2026, County, State, Federal Elections (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner, Dist. 2",
+    "County Commissioner, Dist. 4",
+    "School Board Members, Dist. 1",
+    "School Board Members, Dist. 4",
+    "School Board Members, Dist. 5"
+   ],
+   "candidatesListed": 25
+  }
+ },
+ "nassau": {
+  "name": "Nassau County",
+  "legistar": null,
+  "civicclerk": {
+   "tenant": "nassaucofl",
+   "lastEvent": "2026-11-09",
+   "name": "Board of County Commissioners"
+  },
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "nassau",
+   "cycle": 46,
+   "cycleName": "2026 General Election Cycle (11/3/2026)",
+   "allCycles": [
+    [
+     46,
+     "2026 General Election Cycle (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner, District 2",
+    "County Commissioner, District 4",
+    "School Board Member, District 1",
+    "School Board Member, District 3",
+    "School Board Member, District 5"
+   ],
+   "candidatesListed": 38
+  }
+ },
+ "okaloosa": {
+  "name": "Okaloosa County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "okaloosa",
+   "cycle": 220,
+   "cycleName": "2026 Election Cycle (11/3/2026)",
+   "allCycles": [
+    [
+     220,
+     "2026 Election Cycle (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner, Dist. 2",
+    "County Commissioner, Dist. 4",
+    "School Board Member, Dist. 1",
+    "School Board Member, Dist. 3",
+    "School Board Member, Dist. 5"
+   ],
+   "candidatesListed": 37
+  }
+ },
+ "okeechobee": {
+  "name": "Okeechobee County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": {
+   "site": "okeechobee"
+  },
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "okeechobee",
+   "cycle": 32,
+   "cycleName": "2026 Candidate (11/3/2026)",
+   "allCycles": [
+    [
+     32,
+     "2026 Candidate (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commission, District  2",
+    "County Commission, District  4",
+    "School Board, District  1",
+    "School Board, District  3",
+    "School Board, District  5"
+   ],
+   "candidatesListed": 6
+  }
+ },
+ "orange": {
+  "name": "Orange County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "orange",
+   "cycle": 105,
+   "cycleName": "Election- 11/3/2026 (11/3/2026)",
+   "allCycles": [
+    [
+     105,
+     "Election- 11/3/2026 (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner District 2",
+    "County Commissioner District 4",
+    "County Commissioner District 6",
+    "County Commissioner District 7",
+    "County Commissioner District 8",
+    "School Board Chair",
+    "School Board Dist. 1",
+    "School Board Dist. 2",
+    "School Board Dist. 3"
+   ],
+   "candidatesListed": 112
+  }
+ },
+ "osceola": {
+  "name": "Osceola County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "osceola",
+   "cycle": 17,
+   "cycleName": "General Election 2026 (11/3/2026)",
+   "allCycles": [
+    [
+     17,
+     "General Election 2026 (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner District 2",
+    "County Commissioner District 4",
+    "School Board District 1",
+    "School Board District 3",
+    "School Board District 4",
+    "School Board District 5",
+    "Kissimmee City Commission Seat 2",
+    "Kissimmee City Commission Seat 4"
+   ],
+   "candidatesListed": 102
+  }
+ },
+ "palmbeach": {
+  "name": "Palm Beach County",
+  "legistar": {
+   "client": "pbc",
+   "bodies": [
+    [
+     138,
+     "Board of County Commissioners"
+    ],
+    [
+     139,
+     "Board of County Commissioners Comprehensive Plan"
+    ]
+   ],
+   "lastEvent": "2026-04-27",
+   "perMemberVotes": true
+  },
+  "civicclerk": {
+   "tenant": "palmbeachfl",
+   "lastEvent": "2999-01-01",
+   "name": "One Time Event"
+  },
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "palmbeach",
+   "cycle": 12,
+   "cycleName": "2026 Election Cycle (11/3/2026)",
+   "allCycles": [
+    [
+     12,
+     "2026 Election Cycle (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner, Dist. 2",
+    "County Commissioner, Dist. 4",
+    "County Commissioner, Dist. 6",
+    "Jupiter Inlet Commission District 2",
+    "Jupiter Inlet Commission District 4",
+    "School Board, Dist. 3",
+    "School Board, Dist. 4",
+    "School Board, Dist. 6",
+    "School Board, Dist. 7"
+   ],
+   "candidatesListed": 78
+  }
+ },
+ "pasco": {
+  "name": "Pasco County",
+  "legistar": null,
+  "civicclerk": {
+   "tenant": "pascocofl",
+   "lastEvent": "2027-12-09",
+   "name": "Planning Commission"
+  },
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "pasco",
+   "cycle": 38,
+   "cycleName": "2026 Election Cycle (11/3/2026)",
+   "allCycles": [
+    [
+     38,
+     "2026 Election Cycle (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner District 2",
+    "County Commissioner District 4",
+    "School Board Member District 1",
+    "School Board Member District 3",
+    "School Board Member District 5"
+   ],
+   "candidatesListed": 153
+  }
+ },
+ "pinellas": {
+  "name": "Pinellas County",
+  "legistar": {
+   "client": "pinellas",
+   "bodies": [
+    [
+     138,
+     "Board of County Commissioners - Budget Information Session"
+    ],
+    [
+     171,
+     "Board of County Commissioners - Work Session"
+    ],
+    [
+     212,
+     "Board of County Commissioners - Special Session"
+    ],
+    [
+     213,
+     "Board of County Commissioners"
+    ]
+   ],
+   "lastEvent": "2026-10-27",
+   "perMemberVotes": false
+  },
+  "civicclerk": null,
+  "granicus": {
+   "site": "pinellas"
+  },
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "pinellas",
+   "cycle": 35,
+   "cycleName": "2026 Candidate Election Cycle (11/3/2026)",
+   "allCycles": [
+    [
+     35,
+     "2026 Candidate Election Cycle (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "Board of County Commissioners - Dist. 2 - At Large",
+    "Board of County Commissioners - Dist. 4 - Single M",
+    "Board of County Commissioners - Dist. 6 - Single M",
+    "School Board Member - District 2 - At Large",
+    "School Board Member - District 3 - At Large",
+    "School Board Member - District 6 - Single Member",
+    "School Board Member -  District 7 - Single Member"
+   ],
+   "candidatesListed": 39
+  }
+ },
+ "polk": {
+  "name": "Polk County",
+  "legistar": {
+   "client": "polkcountyfl",
+   "bodies": [
+    [
+     138,
+     "Board of County Commissioners"
+    ],
+    [
+     239,
+     "Board of County Commissioners (Organizational)"
+    ],
+    [
+     240,
+     "Board of County Commissioners (Budget)"
+    ],
+    [
+     241,
+     "Board of County Commissioners (Final Budget)"
+    ]
+   ],
+   "lastEvent": "2026-11-03",
+   "perMemberVotes": true
+  },
+  "civicclerk": null,
+  "granicus": {
+   "site": "polkcountyfl"
+  },
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "polk",
+   "cycle": 22,
+   "cycleName": "2026 General Election (11/3/2026)",
+   "allCycles": [
+    [
+     22,
+     "2026 General Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commission District 2",
+    "County Commission District 4",
+    "School Board District 3",
+    "School Board District 5",
+    "School Board District 6",
+    "School Board District 7"
+   ],
+   "candidatesListed": 67
+  }
+ },
+ "putnam": {
+  "name": "Putnam County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "putnam",
+   "cycle": 34,
+   "cycleName": "2026 Election Cycle (11/3/2026)",
+   "allCycles": [
+    [
+     34,
+     "2026 Election Cycle (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "School Board Dist 1",
+    "School Board Dist 4",
+    "School Board Dist 5",
+    "Palatka Mayor/ Commissioner",
+    "City Commissioner - Group 2",
+    "City Commissioner - Group 4",
+    "City Commissioner- Group 1 Crescent City",
+    "City Commissioner- Group 2 Crescent City"
+   ],
+   "candidatesListed": 25
+  }
+ },
+ "stjohns": {
+  "name": "St. Johns County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "stjohns",
+   "cycle": 20,
+   "cycleName": "2026 Election Cycle (11/3/2026)",
+   "allCycles": [
+    [
+     20,
+     "2026 Election Cycle (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commission - Dist 2",
+    "County Commission - Dist 4",
+    "School Board - Dist 1",
+    "School Board - Dist 3",
+    "School Board - Dist 4"
+   ],
+   "candidatesListed": 134
+  }
+ },
+ "stlucie": {
+  "name": "St. Lucie County",
+  "legistar": null,
+  "civicclerk": {
+   "tenant": "stluciecofl",
+   "lastEvent": "2029-05-16",
+   "name": "Contractors Licensing Board"
+  },
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "stlucie",
+   "cycle": 26,
+   "cycleName": "General 2026 (11/3/2026)",
+   "allCycles": [
+    [
+     26,
+     "General 2026 (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner, District 2",
+    "County Commissioner, District 4",
+    "School Board, District 1",
+    "School Board, District 3",
+    "School Board, District 5",
+    "City of Fort Pierce City Commission, District 1",
+    "City of Fort Pierce City Commission, District 2"
+   ],
+   "candidatesListed": 71
+  }
+ },
+ "santarosa": {
+  "name": "Santa Rosa County",
+  "legistar": null,
+  "civicclerk": {
+   "tenant": "santarosacofl",
+   "lastEvent": "2027-09-02",
+   "name": "Tourist Development Council Board Meeting"
+  },
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "santarosa",
+   "cycle": 11,
+   "cycleName": "2026 General Election (11/3/2026)",
+   "allCycles": [
+    [
+     11,
+     "2026 General Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner District 2",
+    "County Commissioner District 4",
+    "School Board District 1",
+    "School Board District 3",
+    "School Board District 5"
+   ],
+   "candidatesListed": 42
+  }
+ },
+ "sarasota": {
+  "name": "Sarasota County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "sarasota",
+   "cycle": 134,
+   "cycleName": "2026 Primary & General Elections (11/3/2026)",
+   "allCycles": [
+    [
+     134,
+     "2026 Primary & General Elections (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner, Dist. 2",
+    "County Commissioner, Dist. 4",
+    "School Board, Dist. 1",
+    "School Board, Dist. 4",
+    "School Board, Dist. 5"
+   ],
+   "candidatesListed": 73
+  }
+ },
+ "seminole": {
+  "name": "Seminole County",
+  "legistar": {
+   "client": "seminolecountyfl",
+   "bodies": [
+    [
+     138,
+     "Board of County Commissioners"
+    ]
+   ],
+   "lastEvent": "2026-10-28",
+   "perMemberVotes": true
+  },
+  "civicclerk": {
+   "tenant": "seminolefl",
+   "lastEvent": "2027-01-26",
+   "name": "City Council Meeting"
+  },
+  "granicus": {
+   "site": "seminolecountyfl"
+  },
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "seminole",
+   "cycle": 116,
+   "cycleName": "2026 GENERAL ELECTION (11/3/2026)",
+   "allCycles": [
+    [
+     116,
+     "2026 GENERAL ELECTION (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner, District 2",
+    "County Commissioner, District 4",
+    "School Board, District 1",
+    "School Board, District 2",
+    "School Board, District 5"
+   ],
+   "candidatesListed": 24
+  }
+ },
+ "sumter": {
+  "name": "Sumter County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "sumter",
+   "cycle": 26,
+   "cycleName": "2026 GENERAL ELECTION (Candidates) (11/3/2026)",
+   "allCycles": [
+    [
+     26,
+     "2026 GENERAL ELECTION (Candidates) (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner, Dist. 2",
+    "County Commissioner, Dist. 4",
+    "School Board Member, Dist. 1",
+    "School Board Member, Dist. 3",
+    "School Board Member, Dist. 5",
+    "Wildwood City Commission, Group 1",
+    "Wildwood City Commission, Group 2",
+    "Wildwood City Commission, Group 4"
+   ],
+   "candidatesListed": 76
+  }
+ },
+ "suwannee": {
+  "name": "Suwannee County",
+  "legistar": null,
+  "civicclerk": {
+   "tenant": "suwanneecofl",
+   "lastEvent": "2027-10-05",
+   "name": "Suwannee County Board of County Commissioners"
+  },
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "suwannee",
+   "cycle": 29,
+   "cycleName": "2026 GENERAL ELECTION (11/3/2026)",
+   "allCycles": [
+    [
+     29,
+     "2026 GENERAL ELECTION (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner Dist. 2",
+    "County Commissioner Dist. 4",
+    "School Board, Dist. 3",
+    "School Board, Dist. 4",
+    "School Board, Dist. 5"
+   ],
+   "candidatesListed": 14
+  }
+ },
+ "taylor": {
+  "name": "Taylor County",
+  "legistar": null,
+  "civicclerk": {
+   "tenant": "taylorcofl",
+   "lastEvent": "2027-01-26",
+   "name": "Board of Commissioners Workshop"
+  },
+  "granicus": {
+   "site": "taylor"
+  },
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "taylor",
+   "cycle": 16,
+   "cycleName": "General Election - 2026 (11/3/2026)",
+   "allCycles": [
+    [
+     16,
+     "General Election - 2026 (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commission - District 2",
+    "County Commission - District 4",
+    "School Board - District 1",
+    "School Board - District 2",
+    "School Board - District 4"
+   ],
+   "candidatesListed": 11
+  }
+ },
+ "union": {
+  "name": "Union County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "union",
+   "cycle": 11,
+   "cycleName": "2026 Elections (11/3/2026)",
+   "allCycles": [
+    [
+     11,
+     "2026 Elections (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "Dist # 1 School Board",
+    "Dist # 3 School Board",
+    "Dist # 5 School Board",
+    "Dist #2 County Commissioner",
+    "Dist #4 County Commissioner"
+   ],
+   "candidatesListed": 9
+  }
+ },
+ "volusia": {
+  "name": "Volusia County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "volusia",
+   "cycle": 36,
+   "cycleName": "General Election 11/3/26 (8/18/26) (11/3/2026)",
+   "allCycles": [
+    [
+     36,
+     "General Election 11/3/26 (8/18/26) (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "School Board Member, District 1",
+    "School Board Member, District 3",
+    "School Board Member, District 5",
+    "Daytona Beach Commissioner Zone 1",
+    "Daytona Beach Commissioner Zone 3",
+    "Daytona Beach Commissioner Zone 5",
+    "Daytona Beach Shores Commission Seat 1",
+    "Daytona Beach Shores Commission Seat 3",
+    "DeLand Commission Seat 3",
+    "DeLand Commission Seat 5",
+    "Deltona Commission District 1",
+    "Deltona Commission District 3",
+    "Deltona Commission District 5",
+    "Deltona Commission District 6",
+    "Holly Hill Commission District 2",
+    "Holly Hill Commission District 4",
+    "Lake Helen Commission Zone 2",
+    "Lake Helen Commission Zone 4",
+    "New Smyrna Beach Commission Zone 1",
+    "New Smyrna Beach Commission Zone 2",
+    "Oak Hill Commission Seat 1",
+    "Oak Hill Commission Seat 3",
+    "Ormond Beach Commission Zone 1",
+    "Ormond Beach Commission Zone 2",
+    "Ormond Beach Commission Zone 3",
+    "Ormond Beach Commission Zone 4"
+   ],
+   "candidatesListed": 139
+  }
+ },
+ "wakulla": {
+  "name": "Wakulla County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "wakulla",
+   "cycle": 15,
+   "cycleName": "2026 Election Cycle (1/1/2026)",
+   "allCycles": [
+    [
+     15,
+     "2026 Election Cycle (1/1/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner District 2",
+    "County Commissioner District 4",
+    "School Board District 1",
+    "School Board District 3",
+    "School Board District 5"
+   ],
+   "candidatesListed": 12
+  }
+ },
+ "walton": {
+  "name": "Walton County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": null,
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "walton",
+   "cycle": 42,
+   "cycleName": "2026 County Elections (11/3/2026)",
+   "allCycles": [
+    [
+     42,
+     "2026 County Elections (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner, District 2",
+    "County Commissioner, District 4",
+    "School Board District  2",
+    "School Board District 3",
+    "School Board District 5"
+   ],
+   "candidatesListed": 29
+  }
+ },
+ "washington": {
+  "name": "Washington County",
+  "legistar": null,
+  "civicclerk": null,
+  "granicus": {
+   "site": "washingtonco"
+  },
+  "boarddocs": null,
+  "voterfocus": {
+   "slug": "washington",
+   "cycle": 10,
+   "cycleName": "2026 General Election (11/3/2026)",
+   "allCycles": [
+    [
+     10,
+     "2026 General Election (11/3/2026)"
+    ]
+   ],
+   "localOffices": [
+    "County Commissioner District 2",
+    "County Commissioner District 4",
+    "School Board Member District 1",
+    "School Board Member District 4",
+    "School Board Member District 5"
+   ],
+   "candidatesListed": 8
+  }
+ }
+}
