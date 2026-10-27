@@ -8,8 +8,9 @@ on:
     - cron: "41 13,23 4-20 11 *"
 permissions:
   contents: write
+# Its own lane, so election night never waits behind the nightly refresh or another job.
 concurrency:
-  group: refresh
+  group: results
   cancel-in-progress: false
 jobs:
   results:
