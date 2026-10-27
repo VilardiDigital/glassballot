@@ -471,7 +471,8 @@ const jobSrc = r => { const j = HTV.jobs && HTV.jobs[isSchool(r) ? "school-board
 const FIELD_NAMES = {party:"Party", inOfficeSince:"In office since", term:"Term", leadership:"Role on the board", job:"Work", roles:"Community roles", pastOffice:"Past offices", lastElection:"Last election", record:"Voting record", attendance:"Attendance", conflicts:"Conflicts of interest", filings:"Financial disclosure forms"};
 const MONEY_FIELDS = {raised:"Money raised", moneyWhere:"Where the money comes from", moneyOwn:"Their own money", topOrgDonors:"Largest business and group donors", officialGifts:"Money between officials"};
 function rollOf(v) { const r = v.roll; const base = r.value || (r.versions && r.versions[0] && r.versions[0].value) || null; if (!base) return null; return {...base, ...(v.rollExtra || {})}; }
-const daysLeft = () => { const e = new Date(DATA.region.electionDate + "T07:00:00-05:00"); return Math.ceil((e - new Date()) / 864e5); };
+// Calendar days until Election Day, counted in Florida time and worked out fresh each time the page loads.
+const daysLeft = () => { const today = new Intl.DateTimeFormat("en-CA", {timeZone: "America/New_York"}).format(new Date()); return Math.round((Date.parse(DATA.region.electionDate) - Date.parse(today)) / 864e5); };
 
 /* Your own list of choices: kept only on this device */
 const picks = () => { try { return JSON.parse(store.get("gb-picks") || "{}"); } catch { return {}; } };
