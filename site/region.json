@@ -4,27 +4,7 @@
   "state": "FL",
   "electionDate": "2026-11-03",
   "updated": "2026-10-27",
-  "refreshLog": [
-   "pinellas Legistar: 1268 roll calls, 0 new split votes awaiting review",
-   "hernando Legistar: 1851 roll calls, 0 new split votes awaiting review",
-   "pinellas itemized contributions: 14 campaigns, 2134 gifts",
-   "pinellas itemized contributions: 4 campaigns, 834 gifts",
-   "pinellas itemized contributions: 6 campaigns, 1208 gifts",
-   "pinellas itemized contributions: 1 campaigns, 427 gifts",
-   "pasco itemized contributions: 15 campaigns, 2367 gifts",
-   "pasco itemized contributions: 4 campaigns, 1089 gifts",
-   "pasco itemized contributions: 2 campaigns, 592 gifts",
-   "pasco itemized contributions: 3 campaigns, 951 gifts",
-   "hillsborough itemized contributions: 18 campaigns, 4765 gifts",
-   "hillsborough itemized contributions: 3 campaigns, 1364 gifts",
-   "hillsborough itemized contributions: 7 campaigns, 2427 gifts",
-   "hillsborough itemized contributions: 2 campaigns, 996 gifts",
-   "hernando itemized contributions: 16 campaigns, 666 gifts",
-   "hernando itemized contributions: 2 campaigns, 240 gifts",
-   "hernando itemized contributions: 4 campaigns, 430 gifts",
-   "hernando itemized contributions: 3 campaigns, 409 gifts",
-   "Campaign totals: 49 candidates"
-  ],
+  "refreshLog": [],
   "refreshErrors": []
  },
  "order": [
@@ -6809,6 +6789,147 @@
         "source": "yahoo-psta"
        }
       ]
+     },
+     "funding": {
+      "total": 18308,
+      "inKind": 158,
+      "byGiver": {
+       "self": 862,
+       "people": 9496,
+       "business": 999,
+       "committee": 6950
+      },
+      "sectors": [
+       {
+        "id": "other-job",
+        "label": "Other jobs",
+        "amount": 3975,
+        "fromPeople": 3975,
+        "fromBusinesses": 0,
+        "gifts": 10,
+        "topBusinesses": []
+       },
+       {
+        "id": "unstated",
+        "label": "Job not reported",
+        "amount": 2721,
+        "fromPeople": 2721,
+        "fromBusinesses": 0,
+        "gifts": 39,
+        "topBusinesses": []
+       },
+       {
+        "id": "law",
+        "label": "Lawyers and lobbyists",
+        "amount": 1499,
+        "fromPeople": 500,
+        "fromBusinesses": 999,
+        "gifts": 2,
+        "topBusinesses": [
+         [
+          "Pressman & Associates",
+          999
+         ]
+        ]
+       },
+       {
+        "id": "realestate",
+        "label": "Real estate and land development",
+        "amount": 1000,
+        "fromPeople": 1000,
+        "fromBusinesses": 0,
+        "gifts": 1,
+        "topBusinesses": []
+       },
+       {
+        "id": "nojob",
+        "label": "Retired or not working",
+        "amount": 800,
+        "fromPeople": 800,
+        "fromBusinesses": 0,
+        "gifts": 4,
+        "topBusinesses": []
+       },
+       {
+        "id": "education",
+        "label": "Schools and education",
+        "amount": 500,
+        "fromPeople": 500,
+        "fromBusinesses": 0,
+        "gifts": 1,
+        "topBusinesses": []
+       }
+      ],
+      "committees": [
+       {
+        "name": "Cigna Group Employee PAC",
+        "amount": 1000,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       },
+       {
+        "name": "Greater Pinellas Dem Club PC",
+        "amount": 1000,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       },
+       {
+        "name": "IBEW Local Union 915 PAC",
+        "amount": 1000,
+        "kind": "union",
+        "kindLabel": "Labor union committee"
+       },
+       {
+        "name": "Iron Workers Local 397 Union",
+        "amount": 1000,
+        "kind": "union",
+        "kindLabel": "Labor union committee"
+       },
+       {
+        "name": "IUOE Local 487 PAC Fund",
+        "amount": 1000,
+        "kind": "union",
+        "kindLabel": "Labor union committee"
+       },
+       {
+        "name": "Pelican PAC",
+        "amount": 500,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       },
+       {
+        "name": "Iron Workers Local 397",
+        "amount": 500,
+        "kind": "union",
+        "kindLabel": "Labor union committee"
+       },
+       {
+        "name": "Gary Hartfield",
+        "amount": 500,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       },
+       {
+        "name": "Gtr Tarpon Spr. Justice League…",
+        "amount": 400,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       },
+       {
+        "name": "Dem Women Club Upper Pinellas",
+        "amount": 50,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       }
+      ],
+      "parties": [],
+      "sharedAddress": [],
+      "cycle": "2024",
+      "office": "Board of County Commissioners - Dist. 7 - Single M",
+      "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=31&c=pinellas&ca=1121&rellevel=4&committee=N",
+      "prior": 0,
+      "through": "2024-09-07",
+      "source": "soe-itemized-2024"
      },
      "facts": {
       "party": {
@@ -23050,6 +23171,544 @@
         "source": "lln-housing-2024"
        }
       ]
+     },
+     "funding": {
+      "total": 209500,
+      "inKind": 2000,
+      "byGiver": {
+       "committee": 31000,
+       "business": 100900,
+       "people": 76600,
+       "party": 1000
+      },
+      "sectors": [
+       {
+        "id": "realestate",
+        "label": "Real estate and land development",
+        "amount": 89300,
+        "fromPeople": 24950,
+        "fromBusinesses": 64350,
+        "gifts": 98,
+        "topBusinesses": [
+         [
+          "Trinity Club Apartments Inc",
+          1000
+         ],
+         [
+          "Galvin Harris Land Services LL…",
+          1000
+         ],
+         [
+          "Trinity Lakes Apartments Inc",
+          1000
+         ],
+         [
+          "Seven Hills Inc",
+          1000
+         ],
+         [
+          "Oldsmar 400 LLC",
+          1000
+         ],
+         [
+          "Island 301 LLC",
+          1000
+         ],
+         [
+          "Thornwood Associates LLC",
+          1000
+         ],
+         [
+          "Sandhill Flats LLC",
+          1000
+         ]
+        ]
+       },
+       {
+        "id": "construction",
+        "label": "Construction and engineering",
+        "amount": 33800,
+        "fromPeople": 17750,
+        "fromBusinesses": 16050,
+        "gifts": 38,
+        "topBusinesses": [
+         [
+          "Tampa Bay Builders Assoc Inc",
+          2000
+         ],
+         [
+          "Lincks & Associates Inc",
+          1000
+         ],
+         [
+          "Florida Design Consultants Inc…",
+          1000
+         ],
+         [
+          "Integrity Mobile Concrete LLC",
+          1000
+         ],
+         [
+          "Asphalt Paving Systems Inc",
+          1000
+         ],
+         [
+          "Faulkner Engineering Services",
+          1000
+         ],
+         [
+          "Surveying LLC Hamilton Engineering &",
+          1000
+         ],
+         [
+          "The Rogers Group",
+          1000
+         ]
+        ]
+       },
+       {
+        "id": "other-job",
+        "label": "Other jobs",
+        "amount": 12250,
+        "fromPeople": 12250,
+        "fromBusinesses": 0,
+        "gifts": 14,
+        "topBusinesses": []
+       },
+       {
+        "id": "other-business",
+        "label": "Other businesses",
+        "amount": 8500,
+        "fromPeople": 0,
+        "fromBusinesses": 8500,
+        "gifts": 9,
+        "topBusinesses": [
+         [
+          "Seven Diamonds LLC",
+          1000
+         ],
+         [
+          "Island Center Corp",
+          1000
+         ],
+         [
+          "Ferman Management Services Cor…",
+          1000
+         ],
+         [
+          "Levelup Consulting LLC",
+          1000
+         ],
+         [
+          "Florida State Fence Corp",
+          1000
+         ],
+         [
+          "Bellamy Brothers Partners",
+          1000
+         ],
+         [
+          "Wiregrass Irrigation LLC",
+          1000
+         ],
+         [
+          "MMV USA, LLC",
+          1000
+         ]
+        ]
+       },
+       {
+        "id": "towing",
+        "label": "Towing, auto and transportation",
+        "amount": 6000,
+        "fromPeople": 4000,
+        "fromBusinesses": 2000,
+        "gifts": 7,
+        "topBusinesses": [
+         [
+          "Pilot Country Airport X05 LLC",
+          1000
+         ],
+         [
+          "Crocketts Towing LLC",
+          1000
+         ]
+        ]
+       },
+       {
+        "id": "waste",
+        "label": "Waste, utilities and energy",
+        "amount": 6000,
+        "fromPeople": 4000,
+        "fromBusinesses": 2000,
+        "gifts": 6,
+        "topBusinesses": [
+         [
+          "Waste Aid Systems Inc",
+          1000
+         ],
+         [
+          "Petersons Service Corp",
+          1000
+         ]
+        ]
+       },
+       {
+        "id": "health",
+        "label": "Health care",
+        "amount": 5250,
+        "fromPeople": 3250,
+        "fromBusinesses": 2000,
+        "gifts": 6,
+        "topBusinesses": [
+         [
+          "Adam Smith Enterprises Inc",
+          1000
+         ],
+         [
+          "Grandview Botanicals Inc",
+          1000
+         ]
+        ]
+       },
+       {
+        "id": "finance",
+        "label": "Banking, insurance and investing",
+        "amount": 4000,
+        "fromPeople": 3000,
+        "fromBusinesses": 1000,
+        "gifts": 5,
+        "topBusinesses": [
+         [
+          "Roche Surety Inc",
+          1000
+         ]
+        ]
+       },
+       {
+        "id": "law",
+        "label": "Lawyers and lobbyists",
+        "amount": 3850,
+        "fromPeople": 350,
+        "fromBusinesses": 3500,
+        "gifts": 6,
+        "topBusinesses": [
+         [
+          "McClain Alfonso PA",
+          1000
+         ],
+         [
+          "Barbara L Wilhite PA",
+          1000
+         ],
+         [
+          "Johnston & Stewart Govt Strate…",
+          1000
+         ],
+         [
+          "Lewis, Longman & Walker PA",
+          500
+         ]
+        ]
+       },
+       {
+        "id": "agriculture",
+        "label": "Farming and agriculture",
+        "amount": 3500,
+        "fromPeople": 2500,
+        "fromBusinesses": 1000,
+        "gifts": 4,
+        "topBusinesses": [
+         [
+          "Wiregrass Ranch Inc",
+          1000
+         ]
+        ]
+       },
+       {
+        "id": "education",
+        "label": "Schools and education",
+        "amount": 2500,
+        "fromPeople": 2000,
+        "fromBusinesses": 500,
+        "gifts": 3,
+        "topBusinesses": [
+         [
+          "Prodigy Learning Inc",
+          500
+         ]
+        ]
+       },
+       {
+        "id": "nojob",
+        "label": "Retired or not working",
+        "amount": 2100,
+        "fromPeople": 2100,
+        "fromBusinesses": 0,
+        "gifts": 3,
+        "topBusinesses": []
+       },
+       {
+        "id": "unstated",
+        "label": "Job not reported",
+        "amount": 450,
+        "fromPeople": 450,
+        "fromBusinesses": 0,
+        "gifts": 5,
+        "topBusinesses": []
+       }
+      ],
+      "committees": [
+       {
+        "name": "Realtors Political Advocacy Co…",
+        "amount": 2000,
+        "kind": "industry",
+        "kindLabel": "Industry or trade group committee"
+       },
+       {
+        "name": "Realtors Political Action Com",
+        "amount": 2000,
+        "kind": "industry",
+        "kindLabel": "Industry or trade group committee"
+       },
+       {
+        "name": "Friends of Nick DiCeglie",
+        "amount": 1000,
+        "kind": "politician",
+        "kindLabel": "Another politician's committee"
+       },
+       {
+        "name": "Quiet Professionals FL",
+        "amount": 1000,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       },
+       {
+        "name": "Citizens for Solutions",
+        "amount": 1000,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       },
+       {
+        "name": "Friends of Jim Boyd",
+        "amount": 1000,
+        "kind": "politician",
+        "kindLabel": "Another politician's committee"
+       },
+       {
+        "name": "Friends of Ben Albritton",
+        "amount": 1000,
+        "kind": "politician",
+        "kindLabel": "Another politician's committee"
+       },
+       {
+        "name": "Advancing Florida Agriculture",
+        "amount": 1000,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       },
+       {
+        "name": "Florida ACRE",
+        "amount": 1000,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       },
+       {
+        "name": "A Bold Florida Future",
+        "amount": 1000,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       },
+       {
+        "name": "Liberty Foundation of Florida",
+        "amount": 1000,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       },
+       {
+        "name": "FreedomFirst Committee Inc",
+        "amount": 1000,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       },
+       {
+        "name": "Sunshine State First",
+        "amount": 1000,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       },
+       {
+        "name": "Accountability in Govt Inc",
+        "amount": 1000,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       },
+       {
+        "name": "Prosperity Inc Americans for Liberty and",
+        "amount": 1000,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       },
+       {
+        "name": "Good Govt for Florida Inc",
+        "amount": 1000,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       },
+       {
+        "name": "Fight for Florida",
+        "amount": 1000,
+        "kind": "politician",
+        "kindLabel": "Another politician's committee"
+       },
+       {
+        "name": "For a Conservative Florida",
+        "amount": 1000,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       },
+       {
+        "name": "Florida Strong",
+        "amount": 1000,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       },
+       {
+        "name": "Friends of Wilton Simpson",
+        "amount": 1000,
+        "kind": "politician",
+        "kindLabel": "Another politician's committee"
+       },
+       {
+        "name": "Friends of Colleen Burton",
+        "amount": 1000,
+        "kind": "politician",
+        "kindLabel": "Another politician's committee"
+       },
+       {
+        "name": "Conservaties for Good Govt",
+        "amount": 1000,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       },
+       {
+        "name": "Friends of Ed Hooper",
+        "amount": 1000,
+        "kind": "politician",
+        "kindLabel": "Another politician's committee"
+       },
+       {
+        "name": "RS&H PAC Florida",
+        "amount": 1000,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       },
+       {
+        "name": "Democracy Defending Conservatism and",
+        "amount": 1000,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       },
+       {
+        "name": "Firefighters of Pasco FIREPAC",
+        "amount": 1000,
+        "kind": "publicsafety",
+        "kindLabel": "Firefighters' or police officers' group committee"
+       },
+       {
+        "name": "Relators Political Activity Co…",
+        "amount": 1000,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       },
+       {
+        "name": "Realtors Political Activity Co…",
+        "amount": 1000,
+        "kind": "industry",
+        "kindLabel": "Industry or trade group committee"
+       },
+       {
+        "name": "HCA N FL Div & Good Govt Group…",
+        "amount": 1000,
+        "kind": "other",
+        "kindLabel": "Political committee (its name doesn't say who funds it)"
+       }
+      ],
+      "parties": [
+       {
+        "name": "Republican Party of Pasco",
+        "amount": 1000
+       }
+      ],
+      "sharedAddress": [
+       {
+        "names": [
+         "EPG Investment Co LLC",
+         "EPG Palmetto Ridge Holding LLC…",
+         "EPG Two Rivers LLC",
+         "EPG Two Rivers QOZB 2022 LLC",
+         "EPG Two Rivers QOZP LLC",
+         "Eisenhower Management Inc",
+         "Eisenhower Property Group LLC",
+         "JSH Capital LLC",
+         "JSH Development Group LLC",
+         "Two Rivers Marketing LLC"
+        ],
+        "amount": 10000
+       },
+       {
+        "names": [
+         "Flycatcher Enterprises LLC",
+         "Locust Branch LLC",
+         "Osceola Land Company II LLC",
+         "Osceola Land Company, LLC",
+         "Wiregrass Irrigation LLC",
+         "Wiregrass Ranch Inc"
+        ],
+        "amount": 6000
+       },
+       {
+        "names": [
+         "CR Pasco Development Co LLC",
+         "Epperson North LLC",
+         "Hawk Highland Trails LLC",
+         "Len-Angeline LLC",
+         "dune FL Land I Sub LLC"
+        ],
+        "amount": 5000
+       },
+       {
+        "names": [
+         "Seven Hills Inc",
+         "Trinity Club Apartments Inc",
+         "Trinity Lakes Apartments Inc"
+        ],
+        "amount": 3000
+       },
+       {
+        "names": [
+         "Freemarr Development Inc",
+         "Orsi Development Inc",
+         "Sunfield Homes Inc",
+         "Suntech Investments Inc"
+        ],
+        "amount": 3000
+       },
+       {
+        "names": [
+         "Chancey Road Towns LLC",
+         "MAQ Associates LLC",
+         "State Road 52 Industrial LLC"
+        ],
+        "amount": 3000
+       }
+      ],
+      "cycle": "2024",
+      "office": "County Commissioner District 1",
+      "reportUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=34&c=pasco&ca=1616&rellevel=4&committee=N",
+      "prior": 0,
+      "through": "2024-10-31",
+      "source": "soe-itemized-2024"
      },
      "facts": {
       "party": {

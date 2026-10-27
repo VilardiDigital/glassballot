@@ -890,7 +890,7 @@ function fundingBlock(p, fid) {
   const kinds = {publicsafety:"Firefighters' or police officers' group committee", union:"Labor union committee", industry:"Industry or trade group committee", politician:"Another politician's committee", other:"Its name doesn't say who funds it"};
   return `<div class="stack" style="margin-top:6px">
     <h3 class="h3">Where the money came from</h3>
-    ${f.cycle && f.cycle !== "2026" ? `<p class="small"><b>${esc(firstName(p))} isn't on the ballot this year.</b> This is from their most recent campaign, the ${esc(f.cycle)} election${f.office ? ` (${esc(f.office)})` : ""}.</p>` : ""}
+    ${f.cycle && f.cycle !== "2026" ? `<p class="small"><b>${esc(firstName(p))} isn't on the ballot this year.</b> This is from their most recent campaign account, filed in the county's ${esc(f.cycle)} election cycle${f.office ? ` (${esc(f.office)})` : ""}.</p>` : ""}
     <p class="small muted">${usd(T)} in itemized gifts${f.inKind ? `, including ${usd(f.inKind)} given as goods or services` : ""}, through ${f.through ? fmtDate(f.through) : "the latest report"}. Refunds are subtracted.</p>
     ${f.prior ? `<p class="small">Plus <b>${usd(f.prior)}</b> raised before this campaign switched to this race. Those gifts are itemized in state records, not the county's, so they aren't in the breakdown below.</p>` : ""}
     ${bar}

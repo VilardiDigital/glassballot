@@ -152,12 +152,30 @@ def summarize(rows: list[dict]) -> dict:
     }
 
 
+NICK = {"ron": "ronald", "ronnie": "ronald", "ken": "kenneth", "kenny": "kenneth", "chris": "christopher", "mike": "michael", "jim": "james",
+        "bill": "william", "bob": "robert", "rob": "robert", "tom": "thomas", "dave": "david", "steve": "steven", "jeff": "jeffrey",
+        "jerry": "gerald", "kathy": "kathryn", "kate": "kathryn", "pat": "patricia", "patti": "patricia", "sue": "susan", "dan": "daniel"}
+
+
+def _norm(n: str) -> list[str]:
+    import unicodedata
+    n = unicodedata.normalize("NFKD", n).encode("ascii", "ignore").decode()
+    return n.replace('"', " ").replace(" Jr.", "").replace(" Jr", "").replace(" II", "").replace(" III", "").split()
+
+
+def _firsts(words: list[str]) -> set[str]:
+    out = set()
+    for w in words:
+        w = w.lower().strip(".,")
+        out |= {w, NICK.get(w, w)}
+    return out
+
+
 def _match(name: str, people: list[dict]) -> dict | None:
     """Same last name and same first name (or nickname), so a different person with a shared surname never matches."""
-    base = name.replace('"', " ").replace(" Jr.", "").replace(" Jr", "").replace(" II", "").split()
-    last, firsts = base[-1].lower(), {w.lower().strip(".") for w in base[:-1]}
-    c = [p for p in people if p["name"].replace('"', " ").lower().replace(" jr.", "").split()[-1].strip(".,") == last
-         and firsts & {w.lower().strip(".") for w in p["name"].replace('"', " ").split()[:-1]}]
+    base = _norm(name)
+    last, firsts = base[-1].lower(), _firsts(base[:-1])
+    c = [p for p in people if _norm(p["name"])[-1].lower().strip(".,") == last and firsts & _firsts(_norm(p["name"])[:-1])]
     return c[0] if len(c) == 1 else None
 
 
