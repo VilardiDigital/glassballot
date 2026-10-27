@@ -112,6 +112,8 @@ def refresh_legistar(county: str, today: str) -> str:
                 "motion": c.get("motion") or (i.get("EventItemActionText") or "").strip() or None,
                 "headline": c.get("headline") or (i.get("EventItemTitle") or "Untitled item")[:120],
                 "inShort": c.get("inShort"), "needsReview": not c.get("inShort"),
+                # The clerk's minutes for this item. On public hearings they usually record who spoke and on which side.
+                "minutesNote": re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", i.get("EventItemMinutesNote") or ""))).strip() or c.get("minutesNote"),
             })
     for pid, a in att.items():
         stats[pid]["meetingsHeld"] = len(a)
