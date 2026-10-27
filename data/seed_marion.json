@@ -26,6 +26,13 @@
    "publisher": "Marion County Board of County Commissioners",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-marion": {
+   "title": "Marion Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=marion&el=47",
+   "publisher": "Marion County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -119,6 +126,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-marion"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$48,900 in contributions, plus $1,284.25 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-marion"
      }
     ]
    },
@@ -139,6 +156,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-marion"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$176,662.70 in contributions, plus $275.93 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-marion"
      }
     ]
    },
@@ -159,6 +186,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-marion"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$33,656.69 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-marion"
      }
     ]
    },
@@ -179,6 +216,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-marion"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$42,367.34 in contributions, plus $7,732.23 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-marion"
      }
     ]
    },
@@ -200,6 +247,12 @@
       "value": "Write-in",
       "source": "soe-vf"
      }
+    ],
+    "raised": [
+     {
+      "value": "$0 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-marion"
+     }
     ]
    },
    "office": "Candidate, County Commission",
@@ -214,7 +267,14 @@
   {
    "id": "cummings",
    "name": "Eric R. Cummings",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$17,794 in contributions, plus $500 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-marion"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -228,7 +288,14 @@
   {
    "id": "swett",
    "name": "Steve Swett",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$5,149.30 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-marion"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -242,7 +309,14 @@
   {
    "id": "mills",
    "name": "Mike Mills",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$30,125 in contributions, plus $448.19 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-marion"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",
@@ -256,7 +330,14 @@
   {
    "id": "smith",
    "name": "Brigitte Smith",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$23,957.47 in contributions, plus $521.77 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-marion"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",
@@ -270,7 +351,14 @@
   {
    "id": "barber",
    "name": "Donald \"Donny\" Barber",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$17,517.87 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-marion"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -284,7 +372,14 @@
   {
    "id": "james",
    "name": "Sarah James",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$57,375 in contributions, plus $4,500 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-marion"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

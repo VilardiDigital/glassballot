@@ -33,6 +33,13 @@
    "publisher": "Sumter County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-sumter": {
+   "title": "Sumter Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sumter&el=26",
+   "publisher": "Sumter County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -174,6 +181,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-sumter"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$57,660.41 in contributions, plus $200 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-sumter"
      }
     ]
    },
@@ -194,6 +211,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-sumter"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$6,165.51 in contributions, plus $218.30 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-sumter"
      }
     ]
    },
@@ -209,7 +236,14 @@
   {
    "id": "moss",
    "name": "Sally Moss",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,600 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-sumter"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -223,7 +257,14 @@
   {
    "id": "russell",
    "name": "Leslie Russell",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,000 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-sumter"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -237,7 +278,14 @@
   {
    "id": "loomer",
    "name": "Gerald Loomer",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$6,245.70 in contributions, plus $45 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-sumter"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -251,7 +299,14 @@
   {
    "id": "williams",
    "name": "David A. Williams",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,050 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-sumter"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -265,7 +320,14 @@
   {
    "id": "johnson",
    "name": "Michael Johnson",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$17,500 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-sumter"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -279,7 +341,14 @@
   {
    "id": "joiner",
    "name": "Troye Joiner",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$3,400 in contributions, plus $300 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-sumter"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

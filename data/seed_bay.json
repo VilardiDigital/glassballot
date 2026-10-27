@@ -33,6 +33,13 @@
    "publisher": "Bay County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-bay": {
+   "title": "Bay Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=bay&el=35",
+   "publisher": "Bay County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -116,6 +123,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-bay"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$1,000 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-bay"
      }
     ]
    },
@@ -159,6 +176,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-bay"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$62,251 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-bay"
      }
     ]
    },
@@ -174,7 +201,14 @@
   {
    "id": "littleton",
    "name": "Ginger Littleton",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$22,360 in contributions, plus $500 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-bay"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -188,7 +222,14 @@
   {
    "id": "petty",
    "name": "Michael Petty",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$17,071.30 in contributions, plus $669.95 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-bay"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -202,7 +243,14 @@
   {
    "id": "haley",
    "name": "Dr. John L. Haley",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$63,244.52 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-bay"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -216,7 +264,14 @@
   {
    "id": "christophermoore",
    "name": "Christopher Moore",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$10,900 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-bay"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -230,7 +285,14 @@
   {
    "id": "moss",
    "name": "Steve Moss",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$1,888.80 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-bay"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

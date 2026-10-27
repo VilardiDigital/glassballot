@@ -1,0 +1,27 @@
+{
+ "county": "alachua",
+ "url": "https://enr.electionsfl.org/ALA/4097/Summary/",
+ "pulledAt": "2026-10-27T13:35:17Z",
+ "status": "unofficial",
+ "updated": null,
+ "races": [
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 0,
+   "precincts": 63,
+   "candidates": []
+  },
+  {
+   "office": "County Commissioner District 4",
+   "reported": 0,
+   "precincts": 63,
+   "candidates": []
+  },
+  {
+   "office": "School Board District 1",
+   "reported": 0,
+   "precincts": 63,
+   "candidates": []
+  }
+ ]
+}

@@ -26,6 +26,13 @@
    "publisher": "Suwannee County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-suwannee": {
+   "title": "Suwannee Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=suwannee&el=29",
+   "publisher": "Suwannee County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -103,6 +110,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-suwannee"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$4,603.61 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-suwannee"
      }
     ]
    },
@@ -123,6 +140,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-suwannee"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$8,540 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-suwannee"
      }
     ]
    },
@@ -143,6 +170,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-suwannee"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$0 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-suwannee"
      }
     ]
    },
@@ -158,7 +195,14 @@
   {
    "id": "bean",
    "name": "Clifford Bean",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$1,722.48 in contributions, plus $1,935.55 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-suwannee"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -172,7 +216,14 @@
   {
    "id": "hines",
    "name": "Malcolm Hines",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$7,810 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-suwannee"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -186,7 +237,14 @@
   {
    "id": "dasilva",
    "name": "Edward daSilva",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$105 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-suwannee"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",
@@ -200,7 +258,14 @@
   {
    "id": "bass",
    "name": "Aaron Bass",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$7,150 in contributions, plus $1,775 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-suwannee"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -214,7 +279,14 @@
   {
    "id": "ronaldwhite",
    "name": "Ronald White",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$9,300 in contributions, plus $1,148 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-suwannee"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

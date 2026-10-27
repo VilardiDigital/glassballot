@@ -33,6 +33,13 @@
    "publisher": "Palm Beach County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-palmbeach": {
+   "title": "Palmbeach Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=palmbeach&el=12",
+   "publisher": "Palmbeach County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -198,6 +205,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-palmbeach"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$26,245.99 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-palmbeach"
      }
     ]
    },
@@ -218,6 +235,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-palmbeach"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$170,807 in contributions, plus $1,114.31 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-palmbeach"
      }
     ]
    },
@@ -238,6 +265,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-palmbeach"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$107,991 in contributions, plus $1,053.79 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-palmbeach"
      }
     ]
    },
@@ -298,6 +335,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-palmbeach"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$96,721 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-palmbeach"
      }
     ]
    },
@@ -313,7 +360,14 @@
   {
    "id": "brill",
    "name": "Karen Brill",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$34,716 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-palmbeach"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -327,7 +381,14 @@
   {
    "id": "romelus",
    "name": "Christina L. Romelus",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$99,437.20 in contributions, plus $153.95 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-palmbeach"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",
@@ -341,7 +402,14 @@
   {
    "id": "zapata",
    "name": "Daniel Zapata",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$57,419 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-palmbeach"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",
@@ -355,7 +423,14 @@
   {
    "id": "mcgovern",
    "name": "John McGovern",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$86,461 in contributions, plus $3,097.13 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-palmbeach"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "6",
@@ -369,7 +444,14 @@
   {
    "id": "pierre",
    "name": "Widline Pierre",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$8,104 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-palmbeach"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "6",
@@ -383,7 +465,14 @@
   {
    "id": "rosarioschoenfeld",
    "name": "Wanda Rosario-Schoenfeld",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$15,034.10 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-palmbeach"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "6",
@@ -397,7 +486,14 @@
   {
    "id": "ferguson",
    "name": "Edwin Ferguson",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$12,368 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-palmbeach"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "7",

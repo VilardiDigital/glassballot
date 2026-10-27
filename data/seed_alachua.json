@@ -26,6 +26,13 @@
    "publisher": "Alachua County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-alachua": {
+   "title": "Alachua Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=alachua&el=54",
+   "publisher": "Alachua County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -103,6 +110,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-alachua"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$43,110 in contributions, plus $226.71 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-alachua"
      }
     ]
    },
@@ -123,6 +140,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-alachua"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$41,837.40 in contributions, plus $42.98 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-alachua"
      }
     ]
    },
@@ -143,6 +170,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-alachua"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$23,372.05 in contributions, plus $500 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-alachua"
      }
     ]
    },
@@ -163,6 +200,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-alachua"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$11,795.95 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-alachua"
      }
     ]
    },
@@ -184,6 +231,12 @@
       "value": "NOP",
       "source": "soe-vf"
      }
+    ],
+    "raised": [
+     {
+      "value": "$6,351 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-alachua"
+     }
     ]
    },
    "office": "Candidate, County Commission",
@@ -203,6 +256,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-alachua"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$120,806.50 in contributions, plus $1,903.27 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-alachua"
      }
     ]
    },
@@ -218,7 +281,14 @@
   {
    "id": "miller",
    "name": "Hunter Miller",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$15,565 in contributions, plus $1,108.63 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-alachua"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -232,7 +302,14 @@
   {
    "id": "plavac",
    "name": "Janine Plavac",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$15,190 in contributions, plus $1,118.09 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-alachua"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -246,7 +323,14 @@
   {
    "id": "pelham",
    "name": "Gregory Pelham",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$11,840.02 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-alachua"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -260,7 +344,14 @@
   {
    "id": "rockwell",
    "name": "Sarah Rockwell",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$42,550 in contributions, plus $1,027.69 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-alachua"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -274,7 +365,14 @@
   {
    "id": "vinson",
    "name": "Jancie Vinson",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$5,235 in contributions, plus $2,436.70 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-alachua"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

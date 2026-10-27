@@ -1,0 +1,27 @@
+{
+ "county": "desoto",
+ "url": "https://enr.electionsfl.org/DES/4094/Summary/",
+ "pulledAt": "2026-10-27T13:35:28Z",
+ "status": "unofficial",
+ "updated": null,
+ "races": [
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 0,
+   "precincts": 15,
+   "candidates": []
+  },
+  {
+   "office": "County Commissioner District 2",
+   "reported": 0,
+   "precincts": 15,
+   "candidates": []
+  },
+  {
+   "office": "Arcadia City Council",
+   "reported": 0,
+   "precincts": 6,
+   "candidates": []
+  }
+ ]
+}

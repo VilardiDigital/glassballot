@@ -33,6 +33,13 @@
    "publisher": "Leon County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-leon": {
+   "title": "Leon Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=leon&el=25",
+   "publisher": "Leon County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -119,7 +126,14 @@
   {
    "id": "maddox",
    "name": "Nick Maddox",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$27,109 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-leon"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
    "district": "2",
@@ -133,7 +147,14 @@
   {
    "id": "rashid",
    "name": "Mehwish Rashid",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$8,800 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-leon"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
    "district": "2",
@@ -147,7 +168,14 @@
   {
    "id": "proctor",
    "name": "Bill Proctor",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$27,675 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-leon"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
    "district": "1",
@@ -161,7 +189,14 @@
   {
    "id": "lorch",
    "name": "Charles Bryan Lorch",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$54,340 in contributions, plus $2,518.28 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-leon"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
    "district": "3",
@@ -175,7 +210,14 @@
   {
    "id": "williamminor",
    "name": "William Minor",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$104,264.23 in contributions, plus $3,169.39 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-leon"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
    "district": "3",
@@ -189,7 +231,14 @@
   {
    "id": "hawkins",
    "name": "David T. Hawkins",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$28,180 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-leon"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
    "district": "5",
@@ -217,7 +266,14 @@
   {
    "id": "billingsley",
    "name": "James Billingsley",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$50 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-leon"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -231,7 +287,14 @@
   {
    "id": "smith",
    "name": "Alva Swafford Smith",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$5,000 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-leon"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -245,7 +308,14 @@
   {
    "id": "jones",
    "name": "Darryl Jones",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,150 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-leon"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -259,7 +329,14 @@
   {
    "id": "nicolas",
    "name": "Marcus Nicolas",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$18,047.78 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-leon"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -273,7 +350,14 @@
   {
    "id": "reilly",
    "name": "James G Reilly Jr",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$3,531 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-leon"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

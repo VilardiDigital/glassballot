@@ -26,6 +26,13 @@
    "publisher": "Brevard County Board of County Commissioners",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-brevard": {
+   "title": "Brevard Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=brevard&el=30",
+   "publisher": "Brevard County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -58,6 +65,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-brevard"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$133,508.90 in contributions, plus $3,503.27 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-brevard"
      }
     ]
    },
@@ -123,6 +140,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-brevard"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$9,185 in contributions, plus $553.08 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-brevard"
      }
     ]
    },
@@ -143,6 +170,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-brevard"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$65,150 in contributions, plus $8,975.48 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-brevard"
      }
     ]
    },
@@ -164,6 +201,12 @@
       "value": "Libertarian",
       "source": "soe-vf"
      }
+    ],
+    "raised": [
+     {
+      "value": "$4,040 in contributions, plus $918.71 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-brevard"
+     }
     ]
    },
    "office": "Candidate, County Commission",
@@ -183,6 +226,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-brevard"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$84,850 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-brevard"
      }
     ]
    },
@@ -203,6 +256,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-brevard"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$11,990.95 in contributions, plus $967.81 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-brevard"
      }
     ]
    },
@@ -218,7 +281,14 @@
   {
    "id": "gibson",
    "name": "Tara Gibson",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$13,830.15 in contributions, plus $1,601.90 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-brevard"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -232,7 +302,14 @@
   {
    "id": "wright",
    "name": "Megan Wright",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$23,355 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-brevard"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -246,7 +323,14 @@
   {
    "id": "savage",
    "name": "Kyle Savage",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$41,078.71 in contributions, plus $2,851.63 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-brevard"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -260,7 +344,14 @@
   {
    "id": "trent",
    "name": "Gene Trent",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$47,469.21 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-brevard"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -274,7 +365,14 @@
   {
    "id": "dennis",
    "name": "Tammy Dennis",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$82,656 in contributions, plus $5,593.55 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-brevard"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -288,7 +386,14 @@
   {
    "id": "mccormack",
    "name": "Michele McCormack",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$35,310 in contributions, plus $4,842.85 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-brevard"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

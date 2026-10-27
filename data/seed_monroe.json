@@ -33,6 +33,13 @@
    "publisher": "Monroe County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-monroe": {
+   "title": "Monroe Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=monroe&el=49",
+   "publisher": "Monroe County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -138,6 +145,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-monroe"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$14,350 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-monroe"
      }
     ]
    },
@@ -159,6 +176,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-monroe"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$91,752 in contributions, plus $4,801.23 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-monroe"
      }
     ]
    },
@@ -179,6 +206,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-monroe"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$225,292.85 in contributions, plus $1,000.65 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-monroe"
      }
     ]
    },
@@ -194,7 +231,14 @@
   {
    "id": "axford",
    "name": "Theresa Axford",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,250 in contributions, plus $837.26 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-monroe"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -208,7 +252,14 @@
   {
    "id": "horan",
    "name": "Darren Horan",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$5,450 in contributions, plus $200 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-monroe"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -222,7 +273,14 @@
   {
    "id": "gonzalez",
    "name": "Luis Gonzalez",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$7,003.54 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-monroe"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",
@@ -236,7 +294,14 @@
   {
    "id": "shaw",
    "name": "Chelyn Shaw",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$16,510.10 in contributions, plus $4,042.49 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-monroe"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -250,7 +315,14 @@
   {
    "id": "woltanski",
    "name": "Sue Woltanski",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$50,601.15 in contributions, plus $5,470.62 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-monroe"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

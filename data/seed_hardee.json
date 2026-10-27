@@ -16,6 +16,13 @@
    "publisher": "Hardee County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-hardee": {
+   "title": "Hardee Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hardee&el=16",
+   "publisher": "Hardee County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -27,6 +34,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-hardee"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$0 in contributions, plus $14.60 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-hardee"
      }
     ]
    },
@@ -47,6 +64,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-hardee"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$1,137.24 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-hardee"
      }
     ]
    },
@@ -67,6 +94,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-hardee"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$5,191.88 in contributions, plus $2,692.87 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-hardee"
      }
     ]
    },
@@ -82,7 +119,14 @@
   {
    "id": "sharp",
    "name": "Stacy Sharp",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$0 in contributions, plus $14 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-hardee"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -96,7 +140,14 @@
   {
    "id": "dasher",
    "name": "Marie Dasher",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$0 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-hardee"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",
@@ -110,7 +161,14 @@
   {
    "id": "gilliard",
    "name": "Mark Gilliard",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$0 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-hardee"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

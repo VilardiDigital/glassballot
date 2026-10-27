@@ -26,6 +26,13 @@
    "publisher": "Santa Rosa County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-santarosa": {
+   "title": "Santarosa Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=santarosa&el=11",
+   "publisher": "Santarosa County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -103,6 +110,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-santarosa"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$13,148.97 in contributions, plus $230.02 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-santarosa"
      }
     ]
    },
@@ -123,6 +140,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-santarosa"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$11,785.75 in contributions, plus $2,388.91 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-santarosa"
      }
     ]
    },
@@ -143,6 +170,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-santarosa"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$9,828.31 in contributions, plus $7,604.58 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-santarosa"
      }
     ]
    },
@@ -163,6 +200,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-santarosa"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$4,247.70 in contributions, plus $4,483.58 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-santarosa"
      }
     ]
    },
@@ -183,6 +230,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-santarosa"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$58,940 in contributions, plus $3,245 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-santarosa"
      }
     ]
    },
@@ -203,6 +260,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-santarosa"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$22,885.47 in contributions, plus $3,700 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-santarosa"
      }
     ]
    },
@@ -223,6 +290,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-santarosa"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$33,675 in contributions, plus $3,294.19 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-santarosa"
      }
     ]
    },
@@ -243,6 +320,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-santarosa"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$33,411.16 in contributions, plus $290 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-santarosa"
      }
     ]
    },
@@ -258,7 +345,14 @@
   {
    "id": "farrow",
    "name": "David Farrow",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$12,300 in contributions, plus $1,078.73 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-santarosa"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -272,7 +366,14 @@
   {
    "id": "sanborn",
    "name": "Linda Sanborn",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$22,750 in contributions, plus $2,631.23 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-santarosa"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -286,7 +387,14 @@
   {
    "id": "boston",
    "name": "Carol Boston",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$27,560 in contributions, plus $42.27 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-santarosa"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -300,7 +408,14 @@
   {
    "id": "connolly",
    "name": "Kyle Connolly",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$4,575 in contributions, plus $1,100 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-santarosa"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -314,7 +429,14 @@
   {
    "id": "locklin",
    "name": "Marie Locklin",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$40,656.51 in contributions, plus $1,384.50 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-santarosa"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -328,7 +450,14 @@
   {
    "id": "teston",
    "name": "Jill Broxson Teston",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$104,020 in contributions, plus $3,600 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-santarosa"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

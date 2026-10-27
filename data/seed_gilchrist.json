@@ -26,6 +26,13 @@
    "publisher": "Gilchrist County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-gilchrist": {
+   "title": "Gilchrist Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=gilchrist&el=24",
+   "publisher": "Gilchrist County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -103,6 +110,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-gilchrist"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$4,000 in contributions, plus $1,324.30 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-gilchrist"
      }
     ]
    },
@@ -123,6 +140,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-gilchrist"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$2,500 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-gilchrist"
      }
     ]
    },
@@ -143,6 +170,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-gilchrist"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$5,002 in contributions, plus $598.34 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-gilchrist"
      }
     ]
    },
@@ -163,6 +200,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-gilchrist"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$0 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-gilchrist"
      }
     ]
    },

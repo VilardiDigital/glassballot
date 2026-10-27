@@ -33,6 +33,13 @@
    "publisher": "Holmes County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-holmes": {
+   "title": "Holmes Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=holmes&el=11",
+   "publisher": "Holmes County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -116,6 +123,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-holmes"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$100 in contributions, plus $3,168.62 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-holmes"
      }
     ]
    },
@@ -159,6 +176,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-holmes"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$15,986.37 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-holmes"
      }
     ]
    },
@@ -179,6 +206,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-holmes"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$11,205.30 in contributions, plus $3,788.26 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-holmes"
      }
     ]
    },
@@ -199,6 +236,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-holmes"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$5,649.67 in contributions, plus $10,661.78 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-holmes"
      }
     ]
    },
@@ -219,6 +266,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-holmes"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$24,000 in contributions, plus $1,715.20 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-holmes"
      }
     ]
    },
@@ -239,6 +296,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-holmes"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$4,942.03 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-holmes"
      }
     ]
    },
@@ -259,6 +326,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-holmes"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$7,331 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-holmes"
      }
     ]
    },
@@ -274,7 +351,14 @@
   {
    "id": "amerson",
    "name": "Jeffrey Amerson",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$0 in contributions, plus $604.69 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-holmes"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -288,7 +372,14 @@
   {
    "id": "wilson",
    "name": "Milton (Tad) Wilson",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$1,355 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-holmes"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -302,7 +393,14 @@
   {
    "id": "miller",
    "name": "Natalie Miller",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$5 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-holmes"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -316,7 +414,14 @@
   {
    "id": "lee",
    "name": "Leesa Lee",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$5 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-holmes"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

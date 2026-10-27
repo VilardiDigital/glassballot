@@ -25,6 +25,13 @@
    "publisher": "Highlands County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-highlands": {
+   "title": "Highlands Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=highlands&el=10",
+   "publisher": "Highlands County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -102,6 +109,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-highlands"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$553.35 in contributions, plus $75 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-highlands"
      }
     ]
    },
@@ -122,6 +139,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-highlands"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$30,525 in contributions, plus $546.50 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-highlands"
      }
     ]
    },
@@ -142,6 +169,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-highlands"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$53,125 in contributions, plus $861.98 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-highlands"
      }
     ]
    },
@@ -157,7 +194,14 @@
   {
    "id": "jonsten",
    "name": "James Jonsten",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$5,351 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-highlands"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -171,7 +215,14 @@
   {
    "id": "pritchett",
    "name": "Kari Pritchett",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$11,164.12 in contributions, plus $280 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-highlands"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -185,7 +236,14 @@
   {
    "id": "hathaway",
    "name": "Hilary Hathaway",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$23,250 in contributions, plus $445.69 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-highlands"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",
@@ -199,7 +257,14 @@
   {
    "id": "martin",
    "name": "Reese Martin",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$4,800 in contributions, plus $64 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-highlands"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",
@@ -213,7 +278,14 @@
   {
    "id": "brown",
    "name": "Gary Brown",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$22,375 in contributions, plus $100 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-highlands"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -227,7 +299,14 @@
   {
    "id": "andytuck",
    "name": "Andy Tuck",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$70,608 in contributions, plus $142.94 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-highlands"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

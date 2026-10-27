@@ -33,6 +33,13 @@
    "publisher": "Jackson County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-jackson": {
+   "title": "Jackson Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=jackson&el=19",
+   "publisher": "Jackson County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -138,6 +145,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-jackson"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$500 in contributions, plus $6.80 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-jackson"
      }
     ]
    },
@@ -179,6 +196,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-jackson"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$22,640 in contributions, plus $633.20 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-jackson"
      }
     ]
    },
@@ -194,7 +221,14 @@
   {
    "id": "granberry",
    "name": "Chephus D. Granberry",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,845 in contributions, plus $596 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-jackson"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -208,7 +242,14 @@
   {
    "id": "king",
    "name": "Christopher Bryan King",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$12,825 in contributions, plus $5,180.61 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-jackson"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -222,7 +263,14 @@
   {
    "id": "johnson",
    "name": "Chris Johnson",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$100 in contributions, plus $6.60 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-jackson"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",
@@ -236,7 +284,14 @@
   {
    "id": "daniels",
    "name": "Phyllis T. Daniels",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$10,450 in contributions, plus $1,564.80 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-jackson"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -250,7 +305,14 @@
   {
    "id": "jackson",
    "name": "Michael MJ Jackson",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$5,940 in contributions, plus $1,647.54 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-jackson"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -264,7 +326,14 @@
   {
    "id": "walker",
    "name": "Danielle Walker",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$100 in contributions, plus $6,510.75 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-jackson"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

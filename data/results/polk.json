@@ -1,0 +1,33 @@
+{
+ "county": "polk",
+ "url": "https://enr.electionsfl.org/POL/4000/Summary/",
+ "pulledAt": "2026-10-27T13:36:19Z",
+ "status": "unofficial",
+ "updated": null,
+ "races": [
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 5,
+   "precincts": 177,
+   "candidates": []
+  },
+  {
+   "office": "County Commissioner District 4",
+   "reported": 5,
+   "precincts": 177,
+   "candidates": []
+  },
+  {
+   "office": "School Board District 3",
+   "reported": 5,
+   "precincts": 177,
+   "candidates": []
+  },
+  {
+   "office": "County School Board Referendum",
+   "reported": 5,
+   "precincts": 177,
+   "candidates": []
+  }
+ ]
+}

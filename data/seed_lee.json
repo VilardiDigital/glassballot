@@ -33,6 +33,13 @@
    "publisher": "Lee County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-lee": {
+   "title": "Lee Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=lee&el=34",
+   "publisher": "Lee County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -138,6 +145,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-lee"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$125,749 in contributions, plus $950 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-lee"
      }
     ]
    },
@@ -179,6 +196,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-lee"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$24,429.10 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-lee"
      }
     ]
    },
@@ -200,6 +227,12 @@
       "value": "No party affiliation",
       "source": "soe-vf"
      }
+    ],
+    "raised": [
+     {
+      "value": "$12,010.63 in contributions, plus $130 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-lee"
+     }
     ]
    },
    "office": "Candidate, County Commission",
@@ -219,6 +252,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-lee"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$205,070.99 in contributions, plus $5,900 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-lee"
      }
     ]
    },
@@ -239,6 +282,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-lee"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$326,010 in contributions, plus $1,836.13 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-lee"
      }
     ]
    },
@@ -254,7 +307,14 @@
   {
    "id": "fisher",
    "name": "Sam Fisher",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$70,570 in contributions, plus $887 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-lee"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -268,7 +328,14 @@
   {
    "id": "mcdaigle",
    "name": "Jenn McDaigle",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$12,549.14 in contributions, plus $716.23 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-lee"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -282,7 +349,14 @@
   {
    "id": "beougher",
    "name": "Tony Beougher",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$100,710 in contributions, plus $1,002.50 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-lee"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",
@@ -296,7 +370,14 @@
   {
    "id": "jordan",
    "name": "Debbie Jordan",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$37,521.20 in contributions, plus $2,651.35 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-lee"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",
@@ -310,7 +391,14 @@
   {
    "id": "johnson",
    "name": "Crystal Johnson",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$3,975.41 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-lee"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -324,7 +412,14 @@
   {
    "id": "persons",
    "name": "Armor Persons",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$77,004 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-lee"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -338,7 +433,14 @@
   {
    "id": "langfordfleming",
    "name": "Jada Langford-Fleming",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$84,120 in contributions, plus $500 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-lee"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "6",
@@ -352,7 +454,14 @@
   {
    "id": "palencia",
    "name": "India Palencia",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$48,351.94 in contributions, plus $3,019.91 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-lee"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "6",

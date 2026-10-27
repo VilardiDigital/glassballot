@@ -33,6 +33,13 @@
    "publisher": "Miami-Dade County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-miamidade": {
+   "title": "Miamidade Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=miamidade&el=30",
+   "publisher": "Miamidade County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -205,6 +212,12 @@
       "value": "NOP",
       "source": "soe-vf"
      }
+    ],
+    "raised": [
+     {
+      "value": "$141,464.20 in contributions, plus $1,000 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-miamidade"
+     }
     ]
    },
    "office": "County Commissioner",
@@ -231,6 +244,12 @@
      {
       "value": "NOP",
       "source": "soe-vf"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$184,115 in contributions, plus $3,450 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-miamidade"
      }
     ]
    },
@@ -281,6 +300,12 @@
       "value": "NOP",
       "source": "soe-vf"
      }
+    ],
+    "raised": [
+     {
+      "value": "$247,335 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-miamidade"
+     }
     ]
    },
    "office": "County Commissioner",
@@ -307,6 +332,12 @@
      {
       "value": "NOP",
       "source": "soe-vf"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$11,000 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-miamidade"
      }
     ]
    },
@@ -335,6 +366,12 @@
       "value": "NOP",
       "source": "soe-vf"
      }
+    ],
+    "raised": [
+     {
+      "value": "$149,900 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-miamidade"
+     }
     ]
    },
    "office": "County Commissioner",
@@ -350,7 +387,14 @@
   {
    "id": "cothiere",
    "name": "Linda Cothiere",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$50,640.95 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-miamidade"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -364,7 +408,14 @@
   {
    "id": "wilson",
    "name": "Katrina Wilson",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$79,805.56 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-miamidade"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -378,7 +429,14 @@
   {
    "id": "bendrossmindingall",
    "name": "Dorothy Bendross-Mindingall",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$109,186 in contributions, plus $7,350.36 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-miamidade"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -392,7 +450,14 @@
   {
    "id": "alonso",
    "name": "Roberto J. Alonso",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$73,385 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-miamidade"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",
@@ -406,7 +471,14 @@
   {
    "id": "rojas",
    "name": "Maria \"Mari Tere\" Rojas",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$157,945 in contributions, plus $800 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-miamidade"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "6",
@@ -420,7 +492,14 @@
   {
    "id": "colucci",
    "name": "Monica Colucci",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$130,995 in contributions, plus $972.50 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-miamidade"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "8",
@@ -434,7 +513,14 @@
   {
    "id": "joseph",
    "name": "Samuel \"Sam\" Joseph",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,025 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-miamidade"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "8",
@@ -453,6 +539,12 @@
      {
       "value": "NOP",
       "source": "soe-vf"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$58,000 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-miamidade"
      }
     ]
    },
@@ -474,6 +566,12 @@
       "value": "NOP",
       "source": "soe-vf"
      }
+    ],
+    "raised": [
+     {
+      "value": "$2,245.95 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-miamidade"
+     }
     ]
    },
    "office": "Candidate, County Commission",
@@ -493,6 +591,12 @@
      {
       "value": "NOP",
       "source": "soe-vf"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$13,215 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-miamidade"
      }
     ]
    },
@@ -514,6 +618,12 @@
       "value": "NOP",
       "source": "soe-vf"
      }
+    ],
+    "raised": [
+     {
+      "value": "$468,465.75 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-miamidade"
+     }
     ]
    },
    "office": "Candidate, County Commission",
@@ -533,6 +643,12 @@
      {
       "value": "NOP",
       "source": "soe-vf"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$16,989.90 in contributions, plus $362.24 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-miamidade"
      }
     ]
    },
@@ -554,6 +670,12 @@
       "value": "NOP",
       "source": "soe-vf"
      }
+    ],
+    "raised": [
+     {
+      "value": "$254,507 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-miamidade"
+     }
     ]
    },
    "office": "Candidate, County Commission",
@@ -574,6 +696,12 @@
       "value": "NOP",
       "source": "soe-vf"
      }
+    ],
+    "raised": [
+     {
+      "value": "$146,635 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-miamidade"
+     }
     ]
    },
    "office": "Candidate, County Commission",
@@ -593,6 +721,12 @@
      {
       "value": "NOP",
       "source": "soe-vf"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$46,520.90 in contributions, plus $6,900 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-miamidade"
      }
     ]
    },

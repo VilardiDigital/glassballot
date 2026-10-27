@@ -33,6 +33,13 @@
    "publisher": "Calhoun County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-calhoun": {
+   "title": "Calhoun Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=calhoun&el=22",
+   "publisher": "Calhoun County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -138,6 +145,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-calhoun"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$1,200 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-calhoun"
      }
     ]
    },
@@ -159,6 +176,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-calhoun"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$1,357.86 in contributions, plus $2.80 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-calhoun"
      }
     ]
    },
@@ -179,6 +206,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-calhoun"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$1,900 in contributions, plus $1,172.58 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-calhoun"
      }
     ]
    },
@@ -199,6 +236,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-calhoun"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$1,035 in contributions, plus $807.40 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-calhoun"
      }
     ]
    },
@@ -219,6 +266,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-calhoun"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$25 in contributions, plus $641.73 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-calhoun"
      }
     ]
    },
@@ -239,6 +296,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-calhoun"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$1,530 in contributions, plus $342.75 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-calhoun"
      }
     ]
    },
@@ -254,7 +321,14 @@
   {
    "id": "barton",
    "name": "Scott Barton",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,575.07 in contributions, plus $2.20 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-calhoun"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -268,7 +342,14 @@
   {
    "id": "howell",
    "name": "Ray Howell",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$10,100 in contributions, plus $186.53 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-calhoun"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -282,7 +363,14 @@
   {
    "id": "faircloth",
    "name": "Laurinda Smith Faircloth",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,496.65 in contributions, plus $177.83 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-calhoun"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -296,7 +384,14 @@
   {
    "id": "lipford",
    "name": "Craig Lipford",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$1,349.72 in contributions, plus $1,763.80 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-calhoun"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -310,7 +405,14 @@
   {
    "id": "edewaard",
    "name": "Janet Price Edewaard",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$650 in contributions, plus $835.96 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-calhoun"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -324,7 +426,14 @@
   {
    "id": "hassig",
    "name": "Danny M. Hassig",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$90 in contributions, plus $5,548.84 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-calhoun"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

@@ -33,6 +33,13 @@
    "publisher": "Bradford County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-bradford": {
+   "title": "Bradford Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=bradford&el=23",
+   "publisher": "Bradford County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -132,6 +139,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-bradford"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$4,720 in contributions, plus $2,178.43 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-bradford"
      }
     ]
    },
@@ -152,6 +169,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-bradford"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$2,986.39 in contributions, plus $58.99 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-bradford"
      }
     ]
    },
@@ -172,6 +199,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-bradford"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$4,151 in contributions, plus $625.99 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-bradford"
      }
     ]
    },
@@ -192,6 +229,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-bradford"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$1,141 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-bradford"
      }
     ]
    },
@@ -207,7 +254,14 @@
   {
    "id": "cummings",
    "name": "Sheila Fayson Cummings",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$20 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-bradford"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -221,7 +275,14 @@
   {
    "id": "nicula",
    "name": "Gayle Nicula",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$101.10 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-bradford"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -235,7 +296,14 @@
   {
    "id": "coleman",
    "name": "Lacey Coleman",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$1,615 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-bradford"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

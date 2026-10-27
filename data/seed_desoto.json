@@ -26,6 +26,13 @@
    "publisher": "DeSoto County Board of County Commissioners",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-desoto": {
+   "title": "Desoto Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=desoto&el=6",
+   "publisher": "Desoto County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -57,6 +64,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-desoto"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$3,200 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-desoto"
      }
     ]
    },
@@ -120,6 +137,12 @@
       "value": "Independent",
       "source": "soe-vf"
      }
+    ],
+    "raised": [
+     {
+      "value": "$9,000 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-desoto"
+     }
     ]
    },
    "office": "Candidate, County Commission",
@@ -139,6 +162,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-desoto"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$20,781.88 in contributions, plus $291.45 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-desoto"
      }
     ]
    },
@@ -159,6 +192,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-desoto"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$8,100 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-desoto"
      }
     ]
    },
@@ -174,7 +217,14 @@
   {
    "id": "schueneman",
    "name": "Jami Schueneman",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$35 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-desoto"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -188,7 +238,14 @@
   {
    "id": "mott",
    "name": "Asena Mott",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$1,425 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-desoto"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",
@@ -202,7 +259,14 @@
   {
    "id": "mercer",
    "name": "Kelly Mercer",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$1,448.04 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-desoto"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

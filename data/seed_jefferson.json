@@ -16,6 +16,13 @@
    "publisher": "Jefferson County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-jefferson": {
+   "title": "Jefferson Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=jefferson&el=8",
+   "publisher": "Jefferson County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -27,6 +34,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-jefferson"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$1,100 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-jefferson"
      }
     ]
    },
@@ -47,6 +64,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-jefferson"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$9,600 in contributions, plus $27.70 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-jefferson"
      }
     ]
    },
@@ -67,6 +94,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-jefferson"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$2,225 in contributions, plus $3.30 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-jefferson"
      }
     ]
    },
@@ -82,7 +119,14 @@
   {
    "id": "bradley",
    "name": "Jamia Bradley",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$652 in contributions, plus $1,515.56 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-jefferson"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -96,7 +140,14 @@
   {
    "id": "burdick",
    "name": "Donnie Burdick",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$6,220 in contributions, plus $442.01 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-jefferson"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -110,7 +161,14 @@
   {
    "id": "washington",
    "name": "Shirley Washington",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$1,200 in contributions, plus $2.10 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-jefferson"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -124,7 +182,14 @@
   {
    "id": "wirick",
    "name": "Brenda Wirick",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$6,800 in contributions, plus $566.80 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-jefferson"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -138,7 +203,14 @@
   {
    "id": "flynt",
    "name": "Magdalen \"Mags\" Flynt",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$438.88 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-jefferson"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

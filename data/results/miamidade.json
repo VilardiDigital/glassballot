@@ -1,0 +1,33 @@
+{
+ "county": "miamidade",
+ "url": "https://enr.electionsfl.org/DAD/4087/Summary/",
+ "pulledAt": "2026-10-27T13:36:10Z",
+ "status": "unofficial",
+ "updated": null,
+ "races": [
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 0,
+   "precincts": 768,
+   "candidates": []
+  },
+  {
+   "office": "County Commissioner District 5",
+   "reported": 0,
+   "precincts": 55,
+   "candidates": []
+  },
+  {
+   "office": "School Board Member District 1",
+   "reported": 0,
+   "precincts": 80,
+   "candidates": []
+  },
+  {
+   "office": "CntyChatAmdt Residency County Commissioner",
+   "reported": 0,
+   "precincts": 768,
+   "candidates": []
+  }
+ ]
+}

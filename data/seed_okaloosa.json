@@ -33,6 +33,13 @@
    "publisher": "Okaloosa County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-okaloosa": {
+   "title": "Okaloosa Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=okaloosa&el=220",
+   "publisher": "Okaloosa County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -116,6 +123,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-okaloosa"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$88,506.87 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-okaloosa"
      }
     ]
    },
@@ -159,6 +176,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-okaloosa"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$40,100 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-okaloosa"
      }
     ]
    },
@@ -174,7 +201,14 @@
   {
    "id": "evanchyk",
    "name": "Linda Evanchyk",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$26,810 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-okaloosa"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -188,7 +222,14 @@
   {
    "id": "reed",
    "name": "Mitch Reed",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$27,430 in contributions, plus $2,434.89 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-okaloosa"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -202,7 +243,14 @@
   {
    "id": "hinely",
    "name": "Brett Hinely",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$77,065 in contributions, plus $1,000 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-okaloosa"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -216,7 +264,14 @@
   {
    "id": "west",
    "name": "Cynthia West",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$88,035 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-okaloosa"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

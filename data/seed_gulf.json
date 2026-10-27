@@ -33,6 +33,13 @@
    "publisher": "Gulf County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-gulf": {
+   "title": "Gulf Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=gulf&el=61",
+   "publisher": "Gulf County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -138,6 +145,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-gulf"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$4,550 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-gulf"
      }
     ]
    },
@@ -159,6 +176,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-gulf"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$100 in contributions, plus $2.90 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-gulf"
      }
     ]
    },
@@ -179,6 +206,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-gulf"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$50 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-gulf"
      }
     ]
    },
@@ -199,6 +236,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-gulf"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$935 in contributions, plus $136.48 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-gulf"
      }
     ]
    },
@@ -214,7 +261,14 @@
   {
    "id": "bailey",
    "name": "Chad Bailey",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,090 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-gulf"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -228,7 +282,14 @@
   {
    "id": "palmer",
    "name": "Pamela Palmer",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$4,000 in contributions, plus $1,125 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-gulf"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -242,7 +303,14 @@
   {
    "id": "peak",
    "name": "Dennis Peak",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,100 in contributions, plus $979.02 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-gulf"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -256,7 +324,14 @@
   {
    "id": "wooten",
    "name": "Brooke Wooten",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$200 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-gulf"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -270,7 +345,14 @@
   {
    "id": "lisapridgeon",
    "name": "Lisa Pridgeon",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$100 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-gulf"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -284,7 +366,14 @@
   {
    "id": "knox",
    "name": "Ruby Sue Knox",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$20 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-gulf"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

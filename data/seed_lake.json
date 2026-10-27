@@ -33,6 +33,13 @@
    "publisher": "Lake County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-lake": {
+   "title": "Lake Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=lake&el=17",
+   "publisher": "Lake County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -116,6 +123,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-lake"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$139,855 in contributions, plus $4,406.53 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-lake"
      }
     ]
    },
@@ -154,7 +171,14 @@
   {
    "id": "eliastorres",
    "name": "Jose Elias-Torres",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$470.34 in contributions, plus $340.19 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-lake"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
    "district": "2",
@@ -168,7 +192,14 @@
   {
    "id": "powers",
    "name": "Leighton Powers",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$75 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-lake"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
    "district": "2",
@@ -207,6 +238,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-lake"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$18,408.53 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-lake"
      }
     ]
    },
@@ -222,7 +263,14 @@
   {
    "id": "tommiepowers",
    "name": "Tommie Powers",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$25 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-lake"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
    "district": "4",
@@ -236,7 +284,14 @@
   {
    "id": "kelley",
    "name": "Pat Kelley",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$31,300 in contributions, plus $102 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-lake"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -250,7 +305,14 @@
   {
    "id": "jamessmith",
    "name": "James Smith",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$620 in contributions, plus $100 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-lake"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -264,7 +326,14 @@
   {
    "id": "dodd",
    "name": "Marc A. Dodd",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,100 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-lake"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -278,7 +347,14 @@
   {
    "id": "luke",
    "name": "Stephanie Luke",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$9,200 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-lake"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

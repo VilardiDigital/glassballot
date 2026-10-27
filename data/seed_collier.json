@@ -33,6 +33,13 @@
    "publisher": "Collier County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-collier": {
+   "title": "Collier Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=collier&el=15",
+   "publisher": "Collier County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -116,6 +123,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-collier"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$78,107.40 in contributions, plus $2,033.32 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-collier"
      }
     ]
    },
@@ -143,6 +160,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-collier"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$86,731 in contributions, plus $1,000 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-collier"
      }
     ]
    },
@@ -165,6 +192,12 @@
       "value": "JEF",
       "source": "soe-vf"
      }
+    ],
+    "raised": [
+     {
+      "value": "$8,627.02 in contributions, plus $12.75 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-collier"
+     }
     ]
    },
    "office": "Candidate, County Commission",
@@ -184,6 +217,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-collier"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$24,400 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-collier"
      }
     ]
    },
@@ -199,7 +242,14 @@
   {
    "id": "donaldson",
    "name": "Jeff Donaldson",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$57,362.25 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-collier"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -213,7 +263,14 @@
   {
    "id": "mason",
    "name": "Kelly Mason",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$4,950 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-collier"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -227,7 +284,14 @@
   {
    "id": "dalusma",
    "name": "Ford Dalusma",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$3,985 in contributions, plus $413.77 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-collier"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -241,7 +305,14 @@
   {
    "id": "moshier",
    "name": "Timothy Moshier",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$39,203 in contributions, plus $1,000 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-collier"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

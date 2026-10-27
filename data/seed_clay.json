@@ -33,6 +33,13 @@
    "publisher": "Clay County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-clay": {
+   "title": "Clay Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=clay&el=94",
+   "publisher": "Clay County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -138,6 +145,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-clay"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$3,400 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-clay"
      }
     ]
    },
@@ -159,6 +176,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-clay"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$27,526.11 in contributions, plus $8.20 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-clay"
      }
     ]
    },
@@ -179,6 +206,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-clay"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$25,473.99 in contributions, plus $1,000 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-clay"
      }
     ]
    },
@@ -194,7 +231,14 @@
   {
    "id": "libretto",
    "name": "Lara Libretto",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$19,365 in contributions, plus $741.45 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-clay"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -208,7 +252,14 @@
   {
    "id": "skipper",
    "name": "Erin Skipper",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$44,564.60 in contributions, plus $1,491.43 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-clay"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -222,7 +273,14 @@
   {
    "id": "hanson",
    "name": "Michele Hanson",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$19,394.50 in contributions, plus $2,079.85 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-clay"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",
@@ -236,7 +294,14 @@
   {
    "id": "rathjen",
    "name": "Michael Rathjen",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$44,291.30 in contributions, plus $1,205.11 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-clay"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",
@@ -250,7 +315,14 @@
   {
    "id": "beasley",
    "name": "Gerald Beasley",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$10,005.66 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-clay"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -264,7 +336,14 @@
   {
    "id": "gilhousen",
    "name": "Ashley Gilhousen",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$14,251.67 in contributions, plus $660.90 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-clay"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -278,7 +357,14 @@
   {
    "id": "powellfaison",
    "name": "Veronica Powell-Faison",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$3,109.76 in contributions, plus $1,380.25 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-clay"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

@@ -1,0 +1,21 @@
+{
+ "county": "stjohns",
+ "url": "https://enr.electionsfl.org/STJ/4082/Summary/",
+ "pulledAt": "2026-10-27T13:36:22Z",
+ "status": "unofficial",
+ "updated": null,
+ "races": [
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 0,
+   "precincts": 55,
+   "candidates": []
+  },
+  {
+   "office": "School Board Member District 4",
+   "reported": 0,
+   "precincts": 9,
+   "candidates": []
+  }
+ ]
+}

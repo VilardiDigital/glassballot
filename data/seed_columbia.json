@@ -33,6 +33,13 @@
    "publisher": "Columbia County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-columbia": {
+   "title": "Columbia Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=columbia&el=29",
+   "publisher": "Columbia County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -93,6 +100,12 @@
       "value": "Elected unopposed in 2022 (COUNTY COMMISSION DIST 2)",
       "source": "soe-vf-2022"
      }
+    ],
+    "raised": [
+     {
+      "value": "$10,686 in contributions, plus $529.41 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-columbia"
+     }
     ]
    },
    "office": "County Commissioner",
@@ -125,7 +138,14 @@
   {
    "id": "pittman",
    "name": "CLINT PITTMAN",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$14,100 in contributions, plus $4,194 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-columbia"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
    "district": "2",
@@ -139,7 +159,14 @@
   {
    "id": "dicks",
    "name": "CHRIS DICKS",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$7,321.19 in contributions, plus $1,214.38 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-columbia"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
    "district": "4",
@@ -167,7 +194,14 @@
   {
    "id": "goswami",
    "name": "NIKI GOSWAMI",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$3,251 in contributions, plus $186.32 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-columbia"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -181,7 +215,14 @@
   {
    "id": "smith",
    "name": "NARRAGANSETT SMITH",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$3,600 in contributions, plus $4,800 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-columbia"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -195,7 +236,14 @@
   {
    "id": "hill",
    "name": "CHERIE HILL",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$10,000 in contributions, plus $25.05 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-columbia"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -209,7 +257,14 @@
   {
    "id": "peeler",
    "name": "HUNTER PEELER",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$100 in contributions, plus $840.97 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-columbia"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

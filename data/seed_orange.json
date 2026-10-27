@@ -33,6 +33,13 @@
    "publisher": "Orange County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-orange": {
+   "title": "Orange Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=orange&el=105",
+   "publisher": "Orange County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -125,6 +132,12 @@
       "value": "Elected in 2022 (County Commissioner District 6)",
       "source": "soe-vf-2022"
      }
+    ],
+    "raised": [
+     {
+      "value": "$165,949.48 in contributions, plus $499.38 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-orange"
+     }
     ]
    },
    "office": "County Commissioner",
@@ -141,7 +154,14 @@
   {
    "id": "brown",
    "name": "Kamia Brown",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$106,992.85 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
    "district": "2",
@@ -155,7 +175,14 @@
   {
    "id": "crabb",
    "name": "Mike Crabb",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$64,900 in contributions, plus $1,817.33 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
    "district": "2",
@@ -169,7 +196,14 @@
   {
    "id": "arthur",
    "name": "Isabella Arthur",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$150 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
    "district": "4",
@@ -183,21 +217,35 @@
   {
    "id": "jones",
    "name": "Brian Jones",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$7,660 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
    "district": "4",
    "race": "bcc-d4",
    "finance": {
-    "voterfocusId": "1260",
-    "status": "Active- Qualified"
+    "voterfocusId": "1292",
+    "status": "Active- Defeated"
    },
    "nonpartisan": false
   },
   {
    "id": "lopez",
    "name": "Johanna Lopez",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$131,017.88 in contributions, plus $500 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
    "district": "4",
@@ -211,7 +259,14 @@
   {
    "id": "gelzer",
    "name": "Lawanna Gelzer",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$98,475 in contributions, plus $1,275 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
    "district": "6",
@@ -225,7 +280,14 @@
   {
    "id": "rumph",
    "name": "Patricia Rumph",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$79,978.26 in contributions, plus $796.81 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
    "district": "7",
@@ -239,7 +301,14 @@
   {
    "id": "vargo",
    "name": "Vicki Vargo",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$184,391 in contributions, plus $650.16 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
    "district": "7",
@@ -253,7 +322,14 @@
   {
    "id": "hernandez",
    "name": "Jeannette Quinones Hernandez",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$43,300.96 in contributions, plus $2,000 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
    "district": "8",
@@ -267,7 +343,14 @@
   {
    "id": "torres",
    "name": "Victor M. Torres Jr.",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$152,590.11 in contributions, plus $984.58 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
    "office": "Candidate, County Commission",
    "status": "open",
    "district": "8",
@@ -281,7 +364,14 @@
   {
    "id": "farrant",
    "name": "Alicia Farrant",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$89,968 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "race": "sb-school-board-chair",
@@ -294,7 +384,14 @@
   {
    "id": "gallo",
    "name": "Angie Gallo",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$100,560.14 in contributions, plus $7,430.61 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "race": "sb-school-board-chair",
@@ -307,7 +404,14 @@
   {
    "id": "marantes",
    "name": "Melissa Lopez Marantes",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$23,090.40 in contributions, plus $9,726.11 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -321,7 +425,14 @@
   {
    "id": "shepard",
    "name": "David Shepard",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$14,351.40 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -335,7 +446,14 @@
   {
    "id": "lugo",
    "name": "Marisol Lugo",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$19,563.36 in contributions, plus $1,650 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -349,7 +467,14 @@
   {
    "id": "oneal",
    "name": "Gloria Reina O'Neal",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$32,940.98 in contributions, plus $1,240 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -363,7 +488,14 @@
   {
    "id": "dianamoore",
    "name": "Diana Moore",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$5,934.75 in contributions, plus $1,000 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -377,7 +509,14 @@
   {
    "id": "pea",
    "name": "Susanne Peña",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$75,756.87 in contributions, plus $274.28 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",

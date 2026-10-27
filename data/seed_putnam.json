@@ -19,13 +19,27 @@
    "publisher": "Putnam County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-putnam": {
+   "title": "Putnam Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=putnam&el=34",
+   "publisher": "Putnam County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
   {
    "id": "pickens",
    "name": "Holly Pickens",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$0 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-putnam"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -39,7 +53,14 @@
   {
    "id": "wagner",
    "name": "Linda Wagner",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$1,605.30 in contributions, plus $5 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-putnam"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",
@@ -53,7 +74,14 @@
   {
    "id": "leary",
    "name": "Phil Leary",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$1,855.40 in contributions, plus $422.30 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-putnam"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

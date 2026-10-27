@@ -1,0 +1,21 @@
+{
+ "county": "levy",
+ "url": "https://enr.electionsfl.org/LEV/4058/Summary/",
+ "pulledAt": "2026-10-27T13:35:57Z",
+ "status": "unofficial",
+ "updated": null,
+ "races": [
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": []
+  },
+  {
+   "office": "County Commissioner, Dist 2",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": []
+  }
+ ]
+}

@@ -33,6 +33,13 @@
    "publisher": "Citrus County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-citrus": {
+   "title": "Citrus Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=citrus&el=21",
+   "publisher": "Citrus County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -116,6 +123,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-citrus"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$54,230 in contributions, plus $2,468.91 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-citrus"
      }
     ]
    },
@@ -143,6 +160,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-citrus"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$99,245 in contributions, plus $4,770.89 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-citrus"
      }
     ]
    },
@@ -164,6 +191,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-citrus"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$81,373 in contributions, plus $7,362.68 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-citrus"
      }
     ]
    },
@@ -184,6 +221,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-citrus"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$6,048.50 in contributions, plus $225 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-citrus"
      }
     ]
    },
@@ -204,6 +251,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-citrus"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$29,028.08 in contributions, plus $1,694.72 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-citrus"
      }
     ]
    },
@@ -219,7 +276,14 @@
   {
    "id": "kennedy",
    "name": "Thomas Kennedy",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$3,675 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-citrus"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -233,7 +297,14 @@
   {
    "id": "mullen",
    "name": "Mike Mullen",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$10,420 in contributions, plus $500 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-citrus"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -247,7 +318,14 @@
   {
    "id": "thrumston",
    "name": "John Thrumston",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$26,300 in contributions, plus $616.12 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-citrus"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -261,7 +339,14 @@
   {
    "id": "faherty",
    "name": "Joseph \"Joe\" Faherty",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$3,750 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-citrus"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

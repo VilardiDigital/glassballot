@@ -1,0 +1,21 @@
+{
+ "county": "citrus",
+ "url": "https://enr.electionsfl.org/CIT/4070/Summary/",
+ "pulledAt": "2026-10-27T13:35:22Z",
+ "status": "unofficial",
+ "updated": null,
+ "races": [
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 0,
+   "precincts": 31,
+   "candidates": []
+  },
+  {
+   "office": "City of Crystal River - City Council - Seat 2",
+   "reported": 0,
+   "precincts": 1,
+   "candidates": []
+  }
+ ]
+}

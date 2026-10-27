@@ -33,6 +33,13 @@
    "publisher": "Flagler County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-flagler": {
+   "title": "Flagler Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=flagler&el=41",
+   "publisher": "Flagler County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -138,6 +145,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-flagler"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$53,150 in contributions, plus $808.60 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-flagler"
      }
     ]
    },
@@ -159,6 +176,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-flagler"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$37,454.70 in contributions, plus $1,695.06 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-flagler"
      }
     ]
    },
@@ -180,6 +207,12 @@
       "value": "Independent",
       "source": "soe-vf"
      }
+    ],
+    "raised": [
+     {
+      "value": "$7,710 in contributions, plus $138.10 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-flagler"
+     }
     ]
    },
    "office": "Candidate, County Commission",
@@ -200,6 +233,12 @@
       "value": "Write-in",
       "source": "soe-vf"
      }
+    ],
+    "raised": [
+     {
+      "value": "$0 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-flagler"
+     }
     ]
    },
    "office": "Candidate, County Commission",
@@ -214,7 +253,14 @@
   {
    "id": "moon",
    "name": "Cathy Moon",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$18,844 in contributions, plus $5,486.75 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-flagler"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -228,7 +274,14 @@
   {
    "id": "woolbright",
    "name": "Jill R. Woolbright",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$19,876 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-flagler"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -242,7 +295,14 @@
   {
    "id": "furry",
    "name": "Will Furry",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$31,700 in contributions, plus $4,000 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-flagler"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -256,7 +316,14 @@
   {
    "id": "wood",
    "name": "Rob Wood",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$21,715 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-flagler"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -270,7 +337,14 @@
   {
    "id": "chong",
    "name": "Christy Chong",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$11,505 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-flagler"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",
@@ -284,7 +358,14 @@
   {
    "id": "tucker",
    "name": "Trevor Tucker",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$16,544.11 in contributions, plus $608.92 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-flagler"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",

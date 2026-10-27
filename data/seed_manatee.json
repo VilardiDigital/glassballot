@@ -33,6 +33,13 @@
    "publisher": "Manatee County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-manatee": {
+   "title": "Manatee Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&el=212",
+   "publisher": "Manatee County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -138,6 +145,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-manatee"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$100,980.73 in contributions, plus $1,556.40 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-manatee"
      }
     ]
    },
@@ -165,6 +182,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-manatee"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$75,000 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-manatee"
      }
     ]
    },
@@ -208,6 +235,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-manatee"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$25,560.69 in contributions, plus $2,658.07 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-manatee"
      }
     ]
    },
@@ -228,6 +265,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-manatee"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$14,936 in contributions, plus $457.82 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-manatee"
      }
     ]
    },
@@ -248,6 +295,16 @@
      {
       "value": "Write-in",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-manatee"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$24,857 in contributions, plus $972.65 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-manatee"
      }
     ]
    },
@@ -256,8 +313,8 @@
    "district": "1",
    "race": "bcc-d1",
    "finance": {
-    "voterfocusId": "2548",
-    "status": "Active- Qualified Write-In"
+    "voterfocusId": "2492",
+    "status": "Active- Defeated"
    }
   },
   {
@@ -268,6 +325,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-manatee"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$13,008.17 in contributions, plus $52.30 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-manatee"
      }
     ]
    },
@@ -288,6 +355,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-manatee"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$15,475.83 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-manatee"
      }
     ]
    },
@@ -308,6 +385,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-manatee"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$24,085 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-manatee"
      }
     ]
    },
@@ -328,6 +415,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-manatee"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$73,351 in contributions, plus $2,406.10 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-manatee"
      }
     ]
    },
@@ -343,7 +440,14 @@
   {
    "id": "jefferson",
    "name": "Sharon Jefferson",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$12,525.07 in contributions, plus $951.50 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-manatee"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -357,7 +461,14 @@
   {
    "id": "spray",
    "name": "Cindy Spray",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$42,366.10 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-manatee"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -371,7 +482,14 @@
   {
    "id": "choate",
    "name": "Chad Choate",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$3,500 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-manatee"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",
@@ -385,7 +503,14 @@
   {
    "id": "bedinghaus",
    "name": "Camden T Bedinghaus",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$11,755.34 in contributions, plus $1,085.50 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-manatee"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -399,7 +524,14 @@
   {
    "id": "mullis",
    "name": "Jonathan Mullis",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$46,768 in contributions, plus $255.23 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-manatee"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

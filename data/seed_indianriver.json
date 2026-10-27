@@ -33,6 +33,13 @@
    "publisher": "Indian River County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-indianriver": {
+   "title": "Indianriver Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=indianriver&el=18",
+   "publisher": "Indianriver County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -154,6 +161,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-indianriver"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$15,748.68 in contributions, plus $1,243.58 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-indianriver"
      }
     ]
    },
@@ -175,6 +192,12 @@
       "value": "Write-in",
       "source": "soe-vf"
      }
+    ],
+    "raised": [
+     {
+      "value": "$2,380 in contributions, plus $666.40 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-indianriver"
+     }
     ]
    },
    "office": "Candidate, County Commission",
@@ -194,6 +217,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-indianriver"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$67,800.37 in contributions, plus $6,342 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-indianriver"
      }
     ]
    },
@@ -214,6 +247,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-indianriver"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$8,683.14 in contributions, plus $440.70 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-indianriver"
      }
     ]
    },
@@ -249,7 +292,14 @@
   {
    "id": "matthews",
    "name": "Ryan Matthews",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$17,985.50 in contributions, plus $25 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-indianriver"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -263,7 +313,14 @@
   {
    "id": "lange",
    "name": "Thomas Lange",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$18,606.40 in contributions, plus $155 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-indianriver"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -277,7 +334,14 @@
   {
    "id": "rosario",
    "name": "Jacqueline Rosario",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$33,790 in contributions, plus $300 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-indianriver"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -291,7 +355,14 @@
   {
    "id": "barenborg",
    "name": "Teri L. Barenborg",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$15,430 in contributions, plus $132.65 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-indianriver"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",

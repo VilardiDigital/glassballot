@@ -33,6 +33,13 @@
    "publisher": "Gadsden County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-gadsden": {
+   "title": "Gadsden Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=gadsden&el=37",
+   "publisher": "Gadsden County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -94,13 +101,27 @@
      {
       "value": "Democrat",
       "source": "soe-vf-2022"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-gadsden"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$3,850 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-gadsden"
      }
     ]
    },
    "office": "County Commissioner",
    "status": "incumbent",
    "district": "4",
-   "fromElections": true
+   "fromElections": true,
+   "finance": {
+    "voterfocusId": "452",
+    "status": "Active- Defeated"
+   }
   },
   {
    "id": "lightfoot",
@@ -110,6 +131,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-gadsden"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$2,718.35 in contributions, plus $14.10 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-gadsden"
      }
     ]
    },
@@ -150,6 +181,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-gadsden"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$14,139 in contributions, plus $4,200 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-gadsden"
      }
     ]
    },
@@ -170,6 +211,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-gadsden"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$6,216.71 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-gadsden"
      }
     ]
    },
@@ -190,6 +241,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-gadsden"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$5,825 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-gadsden"
      }
     ]
    },
@@ -205,7 +266,14 @@
   {
    "id": "moore",
    "name": "Rodney Moore",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$1,150 in contributions, plus $2,346.74 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-gadsden"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -219,7 +287,14 @@
   {
    "id": "stallworth",
    "name": "Tracey Stallworth",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,755 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-gadsden"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -233,7 +308,14 @@
   {
    "id": "mcmillan",
    "name": "Leroy McMillan",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$50 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-gadsden"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -247,7 +329,14 @@
   {
    "id": "david",
    "name": "Jamel David",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$1,981.32 in contributions, plus $315.15 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-gadsden"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",
@@ -261,7 +350,14 @@
   {
    "id": "frost",
    "name": "Charlie Frost",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,700 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-gadsden"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",

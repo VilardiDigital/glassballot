@@ -1,0 +1,27 @@
+{
+ "county": "sarasota",
+ "url": "https://enr.electionsfl.org/SAR/4105/Summary/",
+ "pulledAt": "2026-10-27T13:36:28Z",
+ "status": "unofficial",
+ "updated": null,
+ "races": [
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 0,
+   "precincts": 98,
+   "candidates": []
+  },
+  {
+   "office": "Board of County Commissioners District 4",
+   "reported": 0,
+   "precincts": 26,
+   "candidates": []
+  },
+  {
+   "office": "School Board Member District 1",
+   "reported": 0,
+   "precincts": 98,
+   "candidates": []
+  }
+ ]
+}

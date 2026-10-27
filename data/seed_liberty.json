@@ -26,6 +26,13 @@
    "publisher": "Liberty County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-liberty": {
+   "title": "Liberty Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=liberty&el=25",
+   "publisher": "Liberty County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -103,6 +110,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-liberty"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$2,740 in contributions, plus $1,400 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-liberty"
      }
     ]
    },
@@ -123,6 +140,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-liberty"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$1,955 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-liberty"
      }
     ]
    },
@@ -143,6 +170,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-liberty"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$13,200 in contributions, plus $506.38 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-liberty"
      }
     ]
    },
@@ -163,6 +200,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-liberty"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$4,226.06 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-liberty"
      }
     ]
    },
@@ -178,7 +225,14 @@
   {
    "id": "davis",
    "name": "Thornton Davis",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$1,000 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-liberty"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -192,7 +246,14 @@
   {
    "id": "duggar",
    "name": "Tommy Duggar Jr.",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$1,500 in contributions, plus $1,610.39 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-liberty"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -206,7 +267,14 @@
   {
    "id": "smith",
    "name": "Erica Nobles Smith",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,901.50 in contributions, plus $852.45 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-liberty"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -220,7 +288,14 @@
   {
    "id": "kincaid",
    "name": "Melissa Kincaid",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$4,550 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-liberty"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",
@@ -234,7 +309,14 @@
   {
    "id": "singletary",
    "name": "Jason Singletary",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$655 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-liberty"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",
@@ -248,7 +330,14 @@
   {
    "id": "morris",
    "name": "Charles \"Boo\" Morris",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$100 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-liberty"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

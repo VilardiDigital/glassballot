@@ -33,6 +33,13 @@
    "publisher": "St. Johns County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-stjohns": {
+   "title": "Stjohns Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=stjohns&el=20",
+   "publisher": "Stjohns County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -138,6 +145,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-stjohns"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$42,819.01 in contributions, plus $1,842.42 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-stjohns"
      }
     ]
    },
@@ -159,6 +176,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-stjohns"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$30,570 in contributions, plus $686.79 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-stjohns"
      }
     ]
    },
@@ -179,6 +206,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-stjohns"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$19,790 in contributions, plus $1,494.16 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-stjohns"
      }
     ]
    },
@@ -199,6 +236,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-stjohns"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$29,783.55 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-stjohns"
      }
     ]
    },
@@ -219,6 +266,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-stjohns"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$43,554.44 in contributions, plus $2,018.59 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-stjohns"
      }
     ]
    },
@@ -239,6 +296,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-stjohns"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$11,101.01 in contributions, plus $6,420.75 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-stjohns"
      }
     ]
    },
@@ -259,6 +326,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-stjohns"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$75,306.57 in contributions, plus $6,169.26 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-stjohns"
      }
     ]
    },
@@ -274,7 +351,14 @@
   {
    "id": "np",
    "name": "Kevin Allen (N/P)",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$19,049.61 in contributions, plus $357.05 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-stjohns"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -288,7 +372,14 @@
   {
    "id": "beverlynp",
    "name": "Beverly Slough (N/P)",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$47,420 in contributions, plus $200 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-stjohns"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -302,7 +393,14 @@
   {
    "id": "jennifernp",
    "name": "Jennifer Collins (N/P)",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,100.79 in contributions, plus $25 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-stjohns"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -316,7 +414,14 @@
   {
    "id": "tammienp",
    "name": "Tammie McClafferty (N/P)",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$53,278 in contributions, plus $326.87 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-stjohns"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",
@@ -330,7 +435,14 @@
   {
    "id": "jilliannp",
    "name": "Jillian Tozer (N/P)",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$18,345 in contributions, plus $1,359.38 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-stjohns"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "4",

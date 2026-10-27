@@ -33,6 +33,13 @@
    "publisher": "Nassau County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-nassau": {
+   "title": "Nassau Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=nassau&el=46",
+   "publisher": "Nassau County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -116,6 +123,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-nassau"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$49,015 in contributions, plus $923.64 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-nassau"
      }
     ]
    },
@@ -143,6 +160,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-nassau"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$20,060.75 in contributions, plus $1,960 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-nassau"
      }
     ]
    },
@@ -164,6 +191,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-nassau"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$19,589 in contributions, plus $900 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-nassau"
      }
     ]
    },
@@ -184,6 +221,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-nassau"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$25,000 in contributions, plus $65,943.74 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-nassau"
      }
     ]
    },
@@ -204,6 +251,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-nassau"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$16,678 in contributions, plus $50 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-nassau"
      }
     ]
    },
@@ -219,7 +276,14 @@
   {
    "id": "hogue",
    "name": "Shannon G Hogue",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$1,025 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-nassau"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -233,7 +297,14 @@
   {
    "id": "zimmerman",
    "name": "Joe Zimmerman",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$12,475 in contributions, plus $2,300 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-nassau"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -247,7 +318,14 @@
   {
    "id": "braddock",
    "name": "Lissa Braddock",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$5,400 in contributions, plus $2,500 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-nassau"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -261,7 +339,14 @@
   {
    "id": "cole",
    "name": "Angel Foster Cole",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$10,835 in contributions, plus $20 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-nassau"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

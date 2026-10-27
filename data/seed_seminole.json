@@ -26,6 +26,13 @@
    "publisher": "Seminole County Board of County Commissioners",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-seminole": {
+   "title": "Seminole Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=seminole&el=116",
+   "publisher": "Seminole County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -107,6 +114,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-seminole"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$86,050 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-seminole"
      }
     ]
    },
@@ -127,6 +144,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-seminole"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$127,135 in contributions, plus $6,502.27 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-seminole"
      }
     ]
    },
@@ -147,6 +174,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-seminole"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$26,194.83 in contributions, plus $870 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-seminole"
      }
     ]
    },
@@ -162,7 +199,14 @@
   {
    "id": "kraus",
    "name": "Kristine Kraus",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$80,852.41 in contributions, plus $9,032.31 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-seminole"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -176,7 +220,14 @@
   {
    "id": "pizza",
    "name": "Antonio Pizza",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$6,358 in contributions, plus $120 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-seminole"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -190,7 +241,14 @@
   {
    "id": "memminger",
    "name": "Joshua Memminger",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$23,995.73 in contributions, plus $395 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-seminole"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -204,7 +262,14 @@
   {
    "id": "mills",
    "name": "Holton Mills",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$26,724 in contributions, plus $1,749.88 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-seminole"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -218,7 +283,14 @@
   {
    "id": "garick",
    "name": "Autumn Garick",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$56,507.97 in contributions, plus $5,850.66 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-seminole"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -232,7 +304,14 @@
   {
    "id": "newsome",
    "name": "Brian Newsome",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$10,641.24 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-seminole"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

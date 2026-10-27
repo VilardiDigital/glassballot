@@ -26,6 +26,13 @@
    "publisher": "Polk County Board of County Commissioners",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-polk": {
+   "title": "Polk Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=polk&el=22",
+   "publisher": "Polk County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -57,6 +64,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-polk"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$67,850.74 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-polk"
      }
     ]
    },
@@ -119,6 +136,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-polk"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$15,408.03 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-polk"
      }
     ]
    },
@@ -139,6 +166,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-polk"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$134,220 in contributions, plus $660 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-polk"
      }
     ]
    },
@@ -160,6 +197,12 @@
       "value": "Write-in",
       "source": "soe-vf"
      }
+    ],
+    "raised": [
+     {
+      "value": "$566 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-polk"
+     }
     ]
    },
    "office": "Candidate, County Commission",
@@ -174,7 +217,14 @@
   {
    "id": "sims",
    "name": "Victor Sims",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$68,976.74 in contributions, plus $12,508.36 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-polk"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -188,7 +238,14 @@
   {
    "id": "wallace",
    "name": "Kate Wallace",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$113,986.14 in contributions, plus $391.84 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-polk"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -202,7 +259,14 @@
   {
    "id": "fields",
    "name": "Kay Fields",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$37,040 in contributions, plus $2,000 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-polk"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -216,7 +280,14 @@
   {
    "id": "neelam",
    "name": "Sam Neelam",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$51,516 in contributions, plus $4,489.04 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-polk"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -230,7 +301,14 @@
   {
    "id": "hampton",
    "name": "Kasen Hampton",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,390.25 in contributions, plus $26.75 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-polk"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "6",
@@ -244,7 +322,14 @@
   {
    "id": "sharpless",
    "name": "Justin Sharpless",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$57,150 in contributions, plus $1,650.57 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-polk"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "6",
@@ -258,7 +343,14 @@
   {
    "id": "miller",
    "name": "Lisa Miller",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$8,795 in contributions, plus $3,100 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-polk"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "7",

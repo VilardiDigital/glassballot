@@ -33,6 +33,13 @@
    "publisher": "Escambia County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-escambia": {
+   "title": "Escambia Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=escambia&el=26",
+   "publisher": "Escambia County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -94,6 +101,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-escambia"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$150,394.20 in contributions, plus $2,690.64 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-escambia"
      }
     ]
    },
@@ -160,6 +177,12 @@
       "value": "Write-in",
       "source": "soe-vf"
      }
+    ],
+    "raised": [
+     {
+      "value": "$3,842 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-escambia"
+     }
     ]
    },
    "office": "Candidate, County Commission",
@@ -179,6 +202,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-escambia"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$81,059.09 in contributions, plus $1,150 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-escambia"
      }
     ]
    },
@@ -199,6 +232,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-escambia"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$3,150 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-escambia"
      }
     ]
    },
@@ -220,6 +263,12 @@
       "value": "No party affiliation",
       "source": "soe-vf"
      }
+    ],
+    "raised": [
+     {
+      "value": "$66,981.24 in contributions, plus $1,125.30 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-escambia"
+     }
     ]
    },
    "office": "Candidate, County Commission",
@@ -234,7 +283,14 @@
   {
    "id": "adams",
    "name": "Kevin Adams",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$15,744.50 in contributions, plus $4,155.94 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-escambia"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -248,7 +304,14 @@
   {
    "id": "toler",
    "name": "Erin Toler",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$9,335 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-escambia"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -262,7 +325,14 @@
   {
    "id": "fetsko",
    "name": "Paul Fetsko",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,250 in contributions, plus $3,197.46 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-escambia"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -276,7 +346,14 @@
   {
    "id": "washington",
    "name": "Gerald Washington",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$4,250 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-escambia"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "2",
@@ -290,7 +367,14 @@
   {
    "id": "i",
    "name": "David Williams I",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$24,570 in contributions, plus $5,652.96 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-escambia"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -304,7 +388,14 @@
   {
    "id": "williams",
    "name": "Isaac Williams",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$32,166.08 in contributions, plus $6,050 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-escambia"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",

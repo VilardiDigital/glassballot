@@ -18,6 +18,13 @@
    "publisher": "Lafayette County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-lafayette": {
+   "title": "Lafayette Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=lafayette&el=8",
+   "publisher": "Lafayette County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -29,6 +36,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-lafayette"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$100 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-lafayette"
      }
     ]
    },
@@ -49,6 +66,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-lafayette"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$200 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-lafayette"
      }
     ]
    },
@@ -64,7 +91,14 @@
   {
    "id": "driver",
    "name": "Darren Driver",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$100 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-lafayette"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -78,7 +112,14 @@
   {
    "id": "beach",
    "name": "Mark Beach",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$550 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-lafayette"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -92,7 +133,14 @@
   {
    "id": "mccray",
    "name": "Mary Anne McCray",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$50 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-lafayette"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -106,7 +154,14 @@
   {
    "id": "folsom",
    "name": "Kristyn Folsom",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,320 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-lafayette"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -120,7 +175,14 @@
   {
    "id": "murphy",
    "name": "Ann Murphy",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,500 in contributions, plus $200 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-lafayette"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

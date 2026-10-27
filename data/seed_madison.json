@@ -16,6 +16,13 @@
    "publisher": "Madison County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-10-27"
+  },
+  "soe-cf-madison": {
+   "title": "Madison Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=madison&el=8",
+   "publisher": "Madison County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-10-27"
   }
  },
  "people": [
@@ -27,6 +34,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-madison"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$2,100 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-madison"
      }
     ]
    },
@@ -47,6 +64,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-madison"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$3,000 in contributions, plus $1,736.18 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-madison"
      }
     ]
    },
@@ -67,6 +94,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-madison"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$2,416.37 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-madison"
      }
     ]
    },
@@ -87,6 +124,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-madison"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$3,650 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-madison"
      }
     ]
    },
@@ -107,6 +154,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-madison"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$3,200 in contributions, plus $60 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-madison"
      }
     ]
    },
@@ -127,6 +184,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-madison"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$1,500 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-madison"
      }
     ]
    },
@@ -147,6 +214,16 @@
      {
       "value": "Democrat",
       "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-madison"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$2,250 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-madison"
      }
     ]
    },
@@ -167,6 +244,16 @@
      {
       "value": "Republican",
       "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-madison"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$7,950 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-madison"
      }
     ]
    },
@@ -182,7 +269,14 @@
   {
    "id": "knight",
    "name": "Katie Knight",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,650 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-madison"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -196,7 +290,14 @@
   {
    "id": "poore",
    "name": "Byron Poore",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$1,200 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-madison"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "1",
@@ -210,7 +311,14 @@
   {
    "id": "hagan",
    "name": "VeEtta Hagan",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$500 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-madison"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "3",
@@ -224,7 +332,14 @@
   {
    "id": "davis",
    "name": "Donnell Davis",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$0 in contributions, plus $700 in-kind (as of Oct 27, 2026)",
+      "source": "soe-cf-madison"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -238,7 +353,14 @@
   {
    "id": "maurice",
    "name": "Michael Maurice",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$1,950 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-madison"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",
@@ -252,7 +374,14 @@
   {
    "id": "mazzella",
    "name": "Jonathan Mazzella",
-   "claims": {},
+   "claims": {
+    "raised": [
+     {
+      "value": "$800 in contributions (as of Oct 27, 2026)",
+      "source": "soe-cf-madison"
+     }
+    ]
+   },
    "office": "Candidate, School Board",
    "status": "open",
    "district": "5",

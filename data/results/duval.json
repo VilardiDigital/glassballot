@@ -1,0 +1,39 @@
+{
+ "county": "duval",
+ "url": "https://enr.electionsfl.org/DUV/4076/Summary/",
+ "pulledAt": "2026-10-27T13:35:31Z",
+ "status": "unofficial",
+ "updated": null,
+ "races": [
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 0,
+   "precincts": 159,
+   "candidates": []
+  },
+  {
+   "office": "School Board - District 2",
+   "reported": 0,
+   "precincts": 24,
+   "candidates": []
+  },
+  {
+   "office": "School Board - District 4",
+   "reported": 0,
+   "precincts": 23,
+   "candidates": []
+  },
+  {
+   "office": "School Board - District 6",
+   "reported": 0,
+   "precincts": 22,
+   "candidates": []
+  },
+  {
+   "office": "School District Referendum - Continue current one (1) mill ad valorem millage?",
+   "reported": 0,
+   "precincts": 159,
+   "candidates": []
+  }
+ ]
+}
