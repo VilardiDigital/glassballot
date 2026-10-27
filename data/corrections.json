@@ -105,5 +105,14 @@
   "sources": [
    "soe-cf"
   ]
+ },
+ {
+  "date": "2026-10-27",
+  "county": null,
+  "subject": "\"What the job does\" for county commission races, every county except Pinellas",
+  "before": "Cited Pinellas County Government as the source",
+  "after": "Cites Florida Statutes s. 125.01, the state law that sets every county commission's powers. The description itself did not change.",
+  "why": "The description applies to every Florida county, so the source should too.",
+  "sources": []
  }
 ]

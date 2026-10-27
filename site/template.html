@@ -356,6 +356,10 @@ details.drawer[open] > summary{margin-bottom:12px}
   .h1{font-size:clamp(26px,7.4vw,34px)}
   .lede{font-size:16.5px}
 }
+.sharebtn{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;font-size:15px}
+.sharebtn svg{width:18px;height:18px}
+#toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom,0px));transform:translate(-50%,20px);background:var(--char);color:#fff;padding:10px 16px;border-radius:12px;font-size:15px;opacity:0;pointer-events:none;transition:.2s;z-index:60;max-width:calc(100% - 32px)}
+#toast.on{opacity:1;transform:translate(-50%,0)}
 @media print{.top,.tabs,footer,.noprint{display:none!important}main{padding:0}body{background:#fff;font-size:14pt}.panel,.list{border:1px solid #999}}
 .fbar{display:flex;height:16px;border-radius:8px;overflow:hidden;background:var(--mist)}.fbar span{display:block;height:100%}
 .flegend{display:grid;gap:6px;margin:8px 0 0}.flegend li{display:grid;grid-template-columns:14px 1fr auto 3.2em;gap:8px;align-items:center;font-size:15px}.flegend i{width:12px;height:12px;border-radius:3px;display:block}
@@ -526,6 +530,15 @@ const daysLeft = () => { const today = new Intl.DateTimeFormat("en-CA", {timeZon
 /* Your own list of choices: kept only on this device */
 const picks = () => { try { return JSON.parse(store.get("gb-picks") || "{}"); } catch { return {}; } };
 const setPick = (k, race, pid) => { const all = picks(); all[k] = all[k] || {}; if (all[k][race] === pid) delete all[k][race]; else all[k][race] = pid; store.set("gb-picks", JSON.stringify(all)); };
+
+const SHARE_ICON = `<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v9M6.5 6.5L10 3l3.5 3.5M4 11v4.5A1.5 1.5 0 0 0 5.5 17h9a1.5 1.5 0 0 0 1.5-1.5V11" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+const shareBtn = (title, text) => `<button class="btn sharebtn noprint" type="button" data-sharelink="${esc(title)}" data-sharetext="${esc(text || "")}">${SHARE_ICON}Send this to someone</button>`;
+function toast(msg) { let t = document.getElementById("toast"); if (!t) { t = document.createElement("div"); t.id = "toast"; t.setAttribute("role", "status"); document.body.appendChild(t); } t.textContent = msg; t.classList.add("on"); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove("on"), 2600); }
+async function shareLink(btn) {
+  const url = location.href.replace(/\?[^#]*/, ""), title = btn.dataset.sharelink, text = btn.dataset.sharetext || title;
+  if (navigator.share) { try { await navigator.share({title, text, url}); return; } catch (e) { if (e && e.name === "AbortError") return; } }
+  try { await navigator.clipboard.writeText(`${text} ${url}`); toast("Link copied. Paste it in a text or post."); } catch { prompt("Copy this link:", url); }
+}
 
 const views = {};
 const COUNTY_IMG = {pinellas:"04-public-waterfront", hillsborough:"03-downtown-small-businesses", pasco:"07-neighborhoods-and-growth", hernando:"11-community-infrastructure"};
@@ -716,6 +729,7 @@ views.race = id => {
       <span class="kicker">${r.onNovBallot === false ? "Decided before November" : "On your ballot Nov 3"}</span>
       <h1 class="h1">${esc(r.title)}</h1>
       <p class="lede">Who votes: ${esc(whoVotes(r))}.</p>
+      <div class="row">${shareBtn(`${r.title}, ${C.county.name}`, `Who's running for ${r.title} in ${C.county.name}: their votes, their money and their promises, with a source for every fact.`)}</div>
       <p class="job"><b>What the job does:</b> ${esc(jobLine(r))}${jobSrc(r)}</p>
       ${r.note && !r.results ? `<p class="notice">${esc(r.note)}</p>` : ""}
     </section>
@@ -949,6 +963,7 @@ views.person = id => {
         <div class="row">${race ? `<a class="pill blue" href="${href("r/" + race.id)}" style="text-decoration:none">On your Nov 3 ballot</a>` : ""}<span class="pill">${statusText(p)}</span>${C.county.auto ? '<span class="pill">Early version</span>' : ""}</div>
       </div>
     </section>
+    <div class="row">${shareBtn(`${p.name} | Glass Ballot`, `${p.name}, ${p.office}${p.district ? ", District " + p.district : ""}: how they vote, who funds them and what they promised.`)}</div>
     ${rivals.length ? `<a class="vs" href="${href("r/" + race.id)}"><span class="small muted">Running against</span><b>${rivals.map(r => esc(r.name)).join(", ")}</b><span class="small">Compare</span>${chev}</a>` : ""}
     ${shortVersion(p, fn, {cx: cnx.length, promises: hasPromises})}
     <nav class="jumpbar" aria-label="Sections on this page">${jumps.map(([id, t]) => `<a href="#${id}" data-jump="${id}">${t}</a>`).join("")}</nav>
@@ -1088,6 +1103,7 @@ views.vote_item = id => {
       ${v.inShort ? `<p class="lede">${esc(v.inShort)}</p>` : `<p class="lede">We haven't written a plain-English summary of this one yet. The official wording is at the bottom of this page.</p>`}
     </section>
 
+    <div class="row">${shareBtn(v.headline, `${C.county.name} commissioners: ${v.headline}. See who voted which way.`)}</div>
     <section class="panel stack" aria-labelledby="res">
       <div class="between"><h2 class="h2" id="res">${esc(v.result.value || "Result not confirmed yet")}</h2>${chip(v.result.label, v.result.note)}</div>
       ${glassRoll(v)}
@@ -1463,6 +1479,7 @@ document.addEventListener("click", e => {
   const d = e.target.closest("[data-district]"); if (d) { store.set("gb-district-" + CK, d.dataset.district); const y = window.scrollY; route(); window.scrollTo(0, y); return; }
   const t = e.target.closest("[data-topic]"); if (t) { store.set("gb-topic-" + CK, t.dataset.topic); const y = window.scrollY; route(); window.scrollTo(0, y); return; }
   const s = e.target.closest("[data-share]"); if (s) { makeShare(s.dataset.share); return; }
+  const sl = e.target.closest("[data-sharelink]"); if (sl) { shareLink(sl); return; }
   if (e.target.closest("#textSize")) { setBig(!document.documentElement.classList.contains("big")); return; }
   if (e.target.closest("#pickCounty")) { countyChoices(); $("#countyDlg").showModal(); return; }
   if (e.target.closest("#openSearch")) { $("#search").hidden = false; $("#q").value = ""; runSearch(""); $("#q").focus(); return; }
