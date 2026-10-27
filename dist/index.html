@@ -827,7 +827,7 @@ views.person = id => {
   const race = p.race ? R[p.race] : null;
   const rivals = race ? race.people.filter(x => x !== p.id).map(x => P[x]).filter(Boolean) : [];
   const shown = Object.keys(FIELD_NAMES).filter(f => f !== "party" && p.facts[f] && (p.facts[f].label !== "unknown" || p.required.includes(f)));
-  const moneyShown = Object.keys(MONEY_FIELDS).filter(f => p.facts[f] && (p.facts[f].label !== "unknown" || f === "raised"));
+  const moneyShown = Object.keys(MONEY_FIELDS).filter(f => p.facts[f] && (p.facts[f].label !== "unknown" || (f === "raised" && !p.funding)));
   const cnx = (p.connections || []).slice().sort((a,b) => (b.inWindow - a.inWindow) || (b.amount - a.amount));
   const promises = p.facts.promises;
   const myVotes = p.votes.map(x => ({...x, v: V[x.vote]})).filter(x => x.v);
@@ -897,17 +897,18 @@ views.person = id => {
 /* ---------- who funds a campaign ---------- */
 const usd = n => "$" + Math.round(n).toLocaleString();
 const pctOf = (a, t) => t > 0 ? Math.round(100 * a / t) : 0;
+const pctTxt = (a, t) => { const n = t > 0 ? 100 * a / t : 0; return n > 0 && n < 1 ? "<1%" : Math.round(n) + "%"; };
 function fundingBlock(p, fid) {
   const f = p.funding; if (!f || !f.total) return "";
   const T = f.total;
   const giver = [["people","People giving on their own","#2563EB"],["business","Businesses","#0B3D91"],["committee","Political committees (PACs)","#14B8A6"],["party","Political parties","#64748B"],["self","The candidate's own money","#CBD5E1"]]
     .filter(([k]) => (f.byGiver[k] || 0) > 0);
   const bar = `<div class="fbar" role="img" aria-label="${giver.map(([k,l]) => `${l} ${pctOf(f.byGiver[k],T)}%`).join(", ")}">${giver.map(([k,,c]) => `<span style="width:${Math.max(1,pctOf(f.byGiver[k],T))}%;background:${c}"></span>`).join("")}</div>
-    <ul class="plain flegend">${giver.map(([k,l,c]) => `<li><i style="background:${c}"></i><span>${l}</span><b class="num">${usd(f.byGiver[k])}</b><span class="muted num">${pctOf(f.byGiver[k],T)}%</span></li>`).join("")}</ul>`;
+    <ul class="plain flegend">${giver.map(([k,l,c]) => `<li><i style="background:${c}"></i><span>${l}</span><b class="num">${usd(f.byGiver[k])}</b><span class="muted num">${pctTxt(f.byGiver[k],T)}</span></li>`).join("")}</ul>`;
   const named = f.sectors.filter(x => !["unstated","nojob","other-job","other-business"].includes(x.id));
   const rest = f.sectors.filter(x => ["unstated","nojob","other-job","other-business"].includes(x.id));
   const maxS = Math.max(1, ...f.sectors.map(x => x.amount));
-  const sectorRow = x => `<details class="frow"><summary><span class="fl">${esc(x.label)}</span><span class="fb"><span style="width:${Math.round(100*x.amount/maxS)}%"></span></span><b class="num">${usd(x.amount)}</b><span class="muted num">${pctOf(x.amount,T)}%</span></summary>
+  const sectorRow = x => `<details class="frow"><summary><span class="fl">${esc(x.label)}</span><span class="fb"><span style="width:${Math.round(100*x.amount/maxS)}%"></span></span><b class="num">${usd(x.amount)}</b><span class="muted num">${pctTxt(x.amount,T)}</span></summary>
       <div class="small stack-sm" style="padding:6px 0 10px">
         <p>${x.fromBusinesses ? `${usd(x.fromBusinesses)} from businesses` : ""}${x.fromBusinesses && x.fromPeople ? " and " : ""}${x.fromPeople ? `${usd(x.fromPeople)} from people who listed a job in this field` : ""}.</p>
         ${x.topBusinesses.length ? `<p class="muted">Businesses in this group: ${x.topBusinesses.map(([n,a]) => `${esc(n)} (${usd(a)})`).join("; ")}</p>` : ""}
