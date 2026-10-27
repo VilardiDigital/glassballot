@@ -24,7 +24,10 @@ jobs:
       - name: Tests
         run: python -m unittest discover -s tests
       - name: Pull official records, rebuild, log changes
-        run: python -m pipeline.refresh
+        run: |
+          python tools/probe_enr.py || true
+          python -m pipeline.sources.results || true
+          python -m pipeline.refresh
       - name: Publish if anything changed
         run: |
           git config user.name "Glass Ballot refresh"

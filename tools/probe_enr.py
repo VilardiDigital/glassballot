@@ -36,18 +36,29 @@ def head(code: str, i: int):
 
 def scan(item):
     county, code = item
+    if code in KNOWN:
+        return county, KNOWN[code]
     with cf.ThreadPoolExecutor(12) as ex:
-        hits = [h for h in ex.map(lambda i: head(code, i), range(4000, 4320)) if h]
+        hits = [h for h in ex.map(lambda i: head(code, i), range(4000, 4420)) if h]
     out = {"code": code, "all": hits}
     for i, name, d in hits:
-        if d == "11/3/2026" and "general" in name.lower():
+        if d == "11/3/2026" or "2026 general" in name.lower():
             out["general"] = i
         if d == "8/18/2026" and "primary" in name.lower():
             out["primary"] = i
     return county, out
 
 
+KNOWN = {}
+
+
 def main():
+    # Keep counties already found; rescan only the rest (their results pages may not be posted yet).
+    f = ROOT / "data" / "enr_ids.json"
+    old = json.loads(f.read_text()) if f.exists() else {}
+    for k, v in old.items():
+        if v.get("general"):
+            KNOWN[v["code"]] = v
     with cf.ThreadPoolExecutor(6) as ex:
         res = dict(ex.map(scan, CODES.items()))
     (ROOT / "data" / "enr_ids.json").write_text(json.dumps(res, indent=1))

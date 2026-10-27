@@ -61,7 +61,8 @@
     "Election Date: 11/3/2026",
     "11/3/2026"
    ]
-  ]
+  ],
+  "general": 4113
  },
  "brevard": {
   "code": "BRE",
@@ -94,7 +95,8 @@
     "Election Date: 11/3/2026",
     "11/3/2026"
    ]
-  ]
+  ],
+  "general": 4070
  },
  "clay": {
   "code": "CLA",
@@ -181,7 +183,8 @@
     "Election Date: 11/3/2026",
     "11/3/2026"
    ]
-  ]
+  ],
+  "general": 4076
  },
  "escambia": {
   "code": "ESC",
@@ -218,7 +221,8 @@
     "11/5/2026"
    ]
   ],
-  "primary": 4028
+  "primary": 4028,
+  "general": 4130
  },
  "gadsden": {
   "code": "GAD",
@@ -305,7 +309,8 @@
     "Election Date: 11/3/2026",
     "11/3/2026"
    ]
-  ]
+  ],
+  "general": 4077
  },
  "hernando": {
   "code": "HER",
@@ -432,7 +437,8 @@
     "Election Date: 11/3/2026",
     "11/3/2026"
    ]
-  ]
+  ],
+  "general": 4079
  },
  "lee": {
   "code": "LEE",
@@ -563,7 +569,8 @@
     "11/3/2026"
    ]
   ],
-  "primary": 4006
+  "primary": 4006,
+  "general": 4109
  },
  "nassau": {
   "code": "NAS",
@@ -696,7 +703,8 @@
     "Election Date: 11/3/2026",
     "11/3/2026"
    ]
-  ]
+  ],
+  "general": 4089
  },
  "santarosa": {
   "code": "SAN",
