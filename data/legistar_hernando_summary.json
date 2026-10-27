@@ -2,10 +2,10 @@
  "source": "Hernando County Legistar",
  "api": "https://webapi.legistar.com/v1/hernandocountyfl",
  "calendarUrl": "https://hernandocountyfl.legistar.com/Calendar.aspx",
- "pulledAt": "2026-10-26T23:18:27Z",
+ "pulledAt": "2026-10-27T05:09:36Z",
  "scope": "Nov 19, 2024",
  "totals": {
-  "meetings": 76,
+  "meetings": 77,
   "meetingsWithRollCalls": 73,
   "items": 1861,
   "rollCalls": 1851,
@@ -139,7 +139,8 @@
   "1337": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1337&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
   "1332": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1332&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
   "1393": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1393&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
-  "1394": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1394&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2"
+  "1394": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1394&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2",
+  "1575": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?LEGID=1575&GID=881&G=6D9E70B1-EE34-4778-AE40-08B82D73C4B2"
  },
  "matches": {},
  "splitVotes": [
@@ -165,7 +166,8 @@
    "motion": "To approve the staff recommendation and place an item on the agenda for the first meeting in January to discuss the bus routes.",
    "headline": "Approved a $1.76 million amendment to the contract that runs TheBus",
    "inShort": "Approved Amendment No. 5 to the county's contract with RATP Dev USA, the company that operates TheBus, for $1,757,078.12, paid for with a federal grant and the 9th-cent gas tax. The motion also put a discussion of bus routes on the first January agenda.",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}} {\\colortbl ;\\red0\\green0\\blue0;} \\viewkind4\\uc1\\pard\\cf1\\fs24 Comm. Mitten made the following Motion:\\par \\par \\ul\\b Motion\\ulnone\\b0\\par To approve the staff recommendation.\\par \\par Comm. Mitten amended his Motion as follows:\\par \\par \\ul\\b Amendment to Motion\\ulnone\\b0\\par To approve the staff recommendation and place an item on the agenda for the first meeting in January to discuss the bus routes.\\par }"
   },
   {
    "item": 57133,
@@ -189,7 +191,8 @@
    "motion": "To approve with conditions of a 50-year affordability period and an agreement that there will be no tax abatement.",
    "headline": "Committed state housing money to an affordable housing project",
    "inShort": "Signed the local government form that commits State Housing Initiative Partnership (SHIP) money to a developer that won Florida Housing Finance Corporation funding for an affordable housing project, on condition of a 50-year affordability period and no tax abatement.",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": null
   },
   {
    "item": 56262,
@@ -213,7 +216,8 @@
    "motion": "To approve the staff recommendation (Resolution No. 2026-152).",
    "headline": "Approved a business's request to vacate right-of-way on Nicasio Jay Court",
    "inShort": "Approved a petition from Hideaway Commercial, LLC to vacate public right-of-way on Nicasio Jay Court in Royal Highlands (Resolution No. 2026-152).",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}} {\\colortbl ;\\red0\\green0\\blue0;} {\\*\\generator Riched20 5.40.11.2210;}\\viewkind4\\uc1\\pard\\cf1\\fs24 There was no public input.\\par } \u0000"
   },
   {
    "item": 55779,
@@ -236,7 +240,8 @@
    "motion": "To deny, and to not bring it back for a second hearing.",
    "headline": "A motion to deny short-term vacation rental rules failed on a 2 to 2 tie",
    "inShort": "At the first public hearing on an ordinance creating requirements for short-term vacation rentals, Amsler moved to deny it and not bring it back for a second hearing. That motion failed 2 to 2, with Amsler and Champion voting yes.",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}} {\\colortbl ;\\red0\\green0\\blue0;} \\viewkind4\\uc1\\pard\\cf1\\fs24 The Board accepted public input on this matter.\\par \\par Comm. Amsler made the following Motion:\\par \\par \\ul\\b Motion\\ulnone\\b0\\par To deny.\\par \\par Comm. Champion seconded the Motion.\\par \\par Comm. Amsler amended this Motion as follows:\\par \\par \\ul\\b Amendment to Motion\\ulnone\\b0\\par To not bring it back for a second hearing.\\par \\par Comm. Champion confirmed his second on the Motion.\\par }"
   },
   {
    "item": 54971,
@@ -259,7 +264,8 @@
    "motion": "To purchase it with the intent of selling to a nonprofit for affordable housing.",
    "headline": "A motion to buy a Leonard Street lot for affordable housing failed 2 to 2",
    "inShort": "Champion moved to buy property on Leonard Street from Antonio J. Cancelli-Patrick, intending to sell it to a nonprofit for affordable housing. The motion failed on a 2 to 2 tie.",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}} {\\colortbl ;\\red0\\green0\\blue0;} \\viewkind4\\uc1\\pard\\cf1\\fs24 Comm. Champion made the following Motion:\\par \\par \\ul\\b Motion\\ulnone\\b0\\par To approve.\\par \\par Comm. Amsler seconded the Motion.\\par \\par Comm. Champion clarified his Motion as follows:\\par \\par \\ul\\b Clarification to Motion\\ulnone\\b0\\par To purchase it with the intent of selling to a nonprofit for affordable housing.\\par \\par The Board accepted public input on this matter.\\par \\par Comm. Champion announced that his Motion stood.\\par \\par Comm. Amsler confirmed his second on the Motion.\\par }"
   },
   {
    "item": 54466,
@@ -283,7 +289,8 @@
    "motion": "To approve staff recommendation.",
    "headline": "Hired a builder for Fire Station No. 15 for $6.5 million",
    "inShort": "Awarded the construction contract for Fire Station No. 15 to Bandes Construction Company for $6,511,800.",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": null
   },
   {
    "item": 53419,
@@ -309,7 +316,8 @@
    "motion": null,
    "headline": "Awarded a $1.2 million contract to replace jail rooftop air conditioning",
    "inShort": "Awarded a $1,214,000 contract to Air Mechanical and Service Corporation to replace rooftop air conditioning at the Hernando County Detention Center. The county's roll calls show Champion as the only no vote on this and eight other purchasing items that day.",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": null
   },
   {
    "item": 52259,
@@ -333,7 +341,8 @@
    "motion": null,
    "headline": "Approved a rezoning on Sunshine Grove Road",
    "inShort": "Approved a rezoning petition from Dirt Doctor 11011, LLC for property on Sunshine Grove Road (case H2552).",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}} {\\colortbl ;\\red0\\green0\\blue0;} \\viewkind4\\uc1\\pard\\cf1\\fs24 There was no public input.\\par \\par Comm. Hawkins made the following Motion:\\par \\par \\ul\\b Motion\\ulnone\\b0\\par To approve the staff recommendation with the removal of the domestic and business service establishment; and the repair establishment, the entire category.\\par \\par Comm. Champion seconded the Motion.\\par \\par Comm. Hawkins amended his Motion as follows:\\par \\par \\ul\\b Amendment to Motion\\ulnone\\b0\\par To include the condition for a 6-feet high opaque fence to the north for now, but if the property to north becomes commercial, it could become hedges or bushes, and for any comparison goods store, the developer will work with staff on commercial standards, elements, textures and reliefs at the time of site development (Resolution No. 2026-047).\\par \\par Comm. Champion confirmed his second on the Motion.\\par }"
   },
   {
    "item": 55353,
@@ -357,7 +366,8 @@
    "motion": null,
    "headline": "Changed the master plan for land on Kelso Street",
    "inShort": "Approved a master plan revision for SV Tampa Land LP on Kelso Street (case H2549).",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}} {\\colortbl ;\\red0\\green0\\blue0;} \\viewkind4\\uc1\\pard\\cf1\\fs24 Comm. Champion made the following Motion:\\par \\par \\ul\\b Motion\\ulnone\\b0\\par To approve the staff recommendation with modifying Performance Condition No. 7 to allow for 4.5 units per acre with the limitation of one story, and to add a Performance Condition for up to 5-acres within parcel key #1100007 shall be set aside for the construction of a future fire station based on the need and demand of the fire chief.\\par \\par Comm. Allocco seconded the Motion.\\par \\par Comm. Champion restated his Motion as follows:\\par \\par \\ul\\b Restated Motion\\ulnone\\b0\\par To approve the 3400-units on the main parcel, for the \"orange\" parcel the developer is going to give up to 5-acres for a fire station, and the density on the remaining of the property will be no more than 4.5-units with the single story duplexes/villas/whatever rental property is in there (Resolution No. 2026-051).\\par \\par (Note: The Motion pertained to the \"orange\" parcel referencing parcel key #1100007.)\\par }"
   },
   {
    "item": 51109,
@@ -381,7 +391,8 @@
    "motion": "To approve the staff recommendation (Resolution No. 2026-028).",
    "headline": "Approved a rezoning on Landover Boulevard",
    "inShort": "Approved a rezoning petition from Soffron Holdings, LLC for property on Landover Boulevard (case H2551).",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}} {\\colortbl ;\\red0\\green0\\blue0;} \\viewkind4\\uc1\\pard\\cf1\\fs24 There was no public input.\\par }"
   },
   {
    "item": 50165,
@@ -405,7 +416,8 @@
    "motion": null,
    "headline": "Approved a rezoning on Cortez Boulevard",
    "inShort": "Approved a master plan revision and rezoning for 520 SW 15 Street, LLC on Cortez Boulevard (case H2527).",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}} {\\colortbl ;\\red0\\green0\\blue0;} \\viewkind4\\uc1\\pard\\cf1\\fs24 Comm. Amsler temporarily left the meeting and returned shortly thereafter.\\par \\par \\cf0 The Board accepted public input on this matter.\\par \\par Comm. Hawkins temporarily left the meeting.\\par \\cf1\\par Comm. Champion made the following Motion.\\par \\par \\ul\\b Motion\\ulnone\\b0\\par To approve with 8-vessels allowing the pontoon boat and grandfathering in the 1-RV slip, allowing 1-RV slip on the lot.\\par \\par Comm. Hawkins returned to the meeting.\\par \\par Comm. Champion restated his Motion as follows:\\par \\par \\ul\\b Restated Motion\\ulnone\\b0\\par To approve 8-slips with the pontoon boat and allowing the 1-slip for the RV that is already there.\\par \\par Comm. Champion amended his Motion as follows:\\par \\par \\ul\\b Amendment to Motion\\ulnone\\b0\\par To approve 8-slips with a pontoon boat, 1-RV that is already list and day passes if they are using your brand.\\par \\par Comm. Champion amended his Motion as follows:\\par \\par \\ul\\b Amendment to Motion\\ulnone\\b0\\par To allow the continuation of use contingent on maintaining the Livery permit with the state.\\par \\par Comm. Champion revised his Motion as follows:\\par \\par \\ul\\b Revised Motion\\ulnone\\b0\\par To five, two and one, with one of the five being a larger pontoon boat, the one recreation, for the day pass to only be for your properties, under your brand, and for continued use contingent on the Livery permit with the state (Resolution No. 2026-003).\\par }"
   },
   {
    "item": 49264,
@@ -429,7 +441,8 @@
    "motion": null,
    "headline": "Approved a D.R. Horton rezoning on Waterfall Drive",
    "inShort": "Approved a rezoning for homebuilder D.R. Horton on Waterfall Drive (case H2531).",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}} {\\colortbl ;\\red0\\green0\\blue0;} \\viewkind4\\uc1\\pard\\cf1\\fs24 There was no public input.\\par \\par Comm. Champion made the following Motion.\\par \\par \\ul\\b Motion\\ulnone\\b0\\par To approve.\\par \\par The Motion died for lack of a second.\\par \\par Comm. Hawkins made the following Motion.\\par \\par \\ul\\b Motion\\ulnone\\b0\\par To deny (Resolution No. 2025-207).\\par }"
   },
   {
    "item": 48915,
@@ -455,7 +468,8 @@
    "motion": "To approve Item No. M-4.",
    "headline": "Awarded a $2 million tourism marketing contract",
    "inShort": "Awarded a $2,040,000 contract to Miles Partnership for marketing and advertising for Florida's Adventure Coast Visitors' Bureau.",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": null
   },
   {
    "item": 48436,
@@ -479,7 +493,8 @@
    "motion": "To leave lots one and two as PDPSU, go ahead with lots three, four and five, remove the southernmost U.S. 19 entrance and exit, and add a reasonable sound barrier.",
    "headline": "Rejected a motion to approve part of the Commercial Way rezoning",
    "inShort": "Amsler moved to approve part of the Meridien Development (Haber family) rezoning on Commercial Way, keeping lots one and two as they were and adding a sound barrier. That motion failed 2 to 3.",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}} {\\colortbl ;\\red0\\green0\\blue0;} \\viewkind4\\uc1\\pard\\cf1\\fs24 The Board accepted public input on this matter.\\par \\par Comm. Amsler made the following Motion.\\par \\par \\ul\\b Motion\\ulnone\\b0\\par To leave lots one and two left as PDPSU; go ahead with lots three, four and five; nix the southernmost to U.S. 19 entrance exit; and add a reasonable barrier to buffer the sound.\\par \\par Comm. Champion seconded the Motion.\\par \\par Comm. Amsler clarified the Motion as follows:\\par \\par \\ul\\b Clarification to Motion\\ulnone\\b0\\par Lots one and two would be retained as PDPSU, elimination of southernmost access to U.S. 19 and the barrier behind lots three and four or wherever there are homes behind it.\\par \\par Comm. Amsler restated the Motion as follows:\\par \\par \\ul\\b Restated Motion\\ulnone\\b0\\par To keep lots three, four and five as C-1 uses as listed in application with drainage retention at the front end, for lots one and two to remain a landscape buffer PDPSU, for two entrances on U.S. 19 as approved by staff with deceleration lane, if possible and the eastern buffer shall use a 6-foot wall to achieve the 100% required opacity.\\par }"
   },
   {
    "item": 49574,
@@ -503,7 +518,8 @@
    "motion": "To deny.",
    "headline": "Denied the Commercial Way rezoning",
    "inShort": "After the partial approval failed, the board voted 4 to 1 to deny the Meridien Development (Haber family) rezoning on Commercial Way. Champion voted no.",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": null
   },
   {
    "item": 47842,
@@ -527,7 +543,8 @@
    "motion": "To approve the conceptual plan of bond issuance.",
    "headline": "Agreed in concept to move forward with a bond issuance",
    "inShort": "After a discussion of county debt financing, the board voted 3 to 2 to approve a conceptual plan for issuing bonds. The County Attorney clarified the motion was about whether the board wants to move forward with a bond issuance in concept.",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": null
   },
   {
    "item": 47560,
@@ -551,7 +568,8 @@
    "motion": "To approve the staff recommendation.",
    "headline": "Bought 924 Hale Avenue for a Clerk of Court building",
    "inShort": "Approved buying property at 924 Hale Avenue from Sundara Holdings, LLC for a Clerk of Circuit Court and Comptroller building.",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": null
   },
   {
    "item": 47439,
@@ -575,7 +593,8 @@
    "motion": "To deny and leave as-is, revised to include signage and education to the public.",
    "headline": "A motion to leave Mud River as-is, with signs instead of a new manatee zone, failed",
    "inShort": "On an ordinance recognizing a manatee protection zone at Mud River and the Weeki Wachee Gardens area, Champion moved to leave things as they are and add signage and public education instead. That motion failed 2 to 3. This record doesn't show a later vote on the ordinance itself.",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}} {\\colortbl ;\\red0\\green0\\blue0;} \\viewkind4\\uc1\\pard\\fs24 The Board accepted public input on this matter.\\cf1\\par \\par Comm. Champion made the following Motion\\par \\par \\ul\\b Motion\\ulnone\\b0\\par To not proceed with any of these and leave as-is.\\par \\par Comm. Amsler seconded the Motion.\\par \\par Comm. Champion clarified his Motion as follows:\\par \\par \\ul\\b Clarification to Motion\\ulnone\\b0\\par To deny and leave as-is.\\par \\par Comm. Champion revised his Motion as follows:\\par \\par \\ul\\b Revised Motion\\ulnone\\b0\\par To include signage and education to the public.\\par \\par Comm. Amsler announced that his second on the Motion stands.\\par \\par Comm. Champion restated the Motion.\\par \\par \\ul\\b Restated Motion\\ulnone\\b0\\par To deny as written and for administration and staff to look into education for the public.\\par }"
   },
   {
    "item": 44798,
@@ -599,7 +618,8 @@
    "motion": null,
    "headline": "Changed the fire rescue assessment rates",
    "inShort": "Amended the non-ad valorem assessment rates for the fire rescue Municipal Service Benefit Unit, the yearly fee property owners pay for fire rescue.",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}} {\\colortbl ;\\red0\\green0\\blue0;} \\viewkind4\\uc1\\pard\\cf1\\fs24 Comm. Champion temporarily left the meeting and returned shortly thereafter.\\par \\par \\cf0 The Board accepted public input on this matter.\\par \\cf1\\par Comm. Champion made the following Motion:\\par \\par \\ul\\b Motion\\ulnone\\b0\\par To cap at 3%.\\par \\par The Motion died for lack of a second.\\par \\par Comm. Campbell made the following Motion:\\par \\par \\ul\\b Motion\\ulnone\\b0\\par To approve at 5.75%.\\par }"
   },
   {
    "item": 43204,
@@ -623,7 +643,8 @@
    "motion": "To approve the staff recommendation (Ordinance No. 2025-03).",
    "headline": "Adopted an ordinance regulating delivery of unsolicited newspapers and circulars",
    "inShort": "Adopted Ordinance No. 2025-03, which regulates the distribution and delivery of unsolicited newspapers and circulars on private property.",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}} {\\colortbl ;\\red0\\green0\\blue0;} \\viewkind4\\uc1\\pard\\fs24 There was no public input.\\par \\cf1\\par }"
   },
   {
    "item": 43248,
@@ -647,7 +668,8 @@
    "motion": "To approve the staff recommendation.",
    "headline": "Bought land to expand the Sheriff's Office",
    "inShort": "Approved buying real estate from Bulk Transport Company East for a Hernando County Sheriff's Office expansion, with a budget amendment.",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": null
   },
   {
    "item": 42669,
@@ -671,7 +693,8 @@
    "motion": "To approve the staff recommendation with modifications of 90-units, delivering the conservation land, no fence, 15% at 3-bedrooms, 45% at 2-bedrooms and unlimited for 1-bedroom units, with 10% holiday parking and to work with the County regarding a bus stop/sidewalk. (Resolution No. 2025-039).",
    "headline": "Approved a mediated settlement with Raysor Ventures",
    "inShort": "Approved a mediated settlement agreement with Raysor Ventures, LLC dated Jan 10, 2025, with modifications including 90 units, delivering conservation land and a set mix of bedroom sizes.",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}} {\\colortbl ;\\red0\\green0\\blue0;} \\viewkind4\\uc1\\pard\\cf1\\fs24 The Board accepted public input on this matter.\\par }"
   },
   {
    "item": 42285,
@@ -695,7 +718,8 @@
    "motion": null,
    "headline": "Declared county land on Kane Road surplus and donated it for affordable housing",
    "inShort": "Declared county-owned property on Kane Road surplus and approved donating it to Mid Florida Community Services (You Thrive Florida) for affordable housing.",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": null
   },
   {
    "item": 41095,
@@ -719,7 +743,8 @@
    "motion": "Agenda Item",
    "headline": "Rejected changes to the solid waste collection district",
    "inShort": "An ordinance amending the code for the Hernando County Solid Waste Collection Municipal Service Benefit Unit failed 1 to 4.",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}} {\\colortbl ;\\red0\\green0\\blue0;} \\viewkind4\\uc1\\pard\\fs24 The Board accepted public input on this matter.\\par \\par \\cf1\\par }"
   },
   {
    "item": 39811,
@@ -743,7 +768,8 @@
    "motion": "To approve the staff recommendation (Ordinance No. 2024-18).",
    "headline": "Allowed outside groups to run animal sheltering",
    "inShort": "Amended county code so the commission can contract with third parties to provide animal sheltering services.",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}} {\\colortbl ;\\red0\\green0\\blue0;} \\viewkind4\\uc1\\pard\\fs24 There was no public input.\\par \\cf1\\par }"
   },
   {
    "item": 38379,
@@ -767,7 +793,8 @@
    "motion": "To approve Item No. P-6.",
    "headline": "Returned and re-requested Sheriff's cybersecurity money",
    "inShort": "Approved the return of excess FY 2023-24 cybersecurity funds and a new FY 2024-25 cybersecurity funding request from the Sheriff's Office.",
-   "needsReview": false
+   "needsReview": false,
+   "minutesNote": null
   }
  ]
 }

@@ -4,7 +4,11 @@
   "state": "FL",
   "electionDate": "2026-11-03",
   "updated": "2026-10-27",
-  "refreshLog": [],
+  "refreshLog": [
+   "pinellas Legistar: 1268 roll calls, 0 new split votes awaiting review",
+   "hernando Legistar: 1851 roll calls, 0 new split votes awaiting review",
+   "Campaign totals: 49 candidates"
+  ],
   "refreshErrors": []
  },
  "order": [
@@ -29,14 +33,14 @@
    "accessed": "2026-10-27",
    "legistarLoaded": true,
    "legistarTotals": {
-    "meetings": 43,
+    "meetings": 44,
     "meetingsWithRollCalls": 37,
     "items": 1346,
     "rollCalls": 1268,
     "splitRollCalls": 38
    },
    "legistarScope": "Board of County Commissioners regular and special meetings, Nov 19, 2024 to Oct 22, 2026 (the current seven members)",
-   "legistarPulledAt": "2026-10-26T23:14:03Z",
+   "legistarPulledAt": "2026-10-27T05:05:21Z",
    "sources": {
     "pc-bcc": {
      "title": "Pinellas County Board of County Commissioners",
@@ -6971,7 +6975,7 @@
      "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hillsborough&el=27",
      "publisher": "Hillsborough County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-10-26"
+     "accessed": "2026-10-27"
     },
     "camp-myers": {
      "title": "Gwen Myers campaign website",
@@ -7682,7 +7686,7 @@
        "note": "One official record, nothing yet to check it against."
       },
       "raised": {
-       "value": "$195,577 in contributions, plus $5,613.08 in-kind (as of Oct 26, 2026)",
+       "value": "$195,577 in contributions, plus $5,613.08 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hillsborough"
@@ -8314,7 +8318,7 @@
        "note": "One official record, nothing yet to check it against."
       },
       "raised": {
-       "value": "$146,130 in contributions, plus $118.51 in-kind (as of Oct 26, 2026)",
+       "value": "$146,130 in contributions, plus $118.51 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hillsborough"
@@ -8862,7 +8866,7 @@
        "note": "One official record, nothing yet to check it against."
       },
       "raised": {
-       "value": "$32,501.07 in contributions, plus $3,000 in-kind (as of Oct 26, 2026)",
+       "value": "$32,501.07 in contributions, plus $3,000 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hillsborough"
@@ -9350,7 +9354,7 @@
        "note": "One official record, nothing yet to check it against."
       },
       "raised": {
-       "value": "$213,387.67 in contributions, plus $3,113.67 in-kind (as of Oct 26, 2026)",
+       "value": "$213,387.67 in contributions, plus $3,113.67 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hillsborough"
@@ -9653,7 +9657,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$140,424.70 in contributions (as of Oct 26, 2026)",
+       "value": "$140,424.70 in contributions (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hillsborough"
@@ -9873,7 +9877,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$8,280 in contributions (as of Oct 26, 2026)",
+       "value": "$8,280 in contributions (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hillsborough"
@@ -10083,7 +10087,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$184,752 in contributions, plus $1,160 in-kind (as of Oct 26, 2026)",
+       "value": "$184,752 in contributions, plus $1,160 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hillsborough"
@@ -10274,7 +10278,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$228,349.82 in contributions, plus $1,616.61 in-kind (as of Oct 26, 2026)",
+       "value": "$228,349.82 in contributions, plus $1,616.61 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hillsborough"
@@ -10494,7 +10498,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$141,680.96 in contributions, plus $4,884.77 in-kind (as of Oct 26, 2026)",
+       "value": "$141,680.96 in contributions, plus $4,884.77 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hillsborough"
@@ -10720,7 +10724,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$104,256 in contributions (as of Oct 26, 2026)",
+       "value": "$104,256 in contributions (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hillsborough"
@@ -10912,7 +10916,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$83,861.41 in contributions, plus $972.86 in-kind (as of Oct 26, 2026)",
+       "value": "$83,861.41 in contributions, plus $972.86 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hillsborough"
@@ -11121,7 +11125,7 @@
        "note": "One official record, nothing yet to check it against."
       },
       "raised": {
-       "value": "$50,888 in contributions, plus $2,100 in-kind (as of Oct 26, 2026)",
+       "value": "$50,888 in contributions, plus $2,100 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hillsborough"
@@ -11337,7 +11341,7 @@
        "note": "One official record, nothing yet to check it against."
       },
       "raised": {
-       "value": "$59,398.47 in contributions, plus $9,423.41 in-kind (as of Oct 26, 2026)",
+       "value": "$59,398.47 in contributions, plus $9,423.41 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hillsborough"
@@ -11544,7 +11548,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$37,627.54 in contributions (as of Oct 26, 2026)",
+       "value": "$37,627.54 in contributions (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hillsborough"
@@ -12572,7 +12576,7 @@
      "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=pasco&el=38",
      "publisher": "Pasco County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-10-26"
+     "accessed": "2026-10-27"
     },
     "camp-vazquez": {
      "title": "Stephanie C. Vazquez campaign website",
@@ -13682,7 +13686,7 @@
        "note": "One official record, nothing yet to check it against."
       },
       "raised": {
-       "value": "$171,675 in contributions, plus $500 in-kind (as of Oct 26, 2026)",
+       "value": "$171,675 in contributions, plus $500 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-pasco"
@@ -14283,7 +14287,7 @@
        "note": "One official record, nothing yet to check it against."
       },
       "raised": {
-       "value": "$123,125 in contributions (as of Oct 26, 2026)",
+       "value": "$123,125 in contributions (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-pasco"
@@ -14813,7 +14817,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$74,780.43 in contributions, plus $3,622.55 in-kind (as of Oct 26, 2026)",
+       "value": "$74,780.43 in contributions, plus $3,622.55 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-pasco"
@@ -15024,7 +15028,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$48,645 in contributions (as of Oct 26, 2026)",
+       "value": "$48,645 in contributions (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-pasco"
@@ -15194,7 +15198,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$33,829.48 in contributions, plus $4,176.77 in-kind (as of Oct 26, 2026)",
+       "value": "$33,829.48 in contributions, plus $4,176.77 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-pasco"
@@ -15433,7 +15437,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$12,280 in contributions, plus $11,948.14 in-kind (as of Oct 26, 2026)",
+       "value": "$12,280 in contributions, plus $11,948.14 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-pasco"
@@ -15623,7 +15627,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$38,935 in contributions, plus $3,182.47 in-kind (as of Oct 26, 2026)",
+       "value": "$38,935 in contributions, plus $3,182.47 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-pasco"
@@ -15839,7 +15843,7 @@
        "note": "One official record, nothing yet to check it against."
       },
       "raised": {
-       "value": "$30,745 in contributions, plus $1,600 in-kind (as of Oct 26, 2026)",
+       "value": "$30,745 in contributions, plus $1,600 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-pasco"
@@ -16686,14 +16690,14 @@
    "accessed": "2026-10-27",
    "legistarLoaded": true,
    "legistarTotals": {
-    "meetings": 76,
+    "meetings": 77,
     "meetingsWithRollCalls": 73,
     "items": 1861,
     "rollCalls": 1851,
     "splitRollCalls": 78
    },
    "legistarScope": "Nov 19, 2024",
-   "legistarPulledAt": "2026-10-26T23:18:27Z",
+   "legistarPulledAt": "2026-10-27T05:09:36Z",
    "sources": {
     "hc-bcc": {
      "title": "Hernando County Board of County Commissioners",
@@ -16954,7 +16958,7 @@
      "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hernando&el=32",
      "publisher": "Hernando County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-10-26"
+     "accessed": "2026-10-27"
     },
     "legistar": {
      "title": "Hernando County Board of County Commissioners official roll call votes (Legistar)",
@@ -19192,7 +19196,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$107,880 in contributions, plus $1,996 in-kind (as of Oct 26, 2026)",
+       "value": "$107,880 in contributions, plus $1,996 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hernando"
@@ -19350,7 +19354,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$0 in contributions (as of Oct 26, 2026)",
+       "value": "$0 in contributions (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hernando"
@@ -19519,7 +19523,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$97,425 in contributions, plus $944.76 in-kind (as of Oct 26, 2026)",
+       "value": "$97,425 in contributions, plus $944.76 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hernando"
@@ -19663,7 +19667,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$22,018.11 in contributions, plus $713.42 in-kind (as of Oct 26, 2026)",
+       "value": "$22,018.11 in contributions, plus $713.42 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hernando"
@@ -19800,7 +19804,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$28,805.85 in contributions, plus $525 in-kind (as of Oct 26, 2026)",
+       "value": "$28,805.85 in contributions, plus $525 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hernando"
@@ -19937,7 +19941,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$26,800 in contributions, plus $414.67 in-kind (as of Oct 26, 2026)",
+       "value": "$26,800 in contributions, plus $414.67 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hernando"
@@ -20074,7 +20078,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$7,412 in contributions (as of Oct 26, 2026)",
+       "value": "$7,412 in contributions (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hernando"
@@ -20327,7 +20331,7 @@
        "note": "One official record, nothing yet to check it against."
       },
       "raised": {
-       "value": "$14,975 in contributions, plus $1,775 in-kind (as of Oct 26, 2026)",
+       "value": "$14,975 in contributions, plus $1,775 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hernando"
@@ -20519,7 +20523,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$48,144.41 in contributions, plus $4,477.83 in-kind (as of Oct 26, 2026)",
+       "value": "$48,144.41 in contributions, plus $4,477.83 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hernando"
@@ -20688,7 +20692,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$6,467.70 in contributions, plus $885 in-kind (as of Oct 26, 2026)",
+       "value": "$6,467.70 in contributions, plus $885 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hernando"
@@ -20834,7 +20838,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$14,310.01 in contributions (as of Oct 26, 2026)",
+       "value": "$14,310.01 in contributions (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hernando"
@@ -21052,7 +21056,7 @@
        "note": "One official record, nothing yet to check it against."
       },
       "raised": {
-       "value": "$53,925 in contributions, plus $400 in-kind (as of Oct 26, 2026)",
+       "value": "$53,925 in contributions, plus $400 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hernando"
@@ -21197,7 +21201,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$5,116 in contributions, plus $496.26 in-kind (as of Oct 26, 2026)",
+       "value": "$5,116 in contributions, plus $496.26 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hernando"
@@ -21334,7 +21338,7 @@
        "sources": []
       },
       "raised": {
-       "value": "$3,290 in contributions, plus $95 in-kind (as of Oct 26, 2026)",
+       "value": "$3,290 in contributions, plus $95 in-kind (as of Oct 27, 2026)",
        "label": "single",
        "sources": [
         "soe-cf-hernando"
