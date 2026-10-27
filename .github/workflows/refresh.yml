@@ -28,4 +28,6 @@ jobs:
           git add -A data dist site/region.json site/glassballot.html
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "Nightly refresh $(date -u +%F)"
+          # Someone may have pushed while this ran: put the refresh on top, rebuilding generated files if they clash.
+          git pull --rebase -X theirs || { git rebase --abort; git pull --no-rebase -X ours --no-edit; }
           git push
