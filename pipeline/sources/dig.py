@@ -103,7 +103,7 @@ def merge(seed: dict, county: str) -> dict:
             continue
         p.pop("dig", None)
         out = p.setdefault("dig", {})
-        for kind, field in FIELDS.items():
+        for kind in FIELDS:
             items = blocks.get(kind) or []
             for idx, it in enumerate(items):
                 chk = checks.get((pid, kind, idx))
@@ -118,6 +118,11 @@ def merge(seed: dict, county: str) -> dict:
                 t = _text(kind, it)
                 if not t:
                     continue
+                # "We searched and found nothing" is worth showing, but it is not an ethics item.
+                if isinstance(it, dict) and it.get("type") == "search-negative":
+                    field = "checked"
+                else:
+                    field = FIELDS[kind]
                 row = {"text": t, "source": src}
                 if isinstance(it, dict) and (it.get("year") or it.get("date")):
                     row["when"] = str(it.get("year") or it["date"][:4])
