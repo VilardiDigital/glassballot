@@ -1342,7 +1342,7 @@ views.privacy = () => policy("Privacy policy", "Short version: we don't track yo
   <h2 class="h3">If you report a mistake</h2>
   <p>The report form sends us what you type, the page you were on, and your email address if you choose to give it. We use this only to review the report and, if needed, to ask you a question. We don't publish your name or email address, and we don't add you to any mailing list. Reports are stored by our web host, Netlify, and copies come to our email inbox.</p>
   <h2 class="h3">Services that help run the site</h2>
-  <ul><li><b>Netlify</b> hosts the site and the report form, and keeps standard server logs, such as IP addresses, for security.</li><li><b>Google reCAPTCHA</b> on the report form blocks spam. Google's privacy policy and terms apply to it.</li><li><b>Google Fonts</b> provides the site's typefaces, so your browser contacts Google to load them.</li><li><b>Candidate photos</b> load from county and election office websites, so your browser contacts those sites when a photo appears.</li></ul>
+  <ul><li><b>Netlify</b> hosts the site and the report form, and keeps standard server logs, such as IP addresses, for security.</li><li><b>Google reCAPTCHA</b> on the report form blocks spam. Google's privacy policy and terms apply to it.</li><li><b>GoatCounter</b> counts page visits so we can see which counties and pages people use and which links bring them here. It uses no cookies, doesn't store your IP address, doesn't follow you to other sites, and never sees your saved choices.</li><li><b>Google Fonts</b> provides the site's typefaces, so your browser contacts Google to load them.</li><li><b>Candidate photos</b> load from county and election office websites, so your browser contacts those sites when a photo appears.</li></ul>
   <h2 class="h3">Children</h2>
   <p>This site is meant for voters and isn't directed at children under 13. We don't knowingly collect information from them.</p>
   <h2 class="h3">Questions</h2>
@@ -1405,6 +1405,7 @@ $("#fixForm").addEventListener("submit", e => {
   if (Date.now() - Number($("#fxOpened").value || 0) < 4000) { e.preventDefault(); msg.textContent = "Please take a moment to check your link, then send."; return; }
   if (!/^https?:\/\/[^\s/]+\.[^\s]+$/.test(f.evidence.value.trim())) { e.preventDefault(); msg.textContent = "Please add a full link, starting with https://"; return; }
   if ((f.suggestion.value.match(/https?:\/\//g) || []).length > 2) { e.preventDefault(); msg.textContent = "Please put your link in the link box."; return; }
+  gcEvent("fix-report-sent", "Correction report sent");
   store.set("gb-fix-count", String(Number(store.get("gb-fix-count") || 0) + 1));
 });
 
@@ -1412,12 +1413,12 @@ $("#fixForm").addEventListener("submit", e => {
 function zipLookup(z) {
   const msg = $("#zipMsg"); const hit = (DATA.zips || {})[z];
   const nm = k => COUNTIES[k] ? cname(k) : (DATA.map.c[k]?.name || k);
-  if (!/^\d{5}$/.test(z)) { msg.textContent = "Please type a 5-digit ZIP code."; return; }
-  if (!hit) { msg.textContent = "That doesn't look like a Florida ZIP code. Glass Ballot covers Florida counties."; return; }
+  if (!/^\d{5}$/.test(z)) { gcEvent("zip-invalid", "ZIP lookup: not 5 digits"); msg.textContent = "Please type a 5-digit ZIP code."; return; }
+  if (!hit) { gcEvent("zip-not-florida", "ZIP lookup: not a Florida ZIP"); msg.textContent = "That doesn't look like a Florida ZIP code. Glass Ballot covers Florida counties."; return; }
   const ours = hit.filter(k => COUNTIES[k]), soon = hit.filter(k => !COUNTIES[k]);
-  if (ours.length === 1 && !soon.length) { location.hash = "#/" + ours[0]; return; }
-  if (!ours.length) { msg.innerHTML = `ZIP ${esc(z)} is in ${soon.map(k => esc(nm(k)) + " County").join(" and ")}. We don't cover ${soon.length > 1 ? "those counties" : "that county"} yet, but we're adding every Florida county. Right now we cover ${ORDER.map(k => `<a href="#/${k}">${esc(cname(k))}</a>`).join(", ")}.`; return; }
-  msg.innerHTML = `ZIP ${esc(z)} crosses county lines. Which county do you live in? ${ours.map(k => `<a href="#/${k}">${esc(cname(k))}</a>`).join(" or ")}${soon.length ? ` (or ${soon.map(k => esc(nm(k))).join(", ")}, which we don't cover yet)` : ""}`;
+  if (ours.length === 1 && !soon.length) { gcEvent("zip-found/" + ours[0], "ZIP lookup: found " + cname(ours[0])); location.hash = "#/" + ours[0]; return; }
+  if (!ours.length) { gcEvent("zip-not-covered/" + soon.join("+"), "ZIP lookup: county not covered yet"); msg.innerHTML = `ZIP ${esc(z)} is in ${soon.map(k => esc(nm(k)) + " County").join(" and ")}. We don't cover ${soon.length > 1 ? "those counties" : "that county"} yet, but we're adding every Florida county. Right now we cover ${ORDER.map(k => `<a href="#/${k}">${esc(cname(k))}</a>`).join(", ")}.`; return; }
+  gcEvent("zip-multi-county", "ZIP lookup: crosses county lines"); msg.innerHTML = `ZIP ${esc(z)} crosses county lines. Which county do you live in? ${ours.map(k => `<a href="#/${k}">${esc(cname(k))}</a>`).join(" or ")}${soon.length ? ` (or ${soon.map(k => esc(nm(k))).join(", ")}, which we don't cover yet)` : ""}`;
 }
 
 /* ---------- search ---------- */
@@ -1432,6 +1433,18 @@ function searchIndex() { const out = [];
   return out; }
 function runSearch(q) { const ql = q.trim().toLowerCase(); const items = searchIndex().filter(i => !ql || (i.t + " " + i.s).toLowerCase().includes(ql)).slice(0, 14);
   $("#results").innerHTML = items.length ? items.map(i => `<a href="${i.h}"><span><b>${esc(i.t)}</b></span><span class="small muted" style="text-align:right">${esc(i.s)}</span></a>`).join("") : `<p class="muted">Nothing matches "${esc(q)}". Try a last name or a word like taxes.</p>`; }
+
+/* ---------- visit counts (GoatCounter: no cookies, no IP stored, no cross-site tracking) ---------- */
+const GC_CODE = "glassballot";
+function gc(o) { const g = window.goatcounter; if (g && g.count) g.count(o); else (window.gcQ = window.gcQ || []).push(o); }
+function gcEvent(name, title) { gc({ path: name, title: title || name, event: true }); }
+let gcLast = "";
+function gcView(parts) { const path = "/" + parts.join("/"); if (path === gcLast) return; gcLast = path; gc({ path, title: document.title }); }
+(() => { if (!/glassballot\.org$/.test(location.hostname)) return;
+  const s = document.createElement("script"); s.async = true; s.src = "https://gc.zgo.at/count.js";
+  s.dataset.goatcounter = `https://${GC_CODE}.goatcounter.com/count`; s.dataset.goatcounterSettings = '{"no_onload":true}';
+  s.onload = () => { const q = window.gcQ || []; window.gcQ = []; q.forEach(o => window.goatcounter.count(o)); };
+  document.head.appendChild(s); })();
 
 /* ---------- router ---------- */
 function notFound() { return `<div class="stack view"><h1 class="h1">We couldn't find that page</h1><p><a href="#/">Go to the start</a></p></div>`; }
@@ -1477,6 +1490,7 @@ function route() {
   document.title = CK ? `${cname(CK)} County ballot guide | Glass Ballot` : "Glass Ballot | Florida local election guide";
   $("#search").hidden = true;
   window.scrollTo(0, 0);
+  gcView(parts);
 }
 
 function countyChoices() { $("#countyChoices").innerHTML = ORDER.map(k => `<a href="#/${k}" data-close><span class="body"><span class="title">${esc(COUNTIES[k].county.name)}</span><span class="tiny muted">${nRaces(k)} races on the Nov 3 ballot</span></span>${chev}</a>`).join("") + `<a href="#/" data-close><span class="body"><span class="title">Start over</span><span class="tiny muted">Look up by ZIP code</span></span>${chev}</a>`; }
