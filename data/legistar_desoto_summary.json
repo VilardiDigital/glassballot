@@ -1,51 +1,51 @@
 {
- "pulledAt": "2026-10-27T15:29:35Z",
+ "pulledAt": "2026-10-28T16:14:51Z",
  "totals": {
-  "meetings": 31,
-  "meetingsWithRollCalls": 21,
-  "items": 320,
-  "rollCalls": 316,
+  "meetings": 32,
+  "meetingsWithRollCalls": 22,
+  "items": 326,
+  "rollCalls": 322,
   "splitRollCalls": 7
  },
  "stats": {
   "deriso": {
-   "aye": 307,
+   "aye": 313,
    "nay": 5,
    "absent": 0,
    "abstain": 4,
-   "meetingsHeld": 21,
+   "meetingsHeld": 22,
    "meetingsMissed": 0
   },
   "schaefer": {
-   "aye": 289,
+   "aye": 295,
    "nay": 1,
    "absent": 26,
    "abstain": 0,
-   "meetingsHeld": 21,
+   "meetingsHeld": 22,
    "meetingsMissed": 2
   },
   "hickox": {
-   "aye": 306,
+   "aye": 312,
    "nay": 0,
    "absent": 0,
    "abstain": 10,
-   "meetingsHeld": 21,
+   "meetingsHeld": 22,
    "meetingsMissed": 0
   },
   "langford": {
-   "aye": 316,
+   "aye": 322,
    "nay": 0,
    "absent": 0,
    "abstain": 0,
-   "meetingsHeld": 21,
+   "meetingsHeld": 22,
    "meetingsMissed": 0
   },
   "gross": {
-   "aye": 276,
+   "aye": 282,
    "nay": 2,
    "absent": 38,
    "abstain": 0,
-   "meetingsHeld": 21,
+   "meetingsHeld": 22,
    "meetingsMissed": 2
   }
  },
@@ -261,6 +261,7 @@
   "3741": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3741&GUID=2CA16B83-B2C9-4CE8-989B-41DAD87EA433",
   "3740": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3740&GUID=36D28EED-A134-4079-B5CA-92D3CFB8FC35",
   "3738": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3738&GUID=7FEC3492-C581-4FAE-9378-285C6FBD4D85",
-  "3737": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3737&GUID=89A26F66-9B70-4E35-9545-401E6E01FA6F"
+  "3737": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3737&GUID=89A26F66-9B70-4E35-9545-401E6E01FA6F",
+  "3842": "https://desotobocc.legistar.com/MeetingDetail.aspx?ID=3842&GUID=1DB4AD47-4782-43FA-B081-DCBD0AAED36F"
  }
 }

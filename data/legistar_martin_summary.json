@@ -1,55 +1,180 @@
 {
- "pulledAt": "2026-10-27T15:33:55Z",
+ "pulledAt": "2026-10-28T16:15:29Z",
  "totals": {
   "meetings": 23,
-  "meetingsWithRollCalls": 19,
-  "items": 323,
-  "rollCalls": 313,
-  "splitRollCalls": 69
+  "meetingsWithRollCalls": 20,
+  "items": 350,
+  "rollCalls": 329,
+  "splitRollCalls": 74
  },
  "stats": {
   "hetherington": {
-   "aye": 300,
+   "aye": 317,
    "nay": 5,
    "absent": 1,
    "abstain": 1,
-   "meetingsHeld": 19,
+   "meetingsHeld": 20,
    "meetingsMissed": 0
   },
   "vargas": {
-   "aye": 253,
-   "nay": 59,
+   "aye": 264,
+   "nay": 64,
    "absent": 1,
    "abstain": 0,
-   "meetingsHeld": 19,
+   "meetingsHeld": 20,
    "meetingsMissed": 0
   },
   "capps": {
-   "aye": 308,
-   "nay": 5,
+   "aye": 322,
+   "nay": 7,
    "absent": 0,
    "abstain": 0,
-   "meetingsHeld": 19,
+   "meetingsHeld": 20,
    "meetingsMissed": 0
   },
   "heard": {
-   "aye": 302,
-   "nay": 11,
+   "aye": 316,
+   "nay": 13,
    "absent": 0,
    "abstain": 0,
-   "meetingsHeld": 19,
+   "meetingsHeld": 20,
    "meetingsMissed": 0
   },
   "ciampi": {
-   "aye": 307,
+   "aye": 323,
    "nay": 5,
    "absent": 1,
    "abstain": 0,
-   "meetingsHeld": 19,
+   "meetingsHeld": 20,
    "meetingsMissed": 0
   }
  },
  "splitVotes": [
+  {
+   "item": 243718,
+   "ev": 2916,
+   "date": "2026-10-27",
+   "file": "27-0123",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "AMENDMENT TO RETAINER AGREEMENT DATED MAY 24, 2016 FOR PAUL NICOLETTI, ESQ.",
+   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Hetherington, to approve staff's recommendation to increase the rate.  The motion carried by the following vote:",
+   "headline": "AMENDMENT TO RETAINER AGREEMENT DATED MAY 24, 2016 FOR PAUL NICOLETTI, ESQ.",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "At Commissioner Vargas' request, Code Compliance Administrator John Colando presented the item to the Board. Senior Assistant County Attorney Sebastian Poprawski assisted with Board questions."
+  },
+  {
+   "item": 243741,
+   "ev": 2916,
+   "date": "2026-10-27",
+   "file": "27-0057",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": "ciampi",
+   "seconder": "capps",
+   "officialTitle": "REQUEST FOR MAJOR FINAL SITE PLAN APPROVAL FOR MARTIN COUNTY OPERATIONS FACILITY (C173-002)",
+   "motion": "A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, that this agenda item be approved.. The motion carried by the following vote:",
+   "headline": "REQUEST FOR MAJOR FINAL SITE PLAN APPROVAL FOR MARTIN COUNTY OPERATIONS FACILITY (C173-002)",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Ex parte communication disclosures were filed by the commissioners. There were no interveners. The participants were sworn in by the deputy clerk.\n\nCOUNTY: Growth Management Principal Planner Brian Elam presented staff's presentation to the Board. Growth Management Deputy Director Peter Walden, General Services Director Sean Donahue, Public Works Director Jim Gorton,and Senior Assistant County Attorney Sebastian Fox assisted with Board questions. \n\nThe following County exhibits were filed for the record: (1) agenda item/staff report and (2) Brian Elam's resume.\n\nAPPLICANT: _________ addressed the Board in support of staff's recommendation. \n\nThe following Applicant exhibit were filed for the record: (1) applicant's resume.\n\nChair Heard solicited public comment; none were heard.\n\nCommissioner Capps inquiry about the plans \n\nSean Donahue clarified\n\nComm Ciampi\n\nComm Vargas opposed \n\nThe following member of the public addressed the Board regarding this item: Lauren Hollender acknowledged staff for their efforts.\n\nChair Heard great project- chicken coup?\n\nJim Gorton confirmed chicken coup beneficial for mosquito tracking\n\n\u0000"
+  },
+  {
+   "item": 243746,
+   "ev": 2916,
+   "date": "2026-10-27",
+   "file": "27-0126",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": "ciampi",
+   "seconder": "hetherington",
+   "officialTitle": "REQUEST FOR APPROVAL OF VOLUNTARY EARLY SEPARATION INCENTIVE PROGRAM",
+   "motion": "A motion was made by Vice Chair Ciampi, seconded by Commissioner Hetherington, that this agenda item be approved.. The motion carried by the following vote:",
+   "headline": "REQUEST FOR APPROVAL OF VOLUNTARY EARLY SEPARATION INCENTIVE PROGRAM",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Human Resource and Risk Management Director Heather Dayan presented the item to the Board. County Administrator Don Donaldson, Assistant County Administrator Matt Graham, and County Attorney Elysse Elder assisted with Board questions. \n\nCommissioner Vargas inquired about the parameters of the program\n\nCommissioner Ciampi agreed a minimum is necessary/ needs to be a start and end date/ 5 yrs of service before eligible\n\nCommissioner Vargas is this mandated by the state\n\nD Donaldson clarified\n\nComm Capps must provide a decent incentive or no one will take it\n\nComm Ciampi \n\nMatt Graham 5 yrs min with max 20wks\n\nComm Vargas can we change 5 months of insurance"
+  },
+  {
+   "item": 245253,
+   "ev": 2916,
+   "date": "2026-10-27",
+   "file": "27-0111",
+   "topic": "other",
+   "result": "Motion failed 2 to 3",
+   "yes": [
+    "ciampi",
+    "hetherington"
+   ],
+   "no": [
+    "capps",
+    "heard",
+    "vargas"
+   ],
+   "mover": "ciampi",
+   "seconder": "hetherington",
+   "officialTitle": "REQUEST FOR ABANDONMENT OF A 6-FOOT-WIDE UTILITY EASEMENT, LOCATED ON LOT 10, LYING WITHIN THE LIMITS OF MARGOLO ESTATES",
+   "motion": "A motion was made by Vice Chair Ciampi, seconded by Commissioner Hetherington, that this agenda item be approved.. The motion failed by the following vote:",
+   "headline": "REQUEST FOR ABANDONMENT OF A 6-FOOT-WIDE UTILITY EASEMENT, LOCATED ON LOT 10, LYING WITHIN THE LIMITS OF MARGOLO ESTATES",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "eelder clarified comm vargas question- just to create a new category"
+  },
+  {
+   "item": 245254,
+   "ev": 2916,
+   "date": "2026-10-27",
+   "file": "27-0066",
+   "topic": "other",
+   "result": "Motion failed 2 to 3",
+   "yes": [
+    "ciampi",
+    "hetherington"
+   ],
+   "no": [
+    "capps",
+    "heard",
+    "vargas"
+   ],
+   "mover": null,
+   "seconder": null,
+   "officialTitle": "REQUEST ABANDONMENT OF A PORTION OF DECLARED 40-FOOT-WIDE RIGHT-OF-WAY OF SW KANSAS AVE AS DECLARED BY DECLARATION OF THE COUNTY COMMISSIONERS OF PALM BEACH, COUNTY, SEPTEMBER 5, 1923",
+   "motion": "A motion was made by Vice Chair Ciampi, seconded by Commissioner Hetherington, that this agenda item be approved.. The motion failed by the following vote:",
+   "headline": "REQUEST ABANDONMENT OF A PORTION OF DECLARED 40-FOOT-WIDE RIGHT-OF-WAY OF SW KANSAS AVE AS DECLARED BY DECLARATION OF TH",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Comm Capps oppose the fee waiver due to precedence - consistency"
+  },
   {
    "item": 241232,
    "ev": 2880,

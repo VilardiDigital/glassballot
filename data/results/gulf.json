@@ -1,26 +1,14 @@
 {
  "county": "gulf",
  "url": "https://enr.electionsfl.org/GUL/4084/Summary/",
- "pulledAt": "2026-10-27T15:22:52Z",
+ "pulledAt": "2026-10-28T16:04:31Z",
  "status": "unofficial",
  "updated": null,
  "races": [
   {
-   "office": "Commissioner of Agriculture",
-   "reported": 0,
-   "precincts": 10,
-   "candidates": []
-  },
-  {
    "office": "School Board District 1",
    "reported": 0,
    "precincts": 1,
-   "candidates": []
-  },
-  {
-   "office": "1/2 Cent Surtax Gulf School Bd",
-   "reported": 0,
-   "precincts": 10,
    "candidates": []
   }
  ]

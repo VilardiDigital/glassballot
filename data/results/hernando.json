@@ -1,16 +1,10 @@
 {
  "county": "hernando",
  "url": "https://enr.electionsfl.org/HER/4106/Summary/",
- "pulledAt": "2026-10-27T15:22:56Z",
+ "pulledAt": "2026-10-28T16:04:36Z",
  "status": "unofficial",
  "updated": null,
  "races": [
-  {
-   "office": "Commissioner of Agriculture",
-   "reported": 0,
-   "precincts": 32,
-   "candidates": []
-  },
   {
    "office": "County Commissioner, District 4",
    "reported": 0,
@@ -21,18 +15,6 @@
    "office": "School Board, District 5",
    "reported": 0,
    "precincts": 32,
-   "candidates": []
-  },
-  {
-   "office": "Brooksville City Council Member, Seat 1",
-   "reported": 0,
-   "precincts": 1,
-   "candidates": []
-  },
-  {
-   "office": "Brooksville City Council Member, Seat 4",
-   "reported": 0,
-   "precincts": 1,
    "candidates": []
   }
  ]

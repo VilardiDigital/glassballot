@@ -1,16 +1,10 @@
 {
  "county": "indianriver",
  "url": "https://enr.electionsfl.org/IND/4096/Summary/",
- "pulledAt": "2026-10-27T15:23:01Z",
+ "pulledAt": "2026-10-28T16:04:41Z",
  "status": "unofficial",
  "updated": null,
  "races": [
-  {
-   "office": "Commissioner of Agriculture",
-   "reported": 36,
-   "precincts": 36,
-   "candidates": []
-  },
   {
    "office": "Board of County Commissioners District 2",
    "reported": 36,
@@ -21,24 +15,6 @@
    "office": "Board of County Commissioners District 4",
    "reported": 36,
    "precincts": 36,
-   "candidates": []
-  },
-  {
-   "office": "City of Fellsmere City Council Member",
-   "reported": 1,
-   "precincts": 1,
-   "candidates": []
-  },
-  {
-   "office": "City of Sebastian City Council Member",
-   "reported": 6,
-   "precincts": 6,
-   "candidates": []
-  },
-  {
-   "office": "City of Vero Beach City Council Member",
-   "reported": 3,
-   "precincts": 3,
    "candidates": []
   }
  ]

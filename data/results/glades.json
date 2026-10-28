@@ -1,27 +1,8 @@
 {
  "county": "glades",
  "url": "https://enr.electionsfl.org/GLA/4065/Summary/",
- "pulledAt": "2026-10-27T15:22:51Z",
+ "pulledAt": "2026-10-28T16:04:30Z",
  "status": "unofficial",
  "updated": null,
- "races": [
-  {
-   "office": "Commissioner of Agriculture",
-   "reported": 0,
-   "precincts": 13,
-   "candidates": []
-  },
-  {
-   "office": "Single Member Districts for County Commissioners",
-   "reported": 0,
-   "precincts": 13,
-   "candidates": []
-  },
-  {
-   "office": "Flexible Funding for Glades County Schools",
-   "reported": 0,
-   "precincts": 13,
-   "candidates": []
-  }
- ]
+ "races": []
 }

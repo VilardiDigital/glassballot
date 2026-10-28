@@ -1,16 +1,10 @@
 {
  "county": "hillsborough",
  "url": "https://enr.electionsfl.org/HIL/4074/Summary/",
- "pulledAt": "2026-10-27T15:22:59Z",
+ "pulledAt": "2026-10-28T16:04:39Z",
  "status": "unofficial",
  "updated": null,
  "races": [
-  {
-   "office": "Commissioner of Agriculture",
-   "reported": 0,
-   "precincts": 446,
-   "candidates": []
-  },
   {
    "office": "Board of County Commissioners District 1",
    "reported": 0,
@@ -45,12 +39,6 @@
    "office": "School Board Member District 6",
    "reported": 0,
    "precincts": 446,
-   "candidates": []
-  },
-  {
-   "office": "Temple Terrace City Council",
-   "reported": 0,
-   "precincts": 13,
    "candidates": []
   }
  ]

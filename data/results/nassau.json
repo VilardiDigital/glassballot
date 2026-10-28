@@ -1,21 +1,8 @@
 {
  "county": "nassau",
  "url": "https://enr.electionsfl.org/NAS/4080/Summary/",
- "pulledAt": "2026-10-27T15:23:28Z",
+ "pulledAt": "2026-10-28T16:05:09Z",
  "status": "unofficial",
  "updated": null,
- "races": [
-  {
-   "office": "Commissioner of Agriculture",
-   "reported": 0,
-   "precincts": 18,
-   "candidates": []
-  },
-  {
-   "office": "Nassau County School District Ad Valorem Millage Election",
-   "reported": 0,
-   "precincts": 18,
-   "candidates": []
-  }
- ]
+ "races": []
 }

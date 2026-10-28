@@ -1,16 +1,10 @@
 {
  "county": "leon",
  "url": "https://enr.electionsfl.org/LEO/4072/Summary/",
- "pulledAt": "2026-10-27T15:23:08Z",
+ "pulledAt": "2026-10-28T16:04:49Z",
  "status": "unofficial",
  "updated": null,
  "races": [
-  {
-   "office": "Commissioner of Agriculture",
-   "reported": 0,
-   "precincts": 134,
-   "candidates": []
-  },
   {
    "office": "County Commissioner, At Large, Group 2",
    "reported": 0,
@@ -33,18 +27,6 @@
    "office": "School Board, District 1",
    "reported": 0,
    "precincts": 27,
-   "candidates": []
-  },
-  {
-   "office": "School District Referendum - Extend Sales Tax",
-   "reported": 0,
-   "precincts": 134,
-   "candidates": []
-  },
-  {
-   "office": "School District Referendum- Teacher Compensation",
-   "reported": 0,
-   "precincts": 134,
    "candidates": []
   }
  ]

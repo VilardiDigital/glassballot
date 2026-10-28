@@ -1,26 +1,14 @@
 {
  "county": "collier",
  "url": "https://enr.electionsfl.org/CLL/4083/Summary/",
- "pulledAt": "2026-10-27T15:22:40Z",
+ "pulledAt": "2026-10-28T16:04:19Z",
  "status": "unofficial",
  "updated": null,
  "races": [
   {
-   "office": "Commissioner of Agriculture",
-   "reported": 0,
-   "precincts": 67,
-   "candidates": []
-  },
-  {
    "office": "County Commissioner, District 2",
    "reported": 0,
    "precincts": 13,
-   "candidates": []
-  },
-  {
-   "office": "Marco Island City Council",
-   "reported": 0,
-   "precincts": 3,
    "candidates": []
   }
  ]

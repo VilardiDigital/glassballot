@@ -1,16 +1,10 @@
 {
  "county": "marion",
  "url": "https://enr.electionsfl.org/MRN/4099/Summary/",
- "pulledAt": "2026-10-27T15:23:14Z",
+ "pulledAt": "2026-10-28T16:04:55Z",
  "status": "unofficial",
  "updated": null,
  "races": [
-  {
-   "office": "Commissioner of Agriculture",
-   "reported": 0,
-   "precincts": 106,
-   "candidates": []
-  },
   {
    "office": "Board of County Commissioners - District 4",
    "reported": 0,
@@ -25,12 +19,6 @@
   },
   {
    "office": "School Board  - District 5",
-   "reported": 0,
-   "precincts": 106,
-   "candidates": []
-  },
-  {
-   "office": "School District operating expenses",
    "reported": 0,
    "precincts": 106,
    "candidates": []

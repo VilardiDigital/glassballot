@@ -1,16 +1,10 @@
 {
  "county": "manatee",
  "url": "https://enr.electionsfl.org/MAN/4126/Summary/",
- "pulledAt": "2026-10-27T15:23:13Z",
+ "pulledAt": "2026-10-28T16:04:53Z",
  "status": "unofficial",
  "updated": null,
  "races": [
-  {
-   "office": "Commissioner of Agriculture",
-   "reported": 0,
-   "precincts": 71,
-   "candidates": []
-  },
   {
    "office": "County Commissioner District 1",
    "reported": 0,
@@ -39,18 +33,6 @@
    "office": "School Board Member District 5",
    "reported": 0,
    "precincts": 12,
-   "candidates": []
-  },
-  {
-   "office": "Bradenton City Council, Ward 3",
-   "reported": 0,
-   "precincts": 16,
-   "candidates": []
-  },
-  {
-   "office": "Bradenton City Council, Ward 4",
-   "reported": 0,
-   "precincts": 16,
    "candidates": []
   }
  ]
