@@ -41,6 +41,14 @@ the hand-gathered facts in `data/seed_pinellas.json`.
 | `pipeline/build.py` | Merges everything into `site/data.json` and bakes it into the page |
 | `site/template.html` | The site: ballot, officials, votes, topics, race comparison, Ask, record problems, methods |
 
+## Page addresses
+
+Every page has a real address (`/pinellas`, `/pinellas/r/bcc-d2`, `/pinellas/p/scott`, `/pinellas/v/<id>`).
+`pipeline/dist.py` writes one small HTML file per page with its own title, description and a plain-text
+summary, lists them all in `sitemap.xml`, and moves the app's script and styles into shared files under
+`dist/assets/`. Any other address gets `app.html`, and old `#/` links are moved to the matching address.
+`pageMeta()` in the template and `page_meta()` in `dist.py` must stay in step.
+
 ## Labeling rules
 
 - **Verified**: a tier 1 legal record plus a second independent source agree.

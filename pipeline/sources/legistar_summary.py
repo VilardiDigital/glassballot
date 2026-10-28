@@ -14,9 +14,36 @@ from __future__ import annotations
 
 from .public_comment import parse as parse_public
 
+import re
+
 import copy
 
 SRC = "legistar"
+
+
+def _clip(text: str, n: int = 110) -> str:
+    """Shorten at a word break, never mid-word, and say so with an ellipsis."""
+    text = re.sub(r"\s+", " ", text or "").strip()
+    if len(text) <= n:
+        return text
+    cut = text[:n + 1].rsplit(" ", 1)[0].rstrip(" ,;:-(")
+    return cut + "…"
+
+
+def auto_headline(s: dict, shared_item: bool) -> str:
+    """Headline for a split vote no person has summarized yet.
+
+    Uses the county's own words, cleaned up: the clerk's motion text when one agenda item had
+    several motions (so each one reads differently), otherwise the agenda title. Leading
+    "Consider" is dropped because every agenda item is something the board considers.
+    """
+    title = s.get("officialTitle") or s.get("headline") or "Untitled item"
+    motion = (s.get("motion") or "").strip()
+    usable_motion = motion and not re.match(r"(?i)^(a )?motion (was )?(made|by)\b", motion) and len(motion) >= 12
+    text = motion if (shared_item and usable_motion) else title
+    text = re.sub(r"(?i)^(consider(ation of)?|request(ing)? (to|for))\s+(the\s+)?", "", re.sub(r"\s+", " ", text).strip())
+    text = text[:1].upper() + text[1:]
+    return _clip(text)
 
 
 def _roll(v: dict) -> dict:
@@ -45,13 +72,17 @@ def merge(seed: dict, summary: dict) -> dict:
             v.setdefault("facts", []).append({"text": f["text"], "claims": [{"value": f["text"], "source": SRC}]})
 
     # 2. Every split vote becomes its own vote record.
+    per_item: dict = {}
+    for s in summary.get("splitVotes", []):
+        per_item[(s.get("file"), s.get("date"))] = per_item.get((s.get("file"), s.get("date")), 0) + 1
     for s in summary.get("splitVotes", []):
         vid = f"lg-{s['item']}"
         roll = _roll(s)
         extra = {k: s.get(k, []) for k in ("absent", "abstain") if s.get(k)}
         seed["votes"].append({
             "id": vid, "date": s["date"], "topic": s["topic"],
-            "headline": s["headline"], "inShort": s["inShort"],
+            "headline": s["headline"] if s.get("inShort") else auto_headline(s, bool(s.get("file")) and per_item[(s.get("file"), s.get("date"))] > 1),
+            "inShort": s["inShort"],
             "officialTitle": s["officialTitle"],
             "sourceUrl": urls.get(str(s["ev"]), seed["sources"][SRC]["url"]),
             "fileNumber": s.get("file"), "mover": s.get("mover"), "seconder": s.get("seconder"), "motion": s.get("motion"),

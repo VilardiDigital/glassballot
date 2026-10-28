@@ -375,15 +375,15 @@ details.drawer[open] > summary{margin-bottom:12px}
 
 <header class="top">
   <div class="wrap">
-    <a class="logo" href="#/" aria-label="Glass Ballot home">
+    <a class="logo" href="/" aria-label="Glass Ballot home">
       <img src="/assets/logo-box.png" alt="" width="38" height="38">
       <span class="wordmark">Glass<b>Ballot</b><i>.org</i></span>
     </a>
     <nav class="topnav" aria-label="Main">
-      <a href="#" data-tab="ballot">My ballot</a>
-      <a href="#" data-tab="vote">When &amp; where</a>
-      <a href="#" data-tab="officials">Who's in office</a>
-      <a href="#/about" data-tab="about">About</a>
+      <a href="/" data-tab="ballot">My ballot</a>
+      <a href="/" data-tab="vote">When &amp; where</a>
+      <a href="/" data-tab="officials">Who's in office</a>
+      <a href="/about" data-tab="about">About</a>
     </nav>
     <div class="tools">
       <button class="iconbtn textbtn" id="textSize" type="button" aria-label="Make text bigger" aria-pressed="false">A<span style="font-size:.75em">A</span></button>
@@ -399,10 +399,10 @@ details.drawer[open] > summary{margin-bottom:12px}
 <footer id="foot"></footer>
 
 <nav class="tabs" aria-label="Main">
-  <a href="#" data-tab="ballot"><svg viewBox="0 0 22 22" aria-hidden="true"><rect x="3" y="9" width="16" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M8 9V3.5h6V9" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M9.2 6.3l1.3 1.3 2.4-2.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>My ballot</a>
-  <a href="#" data-tab="vote"><svg viewBox="0 0 22 22" aria-hidden="true"><rect x="3.5" y="4.5" width="15" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M3.5 9h15M8 2.5v4M14 2.5v4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>When &amp; where</a>
-  <a href="#" data-tab="officials"><svg viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="7.5" r="3.8" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M3.5 20c1-3.8 3.8-5.6 7.5-5.6s6.5 1.8 7.5 5.6" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>In office</a>
-  <a href="#/about" data-tab="about"><svg viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="8" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M11 10v5.5M11 6.8v.2" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>About</a>
+  <a href="/" data-tab="ballot"><svg viewBox="0 0 22 22" aria-hidden="true"><rect x="3" y="9" width="16" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M8 9V3.5h6V9" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M9.2 6.3l1.3 1.3 2.4-2.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>My ballot</a>
+  <a href="/" data-tab="vote"><svg viewBox="0 0 22 22" aria-hidden="true"><rect x="3.5" y="4.5" width="15" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M3.5 9h15M8 2.5v4M14 2.5v4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>When &amp; where</a>
+  <a href="/" data-tab="officials"><svg viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="7.5" r="3.8" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M3.5 20c1-3.8 3.8-5.6 7.5-5.6s6.5 1.8 7.5 5.6" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>In office</a>
+  <a href="/about" data-tab="about"><svg viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="8" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M11 10v5.5M11 6.8v.2" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>About</a>
 </nav>
 
 <div class="overlay" id="search" hidden>
@@ -485,7 +485,7 @@ function useCounty(k) {
   return true;
 }
 const cname = k => COUNTIES[k].county.name.replace(" County", "");
-const href = (path = "") => `#/${CK}${path ? "/" + path : ""}`;
+const href = (path = "") => `/${CK}${path ? "/" + path : ""}`;
 
 /* How sure we are, in plain words */
 const LAB = {
@@ -560,7 +560,7 @@ function mapSvg(active) {
   const live = Object.entries(m.c).filter(([k]) => COUNTIES[k]);
   return `<svg class="map" viewBox="0 0 ${m.w} ${m.h}" role="img" aria-label="Map of Florida's 67 counties. We cover ${live.map(([k]) => esc(cname(k))).join(", ")} so far.">
     <g class="soon">${Object.entries(m.c).filter(([k]) => !COUNTIES[k]).map(([k, c]) => `<path d="${c.d}"><title>${esc(c.name)} County: coming soon</title></path>`).join("")}</g>
-    ${live.map(([k, c]) => `<a href="#/${k}" class="${[k === active ? "on" : "", COUNTIES[k].county.auto ? "auto" : "full"].join(" ")}" aria-label="${esc(COUNTIES[k].county.name)}"><path d="${c.d}"><title>${esc(COUNTIES[k].county.name)}</title></path></a>`).join("")}
+    ${live.map(([k, c]) => `<a href="/${k}" class="${[k === active ? "on" : "", COUNTIES[k].county.auto ? "auto" : "full"].join(" ")}" aria-label="${esc(COUNTIES[k].county.name)}"><path d="${c.d}"><title>${esc(COUNTIES[k].county.name)}</title></path></a>`).join("")}
     ${(() => { // labels in a column to the left, spaced apart, with a thin line to each county
       const lab = live.filter(([k]) => !COUNTIES[k].county.auto);
       if (lab.length > 8) return "";
@@ -596,9 +596,9 @@ views.home = () => {
         <p style="color:#fff;font-weight:700;margin-bottom:8px">Or pick your county</p>
         ${(() => { const full = ORDER.filter(k => !COUNTIES[k].county.auto), auto = ORDER.filter(k => COUNTIES[k].county.auto);
           return `${auto.length ? `<p class="small" style="color:#DCE8FF;margin:0 0 6px">Full guides, with votes explained and track records:</p>` : ""}
-          <div class="bigpick">${full.map(k => `<a href="#/${k}"><b>${esc(cname(k))}</b><span>${nRaces(k)} races on your ballot</span></a>`).join("")}</div>
+          <div class="bigpick">${full.map(k => `<a href="/${k}"><b>${esc(cname(k))}</b><span>${nRaces(k)} races on your ballot</span></a>`).join("")}</div>
           ${auto.length ? `<label class="small" for="countySel" style="color:#DCE8FF;display:block;margin:12px 0 6px">Every other county (early automatic versions):</label>
-          <select id="countySel" class="countysel" onchange="if(this.value) location.hash='#/'+this.value"><option value="">Choose a county</option>${auto.slice().sort((a, b) => cname(a).localeCompare(cname(b))).map(k => `<option value="${k}">${esc(cname(k))}</option>`).join("")}</select>` : ""}`; })()}
+          <select id="countySel" class="countysel" onchange="if(this.value) go('/'+this.value)"><option value="">Choose a county</option>${auto.slice().sort((a, b) => cname(a).localeCompare(cname(b))).map(k => `<option value="${k}">${esc(cname(k))}</option>`).join("")}</select>` : ""}`; })()}
         ${mapSvg(store.get("gb-county"))}
         <p class="maplegend"><span><i class="lg full"></i>Full guide</span><span><i class="lg auto"></i>Early version, official records only</span></p>
       </div>
@@ -625,7 +625,7 @@ views.home = () => {
     <section class="panel stack">
       <h2 class="h3">Our promise</h2>
       <p>We don't tell anyone how to vote, and we don't take money from candidates, parties or political groups. Every fact links to where it came from. If something is wrong, there's a button to tell us, and every change we make is listed in public.</p>
-      <p class="small"><a href="#/standards">Read our standards</a> · <a href="#/about">Who we are</a> · <a href="#/corrections">Changes and corrections</a></p>
+      <p class="small"><a href="/standards">Read our standards</a> · <a href="/about">Who we are</a> · <a href="/corrections">Changes and corrections</a></p>
     </section>
   </div>`;
 };
@@ -878,7 +878,7 @@ function scoreCard(p) {
   const parts = SCORE_PARTS.map(([k, name, q, need]) => { const val = s.parts[k];
     return `<div class="part"><div><div style="font-weight:600">${name}</div><div class="small muted">${val == null ? need : q}</div></div><div class="num" style="font-family:var(--head);font-weight:800;color:var(--civic)">${val == null ? '<span class="tiny muted" style="font-family:var(--body);font-weight:500">Not enough data</span>' : val}</div></div>`; }).join("");
   return `<details class="more panel"><summary>Pocket or Public: who benefits from their votes? (in progress)</summary>
-    <p class="small muted" style="margin:8px 0">A score from 0 to 100 built only from public records, never from party. We only show an overall number once there's enough data. <a href="#/standards">How it works</a></p>
+    <p class="small muted" style="margin:8px 0">A score from 0 to 100 built only from public records, never from party. We only show an overall number once there's enough data. <a href="/standards">How it works</a></p>
     <div>${parts}</div></details>`;
 }
 
@@ -1046,7 +1046,7 @@ function fundingBlock(p, fid) {
       ${named.length > 3 ? `<details class="more"><summary>Show ${named.length - 3} more industries</summary><div class="fsectors">${named.slice(3).map(sectorRow).join("")}</div></details>` : ""}
       ${rest.length ? `<details class="more"><summary>Gifts we couldn't group (${usd(rest.reduce((a,x)=>a+x.amount,0))})</summary><div class="fsectors">${rest.map(sectorRow).join("")}</div></details>` : ""}` : ""}
     ${f.committees.length ? `<h3 class="h3" style="margin-top:8px">Political committees (PACs) that gave</h3>
-      <details class="more"><summary>What's a PAC?</summary><p class="small muted">A political committee pools money from people, companies and other committees, then gives it to candidates. Like everyone else, it can give a county candidate up to $1,000 per election. Its name often doesn't say who's behind it, and the county's reports cut long names short; the state's committee records list each committee's own donors. <a href="#/money">How this works</a></p></details>
+      <details class="more"><summary>What's a PAC?</summary><p class="small muted">A political committee pools money from people, companies and other committees, then gives it to candidates. Like everyone else, it can give a county candidate up to $1,000 per election. Its name often doesn't say who's behind it, and the county's reports cut long names short; the state's committee records list each committee's own donors. <a href="/money">How this works</a></p></details>
       ${(() => { const li = c => `<li class="fcom"><span><b>${esc(c.name)}</b><br><span class="tiny muted">${kinds[c.kind] || c.kindLabel}</span></span><b class="num">${usd(c.amount)}</b></li>`;
         return `<ul class="plain stack-sm">${f.committees.slice(0, 3).map(li).join("")}</ul>${f.committees.length > 3 ? `<details class="more"><summary>Show all ${f.committees.length} committees (${usd(f.committees.reduce((a, c) => a + c.amount, 0))} in total)</summary><ul class="plain stack-sm" style="margin-top:8px">${f.committees.slice(3).map(li).join("")}</ul></details>` : ""}`; })()}
 
@@ -1178,7 +1178,7 @@ views.topic = id => { const t = T[id]; if (!t) return notFound(); const list = C
   return `<div class="stack-lg view"><a class="back" href="${href("votes")}">‹ All decisions</a><section class="stack-sm"><h1 class="h1">${esc(t.name)}</h1><p class="lede">${esc(t.blurb)}</p></section><div class="list">${list.map(voteRow).join("")}</div></div>`; };
 
 views.problems = () => `<div class="stack-lg view">
-  <a class="back" href="#/corrections">‹ Changes and corrections</a>
+  <a class="back" href="/corrections">‹ Changes and corrections</a>
   <section class="stack-sm"><h1 class="h1">Where our sources disagree</h1><p class="lede">When two sources say different things, or a record is missing or doesn't add up, we list it here until it's settled.</p></section>
   ${C.problems.length ? `<div class="stack">${C.problems.map(pr => `<article class="panel stack-sm">
     <span class="kicker">${esc(pr.kind)}</span>
@@ -1218,18 +1218,18 @@ views.sources = () => {
   const ks = CK ? [CK] : ORDER;
   return `<div class="stack-lg view">
     ${band("", "Where our information comes from", "Every source behind every fact on this site, government records first. Each one has a link to the original and a saved copy.", "02-public-records")}
-    ${CK ? `<div class="chips">${ORDER.map(k => `<a class="chip" style="display:inline-flex;align-items:center;text-decoration:none" aria-pressed="${k === CK}" href="#/${k}/sources">${esc(cname(k))}</a>`).join("")}</div>` : ""}
-    ${!CK ? `<div class="list">${ORDER.map(k => `<a href="#/${k}/sources"><span class="body"><span class="title">${esc(COUNTIES[k].county.name)}</span><span class="tiny muted">${COUNTIES[k].stub ? COUNTIES[k].nSources : Object.keys(COUNTIES[k].sources).length} sources</span></span>${chev}</a>`).join("")}</div>` : ""}
+    ${CK ? `<div class="chips">${ORDER.map(k => `<a class="chip" style="display:inline-flex;align-items:center;text-decoration:none" aria-pressed="${k === CK}" href="/${k}/sources">${esc(cname(k))}</a>`).join("")}</div>` : ""}
+    ${!CK ? `<div class="list">${ORDER.map(k => `<a href="/${k}/sources"><span class="body"><span class="title">${esc(COUNTIES[k].county.name)}</span><span class="tiny muted">${COUNTIES[k].stub ? COUNTIES[k].nSources : Object.keys(COUNTIES[k].sources).length} sources</span></span>${chev}</a>`).join("")}</div>` : ""}
     ${ks.filter(k => !COUNTIES[k].stub).map(k => { const src = COUNTIES[k].sources; const ids = Object.keys(src).sort((a,b) => src[a].tier - src[b].tier || src[a].publisher.localeCompare(src[b].publisher));
       return `<section class="stack"><h2 class="h2">${esc(COUNTIES[k].county.name)} <span class="muted small" style="font-family:var(--body);font-weight:500">${ids.length} sources</span></h2>
-        <div class="list">${ids.map(id => { const s = src[id]; return `<a href="#/${k}/s/${id}"><span class="src" style="border:0;padding:0"><span class="t t${s.tier}">${s.tier}</span></span><span class="body"><span class="title small">${esc(s.title)}</span><span class="tiny muted">${esc(s.publisher)} · ${esc(TIERS[s.tier]?.[0] || "")}</span></span>${chev}</a>`; }).join("")}</div></section>`; }).join("")}
+        <div class="list">${ids.map(id => { const s = src[id]; return `<a href="/${k}/s/${id}"><span class="src" style="border:0;padding:0"><span class="t t${s.tier}">${s.tier}</span></span><span class="body"><span class="title small">${esc(s.title)}</span><span class="tiny muted">${esc(s.publisher)} · ${esc(TIERS[s.tier]?.[0] || "")}</span></span>${chev}</a>`; }).join("")}</div></section>`; }).join("")}
     <p class="small"><a href="/data/glassballot.json">Download every fact and source as one data file</a></p>
   </div>`;
 };
 
 /* ---------- about and policy pages ---------- */
 const UPDATED = "October 27, 2026";
-const policy = (title, lede, body) => `<div class="stack-lg view policy"><a class="back" href="#/about">‹ About Glass Ballot</a><section class="stack-sm"><h1 class="h1">${title}</h1>${lede ? `<p class="lede">${lede}</p>` : ""}<p class="tiny muted">Last updated ${UPDATED}</p></section><div class="panel stack">${body}</div></div>`;
+const policy = (title, lede, body) => `<div class="stack-lg view policy"><a class="back" href="/about">‹ About Glass Ballot</a><section class="stack-sm"><h1 class="h1">${title}</h1>${lede ? `<p class="lede">${lede}</p>` : ""}<p class="tiny muted">Last updated ${UPDATED}</p></section><div class="panel stack">${body}</div></div>`;
 
 views.about = () => {
   const lc = {verified:0,single:0,unverified:0,conflict:0,unknown:0};
@@ -1246,7 +1246,7 @@ views.about = () => {
         <li>Every fact links to where it came from, and government records come first.</li>
         <li>When we get something wrong, we fix it and list the change in public.</li>
       </ul>
-      <p class="small"><a href="#/standards">Read our full standards</a></p>
+      <p class="small"><a href="/standards">Read our full standards</a></p>
     </section>
     <section class="panel stack">
       <h2 class="h3">How sure we are about each fact</h2>
@@ -1257,10 +1257,10 @@ views.about = () => {
     </section>
     <section class="panel stack">
       <h2 class="h3">How the site stays current</h2>
-      <p class="small">Every morning, we automatically recheck the counties' meeting records and the campaign finance reports filed with each Supervisor of Elections. When a number changes, the site updates and the change is listed on our <a href="#/corrections">changes page</a>. Plain-English summaries are always written and checked by a person.</p>
+      <p class="small">Every morning, we automatically recheck the counties' meeting records and the campaign finance reports filed with each Supervisor of Elections. When a number changes, the site updates and the change is listed on our <a href="/corrections">changes page</a>. Plain-English summaries are always written and checked by a person.</p>
     </section>
     <section class="list">
-      ${[["#/sources","Where our information comes from"],["#/corrections","Changes and corrections"],["#/standards","Our standards"],["#/money","How campaign money works"],["#/terms","Terms of use"],["#/privacy","Privacy policy"],["#/accessibility","Accessibility"],["/data/glassballot.json","Download all of our data"]].map(([h,t]) => `<a href="${h}"${/^http/.test(h) ? ' target="_blank" rel="noopener"' : ""}><span class="body"><span class="title">${t}</span></span>${chev}</a>`).join("")}
+      ${[["/sources","Where our information comes from"],["/corrections","Changes and corrections"],["/standards","Our standards"],["/money","How campaign money works"],["/terms","Terms of use"],["/privacy","Privacy policy"],["/accessibility","Accessibility"],["/data/glassballot.json","Download all of our data"]].map(([h,t]) => `<a href="${h}"${/^http/.test(h) ? ' target="_blank" rel="noopener"' : ""}><span class="body"><span class="title">${t}</span></span>${chev}</a>`).join("")}
     </section>
     <p class="small">Questions or tips: <a href="mailto:glassballotinfo@gmail.com">glassballotinfo@gmail.com</a></p>
   </div>`;
@@ -1307,7 +1307,7 @@ views.standards = () => policy("Our standards", "How we decide what goes on this
   <h2 class="h3">The Pocket or Public score</h2>
   <p>This is a measure we're building to show, from public records only, how often an official's votes may have benefited themselves or their donors rather than the public. It never uses party or our opinion of whether a vote was good. Its parts are conflicts of interest, money and timing, promises kept, and showing up. We only show an overall score once we have enough data, and how it's calculated is explained on our standards page.</p>
   <h2 class="h3">Corrections</h2>
-  <p>Anyone can report a mistake using the pencil button next to any fact. We need a link to a record or published report so we can check it. A person reviews every report. If we change a fact, we list the date, what it said before and what it says now on our <a href="#/corrections">changes and corrections page</a>. We do not quietly edit facts. Candidates and officials can use the same form, or email us at glassballotinfo@gmail.com.</p>
+  <p>Anyone can report a mistake using the pencil button next to any fact. We need a link to a record or published report so we can check it. A person reviews every report. If we change a fact, we list the date, what it said before and what it says now on our <a href="/corrections">changes and corrections page</a>. We do not quietly edit facts. Candidates and officials can use the same form, or email us at glassballotinfo@gmail.com.</p>
   <h2 class="h3">Independence</h2>
   <p>Glass Ballot is free to use. We do not accept money from candidates, campaigns, political parties, political committees or anyone appearing on the ballot, and we do not run political ads. If we ever accept funding from anyone else, we will list it on this page.</p>
   <h2 class="h3">Automation</h2>
@@ -1360,10 +1360,10 @@ views.corrections = () => { const list = (DATA.corrections || []).slice().sort((
   <section class="stack"><h2 class="h2">Updates from the nightly check</h2>
     ${(DATA.changes || []).length ? `<div class="list">${DATA.changes.map(c => `<div class="li"><span class="body" style="gap:6px"><span class="title">${fmtDate(c.date)}</span><span class="small muted">${c.changed.length} fact${c.changed.length === 1 ? "" : "s"} changed${c.errors.length ? `. ${c.errors.length} source${c.errors.length === 1 ? "" : "s"} couldn't be reached, so we kept the last good data` : ""}.</span>${c.changed.slice(0, 12).map(x => `<span class="small"><b>${esc(x.subject)}</b>: ${esc(shownText(x.before))} <span class="muted">now</span> ${esc(shownText(x.after))}</span>`).join("")}</span></div>`).join("")}</div>` : `<p class="notice">No automatic updates yet.</p>`}
   </section>
-  <section class="stack"><h2 class="h2">Where sources disagree</h2><div class="list">${ORDER.map(k => `<a href="#/${k}/problems"><span class="body"><span class="title">${esc(cname(k))} County</span><span class="tiny muted">${nProblems(k)} open</span></span>${chev}</a>`).join("")}</div></section>
+  <section class="stack"><h2 class="h2">Where sources disagree</h2><div class="list">${ORDER.map(k => `<a href="/${k}/problems"><span class="body"><span class="title">${esc(cname(k))} County</span><span class="tiny muted">${nProblems(k)} open</span></span>${chev}</a>`).join("")}</div></section>
 </div>`; };
 
-views.thanks = () => `<div class="stack-lg view"><section class="band"><h1 class="h1">Thank you. We got your report.</h1><p class="lede">A person will check it against the link you sent. If we change anything, it will be listed on our corrections page.</p><div class="row"><a class="btn primary" href="${CK ? href() : "#/"}">Back to the ballot</a></div></section></div>`;
+views.thanks = () => `<div class="stack-lg view"><section class="band"><h1 class="h1">Thank you. We got your report.</h1><p class="lede">A person will check it against the link you sent. If we change anything, it will be listed on our corrections page.</p><div class="row"><a class="btn primary" href="${CK ? href() : "/"}">Back to the ballot</a></div></section></div>`;
 
 /* ---------- share card ---------- */
 function wrapText(ctx, text, maxW) { const words = text.split(" "); const lines = []; let line = ""; for (const w of words) { const t = line ? line + " " + w : w; if (ctx.measureText(t).width > maxW && line) { lines.push(line); line = w; } else line = t; } if (line) lines.push(line); return lines; }
@@ -1395,7 +1395,7 @@ function openFix(btn) {
   const sent = Number(store.get("gb-fix-count") || 0);
   if (sent >= 5) { $("#fixQuote").textContent = "You've already sent several reports. Thank you. To send more, please email glassballotinfo@gmail.com with your links."; $("#fixForm").hidden = true; fixDlg.showModal(); return; }
   $("#fixForm").hidden = false; $("#fxMsg").textContent = "";
-  $("#fxCounty").value = CK || ""; $("#fxPage").value = location.hash; $("#fxFact").value = btn.dataset.fix; $("#fxShown").value = btn.dataset.shown; $("#fxOpened").value = String(Date.now());
+  $("#fxCounty").value = CK || ""; $("#fxPage").value = location.pathname; $("#fxFact").value = btn.dataset.fix; $("#fxShown").value = btn.dataset.shown; $("#fxOpened").value = String(Date.now());
   $("#fixQuote").innerHTML = `<span class="tiny muted">You're reporting a problem with:</span><div style="font-weight:600">${esc(btn.dataset.shown || "This page")}</div>`;
   fixDlg.showModal();
 }
@@ -1416,20 +1416,20 @@ function zipLookup(z) {
   if (!/^\d{5}$/.test(z)) { gcEvent("zip-invalid", "ZIP lookup: not 5 digits"); msg.textContent = "Please type a 5-digit ZIP code."; return; }
   if (!hit) { gcEvent("zip-not-florida", "ZIP lookup: not a Florida ZIP"); msg.textContent = "That doesn't look like a Florida ZIP code. Glass Ballot covers Florida counties."; return; }
   const ours = hit.filter(k => COUNTIES[k]), soon = hit.filter(k => !COUNTIES[k]);
-  if (ours.length === 1 && !soon.length) { gcEvent("zip-found/" + ours[0], "ZIP lookup: found " + cname(ours[0])); location.hash = "#/" + ours[0]; return; }
-  if (!ours.length) { gcEvent("zip-not-covered/" + soon.join("+"), "ZIP lookup: county not covered yet"); msg.innerHTML = `ZIP ${esc(z)} is in ${soon.map(k => esc(nm(k)) + " County").join(" and ")}. We don't cover ${soon.length > 1 ? "those counties" : "that county"} yet, but we're adding every Florida county. Right now we cover ${ORDER.map(k => `<a href="#/${k}">${esc(cname(k))}</a>`).join(", ")}.`; return; }
-  gcEvent("zip-multi-county", "ZIP lookup: crosses county lines"); msg.innerHTML = `ZIP ${esc(z)} crosses county lines. Which county do you live in? ${ours.map(k => `<a href="#/${k}">${esc(cname(k))}</a>`).join(" or ")}${soon.length ? ` (or ${soon.map(k => esc(nm(k))).join(", ")}, which we don't cover yet)` : ""}`;
+  if (ours.length === 1 && !soon.length) { gcEvent("zip-found/" + ours[0], "ZIP lookup: found " + cname(ours[0])); go("/" + ours[0]); return; }
+  if (!ours.length) { gcEvent("zip-not-covered/" + soon.join("+"), "ZIP lookup: county not covered yet"); msg.innerHTML = `ZIP ${esc(z)} is in ${soon.map(k => esc(nm(k)) + " County").join(" and ")}. We don't cover ${soon.length > 1 ? "those counties" : "that county"} yet, but we're adding every Florida county. Right now we cover ${ORDER.map(k => `<a href="/${k}">${esc(cname(k))}</a>`).join(", ")}.`; return; }
+  gcEvent("zip-multi-county", "ZIP lookup: crosses county lines"); msg.innerHTML = `ZIP ${esc(z)} crosses county lines. Which county do you live in? ${ours.map(k => `<a href="/${k}">${esc(cname(k))}</a>`).join(" or ")}${soon.length ? ` (or ${soon.map(k => esc(nm(k))).join(", ")}, which we don't cover yet)` : ""}`;
 }
 
 /* ---------- search ---------- */
 function searchIndex() { const out = [];
   ORDER.forEach(k => { const c = COUNTIES[k], n = cname(k);
     if (c.stub) { c.index.forEach(([h, t, s]) => out.push({h, t, s})); return; }
-    c.people.forEach(p => out.push({h:`#/${k}/p/${p.id}`, t:p.name, s:`${p.office}${p.district ? ", District " + p.district : ""} · ${n}`}));
-    c.votes.forEach(v => out.push({h:`#/${k}/v/${v.id}`, t:v.headline, s:`${voteDate(v)} · ${n}`}));
-    c.races.forEach(r => out.push({h:`#/${k}/r/${r.id}`, t:r.title, s:`${n} County ballot`}));
-    c.topics.forEach(t => out.push({h:`#/${k}/t/${t.id}`, t:t.name, s:`Topic · ${n}`})); });
-  out.push({h:"#/about", t:"About Glass Ballot", s:"Who we are"}, {h:"#/standards", t:"Our standards", s:"How we work"});
+    c.people.forEach(p => out.push({h:`/${k}/p/${p.id}`, t:p.name, s:`${p.office}${p.district ? ", District " + p.district : ""} · ${n}`}));
+    c.votes.forEach(v => out.push({h:`/${k}/v/${v.id}`, t:v.headline, s:`${voteDate(v)} · ${n}`}));
+    c.races.forEach(r => out.push({h:`/${k}/r/${r.id}`, t:r.title, s:`${n} County ballot`}));
+    c.topics.forEach(t => out.push({h:`/${k}/t/${t.id}`, t:t.name, s:`Topic · ${n}`})); });
+  out.push({h:"/about", t:"About Glass Ballot", s:"Who we are"}, {h:"/standards", t:"Our standards", s:"How we work"});
   return out; }
 function runSearch(q) { const ql = q.trim().toLowerCase(); const items = searchIndex().filter(i => !ql || (i.t + " " + i.s).toLowerCase().includes(ql)).slice(0, 14);
   $("#results").innerHTML = items.length ? items.map(i => `<a href="${i.h}"><span><b>${esc(i.t)}</b></span><span class="small muted" style="text-align:right">${esc(i.s)}</span></a>`).join("") : `<p class="muted">Nothing matches "${esc(q)}". Try a last name or a word like taxes.</p>`; }
@@ -1447,21 +1447,51 @@ function gcView(parts) { const path = "/" + parts.join("/"); if (path === gcLast
   document.head.appendChild(s); })();
 
 /* ---------- router ---------- */
-function notFound() { return `<div class="stack view"><h1 class="h1">We couldn't find that page</h1><p><a href="#/">Go to the start</a></p></div>`; }
+const GLOBAL_META = {about:["About Glass Ballot","Who runs Glass Ballot, how it's paid for, and how to reach us."], standards:["Our standards","How Glass Ballot checks facts, labels sources and handles corrections."], sources:["Where our information comes from","Every public record and published report Glass Ballot uses, county by county."], corrections:["Changes and corrections","Every fact Glass Ballot has changed, with what it said before and the date."], money:["How campaign money works","How Florida county campaigns are funded, what the limits are, and how to read the reports."], terms:["Terms of use","Terms of use for glassballot.org."], privacy:["Privacy policy","What Glass Ballot collects (almost nothing) and what it never does."], accessibility:["Accessibility","How Glass Ballot works for people using screen readers, larger text and keyboards."], thanks:["Thank you","We got your report."]};
+function seatName(p) { return `${p.office || ""}${p.district ? ", District " + p.district : ""}`; }
+function pageMeta(parts) {
+  const site = "Glass Ballot", def = ["Glass Ballot | Florida local election guide", "Nonpartisan voter guide to Florida county commission and school board races. Every local race, every commission vote, who funds each candidate, and a source behind every fact."];
+  if (!parts.length) return def;
+  if (parts[0] in GLOBAL_META) { const [t, d] = GLOBAL_META[parts[0]]; return [`${t} | ${site}`, d]; }
+  if (!CK || CK !== parts[0]) return def;
+  const n = cname(CK), [, a, b] = parts;
+  if (!a) return [`${n} County ballot guide: ${nRaces(CK)} local races | ${site}`, `Who's running for ${n} County commission and school board on the Nov 3 ballot, how incumbents voted, and who funds each campaign. A source for every fact.`];
+  if (a === "officials") return [`Who's in office in ${n} County | ${site}`, `Every ${n} County commissioner and school board member: how they vote, who funds them, and their attendance.`];
+  if (a === "votes") return [`${n} County commission votes | ${site}`, `Recent ${n} County commission decisions in plain English, with how each commissioner voted.`];
+  if (a === "vote") return [`When and where to vote in ${n} County | ${site}`, `Election Day hours, early voting and mail ballots in ${n} County, from the Supervisor of Elections.`];
+  if (a === "r" && R[b]) { const r = R[b], who = (r.people || []).map(id => P[id] && P[id].name).filter(Boolean); return [`${n} ${r.title}: ${who.join(" vs. ")} | ${site}`, `Compare the candidates for ${n} ${r.title}${who.length ? ": " + who.join(", ") : ""}. Track records, campaign money and sources, side by side.`]; }
+  if (a === "p" && P[b]) { const p = P[b]; return [`${p.name}, ${seatName(p)} (${n} County) | ${site}`, `${p.name}'s public record${p.status === "incumbent" ? " in office" : ""}: votes, campaign money, filings and promises, each with its source.`]; }
+  if (a === "v" && V[b]) { const v = V[b]; return [`${v.headline.replace(/\.$/, "")} (${n} County, ${voteDate(v)}) | ${site}`, `How each ${n} County commissioner voted${v.date ? " on " + voteDate(v) : ""}: ${v.headline}. With the official record.`]; }
+  if (a === "t" && T[b]) { const tp = T[b]; return [`${n} County: ${tp.name} | ${site}`, tp.blurb || `${tp.name} decisions in ${n} County.`]; }
+  return [`${n} County | ${site}`, def[1]];
+}
+function setMeta(parts) {
+  const [title, desc] = pageMeta(parts), url = "https://glassballot.org" + (location.pathname === "/" ? "/" : location.pathname);
+  document.title = title;
+  const set = (sel, attr, v) => { const el = document.querySelector(sel); if (el) el.setAttribute(attr, v); };
+  set('meta[name="description"]', "content", desc); set('meta[property="og:title"]', "content", title.replace(/ \| Glass Ballot$/, ""));
+  set('meta[property="og:description"]', "content", desc); set('meta[property="og:url"]', "content", url); set('link[rel="canonical"]', "href", url);
+}
+function notFound() { return `<div class="stack view"><h1 class="h1">We couldn't find that page</h1><p><a href="/">Go to the start</a></p></div>`; }
 const GLOBAL = {money:"about", about:"about", standards:"about", terms:"about", privacy:"about", accessibility:"about", corrections:"about", sources:"about", thanks:""};
+/* Real paths (/pinellas/r/bcc-d2), so every page has its own address search engines can index.
+   Old links used #/ paths; those are moved to the matching real path. */
+function go(path) { if (path !== location.pathname + location.search) history.pushState(null, "", path); route(); }
+function moveTo(path) { history.replaceState(null, "", path); route(); }
 function route() {
-  if (location.pathname === "/thanks") { history.replaceState(null, "", "/#/thanks"); }
-  let h = (location.hash || "#/").slice(1);
-  const old = h.match(/^(p|v|r|t)-(.+)$/); if (old) { location.replace(`#/pinellas/${old[1]}/${old[2]}`); return; }
-  if (["ballot","officials","votes","topics","problems"].includes(h)) { location.replace(`#/pinellas${h === "ballot" ? "" : "/" + h}`); return; }
-  if (h === "how" || h === "/how") { location.replace("#/standards"); return; }
-  const parts = h.replace(/^\//, "").split("/").filter(Boolean);
+  if (location.hash.startsWith("#/")) { moveTo(location.hash.slice(1).split("?")[0] || "/"); return; }
+  let h = location.pathname.replace(/\.html$/, "").replace(/\/index$/, "").replace(/\/+$/, "").slice(1);
+  if (h === "index") h = "";
+  const old = h.match(/^(p|v|r|t)-(.+)$/); if (old) { moveTo(`/pinellas/${old[1]}/${old[2]}`); return; }
+  if (["ballot","officials","votes","topics","problems"].includes(h)) { moveTo(`/pinellas${h === "ballot" ? "" : "/" + h}`); return; }
+  if (h === "how") { moveTo("/standards"); return; }
+  const parts = h.split("/").filter(Boolean);
   let html, tab = "ballot";
   if (!parts.length) { CK = null; html = views.home(); tab = "home"; }
   else if (parts[0] in GLOBAL) { if (parts[0] === "sources") CK = null; html = views[parts[0]](); tab = GLOBAL[parts[0]]; }
   else if (useCounty(parts[0]) === "load") {
     $("#app").innerHTML = `<div class="stack view"><p class="muted">Loading ${esc(COUNTIES[parts[0]].county.name)}…</p></div>`;
-    loadCounty(parts[0]).then(route).catch(() => { $("#app").innerHTML = `<div class="stack view"><h1 class="h1">We couldn't load this county</h1><p>Check your connection and <a href="${esc(location.hash)}" onclick="location.reload()">try again</a>.</p></div>`; });
+    loadCounty(parts[0]).then(route).catch(() => { $("#app").innerHTML = `<div class="stack view"><h1 class="h1">We couldn't load this county</h1><p>Check your connection and <a href="${esc(location.pathname)}" onclick="location.reload()">try again</a>.</p></div>`; });
     return;
   }
   else if (useCounty(parts[0])) {
@@ -1485,15 +1515,15 @@ function route() {
   $("#countyName").textContent = CK ? cname(CK) : (ck && COUNTIES[ck] ? cname(ck) : "County");
   document.querySelectorAll("[data-tab]").forEach(a => {
     const t = a.dataset.tab;
-    if (t === "ballot") a.href = ck ? `#/${ck}` : "#/"; else if (t === "officials") a.href = ck ? `#/${ck}/officials` : "#/"; else if (t === "vote") a.href = ck ? `#/${ck}/vote` : "#/";
+    if (t === "ballot") a.href = ck ? `/${ck}` : "/"; else if (t === "officials") a.href = ck ? `/${ck}/officials` : "/"; else if (t === "vote") a.href = ck ? `/${ck}/vote` : "/";
     if (t === tab) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); });
-  document.title = CK ? `${cname(CK)} County ballot guide | Glass Ballot` : "Glass Ballot | Florida local election guide";
+  setMeta(parts);
   $("#search").hidden = true;
   window.scrollTo(0, 0);
   gcView(parts);
 }
 
-function countyChoices() { $("#countyChoices").innerHTML = ORDER.map(k => `<a href="#/${k}" data-close><span class="body"><span class="title">${esc(COUNTIES[k].county.name)}</span><span class="tiny muted">${nRaces(k)} races on the Nov 3 ballot</span></span>${chev}</a>`).join("") + `<a href="#/" data-close><span class="body"><span class="title">Start over</span><span class="tiny muted">Look up by ZIP code</span></span>${chev}</a>`; }
+function countyChoices() { $("#countyChoices").innerHTML = ORDER.map(k => `<a href="/${k}" data-close><span class="body"><span class="title">${esc(COUNTIES[k].county.name)}</span><span class="tiny muted">${nRaces(k)} races on the Nov 3 ballot</span></span>${chev}</a>`).join("") + `<a href="/" data-close><span class="body"><span class="title">Start over</span><span class="tiny muted">Look up by ZIP code</span></span>${chev}</a>`; }
 
 function setBig(on) { document.documentElement.classList.toggle("big", on); $("#textSize").setAttribute("aria-pressed", String(on)); $("#textSize").setAttribute("aria-label", on ? "Make text smaller" : "Make text bigger"); store.set("gb-big", on ? "1" : ""); }
 setBig(store.get("gb-big") === "1");
@@ -1512,7 +1542,12 @@ document.addEventListener("click", e => {
   if (e.target.closest("#openSearch")) { $("#search").hidden = false; $("#q").value = ""; runSearch(""); $("#q").focus(); return; }
   if (e.target.closest("#closeSearch")) { $("#search").hidden = true; return; }
   const jump = e.target.closest("[data-jump]"); if (jump) { e.preventDefault(); const el = document.getElementById(jump.dataset.jump); if (el) { if (el.tagName === "DETAILS") el.open = true; el.scrollIntoView({behavior: "smooth", block: "start"}); } return; }
-  const link = e.target.closest('a[href^="#"]'); if (link && link.getAttribute("href") === location.hash) { route(); }
+  const link = e.target.closest("a[href]");
+  if (link && e.button === 0 && !e.metaKey && !e.ctrlKey && !e.shiftKey && !e.altKey && !link.target && !link.hasAttribute("download")) {
+    const u = new URL(link.getAttribute("href"), location.href);
+    const internal = u.origin === location.origin && !/^\/(data|assets)\//.test(u.pathname) && !/\.(json|png|svg|xml|txt|webp|js|css)$/i.test(u.pathname);
+    if (internal && !(u.hash && u.pathname === location.pathname)) { e.preventDefault(); go(u.pathname + u.search); }
+  }
 });
 document.addEventListener("submit", e => { if (e.target.id === "zipForm") { e.preventDefault(); zipLookup($("#zipIn").value.trim()); } });
 document.querySelectorAll("dialog").forEach(dl => dl.addEventListener("click", e => { if (e.target === dl) dl.close(); }));
@@ -1523,12 +1558,12 @@ document.addEventListener("input", e => { if (e.target.id !== "nameIn") return;
   const people = searchIndex().filter(i => /\/p\//.test(i.h) && fold(i.t).includes(q)).slice(0, 8);
   out.innerHTML = people.length ? people.map(i => `<a href="${i.h}"><b>${esc(i.t)}</b><span>${esc(i.s)}</span></a>`).join("") : `<p>No one by that name yet. Try a last name, or pick a county below.</p>`; });
 document.addEventListener("keydown", e => { if (e.key === "Escape" && !$("#search").hidden) $("#search").hidden = true; });
-window.addEventListener("hashchange", route);
+window.addEventListener("popstate", route);
 
 $("#foot").innerHTML = `<div class="wrap stack" style="gap:14px">
   <span class="wordmark">Glass<b>Ballot</b><i>.org</i></span>
   <p style="max-width:62ch">A free, independent guide to Florida's local elections. We don't endorse candidates or take money from campaigns. Information comes from public records and published reports and was last updated ${fmtDate(DATA.region.updated)}. Photos at the top of pages are illustrations.</p>
-  <p class="row" style="gap:6px 18px"><a href="#/about">About</a><a href="#/standards">Our standards</a><a href="#/sources">Sources</a><a href="#/corrections">Corrections</a><a href="#/terms">Terms</a><a href="#/privacy">Privacy</a><a href="#/accessibility">Accessibility</a><a href="mailto:glassballotinfo@gmail.com">Contact</a></p>
+  <p class="row" style="gap:6px 18px"><a href="/about">About</a><a href="/standards">Our standards</a><a href="/sources">Sources</a><a href="/corrections">Corrections</a><a href="/terms">Terms</a><a href="/privacy">Privacy</a><a href="/accessibility">Accessibility</a><a href="mailto:glassballotinfo@gmail.com">Contact</a></p>
 </div>`;
 route();
 </script>

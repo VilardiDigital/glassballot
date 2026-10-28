@@ -94,9 +94,9 @@ def build_region(accessed: str | None = None) -> dict:
 def _stub(k: str, c: dict) -> dict:
     """What the front page needs about a county before you open it. The full county loads on demand."""
     n = c["county"]["name"].replace(" County", "")
-    idx = [[f"#/{k}/p/{p['id']}", p["name"], f"{p.get('office', '')}{', District ' + str(p['district']) if p.get('district') else ''} · {n}"] for p in c["people"]]
-    idx += [[f"#/{k}/v/{v['id']}", v["headline"], n] for v in c["votes"]]
-    idx += [[f"#/{k}/r/{r['id']}", r["title"], f"{n} County ballot"] for r in c["races"]]
+    idx = [[f"/{k}/p/{p['id']}", p["name"], f"{p.get('office', '')}{', District ' + str(p['district']) if p.get('district') else ''} · {n}"] for p in c["people"]]
+    idx += [[f"/{k}/v/{v['id']}", v["headline"], n] for v in c["votes"]]
+    idx += [[f"/{k}/r/{r['id']}", r["title"], f"{n} County ballot"] for r in c["races"]]
     return {"stub": True, "county": c["county"], "labelCounts": c.get("labelCounts", {}), "nProblems": len(c.get("problems", [])),
             "nRaces": sum(1 for r in c["races"] if r.get("onNovBallot") is not False), "nSources": len(c.get("sources", {})), "index": idx}
 
