@@ -270,6 +270,11 @@ footer .wordmark{color:#fff}
 footer .wordmark b{color:#8DB8FF}
 footer .wordmark i{color:#A9C0E8}
 footer .tag{font-family:var(--head);font-size:11px;letter-spacing:.3em;font-weight:700;color:#8DB8FF}
+footer .social{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+footer .social a{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:12px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);color:#fff;text-decoration:none;transition:background .15s,border-color .15s}
+footer .social a:hover{background:rgba(255,255,255,.2);border-color:#8DB8FF}
+footer .social a:focus-visible{outline:3px solid #fff;outline-offset:2px;border-radius:12px}
+footer .social svg{width:20px;height:20px;display:block}
 @media (prefers-reduced-motion:no-preference){.view{animation:in .22s ease-out}@keyframes in{from{opacity:.4;transform:translateY(6px)}to{opacity:1;transform:none}}}
 
 /* v3: plain-language layer */
