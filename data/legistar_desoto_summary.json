@@ -1,15 +1,15 @@
 {
- "pulledAt": "2026-10-30T16:06:58Z",
+ "pulledAt": "2026-10-31T15:28:14Z",
  "totals": {
   "meetings": 32,
   "meetingsWithRollCalls": 22,
-  "items": 326,
-  "rollCalls": 322,
+  "items": 337,
+  "rollCalls": 333,
   "splitRollCalls": 7
  },
  "stats": {
   "deriso": {
-   "aye": 313,
+   "aye": 324,
    "nay": 5,
    "absent": 0,
    "abstain": 4,
@@ -17,7 +17,7 @@
    "meetingsMissed": 0
   },
   "schaefer": {
-   "aye": 295,
+   "aye": 306,
    "nay": 1,
    "absent": 26,
    "abstain": 0,
@@ -25,7 +25,7 @@
    "meetingsMissed": 2
   },
   "hickox": {
-   "aye": 312,
+   "aye": 323,
    "nay": 0,
    "absent": 0,
    "abstain": 10,
@@ -33,7 +33,7 @@
    "meetingsMissed": 0
   },
   "langford": {
-   "aye": 322,
+   "aye": 333,
    "nay": 0,
    "absent": 0,
    "abstain": 0,
@@ -41,7 +41,7 @@
    "meetingsMissed": 0
   },
   "gross": {
-   "aye": 282,
+   "aye": 293,
    "nay": 2,
    "absent": 38,
    "abstain": 0,
