@@ -243,7 +243,14 @@
  },
  "gilchrist": {
   "code": "GIL",
-  "all": []
+  "all": [
+   [
+    4055,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "general": 4055
  },
  "glades": {
   "code": "GLA",
@@ -665,9 +672,15 @@
     4013,
     "2026 Primary Election",
     "8/18/2026"
+   ],
+   [
+    4081,
+    "2026 General Election",
+    "11/3/2026"
    ]
   ],
-  "primary": 4013
+  "primary": 4013,
+  "general": 4081
  },
  "stjohns": {
   "code": "STJ",
