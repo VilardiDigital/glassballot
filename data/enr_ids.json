@@ -74,7 +74,14 @@
  },
  "calhoun": {
   "code": "CAL",
-  "all": []
+  "all": [
+   [
+    4054,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "general": 4054
  },
  "charlotte": {
   "code": "CHA",
@@ -371,8 +378,14 @@
     4040,
     "Election Date: 8/18/2026",
     "8/18/2026"
+   ],
+   [
+    4108,
+    "Election Date: 11/3/2026",
+    "11/3/2026"
    ]
-  ]
+  ],
+  "general": 4108
  },
  "indianriver": {
   "code": "IND",
@@ -789,9 +802,15 @@
     4018,
     "2026 Primary Election",
     "8/18/2026"
+   ],
+   [
+    4107,
+    "2026 General Election",
+    "11/3/2026"
    ]
   ],
-  "primary": 4018
+  "primary": 4018,
+  "general": 4107
  },
  "union": {
   "code": "UNI",

@@ -1,7 +1,7 @@
 {
- "pulledAt": "2026-11-02T19:41:21Z",
+ "pulledAt": "2026-11-03T17:16:42Z",
  "totals": {
-  "meetings": 23,
+  "meetings": 24,
   "meetingsWithRollCalls": 21,
   "items": 362,
   "rollCalls": 354,
@@ -9,9 +9,9 @@
  },
  "stats": {
   "bryant": {
-   "aye": 328,
+   "aye": 327,
    "nay": 7,
-   "absent": 4,
+   "absent": 5,
    "abstain": 1,
    "meetingsHeld": 20,
    "meetingsMissed": 0
@@ -33,9 +33,9 @@
    "meetingsMissed": 1
   },
   "stone": {
-   "aye": 347,
+   "aye": 346,
    "nay": 3,
-   "absent": 4,
+   "absent": 5,
    "abstain": 0,
    "meetingsHeld": 21,
    "meetingsMissed": 0
@@ -501,6 +501,7 @@
   "3438": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3438&GUID=1D3D85D8-305F-4DD8-9542-F0AC6F73B720",
   "3380": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3380&GUID=D11E9476-8314-42A0-9711-0C1273D05A94",
   "3379": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3379&GUID=FB6743AA-F708-4ACD-9220-EFBD6146DDF1",
-  "3378": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3378&GUID=D38A4E1E-3C62-4905-BBC9-87C9328BB161"
+  "3378": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3378&GUID=D38A4E1E-3C62-4905-BBC9-87C9328BB161",
+  "3579": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3579&GUID=2083F06E-841A-4015-9A01-5B022F0ACFCF"
  }
 }
