@@ -380152,10 +380152,16 @@
     "candidatesSource": "dos_canlist",
     "total": 8183007,
     "url": "https://floridaelectionwatch.gov/StateOffices/AttorneyGeneral",
-    "status": "counting",
+    "status": "called",
     "leader": "ag-uthmeier",
-    "winner": null,
-    "call": null
+    "winner": "ag-uthmeier",
+    "call": {
+     "winner": "James Uthmeier",
+     "kind": "called",
+     "by": "The Associated Press",
+     "url": "https://www.yahoo.com/news/politics/articles/republican-james-uthmeier-wins-reelection-025607021.html",
+     "note": "AP story (byline Associated Press) reporting Uthmeier won reelection; published by 02:56 UTC Nov 4."
+    }
    },
    {
     "id": "cfo",
