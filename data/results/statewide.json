@@ -77,17 +77,17 @@
     {
      "name": "James Uthmeier",
      "party": "REP",
-     "votes": 4169199,
+     "votes": 4169461,
      "pct": 50.97
     },
     {
      "name": "Jose Javier Rodriguez",
      "party": "DEM",
-     "votes": 4010666,
+     "votes": 4010866,
      "pct": 49.03
     }
    ],
-   "total": 8179865,
+   "total": 8180327,
    "threshold": null,
    "url": "https://floridaelectionwatch.gov/StateOffices/AttorneyGeneral"
   },
@@ -119,13 +119,13 @@
     {
      "name": "Wilton Simpson",
      "party": "REP",
-     "votes": 4151771,
+     "votes": 4152024,
      "pct": 51.11
     },
     {
      "name": "Joey Mendoza Atkins",
      "party": "DEM",
-     "votes": 3970959,
+     "votes": 3971166,
      "pct": 48.89
     },
     {
@@ -135,7 +135,7 @@
      "pct": 0.0
     }
    ],
-   "total": 8122730,
+   "total": 8123190,
    "threshold": null,
    "url": "https://floridaelectionwatch.gov/StateOffices/CommissionerOfAgriculture"
   },
@@ -328,5 +328,5 @@
    "Washington": 100.0
   }
  },
- "pulledAt": "2026-11-04T04:15:45Z"
+ "pulledAt": "2026-11-04T04:16:18Z"
 }
