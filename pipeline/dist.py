@@ -133,6 +133,13 @@ def page_meta(path: str, c: dict | None = None, obj: dict | None = None, people:
     if parts[0] in GLOBAL_META:
         t, d = GLOBAL_META[parts[0]]
         return f"{t} | {site}", d
+    if parts[0] == "florida":
+        r = (obj or {}).get("race")
+        if r:
+            return (f"{r['office']} results, Florida 2026 | {site}",
+                    f"Unofficial 2026 results for Florida {r['office']}, the candidates' stated positions, and who holds the office now, with official contact information.")
+        return (f"Florida statewide results and amendments, 2026 | {site}",
+                "Unofficial 2026 results for Florida governor, Cabinet, U.S. Senate and every constitutional amendment, with what each amendment means in plain English.")
     if c is None:
         return DEFAULT
     n = _cname(c)
@@ -184,6 +191,20 @@ def render(path: str, c: dict | None, obj: dict | None) -> str:
     title, desc = page_meta(path, c, obj, {p["id"]: p for p in c["people"]} if c else None)
     h1 = title.removesuffix(" | Glass Ballot")
     out = [f'<div class="stack view prerender"><h1 class="h1">{e(h1)}</h1><p class="lede">{e(desc)}</p>']
+    if obj and "statewide" in obj:
+        sw, r = obj["statewide"], obj.get("race")
+        pct = lambda x: f"{x:.1f}%"
+        if r:
+            out.append("<p>Unofficial results:</p><ul>" + "".join(f'<li>{e(c_["name"])}{" and " + e(c_["runningMate"]) if c_.get("runningMate") else ""} ({e(c_.get("party") or "")}): {e(pct(c_.get("pct", 0)))}, {c_.get("votes", 0):,} votes</li>' for c_ in r["candidates"]) + "</ul>")
+            st = r.get("sitting") or {}
+            if st.get("name"):
+                out.append(f'<p>In office now: {e(st["name"])}. {("Website: " + e(st["website"]) + ". ") if st.get("website") else ""}{("Phone: " + e(st["phone"]) + ".") if st.get("phone") else ""}</p>')
+            out.append('<p><a href="/florida">All statewide races and amendments</a></p>')
+        else:
+            for m in sw["measures"]:
+                out.append(f'<section><h2 class="h2">{e(m.get("number") or "")}: {e(m.get("title") or "")}</h2>{"<p>" + e(m["plain"]) + "</p>" if m.get("plain") else ""}'
+                           f'<p>Yes {e(pct(m.get("yesPct", 0)))}, No {e(pct(m.get("noPct", 0)))}. {m.get("threshold", 60)}% yes needed to pass.</p></section>')
+            out.append("<ul>" + "".join(f'<li><a href="/florida/{e(r_["id"])}">{e(r_["office"])}</a></li>' for r_ in sw["races"]) + "</ul>")
     if c:
         k = c["county"]["id"]
         P = {p["id"]: p for p in c["people"]}
@@ -234,6 +255,11 @@ def pages(region: dict):
     yield "/", None, None
     for g in GLOBAL_META:
         yield f"/{g}", None, None
+    sw = region.get("statewide")
+    if sw:
+        yield "/florida", None, {"statewide": sw}
+        for r in sw["races"]:
+            yield f"/florida/{r['id']}", None, {"statewide": sw, "race": r}
     for k in region["order"]:
         c = region["counties"][k]
         yield f"/{k}", c, None

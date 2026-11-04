@@ -22,6 +22,7 @@ from .sources.dig import merge as merge_dig
 from .sources.impact import merge as merge_impact
 from .sources.funding import merge as merge_funding
 from .sources.results import merge as merge_results
+from .sources.statewide import merge as merge_statewide
 
 ROOT = Path(__file__).resolve().parents[1]
 _REG = json.loads((ROOT / "data" / "counties.json").read_text())["counties"]
@@ -88,6 +89,7 @@ def build_region(accessed: str | None = None) -> dict:
         "howToVote": json.loads((ROOT / "data" / "howtovote.json").read_text()) if (ROOT / "data" / "howtovote.json").exists() else {"statewide": [], "counties": {}, "jobs": {}},
         "closeRace": {"headline": "Local races can be very close.", "detail": "In Hernando County's Aug 18 primary, the top two School Board District 5 candidates finished 7 votes apart: 13,724 to 13,717.", "url": "https://www.hernandovotes.gov/DocumentCenter/View/798"},
         "map": json.loads((ROOT / "site" / "assets" / "fl.json").read_text()),
+        "statewide": merge_statewide(),
     }
 
 

@@ -581,6 +581,7 @@ const edayLine = () => { const d = daysLeft(); const hrs = (HTV.statewide || [])
 views.home = () => {
   const close = (DATA.closeRace || null);
   return `<div class="stack-lg view">
+    ${swBanner()}
     <section class="hero">
       <div class="stack" style="gap:14px">
         <h1>Every Florida local race. Every vote. Every dollar.</h1>
@@ -664,6 +665,7 @@ views.ballot = () => {
     ${band(`${esc(C.county.name)}, Florida${C.county.auto ? ' <span class="pill" style="margin-left:6px">Early version</span>' : ""}`, `Your ${esc(cname(CK))} County ballot`, `${live.length} local race${live.length === 1 ? "" : "s"} on the Nov 3 ballot${(() => { const d = daysLeft(); return d > 1 ? `, ${d} days from now` : d === 1 ? ", tomorrow" : d === 0 ? ", today" : ""; })()}.`, COUNTY_IMG[CK] || "09-town-square",
       `<div class="row noprint"><a class="btn primary" href="${href("vote")}">When and where to vote</a>${nPicked ? `<a class="btn" href="${href("mylist")}">My list (${nPicked} of ${live.length})</a>` : ""}</div>`)}
 
+    ${swBanner()}
     ${C.county.auto ? autoNotice() : ""}
 
     ${dists.length ? `<section class="panel stack" aria-labelledby="dq">
@@ -695,6 +697,116 @@ views.ballot = () => {
     </section>` : ""}
   </div>`;
 };
+
+/* ---------- statewide races and amendments ---------- */
+const SW = DATA.statewide || null;
+const swSrc = id => { const s = SW && SW.sources[id]; return s ? `<a class="src" href="${esc(s.url)}" target="_blank" rel="noopener" title="${esc(TIERS[s.tier]?.[0] || "")}: ${esc(s.title)}"><span class="t t${s.tier}">${s.tier}</span><span>${esc(s.publisher || s.title)}</span></a>` : ""; };
+const swDate = iso => { if (!iso) return ""; const d = new Date(iso + (iso.length === 10 ? "T12:00:00" : "")); return d.toLocaleDateString("en-US", {month: "long", day: "numeric", year: "numeric"}); };
+const swTime = iso => iso ? new Date(iso).toLocaleString("en-US", {timeZone: "America/New_York", month: "short", day: "numeric", hour: "numeric", minute: "2-digit"}) + " ET" : "";
+function swProgress() {
+  if (!SW || !SW.reporting || !SW.reporting.counties) return "";
+  const r = SW.reporting;
+  return r.complete === r.counties ? "All 67 counties have reported every precinct" : `${r.complete} of ${r.counties} counties have reported every precinct`;
+}
+// One line saying where the race stands. We never call a race ourselves.
+function swHead(x, nameOf) {
+  if (x.status === "official" && x.winner) return `<b>Winner (certified): ${esc(nameOf(x.winner))}</b>`;
+  if (x.status === "called" && x.winner) return `<b>Projected winner: ${esc(nameOf(x.winner))}</b>`;
+  if (!x.leader) return `<b>Waiting for the first results</b>`;
+  return `<b>${esc(nameOf(x.leader))} leads${x.status === "allin" ? " with every precinct reported" : ""}</b>`;
+}
+function swCallLine(x) {
+  if (x.call && x.call.by) return `<p class="tiny muted">${x.status === "official" ? "Certified by" : "Projected by"} ${x.call.url ? `<a href="${esc(x.call.url)}" target="_blank" rel="noopener">${esc(x.call.by)}</a>` : esc(x.call.by)}${x.call.at ? " on " + esc(swTime(x.call.at)) : ""}. Results stay unofficial until the state canvassing board certifies them.</p>`;
+  return `<p class="tiny muted">${x.status === "allin" ? "Every precinct is in, but counties keep counting mail, overseas and provisional ballots for several days. " : "Still counting. "}We don't call races. We show a projected winner only after a named news organization has called it, and say who.</p>`;
+}
+function swRaceCard(r, big) {
+  const C2 = r.candidates || [];
+  const nameOf = id => (C2.find(c => c.id === id) || {}).name || id;
+  const shown = big ? C2 : C2.filter(c => c.votes > 0 || c.incumbent).slice(0, 3);
+  const bars = r.total ? `<ul class="plain rlist">${shown.map(c => `<li><span class="rn">${esc(c.name)}${big && c.runningMate ? `<span class="tiny muted"> and ${esc(c.runningMate)}</span>` : ""}${c.party ? ` <span class="tiny muted">(${esc(c.party)})</span>` : ""}</span><span class="rb"><span style="width:${Math.max(1, c.pct || 0)}%"></span></span><b class="num">${(c.pct || 0).toFixed(1)}%</b><span class="num muted small">${(c.votes || 0).toLocaleString()}</span></li>`).join("")}</ul>` : "";
+  return `<div class="results${big ? " big" : ""}"><div class="between" style="gap:8px;flex-wrap:wrap">${swHead(r, nameOf)}<span class="tiny muted">Unofficial results${SW.updated ? " · updated " + esc(swTime(SW.updated)) : ""}</span></div>${bars}${big ? swCallLine(r) : ""}</div>`;
+}
+function swSitting(r) {
+  const s = r.sitting; if (!s || !s.name) return "";
+  const tel = s.phone ? s.phone.replace(/[^0-9]/g, "") : "";
+  return `<section class="panel stack-sm" aria-label="In office now">
+    <h3 class="h3">In office now</h3>
+    <p><b>${esc(s.name)}</b>${s.title ? `, ${esc(s.title)}` : ""}${s.notes ? ` <span class="small muted">${esc(s.notes)}</span>` : ""}</p>
+    <p class="small muted">${r.takesOffice ? `Whoever wins this race takes office on ${esc(swDate(r.takesOffice))}. Until then, ${esc(s.name)} holds the office.` : ""}</p>
+    <ul class="plain stack-sm small">
+      ${s.website ? `<li>Official website: <a href="${esc(s.website)}" target="_blank" rel="noopener">${esc(s.website.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""))}</a></li>` : ""}
+      ${s.phone ? `<li>Phone: <a href="tel:${esc(tel)}">${esc(s.phone)}</a></li>` : ""}
+      ${s.email ? `<li>Email: <a href="mailto:${esc(s.email)}">${esc(s.email)}</a></li>` : ""}
+      ${s.contactUrl ? `<li><a href="${esc(s.contactUrl)}" target="_blank" rel="noopener">Contact form</a></li>` : ""}
+      ${s.address ? `<li>Mail: ${esc(s.address)}</li>` : ""}
+    </ul>
+    <div class="row">${swSrc(s.source)}</div>
+  </section>`;
+}
+function swCandidate(c, r) {
+  const decided = r.winner && (r.status === "called" || r.status === "official");
+  const tag = decided ? (c.id === r.winner ? `<span class="pill">${r.status === "official" ? "Winner" : "Projected winner"}</span>` : `<span class="pill">Ran in 2026</span>`) : "";
+  return `<article class="panel stack-sm">
+    <div class="between" style="gap:8px;flex-wrap:wrap"><h3 class="h3">${esc(c.name)}${c.runningMate ? ` <span class="small muted">and ${esc(c.runningMate)}</span>` : ""}</h3>${tag}</div>
+    <p class="tiny muted">${esc(c.party || "")}${c.incumbent ? " · Incumbent" : ""}${c.website ? ` · <a href="${esc(c.website)}" target="_blank" rel="noopener">Campaign website</a>` : ""}</p>
+    ${(c.positions || []).length ? `<p class="small"><b>What they say they stand for</b> <span class="tiny muted">(in their own words, paraphrased. A campaign's claim, not a fact we checked.)</span></p>
+    <ul class="small">${c.positions.map(p => `<li>${esc(p.text)} ${swSrc(p.source)}</li>`).join("")}</ul>` : `<p class="small muted">We haven't found published positions for this candidate yet.</p>`}
+  </article>`;
+}
+function swMeasureCard(m, big) {
+  const th = m.threshold || 60;
+  const above = (m.yesPct || 0) >= th;
+  const head = m.status === "official" || m.status === "called"
+    ? `<b>${m.outcome === "passed" ? "Passed" : m.outcome === "failed" ? "Did not pass" : ""}${m.status === "called" ? " (projected)" : ""}</b>`
+    : m.total ? `<b>${above ? `Above the ${th}% needed so far` : `Short of the ${th}% needed so far`}</b>` : `<b>Waiting for the first results</b>`;
+  const bar = m.total ? `<div class="stack-sm"><div style="position:relative;height:14px;border-radius:7px;background:var(--light);overflow:hidden" role="img" aria-label="Yes ${(m.yesPct || 0).toFixed(1)} percent. ${th} percent needed to pass.">
+      <span style="position:absolute;left:0;top:0;bottom:0;width:${m.yesPct || 0}%;background:var(--civic)"></span>
+      <span style="position:absolute;left:${th}%;top:-2px;bottom:-2px;width:2px;background:var(--char)"></span></div>
+      <div class="between tiny"><span><b>Yes ${(m.yesPct || 0).toFixed(1)}%</b> · ${(m.yes || 0).toLocaleString()}</span><span class="muted">${th}% needed</span><span><b>No ${(m.noPct || 0).toFixed(1)}%</b> · ${(m.no || 0).toLocaleString()}</span></div></div>` : "";
+  return `<article class="panel stack" id="${esc(m.id)}">
+    <div class="stack-sm"><span class="kicker" style="color:var(--civic)">${esc(m.number || "")}</span><h3 class="h3">${esc(m.title || "")}</h3>${m.placedBy ? `<p class="tiny muted">Placed on the ballot by ${esc(m.placedBy)}</p>` : ""}</div>
+    ${m.plain ? `<p>${esc(m.plain)}</p>` : ""}
+    ${m.yesMeans || m.noMeans ? `<div class="jobs">${m.yesMeans ? `<div class="notice"><span><b>A yes vote means</b> ${esc(m.yesMeans)}</span></div>` : ""}${m.noMeans ? `<div class="notice"><span><b>A no vote means</b> ${esc(m.noMeans)}</span></div>` : ""}</div>` : ""}
+    <div class="results stack-sm"><div class="between" style="gap:8px;flex-wrap:wrap">${head}<span class="tiny muted">Unofficial results${SW.updated ? " · updated " + esc(swTime(SW.updated)) : ""}</span></div>${bar}
+      ${m.call && m.call.by ? swCallLine(m) : `<p class="tiny muted">Florida constitutional amendments need at least ${th}% yes votes to pass. Counting continues for several days, and results become official when the state certifies them.</p>`}</div>
+    ${big ? `${m.fiscal ? `<p class="small"><b>Cost or savings:</b> ${esc(m.fiscal)} ${swSrc(m.fiscalSource)}</p>` : ""}
+    ${m.supporters || m.opponents ? `<div class="jobs small">${m.supporters ? `<div><b>What supporters say</b><p>${esc(m.supporters)}</p></div>` : ""}${m.opponents ? `<div><b>What opponents say</b><p>${esc(m.opponents)}</p></div>` : ""}</div><div class="row">${(m.argSources || []).map(swSrc).join("")}</div>` : ""}
+    ${m.ballotSummary ? `<details class="small"><summary>Official ballot wording</summary><p>${esc(m.ballotSummary)}</p><div class="row">${swSrc(m.summarySource)}</div></details>` : ""}` : ""}
+  </article>`;
+}
+views.florida = () => {
+  CK = null;
+  if (!SW) return `<div class="stack view"><h1 class="h1">Statewide results</h1><p class="muted">Statewide results aren't available yet.</p></div>`;
+  return `<div class="stack-lg view">
+    ${band("Florida · Nov 3, 2026 General Election", "Statewide races and amendments", `Governor, Cabinet, U.S. Senate and the ${SW.measures.length} constitutional amendment${SW.measures.length === 1 ? "" : "s"}. ${esc(swProgress())}.`, "09-town-square")}
+    <section class="notice stack-sm"><b>These are unofficial election night results.</b><span>Numbers come straight from the Florida Department of State's results site and update about every 10 minutes. We never call a race ourselves. <a href="https://floridaelectionwatch.gov/" target="_blank" rel="noopener">See the state's official results site</a>.</span></section>
+    ${SW.measures.length ? `<section class="stack" aria-labelledby="amH"><h2 class="h2" id="amH">Constitutional amendments</h2><p class="small muted">What each one does, in plain English, and how the vote stands.</p>${SW.measures.map(m => swMeasureCard(m, true)).join("")}</section>` : ""}
+    <section class="stack" aria-labelledby="swH"><h2 class="h2" id="swH">Statewide offices</h2>
+      ${SW.races.map(r => `<a class="race" href="/florida/${esc(r.id)}"><div class="rh"><h3 class="h3" style="font-size:19px">${esc(r.office)}</h3><span class="small muted">Every Florida voter</span></div><div style="padding:12px 16px 0">${swRaceCard(r, false)}</div><span class="go">See the candidates and who's in office now</span></a>`).join("")}
+    </section>
+    ${SW.retention.length ? `<section class="panel stack-sm" aria-labelledby="rtH"><h2 class="h3" id="rtH">Florida Supreme Court retention</h2><p class="small muted">Voters decide whether each justice stays on the court for another six-year term. A justice stays if more than half vote yes.</p>
+      <ul class="plain stack-sm">${SW.retention.map(q => `<li class="between small"><span>${esc(q.question)}</span><span class="num">Yes ${q.yesPct.toFixed(1)}% · No ${q.noPct.toFixed(1)}%</span></li>`).join("")}</ul></section>` : ""}
+    <p class="small"><a href="/">‹ Back to your county ballot</a></p>
+  </div>`;
+};
+views.florida_race = id => {
+  CK = null;
+  const r = SW && SW.races.find(x => x.id === id);
+  if (!r) return notFound();
+  const decided = r.winner && (r.status === "called" || r.status === "official");
+  const win = decided ? r.candidates.filter(c => c.id === r.winner) : [];
+  const rest = decided ? r.candidates.filter(c => c.id !== r.winner) : r.candidates;
+  return `<div class="stack-lg view">
+    <a class="back" href="/florida">‹ Statewide races and amendments</a>
+    <section class="stack-sm"><h1 class="h1">${esc(r.office)}</h1><p class="lede">On every Florida voter's ballot. ${esc(swProgress())}.</p></section>
+    <section class="panel stack" aria-labelledby="res"><h2 class="h2" id="res">Results</h2>${swRaceCard(r, true)}${r.url ? `<p class="tiny"><a href="${esc(r.url)}" target="_blank" rel="noopener">See this race on the state's results site</a></p>` : ""}</section>
+    ${swSitting(r)}
+    ${win.length ? `<section class="stack" aria-labelledby="wH"><h2 class="h2" id="wH">${r.status === "official" ? "Winner" : "Projected winner"}</h2>${win.map(c => swCandidate(c, r)).join("")}</section>` : ""}
+    <section class="stack" aria-labelledby="cH"><h2 class="h2" id="cH">${decided ? "Also ran in 2026" : "Candidates"}</h2>${decided ? `<p class="small muted">Kept here so you can see the full 2026 race.</p>` : ""}${rest.map(c => swCandidate(c, r)).join("")}</section>
+  </div>`;
+};
+// A link to the statewide page from the start page and each county ballot.
+const swBanner = () => SW && (SW.races.length || SW.measures.length) && daysLeft() <= 0 ? `<a class="notice noprint" href="/florida" style="text-decoration:none;color:inherit"><span><b>Statewide results: Governor, Cabinet, U.S. Senate and ${SW.measures.length} amendment${SW.measures.length === 1 ? "" : "s"}.</b> What each amendment means in plain English, and how every statewide race stands. ›</span></a>` : "";
 
 /* ---------- election night results ---------- */
 // Election night, before we have this race's count: send people to the county's own results.
@@ -1461,6 +1573,7 @@ function pageMeta(parts) {
   const site = "Glass Ballot", def = ["Glass Ballot | Florida local election guide", "Nonpartisan voter guide to Florida county commission and school board races. Every local race, every commission vote, who funds each candidate, and a source behind every fact."];
   if (!parts.length) return def;
   if (parts[0] in GLOBAL_META) { const [t, d] = GLOBAL_META[parts[0]]; return [`${t} | ${site}`, d]; }
+  if (parts[0] === "florida") { const r = parts[1] && SW && SW.races.find(x => x.id === parts[1]); return r ? [`${r.office} results, Florida 2026 | ${site}`, `Unofficial 2026 results for Florida ${r.office}, the candidates' stated positions, and who holds the office now, with official contact information.`] : [`Florida statewide results and amendments, 2026 | ${site}`, "Unofficial 2026 results for Florida governor, Cabinet, U.S. Senate and every constitutional amendment, with what each amendment means in plain English."]; }
   if (!CK || CK !== parts[0]) return def;
   const n = cname(CK), [, a, b] = parts;
   if (!a) return [`${n} County ballot guide: ${nRaces(CK)} local races | ${site}`, `Who's running for ${n} County commission and school board on the Nov 3 ballot, how incumbents voted, and who funds each campaign. A source for every fact.`];
@@ -1496,6 +1609,7 @@ function route() {
   const parts = h.split("/").filter(Boolean);
   let html, tab = "ballot";
   if (!parts.length) { CK = null; html = views.home(); tab = "home"; }
+  else if (parts[0] === "florida") { html = parts[1] ? views.florida_race(parts[1]) : views.florida(); tab = "ballot"; }
   else if (parts[0] in GLOBAL) { if (parts[0] === "sources") CK = null; html = views[parts[0]](); tab = GLOBAL[parts[0]]; }
   else if (useCounty(parts[0]) === "load") {
     $("#app").innerHTML = `<div class="stack view"><p class="muted">Loading ${esc(COUNTIES[parts[0]].county.name)}…</p></div>`;

@@ -149,7 +149,85 @@ def pull() -> str:
     return f"statewide: {len(res['races'])} races, {len(res['measures'])} amendments, {rep.get('complete', '?')}/{rep.get('counties', '?')} counties fully reported" + ("; " + "; ".join(errs) if errs else "")
 
 
+def _last(n: str) -> str:
+    w = re.sub(r'"[^"]*"|\b(Jr|Sr|II|III|IV)\b\.?', " ", n).replace(",", " ").split()
+    return w[-1].lower() if w else ""
+
+
+def _match(choice: str, name: str) -> bool:
+    """Does a results line ("Byron Donalds and Bryan Avila") belong to this candidate ("Byron Donalds")?"""
+    head = choice.split(" and ")[0]
+    return bool(name) and _last(head) == _last(name)
+
+
+def _status(rep: dict) -> str:
+    return "allin" if rep and rep.get("counties") == 67 and rep.get("complete") == 67 else "counting"
+
+
+def merge() -> dict | None:
+    """Everything the site shows for statewide races and amendments: who is running and what they say they
+    stand for (data/statewide_2026.json), the live count (data/results/statewide.json), and any race call by a
+    named outlet or certification (data/statewide_calls.json, kept by a person, each with a link)."""
+    rp, lp, cp = ROOT / "data" / "statewide_2026.json", ROOT / "data" / "results" / "statewide.json", ROOT / "data" / "statewide_calls.json"
+    research = json.loads(rp.read_text()) if rp.exists() else {}
+    live = json.loads(lp.read_text()) if lp.exists() else {}
+    calls = json.loads(cp.read_text()) if cp.exists() else {}
+    if not research and not live:
+        return None
+    rep = live.get("reporting", {})
+    status = _status(rep)
+    sources = dict(research.get("sources", {}))
+    if live:
+        sources["fewatch-2026g"] = {"title": "Florida Election Watch: 2026 General Election, unofficial results", "url": live.get("source", BASE),
+                                    "publisher": "Florida Department of State, Division of Elections", "tier": 1, "accessed": live.get("pulledAt", "")[:10]}
+    races = []
+    for r in research.get("races", []) or [{"id": k, "office": v["name"], "candidates": []} for k, v in live.get("races", {}).items()]:
+        res = live.get("races", {}).get(r["id"])
+        cands = [dict(c) for c in r.get("candidates", [])]
+        if res:
+            for ch in res["choices"]:
+                c = next((c for c in cands if _match(ch["name"], c.get("name", ""))), None)
+                if not c:
+                    c = {"id": re.sub(r"[^a-z]", "", _last(ch["name"].split(" and ")[0])), "name": ch["name"].split(" and ")[0], "party": ch.get("party"),
+                         "runningMate": ch["name"].split(" and ")[1] if " and " in ch["name"] else "", "positions": []}
+                    cands.append(c)
+                c["votes"], c["pct"] = ch["votes"], ch["pct"]
+            cands.sort(key=lambda c: -c.get("votes", 0))
+        call = calls.get(r["id"])
+        winner = None
+        if call:
+            winner = next((c["id"] for c in cands if _match(call.get("winner", ""), c["name"]) or call.get("winner") == c.get("id")), None)
+        races.append({**r, "candidates": cands, "total": res["total"] if res else 0, "url": res["url"] if res else None,
+                      "status": (call.get("kind", "called") if call and winner else status) if res else "nocount",
+                      "leader": cands[0]["id"] if res and cands and cands[0].get("votes") else None,
+                      "winner": winner, "call": call if winner else None})
+    measures = []
+    lm = {re.sub(r"\D", "", m.get("number") or ""): m for m in live.get("measures", [])}
+    for m in research.get("measures", []) or [{"id": "a" + k, "number": v.get("number"), "title": v["name"]} for k, v in lm.items()]:
+        res = lm.get(re.sub(r"\D", "", m.get("number") or ""))
+        out = {**m}
+        if res:
+            yes = next((c for c in res["choices"] if c["name"].lower().startswith("yes")), None)
+            no = next((c for c in res["choices"] if c["name"].lower().startswith("no")), None)
+            out.update({"yes": yes["votes"] if yes else 0, "no": no["votes"] if no else 0, "yesPct": yes["pct"] if yes else 0.0,
+                        "noPct": no["pct"] if no else 0.0, "total": res["total"], "url": res["url"], "threshold": m.get("threshold") or res.get("threshold") or 60})
+        call = calls.get(m["id"])
+        out["status"] = (call.get("kind", "called") if call else status) if res else "nocount"
+        out["outcome"] = call.get("outcome") if call else None
+        out["call"] = call
+        measures.append(out)
+    retention = [{"question": c["name"], "yesPct": next((x["pct"] for x in c["choices"] if x["name"].lower().startswith("yes")), 0.0),
+                  "noPct": next((x["pct"] for x in c["choices"] if x["name"].lower().startswith("no")), 0.0), "total": c["total"], "url": c["url"]}
+                 for c in live.get("retention", [])]
+    return {"election": "2026-11-03", "updated": live.get("pulledAt"), "status": status,
+            "reporting": {"counties": rep.get("counties"), "complete": rep.get("complete")},
+            "races": races, "measures": measures, "retention": retention, "sources": sources}
+
+
 def main(argv):
+    if argv[:1] == ["--merge"]:
+        print(json.dumps(merge(), indent=1, ensure_ascii=False)[:8000])
+        return
     if argv[:1] == ["--dir"]:
         d = Path(argv[1])
         names = {"gov": "StateOffices_Governor", "ag": "StateOffices_AttorneyGeneral", "cfo": "StateOffices_ChiefFinancialOfficer",
