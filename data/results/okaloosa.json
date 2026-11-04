@@ -1,7 +1,7 @@
 {
  "county": "okaloosa",
  "url": "https://enr.electionsfl.org/OKA/4092/Summary/",
- "pulledAt": "2026-11-04T03:25:14Z",
+ "pulledAt": "2026-11-04T03:35:25Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -13,14 +13,14 @@
     {
      "name": "Jerry Buckman",
      "party": "NPA",
-     "pct": 51.73,
-     "votes": 34819
+     "pct": 51.74,
+     "votes": 34907
     },
     {
      "name": "JD Peacock",
      "party": "NPA",
-     "pct": 48.27,
-     "votes": 32485
+     "pct": 48.26,
+     "votes": 32559
     }
    ]
   }
