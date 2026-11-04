@@ -1,7 +1,7 @@
 {
  "county": "walton",
  "url": "https://enr.electionsfl.org/WAL/4091/Summary/",
- "pulledAt": "2026-11-04T04:12:15Z",
+ "pulledAt": "2026-11-04T04:15:43Z",
  "status": "unofficial",
  "updated": null,
  "races": [],
@@ -12,19 +12,19 @@
    "precincts": 22,
    "candidates": [
     {
-     "name": "REP Ashley Moody",
+     "name": "Ashley Moody",
      "party": "REP",
      "pct": 76.108,
      "votes": 26835
     },
     {
-     "name": "DEM Angie Nixon",
+     "name": "Angie Nixon",
      "party": "DEM",
      "pct": 22.84,
      "votes": 8053
     },
     {
-     "name": "NPA Neil J. Gillespie",
+     "name": "Neil J. Gillespie",
      "party": "NPA",
      "pct": 1.052,
      "votes": 371
@@ -32,24 +32,24 @@
    ]
   },
   {
-   "office": "Rep in Congress District 1",
+   "office": "Representative in Congress District 1",
    "reported": 15,
    "precincts": 15,
    "candidates": [
     {
-     "name": "REP Jimmy Patronis",
+     "name": "Jimmy Patronis",
      "party": "REP",
      "pct": 76.371,
      "votes": 17654
     },
     {
-     "name": "DEM Gay Valimont",
+     "name": "Gay Valimont",
      "party": "DEM",
      "pct": 21.989,
      "votes": 5083
     },
     {
-     "name": "NPA Tyler L. Davis",
+     "name": "Tyler L. Davis",
      "party": "NPA",
      "pct": 1.64,
      "votes": 379
@@ -57,18 +57,18 @@
    ]
   },
   {
-   "office": "Rep in Congress District 2",
+   "office": "Representative in Congress District 2",
    "reported": 13,
    "precincts": 13,
    "candidates": [
     {
-     "name": "REP Austin Rogers",
+     "name": "Austin Rogers",
      "party": "REP",
      "pct": 73.479,
      "votes": 8802
     },
     {
-     "name": "DEM Amanda Marie Green",
+     "name": "Amanda Marie Green",
      "party": "DEM",
      "pct": 26.521,
      "votes": 3177
@@ -81,58 +81,52 @@
    "precincts": 22,
    "candidates": [
     {
-     "name": "REP Byron Donalds",
+     "name": "Byron Donalds",
      "party": "REP",
-     "pct": 75.681,
+     "pct": 75.838,
      "votes": 26626
     },
     {
-     "name": "DEM David Jolly",
+     "name": "David Jolly",
      "party": "DEM",
-     "pct": 23.103,
+     "pct": 23.151,
      "votes": 8128
     },
     {
-     "name": "LPF Scott Eckhard Jewett",
+     "name": "Scott Eckhard Jewett",
      "party": "LPF",
-     "pct": 0.5,
+     "pct": 0.501,
      "votes": 176
     },
     {
-     "name": "NPA Charles Burkett",
+     "name": "Charles Burkett",
      "party": "NPA",
      "pct": 0.085,
      "votes": 30
     },
     {
-     "name": "NPA Frank J. Russo",
+     "name": "Frank J. Russo",
      "party": "NPA",
      "pct": 0.179,
      "votes": 63
     },
     {
-     "name": "NPA Moliere \"Moe\" Dimanche",
+     "name": "Moliere \"Moe\" Dimanche",
      "party": "NPA",
      "pct": 0.04,
      "votes": 14
     },
     {
-     "name": "NPA Dean Ocean Abrams",
+     "name": "Dean Ocean Abrams",
      "party": "NPA",
-     "pct": 0.119,
+     "pct": 0.12,
      "votes": 42
     },
     {
-     "name": "NPA Jeffrey Peter Datto",
+     "name": "Jeffrey Peter Datto",
      "party": "NPA",
      "pct": 0.085,
      "votes": 30
-    },
-    {
-     "name": "Write-in",
-     "party": "NON",
-     "pct": 0.207,
-     "votes": 73
     }
    ]
   },
@@ -142,13 +136,13 @@
    "precincts": 22,
    "candidates": [
     {
-     "name": "REP James Uthmeier",
+     "name": "James Uthmeier",
      "party": "REP",
      "pct": 76.721,
      "votes": 26824
     },
     {
-     "name": "DEM Jose Javier Rodriguez",
+     "name": "Jose Javier Rodriguez",
      "party": "DEM",
      "pct": 23.279,
      "votes": 8139
@@ -161,13 +155,13 @@
    "precincts": 22,
    "candidates": [
     {
-     "name": "REP Blaise Ingoglia",
+     "name": "Blaise Ingoglia",
      "party": "REP",
      "pct": 76.741,
      "votes": 26685
     },
     {
-     "name": "DEM Annette Taddeo",
+     "name": "Annette Taddeo",
      "party": "DEM",
      "pct": 23.259,
      "votes": 8088
@@ -180,22 +174,16 @@
    "precincts": 22,
    "candidates": [
     {
-     "name": "REP Wilton Simpson",
+     "name": "Wilton Simpson",
      "party": "REP",
-     "pct": 76.528,
+     "pct": 76.719,
      "votes": 26728
     },
     {
-     "name": "DEM Joey Mendoza Atkins",
+     "name": "Joey Mendoza Atkins",
      "party": "DEM",
-     "pct": 23.223,
+     "pct": 23.281,
      "votes": 8111
-    },
-    {
-     "name": "Write-in",
-     "party": "NON",
-     "pct": 0.249,
-     "votes": 87
     }
    ]
   },
@@ -205,13 +193,13 @@
    "precincts": 22,
    "candidates": [
     {
-     "name": "REP Jay Trumbull",
+     "name": "Jay Trumbull",
      "party": "REP",
      "pct": 76.831,
      "votes": 26765
     },
     {
-     "name": "DEM Lauren Donahoo",
+     "name": "Lauren Donahoo",
      "party": "DEM",
      "pct": 23.169,
      "votes": 8071
@@ -224,13 +212,13 @@
    "precincts": 22,
    "candidates": [
     {
-     "name": "REP Shane Abbott",
+     "name": "Shane Abbott",
      "party": "REP",
      "pct": 77.506,
      "votes": 26869
     },
     {
-     "name": "DEM Alex Finney",
+     "name": "Alex Finney",
      "party": "DEM",
      "pct": 22.494,
      "votes": 7798
@@ -244,20 +232,20 @@
    "candidates": [
     {
      "name": "Brian Christenson",
-     "party": "NON",
+     "party": null,
      "pct": 80.89,
      "votes": 11302
     },
     {
      "name": "Jim Jaquess",
-     "party": "NON",
+     "party": null,
      "pct": 19.11,
      "votes": 2670
     }
    ]
   },
   {
-   "office": "Carlos G. Muniz",
+   "office": "Retention: Carlos G. Muniz",
    "reported": 22,
    "precincts": 22,
    "candidates": [
@@ -276,7 +264,7 @@
    ]
   },
   {
-   "office": "Joseph Lewis Jr.",
+   "office": "Retention: Joseph Lewis Jr.",
    "reported": 22,
    "precincts": 22,
    "candidates": [
@@ -295,7 +283,7 @@
    ]
   },
   {
-   "office": "Rachel Nordby",
+   "office": "Retention: Rachel Nordby",
    "reported": 22,
    "precincts": 22,
    "candidates": [
@@ -314,7 +302,7 @@
    ]
   },
   {
-   "office": "Tim Osterhaus",
+   "office": "Retention: Tim Osterhaus",
    "reported": 22,
    "precincts": 22,
    "candidates": [
@@ -333,7 +321,7 @@
    ]
   },
   {
-   "office": "Clay Roberts",
+   "office": "Retention: Clay Roberts",
    "reported": 22,
    "precincts": 22,
    "candidates": [
@@ -352,7 +340,7 @@
    ]
   },
   {
-   "office": "Raymond Treadwell",
+   "office": "Retention: Raymond Treadwell",
    "reported": 22,
    "precincts": 22,
    "candidates": [
