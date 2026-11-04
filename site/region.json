@@ -325554,5 +325554,321 @@
     "fips": "12057"
    }
   }
+ },
+ "statewide": {
+  "election": "2026-11-03",
+  "updated": "2026-11-04T03:21:00Z",
+  "status": "counting",
+  "reporting": {
+   "counties": 67,
+   "complete": 61
+  },
+  "races": [
+   {
+    "id": "gov",
+    "office": "Governor and Lieutenant Governor",
+    "candidates": [
+     {
+      "id": "donalds",
+      "name": "Byron Donalds",
+      "party": "REP",
+      "runningMate": "Bryan Avila",
+      "positions": [],
+      "votes": 4116694,
+      "pct": 50.08
+     },
+     {
+      "id": "jolly",
+      "name": "David Jolly",
+      "party": "DEM",
+      "runningMate": "Gwen Graham",
+      "positions": [],
+      "votes": 3999957,
+      "pct": 48.66
+     },
+     {
+      "id": "jewett",
+      "name": "Scott Eckhard Jewett",
+      "party": "LPF",
+      "runningMate": "Nicole Skelly",
+      "positions": [],
+      "votes": 37622,
+      "pct": 0.46
+     },
+     {
+      "id": "russo",
+      "name": "Frank J. Russo",
+      "party": "NPA",
+      "runningMate": "Rachel Rodriguez",
+      "positions": [],
+      "votes": 23062,
+      "pct": 0.28
+     },
+     {
+      "id": "burkett",
+      "name": "Charles Burkett",
+      "party": "NPA",
+      "runningMate": "Ruben A. Coto",
+      "positions": [],
+      "votes": 15156,
+      "pct": 0.18
+     },
+     {
+      "id": "abrams",
+      "name": "Dean Ocean Abrams",
+      "party": "NPA",
+      "runningMate": "Joe Van Vactor",
+      "positions": [],
+      "votes": 12404,
+      "pct": 0.15
+     },
+     {
+      "id": "datto",
+      "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+      "party": "NPA",
+      "runningMate": "Juan Santana",
+      "positions": [],
+      "votes": 8281,
+      "pct": 0.1
+     },
+     {
+      "id": "dimanche",
+      "name": "Moliere \"Moe\" Dimanche",
+      "party": "NPA",
+      "runningMate": "Benjiman Rojas",
+      "positions": [],
+      "votes": 7528,
+      "pct": 0.09
+     },
+     {
+      "id": "anderson",
+      "name": "Kathy Anderson",
+      "party": "WRI",
+      "runningMate": "Daniel Nokovich",
+      "positions": [],
+      "votes": 0,
+      "pct": 0.0
+     },
+     {
+      "id": "morris",
+      "name": "Erik Morris",
+      "party": "WRI",
+      "runningMate": "LeRoy Alaways",
+      "positions": [],
+      "votes": 0,
+      "pct": 0.0
+     }
+    ],
+    "total": 8220704,
+    "url": "https://floridaelectionwatch.gov/StateOffices/Governor",
+    "status": "counting",
+    "leader": "donalds",
+    "winner": null,
+    "call": null
+   },
+   {
+    "id": "ag",
+    "office": "Attorney General",
+    "candidates": [
+     {
+      "id": "uthmeier",
+      "name": "James Uthmeier",
+      "party": "REP",
+      "runningMate": "",
+      "positions": [],
+      "votes": 4162292,
+      "pct": 51.0
+     },
+     {
+      "id": "rodriguez",
+      "name": "Jose Javier Rodriguez",
+      "party": "DEM",
+      "runningMate": "",
+      "positions": [],
+      "votes": 3999652,
+      "pct": 49.0
+     }
+    ],
+    "total": 8161944,
+    "url": "https://floridaelectionwatch.gov/StateOffices/AttorneyGeneral",
+    "status": "counting",
+    "leader": "uthmeier",
+    "winner": null,
+    "call": null
+   },
+   {
+    "id": "cfo",
+    "office": "Chief Financial Officer",
+    "candidates": [
+     {
+      "id": "ingoglia",
+      "name": "Blaise Ingoglia",
+      "party": "REP",
+      "runningMate": "",
+      "positions": [],
+      "votes": 4135760,
+      "pct": 51.0
+     },
+     {
+      "id": "taddeo",
+      "name": "Annette Taddeo",
+      "party": "DEM",
+      "runningMate": "",
+      "positions": [],
+      "votes": 3973568,
+      "pct": 49.0
+     }
+    ],
+    "total": 8109328,
+    "url": "https://floridaelectionwatch.gov/StateOffices/ChiefFinancialOfficer",
+    "status": "counting",
+    "leader": "ingoglia",
+    "winner": null,
+    "call": null
+   },
+   {
+    "id": "agr",
+    "office": "Commissioner of Agriculture",
+    "candidates": [
+     {
+      "id": "simpson",
+      "name": "Wilton Simpson",
+      "party": "REP",
+      "runningMate": "",
+      "positions": [],
+      "votes": 4144793,
+      "pct": 51.14
+     },
+     {
+      "id": "atkins",
+      "name": "Joey Mendoza Atkins",
+      "party": "DEM",
+      "runningMate": "",
+      "positions": [],
+      "votes": 3960229,
+      "pct": 48.86
+     },
+     {
+      "id": "gibson",
+      "name": "Kyle \"KC\" Gibson",
+      "party": "WRI",
+      "runningMate": "",
+      "positions": [],
+      "votes": 0,
+      "pct": 0.0
+     }
+    ],
+    "total": 8105022,
+    "url": "https://floridaelectionwatch.gov/StateOffices/CommissionerOfAgriculture",
+    "status": "counting",
+    "leader": "simpson",
+    "winner": null,
+    "call": null
+   },
+   {
+    "id": "uss",
+    "office": "United States Senator",
+    "candidates": [
+     {
+      "id": "moody",
+      "name": "Ashley Moody",
+      "party": "REP",
+      "runningMate": "",
+      "positions": [],
+      "votes": 4192030,
+      "pct": 50.93
+     },
+     {
+      "id": "nixon",
+      "name": "Angie Nixon",
+      "party": "DEM",
+      "runningMate": "",
+      "positions": [],
+      "votes": 3944550,
+      "pct": 47.93
+     },
+     {
+      "id": "gillespie",
+      "name": "Neil J. Gillespie",
+      "party": "NPA",
+      "runningMate": "",
+      "positions": [],
+      "votes": 93948,
+      "pct": 1.14
+     }
+    ],
+    "total": 8230528,
+    "url": "https://floridaelectionwatch.gov/FederalOffices/USSenator",
+    "status": "counting",
+    "leader": "moody",
+    "winner": null,
+    "call": null
+   }
+  ],
+  "measures": [
+   {
+    "id": "a1",
+    "number": "Amendment No. 1",
+    "title": "Budget Stabilization Fund",
+    "yes": 3156301,
+    "no": 4556741,
+    "yesPct": 40.92,
+    "noPct": 59.08,
+    "total": 7713042,
+    "url": "https://floridaelectionwatch.gov/Amendments",
+    "threshold": 60,
+    "status": "counting",
+    "outcome": null,
+    "call": null
+   },
+   {
+    "id": "a2",
+    "number": "Amendment No. 2",
+    "title": "Exemption of Tangible Personal Property on Agricultural Land From Taxation",
+    "yes": 4523204,
+    "no": 3241762,
+    "yesPct": 58.25,
+    "noPct": 41.75,
+    "total": 7764966,
+    "url": "https://floridaelectionwatch.gov/Amendments",
+    "threshold": 60,
+    "status": "counting",
+    "outcome": null,
+    "call": null
+   },
+   {
+    "id": "a3",
+    "number": "Amendment No. 3",
+    "title": "Increased Homestead Exemption; Lower Cap On Increases In Non-Homestead Property Assessments",
+    "yes": 4896375,
+    "no": 2998372,
+    "yesPct": 62.02,
+    "noPct": 37.98,
+    "total": 7894747,
+    "url": "https://floridaelectionwatch.gov/Amendments",
+    "threshold": 60,
+    "status": "counting",
+    "outcome": null,
+    "call": null
+   }
+  ],
+  "retention": [
+   {
+    "question": "Shall Justice Carlos G. Muñiz be retained in Office?",
+    "yesPct": 57.75,
+    "noPct": 42.25,
+    "total": 7410509,
+    "url": "https://floridaelectionwatch.gov/JudicialOffices/SupremeCourt"
+   }
+  ],
+  "sources": {
+   "fewatch-2026g": {
+    "title": "Florida Election Watch: 2026 General Election, unofficial results",
+    "url": "https://floridaelectionwatch.gov",
+    "publisher": "Florida Department of State, Division of Elections",
+    "tier": 1,
+    "accessed": "2026-11-04"
+   }
+  }
  }
 }
