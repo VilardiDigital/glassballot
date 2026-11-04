@@ -10784,7 +10784,7 @@
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hillsborough&el=27",
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:51Z",
+     "updated": "2026-11-04T05:05:36Z",
      "url": "https://enr.electionsfl.org/HIL/4074/Summary/",
      "races": [
       {
@@ -23200,7 +23200,7 @@
       ],
       "counted": true,
       "leader": "cohen",
-      "updated": "2026-11-04T05:00:51Z",
+      "updated": "2026-11-04T05:05:36Z",
       "source": "enr-2026g"
      }
     },
@@ -23243,7 +23243,7 @@
       ],
       "counted": true,
       "leader": "myers",
-      "updated": "2026-11-04T05:00:51Z",
+      "updated": "2026-11-04T05:05:36Z",
       "source": "enr-2026g"
      }
     },
@@ -23286,7 +23286,7 @@
       ],
       "counted": true,
       "leader": "manimala",
-      "updated": "2026-11-04T05:00:51Z",
+      "updated": "2026-11-04T05:05:36Z",
       "source": "enr-2026g"
      }
     },
@@ -23330,7 +23330,7 @@
       ],
       "counted": true,
       "leader": "rodriguez",
-      "updated": "2026-11-04T05:00:51Z",
+      "updated": "2026-11-04T05:05:36Z",
       "source": "enr-2026g"
      }
     },
@@ -23374,7 +23374,7 @@
       ],
       "counted": true,
       "leader": "simic",
-      "updated": "2026-11-04T05:00:51Z",
+      "updated": "2026-11-04T05:05:36Z",
       "source": "enr-2026g"
      }
     },
@@ -23437,7 +23437,7 @@
       ],
       "counted": true,
       "leader": "perez",
-      "updated": "2026-11-04T05:00:51Z",
+      "updated": "2026-11-04T05:05:36Z",
       "source": "enr-2026g"
      }
     }
@@ -24074,7 +24074,7 @@
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=pasco&el=38",
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:56Z",
+     "updated": "2026-11-04T05:05:39Z",
      "url": "https://enr.electionsfl.org/PAS/4085/Summary/",
      "races": [
       {
@@ -24082,25 +24082,25 @@
        "group": "statewide",
        "reported": 122,
        "precincts": 122,
-       "total": 239096,
+       "total": 240110,
        "candidates": [
         {
          "name": "Ashley Moody",
          "party": "REP",
-         "pct": 56.47,
-         "votes": 135009
+         "pct": 56.4,
+         "votes": 135423
         },
         {
          "name": "Angie Nixon",
          "party": "DEM",
-         "pct": 42.08,
-         "votes": 100614
+         "pct": 42.14,
+         "votes": 101193
         },
         {
          "name": "Neil J. Gillespie",
          "party": "NPA",
-         "pct": 1.45,
-         "votes": 3473
+         "pct": 1.46,
+         "votes": 3494
         }
        ]
       },
@@ -24109,25 +24109,25 @@
        "group": "congress",
        "reported": 72,
        "precincts": 72,
-       "total": 147190,
+       "total": 147902,
        "candidates": [
         {
          "name": "Gus Michael Bilirakis",
          "party": "REP",
-         "pct": 59.97,
-         "votes": 88277
+         "pct": 59.9,
+         "votes": 88591
         },
         {
          "name": "Kimberly Overman",
          "party": "DEM",
-         "pct": 38.65,
-         "votes": 56894
+         "pct": 38.72,
+         "votes": 57271
         },
         {
          "name": "Branden Scrivener",
          "party": "NPA",
-         "pct": 1.37,
-         "votes": 2019
+         "pct": 1.38,
+         "votes": 2040
         }
        ]
       },
@@ -24136,25 +24136,25 @@
        "group": "congress",
        "reported": 12,
        "precincts": 12,
-       "total": 20700,
+       "total": 20787,
        "candidates": [
         {
          "name": "Anna Paulina Luna",
          "party": "REP",
-         "pct": 53.92,
-         "votes": 11161
+         "pct": 53.83,
+         "votes": 11189
         },
         {
          "name": "Leela Gray",
          "party": "DEM",
-         "pct": 43.63,
-         "votes": 9032
+         "pct": 43.72,
+         "votes": 9088
         },
         {
          "name": "Tony D'Arrigo",
          "party": "NPA",
          "pct": 2.45,
-         "votes": 507
+         "votes": 510
         }
        ]
       },
@@ -24163,19 +24163,19 @@
        "group": "congress",
        "reported": 38,
        "precincts": 38,
-       "total": 70412,
+       "total": 70618,
        "candidates": [
         {
          "name": "Laurel Lee",
          "party": "REP",
-         "pct": 52.02,
-         "votes": 36628
+         "pct": 51.97,
+         "votes": 36702
         },
         {
          "name": "Robert People",
          "party": "DEM",
-         "pct": 47.82,
-         "votes": 33674
+         "pct": 47.87,
+         "votes": 33806
         },
         {
          "name": "Write-in",
@@ -24190,61 +24190,61 @@
        "group": "statewide",
        "reported": 122,
        "precincts": 122,
-       "total": 238856,
+       "total": 239860,
        "candidates": [
         {
          "name": "Byron Donalds",
          "party": "REP",
-         "pct": 55.3,
-         "votes": 132082
+         "pct": 55.23,
+         "votes": 132473
         },
         {
          "name": "David Jolly",
          "party": "DEM",
-         "pct": 43.0,
-         "votes": 102708
+         "pct": 43.06,
+         "votes": 103288
         },
         {
          "name": "Scott Eckhard Jewett",
          "party": "LPF",
          "pct": 0.51,
-         "votes": 1209
+         "votes": 1217
         },
         {
          "name": "Frank J. Russo",
          "party": "NPA",
          "pct": 0.33,
-         "votes": 793
+         "votes": 799
         },
         {
          "name": "Write-in",
          "party": "NON",
          "pct": 0.24,
-         "votes": 571
+         "votes": 575
         },
         {
          "name": "Charles Burkett",
          "party": "NPA",
          "pct": 0.23,
-         "votes": 559
+         "votes": 562
         },
         {
          "name": "Dean Ocean Abrams",
          "party": "NPA",
          "pct": 0.18,
-         "votes": 428
+         "votes": 435
         },
         {
          "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
          "party": "NPA",
          "pct": 0.12,
-         "votes": 275
+         "votes": 279
         },
         {
          "name": "Moliere \"Moe\" Dimanche",
          "party": "NPA",
          "pct": 0.1,
-         "votes": 231
+         "votes": 232
         }
        ]
       },
@@ -24253,19 +24253,19 @@
        "group": "statewide",
        "reported": 122,
        "precincts": 122,
-       "total": 236096,
+       "total": 237063,
        "candidates": [
         {
          "name": "James Uthmeier",
          "party": "REP",
-         "pct": 56.98,
-         "votes": 134529
+         "pct": 56.91,
+         "votes": 134922
         },
         {
          "name": "Jose Javier Rodriguez",
          "party": "DEM",
-         "pct": 43.02,
-         "votes": 101567
+         "pct": 43.09,
+         "votes": 102141
         }
        ]
       },
@@ -24274,19 +24274,19 @@
        "group": "statewide",
        "reported": 122,
        "precincts": 122,
-       "total": 234697,
+       "total": 235663,
        "candidates": [
         {
          "name": "Blaise Ingoglia",
          "party": "REP",
-         "pct": 56.83,
-         "votes": 133370
+         "pct": 56.76,
+         "votes": 133763
         },
         {
          "name": "Annette Taddeo",
          "party": "DEM",
-         "pct": 43.17,
-         "votes": 101327
+         "pct": 43.24,
+         "votes": 101900
         }
        ]
       },
@@ -24295,25 +24295,25 @@
        "group": "statewide",
        "reported": 122,
        "precincts": 122,
-       "total": 236086,
+       "total": 237073,
        "candidates": [
         {
          "name": "Wilton Simpson",
          "party": "REP",
-         "pct": 56.25,
-         "votes": 132807
+         "pct": 56.19,
+         "votes": 133205
         },
         {
          "name": "Joey Mendoza Atkins",
          "party": "DEM",
-         "pct": 43.22,
-         "votes": 102032
+         "pct": 43.28,
+         "votes": 102611
         },
         {
          "name": "Write-in",
          "party": "NON",
          "pct": 0.53,
-         "votes": 1247
+         "votes": 1257
         }
        ]
       },
@@ -24322,19 +24322,19 @@
        "group": "legislature",
        "reported": 44,
        "precincts": 44,
-       "total": 83012,
+       "total": 83431,
        "candidates": [
         {
          "name": "Chris Nocco",
          "party": "REP",
-         "pct": 60.73,
-         "votes": 50411
+         "pct": 60.65,
+         "votes": 50601
         },
         {
          "name": "Jordan Hensley",
          "party": "DEM",
-         "pct": 39.27,
-         "votes": 32601
+         "pct": 39.35,
+         "votes": 32830
         }
        ]
       },
@@ -24343,19 +24343,19 @@
        "group": "legislature",
        "reported": 7,
        "precincts": 7,
-       "total": 12978,
+       "total": 13024,
        "candidates": [
         {
          "name": "Brian Hawkins",
          "party": "REP",
-         "pct": 69.17,
-         "votes": 8977
+         "pct": 69.13,
+         "votes": 9004
         },
         {
          "name": "Tony Claude",
          "party": "DEM",
-         "pct": 29.53,
-         "votes": 3832
+         "pct": 29.57,
+         "votes": 3851
         },
         {
          "name": "Christopher Anger",
@@ -24370,19 +24370,19 @@
        "group": "legislature",
        "reported": 38,
        "precincts": 38,
-       "total": 85813,
+       "total": 86247,
        "candidates": [
         {
          "name": "Walter Price",
          "party": "REP",
-         "pct": 59.13,
-         "votes": 50741
+         "pct": 59.06,
+         "votes": 50934
         },
         {
          "name": "Zach Funkhouser",
          "party": "DEM",
-         "pct": 40.87,
-         "votes": 35072
+         "pct": 40.94,
+         "votes": 35313
         }
        ]
       },
@@ -24391,19 +24391,19 @@
        "group": "legislature",
        "reported": 31,
        "precincts": 31,
-       "total": 54733,
+       "total": 54998,
        "candidates": [
         {
          "name": "Brad Yeager",
          "party": "REP",
-         "pct": 58.79,
-         "votes": 32180
+         "pct": 58.71,
+         "votes": 32292
         },
         {
          "name": "Jose Freites",
          "party": "DEM",
-         "pct": 41.21,
-         "votes": 22553
+         "pct": 41.29,
+         "votes": 22706
         }
        ]
       },
@@ -24412,19 +24412,19 @@
        "group": "county",
        "reported": 122,
        "precincts": 122,
-       "total": 235298,
+       "total": 236284,
        "candidates": [
         {
          "name": "Seth Weightman",
          "party": "REP",
-         "pct": 55.43,
-         "votes": 130428
+         "pct": 55.36,
+         "votes": 130809
         },
         {
          "name": "Stephanie C. Vazquez",
          "party": "DEM",
-         "pct": 44.57,
-         "votes": 104870
+         "pct": 44.64,
+         "votes": 105475
         }
        ]
       },
@@ -24433,19 +24433,19 @@
        "group": "courts",
        "reported": 122,
        "precincts": 122,
-       "total": 213947,
+       "total": 214848,
        "candidates": [
         {
          "name": "Yes",
          "party": "NON",
-         "pct": 61.29,
-         "votes": 131133
+         "pct": 61.22,
+         "votes": 131536
         },
         {
          "name": "No",
          "party": "NON",
-         "pct": 38.71,
-         "votes": 82814
+         "pct": 38.78,
+         "votes": 83312
         }
        ]
       },
@@ -24454,19 +24454,19 @@
        "group": "courts",
        "reported": 122,
        "precincts": 122,
-       "total": 212414,
+       "total": 213301,
        "candidates": [
         {
          "name": "Yes",
          "party": "NON",
-         "pct": 64.14,
-         "votes": 136243
+         "pct": 64.1,
+         "votes": 136723
         },
         {
          "name": "No",
          "party": "NON",
-         "pct": 35.86,
-         "votes": 76171
+         "pct": 35.9,
+         "votes": 76578
         }
        ]
       },
@@ -24475,19 +24475,19 @@
        "group": "courts",
        "reported": 122,
        "precincts": 122,
-       "total": 210736,
+       "total": 211620,
        "candidates": [
         {
          "name": "Yes",
          "party": "NON",
-         "pct": 65.05,
-         "votes": 137085
+         "pct": 65.03,
+         "votes": 137616
         },
         {
          "name": "No",
          "party": "NON",
-         "pct": 34.95,
-         "votes": 73651
+         "pct": 34.97,
+         "votes": 74004
         }
        ]
       },
@@ -24496,19 +24496,19 @@
        "group": "courts",
        "reported": 122,
        "precincts": 122,
-       "total": 211235,
+       "total": 212122,
        "candidates": [
         {
          "name": "Yes",
          "party": "NON",
-         "pct": 64.11,
-         "votes": 135425
+         "pct": 64.07,
+         "votes": 135914
         },
         {
          "name": "No",
          "party": "NON",
-         "pct": 35.89,
-         "votes": 75810
+         "pct": 35.93,
+         "votes": 76208
         }
        ]
       },
@@ -24517,19 +24517,19 @@
        "group": "courts",
        "reported": 122,
        "precincts": 122,
-       "total": 210709,
+       "total": 211594,
        "candidates": [
         {
          "name": "Yes",
          "party": "NON",
-         "pct": 66.72,
-         "votes": 140594
+         "pct": 66.7,
+         "votes": 141141
         },
         {
          "name": "No",
          "party": "NON",
-         "pct": 33.28,
-         "votes": 70115
+         "pct": 33.3,
+         "votes": 70453
         }
        ]
       },
@@ -24538,19 +24538,19 @@
        "group": "schools",
        "reported": 122,
        "precincts": 122,
-       "total": 209196,
+       "total": 210087,
        "candidates": [
         {
          "name": "Kimberly D. Coward",
          "party": "NPA",
-         "pct": 51.85,
-         "votes": 108465
+         "pct": 51.89,
+         "votes": 109022
         },
         {
          "name": "Gino Collura",
          "party": "NPA",
-         "pct": 48.15,
-         "votes": 100731
+         "pct": 48.11,
+         "votes": 101065
         }
        ]
       },
@@ -24559,19 +24559,19 @@
        "group": "schools",
        "reported": 122,
        "precincts": 122,
-       "total": 208036,
+       "total": 208914,
        "candidates": [
         {
          "name": "Matt Geiger",
          "party": "NPA",
-         "pct": 58.35,
-         "votes": 121397
+         "pct": 58.34,
+         "votes": 121882
         },
         {
          "name": "Mollyana Ward",
          "party": "NPA",
-         "pct": 41.65,
-         "votes": 86639
+         "pct": 41.66,
+         "votes": 87032
         }
        ]
       },
@@ -24580,19 +24580,19 @@
        "group": "district",
        "reported": 43,
        "precincts": 43,
-       "total": 69443,
+       "total": 69632,
        "candidates": [
         {
          "name": "Shanon R. Holm",
          "party": "NPA",
-         "pct": 50.56,
-         "votes": 35113
+         "pct": 50.58,
+         "votes": 35221
         },
         {
          "name": "Greg Fuher",
          "party": "NPA",
-         "pct": 49.44,
-         "votes": 34330
+         "pct": 49.42,
+         "votes": 34411
         }
        ]
       },
@@ -24601,18 +24601,18 @@
        "group": "district",
        "reported": 1,
        "precincts": 1,
-       "total": 409,
+       "total": 411,
        "candidates": [
         {
          "name": "Malinda Desruisseaux",
          "party": "NPA",
-         "pct": 52.08,
-         "votes": 213
+         "pct": 52.31,
+         "votes": 215
         },
         {
          "name": "Matthew Ware",
          "party": "NPA",
-         "pct": 47.92,
+         "pct": 47.69,
          "votes": 196
         }
        ]
@@ -24622,19 +24622,19 @@
        "group": "district",
        "reported": 1,
        "precincts": 1,
-       "total": 1485,
+       "total": 1506,
        "candidates": [
         {
          "name": "Kevin Burton",
          "party": "NPA",
-         "pct": 58.38,
-         "votes": 867
+         "pct": 57.97,
+         "votes": 873
         },
         {
          "name": "Jim D. Reed",
          "party": "NPA",
-         "pct": 41.62,
-         "votes": 618
+         "pct": 42.03,
+         "votes": 633
         }
        ]
       },
@@ -24643,19 +24643,19 @@
        "group": "district",
        "reported": 1,
        "precincts": 1,
-       "total": 1283,
+       "total": 1287,
        "candidates": [
         {
          "name": "Jessica Pisculli",
          "party": "NPA",
-         "pct": 57.44,
-         "votes": 737
+         "pct": 57.42,
+         "votes": 739
         },
         {
          "name": "Brice Bird",
          "party": "NPA",
-         "pct": 42.56,
-         "votes": 546
+         "pct": 42.58,
+         "votes": 548
         }
        ]
       },
@@ -24664,18 +24664,18 @@
        "group": "district",
        "reported": 1,
        "precincts": 1,
-       "total": 886,
+       "total": 888,
        "candidates": [
         {
          "name": "Joe Lumpkin",
          "party": "NPA",
-         "pct": 54.74,
-         "votes": 485
+         "pct": 54.84,
+         "votes": 487
         },
         {
          "name": "Raymond Lotito",
          "party": "NPA",
-         "pct": 45.26,
+         "pct": 45.16,
          "votes": 401
         }
        ]
@@ -24685,18 +24685,18 @@
        "group": "district",
        "reported": 1,
        "precincts": 1,
-       "total": 740,
+       "total": 743,
        "candidates": [
         {
          "name": "Linda Ramlot",
          "party": "NPA",
-         "pct": 50.14,
-         "votes": 371
+         "pct": 50.34,
+         "votes": 374
         },
         {
          "name": "David Saad",
          "party": "NON",
-         "pct": 49.86,
+         "pct": 49.66,
          "votes": 369
         }
        ]
@@ -24706,19 +24706,19 @@
        "group": "district",
        "reported": 1,
        "precincts": 1,
-       "total": 741,
+       "total": 744,
        "candidates": [
         {
          "name": "Barbara Callahan",
          "party": "NPA",
-         "pct": 64.91,
-         "votes": 481
+         "pct": 64.92,
+         "votes": 483
         },
         {
          "name": "Marco Urrusquieta",
          "party": "NON",
-         "pct": 35.09,
-         "votes": 260
+         "pct": 35.08,
+         "votes": 261
         }
        ]
       },
@@ -24727,19 +24727,19 @@
        "group": "district",
        "reported": 1,
        "precincts": 1,
-       "total": 854,
+       "total": 860,
        "candidates": [
         {
          "name": "Bill Pellan",
          "party": "NPA",
          "pct": 50.35,
-         "votes": 430
+         "votes": 433
         },
         {
          "name": "David Hutsell",
          "party": "NPA",
          "pct": 49.65,
-         "votes": 424
+         "votes": 427
         }
        ]
       },
@@ -24748,19 +24748,19 @@
        "group": "district",
        "reported": 1,
        "precincts": 1,
-       "total": 864,
+       "total": 870,
        "candidates": [
         {
          "name": "Daniel Alvear",
          "party": "NPA",
-         "pct": 59.84,
-         "votes": 517
+         "pct": 59.89,
+         "votes": 521
         },
         {
          "name": "Sharri Hoye",
          "party": "NPA",
-         "pct": 40.16,
-         "votes": 347
+         "pct": 40.11,
+         "votes": 349
         }
        ]
       },
@@ -24769,19 +24769,19 @@
        "group": "district",
        "reported": 1,
        "precincts": 1,
-       "total": 329,
+       "total": 331,
        "candidates": [
         {
          "name": "Sara Schwartz",
          "party": "NPA",
-         "pct": 62.01,
-         "votes": 204
+         "pct": 61.93,
+         "votes": 205
         },
         {
          "name": "Clinton McMahan",
          "party": "NPA",
-         "pct": 37.99,
-         "votes": 125
+         "pct": 38.07,
+         "votes": 126
         }
        ]
       },
@@ -24790,19 +24790,19 @@
        "group": "district",
        "reported": 1,
        "precincts": 1,
-       "total": 1545,
+       "total": 1553,
        "candidates": [
         {
          "name": "Kimberly Ivory",
          "party": "NPA",
-         "pct": 51.33,
-         "votes": 793
+         "pct": 51.32,
+         "votes": 797
         },
         {
          "name": "Preston Michael Baker",
          "party": "NPA",
-         "pct": 48.67,
-         "votes": 752
+         "pct": 48.68,
+         "votes": 756
         }
        ]
       },
@@ -24811,19 +24811,19 @@
        "group": "district",
        "reported": 1,
        "precincts": 1,
-       "total": 544,
+       "total": 548,
        "candidates": [
         {
          "name": "Jeff Stone",
          "party": "NPA",
-         "pct": 60.11,
-         "votes": 327
+         "pct": 59.85,
+         "votes": 328
         },
         {
          "name": "Ryan Gilbertsen",
          "party": "NPA",
-         "pct": 39.89,
-         "votes": 217
+         "pct": 40.15,
+         "votes": 220
         }
        ]
       },
@@ -24832,19 +24832,19 @@
        "group": "district",
        "reported": 1,
        "precincts": 1,
-       "total": 547,
+       "total": 551,
        "candidates": [
         {
          "name": "Samuel Venger",
          "party": "NPA",
-         "pct": 53.2,
-         "votes": 291
+         "pct": 52.99,
+         "votes": 292
         },
         {
          "name": "Michael Rudman",
          "party": "NPA",
-         "pct": 46.8,
-         "votes": 256
+         "pct": 47.01,
+         "votes": 259
         }
        ]
       },
@@ -24853,19 +24853,19 @@
        "group": "district",
        "reported": 1,
        "precincts": 1,
-       "total": 847,
+       "total": 852,
        "candidates": [
         {
          "name": "Mark Kearschner",
          "party": "NPA",
-         "pct": 56.2,
-         "votes": 476
+         "pct": 56.1,
+         "votes": 478
         },
         {
          "name": "Patricia Penberthy",
          "party": "NON",
-         "pct": 43.8,
-         "votes": 371
+         "pct": 43.9,
+         "votes": 374
         }
        ]
       },
@@ -24874,18 +24874,18 @@
        "group": "district",
        "reported": 1,
        "precincts": 1,
-       "total": 823,
+       "total": 825,
        "candidates": [
         {
          "name": "Tammy Cox",
          "party": "NPA",
-         "pct": 51.03,
-         "votes": 420
+         "pct": 51.15,
+         "votes": 422
         },
         {
          "name": "James Lewis",
          "party": "NPA",
-         "pct": 48.97,
+         "pct": 48.85,
          "votes": 403
         }
        ]
@@ -24895,19 +24895,19 @@
        "group": "district",
        "reported": 1,
        "precincts": 1,
-       "total": 1355,
+       "total": 1359,
        "candidates": [
         {
          "name": "Stephany Segatti",
          "party": "NPA",
-         "pct": 70.85,
-         "votes": 960
+         "pct": 70.79,
+         "votes": 962
         },
         {
          "name": "Sunil Mohammed",
          "party": "NPA",
-         "pct": 29.15,
-         "votes": 395
+         "pct": 29.21,
+         "votes": 397
         }
        ]
       },
@@ -24916,19 +24916,19 @@
        "group": "district",
        "reported": 1,
        "precincts": 1,
-       "total": 1363,
+       "total": 1367,
        "candidates": [
         {
          "name": "Toshiya Arciaga",
          "party": "NPA",
-         "pct": 65.74,
-         "votes": 896
+         "pct": 65.69,
+         "votes": 898
         },
         {
          "name": "Craig Margelowsky",
          "party": "NPA",
-         "pct": 34.26,
-         "votes": 467
+         "pct": 34.31,
+         "votes": 469
         }
        ]
       },
@@ -24937,18 +24937,18 @@
        "group": "district",
        "reported": 1,
        "precincts": 1,
-       "total": 793,
+       "total": 795,
        "candidates": [
         {
          "name": "James Rossi",
          "party": "NPA",
-         "pct": 56.12,
-         "votes": 445
+         "pct": 56.23,
+         "votes": 447
         },
         {
          "name": "Scott Derby",
          "party": "NPA",
-         "pct": 43.88,
+         "pct": 43.77,
          "votes": 348
         }
        ]
@@ -24979,19 +24979,19 @@
        "group": "district",
        "reported": 1,
        "precincts": 1,
-       "total": 1146,
+       "total": 1153,
        "candidates": [
         {
          "name": "Pamela Carr",
          "party": "NPA",
-         "pct": 59.08,
-         "votes": 677
+         "pct": 58.98,
+         "votes": 680
         },
         {
          "name": "George Thomas",
          "party": "NPA",
-         "pct": 40.92,
-         "votes": 469
+         "pct": 41.02,
+         "votes": 473
         }
        ]
       },
@@ -25000,19 +25000,19 @@
        "group": "amendment",
        "reported": 122,
        "precincts": 122,
-       "total": 220764,
+       "total": 221694,
        "candidates": [
         {
          "name": "No",
          "party": "NON",
-         "pct": 55.66,
-         "votes": 122888
+         "pct": 55.69,
+         "votes": 123468
         },
         {
          "name": "Yes",
          "party": "NON",
-         "pct": 44.34,
-         "votes": 97876
+         "pct": 44.31,
+         "votes": 98226
         }
        ]
       },
@@ -25021,19 +25021,19 @@
        "group": "amendment",
        "reported": 122,
        "precincts": 122,
-       "total": 223068,
+       "total": 223997,
        "candidates": [
         {
          "name": "Yes",
          "party": "NON",
-         "pct": 64.35,
-         "votes": 143549
+         "pct": 64.31,
+         "votes": 144050
         },
         {
          "name": "No",
          "party": "NON",
-         "pct": 35.65,
-         "votes": 79519
+         "pct": 35.69,
+         "votes": 79947
         }
        ]
       },
@@ -25042,19 +25042,19 @@
        "group": "amendment",
        "reported": 122,
        "precincts": 122,
-       "total": 228373,
+       "total": 229334,
        "candidates": [
         {
          "name": "Yes",
          "party": "NON",
-         "pct": 67.15,
-         "votes": 153350
+         "pct": 67.1,
+         "votes": 153884
         },
         {
          "name": "No",
          "party": "NON",
-         "pct": 32.85,
-         "votes": 75023
+         "pct": 32.9,
+         "votes": 75450
         }
        ]
       },
@@ -25063,19 +25063,19 @@
        "group": "schools",
        "reported": 122,
        "precincts": 122,
-       "total": 224153,
+       "total": 225088,
        "candidates": [
         {
          "name": "Yes",
          "party": "NON",
-         "pct": 74.54,
-         "votes": 167087
+         "pct": 74.55,
+         "votes": 167813
         },
         {
          "name": "No",
          "party": "NON",
-         "pct": 25.46,
-         "votes": 57066
+         "pct": 25.45,
+         "votes": 57275
         }
        ]
       }
@@ -32490,26 +32490,26 @@
       "status": "unofficial",
       "reported": 122,
       "precincts": 122,
-      "total": 235298,
+      "total": 236284,
       "candidates": [
        {
         "name": "Seth Weightman",
         "party": "REP",
-        "pct": 55.43,
-        "votes": 130428,
+        "pct": 55.36,
+        "votes": 130809,
         "person": "weightman"
        },
        {
         "name": "Stephanie C. Vazquez",
         "party": "DEM",
-        "pct": 44.57,
-        "votes": 104870,
+        "pct": 44.64,
+        "votes": 105475,
         "person": "vazquez"
        }
       ],
       "counted": true,
       "leader": "weightman",
-      "updated": "2026-11-04T05:00:56Z",
+      "updated": "2026-11-04T05:05:39Z",
       "source": "enr-2026g"
      }
     },
@@ -32550,26 +32550,26 @@
       "status": "unofficial",
       "reported": 122,
       "precincts": 122,
-      "total": 209196,
+      "total": 210087,
       "candidates": [
        {
         "name": "Kimberly D. Coward",
         "party": "NPA",
-        "pct": 51.85,
-        "votes": 108465,
+        "pct": 51.89,
+        "votes": 109022,
         "person": "coward"
        },
        {
         "name": "Gino Collura",
         "party": "NPA",
-        "pct": 48.15,
-        "votes": 100731,
+        "pct": 48.11,
+        "votes": 101065,
         "person": "collura"
        }
       ],
       "counted": true,
       "leader": "coward",
-      "updated": "2026-11-04T05:00:56Z",
+      "updated": "2026-11-04T05:05:39Z",
       "source": "enr-2026g"
      }
     },
@@ -32593,26 +32593,26 @@
       "status": "unofficial",
       "reported": 122,
       "precincts": 122,
-      "total": 208036,
+      "total": 208914,
       "candidates": [
        {
         "name": "Matt Geiger",
         "party": "NPA",
-        "pct": 58.35,
-        "votes": 121397,
+        "pct": 58.34,
+        "votes": 121882,
         "person": "geiger"
        },
        {
         "name": "Mollyana Ward",
         "party": "NPA",
-        "pct": 41.65,
-        "votes": 86639,
+        "pct": 41.66,
+        "votes": 87032,
         "person": "ward"
        }
       ],
       "counted": true,
       "leader": "geiger",
-      "updated": "2026-11-04T05:00:56Z",
+      "updated": "2026-11-04T05:05:39Z",
       "source": "enr-2026g"
      }
     },
@@ -33447,7 +33447,7 @@
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hernando&el=32",
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:51Z",
+     "updated": "2026-11-04T05:05:36Z",
      "url": "https://enr.electionsfl.org/HER/4106/Summary/",
      "races": [
       {
@@ -42221,7 +42221,7 @@
       ],
       "counted": true,
       "leader": "holcomb",
-      "updated": "2026-11-04T05:00:51Z",
+      "updated": "2026-11-04T05:05:36Z",
       "source": "enr-2026g"
      }
     },
@@ -42306,7 +42306,7 @@
       ],
       "counted": true,
       "leader": "kchampion",
-      "updated": "2026-11-04T05:00:51Z",
+      "updated": "2026-11-04T05:05:36Z",
       "source": "enr-2026g"
      }
     }
@@ -44470,7 +44470,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:47Z",
+     "updated": "2026-11-04T05:05:33Z",
      "url": "https://enr.electionsfl.org/ALA/4097/Summary/",
      "races": [
       {
@@ -48605,7 +48605,7 @@
       ],
       "counted": true,
       "leader": "cornell",
-      "updated": "2026-11-04T05:00:47Z",
+      "updated": "2026-11-04T05:05:33Z",
       "source": "enr-2026g"
      }
     },
@@ -48645,7 +48645,7 @@
       ],
       "counted": true,
       "leader": "miller",
-      "updated": "2026-11-04T05:00:47Z",
+      "updated": "2026-11-04T05:05:33Z",
       "source": "enr-2026g"
      }
     },
@@ -48736,7 +48736,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:47Z",
+     "updated": "2026-11-04T05:05:34Z",
      "url": "https://enr.electionsfl.org/BAK/4124/Summary/",
      "races": [
       {
@@ -51314,7 +51314,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:48Z",
+     "updated": "2026-11-04T05:05:34Z",
      "url": "https://enr.electionsfl.org/BAY/4078/Summary/",
      "races": [
       {
@@ -55166,7 +55166,7 @@
       ],
       "counted": false,
       "leader": "haley",
-      "updated": "2026-11-04T05:00:48Z",
+      "updated": "2026-11-04T05:05:34Z",
       "source": "enr-2026g"
      }
     },
@@ -55242,7 +55242,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:48Z",
+     "updated": "2026-11-04T05:05:34Z",
      "url": "https://enr.electionsfl.org/BRA/4113/Summary/",
      "races": [
       {
@@ -57579,7 +57579,7 @@
       ],
       "counted": true,
       "leader": "bennett",
-      "updated": "2026-11-04T05:00:48Z",
+      "updated": "2026-11-04T05:05:34Z",
       "source": "enr-2026g"
      }
     },
@@ -57698,7 +57698,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:48Z",
+     "updated": "2026-11-04T05:05:34Z",
      "url": "https://enr.electionsfl.org/BRE/4064/Summary/",
      "races": [
       {
@@ -64569,7 +64569,7 @@
       ],
       "counted": true,
       "leader": "loyd",
-      "updated": "2026-11-04T05:00:48Z",
+      "updated": "2026-11-04T05:05:34Z",
       "source": "enr-2026g"
      }
     },
@@ -64653,7 +64653,7 @@
       ],
       "counted": true,
       "leader": "savage",
-      "updated": "2026-11-04T05:00:48Z",
+      "updated": "2026-11-04T05:05:34Z",
       "source": "enr-2026g"
      }
     },
@@ -64693,7 +64693,7 @@
       ],
       "counted": true,
       "leader": "mccormack",
-      "updated": "2026-11-04T05:00:48Z",
+      "updated": "2026-11-04T05:05:34Z",
       "source": "enr-2026g"
      }
     }
@@ -73938,7 +73938,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:48Z",
+     "updated": "2026-11-04T05:05:34Z",
      "url": "https://enr.electionsfl.org/CAL/4054/Summary/",
      "races": [
       {
@@ -77329,7 +77329,7 @@
       ],
       "counted": true,
       "leader": "monlyn",
-      "updated": "2026-11-04T05:00:48Z",
+      "updated": "2026-11-04T05:05:34Z",
       "source": "enr-2026g"
      }
     },
@@ -77436,7 +77436,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:48Z",
+     "updated": "2026-11-04T05:05:34Z",
      "url": "https://enr.electionsfl.org/CHA/4062/Summary/",
      "races": [
       {
@@ -81300,7 +81300,7 @@
       ],
       "counted": true,
       "leader": "amontree",
-      "updated": "2026-11-04T05:00:48Z",
+      "updated": "2026-11-04T05:05:34Z",
       "source": "enr-2026g"
      }
     },
@@ -81390,7 +81390,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:48Z",
+     "updated": "2026-11-04T05:05:34Z",
      "url": "https://enr.electionsfl.org/CIT/4070/Summary/",
      "races": [
       {
@@ -85290,7 +85290,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:49Z",
+     "updated": "2026-11-04T05:05:34Z",
      "url": "https://enr.electionsfl.org/CLA/4086/Summary/",
      "races": [
       {
@@ -89398,7 +89398,7 @@
       ],
       "counted": true,
       "leader": "edwards",
-      "updated": "2026-11-04T05:00:49Z",
+      "updated": "2026-11-04T05:05:34Z",
       "source": "enr-2026g"
      }
     },
@@ -89520,7 +89520,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:49Z",
+     "updated": "2026-11-04T05:05:34Z",
      "url": "https://enr.electionsfl.org/CLL/4083/Summary/",
      "races": [
       {
@@ -93124,7 +93124,7 @@
       ],
       "counted": true,
       "leader": "hall",
-      "updated": "2026-11-04T05:00:49Z",
+      "updated": "2026-11-04T05:05:34Z",
       "source": "enr-2026g"
      }
     },
@@ -93244,7 +93244,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:49Z",
+     "updated": "2026-11-04T05:05:35Z",
      "url": "https://enr.electionsfl.org/CLM/4069/Summary/",
      "races": [
       {
@@ -96074,7 +96074,7 @@
       ],
       "counted": true,
       "leader": "pittman",
-      "updated": "2026-11-04T05:00:49Z",
+      "updated": "2026-11-04T05:05:35Z",
       "source": "enr-2026g"
      }
     },
@@ -96114,7 +96114,7 @@
       ],
       "counted": true,
       "leader": "dicks",
-      "updated": "2026-11-04T05:00:49Z",
+      "updated": "2026-11-04T05:05:35Z",
       "source": "enr-2026g"
      }
     },
@@ -96219,7 +96219,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:49Z",
+     "updated": "2026-11-04T05:05:35Z",
      "url": "https://enr.electionsfl.org/DES/4094/Summary/",
      "races": [
       {
@@ -99000,7 +99000,7 @@
       ],
       "counted": true,
       "leader": "johnson",
-      "updated": "2026-11-04T05:00:49Z",
+      "updated": "2026-11-04T05:05:35Z",
       "source": "enr-2026g"
      }
     },
@@ -99419,7 +99419,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:49Z",
+     "updated": "2026-11-04T05:05:35Z",
      "url": "https://enr.electionsfl.org/DIX/4125/Summary/",
      "races": [
       {
@@ -101658,7 +101658,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:50Z",
+     "updated": "2026-11-04T05:05:35Z",
      "url": "https://enr.electionsfl.org/DUV/4076/Summary/",
      "races": [
       {
@@ -104619,7 +104619,7 @@
       ],
       "counted": true,
       "leader": "bradley",
-      "updated": "2026-11-04T05:00:50Z",
+      "updated": "2026-11-04T05:05:35Z",
       "source": "enr-2026g"
      }
     },
@@ -104667,7 +104667,7 @@
       ],
       "counted": true,
       "leader": "butler",
-      "updated": "2026-11-04T05:00:50Z",
+      "updated": "2026-11-04T05:05:35Z",
       "source": "enr-2026g"
      }
     },
@@ -104707,7 +104707,7 @@
       ],
       "counted": true,
       "leader": "denmark",
-      "updated": "2026-11-04T05:00:50Z",
+      "updated": "2026-11-04T05:05:35Z",
       "source": "enr-2026g"
      }
     }
@@ -108754,7 +108754,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:50Z",
+     "updated": "2026-11-04T05:05:35Z",
      "url": "https://enr.electionsfl.org/FLA/4088/Summary/",
      "races": [
       {
@@ -112601,7 +112601,7 @@
       ],
       "counted": false,
       "leader": "pontieri",
-      "updated": "2026-11-04T05:00:50Z",
+      "updated": "2026-11-04T05:05:35Z",
       "source": "enr-2026g"
      }
     },
@@ -112641,7 +112641,7 @@
       ],
       "counted": false,
       "leader": "pennington",
-      "updated": "2026-11-04T05:00:50Z",
+      "updated": "2026-11-04T05:05:35Z",
       "source": "enr-2026g"
      }
     },
@@ -112711,7 +112711,7 @@
       ],
       "counted": false,
       "leader": "chong",
-      "updated": "2026-11-04T05:00:50Z",
+      "updated": "2026-11-04T05:05:35Z",
       "source": "enr-2026g"
      }
     }
@@ -112773,7 +112773,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:50Z",
+     "updated": "2026-11-04T05:05:35Z",
      "url": "https://enr.electionsfl.org/FRA/4130/Summary/",
      "races": [
       {
@@ -114877,7 +114877,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:50Z",
+     "updated": "2026-11-04T05:05:35Z",
      "url": "https://enr.electionsfl.org/GAD/4066/Summary/",
      "races": [
       {
@@ -118123,7 +118123,7 @@
       ],
       "counted": true,
       "leader": "brown",
-      "updated": "2026-11-04T05:00:50Z",
+      "updated": "2026-11-04T05:05:35Z",
       "source": "enr-2026g"
      }
     },
@@ -118163,7 +118163,7 @@
       ],
       "counted": true,
       "leader": "moore",
-      "updated": "2026-11-04T05:00:50Z",
+      "updated": "2026-11-04T05:05:35Z",
       "source": "enr-2026g"
      }
     },
@@ -118253,7 +118253,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:50Z",
+     "updated": "2026-11-04T05:05:35Z",
      "url": "https://enr.electionsfl.org/GIL/4055/Summary/",
      "races": [
       {
@@ -120084,7 +120084,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:50Z",
+     "updated": "2026-11-04T05:05:36Z",
      "url": "https://enr.electionsfl.org/GLA/4065/Summary/",
      "races": [
       {
@@ -122768,7 +122768,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:50Z",
+     "updated": "2026-11-04T05:05:36Z",
      "url": "https://enr.electionsfl.org/GUL/4084/Summary/",
      "races": [
       {
@@ -125690,7 +125690,7 @@
       ],
       "counted": true,
       "leader": "bailey",
-      "updated": "2026-11-04T05:00:50Z",
+      "updated": "2026-11-04T05:05:36Z",
       "source": "enr-2026g"
      }
     },
@@ -125794,7 +125794,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:51Z",
+     "updated": "2026-11-04T05:05:36Z",
      "url": "https://enr.electionsfl.org/HAM/4101/Summary/",
      "races": [
       {
@@ -128317,7 +128317,7 @@
       ],
       "counted": false,
       "leader": "erixton",
-      "updated": "2026-11-04T05:00:51Z",
+      "updated": "2026-11-04T05:05:36Z",
       "source": "enr-2026g"
      }
     },
@@ -128371,7 +128371,7 @@
       ],
       "counted": false,
       "leader": "ogburn",
-      "updated": "2026-11-04T05:00:51Z",
+      "updated": "2026-11-04T05:05:36Z",
       "source": "enr-2026g"
      }
     },
@@ -128445,7 +128445,7 @@
     "pastCycles": {},
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:51Z",
+     "updated": "2026-11-04T05:05:36Z",
      "url": "https://enr.electionsfl.org/HAR/4063/Summary/",
      "races": [
       {
@@ -129878,7 +129878,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:51Z",
+     "updated": "2026-11-04T05:05:36Z",
      "url": "https://enr.electionsfl.org/HEN/4077/Summary/",
      "races": [
       {
@@ -132206,7 +132206,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:51Z",
+     "updated": "2026-11-04T05:05:36Z",
      "url": "https://enr.electionsfl.org/HIG/4127/Summary/",
      "races": [
       {
@@ -135643,7 +135643,7 @@
       ],
       "counted": true,
       "leader": "pritchett",
-      "updated": "2026-11-04T05:00:51Z",
+      "updated": "2026-11-04T05:05:36Z",
       "source": "enr-2026g"
      }
     },
@@ -135698,7 +135698,7 @@
       ],
       "counted": true,
       "leader": "andytuck",
-      "updated": "2026-11-04T05:00:51Z",
+      "updated": "2026-11-04T05:05:36Z",
       "source": "enr-2026g"
      }
     }
@@ -135760,7 +135760,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:52Z",
+     "updated": "2026-11-04T05:05:37Z",
      "url": "https://enr.electionsfl.org/HOL/4108/Summary/",
      "races": [
       {
@@ -138913,7 +138913,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:52Z",
+     "updated": "2026-11-04T05:05:37Z",
      "url": "https://enr.electionsfl.org/IND/4096/Summary/",
      "races": [
       {
@@ -143261,7 +143261,7 @@
       ],
       "counted": true,
       "leader": "pippin",
-      "updated": "2026-11-04T05:00:52Z",
+      "updated": "2026-11-04T05:05:37Z",
       "source": "enr-2026g"
      }
     },
@@ -143301,7 +143301,7 @@
       ],
       "counted": true,
       "leader": "derylloar",
-      "updated": "2026-11-04T05:00:52Z",
+      "updated": "2026-11-04T05:05:37Z",
       "source": "enr-2026g"
      }
     },
@@ -143406,7 +143406,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:52Z",
+     "updated": "2026-11-04T05:05:37Z",
      "url": "https://enr.electionsfl.org/JAC/4118/Summary/",
      "races": [
       {
@@ -146178,7 +146178,7 @@
       ],
       "counted": true,
       "leader": "daniels",
-      "updated": "2026-11-04T05:00:52Z",
+      "updated": "2026-11-04T05:05:37Z",
       "source": "enr-2026g"
      }
     }
@@ -146237,7 +146237,7 @@
     "pastCycles": {},
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:52Z",
+     "updated": "2026-11-04T05:05:37Z",
      "url": "https://enr.electionsfl.org/JEF/4115/Summary/",
      "races": [
       {
@@ -148278,7 +148278,7 @@
       ],
       "counted": true,
       "leader": "hosford",
-      "updated": "2026-11-04T05:00:52Z",
+      "updated": "2026-11-04T05:05:37Z",
       "source": "enr-2026g"
      }
     },
@@ -148318,7 +148318,7 @@
       ],
       "counted": true,
       "leader": "bradley",
-      "updated": "2026-11-04T05:00:52Z",
+      "updated": "2026-11-04T05:05:37Z",
       "source": "enr-2026g"
      }
     },
@@ -148408,7 +148408,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:52Z",
+     "updated": "2026-11-04T05:05:37Z",
      "url": "https://enr.electionsfl.org/LAF/4071/Summary/",
      "races": [
       {
@@ -150074,7 +150074,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:53Z",
+     "updated": "2026-11-04T05:05:37Z",
      "url": "https://enr.electionsfl.org/LAK/4079/Summary/",
      "races": [
       {
@@ -154843,7 +154843,7 @@
       ],
       "counted": true,
       "leader": "parks",
-      "updated": "2026-11-04T05:00:53Z",
+      "updated": "2026-11-04T05:05:37Z",
       "source": "enr-2026g"
      }
     },
@@ -154891,7 +154891,7 @@
       ],
       "counted": true,
       "leader": "lesliecampione",
-      "updated": "2026-11-04T05:00:53Z",
+      "updated": "2026-11-04T05:05:37Z",
       "source": "enr-2026g"
      }
     },
@@ -154931,7 +154931,7 @@
       ],
       "counted": true,
       "leader": "kelley",
-      "updated": "2026-11-04T05:00:53Z",
+      "updated": "2026-11-04T05:05:37Z",
       "source": "enr-2026g"
      }
     },
@@ -155021,7 +155021,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:53Z",
+     "updated": "2026-11-04T05:05:37Z",
      "url": "https://enr.electionsfl.org/LEE/4111/Summary/",
      "races": [
       {
@@ -163798,7 +163798,7 @@
       ],
       "counted": true,
       "leader": "cecilpendergrass",
-      "updated": "2026-11-04T05:00:53Z",
+      "updated": "2026-11-04T05:05:37Z",
       "source": "enr-2026g"
      }
     },
@@ -163838,7 +163838,7 @@
       ],
       "counted": true,
       "leader": "hamman",
-      "updated": "2026-11-04T05:00:53Z",
+      "updated": "2026-11-04T05:05:37Z",
       "source": "enr-2026g"
      }
     },
@@ -163908,7 +163908,7 @@
       ],
       "counted": true,
       "leader": "jordan",
-      "updated": "2026-11-04T05:00:53Z",
+      "updated": "2026-11-04T05:05:37Z",
       "source": "enr-2026g"
      }
     },
@@ -163948,7 +163948,7 @@
       ],
       "counted": true,
       "leader": "johnson",
-      "updated": "2026-11-04T05:00:53Z",
+      "updated": "2026-11-04T05:05:37Z",
       "source": "enr-2026g"
      }
     },
@@ -164025,7 +164025,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:53Z",
+     "updated": "2026-11-04T05:05:37Z",
      "url": "https://enr.electionsfl.org/LEO/4072/Summary/",
      "races": [
       {
@@ -169471,7 +169471,7 @@
       ],
       "counted": true,
       "leader": "maddox",
-      "updated": "2026-11-04T05:00:53Z",
+      "updated": "2026-11-04T05:05:37Z",
       "source": "enr-2026g"
      }
     },
@@ -169525,7 +169525,7 @@
       ],
       "counted": true,
       "leader": "williamminor",
-      "updated": "2026-11-04T05:00:53Z",
+      "updated": "2026-11-04T05:05:37Z",
       "source": "enr-2026g"
      }
     },
@@ -169565,7 +169565,7 @@
       ],
       "counted": true,
       "leader": null,
-      "updated": "2026-11-04T05:00:53Z",
+      "updated": "2026-11-04T05:05:37Z",
       "source": "enr-2026g"
      }
     },
@@ -169605,7 +169605,7 @@
       ],
       "counted": true,
       "leader": "smith",
-      "updated": "2026-11-04T05:00:53Z",
+      "updated": "2026-11-04T05:05:37Z",
       "source": "enr-2026g"
      }
     },
@@ -169696,7 +169696,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:53Z",
+     "updated": "2026-11-04T05:05:37Z",
      "url": "https://enr.electionsfl.org/LEV/4058/Summary/",
      "races": [
       {
@@ -172921,7 +172921,7 @@
       ],
       "counted": true,
       "leader": "lemery",
-      "updated": "2026-11-04T05:00:53Z",
+      "updated": "2026-11-04T05:05:37Z",
       "source": "enr-2026g"
      }
     },
@@ -173042,7 +173042,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:53Z",
+     "updated": "2026-11-04T05:05:37Z",
      "url": "https://enr.electionsfl.org/LIB/4098/Summary/",
      "races": [
       {
@@ -175659,7 +175659,7 @@
       ],
       "counted": true,
       "leader": "bailey",
-      "updated": "2026-11-04T05:00:53Z",
+      "updated": "2026-11-04T05:05:37Z",
       "source": "enr-2026g"
      }
     },
@@ -175775,7 +175775,7 @@
     "pastCycles": {},
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:54Z",
+     "updated": "2026-11-04T05:05:38Z",
      "url": "https://enr.electionsfl.org/MAD/4061/Summary/",
      "races": [
       {
@@ -178695,7 +178695,7 @@
       ],
       "counted": true,
       "leader": "martin",
-      "updated": "2026-11-04T05:00:54Z",
+      "updated": "2026-11-04T05:05:38Z",
       "source": "enr-2026g"
      }
     },
@@ -178764,7 +178764,7 @@
       ],
       "counted": true,
       "leader": "maurice",
-      "updated": "2026-11-04T05:00:54Z",
+      "updated": "2026-11-04T05:05:38Z",
       "source": "enr-2026g"
      }
     }
@@ -178826,7 +178826,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:54Z",
+     "updated": "2026-11-04T05:05:38Z",
      "url": "https://enr.electionsfl.org/MAN/4126/Summary/",
      "races": [
       {
@@ -185816,7 +185816,7 @@
       ],
       "counted": true,
       "leader": "arnold",
-      "updated": "2026-11-04T05:00:54Z",
+      "updated": "2026-11-04T05:05:38Z",
       "source": "enr-2026g"
      }
     },
@@ -185856,7 +185856,7 @@
       ],
       "counted": true,
       "leader": "ballard",
-      "updated": "2026-11-04T05:00:54Z",
+      "updated": "2026-11-04T05:05:38Z",
       "source": "enr-2026g"
      }
     },
@@ -185911,7 +185911,7 @@
       ],
       "counted": true,
       "leader": "poulton",
-      "updated": "2026-11-04T05:00:54Z",
+      "updated": "2026-11-04T05:05:38Z",
       "source": "enr-2026g"
      }
     },
@@ -185951,7 +185951,7 @@
       ],
       "counted": true,
       "leader": "jefferson",
-      "updated": "2026-11-04T05:00:54Z",
+      "updated": "2026-11-04T05:05:38Z",
       "source": "enr-2026g"
      }
     },
@@ -186005,7 +186005,7 @@
       ],
       "counted": true,
       "leader": "bedinghaus",
-      "updated": "2026-11-04T05:00:54Z",
+      "updated": "2026-11-04T05:05:38Z",
       "source": "enr-2026g"
      }
     }
@@ -186093,7 +186093,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:54Z",
+     "updated": "2026-11-04T05:05:38Z",
      "url": "https://enr.electionsfl.org/MRN/4099/Summary/",
      "races": [
       {
@@ -192708,7 +192708,7 @@
       ],
       "counted": true,
       "leader": "bairstow",
-      "updated": "2026-11-04T05:00:54Z",
+      "updated": "2026-11-04T05:05:38Z",
       "source": "enr-2026g"
      }
     },
@@ -192763,7 +192763,7 @@
       ],
       "counted": true,
       "leader": "mills",
-      "updated": "2026-11-04T05:00:54Z",
+      "updated": "2026-11-04T05:05:38Z",
       "source": "enr-2026g"
      }
     },
@@ -192803,7 +192803,7 @@
       ],
       "counted": true,
       "leader": "james",
-      "updated": "2026-11-04T05:00:54Z",
+      "updated": "2026-11-04T05:05:38Z",
       "source": "enr-2026g"
      }
     }
@@ -202827,7 +202827,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:54Z",
+     "updated": "2026-11-04T05:05:38Z",
      "url": "https://enr.electionsfl.org/DAD/4087/Summary/",
      "races": [
       {
@@ -219362,7 +219362,7 @@
       ],
       "counted": true,
       "leader": "cothiere",
-      "updated": "2026-11-04T05:00:54Z",
+      "updated": "2026-11-04T05:05:38Z",
       "source": "enr-2026g"
      }
     },
@@ -219503,7 +219503,7 @@
       ],
       "counted": true,
       "leader": "lopez",
-      "updated": "2026-11-04T05:00:54Z",
+      "updated": "2026-11-04T05:05:38Z",
       "source": "enr-2026g"
      }
     },
@@ -219623,7 +219623,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:54Z",
+     "updated": "2026-11-04T05:05:38Z",
      "url": "https://enr.electionsfl.org/MON/4109/Summary/",
      "races": [
       {
@@ -224106,7 +224106,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:55Z",
+     "updated": "2026-11-04T05:05:38Z",
      "url": "https://enr.electionsfl.org/NAS/4080/Summary/",
      "races": [
       {
@@ -227852,7 +227852,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:55Z",
+     "updated": "2026-11-04T05:05:38Z",
      "url": "https://enr.electionsfl.org/OKA/4092/Summary/",
      "races": [
       {
@@ -232101,7 +232101,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:55Z",
+     "updated": "2026-11-04T05:05:38Z",
      "url": "https://enr.electionsfl.org/OKE/4060/Summary/",
      "races": [
       {
@@ -234338,7 +234338,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:55Z",
+     "updated": "2026-11-04T05:05:39Z",
      "url": "https://enr.electionsfl.org/ORA/4090/Summary/",
      "races": [
       {
@@ -244436,7 +244436,7 @@
       ],
       "counted": true,
       "leader": "brown",
-      "updated": "2026-11-04T05:00:55Z",
+      "updated": "2026-11-04T05:05:39Z",
       "source": "enr-2026g"
      }
     },
@@ -244484,7 +244484,7 @@
       ],
       "counted": true,
       "leader": "lopez",
-      "updated": "2026-11-04T05:00:55Z",
+      "updated": "2026-11-04T05:05:39Z",
       "source": "enr-2026g"
      }
     },
@@ -244524,7 +244524,7 @@
       ],
       "counted": true,
       "leader": "scott",
-      "updated": "2026-11-04T05:00:55Z",
+      "updated": "2026-11-04T05:05:39Z",
       "source": "enr-2026g"
      }
     },
@@ -244564,7 +244564,7 @@
       ],
       "counted": true,
       "leader": "rumph",
-      "updated": "2026-11-04T05:00:55Z",
+      "updated": "2026-11-04T05:05:39Z",
       "source": "enr-2026g"
      }
     },
@@ -244604,7 +244604,7 @@
       ],
       "counted": true,
       "leader": null,
-      "updated": "2026-11-04T05:00:55Z",
+      "updated": "2026-11-04T05:05:39Z",
       "source": "enr-2026g"
      }
     },
@@ -244689,7 +244689,7 @@
       ],
       "counted": true,
       "leader": "pea",
-      "updated": "2026-11-04T05:00:55Z",
+      "updated": "2026-11-04T05:05:39Z",
       "source": "enr-2026g"
      }
     }
@@ -250129,7 +250129,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:55Z",
+     "updated": "2026-11-04T05:05:39Z",
      "url": "https://enr.electionsfl.org/PAL/4131/Summary/",
      "races": [
       {
@@ -258665,7 +258665,7 @@
       ],
       "counted": true,
       "leader": "marciwoodward",
-      "updated": "2026-11-04T05:00:55Z",
+      "updated": "2026-11-04T05:05:39Z",
       "source": "enr-2026g"
      }
     },
@@ -258705,7 +258705,7 @@
       ],
       "counted": true,
       "leader": "waldron",
-      "updated": "2026-11-04T05:00:55Z",
+      "updated": "2026-11-04T05:05:39Z",
       "source": "enr-2026g"
      }
     },
@@ -258759,7 +258759,7 @@
       ],
       "counted": true,
       "leader": "romelus",
-      "updated": "2026-11-04T05:00:55Z",
+      "updated": "2026-11-04T05:05:39Z",
       "source": "enr-2026g"
      }
     },
@@ -258851,7 +258851,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:56Z",
+     "updated": "2026-11-04T05:05:39Z",
      "url": "https://enr.electionsfl.org/POL/4000/Summary/",
      "races": [
       {
@@ -265013,7 +265013,7 @@
       ],
       "counted": true,
       "leader": "arroyo",
-      "updated": "2026-11-04T05:00:56Z",
+      "updated": "2026-11-04T05:05:39Z",
       "source": "enr-2026g"
      }
     },
@@ -265053,7 +265053,7 @@
       ],
       "counted": true,
       "leader": "wallace",
-      "updated": "2026-11-04T05:00:56Z",
+      "updated": "2026-11-04T05:05:39Z",
       "source": "enr-2026g"
      }
     },
@@ -265625,7 +265625,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:56Z",
+     "updated": "2026-11-04T05:05:39Z",
      "url": "https://enr.electionsfl.org/PUT/4081/Summary/",
      "races": [
       {
@@ -266844,7 +266844,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:56Z",
+     "updated": "2026-11-04T05:05:39Z",
      "url": "https://enr.electionsfl.org/STJ/4082/Summary/",
      "races": [
       {
@@ -272947,7 +272947,7 @@
       ],
       "counted": true,
       "leader": null,
-      "updated": "2026-11-04T05:00:56Z",
+      "updated": "2026-11-04T05:05:39Z",
       "source": "enr-2026g"
      }
     }
@@ -273009,7 +273009,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:56Z",
+     "updated": "2026-11-04T05:05:40Z",
      "url": "https://enr.electionsfl.org/STL/4089/Summary/",
      "races": [
       {
@@ -277736,7 +277736,7 @@
       ],
       "counted": false,
       "leader": "larryleet",
-      "updated": "2026-11-04T05:00:56Z",
+      "updated": "2026-11-04T05:05:40Z",
       "source": "enr-2026g"
      }
     },
@@ -277784,7 +277784,7 @@
       ],
       "counted": false,
       "leader": "leroy",
-      "updated": "2026-11-04T05:00:56Z",
+      "updated": "2026-11-04T05:05:40Z",
       "source": "enr-2026g"
      }
     },
@@ -277839,7 +277839,7 @@
       ],
       "counted": false,
       "leader": "mills",
-      "updated": "2026-11-04T05:00:56Z",
+      "updated": "2026-11-04T05:05:40Z",
       "source": "enr-2026g"
      }
     },
@@ -277879,7 +277879,7 @@
       ],
       "counted": false,
       "leader": "ingersoll",
-      "updated": "2026-11-04T05:00:56Z",
+      "updated": "2026-11-04T05:05:40Z",
       "source": "enr-2026g"
      }
     }
@@ -277941,7 +277941,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:56Z",
+     "updated": "2026-11-04T05:05:40Z",
      "url": "https://enr.electionsfl.org/SAN/4093/Summary/",
      "races": [
       {
@@ -283246,7 +283246,7 @@
       ],
       "counted": true,
       "leader": "locklin",
-      "updated": "2026-11-04T05:00:56Z",
+      "updated": "2026-11-04T05:05:40Z",
       "source": "enr-2026g"
      }
     }
@@ -283308,7 +283308,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:57Z",
+     "updated": "2026-11-04T05:05:40Z",
      "url": "https://enr.electionsfl.org/SAR/4105/Summary/",
      "races": [
       {
@@ -289619,7 +289619,7 @@
       ],
       "counted": true,
       "leader": "deniro",
-      "updated": "2026-11-04T05:00:57Z",
+      "updated": "2026-11-04T05:05:40Z",
       "source": "enr-2026g"
      }
     },
@@ -289659,7 +289659,7 @@
       ],
       "counted": true,
       "leader": "brandt",
-      "updated": "2026-11-04T05:00:57Z",
+      "updated": "2026-11-04T05:05:40Z",
       "source": "enr-2026g"
      }
     },
@@ -289751,7 +289751,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:57Z",
+     "updated": "2026-11-04T05:05:40Z",
      "url": "https://enr.electionsfl.org/SEM/4119/Summary/",
      "races": [
       {
@@ -294358,7 +294358,7 @@
       ],
       "counted": true,
       "leader": "santos",
-      "updated": "2026-11-04T05:00:57Z",
+      "updated": "2026-11-04T05:05:40Z",
       "source": "enr-2026g"
      }
     },
@@ -294465,7 +294465,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:57Z",
+     "updated": "2026-11-04T05:05:40Z",
      "url": "https://enr.electionsfl.org/SUM/4056/Summary/",
      "races": [
       {
@@ -297824,7 +297824,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:57Z",
+     "updated": "2026-11-04T05:05:40Z",
      "url": "https://enr.electionsfl.org/SUW/4112/Summary/",
      "races": [
       {
@@ -300237,7 +300237,7 @@
       ],
       "counted": true,
       "leader": "deloach",
-      "updated": "2026-11-04T05:00:57Z",
+      "updated": "2026-11-04T05:05:40Z",
       "source": "enr-2026g"
      }
     },
@@ -300357,7 +300357,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:57Z",
+     "updated": "2026-11-04T05:05:41Z",
      "url": "https://enr.electionsfl.org/TAY/4107/Summary/",
      "races": [
       {
@@ -302897,7 +302897,7 @@
     "pastCycles": {},
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:58Z",
+     "updated": "2026-11-04T05:05:41Z",
      "url": "https://enr.electionsfl.org/UNI/4121/Summary/",
      "races": [
       {
@@ -310571,7 +310571,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:58Z",
+     "updated": "2026-11-04T05:05:41Z",
      "url": "https://enr.electionsfl.org/WAK/4128/Summary/",
      "races": [
       {
@@ -312560,7 +312560,7 @@
       ],
       "counted": true,
       "leader": "hughes",
-      "updated": "2026-11-04T05:00:58Z",
+      "updated": "2026-11-04T05:05:41Z",
       "source": "enr-2026g"
      }
     },
@@ -312664,7 +312664,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:58Z",
+     "updated": "2026-11-04T05:05:41Z",
      "url": "https://enr.electionsfl.org/WAL/4091/Summary/",
      "races": [
       {
@@ -316190,7 +316190,7 @@
     "pastCycles": {},
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-04T05:00:58Z",
+     "updated": "2026-11-04T05:05:41Z",
      "url": "https://enr.electionsfl.org/WAS/4104/Summary/",
      "races": [
       {
@@ -374069,7 +374069,7 @@
  },
  "statewide": {
   "election": "2026-11-03",
-  "updated": "2026-11-04T05:01:00Z",
+  "updated": "2026-11-04T05:05:42Z",
   "status": "counting",
   "districts": [
    {
@@ -379753,10 +379753,10 @@
     "unopposedLooking": false
    }
   ],
-  "districtsUpdated": "2026-11-04T05:01:00Z",
+  "districtsUpdated": "2026-11-04T05:05:43Z",
   "reporting": {
    "counties": 67,
-   "complete": 64
+   "complete": 65
   },
   "races": [
    {
@@ -379806,7 +379806,7 @@
         "source": "c_donalds_law"
        }
       ],
-      "votes": 4126452,
+      "votes": 4126863,
       "pct": 50.04
      },
      {
@@ -379838,7 +379838,7 @@
         "source": "c_jolly_ethics"
        }
       ],
-      "votes": 4015316,
+      "votes": 4016075,
       "pct": 48.69
      },
      {
@@ -379870,7 +379870,7 @@
         "source": "c_jewett"
        }
       ],
-      "votes": 37775,
+      "votes": 37779,
       "pct": 0.46
      },
      {
@@ -379902,7 +379902,7 @@
         "source": "c_russo"
        }
       ],
-      "votes": 23156,
+      "votes": 23159,
       "pct": 0.28
      },
      {
@@ -379931,7 +379931,7 @@
        }
       ],
       "notes": "The campaign website could not be retrieved during research; positions come from the campaign's own announcement press release, not the website.",
-      "votes": 15204,
+      "votes": 15205,
       "pct": 0.18
      },
      {
@@ -379963,7 +379963,7 @@
         "source": "c_abrams"
        }
       ],
-      "votes": 12488,
+      "votes": 12489,
       "pct": 0.15
      },
      {
@@ -379995,7 +379995,7 @@
         "source": "c_datto"
        }
       ],
-      "votes": 8299,
+      "votes": 8300,
       "pct": 0.1
      },
      {
@@ -380027,7 +380027,7 @@
         "source": "c_dimanche"
        }
       ],
-      "votes": 7571,
+      "votes": 7573,
       "pct": 0.09
      },
      {
@@ -380056,7 +380056,7 @@
      }
     ],
     "candidatesSource": "dos_canlist",
-    "total": 8246261,
+    "total": 8247443,
     "url": "https://floridaelectionwatch.gov/StateOffices/Governor",
     "status": "called",
     "leader": "gov-donalds",
@@ -380113,7 +380113,7 @@
        }
       ],
       "notes": "Campaign site has no dedicated issues page; positions come from its About page.",
-      "votes": 4172018,
+      "votes": 4172432,
       "pct": 50.96
      },
      {
@@ -380145,12 +380145,12 @@
         "source": "c_jjr"
        }
       ],
-      "votes": 4015158,
+      "votes": 4015918,
       "pct": 49.04
      }
     ],
     "candidatesSource": "dos_canlist",
-    "total": 8187176,
+    "total": 8188350,
     "url": "https://floridaelectionwatch.gov/StateOffices/AttorneyGeneral",
     "status": "called",
     "leader": "ag-uthmeier",
@@ -380210,7 +380210,7 @@
         "source": "c_ingoglia"
        }
       ],
-      "votes": 4145627,
+      "votes": 4146044,
       "pct": 50.96
      },
      {
@@ -380242,12 +380242,12 @@
         "source": "c_taddeo"
        }
       ],
-      "votes": 3988692,
+      "votes": 3989432,
       "pct": 49.04
      }
     ],
     "candidatesSource": "dos_canlist",
-    "total": 8134319,
+    "total": 8135476,
     "url": "https://floridaelectionwatch.gov/StateOffices/ChiefFinancialOfficer",
     "status": "counting",
     "leader": "cfo-ingoglia",
@@ -380301,7 +380301,7 @@
         "source": "c_simpson"
        }
       ],
-      "votes": 4154593,
+      "votes": 4154992,
       "pct": 51.1
      },
      {
@@ -380329,7 +380329,7 @@
         "source": "c_atkins"
        }
       ],
-      "votes": 3975405,
+      "votes": 3976166,
       "pct": 48.9
      },
      {
@@ -380346,7 +380346,7 @@
      }
     ],
     "candidatesSource": "dos_canlist",
-    "total": 8129998,
+    "total": 8131158,
     "url": "https://floridaelectionwatch.gov/StateOffices/CommissionerOfAgriculture",
     "status": "counting",
     "leader": "agri-simpson",
@@ -380401,7 +380401,7 @@
        }
       ],
       "notes": "Campaign site states broad priorities rather than specific proposals.",
-      "votes": 4201943,
+      "votes": 4202356,
       "pct": 50.89
      },
      {
@@ -380433,8 +380433,8 @@
         "source": "c_nixon"
        }
       ],
-      "votes": 3959883,
-      "pct": 47.96
+      "votes": 3960641,
+      "pct": 47.97
      },
      {
       "id": "ussen-gillespie",
@@ -380465,12 +380465,12 @@
         "source": "c_gillespie"
        }
       ],
-      "votes": 94322,
+      "votes": 94335,
       "pct": 1.14
      }
     ],
     "candidatesSource": "dos_canlist",
-    "total": 8256148,
+    "total": 8257332,
     "url": "https://floridaelectionwatch.gov/FederalOffices/USSenator",
     "status": "called",
     "leader": "ussen-moody",
@@ -380514,11 +380514,11 @@
      "bp_a1",
      "news4jax_amend"
     ],
-    "yes": 3165031,
-    "no": 4572125,
+    "yes": 3165510,
+    "no": 4572759,
     "yesPct": 40.91,
     "noPct": 59.09,
-    "total": 7737156,
+    "total": 7738269,
     "url": "https://floridaelectionwatch.gov/Amendments",
     "status": "counting",
     "outcome": null,
@@ -380548,11 +380548,11 @@
      "bp_a2",
      "news4jax_amend"
     ],
-    "yes": 4535457,
-    "no": 3253771,
+    "yes": 4536051,
+    "no": 3254286,
     "yesPct": 58.23,
     "noPct": 41.77,
-    "total": 7789228,
+    "total": 7790337,
     "url": "https://floridaelectionwatch.gov/Amendments",
     "status": "counting",
     "outcome": null,
@@ -380588,11 +380588,11 @@
      "news4jax_amend",
      "fltrend_a3"
     ],
-    "yes": 4909673,
-    "no": 3009545,
+    "yes": 4910319,
+    "no": 3010017,
     "yesPct": 62.0,
     "noPct": 38.0,
-    "total": 7919218,
+    "total": 7920336,
     "url": "https://floridaelectionwatch.gov/Amendments",
     "status": "counting",
     "outcome": null,
@@ -380604,7 +380604,7 @@
     "question": "Shall Justice Carlos G. Muñiz be retained in Office?",
     "yesPct": 57.71,
     "noPct": 42.29,
-    "total": 7433578,
+    "total": 7434661,
     "url": "https://floridaelectionwatch.gov/JudicialOffices/SupremeCourt",
     "plain": "Florida Supreme Court justices are appointed by the governor and then face a yes-or-no vote to stay in office. Justice Muñiz is on the ballot for a new six-year term. There is no opponent.",
     "yesMeans": "Justice Muñiz stays on the Florida Supreme Court for another six-year term.",
