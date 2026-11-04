@@ -98,17 +98,17 @@
     {
      "name": "Blaise Ingoglia",
      "party": "REP",
-     "votes": 4143871,
+     "votes": 4144149,
      "pct": 50.97
     },
     {
      "name": "Annette Taddeo",
      "party": "DEM",
-     "votes": 3985842,
+     "votes": 3986056,
      "pct": 49.03
     }
    ],
-   "total": 8129713,
+   "total": 8130205,
    "threshold": null,
    "url": "https://floridaelectionwatch.gov/StateOffices/ChiefFinancialOfficer"
   },
@@ -146,23 +146,23 @@
     {
      "name": "Ashley Moody",
      "party": "REP",
-     "votes": 4200118,
+     "votes": 4200395,
      "pct": 50.9
     },
     {
      "name": "Angie Nixon",
      "party": "DEM",
-     "votes": 3957021,
+     "votes": 3957231,
      "pct": 47.96
     },
     {
      "name": "Neil J. Gillespie",
      "party": "NPA",
-     "votes": 94245,
+     "votes": 94258,
      "pct": 1.14
     }
    ],
-   "total": 8251384,
+   "total": 8251884,
    "threshold": null,
    "url": "https://floridaelectionwatch.gov/FederalOffices/USSenator"
   }
@@ -175,17 +175,17 @@
     {
      "name": "Yes for Approval",
      "party": null,
-     "votes": 3163395,
+     "votes": 3163595,
      "pct": 40.91
     },
     {
      "name": "No for Rejection",
      "party": null,
-     "votes": 4569291,
+     "votes": 4569554,
      "pct": 59.09
     }
    ],
-   "total": 7732686,
+   "total": 7733149,
    "threshold": 60,
    "url": "https://floridaelectionwatch.gov/Amendments"
   },
@@ -196,17 +196,17 @@
     {
      "name": "Yes for Approval",
      "party": null,
-     "votes": 4533166,
+     "votes": 4533471,
      "pct": 58.23
     },
     {
      "name": "No for Rejection",
      "party": null,
-     "votes": 3251579,
+     "votes": 3251744,
      "pct": 41.77
     }
    ],
-   "total": 7784745,
+   "total": 7785215,
    "threshold": 60,
    "url": "https://floridaelectionwatch.gov/Amendments"
   },
@@ -217,17 +217,17 @@
     {
      "name": "Yes for Approval",
      "party": null,
-     "votes": 4907124,
+     "votes": 4907469,
      "pct": 62.0
     },
     {
      "name": "No for Rejection",
      "party": null,
-     "votes": 3007547,
+     "votes": 3007685,
      "pct": 38.0
     }
    ],
-   "total": 7914671,
+   "total": 7915154,
    "threshold": 60,
    "url": "https://floridaelectionwatch.gov/Amendments"
   }
@@ -328,5 +328,5 @@
    "Washington": 100.0
   }
  },
- "pulledAt": "2026-11-04T04:35:36Z"
+ "pulledAt": "2026-11-04T04:36:18Z"
 }
