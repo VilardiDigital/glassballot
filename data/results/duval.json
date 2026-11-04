@@ -1,7 +1,7 @@
 {
  "county": "duval",
  "url": "https://enr.electionsfl.org/DUV/4076/Summary/",
- "pulledAt": "2026-11-04T03:14:15Z",
+ "pulledAt": "2026-11-04T03:17:49Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,19 +9,64 @@
    "office": "School Board - District 2",
    "reported": 24,
    "precincts": 24,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Donovan Bradley",
+     "party": null,
+     "pct": 53.35,
+     "votes": 28443
+    },
+    {
+     "name": "Donna Mae Westrich",
+     "party": null,
+     "pct": 46.65,
+     "votes": 24875
+    }
+   ]
   },
   {
    "office": "School Board - District 4",
    "reported": 23,
    "precincts": 23,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Rhodesia \"Rho\" Butler",
+     "party": null,
+     "pct": 50.6,
+     "votes": 22316
+    },
+    {
+     "name": "James \"Coach\" Jacobs",
+     "party": null,
+     "pct": 48.9,
+     "votes": 21564
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.5,
+     "votes": 219
+    }
+   ]
   },
   {
    "office": "School Board - District 6",
    "reported": 22,
    "precincts": 22,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Lindsey Denmark",
+     "party": null,
+     "pct": 53.09,
+     "votes": 24582
+    },
+    {
+     "name": "Clarence \"CJ\" James",
+     "party": null,
+     "pct": 46.91,
+     "votes": 21720
+    }
+   ]
   }
  ]
 }

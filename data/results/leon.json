@@ -1,7 +1,7 @@
 {
  "county": "leon",
  "url": "https://enr.electionsfl.org/LEO/4072/Summary/",
- "pulledAt": "2026-11-04T03:14:39Z",
+ "pulledAt": "2026-11-04T03:18:02Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,25 +9,77 @@
    "office": "County Commissioner, At Large, Group 2",
    "reported": 134,
    "precincts": 134,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Nick Maddox",
+     "party": null,
+     "pct": 95.15,
+     "votes": 94650
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 4.85,
+     "votes": 4825
+    }
+   ]
   },
   {
    "office": "County Commissioner, District 3",
    "reported": 28,
    "precincts": 28,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "C.B. Lorch",
+     "party": null,
+     "pct": 26.52,
+     "votes": 6083
+    },
+    {
+     "name": "Rick Minor",
+     "party": null,
+     "pct": 73.48,
+     "votes": 16853
+    }
+   ]
   },
   {
    "office": "County Commissioner, District 5",
    "reported": 34,
    "precincts": 34,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "David T. Hawkins",
+     "party": null,
+     "pct": 30.92,
+     "votes": 8013
+    },
+    {
+     "name": "David T. O'Keefe",
+     "party": null,
+     "pct": 69.08,
+     "votes": 17900
+    }
+   ]
   },
   {
    "office": "School Board, District 1",
    "reported": 27,
    "precincts": 27,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Alva \"Striplin\" Smith",
+     "party": null,
+     "pct": 94.84,
+     "votes": 21803
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 5.16,
+     "votes": 1186
+    }
+   ]
   }
  ]
 }

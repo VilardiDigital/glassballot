@@ -1,7 +1,7 @@
 {
  "county": "seminole",
  "url": "https://enr.electionsfl.org/SEM/4119/Summary/",
- "pulledAt": "2026-11-04T03:15:16Z",
+ "pulledAt": "2026-11-04T03:18:22Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,7 +9,20 @@
    "office": "County Commissioner, District 4",
    "reported": 82,
    "precincts": 82,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "REP Amy Lockhart",
+     "party": "REP",
+     "pct": 48.62,
+     "votes": 93207
+    },
+    {
+     "name": "DEM Charline Lorraine Santos",
+     "party": "DEM",
+     "pct": 51.38,
+     "votes": 98502
+    }
+   ]
   }
  ]
 }

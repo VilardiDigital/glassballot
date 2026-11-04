@@ -1,7 +1,7 @@
 {
  "county": "alachua",
  "url": "https://enr.electionsfl.org/ALA/4097/Summary/",
- "pulledAt": "2026-11-04T03:14:00Z",
+ "pulledAt": "2026-11-04T03:17:41Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,13 +9,39 @@
    "office": "County Commissioner District 4",
    "reported": 60,
    "precincts": 63,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Ken Cornell",
+     "party": "DEM",
+     "pct": 74.57,
+     "votes": 71455
+    },
+    {
+     "name": "Dewayne Baines",
+     "party": "NPA",
+     "pct": 25.43,
+     "votes": 24365
+    }
+   ]
   },
   {
    "office": "School Board District 1",
    "reported": 60,
    "precincts": 63,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Hunter Miller",
+     "party": null,
+     "pct": 58.87,
+     "votes": 54021
+    },
+    {
+     "name": "Janine Plavac",
+     "party": null,
+     "pct": 41.13,
+     "votes": 37748
+    }
+   ]
   }
  ]
 }

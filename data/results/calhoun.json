@@ -1,7 +1,7 @@
 {
  "county": "calhoun",
  "url": "https://enr.electionsfl.org/CAL/4054/Summary/",
- "pulledAt": "2026-11-04T03:14:05Z",
+ "pulledAt": "2026-11-04T03:17:43Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,7 +9,32 @@
    "office": "County Commissioner District 4",
    "reported": 1,
    "precincts": 1,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "REP Jim Fields",
+     "party": "REP",
+     "pct": 39.47,
+     "votes": 150
+    },
+    {
+     "name": "DEM Scott Monlyn",
+     "party": "DEM",
+     "pct": 60.0,
+     "votes": 228
+    },
+    {
+     "name": "OverVotes",
+     "party": "STATS",
+     "pct": 0.0,
+     "votes": 0
+    },
+    {
+     "name": "UnderVotes",
+     "party": "STATS",
+     "pct": 0.53,
+     "votes": 2
+    }
+   ]
   }
  ]
 }

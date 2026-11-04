@@ -1,7 +1,7 @@
 {
  "county": "wakulla",
  "url": "https://enr.electionsfl.org/WAK/4128/Summary/",
- "pulledAt": "2026-11-04T03:15:20Z",
+ "pulledAt": "2026-11-04T03:18:24Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,7 +9,26 @@
    "office": "County Commissioner District 4",
    "reported": 12,
    "precincts": 12,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "REP Carrie Hughes",
+     "party": "REP",
+     "pct": 69.89,
+     "votes": 10489
+    },
+    {
+     "name": "DEM Beverly Keister",
+     "party": "DEM",
+     "pct": 28.44,
+     "votes": 4269
+    },
+    {
+     "name": "NPA Patricia Sue Dyszer",
+     "party": "NPA",
+     "pct": 1.67,
+     "votes": 250
+    }
+   ]
   }
  ]
 }

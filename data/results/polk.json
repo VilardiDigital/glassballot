@@ -1,7 +1,7 @@
 {
  "county": "polk",
  "url": "https://enr.electionsfl.org/POL/4000/Summary/",
- "pulledAt": "2026-11-04T03:15:04Z",
+ "pulledAt": "2026-11-04T03:18:15Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,13 +9,39 @@
    "office": "County Commissioner District 4",
    "reported": 177,
    "precincts": 177,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Omar Arroyo",
+     "party": "REP",
+     "pct": 87.98,
+     "votes": 172844
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 12.02,
+     "votes": 23623
+    }
+   ]
   },
   {
    "office": "School Board District 3",
    "reported": 177,
    "precincts": 177,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Victor Sims",
+     "party": null,
+     "pct": 46.61,
+     "votes": 106481
+    },
+    {
+     "name": "Kate Wallace",
+     "party": null,
+     "pct": 53.39,
+     "votes": 121957
+    }
+   ]
   }
  ]
 }

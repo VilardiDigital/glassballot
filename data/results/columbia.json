@@ -1,7 +1,7 @@
 {
  "county": "columbia",
  "url": "https://enr.electionsfl.org/CLM/4069/Summary/",
- "pulledAt": "2026-11-04T03:14:11Z",
+ "pulledAt": "2026-11-04T03:17:46Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,13 +9,39 @@
    "office": "County Commissioner District 2",
    "reported": 3,
    "precincts": 3,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Rocky Ford",
+     "party": null,
+     "pct": 44.5,
+     "votes": 2187
+    },
+    {
+     "name": "Clint Pittman",
+     "party": null,
+     "pct": 55.5,
+     "votes": 2728
+    }
+   ]
   },
   {
    "office": "County Commissioner District 4",
    "reported": 8,
    "precincts": 8,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Chris Dicks",
+     "party": null,
+     "pct": 54.94,
+     "votes": 2392
+    },
+    {
+     "name": "Everett Phillips",
+     "party": null,
+     "pct": 45.06,
+     "votes": 1962
+    }
+   ]
   }
  ]
 }

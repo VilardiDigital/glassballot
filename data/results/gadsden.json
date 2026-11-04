@@ -1,7 +1,7 @@
 {
  "county": "gadsden",
  "url": "https://enr.electionsfl.org/GAD/4066/Summary/",
- "pulledAt": "2026-11-04T03:14:19Z",
+ "pulledAt": "2026-11-04T03:17:51Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,13 +9,39 @@
    "office": "County Commissioner District 4",
    "reported": 8,
    "precincts": 8,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "REP Marcella Blocker",
+     "party": "REP",
+     "pct": 21.22,
+     "votes": 701
+    },
+    {
+     "name": "DEM Michael K. Brown",
+     "party": "DEM",
+     "pct": 78.78,
+     "votes": 2602
+    }
+   ]
   },
   {
    "office": "School Board Member District 2",
    "reported": 9,
    "precincts": 9,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Rodney Moore",
+     "party": null,
+     "pct": 53.3,
+     "votes": 2051
+    },
+    {
+     "name": "Tracey Stallworth",
+     "party": null,
+     "pct": 46.7,
+     "votes": 1797
+    }
+   ]
   }
  ]
 }

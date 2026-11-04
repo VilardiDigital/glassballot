@@ -21628,7 +21628,33 @@
       "soe-sample",
       "soe-factsheet",
       "bb-county"
-     ]
+     ],
+     "results": {
+      "status": "unofficial",
+      "reported": 111,
+      "precincts": 111,
+      "total": 118679,
+      "candidates": [
+       {
+        "name": "Harry Cohen",
+        "party": "DEM",
+        "pct": 55.67,
+        "votes": 66066,
+        "person": "cohen"
+       },
+       {
+        "name": "Jackie Toledo",
+        "party": "REP",
+        "pct": 44.33,
+        "votes": 52613,
+        "person": "toledo"
+       }
+      ],
+      "counted": true,
+      "leader": "cohen",
+      "updated": "2026-11-04T03:17:56Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "id": "bcc-d3",
@@ -21645,7 +21671,33 @@
       "soe-sample",
       "soe-factsheet",
       "soe-primary"
-     ]
+     ],
+     "results": {
+      "status": "unofficial",
+      "reported": 96,
+      "precincts": 96,
+      "total": 98294,
+      "candidates": [
+       {
+        "name": "Gwen Myers",
+        "party": "DEM",
+        "pct": 72.44,
+        "votes": 71204,
+        "person": "myers"
+       },
+       {
+        "name": "Luiz F. F. Garcia",
+        "party": "REP",
+        "pct": 27.56,
+        "votes": 27090,
+        "person": "garcia"
+       }
+      ],
+      "counted": true,
+      "leader": "myers",
+      "updated": "2026-11-04T03:17:56Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "id": "bcc-d5",
@@ -21662,7 +21714,33 @@
       "soe-sample",
       "soe-factsheet",
       "soe-primary"
-     ]
+     ],
+     "results": {
+      "status": "unofficial",
+      "reported": 446,
+      "precincts": 446,
+      "total": 508346,
+      "candidates": [
+       {
+        "name": "Neil Manimala",
+        "party": "DEM",
+        "pct": 54.86,
+        "votes": 278855,
+        "person": "manimala"
+       },
+       {
+        "name": "Stacy Hahn",
+        "party": "REP",
+        "pct": 45.14,
+        "votes": 229491,
+        "person": "hahn"
+       }
+      ],
+      "counted": true,
+      "leader": "manimala",
+      "updated": "2026-11-04T03:17:56Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "id": "bcc-d7",
@@ -21680,7 +21758,33 @@
       "soe-factsheet",
       "soe-primary",
       "beacons-qual"
-     ]
+     ],
+     "results": {
+      "status": "unofficial",
+      "reported": 446,
+      "precincts": 446,
+      "total": 507193,
+      "candidates": [
+       {
+        "name": "Aileen Rodriguez",
+        "party": "DEM",
+        "pct": 56.21,
+        "votes": 285081,
+        "person": "rodriguez"
+       },
+       {
+        "name": "Joshua Wostal",
+        "party": "REP",
+        "pct": 43.79,
+        "votes": 222112,
+        "person": "wostal"
+       }
+      ],
+      "counted": true,
+      "leader": "rodriguez",
+      "updated": "2026-11-04T03:17:56Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "id": "sb-d2",
@@ -21698,7 +21802,33 @@
       "soe-primary",
       "wusf-sb",
       "beacons-sb"
-     ]
+     ],
+     "results": {
+      "status": "unofficial",
+      "reported": 92,
+      "precincts": 92,
+      "total": 110238,
+      "candidates": [
+       {
+        "name": "Daniela Simic",
+        "party": null,
+        "pct": 52.17,
+        "votes": 57508,
+        "person": "simic"
+       },
+       {
+        "name": "Brittany Lyssy",
+        "party": null,
+        "pct": 47.83,
+        "votes": 52730,
+        "person": "lyssy"
+       }
+      ],
+      "counted": true,
+      "leader": "simic",
+      "updated": "2026-11-04T03:17:56Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "id": "sb-d4",
@@ -21735,7 +21865,33 @@
       "soe-primary",
       "wusf-sb",
       "beacons-sb"
-     ]
+     ],
+     "results": {
+      "status": "unofficial",
+      "reported": 446,
+      "precincts": 446,
+      "total": 465830,
+      "candidates": [
+       {
+        "name": "Karen Perez",
+        "party": null,
+        "pct": 56.9,
+        "votes": 265068,
+        "person": "perez"
+       },
+       {
+        "name": "Kenneth \"Ken\" Gay",
+        "party": null,
+        "pct": 43.1,
+        "votes": 200762,
+        "person": "gay"
+       }
+      ],
+      "counted": true,
+      "leader": "perez",
+      "updated": "2026-11-04T03:17:56Z",
+      "source": "enr-2026g"
+     }
     }
    ],
    "votes": [
@@ -29698,7 +29854,33 @@
      "sources": [
       "soe-2026",
       "soe-jobs"
-     ]
+     ],
+     "results": {
+      "status": "unofficial",
+      "reported": 122,
+      "precincts": 122,
+      "total": 235298,
+      "candidates": [
+       {
+        "name": "Seth Weightman",
+        "party": "REP",
+        "pct": 55.43,
+        "votes": 130428,
+        "person": "weightman"
+       },
+       {
+        "name": "Stephanie C. Vazquez",
+        "party": "DEM",
+        "pct": 44.57,
+        "votes": 104870,
+        "person": "vazquez"
+       }
+      ],
+      "counted": true,
+      "leader": "weightman",
+      "updated": "2026-11-04T03:18:14Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "id": "bcc-d4",
@@ -29732,7 +29914,33 @@
       "soe-pri26",
       "wusf-sb",
       "tbt-sb-pri"
-     ]
+     ],
+     "results": {
+      "status": "unofficial",
+      "reported": 122,
+      "precincts": 122,
+      "total": 209196,
+      "candidates": [
+       {
+        "name": "Kimberly D. Coward",
+        "party": null,
+        "pct": 51.85,
+        "votes": 108465,
+        "person": "coward"
+       },
+       {
+        "name": "Gino Collura",
+        "party": null,
+        "pct": 48.15,
+        "votes": 100731,
+        "person": "collura"
+       }
+      ],
+      "counted": true,
+      "leader": "coward",
+      "updated": "2026-11-04T03:18:14Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "id": "sb-d3",
@@ -29749,7 +29957,33 @@
       "soe-pri26",
       "wusf-sb",
       "tbt-sb-pri"
-     ]
+     ],
+     "results": {
+      "status": "unofficial",
+      "reported": 122,
+      "precincts": 122,
+      "total": 208036,
+      "candidates": [
+       {
+        "name": "Matt Geiger",
+        "party": null,
+        "pct": 58.35,
+        "votes": 121397,
+        "person": "geiger"
+       },
+       {
+        "name": "Mollyana Ward",
+        "party": null,
+        "pct": 41.65,
+        "votes": 86639,
+        "person": "ward"
+       }
+      ],
+      "counted": true,
+      "leader": "geiger",
+      "updated": "2026-11-04T03:18:14Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "id": "sb-d5",
@@ -38728,7 +38962,33 @@
       "soe-primary-results",
       "tbb-qualify",
       "bb-d4"
-     ]
+     ],
+     "results": {
+      "status": "unofficial",
+      "reported": 32,
+      "precincts": 32,
+      "total": 65893,
+      "candidates": [
+       {
+        "name": "Jeff Holcomb",
+        "party": "REP",
+        "pct": 88.2,
+        "votes": 58118,
+        "person": "holcomb"
+       },
+       {
+        "name": "Write-in",
+        "party": null,
+        "pct": 11.8,
+        "votes": 7775,
+        "person": null
+       }
+      ],
+      "counted": true,
+      "leader": "holcomb",
+      "updated": "2026-11-04T03:17:55Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "id": "sb-d1",
@@ -38787,7 +39047,33 @@
       "soe-primary-results",
       "wusf-primary",
       "bb-sb5"
-     ]
+     ],
+     "results": {
+      "status": "unofficial",
+      "reported": 32,
+      "precincts": 32,
+      "total": 73087,
+      "candidates": [
+       {
+        "name": "Kara Champion",
+        "party": null,
+        "pct": 54.1,
+        "votes": 39543,
+        "person": "kchampion"
+       },
+       {
+        "name": "Susan Duval",
+        "party": null,
+        "pct": 45.9,
+        "votes": 33544,
+        "person": "duval"
+       }
+      ],
+      "counted": true,
+      "leader": "kchampion",
+      "updated": "2026-11-04T03:17:55Z",
+      "source": "enr-2026g"
+     }
     }
    ],
    "votes": [
@@ -44402,7 +44688,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 60,
+      "precincts": 63,
+      "total": 95820,
+      "candidates": [
+       {
+        "name": "Ken Cornell",
+        "party": "DEM",
+        "pct": 74.57,
+        "votes": 71455,
+        "person": "cornell"
+       },
+       {
+        "name": "Dewayne Baines",
+        "party": "NPA",
+        "pct": 25.43,
+        "votes": 24365,
+        "person": "baines"
+       }
+      ],
+      "counted": false,
+      "leader": "cornell",
+      "updated": "2026-11-04T03:17:41Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -44416,7 +44728,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 60,
+      "precincts": 63,
+      "total": 91769,
+      "candidates": [
+       {
+        "name": "Hunter Miller",
+        "party": null,
+        "pct": 58.87,
+        "votes": 54021,
+        "person": "miller"
+       },
+       {
+        "name": "Janine Plavac",
+        "party": null,
+        "pct": 41.13,
+        "votes": 37748,
+        "person": "plavac"
+       }
+      ],
+      "counted": false,
+      "leader": "miller",
+      "updated": "2026-11-04T03:17:41Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -51671,7 +52009,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 2,
+      "precincts": 2,
+      "total": 1936,
+      "candidates": [
+       {
+        "name": "REP Jason Bennett",
+        "party": "REP",
+        "pct": 88.69,
+        "votes": 1717,
+        "person": "bennett"
+       },
+       {
+        "name": "DEM Jenna Talleda",
+        "party": "DEM",
+        "pct": 11.31,
+        "votes": 219,
+        "person": "talleda"
+       }
+      ],
+      "counted": true,
+      "leader": "bennett",
+      "updated": "2026-11-04T03:17:42Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -69124,7 +69488,47 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 1,
+      "precincts": 1,
+      "total": 380,
+      "candidates": [
+       {
+        "name": "DEM Scott Monlyn",
+        "party": "DEM",
+        "pct": 60.0,
+        "votes": 228,
+        "person": "monlyn"
+       },
+       {
+        "name": "REP Jim Fields",
+        "party": "REP",
+        "pct": 39.47,
+        "votes": 150,
+        "person": "fields"
+       },
+       {
+        "name": "UnderVotes",
+        "party": "STATS",
+        "pct": 0.53,
+        "votes": 2,
+        "person": null
+       },
+       {
+        "name": "OverVotes",
+        "party": "STATS",
+        "pct": 0.0,
+        "votes": 0,
+        "person": null
+       }
+      ],
+      "counted": true,
+      "leader": "monlyn",
+      "updated": "2026-11-04T03:17:43Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -82562,7 +82966,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 13,
+      "precincts": 13,
+      "total": 34913,
+      "candidates": [
+       {
+        "name": "REP Chris Hall",
+        "party": "REP",
+        "pct": 76.0,
+        "votes": 26537,
+        "person": "hall"
+       },
+       {
+        "name": "JEF Cody Davis",
+        "party": "JEF",
+        "pct": 24.0,
+        "votes": 8376,
+        "person": "davis"
+       }
+      ],
+      "counted": true,
+      "leader": "hall",
+      "updated": "2026-11-04T03:17:45Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -84927,7 +85357,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 3,
+      "precincts": 3,
+      "total": 4915,
+      "candidates": [
+       {
+        "name": "Clint Pittman",
+        "party": null,
+        "pct": 55.5,
+        "votes": 2728,
+        "person": "pittman"
+       },
+       {
+        "name": "Rocky Ford",
+        "party": null,
+        "pct": 44.5,
+        "votes": 2187,
+        "person": "ford"
+       }
+      ],
+      "counted": true,
+      "leader": "pittman",
+      "updated": "2026-11-04T03:17:46Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -84941,7 +85397,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 8,
+      "precincts": 8,
+      "total": 4354,
+      "candidates": [
+       {
+        "name": "Chris Dicks",
+        "party": null,
+        "pct": 54.94,
+        "votes": 2392,
+        "person": "dicks"
+       },
+       {
+        "name": "Everett Phillips",
+        "party": null,
+        "pct": 45.06,
+        "votes": 1962,
+        "person": "everettphillips"
+       }
+      ],
+      "counted": true,
+      "leader": "dicks",
+      "updated": "2026-11-04T03:17:46Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -91842,7 +92324,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 24,
+      "precincts": 24,
+      "total": 53318,
+      "candidates": [
+       {
+        "name": "Donovan Bradley",
+        "party": null,
+        "pct": 53.35,
+        "votes": 28443,
+        "person": "bradley"
+       },
+       {
+        "name": "Donna Mae Westrich",
+        "party": null,
+        "pct": 46.65,
+        "votes": 24875,
+        "person": "westrich"
+       }
+      ],
+      "counted": true,
+      "leader": "bradley",
+      "updated": "2026-11-04T03:17:49Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -91857,7 +92365,40 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 23,
+      "precincts": 23,
+      "total": 44099,
+      "candidates": [
+       {
+        "name": "Rhodesia \"Rho\" Butler",
+        "party": null,
+        "pct": 50.6,
+        "votes": 22316,
+        "person": "butler"
+       },
+       {
+        "name": "James \"Coach\" Jacobs",
+        "party": null,
+        "pct": 48.9,
+        "votes": 21564,
+        "person": "jacobs"
+       },
+       {
+        "name": "Write-in",
+        "party": null,
+        "pct": 0.5,
+        "votes": 219,
+        "person": null
+       }
+      ],
+      "counted": true,
+      "leader": "butler",
+      "updated": "2026-11-04T03:17:49Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -91871,7 +92412,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 22,
+      "precincts": 22,
+      "total": 46302,
+      "candidates": [
+       {
+        "name": "Lindsey Denmark",
+        "party": null,
+        "pct": 53.09,
+        "votes": 24582,
+        "person": "denmark"
+       },
+       {
+        "name": "Clarence \"CJ\" James",
+        "party": null,
+        "pct": 46.91,
+        "votes": 21720,
+        "person": "james"
+       }
+      ],
+      "counted": true,
+      "leader": "denmark",
+      "updated": "2026-11-04T03:17:49Z",
+      "source": "enr-2026g"
+     }
     }
    ],
    "votes": [],
@@ -103623,7 +104190,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 8,
+      "precincts": 8,
+      "total": 3303,
+      "candidates": [
+       {
+        "name": "DEM Michael K. Brown",
+        "party": "DEM",
+        "pct": 78.78,
+        "votes": 2602,
+        "person": "brown"
+       },
+       {
+        "name": "REP Marcella Blocker",
+        "party": "REP",
+        "pct": 21.22,
+        "votes": 701,
+        "person": "blocker"
+       }
+      ],
+      "counted": true,
+      "leader": "brown",
+      "updated": "2026-11-04T03:17:51Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -103637,7 +104230,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 9,
+      "precincts": 9,
+      "total": 3848,
+      "candidates": [
+       {
+        "name": "Rodney Moore",
+        "party": null,
+        "pct": 53.3,
+        "votes": 2051,
+        "person": "moore"
+       },
+       {
+        "name": "Tracey Stallworth",
+        "party": null,
+        "pct": 46.7,
+        "votes": 1797,
+        "person": "stallworth"
+       }
+      ],
+      "counted": true,
+      "leader": "moore",
+      "updated": "2026-11-04T03:17:51Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -109857,7 +110476,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 1,
+      "precincts": 1,
+      "total": 1261,
+      "candidates": [
+       {
+        "name": "Chad Bailey",
+        "party": "NOP",
+        "pct": 59.16,
+        "votes": 746,
+        "person": "bailey"
+       },
+       {
+        "name": "Dennis Peak",
+        "party": "NOP",
+        "pct": 40.84,
+        "votes": 515,
+        "person": "peak"
+       }
+      ],
+      "counted": true,
+      "leader": "bailey",
+      "updated": "2026-11-04T03:17:52Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -124422,7 +125067,40 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 35,
+      "precincts": 35,
+      "total": 76023,
+      "candidates": [
+       {
+        "name": "Jennifer Pippin",
+        "party": "REP",
+        "pct": 59.5,
+        "votes": 45235,
+        "person": "pippin"
+       },
+       {
+        "name": "Robbie Hardingham III",
+        "party": "DEM",
+        "pct": 40.18,
+        "votes": 30544,
+        "person": "hardingham"
+       },
+       {
+        "name": "Write-in",
+        "party": null,
+        "pct": 0.32,
+        "votes": 244,
+        "person": null
+       }
+      ],
+      "counted": true,
+      "leader": "pippin",
+      "updated": "2026-11-04T03:17:58Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -124436,7 +125114,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 35,
+      "precincts": 35,
+      "total": 75999,
+      "candidates": [
+       {
+        "name": "Deryl Loar",
+        "party": "REP",
+        "pct": 62.55,
+        "votes": 47537,
+        "person": "derylloar"
+       },
+       {
+        "name": "Marc Jaffe",
+        "party": "DEM",
+        "pct": 37.45,
+        "votes": 28462,
+        "person": "jaffe"
+       }
+      ],
+      "counted": true,
+      "leader": "derylloar",
+      "updated": "2026-11-04T03:17:58Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -126836,7 +127540,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 7,
+      "precincts": 7,
+      "total": 3283,
+      "candidates": [
+       {
+        "name": "Phyllis T. Daniels",
+        "party": null,
+        "pct": 63.33,
+        "votes": 2079,
+        "person": "daniels"
+       },
+       {
+        "name": "Michael \"MJ\" Jackson",
+        "party": null,
+        "pct": 36.67,
+        "votes": 1204,
+        "person": "jackson"
+       }
+      ],
+      "counted": true,
+      "leader": "daniels",
+      "updated": "2026-11-04T03:17:59Z",
+      "source": "enr-2026g"
+     }
     }
    ],
    "votes": [],
@@ -128396,7 +129126,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 3,
+      "precincts": 3,
+      "total": 1762,
+      "candidates": [
+       {
+        "name": "Austin Hosford",
+        "party": "REP",
+        "pct": 62.88,
+        "votes": 1108,
+        "person": "hosford"
+       },
+       {
+        "name": "Lois Howell-Hunter",
+        "party": "DEM",
+        "pct": 37.12,
+        "votes": 654,
+        "person": null
+       }
+      ],
+      "counted": true,
+      "leader": "hosford",
+      "updated": "2026-11-04T03:17:59Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -128410,7 +129166,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 2,
+      "precincts": 2,
+      "total": 1015,
+      "candidates": [
+       {
+        "name": "Jamia Bradley",
+        "party": null,
+        "pct": 60.3,
+        "votes": 612,
+        "person": "bradley"
+       },
+       {
+        "name": "Donnie Burdick",
+        "party": null,
+        "pct": 39.7,
+        "votes": 403,
+        "person": "burdick"
+       }
+      ],
+      "counted": true,
+      "leader": "bradley",
+      "updated": "2026-11-04T03:17:59Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -133121,7 +133903,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 92,
+      "precincts": 92,
+      "total": 139202,
+      "candidates": [
+       {
+        "name": "Sean M. Parks",
+        "party": "REP",
+        "pct": 88.45,
+        "votes": 123125,
+        "person": "parks"
+       },
+       {
+        "name": "Write-in",
+        "party": "NON",
+        "pct": 11.55,
+        "votes": 16077,
+        "person": null
+       }
+      ],
+      "counted": true,
+      "leader": "parks",
+      "updated": "2026-11-04T03:18:01Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -133136,7 +133944,40 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 92,
+      "precincts": 92,
+      "total": 173410,
+      "candidates": [
+       {
+        "name": "Leslie Campione",
+        "party": "REP",
+        "pct": 58.33,
+        "votes": 101148,
+        "person": "lesliecampione"
+       },
+       {
+        "name": "Egor Emery",
+        "party": "DEM",
+        "pct": 41.38,
+        "votes": 71751,
+        "person": "emery"
+       },
+       {
+        "name": "Write-in",
+        "party": "NON",
+        "pct": 0.29,
+        "votes": 511,
+        "person": null
+       }
+      ],
+      "counted": true,
+      "leader": "lesliecampione",
+      "updated": "2026-11-04T03:18:01Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -133150,7 +133991,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 92,
+      "precincts": 92,
+      "total": 131462,
+      "candidates": [
+       {
+        "name": "Pat Kelley",
+        "party": "REP",
+        "pct": 91.27,
+        "votes": 119990,
+        "person": "kelley"
+       },
+       {
+        "name": "Write-in",
+        "party": null,
+        "pct": 8.73,
+        "votes": 11472,
+        "person": null
+       }
+      ],
+      "counted": true,
+      "leader": "kelley",
+      "updated": "2026-11-04T03:18:01Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -145163,7 +146030,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 134,
+      "precincts": 134,
+      "total": 99475,
+      "candidates": [
+       {
+        "name": "Nick Maddox",
+        "party": null,
+        "pct": 95.15,
+        "votes": 94650,
+        "person": "maddox"
+       },
+       {
+        "name": "Write-in",
+        "party": null,
+        "pct": 4.85,
+        "votes": 4825,
+        "person": null
+       }
+      ],
+      "counted": true,
+      "leader": "maddox",
+      "updated": "2026-11-04T03:18:02Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -145191,7 +146084,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 28,
+      "precincts": 28,
+      "total": 22936,
+      "candidates": [
+       {
+        "name": "Rick Minor",
+        "party": null,
+        "pct": 73.48,
+        "votes": 16853,
+        "person": "williamminor"
+       },
+       {
+        "name": "C.B. Lorch",
+        "party": null,
+        "pct": 26.52,
+        "votes": 6083,
+        "person": "lorch"
+       }
+      ],
+      "counted": true,
+      "leader": "williamminor",
+      "updated": "2026-11-04T03:18:02Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -145205,7 +146124,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 34,
+      "precincts": 34,
+      "total": 25913,
+      "candidates": [
+       {
+        "name": "David T. O'Keefe",
+        "party": null,
+        "pct": 69.08,
+        "votes": 17900,
+        "person": null
+       },
+       {
+        "name": "David T. Hawkins",
+        "party": null,
+        "pct": 30.92,
+        "votes": 8013,
+        "person": "hawkins"
+       }
+      ],
+      "counted": true,
+      "leader": null,
+      "updated": "2026-11-04T03:18:02Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -145219,7 +146164,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 27,
+      "precincts": 27,
+      "total": 22989,
+      "candidates": [
+       {
+        "name": "Alva \"Striplin\" Smith",
+        "party": null,
+        "pct": 94.84,
+        "votes": 21803,
+        "person": "smith"
+       },
+       {
+        "name": "Write-in",
+        "party": null,
+        "pct": 5.16,
+        "votes": 1186,
+        "person": null
+       }
+      ],
+      "counted": true,
+      "leader": "smith",
+      "updated": "2026-11-04T03:18:02Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -150321,7 +151292,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 8,
+      "precincts": 8,
+      "total": 2634,
+      "candidates": [
+       {
+        "name": "REP Andy Bailey",
+        "party": "REP",
+        "pct": 66.86,
+        "votes": 1761,
+        "person": "bailey"
+       },
+       {
+        "name": "DEM Jerome Flowers",
+        "party": "DEM",
+        "pct": 33.14,
+        "votes": 873,
+        "person": "flowers"
+       }
+      ],
+      "counted": true,
+      "leader": "bailey",
+      "updated": "2026-11-04T03:18:03Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -188326,7 +189323,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 80,
+      "precincts": 80,
+      "total": 74092,
+      "candidates": [
+       {
+        "name": "Linda Cothiere",
+        "party": null,
+        "pct": 51.68,
+        "votes": 38290,
+        "person": "cothiere"
+       },
+       {
+        "name": "Katrina Wilson",
+        "party": null,
+        "pct": 48.32,
+        "votes": 35802,
+        "person": "wilson"
+       }
+      ],
+      "counted": true,
+      "leader": "cothiere",
+      "updated": "2026-11-04T03:18:11Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -188441,7 +189464,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 55,
+      "precincts": 55,
+      "total": 44979,
+      "candidates": [
+       {
+        "name": "Vicki L. Lopez",
+        "party": null,
+        "pct": 60.58,
+        "votes": 27250,
+        "person": "lopez"
+       },
+       {
+        "name": "Rob Piper",
+        "party": null,
+        "pct": 39.42,
+        "votes": 17729,
+        "person": "piper"
+       }
+      ],
+      "counted": true,
+      "leader": "lopez",
+      "updated": "2026-11-04T03:18:11Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -228814,7 +229863,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 177,
+      "precincts": 177,
+      "total": 196467,
+      "candidates": [
+       {
+        "name": "Omar Arroyo",
+        "party": "REP",
+        "pct": 87.98,
+        "votes": 172844,
+        "person": "arroyo"
+       },
+       {
+        "name": "Write-in",
+        "party": null,
+        "pct": 12.02,
+        "votes": 23623,
+        "person": null
+       }
+      ],
+      "counted": true,
+      "leader": "arroyo",
+      "updated": "2026-11-04T03:18:15Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -228828,7 +229903,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 177,
+      "precincts": 177,
+      "total": 228438,
+      "candidates": [
+       {
+        "name": "Kate Wallace",
+        "party": null,
+        "pct": 53.39,
+        "votes": 121957,
+        "person": "wallace"
+       },
+       {
+        "name": "Victor Sims",
+        "party": null,
+        "pct": 46.61,
+        "votes": 106481,
+        "person": "sims"
+       }
+      ],
+      "counted": true,
+      "leader": "wallace",
+      "updated": "2026-11-04T03:18:15Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -235191,7 +236292,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 9,
+      "precincts": 9,
+      "total": 28877,
+      "candidates": [
+       {
+        "name": "Tammie McClafferty",
+        "party": null,
+        "pct": 60.82,
+        "votes": 17563,
+        "person": null
+       },
+       {
+        "name": "Jillian Tozer",
+        "party": null,
+        "pct": 39.18,
+        "votes": 11314,
+        "person": null
+       }
+      ],
+      "counted": true,
+      "leader": null,
+      "updated": "2026-11-04T03:18:18Z",
+      "source": "enr-2026g"
+     }
     }
    ],
    "votes": [],
@@ -243953,7 +245080,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 41,
+      "precincts": 41,
+      "total": 66916,
+      "candidates": [
+       {
+        "name": "Marie Locklin",
+        "party": null,
+        "pct": 52.48,
+        "votes": 35115,
+        "person": "locklin"
+       },
+       {
+        "name": "Jill Broxson Teston",
+        "party": null,
+        "pct": 47.52,
+        "votes": 31801,
+        "person": "teston"
+       }
+      ],
+      "counted": true,
+      "leader": "locklin",
+      "updated": "2026-11-04T03:18:20Z",
+      "source": "enr-2026g"
+     }
     }
    ],
    "votes": [],
@@ -249414,7 +250567,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 26,
+      "precincts": 26,
+      "total": 48302,
+      "candidates": [
+       {
+        "name": "Jim DeNiro",
+        "party": "REP",
+        "pct": 56.25,
+        "votes": 27170,
+        "person": "deniro"
+       },
+       {
+        "name": "Julie London",
+        "party": "DEM",
+        "pct": 43.75,
+        "votes": 21132,
+        "person": "london"
+       }
+      ],
+      "counted": true,
+      "leader": "deniro",
+      "updated": "2026-11-04T03:18:21Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -249428,7 +250607,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 98,
+      "precincts": 98,
+      "total": 196930,
+      "candidates": [
+       {
+        "name": "Heidi Brandt",
+        "party": null,
+        "pct": 56.5,
+        "votes": 111274,
+        "person": "brandt"
+       },
+       {
+        "name": "Jimmy Glover",
+        "party": null,
+        "pct": 43.5,
+        "votes": 85656,
+        "person": "glover"
+       }
+      ],
+      "counted": true,
+      "leader": "brandt",
+      "updated": "2026-11-04T03:18:21Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -253254,7 +254459,33 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 82,
+      "precincts": 82,
+      "total": 191709,
+      "candidates": [
+       {
+        "name": "DEM Charline Lorraine Santos",
+        "party": "DEM",
+        "pct": 51.38,
+        "votes": 98502,
+        "person": "santos"
+       },
+       {
+        "name": "REP Amy Lockhart",
+        "party": "REP",
+        "pct": 48.62,
+        "votes": 93207,
+        "person": "amylockhart"
+       }
+      ],
+      "counted": true,
+      "leader": "santos",
+      "updated": "2026-11-04T03:18:22Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -269078,7 +270309,40 @@
      "sources": [
       "soe-vf"
      ],
-     "onNovBallot": true
+     "onNovBallot": true,
+     "results": {
+      "status": "unofficial",
+      "reported": 12,
+      "precincts": 12,
+      "total": 15008,
+      "candidates": [
+       {
+        "name": "REP Carrie Hughes",
+        "party": "REP",
+        "pct": 69.89,
+        "votes": 10489,
+        "person": "hughes"
+       },
+       {
+        "name": "DEM Beverly Keister",
+        "party": "DEM",
+        "pct": 28.44,
+        "votes": 4269,
+        "person": "keister"
+       },
+       {
+        "name": "NPA Patricia Sue Dyszer",
+        "party": "NPA",
+        "pct": 1.67,
+        "votes": 250,
+        "person": "dyszer"
+       }
+      ],
+      "counted": true,
+      "leader": "hughes",
+      "updated": "2026-11-04T03:18:24Z",
+      "source": "enr-2026g"
+     }
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",

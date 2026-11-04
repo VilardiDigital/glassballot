@@ -1,7 +1,7 @@
 {
  "county": "putnam",
  "url": "https://enr.electionsfl.org/PUT/4081/Summary/",
- "pulledAt": "2026-11-04T03:15:06Z",
+ "pulledAt": "2026-11-04T03:18:16Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,7 +9,26 @@
    "office": "Board of County Commissioners, District 4",
    "reported": 37,
    "precincts": 37,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Larry Harvey",
+     "party": "REP",
+     "pct": 64.4,
+     "votes": 16909
+    },
+    {
+     "name": "Joshua Florence",
+     "party": "DEM",
+     "pct": 31.24,
+     "votes": 8202
+    },
+    {
+     "name": "Ron Burckhard",
+     "party": "NPA",
+     "pct": 4.36,
+     "votes": 1144
+    }
+   ]
   }
  ]
 }

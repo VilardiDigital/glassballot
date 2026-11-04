@@ -1,7 +1,7 @@
 {
  "county": "jefferson",
  "url": "https://enr.electionsfl.org/JEF/4115/Summary/",
- "pulledAt": "2026-11-04T03:14:34Z",
+ "pulledAt": "2026-11-04T03:17:59Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,13 +9,39 @@
    "office": "Board of County Commissioners - District 4",
    "reported": 3,
    "precincts": 3,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Austin Hosford",
+     "party": "REP",
+     "pct": 62.88,
+     "votes": 1108
+    },
+    {
+     "name": "Lois Howell-Hunter",
+     "party": "DEM",
+     "pct": 37.12,
+     "votes": 654
+    }
+   ]
   },
   {
    "office": "School Board Member - District 2",
    "reported": 2,
    "precincts": 2,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Jamia Bradley",
+     "party": null,
+     "pct": 60.3,
+     "votes": 612
+    },
+    {
+     "name": "Donnie Burdick",
+     "party": null,
+     "pct": 39.7,
+     "votes": 403
+    }
+   ]
   }
  ]
 }

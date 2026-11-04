@@ -1,7 +1,7 @@
 {
  "county": "lake",
  "url": "https://enr.electionsfl.org/LAK/4079/Summary/",
- "pulledAt": "2026-11-04T03:14:37Z",
+ "pulledAt": "2026-11-04T03:18:01Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,19 +9,64 @@
    "office": "County Commissioner District 2",
    "reported": 92,
    "precincts": 92,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Sean M. Parks",
+     "party": "REP",
+     "pct": 88.45,
+     "votes": 123125
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 11.55,
+     "votes": 16077
+    }
+   ]
   },
   {
    "office": "County Commissioner District 4",
    "reported": 92,
    "precincts": 92,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Leslie Campione",
+     "party": "REP",
+     "pct": 58.33,
+     "votes": 101148
+    },
+    {
+     "name": "Egor Emery",
+     "party": "DEM",
+     "pct": 41.38,
+     "votes": 71751
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.29,
+     "votes": 511
+    }
+   ]
   },
   {
    "office": "School Board, District 1",
    "reported": 92,
    "precincts": 92,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Pat Kelley",
+     "party": "REP",
+     "pct": 91.27,
+     "votes": 119990
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 8.73,
+     "votes": 11472
+    }
+   ]
   }
  ]
 }

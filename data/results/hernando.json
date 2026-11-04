@@ -1,7 +1,7 @@
 {
  "county": "hernando",
  "url": "https://enr.electionsfl.org/HER/4106/Summary/",
- "pulledAt": "2026-11-04T03:14:26Z",
+ "pulledAt": "2026-11-04T03:17:55Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,13 +9,39 @@
    "office": "County Commissioner, District 4",
    "reported": 32,
    "precincts": 32,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Jeff Holcomb",
+     "party": "REP",
+     "pct": 88.2,
+     "votes": 58118
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 11.8,
+     "votes": 7775
+    }
+   ]
   },
   {
    "office": "School Board, District 5",
    "reported": 32,
    "precincts": 32,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Kara Champion",
+     "party": null,
+     "pct": 54.1,
+     "votes": 39543
+    },
+    {
+     "name": "Susan Duval",
+     "party": null,
+     "pct": 45.9,
+     "votes": 33544
+    }
+   ]
   }
  ]
 }

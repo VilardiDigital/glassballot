@@ -1,7 +1,7 @@
 {
  "county": "liberty",
  "url": "https://enr.electionsfl.org/LIB/4098/Summary/",
- "pulledAt": "2026-11-04T03:14:41Z",
+ "pulledAt": "2026-11-04T03:18:03Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,7 +9,20 @@
    "office": "County Commissioner, District 2",
    "reported": 8,
    "precincts": 8,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "REP Andy Bailey",
+     "party": "REP",
+     "pct": 66.86,
+     "votes": 1761
+    },
+    {
+     "name": "DEM Jerome Flowers",
+     "party": "DEM",
+     "pct": 33.14,
+     "votes": 873
+    }
+   ]
   }
  ]
 }

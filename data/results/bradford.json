@@ -1,7 +1,7 @@
 {
  "county": "bradford",
  "url": "https://enr.electionsfl.org/BRA/4113/Summary/",
- "pulledAt": "2026-11-04T03:14:03Z",
+ "pulledAt": "2026-11-04T03:17:42Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,7 +9,20 @@
    "office": "County Commissioner District 2",
    "reported": 2,
    "precincts": 2,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "REP Jason Bennett",
+     "party": "REP",
+     "pct": 88.69,
+     "votes": 1717
+    },
+    {
+     "name": "DEM Jenna Talleda",
+     "party": "DEM",
+     "pct": 11.31,
+     "votes": 219
+    }
+   ]
   }
  ]
 }

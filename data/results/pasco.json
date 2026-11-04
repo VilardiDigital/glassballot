@@ -1,7 +1,7 @@
 {
  "county": "pasco",
  "url": "https://enr.electionsfl.org/PAS/4085/Summary/",
- "pulledAt": "2026-11-04T03:15:02Z",
+ "pulledAt": "2026-11-04T03:18:14Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,19 +9,58 @@
    "office": "County Commissioner District 2",
    "reported": 122,
    "precincts": 122,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Seth Weightman",
+     "party": "REP",
+     "pct": 55.43,
+     "votes": 130428
+    },
+    {
+     "name": "Stephanie C. Vazquez",
+     "party": "DEM",
+     "pct": 44.57,
+     "votes": 104870
+    }
+   ]
   },
   {
    "office": "School Board Member District 1",
    "reported": 122,
    "precincts": 122,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Gino Collura",
+     "party": null,
+     "pct": 48.15,
+     "votes": 100731
+    },
+    {
+     "name": "Kimberly D. Coward",
+     "party": null,
+     "pct": 51.85,
+     "votes": 108465
+    }
+   ]
   },
   {
    "office": "School Board Member District 3",
    "reported": 122,
    "precincts": 122,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Matt Geiger",
+     "party": null,
+     "pct": 58.35,
+     "votes": 121397
+    },
+    {
+     "name": "Mollyana Ward",
+     "party": null,
+     "pct": 41.65,
+     "votes": 86639
+    }
+   ]
   }
  ]
 }

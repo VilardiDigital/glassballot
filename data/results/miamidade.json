@@ -1,7 +1,7 @@
 {
  "county": "miamidade",
  "url": "https://enr.electionsfl.org/DAD/4087/Summary/",
- "pulledAt": "2026-11-04T03:14:55Z",
+ "pulledAt": "2026-11-04T03:18:11Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,13 +9,39 @@
    "office": "County Commissioner District 5",
    "reported": 55,
    "precincts": 55,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Vicki L. Lopez",
+     "party": null,
+     "pct": 60.58,
+     "votes": 27250
+    },
+    {
+     "name": "Rob Piper",
+     "party": null,
+     "pct": 39.42,
+     "votes": 17729
+    }
+   ]
   },
   {
    "office": "School Board Member District 1",
    "reported": 80,
    "precincts": 80,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Linda Cothiere",
+     "party": null,
+     "pct": 51.68,
+     "votes": 38290
+    },
+    {
+     "name": "Katrina Wilson",
+     "party": null,
+     "pct": 48.32,
+     "votes": 35802
+    }
+   ]
   }
  ]
 }

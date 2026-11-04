@@ -1,7 +1,7 @@
 {
  "county": "stjohns",
  "url": "https://enr.electionsfl.org/STJ/4082/Summary/",
- "pulledAt": "2026-11-04T03:15:09Z",
+ "pulledAt": "2026-11-04T03:18:18Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,7 +9,20 @@
    "office": "School Board Member District 4",
    "reported": 9,
    "precincts": 9,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Tammie McClafferty",
+     "party": null,
+     "pct": 60.82,
+     "votes": 17563
+    },
+    {
+     "name": "Jillian Tozer",
+     "party": null,
+     "pct": 39.18,
+     "votes": 11314
+    }
+   ]
   }
  ]
 }

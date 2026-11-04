@@ -1,7 +1,7 @@
 {
  "county": "walton",
  "url": "https://enr.electionsfl.org/WAL/4091/Summary/",
- "pulledAt": "2026-11-04T03:15:21Z",
+ "pulledAt": "2026-11-04T03:18:25Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,13 +9,39 @@
    "office": "County Commissioner",
    "reported": 22,
    "precincts": 22,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "REP Warren Whitaker",
+     "party": "REP",
+     "pct": 96.061,
+     "votes": 28704
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 3.939,
+     "votes": 1177
+    }
+   ]
   },
   {
    "office": "County Commissioner",
    "reported": 22,
    "precincts": 22,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "REP Jim Bagby",
+     "party": "REP",
+     "pct": 96.032,
+     "votes": 28484
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 3.968,
+     "votes": 1177
+    }
+   ]
   }
  ]
 }

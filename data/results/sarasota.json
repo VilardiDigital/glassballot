@@ -1,7 +1,7 @@
 {
  "county": "sarasota",
  "url": "https://enr.electionsfl.org/SAR/4105/Summary/",
- "pulledAt": "2026-11-04T03:15:14Z",
+ "pulledAt": "2026-11-04T03:18:21Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,13 +9,39 @@
    "office": "Board of County Commissioners District 4",
    "reported": 26,
    "precincts": 26,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Jim DeNiro",
+     "party": "REP",
+     "pct": 56.25,
+     "votes": 27170
+    },
+    {
+     "name": "Julie London",
+     "party": "DEM",
+     "pct": 43.75,
+     "votes": 21132
+    }
+   ]
   },
   {
    "office": "School Board Member District 1",
    "reported": 98,
    "precincts": 98,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Heidi Brandt",
+     "party": null,
+     "pct": 56.5,
+     "votes": 111274
+    },
+    {
+     "name": "Jimmy Glover",
+     "party": null,
+     "pct": 43.5,
+     "votes": 85656
+    }
+   ]
   }
  ]
 }

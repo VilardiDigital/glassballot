@@ -1,7 +1,7 @@
 {
  "county": "hillsborough",
  "url": "https://enr.electionsfl.org/HIL/4074/Summary/",
- "pulledAt": "2026-11-04T03:14:29Z",
+ "pulledAt": "2026-11-04T03:17:56Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,37 +9,115 @@
    "office": "Board of County Commissioners District 1",
    "reported": 111,
    "precincts": 111,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Jackie Toledo",
+     "party": "REP",
+     "pct": 44.33,
+     "votes": 52613
+    },
+    {
+     "name": "Harry Cohen",
+     "party": "DEM",
+     "pct": 55.67,
+     "votes": 66066
+    }
+   ]
   },
   {
    "office": "Board of County Commissioners District 3",
    "reported": 96,
    "precincts": 96,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Luiz F. F. Garcia",
+     "party": "REP",
+     "pct": 27.56,
+     "votes": 27090
+    },
+    {
+     "name": "Gwen Myers",
+     "party": "DEM",
+     "pct": 72.44,
+     "votes": 71204
+    }
+   ]
   },
   {
    "office": "Board of County Commissioners District 5",
    "reported": 446,
    "precincts": 446,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Stacy Hahn",
+     "party": "REP",
+     "pct": 45.14,
+     "votes": 229491
+    },
+    {
+     "name": "Neil Manimala",
+     "party": "DEM",
+     "pct": 54.86,
+     "votes": 278855
+    }
+   ]
   },
   {
    "office": "Board of County Commissioners District 7",
    "reported": 446,
    "precincts": 446,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Joshua Wostal",
+     "party": "REP",
+     "pct": 43.79,
+     "votes": 222112
+    },
+    {
+     "name": "Aileen Rodriguez",
+     "party": "DEM",
+     "pct": 56.21,
+     "votes": 285081
+    }
+   ]
   },
   {
    "office": "School Board Member District 2",
    "reported": 92,
    "precincts": 92,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Brittany Lyssy",
+     "party": null,
+     "pct": 47.83,
+     "votes": 52730
+    },
+    {
+     "name": "Daniela Simic",
+     "party": null,
+     "pct": 52.17,
+     "votes": 57508
+    }
+   ]
   },
   {
    "office": "School Board Member District 6",
    "reported": 446,
    "precincts": 446,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Kenneth \"Ken\" Gay",
+     "party": null,
+     "pct": 43.1,
+     "votes": 200762
+    },
+    {
+     "name": "Karen Perez",
+     "party": null,
+     "pct": 56.9,
+     "votes": 265068
+    }
+   ]
   }
  ]
 }
