@@ -1,51 +1,51 @@
 {
- "pulledAt": "2026-11-03T17:16:42Z",
+ "pulledAt": "2026-11-04T04:18:26Z",
  "totals": {
   "meetings": 24,
-  "meetingsWithRollCalls": 21,
-  "items": 362,
-  "rollCalls": 354,
+  "meetingsWithRollCalls": 22,
+  "items": 378,
+  "rollCalls": 370,
   "splitRollCalls": 17
  },
  "stats": {
   "bryant": {
-   "aye": 327,
+   "aye": 343,
    "nay": 7,
    "absent": 5,
    "abstain": 1,
-   "meetingsHeld": 20,
+   "meetingsHeld": 21,
    "meetingsMissed": 0
   },
   "zalak": {
-   "aye": 320,
+   "aye": 336,
    "nay": 6,
    "absent": 1,
    "abstain": 0,
-   "meetingsHeld": 19,
+   "meetingsHeld": 20,
    "meetingsMissed": 0
   },
   "curry": {
-   "aye": 337,
+   "aye": 353,
    "nay": 5,
    "absent": 2,
    "abstain": 0,
-   "meetingsHeld": 21,
+   "meetingsHeld": 22,
    "meetingsMissed": 1
   },
   "stone": {
-   "aye": 346,
+   "aye": 362,
    "nay": 3,
    "absent": 5,
    "abstain": 0,
-   "meetingsHeld": 21,
+   "meetingsHeld": 22,
    "meetingsMissed": 0
   },
   "mcclain": {
-   "aye": 347,
+   "aye": 363,
    "nay": 6,
    "absent": 1,
    "abstain": 0,
-   "meetingsHeld": 21,
+   "meetingsHeld": 22,
    "meetingsMissed": 0
   }
  },

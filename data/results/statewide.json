@@ -8,19 +8,19 @@
     {
      "name": "Byron Donalds and Bryan Avila",
      "party": "REP",
-     "votes": 4123875,
+     "votes": 4123638,
      "pct": 50.05
     },
     {
      "name": "David Jolly and Gwen Graham",
      "party": "DEM",
-     "votes": 4011045,
+     "votes": 4010850,
      "pct": 48.68
     },
     {
      "name": "Scott Eckhard Jewett and Nicole Skelly",
      "party": "LPF",
-     "votes": 37739,
+     "votes": 37730,
      "pct": 0.46
     },
     {
@@ -66,7 +66,7 @@
      "pct": 0.0
     }
    ],
-   "total": 8239288,
+   "total": 8238821,
    "threshold": null,
    "url": "https://floridaelectionwatch.gov/StateOffices/Governor"
   },
@@ -77,17 +77,17 @@
     {
      "name": "James Uthmeier",
      "party": "REP",
-     "votes": 4169461,
+     "votes": 4169199,
      "pct": 50.97
     },
     {
      "name": "Jose Javier Rodriguez",
      "party": "DEM",
-     "votes": 4010866,
+     "votes": 4010666,
      "pct": 49.03
     }
    ],
-   "total": 8180327,
+   "total": 8179865,
    "threshold": null,
    "url": "https://floridaelectionwatch.gov/StateOffices/AttorneyGeneral"
   },
@@ -175,17 +175,17 @@
     {
      "name": "Yes for Approval",
      "party": null,
-     "votes": 3162674,
+     "votes": 3162500,
      "pct": 40.91
     },
     {
      "name": "No for Rejection",
      "party": null,
-     "votes": 4567965,
+     "votes": 4567716,
      "pct": 59.09
     }
    ],
-   "total": 7730639,
+   "total": 7730216,
    "threshold": 60,
    "url": "https://floridaelectionwatch.gov/Amendments"
   },
@@ -196,17 +196,17 @@
     {
      "name": "Yes for Approval",
      "party": null,
-     "votes": 4532088,
+     "votes": 4531817,
      "pct": 58.23
     },
     {
      "name": "No for Rejection",
      "party": null,
-     "votes": 3250585,
+     "votes": 3250430,
      "pct": 41.77
     }
    ],
-   "total": 7782673,
+   "total": 7782247,
    "threshold": 60,
    "url": "https://floridaelectionwatch.gov/Amendments"
   },
@@ -217,17 +217,17 @@
     {
      "name": "Yes for Approval",
      "party": null,
-     "votes": 4906026,
+     "votes": 4905755,
      "pct": 62.0
     },
     {
      "name": "No for Rejection",
      "party": null,
-     "votes": 3006530,
+     "votes": 3006370,
      "pct": 38.0
     }
    ],
-   "total": 7912556,
+   "total": 7912125,
    "threshold": 60,
    "url": "https://floridaelectionwatch.gov/Amendments"
   }
@@ -328,5 +328,5 @@
    "Washington": 100.0
   }
  },
- "pulledAt": "2026-11-04T04:25:32Z"
+ "pulledAt": "2026-11-04T04:14:06Z"
 }

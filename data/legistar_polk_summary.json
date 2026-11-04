@@ -1,51 +1,51 @@
 {
- "pulledAt": "2026-11-03T17:18:00Z",
+ "pulledAt": "2026-11-04T04:20:44Z",
  "totals": {
   "meetings": 21,
-  "meetingsWithRollCalls": 20,
-  "items": 1027,
-  "rollCalls": 1025,
+  "meetingsWithRollCalls": 21,
+  "items": 1091,
+  "rollCalls": 1089,
   "splitRollCalls": 11
  },
  "stats": {
   "troutman": {
-   "aye": 1010,
+   "aye": 1074,
    "nay": 1,
    "absent": 14,
    "abstain": 0,
-   "meetingsHeld": 20,
+   "meetingsHeld": 21,
    "meetingsMissed": 1
   },
   "wilson": {
-   "aye": 1021,
+   "aye": 1085,
    "nay": 2,
    "absent": 1,
    "abstain": 1,
-   "meetingsHeld": 20,
+   "meetingsHeld": 21,
    "meetingsMissed": 0
   },
   "braswell": {
-   "aye": 1022,
+   "aye": 1086,
    "nay": 3,
    "absent": 0,
    "abstain": 0,
-   "meetingsHeld": 20,
+   "meetingsHeld": 21,
    "meetingsMissed": 0
   },
   "santiago": {
-   "aye": 969,
+   "aye": 1033,
    "nay": 4,
    "absent": 52,
    "abstain": 0,
-   "meetingsHeld": 20,
+   "meetingsHeld": 21,
    "meetingsMissed": 1
   },
   "scott": {
-   "aye": 1020,
+   "aye": 1084,
    "nay": 5,
    "absent": 0,
    "abstain": 0,
-   "meetingsHeld": 20,
+   "meetingsHeld": 21,
    "meetingsMissed": 0
   }
  },
