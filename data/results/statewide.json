@@ -77,17 +77,17 @@
     {
      "name": "James Uthmeier",
      "party": "REP",
-     "votes": 4162751,
-     "pct": 50.99
+     "votes": 4163720,
+     "pct": 50.98
     },
     {
      "name": "Jose Javier Rodriguez",
      "party": "DEM",
-     "votes": 4001120,
-     "pct": 49.01
+     "votes": 4003624,
+     "pct": 49.02
     }
    ],
-   "total": 8163871,
+   "total": 8167344,
    "threshold": null,
    "url": "https://floridaelectionwatch.gov/StateOffices/AttorneyGeneral"
   },
@@ -328,5 +328,5 @@
    "Washington": 100.0
   }
  },
- "pulledAt": "2026-11-04T03:35:29Z"
+ "pulledAt": "2026-11-04T03:45:30Z"
 }
