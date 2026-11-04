@@ -785,7 +785,7 @@ views.florida = () => {
       ${SW.races.map(r => `<a class="race" href="/florida/${esc(r.id)}"><div class="rh"><h3 class="h3" style="font-size:19px">${esc(r.office)}</h3><span class="small muted">Every Florida voter</span></div><div style="padding:12px 16px 0">${swRaceCard(r, false)}</div><span class="go">See the candidates and who's in office now</span></a>`).join("")}
     </section>
     ${SW.retention.length ? `<section class="panel stack-sm" aria-labelledby="rtH"><h2 class="h3" id="rtH">Florida Supreme Court retention</h2><p class="small muted">Voters decide whether each justice stays on the court for another six-year term. A justice stays if more than half vote yes.</p>
-      <ul class="plain stack-sm">${SW.retention.map(q => `<li class="between small"><span>${esc(q.question)}</span><span class="num">Yes ${q.yesPct.toFixed(1)}% · No ${q.noPct.toFixed(1)}%</span></li>`).join("")}</ul></section>` : ""}
+      <ul class="plain stack">${SW.retention.map(q => `<li class="stack-sm small"><div class="between"><b>${esc(q.question)}</b><span class="num">Yes ${q.yesPct.toFixed(1)}% · No ${q.noPct.toFixed(1)}%</span></div>${q.plain ? `<p>${esc(q.plain)}</p>` : ""}</li>`).join("")}</ul></section>` : ""}
     <p class="small"><a href="/">‹ Back to your county ballot</a></p>
   </div>`;
 };

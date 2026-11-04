@@ -180,6 +180,18 @@ def merge() -> dict | None:
     if live:
         sources["fewatch-2026g"] = {"title": "Florida Election Watch: 2026 General Election, unofficial results", "url": live.get("source", BASE),
                                     "publisher": "Florida Department of State, Division of Elections", "tier": 1, "accessed": live.get("pulledAt", "")[:10]}
+    alias = {"agri": "agr", "ussen": "uss", "senate": "uss", "governor": "gov"}
+    for r in research.get("races", []):
+        r["id"] = alias.get(r["id"], r["id"])
+    for m in research.get("measures", []):
+        for k in ("yesMeans", "noMeans"):
+            m[k] = re.sub(r"^\s*A (YES|NO) vote means\s*", "", m.get(k) or "", flags=re.I)
+    for r in research.get("races", []):
+        st = r.get("sitting") or {}
+        if st.get("notes"):
+            st["notes"] = re.sub(r"\s*\((?:source|sources)\s[^)]*\)", "", st["notes"]).strip()
+    rq = [m for m in research.get("measures", []) if not re.match(r"Amendment", m.get("number") or "")]
+    research["measures"] = [m for m in research.get("measures", []) if re.match(r"Amendment", m.get("number") or "")]
     races = []
     for r in research.get("races", []) or [{"id": k, "office": v["name"], "candidates": []} for k, v in live.get("races", {}).items()]:
         res = live.get("races", {}).get(r["id"])
@@ -219,6 +231,10 @@ def merge() -> dict | None:
     retention = [{"question": c["name"], "yesPct": next((x["pct"] for x in c["choices"] if x["name"].lower().startswith("yes")), 0.0),
                   "noPct": next((x["pct"] for x in c["choices"] if x["name"].lower().startswith("no")), 0.0), "total": c["total"], "url": c["url"]}
                  for c in live.get("retention", [])]
+    for q in retention:
+        m = next((m for m in rq if _last(m.get("title", "")).rstrip("?") in q["question"].lower() or any(w in q["question"] for w in (m.get("title") or "").split() if len(w) > 4 and w[0].isupper())), None)
+        if m:
+            q.update({k: m.get(k) for k in ("plain", "yesMeans", "noMeans") if m.get(k)})
     return {"election": "2026-11-03", "updated": live.get("pulledAt"), "status": status,
             "reporting": {"counties": rep.get("counties"), "complete": rep.get("complete")},
             "races": races, "measures": measures, "retention": retention, "sources": sources}

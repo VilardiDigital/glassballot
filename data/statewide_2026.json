@@ -1,0 +1,1151 @@
+{
+ "election": "2026-11-03",
+ "researched": "2026-11-04T03:30:37Z",
+ "sources": {
+  "dos_canlist": {
+   "title": "Candidate Listing for 2026 General Election (all offices), printed 9/2/2026",
+   "url": "https://static.notus.org/f8/62/14694ff54a449d07c620bb1122c3/candidate-listing-florida-division-of-elections-department-of-state.pdf",
+   "publisher": "Florida Division of Elections (PDF copy hosted by NOTUS)",
+   "tier": 1
+  },
+  "dos_gibson": {
+   "title": "Candidate Tracking: Kyle \"KC\" Gibson, Commissioner of Agriculture",
+   "url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=83588",
+   "publisher": "Florida Division of Elections",
+   "tier": 1
+  },
+  "leon_ballot": {
+   "title": "General Election Ballot Questions (2026)",
+   "url": "https://www.leonvotes.gov/Voting/Election-Ready/General-Election-Ballot-Questions",
+   "publisher": "Leon County Supervisor of Elections",
+   "tier": 1
+  },
+  "brevard_ballot": {
+   "title": "2026 Amendments and Referenda",
+   "url": "https://www.votebrevard.gov/Election-Information/2026-Amendments-and-Referenda",
+   "publisher": "Brevard County Supervisor of Elections",
+   "tier": 1
+  },
+  "lee_memo": {
+   "title": "2026 statewide amendments memo",
+   "url": "https://www.lee.vote/DocumentCenter/View/1040",
+   "publisher": "Lee County Supervisor of Elections",
+   "tier": 1
+  },
+  "miamidade_contents": {
+   "title": "2026 Ballot Contents (as of Aug. 27, 2026)",
+   "url": "https://www.miamidade.gov/elections/library/qualifying-handbook/2026-ballot-contents.pdf",
+   "publisher": "Miami-Dade County Elections Department",
+   "tier": 1
+  },
+  "hjr5019_er": {
+   "title": "HJR 5019 (2025) enrolled text",
+   "url": "https://flsenate.gov/Session/Bill/2025/5019/BillText/er/PDF",
+   "publisher": "The Florida Senate",
+   "tier": 1
+  },
+  "hjr5019_summary": {
+   "title": "HJR 5019 (2025) bill summary",
+   "url": "https://flsenate.gov/Committees/BillSummaries/2025/html/5019",
+   "publisher": "The Florida Senate",
+   "tier": 1
+  },
+  "hjr1215_analysis": {
+   "title": "HJR 1215 (2025) final bill analysis",
+   "url": "https://flsenate.gov/Session/Bill/2025/1215/Analyses/h1215z.WMC.PDF",
+   "publisher": "Florida House of Representatives (via flsenate.gov)",
+   "tier": 1
+  },
+  "edr_rec_0710": {
+   "title": "Revenue Estimating Conference, Ad Valorem, CS/HJR 1-F, consensus estimate 07/10/2026",
+   "url": "https://edr.state.fl.us/Content/conferences/revenueimpact/archives/2026F/_pdf/impact0710.pdf",
+   "publisher": "Florida Office of Economic and Demographic Research",
+   "tier": 1
+  },
+  "edr_ca": {
+   "title": "Constitutional Amendments: Financial Impact Estimating Conference",
+   "url": "https://edr.state.fl.us/Content/constitutional-amendments/",
+   "publisher": "Florida Office of Economic and Demographic Research",
+   "tier": 1
+  },
+  "fl_const_iv5": {
+   "title": "Florida Constitution Art. IV, Sec. 5",
+   "url": "https://codes.findlaw.com/fl/florida-constitution1968-revision/fl-const-art-4-sect-5/",
+   "publisher": "FindLaw (text of Florida Constitution)",
+   "tier": 1
+  },
+  "flgov_contact": {
+   "title": "Contact Governor",
+   "url": "https://flgov.com/contact-governor",
+   "publisher": "Executive Office of the Governor",
+   "tier": 1
+  },
+  "ag_contact": {
+   "title": "Contact Us",
+   "url": "https://www.myfloridalegal.com/node/1010",
+   "publisher": "Office of the Attorney General of Florida",
+   "tier": 1
+  },
+  "cfo_meet": {
+   "title": "Meet the CFO",
+   "url": "https://www.myfloridacfo.com/sitePages/agency/cfo.aspx",
+   "publisher": "Florida Department of Financial Services",
+   "tier": 1
+  },
+  "hernando_state": {
+   "title": "Guide to Government Officials: State Offices",
+   "url": "https://hernandovotes.gov/Voters/Guide-to-Government-Officials/State-Offices",
+   "publisher": "Hernando County Supervisor of Elections",
+   "tier": 1
+  },
+  "hernando_simpson": {
+   "title": "Wilton Simpson (R) - 2026 directory entry",
+   "url": "https://www.hernandovotes.gov/directory.aspx?EID=17",
+   "publisher": "Hernando County Supervisor of Elections",
+   "tier": 1
+  },
+  "hernando_uthmeier": {
+   "title": "James Uthmeier directory entry",
+   "url": "https://www.hernandovotes.gov/m/directory/employee?eid=15",
+   "publisher": "Hernando County Supervisor of Elections",
+   "tier": 1
+  },
+  "moody_senate": {
+   "title": "Senator Ashley Moody contact/offices",
+   "url": "https://www.moody.senate.gov/?p=341",
+   "publisher": "Office of U.S. Senator Ashley Moody",
+   "tier": 1
+  },
+  "c_donalds_afford": {
+   "title": "Affordability - Byron Donalds for Governor",
+   "url": "https://byrondonalds.com/issues/affordability/",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_donalds_econ": {
+   "title": "Economy - Byron Donalds for Governor",
+   "url": "https://byrondonalds.com/issues/economy/",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_donalds_health": {
+   "title": "Healthcare - Byron Donalds for Governor",
+   "url": "https://byrondonalds.com/issues/healthcare/",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_donalds_edu": {
+   "title": "Education - Byron Donalds for Governor",
+   "url": "https://byrondonalds.com/issues/education/",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_donalds_law": {
+   "title": "Law and Order - Byron Donalds for Governor",
+   "url": "https://byrondonalds.com/issues/law-and-order/",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_jolly_afford": {
+   "title": "Affordability - David Jolly for Governor",
+   "url": "https://davidjolly.com/issues/affordability/",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_jolly_health": {
+   "title": "Health Care - David Jolly for Governor",
+   "url": "https://davidjolly.com/issues/health-care/",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_jolly_edu": {
+   "title": "Public Education - David Jolly for Governor",
+   "url": "https://davidjolly.com/issues/public-education/",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_jolly_dc": {
+   "title": "Data Centers - David Jolly for Governor",
+   "url": "https://davidjolly.com/issues/data-centers/",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_jolly_ethics": {
+   "title": "Ethics Reform - David Jolly for Governor",
+   "url": "https://davidjolly.com/issues/ethics-reform/",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_jewett": {
+   "title": "Our Mission - Scott Jewett",
+   "url": "https://scottjewett.com/our-mission/",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_abrams": {
+   "title": "Dean Abrams for Governor",
+   "url": "https://deanabrams.com/",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_datto": {
+   "title": "Dr. Jeff Datto - NPA Candidate for Governor of Florida",
+   "url": "https://drjeffdatto.com/",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_dimanche": {
+   "title": "No MOE Corruption - Moliere Dimanche",
+   "url": "https://nomoecorruption.com/",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_russo": {
+   "title": "Russo-Rodriguez 2026",
+   "url": "https://russo2026.com/",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_uthmeier": {
+   "title": "About - James for Florida",
+   "url": "https://jamesforfl.com/about/",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_jjr": {
+   "title": "Priorities - Jose Javier Rodriguez for Attorney General",
+   "url": "https://www.jjr.vote/priorities",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_ingoglia": {
+   "title": "On the Issues - Blaise for Florida",
+   "url": "https://blaiseforflorida.com/?p=792",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_taddeo": {
+   "title": "The Issues - Annette Taddeo for Florida CFO",
+   "url": "https://annettetaddeo.com/issues/",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_simpson": {
+   "title": "Wilton Simpson, Agriculture Commissioner",
+   "url": "https://wiltonsimpson.com/",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_atkins": {
+   "title": "About the issues - Joey for Florida",
+   "url": "https://www.joeyforflorida.com/about-the-issues",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_moody": {
+   "title": "About - Ashley Moody for U.S. Senate",
+   "url": "https://ashleymoody.com/about/",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_nixon": {
+   "title": "Priorities - Angie Nixon for Senate",
+   "url": "https://angienixon.com/priorities/",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_gillespie": {
+   "title": "Neil J. Gillespie for U.S. Senate",
+   "url": "https://neilgillespie4senate.blogspot.com/",
+   "publisher": "Candidate campaign website",
+   "tier": 2
+  },
+  "c_burkett_pr": {
+   "title": "Four-Time Surfside Mayor Charles W. Burkett Announces Candidacy for Governor (campaign press release)",
+   "url": "https://www.send2press.com/wire/four-time-surfside-mayor-charles-w-burkett-announces-candidacy-for-governor-of-florida-as-a-no-party-affiliation-candidate/",
+   "publisher": "Send2Press Newswire (campaign-issued release)",
+   "tier": 3
+  },
+  "bp_gov": {
+   "title": "Florida gubernatorial election, 2026",
+   "url": "https://ballotpedia.org/Florida_gubernatorial_election,_2026",
+   "publisher": "Ballotpedia",
+   "tier": 3
+  },
+  "bp_exec": {
+   "title": "Florida state executive official elections, 2026",
+   "url": "https://ballotpedia.org/Florida_state_executive_official_elections,_2026",
+   "publisher": "Ballotpedia",
+   "tier": 3
+  },
+  "bp_sen": {
+   "title": "United States Senate special election in Florida, 2026",
+   "url": "https://ballotpedia.org/United_States_Senate_special_election_in_Florida,_2026",
+   "publisher": "Ballotpedia",
+   "tier": 3
+  },
+  "bpn_sen": {
+   "title": "Special election to fill the remainder of Sec. of State Marco Rubio's U.S. Senate term happening in Florida on Nov. 3",
+   "url": "https://news.ballotpedia.org/2026/08/28/special-election-to-fill-the-remainder-of-sec-of-state-marco-rubios-u-s-senate-term-happening-in-florida-on-nov-3/",
+   "publisher": "Ballotpedia News",
+   "tier": 3
+  },
+  "bp_measures": {
+   "title": "Florida 2026 ballot measures",
+   "url": "https://ballotpedia.org/Florida_2026_ballot_measures",
+   "publisher": "Ballotpedia",
+   "tier": 3
+  },
+  "bp_a1": {
+   "title": "Florida Changes to Budget Stabilization Fund Amendment (2026)",
+   "url": "https://ballotpedia.org/Florida_Changes_to_Budget_Stabilization_Fund_Amendment_(2026)",
+   "publisher": "Ballotpedia",
+   "tier": 3
+  },
+  "bp_a2": {
+   "title": "Florida Exempt Tangible Personal Property Used for Agriculture or Agritourism from Property Taxes Amendment (2026)",
+   "url": "https://ballotpedia.org/Florida_Exempt_Tangible_Personal_Property_Used_for_Agriculture_or_Agritourism_from_Property_Taxes_Amendment_(2026)",
+   "publisher": "Ballotpedia",
+   "tier": 3
+  },
+  "bp_scotus": {
+   "title": "Florida Supreme Court elections, 2026",
+   "url": "https://ballotpedia.org/Florida_Supreme_Court_elections,_2026",
+   "publisher": "Ballotpedia",
+   "tier": 3
+  },
+  "news4jax_amend": {
+   "title": "Florida's 3 statewide amendments: here's what your yes or no vote would do",
+   "url": "https://www.news4jax.com/vote-2026/2026/10/27/floridas-3-statewide-amendments-heres-what-your-yes-or-no-vote-would-do/",
+   "publisher": "News4JAX",
+   "tier": 3
+  },
+  "cbs12_a3": {
+   "title": "Fla. AG Uthmeier releases rewritten Amendment 3 ballot language after judge orders changes",
+   "url": "https://cbs12.com/news/local/florida-ag-uthmeier-releases-rewritten-amendment-3-ballot-language-after-judge-orders-changes-property-tax-amendment-save-our-homes-property-tax-exemption-",
+   "publisher": "CBS12",
+   "tier": 3
+  },
+  "flcities_a3": {
+   "title": "Property Tax Legislative Bill Summaries (6.4.26)",
+   "url": "https://www.flcities.com/wp-content/uploads/2026/06/Property-Tax-Legislative-Bill-Summaries-6.4.26.pdf",
+   "publisher": "Florida League of Cities",
+   "tier": 3
+  },
+  "fltrend_a3": {
+   "title": "Taxing Question",
+   "url": "https://www.floridatrend.com/feature/2026/10/10/taxing-question/",
+   "publisher": "Florida Trend",
+   "tier": 3
+  },
+  "clickorlando_initiatives": {
+   "title": "No citizen initiatives on 2026 Florida ballot, including marijuana amendment, state says",
+   "url": "https://www.clickorlando.com/news/florida/2026/02/02/no-citizen-initiatives-on-2026-florida-ballot-including-marijuana-amendment-state-says/",
+   "publisher": "News 6 / ClickOrlando",
+   "tier": 3
+  },
+  "clickorlando_scotus": {
+   "title": "2026 Voter's Guide - Florida Supreme Court justice retention",
+   "url": "https://www.clickorlando.com/voters-guide/2026/10/16/2026-voters-guide-florida-supreme-court-justice-retention/",
+   "publisher": "News 6 / ClickOrlando",
+   "tier": 3
+  },
+  "flbar_muniz": {
+   "title": "Justice Muniz and 22 DCA judges to stand for merit retention",
+   "url": "https://www.floridabar.org/the-florida-bar-news/justice-muniz-and-22-dca-judges-to-stand-for-merit-retention/",
+   "publisher": "The Florida Bar News",
+   "tier": 3
+  },
+  "wlrn_ag": {
+   "title": "What to know about the Florida attorney general race",
+   "url": "https://www.wlrn.org/government-politics/2026-10-23/what-to-know-about-florida-attorney-general-race",
+   "publisher": "WLRN",
+   "tier": 3
+  },
+  "wlrn_lg": {
+   "title": "DeSantis picks state Sen. Jay Collins to be Florida's lieutenant governor",
+   "url": "https://www.wlrn.org/government-politics/2025-08-12/desantis-picks-state-sen-jay-collins-to-be-floridas-lieutenant-governor",
+   "publisher": "WLRN",
+   "tier": 3
+  },
+  "wlrn_cfo_appt": {
+   "title": "DeSantis appoints Senate ally Ingoglia as Florida CFO",
+   "url": "https://www.wlrn.org/government-politics/2025-07-16/desantis-appoints-senate-ally-ingoglia-as-florida-cfo",
+   "publisher": "WLRN",
+   "tier": 3
+  },
+  "wusf_field": {
+   "title": "Donalds and Jolly aren't the only candidates for Florida governor. Here's the rest of the field",
+   "url": "https://www.wusf.org/politics-issues/2026-10-22/donalds-jolly-not-only-candidates-florida-governor-rest-of-field",
+   "publisher": "WUSF",
+   "tier": 3
+  },
+  "hylo_ag": {
+   "title": "More Than Farming: Meet the Candidates for Florida Commissioner of Agriculture",
+   "url": "https://hylonewsmiami.com/2026/10/27/more-than-farming-meet-the-candidates-for-florida-commissioner-of-agriculture/",
+   "publisher": "Hylo News Miami",
+   "tier": 3
+  },
+  "sparkers_gov": {
+   "title": "Who's Running for Florida Governor in the 2026 General Election",
+   "url": "https://www.sparkers-soapbox.com/florida-governor-general-election-2026/",
+   "publisher": "Sparker's Soapbox",
+   "tier": 3
+  }
+ },
+ "notes": [
+  "No citizen-initiative amendments qualified for the 2026 ballot; the Florida Department of State declared on Feb. 1, 2026 that all 22 active proposed initiatives failed to meet the requirements (source clickorlando_initiatives).",
+  "All three amendments were placed on the ballot by the Legislature (source lee_memo; bp_measures).",
+  "Party codes follow the Florida Division of Elections listing: REP, DEM, LPF, NPA, WRI (qualified write-in).",
+  "This file contains no election results."
+ ],
+ "races": [
+  {
+   "id": "gov",
+   "office": "Governor and Lieutenant Governor",
+   "takesOffice": "2027-01-05",
+   "takesOfficeSource": "fl_const_iv5",
+   "takesOfficeNote": "Florida Constitution Art. IV, Sec. 5(a): four-year term begins the first Tuesday after the first Monday in January of the year after the election. In 2027 the first Monday is Jan. 4, so the term begins Tuesday, Jan. 5, 2027.",
+   "sitting": {
+    "name": "Ron DeSantis",
+    "title": "Governor of Florida",
+    "website": "https://www.flgov.com/",
+    "phone": "(850) 717-9337",
+    "address": "Office of Governor Ron DeSantis, The Capitol, 400 S. Monroe St., Tallahassee, FL 32399-0001",
+    "contactUrl": "https://flgov.com/contact-governor",
+    "email": "",
+    "notes": "Not on the 2026 ballot; Art. IV, Sec. 5(b) bars a person who has served more than six years in two consecutive terms from election to the succeeding term. The sitting Lieutenant Governor is Jay Collins, appointed by DeSantis and sworn in Aug. 12, 2025 (source wlrn_lg); Collins sought the Republican nomination for governor and was eliminated in the Aug. 18, 2026 primary (source dos_canlist), so he is not on the general election ballot.",
+    "source": "flgov_contact"
+   },
+   "candidates": [
+    {
+     "id": "gov-donalds",
+     "name": "Byron Donalds",
+     "runningMate": "Bryan Avila",
+     "party": "REP",
+     "incumbent": false,
+     "website": "https://byrondonalds.com/",
+     "positions": [
+      {
+       "text": "Insurance: curb lawsuit abuse, cut state fees when reserves are full, keep Citizens Insurance small, and create an industry-funded online scorecard comparing insurers on price, claim speed and denial rates.",
+       "source": "c_donalds_afford"
+      },
+      {
+       "text": "Permitting and taxes: post business, building and road permits online with enforced deadlines, create a single state permit hub, keep Florida's personal income tax at zero and require a balanced budget every year.",
+       "source": "c_donalds_econ"
+      },
+      {
+       "text": "Health care: require doctors and hospitals to post guaranteed cash prices for the 50 most common tests and procedures, and require insurers to approve common treatments within three days.",
+       "source": "c_donalds_health"
+      },
+      {
+       "text": "Education: phonics-based teacher training and K-2 reading screening, paid apprenticeships through a 'LaunchPad Florida' program, and education funding that follows the student.",
+       "source": "c_donalds_edu"
+      },
+      {
+       "text": "Immigration and crime: mandatory E-Verify for all Florida businesses, end state benefits that he says draw illegal immigration, and have state and local police work with federal agencies to deport noncitizens who commit crimes.",
+       "source": "c_donalds_law"
+      }
+     ]
+    },
+    {
+     "id": "gov-jolly",
+     "name": "David Jolly",
+     "runningMate": "Gwen Graham",
+     "party": "DEM",
+     "incumbent": false,
+     "website": "https://davidjolly.com/",
+     "positions": [
+      {
+       "text": "Insurance and housing costs: create a state catastrophic fund to take natural-disaster risk off private insurers, aiming to lower property and car insurance rates, and offer no-interest state-backed loans to condo associations and owners.",
+       "source": "c_jolly_afford"
+      },
+      {
+       "text": "Health care: expand Medicaid.",
+       "source": "c_jolly_health"
+      },
+      {
+       "text": "Public schools: substantially increase public school funding and teacher pay; require voucher-funded private schools to meet public school standards, bar them from charging extra tuition, and means-test the voucher program.",
+       "source": "c_jolly_edu"
+      },
+      {
+       "text": "Data centers: an immediate moratorium on building hyperscale data centers until environmental, water and community impacts are studied.",
+       "source": "c_jolly_dc"
+      },
+      {
+       "text": "Ethics: campaign finance reform and a broad ethics package focused on transparency.",
+       "source": "c_jolly_ethics"
+      }
+     ]
+    },
+    {
+     "id": "gov-jewett",
+     "name": "Scott Eckhard Jewett",
+     "runningMate": "Nicole Skelly",
+     "party": "LPF",
+     "incumbent": false,
+     "website": "https://scottjewett.com/",
+     "positions": [
+      {
+       "text": "Stop taxing homeowners on their homesteads (the page does not specify a mechanism).",
+       "source": "c_jewett"
+      },
+      {
+       "text": "Address high homeowner insurance premiums (no specific mechanism given).",
+       "source": "c_jewett"
+      },
+      {
+       "text": "Education money should follow the child; parents decide what is best for their children.",
+       "source": "c_jewett"
+      },
+      {
+       "text": "Secure the border and open a lawful path to work, with enforcement focused on criminals and traffickers.",
+       "source": "c_jewett"
+      },
+      {
+       "text": "Smaller government: make the state live on a budget and end waste, fraud and special deals.",
+       "source": "c_jewett"
+      }
+     ]
+    },
+    {
+     "id": "gov-abrams",
+     "name": "Dean Ocean Abrams",
+     "runningMate": "Joe Van Vactor",
+     "party": "NPA",
+     "incumbent": false,
+     "website": "https://deanabrams.com/",
+     "positions": [
+      {
+       "text": "Eliminate property tax on homesteaded homes worth up to twice the county median, and stop corporations from buying up single-family homes.",
+       "source": "c_abrams"
+      },
+      {
+       "text": "Insurance: cap insurer profits, require plain-language rate filings and whole-company accounting, and restore the right to sue over wrongly denied claims.",
+       "source": "c_abrams"
+      },
+      {
+       "text": "Health care: close the coverage gap for about 800,000 Floridians, start bulk drug importation and make care prices public.",
+       "source": "c_abrams"
+      },
+      {
+       "text": "Ban new AI data centers, end their subsidies and special rate deals, and keep residential ratepayers from covering their power costs.",
+       "source": "c_abrams"
+      },
+      {
+       "text": "End warrantless mass tracking by license plate reader networks; suspend state gas taxes during price spikes and remove tolls once a road's bonds are retired.",
+       "source": "c_abrams"
+      }
+     ]
+    },
+    {
+     "id": "gov-burkett",
+     "name": "Charles Burkett",
+     "runningMate": "Ruben A. Coto",
+     "party": "NPA",
+     "incumbent": false,
+     "website": "https://burkettforgov.com/",
+     "positions": [
+      {
+       "text": "Eliminate property taxes on homesteaded primary residences and rewrite property and auto insurance laws.",
+       "source": "c_burkett_pr"
+      },
+      {
+       "text": "Cut tolls, express lane fees and the gas tax, and reduce permit fees for home repairs.",
+       "source": "c_burkett_pr"
+      },
+      {
+       "text": "Repeal the Live Local Act and similar laws and limit density in historic communities.",
+       "source": "c_burkett_pr"
+      },
+      {
+       "text": "Cap terms for government positions paying over $250,000 and limit pensions and government travel.",
+       "source": "c_burkett_pr"
+      }
+     ],
+     "notes": "The campaign website could not be retrieved during research; positions come from the campaign's own announcement press release, not the website."
+    },
+    {
+     "id": "gov-datto",
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+     "runningMate": "Juan Santana",
+     "party": "NPA",
+     "incumbent": false,
+     "website": "https://drjeffdatto.com/",
+     "positions": [
+      {
+       "text": "Affordability and fair taxes: protect essential public services and make sure renters share in property-tax relief.",
+       "source": "c_datto"
+      },
+      {
+       "text": "Education: strong public schools and academic freedom; bring charter schools into a single state public school system.",
+       "source": "c_datto"
+      },
+      {
+       "text": "Accountable government: transparent spending and consequences for misconduct.",
+       "source": "c_datto"
+      },
+      {
+       "text": "Public AI: Florida-owned AI infrastructure under human control and for public benefit.",
+       "source": "c_datto"
+      },
+      {
+       "text": "Free statewide English and Spanish language courses with completion certificates.",
+       "source": "c_datto"
+      }
+     ]
+    },
+    {
+     "id": "gov-dimanche",
+     "name": "Moliere \"Moe\" Dimanche",
+     "runningMate": "Benjiman Rojas",
+     "party": "NPA",
+     "incumbent": false,
+     "website": "https://nomoecorruption.com/",
+     "positions": [
+      {
+       "text": "Abolish homeowners associations (HOAs).",
+       "source": "c_dimanche"
+      },
+      {
+       "text": "End property taxes on homesteads and fund schools and public works by other means.",
+       "source": "c_dimanche"
+      },
+      {
+       "text": "Permanently close the 'Alligator Alcatraz' detention facility on day one.",
+       "source": "c_dimanche"
+      },
+      {
+       "text": "Incorporate unincorporated county land into municipalities, starting with Pine Hills in Orange County.",
+       "source": "c_dimanche"
+      },
+      {
+       "text": "Pursue judicial and public corruption cases.",
+       "source": "c_dimanche"
+      }
+     ]
+    },
+    {
+     "id": "gov-russo",
+     "name": "Frank J. Russo",
+     "runningMate": "Rachel Rodriguez",
+     "party": "NPA",
+     "incumbent": false,
+     "website": "https://russo2026.com/",
+     "positions": [
+      {
+       "text": "Affordability: plans to lower costs and protect homeowners.",
+       "source": "c_russo"
+      },
+      {
+       "text": "Raise average teacher pay to at least $75,000 and expand apprenticeships and career pathways.",
+       "source": "c_russo"
+      },
+      {
+       "text": "Attract technology investment and jobs and prepare workers for an AI-shaped economy.",
+       "source": "c_russo"
+      },
+      {
+       "text": "Immigration: target violent criminals and traffickers, crack down on worker exploitation and support legal immigration.",
+       "source": "c_russo"
+      },
+      {
+       "text": "Medical freedom: protect informed consent, patient rights and transparency in public health decisions.",
+       "source": "c_russo"
+      }
+     ]
+    },
+    {
+     "id": "gov-anderson",
+     "name": "Kathy Anderson",
+     "runningMate": "Daniel Nokovich",
+     "party": "WRI",
+     "incumbent": false,
+     "website": "",
+     "positions": [],
+     "notes": "Qualified write-in ticket; names do not appear printed on the ballot. No campaign website verified."
+    },
+    {
+     "id": "gov-morris",
+     "name": "Erik Morris",
+     "runningMate": "LeRoy Alaways",
+     "party": "WRI",
+     "incumbent": false,
+     "website": "",
+     "positions": [],
+     "notes": "Qualified write-in ticket; names do not appear printed on the ballot. No campaign website verified."
+    }
+   ],
+   "candidatesSource": "dos_canlist"
+  },
+  {
+   "id": "ag",
+   "office": "Attorney General",
+   "takesOffice": "2027-01-05",
+   "takesOfficeSource": "fl_const_iv5",
+   "takesOfficeNote": "Cabinet terms begin the first Tuesday after the first Monday in January after the election (Art. IV, Sec. 5(a)).",
+   "sitting": {
+    "name": "James Uthmeier",
+    "title": "Attorney General of Florida",
+    "website": "https://www.myfloridalegal.com/",
+    "phone": "850-414-3300",
+    "address": "Office of the Attorney General, State of Florida, PL-01 The Capitol, Tallahassee, FL 32399-1050",
+    "contactUrl": "https://www.myfloridalegal.com/node/1010",
+    "email": "",
+    "notes": "Appointed by Gov. DeSantis after Ashley Moody went to the U.S. Senate; running for a full term on this ballot. Citizens Services line: 850-414-3990; toll-free 1-866-966-7226. The office contact page still contains some text naming the former AG, Ashley Moody.",
+    "source": "ag_contact"
+   },
+   "candidates": [
+    {
+     "id": "ag-uthmeier",
+     "name": "James Uthmeier",
+     "runningMate": "",
+     "party": "REP",
+     "incumbent": true,
+     "website": "https://jamesforfl.com/",
+     "positions": [
+      {
+       "text": "Prosecute dangerous criminals.",
+       "source": "c_uthmeier"
+      },
+      {
+       "text": "Combat illegal immigration.",
+       "source": "c_uthmeier"
+      },
+      {
+       "text": "Sue corporations over content he says sexualizes or indoctrinates children.",
+       "source": "c_uthmeier"
+      },
+      {
+       "text": "Keep Florida 'safe, strong, and free' through a public safety focus.",
+       "source": "c_uthmeier"
+      }
+     ],
+     "notes": "Campaign site has no dedicated issues page; positions come from its About page."
+    },
+    {
+     "id": "ag-rodriguez",
+     "name": "Jose Javier Rodriguez",
+     "runningMate": "",
+     "party": "DEM",
+     "incumbent": false,
+     "website": "https://www.jjr.vote/",
+     "positions": [
+      {
+       "text": "Hold Big Tech and social media platforms accountable for harm to children, and crack down on elder abuse, deed theft and contractor fraud.",
+       "source": "c_jjr"
+      },
+      {
+       "text": "Investigate monopoly electric utilities over rates, hidden fees and billing, and investigate insurer rate hikes, claim denials and delayed payouts.",
+       "source": "c_jjr"
+      },
+      {
+       "text": "Stop algorithmic rent-setting by corporate landlords and enforce minimum wage and wage-theft laws.",
+       "source": "c_jjr"
+      },
+      {
+       "text": "Pursue full recovery of $10 million tied to the Hope Florida matter and investigate no-bid contracts, including for data centers and 'Alligator Alcatraz'.",
+       "source": "c_jjr"
+      },
+      {
+       "text": "As a Cabinet member, oppose any sale, swap or surplus of public and conservation land.",
+       "source": "c_jjr"
+      }
+     ]
+    }
+   ],
+   "candidatesSource": "dos_canlist"
+  },
+  {
+   "id": "cfo",
+   "office": "Chief Financial Officer",
+   "takesOffice": "2027-01-05",
+   "takesOfficeSource": "fl_const_iv5",
+   "takesOfficeNote": "Cabinet terms begin the first Tuesday after the first Monday in January after the election (Art. IV, Sec. 5(a)).",
+   "sitting": {
+    "name": "Blaise Ingoglia",
+    "title": "Chief Financial Officer of Florida",
+    "website": "https://www.myfloridacfo.com/",
+    "phone": "(850) 413-3100",
+    "address": "Office of the Chief Financial Officer, Florida Department of Financial Services, 200 East Gaines Street, Tallahassee, FL 32399-0301",
+    "contactUrl": "https://myfloridacfo.com/askFLDFS/",
+    "email": "",
+    "notes": "Appointed by Gov. DeSantis in July 2025 after Jimmy Patronis left for Congress (source wlrn_cfo_appt); running for a full term on this ballot.",
+    "source": "cfo_meet"
+   },
+   "candidates": [
+    {
+     "id": "cfo-ingoglia",
+     "name": "Blaise Ingoglia",
+     "runningMate": "",
+     "party": "REP",
+     "incumbent": true,
+     "website": "https://blaiseforflorida.com/",
+     "positions": [
+      {
+       "text": "Eliminate homestead property taxes and cut local government waste to lower taxes.",
+       "source": "c_ingoglia"
+      },
+      {
+       "text": "Audit local governments for waste, fraud and abuse.",
+       "source": "c_ingoglia"
+      },
+      {
+       "text": "Insurance: curb frivolous lawsuits and fine insurers that fail homeowners; end extra assessments on storm-hardened homes.",
+       "source": "c_ingoglia"
+      },
+      {
+       "text": "Elections: ban ballot harvesting, remove drop boxes, and tighten vote-by-mail and voter roll oversight.",
+       "source": "c_ingoglia"
+      },
+      {
+       "text": "Immigration: restrict IDs and licenses for people in the country illegally, mandate E-Verify and raise employer penalties.",
+       "source": "c_ingoglia"
+      }
+     ]
+    },
+    {
+     "id": "cfo-taddeo",
+     "name": "Annette Taddeo",
+     "runningMate": "",
+     "party": "DEM",
+     "incumbent": false,
+     "website": "https://annettetaddeo.com/",
+     "positions": [
+      {
+       "text": "Publish a public report card grading every home insurer on claim speed, denials, rate hikes, affiliate payments and financial health.",
+       "source": "c_taddeo"
+      },
+      {
+       "text": "Send post-storm strike teams within 3-5 days and expand claims mediation; appoint policyholder-focused members to the Citizens Insurance board.",
+       "source": "c_taddeo"
+      },
+      {
+       "text": "Support a bigger homestead exemption with safeguards and a backstop for rural counties, and track county-by-county effects after Amendment 3.",
+       "source": "c_taddeo"
+      },
+      {
+       "text": "Audit immigration-emergency spending, including 'Alligator Alcatraz', post all state contracts publicly and investigate no-bid emergency deals.",
+       "source": "c_taddeo"
+      },
+      {
+       "text": "Audit the $10 million tied to Hope Florida and seek recovery of improper payments.",
+       "source": "c_taddeo"
+      }
+     ]
+    }
+   ],
+   "candidatesSource": "dos_canlist"
+  },
+  {
+   "id": "agri",
+   "office": "Commissioner of Agriculture",
+   "takesOffice": "2027-01-05",
+   "takesOfficeSource": "fl_const_iv5",
+   "takesOfficeNote": "Cabinet terms begin the first Tuesday after the first Monday in January after the election (Art. IV, Sec. 5(a)).",
+   "sitting": {
+    "name": "Wilton Simpson",
+    "title": "Commissioner of Agriculture and Consumer Services",
+    "website": "https://www.fdacs.gov/",
+    "phone": "850-410-3800",
+    "address": "Plaza Level 10, The Capitol, 400 S. Monroe St., Tallahassee, FL 32399",
+    "contactUrl": "",
+    "email": "",
+    "notes": "Elected in 2022; running for re-election on this ballot. Phone and address are from the Hernando County Supervisor of Elections official directory; an fdacs.gov contact page could not be retrieved to confirm.",
+    "source": "hernando_simpson"
+   },
+   "candidates": [
+    {
+     "id": "agri-simpson",
+     "name": "Wilton Simpson",
+     "runningMate": "",
+     "party": "REP",
+     "incumbent": true,
+     "website": "https://wiltonsimpson.com/",
+     "positions": [
+      {
+       "text": "Preserve farmland; the campaign credits a 243% increase in preserved farmland.",
+       "source": "c_simpson"
+      },
+      {
+       "text": "Reduce regulatory burdens on agriculture and favor lower taxes and limited government.",
+       "source": "c_simpson"
+      },
+      {
+       "text": "Wildfire prevention: $100 million for firefighting equipment and prescribed burns.",
+       "source": "c_simpson"
+      },
+      {
+       "text": "Conservation: more than $300 million for the Florida Wildlife Corridor through conservation easements.",
+       "source": "c_simpson"
+      },
+      {
+       "text": "Consumer protection: cites the ban on lab-grown meat, which the campaign calls untested.",
+       "source": "c_simpson"
+      }
+     ]
+    },
+    {
+     "id": "agri-atkins",
+     "name": "Joey Mendoza Atkins",
+     "runningMate": "",
+     "party": "DEM",
+     "incumbent": false,
+     "website": "https://www.joeyforflorida.com/",
+     "positions": [
+      {
+       "text": "Lower the cost of living, including food, gas, rent, home insurance and utility bills.",
+       "source": "c_atkins"
+      },
+      {
+       "text": "Oppose data centers that take farmland and raise utility bills.",
+       "source": "c_atkins"
+      },
+      {
+       "text": "Make farming and food affordable.",
+       "source": "c_atkins"
+      },
+      {
+       "text": "Support Florida small businesses.",
+       "source": "c_atkins"
+      }
+     ]
+    },
+    {
+     "id": "agri-gibson",
+     "name": "Kyle \"KC\" Gibson",
+     "runningMate": "",
+     "party": "WRI",
+     "incumbent": false,
+     "website": "",
+     "positions": [],
+     "notes": "Florida Division of Elections lists him as a qualified write-in candidate (name not printed on ballot). Ballotpedia lists him as No Party Affiliation and on the ballot; the official DOS record (dos_gibson) is used here. No campaign website verified."
+    }
+   ],
+   "candidatesSource": "dos_canlist"
+  },
+  {
+   "id": "ussen",
+   "office": "United States Senator (special election, remainder of term)",
+   "takesOffice": "",
+   "takesOfficeSource": "bpn_sen",
+   "takesOfficeNote": "Special election to fill the remainder of the term Marco Rubio was elected to in 2022, which expires in January 2029. An exact swearing-in date for the winner was not found in an official source; it follows state certification of the result.",
+   "sitting": {
+    "name": "Ashley Moody",
+    "title": "U.S. Senator from Florida",
+    "website": "https://www.moody.senate.gov/",
+    "phone": "202-224-3041",
+    "address": "SR-387 Russell Senate Office Building, Washington, DC 20510",
+    "contactUrl": "https://www.moody.senate.gov/?p=341",
+    "email": "",
+    "notes": "Appointed by Gov. DeSantis on Jan. 21, 2025 to succeed Marco Rubio (source bpn_sen); running in this special election. Tallahassee office: 402 S. Monroe St., Suite 2105, Tallahassee, FL 32399-6526, (850) 590-9100. A county elections directory lists a different DC room (SD-B40B Dirksen); the Senate office's own page is used here.",
+    "source": "moody_senate"
+   },
+   "candidates": [
+    {
+     "id": "ussen-moody",
+     "name": "Ashley Moody",
+     "runningMate": "",
+     "party": "REP",
+     "incumbent": true,
+     "website": "https://ashleymoody.com/",
+     "positions": [
+      {
+       "text": "Support President Trump's agenda and 'America First' policies.",
+       "source": "c_moody"
+      },
+      {
+       "text": "Law and order: strengthen law enforcement and crack down on violent crime.",
+       "source": "c_moody"
+      },
+      {
+       "text": "Strengthen national security and American sovereignty.",
+       "source": "c_moody"
+      },
+      {
+       "text": "Protect religious freedom and the sanctity of life.",
+       "source": "c_moody"
+      },
+      {
+       "text": "Promote economic prosperity.",
+       "source": "c_moody"
+      }
+     ],
+     "notes": "Campaign site states broad priorities rather than specific proposals."
+    },
+    {
+     "id": "ussen-nixon",
+     "name": "Angie Nixon",
+     "runningMate": "",
+     "party": "DEM",
+     "incumbent": false,
+     "website": "https://angienixon.com/",
+     "positions": [
+      {
+       "text": "Health care: Medicare for All, prescription drug price caps and medical debt cancellation.",
+       "source": "c_nixon"
+      },
+      {
+       "text": "Universal child care and pre-K, and tuition-free public college and trade school.",
+       "source": "c_nixon"
+      },
+      {
+       "text": "Housing: affordable housing investment, rent stabilization and eviction protections.",
+       "source": "c_nixon"
+      },
+      {
+       "text": "Workers: pass the PRO Act, raise the minimum wage and provide paid family and medical leave.",
+       "source": "c_nixon"
+      },
+      {
+       "text": "Taxes: a wealth tax on billionaires and taxing capital gains like wages.",
+       "source": "c_nixon"
+      }
+     ]
+    },
+    {
+     "id": "ussen-gillespie",
+     "name": "Neil J. Gillespie",
+     "runningMate": "",
+     "party": "NPA",
+     "incumbent": false,
+     "website": "https://neilgillespie4senate.blogspot.com/",
+     "positions": [
+      {
+       "text": "Restore checks and balances; argues lawyers should not serve in elected executive or legislative offices.",
+       "source": "c_gillespie"
+      },
+      {
+       "text": "National health coverage with an opt-out option and limits on trial lawyer costs.",
+       "source": "c_gillespie"
+      },
+      {
+       "text": "Secure borders and vetting, removal of people who entered illegally, and a path to citizenship for those who follow the rules.",
+       "source": "c_gillespie"
+      },
+      {
+       "text": "Require proof of citizenship to vote and end birth tourism.",
+       "source": "c_gillespie"
+      },
+      {
+       "text": "Court reform to address what he calls lawfare and lack of due process.",
+       "source": "c_gillespie"
+      }
+     ]
+    }
+   ],
+   "candidatesSource": "dos_canlist"
+  }
+ ],
+ "measures": [
+  {
+   "id": "a1",
+   "number": "Amendment 1",
+   "title": "Budget Stabilization Fund",
+   "articleRef": "Article III, Section 19",
+   "placedBy": "Florida Legislature (legislative joint resolution HJR 5019, 2025; House 100-1, Senate 29-4)",
+   "placedBySource": "hjr5019_summary",
+   "ballotSummary": "Proposing an amendment to the State Constitution to increase the amount of funds that may be retained in the budget stabilization fund from 10% to 25% of general revenue collections, require the legislature to transfer the lesser of $750 million or the amount required to reach 25% of the general revenue collections each year unless certain conditions are met, and allow the legislature to withdraw funds for critical state needs.",
+   "summarySource": "brevard_ballot",
+   "summarySourceAlt": [
+    "leon_ballot",
+    "hjr5019_er"
+   ],
+   "threshold": 60,
+   "plain": "Florida keeps a savings account, often called the rainy day fund, for emergencies and budget shortfalls. Today it can hold up to 10% of the state's general revenue. This amendment would raise the limit to 25%, require lawmakers to put in up to $750 million each year until the fund reaches that limit (with some exceptions), and let them take money out for 'critical state needs' with a two-thirds vote once the fund is above 15%.",
+   "yesMeans": "A YES vote means the rainy day fund limit rises from 10% to 25% of general revenue, with required yearly deposits of up to $750 million and a new way to withdraw money for critical state needs.",
+   "noMeans": "A NO vote means the fund limit stays at 10% of general revenue and the Constitution does not require yearly deposits.",
+   "fiscal": "No official financial impact statement is printed for this amendment; Florida's Financial Impact Estimating Conference prepares statements only for citizen-initiative amendments. The Senate bill summary says the Legislature would have to transfer $750 million a year until the fund reaches the new cap, with withdrawals allowed for critical needs only after the balance reaches 15% and never below 10% of revenue collections.",
+   "fiscalSource": "hjr5019_summary",
+   "fiscalSourceAlt": [
+    "edr_ca"
+   ],
+   "supporters": "Senate President Ben Albritton said it 'makes Florida's balance sheet more durable in difficult times.' The Republican Party of Florida says it 'makes sure Florida saves in good years so it doesn't have to raise taxes in bad ones.' Democratic governor nominee David Jolly supports it; Florida TaxWatch leans yes with reservations about long-term required payments.",
+   "opponents": "Gov. Ron DeSantis called it 'a foolish constitutional amendment proposal,' arguing the fund is already at its limit and surplus money should go to tax cuts. Rich Templin of the Florida AFL-CIO questioned moving money into savings while many needs are unmet. Republican governor nominee Byron Donalds and Americans for Tax Reform also oppose it.",
+   "argSources": [
+    "bp_a1",
+    "news4jax_amend"
+   ]
+  },
+  {
+   "id": "a2",
+   "number": "Amendment 2",
+   "title": "Exemption of Tangible Personal Property on Agricultural Land from Taxation",
+   "articleRef": "Article VII, Section 3; Article XII",
+   "placedBy": "Florida Legislature (legislative joint resolution HJR 1215, 2025; House 110-1, Senate 37-0)",
+   "placedBySource": "bp_a2",
+   "ballotSummary": "Proposing an amendment to the State Constitution to exempt tangible personal property habitually located or typically present on land classified as agricultural, used in the production of agricultural products or for agritourism activities, and owned by the landowner or leaseholder of the agricultural land from ad valorem taxation. If approved this amendment would first apply for tax years beginning January 1, 2027.",
+   "summarySource": "brevard_ballot",
+   "summarySourceAlt": [
+    "leon_ballot"
+   ],
+   "threshold": 60,
+   "plain": "Businesses in Florida pay local property tax on equipment and other movable property, though the first $25,000 is already exempt. This amendment would fully exempt that kind of property, such as farm machinery and tools, when it is kept on land classified as agricultural, used for farming or agritourism, and owned by the landowner or leaseholder. The Legislature would set the details, and it would start with the 2027 tax year.",
+   "yesMeans": "A YES vote means equipment and other tangible personal property used on agricultural land for farming or agritourism would be exempt from local property taxes starting in 2027.",
+   "noMeans": "A NO vote means this property stays under current tax rules, including the existing $25,000 exemption for tangible personal property.",
+   "fiscal": "No official financial impact statement is printed for this legislatively referred amendment. The state Revenue Estimating Conference estimated that, if approved, it would reduce local government revenue by $31.0 million per year (recurring), beginning in fiscal year 2027-28.",
+   "fiscalSource": "hjr1215_analysis",
+   "supporters": "Agriculture Commissioner Wilton Simpson says it ends 'the burdensome multiple taxation of agricultural production.' The Republican Party of Florida says it gives financial relief to farmers and agricultural businesses. Florida TaxWatch supports it.",
+   "opponents": "State Rep. Anna Eskamani (D) argued it lacks safeguards against windfalls and would mostly benefit a few large agribusinesses. The Sun Sentinel editorial board called it 'bad policy to enshrine special-interest tax breaks in the constitution.'",
+   "argSources": [
+    "bp_a2",
+    "news4jax_amend"
+   ]
+  },
+  {
+   "id": "a3",
+   "number": "Amendment 3",
+   "title": "Increased Homestead Exemption; Lower Cap on Increases in Non-Homestead Property Assessments",
+   "articleRef": "Article VII, Sections 4, 6 and 9; Article XII",
+   "placedBy": "Florida Legislature (legislative joint resolution CS/HJR 1-F, 2026 special session; House 75-26, Senate 30-9). The ballot title and summary were rewritten by the Attorney General and released Aug. 13, 2026, after Leon County Circuit Judge David Frank ruled the original wording defective.",
+   "placedBySource": "flcities_a3",
+   "placedBySourceAlt": [
+    "cbs12_a3"
+   ],
+   "ballotSummary": "This amendment increases the homestead exemption, for all non-school taxes, to $150,000 in 2027 and $250,000 in 2028, and adjusts for inflation thereafter. It requires the Legislature to prescribe a uniform procedure for counties and municipalities, for their respective levies, to increase the homestead exemption up to full assessed value, and allows special districts, subject to referendum approval, to do the same. Persons who are not Florida residents on December 31, 2026, will receive the existing homestead exemption upon qualifying for a homestead exemption, with the increased homestead exemption beginning with the fifth year of exemption, to the extent permitted by the U.S. Constitution. This amendment reduces the annual cap on assessment increases for non-homestead properties from 10% to 5%. This amendment requires counties and municipalities to use property taxes solely for public safety, education and schools, infrastructure, natural resources, bond debt service, retirement benefits for employees, and operations and administration. Other expenditures may be approved by county officers or county or municipal governing bodies unless prohibited by general law, notwithstanding Article VII, Section 9(a) of the Florida Constitution, which allows counties and municipalities to levy property taxes for their respective purposes. This amendment takes effect January 1, 2027.",
+   "summarySource": "brevard_ballot",
+   "summarySourceAlt": [
+    "leon_ballot"
+   ],
+   "threshold": 60,
+   "plain": "Today, Florida homeowners get up to $50,000 taken off their home's taxable value. This amendment would raise that to $150,000 in 2027 and $250,000 in 2028 for all property taxes except school taxes, with inflation increases after that; people who move to Florida after 2026 would wait until their fifth year for the larger amount. It would also lower the yearly limit on assessment increases for non-homestead property, like rentals and businesses, from 10% to 5%, and limit what counties and cities can spend property tax money on.",
+   "yesMeans": "A YES vote means a larger homestead exemption for non-school taxes, a 5% yearly cap on assessment increases for non-homestead property, and new limits on how counties and cities may spend property tax revenue, starting Jan. 1, 2027.",
+   "noMeans": "A NO vote means the current homestead exemption, the 10% cap on non-homestead assessment increases, and current local spending rules stay in place.",
+   "fiscal": "No official financial impact statement is printed for this legislatively referred amendment. The state Revenue Estimating Conference (July 10, 2026) estimated that, if approved, local government property tax revenue would be lower by about $4.93 billion in FY 2027-28, $8.71 billion in FY 2028-29, $9.65 billion in FY 2029-30 and $10.71 billion in FY 2030-31, with a recurring annual impact of about $11.83 billion. The estimate does not include possible future local actions to raise exemptions further. School taxes are not affected.",
+   "fiscalSource": "edr_rec_0710",
+   "fiscalSourceAlt": [
+    "fltrend_a3"
+   ],
+   "supporters": "Gov. Ron DeSantis, CFO Blaise Ingoglia and Rep. Toby Overdorf, who led the House effort, support it, arguing it gives taxpayers relief and that local governments can cut waste. Florida Realtors and the James Madison Institute also support it.",
+   "opponents": "The Florida League of Cities, Florida Association of Counties, Florida Professional Firefighters, Florida State Fraternal Order of Police, Florida Sheriffs Association, 1000 Friends of Florida, Florida Policy Institute and the Save Our Services campaign oppose it, citing possible cuts to public safety and other local services and a shift of costs to renters and businesses. Florida TaxWatch recommends a no vote, saying the measure reached the ballot too quickly.",
+   "argSources": [
+    "news4jax_amend",
+    "fltrend_a3"
+   ]
+  },
+  {
+   "id": "ret-muniz",
+   "number": "Supreme Court Retention",
+   "title": "Justice of the Supreme Court: Shall Justice Carlos G. Muñiz of the Supreme Court be retained in office?",
+   "articleRef": "",
+   "placedBy": "Required merit retention vote for a sitting Florida Supreme Court justice (nonpartisan). Muñiz was appointed by Gov. Ron DeSantis on Jan. 22, 2019; his current term expires Jan. 5, 2027.",
+   "placedBySource": "flbar_muniz",
+   "placedBySourceAlt": [
+    "bp_scotus",
+    "miamidade_contents"
+   ],
+   "ballotSummary": "Shall Justice Carlos G. Muñiz of the Supreme Court be retained in office?",
+   "summarySource": "clickorlando_scotus",
+   "threshold": 50,
+   "thresholdNote": "Not a constitutional amendment. The justice is retained unless a majority of voters vote No; the exact wording of the threshold was not verified from an official source.",
+   "plain": "Florida Supreme Court justices are appointed by the governor and then face a yes-or-no vote to stay in office. Justice Muñiz is on the ballot for a new six-year term. There is no opponent.",
+   "yesMeans": "A YES vote means Justice Muñiz stays on the Florida Supreme Court for another six-year term.",
+   "noMeans": "A NO vote means you want Justice Muñiz removed; if a majority vote No, a new justice would be chosen.",
+   "fiscal": "",
+   "fiscalSource": "",
+   "supporters": "",
+   "opponents": "",
+   "argSources": []
+  }
+ ]
+}
