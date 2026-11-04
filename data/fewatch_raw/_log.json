@@ -8,7 +8,7 @@
   "type": "text/html; charset=utf-8"
  },
  "Downloads": {
-  "bytes": 24014,
+  "bytes": 24019,
   "type": "text/html; charset=utf-8"
  },
  "Amendments": {
@@ -53,6 +53,22 @@
  "https://enr.electionsfl.org/PAS/4085/Summary/": {
   "bytes": 478661,
   "type": "text/html"
+ },
+ "https://enr.electionsfl.org/MAN/4126/Summary/": {
+  "bytes": 387133,
+  "type": "text/html"
+ },
+ "https://enr.electionsfl.org/STL/4089/Summary/": {
+  "bytes": 216035,
+  "type": "text/html"
+ },
+ "https://enr.electionsfl.org/BAY/4078/Summary/": {
+  "bytes": 196496,
+  "type": "text/html"
+ },
+ "https://enr.votepinellas.gov/FL/Pinellas/elections.json": {
+  "bytes": 2,
+  "type": "application/json"
  },
  "https://flelectionfiles.floridados.gov/enightfilespublic/20261103_ElecResultsFL.txt": {
   "bytes": 352524,

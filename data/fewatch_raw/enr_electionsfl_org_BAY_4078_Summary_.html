@@ -1,0 +1,3082 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Summary Results - Election Night Reporting</title>
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/Content/Site.css" />
+    <link rel="stylesheet" href="//s3.amazonaws.com/vr-enr/BAY/county.css" />
+    <link rel="stylesheet" href="//s3.amazonaws.com/vr-enr/BAY/4078/election.css" />
+
+
+    <!--Google Analytics-->
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-84151603-4', 'electionsfl.org');
+        ga('send', 'pageview');
+
+        function showFullSite() {
+            setCookie("fullSite", "true", 365);
+            location.reload();
+        }
+
+        function showMobileSite() {
+            viewport = document.querySelector("meta[name=viewport]");
+            viewport.setAttribute('content', 'width=device-width, initial-scale=1');
+            $("#ShowMobileSite").html("");
+            setCookie("fullSite", "", 365);
+        }
+
+        function setCookie(cname, cvalue, exdays) {
+            var d = new Date();
+            d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+            var expires = "expires=" + d.toUTCString();
+            document.cookie = cname + "=" + cvalue + "; " + expires;
+        }
+
+        function getCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1);
+                if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+            }
+            return "";
+        }
+    </script>
+    
+    <script src="//s3.amazonaws.com/vr-enr/BAY/county.js"></script>
+    <script src="//s3.amazonaws.com/vr-enr/BAY/4078/election.js"></script>
+</head>
+
+    <body >
+        <!--[if lt IE 9]>
+            <div class="ie8-warning">
+                You are using a browser that does not support many of the newer technologies employed by this website. Consider changing your browser.
+                <br/>
+                <a href="https://whatbrowser.org/">Learn More</a>
+            </div>
+        <![endif]-->
+
+        <div id="summaryresults">
+            <script src="//vrcdn.electionsfl.org/common/js/googletranslate.js" type="text/javascript"></script>
+            <style>
+                div#google_translate_element div.goog-te-gadget{color:black;}
+                div#google_translate_element a.goog-logo-link{color:black;}
+            </style>
+            <div id="google_translate_element" style="height: 50px"></div>
+            <div class="container-fluid">
+                    <div class="row" id="header">
+                        <img class="img-responsive" alt="County Banner" src="//s3.amazonaws.com/vr-enr/BAY/wf_banner.jpg">
+                    </div>
+                <div id="ElectionStats">
+    <div class="row" id="TopStats">
+        <div class="col-xs-12" id="ElectionName">
+            <h1>General Election</h1>
+        </div>
+        <div class="col-sm-3 col-sm-push-9 col-xs-12" id="ElectionDate">
+            <h2>Election Date: 11/3/2026</h2>
+        </div>
+        <div class="col-sm-9 col-sm-pull-3 col-xs-12" id="LastUpdated">
+            (Website last updated at: 11/03/2026 7:42:11 pm)
+        </div>
+    </div>
+    <div class="row" id="BottomStats">
+        <div class=" col-md-6 col-xs-12" id="LeftStats">
+            <div class="row">
+                <div class="col-sm-4 col-xs-8 col-sm-offset-2 TurnoutLabel">Registered Voters: </div>
+                <div class="col-xs-4 notranslate TurnoutValue">128,668</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-xs-8 col-sm-offset-2 TurnoutLabel">Ballots Cast: </div>
+                <div class="col-xs-4 notranslate TurnoutValue">70,630</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-xs-8 col-sm-offset-2 TurnoutLabel">Voter Turnout: </div>
+                <div class="col-xs-4 notranslate TurnoutValue">54.89%</div>
+            </div>
+        </div>
+        <div class="col-md-6 col-xs-12" id="RightStats">
+            <div class="row">
+                <div class="col-md-7 col-xs-12 PrecinctsLabel">Precincts Reporting: </div>
+                <div class="col-md-5 col-xs-11 PrecinctsValue">30 / 30</div>
+            </div>
+                    <div class="row">
+                        <div class="col-md-7 col-xs-12 PrecinctsLabel">Election Day: </div>
+                        <div class="col-md-5 col-xs-11 PrecinctsValue">
+                                    <span class="voteTypeCompletelyReported">Completely Reported</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7 col-xs-12 PrecinctsLabel">Early Votes: </div>
+                        <div class="col-md-5 col-xs-11 PrecinctsValue">
+                                    <span class="voteTypeCompletelyReported">Completely Reported</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7 col-xs-12 PrecinctsLabel">Vote By Mail: </div>
+                        <div class="col-md-5 col-xs-11 PrecinctsValue">
+                                    <span class="voteTypeCompletelyReported">Completely Reported</span>
+                        </div>
+                    </div>
+        </div>
+    </div>
+    <div class="row" id="BottomMessage">
+        <div class="col-xs-12">
+            
+        </div>
+    </div>
+</div>
+                    <div class="row">
+                        <ul class="visible-sm visible-xs">
+                            <tr>
+                                <form name="tabForm">
+                                    <label id="tabsSelectLabel">
+                                    <select name="tabsSelect" id="tabsSelect">
+                                        <option value="/BAY/4078/Summary">Summary Results</option>
+                                                                                                                        <option value="/BAY/4078/Summary/?favorites=1">Favorite Races</option>
+
+                                    </select>
+                                    </label>
+                                </form>
+                            </tr>
+                        </ul>
+                        <ul class="tabs hidden-sm hidden-xs">
+                            <li class="tab tab1 activetab">
+                                <div class="BackgroundImage"></div>
+                                <div class="Text">
+                                    <a id="summary_link" href="/BAY/4078/Summary">Summary Results</a>
+                                </div>
+                            </li>
+                                                                                    <li class="tab tab5 activetab">
+                                <div class="BackgroundImage"></div>
+                                <div class="Text">
+                                    <a id="favorite_link" href="/BAY/4078/Summary/?favorites=1">Favorite Races</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <section id="content">
+                        
+
+<div class="showFavorites">
+        <div id="60447" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60447">
+                        <input type="checkbox" id="favorite-60447" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60447-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>United States Senator</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Ashley Moody
+                            (REP)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar rep" style="width: 69.34%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">69.34&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">48,724</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Angie Nixon
+                            (DEM)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar dem" style="width: 29.52%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">29.52&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">20,745</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Neil J. Gillespie
+                            (NPA)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 1.14%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">1.14&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">804</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">70,273</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60448" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60448">
+                        <input type="checkbox" id="favorite-60448" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60448-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>Representative in Congress District 2</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Austin Rogers
+                            (REP)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar rep" style="width: 68.29%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">68.29&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">47,721</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Amanda Marie Green
+                            (DEM)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar dem" style="width: 31.71%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">31.71&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">22,164</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">69,885</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60449" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60449">
+                        <input type="checkbox" id="favorite-60449" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60449-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>Governor and Lieutenant Governor</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Byron Donalds and Bryan Avila
+                            (REP)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar rep" style="width: 68.94%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">68.94&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">48,387</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            David Jolly and Gwen Graham
+                            (DEM)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar dem" style="width: 29.47%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">29.47&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">20,687</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Scott Eckhard Jewett and Nicole Skelly
+                            (LPF)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 0.59%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">0.59&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">412</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Charles Burkett and Ruben A. Coto
+                            (NPA)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 0.22%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">0.22&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">152</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Frank J. Russo and Rachel Rodriguez
+                            (NPA)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 0.23%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">0.23&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">163</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Moliere &quot;Moe&quot; Dimanche and Benjamin Rojas
+                            (NPA)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 0.09%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">0.09&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">65</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Dean Ocean Abrams and Joe Van Vactor
+                            (NPA)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 0.15%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">0.15&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">108</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Jeffrey Peter &quot;Dr. Jeff&quot; Datto and Juan Santana
+                            (NPA)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 0.09%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">0.09&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">61</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Write-in
+                            (NON)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 0.21%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">0.21&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">150</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">70,185</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60450" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60450">
+                        <input type="checkbox" id="favorite-60450" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60450-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>Attorney General</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            James Uthmeier
+                            (REP)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar rep" style="width: 70.08%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">70.08&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">48,778</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Jose Javier Rodriguez
+                            (DEM)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar dem" style="width: 29.92%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">29.92&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">20,823</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">69,601</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60451" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60451">
+                        <input type="checkbox" id="favorite-60451" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60451-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>Chief Financial Officer</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Blaise Ingoglia
+                            (REP)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar rep" style="width: 70.12%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">70.12&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">48,677</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Annette Taddeo
+                            (DEM)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar dem" style="width: 29.88%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">29.88&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">20,742</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">69,419</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60452" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60452">
+                        <input type="checkbox" id="favorite-60452" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60452-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>Commissioner of Agriculture</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Wilton Simpson
+                            (REP)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar rep" style="width: 69.83%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">69.83&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">48,618</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Joey Mendoza Atkins
+                            (DEM)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar dem" style="width: 29.95%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">29.95&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">20,857</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Write-in
+                            (NON)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 0.22%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">0.22&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">153</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">69,628</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60453" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60453">
+                        <input type="checkbox" id="favorite-60453" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60453-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>State Senator District 2</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Jay Trumbull
+                            (REP)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar rep" style="width: 70.57%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">70.57&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">49,262</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Lauren Donahoo
+                            (DEM)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar dem" style="width: 29.43%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">29.43&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">20,544</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">69,806</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60454" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60454">
+                        <input type="checkbox" id="favorite-60454" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60454-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>State Representative District 6</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Tricia Berry
+                            (REP)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar rep" style="width: 69.67%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">69.67&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">48,328</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Stephanie Lyn Leonard
+                            (DEM)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar dem" style="width: 30.33%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">30.33&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">21,037</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">69,365</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60455" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60455">
+                        <input type="checkbox" id="favorite-60455" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60455-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>Retention of Justice of the Supreme Court Carlos G. Muniz</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Yes
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 63.82%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">63.82&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">40,897</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            No
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 36.18%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">36.18&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">23,184</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">64,081</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60456" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60456">
+                        <input type="checkbox" id="favorite-60456" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60456-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>Retention of District Court of Appeal Judge Joseph Lewis Jr.</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Yes
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 63.7%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">63.70&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">40,733</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            No
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 36.3%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">36.30&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">23,215</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">63,948</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60457" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60457">
+                        <input type="checkbox" id="favorite-60457" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60457-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>Retention of District Court of Appeal Judge Rachel Nordby</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Yes
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 65.58%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">65.58&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">41,821</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            No
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 34.42%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">34.42&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">21,951</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">63,772</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60458" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60458">
+                        <input type="checkbox" id="favorite-60458" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60458-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>Retention of District Court of Appeal Judge Tim Osterhaus</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Yes
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 64.29%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">64.29&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">40,965</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            No
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 35.71%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">35.71&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">22,755</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">63,720</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60459" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60459">
+                        <input type="checkbox" id="favorite-60459" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60459-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>Retention of District Court of Appeal Judge Clay Roberts</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Yes
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 62.37%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">62.37&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">39,782</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            No
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 37.63%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">37.63&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">23,999</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">63,781</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60460" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60460">
+                        <input type="checkbox" id="favorite-60460" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60460-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>Retention of District Court of Appeal Judge Raymond Treadwell</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Yes
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 65.3%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">65.30&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">41,515</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            No
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 34.7%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">34.70&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">22,062</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">63,577</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60461" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60461">
+                        <input type="checkbox" id="favorite-60461" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60461-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>School Board Member District 3</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            John Haley
+                            (NON)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 55.67%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">55.67&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">34,402</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Chris Moore
+                            (NON)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 44.33%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">44.33&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">27,393</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">61,795</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60462" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60462">
+                        <input type="checkbox" id="favorite-60462" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60462-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>Callaway Commissioner Ward 1</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Bobby Birdsell
+                            (NON)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 58.55%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">58.55&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">2,451</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Karen Custer
+                            (NON)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 41.45%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">41.45&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">1,735</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">4,186</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60463" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60463">
+                        <input type="checkbox" id="favorite-60463" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60463-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>Callaway Commissioner Ward 2</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            James &quot;Jamie&quot; Kirkland
+                            (NON)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 60.4%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">60.40&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">2,514</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Spring Overway
+                            (NON)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 39.6%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">39.60&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">1,648</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">4,162</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60464" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60464">
+                        <input type="checkbox" id="favorite-60464" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60464-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>Panama City Beach Council Member Ward 1</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Carlos Sanchez
+                            (NON)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 60%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">60.00&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">3,915</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Grant B. Wittstruck
+                            (NON)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 40%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">40.00&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">2,610</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">6,525</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60465" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60465">
+                        <input type="checkbox" id="favorite-60465" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60465-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>Panama City Beach Council Member Ward 3</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Nick Atkinson
+                            (NON)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 49.45%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">49.45&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">3,173</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Mary Coburn
+                            (NON)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 50.55%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">50.55&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">3,244</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">6,417</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60466" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60466">
+                        <input type="checkbox" id="favorite-60466" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60466-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>Lake Powell Community Development District Seat 2</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Alyssa Finneyfrock
+                            (NON)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 69.75%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">69.75&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">219</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Greg Porta
+                            (NON)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 30.25%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">30.25&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">95</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">314</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60467" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60467">
+                        <input type="checkbox" id="favorite-60467" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60467-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>Lake Powell Community Development District Seat 5</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Kenneth Black
+                            (NON)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 47.54%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">47.54&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">145</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Tim Rosson
+                            (NON)
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 52.46%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">52.46&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">160</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">305</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60468" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60468">
+                        <input type="checkbox" id="favorite-60468" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60468-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>No. 1 Constitutional Amendment Budget Stabilization Fund</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Yes
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 46.08%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">46.08&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">31,014</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            No
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 53.92%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">53.92&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">36,294</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">67,308</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60469" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60469">
+                        <input type="checkbox" id="favorite-60469" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60469-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>No. 2 Constitutional Amendment Extemption of Tangible Personal Property</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Yes
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 68.85%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">68.85&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">46,382</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            No
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 31.15%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">31.15&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">20,983</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">67,365</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60470" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60470">
+                        <input type="checkbox" id="favorite-60470" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60470-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>No. 3 Constitutional Amendment Increase Homestead Exemption</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Yes
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 71.14%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">71.14&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">48,755</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            No
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 28.86%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">28.86&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">19,783</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">68,538</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60471" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60471">
+                        <input type="checkbox" id="favorite-60471" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60471-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>City of Lynn Haven Clarifying the City Charter Review Process</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Yes
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 85.49%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">85.49&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">6,511</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            No
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 14.51%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">14.51&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">1,105</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">7,616</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60472" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60472">
+                        <input type="checkbox" id="favorite-60472" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60472-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>City of Lynn Haven Updating the Method of Compensation</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Yes
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 71.2%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">71.20&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">5,399</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            No
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 28.8%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">28.80&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">2,184</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">7,583</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60473" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60473">
+                        <input type="checkbox" id="favorite-60473" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60473-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>City of Lynn Haven Extending Time to Fill Vacancy on Commission</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Yes
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 70.59%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">70.59&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">5,365</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            No
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 29.41%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">29.41&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">2,235</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">7,600</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60474" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60474">
+                        <input type="checkbox" id="favorite-60474" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60474-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>City of Panama City Terms and Qualifications of Commissioners</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Yes
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 49.18%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">49.18&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">5,646</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            No
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 50.82%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">50.82&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">5,835</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">11,481</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60475" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60475">
+                        <input type="checkbox" id="favorite-60475" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60475-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>City of Panama City Charter Officers</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Yes
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 46.94%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">46.94&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">5,276</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            No
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 53.06%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">53.06&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">5,964</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">11,240</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="60476" class="Race row">
+
+            <div class="RaceHeader">
+                <div class="row RaceName">
+
+
+                    <label for="favorite-60476">
+                        <input type="checkbox" id="favorite-60476" class="favoriteCheckBox" />
+                        <svg class="my-star" width="20" height="25" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10 6.8, 12 13.8, 19.6 13.8, 13.6 18.2, 15.8 25, 10 20.8, 4.2 25, 6.4 18.2, .4 13.8, 8 13.8">
+                                <title id="favorite-60476-title">Add or Take Out of Favorite Races</title>
+                            </polygon>
+                        </svg>
+                        <label>City of Panama City Clerical Revisions</label>
+                    </label>
+                </div>
+                
+
+                <div class="row" style="display: flex; flex-direction: row; align-items: center;">
+                        <div class="col-xs-4 RaceStatsLabel">
+
+                        </div>
+                                        <div class="col-md-3 text-center" style="padding:.6rem">
+                        <img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAARABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1z/gvr/wUR/4RX4jaD8EfD/iS70dIY01bxdPYySLJtcZt7NzH8yqU/esP4g0VfJnwd/4LIeJvgH8AfjT4P0vxRrkt5rGjQR+CbyAi4XSbtpTHPIrOwMeYGLKVDYdFbbXJ/EHxBdeHPjv8UF+LFvcf8J5ca/eyam80e1mmaQsGA6CPZs2AcbNu35a97/4JYfsUp8c/2E/2rtah8EWeqXfijT/7N8Kzz6eklxLdW9tcySLasyllYySxLuT+MY6qa/SKmHpYfLoqVmpNN/8AD/1pc+Kp1albHScbppNf0jwD/glN/wAFB7j9jX4xWniTxH4w1i80nVbpIdetbi5nuI7uNzh5mLfK0qbtwJ5JUiv6OdGnXxFo9rqFh/pljfQpcW88Q3RzxuoZXUjgqVIII6g1/MfZ+IvCVn8E/wCzWs/L1BY9nltFtZMDGCK9M+G3gn9t7/hXWgf8Inb/ABLTwt/Ztv8A2MtuZBCtl5S+QEH93y9uPbFZZ3l8PcnGUVp95eV4ya5otN6np3/BxX/yf1D/ANi5a/zev1S/4JQf8o6vhP8A9gb/ANqyUUV5mM/3Gj8/zO/Df73V+R+H/wC33/yk3+Jn/Y9zf+lIr+jzQ/8AkC2f/XBP/QRRRRmv8Oj/AIf8hZd8dX1P/9k=" />
+                        <button type="button" class="viewSelectHeader">Show Detailed View</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row RaceStats">
+                <div class="RaceStatsTable">
+                </div>
+            </div>
+
+            <div class="row GraphicalResults" style="display: none;">
+                <div class="row">
+                    <div class="ChoiceHeader col-xs-4">Choice</div>
+                    <div class="GraphHeader col-xs-4"></div>
+                    <div class="ResultsHeader col-xs-2">Percent</div>
+                    <div class="ResultsHeader col-xs-2" style="padding-left: 10px;">Votes</div>
+                </div>
+
+                <div class="row Results">
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            Yes
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 58.4%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">58.40&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">6,548</div>
+                    </div>
+                    <div class="row ResultsRow">
+                        <div class="ChoiceColumn col-xs-4">
+                            No
+                            
+                        </div>
+                        <div class="GraphColumn col-xs-4">
+                            <div class="FullBar">
+                                <div class="InnerBar oth" style="width: 41.6%;">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="ResultsColumn notranslate col-xs-2">41.60&#37;</div>
+                        <div class="ResultsColumn notranslate col-xs-2" style="padding-left:10px;">4,665</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ChoiceColumn col-xs-4"></div>
+                    <div class="GraphColumn col-xs-4"></div>
+                    <div class="ResultsColumn col-xs-2"></div>
+                    <div class="TotalColumn notranslate col-xs-2" style="padding-left: 10px;">11,213</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+</div>
+    <script>
+        // Production steps of ECMA-262, Edition 6, 22.1.2.1
+        if (!Array.from) {
+            Array.from = (function () {
+                var toStr = Object.prototype.toString;
+                var isCallable = function (fn) {
+                    return typeof fn === 'function' || toStr.call(fn) === '[object Function]';
+                };
+                var toInteger = function (value) {
+                    var number = Number(value);
+                    if (isNaN(number)) { return 0; }
+                    if (number === 0 || !isFinite(number)) { return number; }
+                    return (number > 0 ? 1 : -1) * Math.floor(Math.abs(number));
+                };
+                var maxSafeInteger = Math.pow(2, 53) - 1;
+                var toLength = function (value) {
+                    var len = toInteger(value);
+                    return Math.min(Math.max(len, 0), maxSafeInteger);
+                };
+
+                // The length property of the from method is 1.
+                return function from(arrayLike/*, mapFn, thisArg */) {
+                    // 1. Let C be the this value.
+                    var C = this;
+
+                    // 2. Let items be ToObject(arrayLike).
+                    var items = Object(arrayLike);
+
+                    // 3. ReturnIfAbrupt(items).
+                    if (arrayLike == null) {
+                        throw new TypeError('Array.from requires an array-like object - not null or undefined');
+                    }
+
+                    // 4. If mapfn is undefined, then let mapping be false.
+                    var mapFn = arguments.length > 1 ? arguments[1] : void undefined;
+                    var T;
+                    if (typeof mapFn !== 'undefined') {
+                        // 5. else
+                        // 5. a If IsCallable(mapfn) is false, throw a TypeError exception.
+                        if (!isCallable(mapFn)) {
+                            throw new TypeError('Array.from: when provided, the second argument must be a function');
+                        }
+
+                        // 5. b. If thisArg was supplied, let T be thisArg; else let T be undefined.
+                        if (arguments.length > 2) {
+                            T = arguments[2];
+                        }
+                    }
+
+                    // 10. Let lenValue be Get(items, "length").
+                    // 11. Let len be ToLength(lenValue).
+                    var len = toLength(items.length);
+
+                    // 13. If IsConstructor(C) is true, then
+                    // 13. a. Let A be the result of calling the [[Construct]] internal method 
+                    // of C with an argument list containing the single item len.
+                    // 14. a. Else, Let A be ArrayCreate(len).
+                    var A = isCallable(C) ? Object(new C(len)) : new Array(len);
+
+                    // 16. Let k be 0.
+                    var k = 0;
+                    // 17. Repeat, while k < len… (also steps a - h)
+                    var kValue;
+                    while (k < len) {
+                        kValue = items[k];
+                        if (mapFn) {
+                            A[k] = typeof T === 'undefined' ? mapFn(kValue, k) : mapFn.call(T, kValue, k);
+                        } else {
+                            A[k] = kValue;
+                        }
+                        k += 1;
+                    }
+                    // 18. Let putStatus be Put(A, "length", len, true).
+                    A.length = len;
+                    // 20. Return A.
+                    return A;
+                };
+            }());
+        }
+
+        document.addEventListener("DOMContentLoaded", load);
+        document.querySelector('#summary_link').addEventListener('click', chooseSummaryPage);
+        document.querySelector('#favorite_link').addEventListener('click', chooseFavoritesPage);
+        
+        
+        function myFav(checkbox, raceId, title) {
+            if (checkbox.checked) {
+                title.innerHTML = "Take Out of Favorite Races";
+                title.firstChild.data = "Take Out of Favorite Races";
+                localStorage.setItem(raceId, true);
+                checkbox.closest('.row').classList.add('Favorite');
+            }
+            else {
+                title.innerHTML = "Add to Favorite Races";
+                title.firstChild.data = "Add to Favorite Races";
+                localStorage.removeItem(raceId);
+                checkbox.closest('.row').classList.remove('Favorite');
+            }
+        }
+
+        function chooseFavoritesPage() {
+            var fav = document.getElementsByClassName('showFavorites')[0];
+            fav.classList.add('FavoritesPage');
+            document.querySelector('.tab.tab1').classList.remove('activetab');
+        }
+
+        function chooseSummaryPage() {
+            var fav = document.getElementsByClassName('showFavorites')[0];
+            fav.classList.remove('FavoritesPage');
+            document.querySelector('.tab.tab5').classList.remove('activetab');
+
+        }
+        function isFavorite() {
+            var parser = document.createElement('a');
+            parser.href = location.href;
+            var isfavorite = 0;
+            if (parser.href.indexOf('?') > -1) {
+                var search = parser.search.split('?');
+                search = search[1].split('=');
+                if (search[0] === "favorites") { isfavorite = search[1]; }
+            }
+
+            return isfavorite;
+            
+        }
+
+       function load() {
+           
+            foreachCheck(           
+                (function (checkbox) {
+                    var raceId = checkbox.id.substr(checkbox.id.indexOf('-') + 1);
+                    var title = document.getElementById("favorite-" + raceId + "-title");
+                    checkbox.addEventListener("click", function () {
+                        myFav(checkbox, parseInt(raceId), title);
+                    });
+                    checkbox.addEventListener("change", function () {
+                        myFav(checkbox, parseInt(raceId), title);
+                        hideNotFavorites();
+
+                    });
+                    if (localStorage.getItem(parseInt(raceId)) != null) {
+                        var favRaceId = "favorite-" + raceId;
+                        var b = document.getElementById(favRaceId);
+                        b.checked = true;
+                        title.innerHTML = "Take Out of Favorite Races";
+                        title.firstChild.data = "Take Out of Favorite Races";
+                        document.getElementById(raceId).classList.add('Favorite');
+                    }
+                    else {
+                        title.innerHTML = "Add to Favorite Races";
+                        title.firstChild.data = "Add to Favorite Races";
+                    }
+                }));
+
+            if (isFavorite()) {
+                chooseFavoritesPage();
+                hideNotFavorites();
+            }
+            else {
+                chooseSummaryPage();
+            }
+           
+        }
+        function foreachCheck(f1) {
+            var checkboxes = Array.from(document.getElementsByClassName('favoriteCheckBox'));
+            checkboxes.map(f1);
+        }
+       
+        function hideNotFavorites() {
+            foreachCheck(
+                (function (checkbox) {
+                    var raceId = checkbox.id.substr(checkbox.id.indexOf('-') + 1);
+
+                    if (localStorage.getItem(parseInt(raceId)) == null) {
+                        document.getElementById(raceId).classList.add('NotFavorite');
+                    }
+                }));
+         }
+
+
+    </script>
+
+                    </section>
+            </div>
+            
+    <script>
+        document.addEventListener("DOMContentLoaded", load);
+
+        function load() {
+            foreachRaceView(function() {
+                var val = $('#viewSelect').val();
+                if (val === "Graphical") {
+                    $('.GraphicalResults').hide();
+                    $('.DetailResults').show();
+                    $('#suppressionMessage').show();
+                    $('#viewSelect')[0].selectedIndex = 1;
+                } else {
+                    $('.DetailResults').hide();
+                    $('#suppressionMessage').hide();
+                    $('.GraphicalResults').show();
+                    $('#viewSelect')[0].selectedIndex = 0;
+                }
+                setButtonText();
+            });
+        }
+
+        function foreachRaceView(f1) {
+            var viewSelectHeader = document.getElementsByClassName('viewSelectHeader');
+                
+                for (var i = 0; i !== viewSelectHeader.length; i++) {
+                    viewSelectHeader[i].parentElement.style.display = "none";
+                }
+                
+
+        }
+    </script>
+
+
+        <script>
+                var lastUpdateTime = "1793756533";
+                function setButtonText() {
+                    var viewSelectHeader = document.getElementsByClassName('viewSelectHeader');
+                    var graphicalViewEnabled = $('#viewSelect').val() === "Graphical";
+                    for (var i = 0; i !== viewSelectHeader.length; i++) {
+                        if (graphicalViewEnabled) {
+                            viewSelectHeader[i].innerText = "Show Detailed View";
+                        } else {
+                            viewSelectHeader[i].innerText = "Show Graphical View";
+                        }
+                    }
+                }
+
+                function makePrecinctURL(raceVal, precinctVal, viewVal, precinctCandidateVal) {
+                    var urlParts = ['/BAY/4078/Precincts'];
+                    if (precinctCandidateVal !== null) {
+                        urlParts[0] += precinctCandidateVal === 'byCandidate' ? '' : 'ByParty';
+                    }
+                    if (!(raceVal === undefined || raceVal === 'default')) {
+                        urlParts.push(raceVal);
+                        if (!(precinctVal === undefined || precinctVal === 'default')) {
+                            urlParts.push(precinctVal);
+                        }
+                    }
+                    var viewPart = viewVal === undefined ? '' : '?view=' + viewVal;
+
+                    return urlParts.join('/') + viewPart;
+                }
+
+                function onPrecinctSelectionChange() {
+                    var usesPrecinctCandidateList = false;
+                    var raceVal = $('#raceSelect').val();
+                    var precinctVal = $('#precinctSelect').val();
+                    var viewVal = $('#viewSelect').val();
+                    var precinctCandidateVal = usesPrecinctCandidateList ? $('#precinctCandidateListView').val() : null;
+
+                    var location = makePrecinctURL(raceVal, precinctVal, viewVal, precinctCandidateVal);
+                    window.location = location;
+                }
+
+                function makePrecinctURL(raceVal, precinctVal, viewVal, precinctCandidateVal, raceChanged) {
+                    var urlParts = ['/BAY/4078/Precincts'];
+                    if (precinctCandidateVal !== null) {
+                        urlParts[0] += precinctCandidateVal === 'byCandidate' ? '' : 'ByParty';
+                    }
+                    if (!(raceVal === undefined || raceVal === 'default')) {
+                        urlParts.push(raceVal);
+                        if (!raceChanged && precinctVal !== undefined && precinctVal !== 'default') {
+                            urlParts.push(precinctVal);
+                        }
+                    }
+                    var viewPart = viewVal === undefined ? '' : '?view=' + viewVal;
+
+                    return urlParts.join('/') + viewPart;
+                }
+
+                function onPrecinctSelectionChange(raceChanged) {
+                    var usesPrecinctCandidateList = false;
+                    var raceVal = $('#raceSelect').val();
+                    var precinctVal = $('#precinctSelect').val();
+                    var viewVal = $('#viewSelect').val();
+                    var precinctCandidateVal = usesPrecinctCandidateList ? $('#precinctCandidateListView').val() : null;
+
+                    var location = makePrecinctURL(raceVal, precinctVal, viewVal, precinctCandidateVal, raceChanged);
+                    window.location = location;
+                }
+
+                $(document).ready(function () {
+                    $("#tabsSelect > option").each(function() {
+                        if (this.value === sessionStorage.getItem("selected")) {
+                            this.selected = true;
+                        }
+                    });
+                    $(".GraphicalResults .Results").each(function () { $(this).find(".ResultsRow:even").addClass("oddrow"); });
+                    $(".DetailResults").each(function () { $(this).find("tbody tr:even").addClass("oddrow"); });
+                    var val = getQueryVariable('view', 'Graphical');
+                    $('#viewSelect').val(val);
+                    if (val === "Detailed") {
+                        $('.GraphicalResults').hide();
+                        $('.DetailResults').show();
+                    } else {
+                        $('.DetailResults').hide();
+                        $('.GraphicalResults').show();
+                    }
+                    setButtonText();
+
+                    if (getCookie("fullSite") === "true") {
+                        viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1024');
+                        $('#ShowMobileSite').html('<a onclick="showMobileSite()">Show Mobile Site</a>');
+                    }
+                    checkForUpdate();
+                });
+                $('#summaryViewSelect').ready(function () {
+                    $('#summaryViewSelect').change(function () {
+                        window.location = '/BAY/4078/SummaryByCandidate/' + $('#summaryViewSelect').val();
+                    });
+                });
+                $('#viewSelect').ready(function () {
+                    $('#viewSelect').change(function () {
+                        var val = $('#viewSelect').val();
+                        if (val === "Detailed") {
+                            $('.GraphicalResults').hide();
+                            $('.DetailResults').show();
+                        } else {
+                            $('.DetailResults').hide();
+                            $('.GraphicalResults').show();
+                        }
+                        setButtonText();
+                    });
+                });
+                $('#tabsSelect').ready(function () {
+                    $('#tabsSelect').change(function () {
+                        window.location = this.options[this.selectedIndex].value;
+                        sessionStorage.setItem("selected", this.options[this.selectedIndex].value);
+                    });
+                });
+
+                $('#raceSelect').ready(function () {
+                    $('#raceSelect').change(function () {onPrecinctSelectionChange(true);});
+                });
+
+                $('#precinctSelect').ready(function () {
+                    $('#precinctSelect').change(function () {
+                        if ($('#raceSelect').val() === 'default') {
+                            return;
+                        }
+                        onPrecinctSelectionChange(false);
+                    });
+                });
+
+                function checkForUpdate() {
+                    var randTag = Math.floor((Math.random() * 100000) + 1);
+                    $.ajax({
+                        url: '/BAY/4078/stampedtime.js?random='+randTag
+                    }).done(function (data) {
+                        if (lastUpdateTime === "") {
+                            lastUpdateTime = data;
+                            scheduleCheckForUpdate();
+                        } else if (lastUpdateTime !== data) {
+                            location.reload();
+                        } else {
+                            scheduleCheckForUpdate();
+                        }
+                    });
+                }
+
+                function scheduleCheckForUpdate() {
+                    window.setTimeout(checkForUpdate, 60000);
+                }
+
+                function getQueryVariable(variable, defaultVal) {
+                    var query = window.location.search.substring(1);
+                    var vars = query.split("&");
+                    for (var i = 0; i < vars.length; i++) {
+                        var pair = vars[i].split("=");
+                        if (pair[0] == variable) {
+                            return pair[1];
+                        }
+                    }
+                    return defaultVal;
+                }
+        </script>
+        </div>
+    </body>
+</html>
+
