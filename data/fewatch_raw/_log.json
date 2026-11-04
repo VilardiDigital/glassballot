@@ -4,11 +4,11 @@
   "type": "text/html; charset=utf-8"
  },
  "/Downloads": {
-  "bytes": 24019,
+  "bytes": 24014,
   "type": "text/html; charset=utf-8"
  },
  "Downloads": {
-  "bytes": 24019,
+  "bytes": 24014,
   "type": "text/html; charset=utf-8"
  },
  "Amendments": {
@@ -67,8 +67,18 @@
   "type": "text/html"
  },
  "https://enr.votepinellas.gov/FL/Pinellas/elections.json": {
-  "bytes": 2,
-  "type": "application/json"
+  "bytes": 0,
+  "type": "text/html; charset=UTF-8"
+ },
+ "https://www.votepinellas.gov/161/Election-Results": {
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "https://www.votepinellas.gov/": {
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "https://enr.votepinellas.gov/FL/Pinellas/": {
+  "bytes": 0,
+  "type": "text/html; charset=UTF-8"
  },
  "https://flelectionfiles.floridados.gov/enightfilespublic/20261103_ElecResultsFL.txt": {
   "bytes": 352524,
