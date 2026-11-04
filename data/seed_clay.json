@@ -195,7 +195,7 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "941",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    }
   },
   {
@@ -225,7 +225,7 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "961",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
    }
   },
   {
@@ -266,7 +266,7 @@
    "race": "sb-d1",
    "finance": {
     "voterfocusId": "946",
-    "status": "Active- Elected"
+    "status": "Inactive - Elected"
    },
    "nonpartisan": true
   },
@@ -287,7 +287,7 @@
    "race": "sb-d4",
    "finance": {
     "voterfocusId": "939",
-    "status": "Active- Elected"
+    "status": "Inactive - Elected"
    },
    "nonpartisan": true
   },
@@ -389,7 +389,8 @@
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Leroy Edwards (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
