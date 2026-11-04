@@ -1,13 +1,13 @@
 {
  "county": "wakulla",
  "url": "https://enr.electionsfl.org/WAK/4128/Summary/",
- "pulledAt": "2026-11-03T17:05:37Z",
+ "pulledAt": "2026-11-04T03:15:20Z",
  "status": "unofficial",
  "updated": null,
  "races": [
   {
    "office": "County Commissioner District 4",
-   "reported": 0,
+   "reported": 12,
    "precincts": 12,
    "candidates": []
   }

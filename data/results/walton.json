@@ -1,8 +1,21 @@
 {
  "county": "walton",
  "url": "https://enr.electionsfl.org/WAL/4091/Summary/",
- "pulledAt": "2026-11-03T17:05:39Z",
+ "pulledAt": "2026-11-04T03:15:21Z",
  "status": "unofficial",
  "updated": null,
- "races": []
+ "races": [
+  {
+   "office": "County Commissioner",
+   "reported": 22,
+   "precincts": 22,
+   "candidates": []
+  },
+  {
+   "office": "County Commissioner",
+   "reported": 22,
+   "precincts": 22,
+   "candidates": []
+  }
+ ]
 }

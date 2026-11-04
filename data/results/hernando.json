@@ -1,19 +1,19 @@
 {
  "county": "hernando",
  "url": "https://enr.electionsfl.org/HER/4106/Summary/",
- "pulledAt": "2026-11-03T17:04:50Z",
+ "pulledAt": "2026-11-04T03:14:26Z",
  "status": "unofficial",
  "updated": null,
  "races": [
   {
    "office": "County Commissioner, District 4",
-   "reported": 0,
+   "reported": 32,
    "precincts": 32,
    "candidates": []
   },
   {
    "office": "School Board, District 5",
-   "reported": 0,
+   "reported": 32,
    "precincts": 32,
    "candidates": []
   }

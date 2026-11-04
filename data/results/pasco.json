@@ -1,25 +1,25 @@
 {
  "county": "pasco",
  "url": "https://enr.electionsfl.org/PAS/4085/Summary/",
- "pulledAt": "2026-11-03T17:05:21Z",
+ "pulledAt": "2026-11-04T03:15:02Z",
  "status": "unofficial",
  "updated": null,
  "races": [
   {
    "office": "County Commissioner District 2",
-   "reported": 0,
+   "reported": 122,
    "precincts": 122,
    "candidates": []
   },
   {
    "office": "School Board Member District 1",
-   "reported": 0,
+   "reported": 122,
    "precincts": 122,
    "candidates": []
   },
   {
    "office": "School Board Member District 3",
-   "reported": 0,
+   "reported": 122,
    "precincts": 122,
    "candidates": []
   }

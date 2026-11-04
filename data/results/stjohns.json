@@ -1,13 +1,13 @@
 {
  "county": "stjohns",
  "url": "https://enr.electionsfl.org/STJ/4082/Summary/",
- "pulledAt": "2026-11-03T17:05:27Z",
+ "pulledAt": "2026-11-04T03:15:09Z",
  "status": "unofficial",
  "updated": null,
  "races": [
   {
    "office": "School Board Member District 4",
-   "reported": 0,
+   "reported": 9,
    "precincts": 9,
    "candidates": []
   }

@@ -1,13 +1,13 @@
 {
  "county": "gulf",
  "url": "https://enr.electionsfl.org/GUL/4084/Summary/",
- "pulledAt": "2026-11-03T17:04:46Z",
+ "pulledAt": "2026-11-04T03:14:22Z",
  "status": "unofficial",
  "updated": null,
  "races": [
   {
    "office": "School Board District 1",
-   "reported": 0,
+   "reported": 1,
    "precincts": 1,
    "candidates": []
   }

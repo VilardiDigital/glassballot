@@ -1,19 +1,19 @@
 {
  "county": "miamidade",
  "url": "https://enr.electionsfl.org/DAD/4087/Summary/",
- "pulledAt": "2026-11-03T17:05:15Z",
+ "pulledAt": "2026-11-04T03:14:55Z",
  "status": "unofficial",
  "updated": null,
  "races": [
   {
    "office": "County Commissioner District 5",
-   "reported": 0,
+   "reported": 55,
    "precincts": 55,
    "candidates": []
   },
   {
    "office": "School Board Member District 1",
-   "reported": 0,
+   "reported": 80,
    "precincts": 80,
    "candidates": []
   }

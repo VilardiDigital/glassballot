@@ -1,13 +1,13 @@
 {
  "county": "desoto",
  "url": "https://enr.electionsfl.org/DES/4094/Summary/",
- "pulledAt": "2026-11-03T17:04:35Z",
+ "pulledAt": "2026-11-04T03:14:12Z",
  "status": "unofficial",
  "updated": null,
  "races": [
   {
    "office": "County Commissioner District 2",
-   "reported": 0,
+   "reported": 15,
    "precincts": 15,
    "candidates": []
   }

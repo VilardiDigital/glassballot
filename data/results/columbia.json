@@ -1,19 +1,19 @@
 {
  "county": "columbia",
  "url": "https://enr.electionsfl.org/CLM/4069/Summary/",
- "pulledAt": "2026-11-03T17:04:34Z",
+ "pulledAt": "2026-11-04T03:14:11Z",
  "status": "unofficial",
  "updated": null,
  "races": [
   {
    "office": "County Commissioner District 2",
-   "reported": 0,
+   "reported": 3,
    "precincts": 3,
    "candidates": []
   },
   {
    "office": "County Commissioner District 4",
-   "reported": 0,
+   "reported": 8,
    "precincts": 8,
    "candidates": []
   }

@@ -1,25 +1,25 @@
 {
  "county": "duval",
  "url": "https://enr.electionsfl.org/DUV/4076/Summary/",
- "pulledAt": "2026-11-03T17:04:39Z",
+ "pulledAt": "2026-11-04T03:14:15Z",
  "status": "unofficial",
  "updated": null,
  "races": [
   {
    "office": "School Board - District 2",
-   "reported": 0,
+   "reported": 24,
    "precincts": 24,
    "candidates": []
   },
   {
    "office": "School Board - District 4",
-   "reported": 0,
+   "reported": 23,
    "precincts": 23,
    "candidates": []
   },
   {
    "office": "School Board - District 6",
-   "reported": 0,
+   "reported": 22,
    "precincts": 22,
    "candidates": []
   }

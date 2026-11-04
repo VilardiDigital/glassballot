@@ -1,19 +1,19 @@
 {
  "county": "jefferson",
  "url": "https://enr.electionsfl.org/JEF/4115/Summary/",
- "pulledAt": "2026-11-03T17:04:58Z",
+ "pulledAt": "2026-11-04T03:14:34Z",
  "status": "unofficial",
  "updated": null,
  "races": [
   {
    "office": "Board of County Commissioners - District 4",
-   "reported": 0,
+   "reported": 3,
    "precincts": 3,
    "candidates": []
   },
   {
    "office": "School Board Member - District 2",
-   "reported": 0,
+   "reported": 2,
    "precincts": 2,
    "candidates": []
   }

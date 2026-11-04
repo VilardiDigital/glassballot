@@ -1,13 +1,13 @@
 {
  "county": "putnam",
  "url": "https://enr.electionsfl.org/PUT/4081/Summary/",
- "pulledAt": "2026-11-03T17:05:24Z",
+ "pulledAt": "2026-11-04T03:15:06Z",
  "status": "unofficial",
  "updated": null,
  "races": [
   {
    "office": "Board of County Commissioners, District 4",
-   "reported": 0,
+   "reported": 37,
    "precincts": 37,
    "candidates": []
   }

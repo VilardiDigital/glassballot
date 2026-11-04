@@ -1,19 +1,19 @@
 {
  "county": "polk",
  "url": "https://enr.electionsfl.org/POL/4000/Summary/",
- "pulledAt": "2026-11-03T17:05:23Z",
+ "pulledAt": "2026-11-04T03:15:04Z",
  "status": "unofficial",
  "updated": null,
  "races": [
   {
    "office": "County Commissioner District 4",
-   "reported": 0,
+   "reported": 177,
    "precincts": 177,
    "candidates": []
   },
   {
    "office": "School Board District 3",
-   "reported": 0,
+   "reported": 177,
    "precincts": 177,
    "candidates": []
   }
