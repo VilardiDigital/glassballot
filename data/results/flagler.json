@@ -1,7 +1,7 @@
 {
  "county": "flagler",
  "url": "https://enr.electionsfl.org/FLA/4088/Summary/",
- "pulledAt": "2026-11-04T03:55:19Z",
+ "pulledAt": "2026-11-04T04:12:13Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -59,6 +59,537 @@
      "party": null,
      "pct": 49.08,
      "votes": 26671
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 61.88,
+     "votes": 39526
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 36.94,
+     "votes": 23598
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.18,
+     "votes": 753
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress, District 6",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Randy Fine",
+     "party": "REP",
+     "pct": 59.31,
+     "votes": 37111
+    },
+    {
+     "name": "Eric Yonce",
+     "party": "DEM",
+     "pct": 39.77,
+     "votes": 24885
+    },
+    {
+     "name": "Andrew Parrott",
+     "party": "LPF",
+     "pct": 0.92,
+     "votes": 574
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Byron Donalds",
+     "party": "REP",
+     "pct": 60.82,
+     "votes": 38807
+    },
+    {
+     "name": "David Jolly",
+     "party": "DEM",
+     "pct": 38.04,
+     "votes": 24272
+    },
+    {
+     "name": "Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.45,
+     "votes": 287
+    },
+    {
+     "name": "Charles Burkett",
+     "party": "NPA",
+     "pct": 0.17,
+     "votes": 108
+    },
+    {
+     "name": "Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.26,
+     "votes": 165
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.06,
+     "votes": 37
+    },
+    {
+     "name": "Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.11,
+     "votes": 67
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.1,
+     "votes": 65
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 62.11,
+     "votes": 39364
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 37.89,
+     "votes": 24018
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 61.9,
+     "votes": 38518
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 38.1,
+     "votes": 23704
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 61.6,
+     "votes": 38590
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 38.4,
+     "votes": 24052
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 19",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Sam Greco",
+     "party": "REP",
+     "pct": 60.98,
+     "votes": 38192
+    },
+    {
+     "name": "Suzanna Pavelle",
+     "party": "DEM",
+     "pct": 39.02,
+     "votes": 24435
+    }
+   ]
+  },
+  {
+   "office": "Board of County Commissioners, District 2",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Theresa Pontieri",
+     "party": "REP",
+     "pct": 64.79,
+     "votes": 38478
+    },
+    {
+     "name": "Raymond Royer",
+     "party": "IND",
+     "pct": 35.21,
+     "votes": 20915
+    }
+   ]
+  },
+  {
+   "office": "Board of County Commissioners, District 4",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Leann Pennington",
+     "party": "REP",
+     "pct": 93.66,
+     "votes": 44755
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 6.34,
+     "votes": 3029
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court - Muniz",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 63.89,
+     "votes": 35884
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 36.11,
+     "votes": 20281
+    }
+   ]
+  },
+  {
+   "office": "District Court of Appeal - Harris",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 66.32,
+     "votes": 37018
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 33.68,
+     "votes": 18796
+    }
+   ]
+  },
+  {
+   "office": "District Court of Appeal - Makar",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 65.51,
+     "votes": 36178
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 34.49,
+     "votes": 19043
+    }
+   ]
+  },
+  {
+   "office": "District Court of Appeal - Wallis",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 65.41,
+     "votes": 35935
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 34.59,
+     "votes": 19000
+    }
+   ]
+  },
+  {
+   "office": "School Board, District 4",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Christy Chong",
+     "party": null,
+     "pct": 50.92,
+     "votes": 27667
+    },
+    {
+     "name": "Trevor Tucker",
+     "party": null,
+     "pct": 49.08,
+     "votes": 26671
+    }
+   ]
+  },
+  {
+   "office": "City of Palm Coast Council Member, District 2",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Antonio \"Tony\" Amaral Jr.",
+     "party": null,
+     "pct": 60.31,
+     "votes": 24406
+    },
+    {
+     "name": "Jeani Duarte",
+     "party": null,
+     "pct": 39.69,
+     "votes": 16059
+    }
+   ]
+  },
+  {
+   "office": "City of Palm Coast Council Member, District 4",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Dylana \"Dee\" Galery",
+     "party": null,
+     "pct": 48.63,
+     "votes": 19133
+    },
+    {
+     "name": "Darlene Shelley",
+     "party": null,
+     "pct": 51.37,
+     "votes": 20214
+    }
+   ]
+  },
+  {
+   "office": "Grand Haven CDD, Seat 3",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Joe Janukaitis",
+     "party": null,
+     "pct": 15.85,
+     "votes": 310
+    },
+    {
+     "name": "Ray Krov",
+     "party": null,
+     "pct": 15.64,
+     "votes": 306
+    },
+    {
+     "name": "Brian L. Unger",
+     "party": null,
+     "pct": 68.51,
+     "votes": 1340
+    }
+   ]
+  },
+  {
+   "office": "Deer Run CDD, Seat 2",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Jeanna James",
+     "party": null,
+     "pct": 43.59,
+     "votes": 272
+    },
+    {
+     "name": "Gary Masten",
+     "party": null,
+     "pct": 56.41,
+     "votes": 352
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment Article III, Section 19",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 41.95,
+     "votes": 25167
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 58.05,
+     "votes": 34831
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment Article VII, Section 3; Article XII",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 63.73,
+     "votes": 38400
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 36.27,
+     "votes": 21856
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment Article VII, Sections 4, 6 and 9; Article XII",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 67.97,
+     "votes": 41762
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 32.03,
+     "votes": 19682
+    }
+   ]
+  },
+  {
+   "office": "City of Palm Coast Charter Amendment 1",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 82.94,
+     "votes": 36028
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 17.06,
+     "votes": 7409
+    }
+   ]
+  },
+  {
+   "office": "City of Palm Coast Charter Amendment  2",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 83.86,
+     "votes": 36144
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 16.14,
+     "votes": 6954
+    }
+   ]
+  },
+  {
+   "office": "City of Palm Coast Charter Amendment 3",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 20.48,
+     "votes": 8907
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 79.52,
+     "votes": 34585
+    }
+   ]
+  },
+  {
+   "office": "City of Flagler Beach Charter Amendment",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 78.0,
+     "votes": 2446
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 22.0,
+     "votes": 690
     }
    ]
   }

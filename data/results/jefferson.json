@@ -1,7 +1,7 @@
 {
  "county": "jefferson",
  "url": "https://enr.electionsfl.org/JEF/4115/Summary/",
- "pulledAt": "2026-11-04T03:55:20Z",
+ "pulledAt": "2026-11-04T04:12:13Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -40,6 +40,461 @@
      "party": null,
      "pct": 39.7,
      "votes": 403
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 16,
+   "precincts": 16,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 57.43,
+     "votes": 4014
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 41.61,
+     "votes": 2908
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 0.96,
+     "votes": 67
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress",
+   "reported": 16,
+   "precincts": 16,
+   "candidates": [
+    {
+     "name": "Austin Rogers",
+     "party": "REP",
+     "pct": 54.87,
+     "votes": 3796
+    },
+    {
+     "name": "Amanda Marie Green",
+     "party": "DEM",
+     "pct": 45.13,
+     "votes": 3122
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 16,
+   "precincts": 16,
+   "candidates": [
+    {
+     "name": "Byron Donalds and Bryan Avila",
+     "party": "REP",
+     "pct": 55.5,
+     "votes": 3861
+    },
+    {
+     "name": "David Jolly and Gwen Graham",
+     "party": "DEM",
+     "pct": 43.11,
+     "votes": 2999
+    },
+    {
+     "name": "Scott Eckhard Jewett and Nicole Skelly",
+     "party": "LPF",
+     "pct": 0.6,
+     "votes": 42
+    },
+    {
+     "name": "Charles Burkett and Ruben A. Coto",
+     "party": "NPA",
+     "pct": 0.11,
+     "votes": 8
+    },
+    {
+     "name": "Frank J. Russo and Rachel Rodriguez",
+     "party": "NPA",
+     "pct": 0.26,
+     "votes": 18
+    },
+    {
+     "name": "Moliere “Moe” Dimanche and Benjiman Rojas",
+     "party": "NPA",
+     "pct": 0.0,
+     "votes": 0
+    },
+    {
+     "name": "Dean Ocean Abrams and Joe Van Vactor",
+     "party": "NPA",
+     "pct": 0.11,
+     "votes": 8
+    },
+    {
+     "name": "Jeffrey Peter “Dr. Jeff” Datto and Juan Santana",
+     "party": "NPA",
+     "pct": 0.09,
+     "votes": 6
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.22,
+     "votes": 15
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 16,
+   "precincts": 16,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 58.09,
+     "votes": 3990
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 41.91,
+     "votes": 2879
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 16,
+   "precincts": 16,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 57.04,
+     "votes": 3936
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 42.96,
+     "votes": 2965
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 16,
+   "precincts": 16,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 58.46,
+     "votes": 4013
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 41.3,
+     "votes": 2835
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.23,
+     "votes": 16
+    }
+   ]
+  },
+  {
+   "office": "State Representative - District 9",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "Tracy Robinson",
+     "party": "REP",
+     "pct": 41.18,
+     "votes": 2467
+    },
+    {
+     "name": "Allison Tant",
+     "party": "DEM",
+     "pct": 58.82,
+     "votes": 3524
+    }
+   ]
+  },
+  {
+   "office": "Board of County Commissioners - District 4",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "Austin Hosford",
+     "party": "REP",
+     "pct": 62.88,
+     "votes": 1108
+    },
+    {
+     "name": "Lois Howell-Hunter",
+     "party": "DEM",
+     "pct": 37.12,
+     "votes": 654
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court -  Justice Carlos G. Muñiz",
+   "reported": 16,
+   "precincts": 16,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 60.26,
+     "votes": 3855
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 39.74,
+     "votes": 2542
+    }
+   ]
+  },
+  {
+   "office": "District Court of Appeal - Joseph Lewis Jr.",
+   "reported": 16,
+   "precincts": 16,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 63.05,
+     "votes": 4043
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 36.95,
+     "votes": 2369
+    }
+   ]
+  },
+  {
+   "office": "District Court of Appeal - Rachel Nordby",
+   "reported": 16,
+   "precincts": 16,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 61.83,
+     "votes": 3933
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 38.17,
+     "votes": 2428
+    }
+   ]
+  },
+  {
+   "office": "District Court of Appeal - Tim Osterhaus",
+   "reported": 16,
+   "precincts": 16,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 61.42,
+     "votes": 3928
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 38.58,
+     "votes": 2467
+    }
+   ]
+  },
+  {
+   "office": "District Court of Appeal - Clay Roberts",
+   "reported": 16,
+   "precincts": 16,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 59.24,
+     "votes": 3803
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 40.76,
+     "votes": 2617
+    }
+   ]
+  },
+  {
+   "office": "District Court of Appeal - Raymond Treadwell",
+   "reported": 16,
+   "precincts": 16,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 62.15,
+     "votes": 3955
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 37.85,
+     "votes": 2409
+    }
+   ]
+  },
+  {
+   "office": "School Board Member - District 2",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Jamia Bradley",
+     "party": null,
+     "pct": 60.3,
+     "votes": 612
+    },
+    {
+     "name": "Donnie Burdick",
+     "party": null,
+     "pct": 39.7,
+     "votes": 403
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional AmendmentArticle III, Section 19",
+   "reported": 16,
+   "precincts": 16,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 38.45,
+     "votes": 2586
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 61.55,
+     "votes": 4140
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional AmendmentArticle VII, Section 3Article XII",
+   "reported": 16,
+   "precincts": 16,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 64.87,
+     "votes": 4412
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 35.13,
+     "votes": 2389
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional AmendmentArticle VII, Sections 4, 6 and 9Article X",
+   "reported": 16,
+   "precincts": 16,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 61.26,
+     "votes": 4199
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 38.74,
+     "votes": 2655
+    }
+   ]
+  },
+  {
+   "office": "City of Monticello Amendment 1",
+   "reported": 6,
+   "precincts": 6,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 64.87,
+     "votes": 735
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 35.13,
+     "votes": 398
+    }
+   ]
+  },
+  {
+   "office": "City of Monticello Amendment 2",
+   "reported": 6,
+   "precincts": 6,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 65.48,
+     "votes": 738
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 34.52,
+     "votes": 389
+    }
+   ]
+  },
+  {
+   "office": "City of Monticello Amendment 3",
+   "reported": 6,
+   "precincts": 6,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 83.29,
+     "votes": 967
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 16.71,
+     "votes": 194
     }
    ]
   }

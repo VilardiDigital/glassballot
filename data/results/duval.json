@@ -1,7 +1,7 @@
 {
  "county": "duval",
  "url": "https://enr.electionsfl.org/DUV/4076/Summary/",
- "pulledAt": "2026-11-04T03:55:19Z",
+ "pulledAt": "2026-11-04T04:12:13Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -65,6 +65,624 @@
      "party": null,
      "pct": 46.91,
      "votes": 21720
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 159,
+   "precincts": 159,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 44.11,
+     "votes": 157167
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 54.95,
+     "votes": 195811
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 0.95,
+     "votes": 3369
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 4",
+   "reported": 78,
+   "precincts": 78,
+   "candidates": [
+    {
+     "name": "Aaron Bean",
+     "party": "REP",
+     "pct": 34.64,
+     "votes": 54131
+    },
+    {
+     "name": "LaShonda \"L.J.\" Holloway",
+     "party": "DEM",
+     "pct": 63.99,
+     "votes": 99999
+    },
+    {
+     "name": "Mike Sell",
+     "party": "FFP",
+     "pct": 0.52,
+     "votes": 812
+    },
+    {
+     "name": "Todd Schaefer",
+     "party": "NPA",
+     "pct": 0.85,
+     "votes": 1326
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 5",
+   "reported": 81,
+   "precincts": 81,
+   "candidates": [
+    {
+     "name": "John H. Rutherford",
+     "party": "REP",
+     "pct": 52.36,
+     "votes": 103932
+    },
+    {
+     "name": "Rachel Grage",
+     "party": "DEM",
+     "pct": 47.44,
+     "votes": 94176
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.2,
+     "votes": 394
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 159,
+   "precincts": 159,
+   "candidates": [
+    {
+     "name": "Byron Donalds / Bryan Avila",
+     "party": "REP",
+     "pct": 43.87,
+     "votes": 156176
+    },
+    {
+     "name": "David Jolly / Gwen Graham",
+     "party": "DEM",
+     "pct": 54.63,
+     "votes": 194509
+    },
+    {
+     "name": "Scott Eckhard Jewett / Nicole Skelly",
+     "party": "LPF",
+     "pct": 0.5,
+     "votes": 1794
+    },
+    {
+     "name": "Charles Burkett / Ruben A. Coto",
+     "party": "NPA",
+     "pct": 0.16,
+     "votes": 570
+    },
+    {
+     "name": "Frank J. Russo / Rachel Rodriguez",
+     "party": "NPA",
+     "pct": 0.26,
+     "votes": 928
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche / Benjiman Rojas",
+     "party": "NPA",
+     "pct": 0.13,
+     "votes": 464
+    },
+    {
+     "name": "Dean Ocean Abrams / Joe Van Vactor",
+     "party": "NPA",
+     "pct": 0.17,
+     "votes": 590
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto / Juan Santana",
+     "party": "NPA",
+     "pct": 0.09,
+     "votes": 325
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.19,
+     "votes": 668
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 159,
+   "precincts": 159,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 45.1,
+     "votes": 159287
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 54.9,
+     "votes": 193872
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 159,
+   "precincts": 159,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 44.95,
+     "votes": 157875
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 55.05,
+     "votes": 193361
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 159,
+   "precincts": 159,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 44.46,
+     "votes": 156347
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 55.15,
+     "votes": 193933
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.39,
+     "votes": 1360
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 12",
+   "reported": 29,
+   "precincts": 29,
+   "candidates": [
+    {
+     "name": "Terrance Freeman",
+     "party": "REP",
+     "pct": 51.78,
+     "votes": 32660
+    },
+    {
+     "name": "Benjamin Sandlin",
+     "party": "DEM",
+     "pct": 48.22,
+     "votes": 30415
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 17",
+   "reported": 29,
+   "precincts": 29,
+   "candidates": [
+    {
+     "name": "Jessica Baker",
+     "party": "REP",
+     "pct": 50.76,
+     "votes": 34747
+    },
+    {
+     "name": "Jacob Guerrero",
+     "party": "DEM",
+     "pct": 49.24,
+     "votes": 33707
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 15",
+   "reported": 20,
+   "precincts": 20,
+   "candidates": [
+    {
+     "name": "Dean Black",
+     "party": "REP",
+     "pct": 49.28,
+     "votes": 19605
+    },
+    {
+     "name": "Chadd Charland",
+     "party": "NPA",
+     "pct": 49.48,
+     "votes": 19683
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 1.24,
+     "votes": 494
+    }
+   ]
+  },
+  {
+   "office": "Supreme Court Justice - Carlos G. Muñiz",
+   "reported": 159,
+   "precincts": 159,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 51.82,
+     "votes": 169123
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 48.18,
+     "votes": 157265
+    }
+   ]
+  },
+  {
+   "office": "Fifth District Court of Appeal - John M. Harris",
+   "reported": 159,
+   "precincts": 159,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 54.91,
+     "votes": 177761
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 45.09,
+     "votes": 145981
+    }
+   ]
+  },
+  {
+   "office": "Fifth District Court of Appeal - Scott D. Makar",
+   "reported": 159,
+   "precincts": 159,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 56.61,
+     "votes": 181760
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 43.39,
+     "votes": 139312
+    }
+   ]
+  },
+  {
+   "office": "Fifth District Court of Appeal - F. Rand Wallis",
+   "reported": 159,
+   "precincts": 159,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 53.6,
+     "votes": 171651
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 46.4,
+     "votes": 148586
+    }
+   ]
+  },
+  {
+   "office": "County Court Judge Group 13",
+   "reported": 159,
+   "precincts": 159,
+   "candidates": [
+    {
+     "name": "Melina Buncome",
+     "party": null,
+     "pct": 52.37,
+     "votes": 161658
+    },
+    {
+     "name": "Octavius A. Holliday Jr.",
+     "party": null,
+     "pct": 47.63,
+     "votes": 147051
+    }
+   ]
+  },
+  {
+   "office": "School Board - District 2",
+   "reported": 24,
+   "precincts": 24,
+   "candidates": [
+    {
+     "name": "Donovan Bradley",
+     "party": null,
+     "pct": 53.35,
+     "votes": 28443
+    },
+    {
+     "name": "Donna Mae Westrich",
+     "party": null,
+     "pct": 46.65,
+     "votes": 24875
+    }
+   ]
+  },
+  {
+   "office": "School Board - District 4",
+   "reported": 23,
+   "precincts": 23,
+   "candidates": [
+    {
+     "name": "Rhodesia \"Rho\" Butler",
+     "party": null,
+     "pct": 50.6,
+     "votes": 22316
+    },
+    {
+     "name": "James \"Coach\" Jacobs",
+     "party": null,
+     "pct": 48.9,
+     "votes": 21564
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.5,
+     "votes": 219
+    }
+   ]
+  },
+  {
+   "office": "School Board - District 6",
+   "reported": 22,
+   "precincts": 22,
+   "candidates": [
+    {
+     "name": "Lindsey Denmark",
+     "party": null,
+     "pct": 53.09,
+     "votes": 24582
+    },
+    {
+     "name": "Clarence \"CJ\" James",
+     "party": null,
+     "pct": 46.91,
+     "votes": 21720
+    }
+   ]
+  },
+  {
+   "office": "Atlantic Beach - Mayor-Commissioner Seat 1",
+   "reported": 4,
+   "precincts": 4,
+   "candidates": [
+    {
+     "name": "Curtis R. Ford",
+     "party": null,
+     "pct": 55.39,
+     "votes": 3814
+    },
+    {
+     "name": "Nancy Staats",
+     "party": null,
+     "pct": 44.61,
+     "votes": 3072
+    }
+   ]
+  },
+  {
+   "office": "Atlantic Beach Commissioner - Seat 4",
+   "reported": 4,
+   "precincts": 4,
+   "candidates": [
+    {
+     "name": "Lisa Herrold",
+     "party": null,
+     "pct": 49.99,
+     "votes": 3129
+    },
+    {
+     "name": "Jennifer Lagner",
+     "party": null,
+     "pct": 50.01,
+     "votes": 3130
+    }
+   ]
+  },
+  {
+   "office": "Tolomato CDD - Seat 5",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Ronald Howland",
+     "party": null,
+     "pct": 51.66,
+     "votes": 793
+    },
+    {
+     "name": "Anthony Vetter",
+     "party": null,
+     "pct": 48.34,
+     "votes": 742
+    }
+   ]
+  },
+  {
+   "office": "Cypress Bluff CDD - Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "William Cellar Jr.",
+     "party": null,
+     "pct": 37.03,
+     "votes": 647
+    },
+    {
+     "name": "Carol Springer",
+     "party": null,
+     "pct": 62.97,
+     "votes": 1100
+    }
+   ]
+  },
+  {
+   "office": "Trails CDD - Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Adesina Braxton",
+     "party": null,
+     "pct": 63.36,
+     "votes": 339
+    },
+    {
+     "name": "Corina K. Buck",
+     "party": null,
+     "pct": 36.64,
+     "votes": 196
+    }
+   ]
+  },
+  {
+   "office": "Trails CDD - Seat 5",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Terence Douglas",
+     "party": null,
+     "pct": 46.48,
+     "votes": 251
+    },
+    {
+     "name": "Ashley Guioa",
+     "party": null,
+     "pct": 53.52,
+     "votes": 289
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment - Budget Stabilization Fund",
+   "reported": 159,
+   "precincts": 159,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 39.08,
+     "votes": 130285
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 60.92,
+     "votes": 203107
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment - Exemption of Tangible Personal Property on Agricultural Land",
+   "reported": 159,
+   "precincts": 159,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 55.63,
+     "votes": 186738
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 44.37,
+     "votes": 148956
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment - Increased Homestead Exemption",
+   "reported": 159,
+   "precincts": 159,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 56.54,
+     "votes": 193085
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 43.46,
+     "votes": 148416
+    }
+   ]
+  },
+  {
+   "office": "School District Referendum - Continue current one (1) mill ad valorem millage?",
+   "reported": 159,
+   "precincts": 159,
+   "candidates": [
+    {
+     "name": "Yes, for continuation",
+     "party": null,
+     "pct": 75.9,
+     "votes": 255449
+    },
+    {
+     "name": "No, against continuation",
+     "party": null,
+     "pct": 24.1,
+     "votes": 81107
     }
    ]
   }

@@ -1,7 +1,7 @@
 {
  "county": "stlucie",
  "url": "https://enr.electionsfl.org/STL/4089/Summary/",
- "pulledAt": "2026-11-04T03:55:23Z",
+ "pulledAt": "2026-11-04T04:12:15Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -13,14 +13,14 @@
     {
      "name": "Larry D. Leet",
      "party": "REP",
-     "pct": 53.95,
-     "votes": 68362
+     "pct": 53.9,
+     "votes": 68614
     },
     {
      "name": "Rolin Dorsainvil",
      "party": "IND",
-     "pct": 46.05,
-     "votes": 58359
+     "pct": 46.1,
+     "votes": 58683
     }
    ]
   },
@@ -32,20 +32,20 @@
     {
      "name": "Jamie Fowler",
      "party": "REP",
-     "pct": 48.05,
-     "votes": 63882
+     "pct": 48.0,
+     "votes": 64103
     },
     {
      "name": "Jean Eddy Leroy",
      "party": "DEM",
-     "pct": 49.25,
-     "votes": 65481
+     "pct": 49.29,
+     "votes": 65830
     },
     {
      "name": "Nicholas R. Burgos",
      "party": "NPA",
-     "pct": 2.7,
-     "votes": 3589
+     "pct": 2.71,
+     "votes": 3614
     }
    ]
   },
@@ -57,14 +57,14 @@
     {
      "name": "Donna Mills",
      "party": null,
-     "pct": 93.62,
-     "votes": 103579
+     "pct": 93.63,
+     "votes": 104058
     },
     {
      "name": "Write-in",
      "party": null,
-     "pct": 6.38,
-     "votes": 7054
+     "pct": 6.37,
+     "votes": 7079
     }
    ]
   },
@@ -76,14 +76,727 @@
     {
      "name": "Troy Ingersoll",
      "party": null,
-     "pct": 50.69,
-     "votes": 59341
+     "pct": 50.67,
+     "votes": 59580
     },
     {
      "name": "Lisa Kessler",
      "party": null,
-     "pct": 49.31,
-     "votes": 57717
+     "pct": 49.33,
+     "votes": 58012
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 48.32,
+     "votes": 65960
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 50.56,
+     "votes": 69016
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.12,
+     "votes": 1535
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress, District 21",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Brian Mast",
+     "party": "REP",
+     "pct": 48.66,
+     "votes": 66415
+    },
+    {
+     "name": "James T. Martin",
+     "party": "DEM",
+     "pct": 49.87,
+     "votes": 68068
+    },
+    {
+     "name": "Alexander Cooke",
+     "party": "NPA",
+     "pct": 1.37,
+     "votes": 1870
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.09,
+     "votes": 129
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Byron Donalds",
+     "party": "REP",
+     "pct": 47.85,
+     "votes": 65400
+    },
+    {
+     "name": "David Jolly",
+     "party": "DEM",
+     "pct": 50.71,
+     "votes": 69313
+    },
+    {
+     "name": "Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.41,
+     "votes": 558
+    },
+    {
+     "name": "Charles Burkett",
+     "party": "NPA",
+     "pct": 0.17,
+     "votes": 230
+    },
+    {
+     "name": "Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.33,
+     "votes": 449
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.1,
+     "votes": 137
+    },
+    {
+     "name": "Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.16,
+     "votes": 218
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.09,
+     "votes": 125
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.19,
+     "votes": 253
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 49.11,
+     "votes": 66489
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 50.89,
+     "votes": 68891
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 48.03,
+     "votes": 64307
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 51.97,
+     "votes": 69596
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 48.31,
+     "votes": 64955
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 51.49,
+     "votes": 69230
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.2,
+     "votes": 270
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 84",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Dana Trabulsy",
+     "party": "REP",
+     "pct": 50.91,
+     "votes": 35528
+    },
+    {
+     "name": "Jennifer Massey",
+     "party": "DEM",
+     "pct": 49.09,
+     "votes": 34261
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 85",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Anthony Bonna",
+     "party": "REP",
+     "pct": 46.06,
+     "votes": 30040
+    },
+    {
+     "name": "Wayne Richter",
+     "party": "DEM",
+     "pct": 53.36,
+     "votes": 34800
+    },
+    {
+     "name": "Amr Metwally",
+     "party": "MGT",
+     "pct": 0.44,
+     "votes": 287
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.13,
+     "votes": 86
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner, District 2",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Larry D. Leet",
+     "party": "REP",
+     "pct": 53.9,
+     "votes": 68614
+    },
+    {
+     "name": "Rolin Dorsainvil",
+     "party": "IND",
+     "pct": 46.1,
+     "votes": 58683
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner, District 4",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Jamie Fowler",
+     "party": "REP",
+     "pct": 48.0,
+     "votes": 64103
+    },
+    {
+     "name": "Jean Eddy Leroy",
+     "party": "DEM",
+     "pct": 49.29,
+     "votes": 65830
+    },
+    {
+     "name": "Nicholas R. Burgos",
+     "party": "NPA",
+     "pct": 2.71,
+     "votes": 3614
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 57.74,
+     "votes": 70481
+    },
+    {
+     "name": "N0",
+     "party": null,
+     "pct": 42.26,
+     "votes": 51577
+    }
+   ]
+  },
+  {
+   "office": "Fourth District Court of Appeal # 1",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 58.86,
+     "votes": 70799
+    },
+    {
+     "name": "N0",
+     "party": null,
+     "pct": 41.14,
+     "votes": 49478
+    }
+   ]
+  },
+  {
+   "office": "Fourth District Court of Appeal # 2",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 58.37,
+     "votes": 70074
+    },
+    {
+     "name": "N0",
+     "party": null,
+     "pct": 41.63,
+     "votes": 49975
+    }
+   ]
+  },
+  {
+   "office": "Fourth District Court of Appeal # 3",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 58.81,
+     "votes": 70150
+    },
+    {
+     "name": "N0",
+     "party": null,
+     "pct": 41.19,
+     "votes": 49140
+    }
+   ]
+  },
+  {
+   "office": "Fourth District Court of Appeal # 4",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 60.19,
+     "votes": 72023
+    },
+    {
+     "name": "N0",
+     "party": null,
+     "pct": 39.81,
+     "votes": 47627
+    }
+   ]
+  },
+  {
+   "office": "Fourth District Court of Appeal # 5",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 60.29,
+     "votes": 72343
+    },
+    {
+     "name": "N0",
+     "party": null,
+     "pct": 39.71,
+     "votes": 47644
+    }
+   ]
+  },
+  {
+   "office": "School Board, District 3",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Donna Mills",
+     "party": null,
+     "pct": 93.63,
+     "votes": 104058
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 6.37,
+     "votes": 7079
+    }
+   ]
+  },
+  {
+   "office": "School Board, District 5",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Troy Ingersoll",
+     "party": null,
+     "pct": 50.67,
+     "votes": 59580
+    },
+    {
+     "name": "Lisa Kessler",
+     "party": null,
+     "pct": 49.33,
+     "votes": 58012
+    }
+   ]
+  },
+  {
+   "office": "City of Port St. Lucie Mayor",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Steven Giordano",
+     "party": null,
+     "pct": 51.43,
+     "votes": 44923
+    },
+    {
+     "name": "Shannon M. Martin",
+     "party": null,
+     "pct": 48.57,
+     "votes": 42420
+    }
+   ]
+  },
+  {
+   "office": "Port St. Lucie City Council District 1",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Indony P. Jean Baptiste",
+     "party": null,
+     "pct": 43.29,
+     "votes": 35656
+    },
+    {
+     "name": "Rick Meltzer",
+     "party": null,
+     "pct": 56.71,
+     "votes": 46707
+    }
+   ]
+  },
+  {
+   "office": "River Place on the St. Lucie, Seat 1",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Todd Dugmore",
+     "party": null,
+     "pct": 52.81,
+     "votes": 244
+    },
+    {
+     "name": "Bruce W. Wills",
+     "party": null,
+     "pct": 47.19,
+     "votes": 218
+    }
+   ]
+  },
+  {
+   "office": "River Place on the St. Lucie, Seat 2",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "John Hanlon",
+     "party": null,
+     "pct": 32.42,
+     "votes": 153
+    },
+    {
+     "name": "Christina Lang Lynch",
+     "party": null,
+     "pct": 67.58,
+     "votes": 319
+    }
+   ]
+  },
+  {
+   "office": "River Place on the St. Lucie, Seat 3",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Jeffrey Baldino",
+     "party": null,
+     "pct": 39.82,
+     "votes": 182
+    },
+    {
+     "name": "Christopher Hall",
+     "party": null,
+     "pct": 60.18,
+     "votes": 275
+    }
+   ]
+  },
+  {
+   "office": "St. Lucie West Service District, Seat 3",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Bill Davidson",
+     "party": null,
+     "pct": 58.63,
+     "votes": 2893
+    },
+    {
+     "name": "Gregg Ney",
+     "party": null,
+     "pct": 41.37,
+     "votes": 2041
+    }
+   ]
+  },
+  {
+   "office": "Tesoro Community Development District, Seat 1",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Anthony Donatélli",
+     "party": null,
+     "pct": 42.95,
+     "votes": 131
+    },
+    {
+     "name": "Emily Jones",
+     "party": null,
+     "pct": 57.05,
+     "votes": 174
+    }
+   ]
+  },
+  {
+   "office": "Tesoro Community Development District, Seat 2",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Rosemary Jones",
+     "party": null,
+     "pct": 68.85,
+     "votes": 210
+    },
+    {
+     "name": "Mike Wangle",
+     "party": null,
+     "pct": 31.15,
+     "votes": 95
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 41.86,
+     "votes": 53369
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "pct": 58.14,
+     "votes": 74121
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 59.37,
+     "votes": 76193
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 40.63,
+     "votes": 52139
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 67.36,
+     "votes": 88561
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 32.64,
+     "votes": 42915
+    }
+   ]
+  },
+  {
+   "office": "No. 4 Local Government Infrastructure 0.5 Percent Surtax",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "FOR",
+     "party": null,
+     "pct": 60.8,
+     "votes": 79321
+    },
+    {
+     "name": "AGAINST",
+     "party": null,
+     "pct": 39.2,
+     "votes": 51136
+    }
+   ]
+  },
+  {
+   "office": "No. 5 School District Referendum",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 67.61,
+     "votes": 87298
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "pct": 32.39,
+     "votes": 41828
+    }
+   ]
+  },
+  {
+   "office": "No. 6 Mosquito Control District",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 82.66,
+     "votes": 2498
+    },
+    {
+     "name": "N0",
+     "party": null,
+     "pct": 17.34,
+     "votes": 524
+    }
+   ]
+  },
+  {
+   "office": "No. 7 Referendum Ordinance-City of PSL Solid Waste Pickup",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 21.85,
+     "votes": 19676
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "pct": 78.15,
+     "votes": 70376
     }
    ]
   }

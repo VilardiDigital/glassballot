@@ -1,7 +1,7 @@
 {
  "county": "seminole",
  "url": "https://enr.electionsfl.org/SEM/4119/Summary/",
- "pulledAt": "2026-11-04T03:55:24Z",
+ "pulledAt": "2026-11-04T04:12:15Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -21,6 +21,764 @@
      "party": "DEM",
      "pct": 51.38,
      "votes": 98502
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "US Senator",
+   "reported": 82,
+   "precincts": 82,
+   "candidates": [
+    {
+     "name": "REP Ashley Moody",
+     "party": "REP",
+     "pct": 46.14,
+     "votes": 89915
+    },
+    {
+     "name": "DEM Angie Nixon",
+     "party": "DEM",
+     "pct": 52.77,
+     "votes": 102841
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NON",
+     "pct": 1.09,
+     "votes": 2134
+    }
+   ]
+  },
+  {
+   "office": "US Representative, District 7",
+   "reported": 82,
+   "precincts": 82,
+   "candidates": [
+    {
+     "name": "REP Ryan Elijah",
+     "party": "REP",
+     "pct": 44.75,
+     "votes": 86876
+    },
+    {
+     "name": "DEM Bale Dalton",
+     "party": "DEM",
+     "pct": 54.25,
+     "votes": 105334
+    },
+    {
+     "name": "LPF Christopher Dennison",
+     "party": "LPF",
+     "pct": 1.0,
+     "votes": 1943
+    }
+   ]
+  },
+  {
+   "office": "Governor",
+   "reported": 82,
+   "precincts": 82,
+   "candidates": [
+    {
+     "name": "REP Byron Donalds",
+     "party": "REP",
+     "pct": 44.51,
+     "votes": 86756
+    },
+    {
+     "name": "DEM David Jolly",
+     "party": "DEM",
+     "pct": 53.99,
+     "votes": 105232
+    },
+    {
+     "name": "LPF Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.62,
+     "votes": 1203
+    },
+    {
+     "name": "Charles Burkett",
+     "party": "NON",
+     "pct": 0.12,
+     "votes": 242
+    },
+    {
+     "name": "Frank J. Russo",
+     "party": "NON",
+     "pct": 0.25,
+     "votes": 493
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche",
+     "party": "NON",
+     "pct": 0.08,
+     "votes": 157
+    },
+    {
+     "name": "Dean Ocean Abrams",
+     "party": "NON",
+     "pct": 0.18,
+     "votes": 351
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NON",
+     "pct": 0.08,
+     "votes": 151
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.17,
+     "votes": 324
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 82,
+   "precincts": 82,
+   "candidates": [
+    {
+     "name": "REP James Uthmeier",
+     "party": "REP",
+     "pct": 45.69,
+     "votes": 88378
+    },
+    {
+     "name": "DEM Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 54.31,
+     "votes": 105067
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 82,
+   "precincts": 82,
+   "candidates": [
+    {
+     "name": "REP Blaise Ingoglia",
+     "party": "REP",
+     "pct": 46.09,
+     "votes": 88613
+    },
+    {
+     "name": "DEM Annette Taddeo",
+     "party": "DEM",
+     "pct": 53.91,
+     "votes": 103642
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 82,
+   "precincts": 82,
+   "candidates": [
+    {
+     "name": "REP Wilton Simpson",
+     "party": "REP",
+     "pct": 45.88,
+     "votes": 88196
+    },
+    {
+     "name": "DEM Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 53.93,
+     "votes": 103667
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.19,
+     "votes": 374
+    }
+   ]
+  },
+  {
+   "office": "State Senator",
+   "reported": 82,
+   "precincts": 82,
+   "candidates": [
+    {
+     "name": "REP Jason Brodeur",
+     "party": "REP",
+     "pct": 45.02,
+     "votes": 86902
+    },
+    {
+     "name": "DEM John Lowndes",
+     "party": "DEM",
+     "pct": 54.98,
+     "votes": 106114
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 36 District 36",
+   "reported": 29,
+   "precincts": 29,
+   "candidates": [
+    {
+     "name": "REP Rachel Plakon",
+     "party": "REP",
+     "pct": 45.33,
+     "votes": 31390
+    },
+    {
+     "name": "DEM Darryl Block",
+     "party": "DEM",
+     "pct": 54.67,
+     "votes": 37855
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 37 District 37",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "REP Robert Prater",
+     "party": "REP",
+     "pct": 48.68,
+     "votes": 15344
+    },
+    {
+     "name": "DEM Jane Aman",
+     "party": "DEM",
+     "pct": 51.32,
+     "votes": 16173
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 38 District 38",
+   "reported": 30,
+   "precincts": 30,
+   "candidates": [
+    {
+     "name": "REP Emily Duda Buckley",
+     "party": "REP",
+     "pct": 43.81,
+     "votes": 30339
+    },
+    {
+     "name": "DEM Nik Dean",
+     "party": "DEM",
+     "pct": 56.19,
+     "votes": 38911
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 39 District 39",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "REP Doug Bankson",
+     "party": "REP",
+     "pct": 52.55,
+     "votes": 11697
+    },
+    {
+     "name": "DEM Jarod Fox",
+     "party": "DEM",
+     "pct": 47.45,
+     "votes": 10560
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner, District 4",
+   "reported": 82,
+   "precincts": 82,
+   "candidates": [
+    {
+     "name": "REP Amy Lockhart",
+     "party": "REP",
+     "pct": 48.62,
+     "votes": 93207
+    },
+    {
+     "name": "DEM Charline Lorraine Santos",
+     "party": "DEM",
+     "pct": 51.38,
+     "votes": 98502
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court - Muniz",
+   "reported": 82,
+   "precincts": 82,
+   "candidates": [
+    {
+     "name": "Yes / Si",
+     "party": "NON",
+     "pct": 49.86,
+     "votes": 86881
+    },
+    {
+     "name": "No / No",
+     "party": "NON",
+     "pct": 50.14,
+     "votes": 87384
+    }
+   ]
+  },
+  {
+   "office": "Fifth District Court of Appeal - Harris",
+   "reported": 82,
+   "precincts": 82,
+   "candidates": [
+    {
+     "name": "Yes / Sí",
+     "party": "NON",
+     "pct": 55.02,
+     "votes": 95613
+    },
+    {
+     "name": "No / No",
+     "party": "NON",
+     "pct": 44.98,
+     "votes": 78173
+    }
+   ]
+  },
+  {
+   "office": "Fifth District Court of Appeal - Makar",
+   "reported": 82,
+   "precincts": 82,
+   "candidates": [
+    {
+     "name": "Yes / Sí",
+     "party": "NON",
+     "pct": 53.6,
+     "votes": 92777
+    },
+    {
+     "name": "No / No",
+     "party": "NON",
+     "pct": 46.4,
+     "votes": 80308
+    }
+   ]
+  },
+  {
+   "office": "Fifth District Court of Appeal - Wallis",
+   "reported": 82,
+   "precincts": 82,
+   "candidates": [
+    {
+     "name": "Yes / Sí",
+     "party": "NON",
+     "pct": 53.83,
+     "votes": 92931
+    },
+    {
+     "name": "No / No",
+     "party": "NON",
+     "pct": 46.17,
+     "votes": 79701
+    }
+   ]
+  },
+  {
+   "office": "County Court Judge, Group 6",
+   "reported": 82,
+   "precincts": 82,
+   "candidates": [
+    {
+     "name": "Alena Chaban",
+     "party": "NON",
+     "pct": 62.92,
+     "votes": 101751
+    },
+    {
+     "name": "Wayne Culver",
+     "party": "NON",
+     "pct": 37.08,
+     "votes": 59975
+    }
+   ]
+  },
+  {
+   "office": "Altamonte Springs, Mayor Altamonte Springs",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Michael 'Mike' Brunscheen",
+     "party": "NON",
+     "pct": 43.36,
+     "votes": 6134
+    },
+    {
+     "name": "Dominique Douglas",
+     "party": "NON",
+     "pct": 56.64,
+     "votes": 8013
+    }
+   ]
+  },
+  {
+   "office": "Altamonte Springs, Comm, Dist 4 Altamonte Springs",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Jeff Boebinger",
+     "party": "NON",
+     "pct": 40.53,
+     "votes": 5352
+    },
+    {
+     "name": "Eric R. Soto",
+     "party": "NON",
+     "pct": 59.47,
+     "votes": 7852
+    }
+   ]
+  },
+  {
+   "office": "Casselberry, Comm, Seat 1 Casselberry",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Tyler Knight",
+     "party": "NON",
+     "pct": 60.67,
+     "votes": 5474
+    },
+    {
+     "name": "Tim Veigle",
+     "party": "NON",
+     "pct": 39.33,
+     "votes": 3549
+    }
+   ]
+  },
+  {
+   "office": "Casselberry, Comm, Seat 2 Casselberry",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Lourdes Crosby García",
+     "party": "NON",
+     "pct": 43.14,
+     "votes": 3938
+    },
+    {
+     "name": "Lindsay Feist",
+     "party": "NON",
+     "pct": 30.05,
+     "votes": 2743
+    },
+    {
+     "name": "Travis Kelley",
+     "party": "NON",
+     "pct": 26.81,
+     "votes": 2447
+    }
+   ]
+  },
+  {
+   "office": "Casselberry, Comm, Seat 3 Casselberry",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Mark Busch",
+     "party": "NON",
+     "pct": 40.39,
+     "votes": 3684
+    },
+    {
+     "name": "Amanda Hart",
+     "party": "NON",
+     "pct": 59.61,
+     "votes": 5436
+    }
+   ]
+  },
+  {
+   "office": "Longwood, Comm, Dist 3 Longwood",
+   "reported": 5,
+   "precincts": 5,
+   "candidates": [
+    {
+     "name": "Coury Matthew Knowles",
+     "party": "NON",
+     "pct": 32.75,
+     "votes": 1837
+    },
+    {
+     "name": "Matt McMillan",
+     "party": "NON",
+     "pct": 45.88,
+     "votes": 2574
+    },
+    {
+     "name": "Michael Pfenning",
+     "party": "NON",
+     "pct": 21.37,
+     "votes": 1199
+    }
+   ]
+  },
+  {
+   "office": "Winter Springs, Mayor Winter Springs",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Kevin McCann",
+     "party": "NON",
+     "pct": 50.34,
+     "votes": 8267
+    },
+    {
+     "name": "Jesse Phillips",
+     "party": "NON",
+     "pct": 49.66,
+     "votes": 8155
+    }
+   ]
+  },
+  {
+   "office": "Winter Springs, Comm, Dist 2 Winter Springs",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Victoria Bruce",
+     "party": "NON",
+     "pct": 58.07,
+     "votes": 9365
+    },
+    {
+     "name": "Ken Spalthoff",
+     "party": "NON",
+     "pct": 41.93,
+     "votes": 6763
+    }
+   ]
+  },
+  {
+   "office": "Winter Springs, Comm, Dist 4 Winter Springs",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Cade Resnick",
+     "party": "NON",
+     "pct": 52.93,
+     "votes": 8353
+    },
+    {
+     "name": "Kyle Stewart",
+     "party": "NON",
+     "pct": 47.07,
+     "votes": 7429
+    }
+   ]
+  },
+  {
+   "office": "Amendment 1",
+   "reported": 82,
+   "precincts": 82,
+   "candidates": [
+    {
+     "name": "Yes / Sí",
+     "party": "NON",
+     "pct": 33.1,
+     "votes": 60579
+    },
+    {
+     "name": "No / No",
+     "party": "NON",
+     "pct": 66.9,
+     "votes": 122455
+    }
+   ]
+  },
+  {
+   "office": "Amendment 2",
+   "reported": 82,
+   "precincts": 82,
+   "candidates": [
+    {
+     "name": "Yes / Sí",
+     "party": "NON",
+     "pct": 48.67,
+     "votes": 89590
+    },
+    {
+     "name": "No / No",
+     "party": "NON",
+     "pct": 51.33,
+     "votes": 94480
+    }
+   ]
+  },
+  {
+   "office": "Amendment 3",
+   "reported": 82,
+   "precincts": 82,
+   "candidates": [
+    {
+     "name": "Yes / Sí",
+     "party": "NON",
+     "pct": 50.1,
+     "votes": 94288
+    },
+    {
+     "name": "No / No",
+     "party": "NON",
+     "pct": 49.9,
+     "votes": 93894
+    }
+   ]
+  },
+  {
+   "office": "Longwood, Charter Amendment, Q1 Longwood",
+   "reported": 5,
+   "precincts": 5,
+   "candidates": [
+    {
+     "name": "Yes / Sí",
+     "party": "NON",
+     "pct": 49.67,
+     "votes": 2985
+    },
+    {
+     "name": "No / No",
+     "party": "NON",
+     "pct": 50.33,
+     "votes": 3025
+    }
+   ]
+  },
+  {
+   "office": "Longwood, Bond Referendum, Q1 Longwood",
+   "reported": 5,
+   "precincts": 5,
+   "candidates": [
+    {
+     "name": "YES - FOR BONDS",
+     "party": "NON",
+     "pct": 51.72,
+     "votes": 3102
+    },
+    {
+     "name": "NO - AGAINST BONDS",
+     "party": "NON",
+     "pct": 48.28,
+     "votes": 2896
+    }
+   ]
+  },
+  {
+   "office": "Oviedo, Charter Amendment Q1 Oviedo",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes / Sí",
+     "party": "NON",
+     "pct": 31.12,
+     "votes": 5254
+    },
+    {
+     "name": "No / No",
+     "party": "NON",
+     "pct": 68.88,
+     "votes": 11630
+    }
+   ]
+  },
+  {
+   "office": "Oviedo, Charter Amendment Q2 Oviedo",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes / Sí",
+     "party": "NON",
+     "pct": 36.3,
+     "votes": 5935
+    },
+    {
+     "name": "No / No",
+     "party": "NON",
+     "pct": 63.7,
+     "votes": 10415
+    }
+   ]
+  },
+  {
+   "office": "Oviedo,Charter Amendment Q3 Oviedo",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes / Sí",
+     "party": "NON",
+     "pct": 68.25,
+     "votes": 11260
+    },
+    {
+     "name": "No / No",
+     "party": "NON",
+     "pct": 31.75,
+     "votes": 5239
+    }
+   ]
+  },
+  {
+   "office": "Oviedo, Charter Amendment Q4 Oviedo",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes / Sí",
+     "party": "NON",
+     "pct": 51.06,
+     "votes": 8341
+    },
+    {
+     "name": "No / No",
+     "party": "NON",
+     "pct": 48.94,
+     "votes": 7995
+    }
+   ]
+  },
+  {
+   "office": "Oviedo, Charter Amendment Q5 Oviedo",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes / Sí",
+     "party": "NON",
+     "pct": 77.59,
+     "votes": 12761
+    },
+    {
+     "name": "No / No",
+     "party": "NON",
+     "pct": 22.41,
+     "votes": 3685
     }
    ]
   }

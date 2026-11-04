@@ -1,7 +1,7 @@
 {
  "county": "charlotte",
  "url": "https://enr.electionsfl.org/CHA/4062/Summary/",
- "pulledAt": "2026-11-04T03:55:18Z",
+ "pulledAt": "2026-11-04T04:12:12Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -21,6 +21,467 @@
      "party": "NPA",
      "pct": 34.45,
      "votes": 33277
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 40,
+   "precincts": 40,
+   "candidates": [
+    {
+     "name": "REP Ashley Moody",
+     "party": "REP",
+     "pct": 66.05,
+     "votes": 66362
+    },
+    {
+     "name": "DEM Angie Nixon",
+     "party": "DEM",
+     "pct": 32.66,
+     "votes": 32815
+    },
+    {
+     "name": "NPA Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.29,
+     "votes": 1294
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 17",
+   "reported": 40,
+   "precincts": 40,
+   "candidates": [
+    {
+     "name": "REP Greg Steube",
+     "party": "REP",
+     "pct": 65.79,
+     "votes": 65937
+    },
+    {
+     "name": "DEM Matthew Montavon",
+     "party": "DEM",
+     "pct": 32.62,
+     "votes": 32694
+    },
+    {
+     "name": "NPA Michael J. Quirk",
+     "party": "NPA",
+     "pct": 1.6,
+     "votes": 1600
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 40,
+   "precincts": 40,
+   "candidates": [
+    {
+     "name": "REP Byron Donalds Bryan Avila",
+     "party": "REP",
+     "pct": 65.88,
+     "votes": 66194
+    },
+    {
+     "name": "DEM David Jolly Gwen Graham",
+     "party": "DEM",
+     "pct": 32.57,
+     "votes": 32728
+    },
+    {
+     "name": "LPF Scott Eckhard Jewett Nicole Skelly",
+     "party": "LPF",
+     "pct": 0.49,
+     "votes": 493
+    },
+    {
+     "name": "NPA Charles Burkett Ruben A. Coto",
+     "party": "NPA",
+     "pct": 0.25,
+     "votes": 255
+    },
+    {
+     "name": "NPA Frank J. Russo Rachel Rodriguez",
+     "party": "NPA",
+     "pct": 0.29,
+     "votes": 294
+    },
+    {
+     "name": "NPA Moliere \"Moe\" Dimanche Benjiman Rojas",
+     "party": "NPA",
+     "pct": 0.07,
+     "votes": 69
+    },
+    {
+     "name": "NPA Dean Ocean Abrams Joe Van Vactor",
+     "party": "NPA",
+     "pct": 0.18,
+     "votes": 179
+    },
+    {
+     "name": "NPA Jeffrey Peter \"Dr. Jeff\" Datto Juan Santana",
+     "party": "NPA",
+     "pct": 0.09,
+     "votes": 88
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.18,
+     "votes": 182
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 40,
+   "precincts": 40,
+   "candidates": [
+    {
+     "name": "REP James Uthmeier",
+     "party": "REP",
+     "pct": 67.24,
+     "votes": 66676
+    },
+    {
+     "name": "DEM Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 32.76,
+     "votes": 32484
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 40,
+   "precincts": 40,
+   "candidates": [
+    {
+     "name": "REP Blaise Ingoglia",
+     "party": "REP",
+     "pct": 66.0,
+     "votes": 65632
+    },
+    {
+     "name": "DEM Annette Taddeo",
+     "party": "DEM",
+     "pct": 34.0,
+     "votes": 33811
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 40,
+   "precincts": 40,
+   "candidates": [
+    {
+     "name": "REP Wilton Simpson",
+     "party": "REP",
+     "pct": 66.2,
+     "votes": 65801
+    },
+    {
+     "name": "DEM Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 33.5,
+     "votes": 33299
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.29,
+     "votes": 292
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 75",
+   "reported": 25,
+   "precincts": 25,
+   "candidates": [
+    {
+     "name": "REP Danny Nix Jr",
+     "party": "REP",
+     "pct": 65.4,
+     "votes": 38032
+    },
+    {
+     "name": "DEM Cynthia L. Butler",
+     "party": "DEM",
+     "pct": 34.6,
+     "votes": 20125
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 76",
+   "reported": 15,
+   "precincts": 15,
+   "candidates": [
+    {
+     "name": "REP Vanessa Oliver",
+     "party": "REP",
+     "pct": 66.82,
+     "votes": 27461
+    },
+    {
+     "name": "DEM Phillip Ray Carter",
+     "party": "DEM",
+     "pct": 33.18,
+     "votes": 13634
+    }
+   ]
+  },
+  {
+   "office": "Board of County Commissioners District 4",
+   "reported": 40,
+   "precincts": 40,
+   "candidates": [
+    {
+     "name": "REP Kim Amontree",
+     "party": "REP",
+     "pct": 65.55,
+     "votes": 63325
+    },
+    {
+     "name": "NPA Michael T. Melton",
+     "party": "NPA",
+     "pct": 34.45,
+     "votes": 33277
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court - Carlos G. Muniz",
+   "reported": 40,
+   "precincts": 40,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 69.02,
+     "votes": 62532
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 30.98,
+     "votes": 28069
+    }
+   ]
+  },
+  {
+   "office": "Riverwood CDD Seat 2 Riverwood",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Douglas Clark",
+     "party": "NON",
+     "pct": 58.02,
+     "votes": 644
+    },
+    {
+     "name": "Bob Dzenko",
+     "party": "NON",
+     "pct": 41.98,
+     "votes": 466
+    }
+   ]
+  },
+  {
+   "office": "Riverwood CDD Seat 5 Riverwood",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Kerwin Mike Urhahn",
+     "party": "NON",
+     "pct": 51.82,
+     "votes": 570
+    },
+    {
+     "name": "Douglas Volinski",
+     "party": "NON",
+     "pct": 48.18,
+     "votes": 530
+    }
+   ]
+  },
+  {
+   "office": "West Port CDD Seat 5 West Port",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "David Perry",
+     "party": "NON",
+     "pct": 47.24,
+     "votes": 488
+    },
+    {
+     "name": "Thomas Willis",
+     "party": "NON",
+     "pct": 52.76,
+     "votes": 545
+    }
+   ]
+  },
+  {
+   "office": "Punta Gorda City Council District 1",
+   "reported": 4,
+   "precincts": 4,
+   "candidates": [
+    {
+     "name": "Jeannine Polk",
+     "party": "NON",
+     "pct": 57.31,
+     "votes": 6222
+    },
+    {
+     "name": "George Williamson",
+     "party": "NON",
+     "pct": 42.69,
+     "votes": 4635
+    }
+   ]
+  },
+  {
+   "office": "Punta Gorda City Council District 4",
+   "reported": 4,
+   "precincts": 4,
+   "candidates": [
+    {
+     "name": "Gary P. Butler",
+     "party": "NON",
+     "pct": 59.17,
+     "votes": 6398
+    },
+    {
+     "name": "Janis Denton",
+     "party": "NON",
+     "pct": 40.83,
+     "votes": 4414
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment Article III Section 19",
+   "reported": 40,
+   "precincts": 40,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 45.29,
+     "votes": 43257
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 54.71,
+     "votes": 52246
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment Article VII Section 3 Article XII",
+   "reported": 40,
+   "precincts": 40,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 67.56,
+     "votes": 65049
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 32.44,
+     "votes": 31238
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment Article VII Sections 4 6 and 9 Article XII",
+   "reported": 40,
+   "precincts": 40,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 74.06,
+     "votes": 72116
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 25.94,
+     "votes": 25261
+    }
+   ]
+  },
+  {
+   "office": "County Referendum 1",
+   "reported": 40,
+   "precincts": 40,
+   "candidates": [
+    {
+     "name": "For the one-cent sales tax",
+     "party": "NON",
+     "pct": 59.45,
+     "votes": 56284
+    },
+    {
+     "name": "Against the one-cent sales tax",
+     "party": "NON",
+     "pct": 40.55,
+     "votes": 38396
+    }
+   ]
+  },
+  {
+   "office": "County Referendum 2",
+   "reported": 40,
+   "precincts": 40,
+   "candidates": [
+    {
+     "name": "Yes for bonds",
+     "party": "NON",
+     "pct": 78.39,
+     "votes": 75298
+    },
+    {
+     "name": "No against bonds",
+     "party": "NON",
+     "pct": 21.61,
+     "votes": 20759
+    }
+   ]
+  },
+  {
+   "office": "School District Referendum",
+   "reported": 40,
+   "precincts": 40,
+   "candidates": [
+    {
+     "name": "Yes for continuing current millage",
+     "party": "NON",
+     "pct": 71.91,
+     "votes": 69298
+    },
+    {
+     "name": "No against continuing current millage",
+     "party": "NON",
+     "pct": 28.09,
+     "votes": 27070
     }
    ]
   }

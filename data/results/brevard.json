@@ -1,7 +1,7 @@
 {
  "county": "brevard",
  "url": "https://enr.electionsfl.org/BRE/4064/Summary/",
- "pulledAt": "2026-11-04T03:55:17Z",
+ "pulledAt": "2026-11-04T04:12:12Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -65,6 +65,1353 @@
      "party": null,
      "pct": 51.16,
      "votes": 23333
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 166,
+   "precincts": 166,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 56.69,
+     "votes": 150632
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 41.95,
+     "votes": 111456
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.36,
+     "votes": 3626
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress, District 8",
+   "reported": 166,
+   "precincts": 166,
+   "candidates": [
+    {
+     "name": "Mike Haridopolos",
+     "party": "REP",
+     "pct": 56.55,
+     "votes": 149291
+    },
+    {
+     "name": "Jennifer Jenkins",
+     "party": "DEM",
+     "pct": 43.45,
+     "votes": 114692
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 166,
+   "precincts": 166,
+   "candidates": [
+    {
+     "name": "Byron Donalds",
+     "party": "REP",
+     "pct": 54.94,
+     "votes": 145960
+    },
+    {
+     "name": "David Jolly",
+     "party": "DEM",
+     "pct": 43.35,
+     "votes": 115172
+    },
+    {
+     "name": "Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.61,
+     "votes": 1624
+    },
+    {
+     "name": "Charles Burkett",
+     "party": "NPA",
+     "pct": 0.19,
+     "votes": 512
+    },
+    {
+     "name": "Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.29,
+     "votes": 761
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.08,
+     "votes": 208
+    },
+    {
+     "name": "Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.19,
+     "votes": 504
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.09,
+     "votes": 241
+    },
+    {
+     "name": "Write-in",
+     "party": "WRI",
+     "pct": 0.25,
+     "votes": 671
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 166,
+   "precincts": 166,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 56.89,
+     "votes": 149965
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 43.11,
+     "votes": 113633
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 166,
+   "precincts": 166,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 57.01,
+     "votes": 149513
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 42.99,
+     "votes": 112729
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 166,
+   "precincts": 166,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 56.51,
+     "votes": 148428
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 43.22,
+     "votes": 113534
+    },
+    {
+     "name": "Write-in",
+     "party": "WRI",
+     "pct": 0.27,
+     "votes": 719
+    }
+   ]
+  },
+  {
+   "office": "State Senator, District 8",
+   "reported": 17,
+   "precincts": 17,
+   "candidates": [
+    {
+     "name": "Jake Johansson",
+     "party": "REP",
+     "pct": 59.88,
+     "votes": 17160
+    },
+    {
+     "name": "Judy M. Ngying",
+     "party": "DEM",
+     "pct": 38.36,
+     "votes": 10993
+    },
+    {
+     "name": "Gabriel Jude Wozniak",
+     "party": "LPF",
+     "pct": 1.76,
+     "votes": 504
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 30",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Chase Tramont",
+     "party": "REP",
+     "pct": 62.0,
+     "votes": 11390
+    },
+    {
+     "name": "Edwin Munoz",
+     "party": "DEM",
+     "pct": 38.0,
+     "votes": 6981
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 31",
+   "reported": 57,
+   "precincts": 57,
+   "candidates": [
+    {
+     "name": "Matt Woodside",
+     "party": "REP",
+     "pct": 59.89,
+     "votes": 46318
+    },
+    {
+     "name": "Daniel Lewis Cicirelli",
+     "party": "DEM",
+     "pct": 40.11,
+     "votes": 31016
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 32",
+   "reported": 58,
+   "precincts": 58,
+   "candidates": [
+    {
+     "name": "Brian Hodgers",
+     "party": "REP",
+     "pct": 57.92,
+     "votes": 49205
+    },
+    {
+     "name": "Juan J. Hinojosa",
+     "party": "DEM",
+     "pct": 42.08,
+     "votes": 35752
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 33",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Monique Miller",
+     "party": "REP",
+     "pct": 50.06,
+     "votes": 35694
+    },
+    {
+     "name": "Daniel R. McDow",
+     "party": "DEM",
+     "pct": 49.94,
+     "votes": 35603
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 34",
+   "reported": 7,
+   "precincts": 7,
+   "candidates": [
+    {
+     "name": "Robert Brackett",
+     "party": "REP",
+     "pct": 65.13,
+     "votes": 6943
+    },
+    {
+     "name": "Jordyn Guadalupe Balderas",
+     "party": "DEM",
+     "pct": 34.87,
+     "votes": 3717
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court - Muñiz",
+   "reported": 166,
+   "precincts": 166,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 60.19,
+     "votes": 144972
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 39.81,
+     "votes": 95867
+    }
+   ]
+  },
+  {
+   "office": "District Court of Appeal - Harris",
+   "reported": 166,
+   "precincts": 166,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 66.36,
+     "votes": 158430
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 33.64,
+     "votes": 80306
+    }
+   ]
+  },
+  {
+   "office": "District Court of Appeal - Makar",
+   "reported": 166,
+   "precincts": 166,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 63.97,
+     "votes": 151958
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 36.03,
+     "votes": 85578
+    }
+   ]
+  },
+  {
+   "office": "District Court of Appeal - Wallis",
+   "reported": 166,
+   "precincts": 166,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 64.23,
+     "votes": 152472
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 35.77,
+     "votes": 84911
+    }
+   ]
+  },
+  {
+   "office": "Board of County Commissioners, District 1",
+   "reported": 35,
+   "precincts": 35,
+   "candidates": [
+    {
+     "name": "Micah Loyd",
+     "party": "REP",
+     "pct": 58.4,
+     "votes": 27133
+    },
+    {
+     "name": "Aldon Bookhardt",
+     "party": "DEM",
+     "pct": 36.65,
+     "votes": 17029
+    },
+    {
+     "name": "Nathan Slusher",
+     "party": "LPF",
+     "pct": 4.95,
+     "votes": 2298
+    }
+   ]
+  },
+  {
+   "office": "School Board Member, District 2",
+   "reported": 39,
+   "precincts": 39,
+   "candidates": [
+    {
+     "name": "Kyle Savage",
+     "party": null,
+     "pct": 54.87,
+     "votes": 26392
+    },
+    {
+     "name": "Gene Trent",
+     "party": null,
+     "pct": 45.13,
+     "votes": 21708
+    }
+   ]
+  },
+  {
+   "office": "School Board Member, District 5",
+   "reported": 28,
+   "precincts": 28,
+   "candidates": [
+    {
+     "name": "Tammy Dennis",
+     "party": null,
+     "pct": 48.84,
+     "votes": 22274
+    },
+    {
+     "name": "Michele McCormack",
+     "party": null,
+     "pct": 51.16,
+     "votes": 23333
+    }
+   ]
+  },
+  {
+   "office": "City of Cape Canaveral City Council",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Dan Coon",
+     "party": null,
+     "pct": 17.68,
+     "votes": 1443
+    },
+    {
+     "name": "Kay Jackson",
+     "party": null,
+     "pct": 25.26,
+     "votes": 2062
+    },
+    {
+     "name": "Andrea King",
+     "party": null,
+     "pct": 15.5,
+     "votes": 1265
+    },
+    {
+     "name": "Brad Pervell",
+     "party": null,
+     "pct": 17.47,
+     "votes": 1426
+    },
+    {
+     "name": "Don Willis",
+     "party": null,
+     "pct": 24.09,
+     "votes": 1966
+    }
+   ]
+  },
+  {
+   "office": "City of Cocoa City Council, District 1",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "Alton Edmond, Esquire",
+     "party": null,
+     "pct": 33.51,
+     "votes": 513
+    },
+    {
+     "name": "Angie Jones Smith",
+     "party": null,
+     "pct": 37.75,
+     "votes": 578
+    },
+    {
+     "name": "Duffy Wagner",
+     "party": null,
+     "pct": 28.74,
+     "votes": 440
+    }
+   ]
+  },
+  {
+   "office": "City of Cocoa City Council, District 4",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Ron Chabot",
+     "party": null,
+     "pct": 52.48,
+     "votes": 740
+    },
+    {
+     "name": "Josué Otero",
+     "party": null,
+     "pct": 47.52,
+     "votes": 670
+    }
+   ]
+  },
+  {
+   "office": "City of Cocoa Beach Commissioner, Seat 4",
+   "reported": 4,
+   "precincts": 4,
+   "candidates": [
+    {
+     "name": "Richard \"Rick\" Joseph Anderson",
+     "party": null,
+     "pct": 22.74,
+     "votes": 1286
+    },
+    {
+     "name": "Angela Cobb",
+     "party": null,
+     "pct": 22.66,
+     "votes": 1281
+    },
+    {
+     "name": "Gregory Lund",
+     "party": null,
+     "pct": 31.34,
+     "votes": 1772
+    },
+    {
+     "name": "Kenne Wells",
+     "party": null,
+     "pct": 23.26,
+     "votes": 1315
+    }
+   ]
+  },
+  {
+   "office": "City of Cocoa Beach Commissioner, Seat 5",
+   "reported": 4,
+   "precincts": 4,
+   "candidates": [
+    {
+     "name": "Jeremy Hutcherson",
+     "party": null,
+     "pct": 55.71,
+     "votes": 3182
+    },
+    {
+     "name": "Karalyn Woulas",
+     "party": null,
+     "pct": 44.29,
+     "votes": 2530
+    }
+   ]
+  },
+  {
+   "office": "Town of Grant-Valkaria Mayor",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Ned Bacigalupo",
+     "party": null,
+     "pct": 31.04,
+     "votes": 826
+    },
+    {
+     "name": "Michael Bradvarevic",
+     "party": null,
+     "pct": 68.96,
+     "votes": 1835
+    }
+   ]
+  },
+  {
+   "office": "Town of Grant-Valkaria Town Council",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Richard Dockery",
+     "party": null,
+     "pct": 12.61,
+     "votes": 1102
+    },
+    {
+     "name": "Dan Faden",
+     "party": null,
+     "pct": 12.77,
+     "votes": 1116
+    },
+    {
+     "name": "Joseph Garbacik",
+     "party": null,
+     "pct": 3.57,
+     "votes": 312
+    },
+    {
+     "name": "Lisette Kolar",
+     "party": null,
+     "pct": 14.37,
+     "votes": 1255
+    },
+    {
+     "name": "Captain Ron Mallet",
+     "party": null,
+     "pct": 12.97,
+     "votes": 1133
+    },
+    {
+     "name": "Eddie Negrón",
+     "party": null,
+     "pct": 7.6,
+     "votes": 664
+    },
+    {
+     "name": "Chris Poole",
+     "party": null,
+     "pct": 8.52,
+     "votes": 744
+    },
+    {
+     "name": "Patrick Ripton",
+     "party": null,
+     "pct": 8.65,
+     "votes": 756
+    },
+    {
+     "name": "Michelle Van Bever",
+     "party": null,
+     "pct": 8.65,
+     "votes": 756
+    },
+    {
+     "name": "Brandon Veasey",
+     "party": null,
+     "pct": 10.28,
+     "votes": 898
+    }
+   ]
+  },
+  {
+   "office": "City of Indian Harbour Beach City Council, Seat 1",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Bonnie Cameron",
+     "party": null,
+     "pct": 41.91,
+     "votes": 1566
+    },
+    {
+     "name": "Linda Jimeian",
+     "party": null,
+     "pct": 58.09,
+     "votes": 2171
+    }
+   ]
+  },
+  {
+   "office": "Town of Malabar Town Council, District 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Wayne Abare",
+     "party": null,
+     "pct": 43.41,
+     "votes": 135
+    },
+    {
+     "name": "Brian Vail",
+     "party": null,
+     "pct": 56.59,
+     "votes": 176
+    }
+   ]
+  },
+  {
+   "office": "City of Melbourne City Council, District 2",
+   "reported": 21,
+   "precincts": 21,
+   "candidates": [
+    {
+     "name": "Leigh Hinton",
+     "party": null,
+     "pct": 56.45,
+     "votes": 14660
+    },
+    {
+     "name": "Milo Zonka",
+     "party": null,
+     "pct": 43.55,
+     "votes": 11311
+    }
+   ]
+  },
+  {
+   "office": "City of Melbourne City Council, District 4",
+   "reported": 21,
+   "precincts": 21,
+   "candidates": [
+    {
+     "name": "Rachael Bassett",
+     "party": null,
+     "pct": 55.48,
+     "votes": 14187
+    },
+    {
+     "name": "John Bruce",
+     "party": null,
+     "pct": 44.52,
+     "votes": 11386
+    }
+   ]
+  },
+  {
+   "office": "City of Rockledge City Council, Seat 3",
+   "reported": 9,
+   "precincts": 9,
+   "candidates": [
+    {
+     "name": "Judy Diaz",
+     "party": null,
+     "pct": 57.56,
+     "votes": 6913
+    },
+    {
+     "name": "Sammie Brown Martin",
+     "party": null,
+     "pct": 42.44,
+     "votes": 5098
+    }
+   ]
+  },
+  {
+   "office": "City of Rockledge City Council, Seat 4",
+   "reported": 9,
+   "precincts": 9,
+   "candidates": [
+    {
+     "name": "Rachele Jolley",
+     "party": null,
+     "pct": 58.84,
+     "votes": 7021
+    },
+    {
+     "name": "Thomas P. \"Pat\" O'Neill",
+     "party": null,
+     "pct": 41.16,
+     "votes": 4912
+    }
+   ]
+  },
+  {
+   "office": "City of Satellite Beach City Council",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "Billy Booth",
+     "party": null,
+     "pct": 27.5,
+     "votes": 2361
+    },
+    {
+     "name": "Ron Culp",
+     "party": null,
+     "pct": 34.5,
+     "votes": 2962
+    },
+    {
+     "name": "Frank Scaglione",
+     "party": null,
+     "pct": 21.94,
+     "votes": 1884
+    },
+    {
+     "name": "Matt Zimmerman",
+     "party": null,
+     "pct": 16.06,
+     "votes": 1379
+    }
+   ]
+  },
+  {
+   "office": "City of Titusville City Council, Seat 1",
+   "reported": 9,
+   "precincts": 9,
+   "candidates": [
+    {
+     "name": "Elizabeth Baker",
+     "party": null,
+     "pct": 61.38,
+     "votes": 11175
+    },
+    {
+     "name": "Herman A. Cole",
+     "party": null,
+     "pct": 38.62,
+     "votes": 7030
+    }
+   ]
+  },
+  {
+   "office": "City of Titusville City Council, Seat 3",
+   "reported": 9,
+   "precincts": 9,
+   "candidates": [
+    {
+     "name": "Tim Curtis",
+     "party": null,
+     "pct": 33.71,
+     "votes": 6229
+    },
+    {
+     "name": "Megan Moscoso",
+     "party": null,
+     "pct": 66.29,
+     "votes": 12251
+    }
+   ]
+  },
+  {
+   "office": "City of Titusville City Council, Seat 5",
+   "reported": 9,
+   "precincts": 9,
+   "candidates": [
+    {
+     "name": "Christopher Childs",
+     "party": null,
+     "pct": 46.77,
+     "votes": 8507
+    },
+    {
+     "name": "Kayla Manning",
+     "party": null,
+     "pct": 53.23,
+     "votes": 9682
+    }
+   ]
+  },
+  {
+   "office": "City of West Melbourne Council Member",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "Diana Adams",
+     "party": null,
+     "pct": 30.72,
+     "votes": 6699
+    },
+    {
+     "name": "John Dittmore",
+     "party": null,
+     "pct": 20.99,
+     "votes": 4577
+    },
+    {
+     "name": "Adam Gaffney",
+     "party": null,
+     "pct": 15.02,
+     "votes": 3275
+    },
+    {
+     "name": "Lacey Villareal",
+     "party": null,
+     "pct": 16.23,
+     "votes": 3539
+    },
+    {
+     "name": "Helen Voltz",
+     "party": null,
+     "pct": 17.04,
+     "votes": 3717
+    }
+   ]
+  },
+  {
+   "office": "Sebastian Inlet Tax District, District 5",
+   "reported": 78,
+   "precincts": 78,
+   "candidates": [
+    {
+     "name": "Calvin Holton",
+     "party": null,
+     "pct": 46.98,
+     "votes": 54778
+    },
+    {
+     "name": "Lisa Leger Frazier",
+     "party": null,
+     "pct": 53.02,
+     "votes": 61819
+    }
+   ]
+  },
+  {
+   "office": "Barefoot Bay Recreation District Trustee",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Jan Creitz",
+     "party": null,
+     "pct": 25.28,
+     "votes": 904
+    },
+    {
+     "name": "Sydne James",
+     "party": null,
+     "pct": 36.05,
+     "votes": 1289
+    },
+    {
+     "name": "Elaine VanBerschot",
+     "party": null,
+     "pct": 38.67,
+     "votes": 1383
+    }
+   ]
+  },
+  {
+   "office": "Heritage Isle Community Development District, Seat 1",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "David Francis",
+     "party": null,
+     "pct": 67.2,
+     "votes": 1180
+    },
+    {
+     "name": "Robert Wayne",
+     "party": null,
+     "pct": 32.8,
+     "votes": 576
+    }
+   ]
+  },
+  {
+   "office": "Heritage Isle Community Development District, Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Cynthia Barclae",
+     "party": null,
+     "pct": 38.64,
+     "votes": 675
+    },
+    {
+     "name": "Christopher L. \"Hawk\" Moore",
+     "party": null,
+     "pct": 61.36,
+     "votes": 1072
+    }
+   ]
+  },
+  {
+   "office": "Amendment 1: Budget Stabilization Fund",
+   "reported": 166,
+   "precincts": 166,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 40.29,
+     "votes": 100589
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 59.71,
+     "votes": 149086
+    }
+   ]
+  },
+  {
+   "office": "Amendment 2: Exemption of Tangible Personal Property on Agricultural Land from Taxation",
+   "reported": 166,
+   "precincts": 166,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 58.54,
+     "votes": 146936
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 41.46,
+     "votes": 104082
+    }
+   ]
+  },
+  {
+   "office": "Amendment 3: Increased Homestead Exemption; Lower Cap on Increases in Non-Homestead Property Assessments",
+   "reported": 166,
+   "precincts": 166,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 61.16,
+     "votes": 157251
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 38.84,
+     "votes": 99852
+    }
+   ]
+  },
+  {
+   "office": "Renewal of the Save Our Indian River Lagoon Half-Cent Sales Tax",
+   "reported": 166,
+   "precincts": 166,
+   "candidates": [
+    {
+     "name": "Yes - For the Half-Cent Sales Tax",
+     "party": null,
+     "pct": 75.48,
+     "votes": 196354
+    },
+    {
+     "name": "No - Against the Half-Cent Sales Tax",
+     "party": null,
+     "pct": 24.52,
+     "votes": 63784
+    }
+   ]
+  },
+  {
+   "office": "Renewal of Ad Valorem Millage to Sustain Increased Teacher Pay and Other Purposes",
+   "reported": 166,
+   "precincts": 166,
+   "candidates": [
+    {
+     "name": "Yes - For Renewal of Millage",
+     "party": null,
+     "pct": 71.43,
+     "votes": 184792
+    },
+    {
+     "name": "No - Against Renewal of Millage",
+     "party": null,
+     "pct": 28.57,
+     "votes": 73906
+    }
+   ]
+  },
+  {
+   "office": "Renewal of Half-Cent Sales Surtax for Critical School Facility, Security, and Technology Upgrades",
+   "reported": 166,
+   "precincts": 166,
+   "candidates": [
+    {
+     "name": "Yes - For the Renewal of the Half-Cent Sales Tax",
+     "party": null,
+     "pct": 69.03,
+     "votes": 178629
+    },
+    {
+     "name": "No - Against the Renewal of the Half-Cent Sales Tax",
+     "party": null,
+     "pct": 30.97,
+     "votes": 80137
+    }
+   ]
+  },
+  {
+   "office": "Town of Malabar - Amend Section 2.02 Relating to the Composition of the Town Council",
+   "reported": 5,
+   "precincts": 5,
+   "candidates": [
+    {
+     "name": "Yes - In Favor",
+     "party": null,
+     "pct": 61.19,
+     "votes": 913
+    },
+    {
+     "name": "No - Opposed",
+     "party": null,
+     "pct": 38.81,
+     "votes": 579
+    }
+   ]
+  },
+  {
+   "office": "City of Melbourne - Authorizing Council to Delegate Board of Adjustment Duties to Zoning Commission",
+   "reported": 21,
+   "precincts": 21,
+   "candidates": [
+    {
+     "name": "Yes - For Approval",
+     "party": null,
+     "pct": 49.59,
+     "votes": 12868
+    },
+    {
+     "name": "No - For Rejection",
+     "party": null,
+     "pct": 50.41,
+     "votes": 13082
+    }
+   ]
+  },
+  {
+   "office": "Town of Melbourne Beach - General Obligation Bonds for Stormwater and Roadwork Projects",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes - For Bonds",
+     "party": null,
+     "pct": 66.82,
+     "votes": 1144
+    },
+    {
+     "name": "No - Against Bonds",
+     "party": null,
+     "pct": 33.18,
+     "votes": 568
+    }
+   ]
+  },
+  {
+   "office": "City of Palm Bay - Charter Amendment Related to the Process for Filling Vacancies on the City Council",
+   "reported": 16,
+   "precincts": 16,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 64.72,
+     "votes": 28288
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 35.28,
+     "votes": 15422
+    }
+   ]
+  },
+  {
+   "office": "Town of Palm Shores - Question 1: Amend Section 1.05 Relating to the Form of Government",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes - In Favor",
+     "party": null,
+     "pct": 68.83,
+     "votes": 360
+    },
+    {
+     "name": "No - Opposed",
+     "party": null,
+     "pct": 31.17,
+     "votes": 163
+    }
+   ]
+  },
+  {
+   "office": "Town of Palm Shores - Question 2: Amend Section 2.02 Relating to the Composition and Qualifications of the Town Council",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes - In Favor",
+     "party": null,
+     "pct": 76.61,
+     "votes": 393
+    },
+    {
+     "name": "No - Opposed",
+     "party": null,
+     "pct": 23.39,
+     "votes": 120
+    }
+   ]
+  },
+  {
+   "office": "Town of Palm Shores - Question 3: Amend Section 2.07 to Delete References to Annual Compensation for Councilmembers and Mayor",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes - In Favor",
+     "party": null,
+     "pct": 46.44,
+     "votes": 228
+    },
+    {
+     "name": "No - Opposed",
+     "party": null,
+     "pct": 53.56,
+     "votes": 263
+    }
+   ]
+  },
+  {
+   "office": "Town of Palm Shores - Question 4: Amend Section 2.09 to Provide for the Powers and Duties of the Town Manager",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes - In Favor",
+     "party": null,
+     "pct": 61.35,
+     "votes": 308
+    },
+    {
+     "name": "No - Opposed",
+     "party": null,
+     "pct": 38.65,
+     "votes": 194
+    }
+   ]
+  },
+  {
+   "office": "Town of Palm Shores - Question 5: Amend Section 4.01 Relating to the Office of the Town Clerk",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes - In Favor",
+     "party": null,
+     "pct": 73.71,
+     "votes": 370
+    },
+    {
+     "name": "No - Opposed",
+     "party": null,
+     "pct": 26.29,
+     "votes": 132
+    }
+   ]
+  },
+  {
+   "office": "Town of Palm Shores - Question 6: Amend Section 4.03 Relating to the Removal of the Town Clerk",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes - In Favor",
+     "party": null,
+     "pct": 61.46,
+     "votes": 311
+    },
+    {
+     "name": "No - Opposed",
+     "party": null,
+     "pct": 38.54,
+     "votes": 195
+    }
+   ]
+  },
+  {
+   "office": "Town of Palm Shores - Question 7: Amend Section 5.01 Relating to Creation and Control Over Town Departments, Offices and Agencies",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes - In Favor",
+     "party": null,
+     "pct": 58.05,
+     "votes": 292
+    },
+    {
+     "name": "No - Opposed",
+     "party": null,
+     "pct": 41.95,
+     "votes": 211
+    }
+   ]
+  },
+  {
+   "office": "Town of Palm Shores - Question 8: Amend Section 5.02 Relating to Selection and Removal of Town Manager",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes - In Favor",
+     "party": null,
+     "pct": 68.81,
+     "votes": 342
+    },
+    {
+     "name": "No - Opposed",
+     "party": null,
+     "pct": 31.19,
+     "votes": 155
+    }
+   ]
+  },
+  {
+   "office": "Town of Palm Shores - Question 9: Amend Section 10.01 Relating to Seat Designation for Mayor and Council",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes - In Favor",
+     "party": null,
+     "pct": 62.12,
+     "votes": 305
+    },
+    {
+     "name": "No - Opposed",
+     "party": null,
+     "pct": 37.88,
+     "votes": 186
+    }
+   ]
+  },
+  {
+   "office": "Town of Palm Shores - Question 10: Amend Section 11.06 Relating to Charter Amendments and Revisions to Comply with Florida State Statutes",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes - In Favor",
+     "party": null,
+     "pct": 78.83,
+     "votes": 391
+    },
+    {
+     "name": "No - Opposed",
+     "party": null,
+     "pct": 21.17,
+     "votes": 105
     }
    ]
   }

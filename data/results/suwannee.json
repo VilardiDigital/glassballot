@@ -1,7 +1,7 @@
 {
  "county": "suwannee",
  "url": "https://enr.electionsfl.org/SUW/4112/Summary/",
- "pulledAt": "2026-11-04T03:55:24Z",
+ "pulledAt": "2026-11-04T04:12:15Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -21,6 +21,391 @@
      "party": "DEM",
      "pct": 49.94,
      "votes": 874
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "REP Ashley Moody",
+     "party": "REP",
+     "pct": 76.66,
+     "votes": 12163
+    },
+    {
+     "name": "DEM Angie Nixon",
+     "party": "DEM",
+     "pct": 22.35,
+     "votes": 3547
+    },
+    {
+     "name": "NPA Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 0.99,
+     "votes": 157
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress, District 3",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "REP Kat Cammack",
+     "party": "REP",
+     "pct": 76.34,
+     "votes": 12086
+    },
+    {
+     "name": "DEM Seth Harp",
+     "party": "DEM",
+     "pct": 21.9,
+     "votes": 3467
+    },
+    {
+     "name": "NPA Mike Klein",
+     "party": "NPA",
+     "pct": 1.76,
+     "votes": 278
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "REP Byron Donalds",
+     "party": "REP",
+     "pct": 75.28,
+     "votes": 11911
+    },
+    {
+     "name": "DEM David Jolly",
+     "party": "DEM",
+     "pct": 22.77,
+     "votes": 3603
+    },
+    {
+     "name": "LPF Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.56,
+     "votes": 88
+    },
+    {
+     "name": "NPA Charles Burkett",
+     "party": "NPA",
+     "pct": 0.31,
+     "votes": 49
+    },
+    {
+     "name": "NPA Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.3,
+     "votes": 47
+    },
+    {
+     "name": "NPA Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.09,
+     "votes": 15
+    },
+    {
+     "name": "NPA Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.24,
+     "votes": 38
+    },
+    {
+     "name": "NPA Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.09,
+     "votes": 14
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.36,
+     "votes": 57
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "REP James Uthmeier",
+     "party": "REP",
+     "pct": 77.37,
+     "votes": 12222
+    },
+    {
+     "name": "DEM Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 22.63,
+     "votes": 3575
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "REP Blaise Ingoglia",
+     "party": "REP",
+     "pct": 76.81,
+     "votes": 12080
+    },
+    {
+     "name": "DEM Annette Taddeo",
+     "party": "DEM",
+     "pct": 23.19,
+     "votes": 3647
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "REP Wilton Simpson",
+     "party": "REP",
+     "pct": 76.77,
+     "votes": 12097
+    },
+    {
+     "name": "DEM Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 22.67,
+     "votes": 3572
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.56,
+     "votes": 89
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner District 2",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "REP Walter Shea DeLoach",
+     "party": "REP",
+     "pct": 50.06,
+     "votes": 876
+    },
+    {
+     "name": "DEM Stefan Blue",
+     "party": "DEM",
+     "pct": 49.94,
+     "votes": 874
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court - Carlos G. Muniz",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 63.96,
+     "votes": 9442
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 36.04,
+     "votes": 5321
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Joseph Lewis Jr.",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 57.34,
+     "votes": 8414
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 42.66,
+     "votes": 6259
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Rachel Nordby",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 65.47,
+     "votes": 9582
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 34.53,
+     "votes": 5053
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Tim Osterhaus",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 63.71,
+     "votes": 9309
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 36.29,
+     "votes": 5303
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Clay Roberts",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 58.76,
+     "votes": 8583
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 41.24,
+     "votes": 6023
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Raymond Treadwell",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 65.62,
+     "votes": 9599
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 34.38,
+     "votes": 5030
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 39.36,
+     "votes": 5985
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 60.64,
+     "votes": 9219
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 74.99,
+     "votes": 11546
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 25.01,
+     "votes": 3851
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 72.34,
+     "votes": 11235
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 27.66,
+     "votes": 4295
+    }
+   ]
+  },
+  {
+   "office": "School District Question",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "For the half-cent sales surtax",
+     "party": "NON",
+     "pct": 41.63,
+     "votes": 6416
+    },
+    {
+     "name": "Against the half-cent sales surtax",
+     "party": "NON",
+     "pct": 58.37,
+     "votes": 8995
     }
    ]
   }

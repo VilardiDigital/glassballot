@@ -1,7 +1,7 @@
 {
  "county": "sarasota",
  "url": "https://enr.electionsfl.org/SAR/4105/Summary/",
- "pulledAt": "2026-11-04T03:55:24Z",
+ "pulledAt": "2026-11-04T04:12:15Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -20,7 +20,7 @@
      "name": "Julie London",
      "party": "DEM",
      "pct": 43.75,
-     "votes": 21132
+     "votes": 21133
     }
    ]
   },
@@ -33,13 +33,808 @@
      "name": "Heidi Brandt",
      "party": "NON",
      "pct": 56.5,
-     "votes": 111274
+     "votes": 111277
     },
     {
      "name": "Jimmy Glover",
      "party": "NON",
      "pct": 43.5,
-     "votes": 85656
+     "votes": 85657
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 98,
+   "precincts": 98,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 57.62,
+     "votes": 128708
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 41.15,
+     "votes": 91923
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.22,
+     "votes": 2731
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 16",
+   "reported": 18,
+   "precincts": 18,
+   "candidates": [
+    {
+     "name": "Sydney Gruters",
+     "party": "REP",
+     "pct": 62.54,
+     "votes": 20601
+    },
+    {
+     "name": "Kelly Kirschner",
+     "party": "DEM",
+     "pct": 36.02,
+     "votes": 11865
+    },
+    {
+     "name": "Mark Davis",
+     "party": "NPA",
+     "pct": 1.44,
+     "votes": 476
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 17",
+   "reported": 88,
+   "precincts": 88,
+   "candidates": [
+    {
+     "name": "Greg Steube",
+     "party": "REP",
+     "pct": 55.53,
+     "votes": 105354
+    },
+    {
+     "name": "Matthew Montavon",
+     "party": "DEM",
+     "pct": 43.17,
+     "votes": 81901
+    },
+    {
+     "name": "Michael J. Quirk",
+     "party": "NPA",
+     "pct": 1.3,
+     "votes": 2469
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 98,
+   "precincts": 98,
+   "candidates": [
+    {
+     "name": "Byron Donalds",
+     "party": "REP",
+     "pct": 55.82,
+     "votes": 124786
+    },
+    {
+     "name": "David Jolly",
+     "party": "DEM",
+     "pct": 42.86,
+     "votes": 95817
+    },
+    {
+     "name": "Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.42,
+     "votes": 941
+    },
+    {
+     "name": "Charles Burkett",
+     "party": "NPA",
+     "pct": 0.17,
+     "votes": 379
+    },
+    {
+     "name": "Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.24,
+     "votes": 529
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.05,
+     "votes": 122
+    },
+    {
+     "name": "Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.15,
+     "votes": 334
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.09,
+     "votes": 196
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.2,
+     "votes": 447
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 98,
+   "precincts": 98,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 57.76,
+     "votes": 127873
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 42.24,
+     "votes": 93499
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 98,
+   "precincts": 98,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 57.56,
+     "votes": 126365
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 42.44,
+     "votes": 93184
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 98,
+   "precincts": 98,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 57.31,
+     "votes": 125740
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 42.31,
+     "votes": 92823
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.39,
+     "votes": 847
+    }
+   ]
+  },
+  {
+   "office": "State Senator District 22",
+   "reported": 98,
+   "precincts": 98,
+   "candidates": [
+    {
+     "name": "James Buchanan",
+     "party": "REP",
+     "pct": 55.36,
+     "votes": 122627
+    },
+    {
+     "name": "Lew Wasserman",
+     "party": "DEM",
+     "pct": 41.15,
+     "votes": 91146
+    },
+    {
+     "name": "Martin Hyde",
+     "party": "NPA",
+     "pct": 3.49,
+     "votes": 7739
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 73",
+   "reported": 53,
+   "precincts": 53,
+   "candidates": [
+    {
+     "name": "Fiona McFarland",
+     "party": "REP",
+     "pct": 53.53,
+     "votes": 47836
+    },
+    {
+     "name": "Lisa Klein",
+     "party": "DEM",
+     "pct": 46.47,
+     "votes": 41533
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 74",
+   "reported": 40,
+   "precincts": 40,
+   "candidates": [
+    {
+     "name": "Nick Pachota",
+     "party": "REP",
+     "pct": 59.42,
+     "votes": 54534
+    },
+    {
+     "name": "Ryan Neill",
+     "party": "DEM",
+     "pct": 40.58,
+     "votes": 37242
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 75",
+   "reported": 16,
+   "precincts": 16,
+   "candidates": [
+    {
+     "name": "Danny Nix Jr.",
+     "party": "REP",
+     "pct": 62.28,
+     "votes": 24807
+    },
+    {
+     "name": "Cynthia L. Butler",
+     "party": "DEM",
+     "pct": 37.72,
+     "votes": 15024
+    }
+   ]
+  },
+  {
+   "office": "Board of County Commissioners District 4",
+   "reported": 26,
+   "precincts": 26,
+   "candidates": [
+    {
+     "name": "Jim DeNiro",
+     "party": "REP",
+     "pct": 56.25,
+     "votes": 27170
+    },
+    {
+     "name": "Julie London",
+     "party": "DEM",
+     "pct": 43.75,
+     "votes": 21133
+    }
+   ]
+  },
+  {
+   "office": "Charter Review Board District 3",
+   "reported": 98,
+   "precincts": 98,
+   "candidates": [
+    {
+     "name": "Chip Adams",
+     "party": "REP",
+     "pct": 56.91,
+     "votes": 123867
+    },
+    {
+     "name": "Jim Tate",
+     "party": "DEM",
+     "pct": 43.09,
+     "votes": 93795
+    }
+   ]
+  },
+  {
+   "office": "Charter Review Board District 4",
+   "reported": 98,
+   "precincts": 98,
+   "candidates": [
+    {
+     "name": "Taylor T. Collins",
+     "party": "REP",
+     "pct": 56.62,
+     "votes": 122909
+    },
+    {
+     "name": "Robin Williams",
+     "party": "DEM",
+     "pct": 43.38,
+     "votes": 94152
+    }
+   ]
+  },
+  {
+   "office": "Charter Review Board District 5",
+   "reported": 98,
+   "precincts": 98,
+   "candidates": [
+    {
+     "name": "Erin Halstead",
+     "party": "REP",
+     "pct": 56.93,
+     "votes": 123014
+    },
+    {
+     "name": "Andrea Doria Kale",
+     "party": "DEM",
+     "pct": 43.07,
+     "votes": 93069
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court Muñiz",
+   "reported": 98,
+   "precincts": 98,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 67.33,
+     "votes": 129356
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 32.67,
+     "votes": 62780
+    }
+   ]
+  },
+  {
+   "office": "Second District Court of Appeal Atkinson",
+   "reported": 98,
+   "precincts": 98,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 70.46,
+     "votes": 133896
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 29.54,
+     "votes": 56148
+    }
+   ]
+  },
+  {
+   "office": "Second District Court of Appeal Silberman",
+   "reported": 98,
+   "precincts": 98,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 71.52,
+     "votes": 134999
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 28.48,
+     "votes": 53749
+    }
+   ]
+  },
+  {
+   "office": "Second District Court of Appeal Sleet",
+   "reported": 98,
+   "precincts": 98,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 70.47,
+     "votes": 132614
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 29.53,
+     "votes": 55571
+    }
+   ]
+  },
+  {
+   "office": "Second District Court of Appeal Smith",
+   "reported": 98,
+   "precincts": 98,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 71.93,
+     "votes": 135610
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 28.07,
+     "votes": 52914
+    }
+   ]
+  },
+  {
+   "office": "School Board Member District 1",
+   "reported": 98,
+   "precincts": 98,
+   "candidates": [
+    {
+     "name": "Heidi Brandt",
+     "party": "NON",
+     "pct": 56.5,
+     "votes": 111277
+    },
+    {
+     "name": "Jimmy Glover",
+     "party": "NON",
+     "pct": 43.5,
+     "votes": 85657
+    }
+   ]
+  },
+  {
+   "office": "City of North Port Commissioner District Seat 4",
+   "reported": 15,
+   "precincts": 15,
+   "candidates": [
+    {
+     "name": "Elaine Allen-Emrich",
+     "party": "NON",
+     "pct": 50.67,
+     "votes": 17506
+    },
+    {
+     "name": "Ludmila Dunchyk",
+     "party": "NON",
+     "pct": 49.33,
+     "votes": 17044
+    }
+   ]
+  },
+  {
+   "office": "City of North Port Commissioner District Seat 5",
+   "reported": 15,
+   "precincts": 15,
+   "candidates": [
+    {
+     "name": "Oleg Lisitsyn",
+     "party": "NON",
+     "pct": 55.52,
+     "votes": 19329
+    },
+    {
+     "name": "Phil Stokes",
+     "party": "NON",
+     "pct": 44.48,
+     "votes": 15488
+    }
+   ]
+  },
+  {
+   "office": "City of Sarasota Commissioner At-Large",
+   "reported": 16,
+   "precincts": 16,
+   "candidates": [
+    {
+     "name": "Jen Ahearn-Koch",
+     "party": "NON",
+     "pct": 40.73,
+     "votes": 11732
+    },
+    {
+     "name": "Flo Entler",
+     "party": "NON",
+     "pct": 35.08,
+     "votes": 10106
+    },
+    {
+     "name": "John Harshman",
+     "party": "NON",
+     "pct": 24.19,
+     "votes": 6968
+    }
+   ]
+  },
+  {
+   "office": "City of Venice Council Member Seat 2",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Christopher Derbak",
+     "party": "NON",
+     "pct": 43.63,
+     "votes": 6250
+    },
+    {
+     "name": "Jenny Heussner",
+     "party": "NON",
+     "pct": 32.3,
+     "votes": 4627
+    },
+    {
+     "name": "Sue Perry",
+     "party": "NON",
+     "pct": 24.08,
+     "votes": 3449
+    }
+   ]
+  },
+  {
+   "office": "City of Venice Council Member Seat 5",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "David Gress",
+     "party": "NON",
+     "pct": 34.42,
+     "votes": 4889
+    },
+    {
+     "name": "Rick Howard",
+     "party": "NON",
+     "pct": 65.58,
+     "votes": 9314
+    }
+   ]
+  },
+  {
+   "office": "Blackburn Creek CDD Seat 4",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Kevin J. Johnson",
+     "party": "NON",
+     "pct": 41.87,
+     "votes": 695
+    },
+    {
+     "name": "Tom Ratzki",
+     "party": "NON",
+     "pct": 58.13,
+     "votes": 965
+    }
+   ]
+  },
+  {
+   "office": "Bobcat Trail CDD Seat 1",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Dave Filler",
+     "party": "NON",
+     "pct": 44.56,
+     "votes": 254
+    },
+    {
+     "name": "Kristine Kaplan",
+     "party": "NON",
+     "pct": 39.65,
+     "votes": 226
+    },
+    {
+     "name": "Paula Johnson Taylor",
+     "party": "NON",
+     "pct": 15.79,
+     "votes": 90
+    }
+   ]
+  },
+  {
+   "office": "Lakeside Plantation CDD Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Bud Sabol",
+     "party": "NON",
+     "pct": 42.03,
+     "votes": 211
+    },
+    {
+     "name": "Frank Wilmer",
+     "party": "NON",
+     "pct": 57.97,
+     "votes": 291
+    }
+   ]
+  },
+  {
+   "office": "Sarasota National CDD Seat 4",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Jim Centner",
+     "party": "NON",
+     "pct": 62.67,
+     "votes": 826
+    },
+    {
+     "name": "Douglas J. Kasl",
+     "party": "NON",
+     "pct": 37.33,
+     "votes": 492
+    }
+   ]
+  },
+  {
+   "office": "Windward at Lakewood Ranch CDD Seat 5",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "John Noakes",
+     "party": "NON",
+     "pct": 78.57,
+     "votes": 418
+    },
+    {
+     "name": "Roy Martin Winters",
+     "party": "NON",
+     "pct": 21.43,
+     "votes": 114
+    }
+   ]
+  },
+  {
+   "office": "Constitutional Amendment No. 1",
+   "reported": 98,
+   "precincts": 98,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 45.87,
+     "votes": 96769
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 54.13,
+     "votes": 114183
+    }
+   ]
+  },
+  {
+   "office": "Constitutional Amendment No. 2",
+   "reported": 98,
+   "precincts": 98,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 60.32,
+     "votes": 128061
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 39.68,
+     "votes": 84252
+    }
+   ]
+  },
+  {
+   "office": "Constitutional Amendment No. 3",
+   "reported": 98,
+   "precincts": 98,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 62.6,
+     "votes": 135986
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 37.4,
+     "votes": 81238
+    }
+   ]
+  },
+  {
+   "office": "County Referendum",
+   "reported": 98,
+   "precincts": 98,
+   "candidates": [
+    {
+     "name": "Yes, for continuation of ad valorem tax",
+     "party": null,
+     "pct": 84.25,
+     "votes": 177729
+    },
+    {
+     "name": "No, against continuation of ad valorem tax",
+     "party": null,
+     "pct": 15.75,
+     "votes": 33229
+    }
+   ]
+  },
+  {
+   "office": "County Bond Referendum",
+   "reported": 98,
+   "precincts": 98,
+   "candidates": [
+    {
+     "name": "Yes, for bonds",
+     "party": null,
+     "pct": 78.68,
+     "votes": 164417
+    },
+    {
+     "name": "No, against bonds",
+     "party": null,
+     "pct": 21.32,
+     "votes": 44558
+    }
+   ]
+  },
+  {
+   "office": "City of Venice Charter Amendment",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 64.64,
+     "votes": 9928
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 35.36,
+     "votes": 5430
     }
    ]
   }

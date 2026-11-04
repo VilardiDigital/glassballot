@@ -1,8 +1,317 @@
 {
  "county": "hardee",
  "url": "https://enr.electionsfl.org/HAR/4063/Summary/",
- "pulledAt": "2026-11-04T03:55:19Z",
+ "pulledAt": "2026-11-04T04:12:13Z",
  "status": "unofficial",
  "updated": null,
- "races": []
+ "races": [],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 68.02,
+     "votes": 4103
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 30.77,
+     "votes": 1856
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NOP",
+     "pct": 1.21,
+     "votes": 73
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 16",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Sydney Gruters",
+     "party": "REP",
+     "pct": 66.07,
+     "votes": 3955
+    },
+    {
+     "name": "Kelly Kirschner",
+     "party": "DEM",
+     "pct": 31.72,
+     "votes": 1899
+    },
+    {
+     "name": "Mark Davis",
+     "party": "NOP",
+     "pct": 2.21,
+     "votes": 132
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Byron Donalds Bryan Avila",
+     "party": "REP",
+     "pct": 65.8,
+     "votes": 3962
+    },
+    {
+     "name": "David Jolly Gwen Graham",
+     "party": "DEM",
+     "pct": 32.1,
+     "votes": 1933
+    },
+    {
+     "name": "Scott Eckhard Jewett Nicole Skelly",
+     "party": "LPF",
+     "pct": 0.45,
+     "votes": 27
+    },
+    {
+     "name": "Charles Burkett Ruben A. Coto",
+     "party": "NOP",
+     "pct": 0.4,
+     "votes": 24
+    },
+    {
+     "name": "Frank J. Russo Rachel Rodriguez",
+     "party": "NOP",
+     "pct": 0.43,
+     "votes": 26
+    },
+    {
+     "name": "Moliere “Moe” Dimanche Benjiman Rojas",
+     "party": "NOP",
+     "pct": 0.13,
+     "votes": 8
+    },
+    {
+     "name": "Dean Ocean Abrams Joe Van Vactor",
+     "party": "NOP",
+     "pct": 0.18,
+     "votes": 11
+    },
+    {
+     "name": "Jeffrey Peter “Dr. Jeff” Datto Juan Santana",
+     "party": "NOP",
+     "pct": 0.18,
+     "votes": 11
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.32,
+     "votes": 19
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 68.28,
+     "votes": 4044
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 31.72,
+     "votes": 1879
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 67.94,
+     "votes": 4046
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 32.06,
+     "votes": 1909
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 68.44,
+     "votes": 4068
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 30.97,
+     "votes": 1841
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.59,
+     "votes": 35
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 83",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Kaylee Tuck",
+     "party": "REP",
+     "pct": 69.38,
+     "votes": 4120
+    },
+    {
+     "name": "Leigh Estes",
+     "party": "DEM",
+     "pct": 30.62,
+     "votes": 1818
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court - Carlos G. Muñiz",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 64.39,
+     "votes": 3513
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 35.61,
+     "votes": 1943
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment Article III, Section 19",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 42.2,
+     "votes": 2420
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 57.8,
+     "votes": 3314
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment Article VII, Section 3 Article XII",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 69.03,
+     "votes": 4063
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 30.97,
+     "votes": 1823
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment Article VII, Sections 4, 6 and 9 Article X",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 62.33,
+     "votes": 3672
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 37.67,
+     "votes": 2219
+    }
+   ]
+  },
+  {
+   "office": "HARDEE COUNTY TOURIST DEVELOPMENT TAX INCREASE REFERENDUM",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 50.46,
+     "votes": 2929
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 49.54,
+     "votes": 2876
+    }
+   ]
+  },
+  {
+   "office": "HARDEE COUNTY SCHOOL DISTRICT AD VALOREM MILLAGE REFERENDUM",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 58.62,
+     "votes": 3439
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 41.38,
+     "votes": 2428
+    }
+   ]
+  }
+ ]
 }

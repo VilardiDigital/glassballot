@@ -1,8 +1,418 @@
 {
  "county": "citrus",
  "url": "https://enr.electionsfl.org/CIT/4070/Summary/",
- "pulledAt": "2026-11-04T03:55:18Z",
+ "pulledAt": "2026-11-04T04:12:12Z",
  "status": "unofficial",
  "updated": null,
- "races": []
+ "races": [],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 31,
+   "precincts": 31,
+   "candidates": [
+    {
+     "name": "REP Ashley Moody",
+     "party": "REP",
+     "pct": 71.0,
+     "votes": 53305
+    },
+    {
+     "name": "DEM Angie Nixon",
+     "party": "DEM",
+     "pct": 27.51,
+     "votes": 20656
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.48,
+     "votes": 1113
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress - Dist 15",
+   "reported": 31,
+   "precincts": 31,
+   "candidates": [
+    {
+     "name": "REP Laurel Lee",
+     "party": "REP",
+     "pct": 71.1,
+     "votes": 53058
+    },
+    {
+     "name": "DEM Robert People",
+     "party": "DEM",
+     "pct": 28.8,
+     "votes": 21488
+    },
+    {
+     "name": "Write-in Candidate",
+     "party": "NPA",
+     "pct": 0.1,
+     "votes": 74
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 31,
+   "precincts": 31,
+   "candidates": [
+    {
+     "name": "REP Byron Donalds",
+     "party": "REP",
+     "pct": 69.25,
+     "votes": 51958
+    },
+    {
+     "name": "DEM David Jolly",
+     "party": "DEM",
+     "pct": 29.02,
+     "votes": 21773
+    },
+    {
+     "name": "LPF Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.59,
+     "votes": 440
+    },
+    {
+     "name": "Charles Burkett",
+     "party": "NPA",
+     "pct": 0.23,
+     "votes": 174
+    },
+    {
+     "name": "Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.28,
+     "votes": 207
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.09,
+     "votes": 68
+    },
+    {
+     "name": "Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.2,
+     "votes": 150
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.12,
+     "votes": 87
+    },
+    {
+     "name": "Write-in Candidate",
+     "party": "NPA",
+     "pct": 0.24,
+     "votes": 178
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 31,
+   "precincts": 31,
+   "candidates": [
+    {
+     "name": "REP James Uthmeier",
+     "party": "REP",
+     "pct": 71.69,
+     "votes": 52962
+    },
+    {
+     "name": "DEM Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 28.31,
+     "votes": 20915
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 31,
+   "precincts": 31,
+   "candidates": [
+    {
+     "name": "REP Blaise Ingoglia",
+     "party": "REP",
+     "pct": 71.17,
+     "votes": 52999
+    },
+    {
+     "name": "DEM Annette Taddeo",
+     "party": "DEM",
+     "pct": 28.83,
+     "votes": 21474
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 31,
+   "precincts": 31,
+   "candidates": [
+    {
+     "name": "REP Wilton Simpson",
+     "party": "REP",
+     "pct": 71.62,
+     "votes": 53181
+    },
+    {
+     "name": "DEM Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 27.91,
+     "votes": 20724
+    },
+    {
+     "name": "Write-in Candidate",
+     "party": "NPA",
+     "pct": 0.47,
+     "votes": 352
+    }
+   ]
+  },
+  {
+   "office": "State Representative - District 23",
+   "reported": 31,
+   "precincts": 31,
+   "candidates": [
+    {
+     "name": "REP J.J. Grow",
+     "party": "REP",
+     "pct": 71.59,
+     "votes": 53040
+    },
+    {
+     "name": "DEM Mark Leland Baker",
+     "party": "DEM",
+     "pct": 28.41,
+     "votes": 21052
+    }
+   ]
+  },
+  {
+   "office": "Supreme Court - Muñiz",
+   "reported": 31,
+   "precincts": 31,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 67.59,
+     "votes": 45450
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 32.41,
+     "votes": 21795
+    }
+   ]
+  },
+  {
+   "office": "5th Dist Court - Harris",
+   "reported": 31,
+   "precincts": 31,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 71.09,
+     "votes": 47823
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 28.91,
+     "votes": 19451
+    }
+   ]
+  },
+  {
+   "office": "5th Dist Court - Makar",
+   "reported": 31,
+   "precincts": 31,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 70.49,
+     "votes": 47260
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 29.51,
+     "votes": 19786
+    }
+   ]
+  },
+  {
+   "office": "5th Dist Court - Wallis",
+   "reported": 31,
+   "precincts": 31,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 70.05,
+     "votes": 46774
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 29.95,
+     "votes": 19999
+    }
+   ]
+  },
+  {
+   "office": "City of Crystal River - City Council - Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Mindi Hastings",
+     "party": null,
+     "pct": 55.28,
+     "votes": 649
+    },
+    {
+     "name": "Jack P. Reynolds",
+     "party": null,
+     "pct": 44.72,
+     "votes": 525
+    }
+   ]
+  },
+  {
+   "office": "Citrus County Community Charitable Foundation - Seat 2",
+   "reported": 31,
+   "precincts": 31,
+   "candidates": [
+    {
+     "name": "Phyllis Dixon",
+     "party": null,
+     "pct": 69.23,
+     "votes": 43660
+    },
+    {
+     "name": "Heather Haendiges",
+     "party": null,
+     "pct": 30.77,
+     "votes": 19406
+    }
+   ]
+  },
+  {
+   "office": "Mosquito Control Board - Seat 1",
+   "reported": 31,
+   "precincts": 31,
+   "candidates": [
+    {
+     "name": "James Brooks",
+     "party": null,
+     "pct": 48.98,
+     "votes": 31673
+    },
+    {
+     "name": "Arthur \"AJ\" Green",
+     "party": null,
+     "pct": 37.72,
+     "votes": 24391
+    },
+    {
+     "name": "Tyler Thompson",
+     "party": null,
+     "pct": 13.3,
+     "votes": 8604
+    }
+   ]
+  },
+  {
+   "office": "Mosquito Control Board - Seat 3",
+   "reported": 31,
+   "precincts": 31,
+   "candidates": [
+    {
+     "name": "Joe Adams",
+     "party": null,
+     "pct": 68.14,
+     "votes": 43173
+    },
+    {
+     "name": "Greg Fountain",
+     "party": null,
+     "pct": 31.86,
+     "votes": 20184
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Budget Stabilization Fund",
+   "reported": 31,
+   "precincts": 31,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 41.64,
+     "votes": 29300
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 58.36,
+     "votes": 41067
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Exemption of Tangible Personal Property on Agricultural Land from Taxation",
+   "reported": 31,
+   "precincts": 31,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 68.99,
+     "votes": 49129
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 31.01,
+     "votes": 22085
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Increased Homestead Exemption; Lower Cap on Increases in Non-Homestead Property Assessments",
+   "reported": 31,
+   "precincts": 31,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 70.08,
+     "votes": 50992
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 29.92,
+     "votes": 21769
+    }
+   ]
+  }
+ ]
 }

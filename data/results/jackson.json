@@ -1,7 +1,7 @@
 {
  "county": "jackson",
  "url": "https://enr.electionsfl.org/JAC/4118/Summary/",
- "pulledAt": "2026-11-04T03:55:20Z",
+ "pulledAt": "2026-11-04T04:12:13Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -21,6 +21,404 @@
      "party": null,
      "pct": 36.67,
      "votes": 1204
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "REP Ashley Moody",
+     "party": "REP",
+     "pct": 69.09,
+     "votes": 10845
+    },
+    {
+     "name": "DEM Angie Nixon",
+     "party": "DEM",
+     "pct": 29.72,
+     "votes": 4666
+    },
+    {
+     "name": "NPA Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.19,
+     "votes": 187
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress, District 2",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "REP Austin Rogers",
+     "party": "REP",
+     "pct": 67.94,
+     "votes": 10627
+    },
+    {
+     "name": "DEM Amanda Marie Green",
+     "party": "DEM",
+     "pct": 32.06,
+     "votes": 5015
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "REP Byron Donalds",
+     "party": "REP",
+     "pct": 67.73,
+     "votes": 10596
+    },
+    {
+     "name": "DEM David Jolly",
+     "party": "DEM",
+     "pct": 30.4,
+     "votes": 4756
+    },
+    {
+     "name": "LPF Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.46,
+     "votes": 72
+    },
+    {
+     "name": "NPA Charles Burkett",
+     "party": "NPA",
+     "pct": 0.27,
+     "votes": 42
+    },
+    {
+     "name": "NPA Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.24,
+     "votes": 38
+    },
+    {
+     "name": "NPA Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.06,
+     "votes": 10
+    },
+    {
+     "name": "NPA Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.22,
+     "votes": 35
+    },
+    {
+     "name": "NPA Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.13,
+     "votes": 21
+    },
+    {
+     "name": "Write-in:",
+     "party": "NON",
+     "pct": 0.47,
+     "votes": 74
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "REP James Uthmeier",
+     "party": "REP",
+     "pct": 69.58,
+     "votes": 10887
+    },
+    {
+     "name": "DEM Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 30.42,
+     "votes": 4759
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "REP Blaise Ingoglia",
+     "party": "REP",
+     "pct": 69.33,
+     "votes": 10780
+    },
+    {
+     "name": "DEM Annette Taddeo",
+     "party": "DEM",
+     "pct": 30.67,
+     "votes": 4768
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "REP Wilton Simpson",
+     "party": "REP",
+     "pct": 69.58,
+     "votes": 10864
+    },
+    {
+     "name": "DEM Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 30.23,
+     "votes": 4720
+    },
+    {
+     "name": "Write-in:",
+     "party": "NON",
+     "pct": 0.19,
+     "votes": 30
+    }
+   ]
+  },
+  {
+   "office": "State Senator, District 2",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "REP Jay Trumbull",
+     "party": "REP",
+     "pct": 69.95,
+     "votes": 10931
+    },
+    {
+     "name": "DEM Lauren Donahoo",
+     "party": "DEM",
+     "pct": 30.05,
+     "votes": 4695
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 5",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "REP Shane Abbott",
+     "party": "REP",
+     "pct": 70.31,
+     "votes": 10939
+    },
+    {
+     "name": "DEM Alex Finney",
+     "party": "DEM",
+     "pct": 29.69,
+     "votes": 4620
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court - Carlos G. Muniz",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 58.77,
+     "votes": 8719
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 41.23,
+     "votes": 6116
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Joseph Lewis Jr.",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 59.69,
+     "votes": 8823
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 40.31,
+     "votes": 5958
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Rachel Nordby",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 60.08,
+     "votes": 8850
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 39.92,
+     "votes": 5880
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Tim Osterhaus",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 58.78,
+     "votes": 8647
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 41.22,
+     "votes": 6063
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Clay Roberts",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 60.26,
+     "votes": 8873
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 39.74,
+     "votes": 5852
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Raymond Treadwell",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 60.99,
+     "votes": 9000
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 39.01,
+     "votes": 5756
+    }
+   ]
+  },
+  {
+   "office": "School Board Member, District 5",
+   "reported": 7,
+   "precincts": 7,
+   "candidates": [
+    {
+     "name": "Phyllis T. Daniels",
+     "party": null,
+     "pct": 63.33,
+     "votes": 2079
+    },
+    {
+     "name": "Michael \"MJ\" Jackson",
+     "party": null,
+     "pct": 36.67,
+     "votes": 1204
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 43.42,
+     "votes": 6566
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 56.58,
+     "votes": 8556
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 72.47,
+     "votes": 11084
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 27.53,
+     "votes": 4210
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 66.08,
+     "votes": 10166
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 33.92,
+     "votes": 5219
     }
    ]
   }

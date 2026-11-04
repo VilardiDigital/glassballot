@@ -1,7 +1,7 @@
 {
  "county": "madison",
  "url": "https://enr.electionsfl.org/MAD/4061/Summary/",
- "pulledAt": "2026-11-04T03:55:21Z",
+ "pulledAt": "2026-11-04T04:12:14Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -40,6 +40,423 @@
      "party": null,
      "pct": 32.17,
      "votes": 462
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "US Senator",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 60.92,
+     "votes": 4264
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 38.32,
+     "votes": 2682
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 0.76,
+     "votes": 53
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 2",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Austin Rogers",
+     "party": "REP",
+     "pct": 59.36,
+     "votes": 4129
+    },
+    {
+     "name": "Amanda Marie Green",
+     "party": "DEM",
+     "pct": 40.64,
+     "votes": 2827
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Byron Donalds",
+     "party": "REP",
+     "pct": 60.32,
+     "votes": 4209
+    },
+    {
+     "name": "David Jolly",
+     "party": "DEM",
+     "pct": 38.29,
+     "votes": 2672
+    },
+    {
+     "name": "Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.43,
+     "votes": 30
+    },
+    {
+     "name": "Charles Burkett",
+     "party": "NPA",
+     "pct": 0.17,
+     "votes": 12
+    },
+    {
+     "name": "Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.23,
+     "votes": 16
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.06,
+     "votes": 4
+    },
+    {
+     "name": "Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.21,
+     "votes": 15
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.1,
+     "votes": 7
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.19,
+     "votes": 13
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 61.97,
+     "votes": 4205
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 38.03,
+     "votes": 2580
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 60.73,
+     "votes": 4210
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 39.27,
+     "votes": 2722
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 61.5,
+     "votes": 4266
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 38.22,
+     "votes": 2651
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.29,
+     "votes": 20
+    }
+   ]
+  },
+  {
+   "office": "State House Representative, District 9",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Tracy Robinson",
+     "party": "REP",
+     "pct": 48.51,
+     "votes": 3344
+    },
+    {
+     "name": "Allison Tant",
+     "party": "DEM",
+     "pct": 51.49,
+     "votes": 3550
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner District 4",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "DeWayne O'Quinn",
+     "party": "REP",
+     "pct": 46.43,
+     "votes": 638
+    },
+    {
+     "name": "Alfred Martin",
+     "party": "DEM",
+     "pct": 53.57,
+     "votes": 736
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court-Muniz",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 58.66,
+     "votes": 3793
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 41.34,
+     "votes": 2673
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal-Lewis",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 59.22,
+     "votes": 3833
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 40.78,
+     "votes": 2639
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal-Nordby",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 59.84,
+     "votes": 3852
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 40.16,
+     "votes": 2585
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal-Osterhaus",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 58.49,
+     "votes": 3753
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 41.51,
+     "votes": 2664
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal-Roberts",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 58.09,
+     "votes": 3730
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 41.91,
+     "votes": 2691
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal-Treadwell",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 59.97,
+     "votes": 3846
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 40.03,
+     "votes": 2567
+    }
+   ]
+  },
+  {
+   "office": "School Board, Dist. 5 (NOP)",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Mike Maurice",
+     "party": null,
+     "pct": 67.83,
+     "votes": 974
+    },
+    {
+     "name": "Jonathan L. Mazzella",
+     "party": null,
+     "pct": 32.17,
+     "votes": 462
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 43.86,
+     "votes": 2947
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 56.14,
+     "votes": 3772
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 68.19,
+     "votes": 4626
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 31.81,
+     "votes": 2158
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 63.48,
+     "votes": 4324
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 36.52,
+     "votes": 2488
+    }
+   ]
+  },
+  {
+   "office": "No. 1  Town of Lee Charter Amendment",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 90.41,
+     "votes": 132
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 9.59,
+     "votes": 14
     }
    ]
   }

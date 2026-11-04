@@ -1,8 +1,349 @@
 {
  "county": "glades",
  "url": "https://enr.electionsfl.org/GLA/4065/Summary/",
- "pulledAt": "2026-11-04T03:55:19Z",
+ "pulledAt": "2026-11-04T04:12:13Z",
  "status": "unofficial",
  "updated": null,
- "races": []
+ "races": [],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 71.0,
+     "votes": 2688
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 28.0,
+     "votes": 1081
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.0,
+     "votes": 43
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 9",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Dan Green",
+     "party": "REP",
+     "pct": 70.0,
+     "votes": 2645
+    },
+    {
+     "name": "Darren Soto",
+     "party": "DEM",
+     "pct": 30.0,
+     "votes": 1153
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Byron Donalds/Bryan Avila",
+     "party": "REP",
+     "pct": 69.0,
+     "votes": 2630
+    },
+    {
+     "name": "David Jolly/Gwen Graham",
+     "party": "DEM",
+     "pct": 29.0,
+     "votes": 1094
+    },
+    {
+     "name": "Scott Eckhard Jewett/Nicole Skelly",
+     "party": "LPF",
+     "pct": 0.0,
+     "votes": 16
+    },
+    {
+     "name": "Charles Burkett/Ruben A. Coto",
+     "party": "NPA",
+     "pct": 0.0,
+     "votes": 17
+    },
+    {
+     "name": "Frank J. Russo/Rachel Rodriguez",
+     "party": "NPA",
+     "pct": 0.0,
+     "votes": 16
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche/Benjiman Rojas",
+     "party": "NPA",
+     "pct": 0.0,
+     "votes": 2
+    },
+    {
+     "name": "Dean Ocean Abrams/Joe Van Vactor",
+     "party": "NPA",
+     "pct": 0.0,
+     "votes": 8
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto/Juan Santana",
+     "party": "NPA",
+     "pct": 0.0,
+     "votes": 1
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.0,
+     "votes": 17
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 71.0,
+     "votes": 2663
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 29.0,
+     "votes": 1068
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 70.0,
+     "votes": 2643
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 30.0,
+     "votes": 1138
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 71.0,
+     "votes": 2698
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 28.0,
+     "votes": 1079
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 1.0,
+     "votes": 22
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 83",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Kaylee Tuck",
+     "party": "REP",
+     "pct": 72.0,
+     "votes": 2709
+    },
+    {
+     "name": "Leigh Estes",
+     "party": "DEM",
+     "pct": 28.0,
+     "votes": 1069
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 66.0,
+     "votes": 2289
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 34.0,
+     "votes": 1166
+    }
+   ]
+  },
+  {
+   "office": "Port LaBelle Community Development District, Seat 5",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Rebekah Lewis",
+     "party": null,
+     "pct": 68.0,
+     "votes": 225
+    },
+    {
+     "name": "Alexandra Platonova",
+     "party": null,
+     "pct": 32.0,
+     "votes": 107
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 44.0,
+     "votes": 1601
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 56.0,
+     "votes": 2047
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 69.0,
+     "votes": 2563
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 31.0,
+     "votes": 1173
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 66.0,
+     "votes": 2440
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 34.0,
+     "votes": 1285
+    }
+   ]
+  },
+  {
+   "office": "Single Member Districts for County Commissioners",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 69.0,
+     "votes": 2524
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 31.0,
+     "votes": 1140
+    }
+   ]
+  },
+  {
+   "office": "Non-Binding Referendum on Funding Glades County, Florida's Fire and Emergen",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 63.0,
+     "votes": 2303
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 37.0,
+     "votes": 1368
+    }
+   ]
+  },
+  {
+   "office": "Flexible Funding for Glades County Schools",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Yes (for funding flexibility)",
+     "party": null,
+     "pct": 54.0,
+     "votes": 1975
+    },
+    {
+     "name": "No (against funding flexibility)",
+     "party": null,
+     "pct": 46.0,
+     "votes": 1665
+    }
+   ]
+  }
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "county": "putnam",
  "url": "https://enr.electionsfl.org/PUT/4081/Summary/",
- "pulledAt": "2026-11-04T03:55:23Z",
+ "pulledAt": "2026-11-04T04:12:14Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -27,6 +27,523 @@
      "party": "NPA",
      "pct": 4.36,
      "votes": 1144
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 37,
+   "precincts": 37,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 68.9,
+     "votes": 18263
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 29.87,
+     "votes": 7917
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.23,
+     "votes": 325
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress, District 6",
+   "reported": 37,
+   "precincts": 37,
+   "candidates": [
+    {
+     "name": "Randy Fine",
+     "party": "REP",
+     "pct": 67.06,
+     "votes": 17453
+    },
+    {
+     "name": "Eric Yonce",
+     "party": "DEM",
+     "pct": 31.52,
+     "votes": 8203
+    },
+    {
+     "name": "Andrew Parrott",
+     "party": "LPF",
+     "pct": 1.15,
+     "votes": 299
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.27,
+     "votes": 70
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 37,
+   "precincts": 37,
+   "candidates": [
+    {
+     "name": "Byron Donalds",
+     "party": "REP",
+     "pct": 67.89,
+     "votes": 17967
+    },
+    {
+     "name": "David Jolly",
+     "party": "DEM",
+     "pct": 30.28,
+     "votes": 8012
+    },
+    {
+     "name": "Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.6,
+     "votes": 159
+    },
+    {
+     "name": "Charles Burkett",
+     "party": "NPA",
+     "pct": 0.3,
+     "votes": 79
+    },
+    {
+     "name": "Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.25,
+     "votes": 66
+    },
+    {
+     "name": "Molieve Moe Dimanche",
+     "party": "NPA",
+     "pct": 0.08,
+     "votes": 20
+    },
+    {
+     "name": "Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.17,
+     "votes": 46
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.15,
+     "votes": 39
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.28,
+     "votes": 75
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 37,
+   "precincts": 37,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 69.88,
+     "votes": 18171
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 30.12,
+     "votes": 7832
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 37,
+   "precincts": 37,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 69.44,
+     "votes": 18238
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 30.56,
+     "votes": 8027
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 37,
+   "precincts": 37,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 68.97,
+     "votes": 18081
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 30.53,
+     "votes": 8005
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.5,
+     "votes": 131
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 20",
+   "reported": 37,
+   "precincts": 37,
+   "candidates": [
+    {
+     "name": "Judson Sapp",
+     "party": "REP",
+     "pct": 69.54,
+     "votes": 18218
+    },
+    {
+     "name": "Lee Butler",
+     "party": "DEM",
+     "pct": 30.46,
+     "votes": 7980
+    }
+   ]
+  },
+  {
+   "office": "Board of County Commissioners, District 4",
+   "reported": 37,
+   "precincts": 37,
+   "candidates": [
+    {
+     "name": "Larry Harvey",
+     "party": "REP",
+     "pct": 64.4,
+     "votes": 16909
+    },
+    {
+     "name": "Joshua Florence",
+     "party": "DEM",
+     "pct": 31.24,
+     "votes": 8202
+    },
+    {
+     "name": "Ron Burckhard",
+     "party": "NPA",
+     "pct": 4.36,
+     "votes": 1144
+    }
+   ]
+  },
+  {
+   "office": "Florida Supreme Court Justice Carlos G. Muníz",
+   "reported": 37,
+   "precincts": 37,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 62.91,
+     "votes": 15163
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 37.09,
+     "votes": 8940
+    }
+   ]
+  },
+  {
+   "office": "Fifth District Court of Appeal Judge John M. Harris",
+   "reported": 37,
+   "precincts": 37,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 66.48,
+     "votes": 16097
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 33.52,
+     "votes": 8116
+    }
+   ]
+  },
+  {
+   "office": "Fifth District Court of Appeal Judge Scott D. Makar",
+   "reported": 37,
+   "precincts": 37,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 65.12,
+     "votes": 15730
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 34.88,
+     "votes": 8425
+    }
+   ]
+  },
+  {
+   "office": "Fifth District Court of Appeal Judge F. Rand Wallis",
+   "reported": 37,
+   "precincts": 37,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 65.27,
+     "votes": 15624
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 34.73,
+     "votes": 8313
+    }
+   ]
+  },
+  {
+   "office": "Town of Pomona Park Mayor",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Nelson Frank Anderson",
+     "party": null,
+     "pct": 66.67,
+     "votes": 170
+    },
+    {
+     "name": "Tony Cuevas",
+     "party": null,
+     "pct": 33.33,
+     "votes": 85
+    }
+   ]
+  },
+  {
+   "office": "Interlachen Town Council",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Raymond Baxter",
+     "party": null,
+     "pct": 34.78,
+     "votes": 241
+    },
+    {
+     "name": "Joan A. \"Joni\" Conner",
+     "party": null,
+     "pct": 31.31,
+     "votes": 217
+    },
+    {
+     "name": "Anna Rose Larsen",
+     "party": null,
+     "pct": 33.91,
+     "votes": 235
+    }
+   ]
+  },
+  {
+   "office": "Palatka City Commissioner, Group 2",
+   "reported": 7,
+   "precincts": 7,
+   "candidates": [
+    {
+     "name": "Jamaad C. Batts Sr",
+     "party": null,
+     "pct": 39.82,
+     "votes": 1025
+    },
+    {
+     "name": "James Norwood",
+     "party": null,
+     "pct": 60.18,
+     "votes": 1549
+    }
+   ]
+  },
+  {
+   "office": "Palatka City Commissioner, Group 4",
+   "reported": 7,
+   "precincts": 7,
+   "candidates": [
+    {
+     "name": "Justin R. Campbell",
+     "party": null,
+     "pct": 56.38,
+     "votes": 1466
+    },
+    {
+     "name": "Breanna Pierce",
+     "party": null,
+     "pct": 43.62,
+     "votes": 1134
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment",
+   "reported": 37,
+   "precincts": 37,
+   "candidates": [
+    {
+     "name": "Yes/Si",
+     "party": null,
+     "pct": 42.21,
+     "votes": 10646
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 57.79,
+     "votes": 14576
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment",
+   "reported": 37,
+   "precincts": 37,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 70.78,
+     "votes": 18183
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 29.22,
+     "votes": 7508
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment",
+   "reported": 37,
+   "precincts": 37,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 68.3,
+     "votes": 17720
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 31.7,
+     "votes": 8226
+    }
+   ]
+  },
+  {
+   "office": "Town of Welaka Referendum, Question No. 1",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 40.21,
+     "votes": 191
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 59.79,
+     "votes": 284
+    }
+   ]
+  },
+  {
+   "office": "Town of Interlachen Charter Amendment, Question 1",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 73.23,
+     "votes": 320
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 26.77,
+     "votes": 117
+    }
+   ]
+  },
+  {
+   "office": "Town of Interlachen Charter Amendment, Question 2",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 76.72,
+     "votes": 346
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 23.28,
+     "votes": 105
+    }
+   ]
+  },
+  {
+   "office": "Town of Interlachen Charter Amendment, Question 3",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 71.53,
+     "votes": 304
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 28.47,
+     "votes": 121
     }
    ]
   }

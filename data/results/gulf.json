@@ -1,7 +1,7 @@
 {
  "county": "gulf",
  "url": "https://enr.electionsfl.org/GUL/4084/Summary/",
- "pulledAt": "2026-11-04T03:55:19Z",
+ "pulledAt": "2026-11-04T04:12:13Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -21,6 +21,385 @@
      "party": "NOP",
      "pct": 40.84,
      "votes": 515
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "REP Ashley Moody",
+     "party": "REP",
+     "pct": 76.03,
+     "votes": 5106
+    },
+    {
+     "name": "DEM Angie Nixon",
+     "party": "DEM",
+     "pct": 22.47,
+     "votes": 1509
+    },
+    {
+     "name": "NPA Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.5,
+     "votes": 101
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "REP Austin Rogers",
+     "party": "REP",
+     "pct": 74.57,
+     "votes": 4986
+    },
+    {
+     "name": "DEM Amanda Marie Green",
+     "party": "DEM",
+     "pct": 25.43,
+     "votes": 1700
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "REP Byron Donalds",
+     "party": "REP",
+     "pct": 75.95,
+     "votes": 5101
+    },
+    {
+     "name": "DEM David Jolly",
+     "party": "DEM",
+     "pct": 22.41,
+     "votes": 1505
+    },
+    {
+     "name": "LPF Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.46,
+     "votes": 31
+    },
+    {
+     "name": "NPA Charles Burkett",
+     "party": "NPA",
+     "pct": 0.39,
+     "votes": 26
+    },
+    {
+     "name": "NPA Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.16,
+     "votes": 11
+    },
+    {
+     "name": "NPA Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.03,
+     "votes": 2
+    },
+    {
+     "name": "NPA Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.16,
+     "votes": 11
+    },
+    {
+     "name": "NPA Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.16,
+     "votes": 11
+    },
+    {
+     "name": "Write-in: Not Assigned",
+     "party": "NOP",
+     "pct": 0.27,
+     "votes": 18
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "REP James Uthmeier",
+     "party": "REP",
+     "pct": 76.84,
+     "votes": 5126
+    },
+    {
+     "name": "DEM Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 23.16,
+     "votes": 1545
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "REP Blaise Ingoglia",
+     "party": "REP",
+     "pct": 76.67,
+     "votes": 5068
+    },
+    {
+     "name": "DEM Annette Taddeo",
+     "party": "DEM",
+     "pct": 23.33,
+     "votes": 1542
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "REP Wilton Simpson",
+     "party": "REP",
+     "pct": 76.65,
+     "votes": 5068
+    },
+    {
+     "name": "DEM Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 23.26,
+     "votes": 1538
+    },
+    {
+     "name": "Write-in: Not Assigned",
+     "party": "NOP",
+     "pct": 0.09,
+     "votes": 6
+    }
+   ]
+  },
+  {
+   "office": "School Board District 1",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Chad Bailey",
+     "party": "NOP",
+     "pct": 59.16,
+     "votes": 746
+    },
+    {
+     "name": "Dennis Peak",
+     "party": "NOP",
+     "pct": 40.84,
+     "votes": 515
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court - Carlos G. Muniz",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NOP",
+     "pct": 63.59,
+     "votes": 3935
+    },
+    {
+     "name": "No",
+     "party": "NOP",
+     "pct": 36.41,
+     "votes": 2253
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Joseph Lewis Jr.",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NOP",
+     "pct": 63.81,
+     "votes": 3926
+    },
+    {
+     "name": "No",
+     "party": "NOP",
+     "pct": 36.19,
+     "votes": 2227
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Rachel Nordby",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NOP",
+     "pct": 65.23,
+     "votes": 4001
+    },
+    {
+     "name": "No",
+     "party": "NOP",
+     "pct": 34.77,
+     "votes": 2133
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Tim Osterhaus",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NOP",
+     "pct": 64.62,
+     "votes": 3956
+    },
+    {
+     "name": "No",
+     "party": "NOP",
+     "pct": 35.38,
+     "votes": 2166
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Clay Roberts",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NOP",
+     "pct": 62.65,
+     "votes": 3835
+    },
+    {
+     "name": "No",
+     "party": "NOP",
+     "pct": 37.35,
+     "votes": 2286
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Raymond Treadwell",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NOP",
+     "pct": 65.81,
+     "votes": 4031
+    },
+    {
+     "name": "No",
+     "party": "NOP",
+     "pct": 34.19,
+     "votes": 2094
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Const. Amend.",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NOP",
+     "pct": 45.91,
+     "votes": 2916
+    },
+    {
+     "name": "No",
+     "party": "NOP",
+     "pct": 54.09,
+     "votes": 3435
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Const, Amend",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NOP",
+     "pct": 68.53,
+     "votes": 4417
+    },
+    {
+     "name": "No",
+     "party": "NOP",
+     "pct": 31.47,
+     "votes": 2028
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Const. Amend.",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NOP",
+     "pct": 71.3,
+     "votes": 4687
+    },
+    {
+     "name": "No",
+     "party": "NOP",
+     "pct": 28.7,
+     "votes": 1887
+    }
+   ]
+  },
+  {
+   "office": "1/2 Cent Surtax Gulf School Bd",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NOP",
+     "pct": 52.9,
+     "votes": 3461
+    },
+    {
+     "name": "No",
+     "party": "NOP",
+     "pct": 47.1,
+     "votes": 3082
     }
    ]
   }

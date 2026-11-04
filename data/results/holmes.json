@@ -1,8 +1,451 @@
 {
  "county": "holmes",
  "url": "https://enr.electionsfl.org/HOL/4108/Summary/",
- "pulledAt": "2026-11-04T03:55:20Z",
+ "pulledAt": "2026-11-04T04:12:13Z",
  "status": "unofficial",
  "updated": null,
- "races": []
+ "races": [],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 8,
+   "precincts": 8,
+   "candidates": [
+    {
+     "name": "REP Ashley Moody",
+     "party": "REP",
+     "pct": 87.22,
+     "votes": 5414
+    },
+    {
+     "name": "DEM Angie Nixon",
+     "party": "DEM",
+     "pct": 11.76,
+     "votes": 730
+    },
+    {
+     "name": "NPA Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.01,
+     "votes": 63
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 2",
+   "reported": 8,
+   "precincts": 8,
+   "candidates": [
+    {
+     "name": "REP Austin Rogers",
+     "party": "REP",
+     "pct": 86.81,
+     "votes": 5359
+    },
+    {
+     "name": "DEM Amanda Marie Green",
+     "party": "DEM",
+     "pct": 13.19,
+     "votes": 814
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 8,
+   "precincts": 8,
+   "candidates": [
+    {
+     "name": "REP Byron Donalds",
+     "party": "REP",
+     "pct": 85.84,
+     "votes": 5285
+    },
+    {
+     "name": "DEM David Jolly",
+     "party": "DEM",
+     "pct": 12.55,
+     "votes": 773
+    },
+    {
+     "name": "LPF Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.52,
+     "votes": 32
+    },
+    {
+     "name": "NPA Charles Burkett",
+     "party": "NPA",
+     "pct": 0.34,
+     "votes": 21
+    },
+    {
+     "name": "NPA Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.31,
+     "votes": 19
+    },
+    {
+     "name": "NPA Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.08,
+     "votes": 5
+    },
+    {
+     "name": "NPA Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.18,
+     "votes": 11
+    },
+    {
+     "name": "NPA Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.18,
+     "votes": 11
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 8,
+   "precincts": 8,
+   "candidates": [
+    {
+     "name": "REP James Uthmeier",
+     "party": "REP",
+     "pct": 87.87,
+     "votes": 5432
+    },
+    {
+     "name": "DEM Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 12.13,
+     "votes": 750
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 8,
+   "precincts": 8,
+   "candidates": [
+    {
+     "name": "REP Blaise Ingoglia",
+     "party": "REP",
+     "pct": 87.13,
+     "votes": 5356
+    },
+    {
+     "name": "DEM Annette Taddeo",
+     "party": "DEM",
+     "pct": 12.87,
+     "votes": 791
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 8,
+   "precincts": 8,
+   "candidates": [
+    {
+     "name": "REP Wilton Simpson",
+     "party": "REP",
+     "pct": 87.74,
+     "votes": 5410
+    },
+    {
+     "name": "DEM Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 12.26,
+     "votes": 756
+    }
+   ]
+  },
+  {
+   "office": "State Senator District 2",
+   "reported": 8,
+   "precincts": 8,
+   "candidates": [
+    {
+     "name": "REP Jay Trumbull",
+     "party": "REP",
+     "pct": 88.02,
+     "votes": 5442
+    },
+    {
+     "name": "DEM Lauren Donahoo",
+     "party": "DEM",
+     "pct": 11.98,
+     "votes": 741
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 5",
+   "reported": 8,
+   "precincts": 8,
+   "candidates": [
+    {
+     "name": "REP Shane Abbott",
+     "party": "REP",
+     "pct": 88.78,
+     "votes": 5468
+    },
+    {
+     "name": "DEM Alex Finney",
+     "party": "DEM",
+     "pct": 11.22,
+     "votes": 691
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court - Carlos G. Muniz",
+   "reported": 8,
+   "precincts": 8,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 64.05,
+     "votes": 3654
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 35.95,
+     "votes": 2051
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Joseph Lewis, Jr.",
+   "reported": 8,
+   "precincts": 8,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 61.19,
+     "votes": 3466
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 38.81,
+     "votes": 2198
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Rachel Nordby",
+   "reported": 8,
+   "precincts": 8,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 66.12,
+     "votes": 3740
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 33.88,
+     "votes": 1916
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Tim Osterhaus",
+   "reported": 8,
+   "precincts": 8,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 64.14,
+     "votes": 3616
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 35.86,
+     "votes": 2022
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Clay Roberts",
+   "reported": 8,
+   "precincts": 8,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 62.95,
+     "votes": 3550
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 37.05,
+     "votes": 2089
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Raymond Treadwell",
+   "reported": 8,
+   "precincts": 8,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 67.89,
+     "votes": 3843
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 32.11,
+     "votes": 1818
+    }
+   ]
+  },
+  {
+   "office": "Bonifay City Council Seat 1",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Eddie Dixon",
+     "party": "NON",
+     "pct": 60.15,
+     "votes": 403
+    },
+    {
+     "name": "Stephanie Newcomb",
+     "party": "NON",
+     "pct": 39.85,
+     "votes": 267
+    }
+   ]
+  },
+  {
+   "office": "Bonifay City Council Seat 2",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Jason Powell",
+     "party": "NON",
+     "pct": 47.61,
+     "votes": 319
+    },
+    {
+     "name": "James Sellers",
+     "party": "NON",
+     "pct": 52.39,
+     "votes": 351
+    }
+   ]
+  },
+  {
+   "office": "Bonifay City Council Seat 3",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Shelley Carroll",
+     "party": "NON",
+     "pct": 42.73,
+     "votes": 285
+    },
+    {
+     "name": "Lynn Marshall",
+     "party": "NON",
+     "pct": 57.27,
+     "votes": 382
+    }
+   ]
+  },
+  {
+   "office": "Budget Stabilization Fund",
+   "reported": 8,
+   "precincts": 8,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 45.79,
+     "votes": 2706
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 54.21,
+     "votes": 3204
+    }
+   ]
+  },
+  {
+   "office": "Tangible Personal Property Tax",
+   "reported": 8,
+   "precincts": 8,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 81.47,
+     "votes": 4921
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 18.53,
+     "votes": 1119
+    }
+   ]
+  },
+  {
+   "office": "Increased Homestead Exemption",
+   "reported": 8,
+   "precincts": 8,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 76.03,
+     "votes": 4613
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 23.97,
+     "votes": 1454
+    }
+   ]
+  },
+  {
+   "office": "Holmes County Resolution 2026-03-31",
+   "reported": 8,
+   "precincts": 8,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 44.19,
+     "votes": 2673
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 55.81,
+     "votes": 3376
+    }
+   ]
+  }
+ ]
 }

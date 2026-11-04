@@ -1,8 +1,488 @@
 {
  "county": "sumter",
  "url": "https://enr.electionsfl.org/SUM/4056/Summary/",
- "pulledAt": "2026-11-04T03:55:24Z",
+ "pulledAt": "2026-11-04T04:12:15Z",
  "status": "unofficial",
  "updated": null,
- "races": []
+ "races": [],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 71.15,
+     "votes": 67621
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 27.93,
+     "votes": 26547
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 0.91,
+     "votes": 869
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 11",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Joe Strada",
+     "party": "REP",
+     "pct": 69.01,
+     "votes": 65169
+    },
+    {
+     "name": "James Pericola",
+     "party": "DEM",
+     "pct": 30.17,
+     "votes": 28494
+    },
+    {
+     "name": "Ralph Groves",
+     "party": "LPF",
+     "pct": 0.81,
+     "votes": 769
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Byron Donalds",
+     "party": "REP",
+     "pct": 69.49,
+     "votes": 66081
+    },
+    {
+     "name": "David Jolly",
+     "party": "DEM",
+     "pct": 29.64,
+     "votes": 28181
+    },
+    {
+     "name": "Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.34,
+     "votes": 320
+    },
+    {
+     "name": "Charles Burkett",
+     "party": "NPA",
+     "pct": 0.11,
+     "votes": 102
+    },
+    {
+     "name": "Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.17,
+     "votes": 157
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.04,
+     "votes": 39
+    },
+    {
+     "name": "Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.08,
+     "votes": 72
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.05,
+     "votes": 45
+    },
+    {
+     "name": "Write-in: Not Assigned",
+     "party": "NPA",
+     "pct": 0.1,
+     "votes": 93
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 71.27,
+     "votes": 67462
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 28.73,
+     "votes": 27196
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 70.99,
+     "votes": 66589
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 29.01,
+     "votes": 27214
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 70.4,
+     "votes": 66042
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 29.4,
+     "votes": 27582
+    },
+    {
+     "name": "Write-in: Not Assigned",
+     "party": "NPA",
+     "pct": 0.2,
+     "votes": 188
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 52",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Samantha Scott",
+     "party": "REP",
+     "pct": 70.36,
+     "votes": 66136
+    },
+    {
+     "name": "Pamala Kaye Bivins",
+     "party": "DEM",
+     "pct": 29.64,
+     "votes": 27866
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court Carlos G. Muniz",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 73.19,
+     "votes": 61462
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 26.81,
+     "votes": 22516
+    }
+   ]
+  },
+  {
+   "office": "Fifth District Court of Appeal John M. Harris",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 77.22,
+     "votes": 63512
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 22.78,
+     "votes": 18739
+    }
+   ]
+  },
+  {
+   "office": "Fifth District Court of Appeal Scott D. Makar",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 76.31,
+     "votes": 62005
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 23.69,
+     "votes": 19252
+    }
+   ]
+  },
+  {
+   "office": "Fifth District Court of Appeal F. Rand Wallis",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 76.25,
+     "votes": 61948
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 23.75,
+     "votes": 19293
+    }
+   ]
+  },
+  {
+   "office": "City of Bushnell Mayor Seat 1",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "Dale Barnes",
+     "party": "NPA",
+     "pct": 61.67,
+     "votes": 700
+    },
+    {
+     "name": "Erica Miller",
+     "party": "NPA",
+     "pct": 38.33,
+     "votes": 435
+    }
+   ]
+  },
+  {
+   "office": "City of Center Hill Council Seat 3",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Don M. Buckner Sr.",
+     "party": "NPA",
+     "pct": 64.49,
+     "votes": 178
+    },
+    {
+     "name": "Daniel Shimasaki",
+     "party": "NPA",
+     "pct": 35.51,
+     "votes": 98
+    }
+   ]
+  },
+  {
+   "office": "Village Community Development District 2 Seat 1",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "Frank Shallis",
+     "party": "NPA",
+     "pct": 46.06,
+     "votes": 1315
+    },
+    {
+     "name": "Tom Swiers",
+     "party": "NPA",
+     "pct": 53.94,
+     "votes": 1540
+    }
+   ]
+  },
+  {
+   "office": "Village Community Development District 2 Seat 2",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "James \"Jim\" Cipollone",
+     "party": "NPA",
+     "pct": 64.09,
+     "votes": 1888
+    },
+    {
+     "name": "David Stem",
+     "party": "NPA",
+     "pct": 35.91,
+     "votes": 1058
+    }
+   ]
+  },
+  {
+   "office": "Village Community Development District 2 Seat 3",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "James \"Jim\" Conti",
+     "party": "NPA",
+     "pct": 58.93,
+     "votes": 1673
+    },
+    {
+     "name": "Harold \"Coach Hal\" Whiting",
+     "party": "NPA",
+     "pct": 41.07,
+     "votes": 1166
+    }
+   ]
+  },
+  {
+   "office": "Village Community Development District 13 Seat 4",
+   "reported": 4,
+   "precincts": 4,
+   "candidates": [
+    {
+     "name": "Kenneth Ivins",
+     "party": "NPA",
+     "pct": 66.42,
+     "votes": 4826
+    },
+    {
+     "name": "Chuck Krouse",
+     "party": "NPA",
+     "pct": 33.58,
+     "votes": 2440
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 50.55,
+     "votes": 45105
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 49.45,
+     "votes": 44120
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 69.26,
+     "votes": 62166
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 30.74,
+     "votes": 27585
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 70.35,
+     "votes": 63634
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 29.65,
+     "votes": 26815
+    }
+   ]
+  },
+  {
+   "office": "No. 1 County Referendum",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 63.75,
+     "votes": 55980
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 36.25,
+     "votes": 31836
+    }
+   ]
+  },
+  {
+   "office": "No. 2 County Referendum",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "FOR the Tourist Development Tax",
+     "party": "NPA",
+     "pct": 59.57,
+     "votes": 51408
+    },
+    {
+     "name": "AGAINST the Tourist Development Tax",
+     "party": "NPA",
+     "pct": 40.43,
+     "votes": 34887
+    }
+   ]
+  }
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "county": "pasco",
  "url": "https://enr.electionsfl.org/PAS/4085/Summary/",
- "pulledAt": "2026-11-04T03:55:23Z",
+ "pulledAt": "2026-11-04T04:12:14Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -59,6 +59,922 @@
      "party": "NPA",
      "pct": 41.65,
      "votes": 86639
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 122,
+   "precincts": 122,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 56.47,
+     "votes": 135009
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 42.08,
+     "votes": 100614
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.45,
+     "votes": 3473
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 12",
+   "reported": 72,
+   "precincts": 72,
+   "candidates": [
+    {
+     "name": "Gus Michael Bilirakis",
+     "party": "REP",
+     "pct": 59.97,
+     "votes": 88277
+    },
+    {
+     "name": "Kimberly Overman",
+     "party": "DEM",
+     "pct": 38.65,
+     "votes": 56894
+    },
+    {
+     "name": "Branden Scrivener",
+     "party": "NPA",
+     "pct": 1.37,
+     "votes": 2019
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 13",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Anna Paulina Luna",
+     "party": "REP",
+     "pct": 53.92,
+     "votes": 11161
+    },
+    {
+     "name": "Leela Gray",
+     "party": "DEM",
+     "pct": 43.63,
+     "votes": 9032
+    },
+    {
+     "name": "Tony D'Arrigo",
+     "party": "NPA",
+     "pct": 2.45,
+     "votes": 507
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 15",
+   "reported": 38,
+   "precincts": 38,
+   "candidates": [
+    {
+     "name": "Laurel Lee",
+     "party": "REP",
+     "pct": 52.02,
+     "votes": 36628
+    },
+    {
+     "name": "Robert People",
+     "party": "DEM",
+     "pct": 47.82,
+     "votes": 33674
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.16,
+     "votes": 110
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 122,
+   "precincts": 122,
+   "candidates": [
+    {
+     "name": "Byron Donalds",
+     "party": "REP",
+     "pct": 55.3,
+     "votes": 132082
+    },
+    {
+     "name": "David Jolly",
+     "party": "DEM",
+     "pct": 43.0,
+     "votes": 102708
+    },
+    {
+     "name": "Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.51,
+     "votes": 1209
+    },
+    {
+     "name": "Charles Burkett",
+     "party": "NPA",
+     "pct": 0.23,
+     "votes": 559
+    },
+    {
+     "name": "Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.33,
+     "votes": 793
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.1,
+     "votes": 231
+    },
+    {
+     "name": "Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.18,
+     "votes": 428
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.12,
+     "votes": 275
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.24,
+     "votes": 571
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 122,
+   "precincts": 122,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 56.98,
+     "votes": 134529
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 43.02,
+     "votes": 101567
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 122,
+   "precincts": 122,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 56.83,
+     "votes": 133370
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 43.17,
+     "votes": 101327
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 122,
+   "precincts": 122,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 56.25,
+     "votes": 132807
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 43.22,
+     "votes": 102032
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.53,
+     "votes": 1247
+    }
+   ]
+  },
+  {
+   "office": "State Senator District 21",
+   "reported": 44,
+   "precincts": 44,
+   "candidates": [
+    {
+     "name": "Chris Nocco",
+     "party": "REP",
+     "pct": 60.73,
+     "votes": 50411
+    },
+    {
+     "name": "Jordan Hensley",
+     "party": "DEM",
+     "pct": 39.27,
+     "votes": 32601
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 53",
+   "reported": 7,
+   "precincts": 7,
+   "candidates": [
+    {
+     "name": "Brian Hawkins",
+     "party": "REP",
+     "pct": 69.17,
+     "votes": 8977
+    },
+    {
+     "name": "Tony Claude",
+     "party": "DEM",
+     "pct": 29.53,
+     "votes": 3832
+    },
+    {
+     "name": "Christopher Anger",
+     "party": "CPF",
+     "pct": 1.3,
+     "votes": 169
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 55",
+   "reported": 38,
+   "precincts": 38,
+   "candidates": [
+    {
+     "name": "Walter Price",
+     "party": "REP",
+     "pct": 59.13,
+     "votes": 50741
+    },
+    {
+     "name": "Zach Funkhouser",
+     "party": "DEM",
+     "pct": 40.87,
+     "votes": 35072
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 56",
+   "reported": 31,
+   "precincts": 31,
+   "candidates": [
+    {
+     "name": "Brad Yeager",
+     "party": "REP",
+     "pct": 58.79,
+     "votes": 32180
+    },
+    {
+     "name": "Jose Freites",
+     "party": "DEM",
+     "pct": 41.21,
+     "votes": 22553
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner District 2",
+   "reported": 122,
+   "precincts": 122,
+   "candidates": [
+    {
+     "name": "Seth Weightman",
+     "party": "REP",
+     "pct": 55.43,
+     "votes": 130428
+    },
+    {
+     "name": "Stephanie C. Vazquez",
+     "party": "DEM",
+     "pct": 44.57,
+     "votes": 104870
+    }
+   ]
+  },
+  {
+   "office": "Retain Justice Carlos G. Muñiz",
+   "reported": 122,
+   "precincts": 122,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 61.29,
+     "votes": 131133
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 38.71,
+     "votes": 82814
+    }
+   ]
+  },
+  {
+   "office": "Retain Judge Drew Atkinson",
+   "reported": 122,
+   "precincts": 122,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 64.14,
+     "votes": 136243
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 35.86,
+     "votes": 76171
+    }
+   ]
+  },
+  {
+   "office": "Retain Judge Morris Silberman",
+   "reported": 122,
+   "precincts": 122,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 65.05,
+     "votes": 137085
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 34.95,
+     "votes": 73651
+    }
+   ]
+  },
+  {
+   "office": "Retain Judge Daniel H. Sleet",
+   "reported": 122,
+   "precincts": 122,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 64.11,
+     "votes": 135425
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 35.89,
+     "votes": 75810
+    }
+   ]
+  },
+  {
+   "office": "Retain Judge Andrea Teves Smith",
+   "reported": 122,
+   "precincts": 122,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 66.72,
+     "votes": 140594
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 33.28,
+     "votes": 70115
+    }
+   ]
+  },
+  {
+   "office": "School Board Member District 1",
+   "reported": 122,
+   "precincts": 122,
+   "candidates": [
+    {
+     "name": "Gino Collura",
+     "party": "NPA",
+     "pct": 48.15,
+     "votes": 100731
+    },
+    {
+     "name": "Kimberly D. Coward",
+     "party": "NPA",
+     "pct": 51.85,
+     "votes": 108465
+    }
+   ]
+  },
+  {
+   "office": "School Board Member District 3",
+   "reported": 122,
+   "precincts": 122,
+   "candidates": [
+    {
+     "name": "Matt Geiger",
+     "party": "NPA",
+     "pct": 58.35,
+     "votes": 121397
+    },
+    {
+     "name": "Mollyana Ward",
+     "party": "NPA",
+     "pct": 41.65,
+     "votes": 86639
+    }
+   ]
+  },
+  {
+   "office": "Mosquito Control Commissioner Seat 2",
+   "reported": 43,
+   "precincts": 43,
+   "candidates": [
+    {
+     "name": "Greg Fuher",
+     "party": "NPA",
+     "pct": 49.44,
+     "votes": 34330
+    },
+    {
+     "name": "Shanon R. Holm",
+     "party": "NPA",
+     "pct": 50.56,
+     "votes": 35113
+    }
+   ]
+  },
+  {
+   "office": "Abbott Square CDD Seat 5",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Malinda Desruisseaux",
+     "party": "NPA",
+     "pct": 52.08,
+     "votes": 213
+    },
+    {
+     "name": "Matthew Ware",
+     "party": "NPA",
+     "pct": 47.92,
+     "votes": 196
+    }
+   ]
+  },
+  {
+   "office": "Bexley CDD Seat 3",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Kevin Burton",
+     "party": "NPA",
+     "pct": 58.38,
+     "votes": 867
+    },
+    {
+     "name": "Jim D. Reed",
+     "party": "NPA",
+     "pct": 41.62,
+     "votes": 618
+    }
+   ]
+  },
+  {
+   "office": "Epperson North CDD Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Brice Bird",
+     "party": "NPA",
+     "pct": 42.56,
+     "votes": 546
+    },
+    {
+     "name": "Jessica Pisculli",
+     "party": "NPA",
+     "pct": 57.44,
+     "votes": 737
+    }
+   ]
+  },
+  {
+   "office": "LakeShore Ranch CDD Seat 3",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Raymond Lotito",
+     "party": "NPA",
+     "pct": 45.26,
+     "votes": 401
+    },
+    {
+     "name": "Joe Lumpkin",
+     "party": "NPA",
+     "pct": 54.74,
+     "votes": 485
+    }
+   ]
+  },
+  {
+   "office": "Lakeside CDD Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Linda Ramlot",
+     "party": "NPA",
+     "pct": 50.14,
+     "votes": 371
+    },
+    {
+     "name": "David Saad",
+     "party": "NON",
+     "pct": 49.86,
+     "votes": 369
+    }
+   ]
+  },
+  {
+   "office": "Lakeside CDD Seat 5",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Barbara Callahan",
+     "party": "NPA",
+     "pct": 64.91,
+     "votes": 481
+    },
+    {
+     "name": "Marco Urrusquieta",
+     "party": "NON",
+     "pct": 35.09,
+     "votes": 260
+    }
+   ]
+  },
+  {
+   "office": "Long Lake Ranch CDD Seat 4",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "David Hutsell",
+     "party": "NPA",
+     "pct": 49.65,
+     "votes": 424
+    },
+    {
+     "name": "Bill Pellan",
+     "party": "NPA",
+     "pct": 50.35,
+     "votes": 430
+    }
+   ]
+  },
+  {
+   "office": "Long Lake Ranch CDD Seat 5",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Daniel Alvear",
+     "party": "NPA",
+     "pct": 59.84,
+     "votes": 517
+    },
+    {
+     "name": "Sharri Hoye",
+     "party": "NPA",
+     "pct": 40.16,
+     "votes": 347
+    }
+   ]
+  },
+  {
+   "office": "Long Lake Reserve CDD Seat 3",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Clinton McMahan",
+     "party": "NPA",
+     "pct": 37.99,
+     "votes": 125
+    },
+    {
+     "name": "Sara Schwartz",
+     "party": "NPA",
+     "pct": 62.01,
+     "votes": 204
+    }
+   ]
+  },
+  {
+   "office": "Mirada CDD Seat 3",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Preston Michael Baker",
+     "party": "NPA",
+     "pct": 48.67,
+     "votes": 752
+    },
+    {
+     "name": "Kimberly Ivory",
+     "party": "NPA",
+     "pct": 51.33,
+     "votes": 793
+    }
+   ]
+  },
+  {
+   "office": "Oak Creek CDD Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Ryan Gilbertsen",
+     "party": "NPA",
+     "pct": 39.89,
+     "votes": 217
+    },
+    {
+     "name": "Jeff Stone",
+     "party": "NPA",
+     "pct": 60.11,
+     "votes": 327
+    }
+   ]
+  },
+  {
+   "office": "Oak Creek CDD Seat 3",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Michael Rudman",
+     "party": "NPA",
+     "pct": 46.8,
+     "votes": 256
+    },
+    {
+     "name": "Samuel Venger",
+     "party": "NPA",
+     "pct": 53.2,
+     "votes": 291
+    }
+   ]
+  },
+  {
+   "office": "The Groves CDD Seat 1",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Mark Kearschner",
+     "party": "NPA",
+     "pct": 56.2,
+     "votes": 476
+    },
+    {
+     "name": "Patricia Penberthy",
+     "party": "NON",
+     "pct": 43.8,
+     "votes": 371
+    }
+   ]
+  },
+  {
+   "office": "The Groves CDD Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Tammy Cox",
+     "party": "NPA",
+     "pct": 51.03,
+     "votes": 420
+    },
+    {
+     "name": "James Lewis",
+     "party": "NPA",
+     "pct": 48.97,
+     "votes": 403
+    }
+   ]
+  },
+  {
+   "office": "Watergrass II CDD Seat 4",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Sunil Mohammed",
+     "party": "NPA",
+     "pct": 29.15,
+     "votes": 395
+    },
+    {
+     "name": "Stephany Segatti",
+     "party": "NPA",
+     "pct": 70.85,
+     "votes": 960
+    }
+   ]
+  },
+  {
+   "office": "Watergrass II CDD Seat 5",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Toshiya Arciaga",
+     "party": "NPA",
+     "pct": 65.74,
+     "votes": 896
+    },
+    {
+     "name": "Craig Margelowsky",
+     "party": "NPA",
+     "pct": 34.26,
+     "votes": 467
+    }
+   ]
+  },
+  {
+   "office": "Wiregrass II CDD Seat 4",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Scott Derby",
+     "party": "NPA",
+     "pct": 43.88,
+     "votes": 348
+    },
+    {
+     "name": "James Rossi",
+     "party": "NPA",
+     "pct": 56.12,
+     "votes": 445
+    }
+   ]
+  },
+  {
+   "office": "Zephyr Ridge CDD Seat 5",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Rosanne Cannizzo",
+     "party": "NPA",
+     "pct": 58.81,
+     "votes": 187
+    },
+    {
+     "name": "Chad F. Parish",
+     "party": "NPA",
+     "pct": 41.19,
+     "votes": 131
+    }
+   ]
+  },
+  {
+   "office": "Lake Padgett Estates ISD Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Pamela Carr",
+     "party": "NPA",
+     "pct": 59.08,
+     "votes": 677
+    },
+    {
+     "name": "George Thomas",
+     "party": "NPA",
+     "pct": 40.92,
+     "votes": 469
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment",
+   "reported": 122,
+   "precincts": 122,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 44.34,
+     "votes": 97876
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 55.66,
+     "votes": 122888
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment",
+   "reported": 122,
+   "precincts": 122,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 64.35,
+     "votes": 143549
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 35.65,
+     "votes": 79519
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment",
+   "reported": 122,
+   "precincts": 122,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 67.15,
+     "votes": 153350
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 32.85,
+     "votes": 75023
+    }
+   ]
+  },
+  {
+   "office": "Pasco School Board Millage",
+   "reported": 122,
+   "precincts": 122,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 74.54,
+     "votes": 167087
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 25.46,
+     "votes": 57066
     }
    ]
   }

@@ -1,7 +1,7 @@
 {
  "county": "marion",
  "url": "https://enr.electionsfl.org/MRN/4099/Summary/",
- "pulledAt": "2026-11-04T03:55:22Z",
+ "pulledAt": "2026-11-04T04:12:14Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -59,6 +59,536 @@
      "party": "NON",
      "pct": 55.27,
      "votes": 76999
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 106,
+   "precincts": 106,
+   "candidates": [
+    {
+     "name": "REP Ashley Moody",
+     "party": "REP",
+     "pct": 62.34,
+     "votes": 102149
+    },
+    {
+     "name": "DEM Angie Nixon",
+     "party": "DEM",
+     "pct": 36.5,
+     "votes": 59813
+    },
+    {
+     "name": "NPA Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.16,
+     "votes": 1909
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress - District 3 Congressional District 03",
+   "reported": 62,
+   "precincts": 62,
+   "candidates": [
+    {
+     "name": "REP Kat Cammack",
+     "party": "REP",
+     "pct": 58.38,
+     "votes": 55171
+    },
+    {
+     "name": "DEM Seth Harp",
+     "party": "DEM",
+     "pct": 39.87,
+     "votes": 37674
+    },
+    {
+     "name": "NPA Mike Klein",
+     "party": "NPA",
+     "pct": 1.75,
+     "votes": 1656
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress - District 6 Congressional District 06",
+   "reported": 45,
+   "precincts": 45,
+   "candidates": [
+    {
+     "name": "REP Randy Fine",
+     "party": "REP",
+     "pct": 64.23,
+     "votes": 43483
+    },
+    {
+     "name": "DEM Eric Yonce",
+     "party": "DEM",
+     "pct": 34.65,
+     "votes": 23458
+    },
+    {
+     "name": "LPF Andrew Parrott",
+     "party": "LPF",
+     "pct": 0.99,
+     "votes": 673
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.13,
+     "votes": 90
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 106,
+   "precincts": 106,
+   "candidates": [
+    {
+     "name": "REP Byron Donalds",
+     "party": "REP",
+     "pct": 61.34,
+     "votes": 100468
+    },
+    {
+     "name": "DEM David Jolly",
+     "party": "DEM",
+     "pct": 37.21,
+     "votes": 60951
+    },
+    {
+     "name": "LPF Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.47,
+     "votes": 776
+    },
+    {
+     "name": "NPA Charles Burkett",
+     "party": "NPA",
+     "pct": 0.21,
+     "votes": 350
+    },
+    {
+     "name": "NPA Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.26,
+     "votes": 427
+    },
+    {
+     "name": "NPA Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.08,
+     "votes": 132
+    },
+    {
+     "name": "NPA Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.13,
+     "votes": 216
+    },
+    {
+     "name": "NPA Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.08,
+     "votes": 124
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.22,
+     "votes": 355
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 106,
+   "precincts": 106,
+   "candidates": [
+    {
+     "name": "REP James Uthmeier",
+     "party": "REP",
+     "pct": 62.8,
+     "votes": 102265
+    },
+    {
+     "name": "DEM Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 37.2,
+     "votes": 60578
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 106,
+   "precincts": 106,
+   "candidates": [
+    {
+     "name": "REP Blaise Ingoglia",
+     "party": "REP",
+     "pct": 62.51,
+     "votes": 100618
+    },
+    {
+     "name": "DEM Annette Taddeo",
+     "party": "DEM",
+     "pct": 37.49,
+     "votes": 60349
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 106,
+   "precincts": 106,
+   "candidates": [
+    {
+     "name": "REP Wilton Simpson",
+     "party": "REP",
+     "pct": 62.12,
+     "votes": 100262
+    },
+    {
+     "name": "DEM Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 37.49,
+     "votes": 60514
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.39,
+     "votes": 633
+    }
+   ]
+  },
+  {
+   "office": "State Representative - District 20 House District 20",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "REP Judson Sapp",
+     "party": "REP",
+     "pct": 72.11,
+     "votes": 7903
+    },
+    {
+     "name": "DEM Lee Butler",
+     "party": "DEM",
+     "pct": 27.89,
+     "votes": 3056
+    }
+   ]
+  },
+  {
+   "office": "State Representative - District 23 House District 23",
+   "reported": 6,
+   "precincts": 6,
+   "candidates": [
+    {
+     "name": "REP J.J. Grow",
+     "party": "REP",
+     "pct": 69.92,
+     "votes": 8222
+    },
+    {
+     "name": "DEM Mark Leland Baker",
+     "party": "DEM",
+     "pct": 30.08,
+     "votes": 3537
+    }
+   ]
+  },
+  {
+   "office": "State Representative - District 27 House District 27",
+   "reported": 21,
+   "precincts": 21,
+   "candidates": [
+    {
+     "name": "REP Richard Gentry",
+     "party": "REP",
+     "pct": 65.34,
+     "votes": 25390
+    },
+    {
+     "name": "DEM Andy Ferrari",
+     "party": "DEM",
+     "pct": 34.66,
+     "votes": 13467
+    }
+   ]
+  },
+  {
+   "office": "Board of County Commissioners - District 4",
+   "reported": 106,
+   "precincts": 106,
+   "candidates": [
+    {
+     "name": "REP Jeff Bairstow",
+     "party": "REP",
+     "pct": 91.85,
+     "votes": 121697
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 8.15,
+     "votes": 10793
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court - Muniz",
+   "reported": 106,
+   "precincts": 106,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 65.58,
+     "votes": 95659
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 34.42,
+     "votes": 50217
+    }
+   ]
+  },
+  {
+   "office": "District Court of Appeal - Harris",
+   "reported": 106,
+   "precincts": 106,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 70.52,
+     "votes": 101464
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 29.48,
+     "votes": 42411
+    }
+   ]
+  },
+  {
+   "office": "District Court of Appeal - Makar",
+   "reported": 106,
+   "precincts": 106,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 69.23,
+     "votes": 97962
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 30.77,
+     "votes": 43535
+    }
+   ]
+  },
+  {
+   "office": "District Court of Appeal - Wallis",
+   "reported": 106,
+   "precincts": 106,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 67.72,
+     "votes": 95865
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 32.28,
+     "votes": 45697
+    }
+   ]
+  },
+  {
+   "office": "School Board - District 4",
+   "reported": 106,
+   "precincts": 106,
+   "candidates": [
+    {
+     "name": "Mike Mills",
+     "party": "NON",
+     "pct": 56.76,
+     "votes": 78999
+    },
+    {
+     "name": "Brigitte Smith",
+     "party": "NON",
+     "pct": 43.24,
+     "votes": 60171
+    }
+   ]
+  },
+  {
+   "office": "School Board  - District 5",
+   "reported": 106,
+   "precincts": 106,
+   "candidates": [
+    {
+     "name": "Donald \"Donny\" Barber",
+     "party": "NON",
+     "pct": 44.73,
+     "votes": 62311
+    },
+    {
+     "name": "Sarah James",
+     "party": "NON",
+     "pct": 55.27,
+     "votes": 76999
+    }
+   ]
+  },
+  {
+   "office": "Soil & Water Conservation District - District 5",
+   "reported": 106,
+   "precincts": 106,
+   "candidates": [
+    {
+     "name": "Deborah A. Edwards",
+     "party": "NON",
+     "pct": 74.09,
+     "votes": 99165
+    },
+    {
+     "name": "Vivi Serena",
+     "party": "NON",
+     "pct": 25.91,
+     "votes": 34678
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment",
+   "reported": 106,
+   "precincts": 106,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 40.37,
+     "votes": 62575
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 59.63,
+     "votes": 92412
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment",
+   "reported": 106,
+   "precincts": 106,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 66.04,
+     "votes": 103544
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 33.96,
+     "votes": 53237
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment",
+   "reported": 106,
+   "precincts": 106,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 69.06,
+     "votes": 110061
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 30.94,
+     "votes": 49320
+    }
+   ]
+  },
+  {
+   "office": "School District operating expenses",
+   "reported": 106,
+   "precincts": 106,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 67.71,
+     "votes": 105045
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 32.29,
+     "votes": 50104
+    }
+   ]
+  },
+  {
+   "office": "Marion County Parks Bond Referendum",
+   "reported": 106,
+   "precincts": 106,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 74.67,
+     "votes": 116797
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 25.33,
+     "votes": 39622
+    }
+   ]
+  },
+  {
+   "office": "Dunnellon Charter Amendment",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 58.13,
+     "votes": 404
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 41.87,
+     "votes": 291
     }
    ]
   }

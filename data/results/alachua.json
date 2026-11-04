@@ -1,7 +1,7 @@
 {
  "county": "alachua",
  "url": "https://enr.electionsfl.org/ALA/4097/Summary/",
- "pulledAt": "2026-11-04T03:55:17Z",
+ "pulledAt": "2026-11-04T04:12:12Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -40,6 +40,593 @@
      "party": "NPA",
      "pct": 41.08,
      "votes": 38205
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 62,
+   "precincts": 63,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 32.78,
+     "votes": 34270
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 66.3,
+     "votes": 69313
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 0.92,
+     "votes": 966
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 3",
+   "reported": 62,
+   "precincts": 63,
+   "candidates": [
+    {
+     "name": "Kat Cammack",
+     "party": "REP",
+     "pct": 32.64,
+     "votes": 33992
+    },
+    {
+     "name": "Seth Harp",
+     "party": "DEM",
+     "pct": 65.28,
+     "votes": 67992
+    },
+    {
+     "name": "Mike Klein",
+     "party": "NPA",
+     "pct": 2.09,
+     "votes": 2174
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 62,
+   "precincts": 63,
+   "candidates": [
+    {
+     "name": "Byron Donalds",
+     "party": "REP",
+     "pct": 32.5,
+     "votes": 33965
+    },
+    {
+     "name": "David Jolly",
+     "party": "DEM",
+     "pct": 66.14,
+     "votes": 69117
+    },
+    {
+     "name": "Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.47,
+     "votes": 496
+    },
+    {
+     "name": "Charles Burkett",
+     "party": "NPA",
+     "pct": 0.17,
+     "votes": 176
+    },
+    {
+     "name": "Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.18,
+     "votes": 183
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.11,
+     "votes": 110
+    },
+    {
+     "name": "Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.2,
+     "votes": 212
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.07,
+     "votes": 74
+    },
+    {
+     "name": "Write-in",
+     "party": "NPA",
+     "pct": 0.16,
+     "votes": 170
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 62,
+   "precincts": 63,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 32.92,
+     "votes": 34132
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 67.08,
+     "votes": 69553
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 62,
+   "precincts": 63,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 33.71,
+     "votes": 34737
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 66.29,
+     "votes": 68321
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 62,
+   "precincts": 63,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 33.87,
+     "votes": 34940
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 65.9,
+     "votes": 67984
+    },
+    {
+     "name": "Write-in",
+     "party": "NPA",
+     "pct": 0.23,
+     "votes": 234
+    }
+   ]
+  },
+  {
+   "office": "State Senator District 6",
+   "reported": 37,
+   "precincts": 38,
+   "candidates": [
+    {
+     "name": "Jennifer Bradley",
+     "party": "REP",
+     "pct": 33.2,
+     "votes": 20969
+    },
+    {
+     "name": "Jason Bellamy-Fults",
+     "party": "DEM",
+     "pct": 65.84,
+     "votes": 41589
+    },
+    {
+     "name": "Joseph Thornton",
+     "party": "ASP",
+     "pct": 0.96,
+     "votes": 609
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 10",
+   "reported": 12,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Marshall Rawson",
+     "party": "REP",
+     "pct": 50.5,
+     "votes": 8878
+    },
+    {
+     "name": "Merrillee Malwitz Jipson",
+     "party": "DEM",
+     "pct": 49.42,
+     "votes": 8689
+    },
+    {
+     "name": "Write-in",
+     "party": "NPA",
+     "pct": 0.08,
+     "votes": 14
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 22",
+   "reported": 26,
+   "precincts": 26,
+   "candidates": [
+    {
+     "name": "Chad Johnson",
+     "party": "REP",
+     "pct": 35.42,
+     "votes": 18748
+    },
+    {
+     "name": "Amy Trask",
+     "party": "DEM",
+     "pct": 64.58,
+     "votes": 34180
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner District 4",
+   "reported": 62,
+   "precincts": 63,
+   "candidates": [
+    {
+     "name": "Ken Cornell",
+     "party": "DEM",
+     "pct": 74.76,
+     "votes": 72672
+    },
+    {
+     "name": "Dewayne Baines",
+     "party": "NPA",
+     "pct": 25.24,
+     "votes": 24540
+    }
+   ]
+  },
+  {
+   "office": "Supreme Court Retention Carlos",
+   "reported": 62,
+   "precincts": 63,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 44.44,
+     "votes": 42040
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 55.56,
+     "votes": 52568
+    }
+   ]
+  },
+  {
+   "office": "First District Retention Joseph",
+   "reported": 62,
+   "precincts": 63,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 55.66,
+     "votes": 52063
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 44.34,
+     "votes": 41481
+    }
+   ]
+  },
+  {
+   "office": "First District Retention Rachel",
+   "reported": 62,
+   "precincts": 63,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 46.19,
+     "votes": 43003
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 53.81,
+     "votes": 50090
+    }
+   ]
+  },
+  {
+   "office": "First District Retention Tim",
+   "reported": 62,
+   "precincts": 63,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 45.84,
+     "votes": 42569
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 54.16,
+     "votes": 50301
+    }
+   ]
+  },
+  {
+   "office": "First District Retention Clay",
+   "reported": 62,
+   "precincts": 63,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 47.97,
+     "votes": 44479
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 52.03,
+     "votes": 48244
+    }
+   ]
+  },
+  {
+   "office": "First District Retention Raymond",
+   "reported": 62,
+   "precincts": 63,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 45.22,
+     "votes": 41975
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 54.78,
+     "votes": 50848
+    }
+   ]
+  },
+  {
+   "office": "School Board District 1",
+   "reported": 62,
+   "precincts": 63,
+   "candidates": [
+    {
+     "name": "Hunter Miller",
+     "party": "NPA",
+     "pct": 58.92,
+     "votes": 54792
+    },
+    {
+     "name": "Janine Plavac",
+     "party": "NPA",
+     "pct": 41.08,
+     "votes": 38205
+    }
+   ]
+  },
+  {
+   "office": "High Springs City Commissioner Seat 1",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Andrew Miller",
+     "party": "NPA",
+     "pct": 56.58,
+     "votes": 1633
+    },
+    {
+     "name": "Timothy \"Timmy\" Guinn Jr",
+     "party": "NPA",
+     "pct": 43.42,
+     "votes": 1253
+    }
+   ]
+  },
+  {
+   "office": "High Springs City Commissioner Seat 2",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Ross Ambrose",
+     "party": "NPA",
+     "pct": 55.06,
+     "votes": 1611
+    },
+    {
+     "name": "Gigi Buigas",
+     "party": "NPA",
+     "pct": 44.94,
+     "votes": 1315
+    }
+   ]
+  },
+  {
+   "office": "No.1 Constitutional Amendment Article III, Section 19",
+   "reported": 62,
+   "precincts": 63,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 28.8,
+     "votes": 28850
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 71.2,
+     "votes": 71312
+    }
+   ]
+  },
+  {
+   "office": "No.2 Constitutional Amendment Article VII, Section 3  Article XII",
+   "reported": 62,
+   "precincts": 63,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 42.95,
+     "votes": 43462
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 57.05,
+     "votes": 57725
+    }
+   ]
+  },
+  {
+   "office": "No.3 Constitutional Amendment Article VII, Sections 4, 6 and 9  Article XII",
+   "reported": 62,
+   "precincts": 63,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 45.23,
+     "votes": 46115
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 54.77,
+     "votes": 55848
+    }
+   ]
+  },
+  {
+   "office": "City of Gainesville Charter Amendment",
+   "reported": 32,
+   "precincts": 32,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 52.27,
+     "votes": 20862
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 47.73,
+     "votes": 19051
+    }
+   ]
+  },
+  {
+   "office": "City of Archer Charter Amendment No. 1",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 72.25,
+     "votes": 263
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 27.75,
+     "votes": 101
+    }
+   ]
+  },
+  {
+   "office": "City of Archer Charter Amendment No. 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 67.49,
+     "votes": 245
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 32.51,
+     "votes": 118
+    }
+   ]
+  },
+  {
+   "office": "City of Archer Charter Amendment No. 3",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 70.96,
+     "votes": 259
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 29.04,
+     "votes": 106
+    }
+   ]
+  },
+  {
+   "office": "City of Archer Charter Amendment No. 4",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 66.58,
+     "votes": 245
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 33.42,
+     "votes": 123
     }
    ]
   }

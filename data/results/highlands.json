@@ -1,7 +1,7 @@
 {
  "county": "highlands",
  "url": "https://enr.electionsfl.org/HIG/4127/Summary/",
- "pulledAt": "2026-11-04T03:55:20Z",
+ "pulledAt": "2026-11-04T04:12:13Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -40,6 +40,409 @@
      "party": "NON",
      "pct": 52.42,
      "votes": 18791
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 25,
+   "precincts": 25,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 67.26,
+     "votes": 26697
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 31.67,
+     "votes": 12572
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.07,
+     "votes": 426
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 9",
+   "reported": 25,
+   "precincts": 25,
+   "candidates": [
+    {
+     "name": "Dan Green",
+     "party": "REP",
+     "pct": 65.76,
+     "votes": 25884
+    },
+    {
+     "name": "Darren Soto",
+     "party": "DEM",
+     "pct": 34.24,
+     "votes": 13477
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 25,
+   "precincts": 25,
+   "candidates": [
+    {
+     "name": "Byron Donalds",
+     "party": "REP",
+     "pct": 65.66,
+     "votes": 26048
+    },
+    {
+     "name": "David Jolly",
+     "party": "DEM",
+     "pct": 32.94,
+     "votes": 13068
+    },
+    {
+     "name": "Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.37,
+     "votes": 147
+    },
+    {
+     "name": "Charles Burkett",
+     "party": "NPA",
+     "pct": 0.24,
+     "votes": 95
+    },
+    {
+     "name": "Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.23,
+     "votes": 92
+    },
+    {
+     "name": "Moliere Moe Dimanche",
+     "party": "NPA",
+     "pct": 0.06,
+     "votes": 23
+    },
+    {
+     "name": "Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.17,
+     "votes": 66
+    },
+    {
+     "name": "Jeffrey Peter Dr. Jeff Datto",
+     "party": "NPA",
+     "pct": 0.14,
+     "votes": 57
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.19,
+     "votes": 76
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 25,
+   "precincts": 25,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 67.6,
+     "votes": 26673
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 32.4,
+     "votes": 12787
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 25,
+   "precincts": 25,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 66.99,
+     "votes": 26205
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 33.01,
+     "votes": 12913
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 25,
+   "precincts": 25,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 67.23,
+     "votes": 26415
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 32.47,
+     "votes": 12758
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.3,
+     "votes": 117
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 83",
+   "reported": 25,
+   "precincts": 25,
+   "candidates": [
+    {
+     "name": "Kaylee Tuck",
+     "party": "REP",
+     "pct": 67.77,
+     "votes": 26651
+    },
+    {
+     "name": "Leigh Estes",
+     "party": "DEM",
+     "pct": 32.23,
+     "votes": 12676
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court Carlos G. Muniz",
+   "reported": 25,
+   "precincts": 25,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 67.79,
+     "votes": 24148
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 32.21,
+     "votes": 11475
+    }
+   ]
+  },
+  {
+   "office": "School Board District 1",
+   "reported": 25,
+   "precincts": 25,
+   "candidates": [
+    {
+     "name": "James Jonsten",
+     "party": "NON",
+     "pct": 43.63,
+     "votes": 14930
+    },
+    {
+     "name": "Kari Gurganus Pritchett",
+     "party": "NON",
+     "pct": 56.37,
+     "votes": 19289
+    }
+   ]
+  },
+  {
+   "office": "School Board District 5",
+   "reported": 25,
+   "precincts": 25,
+   "candidates": [
+    {
+     "name": "Gary Brown",
+     "party": "NON",
+     "pct": 47.58,
+     "votes": 17059
+    },
+    {
+     "name": "Andy Tuck",
+     "party": "NON",
+     "pct": 52.42,
+     "votes": 18791
+    }
+   ]
+  },
+  {
+   "office": "Avon Park Mayor",
+   "reported": 4,
+   "precincts": 4,
+   "candidates": [
+    {
+     "name": "Garrett Anderson",
+     "party": "NON",
+     "pct": 39.9,
+     "votes": 989
+    },
+    {
+     "name": "Brenda Gray Snell",
+     "party": "NON",
+     "pct": 60.1,
+     "votes": 1490
+    }
+   ]
+  },
+  {
+   "office": "Avon Park Council City of Avon Park",
+   "reported": 4,
+   "precincts": 4,
+   "candidates": [
+    {
+     "name": "Jim Barnard",
+     "party": "NON",
+     "pct": 23.64,
+     "votes": 572
+    },
+    {
+     "name": "Louis Edward Bates Sr.",
+     "party": "NON",
+     "pct": 7.19,
+     "votes": 174
+    },
+    {
+     "name": "Vern Bolton",
+     "party": "NON",
+     "pct": 11.61,
+     "votes": 281
+    },
+    {
+     "name": "Gerald Snell",
+     "party": "NON",
+     "pct": 10.21,
+     "votes": 247
+    },
+    {
+     "name": "Chris Downie",
+     "party": "NON",
+     "pct": 9.09,
+     "votes": 220
+    },
+    {
+     "name": "Maria T. Sutherland",
+     "party": "NON",
+     "pct": 38.26,
+     "votes": 926
+    }
+   ]
+  },
+  {
+   "office": "Sun 'N Lake Improvement District Board of Supervisors",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Stephen Kramer",
+     "party": "NON",
+     "pct": 49.6,
+     "votes": 1548
+    },
+    {
+     "name": "Beverly Phillips",
+     "party": "NON",
+     "pct": 50.4,
+     "votes": 1573
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment",
+   "reported": 25,
+   "precincts": 25,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 47.52,
+     "votes": 17827
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 52.48,
+     "votes": 19687
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment",
+   "reported": 25,
+   "precincts": 25,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 67.25,
+     "votes": 25593
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 32.75,
+     "votes": 12466
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment",
+   "reported": 25,
+   "precincts": 25,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 63.11,
+     "votes": 24393
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 36.89,
+     "votes": 14261
+    }
+   ]
+  },
+  {
+   "office": "Avon Park Charter Amendment",
+   "reported": 4,
+   "precincts": 4,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 63.7,
+     "votes": 1574
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 36.3,
+     "votes": 897
     }
    ]
   }

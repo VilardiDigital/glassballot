@@ -1,8 +1,355 @@
 {
  "county": "dixie",
  "url": "https://enr.electionsfl.org/DIX/4125/Summary/",
- "pulledAt": "2026-11-04T03:55:18Z",
+ "pulledAt": "2026-11-04T04:12:13Z",
  "status": "unofficial",
  "updated": null,
- "races": []
+ "races": [],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Ashley Moody - REP",
+     "party": "REP",
+     "pct": 82.3,
+     "votes": 4623
+    },
+    {
+     "name": "Angie Nixon - DEM",
+     "party": "DEM",
+     "pct": 16.2,
+     "votes": 910
+    },
+    {
+     "name": "Neil J. Gillespie - NPA",
+     "party": "NPA",
+     "pct": 1.5,
+     "votes": 84
+    }
+   ]
+  },
+  {
+   "office": "Rep in Congress, Dist 3",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Kat Cammack - REP",
+     "party": "REP",
+     "pct": 82.98,
+     "votes": 4650
+    },
+    {
+     "name": "Seth Harp - DEM",
+     "party": "DEM",
+     "pct": 15.24,
+     "votes": 854
+    },
+    {
+     "name": "Mike Klein - NPA",
+     "party": "NPA",
+     "pct": 1.78,
+     "votes": 100
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lt Governor",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Donalds/Avila - REP",
+     "party": "REP",
+     "pct": 80.97,
+     "votes": 4520
+    },
+    {
+     "name": "Jolly/Graham - DEM",
+     "party": "DEM",
+     "pct": 16.59,
+     "votes": 926
+    },
+    {
+     "name": "Jewett/Skelly - LPF",
+     "party": "LPF",
+     "pct": 0.79,
+     "votes": 44
+    },
+    {
+     "name": "Burkett/Coto - NPA",
+     "party": "NPA",
+     "pct": 0.39,
+     "votes": 22
+    },
+    {
+     "name": "Russo/Rodriguez - NPA",
+     "party": "NPA",
+     "pct": 0.27,
+     "votes": 15
+    },
+    {
+     "name": "Dimanche/Rojas - NPA",
+     "party": "NPA",
+     "pct": 0.09,
+     "votes": 5
+    },
+    {
+     "name": "Abrams/VanVactor - NPA",
+     "party": "NPA",
+     "pct": 0.29,
+     "votes": 16
+    },
+    {
+     "name": "Datto/Santana - NPA",
+     "party": "NPA",
+     "pct": 0.16,
+     "votes": 9
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.45,
+     "votes": 25
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "James Uthmeier - REP",
+     "party": "REP",
+     "pct": 83.66,
+     "votes": 4572
+    },
+    {
+     "name": "Jose Javier Rodriguez - DEM",
+     "party": "DEM",
+     "pct": 16.34,
+     "votes": 893
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia - REP",
+     "party": "REP",
+     "pct": 82.98,
+     "votes": 4601
+    },
+    {
+     "name": "Annette Taddeo - DEM",
+     "party": "DEM",
+     "pct": 17.02,
+     "votes": 944
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Wilton Simpson - REP",
+     "party": "REP",
+     "pct": 82.83,
+     "votes": 4607
+    },
+    {
+     "name": "Joey Mendoza Atkins - DEM",
+     "party": "DEM",
+     "pct": 16.59,
+     "votes": 923
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.58,
+     "votes": 32
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court C. Muñiz",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 65.23,
+     "votes": 3334
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 34.77,
+     "votes": 1777
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal J. Lewis Jr",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 64.11,
+     "votes": 3245
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 35.89,
+     "votes": 1817
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal R. Nordby",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 67.51,
+     "votes": 3423
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 32.49,
+     "votes": 1647
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal T. Osterhaus",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 65.48,
+     "votes": 3321
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 34.52,
+     "votes": 1751
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal C. Roberts",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 64.67,
+     "votes": 3267
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 35.33,
+     "votes": 1785
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal R. Treadwell",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 68.42,
+     "votes": 3455
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 31.58,
+     "votes": 1595
+    }
+   ]
+  },
+  {
+   "office": "Constitutional Amendment 1",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 43.83,
+     "votes": 2359
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 56.17,
+     "votes": 3023
+    }
+   ]
+  },
+  {
+   "office": "Constitutional Amendment 2",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 73.01,
+     "votes": 3936
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 26.99,
+     "votes": 1455
+    }
+   ]
+  },
+  {
+   "office": "Constitutional Amendment 3",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 73.51,
+     "votes": 4027
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 26.49,
+     "votes": 1451
+    }
+   ]
+  }
+ ]
 }

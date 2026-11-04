@@ -1,7 +1,7 @@
 {
  "county": "collier",
  "url": "https://enr.electionsfl.org/CLL/4083/Summary/",
- "pulledAt": "2026-11-04T03:55:18Z",
+ "pulledAt": "2026-11-04T04:12:13Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -21,6 +21,686 @@
      "party": "JEF",
      "pct": 24.0,
      "votes": 8376
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 67,
+   "precincts": 67,
+   "candidates": [
+    {
+     "name": "REP Ashley Moody",
+     "party": "REP",
+     "pct": 63.9,
+     "votes": 109754
+    },
+    {
+     "name": "DEM Angie Nixon",
+     "party": "DEM",
+     "pct": 35.2,
+     "votes": 60397
+    },
+    {
+     "name": "NPA Neil J. Gillespie",
+     "party": "NON",
+     "pct": 0.9,
+     "votes": 1520
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress, District 19",
+   "reported": 39,
+   "precincts": 39,
+   "candidates": [
+    {
+     "name": "REP Jim Schwartzel",
+     "party": "REP",
+     "pct": 63.0,
+     "votes": 57073
+    },
+    {
+     "name": "DEM Victor Arias",
+     "party": "DEM",
+     "pct": 36.0,
+     "votes": 32628
+    },
+    {
+     "name": "NPA Seth Haskin",
+     "party": "NON",
+     "pct": 1.0,
+     "votes": 893
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.0,
+     "votes": 42
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress, District 22",
+   "reported": 31,
+   "precincts": 31,
+   "candidates": [
+    {
+     "name": "REP Casey Askar",
+     "party": "REP",
+     "pct": 63.5,
+     "votes": 50680
+    },
+    {
+     "name": "DEM Pia Dandiya",
+     "party": "DEM",
+     "pct": 36.5,
+     "votes": 29151
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 67,
+   "precincts": 67,
+   "candidates": [
+    {
+     "name": "REP Byron Donalds",
+     "party": "REP",
+     "pct": 63.1,
+     "votes": 108539
+    },
+    {
+     "name": "DEM David Jolly",
+     "party": "DEM",
+     "pct": 35.9,
+     "votes": 61693
+    },
+    {
+     "name": "LPF Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.3,
+     "votes": 531
+    },
+    {
+     "name": "NPA Charles Burkett",
+     "party": "NON",
+     "pct": 0.2,
+     "votes": 266
+    },
+    {
+     "name": "NPA Frank J. Russo",
+     "party": "NON",
+     "pct": 0.2,
+     "votes": 309
+    },
+    {
+     "name": "NPA Moliere \"Moe\" Dimanche",
+     "party": "NON",
+     "pct": 0.1,
+     "votes": 86
+    },
+    {
+     "name": "NPA Dean Ocean Abrams",
+     "party": "NON",
+     "pct": 0.1,
+     "votes": 164
+    },
+    {
+     "name": "NPA Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NON",
+     "pct": 0.1,
+     "votes": 103
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.2,
+     "votes": 261
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 67,
+   "precincts": 67,
+   "candidates": [
+    {
+     "name": "REP James Uthmeier",
+     "party": "REP",
+     "pct": 64.5,
+     "votes": 110082
+    },
+    {
+     "name": "DEM Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 35.5,
+     "votes": 60543
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 67,
+   "precincts": 67,
+   "candidates": [
+    {
+     "name": "REP Blaise Ingoglia",
+     "party": "REP",
+     "pct": 64.1,
+     "votes": 108496
+    },
+    {
+     "name": "DEM Annette Taddeo",
+     "party": "DEM",
+     "pct": 35.9,
+     "votes": 60695
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 67,
+   "precincts": 67,
+   "candidates": [
+    {
+     "name": "REP Wilton Simpson",
+     "party": "REP",
+     "pct": 64.3,
+     "votes": 108688
+    },
+    {
+     "name": "DEM Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 35.6,
+     "votes": 60067
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.1,
+     "votes": 205
+    }
+   ]
+  },
+  {
+   "office": "State Senator, District 28",
+   "reported": 67,
+   "precincts": 67,
+   "candidates": [
+    {
+     "name": "REP Lauren Uhlich Melo",
+     "party": "REP",
+     "pct": 63.9,
+     "votes": 108381
+    },
+    {
+     "name": "DEM David Silverberg",
+     "party": "DEM",
+     "pct": 36.1,
+     "votes": 61210
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 80",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "REP Adam Botana",
+     "party": "REP",
+     "pct": 66.8,
+     "votes": 17559
+    },
+    {
+     "name": "DEM William Moskal",
+     "party": "DEM",
+     "pct": 33.2,
+     "votes": 8733
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 81",
+   "reported": 39,
+   "precincts": 39,
+   "candidates": [
+    {
+     "name": "REP Yvette Benarroch",
+     "party": "REP",
+     "pct": 64.6,
+     "votes": 56972
+    },
+    {
+     "name": "DEM Kim Finer",
+     "party": "DEM",
+     "pct": 35.4,
+     "votes": 31237
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 82",
+   "reported": 23,
+   "precincts": 23,
+   "candidates": [
+    {
+     "name": "REP Liesa Priddy",
+     "party": "REP",
+     "pct": 61.4,
+     "votes": 33510
+    },
+    {
+     "name": "DEM Arthur Boyer",
+     "party": "DEM",
+     "pct": 38.6,
+     "votes": 21032
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner, District 2",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "REP Chris Hall",
+     "party": "REP",
+     "pct": 76.0,
+     "votes": 26537
+    },
+    {
+     "name": "JEF Cody Davis",
+     "party": "JEF",
+     "pct": 24.0,
+     "votes": 8376
+    }
+   ]
+  },
+  {
+   "office": "Supreme Court - Muniz",
+   "reported": 67,
+   "precincts": 67,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 69.9,
+     "votes": 103841
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 30.1,
+     "votes": 44750
+    }
+   ]
+  },
+  {
+   "office": "Marco Island City Council",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "Jason Bailey",
+     "party": "NON",
+     "pct": 15.5,
+     "votes": 4042
+    },
+    {
+     "name": "Dennis Bartolucci",
+     "party": "NON",
+     "pct": 19.9,
+     "votes": 5198
+    },
+    {
+     "name": "Darrin Palumbo",
+     "party": "NON",
+     "pct": 15.6,
+     "votes": 4086
+    },
+    {
+     "name": "Chris Ricci",
+     "party": "NON",
+     "pct": 13.6,
+     "votes": 3548
+    },
+    {
+     "name": "Teri Sommerfeld",
+     "party": "NON",
+     "pct": 17.4,
+     "votes": 4557
+    },
+    {
+     "name": "Rick Woodworth",
+     "party": "NON",
+     "pct": 17.9,
+     "votes": 4684
+    }
+   ]
+  },
+  {
+   "office": "City of Naples Airport Authority, Seat 4",
+   "reported": 67,
+   "precincts": 67,
+   "candidates": [
+    {
+     "name": "John Goede",
+     "party": "NON",
+     "pct": 54.4,
+     "votes": 72763
+    },
+    {
+     "name": "Rick Mellon",
+     "party": "NON",
+     "pct": 45.6,
+     "votes": 60924
+    }
+   ]
+  },
+  {
+   "office": "City of Naples Airport Authority, Seat 5",
+   "reported": 67,
+   "precincts": 67,
+   "candidates": [
+    {
+     "name": "Don Antonacchio",
+     "party": "NON",
+     "pct": 21.6,
+     "votes": 27981
+    },
+    {
+     "name": "Jason K. Brooke",
+     "party": "NON",
+     "pct": 18.6,
+     "votes": 24072
+    },
+    {
+     "name": "David A. MacGregor Jr",
+     "party": "NON",
+     "pct": 18.2,
+     "votes": 23532
+    },
+    {
+     "name": "Jason Schappert",
+     "party": "NON",
+     "pct": 5.3,
+     "votes": 6816
+    },
+    {
+     "name": "Keith West",
+     "party": "NON",
+     "pct": 36.4,
+     "votes": 47134
+    }
+   ]
+  },
+  {
+   "office": "Collier Mosquito Control District, Seat 2",
+   "reported": 65,
+   "precincts": 65,
+   "candidates": [
+    {
+     "name": "Sandra Lee Buxton",
+     "party": "NON",
+     "pct": 75.3,
+     "votes": 100870
+    },
+    {
+     "name": "Bebe Kanter",
+     "party": "NON",
+     "pct": 24.7,
+     "votes": 33100
+    }
+   ]
+  },
+  {
+   "office": "Collier Mosquito Control District, Seat 3",
+   "reported": 65,
+   "precincts": 65,
+   "candidates": [
+    {
+     "name": "Ed Brandt",
+     "party": "NON",
+     "pct": 63.9,
+     "votes": 83137
+    },
+    {
+     "name": "Jay Kohlhagen",
+     "party": "NON",
+     "pct": 36.1,
+     "votes": 47000
+    }
+   ]
+  },
+  {
+   "office": "Greater Naples Fire Rescue District, Seat 3",
+   "reported": 36,
+   "precincts": 36,
+   "candidates": [
+    {
+     "name": "Connie Bettinger",
+     "party": "NON",
+     "pct": 42.3,
+     "votes": 25502
+    },
+    {
+     "name": "Brian O. Cross",
+     "party": "NON",
+     "pct": 57.7,
+     "votes": 34721
+    }
+   ]
+  },
+  {
+   "office": "Greater Naples Fire Rescue District, Seat 4",
+   "reported": 17,
+   "precincts": 17,
+   "candidates": [
+    {
+     "name": "Patrick Dearborn",
+     "party": "NON",
+     "pct": 65.5,
+     "votes": 18305
+    },
+    {
+     "name": "Elizabeth Flores",
+     "party": "NON",
+     "pct": 34.5,
+     "votes": 9625
+    }
+   ]
+  },
+  {
+   "office": "North Collier Fire Control and Rescue District, Seat 4",
+   "reported": 26,
+   "precincts": 26,
+   "candidates": [
+    {
+     "name": "Matthew Boggan",
+     "party": "NON",
+     "pct": 41.7,
+     "votes": 21688
+    },
+    {
+     "name": "Christopher Lombardo",
+     "party": "NON",
+     "pct": 58.3,
+     "votes": 30308
+    }
+   ]
+  },
+  {
+   "office": "Ave Maria Stewardship District, Seat 5",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Greg Colker",
+     "party": "NON",
+     "pct": 45.1,
+     "votes": 2353
+    },
+    {
+     "name": "Thomas DiFlorio",
+     "party": "NON",
+     "pct": 54.9,
+     "votes": 2870
+    }
+   ]
+  },
+  {
+   "office": "Lely CDD, Seat 4",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "William H. \"Bill\" Lee",
+     "party": "NON",
+     "pct": 73.3,
+     "votes": 1031
+    },
+    {
+     "name": "Eric F. Witzke",
+     "party": "NON",
+     "pct": 26.7,
+     "votes": 376
+    }
+   ]
+  },
+  {
+   "office": "Talis Park CDD, Seat 3",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "William Dever",
+     "party": "NON",
+     "pct": 43.9,
+     "votes": 193
+    },
+    {
+     "name": "Barry Sinoway",
+     "party": "NON",
+     "pct": 56.1,
+     "votes": 247
+    }
+   ]
+  },
+  {
+   "office": "Talis Park CDD, Seat 5",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Michael Smale",
+     "party": "NON",
+     "pct": 59.0,
+     "votes": 269
+    },
+    {
+     "name": "Allen Weiss",
+     "party": "NON",
+     "pct": 41.0,
+     "votes": 187
+    }
+   ]
+  },
+  {
+   "office": "No.1 Constitutional Amendment",
+   "reported": 67,
+   "precincts": 67,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 47.5,
+     "votes": 75635
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 52.5,
+     "votes": 83684
+    }
+   ]
+  },
+  {
+   "office": "No.2 Constitutional Amendment",
+   "reported": 67,
+   "precincts": 67,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 62.9,
+     "votes": 100657
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 37.1,
+     "votes": 59400
+    }
+   ]
+  },
+  {
+   "office": "No.3 Constitutional Amendment",
+   "reported": 67,
+   "precincts": 67,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 69.7,
+     "votes": 113159
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 30.3,
+     "votes": 49134
+    }
+   ]
+  },
+  {
+   "office": "Collier County Tourist Development Tax",
+   "reported": 67,
+   "precincts": 67,
+   "candidates": [
+    {
+     "name": "FOR the Tourist Development Tax",
+     "party": "NON",
+     "pct": 70.2,
+     "votes": 112812
+    },
+    {
+     "name": "AGAINST the Tourist Development Tax",
+     "party": "NON",
+     "pct": 29.8,
+     "votes": 47776
+    }
+   ]
+  },
+  {
+   "office": "City of Marco Island Referendum",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 78.9,
+     "votes": 7569
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 21.1,
+     "votes": 2024
     }
    ]
   }

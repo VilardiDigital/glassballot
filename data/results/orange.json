@@ -1,7 +1,7 @@
 {
  "county": "orange",
  "url": "https://enr.electionsfl.org/ORA/4090/Summary/",
- "pulledAt": "2026-11-04T03:55:22Z",
+ "pulledAt": "2026-11-04T04:12:14Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -13,14 +13,14 @@
     {
      "name": "Kamia Brown",
      "party": "NON",
-     "pct": 63.21,
-     "votes": 39453
+     "pct": 63.28,
+     "votes": 39959
     },
     {
      "name": "Mike Crabb",
      "party": "NON",
-     "pct": 36.79,
-     "votes": 22962
+     "pct": 36.72,
+     "votes": 23190
     }
    ]
   },
@@ -32,20 +32,20 @@
     {
      "name": "Brian Jones",
      "party": "NON",
-     "pct": 34.88,
-     "votes": 19085
+     "pct": 34.84,
+     "votes": 19324
     },
     {
      "name": "Johanna Lopez",
      "party": "NON",
-     "pct": 64.55,
-     "votes": 35327
+     "pct": 64.57,
+     "votes": 35816
     },
     {
      "name": "Write-in",
      "party": "NON",
-     "pct": 0.57,
-     "votes": 312
+     "pct": 0.59,
+     "votes": 326
     }
    ]
   },
@@ -57,14 +57,14 @@
     {
      "name": "Lawanna Gelzer",
      "party": "NON",
-     "pct": 44.46,
-     "votes": 13258
+     "pct": 44.45,
+     "votes": 13458
     },
     {
      "name": "Michael \"Mike\" Scott",
      "party": "NON",
-     "pct": 55.54,
-     "votes": 16561
+     "pct": 55.55,
+     "votes": 16818
     }
    ]
   },
@@ -76,14 +76,14 @@
     {
      "name": "Patricia Rumph",
      "party": "NON",
-     "pct": 69.36,
-     "votes": 32571
+     "pct": 69.41,
+     "votes": 33038
     },
     {
      "name": "Vicki Vargo",
      "party": "NON",
-     "pct": 30.64,
-     "votes": 14390
+     "pct": 30.59,
+     "votes": 14557
     }
    ]
   },
@@ -95,14 +95,14 @@
     {
      "name": "Jeannette Quinones Hernandez",
      "party": "NON",
-     "pct": 42.77,
-     "votes": 23387
+     "pct": 42.68,
+     "votes": 23627
     },
     {
      "name": "Victor M.Torres Jr.",
      "party": "NON",
-     "pct": 57.23,
-     "votes": 31292
+     "pct": 57.32,
+     "votes": 31727
     }
    ]
   },
@@ -114,14 +114,740 @@
     {
      "name": "Diana Moore",
      "party": "NON",
-     "pct": 41.96,
-     "votes": 24449
+     "pct": 41.85,
+     "votes": 24739
     },
     {
      "name": "Susanne Peña",
      "party": "NON",
-     "pct": 58.04,
-     "votes": 33812
+     "pct": 58.15,
+     "votes": 34375
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 263,
+   "precincts": 263,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 35.26,
+     "votes": 166308
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 63.78,
+     "votes": 300864
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 0.96,
+     "votes": 4547
+    }
+   ]
+  },
+  {
+   "office": "U.S. Congress, District 8",
+   "reported": 28,
+   "precincts": 28,
+   "candidates": [
+    {
+     "name": "Mike Haridopolos",
+     "party": "REP",
+     "pct": 36.69,
+     "votes": 18806
+    },
+    {
+     "name": "Jennifer Jenkins",
+     "party": "DEM",
+     "pct": 63.31,
+     "votes": 32456
+    }
+   ]
+  },
+  {
+   "office": "U.S. Congress, District 9",
+   "reported": 22,
+   "precincts": 22,
+   "candidates": [
+    {
+     "name": "Dan Green",
+     "party": "REP",
+     "pct": 35.5,
+     "votes": 15247
+    },
+    {
+     "name": "Darren Soto",
+     "party": "DEM",
+     "pct": 64.5,
+     "votes": 27702
+    }
+   ]
+  },
+  {
+   "office": "U.S. Congress, District 11",
+   "reported": 65,
+   "precincts": 65,
+   "candidates": [
+    {
+     "name": "Joe Strada",
+     "party": "REP",
+     "pct": 40.71,
+     "votes": 58876
+    },
+    {
+     "name": "James Pericola",
+     "party": "DEM",
+     "pct": 58.15,
+     "votes": 84087
+    },
+    {
+     "name": "Ralph Groves",
+     "party": "LPF",
+     "pct": 1.14,
+     "votes": 1643
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 263,
+   "precincts": 263,
+   "candidates": [
+    {
+     "name": "Byron Donalds",
+     "party": "REP",
+     "pct": 34.57,
+     "votes": 163068
+    },
+    {
+     "name": "David Jolly",
+     "party": "DEM",
+     "pct": 64.05,
+     "votes": 302165
+    },
+    {
+     "name": "Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.47,
+     "votes": 2222
+    },
+    {
+     "name": "Charles Burkett",
+     "party": "NPA",
+     "pct": 0.15,
+     "votes": 698
+    },
+    {
+     "name": "Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.25,
+     "votes": 1189
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.12,
+     "votes": 572
+    },
+    {
+     "name": "Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.16,
+     "votes": 767
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.1,
+     "votes": 451
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.13,
+     "votes": 605
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 263,
+   "precincts": 263,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 34.94,
+     "votes": 163833
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 65.06,
+     "votes": 305078
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 263,
+   "precincts": 263,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 35.53,
+     "votes": 165223
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 64.47,
+     "votes": 299866
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 263,
+   "precincts": 263,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 35.23,
+     "votes": 164101
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 64.43,
+     "votes": 300132
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.34,
+     "votes": 1607
+    }
+   ]
+  },
+  {
+   "office": "State Senator, District 10",
+   "reported": 24,
+   "precincts": 24,
+   "candidates": [
+    {
+     "name": "Jason Brodeur",
+     "party": "REP",
+     "pct": 38.07,
+     "votes": 11384
+    },
+    {
+     "name": "John Lowndes",
+     "party": "DEM",
+     "pct": 61.93,
+     "votes": 18515
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 35",
+   "reported": 32,
+   "precincts": 32,
+   "candidates": [
+    {
+     "name": "Erika Booth",
+     "party": "REP",
+     "pct": 40.11,
+     "votes": 21603
+    },
+    {
+     "name": "Eric Gray",
+     "party": "DEM",
+     "pct": 59.89,
+     "votes": 32262
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 37",
+   "reported": 24,
+   "precincts": 24,
+   "candidates": [
+    {
+     "name": "Robert Prater",
+     "party": "REP",
+     "pct": 32.56,
+     "votes": 8733
+    },
+    {
+     "name": "Jane Aman",
+     "party": "DEM",
+     "pct": 67.44,
+     "votes": 18090
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 39",
+   "reported": 28,
+   "precincts": 28,
+   "candidates": [
+    {
+     "name": "Doug Bankson",
+     "party": "REP",
+     "pct": 41.03,
+     "votes": 20806
+    },
+    {
+     "name": "Jarod Fox",
+     "party": "DEM",
+     "pct": 58.97,
+     "votes": 29909
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 40",
+   "reported": 35,
+   "precincts": 35,
+   "candidates": [
+    {
+     "name": "Tuan Le",
+     "party": "REP",
+     "pct": 24.85,
+     "votes": 13003
+    },
+    {
+     "name": "Ra'Shon Young",
+     "party": "DEM",
+     "pct": 75.15,
+     "votes": 39332
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 42",
+   "reported": 55,
+   "precincts": 55,
+   "candidates": [
+    {
+     "name": "Bonnie Jackson",
+     "party": "REP",
+     "pct": 37.59,
+     "votes": 29972
+    },
+    {
+     "name": "Felipe Sousa Lazaballet",
+     "party": "DEM",
+     "pct": 62.41,
+     "votes": 49752
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 43",
+   "reported": 36,
+   "precincts": 36,
+   "candidates": [
+    {
+     "name": "Jorge Malavet",
+     "party": "REP",
+     "pct": 33.83,
+     "votes": 16112
+    },
+    {
+     "name": "Samuel Vilchez Santiago",
+     "party": "DEM",
+     "pct": 66.17,
+     "votes": 31519
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 45",
+   "reported": 26,
+   "precincts": 26,
+   "candidates": [
+    {
+     "name": "Erin Huntley",
+     "party": "REP",
+     "pct": 45.61,
+     "votes": 28661
+    },
+    {
+     "name": "Leonard Spencer",
+     "party": "DEM",
+     "pct": 54.39,
+     "votes": 34176
+    }
+   ]
+  },
+  {
+   "office": "Clerk of Courts",
+   "reported": 263,
+   "precincts": 263,
+   "candidates": [
+    {
+     "name": "Roberta Walton Johnson",
+     "party": "DEM",
+     "pct": 70.33,
+     "votes": 312269
+    },
+    {
+     "name": "Terrell Thomas",
+     "party": "NPA",
+     "pct": 29.67,
+     "votes": 131727
+    }
+   ]
+  },
+  {
+   "office": "Retain Justice Carlos G. Muñiz?",
+   "reported": 263,
+   "precincts": 263,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 46.23,
+     "votes": 203383
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 53.77,
+     "votes": 236577
+    }
+   ]
+  },
+  {
+   "office": "Circuit Judge, 9th Judicial, Group 1",
+   "reported": 263,
+   "precincts": 263,
+   "candidates": [
+    {
+     "name": "Temika Hampton-Johnson",
+     "party": "NON",
+     "pct": 66.12,
+     "votes": 281884
+    },
+    {
+     "name": "Charles Hart",
+     "party": "NON",
+     "pct": 33.88,
+     "votes": 144439
+    }
+   ]
+  },
+  {
+   "office": "County Mayor",
+   "reported": 263,
+   "precincts": 263,
+   "candidates": [
+    {
+     "name": "Chris Messina",
+     "party": "NON",
+     "pct": 37.18,
+     "votes": 164941
+    },
+    {
+     "name": "Tiffany Moore Russell",
+     "party": "NON",
+     "pct": 62.82,
+     "votes": 278746
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner, District 2",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Kamia Brown",
+     "party": "NON",
+     "pct": 63.28,
+     "votes": 39959
+    },
+    {
+     "name": "Mike Crabb",
+     "party": "NON",
+     "pct": 36.72,
+     "votes": 23190
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner, District 4",
+   "reported": 34,
+   "precincts": 34,
+   "candidates": [
+    {
+     "name": "Brian Jones",
+     "party": "NON",
+     "pct": 34.84,
+     "votes": 19324
+    },
+    {
+     "name": "Johanna Lopez",
+     "party": "NON",
+     "pct": 64.57,
+     "votes": 35816
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.59,
+     "votes": 326
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner, District 6",
+   "reported": 27,
+   "precincts": 27,
+   "candidates": [
+    {
+     "name": "Lawanna Gelzer",
+     "party": "NON",
+     "pct": 44.45,
+     "votes": 13458
+    },
+    {
+     "name": "Michael \"Mike\" Scott",
+     "party": "NON",
+     "pct": 55.55,
+     "votes": 16818
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner, District 7",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Patricia Rumph",
+     "party": "NON",
+     "pct": 69.41,
+     "votes": 33038
+    },
+    {
+     "name": "Vicki Vargo",
+     "party": "NON",
+     "pct": 30.59,
+     "votes": 14557
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner, District 8",
+   "reported": 29,
+   "precincts": 29,
+   "candidates": [
+    {
+     "name": "Jeannette Quinones Hernandez",
+     "party": "NON",
+     "pct": 42.68,
+     "votes": 23627
+    },
+    {
+     "name": "Victor M.Torres Jr.",
+     "party": "NON",
+     "pct": 57.32,
+     "votes": 31727
+    }
+   ]
+  },
+  {
+   "office": "School Board Member, District 3",
+   "reported": 40,
+   "precincts": 40,
+   "candidates": [
+    {
+     "name": "Diana Moore",
+     "party": "NON",
+     "pct": 41.85,
+     "votes": 24739
+    },
+    {
+     "name": "Susanne Peña",
+     "party": "NON",
+     "pct": 58.15,
+     "votes": 34375
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water, District 1",
+   "reported": 40,
+   "precincts": 40,
+   "candidates": [
+    {
+     "name": "Quinnie Perez",
+     "party": "NON",
+     "pct": 42.57,
+     "votes": 35518
+    },
+    {
+     "name": "Vicente Rafael Perez Carreno",
+     "party": "NON",
+     "pct": 20.74,
+     "votes": 17302
+    },
+    {
+     "name": "Doug Sahr",
+     "party": "NON",
+     "pct": 36.7,
+     "votes": 30622
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water, District 3",
+   "reported": 105,
+   "precincts": 105,
+   "candidates": [
+    {
+     "name": "Chuck Drake",
+     "party": "NON",
+     "pct": 27.89,
+     "votes": 38147
+    },
+    {
+     "name": "Erik LaMont Melear",
+     "party": "NON",
+     "pct": 34.73,
+     "votes": 47506
+    },
+    {
+     "name": "José Antonio Rodriguez",
+     "party": "NON",
+     "pct": 37.38,
+     "votes": 51126
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water, District 5",
+   "reported": 51,
+   "precincts": 51,
+   "candidates": [
+    {
+     "name": "Zack Green",
+     "party": "NON",
+     "pct": 43.17,
+     "votes": 33048
+    },
+    {
+     "name": "Jimm Middleton",
+     "party": "NON",
+     "pct": 56.83,
+     "votes": 43513
+    }
+   ]
+  },
+  {
+   "office": "Vista Lakes CDD Seat 3",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "Bennie Hichez",
+     "party": "NON",
+     "pct": 55.06,
+     "votes": 1127
+    },
+    {
+     "name": "Frank J. Sebestyen",
+     "party": "NON",
+     "pct": 44.94,
+     "votes": 920
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment",
+   "reported": 263,
+   "precincts": 263,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 35.23,
+     "votes": 159704
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 64.77,
+     "votes": 293607
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment",
+   "reported": 263,
+   "precincts": 263,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 47.32,
+     "votes": 215205
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 52.68,
+     "votes": 239579
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment",
+   "reported": 263,
+   "precincts": 263,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 50.86,
+     "votes": 230014
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 49.14,
+     "votes": 222203
+    }
+   ]
+  },
+  {
+   "office": "School Board Question",
+   "reported": 263,
+   "precincts": 263,
+   "candidates": [
+    {
+     "name": "Yes for Approval",
+     "party": "NON",
+     "pct": 78.66,
+     "votes": 351400
+    },
+    {
+     "name": "No for Rejection",
+     "party": "NON",
+     "pct": 21.34,
+     "votes": 95327
     }
    ]
   }

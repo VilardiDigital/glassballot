@@ -1,13 +1,13 @@
 {
  "county": "palmbeach",
  "url": "https://enr.electionsfl.org/PAL/4131/Summary/",
- "pulledAt": "2026-11-04T03:55:23Z",
+ "pulledAt": "2026-11-04T04:12:14Z",
  "status": "unofficial",
  "updated": null,
  "races": [
   {
    "office": "Board of County Commissioners, District 4",
-   "reported": 112,
+   "reported": 113,
    "precincts": 113,
    "candidates": [
     {
@@ -26,7 +26,7 @@
   },
   {
    "office": "Board of County Commissioners, District 6",
-   "reported": 106,
+   "reported": 111,
    "precincts": 111,
    "candidates": [
     {
@@ -45,7 +45,7 @@
   },
   {
    "office": "School Board, District 4",
-   "reported": 126,
+   "reported": 129,
    "precincts": 129,
    "candidates": [
     {
@@ -59,6 +59,915 @@
      "party": null,
      "pct": 38.41,
      "votes": 27706
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 814,
+   "precincts": 814,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 44.42,
+     "votes": 251316
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 54.51,
+     "votes": 308357
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.07,
+     "votes": 6066
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress, District 21",
+   "reported": 222,
+   "precincts": 222,
+   "candidates": [
+    {
+     "name": "Brian Mast",
+     "party": "REP",
+     "pct": 54.27,
+     "votes": 68343
+    },
+    {
+     "name": "James T. Martin",
+     "party": "DEM",
+     "pct": 44.36,
+     "votes": 55868
+    },
+    {
+     "name": "Alexander Cooke",
+     "party": "NPA",
+     "pct": 1.3,
+     "votes": 1635
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.07,
+     "votes": 92
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress, District 22",
+   "reported": 106,
+   "precincts": 106,
+   "candidates": [
+    {
+     "name": "Casey Askar",
+     "party": "REP",
+     "pct": 43.86,
+     "votes": 36018
+    },
+    {
+     "name": "Pia Dandiya",
+     "party": "DEM",
+     "pct": 56.14,
+     "votes": 46098
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress, District 23",
+   "reported": 388,
+   "precincts": 388,
+   "candidates": [
+    {
+     "name": "Deborah Adeimy",
+     "party": "REP",
+     "pct": 34.42,
+     "votes": 88289
+    },
+    {
+     "name": "Lois Frankel",
+     "party": "DEM",
+     "pct": 65.58,
+     "votes": 168189
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress, District 25",
+   "reported": 101,
+   "precincts": 101,
+   "candidates": [
+    {
+     "name": "Scott Singer",
+     "party": "REP",
+     "pct": 46.69,
+     "votes": 46095
+    },
+    {
+     "name": "Jared Moskowitz",
+     "party": "DEM",
+     "pct": 50.99,
+     "votes": 50332
+    },
+    {
+     "name": "Peter Jassenoff",
+     "party": "LPF",
+     "pct": 1.98,
+     "votes": 1950
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.34,
+     "votes": 339
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 813,
+   "precincts": 813,
+   "candidates": [
+    {
+     "name": "Byron Donalds / Bryan Avila",
+     "party": "REP",
+     "pct": 43.33,
+     "votes": 246027
+    },
+    {
+     "name": "David Jolly / Gwen Graham",
+     "party": "DEM",
+     "pct": 55.45,
+     "votes": 314857
+    },
+    {
+     "name": "Scott Eckhard Jewett / Nicole Skelly",
+     "party": "LPF",
+     "pct": 0.31,
+     "votes": 1743
+    },
+    {
+     "name": "Charles Burkett / Ruben A. Coto",
+     "party": "NPA",
+     "pct": 0.15,
+     "votes": 827
+    },
+    {
+     "name": "Frank J. Russo / Rachel Rodriguez",
+     "party": "NPA",
+     "pct": 0.32,
+     "votes": 1790
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche / Benjiman Rojas",
+     "party": "NPA",
+     "pct": 0.1,
+     "votes": 549
+    },
+    {
+     "name": "Dean Ocean Abrams / Joe Van Vactor",
+     "party": "NPA",
+     "pct": 0.13,
+     "votes": 757
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto / Juan Santana",
+     "party": "NPA",
+     "pct": 0.11,
+     "votes": 611
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.11,
+     "votes": 629
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 813,
+   "precincts": 813,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 44.37,
+     "votes": 249182
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 55.63,
+     "votes": 312412
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 813,
+   "precincts": 813,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 43.74,
+     "votes": 244082
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 56.26,
+     "votes": 313905
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 813,
+   "precincts": 813,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 44.1,
+     "votes": 246252
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 55.74,
+     "votes": 311278
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.16,
+     "votes": 893
+    }
+   ]
+  },
+  {
+   "office": "State Senator, District 24",
+   "reported": 287,
+   "precincts": 287,
+   "candidates": [
+    {
+     "name": "Jackie Green",
+     "party": "REP",
+     "pct": 35.47,
+     "votes": 54219
+    },
+    {
+     "name": "Mack Bernard",
+     "party": "DEM",
+     "pct": 64.53,
+     "votes": 98619
+    }
+   ]
+  },
+  {
+   "office": "State Senator, District 26",
+   "reported": 289,
+   "precincts": 289,
+   "candidates": [
+    {
+     "name": "Rick Roth",
+     "party": "REP",
+     "pct": 42.03,
+     "votes": 97211
+    },
+    {
+     "name": "David Silvers",
+     "party": "DEM",
+     "pct": 57.97,
+     "votes": 134104
+    }
+   ]
+  },
+  {
+   "office": "State Senator, District 30",
+   "reported": 47,
+   "precincts": 47,
+   "candidates": [
+    {
+     "name": "Hector Rivera",
+     "party": "REP",
+     "pct": 47.94,
+     "votes": 24284
+    },
+    {
+     "name": "Lauren Book",
+     "party": "DEM",
+     "pct": 52.06,
+     "votes": 26373
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 86",
+   "reported": 39,
+   "precincts": 39,
+   "candidates": [
+    {
+     "name": "John Snyder",
+     "party": "REP",
+     "pct": 59.28,
+     "votes": 15221
+    },
+    {
+     "name": "Elizabeth Brendel Pandich",
+     "party": "DEM",
+     "pct": 40.72,
+     "votes": 10456
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 87",
+   "reported": 156,
+   "precincts": 156,
+   "candidates": [
+    {
+     "name": "Jon Maples",
+     "party": "REP",
+     "pct": 50.75,
+     "votes": 38431
+    },
+    {
+     "name": "Emily Gregory",
+     "party": "DEM",
+     "pct": 49.25,
+     "votes": 37293
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 88",
+   "reported": 91,
+   "precincts": 91,
+   "candidates": [
+    {
+     "name": "William Joseph",
+     "party": "REP",
+     "pct": 20.2,
+     "votes": 8619
+    },
+    {
+     "name": "Jervonte \"Tae\" Edmonds",
+     "party": "DEM",
+     "pct": 79.8,
+     "votes": 34058
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 89",
+   "reported": 78,
+   "precincts": 78,
+   "candidates": [
+    {
+     "name": "Cathy Higgins",
+     "party": "REP",
+     "pct": 35.09,
+     "votes": 13752
+    },
+    {
+     "name": "Debra Tendrich",
+     "party": "DEM",
+     "pct": 64.91,
+     "votes": 25440
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 90",
+   "reported": 109,
+   "precincts": 109,
+   "candidates": [
+    {
+     "name": "Ionel Roiban",
+     "party": "REP",
+     "pct": 37.14,
+     "votes": 24635
+    },
+    {
+     "name": "Rob Long",
+     "party": "DEM",
+     "pct": 62.86,
+     "votes": 41698
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 91",
+   "reported": 73,
+   "precincts": 73,
+   "candidates": [
+    {
+     "name": "Peggy Gossett-Seidman",
+     "party": "REP",
+     "pct": 52.96,
+     "votes": 39639
+    },
+    {
+     "name": "Luis Garcia",
+     "party": "DEM",
+     "pct": 47.04,
+     "votes": 35215
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 92",
+   "reported": 92,
+   "precincts": 92,
+   "candidates": [
+    {
+     "name": "Steve Byers",
+     "party": "REP",
+     "pct": 42.13,
+     "votes": 37426
+    },
+    {
+     "name": "Kelly Skidmore",
+     "party": "DEM",
+     "pct": 57.87,
+     "votes": 51401
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 93",
+   "reported": 75,
+   "precincts": 75,
+   "candidates": [
+    {
+     "name": "Anne Gerwig",
+     "party": "REP",
+     "pct": 43.86,
+     "votes": 31523
+    },
+    {
+     "name": "August Mangeney",
+     "party": "DEM",
+     "pct": 56.14,
+     "votes": 40351
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 94",
+   "reported": 100,
+   "precincts": 100,
+   "candidates": [
+    {
+     "name": "Megan Weinberger",
+     "party": "REP",
+     "pct": 48.04,
+     "votes": 36348
+    },
+    {
+     "name": "Elizabeth Holmes",
+     "party": "DEM",
+     "pct": 50.28,
+     "votes": 38045
+    },
+    {
+     "name": "Doug Barrow",
+     "party": "NPA",
+     "pct": 1.68,
+     "votes": 1269
+    }
+   ]
+  },
+  {
+   "office": "Clerk of the Circuit Court and Comptroller",
+   "reported": 813,
+   "precincts": 813,
+   "candidates": [
+    {
+     "name": "Mike Caruso",
+     "party": "REP",
+     "pct": 38.05,
+     "votes": 208615
+    },
+    {
+     "name": "Yvette Drucker",
+     "party": "DEM",
+     "pct": 61.95,
+     "votes": 339722
+    }
+   ]
+  },
+  {
+   "office": "Board of County Commissioners, District 4",
+   "reported": 113,
+   "precincts": 113,
+   "candidates": [
+    {
+     "name": "Marci Woodward",
+     "party": "REP",
+     "pct": 50.67,
+     "votes": 47161
+    },
+    {
+     "name": "Curtis Calabrese",
+     "party": "DEM",
+     "pct": 49.33,
+     "votes": 45917
+    }
+   ]
+  },
+  {
+   "office": "Board of County Commissioners, District 6",
+   "reported": 111,
+   "precincts": 111,
+   "candidates": [
+    {
+     "name": "Sara Baxter",
+     "party": "REP",
+     "pct": 41.87,
+     "votes": 36335
+    },
+    {
+     "name": "Katherine Waldron",
+     "party": "DEM",
+     "pct": 58.13,
+     "votes": 50443
+    }
+   ]
+  },
+  {
+   "office": "Port of Palm Beach, Group 5",
+   "reported": 294,
+   "precincts": 294,
+   "candidates": [
+    {
+     "name": "Ted Sarandis",
+     "party": "REP",
+     "pct": 41.01,
+     "votes": 67668
+    },
+    {
+     "name": "Deandre Poole",
+     "party": "DEM",
+     "pct": 58.99,
+     "votes": 97345
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court - Retain Justice Carlos G. Muñiz",
+   "reported": 813,
+   "precincts": 813,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 55.88,
+     "votes": 283596
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 44.12,
+     "votes": 223939
+    }
+   ]
+  },
+  {
+   "office": "Fourth District Court of Appeal - Retain Judge Alan O. Forst",
+   "reported": 813,
+   "precincts": 813,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 58.28,
+     "votes": 292887
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 41.72,
+     "votes": 209683
+    }
+   ]
+  },
+  {
+   "office": "Fourth District Court of Appeal - Retain Judge Mark W. Klingensmith",
+   "reported": 813,
+   "precincts": 813,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 57.79,
+     "votes": 287560
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 42.21,
+     "votes": 210033
+    }
+   ]
+  },
+  {
+   "office": "Fourth District Court of Appeal - Retain Judge Johnathan D. Lott",
+   "reported": 813,
+   "precincts": 813,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 58.34,
+     "votes": 290460
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 41.66,
+     "votes": 207388
+    }
+   ]
+  },
+  {
+   "office": "Fourth District Court of Appeal - Retain Judge Shannon K. Shaw",
+   "reported": 813,
+   "precincts": 813,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 59.45,
+     "votes": 296148
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 40.55,
+     "votes": 202009
+    }
+   ]
+  },
+  {
+   "office": "Fourth District Court of Appeal - Retain Judge Caroline Cahill Shepherd",
+   "reported": 813,
+   "precincts": 813,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 61.12,
+     "votes": 304541
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 38.88,
+     "votes": 193714
+    }
+   ]
+  },
+  {
+   "office": "School Board, District 4",
+   "reported": 129,
+   "precincts": 129,
+   "candidates": [
+    {
+     "name": "Christina L. Romelus",
+     "party": null,
+     "pct": 61.59,
+     "votes": 44426
+    },
+    {
+     "name": "Daniel Zapata",
+     "party": null,
+     "pct": 38.41,
+     "votes": 27706
+    }
+   ]
+  },
+  {
+   "office": "Palm Beach Soil and Water Conservation District, Group 3",
+   "reported": 813,
+   "precincts": 813,
+   "candidates": [
+    {
+     "name": "Angelo Andrew",
+     "party": null,
+     "pct": 26.05,
+     "votes": 120018
+    },
+    {
+     "name": "Douglas Brown",
+     "party": null,
+     "pct": 47.28,
+     "votes": 217857
+    },
+    {
+     "name": "Lewis Pope",
+     "party": null,
+     "pct": 26.67,
+     "votes": 122906
+    }
+   ]
+  },
+  {
+   "office": "Indian Trail Improvement District, Seat 1",
+   "reported": 21,
+   "precincts": 21,
+   "candidates": [
+    {
+     "name": "Kirk Ljongquist",
+     "party": null,
+     "pct": 44.95,
+     "votes": 7367
+    },
+    {
+     "name": "Jay Sweet",
+     "party": null,
+     "pct": 55.05,
+     "votes": 9023
+    }
+   ]
+  },
+  {
+   "office": "Indian Trail Improvement District, Seat 3",
+   "reported": 21,
+   "precincts": 21,
+   "candidates": [
+    {
+     "name": "Jack Lloyd Bell II",
+     "party": null,
+     "pct": 45.49,
+     "votes": 7497
+    },
+    {
+     "name": "Patricia \"Patty\" Farrell",
+     "party": null,
+     "pct": 54.51,
+     "votes": 8982
+    }
+   ]
+  },
+  {
+   "office": "Indian Trail Improvement District, Seat 5",
+   "reported": 21,
+   "precincts": 21,
+   "candidates": [
+    {
+     "name": "Michael T. Johnson",
+     "party": null,
+     "pct": 55.71,
+     "votes": 9008
+    },
+    {
+     "name": "Christopher Karch",
+     "party": null,
+     "pct": 44.29,
+     "votes": 7160
+    }
+   ]
+  },
+  {
+   "office": "Avenir Community Development District, Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Bill Rosenberg",
+     "party": null,
+     "pct": 70.4,
+     "votes": 1056
+    },
+    {
+     "name": "Luis A. Vinas",
+     "party": null,
+     "pct": 29.6,
+     "votes": 444
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment - Article III, Section 19",
+   "reported": 813,
+   "precincts": 813,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 40.79,
+     "votes": 217052
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 59.21,
+     "votes": 315129
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment - Article VII, Section 3, Article XII",
+   "reported": 813,
+   "precincts": 813,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 54.0,
+     "votes": 289811
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 46.0,
+     "votes": 246827
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment - Article VII, Sections 4, 6 and 9, Article XII",
+   "reported": 813,
+   "precincts": 813,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 60.06,
+     "votes": 324324
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 39.94,
+     "votes": 215713
+    }
+   ]
+  },
+  {
+   "office": "County Question - Parks",
+   "reported": 813,
+   "precincts": 813,
+   "candidates": [
+    {
+     "name": "YES - For the Bonds",
+     "party": null,
+     "pct": 66.16,
+     "votes": 346651
+    },
+    {
+     "name": "NO - Against the Bonds",
+     "party": null,
+     "pct": 33.84,
+     "votes": 177296
+    }
+   ]
+  },
+  {
+   "office": "County Question - Library District",
+   "reported": 556,
+   "precincts": 556,
+   "candidates": [
+    {
+     "name": "YES - For the Bonds",
+     "party": null,
+     "pct": 63.56,
+     "votes": 229875
+    },
+    {
+     "name": "NO - Against the Bonds",
+     "party": null,
+     "pct": 36.44,
+     "votes": 131815
+    }
+   ]
+  },
+  {
+   "office": "County Question - School District",
+   "reported": 813,
+   "precincts": 813,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 76.86,
+     "votes": 408436
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "pct": 23.14,
+     "votes": 122996
     }
    ]
   }

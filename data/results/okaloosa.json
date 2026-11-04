@@ -1,7 +1,7 @@
 {
  "county": "okaloosa",
  "url": "https://enr.electionsfl.org/OKA/4092/Summary/",
- "pulledAt": "2026-11-04T03:55:22Z",
+ "pulledAt": "2026-11-04T04:12:14Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -14,13 +14,654 @@
      "name": "Jerry Buckman",
      "party": "NPA",
      "pct": 51.74,
-     "votes": 34907
+     "votes": 34909
     },
     {
      "name": "JD Peacock",
      "party": "NPA",
      "pct": 48.26,
-     "votes": 32559
+     "votes": 32560
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 66.87,
+     "votes": 51806
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 31.79,
+     "votes": 24627
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.34,
+     "votes": 1038
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 1",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Jimmy Patronis",
+     "party": "REP",
+     "pct": 65.83,
+     "votes": 50861
+    },
+    {
+     "name": "Gay Valimont",
+     "party": "DEM",
+     "pct": 32.19,
+     "votes": 24871
+    },
+    {
+     "name": "Tyler L. Davis",
+     "party": "NPA",
+     "pct": 1.98,
+     "votes": 1528
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Byron Donalds-Bryan Avila",
+     "party": "REP",
+     "pct": 66.33,
+     "votes": 51359
+    },
+    {
+     "name": "David Jolly-Gwen Graham",
+     "party": "DEM",
+     "pct": 31.61,
+     "votes": 24475
+    },
+    {
+     "name": "Scott Eckhard Jewett-Nicole Skelly",
+     "party": "LPF",
+     "pct": 0.8,
+     "votes": 621
+    },
+    {
+     "name": "Charles Burkett-Ruben A. Coto",
+     "party": "NPA",
+     "pct": 0.23,
+     "votes": 181
+    },
+    {
+     "name": "Frank J. Russo-Rachel Rodriguez",
+     "party": "NPA",
+     "pct": 0.3,
+     "votes": 236
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche-Benjiman Rojas",
+     "party": "NPA",
+     "pct": 0.12,
+     "votes": 95
+    },
+    {
+     "name": "Dean Ocean Abrams-Joe Van Vactor",
+     "party": "NPA",
+     "pct": 0.23,
+     "votes": 175
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto-Juan Santana",
+     "party": "NPA",
+     "pct": 0.13,
+     "votes": 97
+    },
+    {
+     "name": "Write-in",
+     "party": "NPA",
+     "pct": 0.25,
+     "votes": 192
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 67.86,
+     "votes": 51902
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 32.14,
+     "votes": 24577
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 68.12,
+     "votes": 51866
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 31.88,
+     "votes": 24270
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 67.93,
+     "votes": 51988
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 31.83,
+     "votes": 24361
+    },
+    {
+     "name": "Write-in",
+     "party": "NPA",
+     "pct": 0.24,
+     "votes": 187
+    }
+   ]
+  },
+  {
+   "office": "State Senator District 2",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Jay Trumbull",
+     "party": "REP",
+     "pct": 67.28,
+     "votes": 42217
+    },
+    {
+     "name": "Lauren Donahoo",
+     "party": "DEM",
+     "pct": 32.72,
+     "votes": 20534
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 3",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Nathan Boyles",
+     "party": "REP",
+     "pct": 75.63,
+     "votes": 8788
+    },
+    {
+     "name": "Ingrid D. Wadsworth",
+     "party": "DEM",
+     "pct": 24.37,
+     "votes": 2832
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 4",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Patt Maney",
+     "party": "REP",
+     "pct": 67.9,
+     "votes": 43524
+    },
+    {
+     "name": "John Peter Emerling",
+     "party": "DEM",
+     "pct": 32.1,
+     "votes": 20577
+    }
+   ]
+  },
+  {
+   "office": "Retain Justice Carlos G. Muniz",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 62.87,
+     "votes": 43816
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 37.13,
+     "votes": 25880
+    }
+   ]
+  },
+  {
+   "office": "Retain Judge Joseph Lewis",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 63.93,
+     "votes": 44080
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 36.07,
+     "votes": 24867
+    }
+   ]
+  },
+  {
+   "office": "Retain Judge Rachel Nordby",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 64.62,
+     "votes": 44300
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 35.38,
+     "votes": 24253
+    }
+   ]
+  },
+  {
+   "office": "Retain Judge Tim Osterhaus",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 63.81,
+     "votes": 43905
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 36.19,
+     "votes": 24900
+    }
+   ]
+  },
+  {
+   "office": "Retain Judge Clay Roberts",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 61.94,
+     "votes": 42510
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 38.06,
+     "votes": 26123
+    }
+   ]
+  },
+  {
+   "office": "Retain Judge Raymond Treadwell",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 64.32,
+     "votes": 44132
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 35.68,
+     "votes": 24477
+    }
+   ]
+  },
+  {
+   "office": "School Board Member District 1",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Jerry Buckman",
+     "party": "NPA",
+     "pct": 51.74,
+     "votes": 34909
+    },
+    {
+     "name": "JD Peacock",
+     "party": "NPA",
+     "pct": 48.26,
+     "votes": 32560
+    }
+   ]
+  },
+  {
+   "office": "City of Crestview City Council Precinct 1",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Dusty B. Allison",
+     "party": "NPA",
+     "pct": 63.36,
+     "votes": 3922
+    },
+    {
+     "name": "Frederick Jackson Butts III",
+     "party": "NPA",
+     "pct": 36.64,
+     "votes": 2268
+    }
+   ]
+  },
+  {
+   "office": "City of Crestview City Council Precinct 2",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Sylvester L. Echols",
+     "party": "NPA",
+     "pct": 40.09,
+     "votes": 2510
+    },
+    {
+     "name": "April Rencich",
+     "party": "NPA",
+     "pct": 35.47,
+     "votes": 2221
+    },
+    {
+     "name": "Louis E. Rodriquez",
+     "party": "NPA",
+     "pct": 24.44,
+     "votes": 1530
+    }
+   ]
+  },
+  {
+   "office": "City of Destin City Council",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Rodney Braden",
+     "party": "NPA",
+     "pct": 22.23,
+     "votes": 2490
+    },
+    {
+     "name": "Ross A. Haynes",
+     "party": "NPA",
+     "pct": 19.56,
+     "votes": 2191
+    },
+    {
+     "name": "Chatham Morgan",
+     "party": "NPA",
+     "pct": 31.76,
+     "votes": 3557
+    },
+    {
+     "name": "John Stephens III",
+     "party": "NPA",
+     "pct": 26.45,
+     "votes": 2963
+    }
+   ]
+  },
+  {
+   "office": "City of Fort Walton Beach City Council",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Brandon Bishop",
+     "party": "NPA",
+     "pct": 10.52,
+     "votes": 2154
+    },
+    {
+     "name": "Schuyler Black",
+     "party": "NPA",
+     "pct": 11.67,
+     "votes": 2389
+    },
+    {
+     "name": "Steve Caldarelli",
+     "party": "NPA",
+     "pct": 7.86,
+     "votes": 1609
+    },
+    {
+     "name": "Tyler Capelotti",
+     "party": "NPA",
+     "pct": 13.08,
+     "votes": 2679
+    },
+    {
+     "name": "Gloria J. DeBerry",
+     "party": "NPA",
+     "pct": 8.95,
+     "votes": 1832
+    },
+    {
+     "name": "Denise Dierker",
+     "party": "NPA",
+     "pct": 12.43,
+     "votes": 2546
+    },
+    {
+     "name": "Glen Guarin",
+     "party": "NPA",
+     "pct": 5.81,
+     "votes": 1189
+    },
+    {
+     "name": "Jeffrey Pendleton",
+     "party": "NPA",
+     "pct": 8.69,
+     "votes": 1779
+    },
+    {
+     "name": "Matthew Turpin",
+     "party": "NPA",
+     "pct": 11.24,
+     "votes": 2302
+    },
+    {
+     "name": "T. Payne Walker",
+     "party": "NPA",
+     "pct": 9.75,
+     "votes": 1996
+    }
+   ]
+  },
+  {
+   "office": "Amendment No. 1",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 48.82,
+     "votes": 35751
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 51.18,
+     "votes": 37473
+    }
+   ]
+  },
+  {
+   "office": "Amendment No. 2",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 67.82,
+     "votes": 50027
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 32.18,
+     "votes": 23737
+    }
+   ]
+  },
+  {
+   "office": "Amendment No. 3",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 68.97,
+     "votes": 51938
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 31.03,
+     "votes": 23368
+    }
+   ]
+  },
+  {
+   "office": "Okaloosa County Referendum",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 68.84,
+     "votes": 52040
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 31.16,
+     "votes": 23554
+    }
+   ]
+  },
+  {
+   "office": "City of Mary Esther Referendum",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 86.75,
+     "votes": 1192
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 13.25,
+     "votes": 182
+    }
+   ]
+  },
+  {
+   "office": "City of Valparaiso Referendum",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 41.68,
+     "votes": 741
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 58.32,
+     "votes": 1037
+    }
+   ]
+  },
+  {
+   "office": "Holt Fire District Referendum",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 59.73,
+     "votes": 660
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 40.27,
+     "votes": 445
     }
    ]
   }

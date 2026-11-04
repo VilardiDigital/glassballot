@@ -1,7 +1,7 @@
 {
  "county": "levy",
  "url": "https://enr.electionsfl.org/LEV/4058/Summary/",
- "pulledAt": "2026-11-04T03:55:21Z",
+ "pulledAt": "2026-11-04T04:12:14Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -27,6 +27,397 @@
      "party": "ECO",
      "pct": 3.91,
      "votes": 703
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 71.34,
+     "votes": 12935
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 27.33,
+     "votes": 4956
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.33,
+     "votes": 241
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress, Dist 3",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Kat Cammack",
+     "party": "REP",
+     "pct": 71.82,
+     "votes": 13016
+    },
+    {
+     "name": "Seth Harp",
+     "party": "DEM",
+     "pct": 25.97,
+     "votes": 4707
+    },
+    {
+     "name": "Mike Klein",
+     "party": "NPA",
+     "pct": 2.21,
+     "votes": 400
+    }
+   ]
+  },
+  {
+   "office": "Governor & Lt Governor",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Byron Donalds",
+     "party": "REP",
+     "pct": 70.64,
+     "votes": 12785
+    },
+    {
+     "name": "David Jolly",
+     "party": "DEM",
+     "pct": 27.2,
+     "votes": 4924
+    },
+    {
+     "name": "Scott Jewett",
+     "party": "LPF",
+     "pct": 0.73,
+     "votes": 132
+    },
+    {
+     "name": "Charles Burkett",
+     "party": "NPA",
+     "pct": 0.38,
+     "votes": 69
+    },
+    {
+     "name": "Frank Russo",
+     "party": "NPA",
+     "pct": 0.33,
+     "votes": 59
+    },
+    {
+     "name": "Moliere Dimanche",
+     "party": "NPA",
+     "pct": 0.06,
+     "votes": 11
+    },
+    {
+     "name": "Dean Abrams",
+     "party": "NPA",
+     "pct": 0.21,
+     "votes": 38
+    },
+    {
+     "name": "Jeffrey Datto",
+     "party": "NPA",
+     "pct": 0.1,
+     "votes": 18
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.35,
+     "votes": 64
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 72.22,
+     "votes": 13021
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 27.78,
+     "votes": 5009
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 72.48,
+     "votes": 12887
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 27.52,
+     "votes": 4894
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 72.2,
+     "votes": 13019
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 27.19,
+     "votes": 4903
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.6,
+     "votes": 109
+    }
+   ]
+  },
+  {
+   "office": "State Representative, Dist 22",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Chad Johnson",
+     "party": "REP",
+     "pct": 73.03,
+     "votes": 13177
+    },
+    {
+     "name": "Amy Trask",
+     "party": "DEM",
+     "pct": 26.97,
+     "votes": 4866
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner, Dist 2",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Matt Lemery",
+     "party": "REP",
+     "pct": 66.3,
+     "votes": 11932
+    },
+    {
+     "name": "Lincoln Cannon",
+     "party": "DEM",
+     "pct": 29.8,
+     "votes": 5363
+    },
+    {
+     "name": "Emily Ann Casey",
+     "party": "ECO",
+     "pct": 3.91,
+     "votes": 703
+    }
+   ]
+  },
+  {
+   "office": "Carlos G. Muniz",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Yes / Sí",
+     "party": null,
+     "pct": 64.19,
+     "votes": 10514
+    },
+    {
+     "name": "No / No",
+     "party": null,
+     "pct": 35.81,
+     "votes": 5866
+    }
+   ]
+  },
+  {
+   "office": "Joseph Lewis Jr.",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Yes / Sí",
+     "party": null,
+     "pct": 64.92,
+     "votes": 10623
+    },
+    {
+     "name": "No / No",
+     "party": null,
+     "pct": 35.08,
+     "votes": 5741
+    }
+   ]
+  },
+  {
+   "office": "Rachel Nordby",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Yes / Sí",
+     "party": null,
+     "pct": 66.62,
+     "votes": 10873
+    },
+    {
+     "name": "No / No",
+     "party": null,
+     "pct": 33.38,
+     "votes": 5449
+    }
+   ]
+  },
+  {
+   "office": "Tim Osterhaus",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Yes / Sí",
+     "party": null,
+     "pct": 65.09,
+     "votes": 10598
+    },
+    {
+     "name": "No / No",
+     "party": null,
+     "pct": 34.91,
+     "votes": 5683
+    }
+   ]
+  },
+  {
+   "office": "Clay Roberts",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Yes / Sí",
+     "party": null,
+     "pct": 63.93,
+     "votes": 10413
+    },
+    {
+     "name": "No / No",
+     "party": null,
+     "pct": 36.07,
+     "votes": 5874
+    }
+   ]
+  },
+  {
+   "office": "Raymond Treadwell",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Yes / Sí",
+     "party": null,
+     "pct": 66.84,
+     "votes": 10891
+    },
+    {
+     "name": "No / No",
+     "party": null,
+     "pct": 33.16,
+     "votes": 5402
+    }
+   ]
+  },
+  {
+   "office": "Amendment #1",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Yes / Sí",
+     "party": null,
+     "pct": 41.45,
+     "votes": 7133
+    },
+    {
+     "name": "No / No",
+     "party": null,
+     "pct": 58.55,
+     "votes": 10077
+    }
+   ]
+  },
+  {
+   "office": "Amendment #2",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Yes / Sí",
+     "party": null,
+     "pct": 71.6,
+     "votes": 12463
+    },
+    {
+     "name": "No / No",
+     "party": null,
+     "pct": 28.4,
+     "votes": 4943
+    }
+   ]
+  },
+  {
+   "office": "Amendment #3",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Yes / Sí",
+     "party": null,
+     "pct": 70.71,
+     "votes": 12480
+    },
+    {
+     "name": "No / No",
+     "party": null,
+     "pct": 29.29,
+     "votes": 5169
     }
    ]
   }

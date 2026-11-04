@@ -1,7 +1,7 @@
 {
  "county": "polk",
  "url": "https://enr.electionsfl.org/POL/4000/Summary/",
- "pulledAt": "2026-11-04T03:55:23Z",
+ "pulledAt": "2026-11-04T04:12:14Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -40,6 +40,574 @@
      "party": null,
      "pct": 53.39,
      "votes": 121957
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 177,
+   "precincts": 177,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 52.75,
+     "votes": 136056
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 46.1,
+     "votes": 118889
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.15,
+     "votes": 2966
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 9",
+   "reported": 5,
+   "precincts": 5,
+   "candidates": [
+    {
+     "name": "Dan Green",
+     "party": "REP",
+     "pct": 68.44,
+     "votes": 2682
+    },
+    {
+     "name": "Darren Soto",
+     "party": "DEM",
+     "pct": 31.56,
+     "votes": 1237
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 16",
+   "reported": 7,
+   "precincts": 7,
+   "candidates": [
+    {
+     "name": "Sydney Gruters",
+     "party": "REP",
+     "pct": 61.5,
+     "votes": 2150
+    },
+    {
+     "name": "Kelly Kirschner",
+     "party": "DEM",
+     "pct": 36.1,
+     "votes": 1262
+    },
+    {
+     "name": "Mark Davis",
+     "party": "NPA",
+     "pct": 2.4,
+     "votes": 84
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 18",
+   "reported": 165,
+   "precincts": 165,
+   "candidates": [
+    {
+     "name": "Scott Franklin",
+     "party": "REP",
+     "pct": 51.95,
+     "votes": 129247
+    },
+    {
+     "name": "Curtis Gibson",
+     "party": "DEM",
+     "pct": 44.95,
+     "votes": 111845
+    },
+    {
+     "name": "Deva Simmons",
+     "party": "NPA",
+     "pct": 3.1,
+     "votes": 7702
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 177,
+   "precincts": 177,
+   "candidates": [
+    {
+     "name": "Byron Donalds",
+     "party": "REP",
+     "pct": 51.64,
+     "votes": 133011
+    },
+    {
+     "name": "David Jolly",
+     "party": "DEM",
+     "pct": 46.69,
+     "votes": 120257
+    },
+    {
+     "name": "Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.48,
+     "votes": 1234
+    },
+    {
+     "name": "Charles Burkett",
+     "party": "NPA",
+     "pct": 0.22,
+     "votes": 577
+    },
+    {
+     "name": "Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.34,
+     "votes": 866
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.11,
+     "votes": 274
+    },
+    {
+     "name": "Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.17,
+     "votes": 437
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.11,
+     "votes": 286
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.25,
+     "votes": 641
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 177,
+   "precincts": 177,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 53.2,
+     "votes": 135833
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 46.8,
+     "votes": 119506
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 177,
+   "precincts": 177,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 52.88,
+     "votes": 134271
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 47.12,
+     "votes": 119626
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 177,
+   "precincts": 177,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 52.74,
+     "votes": 134486
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 46.85,
+     "votes": 119465
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.41,
+     "votes": 1042
+    }
+   ]
+  },
+  {
+   "office": "State Senator District 12",
+   "reported": 120,
+   "precincts": 120,
+   "candidates": [
+    {
+     "name": "Colleen Burton",
+     "party": "REP",
+     "pct": 50.35,
+     "votes": 93924
+    },
+    {
+     "name": "Alfred Reynolds",
+     "party": "DEM",
+     "pct": 49.65,
+     "votes": 92605
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 48",
+   "reported": 53,
+   "precincts": 53,
+   "candidates": [
+    {
+     "name": "Jonathan Albert",
+     "party": "REP",
+     "pct": 51.71,
+     "votes": 34486
+    },
+    {
+     "name": "Alethea Pugh",
+     "party": "DEM",
+     "pct": 48.29,
+     "votes": 32204
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 49",
+   "reported": 44,
+   "precincts": 44,
+   "candidates": [
+    {
+     "name": "Jennifer Kincart Jonsson",
+     "party": "REP",
+     "pct": 59.55,
+     "votes": 35178
+    },
+    {
+     "name": "Robert Anzalone",
+     "party": "DEM",
+     "pct": 40.45,
+     "votes": 23899
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 50",
+   "reported": 43,
+   "precincts": 43,
+   "candidates": [
+    {
+     "name": "Jennifer Canady",
+     "party": "REP",
+     "pct": 54.35,
+     "votes": 32093
+    },
+    {
+     "name": "Ricky Santiago",
+     "party": "DEM",
+     "pct": 43.66,
+     "votes": 25780
+    },
+    {
+     "name": "Jarvis Washington",
+     "party": "NPA",
+     "pct": 2.0,
+     "votes": 1180
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 51",
+   "reported": 37,
+   "precincts": 37,
+   "candidates": [
+    {
+     "name": "Hilary Holley",
+     "party": "REP",
+     "pct": 47.84,
+     "votes": 33263
+    },
+    {
+     "name": "Octavio E. Hernandez",
+     "party": "DEM",
+     "pct": 52.16,
+     "votes": 36266
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner District 4",
+   "reported": 177,
+   "precincts": 177,
+   "candidates": [
+    {
+     "name": "Omar Arroyo",
+     "party": "REP",
+     "pct": 87.98,
+     "votes": 172844
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 12.02,
+     "votes": 23623
+    }
+   ]
+  },
+  {
+   "office": "Retain Justice Carlos G. Muniz",
+   "reported": 177,
+   "precincts": 177,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 61.35,
+     "votes": 141247
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 38.65,
+     "votes": 88967
+    }
+   ]
+  },
+  {
+   "office": "School Board District 3",
+   "reported": 177,
+   "precincts": 177,
+   "candidates": [
+    {
+     "name": "Victor Sims",
+     "party": null,
+     "pct": 46.61,
+     "votes": 106481
+    },
+    {
+     "name": "Kate Wallace",
+     "party": null,
+     "pct": 53.39,
+     "votes": 121957
+    }
+   ]
+  },
+  {
+   "office": "Lake Ashton CDD Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Debby Landgrebe",
+     "party": null,
+     "pct": 52.92,
+     "votes": 562
+    },
+    {
+     "name": "Deborah J. Murray",
+     "party": null,
+     "pct": 47.08,
+     "votes": 500
+    }
+   ]
+  },
+  {
+   "office": "Lake Ashton CDD Seat 3",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Daniel Davis",
+     "party": null,
+     "pct": 48.61,
+     "votes": 507
+    },
+    {
+     "name": "Frank J. Svarczkopf",
+     "party": null,
+     "pct": 51.39,
+     "votes": 536
+    }
+   ]
+  },
+  {
+   "office": "Lake Ashton CDD Seat 4",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Kevin R. Marsh",
+     "party": null,
+     "pct": 55.25,
+     "votes": 579
+    },
+    {
+     "name": "Jonathan Ridpath",
+     "party": null,
+     "pct": 44.75,
+     "votes": 469
+    }
+   ]
+  },
+  {
+   "office": "Lake Ashton II CDD Seat 1",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Roy E. Aull",
+     "party": null,
+     "pct": 48.35,
+     "votes": 395
+    },
+    {
+     "name": "Michael E. Lee",
+     "party": null,
+     "pct": 51.65,
+     "votes": 422
+    }
+   ]
+  },
+  {
+   "office": "Lake Ashton II CDD Seat 3",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Cheryl Winchester",
+     "party": null,
+     "pct": 50.59,
+     "votes": 426
+    },
+    {
+     "name": "Bob Zelazny",
+     "party": null,
+     "pct": 49.41,
+     "votes": 416
+    }
+   ]
+  },
+  {
+   "office": "Poinciana CDD Seat 1",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Tony Reed",
+     "party": null,
+     "pct": 66.78,
+     "votes": 2239
+    },
+    {
+     "name": "Michael C. Schouten",
+     "party": null,
+     "pct": 33.22,
+     "votes": 1114
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment",
+   "reported": 177,
+   "precincts": 177,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 41.39,
+     "votes": 99931
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 58.61,
+     "votes": 141482
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment",
+   "reported": 177,
+   "precincts": 177,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 62.62,
+     "votes": 151761
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 37.38,
+     "votes": 90610
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment",
+   "reported": 177,
+   "precincts": 177,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 62.5,
+     "votes": 155798
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 37.5,
+     "votes": 93470
+    }
+   ]
+  },
+  {
+   "office": "County School Board Referendum",
+   "reported": 177,
+   "precincts": 177,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 60.61,
+     "votes": 149358
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 39.39,
+     "votes": 97077
     }
    ]
   }

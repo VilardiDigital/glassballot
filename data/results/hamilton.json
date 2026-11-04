@@ -1,7 +1,7 @@
 {
  "county": "hamilton",
  "url": "https://enr.electionsfl.org/HAM/4101/Summary/",
- "pulledAt": "2026-11-04T03:55:19Z",
+ "pulledAt": "2026-11-04T04:12:13Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -40,6 +40,391 @@
      "party": "NON",
      "pct": 53.25,
      "votes": 525
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "REP Ashley Moody",
+     "party": "REP",
+     "pct": 65.08,
+     "votes": 2700
+    },
+    {
+     "name": "DEM Angie Nixon",
+     "party": "DEM",
+     "pct": 34.35,
+     "votes": 1425
+    },
+    {
+     "name": "NPA Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 0.58,
+     "votes": 24
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "REP Kat Cammack",
+     "party": "REP",
+     "pct": 64.58,
+     "votes": 2662
+    },
+    {
+     "name": "DEM Seth Harp",
+     "party": "DEM",
+     "pct": 33.53,
+     "votes": 1382
+    },
+    {
+     "name": "NPA Mike Klein",
+     "party": "NPA",
+     "pct": 1.89,
+     "votes": 78
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "REP Byron Donalds",
+     "party": "REP",
+     "pct": 64.3,
+     "votes": 2649
+    },
+    {
+     "name": "DEM David Jolly",
+     "party": "DEM",
+     "pct": 34.0,
+     "votes": 1401
+    },
+    {
+     "name": "LPF Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.46,
+     "votes": 19
+    },
+    {
+     "name": "NPA Charles Burkett",
+     "party": "NPA",
+     "pct": 0.27,
+     "votes": 11
+    },
+    {
+     "name": "NPA Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.51,
+     "votes": 21
+    },
+    {
+     "name": "NPA Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.07,
+     "votes": 3
+    },
+    {
+     "name": "NPA Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.12,
+     "votes": 5
+    },
+    {
+     "name": "NPA Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.1,
+     "votes": 4
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.17,
+     "votes": 7
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "REP James Uthmeier",
+     "party": "REP",
+     "pct": 65.47,
+     "votes": 2687
+    },
+    {
+     "name": "DEM Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 34.53,
+     "votes": 1417
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "REP Blaise Ingoglia",
+     "party": "REP",
+     "pct": 65.18,
+     "votes": 2658
+    },
+    {
+     "name": "DEM Annette Taddeo",
+     "party": "DEM",
+     "pct": 34.82,
+     "votes": 1420
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "REP Wilton Simpson",
+     "party": "REP",
+     "pct": 64.61,
+     "votes": 2642
+    },
+    {
+     "name": "DEM Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 35.14,
+     "votes": 1437
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.24,
+     "votes": 10
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner District 4",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "REP Travis Erixton",
+     "party": "REP",
+     "pct": 55.26,
+     "votes": 557
+    },
+    {
+     "name": "DEM Annie Pinello",
+     "party": "DEM",
+     "pct": 44.74,
+     "votes": 451
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court - Carlos G. Muniz",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 59.53,
+     "votes": 2271
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 40.47,
+     "votes": 1544
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Joseph Lewis Jr.",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 57.79,
+     "votes": 2188
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 42.21,
+     "votes": 1598
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Rachel Nordby",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 60.38,
+     "votes": 2275
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 39.62,
+     "votes": 1493
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Tim Osterhaus",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 58.87,
+     "votes": 2217
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 41.13,
+     "votes": 1549
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Clay Roberts",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 58.6,
+     "votes": 2198
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 41.4,
+     "votes": 1553
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal - Raymond Treadwell",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 60.52,
+     "votes": 2278
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 39.48,
+     "votes": 1486
+    }
+   ]
+  },
+  {
+   "office": "School Board Member District 4",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Kizzy L. Burch",
+     "party": "NON",
+     "pct": 46.75,
+     "votes": 461
+    },
+    {
+     "name": "Larry Ogburn Sr.",
+     "party": "NON",
+     "pct": 53.25,
+     "votes": 525
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Budget Stabilization",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 45.04,
+     "votes": 1738
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 54.96,
+     "votes": 2121
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Taxation",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 70.11,
+     "votes": 2752
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 29.89,
+     "votes": 1173
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Homestead Exemption",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 66.23,
+     "votes": 2624
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 33.77,
+     "votes": 1338
     }
    ]
   }

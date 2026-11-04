@@ -1,8 +1,368 @@
 {
  "county": "okeechobee",
  "url": "https://enr.electionsfl.org/OKE/4060/Summary/",
- "pulledAt": "2026-11-04T03:55:22Z",
+ "pulledAt": "2026-11-04T04:12:14Z",
  "status": "unofficial",
  "updated": null,
- "races": []
+ "races": [],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 69.69,
+     "votes": 7756
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 29.25,
+     "votes": 3255
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.06,
+     "votes": 118
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 9",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Dan Green",
+     "party": "REP",
+     "pct": 68.47,
+     "votes": 7580
+    },
+    {
+     "name": "Darren Soto",
+     "party": "DEM",
+     "pct": 31.53,
+     "votes": 3490
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Byron Donalds and Bryan Avila",
+     "party": "REP",
+     "pct": 68.24,
+     "votes": 7590
+    },
+    {
+     "name": "David Jolly and Gwen Graham",
+     "party": "DEM",
+     "pct": 30.14,
+     "votes": 3352
+    },
+    {
+     "name": "Scott Eckhard Jewett and Nicole Skelly",
+     "party": "LPF",
+     "pct": 0.33,
+     "votes": 37
+    },
+    {
+     "name": "Charles Burkett and Ruben A. Coto",
+     "party": "NPA",
+     "pct": 0.29,
+     "votes": 32
+    },
+    {
+     "name": "Frank J. Russo and Rachel Rodriguez",
+     "party": "NPA",
+     "pct": 0.38,
+     "votes": 42
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche and Benjiman Rojas",
+     "party": "NPA",
+     "pct": 0.06,
+     "votes": 7
+    },
+    {
+     "name": "Dean Ocean Abrams and Joe Van Vactor",
+     "party": "NPA",
+     "pct": 0.14,
+     "votes": 16
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto and Juan Santana",
+     "party": "NPA",
+     "pct": 0.13,
+     "votes": 15
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.29,
+     "votes": 32
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 70.0,
+     "votes": 7734
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 30.0,
+     "votes": 3315
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 68.9,
+     "votes": 7542
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 31.1,
+     "votes": 3404
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 70.33,
+     "votes": 7767
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 29.26,
+     "votes": 3231
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.42,
+     "votes": 46
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 83",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Kaylee Tuck",
+     "party": "REP",
+     "pct": 70.68,
+     "votes": 7805
+    },
+    {
+     "name": "Leigh Estes",
+     "party": "DEM",
+     "pct": 29.32,
+     "votes": 3238
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court - Carlos G. Muñiz",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 66.44,
+     "votes": 6750
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 33.56,
+     "votes": 3410
+    }
+   ]
+  },
+  {
+   "office": "Fourth District Court of Appeal - Alan O. Forst",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 66.7,
+     "votes": 6735
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 33.3,
+     "votes": 3363
+    }
+   ]
+  },
+  {
+   "office": "Fourth District Court of Appeal - Mark W. Klingensmith",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 65.59,
+     "votes": 6589
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 34.41,
+     "votes": 3457
+    }
+   ]
+  },
+  {
+   "office": "Fourth District Court of Appeal - Johnathan D. Lott",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 66.69,
+     "votes": 6702
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 33.31,
+     "votes": 3347
+    }
+   ]
+  },
+  {
+   "office": "Fourth District Court of Appeal - Shannon K. Shaw",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 67.8,
+     "votes": 6793
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 32.2,
+     "votes": 3226
+    }
+   ]
+  },
+  {
+   "office": "Fourth District Court of Appeal - Caroline Cahill Shepherd",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 67.0,
+     "votes": 6725
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 33.0,
+     "votes": 3312
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 44.36,
+     "votes": 4733
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 55.64,
+     "votes": 5937
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 69.98,
+     "votes": 7561
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 30.02,
+     "votes": 3243
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment",
+   "reported": 11,
+   "precincts": 11,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 67.74,
+     "votes": 7388
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 32.26,
+     "votes": 3519
+    }
+   ]
+  }
+ ]
 }

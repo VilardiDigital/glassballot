@@ -1,7 +1,7 @@
 {
  "county": "desoto",
  "url": "https://enr.electionsfl.org/DES/4094/Summary/",
- "pulledAt": "2026-11-04T03:55:18Z",
+ "pulledAt": "2026-11-04T04:12:13Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -27,6 +27,415 @@
      "party": "IND",
      "pct": 8.34,
      "votes": 756
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 15,
+   "precincts": 15,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 64.28,
+     "votes": 5862
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 34.65,
+     "votes": 3160
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.07,
+     "votes": 98
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress - District 16",
+   "reported": 15,
+   "precincts": 15,
+   "candidates": [
+    {
+     "name": "Sydney Gruters",
+     "party": "REP",
+     "pct": 61.44,
+     "votes": 5557
+    },
+    {
+     "name": "Kelly Kirschner",
+     "party": "DEM",
+     "pct": 36.26,
+     "votes": 3279
+    },
+    {
+     "name": "Mark Davis",
+     "party": "NPA",
+     "pct": 2.3,
+     "votes": 208
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 15,
+   "precincts": 15,
+   "candidates": [
+    {
+     "name": "Byron Donalds and Bryan Avila",
+     "party": "REP",
+     "pct": 62.66,
+     "votes": 5698
+    },
+    {
+     "name": "David Jolly and Gwen Graham",
+     "party": "DEM",
+     "pct": 35.3,
+     "votes": 3210
+    },
+    {
+     "name": "Scott Eckhard Jewett and Nicole Skelly",
+     "party": "LPF",
+     "pct": 0.47,
+     "votes": 43
+    },
+    {
+     "name": "Charles Burkett and Ruben A. Coto",
+     "party": "NPA",
+     "pct": 0.32,
+     "votes": 29
+    },
+    {
+     "name": "Frank J. Russo and Rachel Rodriguez",
+     "party": "NPA",
+     "pct": 0.44,
+     "votes": 40
+    },
+    {
+     "name": "Moliere “Moe” Dimanche and Benjiman Rojas",
+     "party": "NPA",
+     "pct": 0.13,
+     "votes": 12
+    },
+    {
+     "name": "Dean Ocean Abrams and Joe Van Vactor",
+     "party": "NPA",
+     "pct": 0.22,
+     "votes": 20
+    },
+    {
+     "name": "Jeffrey Peter “Dr. Jeff” Datto and Juan Santana",
+     "party": "NPA",
+     "pct": 0.11,
+     "votes": 10
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.35,
+     "votes": 32
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 15,
+   "precincts": 15,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 64.7,
+     "votes": 5866
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 35.3,
+     "votes": 3200
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 15,
+   "precincts": 15,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 62.91,
+     "votes": 5560
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 37.09,
+     "votes": 3278
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 15,
+   "precincts": 15,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 63.27,
+     "votes": 5694
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 35.95,
+     "votes": 3235
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.78,
+     "votes": 70
+    }
+   ]
+  },
+  {
+   "office": "State Representative - District 76",
+   "reported": 15,
+   "precincts": 15,
+   "candidates": [
+    {
+     "name": "Vanessa Oliver",
+     "party": "REP",
+     "pct": 64.31,
+     "votes": 5781
+    },
+    {
+     "name": "Phillip Ray Carter",
+     "party": "DEM",
+     "pct": 35.69,
+     "votes": 3208
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner District 2",
+   "reported": 15,
+   "precincts": 15,
+   "candidates": [
+    {
+     "name": "Buddy Johnson",
+     "party": "REP",
+     "pct": 58.6,
+     "votes": 5312
+    },
+    {
+     "name": "Michael L. Martin",
+     "party": "DEM",
+     "pct": 33.06,
+     "votes": 2997
+    },
+    {
+     "name": "Lorenzo Dixon",
+     "party": "IND",
+     "pct": 8.34,
+     "votes": 756
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court - Carlos G. Muñiz",
+   "reported": 15,
+   "precincts": 15,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 63.4,
+     "votes": 5234
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 36.6,
+     "votes": 3022
+    }
+   ]
+  },
+  {
+   "office": "Court of Appeal - Drew Atkinson",
+   "reported": 15,
+   "precincts": 15,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 65.04,
+     "votes": 5357
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 34.96,
+     "votes": 2880
+    }
+   ]
+  },
+  {
+   "office": "Court of Appeal - Morris Silberman",
+   "reported": 15,
+   "precincts": 15,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 63.8,
+     "votes": 5256
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 36.2,
+     "votes": 2982
+    }
+   ]
+  },
+  {
+   "office": "Court of Appeal - Daniel H. Sleet",
+   "reported": 15,
+   "precincts": 15,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 64.69,
+     "votes": 5302
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 35.31,
+     "votes": 2894
+    }
+   ]
+  },
+  {
+   "office": "Court of Appeal - Andrea Teves Smith",
+   "reported": 15,
+   "precincts": 15,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 66.01,
+     "votes": 5396
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 33.99,
+     "votes": 2778
+    }
+   ]
+  },
+  {
+   "office": "Arcadia City Council",
+   "reported": 6,
+   "precincts": 6,
+   "candidates": [
+    {
+     "name": "Ashley Brown",
+     "party": null,
+     "pct": 33.08,
+     "votes": 959
+    },
+    {
+     "name": "Jerome C. Reaves",
+     "party": null,
+     "pct": 13.83,
+     "votes": 401
+    },
+    {
+     "name": "Addison Reesor",
+     "party": null,
+     "pct": 13.56,
+     "votes": 393
+    },
+    {
+     "name": "Dee Washington",
+     "party": null,
+     "pct": 18.59,
+     "votes": 539
+    },
+    {
+     "name": "Judy Wertz Strickland",
+     "party": null,
+     "pct": 20.94,
+     "votes": 607
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional AmendmentArticle III, Section 19",
+   "reported": 15,
+   "precincts": 15,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 44.52,
+     "votes": 3830
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 55.48,
+     "votes": 4772
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional AmendmentArticle VII, Section 3Article XII",
+   "reported": 15,
+   "precincts": 15,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 67.34,
+     "votes": 5863
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 32.66,
+     "votes": 2844
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional AmendmentArticle VII,Sections 4,6 and 9Article XII",
+   "reported": 15,
+   "precincts": 15,
+   "candidates": [
+    {
+     "name": "Yes/Sí",
+     "party": null,
+     "pct": 63.52,
+     "votes": 5621
+    },
+    {
+     "name": "No/No",
+     "party": null,
+     "pct": 36.48,
+     "votes": 3228
     }
    ]
   }

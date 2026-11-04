@@ -1,8 +1,506 @@
 {
  "county": "nassau",
  "url": "https://enr.electionsfl.org/NAS/4080/Summary/",
- "pulledAt": "2026-11-04T03:55:22Z",
+ "pulledAt": "2026-11-04T04:12:14Z",
  "status": "unofficial",
  "updated": null,
- "races": []
+ "races": [],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 18,
+   "precincts": 18,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 70.31,
+     "votes": 35506
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 28.25,
+     "votes": 14264
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.44,
+     "votes": 729
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 4",
+   "reported": 18,
+   "precincts": 18,
+   "candidates": [
+    {
+     "name": "Aaron Bean",
+     "party": "REP",
+     "pct": 71.12,
+     "votes": 35840
+    },
+    {
+     "name": "LaShonda \"L.J.\" Holloway",
+     "party": "DEM",
+     "pct": 26.42,
+     "votes": 13313
+    },
+    {
+     "name": "Mike Sell",
+     "party": "FFP",
+     "pct": 0.79,
+     "votes": 398
+    },
+    {
+     "name": "Todd Schaefer",
+     "party": "NPA",
+     "pct": 1.67,
+     "votes": 842
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 18,
+   "precincts": 18,
+   "candidates": [
+    {
+     "name": "Byron Donalds",
+     "party": "REP",
+     "pct": 68.73,
+     "votes": 34677
+    },
+    {
+     "name": "David Jolly",
+     "party": "DEM",
+     "pct": 29.61,
+     "votes": 14941
+    },
+    {
+     "name": "Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.58,
+     "votes": 295
+    },
+    {
+     "name": "Charles Burkett",
+     "party": "NPA",
+     "pct": 0.23,
+     "votes": 116
+    },
+    {
+     "name": "Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.24,
+     "votes": 123
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.07,
+     "votes": 33
+    },
+    {
+     "name": "Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.18,
+     "votes": 91
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.09,
+     "votes": 46
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.26,
+     "votes": 129
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 18,
+   "precincts": 18,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 71.09,
+     "votes": 35608
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 28.91,
+     "votes": 14480
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 18,
+   "precincts": 18,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 70.95,
+     "votes": 35335
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 29.05,
+     "votes": 14471
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 18,
+   "precincts": 18,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 70.63,
+     "votes": 35173
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 29.14,
+     "votes": 14512
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.23,
+     "votes": 115
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 15",
+   "reported": 18,
+   "precincts": 18,
+   "candidates": [
+    {
+     "name": "Dean Black",
+     "party": "REP",
+     "pct": 71.11,
+     "votes": 34943
+    },
+    {
+     "name": "Chadd Charland",
+     "party": "NPA",
+     "pct": 28.63,
+     "votes": 14070
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.25,
+     "votes": 125
+    }
+   ]
+  },
+  {
+   "office": "Shall Justice Carlos G. Muniz of the Supreme Court be retained in office?",
+   "reported": 18,
+   "precincts": 18,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 67.37,
+     "votes": 31027
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 32.63,
+     "votes": 15031
+    }
+   ]
+  },
+  {
+   "office": "Shall Judge John M. Harris of the Fifth District Court of Appeal be retained in office?",
+   "reported": 18,
+   "precincts": 18,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 69.59,
+     "votes": 31764
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 30.41,
+     "votes": 13878
+    }
+   ]
+  },
+  {
+   "office": "Shall Judge Scott D. Makar of the Fifth District Court of Appeal be retained in office?",
+   "reported": 18,
+   "precincts": 18,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 68.47,
+     "votes": 31090
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 31.53,
+     "votes": 14316
+    }
+   ]
+  },
+  {
+   "office": "Shall Judge F. Rand Wallis of the Fifth District Court of Appeal be retained in office?",
+   "reported": 18,
+   "precincts": 18,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 68.14,
+     "votes": 30840
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 31.86,
+     "votes": 14419
+    }
+   ]
+  },
+  {
+   "office": "City of Fernandina Beach Mayor",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "Genece Minshew",
+     "party": null,
+     "pct": 56.07,
+     "votes": 3736
+    },
+    {
+     "name": "Timothy M. Poynter",
+     "party": null,
+     "pct": 43.93,
+     "votes": 2927
+    }
+   ]
+  },
+  {
+   "office": "Hilliard Town Council Member",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Shane M. Barber",
+     "party": null,
+     "pct": 39.6,
+     "votes": 556
+    },
+    {
+     "name": "Heather Gates",
+     "party": null,
+     "pct": 23.93,
+     "votes": 336
+    },
+    {
+     "name": "Dallis Hunter",
+     "party": null,
+     "pct": 36.47,
+     "votes": 512
+    }
+   ]
+  },
+  {
+   "office": "Amelia Island Mosquito Control District Group 2",
+   "reported": 6,
+   "precincts": 6,
+   "candidates": [
+    {
+     "name": "Todd Nuckols",
+     "party": null,
+     "pct": 40.24,
+     "votes": 5155
+    },
+    {
+     "name": "Debby Portier",
+     "party": null,
+     "pct": 59.76,
+     "votes": 7656
+    }
+   ]
+  },
+  {
+   "office": "Amelia Walk Community Development District Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "William Knudsen",
+     "party": null,
+     "pct": 49.25,
+     "votes": 522
+    },
+    {
+     "name": "David Swan",
+     "party": null,
+     "pct": 50.75,
+     "votes": 538
+    }
+   ]
+  },
+  {
+   "office": "Amelia Walk Community Development District Seat 4",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Jeffrey E. Robinson",
+     "party": null,
+     "pct": 50.6,
+     "votes": 544
+    },
+    {
+     "name": "Cathleen Rutsey",
+     "party": null,
+     "pct": 49.4,
+     "votes": 531
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment Article III, Section 19",
+   "reported": 18,
+   "precincts": 18,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 44.18,
+     "votes": 21267
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 55.82,
+     "votes": 26874
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment Article VII, Section 3 Article XII",
+   "reported": 18,
+   "precincts": 18,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 69.56,
+     "votes": 33842
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 30.44,
+     "votes": 14810
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment Article VII, Sections 4, 6 and 9 Article XII",
+   "reported": 18,
+   "precincts": 18,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 74.07,
+     "votes": 36781
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 25.93,
+     "votes": 12874
+    }
+   ]
+  },
+  {
+   "office": "Nassau County School District Ad Valorem Millage Election",
+   "reported": 18,
+   "precincts": 18,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 62.21,
+     "votes": 30634
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 37.79,
+     "votes": 18605
+    }
+   ]
+  },
+  {
+   "office": "Town Charter Amendment Removing Residency Requirement for the Town Clerk",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 38.06,
+     "votes": 354
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 61.94,
+     "votes": 576
+    }
+   ]
+  },
+  {
+   "office": "Town Charter Amendment Creating the Role of Town Manager as Chief Executive and Administrative Officer",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 51.62,
+     "votes": 477
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 48.38,
+     "votes": 447
+    }
+   ]
+  }
+ ]
 }

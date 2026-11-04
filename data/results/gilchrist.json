@@ -1,8 +1,418 @@
 {
  "county": "gilchrist",
  "url": "https://enr.electionsfl.org/GIL/4055/Summary/",
- "pulledAt": "2026-11-04T03:55:19Z",
+ "pulledAt": "2026-11-04T04:12:13Z",
  "status": "unofficial",
  "updated": null,
- "races": []
+ "races": [],
+ "all": [
+  {
+   "office": "First District Court of Appeal Lewis",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 62.81,
+     "votes": 4461
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 37.19,
+     "votes": 2641
+    }
+   ]
+  },
+  {
+   "office": "United States Senator",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 81.45,
+     "votes": 6356
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 17.45,
+     "votes": 1362
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.1,
+     "votes": 86
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 3",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Kat Cammack",
+     "party": "REP",
+     "pct": 81.27,
+     "votes": 6341
+    },
+    {
+     "name": "Seth Harp",
+     "party": "DEM",
+     "pct": 16.79,
+     "votes": 1310
+    },
+    {
+     "name": "Mike Klein",
+     "party": "NPA",
+     "pct": 1.94,
+     "votes": 151
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Byron Donalds and Bryan Avila",
+     "party": "REP",
+     "pct": 79.59,
+     "votes": 6195
+    },
+    {
+     "name": "David Jolly and Gwen Graham",
+     "party": "DEM",
+     "pct": 18.15,
+     "votes": 1413
+    },
+    {
+     "name": "Scott Eckhard Jewett and Nicole Skelly",
+     "party": "LPF",
+     "pct": 0.57,
+     "votes": 44
+    },
+    {
+     "name": "Charles Burkett and Ruben A. Coto",
+     "party": "NPA",
+     "pct": 0.41,
+     "votes": 32
+    },
+    {
+     "name": "Frank J. Russo and Rachel Rodriguez",
+     "party": "NPA",
+     "pct": 0.3,
+     "votes": 23
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche and Benjimin Rojas",
+     "party": "NPA",
+     "pct": 0.09,
+     "votes": 7
+    },
+    {
+     "name": "Dean Ocean Abrams and Joe Van Vactor",
+     "party": "NPA",
+     "pct": 0.27,
+     "votes": 21
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto and Juan Santana",
+     "party": "NPA",
+     "pct": 0.14,
+     "votes": 11
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.49,
+     "votes": 38
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 81.84,
+     "votes": 6338
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 18.16,
+     "votes": 1406
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 82.06,
+     "votes": 6318
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 17.94,
+     "votes": 1381
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 81.79,
+     "votes": 6322
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 17.68,
+     "votes": 1367
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.53,
+     "votes": 41
+    }
+   ]
+  },
+  {
+   "office": "State Senate District 6",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Jennifer Bradley",
+     "party": "REP",
+     "pct": 81.62,
+     "votes": 6310
+    },
+    {
+     "name": "Jason Bellamy-Fults",
+     "party": "DEM",
+     "pct": 17.41,
+     "votes": 1346
+    },
+    {
+     "name": "Joseph Thornton",
+     "party": "ASP",
+     "pct": 0.97,
+     "votes": 75
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 22",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Chad Johnson",
+     "party": "REP",
+     "pct": 82.49,
+     "votes": 6388
+    },
+    {
+     "name": "Amy Trask",
+     "party": "DEM",
+     "pct": 17.51,
+     "votes": 1356
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 66.75,
+     "votes": 4747
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 33.25,
+     "votes": 2365
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal Nordby",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 68.91,
+     "votes": 4900
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 31.09,
+     "votes": 2211
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal Osterhaus",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 67.37,
+     "votes": 4773
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 32.63,
+     "votes": 2312
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal Roberts",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 65.36,
+     "votes": 4635
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 34.64,
+     "votes": 2457
+    }
+   ]
+  },
+  {
+   "office": "First Distrcit Court of Appeal Treadwell",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 68.95,
+     "votes": 4881
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 31.05,
+     "votes": 2198
+    }
+   ]
+  },
+  {
+   "office": "No.1 Constutional AmendmentArticle III, Section 19",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 43.77,
+     "votes": 3289
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 56.23,
+     "votes": 4225
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional AmendmentArticle VII, Section 3Article XII",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 74.72,
+     "votes": 5668
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 25.28,
+     "votes": 1918
+    }
+   ]
+  },
+  {
+   "office": "No.3 Constitutional AmendmentArticle VII, Sections 4, 6 and 9Article XI",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 73.87,
+     "votes": 5649
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 26.13,
+     "votes": 1998
+    }
+   ]
+  },
+  {
+   "office": "Board of County Commissionersof Gilchrist County, Florida",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 62.52,
+     "votes": 4760
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 37.48,
+     "votes": 2854
+    }
+   ]
+  }
+ ]
 }

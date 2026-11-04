@@ -1,7 +1,7 @@
 {
  "county": "indianriver",
  "url": "https://enr.electionsfl.org/IND/4096/Summary/",
- "pulledAt": "2026-11-04T03:55:20Z",
+ "pulledAt": "2026-11-04T04:12:13Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -46,6 +46,628 @@
      "party": "DEM",
      "pct": 37.45,
      "votes": 28462
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 35,
+   "precincts": 35,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 60.96,
+     "votes": 47183
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 38.05,
+     "votes": 29449
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 0.99,
+     "votes": 765
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 9",
+   "reported": 35,
+   "precincts": 35,
+   "candidates": [
+    {
+     "name": "Dan Green",
+     "party": "REP",
+     "pct": 60.04,
+     "votes": 46234
+    },
+    {
+     "name": "Darren Soto",
+     "party": "DEM",
+     "pct": 39.96,
+     "votes": 30766
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 35,
+   "precincts": 35,
+   "candidates": [
+    {
+     "name": "Byron Donalds",
+     "party": "REP",
+     "pct": 59.68,
+     "votes": 46211
+    },
+    {
+     "name": "David Jolly",
+     "party": "DEM",
+     "pct": 39.12,
+     "votes": 30293
+    },
+    {
+     "name": "Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.37,
+     "votes": 286
+    },
+    {
+     "name": "Charles Burkett",
+     "party": "NPA",
+     "pct": 0.17,
+     "votes": 131
+    },
+    {
+     "name": "Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.21,
+     "votes": 161
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.06,
+     "votes": 46
+    },
+    {
+     "name": "Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.13,
+     "votes": 98
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.08,
+     "votes": 60
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.19,
+     "votes": 146
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 35,
+   "precincts": 35,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 61.71,
+     "votes": 47487
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 38.29,
+     "votes": 29466
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 35,
+   "precincts": 35,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 60.57,
+     "votes": 46149
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 39.43,
+     "votes": 30044
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 35,
+   "precincts": 35,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 61.37,
+     "votes": 46834
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 38.46,
+     "votes": 29350
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.17,
+     "votes": 126
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 34",
+   "reported": 35,
+   "precincts": 35,
+   "candidates": [
+    {
+     "name": "Robert Brackett",
+     "party": "REP",
+     "pct": 62.75,
+     "votes": 47942
+    },
+    {
+     "name": "Jordyn Guadalupe Balderas",
+     "party": "DEM",
+     "pct": 37.25,
+     "votes": 28463
+    }
+   ]
+  },
+  {
+   "office": "Board of County Commissioners District 2",
+   "reported": 35,
+   "precincts": 35,
+   "candidates": [
+    {
+     "name": "Jennifer Pippin",
+     "party": "REP",
+     "pct": 59.5,
+     "votes": 45235
+    },
+    {
+     "name": "Robbie Hardingham III",
+     "party": "DEM",
+     "pct": 40.18,
+     "votes": 30544
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.32,
+     "votes": 244
+    }
+   ]
+  },
+  {
+   "office": "Board of County Commissioners District 4",
+   "reported": 35,
+   "precincts": 35,
+   "candidates": [
+    {
+     "name": "Deryl Loar",
+     "party": "REP",
+     "pct": 62.55,
+     "votes": 47537
+    },
+    {
+     "name": "Marc Jaffe",
+     "party": "DEM",
+     "pct": 37.45,
+     "votes": 28462
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court Carlos G. Muñiz",
+   "reported": 35,
+   "precincts": 35,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 65.2,
+     "votes": 44090
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 34.8,
+     "votes": 23528
+    }
+   ]
+  },
+  {
+   "office": "Fourth District Court of Appeal Alan O. Forst",
+   "reported": 35,
+   "precincts": 35,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 66.82,
+     "votes": 44393
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 33.18,
+     "votes": 22048
+    }
+   ]
+  },
+  {
+   "office": "Fourth District Court of Appeal Mark W. Klingensmith",
+   "reported": 35,
+   "precincts": 35,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 65.75,
+     "votes": 43064
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 34.25,
+     "votes": 22431
+    }
+   ]
+  },
+  {
+   "office": "Fourth District Court of Appeal Johnathan D. Lott",
+   "reported": 35,
+   "precincts": 35,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 67.04,
+     "votes": 44177
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 32.96,
+     "votes": 21722
+    }
+   ]
+  },
+  {
+   "office": "Fourth District Court of Appeal Shannon K. Shaw",
+   "reported": 35,
+   "precincts": 35,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 67.89,
+     "votes": 44644
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 32.11,
+     "votes": 21115
+    }
+   ]
+  },
+  {
+   "office": "Fourth District Court of Appeal Caroline Cahill Shepherd",
+   "reported": 35,
+   "precincts": 35,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 67.9,
+     "votes": 44662
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 32.1,
+     "votes": 21111
+    }
+   ]
+  },
+  {
+   "office": "City of Fellsmere City Council Member",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Fernando R. Herrera",
+     "party": null,
+     "pct": 20.69,
+     "votes": 223
+    },
+    {
+     "name": "Shayla Macias",
+     "party": null,
+     "pct": 33.49,
+     "votes": 361
+    },
+    {
+     "name": "Javi Murillo",
+     "party": null,
+     "pct": 24.21,
+     "votes": 261
+    },
+    {
+     "name": "Jose M. Zamarripa",
+     "party": null,
+     "pct": 21.61,
+     "votes": 233
+    }
+   ]
+  },
+  {
+   "office": "City of Sebastian City Council Member",
+   "reported": 5,
+   "precincts": 5,
+   "candidates": [
+    {
+     "name": "Rob Gable",
+     "party": null,
+     "pct": 20.55,
+     "votes": 3953
+    },
+    {
+     "name": "Damien H. Gilliams",
+     "party": null,
+     "pct": 6.73,
+     "votes": 1295
+    },
+    {
+     "name": "Richard H. Gillmor",
+     "party": null,
+     "pct": 19.32,
+     "votes": 3718
+    },
+    {
+     "name": "Sherrie Matthews",
+     "party": null,
+     "pct": 31.9,
+     "votes": 6137
+    },
+    {
+     "name": "Deborah \"Deb\" Shellenberger",
+     "party": null,
+     "pct": 21.5,
+     "votes": 4137
+    }
+   ]
+  },
+  {
+   "office": "City of Vero Beach City Council Member",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "Aaron Vos",
+     "party": null,
+     "pct": 17.75,
+     "votes": 2784
+    },
+    {
+     "name": "Brian Heady",
+     "party": null,
+     "pct": 6.2,
+     "votes": 973
+    },
+    {
+     "name": "Davis Benedict",
+     "party": null,
+     "pct": 12.91,
+     "votes": 2025
+    },
+    {
+     "name": "Robert MacCallum",
+     "party": null,
+     "pct": 10.13,
+     "votes": 1589
+    },
+    {
+     "name": "Linda Moore",
+     "party": null,
+     "pct": 14.37,
+     "votes": 2254
+    },
+    {
+     "name": "Jay Kramer",
+     "party": null,
+     "pct": 10.63,
+     "votes": 1668
+    },
+    {
+     "name": "Tracey Zudans",
+     "party": null,
+     "pct": 14.2,
+     "votes": 2228
+    },
+    {
+     "name": "John O'Connor",
+     "party": null,
+     "pct": 13.8,
+     "votes": 2165
+    }
+   ]
+  },
+  {
+   "office": "Sebastian Inlet Tax District District 5",
+   "reported": 17,
+   "precincts": 17,
+   "candidates": [
+    {
+     "name": "Calvin Holton",
+     "party": null,
+     "pct": 46.45,
+     "votes": 8577
+    },
+    {
+     "name": "Lisa Leger Frazier",
+     "party": null,
+     "pct": 53.55,
+     "votes": 9890
+    }
+   ]
+  },
+  {
+   "office": "Indian River Mosquito Control District Seat 2",
+   "reported": 34,
+   "precincts": 34,
+   "candidates": [
+    {
+     "name": "Anna Kirkland",
+     "party": null,
+     "pct": 66.9,
+     "votes": 44060
+    },
+    {
+     "name": "Craig MacCoy",
+     "party": null,
+     "pct": 33.1,
+     "votes": 21804
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment Article III, Section 19",
+   "reported": 35,
+   "precincts": 35,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 42.51,
+     "votes": 30824
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 57.49,
+     "votes": 41687
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment Article VII, Section 3 Article XII",
+   "reported": 35,
+   "precincts": 35,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 62.9,
+     "votes": 45934
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 37.1,
+     "votes": 27089
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment Article VII, Sections 4, 6 and 9 Article XII",
+   "reported": 35,
+   "precincts": 35,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 64.58,
+     "votes": 48082
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 35.42,
+     "votes": 26373
+    }
+   ]
+  },
+  {
+   "office": "City of Sebastian Referendum Question 1",
+   "reported": 5,
+   "precincts": 5,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 90.33,
+     "votes": 11383
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 9.67,
+     "votes": 1219
+    }
+   ]
+  },
+  {
+   "office": "City of Sebastian Referendum Question 2",
+   "reported": 5,
+   "precincts": 5,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 42.69,
+     "votes": 5342
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 57.31,
+     "votes": 7172
+    }
+   ]
+  },
+  {
+   "office": "City of Sebastian Referendum Question 3",
+   "reported": 5,
+   "precincts": 5,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 84.84,
+     "votes": 10608
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 15.16,
+     "votes": 1895
     }
    ]
   }

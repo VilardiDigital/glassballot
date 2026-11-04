@@ -1,7 +1,7 @@
 {
  "county": "columbia",
  "url": "https://enr.electionsfl.org/CLM/4069/Summary/",
- "pulledAt": "2026-11-04T03:55:18Z",
+ "pulledAt": "2026-11-04T04:12:13Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -40,6 +40,504 @@
      "party": null,
      "pct": 45.06,
      "votes": 1962
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 28,
+   "precincts": 28,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 70.56,
+     "votes": 15959
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 28.21,
+     "votes": 6381
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.23,
+     "votes": 278
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 3",
+   "reported": 28,
+   "precincts": 28,
+   "candidates": [
+    {
+     "name": "Kat Cammack",
+     "party": "REP",
+     "pct": 70.75,
+     "votes": 15946
+    },
+    {
+     "name": "Seth Harp",
+     "party": "DEM",
+     "pct": 27.62,
+     "votes": 6226
+    },
+    {
+     "name": "Mike Klein",
+     "party": "NPA",
+     "pct": 1.63,
+     "votes": 367
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 28,
+   "precincts": 28,
+   "candidates": [
+    {
+     "name": "Byron Donalds/Bryan Avila",
+     "party": "REP",
+     "pct": 69.3,
+     "votes": 15634
+    },
+    {
+     "name": "David Jolly/Gwen Graham",
+     "party": "DEM",
+     "pct": 28.79,
+     "votes": 6496
+    },
+    {
+     "name": "Scott Eckhard Jewett/Nicole Skelly",
+     "party": "LPF",
+     "pct": 0.51,
+     "votes": 114
+    },
+    {
+     "name": "Charles Burkett/ Ruben A. Coto",
+     "party": "NPA",
+     "pct": 0.3,
+     "votes": 67
+    },
+    {
+     "name": "Frank J. Russo/Rachel Rodriguez",
+     "party": "NPA",
+     "pct": 0.4,
+     "votes": 90
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche/Benjiman Rojas",
+     "party": "NPA",
+     "pct": 0.05,
+     "votes": 12
+    },
+    {
+     "name": "Dean Ocean Abrams/Joe Van Vactor",
+     "party": "NPA",
+     "pct": 0.22,
+     "votes": 50
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto/Juan Santana",
+     "party": "NPA",
+     "pct": 0.08,
+     "votes": 17
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.35,
+     "votes": 80
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 28,
+   "precincts": 28,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 71.39,
+     "votes": 15964
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 28.61,
+     "votes": 6399
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 28,
+   "precincts": 28,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 71.01,
+     "votes": 15776
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 28.99,
+     "votes": 6441
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 28,
+   "precincts": 28,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 70.99,
+     "votes": 15891
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 28.66,
+     "votes": 6416
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.34,
+     "votes": 77
+    }
+   ]
+  },
+  {
+   "office": "State Senator District 6",
+   "reported": 28,
+   "precincts": 28,
+   "candidates": [
+    {
+     "name": "Jennifer Bradley",
+     "party": "REP",
+     "pct": 71.14,
+     "votes": 15884
+    },
+    {
+     "name": "Jason Bellamy-Fults",
+     "party": "DEM",
+     "pct": 27.98,
+     "votes": 6247
+    },
+    {
+     "name": "Joseph Thornton",
+     "party": "ASP",
+     "pct": 0.88,
+     "votes": 196
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 10",
+   "reported": 28,
+   "precincts": 28,
+   "candidates": [
+    {
+     "name": "Marshall Rawson",
+     "party": "REP",
+     "pct": 70.3,
+     "votes": 15642
+    },
+    {
+     "name": "Merrillee Malwitz Jipson",
+     "party": "DEM",
+     "pct": 29.45,
+     "votes": 6553
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.25,
+     "votes": 56
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court - Muñiz",
+   "reported": 28,
+   "precincts": 28,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 61.04,
+     "votes": 12430
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 38.96,
+     "votes": 7933
+    }
+   ]
+  },
+  {
+   "office": "District Court of Appeal - Lewis",
+   "reported": 28,
+   "precincts": 28,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 61.82,
+     "votes": 12640
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 38.18,
+     "votes": 7806
+    }
+   ]
+  },
+  {
+   "office": "District Court of Appeal - Nordby",
+   "reported": 28,
+   "precincts": 28,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 63.54,
+     "votes": 12947
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 36.46,
+     "votes": 7430
+    }
+   ]
+  },
+  {
+   "office": "District Court of Appeal - Osterhaus",
+   "reported": 28,
+   "precincts": 28,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 62.4,
+     "votes": 12705
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 37.6,
+     "votes": 7656
+    }
+   ]
+  },
+  {
+   "office": "District Court of Appeal - Roberts",
+   "reported": 28,
+   "precincts": 28,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 60.94,
+     "votes": 12340
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 39.06,
+     "votes": 7911
+    }
+   ]
+  },
+  {
+   "office": "District Court of Appeal - Treadwell",
+   "reported": 28,
+   "precincts": 28,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 63.56,
+     "votes": 12881
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 36.44,
+     "votes": 7385
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner District 2",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "Rocky Ford",
+     "party": null,
+     "pct": 44.5,
+     "votes": 2187
+    },
+    {
+     "name": "Clint Pittman",
+     "party": null,
+     "pct": 55.5,
+     "votes": 2728
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner District 4",
+   "reported": 8,
+   "precincts": 8,
+   "candidates": [
+    {
+     "name": "Chris Dicks",
+     "party": null,
+     "pct": 54.94,
+     "votes": 2392
+    },
+    {
+     "name": "Everett Phillips",
+     "party": null,
+     "pct": 45.06,
+     "votes": 1962
+    }
+   ]
+  },
+  {
+   "office": "Fort White Town Council Member District 1",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Dennis Rivera",
+     "party": null,
+     "pct": 67.74,
+     "votes": 42
+    },
+    {
+     "name": "Kathryn Terry",
+     "party": null,
+     "pct": 32.26,
+     "votes": 20
+    }
+   ]
+  },
+  {
+   "office": "Fort White Town Council Member District 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "James F. Richardson",
+     "party": null,
+     "pct": 27.37,
+     "votes": 26
+    },
+    {
+     "name": "Giorgio Joshua Thomas",
+     "party": null,
+     "pct": 28.42,
+     "votes": 27
+    },
+    {
+     "name": "Alexander Veiga",
+     "party": null,
+     "pct": 44.21,
+     "votes": 42
+    }
+   ]
+  },
+  {
+   "office": "Constitutional Amendment No. 1",
+   "reported": 28,
+   "precincts": 28,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 39.93,
+     "votes": 8472
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 60.07,
+     "votes": 12746
+    }
+   ]
+  },
+  {
+   "office": "Constitutional Amendment No. 2",
+   "reported": 28,
+   "precincts": 28,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 72.53,
+     "votes": 15591
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 27.47,
+     "votes": 5905
+    }
+   ]
+  },
+  {
+   "office": "Constitutional Amendment No. 3",
+   "reported": 28,
+   "precincts": 28,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 70.2,
+     "votes": 15308
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 29.8,
+     "votes": 6499
+    }
+   ]
+  },
+  {
+   "office": "Columbia County Referendum",
+   "reported": 28,
+   "precincts": 28,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 47.61,
+     "votes": 10197
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 52.39,
+     "votes": 11223
     }
    ]
   }

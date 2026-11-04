@@ -1,7 +1,7 @@
 {
  "county": "bay",
  "url": "https://enr.electionsfl.org/BAY/4078/Summary/",
- "pulledAt": "2026-11-04T03:55:17Z",
+ "pulledAt": "2026-11-04T04:12:12Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -21,6 +21,632 @@
      "party": "NON",
      "pct": 44.33,
      "votes": 27393
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 69.34,
+     "votes": 48724
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 29.52,
+     "votes": 20745
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.14,
+     "votes": 804
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 2",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Austin Rogers",
+     "party": "REP",
+     "pct": 68.29,
+     "votes": 47721
+    },
+    {
+     "name": "Amanda Marie Green",
+     "party": "DEM",
+     "pct": 31.71,
+     "votes": 22164
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Byron Donalds and Bryan Avila",
+     "party": "REP",
+     "pct": 68.94,
+     "votes": 48387
+    },
+    {
+     "name": "David Jolly and Gwen Graham",
+     "party": "DEM",
+     "pct": 29.47,
+     "votes": 20687
+    },
+    {
+     "name": "Scott Eckhard Jewett and Nicole Skelly",
+     "party": "LPF",
+     "pct": 0.59,
+     "votes": 412
+    },
+    {
+     "name": "Charles Burkett and Ruben A. Coto",
+     "party": "NPA",
+     "pct": 0.22,
+     "votes": 152
+    },
+    {
+     "name": "Frank J. Russo and Rachel Rodriguez",
+     "party": "NPA",
+     "pct": 0.23,
+     "votes": 163
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche and Benjamin Rojas",
+     "party": "NPA",
+     "pct": 0.09,
+     "votes": 65
+    },
+    {
+     "name": "Dean Ocean Abrams and Joe Van Vactor",
+     "party": "NPA",
+     "pct": 0.15,
+     "votes": 108
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto and Juan Santana",
+     "party": "NPA",
+     "pct": 0.09,
+     "votes": 61
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.21,
+     "votes": 150
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 70.08,
+     "votes": 48778
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 29.92,
+     "votes": 20823
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 70.12,
+     "votes": 48677
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 29.88,
+     "votes": 20742
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 69.83,
+     "votes": 48618
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 29.95,
+     "votes": 20857
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.22,
+     "votes": 153
+    }
+   ]
+  },
+  {
+   "office": "State Senator District 2",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Jay Trumbull",
+     "party": "REP",
+     "pct": 70.57,
+     "votes": 49262
+    },
+    {
+     "name": "Lauren Donahoo",
+     "party": "DEM",
+     "pct": 29.43,
+     "votes": 20544
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 6",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Tricia Berry",
+     "party": "REP",
+     "pct": 69.67,
+     "votes": 48328
+    },
+    {
+     "name": "Stephanie Lyn Leonard",
+     "party": "DEM",
+     "pct": 30.33,
+     "votes": 21037
+    }
+   ]
+  },
+  {
+   "office": "Retention of Justice of the Supreme Court Carlos G. Muniz",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 63.82,
+     "votes": 40897
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 36.18,
+     "votes": 23184
+    }
+   ]
+  },
+  {
+   "office": "Retention of District Court of Appeal Judge Joseph Lewis Jr.",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 63.7,
+     "votes": 40733
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 36.3,
+     "votes": 23215
+    }
+   ]
+  },
+  {
+   "office": "Retention of District Court of Appeal Judge Rachel Nordby",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 65.58,
+     "votes": 41821
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 34.42,
+     "votes": 21951
+    }
+   ]
+  },
+  {
+   "office": "Retention of District Court of Appeal Judge Tim Osterhaus",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 64.29,
+     "votes": 40965
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 35.71,
+     "votes": 22755
+    }
+   ]
+  },
+  {
+   "office": "Retention of District Court of Appeal Judge Clay Roberts",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 62.37,
+     "votes": 39782
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 37.63,
+     "votes": 23999
+    }
+   ]
+  },
+  {
+   "office": "Retention of District Court of Appeal Judge Raymond Treadwell",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 65.3,
+     "votes": 41515
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 34.7,
+     "votes": 22062
+    }
+   ]
+  },
+  {
+   "office": "School Board Member District 3",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "John Haley",
+     "party": "NON",
+     "pct": 55.67,
+     "votes": 34402
+    },
+    {
+     "name": "Chris Moore",
+     "party": "NON",
+     "pct": 44.33,
+     "votes": 27393
+    }
+   ]
+  },
+  {
+   "office": "Callaway Commissioner Ward 1",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Bobby Birdsell",
+     "party": "NON",
+     "pct": 58.55,
+     "votes": 2451
+    },
+    {
+     "name": "Karen Custer",
+     "party": "NON",
+     "pct": 41.45,
+     "votes": 1735
+    }
+   ]
+  },
+  {
+   "office": "Callaway Commissioner Ward 2",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "James \"Jamie\" Kirkland",
+     "party": "NON",
+     "pct": 60.4,
+     "votes": 2514
+    },
+    {
+     "name": "Spring Overway",
+     "party": "NON",
+     "pct": 39.6,
+     "votes": 1648
+    }
+   ]
+  },
+  {
+   "office": "Panama City Beach Council Member Ward 1",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Carlos Sanchez",
+     "party": "NON",
+     "pct": 60.0,
+     "votes": 3915
+    },
+    {
+     "name": "Grant B. Wittstruck",
+     "party": "NON",
+     "pct": 40.0,
+     "votes": 2610
+    }
+   ]
+  },
+  {
+   "office": "Panama City Beach Council Member Ward 3",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Nick Atkinson",
+     "party": "NON",
+     "pct": 49.45,
+     "votes": 3173
+    },
+    {
+     "name": "Mary Coburn",
+     "party": "NON",
+     "pct": 50.55,
+     "votes": 3244
+    }
+   ]
+  },
+  {
+   "office": "Lake Powell Community Development District Seat 2",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Alyssa Finneyfrock",
+     "party": "NON",
+     "pct": 69.75,
+     "votes": 219
+    },
+    {
+     "name": "Greg Porta",
+     "party": "NON",
+     "pct": 30.25,
+     "votes": 95
+    }
+   ]
+  },
+  {
+   "office": "Lake Powell Community Development District Seat 5",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Kenneth Black",
+     "party": "NON",
+     "pct": 47.54,
+     "votes": 145
+    },
+    {
+     "name": "Tim Rosson",
+     "party": "NON",
+     "pct": 52.46,
+     "votes": 160
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment Budget Stabilization Fund",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 46.08,
+     "votes": 31014
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 53.92,
+     "votes": 36294
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment Extemption of Tangible Personal Property",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 68.85,
+     "votes": 46382
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 31.15,
+     "votes": 20983
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment Increase Homestead Exemption",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 71.14,
+     "votes": 48755
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 28.86,
+     "votes": 19783
+    }
+   ]
+  },
+  {
+   "office": "City of Lynn Haven Clarifying the City Charter Review Process",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 85.49,
+     "votes": 6511
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 14.51,
+     "votes": 1105
+    }
+   ]
+  },
+  {
+   "office": "City of Lynn Haven Updating the Method of Compensation",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 71.2,
+     "votes": 5399
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 28.8,
+     "votes": 2184
+    }
+   ]
+  },
+  {
+   "office": "City of Lynn Haven Extending Time to Fill Vacancy on Commission",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 70.59,
+     "votes": 5365
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 29.41,
+     "votes": 2235
+    }
+   ]
+  },
+  {
+   "office": "City of Panama City Terms and Qualifications of Commissioners",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 49.18,
+     "votes": 5646
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 50.82,
+     "votes": 5835
+    }
+   ]
+  },
+  {
+   "office": "City of Panama City Charter Officers",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 46.94,
+     "votes": 5276
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 53.06,
+     "votes": 5964
+    }
+   ]
+  },
+  {
+   "office": "City of Panama City Clerical Revisions",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 58.4,
+     "votes": 6548
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 41.6,
+     "votes": 4665
     }
    ]
   }

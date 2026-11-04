@@ -1,7 +1,7 @@
 {
  "county": "hillsborough",
  "url": "https://enr.electionsfl.org/HIL/4074/Summary/",
- "pulledAt": "2026-11-04T03:55:20Z",
+ "pulledAt": "2026-11-04T04:12:13Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -116,6 +116,1243 @@
      "party": "NON",
      "pct": 56.9,
      "votes": 265068
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 446,
+   "precincts": 446,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 44.9,
+     "votes": 231910
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 53.9,
+     "votes": 278352
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.2,
+     "votes": 6192
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 12",
+   "reported": 130,
+   "precincts": 130,
+   "candidates": [
+    {
+     "name": "Gus Michael Bilirakis",
+     "party": "REP",
+     "pct": 45.06,
+     "votes": 62155
+    },
+    {
+     "name": "Kimberly Overman",
+     "party": "DEM",
+     "pct": 53.68,
+     "votes": 74038
+    },
+    {
+     "name": "Branden Scrivener",
+     "party": "NPA",
+     "pct": 1.26,
+     "votes": 1743
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 14",
+   "reported": 234,
+   "precincts": 234,
+   "candidates": [
+    {
+     "name": "Mike Beltran",
+     "party": "REP",
+     "pct": 45.83,
+     "votes": 137599
+    },
+    {
+     "name": "Kathy Castor",
+     "party": "DEM",
+     "pct": 51.16,
+     "votes": 153586
+    },
+    {
+     "name": "Brian Lambert",
+     "party": "LPF",
+     "pct": 2.91,
+     "votes": 8730
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.1,
+     "votes": 311
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 15",
+   "reported": 88,
+   "precincts": 88,
+   "candidates": [
+    {
+     "name": "Laurel Lee",
+     "party": "REP",
+     "pct": 29.82,
+     "votes": 22728
+    },
+    {
+     "name": "Robert People",
+     "party": "DEM",
+     "pct": 70.01,
+     "votes": 53371
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.17,
+     "votes": 131
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 446,
+   "precincts": 446,
+   "candidates": [
+    {
+     "name": "Byron Donalds",
+     "party": "REP",
+     "pct": 43.41,
+     "votes": 224268
+    },
+    {
+     "name": "David Jolly",
+     "party": "DEM",
+     "pct": 54.98,
+     "votes": 284062
+    },
+    {
+     "name": "Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.57,
+     "votes": 2957
+    },
+    {
+     "name": "Charles Burkett",
+     "party": "NPA",
+     "pct": 0.16,
+     "votes": 812
+    },
+    {
+     "name": "Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.31,
+     "votes": 1586
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.11,
+     "votes": 578
+    },
+    {
+     "name": "Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.16,
+     "votes": 814
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.12,
+     "votes": 641
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.18,
+     "votes": 914
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 446,
+   "precincts": 446,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 44.69,
+     "votes": 229232
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 55.31,
+     "votes": 283663
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 446,
+   "precincts": 446,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 45.1,
+     "votes": 229851
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 54.9,
+     "votes": 279740
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 446,
+   "precincts": 446,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 44.79,
+     "votes": 228580
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 54.84,
+     "votes": 279857
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.36,
+     "votes": 1849
+    }
+   ]
+  },
+  {
+   "office": "State Senator District 14",
+   "reported": 157,
+   "precincts": 157,
+   "candidates": [
+    {
+     "name": "Josie Tomkow",
+     "party": "REP",
+     "pct": 47.76,
+     "votes": 92469
+    },
+    {
+     "name": "Brian Nathan",
+     "party": "DEM",
+     "pct": 52.24,
+     "votes": 101132
+    }
+   ]
+  },
+  {
+   "office": "State Senator District 20",
+   "reported": 77,
+   "precincts": 77,
+   "candidates": [
+    {
+     "name": "Jim Boyd",
+     "party": "REP",
+     "pct": 49.72,
+     "votes": 51765
+    },
+    {
+     "name": "Gerald Baldi",
+     "party": "DEM",
+     "pct": 50.28,
+     "votes": 52350
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 64",
+   "reported": 45,
+   "precincts": 45,
+   "candidates": [
+    {
+     "name": "Dan Weldon",
+     "party": "REP",
+     "pct": 41.05,
+     "votes": 18194
+    },
+    {
+     "name": "Luis Salazar",
+     "party": "DEM",
+     "pct": 58.95,
+     "votes": 26126
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 65",
+   "reported": 52,
+   "precincts": 52,
+   "candidates": [
+    {
+     "name": "Karen Gonzalez Pittman",
+     "party": "REP",
+     "pct": 50.98,
+     "votes": 36911
+    },
+    {
+     "name": "Ben Braver",
+     "party": "DEM",
+     "pct": 49.02,
+     "votes": 35494
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 66",
+   "reported": 66,
+   "precincts": 66,
+   "candidates": [
+    {
+     "name": "Traci Koster",
+     "party": "REP",
+     "pct": 52.54,
+     "votes": 39796
+    },
+    {
+     "name": "Jose A. \"Dante\" Sanchez Sanchez",
+     "party": "DEM",
+     "pct": 47.46,
+     "votes": 35948
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 67",
+   "reported": 55,
+   "precincts": 55,
+   "candidates": [
+    {
+     "name": "Lisette Bonano",
+     "party": "REP",
+     "pct": 33.63,
+     "votes": 17468
+    },
+    {
+     "name": "Luis Viera",
+     "party": "DEM",
+     "pct": 66.37,
+     "votes": 34466
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 68",
+   "reported": 50,
+   "precincts": 50,
+   "candidates": [
+    {
+     "name": "Ryan Gill",
+     "party": "REP",
+     "pct": 56.6,
+     "votes": 35916
+    },
+    {
+     "name": "Tony Smith",
+     "party": "DEM",
+     "pct": 43.4,
+     "votes": 27545
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 69",
+   "reported": 55,
+   "precincts": 55,
+   "candidates": [
+    {
+     "name": "Daniel \"Danny\" Alvarez",
+     "party": "REP",
+     "pct": 48.35,
+     "votes": 33130
+    },
+    {
+     "name": "Ashley Elizabeth Herrmann",
+     "party": "DEM",
+     "pct": 51.65,
+     "votes": 35388
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 70",
+   "reported": 45,
+   "precincts": 45,
+   "candidates": [
+    {
+     "name": "Michael Owen",
+     "party": "REP",
+     "pct": 48.2,
+     "votes": 30562
+    },
+    {
+     "name": "Luther Keith Wilkins",
+     "party": "DEM",
+     "pct": 51.8,
+     "votes": 32846
+    }
+   ]
+  },
+  {
+   "office": "Board of County Commissioners District 1",
+   "reported": 111,
+   "precincts": 111,
+   "candidates": [
+    {
+     "name": "Jackie Toledo",
+     "party": "REP",
+     "pct": 44.33,
+     "votes": 52613
+    },
+    {
+     "name": "Harry Cohen",
+     "party": "DEM",
+     "pct": 55.67,
+     "votes": 66066
+    }
+   ]
+  },
+  {
+   "office": "Board of County Commissioners District 3",
+   "reported": 96,
+   "precincts": 96,
+   "candidates": [
+    {
+     "name": "Luiz F. F. Garcia",
+     "party": "REP",
+     "pct": 27.56,
+     "votes": 27090
+    },
+    {
+     "name": "Gwen Myers",
+     "party": "DEM",
+     "pct": 72.44,
+     "votes": 71204
+    }
+   ]
+  },
+  {
+   "office": "Board of County Commissioners District 5",
+   "reported": 446,
+   "precincts": 446,
+   "candidates": [
+    {
+     "name": "Stacy Hahn",
+     "party": "REP",
+     "pct": 45.14,
+     "votes": 229491
+    },
+    {
+     "name": "Neil Manimala",
+     "party": "DEM",
+     "pct": 54.86,
+     "votes": 278855
+    }
+   ]
+  },
+  {
+   "office": "Board of County Commissioners District 7",
+   "reported": 446,
+   "precincts": 446,
+   "candidates": [
+    {
+     "name": "Joshua Wostal",
+     "party": "REP",
+     "pct": 43.79,
+     "votes": 222112
+    },
+    {
+     "name": "Aileen Rodriguez",
+     "party": "DEM",
+     "pct": 56.21,
+     "votes": 285081
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court; Retain Carlos G. Muniz",
+   "reported": 446,
+   "precincts": 446,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 53.96,
+     "votes": 253674
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 46.04,
+     "votes": 216413
+    }
+   ]
+  },
+  {
+   "office": "District Court of Appeal; Retain Drew Atkinson",
+   "reported": 446,
+   "precincts": 446,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 57.92,
+     "votes": 271883
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 42.08,
+     "votes": 197543
+    }
+   ]
+  },
+  {
+   "office": "District Court of Appeal; Retain Morris Silberman",
+   "reported": 446,
+   "precincts": 446,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 64.18,
+     "votes": 298781
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 35.82,
+     "votes": 166791
+    }
+   ]
+  },
+  {
+   "office": "District Court of Appeal; Retain Daniel H. Sleet",
+   "reported": 446,
+   "precincts": 446,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 57.79,
+     "votes": 269829
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 42.21,
+     "votes": 197054
+    }
+   ]
+  },
+  {
+   "office": "District Court of Appeal; Retain Andrea Teves Smith",
+   "reported": 446,
+   "precincts": 446,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 61.59,
+     "votes": 287495
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 38.41,
+     "votes": 179329
+    }
+   ]
+  },
+  {
+   "office": "School Board Member District 2",
+   "reported": 92,
+   "precincts": 92,
+   "candidates": [
+    {
+     "name": "Brittany Lyssy",
+     "party": "NON",
+     "pct": 47.83,
+     "votes": 52730
+    },
+    {
+     "name": "Daniela Simic",
+     "party": "NON",
+     "pct": 52.17,
+     "votes": 57508
+    }
+   ]
+  },
+  {
+   "office": "School Board Member District 6",
+   "reported": 446,
+   "precincts": 446,
+   "candidates": [
+    {
+     "name": "Kenneth \"Ken\" Gay",
+     "party": "NON",
+     "pct": 43.1,
+     "votes": 200762
+    },
+    {
+     "name": "Karen Perez",
+     "party": "NON",
+     "pct": 56.9,
+     "votes": 265068
+    }
+   ]
+  },
+  {
+   "office": "Temple Terrace City Council",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Alison McGillivray Fernandez",
+     "party": "NON",
+     "pct": 28.49,
+     "votes": 4828
+    },
+    {
+     "name": "Ryan Gessman",
+     "party": "NON",
+     "pct": 15.41,
+     "votes": 2611
+    },
+    {
+     "name": "Karen Michalski",
+     "party": "NON",
+     "pct": 25.2,
+     "votes": 4270
+    },
+    {
+     "name": "Eugene Papantoniou",
+     "party": "NON",
+     "pct": 11.53,
+     "votes": 1953
+    },
+    {
+     "name": "Amber Treat",
+     "party": "NON",
+     "pct": 19.37,
+     "votes": 3282
+    }
+   ]
+  },
+  {
+   "office": "Supervisor Avelar Creek CDD Seat 3",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Frank B. Franco",
+     "party": "NON",
+     "pct": 48.11,
+     "votes": 216
+    },
+    {
+     "name": "Sebastian Johnson",
+     "party": "NON",
+     "pct": 51.89,
+     "votes": 233
+    }
+   ]
+  },
+  {
+   "office": "Supervisor Avelar Creek CDD Seat 4",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Julie Campbell",
+     "party": "NON",
+     "pct": 63.53,
+     "votes": 284
+    },
+    {
+     "name": "Edwin Guillot",
+     "party": "NON",
+     "pct": 36.47,
+     "votes": 163
+    }
+   ]
+  },
+  {
+   "office": "Supervisor Cory Lakes CDD Seat 5",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Pallu Gupta",
+     "party": "NON",
+     "pct": 56.71,
+     "votes": 718
+    },
+    {
+     "name": "Cynthia McIntyre",
+     "party": "NON",
+     "pct": 43.29,
+     "votes": 548
+    }
+   ]
+  },
+  {
+   "office": "Supervisor Covington Park CDD Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Stephen J. Brown",
+     "party": "NON",
+     "pct": 62.15,
+     "votes": 660
+    },
+    {
+     "name": "Rick L. Reidt",
+     "party": "NON",
+     "pct": 37.85,
+     "votes": 402
+    }
+   ]
+  },
+  {
+   "office": "Supervisor Diamond Hill CDD Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Linda L. Dunn",
+     "party": "NON",
+     "pct": 47.55,
+     "votes": 233
+    },
+    {
+     "name": "John I. Pollard",
+     "party": "NON",
+     "pct": 52.45,
+     "votes": 257
+    }
+   ]
+  },
+  {
+   "office": "Supervisor Fishhawk Ranch CDD Seat 4",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "India Crawford",
+     "party": "NON",
+     "pct": 56.98,
+     "votes": 3162
+    },
+    {
+     "name": "Dennis Moore",
+     "party": "NON",
+     "pct": 43.02,
+     "votes": 2387
+    }
+   ]
+  },
+  {
+   "office": "Supervisor Harbor Bay CDD Seat 2",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Daniel J. Leventry",
+     "party": "NON",
+     "pct": 80.75,
+     "votes": 1393
+    },
+    {
+     "name": "John Vollbrecht",
+     "party": "NON",
+     "pct": 19.25,
+     "votes": 332
+    }
+   ]
+  },
+  {
+   "office": "Supervisor Hidden Creek CDD Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Zoe Anene",
+     "party": "NON",
+     "pct": 45.71,
+     "votes": 453
+    },
+    {
+     "name": "Barbara A. Kargol",
+     "party": "NON",
+     "pct": 54.29,
+     "votes": 538
+    }
+   ]
+  },
+  {
+   "office": "Supervisor Hidden Creek CDD Seat 5",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Harry Payton Gibson",
+     "party": "NON",
+     "pct": 25.49,
+     "votes": 249
+    },
+    {
+     "name": "Thomas H. Marrone",
+     "party": "NON",
+     "pct": 34.6,
+     "votes": 338
+    },
+    {
+     "name": "Elizabeth \"Liz\" Santeramo",
+     "party": "NON",
+     "pct": 39.92,
+     "votes": 390
+    }
+   ]
+  },
+  {
+   "office": "Supervisor K-Bar Ranch II CDD Seat 4",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "Kamolika Batabyal",
+     "party": "NON",
+     "pct": 56.7,
+     "votes": 347
+    },
+    {
+     "name": "Michele Emery",
+     "party": "NON",
+     "pct": 43.3,
+     "votes": 265
+    }
+   ]
+  },
+  {
+   "office": "Supervisor Lake St. Charles CDD Seat 1",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Ginny Gianakos",
+     "party": "NON",
+     "pct": 41.71,
+     "votes": 400
+    },
+    {
+     "name": "Stephanie Hinson",
+     "party": "NON",
+     "pct": 48.91,
+     "votes": 469
+    },
+    {
+     "name": "Ana Loney",
+     "party": "NON",
+     "pct": 9.38,
+     "votes": 90
+    }
+   ]
+  },
+  {
+   "office": "Supervisor Lake St. Charles CDD Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yvonne Brown",
+     "party": "NON",
+     "pct": 58.03,
+     "votes": 448
+    },
+    {
+     "name": "Toni Kristina Rhodus",
+     "party": "NON",
+     "pct": 41.97,
+     "votes": 324
+    }
+   ]
+  },
+  {
+   "office": "Supervisor River Bend CDD Seat 3",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Lance C. Belka",
+     "party": "NON",
+     "pct": 35.05,
+     "votes": 292
+    },
+    {
+     "name": "Shanell McMiller Brown",
+     "party": "NON",
+     "pct": 64.95,
+     "votes": 541
+    }
+   ]
+  },
+  {
+   "office": "Supervisor Rivercrest CDD Seat 1",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Robert F. Fuhrmeister IV",
+     "party": "NON",
+     "pct": 47.25,
+     "votes": 585
+    },
+    {
+     "name": "Joseph A. McGee Sr.",
+     "party": "NON",
+     "pct": 52.75,
+     "votes": 653
+    }
+   ]
+  },
+  {
+   "office": "Supervisor Shell Point CDD Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Jayce E. Donley",
+     "party": "NON",
+     "pct": 37.95,
+     "votes": 222
+    },
+    {
+     "name": "Brittany Schwartzbauer",
+     "party": "NON",
+     "pct": 62.05,
+     "votes": 363
+    }
+   ]
+  },
+  {
+   "office": "Supervisor South Fork III CDD Seat 3",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Scott Corder",
+     "party": "NON",
+     "pct": 46.55,
+     "votes": 581
+    },
+    {
+     "name": "Dustin Heflin",
+     "party": "NON",
+     "pct": 53.45,
+     "votes": 667
+    }
+   ]
+  },
+  {
+   "office": "Supervisor South Fork III CDD Seat 5",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Darryl F. Dew",
+     "party": "NON",
+     "pct": 36.62,
+     "votes": 457
+    },
+    {
+     "name": "Jessica Ocasio",
+     "party": "NON",
+     "pct": 63.38,
+     "votes": 791
+    }
+   ]
+  },
+  {
+   "office": "Supervisor Southshore Bay CDD Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Diane C. Anderson",
+     "party": "NON",
+     "pct": 64.98,
+     "votes": 308
+    },
+    {
+     "name": "Kathleen Robinson",
+     "party": "NON",
+     "pct": 35.02,
+     "votes": 166
+    }
+   ]
+  },
+  {
+   "office": "Supervisor Spring Lake CDD Seat 1",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Danny R. Donegan Jr.",
+     "party": "NON",
+     "pct": 47.75,
+     "votes": 435
+    },
+    {
+     "name": "Kenneth A. Hoefle",
+     "party": "NON",
+     "pct": 52.25,
+     "votes": 476
+    }
+   ]
+  },
+  {
+   "office": "Supervisor Triple Creek CDD Seat 1",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Marc Carlton",
+     "party": "NON",
+     "pct": 31.85,
+     "votes": 674
+    },
+    {
+     "name": "Mirtha Amalia Moreno",
+     "party": "NON",
+     "pct": 68.15,
+     "votes": 1442
+    }
+   ]
+  },
+  {
+   "office": "Supervisor Triple Creek CDD Seat 2",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "David Galloway",
+     "party": "NON",
+     "pct": 46.11,
+     "votes": 967
+    },
+    {
+     "name": "Shannon Lewis",
+     "party": "NON",
+     "pct": 36.62,
+     "votes": 768
+    },
+    {
+     "name": "Jodi Steel",
+     "party": "NON",
+     "pct": 17.26,
+     "votes": 362
+    }
+   ]
+  },
+  {
+   "office": "Supervisor Waterleaf CDD Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Alex Auld",
+     "party": "NON",
+     "pct": 41.03,
+     "votes": 304
+    },
+    {
+     "name": "Palmer Johnson",
+     "party": "NON",
+     "pct": 58.97,
+     "votes": 437
+    }
+   ]
+  },
+  {
+   "office": "Supervisor Waterleaf CDD Seat 3",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Nichole Ann Hawkins",
+     "party": "NON",
+     "pct": 53.42,
+     "votes": 398
+    },
+    {
+     "name": "Matthew Lenard",
+     "party": "NON",
+     "pct": 46.58,
+     "votes": 347
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment Article III, Section 19",
+   "reported": 446,
+   "precincts": 446,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 38.28,
+     "votes": 188268
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 61.72,
+     "votes": 303587
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment Article VII, Section 3; Article XII",
+   "reported": 446,
+   "precincts": 446,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 55.55,
+     "votes": 274592
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 44.45,
+     "votes": 219690
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment Article VII, Sections 4, 6, and 9; Article XII",
+   "reported": 446,
+   "precincts": 446,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 59.62,
+     "votes": 298633
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 40.38,
+     "votes": 202249
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Hillsborough County Referendum",
+   "reported": 446,
+   "precincts": 446,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 58.1,
+     "votes": 287996
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 41.9,
+     "votes": 207669
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Hillsborough County Referendum",
+   "reported": 446,
+   "precincts": 446,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 51.72,
+     "votes": 253488
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 48.28,
+     "votes": 236601
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Hillsborough County Referendum",
+   "reported": 446,
+   "precincts": 446,
+   "candidates": [
+    {
+     "name": "For the one-half cent tax",
+     "party": null,
+     "pct": 61.55,
+     "votes": 306289
+    },
+    {
+     "name": "Against the one-half cent tax",
+     "party": null,
+     "pct": 38.45,
+     "votes": 191375
+    }
+   ]
+  },
+  {
+   "office": "Country Run Special Tax District Referendum",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 33.12,
+     "votes": 103
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 66.88,
+     "votes": 208
     }
    ]
   }

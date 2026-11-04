@@ -1,7 +1,7 @@
 {
  "county": "clay",
  "url": "https://enr.electionsfl.org/CLA/4086/Summary/",
- "pulledAt": "2026-11-04T03:55:18Z",
+ "pulledAt": "2026-11-04T04:12:13Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -21,6 +21,479 @@
      "party": "DEM",
      "pct": 55.05,
      "votes": 9284
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 48,
+   "precincts": 48,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 64.48,
+     "votes": 60123
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 34.32,
+     "votes": 32004
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.2,
+     "votes": 1119
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 4",
+   "reported": 48,
+   "precincts": 48,
+   "candidates": [
+    {
+     "name": "Aaron Bean",
+     "party": "REP",
+     "pct": 65.34,
+     "votes": 60809
+    },
+    {
+     "name": "LaShonda \"L.J.\" Holloway",
+     "party": "DEM",
+     "pct": 32.92,
+     "votes": 30638
+    },
+    {
+     "name": "Mike Sell",
+     "party": "FFP",
+     "pct": 0.65,
+     "votes": 609
+    },
+    {
+     "name": "Todd Schaefer",
+     "party": "NPA",
+     "pct": 1.08,
+     "votes": 1007
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 48,
+   "precincts": 48,
+   "candidates": [
+    {
+     "name": "Byron Donalds / Bryan Avila",
+     "party": "REP",
+     "pct": 63.6,
+     "votes": 59200
+    },
+    {
+     "name": "David Jolly / Gwen Graham",
+     "party": "DEM",
+     "pct": 34.63,
+     "votes": 32232
+    },
+    {
+     "name": "Scott Eckhard Jewett / Nicole Skelly",
+     "party": "LPF",
+     "pct": 0.58,
+     "votes": 541
+    },
+    {
+     "name": "Charles Burkett / Ruben A. Coto",
+     "party": "NPA",
+     "pct": 0.25,
+     "votes": 233
+    },
+    {
+     "name": "Frank J. Russo / Rachel Rodriguez",
+     "party": "NPA",
+     "pct": 0.24,
+     "votes": 223
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche / Benjiman Rojas",
+     "party": "NPA",
+     "pct": 0.09,
+     "votes": 87
+    },
+    {
+     "name": "Dean Ocean Abrams / Joe Van Vactor",
+     "party": "NPA",
+     "pct": 0.21,
+     "votes": 198
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto / Juan Santana",
+     "party": "NPA",
+     "pct": 0.08,
+     "votes": 73
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.32,
+     "votes": 295
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 48,
+   "precincts": 48,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 65.42,
+     "votes": 60118
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 34.58,
+     "votes": 31782
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 48,
+   "precincts": 48,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 65.22,
+     "votes": 60194
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 34.78,
+     "votes": 32105
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 48,
+   "precincts": 48,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 64.9,
+     "votes": 59880
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 34.77,
+     "votes": 32085
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.33,
+     "votes": 303
+    }
+   ]
+  },
+  {
+   "office": "State Senator District 6",
+   "reported": 48,
+   "precincts": 48,
+   "candidates": [
+    {
+     "name": "Jennifer Bradley",
+     "party": "REP",
+     "pct": 64.81,
+     "votes": 59881
+    },
+    {
+     "name": "Jason Bellamy-Fults",
+     "party": "DEM",
+     "pct": 34.14,
+     "votes": 31545
+    },
+    {
+     "name": "Joseph Thornton",
+     "party": "ASP",
+     "pct": 1.04,
+     "votes": 962
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 20",
+   "reported": 15,
+   "precincts": 15,
+   "candidates": [
+    {
+     "name": "Judson Sapp",
+     "party": "REP",
+     "pct": 75.37,
+     "votes": 13942
+    },
+    {
+     "name": "Lee Butler",
+     "party": "DEM",
+     "pct": 24.63,
+     "votes": 4556
+    }
+   ]
+  },
+  {
+   "office": "Board of County Commissioners District 2",
+   "reported": 6,
+   "precincts": 6,
+   "candidates": [
+    {
+     "name": "Lolita Smoak",
+     "party": "REP",
+     "pct": 44.95,
+     "votes": 7582
+    },
+    {
+     "name": "Leroy A. Edwards",
+     "party": "DEM",
+     "pct": 55.05,
+     "votes": 9284
+    }
+   ]
+  },
+  {
+   "office": "Shall Justice Carlos G. Muniz of the Supreme Court be retained in office?",
+   "reported": 48,
+   "precincts": 48,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 60.75,
+     "votes": 52191
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 39.25,
+     "votes": 33723
+    }
+   ]
+  },
+  {
+   "office": "Shall Judge John M. Harris of the Fifth District Court of Appeal be retained in office?",
+   "reported": 48,
+   "precincts": 48,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 62.55,
+     "votes": 53771
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 37.45,
+     "votes": 32195
+    }
+   ]
+  },
+  {
+   "office": "Shall Judge Scott D. Makar of the Fifth District Court of Appeal be retained in office?",
+   "reported": 48,
+   "precincts": 48,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 61.57,
+     "votes": 52888
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 38.43,
+     "votes": 33010
+    }
+   ]
+  },
+  {
+   "office": "Shall Judge F. Rand Wallis of the Fifth District Court of Appeal be retained in office?",
+   "reported": 48,
+   "precincts": 48,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 61.28,
+     "votes": 52384
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 38.72,
+     "votes": 33096
+    }
+   ]
+  },
+  {
+   "office": "Fleming Island Plantation Community Development District, Seat 5",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Dennis Metheny",
+     "party": null,
+     "pct": 45.73,
+     "votes": 1173
+    },
+    {
+     "name": "Michelle Szafranski",
+     "party": null,
+     "pct": 54.27,
+     "votes": 1392
+    }
+   ]
+  },
+  {
+   "office": "Magnolia West Community Development District, Seat 3",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Judith Linde",
+     "party": null,
+     "pct": 29.79,
+     "votes": 140
+    },
+    {
+     "name": "Geoffrey Rovegno",
+     "party": null,
+     "pct": 70.21,
+     "votes": 330
+    }
+   ]
+  },
+  {
+   "office": "South Village Community Development District, Seat 3",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Leslie G. Lewis",
+     "party": null,
+     "pct": 53.9,
+     "votes": 1065
+    },
+    {
+     "name": "TJ Morales",
+     "party": null,
+     "pct": 46.1,
+     "votes": 911
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment Article III, Section 19- Budget Stabilization Fund",
+   "reported": 48,
+   "precincts": 48,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 39.05,
+     "votes": 34993
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 60.95,
+     "votes": 54616
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment Article VII Section 3 Article XII-Exemption of Tangible Personal Property on Agricultural Land from Taxation",
+   "reported": 48,
+   "precincts": 48,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 65.47,
+     "votes": 58833
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 34.53,
+     "votes": 31029
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment, Article VII, Sections 4, 6 and 9, Article XII-Increased Homestead Exemption; Lower Cap on Increased in Non-Homestead Property Assessments",
+   "reported": 48,
+   "precincts": 48,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 65.45,
+     "votes": 59531
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 34.55,
+     "votes": 31423
+    }
+   ]
+  },
+  {
+   "office": "Charter Amendment Revising Commissioner Salary Provisions",
+   "reported": 48,
+   "precincts": 48,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 31.46,
+     "votes": 27910
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 68.54,
+     "votes": 60794
+    }
+   ]
+  },
+  {
+   "office": "Protect Student Safety and Retain Quality Teachers and Staff by Renewing an Ad Valorem Millage",
+   "reported": 48,
+   "precincts": 48,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 77.57,
+     "votes": 70142
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 22.43,
+     "votes": 20277
     }
    ]
   }

@@ -1,7 +1,7 @@
 {
  "county": "wakulla",
  "url": "https://enr.electionsfl.org/WAK/4128/Summary/",
- "pulledAt": "2026-11-04T03:55:24Z",
+ "pulledAt": "2026-11-04T04:12:15Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -27,6 +27,429 @@
      "party": "NPA",
      "pct": 1.67,
      "votes": 250
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "REP Ashley Moody",
+     "party": "REP",
+     "pct": 66.6,
+     "votes": 10072
+    },
+    {
+     "name": "DEM Angie Nixon",
+     "party": "DEM",
+     "pct": 32.23,
+     "votes": 4874
+    },
+    {
+     "name": "NPA Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.17,
+     "votes": 177
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 2",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "REP Austin Rogers",
+     "party": "REP",
+     "pct": 64.76,
+     "votes": 9737
+    },
+    {
+     "name": "DEM Amanda Marie Green",
+     "party": "DEM",
+     "pct": 35.24,
+     "votes": 5298
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "REP Byron Donalds",
+     "party": "REP",
+     "pct": 64.84,
+     "votes": 9792
+    },
+    {
+     "name": "DEM David Jolly",
+     "party": "DEM",
+     "pct": 33.68,
+     "votes": 5086
+    },
+    {
+     "name": "LPF Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.54,
+     "votes": 81
+    },
+    {
+     "name": "NPA Charles Burkett",
+     "party": "NPA",
+     "pct": 0.17,
+     "votes": 26
+    },
+    {
+     "name": "NPA Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.24,
+     "votes": 36
+    },
+    {
+     "name": "NPA Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.04,
+     "votes": 6
+    },
+    {
+     "name": "NPA Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.15,
+     "votes": 23
+    },
+    {
+     "name": "NPA Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.04,
+     "votes": 6
+    },
+    {
+     "name": "Write-in",
+     "party": "NPA",
+     "pct": 0.3,
+     "votes": 46
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "REP James Uthmeier",
+     "party": "REP",
+     "pct": 67.63,
+     "votes": 10160
+    },
+    {
+     "name": "DEM Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 32.37,
+     "votes": 4863
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "REP Blaise Ingoglia",
+     "party": "REP",
+     "pct": 66.76,
+     "votes": 9993
+    },
+    {
+     "name": "DEM Annette Taddeo",
+     "party": "DEM",
+     "pct": 33.24,
+     "votes": 4975
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "REP Wilton Simpson",
+     "party": "REP",
+     "pct": 67.42,
+     "votes": 10101
+    },
+    {
+     "name": "DEM Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 32.32,
+     "votes": 4843
+    },
+    {
+     "name": "Write-in",
+     "party": "NPA",
+     "pct": 0.26,
+     "votes": 39
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner District 4",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "REP Carrie Hughes",
+     "party": "REP",
+     "pct": 69.89,
+     "votes": 10489
+    },
+    {
+     "name": "DEM Beverly Keister",
+     "party": "DEM",
+     "pct": 28.44,
+     "votes": 4269
+    },
+    {
+     "name": "NPA Patricia Sue Dyszer",
+     "party": "NPA",
+     "pct": 1.67,
+     "votes": 250
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court - Carlos G. Muniz",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 61.4,
+     "votes": 8537
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 38.6,
+     "votes": 5368
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal Joseph Lewis, Jr.",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 63.62,
+     "votes": 8764
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 36.38,
+     "votes": 5012
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal Rachel Nordby",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 62.7,
+     "votes": 8595
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 37.3,
+     "votes": 5113
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal Tim Osterhaus",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 61.42,
+     "votes": 8392
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 38.58,
+     "votes": 5272
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal Clay Roberts",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 62.42,
+     "votes": 8531
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 37.58,
+     "votes": 5136
+    }
+   ]
+  },
+  {
+   "office": "First District Court of Appeal Raymond Treadwell",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 62.73,
+     "votes": 8596
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 37.27,
+     "votes": 5107
+    }
+   ]
+  },
+  {
+   "office": "St. Marks City Commissioner  Seat 3 City of St Marks",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Corey Ingram",
+     "party": "NPA",
+     "pct": 47.65,
+     "votes": 71
+    },
+    {
+     "name": "Crystal McGrath",
+     "party": "NPA",
+     "pct": 52.35,
+     "votes": 78
+    }
+   ]
+  },
+  {
+   "office": "St. Marks City Commissioner  Seat 4 City of St Marks",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Jeremy Alday",
+     "party": "NPA",
+     "pct": 31.54,
+     "votes": 47
+    },
+    {
+     "name": "Billy Bishop",
+     "party": "NPA",
+     "pct": 68.46,
+     "votes": 102
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment Article III, Section 19",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 40.61,
+     "votes": 5873
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 59.39,
+     "votes": 8590
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment Article VII, Section 3 Article XII",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 66.47,
+     "votes": 9722
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 33.53,
+     "votes": 4904
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment Article VII, Sections 4, 6 and 9 Article XII",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 66.73,
+     "votes": 9866
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 33.27,
+     "votes": 4920
+    }
+   ]
+  },
+  {
+   "office": "Wakulla County School Board  Referendum No. 2026-35",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NPA",
+     "pct": 55.98,
+     "votes": 8300
+    },
+    {
+     "name": "No",
+     "party": "NPA",
+     "pct": 44.02,
+     "votes": 6527
     }
    ]
   }

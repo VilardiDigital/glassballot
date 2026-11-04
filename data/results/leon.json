@@ -1,7 +1,7 @@
 {
  "county": "leon",
  "url": "https://enr.electionsfl.org/LEO/4072/Summary/",
- "pulledAt": "2026-11-04T03:55:21Z",
+ "pulledAt": "2026-11-04T04:12:14Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -78,6 +78,708 @@
      "party": null,
      "pct": 5.16,
      "votes": 1186
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "US Senator",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 33.96,
+     "votes": 42098
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 65.01,
+     "votes": 80584
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.03,
+     "votes": 1271
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress, District 2",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "Austin Rogers",
+     "party": "REP",
+     "pct": 32.11,
+     "votes": 39424
+    },
+    {
+     "name": "Amanda Marie Green",
+     "party": "DEM",
+     "pct": 67.89,
+     "votes": 83344
+    }
+   ]
+  },
+  {
+   "office": "Governor",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "Byron Donalds",
+     "party": "REP",
+     "pct": 32.01,
+     "votes": 39718
+    },
+    {
+     "name": "David Jolly",
+     "party": "DEM",
+     "pct": 66.78,
+     "votes": 82853
+    },
+    {
+     "name": "Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.38,
+     "votes": 467
+    },
+    {
+     "name": "Charles Burkett",
+     "party": "NPA",
+     "pct": 0.12,
+     "votes": 148
+    },
+    {
+     "name": "Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.21,
+     "votes": 266
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.11,
+     "votes": 134
+    },
+    {
+     "name": "Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.13,
+     "votes": 161
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.07,
+     "votes": 85
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.19,
+     "votes": 234
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 33.96,
+     "votes": 41687
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 66.04,
+     "votes": 81061
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 33.97,
+     "votes": 41362
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 66.03,
+     "votes": 80405
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 35.19,
+     "votes": 42961
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 64.6,
+     "votes": 78865
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.21,
+     "votes": 254
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 9",
+   "reported": 72,
+   "precincts": 72,
+   "candidates": [
+    {
+     "name": "Tracy Robinson",
+     "party": "REP",
+     "pct": 35.18,
+     "votes": 26821
+    },
+    {
+     "name": "Allison Tant",
+     "party": "DEM",
+     "pct": 64.82,
+     "votes": 49411
+    }
+   ]
+  },
+  {
+   "office": "Supreme Court - Carlos G. Muñiz",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 45.13,
+     "votes": 50643
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 54.87,
+     "votes": 61578
+    }
+   ]
+  },
+  {
+   "office": "District Court - Joseph Lewis Jr.",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 57.02,
+     "votes": 63058
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 42.98,
+     "votes": 47528
+    }
+   ]
+  },
+  {
+   "office": "District Court - Rachel Nordby",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 47.17,
+     "votes": 51848
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 52.83,
+     "votes": 58059
+    }
+   ]
+  },
+  {
+   "office": "District Court - Tim Osterhaus",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 47.08,
+     "votes": 51675
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 52.92,
+     "votes": 58086
+    }
+   ]
+  },
+  {
+   "office": "District Court - Clay Roberts",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 50.17,
+     "votes": 54985
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 49.83,
+     "votes": 54617
+    }
+   ]
+  },
+  {
+   "office": "District Court - Raymond Treadwell",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 46.32,
+     "votes": 50703
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 53.68,
+     "votes": 58768
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner, At Large, Group 2",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "Nick Maddox",
+     "party": null,
+     "pct": 95.15,
+     "votes": 94650
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 4.85,
+     "votes": 4825
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner, District 3",
+   "reported": 28,
+   "precincts": 28,
+   "candidates": [
+    {
+     "name": "C.B. Lorch",
+     "party": null,
+     "pct": 26.52,
+     "votes": 6083
+    },
+    {
+     "name": "Rick Minor",
+     "party": null,
+     "pct": 73.48,
+     "votes": 16853
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner, District 5",
+   "reported": 34,
+   "precincts": 34,
+   "candidates": [
+    {
+     "name": "David T. Hawkins",
+     "party": null,
+     "pct": 30.92,
+     "votes": 8013
+    },
+    {
+     "name": "David T. O'Keefe",
+     "party": null,
+     "pct": 69.08,
+     "votes": 17900
+    }
+   ]
+  },
+  {
+   "office": "School Board, District 1",
+   "reported": 27,
+   "precincts": 27,
+   "candidates": [
+    {
+     "name": "Alva \"Striplin\" Smith",
+     "party": null,
+     "pct": 94.84,
+     "votes": 21803
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 5.16,
+     "votes": 1186
+    }
+   ]
+  },
+  {
+   "office": "Mayor",
+   "reported": 80,
+   "precincts": 80,
+   "candidates": [
+    {
+     "name": "Loranne Ausley",
+     "party": null,
+     "pct": 49.13,
+     "votes": 35363
+    },
+    {
+     "name": "Jeremy Matlow",
+     "party": null,
+     "pct": 50.87,
+     "votes": 36610
+    }
+   ]
+  },
+  {
+   "office": "City Commissioner, Seat 3",
+   "reported": 80,
+   "precincts": 80,
+   "candidates": [
+    {
+     "name": "Tom Derzypolski",
+     "party": null,
+     "pct": 35.91,
+     "votes": 24582
+    },
+    {
+     "name": "P.J. Perez",
+     "party": null,
+     "pct": 64.09,
+     "votes": 43872
+    }
+   ]
+  },
+  {
+   "office": "City Commissioner, Seat 5",
+   "reported": 80,
+   "precincts": 80,
+   "candidates": [
+    {
+     "name": "Dot Inman-Johnson",
+     "party": null,
+     "pct": 48.27,
+     "votes": 32915
+    },
+    {
+     "name": "Dianne Williams-Cox",
+     "party": null,
+     "pct": 51.73,
+     "votes": 35272
+    }
+   ]
+  },
+  {
+   "office": "Canopy Community Development District, Seat 1",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Rhod Jean Michlet Fenelus",
+     "party": null,
+     "pct": 44.24,
+     "votes": 169
+    },
+    {
+     "name": "Teegan Fiedler",
+     "party": null,
+     "pct": 55.76,
+     "votes": 213
+    }
+   ]
+  },
+  {
+   "office": "Capital Region Community Development District, Seat 5",
+   "reported": 4,
+   "precincts": 4,
+   "candidates": [
+    {
+     "name": "Kurt V. Christensen",
+     "party": null,
+     "pct": 32.24,
+     "votes": 877
+    },
+    {
+     "name": "Jennifer Jankowski Green",
+     "party": null,
+     "pct": 67.76,
+     "votes": 1843
+    }
+   ]
+  },
+  {
+   "office": "Piney-Z Community Development District, Seat 3",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Rick Hays",
+     "party": null,
+     "pct": 50.75,
+     "votes": 437
+    },
+    {
+     "name": "Diane K. Lamb",
+     "party": null,
+     "pct": 49.25,
+     "votes": 424
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment - Budget Stabilization Fund",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 33.19,
+     "votes": 38692
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 66.81,
+     "votes": 77873
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment - Personal Property Tax Exemption",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 43.91,
+     "votes": 51692
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 56.09,
+     "votes": 66035
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment - Homestead Tax Exemption",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 45.23,
+     "votes": 54246
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 54.77,
+     "votes": 65689
+    }
+   ]
+  },
+  {
+   "office": "County Charter Amendment - Ordinances",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "Yes for Approval",
+     "party": null,
+     "pct": 46.42,
+     "votes": 51284
+    },
+    {
+     "name": "No for Rejection",
+     "party": null,
+     "pct": 53.58,
+     "votes": 59195
+    }
+   ]
+  },
+  {
+   "office": "County Charter Amendment - Street Naming",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "Yes for Approval",
+     "party": null,
+     "pct": 62.94,
+     "votes": 71246
+    },
+    {
+     "name": "No for Rejection",
+     "party": null,
+     "pct": 37.06,
+     "votes": 41953
+    }
+   ]
+  },
+  {
+   "office": "County Charter Amendment - Human Dignity",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "Yes for Approval",
+     "party": null,
+     "pct": 65.38,
+     "votes": 72855
+    },
+    {
+     "name": "No for Rejection",
+     "party": null,
+     "pct": 34.62,
+     "votes": 38570
+    }
+   ]
+  },
+  {
+   "office": "County Charter Amendment - Outdated References",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "Yes for Approval",
+     "party": null,
+     "pct": 72.19,
+     "votes": 78089
+    },
+    {
+     "name": "No for Rejection",
+     "party": null,
+     "pct": 27.81,
+     "votes": 30084
+    }
+   ]
+  },
+  {
+   "office": "County Charter Amendment - Affirmation",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "Yes for Approval",
+     "party": null,
+     "pct": 64.7,
+     "votes": 71696
+    },
+    {
+     "name": "No for Rejection",
+     "party": null,
+     "pct": 35.3,
+     "votes": 39113
+    }
+   ]
+  },
+  {
+   "office": "School District Referendum - Extend Sales Tax",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "Yes = For the ½% (0.5 cents) tax",
+     "party": null,
+     "pct": 67.75,
+     "votes": 79061
+    },
+    {
+     "name": "No = Against the ½% (0.5 cents) tax",
+     "party": null,
+     "pct": 32.25,
+     "votes": 37634
+    }
+   ]
+  },
+  {
+   "office": "School District Referendum- Teacher Compensation",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "Yes = For the 1 mill levy",
+     "party": null,
+     "pct": 66.16,
+     "votes": 76747
+    },
+    {
+     "name": "No = Against the 1 mill levy",
+     "party": null,
+     "pct": 33.84,
+     "votes": 39258
+    }
+   ]
+  },
+  {
+   "office": "County Straw Ballot Question - Consolidation",
+   "reported": 134,
+   "precincts": 134,
+   "candidates": [
+    {
+     "name": "Yes = For the advisory proposal",
+     "party": null,
+     "pct": 39.51,
+     "votes": 44416
+    },
+    {
+     "name": "No = Against the advisory proposal",
+     "party": null,
+     "pct": 60.49,
+     "votes": 67995
     }
    ]
   }

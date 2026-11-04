@@ -1,7 +1,7 @@
 {
  "county": "hernando",
  "url": "https://enr.electionsfl.org/HER/4106/Summary/",
- "pulledAt": "2026-11-04T03:55:20Z",
+ "pulledAt": "2026-11-04T04:12:13Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -40,6 +40,473 @@
      "party": null,
      "pct": 45.9,
      "votes": 33544
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 32,
+   "precincts": 32,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 63.94,
+     "votes": 51265
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 34.65,
+     "votes": 27783
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.41,
+     "votes": 1133
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress, District 15",
+   "reported": 32,
+   "precincts": 32,
+   "candidates": [
+    {
+     "name": "Laurel Lee",
+     "party": "REP",
+     "pct": 63.75,
+     "votes": 50763
+    },
+    {
+     "name": "Robert People",
+     "party": "DEM",
+     "pct": 36.08,
+     "votes": 28725
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.17,
+     "votes": 135
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 32,
+   "precincts": 32,
+   "candidates": [
+    {
+     "name": "Byron Donalds",
+     "party": "REP",
+     "pct": 62.5,
+     "votes": 50082
+    },
+    {
+     "name": "David Jolly",
+     "party": "DEM",
+     "pct": 35.7,
+     "votes": 28611
+    },
+    {
+     "name": "Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.58,
+     "votes": 468
+    },
+    {
+     "name": "Charles Burkett",
+     "party": "NPA",
+     "pct": 0.19,
+     "votes": 150
+    },
+    {
+     "name": "Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.34,
+     "votes": 269
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.07,
+     "votes": 59
+    },
+    {
+     "name": "Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.16,
+     "votes": 127
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.1,
+     "votes": 82
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.36,
+     "votes": 288
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 32,
+   "precincts": 32,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 64.27,
+     "votes": 51198
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 35.73,
+     "votes": 28469
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 32,
+   "precincts": 32,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 63.78,
+     "votes": 50652
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 36.22,
+     "votes": 28764
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 32,
+   "precincts": 32,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 63.75,
+     "votes": 50624
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 35.57,
+     "votes": 28247
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.68,
+     "votes": 536
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 52",
+   "reported": 8,
+   "precincts": 8,
+   "candidates": [
+    {
+     "name": "Samantha Scott",
+     "party": "REP",
+     "pct": 67.76,
+     "votes": 14240
+    },
+    {
+     "name": "Pamala Kaye Bivins",
+     "party": "DEM",
+     "pct": 32.24,
+     "votes": 6774
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 53",
+   "reported": 24,
+   "precincts": 24,
+   "candidates": [
+    {
+     "name": "Brian Hawkins",
+     "party": "REP",
+     "pct": 60.83,
+     "votes": 35365
+    },
+    {
+     "name": "Tony Claude",
+     "party": "DEM",
+     "pct": 37.42,
+     "votes": 21754
+    },
+    {
+     "name": "Christopher Anger",
+     "party": "CPF",
+     "pct": 1.74,
+     "votes": 1014
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner, District 4",
+   "reported": 32,
+   "precincts": 32,
+   "candidates": [
+    {
+     "name": "Jeff Holcomb",
+     "party": "REP",
+     "pct": 88.2,
+     "votes": 58118
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 11.8,
+     "votes": 7775
+    }
+   ]
+  },
+  {
+   "office": "Justice of the Supreme Court Muñiz",
+   "reported": 32,
+   "precincts": 32,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 64.57,
+     "votes": 46995
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 35.43,
+     "votes": 25790
+    }
+   ]
+  },
+  {
+   "office": "Fifth District Court of Appeal Harris",
+   "reported": 32,
+   "precincts": 32,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 66.18,
+     "votes": 47871
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 33.82,
+     "votes": 24468
+    }
+   ]
+  },
+  {
+   "office": "Fifth District Court of Appeal Makar",
+   "reported": 32,
+   "precincts": 32,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 65.13,
+     "votes": 46917
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 34.87,
+     "votes": 25124
+    }
+   ]
+  },
+  {
+   "office": "Fifth District Court of Appeal Wallis",
+   "reported": 32,
+   "precincts": 32,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 65.18,
+     "votes": 46876
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 34.82,
+     "votes": 25044
+    }
+   ]
+  },
+  {
+   "office": "School Board, District 5",
+   "reported": 32,
+   "precincts": 32,
+   "candidates": [
+    {
+     "name": "Kara Champion",
+     "party": null,
+     "pct": 54.1,
+     "votes": 39543
+    },
+    {
+     "name": "Susan Duval",
+     "party": null,
+     "pct": 45.9,
+     "votes": 33544
+    }
+   ]
+  },
+  {
+   "office": "Brooksville City Council Member, Seat 1",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Betty Erhard",
+     "party": null,
+     "pct": 46.26,
+     "votes": 1409
+    },
+    {
+     "name": "Robert Dan Watson",
+     "party": null,
+     "pct": 53.74,
+     "votes": 1637
+    }
+   ]
+  },
+  {
+   "office": "Brooksville City Council Member, Seat 4",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Noah Hodges",
+     "party": null,
+     "pct": 59.04,
+     "votes": 1783
+    },
+    {
+     "name": "Jennifer McCoskrie",
+     "party": null,
+     "pct": 40.96,
+     "votes": 1237
+    }
+   ]
+  },
+  {
+   "office": "Sterling Hill Community Development District, Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Darrin Bagnuolo",
+     "party": null,
+     "pct": 39.23,
+     "votes": 541
+    },
+    {
+     "name": "Laura Clark",
+     "party": null,
+     "pct": 60.77,
+     "votes": 838
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment",
+   "reported": 32,
+   "precincts": 32,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 38.84,
+     "votes": 29395
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 61.16,
+     "votes": 46285
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment",
+   "reported": 32,
+   "precincts": 32,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 66.82,
+     "votes": 51013
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 33.18,
+     "votes": 25332
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment",
+   "reported": 32,
+   "precincts": 32,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 69.42,
+     "votes": 54117
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 30.58,
+     "votes": 23834
+    }
+   ]
+  },
+  {
+   "office": "One-Half Cent Sales Surtax for Law Enforcement and Public Safety",
+   "reported": 32,
+   "precincts": 32,
+   "candidates": [
+    {
+     "name": "YES - For the one-half cent sales surtax",
+     "party": null,
+     "pct": 44.75,
+     "votes": 34745
+    },
+    {
+     "name": "NO - Against the one-half cent sales surtax",
+     "party": null,
+     "pct": 55.25,
+     "votes": 42906
     }
    ]
   }

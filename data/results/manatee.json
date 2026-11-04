@@ -1,7 +1,7 @@
 {
  "county": "manatee",
  "url": "https://enr.electionsfl.org/MAN/4126/Summary/",
- "pulledAt": "2026-11-04T03:55:21Z",
+ "pulledAt": "2026-11-04T04:12:14Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -13,14 +13,14 @@
     {
      "name": "Elizabeth \"Liz\" Arnold",
      "party": "REP",
-     "pct": 65.98,
-     "votes": 31930
+     "pct": 65.97,
+     "votes": 31934
     },
     {
      "name": "Sari Lindroos-Valimaki",
      "party": "DEM",
-     "pct": 33.92,
-     "votes": 16412
+     "pct": 33.93,
+     "votes": 16422
     },
     {
      "name": "Write-in",
@@ -38,14 +38,14 @@
     {
      "name": "Amanda Ballard",
      "party": "REP",
-     "pct": 50.43,
-     "votes": 10334
+     "pct": 50.42,
+     "votes": 10340
     },
     {
      "name": "Charles B. Smith Sr",
      "party": "DEM",
-     "pct": 49.57,
-     "votes": 10156
+     "pct": 49.58,
+     "votes": 10167
     }
    ]
   },
@@ -57,14 +57,14 @@
     {
      "name": "Tara Poulton",
      "party": "REP",
-     "pct": 58.09,
-     "votes": 103874
+     "pct": 58.08,
+     "votes": 103902
     },
     {
      "name": "Reggie Bellamy",
      "party": "DEM",
-     "pct": 41.91,
-     "votes": 74931
+     "pct": 41.92,
+     "votes": 75007
     }
    ]
   },
@@ -76,14 +76,14 @@
     {
      "name": "Sharon Jefferson",
      "party": "NON",
-     "pct": 52.14,
-     "votes": 9714
+     "pct": 52.13,
+     "votes": 9722
     },
     {
      "name": "Cindy Spray",
      "party": "NON",
-     "pct": 47.86,
-     "votes": 8918
+     "pct": 47.87,
+     "votes": 8926
     }
    ]
   },
@@ -95,14 +95,1201 @@
     {
      "name": "Camden \"Cam\" Bedinghaus",
      "party": "NON",
-     "pct": 51.67,
-     "votes": 22552
+     "pct": 51.66,
+     "votes": 22557
     },
     {
      "name": "Jonathan Mullis",
      "party": "NON",
-     "pct": 48.33,
-     "votes": 21094
+     "pct": 48.34,
+     "votes": 21107
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 71,
+   "precincts": 71,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 59.09,
+     "votes": 107566
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 39.71,
+     "votes": 72296
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 1.2,
+     "votes": 2179
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress, District 16",
+   "reported": 71,
+   "precincts": 71,
+   "candidates": [
+    {
+     "name": "Sydney Gruters",
+     "party": "REP",
+     "pct": 56.46,
+     "votes": 102391
+    },
+    {
+     "name": "Kelly Kirschner",
+     "party": "DEM",
+     "pct": 41.74,
+     "votes": 75696
+    },
+    {
+     "name": "Mark Davis",
+     "party": "NPA",
+     "pct": 1.8,
+     "votes": 3267
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 71,
+   "precincts": 71,
+   "candidates": [
+    {
+     "name": "Byron Donalds",
+     "party": "REP",
+     "pct": 57.57,
+     "votes": 104822
+    },
+    {
+     "name": "David Jolly",
+     "party": "DEM",
+     "pct": 41.1,
+     "votes": 74843
+    },
+    {
+     "name": "Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.41,
+     "votes": 740
+    },
+    {
+     "name": "Charles Burkett",
+     "party": "NPA",
+     "pct": 0.18,
+     "votes": 326
+    },
+    {
+     "name": "Frank J. Russo",
+     "party": "NPA",
+     "pct": 0.24,
+     "votes": 439
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche",
+     "party": "NPA",
+     "pct": 0.07,
+     "votes": 121
+    },
+    {
+     "name": "Dean Ocean Abrams",
+     "party": "NPA",
+     "pct": 0.17,
+     "votes": 318
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+     "party": "NPA",
+     "pct": 0.09,
+     "votes": 159
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.17,
+     "votes": 318
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 71,
+   "precincts": 71,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 59.44,
+     "votes": 107376
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 40.56,
+     "votes": 73270
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 71,
+   "precincts": 71,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 59.24,
+     "votes": 106447
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 40.76,
+     "votes": 73245
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 71,
+   "precincts": 71,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 59.25,
+     "votes": 106696
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 40.52,
+     "votes": 72970
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.23,
+     "votes": 407
+    }
+   ]
+  },
+  {
+   "office": "State Senator District 20",
+   "reported": 55,
+   "precincts": 55,
+   "candidates": [
+    {
+     "name": "Jim Boyd",
+     "party": "REP",
+     "pct": 60.41,
+     "votes": 82688
+    },
+    {
+     "name": "Gerald Baldi",
+     "party": "DEM",
+     "pct": 39.59,
+     "votes": 54184
+    }
+   ]
+  },
+  {
+   "office": "State Senator District 22",
+   "reported": 20,
+   "precincts": 20,
+   "candidates": [
+    {
+     "name": "James Buchanan",
+     "party": "REP",
+     "pct": 55.58,
+     "votes": 24351
+    },
+    {
+     "name": "Lew Wasserman",
+     "party": "DEM",
+     "pct": 42.11,
+     "votes": 18448
+    },
+    {
+     "name": "Martin Hyde",
+     "party": "NPA",
+     "pct": 2.31,
+     "votes": 1010
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 70",
+   "reported": 8,
+   "precincts": 8,
+   "candidates": [
+    {
+     "name": "Michael Owen",
+     "party": "REP",
+     "pct": 61.24,
+     "votes": 18781
+    },
+    {
+     "name": "Luther Keith Wilkins",
+     "party": "DEM",
+     "pct": 38.76,
+     "votes": 11888
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 71",
+   "reported": 37,
+   "precincts": 37,
+   "candidates": [
+    {
+     "name": "Jordan Varnadore",
+     "party": "REP",
+     "pct": 53.94,
+     "votes": 31150
+    },
+    {
+     "name": "Ocean Fitts",
+     "party": "DEM",
+     "pct": 43.78,
+     "votes": 25283
+    },
+    {
+     "name": "Joseph Hoolihan",
+     "party": "NPA",
+     "pct": 2.29,
+     "votes": 1321
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 72",
+   "reported": 31,
+   "precincts": 31,
+   "candidates": [
+    {
+     "name": "William \"Bill\" Conerly",
+     "party": "REP",
+     "pct": 61.54,
+     "votes": 56162
+    },
+    {
+     "name": "Harvey Shifrin",
+     "party": "DEM",
+     "pct": 38.46,
+     "votes": 35092
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner District 1",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "Elizabeth \"Liz\" Arnold",
+     "party": "REP",
+     "pct": 65.97,
+     "votes": 31934
+    },
+    {
+     "name": "Sari Lindroos-Valimaki",
+     "party": "DEM",
+     "pct": 33.93,
+     "votes": 16422
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.1,
+     "votes": 48
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner District 2",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "Amanda Ballard",
+     "party": "REP",
+     "pct": 50.42,
+     "votes": 10340
+    },
+    {
+     "name": "Charles B. Smith Sr",
+     "party": "DEM",
+     "pct": 49.58,
+     "votes": 10167
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner District 6 (At-Large)",
+   "reported": 71,
+   "precincts": 71,
+   "candidates": [
+    {
+     "name": "Tara Poulton",
+     "party": "REP",
+     "pct": 58.08,
+     "votes": 103902
+    },
+    {
+     "name": "Reggie Bellamy",
+     "party": "DEM",
+     "pct": 41.92,
+     "votes": 75007
+    }
+   ]
+  },
+  {
+   "office": "Justice Carlos G. Muniz",
+   "reported": 71,
+   "precincts": 71,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 64.61,
+     "votes": 105122
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 35.39,
+     "votes": 57576
+    }
+   ]
+  },
+  {
+   "office": "Judge Drew Atkinson",
+   "reported": 71,
+   "precincts": 71,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 67.33,
+     "votes": 108683
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 32.67,
+     "votes": 52741
+    }
+   ]
+  },
+  {
+   "office": "Judge Morris Silberman",
+   "reported": 71,
+   "precincts": 71,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 67.95,
+     "votes": 109336
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 32.05,
+     "votes": 51581
+    }
+   ]
+  },
+  {
+   "office": "Judge Daniel H. Sleet",
+   "reported": 71,
+   "precincts": 71,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 66.92,
+     "votes": 107412
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 33.08,
+     "votes": 53091
+    }
+   ]
+  },
+  {
+   "office": "Judge Andrea Teves Smith",
+   "reported": 71,
+   "precincts": 71,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 69.1,
+     "votes": 110806
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 30.9,
+     "votes": 49551
+    }
+   ]
+  },
+  {
+   "office": "School Board Member District 2",
+   "reported": 14,
+   "precincts": 14,
+   "candidates": [
+    {
+     "name": "Sharon Jefferson",
+     "party": "NON",
+     "pct": 52.13,
+     "votes": 9722
+    },
+    {
+     "name": "Cindy Spray",
+     "party": "NON",
+     "pct": 47.87,
+     "votes": 8926
+    }
+   ]
+  },
+  {
+   "office": "School Board Member District 5",
+   "reported": 12,
+   "precincts": 12,
+   "candidates": [
+    {
+     "name": "Camden \"Cam\" Bedinghaus",
+     "party": "NON",
+     "pct": 51.66,
+     "votes": 22557
+    },
+    {
+     "name": "Jonathan Mullis",
+     "party": "NON",
+     "pct": 48.34,
+     "votes": 21107
+    }
+   ]
+  },
+  {
+   "office": "Bradenton City Council, Ward 3",
+   "reported": 16,
+   "precincts": 16,
+   "candidates": [
+    {
+     "name": "Kemp Schuessler",
+     "party": "NON",
+     "pct": 49.43,
+     "votes": 7542
+    },
+    {
+     "name": "Thomas Schwarz",
+     "party": "NON",
+     "pct": 50.57,
+     "votes": 7716
+    }
+   ]
+  },
+  {
+   "office": "Bradenton City Council, Ward 4",
+   "reported": 16,
+   "precincts": 16,
+   "candidates": [
+    {
+     "name": "Keith J. Green",
+     "party": "NON",
+     "pct": 44.11,
+     "votes": 6812
+    },
+    {
+     "name": "Lisa Gonzalez Moore",
+     "party": "NON",
+     "pct": 55.89,
+     "votes": 8632
+    }
+   ]
+  },
+  {
+   "office": "City of Holmes Beach Mayor",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Dan Diggins",
+     "party": "NON",
+     "pct": 52.2,
+     "votes": 829
+    },
+    {
+     "name": "David L. Zaccagnino",
+     "party": "NON",
+     "pct": 47.8,
+     "votes": 759
+    }
+   ]
+  },
+  {
+   "office": "City of Holmes Beach Commissioner City of Holmes Beach",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "John J. Azzata",
+     "party": "NON",
+     "pct": 30.81,
+     "votes": 756
+    },
+    {
+     "name": "Mark Hebden",
+     "party": "NON",
+     "pct": 33.9,
+     "votes": 832
+    },
+    {
+     "name": "Carol Whitmore",
+     "party": "NON",
+     "pct": 35.29,
+     "votes": 866
+    }
+   ]
+  },
+  {
+   "office": "City of Palmetto Commissioner, Ward 2",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "Sunshine Joiner",
+     "party": "NON",
+     "pct": 54.1,
+     "votes": 1009
+    },
+    {
+     "name": "Sheldon \"Mailman\" Jones",
+     "party": "NON",
+     "pct": 45.9,
+     "votes": 856
+    }
+   ]
+  },
+  {
+   "office": "East Manatee Fire Rescue, Seat 3",
+   "reported": 19,
+   "precincts": 19,
+   "candidates": [
+    {
+     "name": "William Bjork",
+     "party": "NON",
+     "pct": 58.19,
+     "votes": 26341
+    },
+    {
+     "name": "Larry Luh",
+     "party": "NON",
+     "pct": 41.81,
+     "votes": 18927
+    }
+   ]
+  },
+  {
+   "office": "East Manatee Fire Rescue, Seat 5",
+   "reported": 19,
+   "precincts": 19,
+   "candidates": [
+    {
+     "name": "Joseph Houlihan",
+     "party": "NON",
+     "pct": 57.5,
+     "votes": 25520
+    },
+    {
+     "name": "Richard Jacobs",
+     "party": "NON",
+     "pct": 42.5,
+     "votes": 18866
+    }
+   ]
+  },
+  {
+   "office": "Parrish Fire District, Seat 1",
+   "reported": 7,
+   "precincts": 7,
+   "candidates": [
+    {
+     "name": "Kyle L. Moore",
+     "party": "NON",
+     "pct": 66.98,
+     "votes": 9024
+    },
+    {
+     "name": "Edward W. Stevens",
+     "party": "NON",
+     "pct": 33.02,
+     "votes": 4449
+    }
+   ]
+  },
+  {
+   "office": "West Manatee Fire and Rescue, Seat 2",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Jacob R. Kyser",
+     "party": "NON",
+     "pct": 61.21,
+     "votes": 6376
+    },
+    {
+     "name": "Derrick Warner",
+     "party": "NON",
+     "pct": 38.79,
+     "votes": 4040
+    }
+   ]
+  },
+  {
+   "office": "West Manatee Fire and Rescue, Seat 3",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "John Agnelli",
+     "party": "NON",
+     "pct": 49.01,
+     "votes": 5468
+    },
+    {
+     "name": "Dana Tindall",
+     "party": "NON",
+     "pct": 50.99,
+     "votes": 5688
+    }
+   ]
+  },
+  {
+   "office": "West Manatee Fire and Rescue, Seat 4",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Billy Burke",
+     "party": "NON",
+     "pct": 53.57,
+     "votes": 5606
+    },
+    {
+     "name": "Keith D. Miller",
+     "party": "NON",
+     "pct": 46.43,
+     "votes": 4858
+    }
+   ]
+  },
+  {
+   "office": "Mosquito Control District, Group 1",
+   "reported": 71,
+   "precincts": 71,
+   "candidates": [
+    {
+     "name": "Scott Johnson",
+     "party": "NON",
+     "pct": 43.25,
+     "votes": 64058
+    },
+    {
+     "name": "Rodney O'Quinn",
+     "party": "NON",
+     "pct": 26.29,
+     "votes": 38935
+    },
+    {
+     "name": "Charles \"Rick\" Richards",
+     "party": "NON",
+     "pct": 30.46,
+     "votes": 45107
+    }
+   ]
+  },
+  {
+   "office": "Copperstone CDD, Seat 1",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Adam Bailey",
+     "party": "NON",
+     "pct": 50.0,
+     "votes": 238
+    },
+    {
+     "name": "Kyle Baber",
+     "party": "NON",
+     "pct": 50.0,
+     "votes": 238
+    }
+   ]
+  },
+  {
+   "office": "Cross Creek CDD, Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Frank Sacca",
+     "party": "NON",
+     "pct": 70.57,
+     "votes": 295
+    },
+    {
+     "name": "Bruce R. Stolarz",
+     "party": "NON",
+     "pct": 29.43,
+     "votes": 123
+    }
+   ]
+  },
+  {
+   "office": "Eagle Pointe CDD, Seat 1",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "William John Hathaway",
+     "party": "NON",
+     "pct": 52.2,
+     "votes": 166
+    },
+    {
+     "name": "Leah Ogren",
+     "party": "NON",
+     "pct": 47.8,
+     "votes": 152
+    }
+   ]
+  },
+  {
+   "office": "Eagle Pointe CDD, Seat 3",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "James P. Casement",
+     "party": "NON",
+     "pct": 70.19,
+     "votes": 226
+    },
+    {
+     "name": "Kevin G. Gagne",
+     "party": "NON",
+     "pct": 29.81,
+     "votes": 96
+    }
+   ]
+  },
+  {
+   "office": "Harrison Ranch CDD, Seat 1",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Joyce Lynn Calderon",
+     "party": "NON",
+     "pct": 41.94,
+     "votes": 515
+    },
+    {
+     "name": "Marko Krstic",
+     "party": "NON",
+     "pct": 58.06,
+     "votes": 713
+    }
+   ]
+  },
+  {
+   "office": "Harrison Ranch CDD, Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Tracy Joniec",
+     "party": "NON",
+     "pct": 41.43,
+     "votes": 503
+    },
+    {
+     "name": "Mike Lamb",
+     "party": "NON",
+     "pct": 58.57,
+     "votes": 711
+    }
+   ]
+  },
+  {
+   "office": "Harrison Ranch CDD, Seat 3",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Tony Beazley",
+     "party": "NON",
+     "pct": 61.53,
+     "votes": 707
+    },
+    {
+     "name": "Victor G. Colombo",
+     "party": "NON",
+     "pct": 38.47,
+     "votes": 442
+    }
+   ]
+  },
+  {
+   "office": "Heritage Harbour North CDD, Seat 1",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Nancy Quinn",
+     "party": "NON",
+     "pct": 55.69,
+     "votes": 700
+    },
+    {
+     "name": "Grace Russolillo",
+     "party": "NON",
+     "pct": 44.31,
+     "votes": 557
+    }
+   ]
+  },
+  {
+   "office": "Lakewood Ranch CDD 2, Seat 5",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Jonathan Dayton",
+     "party": "NON",
+     "pct": 39.33,
+     "votes": 525
+    },
+    {
+     "name": "Bill Mariotti",
+     "party": "NON",
+     "pct": 34.16,
+     "votes": 456
+    },
+    {
+     "name": "Arthur Taber",
+     "party": "NON",
+     "pct": 26.52,
+     "votes": 354
+    }
+   ]
+  },
+  {
+   "office": "Legends Bay CDD, Seat 3",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Angela Albrecht",
+     "party": "NON",
+     "pct": 42.24,
+     "votes": 68
+    },
+    {
+     "name": "Michael A. Conner",
+     "party": "NON",
+     "pct": 57.76,
+     "votes": 93
+    }
+   ]
+  },
+  {
+   "office": "Legends Bay CDD, Seat 5",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Sandra K. Freas",
+     "party": "NON",
+     "pct": 40.13,
+     "votes": 63
+    },
+    {
+     "name": "Jack A. Knisley Jr",
+     "party": "NON",
+     "pct": 59.87,
+     "votes": 94
+    }
+   ]
+  },
+  {
+   "office": "Silverleaf CDD, Seat 1",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Frank John Loviglio",
+     "party": "NON",
+     "pct": 34.26,
+     "votes": 246
+    },
+    {
+     "name": "Jackie Petrovich",
+     "party": "NON",
+     "pct": 36.07,
+     "votes": 259
+    },
+    {
+     "name": "Joe Stanczyk",
+     "party": "NON",
+     "pct": 29.67,
+     "votes": 213
+    }
+   ]
+  },
+  {
+   "office": "Silverleaf CDD, Seat 4",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Timothy Abramski",
+     "party": "NON",
+     "pct": 56.5,
+     "votes": 400
+    },
+    {
+     "name": "Judy Cummings",
+     "party": "NON",
+     "pct": 43.5,
+     "votes": 308
+    }
+   ]
+  },
+  {
+   "office": "Tara CDD, Seat 1",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Joseph Di Bartolomeo",
+     "party": "NON",
+     "pct": 61.37,
+     "votes": 564
+    },
+    {
+     "name": "Karin Murphy",
+     "party": "NON",
+     "pct": 38.63,
+     "votes": 355
+    }
+   ]
+  },
+  {
+   "office": "Tara CDD, Seat 5",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Eugene J. Rado",
+     "party": "NON",
+     "pct": 52.05,
+     "votes": 457
+    },
+    {
+     "name": "Carl Teisch",
+     "party": "NON",
+     "pct": 47.95,
+     "votes": 421
+    }
+   ]
+  },
+  {
+   "office": "Florida Constitutional Amendment 1",
+   "reported": 71,
+   "precincts": 71,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 44.89,
+     "votes": 76651
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 55.11,
+     "votes": 94117
+    }
+   ]
+  },
+  {
+   "office": "Florida Constitutional Amendment 2",
+   "reported": 71,
+   "precincts": 71,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 63.09,
+     "votes": 108423
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 36.91,
+     "votes": 63445
+    }
+   ]
+  },
+  {
+   "office": "Florida Constitutional Amendment 3",
+   "reported": 71,
+   "precincts": 71,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 65.04,
+     "votes": 114775
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 34.96,
+     "votes": 61693
+    }
+   ]
+  },
+  {
+   "office": "Manatee County Referendum",
+   "reported": 71,
+   "precincts": 71,
+   "candidates": [
+    {
+     "name": "For Bonds",
+     "party": "NON",
+     "pct": 75.83,
+     "votes": 129288
+    },
+    {
+     "name": "Against Bonds",
+     "party": "NON",
+     "pct": 24.17,
+     "votes": 41204
+    }
+   ]
+  },
+  {
+   "office": "City of Bradenton Referendum 1",
+   "reported": 16,
+   "precincts": 16,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 55.2,
+     "votes": 8809
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 44.8,
+     "votes": 7148
+    }
+   ]
+  },
+  {
+   "office": "City of Bradenton Referendum 2",
+   "reported": 16,
+   "precincts": 16,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 89.2,
+     "votes": 14791
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 10.8,
+     "votes": 1791
+    }
+   ]
+  },
+  {
+   "office": "City of Holmes Beach Referendum",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 65.12,
+     "votes": 999
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 34.88,
+     "votes": 535
+    }
+   ]
+  },
+  {
+   "office": "City of Palmetto Charter Amendment",
+   "reported": 5,
+   "precincts": 5,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 77.27,
+     "votes": 3329
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 22.73,
+     "votes": 979
+    }
+   ]
+  },
+  {
+   "office": "Parrish Fire District Referendum",
+   "reported": 7,
+   "precincts": 7,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "NON",
+     "pct": 58.57,
+     "votes": 9044
+    },
+    {
+     "name": "No",
+     "party": "NON",
+     "pct": 41.43,
+     "votes": 6397
     }
    ]
   }

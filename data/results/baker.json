@@ -1,8 +1,405 @@
 {
  "county": "baker",
  "url": "https://enr.electionsfl.org/BAK/4124/Summary/",
- "pulledAt": "2026-11-04T03:55:17Z",
+ "pulledAt": "2026-11-04T04:12:12Z",
  "status": "unofficial",
  "updated": null,
- "races": []
+ "races": [],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 9,
+   "precincts": 9,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 83.16,
+     "votes": 8171
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 15.99,
+     "votes": 1571
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 0.85,
+     "votes": 84
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress, District 3",
+   "reported": 9,
+   "precincts": 9,
+   "candidates": [
+    {
+     "name": "Kat Cammack",
+     "party": "REP",
+     "pct": 83.3,
+     "votes": 8147
+    },
+    {
+     "name": "Seth Harp",
+     "party": "DEM",
+     "pct": 15.54,
+     "votes": 1520
+    },
+    {
+     "name": "Mike Klein",
+     "party": "NPA",
+     "pct": 1.16,
+     "votes": 113
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 9,
+   "precincts": 9,
+   "candidates": [
+    {
+     "name": "Byron Donalds and Bryan Avila",
+     "party": "REP",
+     "pct": 81.57,
+     "votes": 7977
+    },
+    {
+     "name": "David Jolly and Gwen Graham",
+     "party": "DEM",
+     "pct": 16.74,
+     "votes": 1637
+    },
+    {
+     "name": "Scott Eckhard Jewett and Nicole Skelly",
+     "party": "LPF",
+     "pct": 0.51,
+     "votes": 50
+    },
+    {
+     "name": "Charles Burkett and Ruben A. Coto",
+     "party": "NPA",
+     "pct": 0.26,
+     "votes": 25
+    },
+    {
+     "name": "Frank J. Russo and Rachel Rodriguez",
+     "party": "NPA",
+     "pct": 0.22,
+     "votes": 22
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche and Benjiman Rojas",
+     "party": "NPA",
+     "pct": 0.03,
+     "votes": 3
+    },
+    {
+     "name": "Dean Ocean Abrams and Joe Van Vactor",
+     "party": "NPA",
+     "pct": 0.14,
+     "votes": 14
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto and Juan Santana",
+     "party": "NPA",
+     "pct": 0.11,
+     "votes": 11
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.41,
+     "votes": 40
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 9,
+   "precincts": 9,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 83.93,
+     "votes": 8172
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 16.07,
+     "votes": 1565
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 9,
+   "precincts": 9,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 83.66,
+     "votes": 8115
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 16.34,
+     "votes": 1585
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 9,
+   "precincts": 9,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 83.18,
+     "votes": 8116
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 16.37,
+     "votes": 1597
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.45,
+     "votes": 44
+    }
+   ]
+  },
+  {
+   "office": "State Senator, District 6",
+   "reported": 9,
+   "precincts": 9,
+   "candidates": [
+    {
+     "name": "Jennifer Bradley",
+     "party": "REP",
+     "pct": 83.62,
+     "votes": 8132
+    },
+    {
+     "name": "Jason Bellamy-Fults",
+     "party": "DEM",
+     "pct": 15.61,
+     "votes": 1518
+    },
+    {
+     "name": "Joseph Thornton",
+     "party": "ASP",
+     "pct": 0.77,
+     "votes": 75
+    }
+   ]
+  },
+  {
+   "office": "State Representative, District 10",
+   "reported": 9,
+   "precincts": 9,
+   "candidates": [
+    {
+     "name": "Marshall Rawson",
+     "party": "REP",
+     "pct": 83.12,
+     "votes": 8047
+    },
+    {
+     "name": "Merrillee Malwitz Jipson",
+     "party": "DEM",
+     "pct": 16.38,
+     "votes": 1586
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.5,
+     "votes": 48
+    }
+   ]
+  },
+  {
+   "office": "Retain Carlos G. Muñiz",
+   "reported": 9,
+   "precincts": 9,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 62.46,
+     "votes": 5629
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 37.54,
+     "votes": 3383
+    }
+   ]
+  },
+  {
+   "office": "Retain Joseph Lewis Jr.",
+   "reported": 9,
+   "precincts": 9,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 59.27,
+     "votes": 5302
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 40.73,
+     "votes": 3643
+    }
+   ]
+  },
+  {
+   "office": "Retain Rachel Nordby",
+   "reported": 9,
+   "precincts": 9,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 62.77,
+     "votes": 5556
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 37.23,
+     "votes": 3296
+    }
+   ]
+  },
+  {
+   "office": "Retain Tim Osterhaus",
+   "reported": 9,
+   "precincts": 9,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 60.07,
+     "votes": 5355
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 39.93,
+     "votes": 3560
+    }
+   ]
+  },
+  {
+   "office": "Retain Clay Roberts",
+   "reported": 9,
+   "precincts": 9,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 57.44,
+     "votes": 5121
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 42.56,
+     "votes": 3794
+    }
+   ]
+  },
+  {
+   "office": "Retain Raymond Treadwell",
+   "reported": 9,
+   "precincts": 9,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 63.06,
+     "votes": 5638
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 36.94,
+     "votes": 3302
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment, Article VI, Section 7",
+   "reported": 9,
+   "precincts": 9,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 44.66,
+     "votes": 4186
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 55.34,
+     "votes": 5186
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment, Article I, New Section",
+   "reported": 9,
+   "precincts": 9,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 75.92,
+     "votes": 7191
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 24.08,
+     "votes": 2281
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment, Article VII, Sections 3 and 4, Article XII,",
+   "reported": 9,
+   "precincts": 9,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 72.26,
+     "votes": 6943
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 27.74,
+     "votes": 2666
+    }
+   ]
+  }
+ ]
 }

@@ -1,8 +1,632 @@
 {
  "county": "monroe",
  "url": "https://enr.electionsfl.org/MON/4109/Summary/",
- "pulledAt": "2026-11-04T03:55:22Z",
+ "pulledAt": "2026-11-04T04:12:14Z",
  "status": "unofficial",
  "updated": null,
- "races": []
+ "races": [],
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 53.94,
+     "votes": 17407
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 45.09,
+     "votes": 14549
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "pct": 0.97,
+     "votes": 314
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress Dist 28",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Carlos A. Gimenez",
+     "party": "REP",
+     "pct": 54.25,
+     "votes": 17423
+    },
+    {
+     "name": "Phil \"Felipe\" Ehr",
+     "party": "DEM",
+     "pct": 44.61,
+     "votes": 14328
+    },
+    {
+     "name": "Eddy Rojas",
+     "party": "NPA",
+     "pct": 1.14,
+     "votes": 367
+    }
+   ]
+  },
+  {
+   "office": "Governor & Lt Governor",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Byron Donalds & Bryan Avila",
+     "party": "REP",
+     "pct": 53.2,
+     "votes": 17179
+    },
+    {
+     "name": "David Jolly & Gwen Graham",
+     "party": "DEM",
+     "pct": 45.72,
+     "votes": 14763
+    },
+    {
+     "name": "Scott Eckhard Jewett & Nicole Skelly",
+     "party": "LPF",
+     "pct": 0.41,
+     "votes": 131
+    },
+    {
+     "name": "Charles Burkett & Ruben A. Coto",
+     "party": "NPA",
+     "pct": 0.11,
+     "votes": 37
+    },
+    {
+     "name": "Frank J. Russo & Rachel Rodriguez",
+     "party": "NPA",
+     "pct": 0.2,
+     "votes": 64
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche & Benjiman Rojas",
+     "party": "NPA",
+     "pct": 0.06,
+     "votes": 19
+    },
+    {
+     "name": "Dean Ocean Abrams & Joe Van Vactor",
+     "party": "NPA",
+     "pct": 0.11,
+     "votes": 34
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto & Juan Santana",
+     "party": "NPA",
+     "pct": 0.05,
+     "votes": 17
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.15,
+     "votes": 49
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 53.42,
+     "votes": 17022
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 46.58,
+     "votes": 14844
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 53.89,
+     "votes": 17079
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 46.11,
+     "votes": 14612
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 54.19,
+     "votes": 17179
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 45.62,
+     "votes": 14461
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.2,
+     "votes": 62
+    }
+   ]
+  },
+  {
+   "office": "State Senator Dist 40",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Ana Maria Rodriguez",
+     "party": "REP",
+     "pct": 55.28,
+     "votes": 17644
+    },
+    {
+     "name": "Jose Antonio Stoute",
+     "party": "DEM",
+     "pct": 43.93,
+     "votes": 14022
+    },
+    {
+     "name": "Ramiro Orta",
+     "party": "NPA",
+     "pct": 0.8,
+     "votes": 254
+    }
+   ]
+  },
+  {
+   "office": "Supreme Court Justice-Carlos G. Muniz",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 57.86,
+     "votes": 16349
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "pct": 42.14,
+     "votes": 11905
+    }
+   ]
+  },
+  {
+   "office": "Court of Appeals-Kansas R. Gooden",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 59.36,
+     "votes": 16505
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "pct": 40.64,
+     "votes": 11298
+    }
+   ]
+  },
+  {
+   "office": "Court of Appeals-Monica Gordo",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 60.2,
+     "votes": 16656
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "pct": 39.8,
+     "votes": 11011
+    }
+   ]
+  },
+  {
+   "office": "Court of Appeals-Fleur Jeannine Lobree",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 59.73,
+     "votes": 16483
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "pct": 40.27,
+     "votes": 11112
+    }
+   ]
+  },
+  {
+   "office": "Court of Appeals-Thomas Logue",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 61.08,
+     "votes": 16846
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "pct": 38.92,
+     "votes": 10736
+    }
+   ]
+  },
+  {
+   "office": "Court of Appeals-Bronwyn Catherine Miller",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 59.26,
+     "votes": 16402
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "pct": 40.74,
+     "votes": 11277
+    }
+   ]
+  },
+  {
+   "office": "City Commissioner Dist IV",
+   "reported": 6,
+   "precincts": 6,
+   "candidates": [
+    {
+     "name": "Sarah Compton",
+     "party": null,
+     "pct": 52.27,
+     "votes": 968
+    },
+    {
+     "name": "Wayne Garcia",
+     "party": null,
+     "pct": 47.73,
+     "votes": 884
+    }
+   ]
+  },
+  {
+   "office": "Key Colony Bch City Commissioner",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Lynne Benton",
+     "party": null,
+     "pct": 35.56,
+     "votes": 245
+    },
+    {
+     "name": "Kirk W. Diehl",
+     "party": null,
+     "pct": 31.49,
+     "votes": 217
+    },
+    {
+     "name": "Freddie Lee Foster Jr.",
+     "party": null,
+     "pct": 32.95,
+     "votes": 227
+    }
+   ]
+  },
+  {
+   "office": "Village Council Seat 1",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "Anna Richards",
+     "party": null,
+     "pct": 61.26,
+     "votes": 1885
+    },
+    {
+     "name": "Joe Wischmeier",
+     "party": null,
+     "pct": 38.74,
+     "votes": 1192
+    }
+   ]
+  },
+  {
+   "office": "Village Council Seat 2",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "Steve Friedman",
+     "party": null,
+     "pct": 55.55,
+     "votes": 1716
+    },
+    {
+     "name": "Deb Gillis",
+     "party": null,
+     "pct": 44.45,
+     "votes": 1373
+    }
+   ]
+  },
+  {
+   "office": "Village Council Seat 3",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "Corie McGraw-Abel",
+     "party": null,
+     "pct": 49.19,
+     "votes": 1493
+    },
+    {
+     "name": "Sue Miller",
+     "party": null,
+     "pct": 50.81,
+     "votes": 1542
+    }
+   ]
+  },
+  {
+   "office": "Village Council Seat 4",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "Don Horton",
+     "party": null,
+     "pct": 55.89,
+     "votes": 1702
+    },
+    {
+     "name": "Tom Raffanello",
+     "party": null,
+     "pct": 44.11,
+     "votes": 1343
+    }
+   ]
+  },
+  {
+   "office": "Key Largo Wastewater Dist Bd Member",
+   "reported": 7,
+   "precincts": 7,
+   "candidates": [
+    {
+     "name": "John E. Brooke",
+     "party": null,
+     "pct": 20.85,
+     "votes": 2137
+    },
+    {
+     "name": "Matthew Hardee",
+     "party": null,
+     "pct": 19.77,
+     "votes": 2026
+    },
+    {
+     "name": "Robby Majeska",
+     "party": null,
+     "pct": 28.09,
+     "votes": 2879
+    },
+    {
+     "name": "Anna Moon",
+     "party": null,
+     "pct": 16.55,
+     "votes": 1696
+    },
+    {
+     "name": "Jose Peixoto",
+     "party": null,
+     "pct": 14.75,
+     "votes": 1512
+    }
+   ]
+  },
+  {
+   "office": "No 1 Const Amend-Budget Stabilization Fund",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 42.42,
+     "votes": 12789
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "pct": 57.58,
+     "votes": 17360
+    }
+   ]
+  },
+  {
+   "office": "No 2 Const Amend-Exemption of Tangible Personal Property on Agriculture Land from Taxation",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 59.85,
+     "votes": 18196
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "pct": 40.15,
+     "votes": 12209
+    }
+   ]
+  },
+  {
+   "office": "No 3 Const Amend- Increased Homestead Exempt; Lower Cap on Increases in Non-Homestead Property Assessments",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 65.47,
+     "votes": 20396
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "pct": 34.53,
+     "votes": 10759
+    }
+   ]
+  },
+  {
+   "office": "KW Amend-Increase Term of Mayor to 4 yrs",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 34.49,
+     "votes": 2987
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "pct": 65.51,
+     "votes": 5674
+    }
+   ]
+  },
+  {
+   "office": "KW Amend-Increase Term of Service Mayor to 12 yrs",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 11.9,
+     "votes": 1030
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "pct": 88.1,
+     "votes": 7627
+    }
+   ]
+  },
+  {
+   "office": "Village Amend-3 Yr Staggered Terms for Councilmembers with Limit 3 Terms",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 63.8,
+     "votes": 2034
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "pct": 36.2,
+     "votes": 1154
+    }
+   ]
+  },
+  {
+   "office": "Village Amend- Procedure for Filling Councilmember Vacancies Exceeding Half aTerm",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 82.32,
+     "votes": 2571
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "pct": 17.68,
+     "votes": 552
+    }
+   ]
+  },
+  {
+   "office": "Village Amend-Req Supermajority Vote Relating to Village-Owned Property",
+   "reported": 3,
+   "precincts": 3,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "pct": 83.73,
+     "votes": 2634
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "pct": 16.27,
+     "votes": 512
+    }
+   ]
+  }
+ ]
 }
