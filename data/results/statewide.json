@@ -257,7 +257,7 @@
  ],
  "reporting": {
   "counties": 67,
-  "complete": 65,
+  "complete": 64,
   "byCounty": {
    "Alachua": 100.0,
    "Baker": 100.0,
@@ -301,7 +301,7 @@
    "Manatee": 100.0,
    "Marion": 100.0,
    "Martin": 100.0,
-   "Miami-Dade": 100.0,
+   "Miami-Dade": 93.27,
    "Monroe": 100.0,
    "Nassau": 100.0,
    "Okaloosa": 100.0,
@@ -328,5 +328,5 @@
    "Washington": 100.0
   }
  },
- "pulledAt": "2026-11-04T04:36:18Z"
+ "pulledAt": "2026-11-04T04:45:28Z"
 }
