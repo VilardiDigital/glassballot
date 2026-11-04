@@ -44,7 +44,7 @@ def parse(page: str) -> dict:
         rep = re.search(r'class="numPrecinctsReported">(\d+)</span>\s*/\s*<span[^>]*class="numPrecinctsParticipating">(\d+)', b)
         graph = b.split('class="row GraphicalResults"', 1)[-1]
         cands = []
-        for cm in re.finditer(r'<div class="ChoiceColumn col-xs-4">\s*([^<]+?)\s*</div>(?:(?!ChoiceColumn)[\s\S])*?<div class="ResultsColumn notranslate col-xs-2">([\d.,]+)%</div>\s*<div class="ResultsColumn notranslate col-xs-2"[^>]*>([\d,]+)</div>', graph):
+        for cm in re.finditer(r'<div class="ChoiceColumn col-xs-4">\s*([^<]+?)\s*</div>(?:(?!ChoiceColumn)[\s\S])*?<div class="ResultsColumn notranslate col-xs-2">([\d.,]+)(?:%|&#37;)</div>\s*<div class="ResultsColumn notranslate col-xs-2"[^>]*>([\d,]+)</div>', graph):
             name = re.sub(r"\s+", " ", html.unescape(cm.group(1))).strip()
             pm = re.match(r"(.*?)\s*\((\w+)\)$", name)
             cands.append({"name": pm.group(1) if pm else name, "party": pm.group(2) if pm else None, "pct": _num(cm.group(2)), "votes": int(_num(cm.group(3)))})
