@@ -1,45 +1,45 @@
 {
  "county": "alachua",
  "url": "https://enr.electionsfl.org/ALA/4097/Summary/",
- "pulledAt": "2026-11-04T04:14:03Z",
+ "pulledAt": "2026-11-04T04:35:26Z",
  "status": "unofficial",
  "updated": null,
  "races": [
   {
    "office": "County Commissioner District 4",
-   "reported": 62,
+   "reported": 63,
    "precincts": 63,
    "candidates": [
     {
      "name": "Ken Cornell",
      "party": "DEM",
-     "pct": 74.76,
-     "votes": 72672
+     "pct": 74.61,
+     "votes": 73104
     },
     {
      "name": "Dewayne Baines",
      "party": "NPA",
-     "pct": 25.24,
-     "votes": 24540
+     "pct": 25.39,
+     "votes": 24874
     }
    ]
   },
   {
    "office": "School Board District 1",
-   "reported": 62,
+   "reported": 63,
    "precincts": 63,
    "candidates": [
     {
      "name": "Hunter Miller",
      "party": "NPA",
-     "pct": 58.92,
-     "votes": 54792
+     "pct": 58.82,
+     "votes": 55160
     },
     {
      "name": "Janine Plavac",
      "party": "NPA",
-     "pct": 41.08,
-     "votes": 38205
+     "pct": 41.18,
+     "votes": 38620
     }
    ]
   }
@@ -47,225 +47,225 @@
  "all": [
   {
    "office": "United States Senator",
-   "reported": 62,
+   "reported": 63,
    "precincts": 63,
    "candidates": [
     {
      "name": "Ashley Moody",
      "party": "REP",
-     "pct": 32.78,
-     "votes": 34270
+     "pct": 33.0,
+     "votes": 34791
     },
     {
      "name": "Angie Nixon",
      "party": "DEM",
-     "pct": 66.3,
-     "votes": 69313
+     "pct": 66.07,
+     "votes": 69665
     },
     {
      "name": "Neil J. Gillespie",
      "party": "NPA",
-     "pct": 0.92,
-     "votes": 966
+     "pct": 0.93,
+     "votes": 980
     }
    ]
   },
   {
    "office": "Representative in Congress District 3",
-   "reported": 62,
+   "reported": 63,
    "precincts": 63,
    "candidates": [
     {
      "name": "Kat Cammack",
      "party": "REP",
-     "pct": 32.64,
-     "votes": 33992
+     "pct": 32.86,
+     "votes": 34516
     },
     {
      "name": "Seth Harp",
      "party": "DEM",
-     "pct": 65.28,
-     "votes": 67992
+     "pct": 65.04,
+     "votes": 68325
     },
     {
      "name": "Mike Klein",
      "party": "NPA",
-     "pct": 2.09,
-     "votes": 2174
+     "pct": 2.1,
+     "votes": 2202
     }
    ]
   },
   {
    "office": "Governor and Lieutenant Governor",
-   "reported": 62,
+   "reported": 63,
    "precincts": 63,
    "candidates": [
     {
      "name": "Byron Donalds",
      "party": "REP",
-     "pct": 32.5,
-     "votes": 33965
+     "pct": 32.73,
+     "votes": 34491
     },
     {
      "name": "David Jolly",
      "party": "DEM",
-     "pct": 66.14,
-     "votes": 69117
+     "pct": 65.9,
+     "votes": 69456
     },
     {
      "name": "Scott Eckhard Jewett",
      "party": "LPF",
-     "pct": 0.47,
-     "votes": 496
+     "pct": 0.48,
+     "votes": 504
     },
     {
      "name": "Charles Burkett",
      "party": "NPA",
      "pct": 0.17,
-     "votes": 176
+     "votes": 178
     },
     {
      "name": "Frank J. Russo",
      "party": "NPA",
      "pct": 0.18,
-     "votes": 183
+     "votes": 185
     },
     {
      "name": "Moliere \"Moe\" Dimanche",
      "party": "NPA",
      "pct": 0.11,
-     "votes": 110
+     "votes": 112
     },
     {
      "name": "Dean Ocean Abrams",
      "party": "NPA",
-     "pct": 0.2,
-     "votes": 212
+     "pct": 0.21,
+     "votes": 219
     },
     {
      "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
      "party": "NPA",
      "pct": 0.07,
-     "votes": 74
+     "votes": 75
     },
     {
      "name": "Write-in",
      "party": "NPA",
      "pct": 0.16,
-     "votes": 170
+     "votes": 171
     }
    ]
   },
   {
    "office": "Attorney General",
-   "reported": 62,
+   "reported": 63,
    "precincts": 63,
    "candidates": [
     {
      "name": "James Uthmeier",
      "party": "REP",
-     "pct": 32.92,
-     "votes": 34132
+     "pct": 33.14,
+     "votes": 34652
     },
     {
      "name": "Jose Javier Rodriguez",
      "party": "DEM",
-     "pct": 67.08,
-     "votes": 69553
+     "pct": 66.86,
+     "votes": 69900
     }
    ]
   },
   {
    "office": "Chief Financial Officer",
-   "reported": 62,
+   "reported": 63,
    "precincts": 63,
    "candidates": [
     {
      "name": "Blaise Ingoglia",
      "party": "REP",
-     "pct": 33.71,
-     "votes": 34737
+     "pct": 33.93,
+     "votes": 35258
     },
     {
      "name": "Annette Taddeo",
      "party": "DEM",
-     "pct": 66.29,
-     "votes": 68321
+     "pct": 66.07,
+     "votes": 68664
     }
    ]
   },
   {
    "office": "Commissioner of Agriculture",
-   "reported": 62,
+   "reported": 63,
    "precincts": 63,
    "candidates": [
     {
      "name": "Wilton Simpson",
      "party": "REP",
-     "pct": 33.87,
-     "votes": 34940
+     "pct": 34.09,
+     "votes": 35467
     },
     {
      "name": "Joey Mendoza Atkins",
      "party": "DEM",
-     "pct": 65.9,
-     "votes": 67984
+     "pct": 65.68,
+     "votes": 68323
     },
     {
      "name": "Write-in",
      "party": "NPA",
      "pct": 0.23,
-     "votes": 234
+     "votes": 235
     }
    ]
   },
   {
    "office": "State Senator District 6",
-   "reported": 37,
+   "reported": 38,
    "precincts": 38,
    "candidates": [
     {
      "name": "Jennifer Bradley",
      "party": "REP",
-     "pct": 33.2,
-     "votes": 20969
+     "pct": 33.56,
+     "votes": 21486
     },
     {
      "name": "Jason Bellamy-Fults",
      "party": "DEM",
-     "pct": 65.84,
-     "votes": 41589
+     "pct": 65.48,
+     "votes": 41925
     },
     {
      "name": "Joseph Thornton",
      "party": "ASP",
-     "pct": 0.96,
-     "votes": 609
+     "pct": 0.97,
+     "votes": 618
     }
    ]
   },
   {
    "office": "State Representative District 10",
-   "reported": 12,
+   "reported": 13,
    "precincts": 13,
    "candidates": [
     {
      "name": "Marshall Rawson",
      "party": "REP",
-     "pct": 50.5,
-     "votes": 8878
+     "pct": 50.96,
+     "votes": 9401
     },
     {
      "name": "Merrillee Malwitz Jipson",
      "party": "DEM",
-     "pct": 49.42,
-     "votes": 8689
+     "pct": 48.96,
+     "votes": 9032
     },
     {
      "name": "Write-in",
      "party": "NPA",
-     "pct": 0.08,
-     "votes": 14
+     "pct": 0.09,
+     "votes": 16
     }
    ]
   },
@@ -290,153 +290,153 @@
   },
   {
    "office": "County Commissioner District 4",
-   "reported": 62,
+   "reported": 63,
    "precincts": 63,
    "candidates": [
     {
      "name": "Ken Cornell",
      "party": "DEM",
-     "pct": 74.76,
-     "votes": 72672
+     "pct": 74.61,
+     "votes": 73104
     },
     {
      "name": "Dewayne Baines",
      "party": "NPA",
-     "pct": 25.24,
-     "votes": 24540
+     "pct": 25.39,
+     "votes": 24874
     }
    ]
   },
   {
    "office": "Supreme Court Retention Carlos",
-   "reported": 62,
+   "reported": 63,
    "precincts": 63,
    "candidates": [
     {
      "name": "Yes",
      "party": "NPA",
-     "pct": 44.44,
-     "votes": 42040
+     "pct": 44.54,
+     "votes": 42491
     },
     {
      "name": "No",
      "party": "NPA",
-     "pct": 55.56,
-     "votes": 52568
+     "pct": 55.46,
+     "votes": 52907
     }
    ]
   },
   {
    "office": "First District Retention Joseph",
-   "reported": 62,
+   "reported": 63,
    "precincts": 63,
    "candidates": [
     {
      "name": "Yes",
      "party": "NPA",
-     "pct": 55.66,
-     "votes": 52063
+     "pct": 55.65,
+     "votes": 52498
     },
     {
      "name": "No",
      "party": "NPA",
-     "pct": 44.34,
-     "votes": 41481
+     "pct": 44.35,
+     "votes": 41832
     }
    ]
   },
   {
    "office": "First District Retention Rachel",
-   "reported": 62,
+   "reported": 63,
    "precincts": 63,
    "candidates": [
     {
      "name": "Yes",
      "party": "NPA",
-     "pct": 46.19,
-     "votes": 43003
+     "pct": 46.29,
+     "votes": 43454
     },
     {
      "name": "No",
      "party": "NPA",
-     "pct": 53.81,
-     "votes": 50090
+     "pct": 53.71,
+     "votes": 50424
     }
    ]
   },
   {
    "office": "First District Retention Tim",
-   "reported": 62,
+   "reported": 63,
    "precincts": 63,
    "candidates": [
     {
      "name": "Yes",
      "party": "NPA",
-     "pct": 45.84,
-     "votes": 42569
+     "pct": 45.93,
+     "votes": 43010
     },
     {
      "name": "No",
      "party": "NPA",
-     "pct": 54.16,
-     "votes": 50301
+     "pct": 54.07,
+     "votes": 50639
     }
    ]
   },
   {
    "office": "First District Retention Clay",
-   "reported": 62,
+   "reported": 63,
    "precincts": 63,
    "candidates": [
     {
      "name": "Yes",
      "party": "NPA",
-     "pct": 47.97,
-     "votes": 44479
+     "pct": 48.04,
+     "votes": 44922
     },
     {
      "name": "No",
      "party": "NPA",
-     "pct": 52.03,
-     "votes": 48244
+     "pct": 51.96,
+     "votes": 48582
     }
    ]
   },
   {
    "office": "First District Retention Raymond",
-   "reported": 62,
+   "reported": 63,
    "precincts": 63,
    "candidates": [
     {
      "name": "Yes",
      "party": "NPA",
-     "pct": 45.22,
-     "votes": 41975
+     "pct": 45.33,
+     "votes": 42432
     },
     {
      "name": "No",
      "party": "NPA",
-     "pct": 54.78,
-     "votes": 50848
+     "pct": 54.67,
+     "votes": 51175
     }
    ]
   },
   {
    "office": "School Board District 1",
-   "reported": 62,
+   "reported": 63,
    "precincts": 63,
    "candidates": [
     {
      "name": "Hunter Miller",
      "party": "NPA",
-     "pct": 58.92,
-     "votes": 54792
+     "pct": 58.82,
+     "votes": 55160
     },
     {
      "name": "Janine Plavac",
      "party": "NPA",
-     "pct": 41.08,
-     "votes": 38205
+     "pct": 41.18,
+     "votes": 38620
     }
    ]
   },
@@ -480,58 +480,58 @@
   },
   {
    "office": "No.1 Constitutional Amendment Article III, Section 19",
-   "reported": 62,
+   "reported": 63,
    "precincts": 63,
    "candidates": [
     {
      "name": "Yes",
      "party": "NPA",
-     "pct": 28.8,
-     "votes": 28850
+     "pct": 28.87,
+     "votes": 29160
     },
     {
      "name": "No",
      "party": "NPA",
-     "pct": 71.2,
-     "votes": 71312
+     "pct": 71.13,
+     "votes": 71830
     }
    ]
   },
   {
    "office": "No.2 Constitutional Amendment Article VII, Section 3  Article XII",
-   "reported": 62,
+   "reported": 63,
    "precincts": 63,
    "candidates": [
     {
      "name": "Yes",
      "party": "NPA",
-     "pct": 42.95,
-     "votes": 43462
+     "pct": 43.14,
+     "votes": 44015
     },
     {
      "name": "No",
      "party": "NPA",
-     "pct": 57.05,
-     "votes": 57725
+     "pct": 56.86,
+     "votes": 58017
     }
    ]
   },
   {
    "office": "No.3 Constitutional Amendment Article VII, Sections 4, 6 and 9  Article XII",
-   "reported": 62,
+   "reported": 63,
    "precincts": 63,
    "candidates": [
     {
      "name": "Yes",
      "party": "NPA",
-     "pct": 45.23,
-     "votes": 46115
+     "pct": 45.41,
+     "votes": 46687
     },
     {
      "name": "No",
      "party": "NPA",
-     "pct": 54.77,
-     "votes": 55848
+     "pct": 54.59,
+     "votes": 56129
     }
    ]
   },
