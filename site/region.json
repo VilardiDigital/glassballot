@@ -326971,10 +326971,16 @@
     "candidatesSource": "dos_canlist",
     "total": 8227046,
     "url": "https://floridaelectionwatch.gov/StateOffices/Governor",
-    "status": "counting",
+    "status": "called",
     "leader": "gov-donalds",
-    "winner": null,
-    "call": null
+    "winner": "gov-donalds",
+    "call": {
+     "winner": "Byron Donalds",
+     "kind": "called",
+     "by": "The Associated Press (reported by WINK News)",
+     "url": "https://www.winknews.com/news/byron-donalds-defeats-david-jolly-in-florida-governors-race-the-ap-reports/article_1efaf91f-0b79-4761-aa72-e8898b8a844b.html",
+     "note": "WINK says the AP called the race just after 9 p.m. Eastern."
+    }
    },
    {
     "id": "ag",
@@ -327373,10 +327379,17 @@
     "candidatesSource": "dos_canlist",
     "total": 8236892,
     "url": "https://floridaelectionwatch.gov/FederalOffices/USSenator",
-    "status": "counting",
+    "status": "called",
     "leader": "ussen-moody",
-    "winner": null,
-    "call": null
+    "winner": "ussen-moody",
+    "call": {
+     "winner": "Ashley Moody",
+     "kind": "called",
+     "by": "The Associated Press (reported by the Washington Examiner)",
+     "at": "2026-11-04T01:34:00Z",
+     "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4770171/ashley-moody-angie-nixon-florida-2026-senate-race/",
+     "note": "The Washington Examiner says the AP called the race at 8:34 p.m."
+    }
    }
   ],
   "measures": [
