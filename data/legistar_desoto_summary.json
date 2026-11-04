@@ -1,55 +1,82 @@
 {
- "pulledAt": "2026-11-04T15:44:28Z",
+ "pulledAt": "2026-11-04T16:12:16Z",
  "totals": {
   "meetings": 33,
-  "meetingsWithRollCalls": 23,
-  "items": 340,
-  "rollCalls": 336,
-  "splitRollCalls": 8
+  "meetingsWithRollCalls": 24,
+  "items": 341,
+  "rollCalls": 337,
+  "splitRollCalls": 9
  },
  "stats": {
   "deriso": {
-   "aye": 327,
+   "aye": 328,
    "nay": 5,
    "absent": 0,
    "abstain": 4,
-   "meetingsHeld": 23,
+   "meetingsHeld": 24,
    "meetingsMissed": 0
   },
   "schaefer": {
    "aye": 308,
-   "nay": 2,
+   "nay": 3,
    "absent": 26,
    "abstain": 0,
-   "meetingsHeld": 23,
+   "meetingsHeld": 24,
    "meetingsMissed": 2
   },
   "hickox": {
    "aye": 325,
    "nay": 0,
-   "absent": 0,
+   "absent": 1,
    "abstain": 11,
-   "meetingsHeld": 23,
-   "meetingsMissed": 0
+   "meetingsHeld": 24,
+   "meetingsMissed": 1
   },
   "langford": {
-   "aye": 336,
+   "aye": 337,
    "nay": 0,
    "absent": 0,
    "abstain": 0,
-   "meetingsHeld": 23,
+   "meetingsHeld": 24,
    "meetingsMissed": 0
   },
   "gross": {
    "aye": 295,
-   "nay": 3,
+   "nay": 4,
    "absent": 38,
    "abstain": 0,
-   "meetingsHeld": 23,
+   "meetingsHeld": 24,
    "meetingsMissed": 2
   }
  },
  "splitVotes": [
+  {
+   "item": 35180,
+   "ev": 3842,
+   "date": "2026-10-28",
+   "file": "26-2111",
+   "topic": "other",
+   "result": "Motion failed 2 to 2",
+   "yes": [
+    "deriso",
+    "langford"
+   ],
+   "no": [
+    "gross",
+    "schaefer"
+   ],
+   "absent": [
+    "hickox"
+   ],
+   "mover": "deriso",
+   "seconder": "langford",
+   "officialTitle": "Ordinance / DCIP - Swisher Properties / Rezone (RZNE-0087-2026)",
+   "motion": "A motion was made by Commissioner Deriso, seconded by Commissioner Langford, that this Ordinance be adopted. The motion failed by the following vote:",
+   "headline": "Ordinance / DCIP - Swisher Properties / Rezone (RZNE-0087-2026)",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
   {
    "item": 35167,
    "ev": 3795,

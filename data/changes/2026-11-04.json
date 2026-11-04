@@ -5,7 +5,17 @@
    "key": "desoto/deriso/record",
    "subject": "JC Deriso: record",
    "before": "Voted on 335 roll calls: 326 yes, 5 no, 4 abstained. Marked absent on 0 items.",
-   "after": "Voted on 336 roll calls: 327 yes, 5 no, 4 abstained. Marked absent on 0 items.",
+   "after": "Voted on 337 roll calls: 328 yes, 5 no, 4 abstained. Marked absent on 0 items.",
+   "label": "single",
+   "sources": [
+    "legistar"
+   ]
+  },
+  {
+   "key": "desoto/deriso/attendance",
+   "subject": "JC Deriso: attendance",
+   "before": "Attended 23 of 23 meetings with roll calls",
+   "after": "Attended 24 of 24 meetings with roll calls",
    "label": "single",
    "sources": [
     "legistar"
@@ -15,7 +25,17 @@
    "key": "desoto/langford/record",
    "subject": "Elton Langford: record",
    "before": "Voted on 335 roll calls: 335 yes, 0 no. Marked absent on 0 items.",
-   "after": "Voted on 336 roll calls: 336 yes, 0 no. Marked absent on 0 items.",
+   "after": "Voted on 337 roll calls: 337 yes, 0 no. Marked absent on 0 items.",
+   "label": "single",
+   "sources": [
+    "legistar"
+   ]
+  },
+  {
+   "key": "desoto/langford/attendance",
+   "subject": "Elton Langford: attendance",
+   "before": "Attended 23 of 23 meetings with roll calls",
+   "after": "Attended 24 of 24 meetings with roll calls",
    "label": "single",
    "sources": [
     "legistar"
@@ -25,7 +45,17 @@
    "key": "desoto/schaefer/record",
    "subject": "Judy Schaefer: record",
    "before": "Voted on 309 roll calls: 308 yes, 1 no. Marked absent on 26 items.",
-   "after": "Voted on 310 roll calls: 308 yes, 2 no. Marked absent on 26 items.",
+   "after": "Voted on 311 roll calls: 308 yes, 3 no. Marked absent on 26 items.",
+   "label": "single",
+   "sources": [
+    "legistar"
+   ]
+  },
+  {
+   "key": "desoto/schaefer/attendance",
+   "subject": "Judy Schaefer: attendance",
+   "before": "Attended 21 of 23 meetings with roll calls",
+   "after": "Attended 22 of 24 meetings with roll calls",
    "label": "single",
    "sources": [
     "legistar"
@@ -35,7 +65,17 @@
    "key": "desoto/gross/record",
    "subject": "Jerod Gross: record",
    "before": "Voted on 297 roll calls: 295 yes, 2 no. Marked absent on 38 items.",
-   "after": "Voted on 298 roll calls: 295 yes, 3 no. Marked absent on 38 items.",
+   "after": "Voted on 299 roll calls: 295 yes, 4 no. Marked absent on 38 items.",
+   "label": "single",
+   "sources": [
+    "legistar"
+   ]
+  },
+  {
+   "key": "desoto/gross/attendance",
+   "subject": "Jerod Gross: attendance",
+   "before": "Attended 21 of 23 meetings with roll calls",
+   "after": "Attended 22 of 24 meetings with roll calls",
    "label": "single",
    "sources": [
     "legistar"
@@ -45,7 +85,17 @@
    "key": "desoto/hickox/record",
    "subject": "Steven Hickox: record",
    "before": "Voted on 335 roll calls: 325 yes, 0 no, 10 abstained. Marked absent on 0 items.",
-   "after": "Voted on 336 roll calls: 325 yes, 0 no, 11 abstained. Marked absent on 0 items.",
+   "after": "Voted on 336 roll calls: 325 yes, 0 no, 11 abstained. Marked absent on 1 items.",
+   "label": "single",
+   "sources": [
+    "legistar"
+   ]
+  },
+  {
+   "key": "desoto/hickox/attendance",
+   "subject": "Steven Hickox: attendance",
+   "before": "Attended 23 of 23 meetings with roll calls",
+   "after": "Attended 23 of 24 meetings with roll calls",
    "label": "single",
    "sources": [
     "legistar"
@@ -53,6 +103,7 @@
   }
  ],
  "added": [
+  "desoto/vote/lg-35180",
   "desoto/vote/lg-35167"
  ],
  "log": [
@@ -124,7 +175,7 @@
   "brevard Legistar: 356 roll calls, 0 new split votes awaiting review",
   "broward Legistar: 0 roll calls, 0 new split votes awaiting review",
   "charlotte Legistar: 0 roll calls, 0 new split votes awaiting review",
-  "desoto Legistar: 336 roll calls, 1 new split votes awaiting review",
+  "desoto Legistar: 337 roll calls, 2 new split votes awaiting review",
   "marion Legistar: 370 roll calls, 0 new split votes awaiting review",
   "martin Legistar: 329 roll calls, 0 new split votes awaiting review",
   "polk Legistar: 1089 roll calls, 0 new split votes awaiting review",
