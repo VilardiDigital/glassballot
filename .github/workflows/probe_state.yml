@@ -18,7 +18,7 @@ jobs:
         run: |
           git config user.name "Glass Ballot results"
           git config user.email "glassballotinfo@gmail.com"
-          git add data/raw/fewatch
+          git add data/fewatch_raw
           git diff --cached --quiet && exit 0
           git commit -m "State results pages $(date -u +%FT%H:%MZ)"
           for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 5; done

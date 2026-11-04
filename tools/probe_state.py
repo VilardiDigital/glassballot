@@ -10,7 +10,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "data" / "raw" / "fewatch"
+OUT = ROOT / "data" / "fewatch_raw"
 BASE = "https://floridaelectionwatch.gov"
 UA = {"User-Agent": "GlassBallot/1.0 (+https://glassballot.org; nonpartisan voter guide)"}
 PAGES = ["Home", "Downloads", "Amendments", "StateOffices", "StateOffices/Governor", "StateOffices/AttorneyGeneral",
