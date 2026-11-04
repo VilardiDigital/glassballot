@@ -1,0 +1,3341 @@
+<!DOCTYPE html>
+<html style="overflow-y: scroll;" xml:lang="en" lang="en">
+<head>
+
+        <!-- Global Site Tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZSJ66DYG9T"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'G-ZSJ66DYG9T');
+        </script>
+
+    <meta name="description" content= "Florida Election Watch displays votes collected from all Florida counties as they are being reported on election night.">
+    <meta name="keywords" content="Florida Department of State, election, election results, Florida election results, Florida election, 2026 election results, 2026 Florida election results, Florida Election Watch, election night">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florida Election Watch - County Reporting Status</title>
+    
+
+
+
+    <link href="/Scripts/umd/popper.js" rel="stylesheet"/>
+
+
+    <link href="/Content/bootstrap.css" rel="stylesheet"/>
+<link href="/Content/site.css" rel="stylesheet"/>
+
+    <script src="/Scripts/modernizr-2.8.3.js"></script>
+
+
+
+    <link rel="stylesheet" href="/Content/BSVerticalMenu.css">
+</head>
+<body style="padding-top: 0px;">
+    
+<div style="background: linear-gradient(to right,#2C5084,#2C5084, white); height: 120px;">
+    <div class="container">
+        <div class="row pt-2 ">
+            <div class="col-6 col-md pl-5 pr-0 text-left">
+                <img src="/Images/Enight Logo - transparent.png" alt="Florida Election Watch-Logo">
+            </div>
+            
+            <div class="col-6 col-md pl-5 text-center  d-none d-none d-lg-block">
+
+                <span style="color: white;">
+                    2026 General Election<br /> 
+                    November 3, 2026 <br />
+                    Unofficial Election Night Results<br />
+                     
+                </span>
+            </div>
+            
+            <div class="col-6 col-md text-right d-none d-sm-none d-md-block">
+                <a href="https://dos.fl.gov/elections/" title="Division of Elections" target="blank">
+                    <img src="/Images/Elections-Logo-Small.png" alt="Division of Elections-Logo" target="blank">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row star-bar">
+</div>
+
+
+
+
+   
+
+    <div class="row" style="background: linear-gradient(#135F8B, white);">
+        <div class="container pl-lg-5 pr-lg-5">
+            
+            <div class="row">
+                
+
+    <div class="col-lg-2 pl-0 pr-1">       
+        <nav class="navbar bootstrap-vertical-nav rounded  pt-0 mt-4" style="background-color: white;">
+            <div style="background-color: #2C5084;">
+                <button class="btn btn-dark d-lg-none" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" aria-label="Toggle navigation">
+                    <span>MENU</span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse " id="collapseExample">
+
+                        <ul class="nav flex-column list-group " id="exCollapsingNavbar3">
+
+                                    <li class="menu-item ">
+                                        <a class="menuHeader" href='/Home'>Home</a>
+                                    </li>
+                                        <li class="menu-item ">
+
+                                            <a class="menuitemLink" href='/ElectionDayTurnout'>Election Day Turnout</a>
+                                        </li>
+                                    <hr class="mt-0 mb-0" />
+                                        <li class="menu-item ">
+
+                                            <a class="menuitemLink" href='/CountyReportingStatus'>County Reporting Status</a>
+                                        </li>
+                                    <hr class="mt-0 mb-0" />
+                                        <li class="menu-item ">
+
+                                            <a class="menuitemLink" href='/FAQs'>FAQs</a>
+                                        </li>
+                                    <hr class="mt-0 mb-0" />
+                                        <li class="menu-item ">
+
+                                            <a class="menuitemLink" href='/LegislativeProjection'>Legislative Projections</a>
+                                        </li>
+                                    <hr class="mt-0 mb-0" />
+                                        <li class="menu-item ">
+
+                                            <a class="menuitemLink" href='/Timeline'>Timeline</a>
+                                        </li>
+                                    <hr class="mt-0 mb-0" />
+                                        <li class="dropdown menuitem">
+                                            <div id="trackcounty" style="font-size:12px; font-family:Arial, Helvetica,sans-serif; padding-top:5px;padding-bottom:0px; line-height:1.3; font-weight:bold;">Track By County</div>
+                                            <div>
+                                                <a class="dropdown-toggle menuitemLink" data-toggle="dropdown" href="#">Select County <span class="caret"></a>
+
+                                                    <ul class="dropdown-menu scrollable-menu pl-2">
+                                                            <li><a class="countyDropdown" href="/TrackCounty/ALA">AlachuaCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/BAK">BakerCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/BAY">BayCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/BRA">BradfordCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/BRE">BrevardCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/BRO">BrowardCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/CAL">CalhounCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/CHA">CharlotteCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/CIT">CitrusCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/CLA">ClayCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/CLL">CollierCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/CLM">ColumbiaCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/DES">DesotoCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/DIX">DixieCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/DUV">DuvalCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/ESC">EscambiaCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/FLA">FlaglerCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/FRA">FranklinCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/GAD">GadsdenCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/GIL">GilchristCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/GLA">GladesCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/GUL">GulfCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/HAM">HamiltonCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/HAR">HardeeCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/HEN">HendryCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/HER">HernandoCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/HIG">HighlandsCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/HIL">HillsboroughCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/HOL">HolmesCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/IND">Indian RiverCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/JAC">JacksonCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/JEF">JeffersonCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/LAF">LafayetteCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/LAK">LakeCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/LEE">LeeCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/LEO">LeonCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/LEV">LevyCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/LIB">LibertyCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/MAD">MadisonCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/MAN">ManateeCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/MRN">MarionCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/MRT">MartinCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/DAD">Miami-DadeCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/MON">MonroeCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/NAS">NassauCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/OKA">OkaloosaCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/OKE">OkeechobeeCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/ORA">OrangeCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/OSC">OsceolaCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/PAL">Palm BeachCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/PAS">PascoCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/PIN">PinellasCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/POL">PolkCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/PUT">PutnamCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/SAN">Santa RosaCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/SAR">SarasotaCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/SEM">SeminoleCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/STJ">St. JohnsCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/STL">St. LucieCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/SUM">SumterCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/SUW">SuwanneeCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/TAY">TaylorCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/UNI">UnionCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/VOL">VolusiaCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/WAK">WakullaCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/WAL">WaltonCounty</a></li>
+                                                            <li><a class="countyDropdown" href="/TrackCounty/WAS">WashingtonCounty</a></li>
+
+                                                    </ul>
+                                            </div>
+                                        </li>
+                                    <hr class="mt-0 mb-0" />
+                                    <li class="menu-item ">
+                                        <a class="menuHeader" href='/FederalOffices'>Federal Offices</a>
+                                    </li>
+                                        <li class="menu-item ">
+
+                                            <a class="menuitemLink" href='/FederalOffices/USSenator'>U.S. Senator</a>
+                                        </li>
+                                    <hr class="mt-0 mb-0" />
+                                        <li class="menu-item ">
+
+                                            <a class="menuitemLink" href='/FederalOffices/USRepresentative'>U.S. Representative</a>
+                                        </li>
+                                    <hr class="mt-0 mb-0" />
+                                    <li class="menu-item ">
+                                        <a class="menuHeader" href='/StateOffices'>State Offices</a>
+                                    </li>
+                                        <li class="menu-item ">
+
+                                            <a class="menuitemLink" href='/StateOffices/Governor'>Governor</a>
+                                        </li>
+                                    <hr class="mt-0 mb-0" />
+                                        <li class="menu-item ">
+
+                                            <a class="menuitemLink" href='/StateOffices/AttorneyGeneral'>Attorney General</a>
+                                        </li>
+                                    <hr class="mt-0 mb-0" />
+                                        <li class="menu-item ">
+
+                                            <a class="menuitemLink" href='/StateOffices/ChiefFinancialOfficer'>Chief Financial Officer</a>
+                                        </li>
+                                    <hr class="mt-0 mb-0" />
+                                        <li class="menu-item ">
+
+                                            <a class="menuitemLink" href='/StateOffices/CommissionerOfAgriculture'>Commissioner of Agriculture</a>
+                                        </li>
+                                    <hr class="mt-0 mb-0" />
+                                    <li class="menu-item ">
+                                        <a class="menuHeader" href='/DistrictOffices'>Multi-County or District Offices</a>
+                                    </li>
+                                        <li class="menu-item ">
+
+                                            <a class="menuitemLink" href='/DistrictOffices/StateSenator'>State Senate</a>
+                                        </li>
+                                    <hr class="mt-0 mb-0" />
+                                        <li class="menu-item ">
+
+                                            <a class="menuitemLink" href='/DistrictOffices/StateRepresentative'>State Representative</a>
+                                        </li>
+                                    <hr class="mt-0 mb-0" />
+                                        <li class="menu-item ">
+
+                                            <a class="menuitemLink" href='/DistrictOffices/SpecialDistricts'>Special Districts</a>
+                                        </li>
+                                    <hr class="mt-0 mb-0" />
+                                    <li class="menu-item ">
+                                        <a class="menuHeader" href='/JudicialOffices'>Judicial Offices</a>
+                                    </li>
+                                        <li class="menu-item ">
+
+                                            <a class="menuitemLink" href='/JudicialOffices/SupremeCourt'>Supreme Court</a>
+                                        </li>
+                                    <hr class="mt-0 mb-0" />
+                                        <li class="menu-item ">
+
+                                            <a class="menuitemLink" href='/JudicialOffices/DistrictCourtOfAppeal'>District Court of Appeal</a>
+                                        </li>
+                                    <hr class="mt-0 mb-0" />
+                                        <li class="menu-item ">
+
+                                            <a class="menuitemLink" href='/JudicialOffices/CircuitCourt'>Circuit Court</a>
+                                        </li>
+                                    <hr class="mt-0 mb-0" />
+                                    <li class="menu-item ">
+                                        <a class="menuHeader" href='/Amendments'>Amendments</a>
+                                    </li>
+                                    <li class="menu-item ">
+                                        <a class="menuHeader" href='/Downloads'>Downloads</a>
+                                    </li>
+                        </ul>
+                        <br /><br /><br />
+            </div>
+        </nav>
+    </div>
+
+                <div class="col-lg-10 footerstyle">
+                    
+
+
+
+
+
+        <div class="card rounded ml-2 mt-4 " style=width:857px;border:0px;>
+            <h4 class="card-header card-title  pt-2 pb-1 pl-2" style="background-color: #a52a2a; color: white; padding-top: 1px; padding-bottom:2px;font-size: 20px;font-weight:bold;font-family: Arial, Helvetica,sans-serif;">County Reporting Status</h4>
+
+            <div class="card-body p-lg-2">
+
+
+
+                <table class="table-striped reportingTable">
+                    <thead>
+
+                        <tr class="report-head">
+                            <th scope="col" style=" word-wrap: break-word; width:80px;">
+                                County SOE Website
+                            </th>
+                            <th scope="col" class="voter-head">
+                                <center>Voter<br /> Turnout</center>
+                            </th>
+                            <th scope="col" class=" voter-head">
+                                <center>Eligible Active Registered Voters</center>
+                            </th>
+                            <th scope="col" class="voter-head">
+                                <center>Turnout Percentage</center>
+                            </th>
+                            <th scope="col" class="voter-head">
+                                <center>Precincts Reporting</center>
+                            </th>
+                            <th scope="col" class="report-head-column">
+                                <center>Precincts Completed</center>
+                            </th>
+                            <th scope="col" class=" report-head-column">
+                                <center>Vote-by-Mail Ballots Completed</center>
+                            </th>
+                            <th scope="col" class="report-head-column">
+                                <center>Early Voting Ballots Completed</center>
+                            </th>
+                            <th scope="col" style="width: 83px;  word-wrap: break-word;">
+                                <center>Provisional Ballots Completed</center>
+                            </th>
+                                <th scope="col" style="width: 83px;  word-wrap: break-word;">
+                                    <center>10-day Overseas Vote-by-Mail Completed</center>
+                                </th>
+                        </tr>
+
+                    </thead>
+                    <tbody>
+
+
+
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/ALA/4097/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Alachua</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>103,567</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>167,143</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>61.96%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>95.24%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/BAK/4124/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Baker</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>9,864</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>17,899</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>55.11%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=Y></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/BAY/4078/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Bay</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>70,630</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>128,668</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>54.89%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/BRA/4113/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Bradford</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>9,768</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>16,909</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>57.77%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='http://enr.electionsfl.org/BRE/4064/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Brevard</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>267,594</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>447,257</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>59.83%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://results.browardvotes.gov/ENR/browardflenr/240/en/Index_240.html' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Broward</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>661,417</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>1,103,545</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>59.94%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>98.84%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='http://enr.electionsfl.org/CAL/4054/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Calhoun</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>4,330</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>7,601</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>56.97%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=Y></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/CHA/4062/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Charlotte</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>101,185</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>155,843</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>64.93%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/CIT/4070/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Citrus</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>75,533</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>121,391</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>62.22%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/CLA/4086/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Clay</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>93,709</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>156,247</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>59.97%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='http://enr.electionsfl.org/CLL/4083/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Collier</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>172,998</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>265,678</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>65.12%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/CLM/4069/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Columbia</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>22,710</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>41,610</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>54.58%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/DES/4094/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Desoto</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>9,180</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>16,080</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>57.09%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/DIX/4125/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Dixie</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>5,649</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>10,055</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>56.18%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='http://enr.electionsfl.org/DUV/4076/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Duval</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>358,225</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>655,212</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>54.67%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/ESC/3977/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Escambia</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>115,855</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>207,445</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>55.85%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/FLA/4088/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Flagler</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>64,378</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>100,550</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>64.03%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/FRA/4130/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Franklin</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>5,075</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>7,608</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>66.71%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=Y></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=Y></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/GAD/4066/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Gadsden</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>17,890</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>26,870</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>66.58%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='http://enr.electionsfl.org/GIL/4055/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Gilchrist</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>7,857</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>12,999</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>60.44%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/GLA/4065/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Glades</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>3,842</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>6,877</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>55.87%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/GUL/4084/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Gulf</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>6,750</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>11,194</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>60.3%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=Y></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/HAM/4101/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Hamilton</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>4,174</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>7,168</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>58.23%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/HAR/4063/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Hardee</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>6,058</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>11,530</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>52.54%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/HEN/4077/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Hendry</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>10,175</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>19,438</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>52.35%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=Y></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/HER/4106/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Hernando</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>80,680</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>138,084</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>58.43%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://www.votehighlands.gov' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Highlands</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>39,951</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>63,379</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>63.04%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/HIL/4074/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Hillsborough</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>519,837</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>823,694</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>63.11%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='http://enr.electionsfl.org/HOL/4108/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Holmes</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>6,244</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>11,453</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>54.52%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=Y></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/IND/4096/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Indian River</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>77,961</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>119,740</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>65.11%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/JAC/4118/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Jackson</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>15,766</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>27,516</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>57.3%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/JEF/4115/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Jefferson</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>7,024</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>10,029</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>70.04%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/LAF/4071/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Lafayette</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>2,639</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>4,271</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>61.79%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/LAK/4079/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Lake</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>178,476</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>283,780</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>62.89%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/LEE/4111/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Lee</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>306,050</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>504,633</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>60.65%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/LEO/4072/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Leon</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>124,803</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>184,523</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>67.64%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/LEV/4058/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Levy</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>18,224</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>30,448</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>59.85%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://libertycountyflsoe.gov/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Liberty</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>2,698</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>4,617</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>58.44%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/MAD/4061/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Madison</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>7,038</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>10,547</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>66.73%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/MAN/4126/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Manatee</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>183,074</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>287,882</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>63.59%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/MRN/4099/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Marion</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>164,944</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>271,268</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>60.8%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://results.enr.clarityelections.com/FL/Martin/127353/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Martin</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>76,865</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>117,229</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>65.57%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=Y></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/DAD/4087/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Miami-Dade</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>789,466</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>1,313,264</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>60.11%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>93.27%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/MON/Summary/4109/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Monroe</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>32,237</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>54,704</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>58.93%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/NAS/4080/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Nassau</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>50,767</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>82,056</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>61.87%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/OKA/4092/Summary' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Okaloosa</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>77,718</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>148,349</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>52.39%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/OKE/4060/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Okeechobee</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>11,202</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>20,874</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>53.66%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://results.voteorangefl.gov/FL/Orange/127356/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Orange</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>468,029</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>820,504</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>57.04%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://results.enr.clarityelections.com/FL/Osceola/127292/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Osceola</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>132,572</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>238,063</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>55.69%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/PAL/4131/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Palm Beach</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>571,227</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>889,521</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>64.22%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>94.47%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/PAS/4085/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Pasco</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>240,663</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>407,676</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>59.03%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://www.votepinellas.gov' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Pinellas</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>406,416</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>613,797</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>66.21%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/POL/4000/Summary/Scrolling/Banner/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Polk</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>259,553</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>459,892</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>56.44%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/PUT/4081/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Putnam</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>26,633</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>45,370</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>58.7%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/SAN/4093/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Santa Rosa</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>74,183</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>144,230</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>51.43%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/SAR/4105/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Sarasota</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>225,119</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>334,228</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>67.35%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/SEM/4119/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Seminole</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>196,184</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>343,307</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>57.15%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://www.votesjc.gov' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>St. Johns</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>153,245</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>243,887</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>62.83%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>94.55%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/STL/4089/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>St. Lucie</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>136,991</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>246,187</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>55.65%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>93.55%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=N></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/SUM/4056/Summary/Scrolling/Banner/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Sumter</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>95,678</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>130,072</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>73.56%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/SUW/4112/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Suwannee</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>15,929</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>26,996</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>59.01%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/TAY/4107/Summary' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Taylor</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>6,996</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>11,749</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>59.55%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/UNI/4121/summary' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Union</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>4,303</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>7,316</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>58.82%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=Y></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://app.enhancedvoting.com/results/public/volusia-county-fl/2026GeneralElection' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Volusia</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>238,164</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>401,708</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>59.29%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://www.wakullavotes.gov/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Wakulla</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>15,192</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>25,929</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>58.59%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/WAL/4091/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Walton</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>35,445</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>63,946</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>55.43%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                            <tr class="reporting-row ">
+                                
+                                <td class="linkCounty" style="border-left-style: solid;width:80px; "><strong> <a href='https://enr.electionsfl.org/WAS/4104/Summary/' item. target="_blank" title=" External link. Open in new window." style="color:#1f3d51 !important; "><strong><u>Washington</u></strong></a></strong></td>
+
+                                <td class="pr-3 text-right voter-column">
+                                    <span>9,080</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>14,960</span>
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+                                    <span>60.7%</span>
+
+                                </td>
+
+                                <td class="pr-3 text-right  voter-column">
+
+                                    <span>100%</span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column">
+                                    <span class=Y></span>
+                                </td>
+
+                                <td class="pr-3 text-right  report-row-column" style=" width: 83px; white-space: nowrap;">
+                                    <span class=N></span>
+                                </td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;">
+                                        <span class=N></span>
+
+                                    </td>
+
+                            </tr>
+                                                    <tr class="reporting-row">
+
+
+                                
+
+                                <td class="linkCounty" style="border-left-style: solid;width:80px;"><strong>TOTAL</strong></td>
+
+
+                                    <td class="pr-3 text-right voter-column"><span>8,293,679</span></td>
+                                    <td class="pr-3 text-right  voter-column"><span>13,704,495</span></td>
+                                    <td class="pr-3 text-right  voter-column"><span>60.52%</span> </td>
+                                    <td class="pr-3 text-right  voter-column"><span>98.06%</span></td>
+                                    <td class="pr-3 text-right  report-row-column"><span></span></td>
+                                    <td class="pr-3 text-right  report-row-column"><span></span></td>
+                                    <td class="pr-3 text-right  report-row-column"><span></span></td>
+                                    <td class="pr-3 text-right" style=" width: 83px;    white-space: nowrap;"><span></span></td>
+                                        <td class="pr-3 text-right " style=" width: 83px;    white-space: nowrap;"></td>
+
+                            </tr>
+                        
+
+                    </tbody>
+                </table>
+
+
+            </div>
+        </div>
+
+<style>
+
+    tbody {
+        display: inline-block; /*block*/
+        height: 500px;
+        overflow: auto;
+    }
+
+        thead, tbody tr {
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+    thead {
+        /*width: calc( 100% - 1.3em )*/
+    }
+
+    .report-row-column {
+        /*min-width: 70px;*/
+        width: 77px;
+        white-space: nowrap;
+        /* white-space: -moz-pre-wrap;  Firefox */
+        /*  white-space: -o-pre-wrap; Opera */
+        /* white-space: pre-wrap;  Chrome */
+        /*word-wrap: break-word;*/ /*IE */
+    }
+
+    .report-head-column {
+        /*min-width:60px;*/
+        width: 77px;
+        /*white-space: nowrap;*/
+        word-wrap: break-word;
+    }
+
+    .voter-column {
+        width: 88px;
+        white-space: nowrap;
+    }
+
+    .voter-head {
+        width: 88px;
+        word-wrap: break-word;
+    }
+</style>
+
+
+                    <br /><br />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row star-bar">
+</div>
+
+
+<div class="row" style="background-color: #2C5084;">
+    <div class="container footerstyle">
+        <div class="row pt-2 ">
+            <div class="col-6 col-md pl-5 pr-0 text-left d-none d-sm-none d-md-block">
+                <img src="/Images/Enightfooter.png" alt="">
+            </div>
+            <div class="col-6 col-md pl-5 text-left ">  
+                <p class="p-0 m-0">
+                    <a href="https://dos.fl.gov/" target="_blank" style="color: #fcca65;">Florida Department of State</a>
+                </p>
+                <p class="p-0 m-0">
+                    <a href="https://dos.fl.gov/elections/" target="_blank" style="color: #fcca65;">Division of Elections</a>
+                </p>
+
+                <p style="color: white;">
+                    Room 316, R.A.Gray Building, 500 S.Bronough Street
+                    <br />
+
+                    Tallahassee, FL 32399-0250
+                    <br />
+                    1.850.245.6200
+                </p>
+            </div>
+            <div class="col-6 col-md text-right ">  
+                <ul style="list-style-type: none;">
+                    <li><a href="https://dos.fl.gov/privacy-policy.aspx" target="_blank" style="color: #fcca65;">Privacy Policy</a></li>
+                    <li><a href="https://dos.fl.gov/elections/contacts/contact-us/" target="_blank" style="color: #fcca65;"> Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <script src="/Scripts/jquery-3.3.1.js"></script>
+
+    <script src="/Scripts/bootstrap.js"></script>
+<script src="/Scripts/respond.js"></script>
+
+    
+</body>
+</html>
