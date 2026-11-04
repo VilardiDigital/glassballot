@@ -962,7 +962,7 @@ views.race = id => {
           <div class="acts">
             <a class="btn" href="${href("p/" + p.id)}">Full record</a>
             ${camp ? `<a class="btn" href="${esc(camp.url)}" target="_blank" rel="noopener nofollow">Their website</a>` : ""}
-            ${r.onNovBallot !== false ? `<button class="mine" type="button" data-pick="${esc(r.id)}|${esc(p.id)}" aria-pressed="${myp === p.id}"><span class="box">${myp === p.id ? "✓" : ""}</span>${myp === p.id ? "On my list" : "Add to my list"}</button>` : ""}
+            ${r.onNovBallot !== false && !after() ? `<button class="mine" type="button" data-pick="${esc(r.id)}|${esc(p.id)}" aria-pressed="${myp === p.id}"><span class="box">${myp === p.id ? "✓" : ""}</span>${myp === p.id ? "On my list" : "Add to my list"}</button>` : ""}
           </div>
         </article>`; }).join("")}</div>
       <p class="small muted">Every item above, with its source, is on each candidate's full record page. Your list is saved only on this device. We never see it.</p>
