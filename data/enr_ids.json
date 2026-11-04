@@ -955,8 +955,15 @@
     126780,
     "2026 Primary Election",
     "8/18/2026"
+   ],
+   [
+    127357,
+    "2026 General Election",
+    "11/3/2026"
    ]
   ],
-  "primary": 126780
+  "primary": 126780,
+  "general": 127357,
+  "home": "https://www.votepinellas.gov/"
  }
 }

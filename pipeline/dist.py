@@ -116,6 +116,14 @@ def _cname(c: dict) -> str:
     return c["county"]["name"].replace(" County", "")
 
 
+def _after(c: dict) -> bool:
+    """True from the day after Election Day (Florida time). Mirrors after() in site/template.html."""
+    from datetime import datetime, timedelta, timezone
+    day = c.get("county", {}).get("electionDate") or "2026-11-03"
+    today = (datetime.now(timezone.utc) - timedelta(hours=5)).strftime("%Y-%m-%d")
+    return today > day
+
+
 def _n_races(c: dict) -> int:
     return sum(1 for r in c["races"] if r.get("onNovBallot") is not False)
 
@@ -145,6 +153,9 @@ def page_meta(path: str, c: dict | None = None, obj: dict | None = None, people:
     n = _cname(c)
     a = parts[1] if len(parts) > 1 else None
     if not a:
+        if _after(c):
+            return (f"{n} County 2026 election results: {_n_races(c)} local races | {site}",
+                    f"How the {n} County commission and school board races on the Nov 3, 2026 ballot turned out, from the county's own count. Plus how each member votes and who funds them.")
         return (f"{n} County ballot guide: {_n_races(c)} local races | {site}",
                 f"Who's running for {n} County commission and school board on the Nov 3 ballot, how incumbents voted, and who funds each campaign. A source for every fact.")
     if a == "officials":
@@ -155,6 +166,9 @@ def page_meta(path: str, c: dict | None = None, obj: dict | None = None, people:
         return f"When and where to vote in {n} County | {site}", f"Election Day hours, early voting and mail ballots in {n} County, from the Supervisor of Elections."
     if a == "r" and obj:
         who = [people[i]["name"] for i in obj.get("people", []) if i in people]
+        if _after(c) and obj.get("onNovBallot") is not False:
+            return (f"{n} {obj['title']} 2026 results: {' vs. '.join(who)} | {site}",
+                    f"2026 results for {n} {obj['title']}{': ' + ', '.join(who) if who else ''}, from the county's own count, plus each candidate's track record and campaign money.")
         return (f"{n} {obj['title']}: {' vs. '.join(who)} | {site}",
                 f"Compare the candidates for {n} {obj['title']}{': ' + ', '.join(who) if who else ''}. Track records, campaign money and sources, side by side.")
     if a == "p" and obj:

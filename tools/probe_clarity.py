@@ -52,6 +52,12 @@ def main():
             g = find_general(json.loads(t)) if t else None
         except ValueError:
             g = None
+        if not g and e.get("home"):
+            # Some counties leave elections.json empty and only link the results from their home page.
+            page = fetch(e["home"]) or ""
+            ids_seen = [int(x) for x in re.findall(re.escape(e["base"]) + r"/(\d{5,7})/", page)]
+            newer = [x for x in ids_seen if x > (e.get("primary") or 0)]
+            g = max(newer) if newer else None
         if g:
             e["general"] = g
             e.setdefault("all", []).append([g, "2026 General Election", "11/3/2026"])

@@ -72,3 +72,18 @@ class KeyTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ClarityNames(unittest.TestCase):
+    def test_party_prefix_is_removed_from_names(self):
+        from pipeline.sources.results import parse_clarity
+        r = parse_clarity({"Contests": [{"C": "Board of County Commissioners District 2 - At Large", "CH": ["REP Brian Scott", "DEM Tim Hughes"],
+                                         "P": ["REP", "DEM"], "V": [195523, 199639], "PCT": [49.48, 50.52], "PR": 288, "TP": 288}]})
+        self.assertEqual([c["name"] for c in r["races"][0]["candidates"]], ["Brian Scott", "Tim Hughes"])
+        self.assertEqual(r["races"][0]["candidates"][0]["party"], "REP")
+
+    def test_nonpartisan_names_are_untouched(self):
+        from pipeline.sources.results import parse_clarity
+        r = parse_clarity({"Contests": [{"C": "School Board Member District 3 - At Large", "CH": ["Curtis Campogni", "Dawn Peters"],
+                                         "P": ["", ""], "V": [175434, 174722], "PCT": [50.1, 49.9], "PR": 288, "TP": 288}]})
+        self.assertEqual([c["name"] for c in r["races"][0]["candidates"]], ["Curtis Campogni", "Dawn Peters"])

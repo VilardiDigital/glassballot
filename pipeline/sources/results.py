@@ -75,7 +75,10 @@ def parse_clarity(summary: dict) -> dict:
         cands = []
         for i, n in enumerate(names):
             party = parties[i] if i < len(parties) else None
-            cands.append({"name": re.sub(r"\s+", " ", n).strip(), "party": None if party in (None, "", "NON", "NPA") else party,
+            name = re.sub(r"\s+", " ", n).strip()
+            if party and name.upper().startswith(party.upper() + " "):
+                name = name[len(party) + 1:].strip()  # Clarity puts the party in front of the name: "REP Brian Scott"
+            cands.append({"name": name, "party": None if party in (None, "", "NON", "NPA") else party,
                           "pct": round(float(pcts[i]), 2) if i < len(pcts) and pcts[i] is not None else 0.0, "votes": int(votes[i]) if i < len(votes) else 0})
         races.append({"office": re.sub(r"\s+", " ", c.get("C", "")).strip(), "reported": c.get("PR"), "precincts": c.get("TP"), "candidates": cands})
     return {"status": "unofficial", "updated": None, "races": races}
@@ -169,7 +172,7 @@ def merge(seed: dict, county: str) -> dict:
     return seed
 
 
-def pull(county: str, code: str, eid: int, vendor: str = "vr", base: str | None = None) -> str:
+def pull(county: str, code: str, eid: int, vendor: str = "vr", base: str | None = None, certified: bool = False) -> str:
     from ..refresh import get
     if vendor == "clarity":
         ver = get(f"{base}/{eid}/current_ver.txt", as_json=False).strip()
@@ -178,6 +181,8 @@ def pull(county: str, code: str, eid: int, vendor: str = "vr", base: str | None 
     else:
         url = f"{ENR}/{code}/{eid}/Summary/"
         res = parse(get(url, as_json=False))
+    if certified:
+        res["status"] = "official"  # set by hand in data/enr_ids.json once the canvassing board certifies (Clarity pages never say so)
     keep = [r for r in res["races"] if _key(r["office"])]
     out = ROOT / "data" / "results"
     out.mkdir(exist_ok=True)
@@ -196,7 +201,7 @@ def main(argv: list[str]):
             continue
         if v.get("general"):
             try:
-                log.append(pull(county, v.get("code"), v["general"], v.get("vendor", "vr"), v.get("base")))
+                log.append(pull(county, v.get("code"), v["general"], v.get("vendor", "vr"), v.get("base"), bool(v.get("certified"))))
             except Exception as e:
                 log.append(f"{county}: results pull failed: {e}")
     print("\n".join(log))
