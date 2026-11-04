@@ -175,6 +175,35 @@ def merge(seed: dict, county: str) -> dict:
     return seed
 
 
+def seat_winners(seed: dict, today: str) -> dict:
+    """On and after the day new terms begin, and only once the county has certified the race (official results with
+    every precinct counted), list the winner as in office and a defeated incumbent as a former official.
+    Unofficial counts never change who is shown as holding a seat."""
+    ts = seed["county"].get("termStart") or {}
+    people = {p["id"]: p for p in seed["people"]}
+    for race in seed["races"]:
+        x = race.get("results")
+        if not x or x.get("status") != "official" or not x.get("counted") or not x.get("leader"):
+            continue
+        start = (ts.get("schoolBoard" if race["id"].startswith("sb") else "commission") or {}).get("date")
+        if not start or today < start:
+            continue
+        for pid in race.get("people", []):
+            p = people.get(pid)
+            if not p:
+                continue
+            if pid == x["leader"]:
+                if p.get("status") != "incumbent":
+                    p["status"] = "incumbent"
+                    p["office"] = "School Board Member" if race["id"].startswith("sb") else "County Commissioner"
+                    p["seatedAfter"] = {"race": race["id"], "date": start, "source": x.get("source")}
+            elif p.get("status") == "incumbent":
+                p["status"] = "former"
+                p.pop("contact", None)
+                p["leftAfter"] = {"race": race["id"], "date": start, "source": x.get("source")}
+    return seed
+
+
 def pull(county: str, code: str, eid: int, vendor: str = "vr", base: str | None = None, certified: bool = False) -> str:
     from ..refresh import get
     if vendor == "clarity":

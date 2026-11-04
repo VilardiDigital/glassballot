@@ -21,7 +21,7 @@ from .sources.filings import merge as merge_filings
 from .sources.dig import merge as merge_dig
 from .sources.impact import merge as merge_impact
 from .sources.funding import merge as merge_funding
-from .sources.results import merge as merge_results
+from .sources.results import merge as merge_results, seat_winners
 from .sources.statewide import merge as merge_statewide
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -73,6 +73,7 @@ def build_county(cid: str, accessed: str | None) -> dict | None:
         if cc:
             seed["county"]["boards"] = {k: cc[k] for k in ("commission", "schoolBoard") if cc.get(k)}
         seed["county"]["termStart"] = ct.get("termStart", {})
+    seed = seat_winners(seed, datetime.now(timezone.utc).strftime("%Y-%m-%d"))
     soe = json.loads((ROOT / "data" / "soe_sites.json").read_text()).get(cid)
     if soe:
         seed["county"].setdefault("soeUrl", soe)

@@ -526,7 +526,9 @@ const evenPhotos = r => !r || r.people.map(id => P[id]).filter(Boolean).every(x 
 const face = (p, size = "", plain = false) => { const u = plain ? null : photoOf(p); const ini = esc(initials(p.name));
   return u ? `<img class="face ${size}" src="${esc(u)}" alt="Photo of ${esc(p.name)}" loading="lazy" referrerpolicy="no-referrer" data-ini="${ini}">` : `<span class="face ${size}" aria-hidden="true">${ini}</span>`; };
 document.addEventListener("error", e => { const t = e.target; if (t.tagName === "IMG" && t.classList.contains("face")) { const s = document.createElement("span"); s.className = t.className; s.textContent = t.dataset.ini || ""; s.setAttribute("aria-hidden", "true"); t.replaceWith(s); } }, true);
-const statusText = p => ({incumbent:"In office now", open:"Running", former:"Former commissioner"})[p.status] || "Running";
+const statusText = p => p.status === "incumbent" ? (p.seatedAfter ? "Took office " + fmtDate(p.seatedAfter.date) : "In office now")
+  : p.status === "former" ? (/school/i.test(p.office || "") ? "Former school board member" : "Former commissioner")
+  : daysLeft() < 0 ? "Ran in 2026" : "Running";
 const partyOf = p => p.nonpartisan ? "" : (p.facts.party && p.facts.party.value ? p.facts.party.value : "");
 const isSchool = r => /^sb/.test(r.id) || /school/i.test(r.title);
 const isCountywide = r => /at-large|countywide/i.test(r.seatType || "") || r.countywide;

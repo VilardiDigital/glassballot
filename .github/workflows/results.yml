@@ -4,8 +4,9 @@ on:
   schedule:
     # Nov 3, 2026, 7 p.m. to 2 a.m. Eastern (Nov 4, 00:00 to 06:59 UTC): every 10 minutes
     - cron: "*/10 0-6 4 11 *"
-    # Then twice a day while counties finish counting and certify
-    - cron: "41 13,23 4-20 11 *"
+    # Then twice a day while counties finish counting, recount and certify (certified results are due Nov 15,
+    # recounts can run later). After Nov 30 the nightly refresh keeps pulling results once a day.
+    - cron: "41 13,23 4-30 11 *"
 permissions:
   contents: write
 # Its own lane, so election night never waits behind the nightly refresh or another job.
@@ -17,10 +18,17 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
+      # These crons would fire again next November. Scheduled runs only do anything inside the 2026 count window.
+      - id: w
+        run: |
+          if [ "${{ github.event_name }}" = workflow_dispatch ] || [ "$(date -u +%Y-%m)" = 2026-11 ]; then echo "go=true" >> "$GITHUB_OUTPUT"; else echo "Outside the 2026 count window"; fi
       - uses: actions/checkout@v4
+        if: steps.w.outputs.go == 'true'
       - uses: actions/setup-python@v5
+        if: steps.w.outputs.go == 'true'
         with: {python-version: "3.12"}
       - name: Pull results and rebuild
+        if: steps.w.outputs.go == 'true'
         run: |
           python tools/probe_clarity.py || true
           timeout 600 python tools/probe_enr.py || true
@@ -28,6 +36,7 @@ jobs:
           python -m pipeline.sources.statewide || true
           python -m pipeline.refresh --offline
       - name: Publish
+        if: steps.w.outputs.go == 'true'
         run: |
           git config user.name "Glass Ballot results"
           git config user.email "glassballotinfo@gmail.com"

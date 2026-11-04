@@ -90,3 +90,25 @@ class ClarityNames(unittest.TestCase):
         r = parse_clarity({"Contests": [{"C": "School Board Member District 3 - At Large", "CH": ["Curtis Campogni", "Dawn Peters"],
                                          "P": ["", ""], "V": [175434, 174722], "PCT": [50.1, 49.9], "PR": 288, "TP": 288}]})
         self.assertEqual([c["name"] for c in r["races"][0]["candidates"]], ["Curtis Campogni", "Dawn Peters"])
+
+
+class Seating(unittest.TestCase):
+    def seed(self, status="official"):
+        return {"county": {"termStart": {"commission": {"date": "2026-11-17"}}},
+                "people": [{"id": "a", "status": "incumbent", "office": "County Commissioner", "contact": {"phone": "1"}},
+                           {"id": "b", "status": "challenger", "office": "Candidate, County Commission"}],
+                "races": [{"id": "bcc-d2", "people": ["a", "b"], "results": {"status": status, "counted": True, "leader": "b", "source": "x"}}]}
+
+    def test_certified_winner_is_seated_on_term_start(self):
+        from pipeline.sources.results import seat_winners
+        s = seat_winners(self.seed(), "2026-11-17")
+        p = {x["id"]: x for x in s["people"]}
+        self.assertEqual((p["b"]["status"], p["b"]["office"]), ("incumbent", "County Commissioner"))
+        self.assertEqual(p["a"]["status"], "former")
+        self.assertNotIn("contact", p["a"])
+
+    def test_nothing_changes_before_term_start_or_without_certification(self):
+        from pipeline.sources.results import seat_winners
+        for seed, day in ((self.seed(), "2026-11-16"), (self.seed("unofficial"), "2026-12-01")):
+            p = {x["id"]: x for x in seat_winners(seed, day)["people"]}
+            self.assertEqual((p["a"]["status"], p["b"]["status"]), ("incumbent", "challenger"))
