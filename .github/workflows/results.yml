@@ -24,6 +24,7 @@ jobs:
         run: |
           python tools/probe_clarity.py || true
           python -m pipeline.sources.results
+          python -m pipeline.sources.statewide || true
           python -m pipeline.refresh --offline
       - name: Publish
         run: |
