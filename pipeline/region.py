@@ -61,6 +61,18 @@ def build_county(cid: str, accessed: str | None) -> dict | None:
     seed = merge_results(seed, cid)
     for person in seed.get("people", []):
         person["name"] = _nice_name(person["name"])
+    # Official office contact details for sitting officials, and when newly elected members take office.
+    cp = ROOT / "data" / "contacts_2026.json"
+    if cp.exists():
+        ct = json.loads(cp.read_text())
+        cc = ct.get("counties", {}).get(cid, {})
+        for person in seed.get("people", []):
+            x = cc.get("people", {}).get(person["id"])
+            if x and person.get("status") == "incumbent":
+                person["contact"] = x
+        if cc:
+            seed["county"]["boards"] = {k: cc[k] for k in ("commission", "schoolBoard") if cc.get(k)}
+        seed["county"]["termStart"] = ct.get("termStart", {})
     soe = json.loads((ROOT / "data" / "soe_sites.json").read_text()).get(cid)
     if soe:
         seed["county"].setdefault("soeUrl", soe)

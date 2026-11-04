@@ -808,6 +808,35 @@ views.florida_race = id => {
 // A link to the statewide page from the start page and each county ballot.
 const swBanner = () => SW && (SW.races.length || SW.measures.length) && daysLeft() <= 0 ? `<a class="notice noprint" href="/florida" style="text-decoration:none;color:inherit"><span><b>Statewide results: Governor, Cabinet, U.S. Senate and ${SW.measures.length} amendment${SW.measures.length === 1 ? "" : "s"}.</b> What each amendment means in plain English, and how every statewide race stands. ›</span></a>` : "";
 
+// Where this person's 2026 race stands, from the county's count. Never a call of our own.
+function electionLine(p, race) {
+  const x = race && race.results; if (!x || !x.total) return "";
+  const me = x.candidates.find(c => c.person === p.id); if (!me) return "";
+  const first = x.candidates[0], lead = first.person === p.id;
+  const ts = (C.county.termStart || {})[/^sb/.test(race.id) ? "schoolBoard" : "commission"];
+  const take = ts && ts.date ? ` Winners take office ${esc(swDate(ts.date))}, under Florida law.` : "";
+  let msg;
+  if (x.counted && x.status === "official") msg = lead ? `<b>Won the 2026 election</b> with ${me.pct.toFixed(1)}% (official results).${take}` : `<b>Ran in 2026 and did not win</b> (${me.pct.toFixed(1)}%, official results). Kept here as part of the public record.`;
+  else if (x.counted) msg = lead ? `<b>Leads with every precinct counted</b>: ${me.pct.toFixed(1)}%. Results are unofficial until the county certifies them.${take}` : `<b>Trails with every precinct counted</b>: ${me.pct.toFixed(1)}%. Results are unofficial until the county certifies them.`;
+  else msg = `<b>${lead ? "Leading" : "Trailing"}</b> with ${me.pct.toFixed(1)}% so far. Still counting.`;
+  return `<a class="notice" href="${href("r/" + race.id)}" style="text-decoration:none;color:inherit"><span>2026 election: ${msg} See the full count ›</span></a>`;
+}
+// Official office contact details for people who hold the seat now.
+function contactBlock(p) {
+  const x = p.contact; if (!x || p.status !== "incumbent") return "";
+  const tel = (x.phone || "").replace(/[^0-9]/g, "");
+  return `<section class="panel stack-sm" aria-label="Contact this office">
+    <h2 class="h3">Contact ${esc(firstName(p))}'s office</h2>
+    <ul class="plain stack-sm small">
+      ${x.officeUrl ? `<li>Official page: <a href="${esc(x.officeUrl)}" target="_blank" rel="noopener">${esc(x.office || "Office website")}</a></li>` : ""}
+      ${x.phone ? `<li>Phone: <a href="tel:${esc(tel)}">${esc(x.phone)}</a></li>` : ""}
+      ${x.email ? `<li>Email: <a href="mailto:${esc(x.email)}">${esc(x.email)}</a></li>` : ""}
+      ${x.address ? `<li>Mail: ${esc(x.address)}</li>` : ""}
+    </ul>
+    <p class="tiny muted">Official government contact details only, never personal or campaign ones.${x.source ? ` <a href="${esc(x.source)}" target="_blank" rel="noopener">Where this came from</a>` : ""}</p>
+  </section>`;
+}
+
 /* ---------- election night results ---------- */
 // Election night, before we have this race's count: send people to the county's own results.
 function countingNote(r) {
@@ -1095,6 +1124,8 @@ views.person = id => {
     </section>
     <div class="row">${shareBtn(`${p.name} | Glass Ballot`, `${p.name}, ${p.office}${p.district ? ", District " + p.district : ""}: how they vote, who funds them and what they promised.`)}</div>
     ${rivals.length ? `<a class="vs" href="${href("r/" + race.id)}"><span class="small muted">Running against</span><b>${rivals.map(r => esc(r.name)).join(", ")}</b><span class="small">Compare</span>${chev}</a>` : ""}
+    ${electionLine(p, race)}
+    ${contactBlock(p)}
     ${shortVersion(p, fn, {cx: cnx.length, promises: hasPromises})}
     <nav class="jumpbar" aria-label="Sections on this page">${jumps.map(([id, t]) => `<a href="#${id}" data-jump="${id}">${t}</a>`).join("")}</nav>
 

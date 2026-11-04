@@ -87,6 +87,32 @@
     "seats": "7 commissioners. Districts 1, 2 and 3 are at-large, so every Pinellas voter votes on them. Districts 4 to 7 are single-member, so only voters who live in that district vote.",
     "lookupUrl": "https://www.votepinellas.gov/",
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=pinellas",
+    "boards": {
+     "commission": {
+      "url": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/",
+      "phone": "(727) 464-3000",
+      "address": "Pinellas County Board of County Commissioners, 315 Court Street, Clearwater, FL 33756",
+      "contactUrl": "https://pinellas.gov/services/online-customer-service/"
+     },
+     "schoolBoard": {
+      "url": "https://www.pcsb.org/school-board/school-board",
+      "phone": "727-588-6300",
+      "address": "301 4th St. SW, Largo, FL 33770",
+      "contactUrl": "https://www.pcsb.org/school-board/school-board"
+     }
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.votepinellas.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -1765,6 +1791,14 @@
       "through": "2024-10-31",
       "source": "soe-itemized-2024"
      },
+     "contact": {
+      "office": "Pinellas County Commission, District 1",
+      "officeUrl": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-chris-scherer/",
+      "phone": "(727) 464-3365",
+      "email": "cscherer@pinellas.gov",
+      "address": "315 Court Street, Clearwater, FL 33756",
+      "source": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-chris-scherer/"
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -2677,6 +2711,14 @@
       "prior": 0,
       "through": "2026-10-29",
       "source": "soe-itemized"
+     },
+     "contact": {
+      "office": "Pinellas County Commission, District 2",
+      "officeUrl": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-brian-scott/",
+      "phone": "(727) 464-3360",
+      "email": "brscott@pinellas.gov",
+      "address": "315 Court Street, Clearwater, FL 33756",
+      "source": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-brian-scott/"
      },
      "facts": {
       "party": {
@@ -3754,6 +3796,14 @@
       "through": "2024-10-31",
       "source": "soe-itemized-2024"
      },
+     "contact": {
+      "office": "Pinellas County Commission, District 3",
+      "officeUrl": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-vince-nowicki/",
+      "phone": "(727) 464-3363",
+      "email": "vnowicki@pinellas.gov",
+      "address": "315 Court Street, Clearwater, FL 33756",
+      "source": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-vince-nowicki/"
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -4423,6 +4473,14 @@
       "through": "2026-08-11",
       "source": "soe-itemized"
      },
+     "contact": {
+      "office": "Pinellas County Commission, District 4",
+      "officeUrl": "https://pinellas.gov/commissioner-dave-eggers/",
+      "phone": "(727) 464-3276",
+      "email": "deggers@pinellas.gov",
+      "address": "315 Court Street, Clearwater, FL 33756",
+      "source": "https://pinellas.gov/commissioner-dave-eggers/"
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -5027,6 +5085,14 @@
       "prior": 0,
       "through": "2024-05-31",
       "source": "soe-itemized-2024"
+     },
+     "contact": {
+      "office": "Pinellas County Commission, District 5",
+      "officeUrl": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-chris-latvala/",
+      "phone": "(727) 464-3278",
+      "email": "clatvala@pinellas.gov",
+      "address": "315 Court Street, Clearwater, FL 33756",
+      "source": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-chris-latvala/"
      },
      "facts": {
       "party": {
@@ -6073,6 +6139,14 @@
       "through": "2026-10-29",
       "source": "soe-itemized"
      },
+     "contact": {
+      "office": "Pinellas County Commission, District 6",
+      "officeUrl": "https://pinellas.gov/commissioner-kathleen-peters/",
+      "phone": "(727) 464-3568",
+      "email": "kpeters@pinellas.gov",
+      "address": "315 Court Street, Clearwater, FL 33756",
+      "source": "https://pinellas.gov/commissioner-kathleen-peters/"
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -7011,6 +7085,14 @@
       "through": "2024-09-07",
       "source": "soe-itemized-2024"
      },
+     "contact": {
+      "office": "Pinellas County Commission, District 7",
+      "officeUrl": "https://pinellas.gov/commissioner-rene-flowers",
+      "phone": "(727) 464-3614",
+      "email": "rflowers@pinellas.gov",
+      "address": "315 Court Street, Clearwater, FL 33756",
+      "source": "https://pinellas.gov/commissioner-rene-flowers"
+     },
      "facts": {
       "party": {
        "value": "Democrat",
@@ -7518,6 +7600,14 @@
       "prior": 0,
       "through": "2026-10-21",
       "source": "soe-itemized"
+     },
+     "contact": {
+      "office": "Pinellas County School Board, District 3 (At Large)",
+      "officeUrl": "https://www.pcsb.org/school-board/school-board/dawn-m-peters",
+      "phone": "727-588-6300",
+      "email": "board@pcsb.org",
+      "address": "301 4th St. SW, Largo, FL 33770",
+      "source": "https://www.pcsb.org/school-board/school-board"
      },
      "facts": {
       "party": {
@@ -10692,6 +10782,32 @@
     "electionDate": "2026-11-03",
     "seats": "7 commissioners. Districts 1 to 4 are single-member, so only voters who live in that district vote. Districts 5, 6 and 7 are countywide (at-large), so every Hillsborough voter votes on them. Districts 1, 3, 5 and 7 are on the 2026 ballot.",
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hillsborough&el=27",
+    "boards": {
+     "commission": {
+      "url": "https://hcfl.gov/government/board-of-county-commissioners",
+      "phone": "(813) 272-5900",
+      "address": "Frederick B. Karl County Center, 601 E. Kennedy Blvd., Tampa, FL 33602",
+      "contactUrl": "https://hcfl.gov/government/board-of-county-commissioners/contact-your-commissioner"
+     },
+     "schoolBoard": {
+      "url": "https://www.hillsboroughschools.org/page/school-board",
+      "phone": "(813) 272-4000",
+      "address": "Hillsborough County Public Schools, 901 East Kennedy Boulevard, Tampa, FL 33602",
+      "contactUrl": "https://www.hillsboroughschools.org/page/school-board"
+     }
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.votehillsborough.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -12251,6 +12367,14 @@
       "through": "2026-10-29",
       "source": "soe-itemized"
      },
+     "contact": {
+      "office": "Hillsborough County Commission, District 1",
+      "officeUrl": "https://hcfl.gov/commissioners/harry-cohen",
+      "phone": "(813) 272-5470",
+      "email": "",
+      "address": "601 E. Kennedy Blvd., Tampa, FL 33602",
+      "source": "https://hcfl.gov/commissioners/harry-cohen"
+     },
      "facts": {
       "party": {
        "value": "Democrat",
@@ -13198,6 +13322,14 @@
       "through": "2024-10-31",
       "source": "soe-itemized-2024"
      },
+     "contact": {
+      "office": "Hillsborough County Commission, District 2",
+      "officeUrl": "https://hcfl.gov/commissioners/ken-hagan",
+      "phone": "(813) 272-5452",
+      "email": "",
+      "address": "601 E. Kennedy Blvd., Tampa, FL 33602",
+      "source": "https://hcfl.gov/commissioners/ken-hagan"
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -13845,6 +13977,14 @@
       "prior": 0,
       "through": "2026-10-28",
       "source": "soe-itemized"
+     },
+     "contact": {
+      "office": "Hillsborough County Commission, District 3",
+      "officeUrl": "https://hcfl.gov/commissioners/gwen-myers",
+      "phone": "(813) 272-5720",
+      "email": "",
+      "address": "601 E. Kennedy Blvd., Tampa, FL 33602",
+      "source": "https://hcfl.gov/commissioners/gwen-myers"
      },
      "facts": {
       "party": {
@@ -14661,6 +14801,14 @@
       "through": "2024-10-31",
       "source": "soe-itemized-2024"
      },
+     "contact": {
+      "office": "Hillsborough County Commission, District 4",
+      "officeUrl": "https://hcfl.gov/commissioners/christine-miller",
+      "phone": "(813) 272-5740",
+      "email": "",
+      "address": "601 E. Kennedy Blvd., Tampa, FL 33602",
+      "source": "https://hcfl.gov/commissioners/christine-miller"
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -15058,6 +15206,14 @@
       "prior": 0,
       "through": "2026-08-12",
       "source": "soe-itemized"
+     },
+     "contact": {
+      "office": "Hillsborough County Commission, District 5 (Countywide)",
+      "officeUrl": "https://hcfl.gov/commissioners/donna-cameron-cepeda",
+      "phone": "(813) 272-5725",
+      "email": "",
+      "address": "601 E. Kennedy Blvd., Tampa, FL 33602",
+      "source": "https://hcfl.gov/commissioners/donna-cameron-cepeda"
      },
      "facts": {
       "party": {
@@ -15783,6 +15939,14 @@
       "prior": 0,
       "through": "2024-10-31",
       "source": "soe-itemized-2024"
+     },
+     "contact": {
+      "office": "Hillsborough County Commission, District 6 (Countywide)",
+      "officeUrl": "https://hcfl.gov/commissioners/chris-boles",
+      "phone": "(813) 272-5730",
+      "email": "",
+      "address": "601 E. Kennedy Blvd., Tampa, FL 33602",
+      "source": "https://hcfl.gov/commissioners/chris-boles"
      },
      "facts": {
       "party": {
@@ -16585,6 +16749,14 @@
       "prior": 0,
       "through": "2026-10-29",
       "source": "soe-itemized"
+     },
+     "contact": {
+      "office": "Hillsborough County Commission, District 7 (Countywide)",
+      "officeUrl": "https://hcfl.gov/commissioners/joshua-wostal",
+      "phone": "(813) 272-5735",
+      "email": "",
+      "address": "601 E. Kennedy Blvd., Tampa, FL 33602",
+      "source": "https://hcfl.gov/commissioners/joshua-wostal"
      },
      "facts": {
       "party": {
@@ -20623,6 +20795,14 @@
       "through": "2026-05-29",
       "source": "soe-itemized"
      },
+     "contact": {
+      "office": "Hillsborough County School Board, District 4",
+      "officeUrl": "https://www.hillsboroughschools.org/Page/8833",
+      "phone": "(813) 272-4053",
+      "email": "",
+      "address": "901 East Kennedy Boulevard, Tampa, FL 33602",
+      "source": "https://www.hillsboroughschools.org/Page/8833"
+     },
      "facts": {
       "party": {
        "value": null,
@@ -21164,6 +21344,14 @@
       "prior": 0,
       "through": "2026-10-29",
       "source": "soe-itemized"
+     },
+     "contact": {
+      "office": "Hillsborough County School Board, District 6 (Countywide)",
+      "officeUrl": "https://www.hillsboroughschools.org/Page/8833",
+      "phone": "",
+      "email": "",
+      "address": "901 East Kennedy Boulevard, Tampa, FL 33602",
+      "source": "https://www.hillsboroughschools.org/Page/8833"
      },
      "facts": {
       "party": {
@@ -22524,6 +22712,32 @@
     "electionDate": "2026-11-03",
     "seats": "5 commissioners. Each must live in their district, but every Pasco voter votes on every seat. The 5 School Board members are elected the same way, on a nonpartisan ballot.",
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=pasco&el=38",
+    "boards": {
+     "commission": {
+      "url": "https://www.pascocountyfl.gov/government/county_commissioners/index.php",
+      "phone": "727-847-2411",
+      "address": "8731 Citizens Drive, New Port Richey, FL 34654",
+      "contactUrl": "https://www.pascocountyfl.gov/services/customer_service/index.php"
+     },
+     "schoolBoard": {
+      "url": "https://www.pasco.k12.fl.us/school_board/",
+      "phone": "(813) 794-2000",
+      "address": "District School Board of Pasco County, 7227 Land O' Lakes Blvd., Land O' Lakes, FL 34638",
+      "contactUrl": "https://www.pasco.k12.fl.us/school_board/"
+     }
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.pascovotes.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -24230,6 +24444,14 @@
       "through": "2024-10-31",
       "source": "soe-itemized-2024"
      },
+     "contact": {
+      "office": "Pasco County Commission, District 1",
+      "officeUrl": "https://www.pascocountyfl.gov/government/county_commissioners/district_1.php",
+      "phone": "352-521-4111",
+      "email": "roakley@mypasco.net",
+      "address": "8731 Citizens Drive, New Port Richey, FL 34654",
+      "source": "https://www.pascocountyfl.gov/government/county_commissioners/district_1.php"
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -24984,6 +25206,14 @@
       "prior": 0,
       "through": "2026-10-27",
       "source": "soe-itemized"
+     },
+     "contact": {
+      "office": "Pasco County Commission, District 2",
+      "officeUrl": "https://www.pascocountyfl.gov/government/county_commissioners/district_2.php",
+      "phone": "352-521-4111",
+      "email": "sweightman@mypasco.net",
+      "address": "8731 Citizens Drive, New Port Richey, FL 34654",
+      "source": "https://www.pascocountyfl.gov/government/county_commissioners/district_2.php"
      },
      "facts": {
       "party": {
@@ -25753,6 +25983,14 @@
       "through": "2024-10-31",
       "source": "soe-itemized-2024"
      },
+     "contact": {
+      "office": "Pasco County Commission, District 3",
+      "officeUrl": "https://www.pascocountyfl.gov/government/county_commissioners/district_3.php",
+      "phone": "727-847-8109",
+      "email": "kstarkey@mypasco.net",
+      "address": "8731 Citizens Drive, New Port Richey, FL 34654",
+      "source": "https://www.pascocountyfl.gov/government/county_commissioners/district_3.php"
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -26503,6 +26741,14 @@
       "prior": 0,
       "through": "2026-08-13",
       "source": "soe-itemized"
+     },
+     "contact": {
+      "office": "Pasco County Commission, District 4",
+      "officeUrl": "https://www.pascocountyfl.gov/government/county_commissioners/district_4.php",
+      "phone": "727-847-8100",
+      "email": "lyeager@mypasco.net",
+      "address": "8731 Citizens Drive, New Port Richey, FL 34654",
+      "source": "https://www.pascocountyfl.gov/government/county_commissioners/district_4.php"
      },
      "facts": {
       "party": {
@@ -27284,6 +27530,14 @@
       "prior": 0,
       "through": "2024-10-31",
       "source": "soe-itemized-2024"
+     },
+     "contact": {
+      "office": "Pasco County Commission, District 5",
+      "officeUrl": "https://www.pascocountyfl.gov/government/county_commissioners/district_5.php",
+      "phone": "727-847-2411 ext. 7164",
+      "email": "jmariano@mypasco.net",
+      "address": "8731 Citizens Drive, New Port Richey, FL 34654",
+      "source": "https://www.pascocountyfl.gov/government/county_commissioners/district_5.php"
      },
      "facts": {
       "party": {
@@ -29686,6 +29940,14 @@
       "through": "2026-08-12",
       "source": "soe-itemized"
      },
+     "contact": {
+      "office": "Pasco County School Board, District 5",
+      "officeUrl": "https://www.pasco.k12.fl.us/school_board/",
+      "phone": "(813) 794-3493",
+      "email": "mharding@pasco.k12.fl.us",
+      "address": "District School Board of Pasco County, 7227 Land O' Lakes Blvd., Land O' Lakes, FL 34638",
+      "source": "https://www.pasco.k12.fl.us/school_board/"
+     },
      "facts": {
       "party": {
        "value": null,
@@ -30814,6 +31076,32 @@
     "electionDate": "2026-11-03",
     "seats": "5 commissioners elected at large to four-year terms, so every Hernando voter votes on every seat. Districts 2 and 4 were up in 2026; District 2 was settled in the Aug 18 primary. School Board seats 1, 3 and 5 were up; only District 5 goes to the Nov 3 ballot.",
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hernando&el=32",
+    "boards": {
+     "commission": {
+      "url": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/",
+      "phone": "(352) 754-4000",
+      "address": "Hernando County Administration, 15470 Flight Path Dr., Brooksville, FL 34604",
+      "contactUrl": "https://www.hernandocounty.us/contacts-directory/"
+     },
+     "schoolBoard": {
+      "url": "https://www.hernandoschools.org/school-board/school-board-members",
+      "phone": "(352) 797-7000",
+      "address": "919 North Broad Street, Brooksville, FL 34601",
+      "contactUrl": "https://www.hernandoschools.org/72046"
+     }
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.hernandovotes.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -32103,6 +32391,14 @@
       "through": "2024-08-15",
       "source": "soe-itemized-2024"
      },
+     "contact": {
+      "office": "Hernando County Commission, District 1",
+      "officeUrl": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/#district-1",
+      "phone": "(352) 247-9426",
+      "email": "RAmsler@HernandoCounty.us",
+      "address": "",
+      "source": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/"
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -32411,6 +32707,14 @@
         "when": "2026"
        }
       ]
+     },
+     "contact": {
+      "office": "Hernando County Commission, District 2",
+      "officeUrl": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/#district-2",
+      "phone": "(352) 587-3000",
+      "email": "JMitten@HernandoCounty.us",
+      "address": "",
+      "source": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/"
      },
      "facts": {
       "party": {
@@ -33050,6 +33354,14 @@
       "through": "2024-10-24",
       "source": "soe-itemized-2024"
      },
+     "contact": {
+      "office": "Hernando County Commission, District 3",
+      "officeUrl": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/#district-3",
+      "phone": "(352) 247-9906",
+      "email": "JAllocco@HernandoCounty.us",
+      "address": "",
+      "source": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/"
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -33639,6 +33951,14 @@
       "prior": 0,
       "through": "2022-08-29",
       "source": "soe-itemized-2022"
+     },
+     "contact": {
+      "office": "Hernando County Commission, District 4",
+      "officeUrl": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/#district-4",
+      "phone": "(352) 247-1292",
+      "email": "JerryC@HernandoCounty.us",
+      "address": "",
+      "source": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/"
      },
      "facts": {
       "party": {
@@ -34305,6 +34625,14 @@
       "prior": 0,
       "through": "2020-10-28",
       "source": "soe-itemized-2020"
+     },
+     "contact": {
+      "office": "Hernando County Commission, District 5",
+      "officeUrl": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/#district-5",
+      "phone": "(352) 247-9046",
+      "email": "SChampion@HernandoCounty.us",
+      "address": "",
+      "source": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/"
      },
      "facts": {
       "party": {
@@ -36656,6 +36984,14 @@
       "through": "2026-10-18",
       "source": "soe-itemized"
      },
+     "contact": {
+      "office": "Hernando County School Board, District 5",
+      "officeUrl": "https://www.hernandoschools.org/susan-duval",
+      "phone": "352-797-7253",
+      "email": "duval_s@hcsb.k12.fl.us",
+      "address": "919 N. Broad Street, Brooksville, FL 34601",
+      "source": "https://www.hernandoschools.org/susan-duval"
+     },
      "facts": {
       "party": {
        "value": null,
@@ -37610,6 +37946,14 @@
       "through": "2026-08-12",
       "source": "soe-itemized"
      },
+     "contact": {
+      "office": "Hernando County School Board, District 1",
+      "officeUrl": "https://www.hernandoschools.org/mark-johnson-vice-chair",
+      "phone": "352-797-7253",
+      "email": "johnson_m2@hcsb.k12.fl.us",
+      "address": "919 N. Broad Street, Brooksville, FL 34601",
+      "source": "https://www.hernandoschools.org/mark-johnson-vice-chair"
+     },
      "facts": {
       "party": {
        "value": null,
@@ -38002,6 +38346,14 @@
       "prior": 0,
       "through": "2026-08-13",
       "source": "soe-itemized"
+     },
+     "contact": {
+      "office": "Hernando County School Board, District 3",
+      "officeUrl": "https://www.hernandoschools.org/shannon-rodriguez-board-chair",
+      "phone": "352-797-7253",
+      "email": "rodriguez_s@hcsb.k12.fl.us",
+      "address": "919 N. Broad Street, Brooksville, FL 34601",
+      "source": "https://www.hernandoschools.org/shannon-rodriguez-board-chair"
      },
      "facts": {
       "party": {
@@ -41232,6 +41584,18 @@
     "pastCycles": {
      "2024": 49,
      "2022": 48
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.votealachua.gov/"
    },
@@ -44841,6 +45205,18 @@
      "2024": 31,
      "2022": 28
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://votebakerfl.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -46970,6 +47346,18 @@
     "pastCycles": {
      "2024": 26,
      "2022": 27
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.bayvotesfl.gov/"
    },
@@ -50196,6 +50584,18 @@
      "2024": 20,
      "2022": 18
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.votebradfordfl.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -52182,6 +52582,18 @@
     "pastCycles": {
      "2024": 28,
      "2022": 25
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.votebrevard.gov/"
    },
@@ -57753,6 +58165,18 @@
     "pastCycles": {
      "2024": 149,
      "2022": 148
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.browardvotes.gov/"
    },
@@ -66925,6 +67349,18 @@
      "2024": 18,
      "2022": 16
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.votecalhounfl.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -69755,6 +70191,18 @@
     "pastCycles": {
      "2024": 26,
      "2022": 25
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.soecharlottecountyfl.gov/"
    },
@@ -73189,6 +73637,18 @@
     "pastCycles": {
      "2024": 20,
      "2022": 19
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.votecitrus.gov/"
    },
@@ -76626,6 +77086,18 @@
     "pastCycles": {
      "2024": 89,
      "2022": 84
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.clayelections.gov/"
    },
@@ -80325,6 +80797,18 @@
      "2024": 14,
      "2022": 13
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.colliervotes.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -83292,6 +83776,18 @@
      "2024": 28,
      "2022": 26
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.votecolumbiafl.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -85707,6 +86203,18 @@
     "pastCycles": {
      "2024": 5,
      "2022": 4
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.votedesotofl.gov/"
    },
@@ -88448,6 +88956,18 @@
      "2024": 12,
      "2022": 11
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.dixievotes.com/"
    },
    "generatedAt": "2026-11-04",
@@ -90292,6 +90812,18 @@
     "pastCycles": {
      "2024": 39,
      "2022": 36
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.duvalelections.com/"
    },
@@ -92712,6 +93244,18 @@
     "pastCycles": {
      "2024": 24,
      "2022": 23
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://escambiavotes.gov/"
    },
@@ -96686,6 +97230,18 @@
      "2024": 37,
      "2022": 30
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.flaglerelections.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -100107,6 +100663,18 @@
      "2024": 25,
      "2022": 22
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.votefranklinfl.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -101711,6 +102279,18 @@
     "pastCycles": {
      "2024": 31,
      "2022": 32
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.gadsdensoefl.gov/"
    },
@@ -104637,6 +105217,18 @@
      "2024": 21,
      "2022": 20
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.votegilchrist.com/"
    },
    "generatedAt": "2026-11-04",
@@ -106004,6 +106596,18 @@
     "pastCycles": {
      "2024": 5,
      "2022": 4
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.voteglades.gov/"
    },
@@ -108300,6 +108904,18 @@
     "pastCycles": {
      "2024": 56,
      "2022": 49
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.votegulf.gov/"
    },
@@ -110897,6 +111513,18 @@
      "2024": 13,
      "2022": 12
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.hamiltonvotesfl.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -113112,6 +113740,18 @@
     "auto": true,
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hardee&el=16",
     "pastCycles": {},
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://hardeeflvotes.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -114192,6 +114832,18 @@
     "pastCycles": {
      "2024": 16,
      "2022": 14
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.hendryelections.gov/"
    },
@@ -116093,6 +116745,18 @@
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=highlands&el=10",
     "pastCycles": {
      "2024": 9
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.votehighlands.gov/"
    },
@@ -119194,6 +119858,18 @@
      "2024": 10,
      "2022": 7
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.holmeselectionsfl.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -121844,6 +122520,18 @@
     "pastCycles": {
      "2024": 17,
      "2022": 16
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.voteindianriver.gov/"
    },
@@ -125647,6 +126335,18 @@
      "2024": 17,
      "2022": 16
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.votejacksonfl.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -128027,6 +128727,18 @@
     "auto": true,
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=jefferson&el=8",
     "pastCycles": {},
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.jeffersonvotesfl.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -129684,6 +130396,18 @@
     "pastCycles": {
      "2022": 5
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.lafayettevotes.net/"
    },
    "generatedAt": "2026-11-04",
@@ -130934,6 +131658,18 @@
     "pastCycles": {
      "2024": 16,
      "2022": 15
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.lakevotes.gov/"
    },
@@ -134515,6 +135251,18 @@
     "pastCycles": {
      "2024": 28,
      "2022": 27
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.lee.vote/"
    },
@@ -141917,6 +142665,18 @@
      "2024": 24,
      "2022": 21
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.leonvotes.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -146801,6 +147561,18 @@
      "2024": 21,
      "2022": 20
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.votelevy.com/"
    },
    "generatedAt": "2026-11-04",
@@ -149705,6 +150477,18 @@
      "2024": 23,
      "2022": 21
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://libertycountyflsoe.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -151987,6 +152771,18 @@
     "auto": true,
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=madison&el=8",
     "pastCycles": {},
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.votemadison.com/"
    },
    "generatedAt": "2026-11-04",
@@ -154565,6 +155361,18 @@
     "pastCycles": {
      "2024": 187,
      "2022": 186
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.votemanatee.gov/"
    },
@@ -160514,6 +161322,18 @@
     "pastCycles": {
      "2024": 40,
      "2022": 35
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://votemarion.gov/"
    },
@@ -167409,6 +168229,18 @@
     "pastCycles": {
      "2024": 15,
      "2022": 14
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.martinvotes.gov/"
    },
@@ -176641,6 +177473,18 @@
     "pastCycles": {
      "2024": 29,
      "2022": 28
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.votemiamidade.gov/"
    },
@@ -190437,6 +191281,18 @@
      "2024": 40,
      "2022": 37
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://votemonroeflkeys.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -194223,6 +195079,18 @@
      "2024": 44,
      "2022": 42
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.votenassaufl.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -197409,6 +198277,18 @@
     "pastCycles": {
      "2024": 216,
      "2022": 212
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.voteokaloosa.gov/"
    },
@@ -200947,6 +201827,18 @@
      "2024": 30,
      "2022": 28
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.voteokeechobee.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -202774,6 +203666,18 @@
     "pastCycles": {
      "2024": 102,
      "2022": 10
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.voteorangefl.gov/"
    },
@@ -212377,6 +213281,18 @@
      "2024": 16,
      "2022": 14
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.voteosceola.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -217742,6 +218658,18 @@
     "pastCycles": {
      "2024": 11,
      "2022": 9
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.votepalmbeach.gov/"
    },
@@ -225453,6 +226381,18 @@
      "2024": 21,
      "2022": 18
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.polkelections.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -231590,6 +232530,18 @@
      "2024": 29,
      "2022": 25
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.voteputnamflorida.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -232228,6 +233180,18 @@
     "pastCycles": {
      "2024": 19,
      "2022": 18
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.votesjc.gov/"
    },
@@ -237469,6 +238433,18 @@
      "2024": 22,
      "2022": 21
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.stlucievotes.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -241604,6 +242580,18 @@
     "pastCycles": {
      "2024": 8,
      "2022": 9
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.votesantarosa.gov/"
    },
@@ -246367,6 +247355,18 @@
     "pastCycles": {
      "2024": 133,
      "2022": 11
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.sarasotavotes.gov/"
    },
@@ -251925,6 +252925,18 @@
      "2024": 104,
      "2022": 92
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.voteseminole.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -255792,6 +256804,18 @@
      "2024": 25,
      "2022": 24
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://elections.sumtercountyfl.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -258610,6 +259634,18 @@
      "2024": 27,
      "2022": 25
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.suwanneevotes.com/"
    },
    "generatedAt": "2026-11-04",
@@ -260706,6 +261742,18 @@
     "pastCycles": {
      "2024": 15,
      "2022": 14
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.taylorelectionsfl.gov/"
    },
@@ -262850,6 +263898,18 @@
     "auto": true,
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=union&el=11",
     "pastCycles": {},
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.unionflvotes.com/"
    },
    "generatedAt": "2026-11-04",
@@ -264261,6 +265321,18 @@
     "pastCycles": {
      "2024": 33,
      "2022": 29
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://volusiaelections.gov/"
    },
@@ -270064,6 +271136,18 @@
     "pastCycles": {
      "2022": 12
     },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.wakullavotes.gov/"
    },
    "generatedAt": "2026-11-04",
@@ -271678,6 +272762,18 @@
     "pastCycles": {
      "2024": 36,
      "2022": 32
+    },
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
     },
     "soeUrl": "https://www.votewalton.gov/"
    },
@@ -274718,6 +275814,18 @@
     "auto": true,
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=washington&el=10",
     "pastCycles": {},
+    "termStart": {
+     "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+     },
+     "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+     }
+    },
     "soeUrl": "https://www.wcsoe.gov/"
    },
    "generatedAt": "2026-11-04",

@@ -1,0 +1,337 @@
+{
+  "researched": "2026-11-04T03:26:48+00:00",
+  "termStart": {
+    "commission": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(2)(a): 4-year term commencing on the second Tuesday following the general election. Charter counties may set a later date by ordinance/referendum (s. 100.041(2)(b)); none of the four county sites opened stated a different date."
+    },
+    "schoolBoard": {
+      "date": "2026-11-17",
+      "source": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199%2F0100%2FSections%2F0100.041.html",
+      "note": "s. 100.041(3)(a): school board terms begin on the second Tuesday following the general election."
+    }
+  },
+  "counties": {
+    "pinellas": {
+      "commission": {
+        "url": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/",
+        "phone": "(727) 464-3000",
+        "address": "Pinellas County Board of County Commissioners, 315 Court Street, Clearwater, FL 33756",
+        "contactUrl": "https://pinellas.gov/services/online-customer-service/"
+      },
+      "schoolBoard": {
+        "url": "https://www.pcsb.org/school-board/school-board",
+        "phone": "727-588-6300",
+        "address": "301 4th St. SW, Largo, FL 33770",
+        "contactUrl": "https://www.pcsb.org/school-board/school-board"
+      },
+      "people": {
+        "scherer": {
+          "office": "Pinellas County Commission, District 1",
+          "officeUrl": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-chris-scherer/",
+          "phone": "(727) 464-3365",
+          "email": "cscherer@pinellas.gov",
+          "address": "315 Court Street, Clearwater, FL 33756",
+          "source": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-chris-scherer/"
+        },
+        "scott": {
+          "office": "Pinellas County Commission, District 2",
+          "officeUrl": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-brian-scott/",
+          "phone": "(727) 464-3360",
+          "email": "brscott@pinellas.gov",
+          "address": "315 Court Street, Clearwater, FL 33756",
+          "source": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-brian-scott/"
+        },
+        "nowicki": {
+          "office": "Pinellas County Commission, District 3",
+          "officeUrl": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-vince-nowicki/",
+          "phone": "(727) 464-3363",
+          "email": "vnowicki@pinellas.gov",
+          "address": "315 Court Street, Clearwater, FL 33756",
+          "source": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-vince-nowicki/"
+        },
+        "eggers": {
+          "office": "Pinellas County Commission, District 4",
+          "officeUrl": "https://pinellas.gov/commissioner-dave-eggers/",
+          "phone": "(727) 464-3276",
+          "email": "deggers@pinellas.gov",
+          "address": "315 Court Street, Clearwater, FL 33756",
+          "source": "https://pinellas.gov/commissioner-dave-eggers/"
+        },
+        "latvala": {
+          "office": "Pinellas County Commission, District 5",
+          "officeUrl": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-chris-latvala/",
+          "phone": "(727) 464-3278",
+          "email": "clatvala@pinellas.gov",
+          "address": "315 Court Street, Clearwater, FL 33756",
+          "source": "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-chris-latvala/"
+        },
+        "peters": {
+          "office": "Pinellas County Commission, District 6",
+          "officeUrl": "https://pinellas.gov/commissioner-kathleen-peters/",
+          "phone": "(727) 464-3568",
+          "email": "kpeters@pinellas.gov",
+          "address": "315 Court Street, Clearwater, FL 33756",
+          "source": "https://pinellas.gov/commissioner-kathleen-peters/"
+        },
+        "flowers": {
+          "office": "Pinellas County Commission, District 7",
+          "officeUrl": "https://pinellas.gov/commissioner-rene-flowers",
+          "phone": "(727) 464-3614",
+          "email": "rflowers@pinellas.gov",
+          "address": "315 Court Street, Clearwater, FL 33756",
+          "source": "https://pinellas.gov/commissioner-rene-flowers"
+        },
+        "dpeters": {
+          "office": "Pinellas County School Board, District 3 (At Large)",
+          "officeUrl": "https://www.pcsb.org/school-board/school-board/dawn-m-peters",
+          "phone": "727-588-6300",
+          "email": "board@pcsb.org",
+          "address": "301 4th St. SW, Largo, FL 33770",
+          "source": "https://www.pcsb.org/school-board/school-board"
+        }
+      }
+    },
+    "pasco": {
+      "commission": {
+        "url": "https://www.pascocountyfl.gov/government/county_commissioners/index.php",
+        "phone": "727-847-2411",
+        "address": "8731 Citizens Drive, New Port Richey, FL 34654",
+        "contactUrl": "https://www.pascocountyfl.gov/services/customer_service/index.php"
+      },
+      "schoolBoard": {
+        "url": "https://www.pasco.k12.fl.us/school_board/",
+        "phone": "(813) 794-2000",
+        "address": "District School Board of Pasco County, 7227 Land O' Lakes Blvd., Land O' Lakes, FL 34638",
+        "contactUrl": "https://www.pasco.k12.fl.us/school_board/"
+      },
+      "people": {
+        "oakley": {
+          "office": "Pasco County Commission, District 1",
+          "officeUrl": "https://www.pascocountyfl.gov/government/county_commissioners/district_1.php",
+          "phone": "352-521-4111",
+          "email": "roakley@mypasco.net",
+          "address": "8731 Citizens Drive, New Port Richey, FL 34654",
+          "source": "https://www.pascocountyfl.gov/government/county_commissioners/district_1.php"
+        },
+        "weightman": {
+          "office": "Pasco County Commission, District 2",
+          "officeUrl": "https://www.pascocountyfl.gov/government/county_commissioners/district_2.php",
+          "phone": "352-521-4111",
+          "email": "sweightman@mypasco.net",
+          "address": "8731 Citizens Drive, New Port Richey, FL 34654",
+          "source": "https://www.pascocountyfl.gov/government/county_commissioners/district_2.php"
+        },
+        "starkey": {
+          "office": "Pasco County Commission, District 3",
+          "officeUrl": "https://www.pascocountyfl.gov/government/county_commissioners/district_3.php",
+          "phone": "727-847-8109",
+          "email": "kstarkey@mypasco.net",
+          "address": "8731 Citizens Drive, New Port Richey, FL 34654",
+          "source": "https://www.pascocountyfl.gov/government/county_commissioners/district_3.php"
+        },
+        "yeager": {
+          "office": "Pasco County Commission, District 4",
+          "officeUrl": "https://www.pascocountyfl.gov/government/county_commissioners/district_4.php",
+          "phone": "727-847-8100",
+          "email": "lyeager@mypasco.net",
+          "address": "8731 Citizens Drive, New Port Richey, FL 34654",
+          "source": "https://www.pascocountyfl.gov/government/county_commissioners/district_4.php"
+        },
+        "mariano": {
+          "office": "Pasco County Commission, District 5",
+          "officeUrl": "https://www.pascocountyfl.gov/government/county_commissioners/district_5.php",
+          "phone": "727-847-2411 ext. 7164",
+          "email": "jmariano@mypasco.net",
+          "address": "8731 Citizens Drive, New Port Richey, FL 34654",
+          "source": "https://www.pascocountyfl.gov/government/county_commissioners/district_5.php"
+        },
+        "harding": {
+          "office": "Pasco County School Board, District 5",
+          "officeUrl": "https://www.pasco.k12.fl.us/school_board/",
+          "phone": "(813) 794-3493",
+          "email": "mharding@pasco.k12.fl.us",
+          "address": "District School Board of Pasco County, 7227 Land O' Lakes Blvd., Land O' Lakes, FL 34638",
+          "source": "https://www.pasco.k12.fl.us/school_board/"
+        }
+      }
+    },
+    "hillsborough": {
+      "commission": {
+        "url": "https://hcfl.gov/government/board-of-county-commissioners",
+        "phone": "(813) 272-5900",
+        "address": "Frederick B. Karl County Center, 601 E. Kennedy Blvd., Tampa, FL 33602",
+        "contactUrl": "https://hcfl.gov/government/board-of-county-commissioners/contact-your-commissioner"
+      },
+      "schoolBoard": {
+        "url": "https://www.hillsboroughschools.org/page/school-board",
+        "phone": "(813) 272-4000",
+        "address": "Hillsborough County Public Schools, 901 East Kennedy Boulevard, Tampa, FL 33602",
+        "contactUrl": "https://www.hillsboroughschools.org/page/school-board"
+      },
+      "people": {
+        "cohen": {
+          "office": "Hillsborough County Commission, District 1",
+          "officeUrl": "https://hcfl.gov/commissioners/harry-cohen",
+          "phone": "(813) 272-5470",
+          "email": "",
+          "address": "601 E. Kennedy Blvd., Tampa, FL 33602",
+          "source": "https://hcfl.gov/commissioners/harry-cohen"
+        },
+        "hagan": {
+          "office": "Hillsborough County Commission, District 2",
+          "officeUrl": "https://hcfl.gov/commissioners/ken-hagan",
+          "phone": "(813) 272-5452",
+          "email": "",
+          "address": "601 E. Kennedy Blvd., Tampa, FL 33602",
+          "source": "https://hcfl.gov/commissioners/ken-hagan"
+        },
+        "myers": {
+          "office": "Hillsborough County Commission, District 3",
+          "officeUrl": "https://hcfl.gov/commissioners/gwen-myers",
+          "phone": "(813) 272-5720",
+          "email": "",
+          "address": "601 E. Kennedy Blvd., Tampa, FL 33602",
+          "source": "https://hcfl.gov/commissioners/gwen-myers"
+        },
+        "miller": {
+          "office": "Hillsborough County Commission, District 4",
+          "officeUrl": "https://hcfl.gov/commissioners/christine-miller",
+          "phone": "(813) 272-5740",
+          "email": "",
+          "address": "601 E. Kennedy Blvd., Tampa, FL 33602",
+          "source": "https://hcfl.gov/commissioners/christine-miller"
+        },
+        "cepeda": {
+          "office": "Hillsborough County Commission, District 5 (Countywide)",
+          "officeUrl": "https://hcfl.gov/commissioners/donna-cameron-cepeda",
+          "phone": "(813) 272-5725",
+          "email": "",
+          "address": "601 E. Kennedy Blvd., Tampa, FL 33602",
+          "source": "https://hcfl.gov/commissioners/donna-cameron-cepeda"
+        },
+        "boles": {
+          "office": "Hillsborough County Commission, District 6 (Countywide)",
+          "officeUrl": "https://hcfl.gov/commissioners/chris-boles",
+          "phone": "(813) 272-5730",
+          "email": "",
+          "address": "601 E. Kennedy Blvd., Tampa, FL 33602",
+          "source": "https://hcfl.gov/commissioners/chris-boles"
+        },
+        "wostal": {
+          "office": "Hillsborough County Commission, District 7 (Countywide)",
+          "officeUrl": "https://hcfl.gov/commissioners/joshua-wostal",
+          "phone": "(813) 272-5735",
+          "email": "",
+          "address": "601 E. Kennedy Blvd., Tampa, FL 33602",
+          "source": "https://hcfl.gov/commissioners/joshua-wostal"
+        },
+        "rendon": {
+          "office": "Hillsborough County School Board, District 4",
+          "officeUrl": "https://www.hillsboroughschools.org/Page/8833",
+          "phone": "(813) 272-4053",
+          "email": "",
+          "address": "901 East Kennedy Boulevard, Tampa, FL 33602",
+          "source": "https://www.hillsboroughschools.org/Page/8833"
+        },
+        "perez": {
+          "office": "Hillsborough County School Board, District 6 (Countywide)",
+          "officeUrl": "https://www.hillsboroughschools.org/Page/8833",
+          "phone": "",
+          "email": "",
+          "address": "901 East Kennedy Boulevard, Tampa, FL 33602",
+          "source": "https://www.hillsboroughschools.org/Page/8833"
+        }
+      }
+    },
+    "hernando": {
+      "commission": {
+        "url": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/",
+        "phone": "(352) 754-4000",
+        "address": "Hernando County Administration, 15470 Flight Path Dr., Brooksville, FL 34604",
+        "contactUrl": "https://www.hernandocounty.us/contacts-directory/"
+      },
+      "schoolBoard": {
+        "url": "https://www.hernandoschools.org/school-board/school-board-members",
+        "phone": "(352) 797-7000",
+        "address": "919 North Broad Street, Brooksville, FL 34601",
+        "contactUrl": "https://www.hernandoschools.org/72046"
+      },
+      "people": {
+        "amsler": {
+          "office": "Hernando County Commission, District 1",
+          "officeUrl": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/#district-1",
+          "phone": "(352) 247-9426",
+          "email": "RAmsler@HernandoCounty.us",
+          "address": "",
+          "source": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/"
+        },
+        "mitten": {
+          "office": "Hernando County Commission, District 2",
+          "officeUrl": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/#district-2",
+          "phone": "(352) 587-3000",
+          "email": "JMitten@HernandoCounty.us",
+          "address": "",
+          "source": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/"
+        },
+        "allocco": {
+          "office": "Hernando County Commission, District 3",
+          "officeUrl": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/#district-3",
+          "phone": "(352) 247-9906",
+          "email": "JAllocco@HernandoCounty.us",
+          "address": "",
+          "source": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/"
+        },
+        "campbell": {
+          "office": "Hernando County Commission, District 4",
+          "officeUrl": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/#district-4",
+          "phone": "(352) 247-1292",
+          "email": "JerryC@HernandoCounty.us",
+          "address": "",
+          "source": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/"
+        },
+        "champion": {
+          "office": "Hernando County Commission, District 5",
+          "officeUrl": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/#district-5",
+          "phone": "(352) 247-9046",
+          "email": "SChampion@HernandoCounty.us",
+          "address": "",
+          "source": "https://www.hernandocounty.us/county-government/board-of-county-commissioners/districts/"
+        },
+        "duval": {
+          "office": "Hernando County School Board, District 5",
+          "officeUrl": "https://www.hernandoschools.org/susan-duval",
+          "phone": "352-797-7253",
+          "email": "duval_s@hcsb.k12.fl.us",
+          "address": "919 N. Broad Street, Brooksville, FL 34601",
+          "source": "https://www.hernandoschools.org/susan-duval"
+        },
+        "johnson": {
+          "office": "Hernando County School Board, District 1",
+          "officeUrl": "https://www.hernandoschools.org/mark-johnson-vice-chair",
+          "phone": "352-797-7253",
+          "email": "johnson_m2@hcsb.k12.fl.us",
+          "address": "919 N. Broad Street, Brooksville, FL 34601",
+          "source": "https://www.hernandoschools.org/mark-johnson-vice-chair"
+        },
+        "rodriguez": {
+          "office": "Hernando County School Board, District 3",
+          "officeUrl": "https://www.hernandoschools.org/shannon-rodriguez-board-chair",
+          "phone": "352-797-7253",
+          "email": "rodriguez_s@hcsb.k12.fl.us",
+          "address": "919 N. Broad Street, Brooksville, FL 34601",
+          "source": "https://www.hernandoschools.org/shannon-rodriguez-board-chair"
+        }
+      }
+    }
+  },
+  "notes": {
+    "hillsborough_commission": "hcfl.gov lists no direct commissioner emails; contact is via the Formstack form linked from https://hcfl.gov/government/board-of-county-commissioners/contact-your-commissioner (field152422872=<district>). Address is the county center footer address, not labeled per-commissioner. Board phone is the county Customer Service line (from https://hcfl.gov/about-hillsborough/contact-us/media-contacts-and-information); no BOCC-specific main line is published.",
+    "hillsborough_schoolboard": "Rendon phone (813) 272-4053 is her board secretary line per https://www.hillsboroughschools.org/Page/8833. That page lists no secretary phone for District 6 (Perez) and no member emails. The current /page/school-board page has no member directory.",
+    "pinellas_schoolboard": "pcsb.org gives no individual phone/email for Dawn Peters; values are the general School Board line and board@pcsb.org.",
+    "hernando_schoolboard": "352-797-7253 is the shared School Board office line (Secretary to the School Board), shown on each member page.",
+    "hernando_commission": "Districts page gives no per-commissioner address. Board address is the County Administration office listed on the BOCC page; meetings are at the Government Center, 20 N. Main St., Brooksville.",
+    "pasco_commission": "Commissioner emails are on the mypasco.net domain as published on pascocountyfl.gov (the old pascocountyfl.net now redirects to .gov)."
+  }
+}
