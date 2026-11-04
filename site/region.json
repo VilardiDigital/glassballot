@@ -325557,7 +325557,7 @@
  },
  "statewide": {
   "election": "2026-11-03",
-  "updated": "2026-11-04T03:21:00Z",
+  "updated": "2026-11-04T03:25:15Z",
   "status": "counting",
   "reporting": {
    "counties": 67,
@@ -325574,7 +325574,7 @@
       "party": "REP",
       "runningMate": "Bryan Avila",
       "positions": [],
-      "votes": 4116694,
+      "votes": 4116935,
       "pct": 50.08
      },
      {
@@ -325583,7 +325583,7 @@
       "party": "DEM",
       "runningMate": "Gwen Graham",
       "positions": [],
-      "votes": 3999957,
+      "votes": 4000165,
       "pct": 48.66
      },
      {
@@ -325592,7 +325592,7 @@
       "party": "LPF",
       "runningMate": "Nicole Skelly",
       "positions": [],
-      "votes": 37622,
+      "votes": 37629,
       "pct": 0.46
      },
      {
@@ -325601,7 +325601,7 @@
       "party": "NPA",
       "runningMate": "Rachel Rodriguez",
       "positions": [],
-      "votes": 23062,
+      "votes": 23063,
       "pct": 0.28
      },
      {
@@ -325610,7 +325610,7 @@
       "party": "NPA",
       "runningMate": "Ruben A. Coto",
       "positions": [],
-      "votes": 15156,
+      "votes": 15157,
       "pct": 0.18
      },
      {
@@ -325619,7 +325619,7 @@
       "party": "NPA",
       "runningMate": "Joe Van Vactor",
       "positions": [],
-      "votes": 12404,
+      "votes": 12405,
       "pct": 0.15
      },
      {
@@ -325637,7 +325637,7 @@
       "party": "NPA",
       "runningMate": "Benjiman Rojas",
       "positions": [],
-      "votes": 7528,
+      "votes": 7529,
       "pct": 0.09
      },
      {
@@ -325659,7 +325659,7 @@
       "pct": 0.0
      }
     ],
-    "total": 8220704,
+    "total": 8221164,
     "url": "https://floridaelectionwatch.gov/StateOffices/Governor",
     "status": "counting",
     "leader": "donalds",
@@ -325676,7 +325676,7 @@
       "party": "REP",
       "runningMate": "",
       "positions": [],
-      "votes": 4162292,
+      "votes": 4162535,
       "pct": 51.0
      },
      {
@@ -325685,11 +325685,11 @@
       "party": "DEM",
       "runningMate": "",
       "positions": [],
-      "votes": 3999652,
+      "votes": 3999857,
       "pct": 49.0
      }
     ],
-    "total": 8161944,
+    "total": 8162392,
     "url": "https://floridaelectionwatch.gov/StateOffices/AttorneyGeneral",
     "status": "counting",
     "leader": "uthmeier",
@@ -325706,7 +325706,7 @@
       "party": "REP",
       "runningMate": "",
       "positions": [],
-      "votes": 4135760,
+      "votes": 4136006,
       "pct": 51.0
      },
      {
@@ -325715,11 +325715,11 @@
       "party": "DEM",
       "runningMate": "",
       "positions": [],
-      "votes": 3973568,
+      "votes": 3973767,
       "pct": 49.0
      }
     ],
-    "total": 8109328,
+    "total": 8109773,
     "url": "https://floridaelectionwatch.gov/StateOffices/ChiefFinancialOfficer",
     "status": "counting",
     "leader": "ingoglia",
@@ -325736,7 +325736,7 @@
       "party": "REP",
       "runningMate": "",
       "positions": [],
-      "votes": 4144793,
+      "votes": 4145037,
       "pct": 51.14
      },
      {
@@ -325745,7 +325745,7 @@
       "party": "DEM",
       "runningMate": "",
       "positions": [],
-      "votes": 3960229,
+      "votes": 3960424,
       "pct": 48.86
      },
      {
@@ -325758,7 +325758,7 @@
       "pct": 0.0
      }
     ],
-    "total": 8105022,
+    "total": 8105461,
     "url": "https://floridaelectionwatch.gov/StateOffices/CommissionerOfAgriculture",
     "status": "counting",
     "leader": "simpson",
@@ -325775,7 +325775,7 @@
       "party": "REP",
       "runningMate": "",
       "positions": [],
-      "votes": 4192030,
+      "votes": 4192280,
       "pct": 50.93
      },
      {
@@ -325784,7 +325784,7 @@
       "party": "DEM",
       "runningMate": "",
       "positions": [],
-      "votes": 3944550,
+      "votes": 3944751,
       "pct": 47.93
      },
      {
@@ -325793,11 +325793,11 @@
       "party": "NPA",
       "runningMate": "",
       "positions": [],
-      "votes": 93948,
+      "votes": 93960,
       "pct": 1.14
      }
     ],
-    "total": 8230528,
+    "total": 8230991,
     "url": "https://floridaelectionwatch.gov/FederalOffices/USSenator",
     "status": "counting",
     "leader": "moody",
@@ -325810,11 +325810,11 @@
     "id": "a1",
     "number": "Amendment No. 1",
     "title": "Budget Stabilization Fund",
-    "yes": 3156301,
-    "no": 4556741,
+    "yes": 3156473,
+    "no": 4557005,
     "yesPct": 40.92,
     "noPct": 59.08,
-    "total": 7713042,
+    "total": 7713478,
     "url": "https://floridaelectionwatch.gov/Amendments",
     "threshold": 60,
     "status": "counting",
@@ -325825,11 +325825,11 @@
     "id": "a2",
     "number": "Amendment No. 2",
     "title": "Exemption of Tangible Personal Property on Agricultural Land From Taxation",
-    "yes": 4523204,
-    "no": 3241762,
+    "yes": 4523446,
+    "no": 3241958,
     "yesPct": 58.25,
     "noPct": 41.75,
-    "total": 7764966,
+    "total": 7765404,
     "url": "https://floridaelectionwatch.gov/Amendments",
     "threshold": 60,
     "status": "counting",
@@ -325840,11 +325840,11 @@
     "id": "a3",
     "number": "Amendment No. 3",
     "title": "Increased Homestead Exemption; Lower Cap On Increases In Non-Homestead Property Assessments",
-    "yes": 4896375,
-    "no": 2998372,
+    "yes": 4896653,
+    "no": 2998534,
     "yesPct": 62.02,
     "noPct": 37.98,
-    "total": 7894747,
+    "total": 7895187,
     "url": "https://floridaelectionwatch.gov/Amendments",
     "threshold": 60,
     "status": "counting",
@@ -325857,7 +325857,7 @@
     "question": "Shall Justice Carlos G. Muñiz be retained in Office?",
     "yesPct": 57.75,
     "noPct": 42.25,
-    "total": 7410509,
+    "total": 7410915,
     "url": "https://floridaelectionwatch.gov/JudicialOffices/SupremeCourt"
    }
   ],
