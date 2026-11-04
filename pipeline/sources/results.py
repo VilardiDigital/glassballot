@@ -175,8 +175,12 @@ def merge(seed: dict, county: str) -> dict:
 def pull(county: str, code: str, eid: int, vendor: str = "vr", base: str | None = None, certified: bool = False) -> str:
     from ..refresh import get
     if vendor == "clarity":
-        ver = get(f"{base}/{eid}/current_ver.txt", as_json=False).strip()
-        res = parse_clarity(get(f"{base}/{eid}/{ver}/json/sum.json"))
+        from ..refresh import BROWSERISH
+        hdr = {**BROWSERISH, "Referer": f"{base}/{eid}/"}
+        ver = get(f"{base}/{eid}/current_ver.txt", as_json=False, tries=6, headers=hdr).strip()
+        if not ver.isdigit():
+            raise ValueError(f"no current version number from {base}/{eid}/current_ver.txt: {ver[:60]!r}")
+        res = parse_clarity(get(f"{base}/{eid}/{ver}/json/sum.json", tries=6, headers=hdr))
         url = f"{base}/{eid}/"
     else:
         url = f"{ENR}/{code}/{eid}/Summary/"

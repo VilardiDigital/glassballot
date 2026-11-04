@@ -40,11 +40,19 @@ LEGISTAR = {k: (c["meetings"]["client"], c["meetings"]["bodies"], c["meetings"][
 VOTERFOCUS = {k: c["finance"]["cycle"] for k, c in LIVE.items() if c["finance"].get("vendor") == "voterfocus" and k != "pinellas"}  # Pinellas totals come from data/money_pinellas.json
 
 
-def get(url: str, as_json: bool = True, tries: int = 4):
+# Some county results sites sit behind a CDN that answers plain scripts with an empty "202 Accepted".
+# For those we send the same kind of headers a browser does, still naming Glass Ballot, and wait and retry.
+BROWSERISH = {"User-Agent": "Mozilla/5.0 (compatible; GlassBallot/1.0; +https://glassballot.org)",
+              "Accept": "application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.9"}
+
+
+def get(url: str, as_json: bool = True, tries: int = 4, headers: dict | None = None):
     for a in range(tries):
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=headers or UA), timeout=60) as r:
                 raw = r.read()
+                if r.status == 202 and not raw.strip():
+                    raise ValueError(f"empty 202 from {url}")
                 if raw[:2] == b"\x1f\x8b" or (r.headers.get("Content-Encoding") or "").lower() == "gzip":
                     import gzip
                     raw = gzip.decompress(raw)  # some results sites (Clarity) send gzip whether or not we ask
