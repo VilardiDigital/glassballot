@@ -48,6 +48,19 @@ def parse(page: str) -> dict:
             name = re.sub(r"\s+", " ", html.unescape(cm.group(1))).strip()
             pm = re.match(r"(.*?)\s*\((\w+)\)$", name)
             cands.append({"name": pm.group(1) if pm else name, "party": pm.group(2) if pm else None, "pct": _num(cm.group(2)), "votes": int(_num(cm.group(3)))})
+        if not cands:
+            # Nov 2026 layout: the totals live in the "DetailResults" table (one row per choice).
+            table = (re.search(r'<table class="DetailResults"[\s\S]*?</table>', b) or [""])[0]
+            for row in re.findall(r"<tr>\s*<td class=\"ChoiceColumn\">([\s\S]*?)</tr>", table):
+                name = re.sub(r"\s+", " ", html.unescape(re.sub(r"<div[\s\S]*", "", row))).strip()
+                tot = re.search(r'class="DetailResultsColumn notranslate TotalVotes">([\d,]+)<', row)
+                pct = re.findall(r'class="DetailResultsColumn notranslate">([\d.]+)%<', row)
+                if not name or not tot:
+                    continue
+                pm = re.match(r"(.*?)\s*\((\w+)\)$", name)
+                party = pm.group(2) if pm else None
+                cands.append({"name": pm.group(1) if pm else name, "party": None if party in ("NON", "NPA") and "School Board" in b[:3000] else party,
+                              "pct": _num(pct[-1]) if pct else 0.0, "votes": int(_num(tot.group(1)))})
         races.append({"office": html.unescape(nm.group(1)).strip(), "reported": int(rep.group(1)) if rep else None,
                       "precincts": int(rep.group(2)) if rep else None, "candidates": cands})
     return {"status": status, "updated": m.group(1).strip() if m else None, "races": races}
