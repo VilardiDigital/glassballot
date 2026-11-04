@@ -1,7 +1,7 @@
 {
  "county": "pinellas",
  "url": "https://enr.votepinellas.gov/FL/Pinellas/127357/",
- "pulledAt": "2026-11-04T15:59:36Z",
+ "pulledAt": "2026-11-04T15:37:55Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -25,25 +25,6 @@
    ]
   },
   {
-   "office": "Board of County Commissioners District 6 - Single Member",
-   "reported": 79,
-   "precincts": 79,
-   "candidates": [
-    {
-     "name": "Kathleen Peters",
-     "party": "REP",
-     "pct": 55.04,
-     "votes": 55643
-    },
-    {
-     "name": "David Glenn Jr.",
-     "party": "DEM",
-     "pct": 44.96,
-     "votes": 45445
-    }
-   ]
-  },
-  {
    "office": "School Board Member District 3 - At Large",
    "reported": 288,
    "precincts": 288,
@@ -63,7 +44,6 @@
    ]
   }
  ],
- "via": "browser",
  "all": [
   {
    "office": "United States Senator",

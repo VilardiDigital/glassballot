@@ -1,15 +1,15 @@
 {
- "pulledAt": "2026-11-04T13:46:02Z",
+ "pulledAt": "2026-11-04T15:44:28Z",
  "totals": {
   "meetings": 33,
   "meetingsWithRollCalls": 23,
-  "items": 339,
-  "rollCalls": 335,
-  "splitRollCalls": 7
+  "items": 340,
+  "rollCalls": 336,
+  "splitRollCalls": 8
  },
  "stats": {
   "deriso": {
-   "aye": 326,
+   "aye": 327,
    "nay": 5,
    "absent": 0,
    "abstain": 4,
@@ -18,7 +18,7 @@
   },
   "schaefer": {
    "aye": 308,
-   "nay": 1,
+   "nay": 2,
    "absent": 26,
    "abstain": 0,
    "meetingsHeld": 23,
@@ -28,12 +28,12 @@
    "aye": 325,
    "nay": 0,
    "absent": 0,
-   "abstain": 10,
+   "abstain": 11,
    "meetingsHeld": 23,
    "meetingsMissed": 0
   },
   "langford": {
-   "aye": 335,
+   "aye": 336,
    "nay": 0,
    "absent": 0,
    "abstain": 0,
@@ -42,7 +42,7 @@
   },
   "gross": {
    "aye": 295,
-   "nay": 2,
+   "nay": 3,
    "absent": 38,
    "abstain": 0,
    "meetingsHeld": 23,
@@ -50,6 +50,30 @@
   }
  },
  "splitVotes": [
+  {
+   "item": 35167,
+   "ev": 3795,
+   "date": "2026-10-27",
+   "file": "26-2110",
+   "topic": "other",
+   "result": "Motion failed 2 to 2",
+   "yes": [
+    "deriso",
+    "langford"
+   ],
+   "no": [
+    "gross",
+    "schaefer"
+   ],
+   "mover": "deriso",
+   "seconder": "langford",
+   "officialTitle": "Ordinance / DCIP - 3F Ranch / Rezone (RZNE-0086-2026)",
+   "motion": "A motion was made by Commissioner Deriso, seconded by Commissioner Langford,to adopt this Ordinance. The motion failed by the following vote:",
+   "headline": "Ordinance / DCIP - 3F Ranch / Rezone (RZNE-0086-2026)",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Misty Servia, Planning Director, presented a request to rezone approximately 238\n\nacres located at 3479 NE Roan Street from Agricultural-5 (A-5) to Planned Unit\n\nDevelopment (PUD), with approval of a Concept Development Plan. The\n\nproposed development consists of approximately 1.8 million square feet of data\n\ncenter facilities, including eight buildings.\n\nMs. Servia reviewed the property's future land use designation, surrounding land\n\nuses, proposed development standards, and applicable Comprehensive Plan and\n\nLand Development Regulation requirements. Staff addressed compatibility with\n\nsurrounding residential properties, transportation impacts, water consumption,\n\nnoise, environmental considerations, public safety, utilities, and proposed\n\ndevelopment conditions. Staff also expressed concerns regarding the project's\n\nconsistency with the intended mixed-use character of the area and the City of\n\nArcadia's urban expansion area. Karrie Burns, representing the applicant, DCIP,\n\npresented an overview of the proposed data center development, including its\n\noperations, anticipated employment, phased construction, utility requirements,\n\nand environmental permitting. She explained that the 3F Ranch property would\n\ncontain data center facilities but no electrical generation equipment, which was\n\nproposed for the separate Swisher Properties application.\n\nAcoustic and Noise Assessment\n\nMs. Servia introduced Gary Siebein of Siebein Associates, Inc., who was\n\naccepted as an expert in architectural and environmental acoustics. Mr. Siebein\n\nprovided an overview of potential noise impacts associated with data centers,\n\nincluding cooling equipment, ventilation systems, compressors, and electrical\n\ngeneration equipment. He explained the differences between sound frequencies\n\nand measurement methods, emphasizing that low-frequency noise may not be\n\nadequately represented by standard A-weighted decibel measurements. Mr.\n\nSiebein discussed available noise mitigation measures, including increased\n\nsetbacks, equipment placement, sound barriers, acoustic enclosures, silencersand vibration isolation. He recommended establishing baseline ambient noise\n\nlevels through a minimum of one week of monitoring, developing a\n\nthree-dimensional acoustic model of the proposed facilities, and conducting\n\npost-construction testing to verify compliance with established noise limits. He\n\nfurther explained that acoustic modeling should be updated as development\n\nprogresses to ensure compatibility with surrounding residential properties. Staff\n\nincorporated recommendations for additional acoustic analysis and noise\n\nmitigation into the proposed development conditions.\n\nTransportation and Traffic Assessment\n\nMs. Servia introduced Alex Anaya of ESRP Corporation, who was accepted as an\n\nexpert in transportation engineering. Mr. Anaya reviewed the County's\n\npreliminary traffic analysis, emphasizing the potential impacts of\n\nconstruction-related traffic on surrounding roadways. He explained that, due to\n\nlimited information regarding the project's construction schedule and phasing, the\n\nanalysis relied on comparable industrial and data center developments to estimate\n\nconstruction employment and associated traffic. These estimates were evaluated\n\nusing a regional transportation model to determine potential impacts on the\n\nCounty's roadway network. Mr. Anaya identified significant potential traffic\n\nimpacts on Roan Street, particularly between the proposed development entrances\n\nand Turner Avenue, as well as impacts to Turner Avenue and Gibson Street. He\n\ndiscussed the possibility of additional north-south roadway connectivity between\n\nState Road 70 and Roan Street, including a potential connection along Hansel\n\nAvenue. Mr. Anaya emphasized that the analysis was preliminary and that the\n\nfinal scope, timing, and design of roadway improvements would be determined\n\nthrough detailed traffic studies, an approved construction phasing plan, and a\n\nconstruction traffic management plan. These requirements were included in the\n\nrecommended development conditions.\n\nBoard Discussion and Public Comments\n\nBoard discussion focused on compatibility with neighboring residential\n\nproperties, water availability and cooling systems, potential noise and air quality\n\nimpacts, transportation infrastructure, environmental protections, and the\n\nadequacy of information provided at the conceptual development stage. Public\n\ncomments included concerns regarding water resources, electrical generation,\n\nenvironmental impacts, nearby residential properties, infrastructure demands, and\n\nthe long-term effects of the proposed development on DeSoto County. Comments\n\nwere also presented regarding economic development opportunities, property\n\nrights, and potential tax revenue. Following public comments, Ms. Servia\n\naddressed several concerns raised during the hearing. She reiterated that a\n\nprimary concern was the proposed development's consistency with the\n\nNeighborhood Mixed Use future land use designation. She explained that staff\n\nhad discussed the possibility of a future land use amendment to the Employment\n\nCenter category with the applicant, but the applicant had elected not to pursue\n\nthat option. Ms. Servia also addressed the project's scale, noise monitoring requirements, proposed cooling systems, and potential environmental impacts.\n\nShe clarified that the recommended acoustic conditions would establish\n\nrequirements for the applicant to demonstrate compliance during subsequent\n\ndevelopment review. She further noted that although the applicant had discussed\n\na closed-loop cooling system, sufficient documentation had not been provided to\n\nestablish that system as a binding requirement.\n\nJulie Kendig Schrader of Greenberg Traurig, representing DCIP, responded to\n\nstaff's recommendations and concerns raised during the hearing. Ms. Schrader\n\nexplained that Planned Unit Development (PUD) zoning is commonly used for\n\nlarge industrial developments because it provides flexibility to establish\n\nproject-specific development standards, including increased setbacks and\n\nadditional conditions. She stated that the application was at the conceptual\n\ndevelopment stage and that detailed information regarding individual users,\n\nconstruction phasing, traffic impacts, and noise mitigation would be developed\n\nduring the subsequent improvement plan review process. She explained that\n\nrequiring all engineering studies and final development details before conceptual\n\napproval would be premature. Regarding transportation, Ms. Schrader stated that\n\nthe applicant had submitted a preliminary phasing plan identifying anticipated\n\ndevelopment periods, building square footage, and proposed uses. She\n\nacknowledged the need for a traffic study, an approved methodology, and\n\nroadway improvements based on the actual timing and intensity of development.\n\nShe emphasized that the County's preliminary traffic analysis was based on\n\nassumptions that could change once detailed project information became\n\navailable. Ms. Schrader similarly addressed the acoustic recommendations,\n\nstating that additional noise studies and appropriate mitigation measures would\n\nbe developed as the project progressed through the improvement plan process.\n\nShe reiterated that the applicant was generally agreeable to the recommended\n\nreview process and requested favorable consideration of the application.\n\nFollowing the presentations, public testimony, and rebuttal."
+  },
   {
    "item": 34838,
    "ev": 3793,

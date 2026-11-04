@@ -129,7 +129,7 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "715",
-    "status": "Active- Defeated"
+    "status": "Inactive - Defeated"
    }
   },
   {
@@ -337,7 +337,7 @@
    "race": "sb-d3",
    "finance": {
     "voterfocusId": "720",
-    "status": "Active- Defeated"
+    "status": "Inactive - Defeated"
    },
    "nonpartisan": true
   },
@@ -358,7 +358,7 @@
    "race": "sb-d3",
    "finance": {
     "voterfocusId": "707",
-    "status": "Active- Elected"
+    "status": "Inactive - Elected"
    },
    "nonpartisan": true
   },
