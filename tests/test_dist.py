@@ -55,8 +55,15 @@ class Dist(unittest.TestCase):
         self.assertIn("Tim Hughes vs. Brian Scott", t)
 
     def test_unknown_addresses_fall_back_to_the_app(self):
-        self.assertEqual((self.out / "_redirects").read_text().strip(), "/*  /app.html  200")
+        # Cloudflare Pages: a catch-all rewrite would override real files, so unknown addresses get 404.html (the app).
+        self.assertFalse((self.out / "_redirects").exists())
+        self.assertEqual((self.out / "404.html").read_text(), (self.out / "app.html").read_text())
         self.assertIn('noindex', (self.out / "app.html").read_text())
+
+    def test_cache_control_set_once_per_path(self):
+        h = (self.out / "_headers").read_text()
+        self.assertEqual(h.count("Cache-Control"), 1)
+        self.assertIn("/assets/app-*\n  Cache-Control: public, max-age=31536000, immutable", h)
 
 
 if __name__ == "__main__":

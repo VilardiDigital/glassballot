@@ -1,5 +1,5 @@
 # Re-checks the official records every night and publishes any change.
-# Netlify watches this repository and redeploys dist/ when it changes.
+# Cloudflare Pages watches this repository and redeploys dist/ when it changes.
 name: Nightly refresh
 on:
   schedule:

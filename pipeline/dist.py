@@ -1,4 +1,4 @@
-"""Package the built site for a static host (Netlify, Cloudflare Pages, any web server).
+"""Package the built site for a static host (Cloudflare Pages, or any web server that honors _headers and 404.html).
 
     python -m pipeline.dist            # writes dist/ from site/glassballot.html
 
@@ -330,11 +330,16 @@ def build_dist() -> Path:
         + "".join(f"  <url><loc>{html.escape(u)}</loc><lastmod>{today}</lastmod></url>\n" for u in urls) + "</urlset>\n")
     (out / "_headers").write_text(
         "/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n"
-        "  Permissions-Policy: camera=(), microphone=(), geolocation=()\n  X-Frame-Options: SAMEORIGIN\n  Cache-Control: public, max-age=300\n\n"
+        "  Permissions-Policy: camera=(), microphone=(), geolocation=()\n  X-Frame-Options: SAMEORIGIN\n\n"
+        # Pages and data use Cloudflare's default caching (always revalidated, so a refresh shows up at once).
+        # Cache-Control is set only here: Cloudflare joins a header that two matching rules both set.
         "/assets/app-*\n  Cache-Control: public, max-age=31536000, immutable\n\n"
-        "/data/*\n  Access-Control-Allow-Origin: *\n  Cache-Control: public, max-age=300\n")
-    # Old #/ links all point at the home page, so they keep working; the app moves them to the real path.
-    (out / "_redirects").write_text("/*  /app.html  200\n")
+        "/data/*\n  Access-Control-Allow-Origin: *\n")
+    # Every real page is its own file. Any other address gets the app (noindex) as the 404 page, so it still
+    # loads and old #/ links still reach the home page. No catch-all rewrite: on Cloudflare a _redirects rule
+    # wins even over files that exist, so "/*  /app.html  200" would replace every page with the app.
+    (out / "404.html").write_text((out / "app.html").read_text())
+    (out / "_redirects").unlink(missing_ok=True)
     og = ROOT / "site" / "og.png"
     if og.exists():
         shutil.copy(og, out / "og.png")  # rendered once; the nightly job doesn't need a browser

@@ -78,13 +78,15 @@
   <div class="list" id="countyChoices"></div>
 </div></dialog>
 
-<!-- Suggest a correction. Netlify Forms reads this static form at deploy time:
-     honeypot field, reCAPTCHA, a required public source link, and Akismet spam filtering on Netlify's side. -->
+<!-- Suggest a correction. Sent with fetch() to Web3Forms, which emails each report to glassballotinfo@gmail.com.
+     Spam checks: two honeypot fields, a 4-second minimum, a required public source link, and Web3Forms' own filter. -->
 <dialog id="fixDlg" aria-labelledby="fxT"><div class="dlg">
   <div class="between"><h2 class="h2" id="fxT">Report a mistake</h2><button class="iconbtn" type="button" data-close aria-label="Close">✕</button></div>
   <div class="quote" id="fixQuote"></div>
-  <form name="correction" method="POST" action="/thanks" data-netlify="true" netlify-honeypot="website" data-netlify-recaptcha="true" class="stack" id="fixForm">
-    <input type="hidden" name="form-name" value="correction">
+  <form name="correction" method="POST" action="https://api.web3forms.com/submit" class="stack" id="fixForm">
+    <input type="hidden" name="subject" value="Glass Ballot correction report">
+    <input type="hidden" name="from_name" value="Glass Ballot site">
+    <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" style="display:none">
     <input type="hidden" name="county" id="fxCounty">
     <input type="hidden" name="page" id="fxPage">
     <input type="hidden" name="fact" id="fxFact">
@@ -95,14 +97,13 @@
     <label class="f">Where can we check it? <span class="h">Required. A link to a government record or a published news story. We can't change anything without one.</span><input type="url" name="evidence" required placeholder="https://" pattern="https?://.+"></label>
     <label class="f">Anything else? <span class="h">Optional</span><textarea name="details" rows="2" maxlength="1500"></textarea></label>
     <label class="f">Your email <span class="h">Optional. Only used if we have a question. Never published or shared.</span><input type="email" name="email" autocomplete="email"></label>
-    <div data-netlify-recaptcha="true"></div>
     <p class="tiny muted">A person reads every report and checks it against your link. If we change something, we list the change on our corrections page.</p>
     <p class="tiny" id="fxMsg" role="alert" style="color:#B42318"></p>
     <button class="btn primary" type="submit">Send</button>
   </form>
 </div></dialog>
 
-<script src="/assets/app-69f359720b.js"></script>
+<script src="/assets/app-2abb4f0668.js"></script>
 
 </body>
 </html>
