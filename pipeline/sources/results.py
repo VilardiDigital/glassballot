@@ -29,6 +29,18 @@ def _num(s: str) -> float:
         return 0.0
 
 
+PARTIES = r"REP|DEM|NPA|NOP|NON|LPF|GRE|GRN|IND|CPF|ECO|PSL|REF|AIP|FPP|JPF|PEO|SPF|WRI"
+
+
+def _split_party(name: str, party):
+    """Some results pages put the party in front of the name ("REP Walter Shea DeLoach"). Keep them apart."""
+    m = re.match(rf"^({PARTIES})\s+(.+)$", name or "")
+    if not m:
+        return name, party
+    tag = m.group(1)
+    return m.group(2).strip(), party or (None if tag in ("NON", "NOP", "NPA") else tag)
+
+
 def parse(page: str) -> dict:
     """Turn an enr.electionsfl.org Summary page into races."""
     head = " ".join(re.sub(r"<[^>]+>", " ", h) for h in re.findall(r"<h\d[^>]*>[\s\S]{0,200}?</h\d>", page))
@@ -63,6 +75,9 @@ def parse(page: str) -> dict:
                               "pct": _num(pct[-1]) if pct else 0.0, "votes": int(_num(tot.group(1)))})
         races.append({"office": html.unescape(nm.group(1)).strip(), "reported": int(rep.group(1)) if rep else None,
                       "precincts": int(rep.group(2)) if rep else None, "candidates": cands})
+    for r in races:
+        for c in r["candidates"]:
+            c["name"], c["party"] = _split_party(c["name"], c["party"])
     return {"status": status, "updated": m.group(1).strip() if m else None, "races": races}
 
 

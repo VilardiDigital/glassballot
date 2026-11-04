@@ -11,7 +11,7 @@
    "precincts": 13,
    "candidates": [
     {
-     "name": "REP Chris Hall",
+     "name": "Chris Hall",
      "party": "REP",
      "pct": 76.0,
      "votes": 26537
@@ -32,19 +32,19 @@
    "precincts": 67,
    "candidates": [
     {
-     "name": "REP Ashley Moody",
+     "name": "Ashley Moody",
      "party": "REP",
      "pct": 63.9,
      "votes": 109754
     },
     {
-     "name": "DEM Angie Nixon",
+     "name": "Angie Nixon",
      "party": "DEM",
      "pct": 35.2,
      "votes": 60397
     },
     {
-     "name": "NPA Neil J. Gillespie",
+     "name": "Neil J. Gillespie",
      "party": "NON",
      "pct": 0.9,
      "votes": 1520
@@ -57,19 +57,19 @@
    "precincts": 39,
    "candidates": [
     {
-     "name": "REP Jim Schwartzel",
+     "name": "Jim Schwartzel",
      "party": "REP",
      "pct": 63.0,
      "votes": 57073
     },
     {
-     "name": "DEM Victor Arias",
+     "name": "Victor Arias",
      "party": "DEM",
      "pct": 36.0,
      "votes": 32628
     },
     {
-     "name": "NPA Seth Haskin",
+     "name": "Seth Haskin",
      "party": "NON",
      "pct": 1.0,
      "votes": 893
@@ -88,13 +88,13 @@
    "precincts": 31,
    "candidates": [
     {
-     "name": "REP Casey Askar",
+     "name": "Casey Askar",
      "party": "REP",
      "pct": 63.5,
      "votes": 50680
     },
     {
-     "name": "DEM Pia Dandiya",
+     "name": "Pia Dandiya",
      "party": "DEM",
      "pct": 36.5,
      "votes": 29151
@@ -107,49 +107,49 @@
    "precincts": 67,
    "candidates": [
     {
-     "name": "REP Byron Donalds",
+     "name": "Byron Donalds",
      "party": "REP",
      "pct": 63.1,
      "votes": 108539
     },
     {
-     "name": "DEM David Jolly",
+     "name": "David Jolly",
      "party": "DEM",
      "pct": 35.9,
      "votes": 61693
     },
     {
-     "name": "LPF Scott Eckhard Jewett",
+     "name": "Scott Eckhard Jewett",
      "party": "LPF",
      "pct": 0.3,
      "votes": 531
     },
     {
-     "name": "NPA Charles Burkett",
+     "name": "Charles Burkett",
      "party": "NON",
      "pct": 0.2,
      "votes": 266
     },
     {
-     "name": "NPA Frank J. Russo",
+     "name": "Frank J. Russo",
      "party": "NON",
      "pct": 0.2,
      "votes": 309
     },
     {
-     "name": "NPA Moliere \"Moe\" Dimanche",
+     "name": "Moliere \"Moe\" Dimanche",
      "party": "NON",
      "pct": 0.1,
      "votes": 86
     },
     {
-     "name": "NPA Dean Ocean Abrams",
+     "name": "Dean Ocean Abrams",
      "party": "NON",
      "pct": 0.1,
      "votes": 164
     },
     {
-     "name": "NPA Jeffrey Peter \"Dr. Jeff\" Datto",
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
      "party": "NON",
      "pct": 0.1,
      "votes": 103
@@ -168,13 +168,13 @@
    "precincts": 67,
    "candidates": [
     {
-     "name": "REP James Uthmeier",
+     "name": "James Uthmeier",
      "party": "REP",
      "pct": 64.5,
      "votes": 110082
     },
     {
-     "name": "DEM Jose Javier Rodriguez",
+     "name": "Jose Javier Rodriguez",
      "party": "DEM",
      "pct": 35.5,
      "votes": 60543
@@ -187,13 +187,13 @@
    "precincts": 67,
    "candidates": [
     {
-     "name": "REP Blaise Ingoglia",
+     "name": "Blaise Ingoglia",
      "party": "REP",
      "pct": 64.1,
      "votes": 108496
     },
     {
-     "name": "DEM Annette Taddeo",
+     "name": "Annette Taddeo",
      "party": "DEM",
      "pct": 35.9,
      "votes": 60695
@@ -206,13 +206,13 @@
    "precincts": 67,
    "candidates": [
     {
-     "name": "REP Wilton Simpson",
+     "name": "Wilton Simpson",
      "party": "REP",
      "pct": 64.3,
      "votes": 108688
     },
     {
-     "name": "DEM Joey Mendoza Atkins",
+     "name": "Joey Mendoza Atkins",
      "party": "DEM",
      "pct": 35.6,
      "votes": 60067
@@ -231,13 +231,13 @@
    "precincts": 67,
    "candidates": [
     {
-     "name": "REP Lauren Uhlich Melo",
+     "name": "Lauren Uhlich Melo",
      "party": "REP",
      "pct": 63.9,
      "votes": 108381
     },
     {
-     "name": "DEM David Silverberg",
+     "name": "David Silverberg",
      "party": "DEM",
      "pct": 36.1,
      "votes": 61210
@@ -250,13 +250,13 @@
    "precincts": 10,
    "candidates": [
     {
-     "name": "REP Adam Botana",
+     "name": "Adam Botana",
      "party": "REP",
      "pct": 66.8,
      "votes": 17559
     },
     {
-     "name": "DEM William Moskal",
+     "name": "William Moskal",
      "party": "DEM",
      "pct": 33.2,
      "votes": 8733
@@ -269,13 +269,13 @@
    "precincts": 39,
    "candidates": [
     {
-     "name": "REP Yvette Benarroch",
+     "name": "Yvette Benarroch",
      "party": "REP",
      "pct": 64.6,
      "votes": 56972
     },
     {
-     "name": "DEM Kim Finer",
+     "name": "Kim Finer",
      "party": "DEM",
      "pct": 35.4,
      "votes": 31237
@@ -288,13 +288,13 @@
    "precincts": 23,
    "candidates": [
     {
-     "name": "REP Liesa Priddy",
+     "name": "Liesa Priddy",
      "party": "REP",
      "pct": 61.4,
      "votes": 33510
     },
     {
-     "name": "DEM Arthur Boyer",
+     "name": "Arthur Boyer",
      "party": "DEM",
      "pct": 38.6,
      "votes": 21032
@@ -307,7 +307,7 @@
    "precincts": 13,
    "candidates": [
     {
-     "name": "REP Chris Hall",
+     "name": "Chris Hall",
      "party": "REP",
      "pct": 76.0,
      "votes": 26537

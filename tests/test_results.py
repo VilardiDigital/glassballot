@@ -112,3 +112,12 @@ class Seating(unittest.TestCase):
         for seed, day in ((self.seed(), "2026-11-16"), (self.seed("unofficial"), "2026-12-01")):
             p = {x["id"]: x for x in seat_winners(seed, day)["people"]}
             self.assertEqual((p["a"]["status"], p["b"]["status"]), ("incumbent", "challenger"))
+
+
+class PartyPrefix(unittest.TestCase):
+    def test_split(self):
+        from pipeline.sources.results import _split_party
+        self.assertEqual(_split_party("REP Walter Shea DeLoach", "REP"), ("Walter Shea DeLoach", "REP"))
+        self.assertEqual(_split_party("DEM Stefan Blue", None), ("Stefan Blue", "DEM"))
+        self.assertEqual(_split_party("Write-in", None), ("Write-in", None))
+        self.assertEqual(_split_party("Repp Smith", None), ("Repp Smith", None))

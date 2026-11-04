@@ -100,10 +100,35 @@ def build_region(accessed: str | None = None) -> dict:
         "corrections": json.loads((ROOT / "data" / "corrections.json").read_text()),
         "zips": json.loads((ROOT / "site" / "assets" / "zips_fl.json").read_text()),  # every Florida ZIP to its county (Census 2020)
         "howToVote": json.loads((ROOT / "data" / "howtovote.json").read_text()) if (ROOT / "data" / "howtovote.json").exists() else {"statewide": [], "counties": {}, "jobs": {}},
-        "closeRace": {"headline": "Local races can be very close.", "detail": "In Hernando County's Aug 18 primary, the top two School Board District 5 candidates finished 7 votes apart: 13,724 to 13,717.", "url": "https://www.hernandovotes.gov/DocumentCenter/View/798"},
+        "closeRace": closest_race(counties),
         "map": json.loads((ROOT / "site" / "assets" / "fl.json").read_text()),
         "statewide": merge_statewide(),
     }
+
+
+AUG_CLOSE = {"headline": "Local races can be very close.", "detail": "In Hernando County's Aug 18 primary, the top two School Board District 5 candidates finished 7 votes apart: 13,724 to 13,717.", "url": "https://www.hernandovotes.gov/DocumentCenter/View/798"}
+
+
+def closest_race(counties: dict) -> dict:
+    """The closest fully counted county commission or school board race in the latest results, for the front page."""
+    best = None
+    for c in counties.values():
+        for r in c.get("races", []):
+            x = r.get("results")
+            if not x or not x.get("counted") or not x.get("total") or len(x["candidates"]) < 2:
+                continue
+            a, b = x["candidates"][0], x["candidates"][1]
+            gap = a["votes"] - b["votes"]
+            if best is None or gap / x["total"] < best[0]:
+                best = (gap / x["total"], gap, a, b, x, r, c)
+    if not best or best[1] > 2000:
+        return AUG_CLOSE
+    _, gap, a, b, x, r, c = best
+    src = c.get("sources", {}).get(x.get("source"), {})
+    st = "official" if x.get("status") == "official" else "unofficial"
+    return {"headline": "Local races can be very close.",
+            "detail": f"In {c['county']['name']}'s Nov 3 general election, the top two {r['title']} candidates finished {gap:,} vote{'s' if gap != 1 else ''} apart: {a['votes']:,} to {b['votes']:,} ({st} results).",
+            "url": src.get("url") or AUG_CLOSE["url"]}
 
 
 def _stub(k: str, c: dict) -> dict:

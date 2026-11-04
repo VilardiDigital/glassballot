@@ -116,6 +116,17 @@ def _cname(c: dict) -> str:
     return c["county"]["name"].replace(" County", "")
 
 
+def _results_line(r: dict, P: dict) -> str:
+    """The county's count for a race, in plain text, so search engines and link previews see it. Never a call of our own."""
+    x = r.get("results")
+    if not x or not x.get("total"):
+        return ""
+    st = "Official results" if x.get("status") == "official" else "Unofficial results"
+    prog = "every precinct counted" if x.get("counted") else f"{x.get('reported')} of {x.get('precincts')} precincts counted"
+    who = "; ".join(f"{html.escape((P.get(c_.get('person')) or c_)['name'])} {c_['pct']:.1f}% ({c_['votes']:,} votes)" for c_ in x["candidates"])
+    return f"<p><b>{st}, {prog}:</b> {who}.</p>"
+
+
 def _after(c: dict) -> bool:
     """True from the day after Election Day (Florida time). Mirrors after() in site/template.html."""
     from datetime import datetime, timedelta, timezone
@@ -129,6 +140,14 @@ def _n_races(c: dict) -> int:
 
 
 STATUS = {"incumbent": "In office now", "challenger": "Running", "open": "Running", "former": "Former official"}
+
+
+def _status(p: dict) -> str:
+    """Mirrors statusText() in site/template.html: candidates read "Ran in 2026" after Election Day."""
+    s = p.get("status")
+    if s in ("challenger", "open") and _after({}):
+        return "Ran in 2026"
+    return STATUS.get(s, "")
 DEFAULT = ("Glass Ballot | Florida local election guide", DESC)
 
 
@@ -163,6 +182,8 @@ def page_meta(path: str, c: dict | None = None, obj: dict | None = None, people:
     if a == "votes":
         return f"{n} County commission votes | {site}", f"Recent {n} County commission decisions in plain English, with how each commissioner voted."
     if a == "vote":
+        if _after(c):
+            return f"Voting in {n} County | {site}", f"The Nov 3, 2026 election is over. Where to check your registration and upcoming elections in {n} County."
         return f"When and where to vote in {n} County | {site}", f"Election Day hours, early voting and mail ballots in {n} County, from the Supervisor of Elections."
     if a == "r" and obj:
         who = [people[i]["name"] for i in obj.get("people", []) if i in people]
@@ -184,7 +205,7 @@ def page_meta(path: str, c: dict | None = None, obj: dict | None = None, people:
 
 def _person_line(k: str, p: dict) -> str:
     e = html.escape
-    bits = [STATUS.get(p.get("status"), "")]
+    bits = [_status(p)]
     party = _val(p.get("facts", {}).get("party"))
     if party:
         bits.append(str(party))
@@ -229,7 +250,7 @@ def render(path: str, c: dict | None, obj: dict | None) -> str:
                 if r.get("onNovBallot") is False:
                     continue
                 out.append(f'<section><h2 class="h2"><a href="/{k}/r/{e(r["id"])}">{e(r["title"])}</a></h2><p class="small">Who votes: {e(r.get("who") or "")}</p>'
-                           f'<ul>{"".join(_person_line(k, P[i]) for i in r.get("people", []) if i in P)}</ul></section>')
+                           f'{_results_line(r, P)}<ul>{"".join(_person_line(k, P[i]) for i in r.get("people", []) if i in P)}</ul></section>')
             if c["votes"]:
                 out.append(f'<section><h2 class="h2">Recent county commission decisions</h2><ul>{"".join(_vote_line(k, v) for v in c["votes"][:12])}</ul></section>')
         elif a == "officials":
@@ -237,10 +258,10 @@ def render(path: str, c: dict | None, obj: dict | None) -> str:
         elif a == "votes":
             out.append(f'<ul>{"".join(_vote_line(k, v) for v in c["votes"])}</ul>')
         elif a == "r" and obj:
-            out.append(f'<p>Who votes: {e(obj.get("who") or "")}</p><ul>{"".join(_person_line(k, P[i]) for i in obj.get("people", []) if i in P)}</ul>')
+            out.append(f'<p>Who votes: {e(obj.get("who") or "")}</p>{_results_line(obj, P)}<ul>{"".join(_person_line(k, P[i]) for i in obj.get("people", []) if i in P)}</ul>')
         elif a == "p" and obj:
             f = obj.get("facts", {})
-            rows = [("Seat", _seat(obj)), ("Status", STATUS.get(obj.get("status"), "")), ("Party", _val(f.get("party"))), ("In office since", _val(f.get("inOfficeSince"))),
+            rows = [("Seat", _seat(obj)), ("Status", _status(obj)), ("Party", _val(f.get("party"))), ("In office since", _val(f.get("inOfficeSince"))),
                     ("Work", _val(f.get("job"))), ("Money raised", _money((obj.get("money") or {}).get("total"))), ("Voting record", _val(f.get("record"))), ("Attendance", _val(f.get("attendance")))]
             out.append("<dl>" + "".join(f"<dt>{e(a_)}</dt><dd>{e(str(b_))}</dd>" for a_, b_ in rows if b_) + "</dl>")
             if obj.get("race"):
@@ -259,7 +280,7 @@ def render(path: str, c: dict | None, obj: dict | None) -> str:
                 out.append(f'<p class="small"><a href="{e(obj["sourceUrl"])}" rel="noopener">The county\'s official record</a></p>')
         elif a == "t" and obj:
             out.append(f'<ul>{"".join(_vote_line(k, v) for v in c["votes"] if v.get("topic") == obj["id"])}</ul>')
-        out.append(f'<p><a href="/{k}">Back to the {e(_cname(c))} County ballot</a></p>')
+        out.append(f'<p><a href="/{k}">Back to the {e(_cname(c))} County {"results" if _after(c) else "ballot"}</a></p>')
     out.append("</div>")
     return "".join(out)
 

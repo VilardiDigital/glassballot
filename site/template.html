@@ -940,7 +940,7 @@ views.race = id => {
       <span class="kicker">${r.onNovBallot === false ? "Decided before November" : after() ? "On the Nov 3, 2026 ballot" : "On your ballot Nov 3"}</span>
       <h1 class="h1">${esc(r.title)}</h1>
       <p class="lede">Who votes: ${esc(whoVotes(r))}.</p>
-      <div class="row">${shareBtn(`${r.title}, ${C.county.name}`, `Who's running for ${r.title} in ${C.county.name}: their votes, their money and their promises, with a source for every fact.`)}</div>
+      <div class="row">${shareBtn(`${r.title}, ${C.county.name}`, after() ? `2026 results for ${r.title} in ${C.county.name}, plus each candidate's record and money, with a source for every fact.` : `Who's running for ${r.title} in ${C.county.name}: their votes, their money and their promises, with a source for every fact.`)}</div>
       <p class="job"><b>What the job does:</b> ${esc(jobLine(r))}${jobSrc(r)}</p>
       ${r.note && !r.results ? `<p class="notice">${esc(r.note)}</p>` : ""}
     </section>
@@ -978,6 +978,14 @@ views.mylist = () => {
   const live = C.races.filter(r => r.onNovBallot !== false);
   const info = HTV.counties[CK] || {};
   const notes = (HTV.statewide || []).find(x => x.id === "notes-in-booth");
+  if (after()) return `<div class="stack-lg view">
+    <a class="back noprint" href="${href()}">‹ Back to ${esc(cname(CK))} County results</a>
+    <section class="stack-sm"><h1 class="h1">The races on your list</h1>
+      <p class="lede">How the ${esc(cname(CK))} County races you looked at turned out. Your choices stay only on this device.</p></section>
+    <div class="list">${live.map(r => { const p = P[myp[r.id]], x = r.results, top = x && x.candidates[0];
+      const res = top ? `${esc((P[top.person] || top).name)} ${x.counted ? (x.status === "official" ? "won (certified)" : "has the most votes with every precinct counted (unofficial)") : "leads so far"}` : "Results not posted here yet";
+      return `<a href="${href("r/" + r.id)}"><span class="body"><span class="tiny muted">${esc(r.title)}</span><span class="title" style="font-size:18px">${res}</span>${p ? `<span class="small muted">You marked ${esc(p.name)}</span>` : ""}</span>${chev}</a>`; }).join("")}</div>
+  </div>`;
   return `<div class="stack-lg view">
     <a class="back noprint" href="${href()}">‹ Back to ${after() ? `${esc(cname(CK))} County results` : `your ${esc(cname(CK))} ballot`}</a>
     <section class="stack-sm"><h1 class="h1">My list for Nov 3</h1>
@@ -994,6 +1002,17 @@ views.vote = () => {
   const info = HTV.counties[CK] || (C.county.auto ? {pollingPlaceUrl: "https://dos.fl.gov/elections/contacts/supervisor-of-elections/"} : {});
   const st = HTV.statewide || [];
   const item = (t, u, pub) => `<div class="li"><span class="body"><span>${esc(t)}</span>${u ? `<a class="tiny" href="${esc(u)}" target="_blank" rel="noopener">Source: ${esc(pub || "Official source")}</a>` : ""}</span></div>`;
+  if (after()) return `<div class="stack-lg view">
+    ${band(esc(C.county.name), `Voting in ${esc(cname(CK))} County`, "The Nov 3, 2026 general election is over. Counties are finishing the count and will certify the results.", "01-local-courthouse",
+      `<div class="row noprint"><a class="btn primary" href="${href()}">See the 2026 results</a></div>`)}
+    <section class="stack"><h2 class="h2">For the next election</h2>
+      <div class="list">
+        ${(info.pollingPlaceUrl || C.county.soeUrl) ? `<a href="${esc(C.county.soeUrl || info.pollingPlaceUrl)}" target="_blank" rel="noopener"><span class="body"><span class="title">Check your registration and upcoming elections</span><span class="tiny muted">On the ${esc(cname(CK))} County Supervisor of Elections website. Some cities hold their own elections in other years.</span></span>${chev}</a>` : ""}
+        ${info.phone ? `<a href="tel:${esc(info.phone.replace(/[^0-9]/g, ""))}"><span class="body"><span class="title">Questions? Call the Supervisor of Elections</span><span class="tiny muted">${esc(info.phone)}</span></span>${chev}</a>` : ""}
+        <a href="https://dos.fl.gov/elections/" target="_blank" rel="noopener"><span class="body"><span class="title">Florida Division of Elections</span><span class="tiny muted">Statewide election dates and rules</span></span>${chev}</a>
+      </div>
+    </section>
+  </div>`;
   return `<div class="stack-lg view">
     ${band(esc(C.county.name), `When and where to vote in ${esc(cname(CK))} County`, edayLine(), "01-local-courthouse")}
     <section class="stack"><h2 class="h2">In ${esc(cname(CK))} County</h2>
@@ -1037,7 +1056,7 @@ function agreement(bcc) {
   const rows = bcc.map(a => `<tr><th scope="row">${esc(a.name)}</th>${bcc.map(b => { if (a.id === b.id) return `<td class="muted">·</td>`; const n = pairStat(a.id,b.id).pct; return `<td class="num" style="font-weight:${n >= 75 ? 700 : 400};color:${n >= 75 ? "var(--civic)" : "inherit"}">${n == null ? "–" : n + "%"}</td>`; }).join("")}</tr>`).join("");
   return `<section class="panel stack" aria-labelledby="vt"><h2 class="h2" id="vt">Who votes with whom, and why it matters to you</h2>
     <p>Most items pass with everyone agreeing. The ${split.length} votes where commissioners split are where your choice of commissioner actually changes what the county does. Most decisions need a majority of the commissioners present: ${Math.floor(bcc.length / 2) + 1} of ${bcc.length} when everyone is there.</p>
-    ${ballot.length ? `<div class="panel stack-sm" style="background:var(--light);border:0"><h3 class="h3">The seat${ballot.length > 1 ? "s" : ""} on your ballot</h3>${ballot.map(x => `<p><b>${nm(x.p)}</b>${x.p.district ? ` (District ${esc(x.p.district)})` : ""} cast the vote that decided the outcome on <b class="num">${x.decided}</b> of these ${split.length} split votes. ${x.decided === 1 ? "If that seat had voted the other way, that decision would have gone the other way." : "If that seat had voted the other way, those decisions would have gone the other way."}</p>`).join("")}<p class="small muted">Whoever wins ${ballot.length > 1 ? "these seats inherits" : "this seat inherits"} that weight.</p></div>` : ""}
+    ${ballot.length ? `<div class="panel stack-sm" style="background:var(--light);border:0"><h3 class="h3">The seat${ballot.length > 1 ? "s" : ""} ${after() ? "on the Nov 3, 2026 ballot" : "on your ballot"}</h3>${ballot.map(x => `<p><b>${nm(x.p)}</b>${x.p.district ? ` (District ${esc(x.p.district)})` : ""} cast the vote that decided the outcome on <b class="num">${x.decided}</b> of these ${split.length} split votes. ${x.decided === 1 ? "If that seat had voted the other way, that decision would have gone the other way." : "If that seat had voted the other way, those decisions would have gone the other way."}</p>`).join("")}<p class="small muted">Whoever wins ${ballot.length > 1 ? "these seats inherits" : "this seat inherits"} that weight.</p></div>` : ""}
     ${close.length ? `<p><b>Most often on the same side:</b> ${close.map(x => `${nm(x.a)} and ${nm(x.b)} (${x.pct}% of ${x.both} split votes)`).join("; ")}.${far && far.pct < 60 ? ` <b>Least often:</b> ${nm(far.a)} and ${nm(far.b)} (${far.pct}%).` : ""}</p>` : ""}
     <div class="tablewrap"><table><thead><tr><th scope="col">Commissioner</th><th scope="col">On the winning side</th><th scope="col">On the losing side</th><th scope="col">Their vote decided it</th></tr></thead>
       <tbody>${per.map(x => `<tr><th scope="row"><a href="${href("p/" + x.p.id)}">${nm(x.p)}</a></th><td class="num">${x.won}</td><td class="num">${x.lost}</td><td class="num">${x.decided}</td></tr>`).join("")}</tbody></table></div>
@@ -1061,7 +1080,10 @@ views.officials = () => {
     <div class="list">${bcc.map(row).join("")}</div>
     <p class="small"><a href="${href("votes")}">See what the commission has voted on</a></p>
     ${agreement(bcc)}
-    ${others.length ? `<section class="stack"><h2 class="h2">Other candidates on your ballot</h2><div class="list">${others.map(row).join("")}</div></section>` : ""}
+    ${(() => { if (!after()) return others.length ? `<section class="stack"><h2 class="h2">Other candidates on your ballot</h2><div class="list">${others.map(row).join("")}</div></section>` : "";
+      const sb = others.filter(p => p.status === "incumbent"), ran = others.filter(p => p.status !== "incumbent");
+      return `${sb.length ? `<section class="stack"><h2 class="h2">Your school board</h2><div class="list">${sb.map(row).join("")}</div></section>` : ""}
+        ${ran.length ? `<section class="stack"><h2 class="h2">Also ran in 2026</h2><p class="small muted">Candidates who don't hold a seat now. Kept here as part of the public record.</p><div class="list">${ran.map(row).join("")}</div></section>` : ""}`; })()}
   </div>`;
 };
 
@@ -1678,7 +1700,7 @@ function pageMeta(parts) {
   if (!a) return after() ? [`${n} County 2026 election results: ${nRaces(CK)} local races | ${site}`, `How the ${n} County commission and school board races on the Nov 3, 2026 ballot turned out, from the county's own count. Plus how each member votes and who funds them.`] : [`${n} County ballot guide: ${nRaces(CK)} local races | ${site}`, `Who's running for ${n} County commission and school board on the Nov 3 ballot, how incumbents voted, and who funds each campaign. A source for every fact.`];
   if (a === "officials") return [`Who's in office in ${n} County | ${site}`, `Every ${n} County commissioner and school board member: how they vote, who funds them, and their attendance.`];
   if (a === "votes") return [`${n} County commission votes | ${site}`, `Recent ${n} County commission decisions in plain English, with how each commissioner voted.`];
-  if (a === "vote") return [`When and where to vote in ${n} County | ${site}`, `Election Day hours, early voting and mail ballots in ${n} County, from the Supervisor of Elections.`];
+  if (a === "vote") return after() ? [`Voting in ${n} County | ${site}`, `The Nov 3, 2026 election is over. Where to check your registration and upcoming elections in ${n} County.`] : [`When and where to vote in ${n} County | ${site}`, `Election Day hours, early voting and mail ballots in ${n} County, from the Supervisor of Elections.`];
   if (a === "r" && R[b]) { const r = R[b], who = (r.people || []).map(id => P[id] && P[id].name).filter(Boolean); return after() && r.onNovBallot !== false ? [`${n} ${r.title} 2026 results: ${who.join(" vs. ")} | ${site}`, `2026 results for ${n} ${r.title}${who.length ? ": " + who.join(", ") : ""}, from the county's own count, plus each candidate's track record and campaign money.`] : [`${n} ${r.title}: ${who.join(" vs. ")} | ${site}`, `Compare the candidates for ${n} ${r.title}${who.length ? ": " + who.join(", ") : ""}. Track records, campaign money and sources, side by side.`]; }
   if (a === "p" && P[b]) { const p = P[b]; return [`${p.name}, ${seatName(p)} (${n} County) | ${site}`, `${p.name}'s public record${p.status === "incumbent" ? " in office" : ""}: votes, campaign money, filings and promises, each with its source.`]; }
   if (a === "v" && V[b]) { const v = V[b]; return [`${v.headline.replace(/\.$/, "")} (${n} County, ${voteDate(v)}) | ${site}`, `How each ${n} County commissioner voted${v.date ? " on " + voteDate(v) : ""}: ${v.headline}. With the official record.`]; }
