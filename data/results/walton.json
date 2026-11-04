@@ -1,7 +1,7 @@
 {
  "county": "walton",
  "url": "https://enr.electionsfl.org/WAL/4091/Summary/",
- "pulledAt": "2026-11-04T13:42:01Z",
+ "pulledAt": "2026-11-04T15:36:21Z",
  "status": "unofficial",
  "updated": null,
  "races": [],
@@ -251,13 +251,13 @@
    "candidates": [
     {
      "name": "Yes",
-     "party": "NON",
+     "party": null,
      "pct": 71.075,
      "votes": 22474
     },
     {
      "name": "No",
-     "party": "NON",
+     "party": null,
      "pct": 28.925,
      "votes": 9146
     }
@@ -270,13 +270,13 @@
    "candidates": [
     {
      "name": "Yes",
-     "party": "NON",
+     "party": null,
      "pct": 69.648,
      "votes": 21717
     },
     {
      "name": "No",
-     "party": "NON",
+     "party": null,
      "pct": 30.352,
      "votes": 9464
     }
@@ -289,13 +289,13 @@
    "candidates": [
     {
      "name": "Yes",
-     "party": "NON",
+     "party": null,
      "pct": 72.806,
      "votes": 22620
     },
     {
      "name": "No",
-     "party": "NON",
+     "party": null,
      "pct": 27.194,
      "votes": 8449
     }
@@ -308,13 +308,13 @@
    "candidates": [
     {
      "name": "Yes",
-     "party": "NON",
+     "party": null,
      "pct": 71.982,
      "votes": 22287
     },
     {
      "name": "No",
-     "party": "NON",
+     "party": null,
      "pct": 28.018,
      "votes": 8675
     }
@@ -327,13 +327,13 @@
    "candidates": [
     {
      "name": "Yes",
-     "party": "NON",
+     "party": null,
      "pct": 69.354,
      "votes": 21420
     },
     {
      "name": "No",
-     "party": "NON",
+     "party": null,
      "pct": 30.646,
      "votes": 9465
     }
@@ -346,13 +346,13 @@
    "candidates": [
     {
      "name": "Yes",
-     "party": "NON",
+     "party": null,
      "pct": 72.883,
      "votes": 22636
     },
     {
      "name": "No",
-     "party": "NON",
+     "party": null,
      "pct": 27.117,
      "votes": 8422
     }
@@ -365,13 +365,13 @@
    "candidates": [
     {
      "name": "Yes",
-     "party": "NON",
+     "party": null,
      "pct": 52.954,
      "votes": 17505
     },
     {
      "name": "No",
-     "party": "NON",
+     "party": null,
      "pct": 47.046,
      "votes": 15552
     }
@@ -384,13 +384,13 @@
    "candidates": [
     {
      "name": "Yes",
-     "party": "NON",
+     "party": null,
      "pct": 74.771,
      "votes": 24975
     },
     {
      "name": "No",
-     "party": "NON",
+     "party": null,
      "pct": 25.229,
      "votes": 8427
     }
@@ -403,13 +403,13 @@
    "candidates": [
     {
      "name": "Yes",
-     "party": "NON",
+     "party": null,
      "pct": 76.32,
      "votes": 26155
     },
     {
      "name": "No",
-     "party": "NON",
+     "party": null,
      "pct": 23.68,
      "votes": 8115
     }
@@ -422,13 +422,13 @@
    "candidates": [
     {
      "name": "Yes",
-     "party": "NON",
+     "party": null,
      "pct": 80.55,
      "votes": 27313
     },
     {
      "name": "No",
-     "party": "NON",
+     "party": null,
      "pct": 19.45,
      "votes": 6595
     }
