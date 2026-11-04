@@ -809,14 +809,14 @@ views.florida_race = id => {
   </div>`;
 };
 // Simple result bars for any race we only have a count for (no profiles yet).
-function plainResult(r, where) {
+function plainResult(r, where, scope) {
   const cs = r.candidates || [], top = cs[0];
   const yesno = cs.length === 2 && cs.every(c => /^(yes|no)\b/i.test(c.name) || /for approval|for rejection/i.test(c.name));
   const done = r.precincts && r.reported >= r.precincts;
   const called = r.call && r.winner;
-  const head = called ? `Projected winner: ${esc(r.winner)}` : !r.total ? "Waiting for the first results" : cs.length === 1 ? `${esc(top.name)} (only candidate on the ballot)` : yesno ? `${esc(top.name)} leads${done ? " with every precinct reported" : ""}` : `${esc(top.name)} leads${done ? " with every precinct reported" : ""}`;
+  const head = called ? `Projected winner: ${esc(r.winner)}` : !r.total ? "Waiting for the first results" : cs.length === 1 ? `${esc(top.name)} (only candidate on the ballot)` : yesno ? `${esc(top.name)} leads${scope ? " in " + esc(scope) : ""}${done ? " with every precinct reported" : ""}` : `Most votes${scope ? " in " + esc(scope) : ""}${done ? " with every precinct reported" : " so far"}: ${esc(top.name)}${cs.length > 2 && !scope ? " · some races elect more than one person" : ""}`;
   return `<details class="panel stack-sm small"><summary class="between" style="gap:8px;cursor:pointer"><span><b>${esc(r.office)}</b><br><span class="tiny muted">${head}</span></span><span class="tiny muted">${r.precincts ? `${r.reported}/${r.precincts} precincts` : ""}</span></summary>
-    <ul class="plain rlist" style="margin-top:8px">${cs.map(c => `<li><span class="rn">${esc(c.name)}${c.party ? ` <span class="tiny muted">(${esc(c.party)})</span>` : ""}</span><span class="rb"><span style="width:${Math.max(1, c.pct || 0)}%"></span></span><b class="num">${(c.pct || 0).toFixed(1)}%</b><span class="num muted small">${(c.votes || 0).toLocaleString()}</span></li>`).join("")}</ul>
+    <ul class="plain rlist" style="margin-top:8px">${cs.map(c => `<li><span class="rn">${esc(c.name)}${c.party && c.party !== "NON" ? ` <span class="tiny muted">(${esc(c.party)})</span>` : ""}</span><span class="rb"><span style="width:${Math.max(1, c.pct || 0)}%"></span></span><b class="num">${(c.pct || 0).toFixed(1)}%</b><span class="num muted small">${(c.votes || 0).toLocaleString()}</span></li>`).join("")}</ul>
     ${where ? `<p class="tiny muted">${where}</p>` : ""}
     ${called ? `<p class="tiny muted">Projected by ${r.call.url ? `<a href="${esc(r.call.url)}" target="_blank" rel="noopener">${esc(r.call.by)}</a>` : esc(r.call.by)}.</p>` : `<p class="tiny muted">Unofficial. We don't call races.</p>`}
   </details>`;
@@ -828,8 +828,8 @@ function allBallotBlock() {
   const where = `${esc(C.county.name)} votes only. From the ${esc(C.county.name)} Supervisor of Elections.`;
   return `<section class="stack" aria-labelledby="allH">
     <h2 class="h2" id="allH">Every race on the ${esc(cname(CK))} County ballot</h2>
-    <p class="small muted">Tonight's unofficial count for all ${b.races.length} races and questions here, from the county's own results page${b.updated ? `, updated ${esc(String(b.updated))}` : ""}. Races that cross county lines show only ${esc(cname(CK))} County's votes; <a href="/florida">statewide and district totals are here</a>. <a href="${esc(b.url)}" target="_blank" rel="noopener">See the county's results page</a>.</p>
-    ${groups.map(([k, t, rs]) => `<div class="stack-sm"><h3 class="h3">${esc(t)} <span class="tiny muted">(${rs.length})</span></h3>${rs.map(r => plainResult(r, where)).join("")}</div>`).join("")}
+    <p class="small muted">Tonight's unofficial count for all ${b.races.length} races and questions here, from the county's own results page${b.updated ? `, updated ${esc(/T/.test(b.updated) ? swTime(b.updated) : String(b.updated))}` : ""}. Races that cross county lines show only ${esc(cname(CK))} County's votes; <a href="/florida">statewide and district totals are here</a>. <a href="${esc(b.url)}" target="_blank" rel="noopener">See the county's results page</a>.</p>
+    ${groups.map(([k, t, rs]) => `<div class="stack-sm"><h3 class="h3">${esc(t)} <span class="tiny muted">(${rs.length})</span></h3>${["statewide","amendment","congress","legislature","courts"].includes(k) ? `<p class="tiny muted">These show only ${esc(cname(CK))} County's votes. <a href="/florida">See the full statewide and district results</a>.</p>` : ""}${rs.map(r => plainResult(r, where, ["statewide","amendment","congress","legislature","courts"].includes(k) ? C.county.name : "")).join("")}</div>`).join("")}
   </section>`;
 }
 function districtsBlock(kinds, title, cid) {
