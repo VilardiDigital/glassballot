@@ -1,7 +1,7 @@
 {
  "county": "santarosa",
  "url": "https://enr.electionsfl.org/SAN/4093/Summary/",
- "pulledAt": "2026-11-04T03:18:20Z",
+ "pulledAt": "2026-11-04T03:20:57Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -12,13 +12,13 @@
    "candidates": [
     {
      "name": "Marie Locklin",
-     "party": null,
+     "party": "NON",
      "pct": 52.48,
      "votes": 35115
     },
     {
      "name": "Jill Broxson Teston",
-     "party": null,
+     "party": "NON",
      "pct": 47.52,
      "votes": 31801
     }

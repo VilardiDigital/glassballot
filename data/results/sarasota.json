@@ -1,7 +1,7 @@
 {
  "county": "sarasota",
  "url": "https://enr.electionsfl.org/SAR/4105/Summary/",
- "pulledAt": "2026-11-04T03:18:21Z",
+ "pulledAt": "2026-11-04T03:20:57Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -31,13 +31,13 @@
    "candidates": [
     {
      "name": "Heidi Brandt",
-     "party": null,
+     "party": "NON",
      "pct": 56.5,
      "votes": 111274
     },
     {
      "name": "Jimmy Glover",
-     "party": null,
+     "party": "NON",
      "pct": 43.5,
      "votes": 85656
     }

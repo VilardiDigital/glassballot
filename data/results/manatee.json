@@ -1,7 +1,7 @@
 {
  "county": "manatee",
  "url": "https://enr.electionsfl.org/MAN/4126/Summary/",
- "pulledAt": "2026-11-04T03:18:05Z",
+ "pulledAt": "2026-11-04T03:20:55Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,31 +9,102 @@
    "office": "County Commissioner District 1",
    "reported": 14,
    "precincts": 14,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Elizabeth \"Liz\" Arnold",
+     "party": "REP",
+     "pct": 65.98,
+     "votes": 31930
+    },
+    {
+     "name": "Sari Lindroos-Valimaki",
+     "party": "DEM",
+     "pct": 33.92,
+     "votes": 16412
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.1,
+     "votes": 48
+    }
+   ]
   },
   {
    "office": "County Commissioner District 2",
    "reported": 14,
    "precincts": 14,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Amanda Ballard",
+     "party": "REP",
+     "pct": 50.43,
+     "votes": 10334
+    },
+    {
+     "name": "Charles B. Smith Sr",
+     "party": "DEM",
+     "pct": 49.57,
+     "votes": 10156
+    }
+   ]
   },
   {
    "office": "County Commissioner District 6 (At-Large)",
    "reported": 71,
    "precincts": 71,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Tara Poulton",
+     "party": "REP",
+     "pct": 58.09,
+     "votes": 103874
+    },
+    {
+     "name": "Reggie Bellamy",
+     "party": "DEM",
+     "pct": 41.91,
+     "votes": 74931
+    }
+   ]
   },
   {
    "office": "School Board Member District 2",
    "reported": 14,
    "precincts": 14,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Sharon Jefferson",
+     "party": "NON",
+     "pct": 52.14,
+     "votes": 9714
+    },
+    {
+     "name": "Cindy Spray",
+     "party": "NON",
+     "pct": 47.86,
+     "votes": 8918
+    }
+   ]
   },
   {
    "office": "School Board Member District 5",
    "reported": 12,
    "precincts": 12,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Camden \"Cam\" Bedinghaus",
+     "party": "NON",
+     "pct": 51.67,
+     "votes": 22552
+    },
+    {
+     "name": "Jonathan Mullis",
+     "party": "NON",
+     "pct": 48.33,
+     "votes": 21094
+    }
+   ]
   }
  ]
 }

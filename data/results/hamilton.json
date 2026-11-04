@@ -1,7 +1,7 @@
 {
  "county": "hamilton",
  "url": "https://enr.electionsfl.org/HAM/4101/Summary/",
- "pulledAt": "2026-11-04T03:17:53Z",
+ "pulledAt": "2026-11-04T03:20:52Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,13 +9,39 @@
    "office": "County Commissioner District 4",
    "reported": null,
    "precincts": null,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "REP Travis Erixton",
+     "party": "REP",
+     "pct": 55.26,
+     "votes": 557
+    },
+    {
+     "name": "DEM Annie Pinello",
+     "party": "DEM",
+     "pct": 44.74,
+     "votes": 451
+    }
+   ]
   },
   {
    "office": "School Board Member District 4",
    "reported": null,
    "precincts": null,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Kizzy L. Burch",
+     "party": "NON",
+     "pct": 46.75,
+     "votes": 461
+    },
+    {
+     "name": "Larry Ogburn Sr.",
+     "party": "NON",
+     "pct": 53.25,
+     "votes": 525
+    }
+   ]
   }
  ]
 }

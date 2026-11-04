@@ -1,7 +1,7 @@
 {
  "county": "marion",
  "url": "https://enr.electionsfl.org/MRN/4099/Summary/",
- "pulledAt": "2026-11-04T03:18:05Z",
+ "pulledAt": "2026-11-04T03:20:55Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,19 +9,58 @@
    "office": "Board of County Commissioners - District 4",
    "reported": 106,
    "precincts": 106,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "REP Jeff Bairstow",
+     "party": "REP",
+     "pct": 91.85,
+     "votes": 121697
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 8.15,
+     "votes": 10793
+    }
+   ]
   },
   {
    "office": "School Board - District 4",
    "reported": 106,
    "precincts": 106,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Mike Mills",
+     "party": "NON",
+     "pct": 56.76,
+     "votes": 78999
+    },
+    {
+     "name": "Brigitte Smith",
+     "party": "NON",
+     "pct": 43.24,
+     "votes": 60171
+    }
+   ]
   },
   {
    "office": "School Board  - District 5",
    "reported": 106,
    "precincts": 106,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Donald \"Donny\" Barber",
+     "party": "NON",
+     "pct": 44.73,
+     "votes": 62311
+    },
+    {
+     "name": "Sarah James",
+     "party": "NON",
+     "pct": 55.27,
+     "votes": 76999
+    }
+   ]
   }
  ]
 }

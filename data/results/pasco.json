@@ -1,7 +1,7 @@
 {
  "county": "pasco",
  "url": "https://enr.electionsfl.org/PAS/4085/Summary/",
- "pulledAt": "2026-11-04T03:18:14Z",
+ "pulledAt": "2026-11-04T03:20:56Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -31,13 +31,13 @@
    "candidates": [
     {
      "name": "Gino Collura",
-     "party": null,
+     "party": "NPA",
      "pct": 48.15,
      "votes": 100731
     },
     {
      "name": "Kimberly D. Coward",
-     "party": null,
+     "party": "NPA",
      "pct": 51.85,
      "votes": 108465
     }
@@ -50,13 +50,13 @@
    "candidates": [
     {
      "name": "Matt Geiger",
-     "party": null,
+     "party": "NPA",
      "pct": 58.35,
      "votes": 121397
     },
     {
      "name": "Mollyana Ward",
-     "party": null,
+     "party": "NPA",
      "pct": 41.65,
      "votes": 86639
     }

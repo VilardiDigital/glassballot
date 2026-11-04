@@ -1,0 +1,129 @@
+{
+ "county": "orange",
+ "url": "https://enr.electionsfl.org/ORA/4090/Summary/",
+ "pulledAt": "2026-11-04T03:20:56Z",
+ "status": "unofficial",
+ "updated": null,
+ "races": [
+  {
+   "office": "County Commissioner, District 2",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Kamia Brown",
+     "party": "NON",
+     "pct": 63.21,
+     "votes": 39453
+    },
+    {
+     "name": "Mike Crabb",
+     "party": "NON",
+     "pct": 36.79,
+     "votes": 22962
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner, District 4",
+   "reported": 34,
+   "precincts": 34,
+   "candidates": [
+    {
+     "name": "Brian Jones",
+     "party": "NON",
+     "pct": 34.88,
+     "votes": 19085
+    },
+    {
+     "name": "Johanna Lopez",
+     "party": "NON",
+     "pct": 64.55,
+     "votes": 35327
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 0.57,
+     "votes": 312
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner, District 6",
+   "reported": 27,
+   "precincts": 27,
+   "candidates": [
+    {
+     "name": "Lawanna Gelzer",
+     "party": "NON",
+     "pct": 44.46,
+     "votes": 13258
+    },
+    {
+     "name": "Michael \"Mike\" Scott",
+     "party": "NON",
+     "pct": 55.54,
+     "votes": 16561
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner, District 7",
+   "reported": 33,
+   "precincts": 33,
+   "candidates": [
+    {
+     "name": "Patricia Rumph",
+     "party": "NON",
+     "pct": 69.36,
+     "votes": 32571
+    },
+    {
+     "name": "Vicki Vargo",
+     "party": "NON",
+     "pct": 30.64,
+     "votes": 14390
+    }
+   ]
+  },
+  {
+   "office": "County Commissioner, District 8",
+   "reported": 29,
+   "precincts": 29,
+   "candidates": [
+    {
+     "name": "Jeannette Quinones Hernandez",
+     "party": "NON",
+     "pct": 42.77,
+     "votes": 23387
+    },
+    {
+     "name": "Victor M.Torres Jr.",
+     "party": "NON",
+     "pct": 57.23,
+     "votes": 31292
+    }
+   ]
+  },
+  {
+   "office": "School Board Member, District 3",
+   "reported": 40,
+   "precincts": 40,
+   "candidates": [
+    {
+     "name": "Diana Moore",
+     "party": "NON",
+     "pct": 41.96,
+     "votes": 24449
+    },
+    {
+     "name": "Susanne Peña",
+     "party": "NON",
+     "pct": 58.04,
+     "votes": 33812
+    }
+   ]
+  }
+ ]
+}

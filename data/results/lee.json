@@ -1,0 +1,85 @@
+{
+ "county": "lee",
+ "url": "https://enr.electionsfl.org/LEE/4111/Summary/",
+ "pulledAt": "2026-11-04T03:20:54Z",
+ "status": "unofficial",
+ "updated": null,
+ "races": [
+  {
+   "office": "Board of County Commissioners - District 2",
+   "reported": 99,
+   "precincts": 99,
+   "candidates": [
+    {
+     "name": "REP Cecil L. Pendergrass",
+     "party": "REP",
+     "pct": 60.1,
+     "votes": 179096
+    },
+    {
+     "name": "DEM Elliot Taylor",
+     "party": "DEM",
+     "pct": 39.9,
+     "votes": 118902
+    }
+   ]
+  },
+  {
+   "office": "Board of County Commissioners - District 4",
+   "reported": 99,
+   "precincts": 99,
+   "candidates": [
+    {
+     "name": "REP Brian Hamman",
+     "party": "REP",
+     "pct": 67.53,
+     "votes": 193169
+    },
+    {
+     "name": "NPA DeMaria \"Princess\" Artis",
+     "party": "NPA",
+     "pct": 32.47,
+     "votes": 92901
+    }
+   ]
+  },
+  {
+   "office": "School Board Member - District 4",
+   "reported": 17,
+   "precincts": 17,
+   "candidates": [
+    {
+     "name": "Tony Beougher",
+     "party": "NON",
+     "pct": 47.0,
+     "votes": 19934
+    },
+    {
+     "name": "Debbie Jordan",
+     "party": "NON",
+     "pct": 53.0,
+     "votes": 22479
+    }
+   ]
+  },
+  {
+   "office": "School Board Member - District 5",
+   "reported": 17,
+   "precincts": 17,
+   "candidates": [
+    {
+     "name": "Crystal Johnson",
+     "party": "NON",
+     "pct": 59.07,
+     "votes": 23892
+    },
+    {
+     "name": "Armor Persons",
+     "party": "NON",
+     "pct": 40.93,
+     "votes": 16555
+    }
+   ]
+  }
+ ]
+}

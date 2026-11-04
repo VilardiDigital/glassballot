@@ -1,7 +1,7 @@
 {
  "county": "bay",
  "url": "https://enr.electionsfl.org/BAY/4078/Summary/",
- "pulledAt": "2026-11-04T03:17:42Z",
+ "pulledAt": "2026-11-04T03:20:49Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,7 +9,20 @@
    "office": "School Board Member District 3",
    "reported": null,
    "precincts": null,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "John Haley",
+     "party": "NON",
+     "pct": 55.67,
+     "votes": 34402
+    },
+    {
+     "name": "Chris Moore",
+     "party": "NON",
+     "pct": 44.33,
+     "votes": 27393
+    }
+   ]
   }
  ]
 }

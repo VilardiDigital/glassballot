@@ -1,7 +1,7 @@
 {
  "county": "levy",
  "url": "https://enr.electionsfl.org/LEV/4058/Summary/",
- "pulledAt": "2026-11-04T03:18:03Z",
+ "pulledAt": "2026-11-04T03:20:54Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,7 +9,26 @@
    "office": "County Commissioner, Dist 2",
    "reported": 13,
    "precincts": 13,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Matt Lemery",
+     "party": "REP",
+     "pct": 66.3,
+     "votes": 11932
+    },
+    {
+     "name": "Lincoln Cannon",
+     "party": "DEM",
+     "pct": 29.8,
+     "votes": 5363
+    },
+    {
+     "name": "Emily Ann Casey",
+     "party": "ECO",
+     "pct": 3.91,
+     "votes": 703
+    }
+   ]
   }
  ]
 }

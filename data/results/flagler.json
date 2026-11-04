@@ -1,7 +1,7 @@
 {
  "county": "flagler",
  "url": "https://enr.electionsfl.org/FLA/4088/Summary/",
- "pulledAt": "2026-11-04T03:17:50Z",
+ "pulledAt": "2026-11-04T03:20:51Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,19 +9,58 @@
    "office": "Board of County Commissioners, District 2",
    "reported": null,
    "precincts": null,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Theresa Pontieri",
+     "party": "REP",
+     "pct": 64.79,
+     "votes": 38478
+    },
+    {
+     "name": "Raymond Royer",
+     "party": "IND",
+     "pct": 35.21,
+     "votes": 20915
+    }
+   ]
   },
   {
    "office": "Board of County Commissioners, District 4",
    "reported": null,
    "precincts": null,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Leann Pennington",
+     "party": "REP",
+     "pct": 93.66,
+     "votes": 44755
+    },
+    {
+     "name": "Write-in",
+     "party": "NON",
+     "pct": 6.34,
+     "votes": 3029
+    }
+   ]
   },
   {
    "office": "School Board, District 4",
    "reported": null,
    "precincts": null,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Christy Chong",
+     "party": null,
+     "pct": 50.92,
+     "votes": 27667
+    },
+    {
+     "name": "Trevor Tucker",
+     "party": null,
+     "pct": 49.08,
+     "votes": 26671
+    }
+   ]
   }
  ]
 }

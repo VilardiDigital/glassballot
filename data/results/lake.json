@@ -1,7 +1,7 @@
 {
  "county": "lake",
  "url": "https://enr.electionsfl.org/LAK/4079/Summary/",
- "pulledAt": "2026-11-04T03:18:01Z",
+ "pulledAt": "2026-11-04T03:20:54Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -62,7 +62,7 @@
     },
     {
      "name": "Write-in",
-     "party": null,
+     "party": "NON",
      "pct": 8.73,
      "votes": 11472
     }

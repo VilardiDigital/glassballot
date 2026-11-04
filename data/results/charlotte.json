@@ -1,0 +1,28 @@
+{
+ "county": "charlotte",
+ "url": "https://enr.electionsfl.org/CHA/4062/Summary/",
+ "pulledAt": "2026-11-04T03:20:49Z",
+ "status": "unofficial",
+ "updated": null,
+ "races": [
+  {
+   "office": "Board of County Commissioners District 4",
+   "reported": 40,
+   "precincts": 40,
+   "candidates": [
+    {
+     "name": "REP Kim Amontree",
+     "party": "REP",
+     "pct": 65.55,
+     "votes": 63325
+    },
+    {
+     "name": "NPA Michael T. Melton",
+     "party": "NPA",
+     "pct": 34.45,
+     "votes": 33277
+    }
+   ]
+  }
+ ]
+}

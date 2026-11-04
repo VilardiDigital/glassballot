@@ -1,7 +1,7 @@
 {
  "county": "gadsden",
  "url": "https://enr.electionsfl.org/GAD/4066/Summary/",
- "pulledAt": "2026-11-04T03:17:51Z",
+ "pulledAt": "2026-11-04T03:20:51Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -31,13 +31,13 @@
    "candidates": [
     {
      "name": "Rodney Moore",
-     "party": null,
+     "party": "NON",
      "pct": 53.3,
      "votes": 2051
     },
     {
      "name": "Tracey Stallworth",
-     "party": null,
+     "party": "NON",
      "pct": 46.7,
      "votes": 1797
     }

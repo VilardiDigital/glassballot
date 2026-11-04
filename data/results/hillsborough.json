@@ -1,7 +1,7 @@
 {
  "county": "hillsborough",
  "url": "https://enr.electionsfl.org/HIL/4074/Summary/",
- "pulledAt": "2026-11-04T03:17:56Z",
+ "pulledAt": "2026-11-04T03:20:53Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -88,13 +88,13 @@
    "candidates": [
     {
      "name": "Brittany Lyssy",
-     "party": null,
+     "party": "NON",
      "pct": 47.83,
      "votes": 52730
     },
     {
      "name": "Daniela Simic",
-     "party": null,
+     "party": "NON",
      "pct": 52.17,
      "votes": 57508
     }
@@ -107,13 +107,13 @@
    "candidates": [
     {
      "name": "Kenneth \"Ken\" Gay",
-     "party": null,
+     "party": "NON",
      "pct": 43.1,
      "votes": 200762
     },
     {
      "name": "Karen Perez",
-     "party": null,
+     "party": "NON",
      "pct": 56.9,
      "votes": 265068
     }

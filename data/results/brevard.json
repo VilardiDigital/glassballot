@@ -1,0 +1,72 @@
+{
+ "county": "brevard",
+ "url": "https://enr.electionsfl.org/BRE/4064/Summary/",
+ "pulledAt": "2026-11-04T03:20:49Z",
+ "status": "unofficial",
+ "updated": null,
+ "races": [
+  {
+   "office": "Board of County Commissioners, District 1",
+   "reported": 35,
+   "precincts": 35,
+   "candidates": [
+    {
+     "name": "Micah Loyd",
+     "party": "REP",
+     "pct": 58.4,
+     "votes": 27133
+    },
+    {
+     "name": "Aldon Bookhardt",
+     "party": "DEM",
+     "pct": 36.65,
+     "votes": 17029
+    },
+    {
+     "name": "Nathan Slusher",
+     "party": "LPF",
+     "pct": 4.95,
+     "votes": 2298
+    }
+   ]
+  },
+  {
+   "office": "School Board Member, District 2",
+   "reported": 39,
+   "precincts": 39,
+   "candidates": [
+    {
+     "name": "Kyle Savage",
+     "party": null,
+     "pct": 54.87,
+     "votes": 26392
+    },
+    {
+     "name": "Gene Trent",
+     "party": null,
+     "pct": 45.13,
+     "votes": 21708
+    }
+   ]
+  },
+  {
+   "office": "School Board Member, District 5",
+   "reported": 28,
+   "precincts": 28,
+   "candidates": [
+    {
+     "name": "Tammy Dennis",
+     "party": null,
+     "pct": 48.84,
+     "votes": 22274
+    },
+    {
+     "name": "Michele McCormack",
+     "party": null,
+     "pct": 51.16,
+     "votes": 23333
+    }
+   ]
+  }
+ ]
+}

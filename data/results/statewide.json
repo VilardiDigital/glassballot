@@ -1,0 +1,332 @@
+{
+ "source": "https://floridaelectionwatch.gov",
+ "races": {
+  "gov": {
+   "name": "Governor and Lieutenant Governor",
+   "number": null,
+   "choices": [
+    {
+     "name": "Byron Donalds and Bryan Avila",
+     "party": "REP",
+     "votes": 4116694,
+     "pct": 50.08
+    },
+    {
+     "name": "David Jolly and Gwen Graham",
+     "party": "DEM",
+     "votes": 3999957,
+     "pct": 48.66
+    },
+    {
+     "name": "Scott Eckhard Jewett and Nicole Skelly",
+     "party": "LPF",
+     "votes": 37622,
+     "pct": 0.46
+    },
+    {
+     "name": "Charles Burkett and Ruben A. Coto",
+     "party": "NPA",
+     "votes": 15156,
+     "pct": 0.18
+    },
+    {
+     "name": "Frank J. Russo and Rachel Rodriguez",
+     "party": "NPA",
+     "votes": 23062,
+     "pct": 0.28
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche and Benjiman Rojas",
+     "party": "NPA",
+     "votes": 7528,
+     "pct": 0.09
+    },
+    {
+     "name": "Dean Ocean Abrams and Joe Van Vactor",
+     "party": "NPA",
+     "votes": 12404,
+     "pct": 0.15
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto and Juan Santana",
+     "party": "NPA",
+     "votes": 8281,
+     "pct": 0.1
+    },
+    {
+     "name": "Kathy Anderson and Daniel Nokovich",
+     "party": "WRI",
+     "votes": 0,
+     "pct": 0.0
+    },
+    {
+     "name": "Erik Morris and LeRoy Alaways",
+     "party": "WRI",
+     "votes": 0,
+     "pct": 0.0
+    }
+   ],
+   "total": 8220704,
+   "threshold": null,
+   "url": "https://floridaelectionwatch.gov/StateOffices/Governor"
+  },
+  "ag": {
+   "name": "Attorney General",
+   "number": null,
+   "choices": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "votes": 4162292,
+     "pct": 51.0
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "votes": 3999652,
+     "pct": 49.0
+    }
+   ],
+   "total": 8161944,
+   "threshold": null,
+   "url": "https://floridaelectionwatch.gov/StateOffices/AttorneyGeneral"
+  },
+  "cfo": {
+   "name": "Chief Financial Officer",
+   "number": null,
+   "choices": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "votes": 4135760,
+     "pct": 51.0
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "votes": 3973568,
+     "pct": 49.0
+    }
+   ],
+   "total": 8109328,
+   "threshold": null,
+   "url": "https://floridaelectionwatch.gov/StateOffices/ChiefFinancialOfficer"
+  },
+  "agr": {
+   "name": "Commissioner of Agriculture",
+   "number": null,
+   "choices": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "votes": 4144793,
+     "pct": 51.14
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "votes": 3960229,
+     "pct": 48.86
+    },
+    {
+     "name": "Kyle \"KC\" Gibson",
+     "party": "WRI",
+     "votes": 0,
+     "pct": 0.0
+    }
+   ],
+   "total": 8105022,
+   "threshold": null,
+   "url": "https://floridaelectionwatch.gov/StateOffices/CommissionerOfAgriculture"
+  },
+  "uss": {
+   "name": "United States Senator",
+   "number": null,
+   "choices": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "votes": 4192030,
+     "pct": 50.93
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "votes": 3944550,
+     "pct": 47.93
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "votes": 93948,
+     "pct": 1.14
+    }
+   ],
+   "total": 8230528,
+   "threshold": null,
+   "url": "https://floridaelectionwatch.gov/FederalOffices/USSenator"
+  }
+ },
+ "measures": [
+  {
+   "name": "Budget Stabilization Fund",
+   "number": "Amendment No. 1",
+   "choices": [
+    {
+     "name": "Yes for Approval",
+     "party": null,
+     "votes": 3156301,
+     "pct": 40.92
+    },
+    {
+     "name": "No for Rejection",
+     "party": null,
+     "votes": 4556741,
+     "pct": 59.08
+    }
+   ],
+   "total": 7713042,
+   "threshold": 60,
+   "url": "https://floridaelectionwatch.gov/Amendments"
+  },
+  {
+   "name": "Exemption of Tangible Personal Property on Agricultural Land From Taxation",
+   "number": "Amendment No. 2",
+   "choices": [
+    {
+     "name": "Yes for Approval",
+     "party": null,
+     "votes": 4523204,
+     "pct": 58.25
+    },
+    {
+     "name": "No for Rejection",
+     "party": null,
+     "votes": 3241762,
+     "pct": 41.75
+    }
+   ],
+   "total": 7764966,
+   "threshold": 60,
+   "url": "https://floridaelectionwatch.gov/Amendments"
+  },
+  {
+   "name": "Increased Homestead Exemption; Lower Cap On Increases In Non-Homestead Property Assessments",
+   "number": "Amendment No. 3",
+   "choices": [
+    {
+     "name": "Yes for Approval",
+     "party": null,
+     "votes": 4896375,
+     "pct": 62.02
+    },
+    {
+     "name": "No for Rejection",
+     "party": null,
+     "votes": 2998372,
+     "pct": 37.98
+    }
+   ],
+   "total": 7894747,
+   "threshold": 60,
+   "url": "https://floridaelectionwatch.gov/Amendments"
+  }
+ ],
+ "retention": [
+  {
+   "name": "Shall Justice Carlos G. Muñiz be retained in Office?",
+   "number": null,
+   "choices": [
+    {
+     "name": "Yes",
+     "party": null,
+     "votes": 4279250,
+     "pct": 57.75
+    },
+    {
+     "name": "No",
+     "party": null,
+     "votes": 3131259,
+     "pct": 42.25
+    }
+   ],
+   "total": 7410509,
+   "threshold": null,
+   "url": "https://floridaelectionwatch.gov/JudicialOffices/SupremeCourt"
+  }
+ ],
+ "reporting": {
+  "counties": 67,
+  "complete": 61,
+  "byCounty": {
+   "Alachua": 95.24,
+   "Baker": 100.0,
+   "Bay": 100.0,
+   "Bradford": 100.0,
+   "Brevard": 100.0,
+   "Broward": 98.84,
+   "Calhoun": 100.0,
+   "Charlotte": 100.0,
+   "Citrus": 100.0,
+   "Clay": 100.0,
+   "Collier": 100.0,
+   "Columbia": 100.0,
+   "Desoto": 100.0,
+   "Dixie": 100.0,
+   "Duval": 100.0,
+   "Escambia": 100.0,
+   "Flagler": 100.0,
+   "Franklin": 100.0,
+   "Gadsden": 100.0,
+   "Gilchrist": 100.0,
+   "Glades": 100.0,
+   "Gulf": 100.0,
+   "Hamilton": 100.0,
+   "Hardee": 100.0,
+   "Hendry": 100.0,
+   "Hernando": 100.0,
+   "Highlands": 100.0,
+   "Hillsborough": 100.0,
+   "Holmes": 100.0,
+   "Indian River": 100.0,
+   "Jackson": 100.0,
+   "Jefferson": 100.0,
+   "Lafayette": 100.0,
+   "Lake": 100.0,
+   "Lee": 100.0,
+   "Leon": 100.0,
+   "Levy": 100.0,
+   "Liberty": 100.0,
+   "Madison": 100.0,
+   "Manatee": 100.0,
+   "Marion": 100.0,
+   "Martin": 100.0,
+   "Miami-Dade": 98.58,
+   "Monroe": 100.0,
+   "Nassau": 100.0,
+   "Okaloosa": 100.0,
+   "Okeechobee": 100.0,
+   "Orange": 100.0,
+   "Osceola": 100.0,
+   "Palm Beach": 94.47,
+   "Pasco": 100.0,
+   "Pinellas": 100.0,
+   "Polk": 100.0,
+   "Putnam": 100.0,
+   "Santa Rosa": 100.0,
+   "Sarasota": 100.0,
+   "Seminole": 100.0,
+   "St. Johns": 94.55,
+   "St. Lucie": 93.55,
+   "Sumter": 100.0,
+   "Suwannee": 100.0,
+   "Taylor": 100.0,
+   "Union": 100.0,
+   "Volusia": 100.0,
+   "Wakulla": 100.0,
+   "Walton": 100.0,
+   "Washington": 100.0
+  }
+ },
+ "pulledAt": "2026-11-04T03:21:00Z"
+}

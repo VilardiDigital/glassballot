@@ -1,7 +1,7 @@
 {
  "county": "stlucie",
  "url": "https://enr.electionsfl.org/STL/4089/Summary/",
- "pulledAt": "2026-11-04T03:18:19Z",
+ "pulledAt": "2026-11-04T03:20:57Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -9,25 +9,83 @@
    "office": "County Commissioner, District 2",
    "reported": null,
    "precincts": null,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Larry D. Leet",
+     "party": "REP",
+     "pct": 53.95,
+     "votes": 68362
+    },
+    {
+     "name": "Rolin Dorsainvil",
+     "party": "IND",
+     "pct": 46.05,
+     "votes": 58359
+    }
+   ]
   },
   {
    "office": "County Commissioner, District 4",
    "reported": null,
    "precincts": null,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Jamie Fowler",
+     "party": "REP",
+     "pct": 48.05,
+     "votes": 63882
+    },
+    {
+     "name": "Jean Eddy Leroy",
+     "party": "DEM",
+     "pct": 49.25,
+     "votes": 65481
+    },
+    {
+     "name": "Nicholas R. Burgos",
+     "party": "NPA",
+     "pct": 2.7,
+     "votes": 3589
+    }
+   ]
   },
   {
    "office": "School Board, District 3",
    "reported": null,
    "precincts": null,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Donna Mills",
+     "party": null,
+     "pct": 93.62,
+     "votes": 103579
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 6.38,
+     "votes": 7054
+    }
+   ]
   },
   {
    "office": "School Board, District 5",
    "reported": null,
    "precincts": null,
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Troy Ingersoll",
+     "party": null,
+     "pct": 50.69,
+     "votes": 59341
+    },
+    {
+     "name": "Lisa Kessler",
+     "party": null,
+     "pct": 49.31,
+     "votes": 57717
+    }
+   ]
   }
  ]
 }

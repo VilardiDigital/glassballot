@@ -1,0 +1,47 @@
+{
+ "county": "madison",
+ "url": "https://enr.electionsfl.org/MAD/4061/Summary/",
+ "pulledAt": "2026-11-04T03:20:55Z",
+ "status": "unofficial",
+ "updated": null,
+ "races": [
+  {
+   "office": "County Commissioner District 4",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "DeWayne O'Quinn",
+     "party": "REP",
+     "pct": 46.43,
+     "votes": 638
+    },
+    {
+     "name": "Alfred Martin",
+     "party": "DEM",
+     "pct": 53.57,
+     "votes": 736
+    }
+   ]
+  },
+  {
+   "office": "School Board, Dist. 5 (NOP)",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Mike Maurice",
+     "party": null,
+     "pct": 67.83,
+     "votes": 974
+    },
+    {
+     "name": "Jonathan L. Mazzella",
+     "party": null,
+     "pct": 32.17,
+     "votes": 462
+    }
+   ]
+  }
+ ]
+}

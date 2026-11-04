@@ -1,0 +1,28 @@
+{
+ "county": "okaloosa",
+ "url": "https://enr.electionsfl.org/OKA/4092/Summary/",
+ "pulledAt": "2026-11-04T03:20:56Z",
+ "status": "unofficial",
+ "updated": null,
+ "races": [
+  {
+   "office": "School Board Member District 1",
+   "reported": null,
+   "precincts": null,
+   "candidates": [
+    {
+     "name": "Jerry Buckman",
+     "party": "NPA",
+     "pct": 51.73,
+     "votes": 34819
+    },
+    {
+     "name": "JD Peacock",
+     "party": "NPA",
+     "pct": 48.27,
+     "votes": 32485
+    }
+   ]
+  }
+ ]
+}

@@ -23,8 +23,14 @@
     4047,
     "Election Date: 8/18/2026",
     "8/18/2026"
+   ],
+   [
+    4124,
+    "Election Date: 11/3/2026",
+    "11/3/2026"
    ]
-  ]
+  ],
+  "general": 4124
  },
  "bay": {
   "code": "BAY",
@@ -66,7 +72,14 @@
  },
  "brevard": {
   "code": "BRE",
-  "all": []
+  "all": [
+   [
+    4064,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "general": 4064
  },
  "broward": {
   "code": "BRO",
@@ -90,9 +103,15 @@
     4016,
     "2026 Primary Election",
     "8/18/2026"
+   ],
+   [
+    4062,
+    "2026 General Election",
+    "11/3/2026"
    ]
   ],
-  "primary": 4016
+  "primary": 4016,
+  "general": 4062
  },
  "citrus": {
   "code": "CIT",
@@ -350,9 +369,15 @@
     4037,
     "2026 Primary Election",
     "8/18/2026"
+   ],
+   [
+    4127,
+    "2026 General Election",
+    "11/3/2026"
    ]
   ],
-  "primary": 4037
+  "primary": 4037,
+  "general": 4127
  },
  "hillsborough": {
   "code": "HIL",
@@ -445,9 +470,15 @@
     4033,
     "2026 Primary Election",
     "8/18/2026"
+   ],
+   [
+    4071,
+    "2026 General Election",
+    "11/3/2026"
    ]
   ],
-  "primary": 4033
+  "primary": 4033,
+  "general": 4071
  },
  "lake": {
   "code": "LAK",
@@ -467,8 +498,14 @@
     4025,
     "Election Date: 8/18/2026",
     "8/18/2026"
+   ],
+   [
+    4111,
+    "Election Date: 11/3/2026",
+    "11/3/2026"
    ]
-  ]
+  ],
+  "general": 4111
  },
  "leon": {
   "code": "LEO",
@@ -516,9 +553,15 @@
     4008,
     "2026 Madison County Primary Election",
     "8/18/2026"
+   ],
+   [
+    4061,
+    "2026 Madison County General Election",
+    "11/3/2026"
    ]
   ],
-  "primary": 4008
+  "primary": 4008,
+  "general": 4061
  },
  "manatee": {
   "code": "MAN",
@@ -616,9 +659,15 @@
     4026,
     "2026 Primary Election",
     "8/18/2026"
+   ],
+   [
+    4092,
+    "2026 General Election",
+    "11/3/2026"
    ]
   ],
-  "primary": 4026
+  "primary": 4026,
+  "general": 4092
  },
  "okeechobee": {
   "code": "OKE",
@@ -633,7 +682,14 @@
  },
  "orange": {
   "code": "ORA",
-  "all": []
+  "all": [
+   [
+    4090,
+    "2026 General Election",
+    "11/3/2026"
+   ]
+  ],
+  "general": 4090
  },
  "osceola": {
   "code": "OSC",
@@ -646,9 +702,15 @@
     4035,
     "2026 Primary Election",
     "8/18/2026"
+   ],
+   [
+    4131,
+    "2026 General Election",
+    "11/3/2026"
    ]
   ],
-  "primary": 4035
+  "primary": 4035,
+  "general": 4131
  },
  "pasco": {
   "code": "PAS",
@@ -791,9 +853,15 @@
     4050,
     "2026 Primary Election",
     "8/18/2026"
+   ],
+   [
+    4112,
+    "General Election 2026",
+    "11/3/2026"
    ]
   ],
-  "primary": 4050
+  "primary": 4050,
+  "general": 4112
  },
  "taylor": {
   "code": "TAY",

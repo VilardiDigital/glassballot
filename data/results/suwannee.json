@@ -1,0 +1,28 @@
+{
+ "county": "suwannee",
+ "url": "https://enr.electionsfl.org/SUW/4112/Summary/",
+ "pulledAt": "2026-11-04T03:20:58Z",
+ "status": "unofficial",
+ "updated": null,
+ "races": [
+  {
+   "office": "County Commissioner District 2",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "REP Walter Shea DeLoach",
+     "party": "REP",
+     "pct": 50.06,
+     "votes": 876
+    },
+    {
+     "name": "DEM Stefan Blue",
+     "party": "DEM",
+     "pct": 49.94,
+     "votes": 874
+    }
+   ]
+  }
+ ]
+}

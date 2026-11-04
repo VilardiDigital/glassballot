@@ -1,0 +1,47 @@
+{
+ "county": "highlands",
+ "url": "https://enr.electionsfl.org/HIG/4127/Summary/",
+ "pulledAt": "2026-11-04T03:20:52Z",
+ "status": "unofficial",
+ "updated": null,
+ "races": [
+  {
+   "office": "School Board District 1",
+   "reported": 25,
+   "precincts": 25,
+   "candidates": [
+    {
+     "name": "James Jonsten",
+     "party": "NON",
+     "pct": 43.63,
+     "votes": 14930
+    },
+    {
+     "name": "Kari Gurganus Pritchett",
+     "party": "NON",
+     "pct": 56.37,
+     "votes": 19289
+    }
+   ]
+  },
+  {
+   "office": "School Board District 5",
+   "reported": 25,
+   "precincts": 25,
+   "candidates": [
+    {
+     "name": "Gary Brown",
+     "party": "NON",
+     "pct": 47.58,
+     "votes": 17059
+    },
+    {
+     "name": "Andy Tuck",
+     "party": "NON",
+     "pct": 52.42,
+     "votes": 18791
+    }
+   ]
+  }
+ ]
+}

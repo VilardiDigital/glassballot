@@ -1,0 +1,66 @@
+{
+ "county": "palmbeach",
+ "url": "https://enr.electionsfl.org/PAL/4131/Summary/",
+ "pulledAt": "2026-11-04T03:20:56Z",
+ "status": "unofficial",
+ "updated": null,
+ "races": [
+  {
+   "office": "Board of County Commissioners, District 4",
+   "reported": 112,
+   "precincts": 113,
+   "candidates": [
+    {
+     "name": "Marci Woodward",
+     "party": "REP",
+     "pct": 50.67,
+     "votes": 47161
+    },
+    {
+     "name": "Curtis Calabrese",
+     "party": "DEM",
+     "pct": 49.33,
+     "votes": 45917
+    }
+   ]
+  },
+  {
+   "office": "Board of County Commissioners, District 6",
+   "reported": 106,
+   "precincts": 111,
+   "candidates": [
+    {
+     "name": "Sara Baxter",
+     "party": "REP",
+     "pct": 41.87,
+     "votes": 36335
+    },
+    {
+     "name": "Katherine Waldron",
+     "party": "DEM",
+     "pct": 58.13,
+     "votes": 50443
+    }
+   ]
+  },
+  {
+   "office": "School Board, District 4",
+   "reported": 126,
+   "precincts": 129,
+   "candidates": [
+    {
+     "name": "Christina L. Romelus",
+     "party": null,
+     "pct": 61.59,
+     "votes": 44426
+    },
+    {
+     "name": "Daniel Zapata",
+     "party": null,
+     "pct": 38.41,
+     "votes": 27706
+    }
+   ]
+  }
+ ]
+}
