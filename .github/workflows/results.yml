@@ -23,6 +23,7 @@ jobs:
       - name: Pull results and rebuild
         run: |
           python tools/probe_clarity.py || true
+          timeout 600 python tools/probe_enr.py || true
           python -m pipeline.sources.results
           python -m pipeline.sources.statewide || true
           python -m pipeline.refresh --offline

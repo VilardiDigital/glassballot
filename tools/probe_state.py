@@ -16,7 +16,7 @@ UA = {"User-Agent": "GlassBallot/1.0 (+https://glassballot.org; nonpartisan vote
 PAGES = ["Home", "Downloads", "Amendments", "StateOffices", "StateOffices/Governor", "StateOffices/AttorneyGeneral",
          "StateOffices/ChiefFinancialOfficer", "StateOffices/CommissionerOfAgriculture", "FederalOffices/USSenator",
          "CountyReportingStatus",
-         "https://enr.electionsfl.org/HIL/4074/Summary/", "https://enr.electionsfl.org/PAS/4085/Summary/",
+         "https://enr.electionsfl.org/HIL/4074/Summary/", "https://enr.electionsfl.org/PAS/4085/Summary/", "https://enr.electionsfl.org/MAN/4126/Summary/", "https://enr.electionsfl.org/STL/4089/Summary/", "https://enr.electionsfl.org/BAY/4078/Summary/", "https://enr.votepinellas.gov/FL/Pinellas/elections.json",
          "https://flelectionfiles.floridados.gov/enightfilespublic/20261103_ElecResultsFL.txt"]
 
 
