@@ -44,8 +44,17 @@ def get(url: str, as_json: bool = True, tries: int = 4):
     for a in range(tries):
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
-                b = r.read().decode("utf-8", "replace")
-                return json.loads(b) if as_json else b
+                raw = r.read()
+                if raw[:2] == b"\x1f\x8b" or (r.headers.get("Content-Encoding") or "").lower() == "gzip":
+                    import gzip
+                    raw = gzip.decompress(raw)  # some results sites (Clarity) send gzip whether or not we ask
+                b = raw.decode("utf-8-sig", "replace")
+                if not as_json:
+                    return b
+                try:
+                    return json.loads(b)
+                except ValueError:
+                    raise ValueError(f"not JSON from {url} (HTTP {r.status}): {b[:120]!r}") from None
         except Exception:
             if a == tries - 1:
                 raise
