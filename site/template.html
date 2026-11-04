@@ -893,6 +893,7 @@ function recountNote(x) {
   const m = (c[0].votes - c[1].votes) / x.total * 100; if (m > 0.5) return "";
   return `<p class="notice small" style="margin:4px 0"><span><b>Close enough for a recount.</b> The gap is ${(c[0].votes - c[1].votes).toLocaleString()} votes (${m.toFixed(2)}%). Florida law calls for a machine recount when the margin is 0.5% or less${m <= 0.25 ? ", and a hand review of over- and undervotes at 0.25% or less" : ""}, unless the trailing candidate declines in writing. We'll show any new count as soon as the county posts it.</span></p>`;
 }
+const NOT_IN_RESULTS = "This seat isn't in the county's Nov 3 results, so it was most likely settled in the August primary or had only one qualified candidate. We're checking and will update this page.";
 function resultsBlock(r, big) {
   const x = r.results; if (!x || !x.total) return "";
   const st = x.status === "official" ? "Official results" : "Unofficial results";
@@ -910,7 +911,7 @@ function raceCard(r) {
   return `<a class="race" href="${href("r/" + r.id)}">
     <div class="rh"><h3 class="h3" style="font-size:19px">${esc(r.title)}</h3><span class="small muted">Who votes: ${esc(whoVotes(r))}</span></div>
     <div class="rp">${ppl.map(p => `<div>${face(p, "", !evenPhotos(r))}<span class="stack-sm" style="gap:1px"><b style="font-family:var(--head);font-weight:700;color:var(--char)">${esc(p.name)}${myp === p.id ? " ✓" : ""}</b><span class="tiny muted">${statusText(p)}${partyOf(p) ? " · " + esc(partyOf(p)) : ""}</span></span></div>`).join("")}</div>
-    ${r.results ? `<div style="padding:12px 16px 0">${resultsBlock(r, false)}</div>` : r.note ? `<p class="small muted" style="padding:12px 16px 0">${esc(r.note)}</p>` : ""}
+    ${r.results ? `<div style="padding:12px 16px 0">${resultsBlock(r, false)}</div>` : after() && r.notInResults ? `<p class="small muted" style="padding:12px 16px 0">${esc(NOT_IN_RESULTS)}</p>` : r.note ? `<p class="small muted" style="padding:12px 16px 0">${esc(r.note)}</p>` : ""}
     <span class="go">${ppl.length > 1 ? "Compare the candidates" : "See the candidate"}${myp ? " · You marked a choice" : ""}</span>
   </a>`;
 }
@@ -941,7 +942,7 @@ views.race = id => {
       <p class="job"><b>What the job does:</b> ${esc(jobLine(r))}${jobSrc(r)}</p>
       ${r.note && !r.results ? `<p class="notice">${esc(r.note)}</p>` : ""}
     </section>
-    ${r.results ? `<section class="panel stack" aria-labelledby="res"><h2 class="h2" id="res">Results</h2>${resultsBlock(r, true)}</section>` : countingNote(r)}
+    ${r.results ? `<section class="panel stack" aria-labelledby="res"><h2 class="h2" id="res">Results</h2>${resultsBlock(r, true)}</section>` : after() && r.notInResults ? `<p class="notice">${esc(NOT_IN_RESULTS)} <a href="${esc(r.notInResults.url)}" target="_blank" rel="noopener">See the county's results</a>.</p>` : countingNote(r)}
     <section class="stack" aria-label="Candidates">
       <p class="small muted">Listed in alphabetical order by last name. We never rank or recommend candidates.${isSchool(r) ? " School board races are nonpartisan, so party isn't on the ballot." : ""}</p>
       <div class="cands">${ppl.slice().sort((a,b) => lastName(a).localeCompare(lastName(b))).map(p => {

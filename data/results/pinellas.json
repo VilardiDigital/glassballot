@@ -1,0 +1,1122 @@
+{
+ "county": "pinellas",
+ "url": "https://enr.votepinellas.gov/FL/Pinellas/127357/",
+ "pulledAt": "2026-11-04T15:59:36Z",
+ "status": "unofficial",
+ "updated": null,
+ "races": [
+  {
+   "office": "Board of County Commissioners District 2 - At Large",
+   "reported": 288,
+   "precincts": 288,
+   "candidates": [
+    {
+     "name": "Brian Scott",
+     "party": "REP",
+     "pct": 49.48,
+     "votes": 195523
+    },
+    {
+     "name": "Tim Hughes",
+     "party": "DEM",
+     "pct": 50.52,
+     "votes": 199639
+    }
+   ]
+  },
+  {
+   "office": "Board of County Commissioners District 6 - Single Member",
+   "reported": 79,
+   "precincts": 79,
+   "candidates": [
+    {
+     "name": "Kathleen Peters",
+     "party": "REP",
+     "pct": 55.04,
+     "votes": 55643
+    },
+    {
+     "name": "David Glenn Jr.",
+     "party": "DEM",
+     "pct": 44.96,
+     "votes": 45445
+    }
+   ]
+  },
+  {
+   "office": "School Board Member District 3 - At Large",
+   "reported": 288,
+   "precincts": 288,
+   "candidates": [
+    {
+     "name": "Curtis Campogni",
+     "party": null,
+     "pct": 50.1,
+     "votes": 175434
+    },
+    {
+     "name": "Dawn Peters",
+     "party": null,
+     "pct": 49.9,
+     "votes": 174722
+    }
+   ]
+  }
+ ],
+ "via": "browser",
+ "all": [
+  {
+   "office": "United States Senator",
+   "reported": 288,
+   "precincts": 288,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "pct": 48.94,
+     "votes": 197434
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "pct": 49.59,
+     "votes": 200035
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": null,
+     "pct": 1.47,
+     "votes": 5939
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 13",
+   "reported": 198,
+   "precincts": 198,
+   "candidates": [
+    {
+     "name": "Anna Paulina Luna",
+     "party": "REP",
+     "pct": 49.17,
+     "votes": 143928
+    },
+    {
+     "name": "Leela Gray",
+     "party": "DEM",
+     "pct": 49.03,
+     "votes": 143512
+    },
+    {
+     "name": "Tony D'Arrigo",
+     "party": null,
+     "pct": 1.8,
+     "votes": 5269
+    }
+   ]
+  },
+  {
+   "office": "Representative in Congress District 16",
+   "reported": 90,
+   "precincts": 90,
+   "candidates": [
+    {
+     "name": "Sydney Gruters",
+     "party": "REP",
+     "pct": 37.18,
+     "votes": 40858
+    },
+    {
+     "name": "Kelly Kirschner",
+     "party": "DEM",
+     "pct": 60.91,
+     "votes": 66941
+    },
+    {
+     "name": "Mark Davis",
+     "party": null,
+     "pct": 1.92,
+     "votes": 2108
+    }
+   ]
+  },
+  {
+   "office": "Governor and Lieutenant Governor",
+   "reported": 288,
+   "precincts": 288,
+   "candidates": [
+    {
+     "name": "Byron Donalds",
+     "party": "REP",
+     "pct": 46.93,
+     "votes": 189537
+    },
+    {
+     "name": "David Jolly",
+     "party": "DEM",
+     "pct": 51.53,
+     "votes": 208126
+    },
+    {
+     "name": "Scott Eckhard Jewett",
+     "party": "LPF",
+     "pct": 0.49,
+     "votes": 1985
+    },
+    {
+     "name": "Charles Burkett",
+     "party": null,
+     "pct": 0.23,
+     "votes": 929
+    },
+    {
+     "name": "Frank J. Russo",
+     "party": null,
+     "pct": 0.31,
+     "votes": 1239
+    },
+    {
+     "name": "Moliere 'Moe' Dimanche",
+     "party": null,
+     "pct": 0.09,
+     "votes": 374
+    },
+    {
+     "name": "Dean Ocean Abrams",
+     "party": null,
+     "pct": 0.16,
+     "votes": 642
+    },
+    {
+     "name": "Jeffrey Peter 'Dr. Jeff' Datto",
+     "party": null,
+     "pct": 0.1,
+     "votes": 385
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.16,
+     "votes": 665
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "reported": 288,
+   "precincts": 288,
+   "candidates": [
+    {
+     "name": "James Uthmeier",
+     "party": "REP",
+     "pct": 49.23,
+     "votes": 196598
+    },
+    {
+     "name": "Jose Javier Rodriguez",
+     "party": "DEM",
+     "pct": 50.77,
+     "votes": 202773
+    }
+   ]
+  },
+  {
+   "office": "Chief Financial Officer",
+   "reported": 288,
+   "precincts": 288,
+   "candidates": [
+    {
+     "name": "Blaise Ingoglia",
+     "party": "REP",
+     "pct": 49.06,
+     "votes": 194574
+    },
+    {
+     "name": "Annette Taddeo",
+     "party": "DEM",
+     "pct": 50.94,
+     "votes": 202040
+    }
+   ]
+  },
+  {
+   "office": "Commissioner of Agriculture",
+   "reported": 288,
+   "precincts": 288,
+   "candidates": [
+    {
+     "name": "Wilton Simpson",
+     "party": "REP",
+     "pct": 49.09,
+     "votes": 195568
+    },
+    {
+     "name": "Joey Mendoza Atkins",
+     "party": "DEM",
+     "pct": 50.68,
+     "votes": 201876
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "pct": 0.23,
+     "votes": 913
+    }
+   ]
+  },
+  {
+   "office": "State Senator District 18",
+   "reported": 168,
+   "precincts": 168,
+   "candidates": [
+    {
+     "name": "Nick DiCeglie",
+     "party": "REP",
+     "pct": 50.88,
+     "votes": 108336
+    },
+    {
+     "name": "Karla Kemp",
+     "party": "DEM",
+     "pct": 49.12,
+     "votes": 104578
+    }
+   ]
+  },
+  {
+   "office": "State Senator District 21",
+   "reported": 81,
+   "precincts": 81,
+   "candidates": [
+    {
+     "name": "Chris Nocco",
+     "party": "REP",
+     "pct": 55.95,
+     "votes": 78414
+    },
+    {
+     "name": "Jordan Hensley",
+     "party": "DEM",
+     "pct": 44.05,
+     "votes": 61740
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 57",
+   "reported": 46,
+   "precincts": 46,
+   "candidates": [
+    {
+     "name": "Adam C. Anderson",
+     "party": "REP",
+     "pct": 55.33,
+     "votes": 46960
+    },
+    {
+     "name": "Wendy Hoy",
+     "party": "DEM",
+     "pct": 44.67,
+     "votes": 37905
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 58",
+   "reported": 50,
+   "precincts": 50,
+   "candidates": [
+    {
+     "name": "Kimberly 'Kim' Berfield",
+     "party": "REP",
+     "pct": 53.26,
+     "votes": 38989
+    },
+    {
+     "name": "Bryan Beckman",
+     "party": "DEM",
+     "pct": 46.74,
+     "votes": 34217
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 59",
+   "reported": 52,
+   "precincts": 52,
+   "candidates": [
+    {
+     "name": "Berny Jacques",
+     "party": "REP",
+     "pct": 53.49,
+     "votes": 36062
+    },
+    {
+     "name": "Susan Rochelle Leff",
+     "party": "DEM",
+     "pct": 46.51,
+     "votes": 31355
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 60",
+   "reported": 49,
+   "precincts": 49,
+   "candidates": [
+    {
+     "name": "Melissa Rutland",
+     "party": "REP",
+     "pct": 41.59,
+     "votes": 28571
+    },
+    {
+     "name": "Lindsay Polega-Quigley",
+     "party": "DEM",
+     "pct": 58.41,
+     "votes": 40134
+    }
+   ]
+  },
+  {
+   "office": "State Representative District 61",
+   "reported": 67,
+   "precincts": 67,
+   "candidates": [
+    {
+     "name": "Linda Chaney",
+     "party": "REP",
+     "pct": 51.68,
+     "votes": 39057
+    },
+    {
+     "name": "May Thach",
+     "party": "DEM",
+     "pct": 48.32,
+     "votes": 36516
+    }
+   ]
+  },
+  {
+   "office": "Board of County Commissioners District 2 - At Large",
+   "reported": 288,
+   "precincts": 288,
+   "candidates": [
+    {
+     "name": "Brian Scott",
+     "party": "REP",
+     "pct": 49.48,
+     "votes": 195523
+    },
+    {
+     "name": "Tim Hughes",
+     "party": "DEM",
+     "pct": 50.52,
+     "votes": 199639
+    }
+   ]
+  },
+  {
+   "office": "Board of County Commissioners District 6 - Single Member",
+   "reported": 79,
+   "precincts": 79,
+   "candidates": [
+    {
+     "name": "Kathleen Peters",
+     "party": "REP",
+     "pct": 55.04,
+     "votes": 55643
+    },
+    {
+     "name": "David Glenn Jr.",
+     "party": "DEM",
+     "pct": 44.96,
+     "votes": 45445
+    }
+   ]
+  },
+  {
+   "office": "Retention - Justice Carlos G. Muniz",
+   "reported": 288,
+   "precincts": 288,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 55.96,
+     "votes": 200694
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 44.04,
+     "votes": 157928
+    }
+   ]
+  },
+  {
+   "office": "Retention - Judge Drew Atkinson",
+   "reported": 288,
+   "precincts": 288,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 60.47,
+     "votes": 216231
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 39.53,
+     "votes": 141339
+    }
+   ]
+  },
+  {
+   "office": "Retention - Judge Morris Silberman",
+   "reported": 288,
+   "precincts": 288,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 63.64,
+     "votes": 226714
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 36.36,
+     "votes": 129530
+    }
+   ]
+  },
+  {
+   "office": "Retention - Judge Daniel H. Sleet",
+   "reported": 288,
+   "precincts": 288,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 60.95,
+     "votes": 216243
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 39.05,
+     "votes": 138552
+    }
+   ]
+  },
+  {
+   "office": "Retention - Judge Andrea Teves Smith",
+   "reported": 288,
+   "precincts": 288,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 63.59,
+     "votes": 225273
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 36.41,
+     "votes": 129013
+    }
+   ]
+  },
+  {
+   "office": "School Board Member District 3 - At Large",
+   "reported": 288,
+   "precincts": 288,
+   "candidates": [
+    {
+     "name": "Curtis Campogni",
+     "party": null,
+     "pct": 50.1,
+     "votes": 175434
+    },
+    {
+     "name": "Dawn Peters",
+     "party": null,
+     "pct": 49.9,
+     "votes": 174722
+    }
+   ]
+  },
+  {
+   "office": "City of Belleair Beach Councilmember",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Kent A. Goff",
+     "party": null,
+     "pct": 23.62,
+     "votes": 432
+    },
+    {
+     "name": "Annette Hopper",
+     "party": null,
+     "pct": 24.99,
+     "votes": 457
+    },
+    {
+     "name": "Lloyd A. Roberts",
+     "party": null,
+     "pct": 25.26,
+     "votes": 462
+    },
+    {
+     "name": "Jody Shirley",
+     "party": null,
+     "pct": 26.13,
+     "votes": 478
+    }
+   ]
+  },
+  {
+   "office": "City of Clearwater Councilmember - Seat 5",
+   "reported": 39,
+   "precincts": 39,
+   "candidates": [
+    {
+     "name": "Mark Bunker",
+     "party": null,
+     "pct": 45.46,
+     "votes": 19491
+    },
+    {
+     "name": "Sam Wilson",
+     "party": null,
+     "pct": 54.54,
+     "votes": 23381
+    }
+   ]
+  },
+  {
+   "office": "City of Dunedin Commissioner - Seat 4",
+   "reported": 10,
+   "precincts": 10,
+   "candidates": [
+    {
+     "name": "Nan Bennett",
+     "party": null,
+     "pct": 56.4,
+     "votes": 9476
+    },
+    {
+     "name": "Mark A. Ossian",
+     "party": null,
+     "pct": 43.6,
+     "votes": 7325
+    }
+   ]
+  },
+  {
+   "office": "City of Largo City Commissioner - Seat 2",
+   "reported": 32,
+   "precincts": 32,
+   "candidates": [
+    {
+     "name": "Curtis A. Holmes",
+     "party": null,
+     "pct": 56.98,
+     "votes": 14554
+    },
+    {
+     "name": "Matthew Faustini",
+     "party": null,
+     "pct": 43.02,
+     "votes": 10990
+    }
+   ]
+  },
+  {
+   "office": "City of Seminole Council Member",
+   "reported": 13,
+   "precincts": 13,
+   "candidates": [
+    {
+     "name": "Ray Beliveau",
+     "party": null,
+     "pct": 30.0,
+     "votes": 3414
+    },
+    {
+     "name": "Mike Lurie",
+     "party": null,
+     "pct": 35.48,
+     "votes": 4038
+    },
+    {
+     "name": "Kadi Hendricks Tubbs",
+     "party": null,
+     "pct": 34.52,
+     "votes": 3928
+    }
+   ]
+  },
+  {
+   "office": "City of St. Petersburg Mayor",
+   "reported": 86,
+   "precincts": 86,
+   "candidates": [
+    {
+     "name": "Charlie Crist",
+     "party": null,
+     "pct": 62.0,
+     "votes": 64858
+    },
+    {
+     "name": "Kenneth T. Welch",
+     "party": null,
+     "pct": 38.0,
+     "votes": 39758
+    }
+   ]
+  },
+  {
+   "office": "City of St. Petersburg Council Member - District 2",
+   "reported": 86,
+   "precincts": 86,
+   "candidates": [
+    {
+     "name": "Courtney Bermudez",
+     "party": null,
+     "pct": 46.64,
+     "votes": 42365
+    },
+    {
+     "name": "Gabriel Hament",
+     "party": null,
+     "pct": 53.36,
+     "votes": 48465
+    }
+   ]
+  },
+  {
+   "office": "City of St. Petersburg Council Member - District 6",
+   "reported": 86,
+   "precincts": 86,
+   "candidates": [
+    {
+     "name": "Linsey Grove",
+     "party": null,
+     "pct": 55.27,
+     "votes": 51344
+    },
+    {
+     "name": "Trevor Mallory",
+     "party": null,
+     "pct": 44.73,
+     "votes": 41558
+    }
+   ]
+  },
+  {
+   "office": "East Lake Tarpon Special Fire Control District - Seat 2",
+   "reported": 8,
+   "precincts": 8,
+   "candidates": [
+    {
+     "name": "Jim Downes",
+     "party": null,
+     "pct": 56.26,
+     "votes": 8063
+    },
+    {
+     "name": "Bob Fornwalt",
+     "party": null,
+     "pct": 43.74,
+     "votes": 6268
+    }
+   ]
+  },
+  {
+   "office": "Palm Harbor Fire Control and Rescue District - Seat 2",
+   "reported": 17,
+   "precincts": 17,
+   "candidates": [
+    {
+     "name": "Benjamin Nichols",
+     "party": null,
+     "pct": 43.75,
+     "votes": 11350
+    },
+    {
+     "name": "Julie Peluso",
+     "party": null,
+     "pct": 56.25,
+     "votes": 14594
+    }
+   ]
+  },
+  {
+   "office": "Pinellas Suncoast Fire and Rescue District - Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Elizabeth 'Betsey' McKenna",
+     "party": null,
+     "pct": 48.57,
+     "votes": 748
+    },
+    {
+     "name": "Daniel Mynsberge",
+     "party": null,
+     "pct": 51.43,
+     "votes": 792
+    }
+   ]
+  },
+  {
+   "office": "Eastlake Oaks Community Development District - Seat 2",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Joshua Main",
+     "party": null,
+     "pct": 66.67,
+     "votes": 236
+    },
+    {
+     "name": "J.R. 'Nick' Yagnik",
+     "party": null,
+     "pct": 33.33,
+     "votes": 118
+    }
+   ]
+  },
+  {
+   "office": "No. 1 Constitutional Amendment",
+   "reported": 288,
+   "precincts": 288,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 41.42,
+     "votes": 151732
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 58.58,
+     "votes": 214614
+    }
+   ]
+  },
+  {
+   "office": "No. 2 Constitutional Amendment",
+   "reported": 288,
+   "precincts": 288,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 57.72,
+     "votes": 212800
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 42.28,
+     "votes": 155875
+    }
+   ]
+  },
+  {
+   "office": "No. 3 Constitutional Amendment",
+   "reported": 288,
+   "precincts": 288,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 56.76,
+     "votes": 214280
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 43.24,
+     "votes": 163220
+    }
+   ]
+  },
+  {
+   "office": "Town of Belleair No. 1 Charter Amendment",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 74.94,
+     "votes": 1749
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 25.06,
+     "votes": 585
+    }
+   ]
+  },
+  {
+   "office": "Town of Belleair No. 2 Charter Amendment",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 89.64,
+     "votes": 2094
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 10.36,
+     "votes": 242
+    }
+   ]
+  },
+  {
+   "office": "City of Largo Referendum Question",
+   "reported": 32,
+   "precincts": 32,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 66.63,
+     "votes": 16668
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 33.37,
+     "votes": 8348
+    }
+   ]
+  },
+  {
+   "office": "City of Madeira Beach No. 1 Charter Amendment",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 87.46,
+     "votes": 1346
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 12.54,
+     "votes": 193
+    }
+   ]
+  },
+  {
+   "office": "City of Madeira Beach No. 2 Charter Amendment",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 86.1,
+     "votes": 1313
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 13.9,
+     "votes": 212
+    }
+   ]
+  },
+  {
+   "office": "City of Madeira Beach No. 3 Charter Amendment",
+   "reported": 2,
+   "precincts": 2,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 78.16,
+     "votes": 1195
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 21.84,
+     "votes": 334
+    }
+   ]
+  },
+  {
+   "office": "Town of Redington Shores No. 1 Referendum Question",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 45.89,
+     "votes": 508
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 54.11,
+     "votes": 599
+    }
+   ]
+  },
+  {
+   "office": "Town of Redington Shores No. 2 Referendum Question",
+   "reported": 1,
+   "precincts": 1,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 61.5,
+     "votes": 682
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 38.5,
+     "votes": 427
+    }
+   ]
+  },
+  {
+   "office": "City of St. Petersburg No. 1 Referendum Question",
+   "reported": 86,
+   "precincts": 86,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 73.94,
+     "votes": 74234
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 26.06,
+     "votes": 26162
+    }
+   ]
+  },
+  {
+   "office": "City of St. Petersburg No. 1 Charter Amendment",
+   "reported": 86,
+   "precincts": 86,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 53.02,
+     "votes": 54388
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 46.98,
+     "votes": 48183
+    }
+   ]
+  },
+  {
+   "office": "City of St. Petersburg No. 2 Referendum Question",
+   "reported": 86,
+   "precincts": 86,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 75.14,
+     "votes": 75297
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 24.86,
+     "votes": 24909
+    }
+   ]
+  },
+  {
+   "office": "City of St. Petersburg No. 2 Charter Amendment",
+   "reported": 86,
+   "precincts": 86,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 64.29,
+     "votes": 64888
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 35.71,
+     "votes": 36047
+    }
+   ]
+  },
+  {
+   "office": "City of St. Petersburg No. 3 Charter Amendment",
+   "reported": 86,
+   "precincts": 86,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 78.39,
+     "votes": 78744
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 21.61,
+     "votes": 21703
+    }
+   ]
+  },
+  {
+   "office": "City of Treasure Island Referendum Question",
+   "reported": 4,
+   "precincts": 4,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "pct": 74.01,
+     "votes": 2269
+    },
+    {
+     "name": "No",
+     "party": null,
+     "pct": 25.99,
+     "votes": 797
+    }
+   ]
+  }
+ ]
+}

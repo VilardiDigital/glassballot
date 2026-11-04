@@ -92,6 +92,7 @@ def _key(office: str):
     """(kind, district) for a county commission or school board seat; None for anything else.
     Strict on purpose: a city council or a school tax question must never land on a county race."""
     o = re.sub(r"\s+", " ", office).strip()
+    o = re.sub(r"\s*-\s*(single member|at large|at-large|countywide)\s*$", "", o, flags=re.I)  # "District 6 - Single Member" is a seat, not a question
     if NOT_LOCAL.search(o):
         return None
     if re.search(r"\b(board of county commissioners|county commissioner|county commission|county council)\b", o, re.I):
@@ -156,6 +157,8 @@ def merge(seed: dict, county: str) -> dict:
         dist = (re.search(r"-d(\d+)$", rid) or [None, None])[1]
         r = by.get((kind, str(int(dist)) if dist else None))
         if not r or not r["candidates"]:
+            if race.get("onNovBallot") is not False and d.get("all"):
+                race["notInResults"] = {"url": d["url"], "source": "enr-2026g"}  # the county's Nov 3 results don't list this seat
             continue
         total = sum(c["votes"] for c in r["candidates"])
         if not total:

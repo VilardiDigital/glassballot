@@ -21,6 +21,9 @@ class Results(unittest.TestCase):
         self.assertEqual(_key("County Commissioner, District 3"), ("bcc", "3"))
         self.assertEqual(_key("School Board, District 4"), ("sb", "4"))
         self.assertIsNone(_key("Clerk of Circuit Court"))
+        self.assertEqual(_key("Board of County Commissioners District 6 - Single Member"), ("bcc", "6"))
+        self.assertEqual(_key("Board of County Commissioners District 2 - At Large"), ("bcc", "2"))
+        self.assertIsNone(_key("Referendum on single member county commission districts"))
 
 
 
