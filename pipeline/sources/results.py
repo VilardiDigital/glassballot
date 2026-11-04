@@ -106,6 +106,29 @@ def _last(n: str) -> str:
     return w[-1].lower() if w else ""
 
 
+GROUPS = [
+    ("statewide", "Statewide", r"^(united states senator|governor|attorney general|chief financial officer|commissioner of agriculture)\b"),
+    ("amendment", "Statewide amendments", r"constitutional amendment|^no\.? ?\d+ constitutional|^amendment"),
+    ("congress", "U.S. House", r"representative in congress"),
+    ("legislature", "State Legislature", r"state senator|state representative"),
+    ("courts", "Judges and court retention", r"justice|judge|court of appeal|circuit|county court|retain"),
+    ("county", "County offices", r"county commission|board of county|county council|sheriff|clerk|property appraiser|tax collector|supervisor of elections|county mayor"),
+    ("schools", "School board", r"school board|superintendent"),
+    ("measure", "Local ballot questions", r"referendum|question|millage|charter|ordinance|bond|straw|ad valorem|sales tax|surtax|exemption|shall"),
+    ("district", "Special districts", r"\bcdd\b|community development|mosquito|fire (control|rescue|district)|hospital|drainage|water control|improvement district|port authority|soil and water|library district|recreation district"),
+    ("city", "City and town", r"city|town|village|mayor|council|commissioner|alderman"),
+    ("district", "Special districts", r"cdd|district|fire|hospital|drainage|water|seat|supervisor|trustee"),
+]
+
+
+def group_of(office: str) -> str:
+    o = office.lower()
+    for k, _, rx in GROUPS:
+        if re.search(rx, o):
+            return k
+    return "other"
+
+
 def merge(seed: dict, county: str) -> dict:
     """Attach results to the county's races when we have them."""
     f = ROOT / "data" / "results" / f"{county}.json"
@@ -119,6 +142,10 @@ def merge(seed: dict, county: str) -> dict:
         k = _key(r["office"])
         if k:
             by.setdefault(k, r)
+    seed["county"]["ballotResults"] = {"status": d["status"], "updated": d.get("updated") or d["pulledAt"], "url": d["url"],
+        "races": [{"office": r["office"], "group": group_of(r["office"]), "reported": r["reported"], "precincts": r["precincts"],
+                   "total": sum(c["votes"] for c in r["candidates"]), "candidates": sorted(r["candidates"], key=lambda c: -c["votes"])}
+                  for r in d.get("all", []) if r["candidates"]]}
     people = {p["id"]: p for p in seed["people"]}
     for race in seed["races"]:
         rid = race["id"]
@@ -155,7 +182,8 @@ def pull(county: str, code: str, eid: int, vendor: str = "vr", base: str | None 
     out = ROOT / "data" / "results"
     out.mkdir(exist_ok=True)
     (out / f"{county}.json").write_text(json.dumps({"county": county, "url": url, "pulledAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-                                                    "status": res["status"], "updated": res["updated"], "races": keep}, indent=1, ensure_ascii=False))
+                                                    "status": res["status"], "updated": res["updated"], "races": keep,
+                                                    "all": [r for r in res["races"] if r["candidates"]]}, indent=1, ensure_ascii=False))
     votes = sum(c["votes"] for r in keep for c in r["candidates"])
     return f"{county}: {len(keep)} local races, {votes:,} votes counted ({res['status']})"
 

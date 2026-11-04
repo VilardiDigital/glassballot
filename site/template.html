@@ -666,6 +666,7 @@ views.ballot = () => {
       `<div class="row noprint"><a class="btn primary" href="${href("vote")}">When and where to vote</a>${nPicked ? `<a class="btn" href="${href("mylist")}">My list (${nPicked} of ${live.length})</a>` : ""}</div>`)}
 
     ${swBanner()}
+    ${daysLeft() <= 0 ? allBallotBlock() : ""}
     ${C.county.auto ? autoNotice() : ""}
 
     ${dists.length ? `<section class="panel stack" aria-labelledby="dq">
@@ -784,6 +785,8 @@ views.florida = () => {
     <section class="stack" aria-labelledby="swH"><h2 class="h2" id="swH">Statewide offices</h2>
       ${SW.races.map(r => `<a class="race" href="/florida/${esc(r.id)}"><div class="rh"><h3 class="h3" style="font-size:19px">${esc(r.office)}</h3><span class="small muted">Every Florida voter</span></div><div style="padding:12px 16px 0">${swRaceCard(r, false)}</div><span class="go">See the candidates and who's in office now</span></a>`).join("")}
     </section>
+    ${(SW.districts || []).length ? `<section class="stack" aria-labelledby="dH"><h2 class="h2" id="dH">Congress, Legislature and judges</h2><p class="small muted">Full district totals, added up across every county in the district, from the state's results file. Tap a race to see the count. Your county's page shows which of these are on your ballot.</p>
+      ${districtsBlock(["us-house"], "U.S. House")}${districtsBlock(["state-senate"], "State Senate")}${districtsBlock(["state-house"], "State House")}${districtsBlock(["dca"], "District Court of Appeal retention")}${districtsBlock(["circuit"], "Circuit judges")}</section>` : ""}
     ${SW.retention.length ? `<section class="panel stack-sm" aria-labelledby="rtH"><h2 class="h3" id="rtH">Florida Supreme Court retention</h2><p class="small muted">Voters decide whether each justice stays on the court for another six-year term. A justice stays if more than half vote yes.</p>
       <ul class="plain stack">${SW.retention.map(q => `<li class="stack-sm small"><div class="between"><b>${esc(q.question)}</b><span class="num">Yes ${q.yesPct.toFixed(1)}% · No ${q.noPct.toFixed(1)}%</span></div>${q.plain ? `<p>${esc(q.plain)}</p>` : ""}</li>`).join("")}</ul></section>` : ""}
     <p class="small"><a href="/">‹ Back to your county ballot</a></p>
@@ -805,6 +808,37 @@ views.florida_race = id => {
     <section class="stack" aria-labelledby="cH"><h2 class="h2" id="cH">${decided ? "Also ran in 2026" : "Candidates"}</h2>${decided ? `<p class="small muted">Kept here so you can see the full 2026 race.</p>` : ""}${rest.map(c => swCandidate(c, r)).join("")}</section>
   </div>`;
 };
+// Simple result bars for any race we only have a count for (no profiles yet).
+function plainResult(r, where) {
+  const cs = r.candidates || [], top = cs[0];
+  const yesno = cs.length === 2 && cs.every(c => /^(yes|no)\b/i.test(c.name) || /for approval|for rejection/i.test(c.name));
+  const done = r.precincts && r.reported >= r.precincts;
+  const called = r.call && r.winner;
+  const head = called ? `Projected winner: ${esc(r.winner)}` : !r.total ? "Waiting for the first results" : cs.length === 1 ? `${esc(top.name)} (only candidate on the ballot)` : yesno ? `${esc(top.name)} leads${done ? " with every precinct reported" : ""}` : `${esc(top.name)} leads${done ? " with every precinct reported" : ""}`;
+  return `<details class="panel stack-sm small"><summary class="between" style="gap:8px;cursor:pointer"><span><b>${esc(r.office)}</b><br><span class="tiny muted">${head}</span></span><span class="tiny muted">${r.precincts ? `${r.reported}/${r.precincts} precincts` : ""}</span></summary>
+    <ul class="plain rlist" style="margin-top:8px">${cs.map(c => `<li><span class="rn">${esc(c.name)}${c.party ? ` <span class="tiny muted">(${esc(c.party)})</span>` : ""}</span><span class="rb"><span style="width:${Math.max(1, c.pct || 0)}%"></span></span><b class="num">${(c.pct || 0).toFixed(1)}%</b><span class="num muted small">${(c.votes || 0).toLocaleString()}</span></li>`).join("")}</ul>
+    ${where ? `<p class="tiny muted">${where}</p>` : ""}
+    ${called ? `<p class="tiny muted">Projected by ${r.call.url ? `<a href="${esc(r.call.url)}" target="_blank" rel="noopener">${esc(r.call.by)}</a>` : esc(r.call.by)}.</p>` : `<p class="tiny muted">Unofficial. We don't call races.</p>`}
+  </details>`;
+}
+const BALLOT_GROUPS = [["statewide","Statewide offices"],["amendment","Statewide amendments"],["congress","U.S. House"],["legislature","State Legislature"],["county","County offices"],["schools","School board"],["city","City and town"],["measure","Local ballot questions"],["district","Special districts"],["courts","Judges and court retention"],["other","Other"]];
+function allBallotBlock() {
+  const b = C.county.ballotResults; if (!b || !b.races.length) return "";
+  const groups = BALLOT_GROUPS.map(([k, t]) => [k, t, b.races.filter(r => r.group === k)]).filter(g => g[2].length);
+  const where = `${esc(C.county.name)} votes only. From the ${esc(C.county.name)} Supervisor of Elections.`;
+  return `<section class="stack" aria-labelledby="allH">
+    <h2 class="h2" id="allH">Every race on the ${esc(cname(CK))} County ballot</h2>
+    <p class="small muted">Tonight's unofficial count for all ${b.races.length} races and questions here, from the county's own results page${b.updated ? `, updated ${esc(String(b.updated))}` : ""}. Races that cross county lines show only ${esc(cname(CK))} County's votes; <a href="/florida">statewide and district totals are here</a>. <a href="${esc(b.url)}" target="_blank" rel="noopener">See the county's results page</a>.</p>
+    ${groups.map(([k, t, rs]) => `<div class="stack-sm"><h3 class="h3">${esc(t)} <span class="tiny muted">(${rs.length})</span></h3>${rs.map(r => plainResult(r, where)).join("")}</div>`).join("")}
+  </section>`;
+}
+function districtsBlock(kinds, title, cid) {
+  const ds = (SW && SW.districts || []).filter(r => kinds.includes(r.kind) && (!cid || r.counties.includes(cid)));
+  if (!ds.length) return "";
+  const nm = k => (COUNTIES[k] ? cname(k) : k);
+  return `<div class="stack-sm"><h3 class="h3">${esc(title)} <span class="tiny muted">(${ds.length})</span></h3>${ds.map(r => plainResult(r, `District total across ${r.counties.length === 1 ? "1 county" : r.counties.length + " counties"}: ${r.counties.map(nm).join(", ")}. From the Florida Department of State.`)).join("")}</div>`;
+}
+
 // A link to the statewide page from the start page and each county ballot.
 const swBanner = () => SW && (SW.races.length || SW.measures.length) && daysLeft() <= 0 ? `<a class="notice noprint" href="/florida" style="text-decoration:none;color:inherit"><span><b>Statewide results: Governor, Cabinet, U.S. Senate and ${SW.measures.length} amendment${SW.measures.length === 1 ? "" : "s"}.</b> What each amendment means in plain English, and how every statewide race stands. ›</span></a>` : "";
 

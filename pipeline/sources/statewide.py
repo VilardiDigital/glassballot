@@ -149,6 +149,65 @@ def pull() -> str:
     return f"statewide: {len(res['races'])} races, {len(res['measures'])} amendments, {rep.get('complete', '?')}/{rep.get('counties', '?')} counties fully reported" + ("; " + "; ".join(errs) if errs else "")
 
 
+DISTRICT_KINDS = {"USR": ("us-house", "U.S. House"), "STS": ("state-senate", "State Senate"), "STR": ("state-house", "State House"),
+                  "DCA": ("dca", "District Court of Appeal retention"), "CTJ": ("circuit", "Circuit Judge")}
+
+
+def county_id(name: str) -> str:
+    return re.sub(r"[^a-z]", "", name.lower())
+
+
+def parse_districts(txt: str) -> dict:
+    """Congressional, legislative and judicial races from the state's tab-delimited results file.
+    One row per candidate per county; we add the counties up and keep which counties each race covers."""
+    rows = [l.split("\t") for l in txt.splitlines()]
+    if not rows or rows[0][:2] != ["ElectionDate", "PartyCode"]:
+        return {}
+    h = {k: i for i, k in enumerate(rows[0])}
+    races = {}
+    for r in rows[1:]:
+        if len(r) < len(h) or r[h["RaceCode"]] not in DISTRICT_KINDS:
+            continue
+        kind, label = DISTRICT_KINDS[r[h["RaceCode"]]]
+        office = r[h["RaceName"]].strip()
+        key = f"{kind}-{re.sub(r'[^a-z0-9]+', '-', office.lower()).strip('-')}"
+        race = races.setdefault(key, {"id": key, "kind": kind, "kindLabel": label, "office": office, "counties": {}, "cands": {}})
+        cty = county_id(r[h["CountyName"]])
+        prec, rep = int(_num(r[h["Precincts"]])), int(_num(r[h["PrecinctsReporting"]]))
+        race["counties"][cty] = (prec, rep)
+        nm = " ".join(x for x in (r[h["CanNameFirst"]].strip(), r[h["CanNameMiddle"]].strip(), r[h["CanNameLast"]].strip()) if x)
+        party = r[h["PartyCode"]].strip() or None
+        c = race["cands"].setdefault(nm + "|" + (party or ""), {"name": nm, "party": None if party in ("NOP", "NON") else party, "votes": 0})
+        c["votes"] += int(_num(r[h["CanVotes"]]))
+    out = {}
+    for k, race in races.items():
+        cands = sorted(race.pop("cands").values(), key=lambda c: -c["votes"])
+        total = sum(c["votes"] for c in cands)
+        for c in cands:
+            c["pct"] = round(100 * c["votes"] / total, 2) if total else 0.0
+        prec = sum(p for p, _ in race["counties"].values())
+        rep = sum(r_ for _, r_ in race["counties"].values())
+        race.update({"candidates": cands, "total": total, "precincts": prec, "reported": rep, "counties": sorted(race["counties"])})
+        out[k] = race
+    return out
+
+
+def pull_districts() -> str:
+    """The Downloads page links the current file with a cache-busting ?v= number; without it the file can be stale."""
+    from ..refresh import get
+    page = get(f"{BASE}/Downloads", as_json=False)
+    m = re.search(r'href="(https://flelectionfiles\.floridados\.gov/enightfilespublic/\d+_ElecResultsFL\.txt\?v=\d+)"', page)
+    if not m:
+        return "districts: no results file link found"
+    d = parse_districts(get(html.unescape(m.group(1)), as_json=False))
+    if not d:
+        return "districts: file didn't parse, keeping last good file"
+    out = ROOT / "data" / "results"
+    (out / "districts.json").write_text(json.dumps({"pulledAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "url": m.group(1).split("?")[0],
+                                                     "races": d}, ensure_ascii=False, separators=(",", ":")))
+    return f"districts: {len(d)} races, {sum(1 for r in d.values() if r['total'])} with votes"
+
+
 def _last(n: str) -> str:
     w = re.sub(r'"[^"]*"|\b(Jr|Sr|II|III|IV)\b\.?', " ", n).replace(",", " ").split()
     return w[-1].lower() if w else ""
@@ -235,7 +294,22 @@ def merge() -> dict | None:
         m = next((m for m in rq if _last(m.get("title", "")).rstrip("?") in q["question"].lower() or any(w in q["question"] for w in (m.get("title") or "").split() if len(w) > 4 and w[0].isupper())), None)
         if m:
             q.update({k: m.get(k) for k in ("plain", "yesMeans", "noMeans") if m.get(k)})
-    return {"election": "2026-11-03", "updated": live.get("pulledAt"), "status": status,
+    dp = ROOT / "data" / "results" / "districts.json"
+    dist = json.loads(dp.read_text()) if dp.exists() else {}
+    if dist:
+        sources["fewatch-2026g-file"] = {"title": "Florida 2026 General Election results file (unofficial)", "url": dist.get("url", BASE),
+                                         "publisher": "Florida Department of State, Division of Elections", "tier": 1, "accessed": dist.get("pulledAt", "")[:10]}
+    districts = []
+    for r in dist.get("races", {}).values():
+        call = calls.get(r["id"])
+        allin = bool(r["precincts"]) and r["reported"] >= r["precincts"]
+        districts.append({**r, "status": "called" if call else ("allin" if allin else "counting"),
+                          "leader": r["candidates"][0]["name"] if r["total"] else None,
+                          "winner": call.get("winner") if call else None, "call": call,
+                          "unopposedLooking": len([c for c in r["candidates"] if c["name"].lower() != "write-in"]) == 1})
+    order = {"us-house": 0, "state-senate": 1, "state-house": 2, "dca": 3, "circuit": 4}
+    districts.sort(key=lambda r: (order.get(r["kind"], 9), int((re.search(r"\d+", r["office"]) or [0])[0]) if r["kind"] in ("us-house", "state-senate", "state-house") else 0, r["office"]))
+    return {"election": "2026-11-03", "updated": live.get("pulledAt"), "status": status, "districts": districts, "districtsUpdated": dist.get("pulledAt"),
             "reporting": {"counties": rep.get("counties"), "complete": rep.get("complete")},
             "races": races, "measures": measures, "retention": retention, "sources": sources}
 
@@ -253,6 +327,10 @@ def main(argv):
         print(json.dumps(build(pages), indent=1, ensure_ascii=False)[:6000])
         return
     print(pull())
+    try:
+        print(pull_districts())
+    except Exception as e:
+        print("districts: pull failed:", e)
 
 
 if __name__ == "__main__":
