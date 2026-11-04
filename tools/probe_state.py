@@ -15,7 +15,9 @@ BASE = "https://floridaelectionwatch.gov"
 UA = {"User-Agent": "GlassBallot/1.0 (+https://glassballot.org; nonpartisan voter guide)"}
 PAGES = ["Home", "Downloads", "Amendments", "StateOffices", "StateOffices/Governor", "StateOffices/AttorneyGeneral",
          "StateOffices/ChiefFinancialOfficer", "StateOffices/CommissionerOfAgriculture", "FederalOffices/USSenator",
-         "CountyReportingStatus"]
+         "CountyReportingStatus",
+         "https://enr.electionsfl.org/HIL/4074/Summary/", "https://enr.electionsfl.org/PAS/4085/Summary/",
+         "https://flelectionfiles.floridados.gov/enightfilespublic/20261103_ElecResultsFL.txt"]
 
 
 def get(url):
@@ -29,8 +31,8 @@ def main():
     seen = set()
     for p in PAGES:
         try:
-            body, ct = get(f"{BASE}/{p}")
-            (OUT / (p.replace("/", "_") + ".html")).write_text(body)
+            body, ct = get(p if p.startswith("http") else f"{BASE}/{p}")
+            (OUT / (re.sub(r"[^A-Za-z0-9]+", "_", p.split("//")[-1])[:90] + ".html")).write_text(body)
             log[p] = {"bytes": len(body), "type": ct}
             # Note any script or data endpoints the page loads, and fetch them once.
             for u in set(re.findall(r'["\'](/[^"\']*(?:api|json|Json|Get|Data|Download)[^"\']*)["\']', body)):
