@@ -380249,10 +380249,15 @@
     "candidatesSource": "dos_canlist",
     "total": 8135476,
     "url": "https://floridaelectionwatch.gov/StateOffices/ChiefFinancialOfficer",
-    "status": "counting",
+    "status": "called",
     "leader": "cfo-ingoglia",
-    "winner": null,
-    "call": null
+    "winner": "cfo-ingoglia",
+    "call": {
+     "winner": "Blaise Ingoglia",
+     "kind": "called",
+     "by": "The Associated Press (reported by WINK News)",
+     "url": "https://www.winknews.com/elections/blaise-ingoglia-wins-floridas-chief-financial-officer-race/article_87d6b939-9599-4410-b36a-8176e3497053.html"
+    }
    },
    {
     "id": "agr",
@@ -380348,10 +380353,15 @@
     "candidatesSource": "dos_canlist",
     "total": 8131158,
     "url": "https://floridaelectionwatch.gov/StateOffices/CommissionerOfAgriculture",
-    "status": "counting",
+    "status": "called",
     "leader": "agri-simpson",
-    "winner": null,
-    "call": null
+    "winner": "agri-simpson",
+    "call": {
+     "winner": "Wilton Simpson",
+     "kind": "called",
+     "by": "The Associated Press (reported by CBS12)",
+     "url": "https://cbs12.com/news/election/republican-wilton-simpson-reelected-florida-agriculture-commissioner-race-reaches-beyond-farms-joey-mendoza-atkins-democrat"
+    }
    },
    {
     "id": "uss",
@@ -380594,9 +380604,14 @@
     "noPct": 38.0,
     "total": 7920336,
     "url": "https://floridaelectionwatch.gov/Amendments",
-    "status": "counting",
-    "outcome": null,
-    "call": null
+    "status": "called",
+    "outcome": "passed",
+    "call": {
+     "outcome": "passed",
+     "kind": "called",
+     "by": "The Associated Press (reported by WUSF)",
+     "url": "https://www.wusf.org/politics-issues/2026-11-03/florida-2026-election-results-voters-approve-amendment-3-property-tax-reduction"
+    }
    }
   ],
   "retention": [
