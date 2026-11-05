@@ -8,13 +8,13 @@
     {
      "name": "Byron Donalds and Bryan Avila",
      "party": "REP",
-     "votes": 4132275,
+     "votes": 4132334,
      "pct": 50.02
     },
     {
      "name": "David Jolly and Gwen Graham",
      "party": "DEM",
-     "votes": 4024554,
+     "votes": 4024639,
      "pct": 48.71
     },
     {
@@ -26,7 +26,7 @@
     {
      "name": "Charles Burkett and Ruben A. Coto",
      "party": "NPA",
-     "votes": 15238,
+     "votes": 15239,
      "pct": 0.18
     },
     {
@@ -50,7 +50,7 @@
     {
      "name": "Jeffrey Peter \"Dr. Jeff\" Datto and Juan Santana",
      "party": "NPA",
-     "votes": 8311,
+     "votes": 8312,
      "pct": 0.1
     },
     {
@@ -66,7 +66,7 @@
      "pct": 0.0
     }
    ],
-   "total": 8261594,
+   "total": 8261740,
    "threshold": null,
    "url": "https://floridaelectionwatch.gov/StateOffices/Governor"
   },
@@ -77,17 +77,17 @@
     {
      "name": "James Uthmeier",
      "party": "REP",
-     "votes": 4177844,
+     "votes": 4177901,
      "pct": 50.93
     },
     {
      "name": "Jose Javier Rodriguez",
      "party": "DEM",
-     "votes": 4024475,
+     "votes": 4024563,
      "pct": 49.07
     }
    ],
-   "total": 8202319,
+   "total": 8202464,
    "threshold": null,
    "url": "https://floridaelectionwatch.gov/StateOffices/AttorneyGeneral"
   },
@@ -98,17 +98,17 @@
     {
      "name": "Blaise Ingoglia",
      "party": "REP",
-     "votes": 4151524,
+     "votes": 4151579,
      "pct": 50.94
     },
     {
      "name": "Annette Taddeo",
      "party": "DEM",
-     "votes": 3997844,
+     "votes": 3997932,
      "pct": 49.06
     }
    ],
-   "total": 8149368,
+   "total": 8149511,
    "threshold": null,
    "url": "https://floridaelectionwatch.gov/StateOffices/ChiefFinancialOfficer"
   },
@@ -119,13 +119,13 @@
     {
      "name": "Wilton Simpson",
      "party": "REP",
-     "votes": 4160518,
+     "votes": 4160577,
      "pct": 51.08
     },
     {
      "name": "Joey Mendoza Atkins",
      "party": "DEM",
-     "votes": 3984537,
+     "votes": 3984621,
      "pct": 48.92
     },
     {
@@ -135,7 +135,7 @@
      "pct": 0.0
     }
    ],
-   "total": 8145055,
+   "total": 8145198,
    "threshold": null,
    "url": "https://floridaelectionwatch.gov/StateOffices/CommissionerOfAgriculture"
   },
@@ -146,23 +146,23 @@
     {
      "name": "Ashley Moody",
      "party": "REP",
-     "votes": 4207947,
+     "votes": 4208004,
      "pct": 50.87
     },
     {
      "name": "Angie Nixon",
      "party": "DEM",
-     "votes": 3969186,
+     "votes": 3969271,
      "pct": 47.99
     },
     {
      "name": "Neil J. Gillespie",
      "party": "NPA",
-     "votes": 94534,
+     "votes": 94538,
      "pct": 1.14
     }
    ],
-   "total": 8271667,
+   "total": 8271813,
    "threshold": null,
    "url": "https://floridaelectionwatch.gov/FederalOffices/USSenator"
   }
@@ -175,17 +175,17 @@
     {
      "name": "Yes for Approval",
      "party": null,
-     "votes": 3170495,
+     "votes": 3170557,
      "pct": 40.9
     },
     {
      "name": "No for Rejection",
      "party": null,
-     "votes": 4580908,
+     "votes": 4580981,
      "pct": 59.1
     }
    ],
-   "total": 7751403,
+   "total": 7751538,
    "threshold": 60,
    "url": "https://floridaelectionwatch.gov/Amendments"
   },
@@ -196,17 +196,17 @@
     {
      "name": "Yes for Approval",
      "party": null,
-     "votes": 4542816,
+     "votes": 4542890,
      "pct": 58.21
     },
     {
      "name": "No for Rejection",
      "party": null,
-     "votes": 3260736,
+     "votes": 3260799,
      "pct": 41.79
     }
    ],
-   "total": 7803552,
+   "total": 7803689,
    "threshold": 60,
    "url": "https://floridaelectionwatch.gov/Amendments"
   },
@@ -217,17 +217,17 @@
     {
      "name": "Yes for Approval",
      "party": null,
-     "votes": 4917715,
+     "votes": 4917796,
      "pct": 61.98
     },
     {
      "name": "No for Rejection",
      "party": null,
-     "votes": 3016136,
+     "votes": 3016195,
      "pct": 38.02
     }
    ],
-   "total": 7933851,
+   "total": 7933991,
    "threshold": 60,
    "url": "https://floridaelectionwatch.gov/Amendments"
   }
@@ -240,17 +240,17 @@
     {
      "name": "Yes",
      "party": null,
-     "votes": 4296674,
+     "votes": 4296744,
      "pct": 57.69
     },
     {
      "name": "No",
      "party": null,
-     "votes": 3150878,
+     "votes": 3150945,
      "pct": 42.31
     }
    ],
-   "total": 7447552,
+   "total": 7447689,
    "threshold": null,
    "url": "https://floridaelectionwatch.gov/JudicialOffices/SupremeCourt"
   }
@@ -328,5 +328,5 @@
    "Washington": 100.0
   }
  },
- "pulledAt": "2026-11-04T17:16:02Z"
+ "pulledAt": "2026-11-05T03:43:53Z"
 }
