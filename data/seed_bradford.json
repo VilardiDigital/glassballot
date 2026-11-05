@@ -18,28 +18,28 @@
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=bradford&el=23",
    "publisher": "Bradford County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-04"
+   "accessed": "2026-11-05"
   },
   "soe-vf-2024": {
    "title": "Bradford County Supervisor of Elections: 2024 candidates",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=bradford&el=20",
    "publisher": "Bradford County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-04"
+   "accessed": "2026-11-05"
   },
   "soe-vf-2022": {
    "title": "Bradford County Supervisor of Elections: 2022 candidates",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=bradford&el=18",
    "publisher": "Bradford County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-04"
+   "accessed": "2026-11-05"
   },
   "soe-cf-bradford": {
    "title": "Bradford Supervisor of Elections campaign finance reports, 2026 cycle",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=bradford&el=23",
    "publisher": "Bradford County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-04"
+   "accessed": "2026-11-05"
   }
  },
  "people": [
@@ -147,7 +147,7 @@
     ],
     "raised": [
      {
-      "value": "$4,720 in contributions, plus $2,178.43 in-kind (as of Nov 4, 2026)",
+      "value": "$4,720 in contributions, plus $2,178.43 in-kind (as of Nov 5, 2026)",
       "source": "soe-cf-bradford"
      }
     ]
@@ -158,7 +158,67 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "332",
-    "status": "Active- Advanced"
+    "status": "Active- Elected"
+   }
+  },
+  {
+   "id": "clemons",
+   "name": "Jeff Clemons",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-bradford"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$5,200 in contributions (as of Nov 5, 2026)",
+      "source": "soe-cf-bradford"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "335",
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "smith",
+   "name": "Jimmy Smith",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-bradford"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$2,050 in contributions (as of Nov 5, 2026)",
+      "source": "soe-cf-bradford"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "336",
+    "status": "Active- Defeated"
    }
   },
   {
@@ -177,7 +237,7 @@
     ],
     "raised": [
      {
-      "value": "$3,082.91 in contributions, plus $58.99 in-kind (as of Nov 4, 2026)",
+      "value": "$3,082.91 in contributions, plus $58.99 in-kind (as of Nov 5, 2026)",
       "source": "soe-cf-bradford"
      }
     ]
@@ -188,7 +248,37 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "342",
-    "status": "Active- Advanced"
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "thomas",
+   "name": "Brad Thomas",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-bradford"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$3,226 in contributions (as of Nov 5, 2026)",
+      "source": "soe-cf-bradford"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "330",
+    "status": "Active- Defeated"
    }
   },
   {
@@ -207,7 +297,7 @@
     ],
     "raised": [
      {
-      "value": "$4,151 in contributions, plus $625.99 in-kind (as of Nov 4, 2026)",
+      "value": "$4,151 in contributions, plus $625.99 in-kind (as of Nov 5, 2026)",
       "source": "soe-cf-bradford"
      }
     ]
@@ -237,7 +327,7 @@
     ],
     "raised": [
      {
-      "value": "$1,141 in contributions (as of Nov 4, 2026)",
+      "value": "$1,141 in contributions (as of Nov 5, 2026)",
       "source": "soe-cf-bradford"
      }
     ]
@@ -257,7 +347,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$20 in contributions (as of Nov 4, 2026)",
+      "value": "$20 in contributions (as of Nov 5, 2026)",
       "source": "soe-cf-bradford"
      }
     ]
@@ -278,7 +368,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$101.10 in contributions (as of Nov 4, 2026)",
+      "value": "$101.10 in contributions (as of Nov 5, 2026)",
       "source": "soe-cf-bradford"
      }
     ]
@@ -299,7 +389,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$1,615 in contributions (as of Nov 4, 2026)",
+      "value": "$1,615 in contributions (as of Nov 5, 2026)",
       "source": "soe-cf-bradford"
      }
     ]
@@ -323,12 +413,16 @@
    "office": "County Commissioner District 2",
    "people": [
     "bennett",
-    "talleda"
+    "clemons",
+    "smith",
+    "talleda",
+    "thomas"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Jason Bennett (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
