@@ -1,7 +1,7 @@
 {
  "county": "hernando",
  "url": "https://enr.electionsfl.org/HER/4106/Summary/",
- "pulledAt": "2026-11-06T16:47:28Z",
+ "pulledAt": "2026-11-06T20:04:55Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -14,13 +14,13 @@
      "name": "Jeff Holcomb",
      "party": "REP",
      "pct": 88.2,
-     "votes": 58118
+     "votes": 58156
     },
     {
      "name": "Write-in",
      "party": null,
      "pct": 11.8,
-     "votes": 7775
+     "votes": 7780
     }
    ]
   },
@@ -32,14 +32,14 @@
     {
      "name": "Kara Champion",
      "party": null,
-     "pct": 54.1,
-     "votes": 39543
+     "pct": 54.11,
+     "votes": 39568
     },
     {
      "name": "Susan Duval",
      "party": null,
-     "pct": 45.9,
-     "votes": 33544
+     "pct": 45.89,
+     "votes": 33563
     }
    ]
   }
@@ -54,13 +54,13 @@
      "name": "Ashley Moody",
      "party": "REP",
      "pct": 63.94,
-     "votes": 51265
+     "votes": 51295
     },
     {
      "name": "Angie Nixon",
      "party": "DEM",
      "pct": 34.65,
-     "votes": 27783
+     "votes": 27800
     },
     {
      "name": "Neil J. Gillespie",
@@ -79,13 +79,13 @@
      "name": "Laurel Lee",
      "party": "REP",
      "pct": 63.75,
-     "votes": 50763
+     "votes": 50792
     },
     {
      "name": "Robert People",
      "party": "DEM",
      "pct": 36.08,
-     "votes": 28725
+     "votes": 28742
     },
     {
      "name": "Write-in",
@@ -103,14 +103,14 @@
     {
      "name": "Byron Donalds",
      "party": "REP",
-     "pct": 62.5,
-     "votes": 50082
+     "pct": 62.49,
+     "votes": 50110
     },
     {
      "name": "David Jolly",
      "party": "DEM",
      "pct": 35.7,
-     "votes": 28611
+     "votes": 28629
     },
     {
      "name": "Scott Eckhard Jewett",
@@ -122,7 +122,7 @@
      "name": "Charles Burkett",
      "party": "NPA",
      "pct": 0.19,
-     "votes": 150
+     "votes": 151
     },
     {
      "name": "Frank J. Russo",
@@ -164,14 +164,14 @@
     {
      "name": "James Uthmeier",
      "party": "REP",
-     "pct": 64.27,
-     "votes": 51198
+     "pct": 64.26,
+     "votes": 51228
     },
     {
      "name": "Jose Javier Rodriguez",
      "party": "DEM",
-     "pct": 35.73,
-     "votes": 28469
+     "pct": 35.74,
+     "votes": 28486
     }
    ]
   },
@@ -184,13 +184,13 @@
      "name": "Blaise Ingoglia",
      "party": "REP",
      "pct": 63.78,
-     "votes": 50652
+     "votes": 50682
     },
     {
      "name": "Annette Taddeo",
      "party": "DEM",
      "pct": 36.22,
-     "votes": 28764
+     "votes": 28781
     }
    ]
   },
@@ -203,19 +203,19 @@
      "name": "Wilton Simpson",
      "party": "REP",
      "pct": 63.75,
-     "votes": 50624
+     "votes": 50655
     },
     {
      "name": "Joey Mendoza Atkins",
      "party": "DEM",
      "pct": 35.57,
-     "votes": 28247
+     "votes": 28262
     },
     {
      "name": "Write-in",
      "party": null,
      "pct": 0.68,
-     "votes": 536
+     "votes": 537
     }
    ]
   },
@@ -228,13 +228,13 @@
      "name": "Samantha Scott",
      "party": "REP",
      "pct": 67.76,
-     "votes": 14240
+     "votes": 14246
     },
     {
      "name": "Pamala Kaye Bivins",
      "party": "DEM",
      "pct": 32.24,
-     "votes": 6774
+     "votes": 6778
     }
    ]
   },
@@ -246,20 +246,20 @@
     {
      "name": "Brian Hawkins",
      "party": "REP",
-     "pct": 60.83,
-     "votes": 35365
+     "pct": 60.84,
+     "votes": 35388
     },
     {
      "name": "Tony Claude",
      "party": "DEM",
      "pct": 37.42,
-     "votes": 21754
+     "votes": 21765
     },
     {
      "name": "Christopher Anger",
      "party": "CPF",
      "pct": 1.74,
-     "votes": 1014
+     "votes": 1015
     }
    ]
   },
@@ -272,13 +272,13 @@
      "name": "Jeff Holcomb",
      "party": "REP",
      "pct": 88.2,
-     "votes": 58118
+     "votes": 58156
     },
     {
      "name": "Write-in",
      "party": null,
      "pct": 11.8,
-     "votes": 7775
+     "votes": 7780
     }
    ]
   },
@@ -291,13 +291,13 @@
      "name": "Yes",
      "party": null,
      "pct": 64.57,
-     "votes": 46995
+     "votes": 47023
     },
     {
      "name": "No",
      "party": null,
      "pct": 35.43,
-     "votes": 25790
+     "votes": 25806
     }
    ]
   },
@@ -310,13 +310,13 @@
      "name": "Yes",
      "party": null,
      "pct": 66.18,
-     "votes": 47871
+     "votes": 47900
     },
     {
      "name": "No",
      "party": null,
      "pct": 33.82,
-     "votes": 24468
+     "votes": 24480
     }
    ]
   },
@@ -329,13 +329,13 @@
      "name": "Yes",
      "party": null,
      "pct": 65.13,
-     "votes": 46917
+     "votes": 46945
     },
     {
      "name": "No",
      "party": null,
      "pct": 34.87,
-     "votes": 25124
+     "votes": 25138
     }
    ]
   },
@@ -348,13 +348,13 @@
      "name": "Yes",
      "party": null,
      "pct": 65.18,
-     "votes": 46876
+     "votes": 46904
     },
     {
      "name": "No",
      "party": null,
      "pct": 34.82,
-     "votes": 25044
+     "votes": 25059
     }
    ]
   },
@@ -366,14 +366,14 @@
     {
      "name": "Kara Champion",
      "party": null,
-     "pct": 54.1,
-     "votes": 39543
+     "pct": 54.11,
+     "votes": 39568
     },
     {
      "name": "Susan Duval",
      "party": null,
-     "pct": 45.9,
-     "votes": 33544
+     "pct": 45.89,
+     "votes": 33563
     }
    ]
   },
@@ -385,14 +385,14 @@
     {
      "name": "Betty Erhard",
      "party": null,
-     "pct": 46.26,
-     "votes": 1409
+     "pct": 46.28,
+     "votes": 1411
     },
     {
      "name": "Robert Dan Watson",
      "party": null,
-     "pct": 53.74,
-     "votes": 1637
+     "pct": 53.72,
+     "votes": 1638
     }
    ]
   },
@@ -404,13 +404,13 @@
     {
      "name": "Noah Hodges",
      "party": null,
-     "pct": 59.04,
-     "votes": 1783
+     "pct": 59.08,
+     "votes": 1786
     },
     {
      "name": "Jennifer McCoskrie",
      "party": null,
-     "pct": 40.96,
+     "pct": 40.92,
      "votes": 1237
     }
    ]
@@ -423,14 +423,14 @@
     {
      "name": "Darrin Bagnuolo",
      "party": null,
-     "pct": 39.23,
+     "pct": 39.2,
      "votes": 541
     },
     {
      "name": "Laura Clark",
      "party": null,
-     "pct": 60.77,
-     "votes": 838
+     "pct": 60.8,
+     "votes": 839
     }
    ]
   },
@@ -443,13 +443,13 @@
      "name": "Yes",
      "party": null,
      "pct": 38.84,
-     "votes": 29395
+     "votes": 29411
     },
     {
      "name": "No",
      "party": null,
      "pct": 61.16,
-     "votes": 46285
+     "votes": 46311
     }
    ]
   },
@@ -462,13 +462,13 @@
      "name": "Yes",
      "party": null,
      "pct": 66.82,
-     "votes": 51013
+     "votes": 51046
     },
     {
      "name": "No",
      "party": null,
      "pct": 33.18,
-     "votes": 25332
+     "votes": 25343
     }
    ]
   },
@@ -480,14 +480,14 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 69.42,
-     "votes": 54117
+     "pct": 69.43,
+     "votes": 54152
     },
     {
      "name": "No",
      "party": null,
-     "pct": 30.58,
-     "votes": 23834
+     "pct": 30.57,
+     "votes": 23844
     }
    ]
   },
@@ -499,14 +499,14 @@
     {
      "name": "YES - For the one-half cent sales surtax",
      "party": null,
-     "pct": 44.75,
-     "votes": 34745
+     "pct": 44.74,
+     "votes": 34762
     },
     {
      "name": "NO - Against the one-half cent sales surtax",
      "party": null,
-     "pct": 55.25,
-     "votes": 42906
+     "pct": 55.26,
+     "votes": 42934
     }
    ]
   }
