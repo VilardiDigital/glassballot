@@ -17,21 +17,21 @@
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=wakulla&el=15",
    "publisher": "Wakulla County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-05"
+   "accessed": "2026-11-06"
   },
   "soe-vf-2022": {
    "title": "Wakulla County Supervisor of Elections: 2022 candidates",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=wakulla&el=12",
    "publisher": "Wakulla County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-05"
+   "accessed": "2026-11-06"
   },
   "soe-cf-wakulla": {
    "title": "Wakulla Supervisor of Elections campaign finance reports, 2026 cycle",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=wakulla&el=15",
    "publisher": "Wakulla County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-05"
+   "accessed": "2026-11-06"
   }
  },
  "people": [
@@ -57,7 +57,7 @@
     ],
     "raised": [
      {
-      "value": "$680 in contributions (as of Nov 5, 2026)",
+      "value": "$680 in contributions (as of Nov 6, 2026)",
       "source": "soe-cf-wakulla"
      }
     ]
@@ -85,7 +85,7 @@
     "party": [
      {
       "value": "Republican",
-      "source": "soe-vf-2022"
+      "source": "soe-vf"
      },
      {
       "value": "Republican",
@@ -94,7 +94,7 @@
     ],
     "raised": [
      {
-      "value": "$9,250 in contributions, plus $25.20 in-kind (as of Nov 5, 2026)",
+      "value": "$9,250 in contributions, plus $25.20 in-kind (as of Nov 6, 2026)",
       "source": "soe-cf-wakulla"
      }
     ]
@@ -103,6 +103,7 @@
    "status": "incumbent",
    "district": "4",
    "fromElections": true,
+   "race": "bcc-d4",
    "finance": {
     "voterfocusId": "135",
     "status": "Active- Defeated"
@@ -120,7 +121,7 @@
     ],
     "raised": [
      {
-      "value": "$2,270 in contributions (as of Nov 5, 2026)",
+      "value": "$2,270 in contributions (as of Nov 6, 2026)",
       "source": "soe-cf-wakulla"
      }
     ]
@@ -131,7 +132,7 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "138",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
    }
   },
   {
@@ -150,7 +151,7 @@
     ],
     "raised": [
      {
-      "value": "$11,254.97 in contributions, plus $2,157.06 in-kind (as of Nov 5, 2026)",
+      "value": "$11,254.97 in contributions, plus $2,157.06 in-kind (as of Nov 6, 2026)",
       "source": "soe-cf-wakulla"
      }
     ]
@@ -161,7 +162,7 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "136",
-    "status": "Active- Advanced"
+    "status": "Active- Elected"
    }
   },
   {
@@ -180,7 +181,7 @@
     ],
     "raised": [
      {
-      "value": "$5,211.06 in contributions (as of Nov 5, 2026)",
+      "value": "$5,211.06 in contributions (as of Nov 6, 2026)",
       "source": "soe-cf-wakulla"
      }
     ]
@@ -191,7 +192,7 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "137",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
    }
   },
   {
@@ -200,7 +201,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$200 in contributions, plus $60 in-kind (as of Nov 5, 2026)",
+      "value": "$200 in contributions, plus $60 in-kind (as of Nov 6, 2026)",
       "source": "soe-cf-wakulla"
      }
     ]
@@ -221,7 +222,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$100 in contributions (as of Nov 5, 2026)",
+      "value": "$100 in contributions (as of Nov 6, 2026)",
       "source": "soe-cf-wakulla"
      }
     ]
@@ -242,7 +243,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$1,549 in contributions (as of Nov 5, 2026)",
+      "value": "$1,549 in contributions (as of Nov 6, 2026)",
       "source": "soe-cf-wakulla"
      }
     ]
@@ -281,12 +282,14 @@
    "people": [
     "dyszer",
     "hughes",
-    "keister"
+    "keister",
+    "messersmith"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Carrie Hughes (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",

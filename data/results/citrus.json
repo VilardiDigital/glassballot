@@ -1,7 +1,7 @@
 {
  "county": "citrus",
  "url": "https://enr.electionsfl.org/CIT/4070/Summary/",
- "pulledAt": "2026-11-06T03:39:24Z",
+ "pulledAt": "2026-11-06T16:47:24Z",
  "status": "unofficial",
  "updated": null,
  "races": [],
@@ -14,14 +14,14 @@
     {
      "name": "Ashley Moody",
      "party": "REP",
-     "pct": 71.0,
-     "votes": 53305
+     "pct": 71.01,
+     "votes": 53340
     },
     {
      "name": "Angie Nixon",
      "party": "DEM",
      "pct": 27.51,
-     "votes": 20656
+     "votes": 20668
     },
     {
      "name": "Neil J. Gillespie",
@@ -39,14 +39,14 @@
     {
      "name": "Laurel Lee",
      "party": "REP",
-     "pct": 71.1,
-     "votes": 53058
+     "pct": 71.11,
+     "votes": 53093
     },
     {
      "name": "Robert People",
      "party": "DEM",
      "pct": 28.8,
-     "votes": 21488
+     "votes": 21501
     },
     {
      "name": "Write-in Candidate",
@@ -65,13 +65,13 @@
      "name": "Byron Donalds",
      "party": "REP",
      "pct": 69.25,
-     "votes": 51958
+     "votes": 51993
     },
     {
      "name": "David Jolly",
      "party": "DEM",
-     "pct": 29.02,
-     "votes": 21773
+     "pct": 29.01,
+     "votes": 21785
     },
     {
      "name": "Scott Eckhard Jewett",
@@ -89,7 +89,7 @@
      "name": "Frank J. Russo",
      "party": "NPA",
      "pct": 0.28,
-     "votes": 207
+     "votes": 208
     },
     {
      "name": "Moliere \"Moe\" Dimanche",
@@ -126,13 +126,13 @@
      "name": "James Uthmeier",
      "party": "REP",
      "pct": 71.69,
-     "votes": 52962
+     "votes": 52995
     },
     {
      "name": "Jose Javier Rodriguez",
      "party": "DEM",
      "pct": 28.31,
-     "votes": 20915
+     "votes": 20928
     }
    ]
   },
@@ -145,13 +145,13 @@
      "name": "Blaise Ingoglia",
      "party": "REP",
      "pct": 71.17,
-     "votes": 52999
+     "votes": 53035
     },
     {
      "name": "Annette Taddeo",
      "party": "DEM",
      "pct": 28.83,
-     "votes": 21474
+     "votes": 21485
     }
    ]
   },
@@ -164,13 +164,13 @@
      "name": "Wilton Simpson",
      "party": "REP",
      "pct": 71.62,
-     "votes": 53181
+     "votes": 53214
     },
     {
      "name": "Joey Mendoza Atkins",
      "party": "DEM",
      "pct": 27.91,
-     "votes": 20724
+     "votes": 20737
     },
     {
      "name": "Write-in Candidate",
@@ -189,13 +189,13 @@
      "name": "J.J. Grow",
      "party": "REP",
      "pct": 71.59,
-     "votes": 53040
+     "votes": 53074
     },
     {
      "name": "Mark Leland Baker",
      "party": "DEM",
      "pct": 28.41,
-     "votes": 21052
+     "votes": 21065
     }
    ]
   },
@@ -207,14 +207,14 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 67.59,
-     "votes": 45450
+     "pct": 67.6,
+     "votes": 45480
     },
     {
      "name": "No",
      "party": null,
-     "pct": 32.41,
-     "votes": 21795
+     "pct": 32.4,
+     "votes": 21802
     }
    ]
   },
@@ -227,13 +227,13 @@
      "name": "Yes",
      "party": null,
      "pct": 71.09,
-     "votes": 47823
+     "votes": 47854
     },
     {
      "name": "No",
      "party": null,
      "pct": 28.91,
-     "votes": 19451
+     "votes": 19458
     }
    ]
   },
@@ -246,13 +246,13 @@
      "name": "Yes",
      "party": null,
      "pct": 70.49,
-     "votes": 47260
+     "votes": 47291
     },
     {
      "name": "No",
      "party": null,
      "pct": 29.51,
-     "votes": 19786
+     "votes": 19794
     }
    ]
   },
@@ -264,14 +264,14 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 70.05,
-     "votes": 46774
+     "pct": 70.06,
+     "votes": 46806
     },
     {
      "name": "No",
      "party": null,
-     "pct": 29.95,
-     "votes": 19999
+     "pct": 29.94,
+     "votes": 20005
     }
    ]
   },
@@ -283,13 +283,13 @@
     {
      "name": "Mindi Hastings",
      "party": null,
-     "pct": 55.28,
-     "votes": 649
+     "pct": 55.32,
+     "votes": 650
     },
     {
      "name": "Jack P. Reynolds",
      "party": null,
-     "pct": 44.72,
+     "pct": 44.68,
      "votes": 525
     }
    ]
@@ -303,13 +303,13 @@
      "name": "Phyllis Dixon",
      "party": null,
      "pct": 69.23,
-     "votes": 43660
+     "votes": 43689
     },
     {
      "name": "Heather Haendiges",
      "party": null,
      "pct": 30.77,
-     "votes": 19406
+     "votes": 19415
     }
    ]
   },
@@ -322,19 +322,19 @@
      "name": "James Brooks",
      "party": null,
      "pct": 48.98,
-     "votes": 31673
+     "votes": 31691
     },
     {
      "name": "Arthur \"AJ\" Green",
      "party": null,
      "pct": 37.72,
-     "votes": 24391
+     "votes": 24404
     },
     {
      "name": "Tyler Thompson",
      "party": null,
-     "pct": 13.3,
-     "votes": 8604
+     "pct": 13.31,
+     "votes": 8611
     }
    ]
   },
@@ -347,13 +347,13 @@
      "name": "Joe Adams",
      "party": null,
      "pct": 68.14,
-     "votes": 43173
+     "votes": 43196
     },
     {
      "name": "Greg Fountain",
      "party": null,
      "pct": 31.86,
-     "votes": 20184
+     "votes": 20196
     }
    ]
   },
@@ -365,14 +365,14 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 41.64,
-     "votes": 29300
+     "pct": 41.63,
+     "votes": 29313
     },
     {
      "name": "No",
      "party": null,
-     "pct": 58.36,
-     "votes": 41067
+     "pct": 58.37,
+     "votes": 41094
     }
    ]
   },
@@ -384,14 +384,14 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 68.99,
-     "votes": 49129
+     "pct": 69.0,
+     "votes": 49163
     },
     {
      "name": "No",
      "party": null,
-     "pct": 31.01,
-     "votes": 22085
+     "pct": 31.0,
+     "votes": 22090
     }
    ]
   },
@@ -403,14 +403,14 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 70.08,
-     "votes": 50992
+     "pct": 70.09,
+     "votes": 51025
     },
     {
      "name": "No",
      "party": null,
-     "pct": 29.92,
-     "votes": 21769
+     "pct": 29.91,
+     "votes": 21776
     }
    ]
   }
