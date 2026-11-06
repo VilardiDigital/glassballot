@@ -1,7 +1,7 @@
 {
  "county": "hardee",
  "url": "https://enr.electionsfl.org/HAR/4063/Summary/",
- "pulledAt": "2026-11-05T20:49:05Z",
+ "pulledAt": "2026-11-06T03:39:26Z",
  "status": "unofficial",
  "updated": null,
  "races": [],
@@ -14,13 +14,13 @@
     {
      "name": "Ashley Moody",
      "party": "REP",
-     "pct": 68.02,
-     "votes": 4103
+     "pct": 68.03,
+     "votes": 4104
     },
     {
      "name": "Angie Nixon",
      "party": "DEM",
-     "pct": 30.77,
+     "pct": 30.76,
      "votes": 1856
     },
     {
@@ -39,8 +39,8 @@
     {
      "name": "Sydney Gruters",
      "party": "REP",
-     "pct": 66.07,
-     "votes": 3955
+     "pct": 66.08,
+     "votes": 3956
     },
     {
      "name": "Kelly Kirschner",
@@ -51,7 +51,7 @@
     {
      "name": "Mark Davis",
      "party": "NOP",
-     "pct": 2.21,
+     "pct": 2.2,
      "votes": 132
     }
    ]
@@ -64,7 +64,7 @@
     {
      "name": "Byron Donalds Bryan Avila",
      "party": "REP",
-     "pct": 65.8,
+     "pct": 65.79,
      "votes": 3962
     },
     {
@@ -76,8 +76,8 @@
     {
      "name": "Scott Eckhard Jewett Nicole Skelly",
      "party": "LPF",
-     "pct": 0.45,
-     "votes": 27
+     "pct": 0.46,
+     "votes": 28
     },
     {
      "name": "Charles Burkett Ruben A. Coto",
@@ -126,7 +126,7 @@
      "name": "James Uthmeier",
      "party": "REP",
      "pct": 68.28,
-     "votes": 4044
+     "votes": 4045
     },
     {
      "name": "Jose Javier Rodriguez",
@@ -144,13 +144,13 @@
     {
      "name": "Blaise Ingoglia",
      "party": "REP",
-     "pct": 67.94,
-     "votes": 4046
+     "pct": 67.95,
+     "votes": 4047
     },
     {
      "name": "Annette Taddeo",
      "party": "DEM",
-     "pct": 32.06,
+     "pct": 32.05,
      "votes": 1909
     }
    ]
@@ -163,14 +163,14 @@
     {
      "name": "Wilton Simpson",
      "party": "REP",
-     "pct": 68.44,
+     "pct": 68.43,
      "votes": 4068
     },
     {
      "name": "Joey Mendoza Atkins",
      "party": "DEM",
-     "pct": 30.97,
-     "votes": 1841
+     "pct": 30.98,
+     "votes": 1842
     },
     {
      "name": "Write-in",
@@ -188,13 +188,13 @@
     {
      "name": "Kaylee Tuck",
      "party": "REP",
-     "pct": 69.38,
-     "votes": 4120
+     "pct": 69.39,
+     "votes": 4121
     },
     {
      "name": "Leigh Estes",
      "party": "DEM",
-     "pct": 30.62,
+     "pct": 30.61,
      "votes": 1818
     }
    ]
@@ -208,7 +208,7 @@
      "name": "Yes/Sí",
      "party": null,
      "pct": 64.39,
-     "votes": 3513
+     "votes": 3514
     },
     {
      "name": "No/No",
@@ -233,7 +233,7 @@
      "name": "No/No",
      "party": null,
      "pct": 57.8,
-     "votes": 3314
+     "votes": 3315
     }
    ]
   },
@@ -245,14 +245,14 @@
     {
      "name": "Yes/Sí",
      "party": null,
-     "pct": 69.03,
+     "pct": 69.02,
      "votes": 4063
     },
     {
      "name": "No/No",
      "party": null,
-     "pct": 30.97,
-     "votes": 1823
+     "pct": 30.98,
+     "votes": 1824
     }
    ]
   },
@@ -264,13 +264,13 @@
     {
      "name": "Yes/Sí",
      "party": null,
-     "pct": 62.33,
-     "votes": 3672
+     "pct": 62.34,
+     "votes": 3673
     },
     {
      "name": "No/No",
      "party": null,
-     "pct": 37.67,
+     "pct": 37.66,
      "votes": 2219
     }
    ]
@@ -283,13 +283,13 @@
     {
      "name": "Yes/Sí",
      "party": null,
-     "pct": 50.46,
-     "votes": 2929
+     "pct": 50.47,
+     "votes": 2930
     },
     {
      "name": "No/No",
      "party": null,
-     "pct": 49.54,
+     "pct": 49.53,
      "votes": 2876
     }
    ]
@@ -303,7 +303,7 @@
      "name": "Yes/Sí",
      "party": null,
      "pct": 58.62,
-     "votes": 3439
+     "votes": 3440
     },
     {
      "name": "No/No",

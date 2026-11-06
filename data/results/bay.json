@@ -1,7 +1,7 @@
 {
  "county": "bay",
  "url": "https://enr.electionsfl.org/BAY/4078/Summary/",
- "pulledAt": "2026-11-05T20:49:01Z",
+ "pulledAt": "2026-11-06T03:39:23Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -14,13 +14,13 @@
      "name": "John Haley",
      "party": "NON",
      "pct": 55.67,
-     "votes": 34402
+     "votes": 34431
     },
     {
      "name": "Chris Moore",
      "party": "NON",
      "pct": 44.33,
-     "votes": 27393
+     "votes": 27417
     }
    ]
   }
@@ -35,13 +35,13 @@
      "name": "Ashley Moody",
      "party": "REP",
      "pct": 69.34,
-     "votes": 48724
+     "votes": 48764
     },
     {
      "name": "Angie Nixon",
      "party": "DEM",
      "pct": 29.52,
-     "votes": 20745
+     "votes": 20761
     },
     {
      "name": "Neil J. Gillespie",
@@ -60,13 +60,13 @@
      "name": "Austin Rogers",
      "party": "REP",
      "pct": 68.29,
-     "votes": 47721
+     "votes": 47762
     },
     {
      "name": "Amanda Marie Green",
      "party": "DEM",
      "pct": 31.71,
-     "votes": 22164
+     "votes": 22180
     }
    ]
   },
@@ -78,20 +78,20 @@
     {
      "name": "Byron Donalds and Bryan Avila",
      "party": "REP",
-     "pct": 68.94,
-     "votes": 48387
+     "pct": 68.95,
+     "votes": 48429
     },
     {
      "name": "David Jolly and Gwen Graham",
      "party": "DEM",
      "pct": 29.47,
-     "votes": 20687
+     "votes": 20701
     },
     {
      "name": "Scott Eckhard Jewett and Nicole Skelly",
      "party": "LPF",
      "pct": 0.59,
-     "votes": 412
+     "votes": 413
     },
     {
      "name": "Charles Burkett and Ruben A. Coto",
@@ -139,14 +139,14 @@
     {
      "name": "James Uthmeier",
      "party": "REP",
-     "pct": 70.08,
-     "votes": 48778
+     "pct": 70.09,
+     "votes": 48820
     },
     {
      "name": "Jose Javier Rodriguez",
      "party": "DEM",
-     "pct": 29.92,
-     "votes": 20823
+     "pct": 29.91,
+     "votes": 20838
     }
    ]
   },
@@ -159,13 +159,13 @@
      "name": "Blaise Ingoglia",
      "party": "REP",
      "pct": 70.12,
-     "votes": 48677
+     "votes": 48718
     },
     {
      "name": "Annette Taddeo",
      "party": "DEM",
      "pct": 29.88,
-     "votes": 20742
+     "votes": 20757
     }
    ]
   },
@@ -178,13 +178,13 @@
      "name": "Wilton Simpson",
      "party": "REP",
      "pct": 69.83,
-     "votes": 48618
+     "votes": 48659
     },
     {
      "name": "Joey Mendoza Atkins",
      "party": "DEM",
      "pct": 29.95,
-     "votes": 20857
+     "votes": 20873
     },
     {
      "name": "Write-in",
@@ -203,13 +203,13 @@
      "name": "Jay Trumbull",
      "party": "REP",
      "pct": 70.57,
-     "votes": 49262
+     "votes": 49302
     },
     {
      "name": "Lauren Donahoo",
      "party": "DEM",
      "pct": 29.43,
-     "votes": 20544
+     "votes": 20560
     }
    ]
   },
@@ -222,13 +222,13 @@
      "name": "Tricia Berry",
      "party": "REP",
      "pct": 69.67,
-     "votes": 48328
+     "votes": 48367
     },
     {
      "name": "Stephanie Lyn Leonard",
      "party": "DEM",
      "pct": 30.33,
-     "votes": 21037
+     "votes": 21053
     }
    ]
   },
@@ -241,13 +241,13 @@
      "name": "Yes",
      "party": null,
      "pct": 63.82,
-     "votes": 40897
+     "votes": 40928
     },
     {
      "name": "No",
      "party": null,
      "pct": 36.18,
-     "votes": 23184
+     "votes": 23203
     }
    ]
   },
@@ -260,13 +260,13 @@
      "name": "Yes",
      "party": null,
      "pct": 63.7,
-     "votes": 40733
+     "votes": 40765
     },
     {
      "name": "No",
      "party": null,
      "pct": 36.3,
-     "votes": 23215
+     "votes": 23235
     }
    ]
   },
@@ -279,13 +279,13 @@
      "name": "Yes",
      "party": null,
      "pct": 65.58,
-     "votes": 41821
+     "votes": 41853
     },
     {
      "name": "No",
      "party": null,
      "pct": 34.42,
-     "votes": 21951
+     "votes": 21970
     }
    ]
   },
@@ -298,13 +298,13 @@
      "name": "Yes",
      "party": null,
      "pct": 64.29,
-     "votes": 40965
+     "votes": 40996
     },
     {
      "name": "No",
      "party": null,
      "pct": 35.71,
-     "votes": 22755
+     "votes": 22776
     }
    ]
   },
@@ -317,13 +317,13 @@
      "name": "Yes",
      "party": null,
      "pct": 62.37,
-     "votes": 39782
+     "votes": 39814
     },
     {
      "name": "No",
      "party": null,
      "pct": 37.63,
-     "votes": 23999
+     "votes": 24019
     }
    ]
   },
@@ -336,13 +336,13 @@
      "name": "Yes",
      "party": null,
      "pct": 65.3,
-     "votes": 41515
+     "votes": 41546
     },
     {
      "name": "No",
      "party": null,
      "pct": 34.7,
-     "votes": 22062
+     "votes": 22082
     }
    ]
   },
@@ -355,13 +355,13 @@
      "name": "John Haley",
      "party": "NON",
      "pct": 55.67,
-     "votes": 34402
+     "votes": 34431
     },
     {
      "name": "Chris Moore",
      "party": "NON",
      "pct": 44.33,
-     "votes": 27393
+     "votes": 27417
     }
    ]
   },
@@ -373,14 +373,14 @@
     {
      "name": "Bobby Birdsell",
      "party": "NON",
-     "pct": 58.55,
-     "votes": 2451
+     "pct": 58.52,
+     "votes": 2452
     },
     {
      "name": "Karen Custer",
      "party": "NON",
-     "pct": 41.45,
-     "votes": 1735
+     "pct": 41.48,
+     "votes": 1738
     }
    ]
   },
@@ -392,14 +392,14 @@
     {
      "name": "James \"Jamie\" Kirkland",
      "party": "NON",
-     "pct": 60.4,
-     "votes": 2514
+     "pct": 60.37,
+     "votes": 2515
     },
     {
      "name": "Spring Overway",
      "party": "NON",
-     "pct": 39.6,
-     "votes": 1648
+     "pct": 39.63,
+     "votes": 1651
     }
    ]
   },
@@ -411,13 +411,13 @@
     {
      "name": "Carlos Sanchez",
      "party": "NON",
-     "pct": 60.0,
-     "votes": 3915
+     "pct": 60.03,
+     "votes": 3920
     },
     {
      "name": "Grant B. Wittstruck",
      "party": "NON",
-     "pct": 40.0,
+     "pct": 39.97,
      "votes": 2610
     }
    ]
@@ -430,14 +430,14 @@
     {
      "name": "Nick Atkinson",
      "party": "NON",
-     "pct": 49.45,
-     "votes": 3173
+     "pct": 49.47,
+     "votes": 3177
     },
     {
      "name": "Mary Coburn",
      "party": "NON",
-     "pct": 50.55,
-     "votes": 3244
+     "pct": 50.53,
+     "votes": 3245
     }
    ]
   },
@@ -487,14 +487,14 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 46.08,
-     "votes": 31014
+     "pct": 46.09,
+     "votes": 31044
     },
     {
      "name": "No",
      "party": null,
-     "pct": 53.92,
-     "votes": 36294
+     "pct": 53.91,
+     "votes": 36318
     }
    ]
   },
@@ -507,13 +507,13 @@
      "name": "Yes",
      "party": null,
      "pct": 68.85,
-     "votes": 46382
+     "votes": 46413
     },
     {
      "name": "No",
      "party": null,
      "pct": 31.15,
-     "votes": 20983
+     "votes": 21001
     }
    ]
   },
@@ -526,13 +526,13 @@
      "name": "Yes",
      "party": null,
      "pct": 71.14,
-     "votes": 48755
+     "votes": 48796
     },
     {
      "name": "No",
      "party": null,
      "pct": 28.86,
-     "votes": 19783
+     "votes": 19793
     }
    ]
   },
@@ -544,13 +544,13 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 85.49,
-     "votes": 6511
+     "pct": 85.5,
+     "votes": 6516
     },
     {
      "name": "No",
      "party": null,
-     "pct": 14.51,
+     "pct": 14.5,
      "votes": 1105
     }
    ]
@@ -563,13 +563,13 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 71.2,
-     "votes": 5399
+     "pct": 71.22,
+     "votes": 5404
     },
     {
      "name": "No",
      "party": null,
-     "pct": 28.8,
+     "pct": 28.78,
      "votes": 2184
     }
    ]
@@ -582,13 +582,13 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 70.59,
-     "votes": 5365
+     "pct": 70.61,
+     "votes": 5370
     },
     {
      "name": "No",
      "party": null,
-     "pct": 29.41,
+     "pct": 29.39,
      "votes": 2235
     }
    ]
@@ -601,14 +601,14 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 49.18,
-     "votes": 5646
+     "pct": 49.17,
+     "votes": 5650
     },
     {
      "name": "No",
      "party": null,
-     "pct": 50.82,
-     "votes": 5835
+     "pct": 50.83,
+     "votes": 5840
     }
    ]
   },
@@ -621,13 +621,13 @@
      "name": "Yes",
      "party": null,
      "pct": 46.94,
-     "votes": 5276
+     "votes": 5280
     },
     {
      "name": "No",
      "party": null,
      "pct": 53.06,
-     "votes": 5964
+     "votes": 5968
     }
    ]
   },
@@ -639,14 +639,14 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 58.4,
-     "votes": 6548
+     "pct": 58.41,
+     "votes": 6554
     },
     {
      "name": "No",
      "party": null,
-     "pct": 41.6,
-     "votes": 4665
+     "pct": 41.59,
+     "votes": 4667
     }
    ]
   }
