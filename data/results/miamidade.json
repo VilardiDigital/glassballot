@@ -1,7 +1,7 @@
 {
  "county": "miamidade",
  "url": "https://enr.electionsfl.org/DAD/4087/Summary/",
- "pulledAt": "2026-11-07T18:17:12Z",
+ "pulledAt": "2026-11-08T02:42:06Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -934,25 +934,6 @@
      "party": null,
      "pct": 47.0,
      "votes": 6446
-    }
-   ]
-  },
-  {
-   "office": "Doral Councilmember Seat 2",
-   "reported": 8,
-   "precincts": 8,
-   "candidates": [
-    {
-     "name": "Fernanda Gomes",
-     "party": null,
-     "pct": 49.96,
-     "votes": 9582
-    },
-    {
-     "name": "Maureen Porras",
-     "party": null,
-     "pct": 50.04,
-     "votes": 9597
     }
    ]
   },
