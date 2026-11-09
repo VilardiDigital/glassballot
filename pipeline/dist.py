@@ -310,6 +310,15 @@ def pages(region: dict):
             yield f"/{k}/t/{t['id']}", c, t
 
 
+def is_thin(path: str, c: dict | None, obj: dict | None) -> bool:
+    """A page with nothing on it yet. It still loads for visitors, but stays out of the sitemap and tells search
+    engines not to index it, so Google doesn't flag empty shells (soft 404 / crawled, not indexed). It goes back
+    in by itself once it has content."""
+    if "/t/" in path and c and obj:
+        return not any(v.get("topic") == obj["id"] for v in c["votes"])
+    return False
+
+
 def split_page(page: str) -> tuple[str, str, str, str]:
     """Pull the one stylesheet and the one script out of the built page so every page can share them.
     Font links that sit above the stylesheet move into each page's head; its placeholder title is dropped."""
@@ -348,8 +357,11 @@ def build_dist() -> Path:
                                                             f'<main class="wrap" id="app" tabindex="-1">{render(path, c, obj)}</main>') + "\n</body>\n</html>\n"
         f = out / ("index.html" if path == "/" else path.lstrip("/") + ".html")
         f.parent.mkdir(parents=True, exist_ok=True)
+        if is_thin(path, c, obj):
+            doc = doc.replace(f'<link rel="canonical" href="{html.escape(url)}">', '<meta name="robots" content="noindex">', 1)
+        else:
+            urls.append(url)
         f.write_text(doc)
-        urls.append(url)
     # Any other address (a source page, an old link) still gets the app, which then shows the right page.
     fallback = head_(*DEFAULT, SITE + "/") + body + "\n</body>\n</html>\n"
     (out / "app.html").write_text(fallback.replace(f'<link rel="canonical" href="{SITE}/">', '<meta name="robots" content="noindex">'))

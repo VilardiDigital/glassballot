@@ -4,7 +4,7 @@ import re
 import unittest
 from pathlib import Path
 
-from pipeline.dist import build_dist, page_meta, pages
+from pipeline.dist import build_dist, page_meta, is_thin, pages
 from pipeline.sources.legistar_summary import auto_headline
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -37,6 +37,8 @@ class Dist(unittest.TestCase):
 
     def test_every_page_has_its_own_file_title_and_canonical(self):
         for path, c, obj in pages(self.region):
+            if is_thin(path, c, obj):
+                continue
             f = self.out / ("index.html" if path == "/" else path.lstrip("/") + ".html")
             doc = f.read_text()
             self.assertEqual(doc.count("<title>"), 1, path)
@@ -44,9 +46,19 @@ class Dist(unittest.TestCase):
             self.assertIn('id="app"', doc)
             self.assertNotIn('href="#/', doc, path)
 
-    def test_sitemap_lists_every_page(self):
-        n = len(list(pages(self.region)))
+    def test_sitemap_lists_every_page_with_content(self):
+        all_ = list(pages(self.region))
+        n = sum(not is_thin(*x) for x in all_)
         self.assertEqual(len(re.findall("<loc>", (self.out / "sitemap.xml").read_text())), n)
+
+    def test_empty_pages_are_noindex_and_out_of_the_sitemap(self):
+        sm = (self.out / "sitemap.xml").read_text()
+        thin = [x for x in pages(self.region) if is_thin(*x)]
+        for path, c, obj in thin:
+            doc = (self.out / (path.lstrip("/") + ".html")).read_text()
+            self.assertIn('<meta name="robots" content="noindex">', doc, path)
+            self.assertNotIn('rel="canonical"', doc, path)
+            self.assertNotIn(f"<loc>https://glassballot.org{path}</loc>", sm)
 
     def test_race_title_names_candidates(self):
         c = self.region["counties"]["pinellas"]
