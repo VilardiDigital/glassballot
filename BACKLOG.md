@@ -88,3 +88,5 @@ Each weekly check-in adds one short dated line here: what it checked, what it fi
 - 2026-11-09: All nightly and results runs green Nov 2 to 8 (only expected "pinellas pull failed"; GitHub blocked).
   Live site loads, Hillsborough/Pasco/Hernando updated Nov 8. Re-imported Pinellas (late ballots, no leader changes)
   and noted the D3 recount was declined. Marked 14 seats settled in the August primary. Oct builds: about 93.
+  Sent one labeled test through the report form; it reached the inbox. Privacy page now says Web3Forms passes
+  along the sender's IP address, and the report email shows a readable "opened" time.

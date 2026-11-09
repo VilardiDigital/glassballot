@@ -1113,7 +1113,7 @@ views.privacy = () => policy("Privacy policy", "Short version: we don't track yo
   <h2 class="h3">What stays on your device</h2>
   <p>Your county, your district, your text-size setting and the list of choices you mark are saved in your own browser so the site remembers them next time. We never receive them. You can clear them by clearing your browser's site data.</p>
   <h2 class="h3">If you report a mistake</h2>
-  <p>The report form sends us what you type, the page you were on, and your email address if you choose to give it. We use this only to review the report and, if needed, to ask you a question. We don't publish your name or email address, and we don't add you to any mailing list. Reports pass through our form service, Web3Forms, and come to our email inbox.</p>
+  <p>The report form sends us what you type, the page you were on, and your email address if you choose to give it. Our form service also tells us the internet (IP) address the report came from, which helps us spot spam. We use this only to review the report and, if needed, to ask you a question. We don't publish your name or email address, and we don't add you to any mailing list. Reports pass through our form service, Web3Forms, and come to our email inbox.</p>
   <h2 class="h3">Services that help run the site</h2>
   <ul><li><b>Cloudflare</b> hosts the site and keeps standard server logs, such as IP addresses, for security.</li><li><b>Web3Forms</b> delivers the report form to our email inbox and filters spam. It sees what you type in the form.</li><li><b>GoatCounter</b> counts page visits so we can see which counties and pages people use and which links bring them here. It uses no cookies, doesn't store your IP address, doesn't follow you to other sites, and never sees your saved choices.</li><li><b>Google Fonts</b> provides the site's typefaces, so your browser contacts Google to load them.</li><li><b>Candidate photos</b> load from county and election office websites, so your browser contacts those sites when a photo appears.</li></ul>
   <h2 class="h3">Children</h2>
@@ -1185,6 +1185,7 @@ $("#fixForm").addEventListener("submit", e => {
   if (f.botcheck.checked) return;
   const btn = f.querySelector('button[type="submit"]'), body = Object.fromEntries(new FormData(f));
   delete body.website; delete body.botcheck; body.access_key = FORM_KEY;
+  body.opened = new Date(Number(body.opened) || Date.now()).toLocaleString("en-US", { timeZone: "America/New_York", dateStyle: "medium", timeStyle: "short" }) + " ET";
   btn.disabled = true; msg.style.color = ""; msg.textContent = "Sending...";
   fetch("https://api.web3forms.com/submit", { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify(body) })
     .then(r => r.json().catch(() => ({})).then(j => { if (!r.ok || j.success === false) throw new Error(j.message || "send failed"); }))
