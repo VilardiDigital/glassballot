@@ -40,6 +40,13 @@
    "publisher": "Dixie County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-11-08"
+  },
+  "enr-2026p": {
+   "title": "Dixie County Supervisor of Elections: 2026 primary election results",
+   "url": "https://enr.electionsfl.org/DIX/3988/Summary/",
+   "publisher": "Dixie County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-11-09"
   }
  },
  "people": [
@@ -307,9 +314,12 @@
     "wood"
    ],
    "sources": [
-    "soe-vf"
+    "soe-vf",
+    "enr-2026p"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Keith Tuten (won outright in the Aug 18 primary)",
+   "note": "Keith Tuten won outright in the Aug 18 primary with 54.2% in a primary open to all voters."
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",

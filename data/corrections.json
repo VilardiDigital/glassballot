@@ -114,5 +114,13 @@
   "after": "Cites Florida Statutes s. 125.01, the state law that sets every county commission's powers. The description itself did not change.",
   "why": "The description applies to every Florida county, so the source should too.",
   "sources": []
+ },
+ {
+  "date": "2026-11-09",
+  "subject": "14 seats in Dixie, Gilchrist, Liberty, Madison, Okaloosa, Taylor and Walton counties",
+  "before": "\"This seat isn't in the county's Nov 3 results, so it was most likely settled in the August primary or had only one qualified candidate. We're checking.\"",
+  "after": "Each seat now shows who won it in the Aug 18 primary, from each county's own primary results.",
+  "why": "Checked against each county Supervisor of Elections' official primary results.",
+  "source": "https://enr.electionsfl.org/MAD/4008/Summary/"
  }
 ]

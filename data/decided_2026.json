@@ -1,0 +1,145 @@
+{
+ "_about": "Seats settled before November that the automatic county setup can't see. Applied by pipeline/bootstrap.py on every rebuild. Each entry is checked against the county's own primary results.",
+ "counties": {
+  "dixie": {
+   "source": {
+    "id": "enr-2026p",
+    "title": "Dixie County Supervisor of Elections: 2026 primary election results",
+    "url": "https://enr.electionsfl.org/DIX/3988/Summary/",
+    "publisher": "Dixie County Supervisor of Elections",
+    "tier": 1,
+    "accessed": "2026-11-09"
+   },
+   "races": {
+    "bcc-d2": {
+     "decided": "Keith Tuten (won outright in the Aug 18 primary)",
+     "detail": "Keith Tuten won outright in the Aug 18 primary with 54.2% in a primary open to all voters."
+    }
+   }
+  },
+  "gilchrist": {
+   "source": {
+    "id": "enr-2026p",
+    "title": "Gilchrist County Supervisor of Elections: 2026 primary election results",
+    "url": "https://enr.electionsfl.org/GIL/3987/Summary/",
+    "publisher": "Gilchrist County Supervisor of Elections",
+    "tier": 1,
+    "accessed": "2026-11-09"
+   },
+   "races": {
+    "bcc-d2": {
+     "decided": "Cody NesSmith (won the Aug 18 Republican primary; the seat was not on the Nov 3 ballot)",
+     "detail": "Cody NesSmith won the Aug 18 Republican primary with 49.4%."
+    }
+   }
+  },
+  "liberty": {
+   "source": {
+    "id": "enr-2026p",
+    "title": "Liberty County Supervisor of Elections: 2026 primary election results",
+    "url": "https://enr.electionsfl.org/LIB/4049/Summary/",
+    "publisher": "Liberty County Supervisor of Elections",
+    "tier": 1,
+    "accessed": "2026-11-09"
+   },
+   "races": {
+    "bcc-d4": {
+     "decided": "Doyle Brown (won outright in the Aug 18 primary)",
+     "detail": "Doyle Brown won outright in the Aug 18 primary with 54.7% in a primary open to all voters."
+    },
+    "sb-d3": {
+     "decided": "Erica Nobles Smith (won outright in the Aug 18 primary)",
+     "detail": "Erica Nobles Smith won outright in the Aug 18 primary with 50.9%."
+    },
+    "sb-d4": {
+     "decided": "Melissa Kincaid (won outright in the Aug 18 primary)",
+     "detail": "Melissa Kincaid won outright in the Aug 18 primary with 54.3%."
+    }
+   }
+  },
+  "madison": {
+   "source": {
+    "id": "enr-2026p",
+    "title": "Madison County Supervisor of Elections: 2026 primary election results",
+    "url": "https://enr.electionsfl.org/MAD/4008/Summary/",
+    "publisher": "Madison County Supervisor of Elections",
+    "tier": 1,
+    "accessed": "2026-11-09"
+   },
+   "races": {
+    "bcc-d1": {
+     "decided": "Gregory O. Vickers (won the Aug 18 Republican primary; the seat was not on the Nov 3 ballot)",
+     "detail": "Gregory O. Vickers won the Aug 18 Republican primary with 37.8%."
+    },
+    "bcc-d2": {
+     "decided": "Tyler Shadrick (won the Aug 18 Republican primary; the seat was not on the Nov 3 ballot)",
+     "detail": "Tyler Shadrick won the Aug 18 Republican primary with 46.4%."
+    },
+    "sb-d1": {
+     "decided": "Katie Knight (won outright in the Aug 18 primary)",
+     "detail": "Katie Knight won outright in the Aug 18 primary with 62.5%."
+    }
+   }
+  },
+  "okaloosa": {
+   "source": {
+    "id": "enr-2026p",
+    "title": "Okaloosa County Supervisor of Elections: 2026 primary election results",
+    "url": "https://enr.electionsfl.org/OKA/4026/Summary/",
+    "publisher": "Okaloosa County Supervisor of Elections",
+    "tier": 1,
+    "accessed": "2026-11-09"
+   },
+   "races": {
+    "sb-d3": {
+     "decided": "Linda Evanchyk (won outright in the Aug 18 primary)",
+     "detail": "Linda Evanchyk won outright in the Aug 18 primary with 51.5%."
+    },
+    "sb-d5": {
+     "decided": "Brett Hinely (won outright in the Aug 18 primary)",
+     "detail": "Brett Hinely won outright in the Aug 18 primary with 59.5%."
+    }
+   }
+  },
+  "taylor": {
+   "source": {
+    "id": "enr-2026p",
+    "title": "Taylor County Supervisor of Elections: 2026 primary election results",
+    "url": "https://enr.electionsfl.org/TAY/4018/Summary/",
+    "publisher": "Taylor County Supervisor of Elections",
+    "tier": 1,
+    "accessed": "2026-11-09"
+   },
+   "races": {
+    "bcc-d4": {
+     "decided": "Wendy M. Slaughter (won the Aug 18 Republican primary; the seat was not on the Nov 3 ballot)",
+     "detail": "Wendy M. Slaughter won the Aug 18 Republican primary with 53.8%."
+    },
+    "sb-d1": {
+     "decided": "Bonnie Sue Agner (won outright in the Aug 18 primary)",
+     "detail": "Bonnie Sue Agner won outright in the Aug 18 primary with 54.5%."
+    }
+   }
+  },
+  "walton": {
+   "source": {
+    "id": "enr-2026p",
+    "title": "Walton County Supervisor of Elections: 2026 primary election results",
+    "url": "https://enr.electionsfl.org/WAL/4027/Summary/",
+    "publisher": "Walton County Supervisor of Elections",
+    "tier": 1,
+    "accessed": "2026-11-09"
+   },
+   "races": {
+    "bcc-d2": {
+     "decided": "Warren Whitaker (won the Aug 18 Republican primary; the seat was not on the Nov 3 ballot)",
+     "detail": "Warren Whitaker won the Aug 18 Republican primary with 60.5%."
+    },
+    "bcc-d4": {
+     "decided": "Jim Bagby (won the Aug 18 Republican primary; the seat was not on the Nov 3 ballot)",
+     "detail": "Jim Bagby won the Aug 18 Republican primary with 37.8%."
+    }
+   }
+  }
+ }
+}

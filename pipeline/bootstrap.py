@@ -229,6 +229,23 @@ def build(county: str, cfg: dict) -> dict:
     return seed
 
 
+def apply_decided(k: str, seed: dict) -> None:
+    """Seats settled before November (data/decided_2026.json), checked by hand against the county's primary results.
+    The candidate list can't show who won a primary, so without this they'd read as still on the Nov 3 ballot."""
+    f = ROOT / "data" / "decided_2026.json"
+    d = json.loads(f.read_text())["counties"].get(k) if f.exists() else None
+    if not d:
+        return
+    src = d["source"]
+    for race in seed["races"]:
+        x = d["races"].get(race["id"])
+        if not x:
+            continue
+        seed["sources"][src["id"]] = {kk: v for kk, v in src.items() if kk != "id"}
+        race.update({"onNovBallot": False, "decided": x["decided"], "note": x["detail"]})
+        race["sources"] = [*race.get("sources", []), src["id"]] if src["id"] not in race.get("sources", []) else race["sources"]
+
+
 def run(k: str, cfg: dict) -> str:
     out = ROOT / "data" / f"seed_{k}.json"
     if out.exists() and not json.loads(out.read_text()).get("county", {}).get("auto"):
@@ -236,6 +253,7 @@ def run(k: str, cfg: dict) -> str:
     seed = build(k, cfg)
     if not seed["races"]:
         return f"{k}: no races found; kept the last version"
+    apply_decided(k, seed)
     out.write_text(json.dumps(seed, indent=1, ensure_ascii=False))
     return f"{k}: {len(seed['people'])} people, {len(seed['races'])} races, {sum(1 for p in seed['people'] if p.get('status') == 'incumbent')} commissioners (automatic)"
 

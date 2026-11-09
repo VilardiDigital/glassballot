@@ -101805,6 +101805,13 @@
      "tier": 1,
      "accessed": "2026-11-08"
     },
+    "enr-2026p": {
+     "title": "Dixie County Supervisor of Elections: 2026 primary election results",
+     "url": "https://enr.electionsfl.org/DIX/3988/Summary/",
+     "publisher": "Dixie County Supervisor of Elections",
+     "tier": 1,
+     "accessed": "2026-11-09"
+    },
     "soe-itemized": {
      "title": "Itemized campaign contribution reports, 2026 election",
      "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=dixie&el=13",
@@ -103497,13 +103504,12 @@
       "wood"
      ],
      "sources": [
-      "soe-vf"
+      "soe-vf",
+      "enr-2026p"
      ],
-     "onNovBallot": true,
-     "notInResults": {
-      "url": "https://enr.electionsfl.org/DIX/4125/Summary/",
-      "source": "enr-2026g"
-     }
+     "onNovBallot": false,
+     "decided": "Keith Tuten (won outright in the Aug 18 primary)",
+     "note": "Keith Tuten won outright in the Aug 18 primary with 54.2% in a primary open to all voters."
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -120705,6 +120711,13 @@
      "tier": 1,
      "accessed": "2026-11-08"
     },
+    "enr-2026p": {
+     "title": "Gilchrist County Supervisor of Elections: 2026 primary election results",
+     "url": "https://enr.electionsfl.org/GIL/3987/Summary/",
+     "publisher": "Gilchrist County Supervisor of Elections",
+     "tier": 1,
+     "accessed": "2026-11-09"
+    },
     "soe-itemized": {
      "title": "Itemized campaign contribution reports, 2026 election",
      "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=gilchrist&el=24",
@@ -121969,13 +121982,12 @@
       "nessmith"
      ],
      "sources": [
-      "soe-vf"
+      "soe-vf",
+      "enr-2026p"
      ],
-     "onNovBallot": true,
-     "notInResults": {
-      "url": "https://enr.electionsfl.org/GIL/4055/Summary/",
-      "source": "enr-2026g"
-     }
+     "onNovBallot": false,
+     "decided": "Cody NesSmith (won the Aug 18 Republican primary; the seat was not on the Nov 3 ballot)",
+     "note": "Cody NesSmith won the Aug 18 Republican primary with 49.4%."
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -175486,6 +175498,13 @@
      "tier": 1,
      "accessed": "2026-11-08"
     },
+    "enr-2026p": {
+     "title": "Liberty County Supervisor of Elections: 2026 primary election results",
+     "url": "https://enr.electionsfl.org/LIB/4049/Summary/",
+     "publisher": "Liberty County Supervisor of Elections",
+     "tier": 1,
+     "accessed": "2026-11-09"
+    },
     "soe-itemized": {
      "title": "Itemized campaign contribution reports, 2026 election",
      "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=liberty&el=25",
@@ -177638,13 +177657,12 @@
       "peddie"
      ],
      "sources": [
-      "soe-vf"
+      "soe-vf",
+      "enr-2026p"
      ],
-     "onNovBallot": true,
-     "notInResults": {
-      "url": "https://enr.electionsfl.org/LIB/4098/Summary/",
-      "source": "enr-2026g"
-     }
+     "onNovBallot": false,
+     "decided": "Doyle Brown (won outright in the Aug 18 primary)",
+     "note": "Doyle Brown won outright in the Aug 18 primary with 54.7% in a primary open to all voters."
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -177657,13 +177675,12 @@
       "smith"
      ],
      "sources": [
-      "soe-vf"
+      "soe-vf",
+      "enr-2026p"
      ],
-     "onNovBallot": true,
-     "notInResults": {
-      "url": "https://enr.electionsfl.org/LIB/4098/Summary/",
-      "source": "enr-2026g"
-     }
+     "onNovBallot": false,
+     "decided": "Erica Nobles Smith (won outright in the Aug 18 primary)",
+     "note": "Erica Nobles Smith won outright in the Aug 18 primary with 50.9%."
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -177675,13 +177692,12 @@
       "singletary"
      ],
      "sources": [
-      "soe-vf"
+      "soe-vf",
+      "enr-2026p"
      ],
-     "onNovBallot": true,
-     "notInResults": {
-      "url": "https://enr.electionsfl.org/LIB/4098/Summary/",
-      "source": "enr-2026g"
-     }
+     "onNovBallot": false,
+     "decided": "Melissa Kincaid (won outright in the Aug 18 primary)",
+     "note": "Melissa Kincaid won outright in the Aug 18 primary with 54.3%."
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -178244,6 +178260,13 @@
      "publisher": "Madison County Supervisor of Elections",
      "tier": 1,
      "accessed": "2026-11-08"
+    },
+    "enr-2026p": {
+     "title": "Madison County Supervisor of Elections: 2026 primary election results",
+     "url": "https://enr.electionsfl.org/MAD/4008/Summary/",
+     "publisher": "Madison County Supervisor of Elections",
+     "tier": 1,
+     "accessed": "2026-11-09"
     },
     "soe-itemized": {
      "title": "Itemized campaign contribution reports, 2026 election",
@@ -180617,13 +180640,12 @@
       "vickers"
      ],
      "sources": [
-      "soe-vf"
+      "soe-vf",
+      "enr-2026p"
      ],
-     "onNovBallot": true,
-     "notInResults": {
-      "url": "https://enr.electionsfl.org/MAD/4061/Summary/",
-      "source": "enr-2026g"
-     }
+     "onNovBallot": false,
+     "decided": "Gregory O. Vickers (won the Aug 18 Republican primary; the seat was not on the Nov 3 ballot)",
+     "note": "Gregory O. Vickers won the Aug 18 Republican primary with 37.8%."
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -180636,13 +180658,12 @@
       "waynevickers"
      ],
      "sources": [
-      "soe-vf"
+      "soe-vf",
+      "enr-2026p"
      ],
-     "onNovBallot": true,
-     "notInResults": {
-      "url": "https://enr.electionsfl.org/MAD/4061/Summary/",
-      "source": "enr-2026g"
-     }
+     "onNovBallot": false,
+     "decided": "Tyler Shadrick (won the Aug 18 Republican primary; the seat was not on the Nov 3 ballot)",
+     "note": "Tyler Shadrick won the Aug 18 Republican primary with 46.4%."
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -180694,13 +180715,12 @@
       "poore"
      ],
      "sources": [
-      "soe-vf"
+      "soe-vf",
+      "enr-2026p"
      ],
-     "onNovBallot": true,
-     "notInResults": {
-      "url": "https://enr.electionsfl.org/MAD/4061/Summary/",
-      "source": "enr-2026g"
-     }
+     "onNovBallot": false,
+     "decided": "Katie Knight (won outright in the Aug 18 primary)",
+     "note": "Katie Knight won outright in the Aug 18 primary with 62.5%."
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -230570,6 +230590,13 @@
      "tier": 1,
      "accessed": "2026-11-08"
     },
+    "enr-2026p": {
+     "title": "Okaloosa County Supervisor of Elections: 2026 primary election results",
+     "url": "https://enr.electionsfl.org/OKA/4026/Summary/",
+     "publisher": "Okaloosa County Supervisor of Elections",
+     "tier": 1,
+     "accessed": "2026-11-09"
+    },
     "soe-itemized": {
      "title": "Itemized campaign contribution reports, 2026 election",
      "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=okaloosa&el=220",
@@ -233996,13 +234023,12 @@
       "reed"
      ],
      "sources": [
-      "soe-vf"
+      "soe-vf",
+      "enr-2026p"
      ],
-     "onNovBallot": true,
-     "notInResults": {
-      "url": "https://enr.electionsfl.org/OKA/4092/Summary/",
-      "source": "enr-2026g"
-     }
+     "onNovBallot": false,
+     "decided": "Linda Evanchyk (won outright in the Aug 18 primary)",
+     "note": "Linda Evanchyk won outright in the Aug 18 primary with 51.5%."
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -234014,13 +234040,12 @@
       "west"
      ],
      "sources": [
-      "soe-vf"
+      "soe-vf",
+      "enr-2026p"
      ],
-     "onNovBallot": true,
-     "notInResults": {
-      "url": "https://enr.electionsfl.org/OKA/4092/Summary/",
-      "source": "enr-2026g"
-     }
+     "onNovBallot": false,
+     "decided": "Brett Hinely (won outright in the Aug 18 primary)",
+     "note": "Brett Hinely won outright in the Aug 18 primary with 59.5%."
     }
    ],
    "votes": [],
@@ -302769,6 +302794,13 @@
      "tier": 1,
      "accessed": "2026-11-08"
     },
+    "enr-2026p": {
+     "title": "Taylor County Supervisor of Elections: 2026 primary election results",
+     "url": "https://enr.electionsfl.org/TAY/4018/Summary/",
+     "publisher": "Taylor County Supervisor of Elections",
+     "tier": 1,
+     "accessed": "2026-11-09"
+    },
     "soe-itemized": {
      "title": "Itemized campaign contribution reports, 2026 election",
      "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=taylor&el=16",
@@ -304776,13 +304808,12 @@
       "slaughter"
      ],
      "sources": [
-      "soe-vf"
+      "soe-vf",
+      "enr-2026p"
      ],
-     "onNovBallot": true,
-     "notInResults": {
-      "url": "https://enr.electionsfl.org/TAY/4107/Summary/",
-      "source": "enr-2026g"
-     }
+     "onNovBallot": false,
+     "decided": "Wendy M. Slaughter (won the Aug 18 Republican primary; the seat was not on the Nov 3 ballot)",
+     "note": "Wendy M. Slaughter won the Aug 18 Republican primary with 53.8%."
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -304794,13 +304825,12 @@
       "davis"
      ],
      "sources": [
-      "soe-vf"
+      "soe-vf",
+      "enr-2026p"
      ],
-     "onNovBallot": true,
-     "notInResults": {
-      "url": "https://enr.electionsfl.org/TAY/4107/Summary/",
-      "source": "enr-2026g"
-     }
+     "onNovBallot": false,
+     "decided": "Bonnie Sue Agner (won outright in the Aug 18 primary)",
+     "note": "Bonnie Sue Agner won outright in the Aug 18 primary with 54.5%."
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -315179,6 +315209,13 @@
      "tier": 1,
      "accessed": "2026-11-08"
     },
+    "enr-2026p": {
+     "title": "Walton County Supervisor of Elections: 2026 primary election results",
+     "url": "https://enr.electionsfl.org/WAL/4027/Summary/",
+     "publisher": "Walton County Supervisor of Elections",
+     "tier": 1,
+     "accessed": "2026-11-09"
+    },
     "soe-itemized": {
      "title": "Itemized campaign contribution reports, 2026 election",
      "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=walton&el=42",
@@ -318068,13 +318105,12 @@
       "whitaker"
      ],
      "sources": [
-      "soe-vf"
+      "soe-vf",
+      "enr-2026p"
      ],
-     "onNovBallot": true,
-     "notInResults": {
-      "url": "https://enr.electionsfl.org/WAL/4091/Summary/",
-      "source": "enr-2026g"
-     }
+     "onNovBallot": false,
+     "decided": "Warren Whitaker (won the Aug 18 Republican primary; the seat was not on the Nov 3 ballot)",
+     "note": "Warren Whitaker won the Aug 18 Republican primary with 60.5%."
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -318085,13 +318121,12 @@
       "bagby"
      ],
      "sources": [
-      "soe-vf"
+      "soe-vf",
+      "enr-2026p"
      ],
-     "onNovBallot": true,
-     "notInResults": {
-      "url": "https://enr.electionsfl.org/WAL/4091/Summary/",
-      "source": "enr-2026g"
-     }
+     "onNovBallot": false,
+     "decided": "Jim Bagby (won the Aug 18 Republican primary; the seat was not on the Nov 3 ballot)",
+     "note": "Jim Bagby won the Aug 18 Republican primary with 37.8%."
     },
     {
      "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -391549,6 +391584,14 @@
    "after": "Cites Florida Statutes s. 125.01, the state law that sets every county commission's powers. The description itself did not change.",
    "why": "The description applies to every Florida county, so the source should too.",
    "sources": []
+  },
+  {
+   "date": "2026-11-09",
+   "subject": "14 seats in Dixie, Gilchrist, Liberty, Madison, Okaloosa, Taylor and Walton counties",
+   "before": "\"This seat isn't in the county's Nov 3 results, so it was most likely settled in the August primary or had only one qualified candidate. We're checking.\"",
+   "after": "Each seat now shows who won it in the Aug 18 primary, from each county's own primary results.",
+   "why": "Checked against each county Supervisor of Elections' official primary results.",
+   "source": "https://enr.electionsfl.org/MAD/4008/Summary/"
   }
  ],
  "zips": {

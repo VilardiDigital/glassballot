@@ -40,6 +40,13 @@
    "publisher": "Walton County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-11-08"
+  },
+  "enr-2026p": {
+   "title": "Walton County Supervisor of Elections: 2026 primary election results",
+   "url": "https://enr.electionsfl.org/WAL/4027/Summary/",
+   "publisher": "Walton County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-11-09"
   }
  },
  "people": [
@@ -336,9 +343,12 @@
     "whitaker"
    ],
    "sources": [
-    "soe-vf"
+    "soe-vf",
+    "enr-2026p"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Warren Whitaker (won the Aug 18 Republican primary; the seat was not on the Nov 3 ballot)",
+   "note": "Warren Whitaker won the Aug 18 Republican primary with 60.5%."
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -349,9 +359,12 @@
     "bagby"
    ],
    "sources": [
-    "soe-vf"
+    "soe-vf",
+    "enr-2026p"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Jim Bagby (won the Aug 18 Republican primary; the seat was not on the Nov 3 ballot)",
+   "note": "Jim Bagby won the Aug 18 Republican primary with 37.8%."
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",

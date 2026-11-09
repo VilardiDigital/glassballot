@@ -33,6 +33,13 @@
    "publisher": "Gilchrist County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-11-08"
+  },
+  "enr-2026p": {
+   "title": "Gilchrist County Supervisor of Elections: 2026 primary election results",
+   "url": "https://enr.electionsfl.org/GIL/3987/Summary/",
+   "publisher": "Gilchrist County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-11-09"
   }
  },
  "people": [
@@ -235,9 +242,12 @@
     "nessmith"
    ],
    "sources": [
-    "soe-vf"
+    "soe-vf",
+    "enr-2026p"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Cody NesSmith (won the Aug 18 Republican primary; the seat was not on the Nov 3 ballot)",
+   "note": "Cody NesSmith won the Aug 18 Republican primary with 49.4%."
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",

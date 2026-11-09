@@ -40,6 +40,13 @@
    "publisher": "Taylor County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-11-08"
+  },
+  "enr-2026p": {
+   "title": "Taylor County Supervisor of Elections: 2026 primary election results",
+   "url": "https://enr.electionsfl.org/TAY/4018/Summary/",
+   "publisher": "Taylor County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-11-09"
   }
  },
  "people": [
@@ -353,9 +360,12 @@
     "slaughter"
    ],
    "sources": [
-    "soe-vf"
+    "soe-vf",
+    "enr-2026p"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Wendy M. Slaughter (won the Aug 18 Republican primary; the seat was not on the Nov 3 ballot)",
+   "note": "Wendy M. Slaughter won the Aug 18 Republican primary with 53.8%."
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -367,9 +377,12 @@
     "davis"
    ],
    "sources": [
-    "soe-vf"
+    "soe-vf",
+    "enr-2026p"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Bonnie Sue Agner (won outright in the Aug 18 primary)",
+   "note": "Bonnie Sue Agner won outright in the Aug 18 primary with 54.5%."
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",

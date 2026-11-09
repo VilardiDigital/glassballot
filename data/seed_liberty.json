@@ -33,6 +33,13 @@
    "publisher": "Liberty County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-11-08"
+  },
+  "enr-2026p": {
+   "title": "Liberty County Supervisor of Elections: 2026 primary election results",
+   "url": "https://enr.electionsfl.org/LIB/4049/Summary/",
+   "publisher": "Liberty County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-11-09"
   }
  },
  "people": [
@@ -374,9 +381,12 @@
     "peddie"
    ],
    "sources": [
-    "soe-vf"
+    "soe-vf",
+    "enr-2026p"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Doyle Brown (won outright in the Aug 18 primary)",
+   "note": "Doyle Brown won outright in the Aug 18 primary with 54.7% in a primary open to all voters."
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -389,9 +399,12 @@
     "smith"
    ],
    "sources": [
-    "soe-vf"
+    "soe-vf",
+    "enr-2026p"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Erica Nobles Smith (won outright in the Aug 18 primary)",
+   "note": "Erica Nobles Smith won outright in the Aug 18 primary with 50.9%."
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -403,9 +416,12 @@
     "singletary"
    ],
    "sources": [
-    "soe-vf"
+    "soe-vf",
+    "enr-2026p"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Melissa Kincaid (won outright in the Aug 18 primary)",
+   "note": "Melissa Kincaid won outright in the Aug 18 primary with 54.3%."
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",

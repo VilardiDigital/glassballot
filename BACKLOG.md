@@ -48,15 +48,21 @@ Around elections it is a ballot guide, then a results guide.
       (`https://enr.votepinellas.gov/FL/Pinellas/127357/` then `current_ver.txt` and `{ver}/json/sum.json`), save it, and run
       `python -m tools.import_clarity pinellas sum.json --certified`. Also set `"certified": true` for pinellas in
       data/enr_ids.json. Then winners are seated automatically from Nov 17.
-- [ ] **Pinellas School Board D3 recount.** Margin about 0.2% (712 votes), inside both Florida recount thresholds.
-      Re-import Pinellas results after the recount and add a corrections entry if numbers change.
-- [ ] **Seats missing from county results (14).** The early-version counties list some seats that the county's Nov 3
-      results don't include (likely settled in August or unopposed): dixie, gilchrist, liberty, madison, okaloosa,
-      taylor, walton. Check each county's primary results and qualifying list, then mark the race
-      `onNovBallot: false` with `decided` and a source in the county seed.
+- [x] **Pinellas School Board D3 recount.** No recount: Dawn Peters told the elections office she would not contest
+      (Tampa Bay Times, Nov 4). The race page now says so. Margin after late ballots: 727 votes (0.21%), still unofficial.
+- [x] **Seats missing from county results (14).** All 14 were settled in the Aug 18 primary. Winners and sources
+      (each county's primary results on enr.electionsfl.org) are in data/decided_2026.json, which pipeline/bootstrap.py
+      applies on every nightly rebuild, so the automatic counties keep them. Logged on /corrections.
 - [ ] **Results readers for 5 counties** whose results sites we can't read yet: broward, escambia, martin, osceola,
       volusia. Find each Supervisor of Elections' results system and add it to data/enr_ids.json and
       pipeline/sources/results.py.
+
+- [ ] **Write-in candidates on race pages.** Hernando County Commission D4 lists Donald Bigelow as a candidate, but
+      the county reports his votes only as "Write-in" (11.8%), so his row shows no votes. Show write-in candidates'
+      votes under their own name when the county lists them as write-ins, or label the row "Write-in (Donald Bigelow)"
+      only if the county's own report says so. Check other counties for the same pattern.
+- [ ] **GitHub Actions on Node 20 is deprecated.** Every run warns that actions/checkout@v4 and actions/setup-python@v5
+      are being forced onto Node 24. Bump them to the current majors before GitHub turns Node 20 off.
 
 ### Next (December 2026 to spring 2027)
 
@@ -79,3 +85,6 @@ Each weekly check-in adds one short dated line here: what it checked, what it fi
 
 - 2026-11-04: Moved hosting from Netlify to Cloudflare Pages (free). Turned on the report form. Site switched to
   results mode. Pinellas general results added (browser import; site blocks GitHub). D6 seat-name bug fixed.
+- 2026-11-09: All nightly and results runs green Nov 2 to 8 (only expected "pinellas pull failed"; GitHub blocked).
+  Live site loads, Hillsborough/Pasco/Hernando updated Nov 8. Re-imported Pinellas (late ballots, no leader changes)
+  and noted the D3 recount was declined. Marked 14 seats settled in the August primary. Oct builds: about 93.

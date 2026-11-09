@@ -23,6 +23,13 @@
    "publisher": "Madison County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-11-08"
+  },
+  "enr-2026p": {
+   "title": "Madison County Supervisor of Elections: 2026 primary election results",
+   "url": "https://enr.electionsfl.org/MAD/4008/Summary/",
+   "publisher": "Madison County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-11-09"
   }
  },
  "people": [
@@ -405,9 +412,12 @@
     "vickers"
    ],
    "sources": [
-    "soe-vf"
+    "soe-vf",
+    "enr-2026p"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Gregory O. Vickers (won the Aug 18 Republican primary; the seat was not on the Nov 3 ballot)",
+   "note": "Gregory O. Vickers won the Aug 18 Republican primary with 37.8%."
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -420,9 +430,12 @@
     "waynevickers"
    ],
    "sources": [
-    "soe-vf"
+    "soe-vf",
+    "enr-2026p"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Tyler Shadrick (won the Aug 18 Republican primary; the seat was not on the Nov 3 ballot)",
+   "note": "Tyler Shadrick won the Aug 18 Republican primary with 46.4%."
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -448,9 +461,12 @@
     "poore"
    ],
    "sources": [
-    "soe-vf"
+    "soe-vf",
+    "enr-2026p"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Katie Knight (won outright in the Aug 18 primary)",
+   "note": "Katie Knight won outright in the Aug 18 primary with 62.5%."
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
