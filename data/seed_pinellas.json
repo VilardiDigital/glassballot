@@ -258,6 +258,13 @@
    "publisher": "Pinellas County Board of County Commissioners (Legistar)",
    "tier": 1,
    "accessed": "2024-12-17"
+  },
+  "tbt-sb3-recount": {
+   "title": "Campogni claims Pinellas school board seat as incumbent Peters drops out",
+   "url": "https://www.tampabay.com/news/education/2026/11/04/campogni-claims-pinellas-school-board-seat-incumbent-peters-drops-out/",
+   "publisher": "Tampa Bay Times",
+   "tier": 4,
+   "date": "2026-11-04"
   }
  },
  "people": [
@@ -1103,7 +1110,14 @@
    "sources": [
     "soe-offices",
     "bb-sb3"
-   ]
+   ],
+   "recount": {
+    "declined": true,
+    "text": "No recount: Dawn Peters told the county elections office she would not contest the result, so the machine recount that had been scheduled did not go ahead.",
+    "sources": [
+     "tbt-sb3-recount"
+    ]
+   }
   }
  ],
  "votes": [

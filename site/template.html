@@ -890,9 +890,10 @@ function countingNote(r) {
 
 // Florida law: a margin of 0.5% or less of the votes cast for the office means a machine recount (s. 102.141),
 // and 0.25% or less a manual count of overvotes and undervotes (s. 102.166), unless the trailing candidate declines in writing.
-function recountNote(x) {
+function recountNote(x, r) {
   const c = x.candidates; if (!x.counted || !x.total || c.length < 2) return "";
   const m = (c[0].votes - c[1].votes) / x.total * 100; if (m > 0.5) return "";
+  if (r && r.recount && r.recount.text) return `<p class="notice small" style="margin:4px 0"><span><b>Within recount range.</b> The gap is ${(c[0].votes - c[1].votes).toLocaleString()} votes (${m.toFixed(2)}%). ${esc(r.recount.text)} ${srcLinks(r.recount.sources)}</span></p>`;
   return `<p class="notice small" style="margin:4px 0"><span><b>Close enough for a recount.</b> The gap is ${(c[0].votes - c[1].votes).toLocaleString()} votes (${m.toFixed(2)}%). Florida law calls for a machine recount when the margin is 0.5% or less${m <= 0.25 ? ", and a hand review of over- and undervotes at 0.25% or less" : ""}, unless the trailing candidate declines in writing. We'll show any new count as soon as the county posts it.</span></p>`;
 }
 const NOT_IN_RESULTS = "This seat isn't in the county's Nov 3 results, so it was most likely settled in the August primary or had only one qualified candidate. We're checking and will update this page.";
@@ -903,7 +904,7 @@ function resultsBlock(r, big) {
   const top = x.candidates[0];
   const head = x.counted ? (x.status === "official" ? `<b>Winner: ${esc((P[top.person] || top).name)}</b>` : `<b>${esc((P[top.person] || top).name)} leads with all precincts counted</b>`) : `<b>${esc((P[top.person] || top).name)} leads</b>`;
   return `<div class="results${big ? " big" : ""}"><div class="between" style="gap:8px;flex-wrap:wrap">${head}<span class="tiny muted">${st}${prog ? " · " + prog : ""}</span></div>
-    ${recountNote(x)}<ul class="plain rlist">${x.candidates.map(c => `<li><span class="rn">${big && c.person && P[c.person] ? `<a href="${href("p/" + c.person)}">${esc(P[c.person].name)}</a>` : esc(c.person && P[c.person] ? P[c.person].name : c.name)}</span><span class="rb"><span style="width:${Math.max(1, c.pct)}%"></span></span><b class="num">${c.pct.toFixed(1)}%</b><span class="num muted small">${c.votes.toLocaleString()}</span></li>`).join("")}</ul>
+    ${recountNote(x, r)}<ul class="plain rlist">${x.candidates.map(c => `<li><span class="rn">${big && c.person && P[c.person] ? `<a href="${href("p/" + c.person)}">${esc(P[c.person].name)}</a>` : esc(c.person && P[c.person] ? P[c.person].name : c.name)}</span><span class="rb"><span style="width:${Math.max(1, c.pct)}%"></span></span><b class="num">${c.pct.toFixed(1)}%</b><span class="num muted small">${c.votes.toLocaleString()}</span></li>`).join("")}</ul>
     <p class="tiny muted">${x.counted && x.status !== "official" ? "Every precinct is in, but counties keep counting mail and provisional ballots for several days, and results become official after the canvassing board certifies them. " : !x.counted ? "Still counting. We don't call races; the county does. " : ""}From the ${esc(C.county.name)} Supervisor of Elections.${big ? " " + srcLinks([x.source]) : ""}</p></div>`;
 }
 
