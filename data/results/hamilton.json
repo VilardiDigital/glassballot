@@ -1,7 +1,7 @@
 {
  "county": "hamilton",
  "url": "https://enr.electionsfl.org/HAM/4101/Summary/",
- "pulledAt": "2026-11-09T02:58:07Z",
+ "pulledAt": "2026-11-09T19:50:06Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -13,14 +13,14 @@
     {
      "name": "Travis Erixton",
      "party": "REP",
-     "pct": 55.26,
-     "votes": 557
+     "pct": 55.25,
+     "votes": 558
     },
     {
      "name": "Annie Pinello",
      "party": "DEM",
-     "pct": 44.74,
-     "votes": 451
+     "pct": 44.75,
+     "votes": 452
     }
    ]
   },
@@ -32,14 +32,14 @@
     {
      "name": "Kizzy L. Burch",
      "party": "NON",
-     "pct": 46.75,
-     "votes": 461
+     "pct": 46.76,
+     "votes": 462
     },
     {
      "name": "Larry Ogburn Sr.",
      "party": "NON",
-     "pct": 53.25,
-     "votes": 525
+     "pct": 53.24,
+     "votes": 526
     }
    ]
   }
@@ -53,14 +53,14 @@
     {
      "name": "Ashley Moody",
      "party": "REP",
-     "pct": 65.08,
-     "votes": 2700
+     "pct": 65.09,
+     "votes": 2704
     },
     {
      "name": "Angie Nixon",
      "party": "DEM",
-     "pct": 34.35,
-     "votes": 1425
+     "pct": 34.33,
+     "votes": 1426
     },
     {
      "name": "Neil J. Gillespie",
@@ -78,14 +78,14 @@
     {
      "name": "Kat Cammack",
      "party": "REP",
-     "pct": 64.58,
-     "votes": 2662
+     "pct": 64.6,
+     "votes": 2666
     },
     {
      "name": "Seth Harp",
      "party": "DEM",
-     "pct": 33.53,
-     "votes": 1382
+     "pct": 33.51,
+     "votes": 1383
     },
     {
      "name": "Mike Klein",
@@ -103,14 +103,14 @@
     {
      "name": "Byron Donalds",
      "party": "REP",
-     "pct": 64.3,
-     "votes": 2649
+     "pct": 64.32,
+     "votes": 2653
     },
     {
      "name": "David Jolly",
      "party": "DEM",
-     "pct": 34.0,
-     "votes": 1401
+     "pct": 33.99,
+     "votes": 1402
     },
     {
      "name": "Scott Eckhard Jewett",
@@ -164,14 +164,14 @@
     {
      "name": "James Uthmeier",
      "party": "REP",
-     "pct": 65.47,
-     "votes": 2687
+     "pct": 65.49,
+     "votes": 2691
     },
     {
      "name": "Jose Javier Rodriguez",
      "party": "DEM",
-     "pct": 34.53,
-     "votes": 1417
+     "pct": 34.51,
+     "votes": 1418
     }
    ]
   },
@@ -183,14 +183,14 @@
     {
      "name": "Blaise Ingoglia",
      "party": "REP",
-     "pct": 65.18,
-     "votes": 2658
+     "pct": 65.2,
+     "votes": 2662
     },
     {
      "name": "Annette Taddeo",
      "party": "DEM",
-     "pct": 34.82,
-     "votes": 1420
+     "pct": 34.8,
+     "votes": 1421
     }
    ]
   },
@@ -202,14 +202,14 @@
     {
      "name": "Wilton Simpson",
      "party": "REP",
-     "pct": 64.61,
-     "votes": 2642
+     "pct": 64.63,
+     "votes": 2646
     },
     {
      "name": "Joey Mendoza Atkins",
      "party": "DEM",
-     "pct": 35.14,
-     "votes": 1437
+     "pct": 35.12,
+     "votes": 1438
     },
     {
      "name": "Write-in",
@@ -227,14 +227,14 @@
     {
      "name": "Travis Erixton",
      "party": "REP",
-     "pct": 55.26,
-     "votes": 557
+     "pct": 55.25,
+     "votes": 558
     },
     {
      "name": "Annie Pinello",
      "party": "DEM",
-     "pct": 44.74,
-     "votes": 451
+     "pct": 44.75,
+     "votes": 452
     }
    ]
   },
@@ -246,14 +246,14 @@
     {
      "name": "Yes",
      "party": "NON",
-     "pct": 59.53,
-     "votes": 2271
+     "pct": 59.54,
+     "votes": 2274
     },
     {
      "name": "No",
      "party": "NON",
-     "pct": 40.47,
-     "votes": 1544
+     "pct": 40.46,
+     "votes": 1545
     }
    ]
   },
@@ -266,13 +266,13 @@
      "name": "Yes",
      "party": "NON",
      "pct": 57.79,
-     "votes": 2188
+     "votes": 2191
     },
     {
      "name": "No",
      "party": "NON",
      "pct": 42.21,
-     "votes": 1598
+     "votes": 1600
     }
    ]
   },
@@ -284,13 +284,13 @@
     {
      "name": "Yes",
      "party": "NON",
-     "pct": 60.38,
-     "votes": 2275
+     "pct": 60.43,
+     "votes": 2280
     },
     {
      "name": "No",
      "party": "NON",
-     "pct": 39.62,
+     "pct": 39.57,
      "votes": 1493
     }
    ]
@@ -304,13 +304,13 @@
      "name": "Yes",
      "party": "NON",
      "pct": 58.87,
-     "votes": 2217
+     "votes": 2220
     },
     {
      "name": "No",
      "party": "NON",
      "pct": 41.13,
-     "votes": 1549
+     "votes": 1551
     }
    ]
   },
@@ -322,13 +322,13 @@
     {
      "name": "Yes",
      "party": "NON",
-     "pct": 58.6,
-     "votes": 2198
+     "pct": 58.65,
+     "votes": 2203
     },
     {
      "name": "No",
      "party": "NON",
-     "pct": 41.4,
+     "pct": 41.35,
      "votes": 1553
     }
    ]
@@ -341,14 +341,14 @@
     {
      "name": "Yes",
      "party": "NON",
-     "pct": 60.52,
-     "votes": 2278
+     "pct": 60.55,
+     "votes": 2282
     },
     {
      "name": "No",
      "party": "NON",
-     "pct": 39.48,
-     "votes": 1486
+     "pct": 39.45,
+     "votes": 1487
     }
    ]
   },
@@ -360,14 +360,14 @@
     {
      "name": "Kizzy L. Burch",
      "party": "NON",
-     "pct": 46.75,
-     "votes": 461
+     "pct": 46.76,
+     "votes": 462
     },
     {
      "name": "Larry Ogburn Sr.",
      "party": "NON",
-     "pct": 53.25,
-     "votes": 525
+     "pct": 53.24,
+     "votes": 526
     }
    ]
   },
@@ -379,14 +379,14 @@
     {
      "name": "Yes",
      "party": "NON",
-     "pct": 45.04,
-     "votes": 1738
+     "pct": 45.02,
+     "votes": 1739
     },
     {
      "name": "No",
      "party": "NON",
-     "pct": 54.96,
-     "votes": 2121
+     "pct": 54.98,
+     "votes": 2124
     }
    ]
   },
@@ -398,14 +398,14 @@
     {
      "name": "Yes",
      "party": "NON",
-     "pct": 70.11,
-     "votes": 2752
+     "pct": 70.07,
+     "votes": 2753
     },
     {
      "name": "No",
      "party": "NON",
-     "pct": 29.89,
-     "votes": 1173
+     "pct": 29.93,
+     "votes": 1176
     }
    ]
   },
@@ -417,14 +417,14 @@
     {
      "name": "Yes",
      "party": "NON",
-     "pct": 66.23,
-     "votes": 2624
+     "pct": 66.22,
+     "votes": 2627
     },
     {
      "name": "No",
      "party": "NON",
-     "pct": 33.77,
-     "votes": 1338
+     "pct": 33.78,
+     "votes": 1340
     }
    ]
   }

@@ -18,32 +18,32 @@
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=dixie&el=13",
    "publisher": "Dixie County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-08"
+   "accessed": "2026-11-09"
   },
   "soe-vf-2024": {
    "title": "Dixie County Supervisor of Elections: 2024 candidates",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=dixie&el=12",
    "publisher": "Dixie County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-08"
+   "accessed": "2026-11-09"
   },
   "soe-vf-2022": {
    "title": "Dixie County Supervisor of Elections: 2022 candidates",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=dixie&el=11",
    "publisher": "Dixie County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-08"
-  },
-  "soe-cf-dixie": {
-   "title": "Dixie Supervisor of Elections campaign finance reports, 2026 cycle",
-   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=dixie&el=13",
-   "publisher": "Dixie County Supervisor of Elections",
-   "tier": 1,
-   "accessed": "2026-11-08"
+   "accessed": "2026-11-09"
   },
   "enr-2026p": {
    "title": "Dixie County Supervisor of Elections: 2026 primary election results",
    "url": "https://enr.electionsfl.org/DIX/3988/Summary/",
+   "publisher": "Dixie County Supervisor of Elections",
+   "tier": 1,
+   "accessed": "2026-11-09"
+  },
+  "soe-cf-dixie": {
+   "title": "Dixie Supervisor of Elections campaign finance reports, 2026 cycle",
+   "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=dixie&el=13",
    "publisher": "Dixie County Supervisor of Elections",
    "tier": 1,
    "accessed": "2026-11-09"
@@ -138,7 +138,7 @@
     ],
     "raised": [
      {
-      "value": "$5,550 in contributions, plus $200 in-kind (as of Nov 8, 2026)",
+      "value": "$5,550 in contributions, plus $200 in-kind (as of Nov 9, 2026)",
       "source": "soe-cf-dixie"
      }
     ]
@@ -211,7 +211,7 @@
     ],
     "raised": [
      {
-      "value": "$7,850 in contributions, plus $15.40 in-kind (as of Nov 8, 2026)",
+      "value": "$7,850 in contributions, plus $15.40 in-kind (as of Nov 9, 2026)",
       "source": "soe-cf-dixie"
      }
     ]
@@ -251,7 +251,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$220.97 in contributions (as of Nov 8, 2026)",
+      "value": "$220.97 in contributions (as of Nov 9, 2026)",
       "source": "soe-cf-dixie"
      }
     ]
@@ -286,7 +286,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$50 in contributions (as of Nov 8, 2026)",
+      "value": "$50 in contributions (as of Nov 9, 2026)",
       "source": "soe-cf-dixie"
      }
     ]
