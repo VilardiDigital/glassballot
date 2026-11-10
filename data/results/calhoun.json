@@ -1,7 +1,7 @@
 {
  "county": "calhoun",
  "url": "https://enr.electionsfl.org/CAL/4054/Summary/",
- "pulledAt": "2026-11-10T04:47:49Z",
+ "pulledAt": "2026-11-10T17:03:58Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -46,14 +46,14 @@
     {
      "name": "Ashley Moody",
      "party": "REP",
-     "pct": 79.47,
+     "pct": 79.45,
      "votes": 3441
     },
     {
      "name": "Angie Nixon",
      "party": "DEM",
-     "pct": 18.71,
-     "votes": 810
+     "pct": 18.73,
+     "votes": 811
     },
     {
      "name": "Neil J. Gillespie",
@@ -83,14 +83,14 @@
     {
      "name": "Austin Rogers",
      "party": "REP",
-     "pct": 77.23,
+     "pct": 77.21,
      "votes": 3344
     },
     {
      "name": "Amanda Marie Green",
      "party": "DEM",
-     "pct": 21.22,
-     "votes": 919
+     "pct": 21.24,
+     "votes": 920
     },
     {
      "name": "OverVotes",
@@ -114,14 +114,14 @@
     {
      "name": "Byron Donalds",
      "party": "REP",
-     "pct": 77.92,
+     "pct": 77.9,
      "votes": 3374
     },
     {
      "name": "David Jolly",
      "party": "DEM",
-     "pct": 19.26,
-     "votes": 834
+     "pct": 19.28,
+     "votes": 835
     },
     {
      "name": "Scott Eckhard Jewett",
@@ -187,14 +187,14 @@
     {
      "name": "James Uthmeier",
      "party": "REP",
-     "pct": 79.24,
+     "pct": 79.22,
      "votes": 3431
     },
     {
      "name": "Jose Javier Rodriguez",
      "party": "DEM",
-     "pct": 18.87,
-     "votes": 817
+     "pct": 18.89,
+     "votes": 818
     },
     {
      "name": "OverVotes",
@@ -218,14 +218,14 @@
     {
      "name": "Blaise Ingoglia",
      "party": "REP",
-     "pct": 78.48,
+     "pct": 78.46,
      "votes": 3398
     },
     {
      "name": "Annette Taddeo",
      "party": "DEM",
-     "pct": 19.21,
-     "votes": 832
+     "pct": 19.23,
+     "votes": 833
     },
     {
      "name": "OverVotes",
@@ -249,14 +249,14 @@
     {
      "name": "Wilton Simpson",
      "party": "REP",
-     "pct": 79.42,
+     "pct": 79.4,
      "votes": 3439
     },
     {
      "name": "Joey Mendoza Atkins",
      "party": "DEM",
-     "pct": 19.01,
-     "votes": 823
+     "pct": 19.03,
+     "votes": 824
     },
     {
      "name": "Write-in",
@@ -286,14 +286,14 @@
     {
      "name": "Jay Trumbull",
      "party": "REP",
-     "pct": 80.21,
+     "pct": 80.19,
      "votes": 3473
     },
     {
      "name": "Lauren Donahoo",
      "party": "DEM",
-     "pct": 18.45,
-     "votes": 799
+     "pct": 18.47,
+     "votes": 800
     },
     {
      "name": "OverVotes",
@@ -317,14 +317,14 @@
     {
      "name": "Shane Abbott",
      "party": "REP",
-     "pct": 79.75,
+     "pct": 79.73,
      "votes": 3453
     },
     {
      "name": "Alex Finney",
      "party": "DEM",
-     "pct": 18.11,
-     "votes": 784
+     "pct": 18.13,
+     "votes": 785
     },
     {
      "name": "OverVotes",
@@ -379,14 +379,14 @@
     {
      "name": "Yes",
      "party": "NOP",
-     "pct": 52.91,
+     "pct": 52.9,
      "votes": 2291
     },
     {
      "name": "No",
      "party": "NOP",
-     "pct": 37.09,
-     "votes": 1606
+     "pct": 37.1,
+     "votes": 1607
     },
     {
      "name": "OverVotes",
@@ -410,14 +410,14 @@
     {
      "name": "Yes",
      "party": "NOP",
-     "pct": 52.12,
+     "pct": 52.11,
      "votes": 2257
     },
     {
      "name": "No",
      "party": "NOP",
-     "pct": 37.32,
-     "votes": 1616
+     "pct": 37.34,
+     "votes": 1617
     },
     {
      "name": "OverVotes",
@@ -441,14 +441,14 @@
     {
      "name": "Yes",
      "party": "NOP",
-     "pct": 53.67,
+     "pct": 53.66,
      "votes": 2324
     },
     {
      "name": "No",
      "party": "NOP",
-     "pct": 35.27,
-     "votes": 1527
+     "pct": 35.28,
+     "votes": 1528
     },
     {
      "name": "OverVotes",
@@ -459,7 +459,7 @@
     {
      "name": "UnderVotes",
      "party": "STATS",
-     "pct": 11.02,
+     "pct": 11.01,
      "votes": 477
     }
    ]
@@ -472,14 +472,14 @@
     {
      "name": "Yes",
      "party": "NOP",
-     "pct": 53.12,
+     "pct": 53.11,
      "votes": 2300
     },
     {
      "name": "No",
      "party": "NOP",
-     "pct": 35.98,
-     "votes": 1558
+     "pct": 36.0,
+     "votes": 1559
     },
     {
      "name": "OverVotes",
@@ -503,14 +503,14 @@
     {
      "name": "Yes",
      "party": "NOP",
-     "pct": 52.75,
+     "pct": 52.74,
      "votes": 2284
     },
     {
      "name": "No",
      "party": "NOP",
-     "pct": 36.56,
-     "votes": 1583
+     "pct": 36.57,
+     "votes": 1584
     },
     {
      "name": "OverVotes",
@@ -521,7 +521,7 @@
     {
      "name": "UnderVotes",
      "party": "STATS",
-     "pct": 10.65,
+     "pct": 10.64,
      "votes": 461
     }
    ]
@@ -534,14 +534,14 @@
     {
      "name": "Yes",
      "party": "NOP",
-     "pct": 55.03,
+     "pct": 55.02,
      "votes": 2383
     },
     {
      "name": "No",
      "party": "NOP",
-     "pct": 34.39,
-     "votes": 1489
+     "pct": 34.4,
+     "votes": 1490
     },
     {
      "name": "OverVotes",
@@ -565,14 +565,14 @@
     {
      "name": "Yes",
      "party": "NOP",
-     "pct": 41.11,
+     "pct": 41.1,
      "votes": 1780
     },
     {
      "name": "No",
      "party": "NOP",
-     "pct": 53.05,
-     "votes": 2297
+     "pct": 53.06,
+     "votes": 2298
     },
     {
      "name": "OverVotes",
@@ -596,14 +596,14 @@
     {
      "name": "Yes",
      "party": "NOP",
-     "pct": 71.06,
+     "pct": 71.05,
      "votes": 3077
     },
     {
      "name": "No",
      "party": "NOP",
-     "pct": 24.6,
-     "votes": 1065
+     "pct": 24.61,
+     "votes": 1066
     },
     {
      "name": "OverVotes",
@@ -627,14 +627,14 @@
     {
      "name": "Yes",
      "party": "NOP",
-     "pct": 64.13,
+     "pct": 64.12,
      "votes": 2777
     },
     {
      "name": "No",
      "party": "NOP",
-     "pct": 32.38,
-     "votes": 1402
+     "pct": 32.39,
+     "votes": 1403
     },
     {
      "name": "OverVotes",

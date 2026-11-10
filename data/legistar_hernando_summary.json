@@ -2,10 +2,10 @@
  "source": "Hernando County Legistar",
  "api": "https://webapi.legistar.com/v1/hernandocountyfl",
  "calendarUrl": "https://hernandocountyfl.legistar.com/Calendar.aspx",
- "pulledAt": "2026-11-09T19:57:15Z",
+ "pulledAt": "2026-11-10T17:11:30Z",
  "scope": "Nov 19, 2024",
  "totals": {
-  "meetings": 77,
+  "meetings": 78,
   "meetingsWithRollCalls": 73,
   "items": 1861,
   "rollCalls": 1851,
@@ -140,7 +140,8 @@
   "1332": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?ID=1332&GUID=21C0C945-D7DC-46C3-B00B-F82DAE7DF072",
   "1393": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?ID=1393&GUID=0ECE591E-2EAE-411B-8D1E-9289B24A7E2E",
   "1394": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?ID=1394&GUID=BBE5F742-7A30-402B-B45E-73CED40727C1",
-  "1575": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?ID=1575&GUID=6FB4572B-375D-4A3A-92E3-7DB99516F4F0"
+  "1575": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?ID=1575&GUID=6FB4572B-375D-4A3A-92E3-7DB99516F4F0",
+  "1496": "https://hernandocountyfl.legistar.com/MeetingDetail.aspx?ID=1496&GUID=0F7932F0-1FD9-4CAC-AAC0-A995D11F4C28"
  },
  "matches": {},
  "splitVotes": [
