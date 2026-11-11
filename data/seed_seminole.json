@@ -18,21 +18,21 @@
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=seminole&el=116",
    "publisher": "Seminole County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-10"
+   "accessed": "2026-11-11"
   },
   "legistar": {
    "title": "Seminole County Board of County Commissioners meeting records (Legistar)",
    "url": "https://seminolecountyfl.legistar.com/Calendar.aspx",
    "publisher": "Seminole County Board of County Commissioners",
    "tier": 1,
-   "accessed": "2026-11-10"
+   "accessed": "2026-11-11"
   },
   "soe-cf-seminole": {
    "title": "Seminole Supervisor of Elections campaign finance reports, 2026 cycle",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=seminole&el=116",
    "publisher": "Seminole County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-10"
+   "accessed": "2026-11-11"
   }
  },
  "people": [
@@ -94,20 +94,6 @@
   },
   {
    "id": "zembower",
-   "name": "Commissioner Jay Zembower",
-   "claims": {
-    "inOfficeSince": [
-     {
-      "value": "2025",
-      "source": "legistar"
-     }
-    ]
-   },
-   "office": "County Commissioner",
-   "status": "incumbent"
-  },
-  {
-   "id": "jayzembower",
    "name": "Jay Zembower",
    "claims": {
     "party": [
@@ -122,7 +108,7 @@
     ],
     "raised": [
      {
-      "value": "$86,050 in contributions (as of Nov 10, 2026)",
+      "value": "$86,050 in contributions (as of Nov 11, 2026)",
       "source": "soe-cf-seminole"
      }
     ]
@@ -152,7 +138,7 @@
     ],
     "raised": [
      {
-      "value": "$128,135 in contributions, plus $76,438.82 in-kind (as of Nov 10, 2026)",
+      "value": "$128,135 in contributions, plus $76,438.82 in-kind (as of Nov 11, 2026)",
       "source": "soe-cf-seminole"
      }
     ]
@@ -182,7 +168,7 @@
     ],
     "raised": [
      {
-      "value": "$28,980.98 in contributions, plus $870 in-kind (as of Nov 10, 2026)",
+      "value": "$28,980.98 in contributions, plus $870 in-kind (as of Nov 11, 2026)",
       "source": "soe-cf-seminole"
      }
     ]
@@ -202,7 +188,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$80,852.41 in contributions, plus $9,032.31 in-kind (as of Nov 10, 2026)",
+      "value": "$80,852.41 in contributions, plus $9,032.31 in-kind (as of Nov 11, 2026)",
       "source": "soe-cf-seminole"
      }
     ]
@@ -223,7 +209,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$6,358 in contributions, plus $120 in-kind (as of Nov 10, 2026)",
+      "value": "$6,358 in contributions, plus $120 in-kind (as of Nov 11, 2026)",
       "source": "soe-cf-seminole"
      }
     ]
@@ -244,7 +230,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$23,995.73 in contributions, plus $395 in-kind (as of Nov 10, 2026)",
+      "value": "$23,995.73 in contributions, plus $395 in-kind (as of Nov 11, 2026)",
       "source": "soe-cf-seminole"
      }
     ]
@@ -265,7 +251,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$26,724 in contributions, plus $1,749.88 in-kind (as of Nov 10, 2026)",
+      "value": "$26,724 in contributions, plus $1,749.88 in-kind (as of Nov 11, 2026)",
       "source": "soe-cf-seminole"
      }
     ]
@@ -286,7 +272,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$56,507.97 in contributions, plus $5,850.66 in-kind (as of Nov 10, 2026)",
+      "value": "$56,507.97 in contributions, plus $5,850.66 in-kind (as of Nov 11, 2026)",
       "source": "soe-cf-seminole"
      }
     ]
@@ -307,7 +293,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$10,641.24 in contributions (as of Nov 10, 2026)",
+      "value": "$10,641.24 in contributions (as of Nov 11, 2026)",
       "source": "soe-cf-seminole"
      }
     ]
@@ -330,7 +316,7 @@
    "title": "County Commission, District 2",
    "office": "County Commissioner, District 2",
    "people": [
-    "jayzembower"
+    "zembower"
    ],
    "sources": [
     "soe-vf"

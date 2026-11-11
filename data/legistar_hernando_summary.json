@@ -2,54 +2,54 @@
  "source": "Hernando County Legistar",
  "api": "https://webapi.legistar.com/v1/hernandocountyfl",
  "calendarUrl": "https://hernandocountyfl.legistar.com/Calendar.aspx",
- "pulledAt": "2026-11-10T17:11:30Z",
+ "pulledAt": "2026-11-11T17:14:04Z",
  "scope": "Nov 19, 2024",
  "totals": {
   "meetings": 78,
-  "meetingsWithRollCalls": 73,
-  "items": 1861,
-  "rollCalls": 1851,
+  "meetingsWithRollCalls": 74,
+  "items": 1877,
+  "rollCalls": 1867,
   "splitRollCalls": 78
  },
  "stats": {
   "campbell": {
-   "aye": 1834,
+   "aye": 1850,
    "nay": 15,
    "absent": 2,
    "abstain": 0,
-   "meetingsHeld": 73,
+   "meetingsHeld": 74,
    "meetingsMissed": 0
   },
   "amsler": {
-   "aye": 1779,
+   "aye": 1795,
    "nay": 31,
    "absent": 41,
    "abstain": 0,
-   "meetingsHeld": 73,
+   "meetingsHeld": 74,
    "meetingsMissed": 3
   },
   "champion": {
-   "aye": 1719,
+   "aye": 1735,
    "nay": 36,
    "absent": 96,
    "abstain": 0,
-   "meetingsHeld": 73,
+   "meetingsHeld": 74,
    "meetingsMissed": 5
   },
   "allocco": {
-   "aye": 1780,
+   "aye": 1796,
    "nay": 22,
    "absent": 49,
    "abstain": 0,
-   "meetingsHeld": 73,
+   "meetingsHeld": 74,
    "meetingsMissed": 1
   },
   "mitten": {
-   "aye": 161,
+   "aye": 177,
    "nay": 1,
    "absent": 0,
    "abstain": 0,
-   "meetingsHeld": 9,
+   "meetingsHeld": 10,
    "meetingsMissed": 0
   },
   "hawkins": {
