@@ -1,7 +1,7 @@
 {
  "county": "miamidade",
  "url": "https://enr.electionsfl.org/DAD/4087/Summary/",
- "pulledAt": "2026-11-10T20:36:59Z",
+ "pulledAt": "2026-11-11T03:00:01Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -148,25 +148,6 @@
      "party": "NPA",
      "pct": 1.0,
      "votes": 1191
-    }
-   ]
-  },
-  {
-   "office": "Representative Congress District 27",
-   "reported": 230,
-   "precincts": 230,
-   "candidates": [
-    {
-     "name": "Maria Elvira Salazar",
-     "party": "REP",
-     "pct": 50.22,
-     "votes": 124528
-    },
-    {
-     "name": "Eliott Rodriguez",
-     "party": "DEM",
-     "pct": 49.78,
-     "votes": 123438
     }
    ]
   },
