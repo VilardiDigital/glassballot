@@ -1,10 +1,10 @@
 {
  "source": "legistar",
  "api": "https://webapi.legistar.com/v1/pinellas",
- "pulledAt": "2026-11-11T17:12:26Z",
+ "pulledAt": "2026-11-12T17:41:09Z",
  "scope": "Board of County Commissioners regular and special meetings, Nov 19, 2024 to Oct 22, 2026 (the current seven members)",
  "totals": {
-  "meetings": 44,
+  "meetings": 45,
   "meetingsWithRollCalls": 38,
   "items": 1382,
   "rollCalls": 1302,
@@ -130,7 +130,8 @@
   "10049": "https://pinellas.legistar.com/MeetingDetail.aspx?ID=10049&GUID=48E41BF4-B386-4826-AB4D-680C32333068",
   "10047": "https://pinellas.legistar.com/MeetingDetail.aspx?ID=10047&GUID=3AF3C500-AAFB-465E-8ECD-C1318152572D",
   "10045": "https://pinellas.legistar.com/MeetingDetail.aspx?ID=10045&GUID=F4EF58C6-4D34-4009-9BD4-9869744C1392",
-  "10159": "https://pinellas.legistar.com/MeetingDetail.aspx?ID=10159&GUID=AA508358-0EF2-4871-A0A3-D225F5FF28DB"
+  "10159": "https://pinellas.legistar.com/MeetingDetail.aspx?ID=10159&GUID=AA508358-0EF2-4871-A0A3-D225F5FF28DB",
+  "10174": "https://pinellas.legistar.com/MeetingDetail.aspx?ID=10174&GUID=728756A7-12EE-49A7-A845-27A17CA6D6A4"
  },
  "matches": {
   "rays-bonds": {
