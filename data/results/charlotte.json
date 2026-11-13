@@ -1,7 +1,7 @@
 {
  "county": "charlotte",
  "url": "https://enr.electionsfl.org/CHA/4062/Summary/",
- "pulledAt": "2026-11-13T17:13:42Z",
+ "pulledAt": "2026-11-13T20:39:08Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -14,13 +14,13 @@
      "name": "Kim Amontree",
      "party": "REP",
      "pct": 65.55,
-     "votes": 63374
+     "votes": 63376
     },
     {
      "name": "Michael T. Melton",
      "party": "NPA",
      "pct": 34.45,
-     "votes": 33301
+     "votes": 33307
     }
    ]
   }
@@ -35,13 +35,13 @@
      "name": "Ashley Moody",
      "party": "REP",
      "pct": 66.05,
-     "votes": 66411
+     "votes": 66414
     },
     {
      "name": "Angie Nixon",
      "party": "DEM",
-     "pct": 32.66,
-     "votes": 32839
+     "pct": 32.67,
+     "votes": 32847
     },
     {
      "name": "Neil J. Gillespie",
@@ -59,19 +59,19 @@
     {
      "name": "Greg Steube",
      "party": "REP",
-     "pct": 65.79,
-     "votes": 65987
+     "pct": 65.78,
+     "votes": 65990
     },
     {
      "name": "Matthew Montavon",
      "party": "DEM",
      "pct": 32.62,
-     "votes": 32718
+     "votes": 32726
     },
     {
      "name": "Michael J. Quirk",
      "party": "NPA",
-     "pct": 1.6,
+     "pct": 1.59,
      "votes": 1600
     }
    ]
@@ -84,14 +84,14 @@
     {
      "name": "Byron Donalds Bryan Avila",
      "party": "REP",
-     "pct": 65.88,
-     "votes": 66241
+     "pct": 65.87,
+     "votes": 66243
     },
     {
      "name": "David Jolly Gwen Graham",
      "party": "DEM",
-     "pct": 32.57,
-     "votes": 32753
+     "pct": 32.58,
+     "votes": 32759
     },
     {
      "name": "Scott Eckhard Jewett Nicole Skelly",
@@ -146,13 +146,13 @@
      "name": "James Uthmeier",
      "party": "REP",
      "pct": 67.24,
-     "votes": 66728
+     "votes": 66730
     },
     {
      "name": "Jose Javier Rodriguez",
      "party": "DEM",
      "pct": 32.76,
-     "votes": 32506
+     "votes": 32512
     }
    ]
   },
@@ -165,13 +165,13 @@
      "name": "Blaise Ingoglia",
      "party": "REP",
      "pct": 66.0,
-     "votes": 65680
+     "votes": 65683
     },
     {
      "name": "Annette Taddeo",
      "party": "DEM",
      "pct": 34.0,
-     "votes": 33836
+     "votes": 33841
     }
    ]
   },
@@ -184,13 +184,13 @@
      "name": "Wilton Simpson",
      "party": "REP",
      "pct": 66.2,
-     "votes": 65850
+     "votes": 65853
     },
     {
      "name": "Joey Mendoza Atkins",
      "party": "DEM",
-     "pct": 33.5,
-     "votes": 33324
+     "pct": 33.51,
+     "votes": 33329
     },
     {
      "name": "Write-in",
@@ -208,14 +208,14 @@
     {
      "name": "Danny Nix Jr",
      "party": "REP",
-     "pct": 65.4,
+     "pct": 65.39,
      "votes": 38059
     },
     {
      "name": "Cynthia L. Butler",
      "party": "DEM",
-     "pct": 34.6,
-     "votes": 20139
+     "pct": 34.61,
+     "votes": 20140
     }
    ]
   },
@@ -227,14 +227,14 @@
     {
      "name": "Vanessa Oliver",
      "party": "REP",
-     "pct": 66.83,
-     "votes": 27485
+     "pct": 66.82,
+     "votes": 27488
     },
     {
      "name": "Phillip Ray Carter",
      "party": "DEM",
-     "pct": 33.17,
-     "votes": 13643
+     "pct": 33.18,
+     "votes": 13647
     }
    ]
   },
@@ -247,13 +247,13 @@
      "name": "Kim Amontree",
      "party": "REP",
      "pct": 65.55,
-     "votes": 63374
+     "votes": 63376
     },
     {
      "name": "Michael T. Melton",
      "party": "NPA",
      "pct": 34.45,
-     "votes": 33301
+     "votes": 33307
     }
    ]
   },
@@ -266,13 +266,13 @@
      "name": "Yes",
      "party": "NON",
      "pct": 69.01,
-     "votes": 62567
+     "votes": 62571
     },
     {
      "name": "No",
      "party": "NON",
      "pct": 30.99,
-     "votes": 28097
+     "votes": 28100
     }
    ]
   },
@@ -322,14 +322,14 @@
     {
      "name": "David Perry",
      "party": "NON",
-     "pct": 47.2,
+     "pct": 47.15,
      "votes": 488
     },
     {
      "name": "Thomas Willis",
      "party": "NON",
-     "pct": 52.8,
-     "votes": 546
+     "pct": 52.85,
+     "votes": 547
     }
    ]
   },
@@ -341,13 +341,13 @@
     {
      "name": "Jeannine Polk",
      "party": "NON",
-     "pct": 57.31,
-     "votes": 6228
+     "pct": 57.32,
+     "votes": 6230
     },
     {
      "name": "George Williamson",
      "party": "NON",
-     "pct": 42.69,
+     "pct": 42.68,
      "votes": 4639
     }
    ]
@@ -360,14 +360,14 @@
     {
      "name": "Gary P. Butler",
      "party": "NON",
-     "pct": 59.17,
-     "votes": 6403
+     "pct": 59.16,
+     "votes": 6404
     },
     {
      "name": "Janis Denton",
      "party": "NON",
-     "pct": 40.83,
-     "votes": 4419
+     "pct": 40.84,
+     "votes": 4420
     }
    ]
   },
@@ -380,13 +380,13 @@
      "name": "Yes",
      "party": "NON",
      "pct": 45.3,
-     "votes": 43289
+     "votes": 43295
     },
     {
      "name": "No",
      "party": "NON",
      "pct": 54.7,
-     "votes": 52282
+     "votes": 52284
     }
    ]
   },
@@ -398,14 +398,14 @@
     {
      "name": "Yes",
      "party": "NON",
-     "pct": 67.56,
-     "votes": 65093
+     "pct": 67.55,
+     "votes": 65095
     },
     {
      "name": "No",
      "party": "NON",
-     "pct": 32.44,
-     "votes": 31260
+     "pct": 32.45,
+     "votes": 31266
     }
    ]
   },
@@ -418,13 +418,13 @@
      "name": "Yes",
      "party": "NON",
      "pct": 74.05,
-     "votes": 72155
+     "votes": 72159
     },
     {
      "name": "No",
      "party": "NON",
      "pct": 25.95,
-     "votes": 25289
+     "votes": 25293
     }
    ]
   },
@@ -436,14 +436,14 @@
     {
      "name": "For the one-cent sales tax",
      "party": "NON",
-     "pct": 59.44,
-     "votes": 56319
+     "pct": 59.45,
+     "votes": 56326
     },
     {
      "name": "Against the one-cent sales tax",
      "party": "NON",
-     "pct": 40.56,
-     "votes": 38424
+     "pct": 40.55,
+     "votes": 38425
     }
    ]
   },
@@ -455,13 +455,13 @@
     {
      "name": "Yes for bonds",
      "party": "NON",
-     "pct": 78.38,
-     "votes": 75346
+     "pct": 78.39,
+     "votes": 75354
     },
     {
      "name": "No against bonds",
      "party": "NON",
-     "pct": 21.62,
+     "pct": 21.61,
      "votes": 20777
     }
    ]
@@ -474,14 +474,14 @@
     {
      "name": "Yes for continuing current millage",
      "party": "NON",
-     "pct": 71.91,
-     "votes": 69348
+     "pct": 71.92,
+     "votes": 69355
     },
     {
      "name": "No against continuing current millage",
      "party": "NON",
-     "pct": 28.09,
-     "votes": 27084
+     "pct": 28.08,
+     "votes": 27085
     }
    ]
   }

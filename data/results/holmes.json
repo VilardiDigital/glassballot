@@ -1,7 +1,7 @@
 {
  "county": "holmes",
  "url": "https://enr.electionsfl.org/HOL/4108/Summary/",
- "pulledAt": "2026-11-13T17:13:43Z",
+ "pulledAt": "2026-11-13T20:39:12Z",
  "status": "unofficial",
  "updated": null,
  "races": [],
@@ -14,7 +14,7 @@
     {
      "name": "Ashley Moody",
      "party": "REP",
-     "pct": 87.22,
+     "pct": 87.21,
      "votes": 5414
     },
     {
@@ -26,8 +26,8 @@
     {
      "name": "Neil J. Gillespie",
      "party": "NPA",
-     "pct": 1.01,
-     "votes": 63
+     "pct": 1.03,
+     "votes": 64
     }
    ]
   },
@@ -39,13 +39,13 @@
     {
      "name": "Austin Rogers",
      "party": "REP",
-     "pct": 86.81,
-     "votes": 5359
+     "pct": 86.82,
+     "votes": 5360
     },
     {
      "name": "Amanda Marie Green",
      "party": "DEM",
-     "pct": 13.19,
+     "pct": 13.18,
      "votes": 814
     }
    ]
@@ -58,7 +58,7 @@
     {
      "name": "Byron Donalds",
      "party": "REP",
-     "pct": 85.84,
+     "pct": 85.82,
      "votes": 5285
     },
     {
@@ -70,8 +70,8 @@
     {
      "name": "Scott Eckhard Jewett",
      "party": "LPF",
-     "pct": 0.52,
-     "votes": 32
+     "pct": 0.54,
+     "votes": 33
     },
     {
      "name": "Charles Burkett",
@@ -114,7 +114,7 @@
      "name": "James Uthmeier",
      "party": "REP",
      "pct": 87.87,
-     "votes": 5432
+     "votes": 5433
     },
     {
      "name": "Jose Javier Rodriguez",
@@ -133,7 +133,7 @@
      "name": "Blaise Ingoglia",
      "party": "REP",
      "pct": 87.13,
-     "votes": 5356
+     "votes": 5357
     },
     {
      "name": "Annette Taddeo",
@@ -152,7 +152,7 @@
      "name": "Wilton Simpson",
      "party": "REP",
      "pct": 87.74,
-     "votes": 5410
+     "votes": 5411
     },
     {
      "name": "Joey Mendoza Atkins",
@@ -171,7 +171,7 @@
      "name": "Jay Trumbull",
      "party": "REP",
      "pct": 88.02,
-     "votes": 5442
+     "votes": 5443
     },
     {
      "name": "Lauren Donahoo",
@@ -190,7 +190,7 @@
      "name": "Shane Abbott",
      "party": "REP",
      "pct": 88.78,
-     "votes": 5468
+     "votes": 5469
     },
     {
      "name": "Alex Finney",
@@ -208,13 +208,13 @@
     {
      "name": "Yes",
      "party": "NON",
-     "pct": 64.05,
-     "votes": 3654
+     "pct": 64.06,
+     "votes": 3655
     },
     {
      "name": "No",
      "party": "NON",
-     "pct": 35.95,
+     "pct": 35.94,
      "votes": 2051
     }
    ]
@@ -227,13 +227,13 @@
     {
      "name": "Yes",
      "party": "NON",
-     "pct": 61.19,
-     "votes": 3466
+     "pct": 61.2,
+     "votes": 3467
     },
     {
      "name": "No",
      "party": "NON",
-     "pct": 38.81,
+     "pct": 38.8,
      "votes": 2198
     }
    ]
@@ -246,13 +246,13 @@
     {
      "name": "Yes",
      "party": "NON",
-     "pct": 66.12,
-     "votes": 3740
+     "pct": 66.13,
+     "votes": 3741
     },
     {
      "name": "No",
      "party": "NON",
-     "pct": 33.88,
+     "pct": 33.87,
      "votes": 1916
     }
    ]
@@ -266,7 +266,7 @@
      "name": "Yes",
      "party": "NON",
      "pct": 64.14,
-     "votes": 3616
+     "votes": 3617
     },
     {
      "name": "No",
@@ -284,13 +284,13 @@
     {
      "name": "Yes",
      "party": "NON",
-     "pct": 62.95,
-     "votes": 3550
+     "pct": 62.96,
+     "votes": 3551
     },
     {
      "name": "No",
      "party": "NON",
-     "pct": 37.05,
+     "pct": 37.04,
      "votes": 2089
     }
    ]
@@ -304,7 +304,7 @@
      "name": "Yes",
      "party": "NON",
      "pct": 67.89,
-     "votes": 3843
+     "votes": 3844
     },
     {
      "name": "No",
@@ -379,14 +379,14 @@
     {
      "name": "Yes",
      "party": "NON",
-     "pct": 45.79,
+     "pct": 45.78,
      "votes": 2706
     },
     {
      "name": "No",
      "party": "NON",
-     "pct": 54.21,
-     "votes": 3204
+     "pct": 54.22,
+     "votes": 3205
     }
    ]
   },
@@ -398,13 +398,13 @@
     {
      "name": "Yes",
      "party": "NON",
-     "pct": 81.47,
-     "votes": 4921
+     "pct": 81.48,
+     "votes": 4922
     },
     {
      "name": "No",
      "party": "NON",
-     "pct": 18.53,
+     "pct": 18.52,
      "votes": 1119
     }
    ]
@@ -417,13 +417,13 @@
     {
      "name": "Yes",
      "party": "NON",
-     "pct": 76.03,
-     "votes": 4613
+     "pct": 76.04,
+     "votes": 4614
     },
     {
      "name": "No",
      "party": "NON",
-     "pct": 23.97,
+     "pct": 23.96,
      "votes": 1454
     }
    ]
@@ -436,13 +436,13 @@
     {
      "name": "Yes",
      "party": "NON",
-     "pct": 44.19,
-     "votes": 2673
+     "pct": 44.2,
+     "votes": 2674
     },
     {
      "name": "No",
      "party": "NON",
-     "pct": 55.81,
+     "pct": 55.8,
      "votes": 3376
     }
    ]
