@@ -1,7 +1,7 @@
 {
  "county": "sumter",
  "url": "https://enr.electionsfl.org/SUM/4056/Summary/",
- "pulledAt": "2026-11-13T20:39:18Z",
+ "pulledAt": "2026-11-14T03:32:58Z",
  "status": "unofficial",
  "updated": null,
  "races": [],
@@ -14,14 +14,14 @@
     {
      "name": "Ashley Moody",
      "party": "REP",
-     "pct": 71.15,
+     "pct": 71.14,
      "votes": 67650
     },
     {
      "name": "Angie Nixon",
      "party": "DEM",
-     "pct": 27.94,
-     "votes": 26566
+     "pct": 27.95,
+     "votes": 26576
     },
     {
      "name": "Neil J. Gillespie",
@@ -39,14 +39,14 @@
     {
      "name": "Joe Strada",
      "party": "REP",
-     "pct": 69.0,
+     "pct": 68.99,
      "votes": 65194
     },
     {
      "name": "James Pericola",
      "party": "DEM",
-     "pct": 30.18,
-     "votes": 28517
+     "pct": 30.19,
+     "votes": 28527
     },
     {
      "name": "Ralph Groves",
@@ -64,14 +64,14 @@
     {
      "name": "Byron Donalds",
      "party": "REP",
-     "pct": 69.49,
+     "pct": 69.48,
      "votes": 66109
     },
     {
      "name": "David Jolly",
      "party": "DEM",
-     "pct": 29.64,
-     "votes": 28202
+     "pct": 29.65,
+     "votes": 28211
     },
     {
      "name": "Scott Eckhard Jewett",
@@ -125,14 +125,14 @@
     {
      "name": "James Uthmeier",
      "party": "REP",
-     "pct": 71.26,
+     "pct": 71.25,
      "votes": 67487
     },
     {
      "name": "Jose Javier Rodriguez",
      "party": "DEM",
-     "pct": 28.74,
-     "votes": 27220
+     "pct": 28.75,
+     "votes": 27229
     }
    ]
   },
@@ -144,14 +144,14 @@
     {
      "name": "Blaise Ingoglia",
      "party": "REP",
-     "pct": 70.98,
+     "pct": 70.97,
      "votes": 66613
     },
     {
      "name": "Annette Taddeo",
      "party": "DEM",
-     "pct": 29.02,
-     "votes": 27236
+     "pct": 29.03,
+     "votes": 27245
     }
    ]
   },
@@ -170,7 +170,7 @@
      "name": "Joey Mendoza Atkins",
      "party": "DEM",
      "pct": 29.41,
-     "votes": 27602
+     "votes": 27611
     },
     {
      "name": "Write-in: Not Assigned",
@@ -188,14 +188,14 @@
     {
      "name": "Samantha Scott",
      "party": "REP",
-     "pct": 70.35,
+     "pct": 70.34,
      "votes": 66164
     },
     {
      "name": "Pamala Kaye Bivins",
      "party": "DEM",
-     "pct": 29.65,
-     "votes": 27887
+     "pct": 29.66,
+     "votes": 27896
     }
    ]
   },
@@ -208,13 +208,13 @@
      "name": "Yes",
      "party": "NPA",
      "pct": 73.18,
-     "votes": 61489
+     "votes": 61490
     },
     {
      "name": "No",
      "party": "NPA",
      "pct": 26.82,
-     "votes": 22530
+     "votes": 22537
     }
    ]
   },
@@ -227,13 +227,13 @@
      "name": "Yes",
      "party": "NPA",
      "pct": 77.21,
-     "votes": 63540
+     "votes": 63545
     },
     {
      "name": "No",
      "party": "NPA",
      "pct": 22.79,
-     "votes": 18751
+     "votes": 18755
     }
    ]
   },
@@ -246,13 +246,13 @@
      "name": "Yes",
      "party": "NPA",
      "pct": 76.3,
-     "votes": 62030
+     "votes": 62033
     },
     {
      "name": "No",
      "party": "NPA",
      "pct": 23.7,
-     "votes": 19265
+     "votes": 19271
     }
    ]
   },
@@ -264,14 +264,14 @@
     {
      "name": "Yes",
      "party": "NPA",
-     "pct": 76.25,
-     "votes": 61974
+     "pct": 76.24,
+     "votes": 61978
     },
     {
      "name": "No",
      "party": "NPA",
-     "pct": 23.75,
-     "votes": 19306
+     "pct": 23.76,
+     "votes": 19311
     }
    ]
   },
@@ -321,14 +321,14 @@
     {
      "name": "Frank Shallis",
      "party": "NPA",
-     "pct": 46.03,
+     "pct": 46.01,
      "votes": 1315
     },
     {
      "name": "Tom Swiers",
      "party": "NPA",
-     "pct": 53.97,
-     "votes": 1542
+     "pct": 53.99,
+     "votes": 1543
     }
    ]
   },
@@ -340,14 +340,14 @@
     {
      "name": "James \"Jim\" Cipollone",
      "party": "NPA",
-     "pct": 64.08,
+     "pct": 64.06,
      "votes": 1889
     },
     {
      "name": "David Stem",
      "party": "NPA",
-     "pct": 35.92,
-     "votes": 1059
+     "pct": 35.94,
+     "votes": 1060
     }
    ]
   },
@@ -359,13 +359,13 @@
     {
      "name": "James \"Jim\" Conti",
      "party": "NPA",
-     "pct": 58.96,
-     "votes": 1675
+     "pct": 58.97,
+     "votes": 1676
     },
     {
      "name": "Harold \"Coach Hal\" Whiting",
      "party": "NPA",
-     "pct": 41.04,
+     "pct": 41.03,
      "votes": 1166
     }
    ]
@@ -398,13 +398,13 @@
      "name": "Yes",
      "party": "NPA",
      "pct": 50.56,
-     "votes": 45131
+     "votes": 45136
     },
     {
      "name": "No",
      "party": "NPA",
      "pct": 49.44,
-     "votes": 44139
+     "votes": 44143
     }
    ]
   },
@@ -417,13 +417,13 @@
      "name": "Yes",
      "party": "NPA",
      "pct": 69.26,
-     "votes": 62196
+     "votes": 62199
     },
     {
      "name": "No",
      "party": "NPA",
      "pct": 30.74,
-     "votes": 27600
+     "votes": 27606
     }
    ]
   },
@@ -436,13 +436,13 @@
      "name": "Yes",
      "party": "NPA",
      "pct": 70.36,
-     "votes": 63668
+     "votes": 63673
     },
     {
      "name": "No",
      "party": "NPA",
      "pct": 29.64,
-     "votes": 26824
+     "votes": 26827
     }
    ]
   },
@@ -454,14 +454,14 @@
     {
      "name": "Yes",
      "party": "NPA",
-     "pct": 63.74,
-     "votes": 56005
+     "pct": 63.75,
+     "votes": 56012
     },
     {
      "name": "No",
      "party": "NPA",
-     "pct": 36.26,
-     "votes": 31855
+     "pct": 36.25,
+     "votes": 31856
     }
    ]
   },
@@ -474,13 +474,13 @@
      "name": "FOR the Tourist Development Tax",
      "party": "NPA",
      "pct": 59.57,
-     "votes": 51430
+     "votes": 51437
     },
     {
      "name": "AGAINST the Tourist Development Tax",
      "party": "NPA",
      "pct": 40.43,
-     "votes": 34906
+     "votes": 34907
     }
    ]
   }

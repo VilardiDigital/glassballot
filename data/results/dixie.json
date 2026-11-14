@@ -1,7 +1,7 @@
 {
  "county": "dixie",
  "url": "https://enr.electionsfl.org/DIX/4125/Summary/",
- "pulledAt": "2026-11-13T20:39:09Z",
+ "pulledAt": "2026-11-14T03:32:51Z",
  "status": "unofficial",
  "updated": null,
  "races": [],
@@ -14,14 +14,14 @@
     {
      "name": "Ashley Moody - REP",
      "party": "REP",
-     "pct": 82.29,
+     "pct": 82.28,
      "votes": 4624
     },
     {
      "name": "Angie Nixon - DEM",
      "party": "DEM",
-     "pct": 16.21,
-     "votes": 911
+     "pct": 16.23,
+     "votes": 912
     },
     {
      "name": "Neil J. Gillespie - NPA",
@@ -39,14 +39,14 @@
     {
      "name": "Kat Cammack - REP",
      "party": "REP",
-     "pct": 82.96,
+     "pct": 82.95,
      "votes": 4651
     },
     {
      "name": "Seth Harp - DEM",
      "party": "DEM",
-     "pct": 15.25,
-     "votes": 855
+     "pct": 15.27,
+     "votes": 856
     },
     {
      "name": "Mike Klein - NPA",
@@ -64,14 +64,14 @@
     {
      "name": "Donalds/Avila - REP",
      "party": "REP",
-     "pct": 80.96,
+     "pct": 80.95,
      "votes": 4521
     },
     {
      "name": "Jolly/Graham - DEM",
      "party": "DEM",
-     "pct": 16.6,
-     "votes": 927
+     "pct": 16.62,
+     "votes": 928
     },
     {
      "name": "Jewett/Skelly - LPF",
@@ -125,14 +125,14 @@
     {
      "name": "James Uthmeier - REP",
      "party": "REP",
-     "pct": 83.65,
+     "pct": 83.63,
      "votes": 4573
     },
     {
      "name": "Jose Javier Rodriguez - DEM",
      "party": "DEM",
-     "pct": 16.35,
-     "votes": 894
+     "pct": 16.37,
+     "votes": 895
     }
    ]
   },
@@ -144,14 +144,14 @@
     {
      "name": "Blaise Ingoglia - REP",
      "party": "REP",
-     "pct": 82.96,
+     "pct": 82.95,
      "votes": 4602
     },
     {
      "name": "Annette Taddeo - DEM",
      "party": "DEM",
-     "pct": 17.04,
-     "votes": 945
+     "pct": 17.05,
+     "votes": 946
     }
    ]
   },
@@ -163,14 +163,14 @@
     {
      "name": "Wilton Simpson - REP",
      "party": "REP",
-     "pct": 82.82,
+     "pct": 82.8,
      "votes": 4608
     },
     {
      "name": "Joey Mendoza Atkins - DEM",
      "party": "DEM",
-     "pct": 16.61,
-     "votes": 924
+     "pct": 16.62,
+     "votes": 925
     },
     {
      "name": "Write-in",
@@ -188,14 +188,14 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 65.23,
+     "pct": 65.21,
      "votes": 3335
     },
     {
      "name": "No",
      "party": null,
-     "pct": 34.77,
-     "votes": 1778
+     "pct": 34.79,
+     "votes": 1779
     }
    ]
   },
@@ -207,14 +207,14 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 64.1,
+     "pct": 64.09,
      "votes": 3246
     },
     {
      "name": "No",
      "party": null,
-     "pct": 35.9,
-     "votes": 1818
+     "pct": 35.91,
+     "votes": 1819
     }
    ]
   },
@@ -226,14 +226,14 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 67.51,
+     "pct": 67.49,
      "votes": 3424
     },
     {
      "name": "No",
      "party": null,
-     "pct": 32.49,
-     "votes": 1648
+     "pct": 32.51,
+     "votes": 1649
     }
    ]
   },
@@ -245,14 +245,14 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 65.47,
+     "pct": 65.46,
      "votes": 3322
     },
     {
      "name": "No",
      "party": null,
-     "pct": 34.53,
-     "votes": 1752
+     "pct": 34.54,
+     "votes": 1753
     }
    ]
   },
@@ -264,14 +264,14 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 64.66,
+     "pct": 64.65,
      "votes": 3268
     },
     {
      "name": "No",
      "party": null,
-     "pct": 35.34,
-     "votes": 1786
+     "pct": 35.35,
+     "votes": 1787
     }
    ]
   },
@@ -283,14 +283,14 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 68.41,
+     "pct": 68.4,
      "votes": 3456
     },
     {
      "name": "No",
      "party": null,
-     "pct": 31.59,
-     "votes": 1596
+     "pct": 31.6,
+     "votes": 1597
     }
    ]
   },
@@ -309,7 +309,7 @@
      "name": "No",
      "party": null,
      "pct": 56.17,
-     "votes": 3024
+     "votes": 3025
     }
    ]
   },
@@ -321,14 +321,14 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 73.0,
+     "pct": 72.99,
      "votes": 3937
     },
     {
      "name": "No",
      "party": null,
-     "pct": 27.0,
-     "votes": 1456
+     "pct": 27.01,
+     "votes": 1457
     }
    ]
   },
@@ -340,13 +340,13 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 73.5,
-     "votes": 4028
+     "pct": 73.51,
+     "votes": 4029
     },
     {
      "name": "No",
      "party": null,
-     "pct": 26.5,
+     "pct": 26.49,
      "votes": 1452
     }
    ]

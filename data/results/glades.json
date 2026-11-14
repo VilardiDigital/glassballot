@@ -1,7 +1,7 @@
 {
  "county": "glades",
  "url": "https://enr.electionsfl.org/GLA/4065/Summary/",
- "pulledAt": "2026-11-13T20:39:10Z",
+ "pulledAt": "2026-11-14T03:32:52Z",
  "status": "unofficial",
  "updated": null,
  "races": [],
@@ -14,14 +14,14 @@
     {
      "name": "Ashley Moody",
      "party": "REP",
-     "pct": 71.0,
+     "pct": 70.0,
      "votes": 2688
     },
     {
      "name": "Angie Nixon",
      "party": "DEM",
      "pct": 28.0,
-     "votes": 1081
+     "votes": 1082
     },
     {
      "name": "Neil J. Gillespie",
@@ -46,7 +46,7 @@
      "name": "Darren Soto",
      "party": "DEM",
      "pct": 30.0,
-     "votes": 1153
+     "votes": 1154
     }
    ]
   },
@@ -65,7 +65,7 @@
      "name": "David Jolly/Gwen Graham",
      "party": "DEM",
      "pct": 29.0,
-     "votes": 1094
+     "votes": 1095
     },
     {
      "name": "Scott Eckhard Jewett/Nicole Skelly",
@@ -126,7 +126,7 @@
      "name": "Jose Javier Rodriguez",
      "party": "DEM",
      "pct": 29.0,
-     "votes": 1068
+     "votes": 1069
     }
    ]
   },
@@ -145,7 +145,7 @@
      "name": "Annette Taddeo",
      "party": "DEM",
      "pct": 30.0,
-     "votes": 1138
+     "votes": 1139
     }
    ]
   },
@@ -164,7 +164,7 @@
      "name": "Joey Mendoza Atkins",
      "party": "DEM",
      "pct": 28.0,
-     "votes": 1079
+     "votes": 1080
     },
     {
      "name": "Write-in",
@@ -189,7 +189,7 @@
      "name": "Leigh Estes",
      "party": "DEM",
      "pct": 28.0,
-     "votes": 1069
+     "votes": 1070
     }
    ]
   },
@@ -208,7 +208,7 @@
      "name": "No",
      "party": null,
      "pct": 34.0,
-     "votes": 1166
+     "votes": 1167
     }
    ]
   },
@@ -240,7 +240,7 @@
      "name": "Yes",
      "party": null,
      "pct": 44.0,
-     "votes": 1601
+     "votes": 1602
     },
     {
      "name": "No",
@@ -259,7 +259,7 @@
      "name": "Yes",
      "party": null,
      "pct": 69.0,
-     "votes": 2563
+     "votes": 2564
     },
     {
      "name": "No",
@@ -278,7 +278,7 @@
      "name": "Yes",
      "party": null,
      "pct": 66.0,
-     "votes": 2440
+     "votes": 2441
     },
     {
      "name": "No",
@@ -297,7 +297,7 @@
      "name": "Yes",
      "party": null,
      "pct": 69.0,
-     "votes": 2524
+     "votes": 2525
     },
     {
      "name": "No",
@@ -316,7 +316,7 @@
      "name": "Yes",
      "party": null,
      "pct": 63.0,
-     "votes": 2303
+     "votes": 2304
     },
     {
      "name": "No",
@@ -341,7 +341,7 @@
      "name": "No (against funding flexibility)",
      "party": null,
      "pct": 46.0,
-     "votes": 1665
+     "votes": 1666
     }
    ]
   }

@@ -1,7 +1,7 @@
 {
  "county": "wakulla",
  "url": "https://enr.electionsfl.org/WAK/4128/Summary/",
- "pulledAt": "2026-11-13T20:39:18Z",
+ "pulledAt": "2026-11-14T03:32:58Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -13,14 +13,14 @@
     {
      "name": "Carrie Hughes",
      "party": "REP",
-     "pct": 69.91,
+     "pct": 69.9,
      "votes": 10501
     },
     {
      "name": "Beverly Keister",
      "party": "DEM",
      "pct": 28.43,
-     "votes": 4270
+     "votes": 4271
     },
     {
      "name": "Patricia Sue Dyszer",
@@ -41,13 +41,13 @@
      "name": "Ashley Moody",
      "party": "REP",
      "pct": 66.61,
-     "votes": 10082
+     "votes": 10083
     },
     {
      "name": "Angie Nixon",
      "party": "DEM",
      "pct": 32.22,
-     "votes": 4877
+     "votes": 4878
     },
     {
      "name": "Neil J. Gillespie",
@@ -66,13 +66,13 @@
      "name": "Austin Rogers",
      "party": "REP",
      "pct": 64.77,
-     "votes": 9747
+     "votes": 9748
     },
     {
      "name": "Amanda Marie Green",
      "party": "DEM",
      "pct": 35.23,
-     "votes": 5301
+     "votes": 5302
     }
    ]
   },
@@ -84,14 +84,14 @@
     {
      "name": "Byron Donalds",
      "party": "REP",
-     "pct": 64.86,
+     "pct": 64.85,
      "votes": 9803
     },
     {
      "name": "David Jolly",
      "party": "DEM",
      "pct": 33.66,
-     "votes": 5088
+     "votes": 5089
     },
     {
      "name": "Scott Eckhard Jewett",
@@ -109,7 +109,7 @@
      "name": "Frank J. Russo",
      "party": "NPA",
      "pct": 0.24,
-     "votes": 36
+     "votes": 37
     },
     {
      "name": "Moliere \"Moe\" Dimanche",
@@ -146,13 +146,13 @@
      "name": "James Uthmeier",
      "party": "REP",
      "pct": 67.64,
-     "votes": 10171
+     "votes": 10172
     },
     {
      "name": "Jose Javier Rodriguez",
      "party": "DEM",
      "pct": 32.36,
-     "votes": 4865
+     "votes": 4866
     }
    ]
   },
@@ -165,7 +165,7 @@
      "name": "Blaise Ingoglia",
      "party": "REP",
      "pct": 66.78,
-     "votes": 10004
+     "votes": 10005
     },
     {
      "name": "Annette Taddeo",
@@ -184,7 +184,7 @@
      "name": "Wilton Simpson",
      "party": "REP",
      "pct": 67.43,
-     "votes": 10112
+     "votes": 10113
     },
     {
      "name": "Joey Mendoza Atkins",
@@ -208,14 +208,14 @@
     {
      "name": "Carrie Hughes",
      "party": "REP",
-     "pct": 69.91,
+     "pct": 69.9,
      "votes": 10501
     },
     {
      "name": "Beverly Keister",
      "party": "DEM",
      "pct": 28.43,
-     "votes": 4270
+     "votes": 4271
     },
     {
      "name": "Patricia Sue Dyszer",
@@ -233,13 +233,13 @@
     {
      "name": "Yes",
      "party": "NPA",
-     "pct": 61.4,
-     "votes": 8545
+     "pct": 61.41,
+     "votes": 8546
     },
     {
      "name": "No",
      "party": "NPA",
-     "pct": 38.6,
+     "pct": 38.59,
      "votes": 5371
     }
    ]
@@ -253,7 +253,7 @@
      "name": "Yes",
      "party": "NPA",
      "pct": 63.61,
-     "votes": 8770
+     "votes": 8771
     },
     {
      "name": "No",
@@ -272,7 +272,7 @@
      "name": "Yes",
      "party": "NPA",
      "pct": 62.7,
-     "votes": 8602
+     "votes": 8603
     },
     {
      "name": "No",
@@ -291,7 +291,7 @@
      "name": "Yes",
      "party": "NPA",
      "pct": 61.43,
-     "votes": 8400
+     "votes": 8401
     },
     {
      "name": "No",
@@ -310,7 +310,7 @@
      "name": "Yes",
      "party": "NPA",
      "pct": 62.43,
-     "votes": 8539
+     "votes": 8540
     },
     {
      "name": "No",
@@ -329,7 +329,7 @@
      "name": "Yes",
      "party": "NPA",
      "pct": 62.73,
-     "votes": 8603
+     "votes": 8604
     },
     {
      "name": "No",
@@ -392,7 +392,7 @@
      "name": "No",
      "party": "NPA",
      "pct": 59.39,
-     "votes": 8596
+     "votes": 8597
     }
    ]
   },
@@ -411,7 +411,7 @@
      "name": "No",
      "party": "NPA",
      "pct": 33.53,
-     "votes": 4908
+     "votes": 4909
     }
    ]
   },
@@ -423,13 +423,13 @@
     {
      "name": "Yes",
      "party": "NPA",
-     "pct": 66.73,
-     "votes": 9876
+     "pct": 66.74,
+     "votes": 9877
     },
     {
      "name": "No",
      "party": "NPA",
-     "pct": 33.27,
+     "pct": 33.26,
      "votes": 4923
     }
    ]
@@ -449,7 +449,7 @@
      "name": "No",
      "party": "NPA",
      "pct": 44.01,
-     "votes": 6531
+     "votes": 6532
     }
    ]
   }

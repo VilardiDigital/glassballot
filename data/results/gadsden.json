@@ -1,7 +1,7 @@
 {
  "county": "gadsden",
  "url": "https://enr.electionsfl.org/GAD/4066/Summary/",
- "pulledAt": "2026-11-13T20:39:10Z",
+ "pulledAt": "2026-11-14T03:32:51Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -13,14 +13,14 @@
     {
      "name": "Marcella Blocker",
      "party": "REP",
-     "pct": 21.22,
+     "pct": 21.21,
      "votes": 702
     },
     {
      "name": "Michael K. Brown",
      "party": "DEM",
-     "pct": 78.78,
-     "votes": 2606
+     "pct": 78.79,
+     "votes": 2607
     }
    ]
   },
@@ -54,13 +54,13 @@
      "name": "Ashley Moody",
      "party": "REP",
      "pct": 30.85,
-     "votes": 5507
+     "votes": 5509
     },
     {
      "name": "Angie Nixon",
      "party": "DEM",
-     "pct": 68.47,
-     "votes": 12224
+     "pct": 68.46,
+     "votes": 12225
     },
     {
      "name": "Neil J. Gillespie",
@@ -78,14 +78,14 @@
     {
      "name": "Austin Rogers",
      "party": "REP",
-     "pct": 29.38,
-     "votes": 5175
+     "pct": 29.39,
+     "votes": 5177
     },
     {
      "name": "Amanda Marie Green",
      "party": "DEM",
-     "pct": 70.62,
-     "votes": 12439
+     "pct": 70.61,
+     "votes": 12440
     }
    ]
   },
@@ -97,14 +97,14 @@
     {
      "name": "Byron Donalds",
      "party": "REP",
-     "pct": 30.1,
-     "votes": 5368
+     "pct": 30.11,
+     "votes": 5370
     },
     {
      "name": "David Jolly",
      "party": "DEM",
-     "pct": 68.78,
-     "votes": 12264
+     "pct": 68.77,
+     "votes": 12265
     },
     {
      "name": "Scott Eckhard Jewett",
@@ -158,14 +158,14 @@
     {
      "name": "James Uthmeier",
      "party": "REP",
-     "pct": 31.66,
-     "votes": 5605
+     "pct": 31.67,
+     "votes": 5607
     },
     {
      "name": "Jose Javier Rodriguez",
      "party": "DEM",
-     "pct": 68.34,
-     "votes": 12097
+     "pct": 68.33,
+     "votes": 12098
     }
    ]
   },
@@ -177,14 +177,14 @@
     {
      "name": "Blaise Ingoglia",
      "party": "REP",
-     "pct": 30.38,
-     "votes": 5375
+     "pct": 30.39,
+     "votes": 5377
     },
     {
      "name": "Annette Taddeo",
      "party": "DEM",
-     "pct": 69.62,
-     "votes": 12317
+     "pct": 69.61,
+     "votes": 12318
     }
    ]
   },
@@ -197,13 +197,13 @@
      "name": "Wilton Simpson",
      "party": "REP",
      "pct": 31.37,
-     "votes": 5568
+     "votes": 5570
     },
     {
      "name": "Joey Mendoza Atkins",
      "party": "DEM",
-     "pct": 68.34,
-     "votes": 12130
+     "pct": 68.33,
+     "votes": 12131
     },
     {
      "name": "Write-in: Not Assigned",
@@ -221,14 +221,14 @@
     {
      "name": "Marcella Blocker",
      "party": "REP",
-     "pct": 21.22,
+     "pct": 21.21,
      "votes": 702
     },
     {
      "name": "Michael K. Brown",
      "party": "DEM",
-     "pct": 78.78,
-     "votes": 2606
+     "pct": 78.79,
+     "votes": 2607
     }
    ]
   },
@@ -241,13 +241,13 @@
      "name": "Yes",
      "party": "NON",
      "pct": 50.03,
-     "votes": 8456
+     "votes": 8457
     },
     {
      "name": "No",
      "party": "NON",
      "pct": 49.97,
-     "votes": 8447
+     "votes": 8448
     }
    ]
   },
@@ -260,13 +260,13 @@
      "name": "Yes",
      "party": "NON",
      "pct": 56.5,
-     "votes": 9577
+     "votes": 9578
     },
     {
      "name": "No",
      "party": "NON",
      "pct": 43.5,
-     "votes": 7374
+     "votes": 7375
     }
    ]
   },
@@ -279,13 +279,13 @@
      "name": "Yes",
      "party": "NON",
      "pct": 51.23,
-     "votes": 8609
+     "votes": 8610
     },
     {
      "name": "No",
      "party": "NON",
      "pct": 48.77,
-     "votes": 8195
+     "votes": 8196
     }
    ]
   },
@@ -298,13 +298,13 @@
      "name": "Yes",
      "party": "NON",
      "pct": 49.96,
-     "votes": 8386
+     "votes": 8387
     },
     {
      "name": "No",
      "party": "NON",
      "pct": 50.04,
-     "votes": 8400
+     "votes": 8401
     }
    ]
   },
@@ -317,13 +317,13 @@
      "name": "Yes",
      "party": "NON",
      "pct": 53.32,
-     "votes": 8969
+     "votes": 8970
     },
     {
      "name": "No",
      "party": "NON",
      "pct": 46.68,
-     "votes": 7853
+     "votes": 7854
     }
    ]
   },
@@ -336,13 +336,13 @@
      "name": "Yes",
      "party": "NON",
      "pct": 51.47,
-     "votes": 8689
+     "votes": 8690
     },
     {
      "name": "No",
      "party": "NON",
      "pct": 48.53,
-     "votes": 8193
+     "votes": 8194
     }
    ]
   },
@@ -373,13 +373,13 @@
     {
      "name": "Yes",
      "party": "NON",
-     "pct": 38.63,
-     "votes": 6673
+     "pct": 38.64,
+     "votes": 6675
     },
     {
      "name": "No",
      "party": "NON",
-     "pct": 61.37,
+     "pct": 61.36,
      "votes": 10601
     }
    ]
@@ -392,13 +392,13 @@
     {
      "name": "Yes",
      "party": "NON",
-     "pct": 53.54,
-     "votes": 9301
+     "pct": 53.55,
+     "votes": 9304
     },
     {
      "name": "No",
      "party": "NON",
-     "pct": 46.46,
+     "pct": 46.45,
      "votes": 8070
     }
    ]
@@ -412,7 +412,7 @@
      "name": "Yes",
      "party": "NON",
      "pct": 49.78,
-     "votes": 8686
+     "votes": 8687
     },
     {
      "name": "No",
@@ -430,14 +430,14 @@
     {
      "name": "Yes - For the Half-Cent Tax",
      "party": "NON",
-     "pct": 57.63,
+     "pct": 57.62,
      "votes": 10064
     },
     {
      "name": "No - Against the Half-Cent Tax",
      "party": "NON",
-     "pct": 42.37,
-     "votes": 7400
+     "pct": 42.38,
+     "votes": 7403
     }
    ]
   }

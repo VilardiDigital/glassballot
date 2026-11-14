@@ -1,7 +1,7 @@
 {
  "county": "collier",
  "url": "https://enr.electionsfl.org/CLL/4083/Summary/",
- "pulledAt": "2026-11-13T20:39:09Z",
+ "pulledAt": "2026-11-14T03:32:51Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -14,13 +14,13 @@
      "name": "Chris Hall",
      "party": "REP",
      "pct": 76.0,
-     "votes": 26551
+     "votes": 26553
     },
     {
      "name": "JEF Cody Davis",
      "party": "JEF",
      "pct": 24.0,
-     "votes": 8381
+     "votes": 8388
     }
    ]
   }
@@ -35,13 +35,13 @@
      "name": "Ashley Moody",
      "party": "REP",
      "pct": 63.9,
-     "votes": 109789
+     "votes": 109795
     },
     {
      "name": "Angie Nixon",
      "party": "DEM",
      "pct": 35.2,
-     "votes": 60419
+     "votes": 60440
     },
     {
      "name": "Neil J. Gillespie",
@@ -60,13 +60,13 @@
      "name": "Jim Schwartzel",
      "party": "REP",
      "pct": 63.0,
-     "votes": 57097
+     "votes": 57098
     },
     {
      "name": "Victor Arias",
      "party": "DEM",
      "pct": 36.0,
-     "votes": 32643
+     "votes": 32659
     },
     {
      "name": "Seth Haskin",
@@ -91,13 +91,13 @@
      "name": "Casey Askar",
      "party": "REP",
      "pct": 63.5,
-     "votes": 50691
+     "votes": 50695
     },
     {
      "name": "Pia Dandiya",
      "party": "DEM",
      "pct": 36.5,
-     "votes": 29159
+     "votes": 29165
     }
    ]
   },
@@ -110,13 +110,13 @@
      "name": "Byron Donalds",
      "party": "REP",
      "pct": 63.1,
-     "votes": 108575
+     "votes": 108580
     },
     {
      "name": "David Jolly",
      "party": "DEM",
      "pct": 35.9,
-     "votes": 61713
+     "votes": 61734
     },
     {
      "name": "Scott Eckhard Jewett",
@@ -171,13 +171,13 @@
      "name": "James Uthmeier",
      "party": "REP",
      "pct": 64.5,
-     "votes": 110117
+     "votes": 110123
     },
     {
      "name": "Jose Javier Rodriguez",
      "party": "DEM",
      "pct": 35.5,
-     "votes": 60566
+     "votes": 60586
     }
    ]
   },
@@ -190,13 +190,13 @@
      "name": "Blaise Ingoglia",
      "party": "REP",
      "pct": 64.1,
-     "votes": 108529
+     "votes": 108536
     },
     {
      "name": "Annette Taddeo",
      "party": "DEM",
      "pct": 35.9,
-     "votes": 60719
+     "votes": 60738
     }
    ]
   },
@@ -209,13 +209,13 @@
      "name": "Wilton Simpson",
      "party": "REP",
      "pct": 64.3,
-     "votes": 108722
+     "votes": 108728
     },
     {
      "name": "Joey Mendoza Atkins",
      "party": "DEM",
      "pct": 35.6,
-     "votes": 60091
+     "votes": 60111
     },
     {
      "name": "Write-in",
@@ -234,13 +234,13 @@
      "name": "Lauren Uhlich Melo",
      "party": "REP",
      "pct": 63.9,
-     "votes": 108415
+     "votes": 108421
     },
     {
      "name": "David Silverberg",
      "party": "DEM",
      "pct": 36.1,
-     "votes": 61232
+     "votes": 61253
     }
    ]
   },
@@ -259,7 +259,7 @@
      "name": "William Moskal",
      "party": "DEM",
      "pct": 33.2,
-     "votes": 8739
+     "votes": 8741
     }
    ]
   },
@@ -272,13 +272,13 @@
      "name": "Yvette Benarroch",
      "party": "REP",
      "pct": 64.6,
-     "votes": 56992
+     "votes": 56996
     },
     {
      "name": "Kim Finer",
      "party": "DEM",
      "pct": 35.4,
-     "votes": 31248
+     "votes": 31264
     }
    ]
   },
@@ -291,13 +291,13 @@
      "name": "Liesa Priddy",
      "party": "REP",
      "pct": 61.4,
-     "votes": 33516
+     "votes": 33518
     },
     {
      "name": "Arthur Boyer",
      "party": "DEM",
      "pct": 38.6,
-     "votes": 21037
+     "votes": 21039
     }
    ]
   },
@@ -310,13 +310,13 @@
      "name": "Chris Hall",
      "party": "REP",
      "pct": 76.0,
-     "votes": 26551
+     "votes": 26553
     },
     {
      "name": "JEF Cody Davis",
      "party": "JEF",
      "pct": 24.0,
-     "votes": 8381
+     "votes": 8388
     }
    ]
   },
@@ -329,13 +329,13 @@
      "name": "Yes",
      "party": "NON",
      "pct": 69.9,
-     "votes": 103874
+     "votes": 103881
     },
     {
      "name": "No",
      "party": "NON",
      "pct": 30.1,
-     "votes": 44763
+     "votes": 44779
     }
    ]
   },
@@ -391,13 +391,13 @@
      "name": "John Goede",
      "party": "NON",
      "pct": 54.4,
-     "votes": 72784
+     "votes": 72793
     },
     {
      "name": "Rick Mellon",
      "party": "NON",
      "pct": 45.6,
-     "votes": 60947
+     "votes": 60957
     }
    ]
   },
@@ -410,19 +410,19 @@
      "name": "Don Antonacchio",
      "party": "NON",
      "pct": 21.6,
-     "votes": 27993
+     "votes": 27996
     },
     {
      "name": "Jason K. Brooke",
      "party": "NON",
      "pct": 18.6,
-     "votes": 24083
+     "votes": 24087
     },
     {
      "name": "David A. MacGregor Jr",
      "party": "NON",
      "pct": 18.2,
-     "votes": 23538
+     "votes": 23541
     },
     {
      "name": "Jason Schappert",
@@ -434,7 +434,7 @@
      "name": "Keith West",
      "party": "NON",
      "pct": 36.4,
-     "votes": 47143
+     "votes": 47152
     }
    ]
   },
@@ -447,13 +447,13 @@
      "name": "Sandra Lee Buxton",
      "party": "NON",
      "pct": 75.3,
-     "votes": 100897
+     "votes": 100904
     },
     {
      "name": "Bebe Kanter",
      "party": "NON",
      "pct": 24.7,
-     "votes": 33117
+     "votes": 33129
     }
    ]
   },
@@ -466,13 +466,13 @@
      "name": "Ed Brandt",
      "party": "NON",
      "pct": 63.9,
-     "votes": 83165
+     "votes": 83175
     },
     {
      "name": "Jay Kohlhagen",
      "party": "NON",
      "pct": 36.1,
-     "votes": 47016
+     "votes": 47025
     }
    ]
   },
@@ -485,13 +485,13 @@
      "name": "Connie Bettinger",
      "party": "NON",
      "pct": 42.3,
-     "votes": 25507
+     "votes": 25511
     },
     {
      "name": "Brian O. Cross",
      "party": "NON",
      "pct": 57.7,
-     "votes": 34731
+     "votes": 34735
     }
    ]
   },
@@ -510,7 +510,7 @@
      "name": "Elizabeth Flores",
      "party": "NON",
      "pct": 34.5,
-     "votes": 9626
+     "votes": 9628
     }
    ]
   },
@@ -523,13 +523,13 @@
      "name": "Matthew Boggan",
      "party": "NON",
      "pct": 41.7,
-     "votes": 21700
+     "votes": 21705
     },
     {
      "name": "Christopher Lombardo",
      "party": "NON",
      "pct": 58.3,
-     "votes": 30320
+     "votes": 30325
     }
    ]
   },
@@ -541,13 +541,13 @@
     {
      "name": "Greg Colker",
      "party": "NON",
-     "pct": 45.0,
-     "votes": 2353
+     "pct": 45.1,
+     "votes": 2355
     },
     {
      "name": "Thomas DiFlorio",
      "party": "NON",
-     "pct": 55.0,
+     "pct": 54.9,
      "votes": 2872
     }
    ]
@@ -561,7 +561,7 @@
      "name": "William H. \"Bill\" Lee",
      "party": "NON",
      "pct": 73.3,
-     "votes": 1032
+     "votes": 1033
     },
     {
      "name": "Eric F. Witzke",
@@ -618,13 +618,13 @@
      "name": "Yes",
      "party": "NON",
      "pct": 47.5,
-     "votes": 75665
+     "votes": 75676
     },
     {
      "name": "No",
      "party": "NON",
      "pct": 52.5,
-     "votes": 83705
+     "votes": 83717
     }
    ]
   },
@@ -637,13 +637,13 @@
      "name": "Yes",
      "party": "NON",
      "pct": 62.9,
-     "votes": 100690
+     "votes": 100700
     },
     {
      "name": "No",
      "party": "NON",
      "pct": 37.1,
-     "votes": 59416
+     "votes": 59428
     }
    ]
   },
@@ -656,13 +656,13 @@
      "name": "Yes",
      "party": "NON",
      "pct": 69.7,
-     "votes": 113193
+     "votes": 113204
     },
     {
      "name": "No",
      "party": "NON",
      "pct": 30.3,
-     "votes": 49150
+     "votes": 49160
     }
    ]
   },
@@ -675,13 +675,13 @@
      "name": "FOR the Tourist Development Tax",
      "party": "NON",
      "pct": 70.2,
-     "votes": 112843
+     "votes": 112860
     },
     {
      "name": "AGAINST the Tourist Development Tax",
      "party": "NON",
      "pct": 29.8,
-     "votes": 47791
+     "votes": 47797
     }
    ]
   },
@@ -694,7 +694,7 @@
      "name": "Yes",
      "party": "NON",
      "pct": 78.9,
-     "votes": 7570
+     "votes": 7571
     },
     {
      "name": "No",
