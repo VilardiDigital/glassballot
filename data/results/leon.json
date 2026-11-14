@@ -1,7 +1,7 @@
 {
  "county": "leon",
  "url": "https://enr.electionsfl.org/LEO/4072/Summary/",
- "pulledAt": "2026-11-14T15:49:50Z",
+ "pulledAt": "2026-11-14T18:50:54Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -14,13 +14,13 @@
      "name": "Nick Maddox",
      "party": null,
      "pct": 95.14,
-     "votes": 95899
+     "votes": 95920
     },
     {
      "name": "Write-in",
      "party": null,
      "pct": 4.86,
-     "votes": 4895
+     "votes": 4898
     }
    ]
   },
@@ -32,14 +32,14 @@
     {
      "name": "C.B. Lorch",
      "party": null,
-     "pct": 26.55,
+     "pct": 26.54,
      "votes": 6163
     },
     {
      "name": "Rick Minor",
      "party": null,
-     "pct": 73.45,
-     "votes": 17052
+     "pct": 73.46,
+     "votes": 17059
     }
    ]
   },
@@ -51,14 +51,14 @@
     {
      "name": "David T. Hawkins",
      "party": null,
-     "pct": 30.92,
-     "votes": 8140
+     "pct": 30.93,
+     "votes": 8146
     },
     {
      "name": "David T. O'Keefe",
      "party": null,
-     "pct": 69.08,
-     "votes": 18188
+     "pct": 69.07,
+     "votes": 18192
     }
    ]
   },
@@ -71,7 +71,7 @@
      "name": "Alva \"Striplin\" Smith",
      "party": null,
      "pct": 94.81,
-     "votes": 22041
+     "votes": 22046
     },
     {
      "name": "Write-in",
@@ -91,14 +91,14 @@
     {
      "name": "Ashley Moody",
      "party": "REP",
-     "pct": 33.79,
-     "votes": 42463
+     "pct": 33.78,
+     "votes": 42467
     },
     {
      "name": "Angie Nixon",
      "party": "DEM",
-     "pct": 65.18,
-     "votes": 81907
+     "pct": 65.19,
+     "votes": 81947
     },
     {
      "name": "Neil J. Gillespie",
@@ -116,14 +116,14 @@
     {
      "name": "Austin Rogers",
      "party": "REP",
-     "pct": 31.96,
-     "votes": 39768
+     "pct": 31.95,
+     "votes": 39771
     },
     {
      "name": "Amanda Marie Green",
      "party": "DEM",
-     "pct": 68.04,
-     "votes": 84673
+     "pct": 68.05,
+     "votes": 84713
     }
    ]
   },
@@ -136,19 +136,19 @@
      "name": "Byron Donalds",
      "party": "REP",
      "pct": 31.86,
-     "votes": 40074
+     "votes": 40077
     },
     {
      "name": "David Jolly",
      "party": "DEM",
      "pct": 66.93,
-     "votes": 84168
+     "votes": 84204
     },
     {
      "name": "Scott Eckhard Jewett",
      "party": "LPF",
      "pct": 0.38,
-     "votes": 472
+     "votes": 473
     },
     {
      "name": "Charles Burkett",
@@ -196,14 +196,14 @@
     {
      "name": "James Uthmeier",
      "party": "REP",
-     "pct": 33.79,
-     "votes": 42040
+     "pct": 33.78,
+     "votes": 42043
     },
     {
      "name": "Jose Javier Rodriguez",
      "party": "DEM",
-     "pct": 66.21,
-     "votes": 82366
+     "pct": 66.22,
+     "votes": 82402
     }
    ]
   },
@@ -215,14 +215,14 @@
     {
      "name": "Blaise Ingoglia",
      "party": "REP",
-     "pct": 33.81,
-     "votes": 41724
+     "pct": 33.8,
+     "votes": 41729
     },
     {
      "name": "Annette Taddeo",
      "party": "DEM",
-     "pct": 66.19,
-     "votes": 81691
+     "pct": 66.2,
+     "votes": 81723
     }
    ]
   },
@@ -234,14 +234,14 @@
     {
      "name": "Wilton Simpson",
      "party": "REP",
-     "pct": 35.01,
-     "votes": 43319
+     "pct": 35.0,
+     "votes": 43323
     },
     {
      "name": "Joey Mendoza Atkins",
      "party": "DEM",
-     "pct": 64.78,
-     "votes": 80150
+     "pct": 64.79,
+     "votes": 80183
     },
     {
      "name": "Write-in",
@@ -259,14 +259,14 @@
     {
      "name": "Tracy Robinson",
      "party": "REP",
-     "pct": 35.09,
-     "votes": 27040
+     "pct": 35.08,
+     "votes": 27041
     },
     {
      "name": "Allison Tant",
      "party": "DEM",
-     "pct": 64.91,
-     "votes": 50015
+     "pct": 64.92,
+     "votes": 50041
     }
    ]
   },
@@ -279,13 +279,13 @@
      "name": "Yes",
      "party": null,
      "pct": 45.04,
-     "votes": 51227
+     "votes": 51234
     },
     {
      "name": "No",
      "party": null,
      "pct": 54.96,
-     "votes": 62500
+     "votes": 62529
     }
    ]
   },
@@ -297,14 +297,14 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 57.02,
-     "votes": 63902
+     "pct": 57.03,
+     "votes": 63924
     },
     {
      "name": "No",
      "party": null,
-     "pct": 42.98,
-     "votes": 48158
+     "pct": 42.97,
+     "votes": 48169
     }
    ]
   },
@@ -316,14 +316,14 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 47.1,
-     "votes": 52458
+     "pct": 47.09,
+     "votes": 52469
     },
     {
      "name": "No",
      "party": null,
-     "pct": 52.9,
-     "votes": 58921
+     "pct": 52.91,
+     "votes": 58944
     }
    ]
   },
@@ -336,13 +336,13 @@
      "name": "Yes",
      "party": null,
      "pct": 47.01,
-     "votes": 52292
+     "votes": 52306
     },
     {
      "name": "No",
      "party": null,
      "pct": 52.99,
-     "votes": 58937
+     "votes": 58957
     }
    ]
   },
@@ -355,13 +355,13 @@
      "name": "Yes",
      "party": null,
      "pct": 50.11,
-     "votes": 55656
+     "votes": 55670
     },
     {
      "name": "No",
      "party": null,
      "pct": 49.89,
-     "votes": 55411
+     "votes": 55429
     }
    ]
   },
@@ -373,14 +373,14 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 46.26,
-     "votes": 51317
+     "pct": 46.25,
+     "votes": 51327
     },
     {
      "name": "No",
      "party": null,
-     "pct": 53.74,
-     "votes": 59622
+     "pct": 53.75,
+     "votes": 59645
     }
    ]
   },
@@ -393,13 +393,13 @@
      "name": "Nick Maddox",
      "party": null,
      "pct": 95.14,
-     "votes": 95899
+     "votes": 95920
     },
     {
      "name": "Write-in",
      "party": null,
      "pct": 4.86,
-     "votes": 4895
+     "votes": 4898
     }
    ]
   },
@@ -411,14 +411,14 @@
     {
      "name": "C.B. Lorch",
      "party": null,
-     "pct": 26.55,
+     "pct": 26.54,
      "votes": 6163
     },
     {
      "name": "Rick Minor",
      "party": null,
-     "pct": 73.45,
-     "votes": 17052
+     "pct": 73.46,
+     "votes": 17059
     }
    ]
   },
@@ -430,14 +430,14 @@
     {
      "name": "David T. Hawkins",
      "party": null,
-     "pct": 30.92,
-     "votes": 8140
+     "pct": 30.93,
+     "votes": 8146
     },
     {
      "name": "David T. O'Keefe",
      "party": null,
-     "pct": 69.08,
-     "votes": 18188
+     "pct": 69.07,
+     "votes": 18192
     }
    ]
   },
@@ -450,7 +450,7 @@
      "name": "Alva \"Striplin\" Smith",
      "party": null,
      "pct": 94.81,
-     "votes": 22041
+     "votes": 22046
     },
     {
      "name": "Write-in",
@@ -468,14 +468,14 @@
     {
      "name": "Loranne Ausley",
      "party": null,
-     "pct": 49.06,
-     "votes": 35858
+     "pct": 49.05,
+     "votes": 35865
     },
     {
      "name": "Jeremy Matlow",
      "party": null,
-     "pct": 50.94,
-     "votes": 37237
+     "pct": 50.95,
+     "votes": 37252
     }
    ]
   },
@@ -488,13 +488,13 @@
      "name": "Tom Derzypolski",
      "party": null,
      "pct": 35.78,
-     "votes": 24866
+     "votes": 24872
     },
     {
      "name": "P.J. Perez",
      "party": null,
      "pct": 64.22,
-     "votes": 44634
+     "votes": 44647
     }
    ]
   },
@@ -507,13 +507,13 @@
      "name": "Dot Inman-Johnson",
      "party": null,
      "pct": 48.29,
-     "votes": 33433
+     "votes": 33445
     },
     {
      "name": "Dianne Williams-Cox",
      "party": null,
      "pct": 51.71,
-     "votes": 35804
+     "votes": 35811
     }
    ]
   },
@@ -563,14 +563,14 @@
     {
      "name": "Rick Hays",
      "party": null,
-     "pct": 50.69,
+     "pct": 50.63,
      "votes": 441
     },
     {
      "name": "Diane K. Lamb",
      "party": null,
-     "pct": 49.31,
-     "votes": 429
+     "pct": 49.37,
+     "votes": 430
     }
    ]
   },
@@ -582,14 +582,14 @@
     {
      "name": "Yes",
      "party": null,
-     "pct": 33.21,
-     "votes": 39215
+     "pct": 33.2,
+     "votes": 39224
     },
     {
      "name": "No",
      "party": null,
-     "pct": 66.79,
-     "votes": 78884
+     "pct": 66.8,
+     "votes": 78906
     }
    ]
   },
@@ -602,13 +602,13 @@
      "name": "Yes",
      "party": null,
      "pct": 43.92,
-     "votes": 52387
+     "votes": 52398
     },
     {
      "name": "No",
      "party": null,
      "pct": 56.08,
-     "votes": 66885
+     "votes": 66906
     }
    ]
   },
@@ -621,13 +621,13 @@
      "name": "Yes",
      "party": null,
      "pct": 45.2,
-     "votes": 54935
+     "votes": 54945
     },
     {
      "name": "No",
      "party": null,
      "pct": 54.8,
-     "votes": 66597
+     "votes": 66617
     }
    ]
   },
@@ -640,13 +640,13 @@
      "name": "Yes for Approval",
      "party": null,
      "pct": 46.4,
-     "votes": 51928
+     "votes": 51943
     },
     {
      "name": "No for Rejection",
      "party": null,
      "pct": 53.6,
-     "votes": 59985
+     "votes": 59997
     }
    ]
   },
@@ -659,13 +659,13 @@
      "name": "Yes for Approval",
      "party": null,
      "pct": 62.92,
-     "votes": 72173
+     "votes": 72189
     },
     {
      "name": "No for Rejection",
      "party": null,
      "pct": 37.08,
-     "votes": 42528
+     "votes": 42540
     }
    ]
   },
@@ -678,13 +678,13 @@
      "name": "Yes for Approval",
      "party": null,
      "pct": 65.46,
-     "votes": 73915
+     "votes": 73936
     },
     {
      "name": "No for Rejection",
      "party": null,
      "pct": 34.54,
-     "votes": 38998
+     "votes": 39006
     }
    ]
   },
@@ -697,13 +697,13 @@
      "name": "Yes for Approval",
      "party": null,
      "pct": 72.2,
-     "votes": 79130
+     "votes": 79150
     },
     {
      "name": "No for Rejection",
      "party": null,
      "pct": 27.8,
-     "votes": 30467
+     "votes": 30472
     }
    ]
   },
@@ -716,13 +716,13 @@
      "name": "Yes for Approval",
      "party": null,
      "pct": 64.79,
-     "votes": 72751
+     "votes": 72772
     },
     {
      "name": "No for Rejection",
      "party": null,
      "pct": 35.21,
-     "votes": 39534
+     "votes": 39541
     }
    ]
   },
@@ -734,14 +734,14 @@
     {
      "name": "Yes = For the ½% (0.5 cents) tax",
      "party": null,
-     "pct": 67.78,
-     "votes": 80158
+     "pct": 67.79,
+     "votes": 80181
     },
     {
      "name": "No = Against the ½% (0.5 cents) tax",
      "party": null,
-     "pct": 32.22,
-     "votes": 38098
+     "pct": 32.21,
+     "votes": 38106
     }
    ]
   },
@@ -754,13 +754,13 @@
      "name": "Yes = For the 1 mill levy",
      "party": null,
      "pct": 66.26,
-     "votes": 77893
+     "votes": 77917
     },
     {
      "name": "No = Against the 1 mill levy",
      "party": null,
      "pct": 33.74,
-     "votes": 39661
+     "votes": 39669
     }
    ]
   },
@@ -773,13 +773,13 @@
      "name": "Yes = For the advisory proposal",
      "party": null,
      "pct": 39.51,
-     "votes": 44998
+     "votes": 45011
     },
     {
      "name": "No = Against the advisory proposal",
      "party": null,
      "pct": 60.49,
-     "votes": 68887
+     "votes": 68902
     }
    ]
   }
