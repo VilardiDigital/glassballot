@@ -18,14 +18,14 @@
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=duval&el=40",
    "publisher": "Duval County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-13"
+   "accessed": "2026-11-14"
   },
   "soe-cf-duval": {
    "title": "Duval Supervisor of Elections campaign finance reports, 2026 cycle",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=duval&el=40",
    "publisher": "Duval County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-13"
+   "accessed": "2026-11-14"
   }
  },
  "people": [
@@ -35,7 +35,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$111,968 in contributions (as of Nov 13, 2026)",
+      "value": "$111,968 in contributions (as of Nov 14, 2026)",
       "source": "soe-cf-duval"
      }
     ]
@@ -46,7 +46,28 @@
    "race": "sb-d2",
    "finance": {
     "voterfocusId": "1433",
-    "status": "Active- Advanced"
+    "status": "Active- Elected"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "myers",
+   "name": "Terence Lavele Myers",
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,849.44 in contributions (as of Nov 14, 2026)",
+      "source": "soe-cf-duval"
+     }
+    ]
+   },
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "2",
+   "race": "sb-d2",
+   "finance": {
+    "voterfocusId": "1421",
+    "status": "Active- Defeated"
    },
    "nonpartisan": true
   },
@@ -56,7 +77,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$31,189.14 in contributions, plus $537.56 in-kind (as of Nov 13, 2026)",
+      "value": "$31,189.14 in contributions, plus $537.56 in-kind (as of Nov 14, 2026)",
       "source": "soe-cf-duval"
      }
     ]
@@ -67,17 +88,38 @@
    "race": "sb-d2",
    "finance": {
     "voterfocusId": "1401",
-    "status": "Active- Advanced"
+    "status": "Active- Defeated"
    },
    "nonpartisan": true
   },
   {
    "id": "butler",
+   "name": "Alfreda Denson Butler",
+   "claims": {
+    "raised": [
+     {
+      "value": "$13,677.50 in contributions, plus $2,404 in-kind (as of Nov 14, 2026)",
+      "source": "soe-cf-duval"
+     }
+    ]
+   },
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "4",
+   "race": "sb-d4",
+   "finance": {
+    "voterfocusId": "1380",
+    "status": "Inactive - Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "rhodesiabutler",
    "name": "Rhodesia \"Rho\" Butler",
    "claims": {
     "raised": [
      {
-      "value": "$40,256.08 in contributions, plus $130.14 in-kind (as of Nov 13, 2026)",
+      "value": "$40,256.08 in contributions, plus $130.14 in-kind (as of Nov 14, 2026)",
       "source": "soe-cf-duval"
      }
     ]
@@ -88,7 +130,7 @@
    "race": "sb-d4",
    "finance": {
     "voterfocusId": "1379",
-    "status": "Active- Advanced"
+    "status": "Active- Elected"
    },
    "nonpartisan": true
   },
@@ -98,7 +140,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$21,938 in contributions (as of Nov 13, 2026)",
+      "value": "$21,938 in contributions (as of Nov 14, 2026)",
       "source": "soe-cf-duval"
      }
     ]
@@ -109,7 +151,7 @@
    "race": "sb-d4",
    "finance": {
     "voterfocusId": "1253",
-    "status": "Active- Advanced"
+    "status": "Active- Defeated"
    },
    "nonpartisan": true
   },
@@ -119,7 +161,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$1,368 in contributions (as of Nov 13, 2026)",
+      "value": "$1,368 in contributions (as of Nov 14, 2026)",
       "source": "soe-cf-duval"
      }
     ]
@@ -130,7 +172,7 @@
    "race": "sb-d4",
    "finance": {
     "voterfocusId": "1457",
-    "status": "Active- Qualified Write-In"
+    "status": "Active- Defeated"
    },
    "nonpartisan": true
   },
@@ -140,7 +182,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$124,173 in contributions, plus $2,055.76 in-kind (as of Nov 13, 2026)",
+      "value": "$124,173 in contributions, plus $2,055.76 in-kind (as of Nov 14, 2026)",
       "source": "soe-cf-duval"
      }
     ]
@@ -151,7 +193,7 @@
    "race": "sb-d6",
    "finance": {
     "voterfocusId": "1403",
-    "status": "Active- Advanced"
+    "status": "Active- Elected"
    },
    "nonpartisan": true
   },
@@ -161,7 +203,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$119,622.21 in contributions (as of Nov 13, 2026)",
+      "value": "$119,622.21 in contributions (as of Nov 14, 2026)",
       "source": "soe-cf-duval"
      }
     ]
@@ -172,7 +214,70 @@
    "race": "sb-d6",
    "finance": {
     "voterfocusId": "1381",
-    "status": "Active- Advanced"
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "petty",
+   "name": "Michelle Petty",
+   "claims": {
+    "raised": [
+     {
+      "value": "$5,716.70 in contributions, plus $873.99 in-kind (as of Nov 14, 2026)",
+      "source": "soe-cf-duval"
+     }
+    ]
+   },
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "6",
+   "race": "sb-d6",
+   "finance": {
+    "voterfocusId": "1386",
+    "status": "Inactive - Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "stafford",
+   "name": "Robert Stafford",
+   "claims": {
+    "raised": [
+     {
+      "value": "$6,880 in contributions (as of Nov 14, 2026)",
+      "source": "soe-cf-duval"
+     }
+    ]
+   },
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "6",
+   "race": "sb-d6",
+   "finance": {
+    "voterfocusId": "1418",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "thomas",
+   "name": "Tammyette Thomas",
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,500 in contributions (as of Nov 14, 2026)",
+      "source": "soe-cf-duval"
+     }
+    ]
+   },
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "6",
+   "race": "sb-d6",
+   "finance": {
+    "voterfocusId": "1471",
+    "status": "Active- Defeated"
    },
    "nonpartisan": true
   }
@@ -185,12 +290,14 @@
    "office": "School Board Dist 2",
    "people": [
     "bradley",
+    "myers",
     "westrich"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Donovan Bradley (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -199,13 +306,15 @@
    "office": "School Board Dist 4",
    "people": [
     "butler",
+    "rhodesiabutler",
     "jacobs",
     "kearsemccastler"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Rhodesia \"Rho\" Butler (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -214,12 +323,16 @@
    "office": "School Board Dist 6",
    "people": [
     "denmark",
-    "james"
+    "james",
+    "petty",
+    "stafford",
+    "thomas"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Lindsey Denmark (elected)"
   }
  ],
  "votes": [],

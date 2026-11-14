@@ -1,55 +1,205 @@
 {
- "pulledAt": "2026-11-13T17:19:28Z",
+ "pulledAt": "2026-11-14T15:56:13Z",
  "totals": {
   "meetings": 24,
-  "meetingsWithRollCalls": 20,
-  "items": 349,
-  "rollCalls": 329,
-  "splitRollCalls": 74
+  "meetingsWithRollCalls": 21,
+  "items": 370,
+  "rollCalls": 345,
+  "splitRollCalls": 80
  },
  "stats": {
   "hetherington": {
-   "aye": 316,
-   "nay": 5,
+   "aye": 331,
+   "nay": 6,
    "absent": 2,
    "abstain": 1,
-   "meetingsHeld": 20,
+   "meetingsHeld": 21,
    "meetingsMissed": 1
   },
   "vargas": {
-   "aye": 264,
-   "nay": 64,
+   "aye": 275,
+   "nay": 69,
    "absent": 1,
    "abstain": 0,
-   "meetingsHeld": 20,
+   "meetingsHeld": 21,
    "meetingsMissed": 0
   },
   "capps": {
-   "aye": 322,
+   "aye": 338,
    "nay": 7,
    "absent": 0,
    "abstain": 0,
-   "meetingsHeld": 20,
+   "meetingsHeld": 21,
    "meetingsMissed": 0
   },
   "heard": {
-   "aye": 316,
-   "nay": 13,
+   "aye": 328,
+   "nay": 17,
    "absent": 0,
    "abstain": 0,
-   "meetingsHeld": 20,
+   "meetingsHeld": 21,
    "meetingsMissed": 0
   },
   "ciampi": {
-   "aye": 323,
-   "nay": 5,
+   "aye": 338,
+   "nay": 6,
    "absent": 1,
    "abstain": 0,
-   "meetingsHeld": 20,
+   "meetingsHeld": 21,
    "meetingsMissed": 0
   }
  },
  "splitVotes": [
+  {
+   "item": 245023,
+   "ev": 2918,
+   "date": "2026-11-10",
+   "file": "27-0164",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "capps",
+    "ciampi",
+    "heard",
+    "hetherington"
+   ],
+   "no": [
+    "vargas"
+   ],
+   "mover": "hetherington",
+   "seconder": "ciampi",
+   "officialTitle": "PUBLIC HEARING TO REQUEST APPROVAL OF THE MAJOR FINAL SITE PLAN FOR MARTIN COUNTY FAIR (M242-002)",
+   "motion": "A motion was made by Commissioner Hetherington, seconded by Vice Chair Ciampi, that this agenda item be approved.. The motion carried by the following vote:",
+   "headline": "PUBLIC HEARING TO REQUEST APPROVAL OF THE MAJOR FINAL SITE PLAN FOR MARTIN COUNTY FAIR (M242-002)",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Ex parte communication disclosures were filed by the commissioners. There were no interveners. The participants were sworn in by the deputy clerk.\n\nCOUNTY: Growth Management Principal Planner John Sinnott presented staff's presentation to the Board. Growth Management Deputy Director Peter Walden, County Engineer Michael Grzelka, County Administrator Don Donaldson, County Attorney Elysse Elder, and Senior Assistant County Attorney Sebastian Fox assisted with Board questions. \n\nThe following County exhibits were filed for the record: (1) agenda item/staff report and (2) John Sinnott's resume.\n\nAPPLICANT: Susan Gibbs Thomas with the Martin County FAIR Association addressed the Board. Erika Breitler with Kimley Horn provided the applicants presentation to the Board. Notices were filed at the LPA. Bridget Edwards with Kimley Horn assisted with Board questions.\n\nSarah Heard inquired about tree accommodations \n\nSusan Gibbs Thomas addressed the Board on behalf of the FAIR Association\n\nErika Breitler Kimley Horn \n\nComm Hetherington \n\nComm Vargas \n\nBrigette Edward Kimley Horn clarified Comm Vargas questions \n\nPete Walden clarified the removal of the water tower \n\nErika B.\n\nSusan Gibbs\n\nComm Vargas - E Elder\n\nS Fox assisted with Comm Vargas questions.\n\nComm Vargas Requested addtl agenda item so that new comm can review.\n\nS. Fox assisted with Comm Vargas questions.\n\nMichael Grzelka / Comm Vargas \n\nComm Ciampi\n\nComm Vargas \n\nThe following member of the public addressed the Board regarding this item: Frank McChrystal.\n\nDennis Ciaglo\n\n\u0000"
+  },
+  {
+   "item": 245250,
+   "ev": 2918,
+   "date": "2026-11-10",
+   "file": "27-0198",
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "capps",
+    "ciampi",
+    "hetherington"
+   ],
+   "no": [
+    "heard",
+    "vargas"
+   ],
+   "mover": "hetherington",
+   "seconder": "capps",
+   "officialTitle": "PUBLIC HEARING TO CONSIDER ADOPTION OF AN AMENDMENT TO THE MARTIN COUNTY ZONING ATLAS TO CHANGE THE ZONING CLASSIFICATION FOR STUART YACHT CORPORATION (S200-002)",
+   "motion": "A motion was made by Commissioner Hetherington, seconded by Commissioner Capps, that this agenda item be approved.. The motion carried by the following vote:",
+   "headline": "PUBLIC HEARING TO CONSIDER ADOPTION OF AN AMENDMENT TO THE MARTIN COUNTY ZONING ATLAS TO CHANGE THE ZONING CLASSIFICATIO",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Ex parte communication disclosures were filed by the commissioners. There was an intervener. Notices ere filed at the LPA. The participants were sworn in by the deputy clerk.\n\nCOUNTY: Growth Management Principal Planner Luis Aguilar presented staff's presentation to the Board. Growth Management Deputy Director Peter Walden and Senior Assistant County Attorney Sebastian Fox assisted with Board questions. \n\nThe following County exhibits were filed for the record: (1) agenda item/staff report and (2) Luis Aguilar's resume.\n\nAPPLICANT: Fox McCluskey Attorney Tyson Waters addressed the Board in support of staff's recommendation and provided the applicant's presentation to the Board.\n\nTyson Waters provided the applicants presentation.\n\nGrand Bank Yachts Managing Director Hank Compton addressed the Board.\n\nTyson Waters \n\nINTERVENER: Lewis, Longman & Walker Attorney Seth Behn intervened on behalf of the St Lucie Settlement?.\n\nTyson Waters \n\nThe following members of the public addressed the Board regarding this item: Frank Boeman, \n\nKim Erland addressed the Board on behalf of Larry Bonadao.\n\nKaren?\n\nJeff Henders? \n\nJackie Martin \n\nEdward Martin \n\nComm Hetherington \n\nComm Capps \n\nComm Heard will not support\n\nComm Vargas doesnt support\n\n\u0000"
+  },
+  {
+   "item": 246324,
+   "ev": 2918,
+   "date": "2026-11-10",
+   "file": "27-0144",
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "capps",
+    "heard",
+    "vargas"
+   ],
+   "no": [
+    "ciampi",
+    "hetherington"
+   ],
+   "mover": "capps",
+   "seconder": "vargas",
+   "officialTitle": "RAILROAD SAFETY CAPITAL IMPROVEMENT PROGRAM AND FLORIDA EAST COAST RAILROAD QUIET ZONE UPDATE",
+   "motion": "A motion was made by Commissioner Capps, seconded by Commissioner Vargas, that this agenda item be approved.. The motion carried by the following vote:",
+   "headline": "RAILROAD SAFETY CAPITAL IMPROVEMENT PROGRAM AND FLORIDA EAST COAST RAILROAD QUIET ZONE UPDATE",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Comm Capps cautioned against picking\n\nComm Capps requested information at the most dangerous crossings/ crossings without intersections\n\nJim Gorton answered crossings with roundabouts have highest risk index\n\n\u0000"
+  },
+  {
+   "item": 246328,
+   "ev": 2918,
+   "date": "2026-11-10",
+   "file": "27-0142",
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "capps",
+    "ciampi",
+    "hetherington"
+   ],
+   "no": [
+    "heard",
+    "vargas"
+   ],
+   "mover": "ciampi",
+   "seconder": "capps",
+   "officialTitle": "REQUEST FOR APPROVAL OF AN AMENDED AND RESTATED PUBLIC PURPOSE LEASE AGREEMENT WITH TREASURE COAST ROWING CLUB IN PALM CITY",
+   "motion": "A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, that this agenda item be adjourned.. The motion carried by the following vote:",
+   "headline": "REQUEST FOR APPROVAL OF AN AMENDED AND RESTATED PUBLIC PURPOSE LEASE AGREEMENT WITH TREASURE COAST ROWING CLUB IN PALM C",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Comm Ciampi\n\nVice President of Treasure Coast Rowing Club Evette Yerda addressed the Board regarding this item.\n\nCommissioner Heard, opposed the lease in light of amendment 3. does not support lease\n\nCommissioner Hetherington supports\n\n\u0000"
+  },
+  {
+   "item": 246331,
+   "ev": 2918,
+   "date": "2026-11-10",
+   "file": "27-0187",
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "capps",
+    "ciampi",
+    "hetherington"
+   ],
+   "no": [
+    "heard",
+    "vargas"
+   ],
+   "mover": "ciampi",
+   "seconder": "hetherington",
+   "officialTitle": "APPROVAL OF A SOVEREIGNTY SUBMERGED LANDS LEASE MODIFICATION WITH THE TRUSTEES OF THE INTERNAL IMPROVEMENT TRUST FUND (TIITF) FOR THE DOCKING AND LOADING FACILITY ADJACENT TO COUNTY OWNED PROPERTY IN PORT SALERNO",
+   "motion": "A motion was made by Vice Chair Ciampi, seconded by Commissioner Hetherington, that this agenda item be approved.. The motion carried by the following vote:",
+   "headline": "APPROVAL OF A SOVEREIGNTY SUBMERGED LANDS LEASE MODIFICATION WITH THE TRUSTEES OF THE INTERNAL IMPROVEMENT TRUST FUND (T",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 246332,
+   "ev": 2918,
+   "date": "2026-11-10",
+   "file": "27-0185",
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "capps",
+    "ciampi",
+    "hetherington"
+   ],
+   "no": [
+    "heard",
+    "vargas"
+   ],
+   "mover": "ciampi",
+   "seconder": "hetherington",
+   "officialTitle": "REQUEST APPROVAL OF A FOURTH AMENDMENT TO LEASE BETWEEN MARTIN COUNTY AND THE PORT SALERNO COMMERCIAL FISHING DOCK AUTHORITY FOR THE USE OF THE HISTORIC COMMERCIAL DOCKING FACILITY IN PORT SALERNO",
+   "motion": "A motion was made by Vice Chair Ciampi, seconded by Commissioner Hetherington, that this agenda item be approved.. The motion carried by the following vote:",
+   "headline": "REQUEST APPROVAL OF A FOURTH AMENDMENT TO LEASE BETWEEN MARTIN COUNTY AND THE PORT SALERNO COMMERCIAL FISHING DOCK AUTHO",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Commissioner Vargas requested clarification\n\nS Fox- 65 slips 35 slips for lessor members 20 comm transients slips and 10 slips temp rented to general public when not in use\n\nDon Donaldson wont alllow restrictions\n\n\u0000"
+  },
   {
    "item": 243718,
    "ev": 2916,
