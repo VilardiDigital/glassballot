@@ -3,7 +3,7 @@
   "name": "Florida",
   "state": "FL",
   "electionDate": "2026-11-03",
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "refreshLog": [],
   "refreshErrors": []
  },
@@ -1277,8 +1277,8 @@
     },
     "soeUrl": "https://www.votepinellas.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": true,
    "legistarTotals": {
     "meetings": 45,
@@ -12045,7 +12045,7 @@
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hillsborough&el=27",
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:53Z",
+     "updated": "2026-11-15T03:04:18Z",
      "url": "https://enr.electionsfl.org/HIL/4074/Summary/",
      "races": [
       {
@@ -13431,8 +13431,8 @@
     },
     "soeUrl": "https://www.votehillsborough.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -14302,7 +14302,7 @@
      "url": "https://enr.electionsfl.org/HIL/4074/Summary/",
      "publisher": "Hillsborough County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -24461,7 +24461,7 @@
       ],
       "counted": true,
       "leader": "cohen",
-      "updated": "2026-11-14T18:50:53Z",
+      "updated": "2026-11-15T03:04:18Z",
       "source": "enr-2026g"
      }
     },
@@ -24504,7 +24504,7 @@
       ],
       "counted": true,
       "leader": "myers",
-      "updated": "2026-11-14T18:50:53Z",
+      "updated": "2026-11-15T03:04:18Z",
       "source": "enr-2026g"
      }
     },
@@ -24547,7 +24547,7 @@
       ],
       "counted": true,
       "leader": "manimala",
-      "updated": "2026-11-14T18:50:53Z",
+      "updated": "2026-11-15T03:04:18Z",
       "source": "enr-2026g"
      }
     },
@@ -24591,7 +24591,7 @@
       ],
       "counted": true,
       "leader": "rodriguez",
-      "updated": "2026-11-14T18:50:53Z",
+      "updated": "2026-11-15T03:04:18Z",
       "source": "enr-2026g"
      }
     },
@@ -24635,7 +24635,7 @@
       ],
       "counted": true,
       "leader": "simic",
-      "updated": "2026-11-14T18:50:53Z",
+      "updated": "2026-11-15T03:04:18Z",
       "source": "enr-2026g"
      }
     },
@@ -24698,7 +24698,7 @@
       ],
       "counted": true,
       "leader": "perez",
-      "updated": "2026-11-14T18:50:53Z",
+      "updated": "2026-11-15T03:04:18Z",
       "source": "enr-2026g"
      }
     }
@@ -25335,7 +25335,7 @@
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=pasco&el=38",
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:56Z",
+     "updated": "2026-11-15T03:04:25Z",
      "url": "https://enr.electionsfl.org/PAS/4085/Summary/",
      "races": [
       {
@@ -25343,19 +25343,19 @@
        "group": "statewide",
        "reported": 122,
        "precincts": 122,
-       "total": 240319,
+       "total": 240343,
        "candidates": [
         {
          "name": "Ashley Moody",
          "party": "REP",
          "pct": 56.39,
-         "votes": 135516
+         "votes": 135523
         },
         {
          "name": "Angie Nixon",
          "party": "DEM",
-         "pct": 42.15,
-         "votes": 101306
+         "pct": 42.16,
+         "votes": 101323
         },
         {
          "name": "Neil J. Gillespie",
@@ -25370,19 +25370,19 @@
        "group": "congress",
        "reported": 72,
        "precincts": 72,
-       "total": 148025,
+       "total": 148042,
        "candidates": [
         {
          "name": "Gus Michael Bilirakis",
          "party": "REP",
          "pct": 59.89,
-         "votes": 88650
+         "votes": 88656
         },
         {
          "name": "Kimberly Overman",
          "party": "DEM",
          "pct": 38.73,
-         "votes": 57329
+         "votes": 57340
         },
         {
          "name": "Branden Scrivener",
@@ -25397,19 +25397,19 @@
        "group": "congress",
        "reported": 12,
        "precincts": 12,
-       "total": 20810,
+       "total": 20811,
        "candidates": [
         {
          "name": "Anna Paulina Luna",
          "party": "REP",
-         "pct": 53.81,
+         "pct": 53.8,
          "votes": 11197
         },
         {
          "name": "Leela Gray",
          "party": "DEM",
-         "pct": 43.74,
-         "votes": 9103
+         "pct": 43.75,
+         "votes": 9104
         },
         {
          "name": "Tony D'Arrigo",
@@ -25424,19 +25424,19 @@
        "group": "congress",
        "reported": 38,
        "precincts": 38,
-       "total": 70682,
+       "total": 70688,
        "candidates": [
         {
          "name": "Laurel Lee",
          "party": "REP",
          "pct": 51.97,
-         "votes": 36735
+         "votes": 36737
         },
         {
          "name": "Robert People",
          "party": "DEM",
          "pct": 47.87,
-         "votes": 33837
+         "votes": 33841
         },
         {
          "name": "Write-in",
@@ -25451,19 +25451,19 @@
        "group": "statewide",
        "reported": 122,
        "precincts": 122,
-       "total": 240068,
+       "total": 240084,
        "candidates": [
         {
          "name": "Byron Donalds",
          "party": "REP",
          "pct": 55.22,
-         "votes": 132566
+         "votes": 132572
         },
         {
          "name": "David Jolly",
          "party": "DEM",
          "pct": 43.07,
-         "votes": 103394
+         "votes": 103404
         },
         {
          "name": "Scott Eckhard Jewett",
@@ -25514,19 +25514,19 @@
        "group": "statewide",
        "reported": 122,
        "precincts": 122,
-       "total": 237273,
+       "total": 237288,
        "candidates": [
         {
          "name": "James Uthmeier",
          "party": "REP",
          "pct": 56.9,
-         "votes": 135016
+         "votes": 135022
         },
         {
          "name": "Jose Javier Rodriguez",
          "party": "DEM",
          "pct": 43.1,
-         "votes": 102257
+         "votes": 102266
         }
        ]
       },
@@ -25535,19 +25535,19 @@
        "group": "statewide",
        "reported": 122,
        "precincts": 122,
-       "total": 235868,
+       "total": 235883,
        "candidates": [
         {
          "name": "Blaise Ingoglia",
          "party": "REP",
          "pct": 56.75,
-         "votes": 133856
+         "votes": 133864
         },
         {
          "name": "Annette Taddeo",
          "party": "DEM",
          "pct": 43.25,
-         "votes": 102012
+         "votes": 102019
         }
        ]
       },
@@ -25556,19 +25556,19 @@
        "group": "statewide",
        "reported": 122,
        "precincts": 122,
-       "total": 237282,
+       "total": 237296,
        "candidates": [
         {
          "name": "Wilton Simpson",
          "party": "REP",
          "pct": 56.18,
-         "votes": 133302
+         "votes": 133308
         },
         {
          "name": "Joey Mendoza Atkins",
          "party": "DEM",
          "pct": 43.29,
-         "votes": 102723
+         "votes": 102731
         },
         {
          "name": "Write-in",
@@ -25583,19 +25583,19 @@
        "group": "legislature",
        "reported": 44,
        "precincts": 44,
-       "total": 83519,
+       "total": 83526,
        "candidates": [
         {
          "name": "Chris Nocco",
          "party": "REP",
          "pct": 60.63,
-         "votes": 50639
+         "votes": 50643
         },
         {
          "name": "Jordan Hensley",
          "party": "DEM",
          "pct": 39.37,
-         "votes": 32880
+         "votes": 32883
         }
        ]
       },
@@ -25631,19 +25631,19 @@
        "group": "legislature",
        "reported": 38,
        "precincts": 38,
-       "total": 86313,
+       "total": 86321,
        "candidates": [
         {
          "name": "Walter Price",
          "party": "REP",
          "pct": 59.05,
-         "votes": 50968
+         "votes": 50971
         },
         {
          "name": "Zach Funkhouser",
          "party": "DEM",
          "pct": 40.95,
-         "votes": 35345
+         "votes": 35350
         }
        ]
       },
@@ -25652,19 +25652,19 @@
        "group": "legislature",
        "reported": 31,
        "precincts": 31,
-       "total": 55067,
+       "total": 55070,
        "candidates": [
         {
          "name": "Brad Yeager",
          "party": "REP",
          "pct": 58.7,
-         "votes": 32323
+         "votes": 32324
         },
         {
          "name": "Jose Freites",
          "party": "DEM",
          "pct": 41.3,
-         "votes": 22744
+         "votes": 22746
         }
        ]
       },
@@ -25673,19 +25673,19 @@
        "group": "county",
        "reported": 122,
        "precincts": 122,
-       "total": 236489,
+       "total": 236503,
        "candidates": [
         {
          "name": "Seth Weightman",
          "party": "REP",
          "pct": 55.35,
-         "votes": 130903
+         "votes": 130909
         },
         {
          "name": "Stephanie C. Vazquez",
          "party": "DEM",
          "pct": 44.65,
-         "votes": 105586
+         "votes": 105594
         }
        ]
       },
@@ -25694,19 +25694,19 @@
        "group": "courts",
        "reported": 122,
        "precincts": 122,
-       "total": 215037,
+       "total": 215048,
        "candidates": [
         {
          "name": "Yes",
          "party": "NON",
          "pct": 61.21,
-         "votes": 131628
+         "votes": 131634
         },
         {
          "name": "No",
          "party": "NON",
          "pct": 38.79,
-         "votes": 83409
+         "votes": 83414
         }
        ]
       },
@@ -25715,19 +25715,19 @@
        "group": "courts",
        "reported": 122,
        "precincts": 122,
-       "total": 213491,
+       "total": 213502,
        "candidates": [
         {
          "name": "Yes",
          "party": "NON",
          "pct": 64.09,
-         "votes": 136821
+         "votes": 136829
         },
         {
          "name": "No",
          "party": "NON",
          "pct": 35.91,
-         "votes": 76670
+         "votes": 76673
         }
        ]
       },
@@ -25736,19 +25736,19 @@
        "group": "courts",
        "reported": 122,
        "precincts": 122,
-       "total": 211808,
+       "total": 211819,
        "candidates": [
         {
          "name": "Yes",
          "party": "NON",
          "pct": 65.02,
-         "votes": 137727
+         "votes": 137735
         },
         {
          "name": "No",
          "party": "NON",
          "pct": 34.98,
-         "votes": 74081
+         "votes": 74084
         }
        ]
       },
@@ -25757,19 +25757,19 @@
        "group": "courts",
        "reported": 122,
        "precincts": 122,
-       "total": 212310,
+       "total": 212321,
        "candidates": [
         {
          "name": "Yes",
          "party": "NON",
          "pct": 64.06,
-         "votes": 136015
+         "votes": 136023
         },
         {
          "name": "No",
          "party": "NON",
          "pct": 35.94,
-         "votes": 76295
+         "votes": 76298
         }
        ]
       },
@@ -25778,19 +25778,19 @@
        "group": "courts",
        "reported": 122,
        "precincts": 122,
-       "total": 211785,
+       "total": 211796,
        "candidates": [
         {
          "name": "Yes",
          "party": "NON",
-         "pct": 66.69,
-         "votes": 141249
+         "pct": 66.7,
+         "votes": 141258
         },
         {
          "name": "No",
          "party": "NON",
-         "pct": 33.31,
-         "votes": 70536
+         "pct": 33.3,
+         "votes": 70538
         }
        ]
       },
@@ -25799,19 +25799,19 @@
        "group": "schools",
        "reported": 122,
        "precincts": 122,
-       "total": 210269,
+       "total": 210280,
        "candidates": [
         {
          "name": "Kimberly D. Coward",
          "party": "NPA",
          "pct": 51.9,
-         "votes": 109139
+         "votes": 109145
         },
         {
          "name": "Gino Collura",
          "party": "NPA",
          "pct": 48.1,
-         "votes": 101130
+         "votes": 101135
         }
        ]
       },
@@ -25820,19 +25820,19 @@
        "group": "schools",
        "reported": 122,
        "precincts": 122,
-       "total": 209094,
+       "total": 209105,
        "candidates": [
         {
          "name": "Matt Geiger",
          "party": "NPA",
          "pct": 58.34,
-         "votes": 121983
+         "votes": 121993
         },
         {
          "name": "Mollyana Ward",
          "party": "NPA",
          "pct": 41.66,
-         "votes": 87111
+         "votes": 87112
         }
        ]
       },
@@ -25841,13 +25841,13 @@
        "group": "district",
        "reported": 43,
        "precincts": 43,
-       "total": 69687,
+       "total": 69690,
        "candidates": [
         {
          "name": "Shanon R. Holm",
          "party": "NPA",
          "pct": 50.59,
-         "votes": 35253
+         "votes": 35256
         },
         {
          "name": "Greg Fuher",
@@ -26114,18 +26114,18 @@
        "group": "district",
        "reported": 1,
        "precincts": 1,
-       "total": 854,
+       "total": 855,
        "candidates": [
         {
          "name": "Mark Kearschner",
          "party": "NPA",
-         "pct": 56.09,
-         "votes": 479
+         "pct": 56.14,
+         "votes": 480
         },
         {
          "name": "Patricia Penberthy",
          "party": "NON",
-         "pct": 43.91,
+         "pct": 43.86,
          "votes": 375
         }
        ]
@@ -26135,18 +26135,18 @@
        "group": "district",
        "reported": 1,
        "precincts": 1,
-       "total": 827,
+       "total": 828,
        "candidates": [
         {
          "name": "Tammy Cox",
          "party": "NPA",
-         "pct": 51.03,
-         "votes": 422
+         "pct": 51.09,
+         "votes": 423
         },
         {
          "name": "James Lewis",
          "party": "NPA",
-         "pct": 48.97,
+         "pct": 48.91,
          "votes": 405
         }
        ]
@@ -26261,19 +26261,19 @@
        "group": "amendment",
        "reported": 122,
        "precincts": 122,
-       "total": 221879,
+       "total": 221893,
        "candidates": [
         {
          "name": "No",
          "party": "NON",
          "pct": 55.69,
-         "votes": 123571
+         "votes": 123576
         },
         {
          "name": "Yes",
          "party": "NON",
          "pct": 44.31,
-         "votes": 98308
+         "votes": 98317
         }
        ]
       },
@@ -26282,19 +26282,19 @@
        "group": "amendment",
        "reported": 122,
        "precincts": 122,
-       "total": 224181,
+       "total": 224195,
        "candidates": [
         {
          "name": "Yes",
          "party": "NON",
          "pct": 64.31,
-         "votes": 144165
+         "votes": 144171
         },
         {
          "name": "No",
          "party": "NON",
          "pct": 35.69,
-         "votes": 80016
+         "votes": 80024
         }
        ]
       },
@@ -26303,19 +26303,19 @@
        "group": "amendment",
        "reported": 122,
        "precincts": 122,
-       "total": 229526,
+       "total": 229540,
        "candidates": [
         {
          "name": "Yes",
          "party": "NON",
          "pct": 67.1,
-         "votes": 154002
+         "votes": 154011
         },
         {
          "name": "No",
          "party": "NON",
          "pct": 32.9,
-         "votes": 75524
+         "votes": 75529
         }
        ]
       },
@@ -26324,13 +26324,13 @@
        "group": "schools",
        "reported": 122,
        "precincts": 122,
-       "total": 225276,
+       "total": 225290,
        "candidates": [
         {
          "name": "Yes",
          "party": "NON",
          "pct": 74.55,
-         "votes": 167950
+         "votes": 167964
         },
         {
          "name": "No",
@@ -26370,8 +26370,8 @@
     },
     "soeUrl": "https://www.pascovotes.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -27427,7 +27427,7 @@
      "url": "https://enr.electionsfl.org/PAS/4085/Summary/",
      "publisher": "Pasco County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -33751,26 +33751,26 @@
       "status": "unofficial",
       "reported": 122,
       "precincts": 122,
-      "total": 236489,
+      "total": 236503,
       "candidates": [
        {
         "name": "Seth Weightman",
         "party": "REP",
         "pct": 55.35,
-        "votes": 130903,
+        "votes": 130909,
         "person": "weightman"
        },
        {
         "name": "Stephanie C. Vazquez",
         "party": "DEM",
         "pct": 44.65,
-        "votes": 105586,
+        "votes": 105594,
         "person": "vazquez"
        }
       ],
       "counted": true,
       "leader": "weightman",
-      "updated": "2026-11-14T18:50:56Z",
+      "updated": "2026-11-15T03:04:25Z",
       "source": "enr-2026g"
      }
     },
@@ -33811,26 +33811,26 @@
       "status": "unofficial",
       "reported": 122,
       "precincts": 122,
-      "total": 210269,
+      "total": 210280,
       "candidates": [
        {
         "name": "Kimberly D. Coward",
         "party": "NPA",
         "pct": 51.9,
-        "votes": 109139,
+        "votes": 109145,
         "person": "coward"
        },
        {
         "name": "Gino Collura",
         "party": "NPA",
         "pct": 48.1,
-        "votes": 101130,
+        "votes": 101135,
         "person": "collura"
        }
       ],
       "counted": true,
       "leader": "coward",
-      "updated": "2026-11-14T18:50:56Z",
+      "updated": "2026-11-15T03:04:25Z",
       "source": "enr-2026g"
      }
     },
@@ -33854,26 +33854,26 @@
       "status": "unofficial",
       "reported": 122,
       "precincts": 122,
-      "total": 209094,
+      "total": 209105,
       "candidates": [
        {
         "name": "Matt Geiger",
         "party": "NPA",
         "pct": 58.34,
-        "votes": 121983,
+        "votes": 121993,
         "person": "geiger"
        },
        {
         "name": "Mollyana Ward",
         "party": "NPA",
         "pct": 41.66,
-        "votes": 87111,
+        "votes": 87112,
         "person": "ward"
        }
       ],
       "counted": true,
       "leader": "geiger",
-      "updated": "2026-11-14T18:50:56Z",
+      "updated": "2026-11-15T03:04:25Z",
       "source": "enr-2026g"
      }
     },
@@ -34708,7 +34708,7 @@
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hernando&el=32",
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:53Z",
+     "updated": "2026-11-15T03:04:17Z",
      "url": "https://enr.electionsfl.org/HER/4106/Summary/",
      "races": [
       {
@@ -35248,8 +35248,8 @@
     },
     "soeUrl": "https://www.hernandovotes.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": true,
    "legistarTotals": {
     "meetings": 78,
@@ -36435,7 +36435,7 @@
      "url": "https://enr.electionsfl.org/HER/4106/Summary/",
      "publisher": "Hernando County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -43482,7 +43482,7 @@
       ],
       "counted": true,
       "leader": "holcomb",
-      "updated": "2026-11-14T18:50:53Z",
+      "updated": "2026-11-15T03:04:17Z",
       "source": "enr-2026g"
      }
     },
@@ -43567,7 +43567,7 @@
       ],
       "counted": true,
       "leader": "kchampion",
-      "updated": "2026-11-14T18:50:53Z",
+      "updated": "2026-11-15T03:04:17Z",
       "source": "enr-2026g"
      }
     }
@@ -45731,7 +45731,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:50Z",
+     "updated": "2026-11-15T03:04:09Z",
      "url": "https://enr.electionsfl.org/ALA/4097/Summary/",
      "races": [
       {
@@ -46389,8 +46389,8 @@
     },
     "soeUrl": "https://www.votealachua.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -46443,7 +46443,7 @@
      "url": "https://enr.electionsfl.org/ALA/4097/Summary/",
      "publisher": "Alachua County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -49866,7 +49866,7 @@
       ],
       "counted": true,
       "leader": "cornell",
-      "updated": "2026-11-14T18:50:50Z",
+      "updated": "2026-11-15T03:04:09Z",
       "source": "enr-2026g"
      }
     },
@@ -49906,7 +49906,7 @@
       ],
       "counted": true,
       "leader": "miller",
-      "updated": "2026-11-14T18:50:50Z",
+      "updated": "2026-11-15T03:04:09Z",
       "source": "enr-2026g"
      }
     },
@@ -49997,7 +49997,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:50Z",
+     "updated": "2026-11-15T03:04:10Z",
      "url": "https://enr.electionsfl.org/BAK/4124/Summary/",
      "races": [
       {
@@ -50445,8 +50445,8 @@
     },
     "soeUrl": "https://votebakerfl.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -50506,7 +50506,7 @@
      "url": "https://enr.electionsfl.org/BAK/4124/Summary/",
      "publisher": "Baker County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -52575,7 +52575,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:50Z",
+     "updated": "2026-11-15T03:04:10Z",
      "url": "https://enr.electionsfl.org/BAY/4078/Summary/",
      "races": [
       {
@@ -53278,8 +53278,8 @@
     },
     "soeUrl": "https://www.bayvotesfl.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -53339,7 +53339,7 @@
      "url": "https://enr.electionsfl.org/BAY/4078/Summary/",
      "publisher": "Bay County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -57001,7 +57001,7 @@
       ],
       "counted": false,
       "leader": "haley",
-      "updated": "2026-11-14T18:50:50Z",
+      "updated": "2026-11-15T03:04:10Z",
       "source": "enr-2026g"
      }
     },
@@ -57077,7 +57077,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:50Z",
+     "updated": "2026-11-15T03:04:10Z",
      "url": "https://enr.electionsfl.org/BRA/4113/Summary/",
      "races": [
       {
@@ -57546,8 +57546,8 @@
     },
     "soeUrl": "https://www.votebradfordfl.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -57607,7 +57607,7 @@
      "url": "https://enr.electionsfl.org/BRA/4113/Summary/",
      "publisher": "Bradford County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -59965,7 +59965,7 @@
       ],
       "counted": true,
       "leader": "bennett",
-      "updated": "2026-11-14T18:50:50Z",
+      "updated": "2026-11-15T03:04:10Z",
       "source": "enr-2026g"
      }
     },
@@ -60084,7 +60084,7 @@
     },
     "ballotResults": {
      "status": "official",
-     "updated": "2026-11-14T18:50:50Z",
+     "updated": "2026-11-15T03:04:11Z",
      "url": "https://enr.electionsfl.org/BRE/4064/Summary/",
      "races": [
       {
@@ -61570,8 +61570,8 @@
     },
     "soeUrl": "https://www.votebrevard.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": true,
    "legistarTotals": {
     "meetings": 34,
@@ -61630,7 +61630,7 @@
      "url": "https://enr.electionsfl.org/BRE/4064/Summary/",
      "publisher": "Brevard County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -68006,7 +68006,7 @@
       ],
       "counted": true,
       "leader": "loyd",
-      "updated": "2026-11-14T18:50:50Z",
+      "updated": "2026-11-15T03:04:11Z",
       "source": "enr-2026g"
      }
     },
@@ -68092,7 +68092,7 @@
       ],
       "counted": true,
       "leader": "savage",
-      "updated": "2026-11-14T18:50:50Z",
+      "updated": "2026-11-15T03:04:11Z",
       "source": "enr-2026g"
      }
     },
@@ -68134,7 +68134,7 @@
       ],
       "counted": true,
       "leader": "mccormack",
-      "updated": "2026-11-14T18:50:50Z",
+      "updated": "2026-11-15T03:04:11Z",
       "source": "enr-2026g"
      }
     }
@@ -68208,8 +68208,8 @@
     },
     "soeUrl": "https://www.browardvotes.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": true,
    "legistarTotals": {
     "meetings": 18,
@@ -77413,7 +77413,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:50Z",
+     "updated": "2026-11-15T03:04:11Z",
      "url": "https://enr.electionsfl.org/CAL/4054/Summary/",
      "races": [
       {
@@ -78080,8 +78080,8 @@
     },
     "soeUrl": "https://www.votecalhounfl.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -78141,7 +78141,7 @@
      "url": "https://enr.electionsfl.org/CAL/4054/Summary/",
      "publisher": "Calhoun County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -80813,7 +80813,7 @@
       ],
       "counted": true,
       "leader": "monlyn",
-      "updated": "2026-11-14T18:50:50Z",
+      "updated": "2026-11-15T03:04:11Z",
       "source": "enr-2026g"
      }
     },
@@ -80920,7 +80920,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:51Z",
+     "updated": "2026-11-15T03:04:12Z",
      "url": "https://enr.electionsfl.org/CHA/4062/Summary/",
      "races": [
       {
@@ -81440,8 +81440,8 @@
     },
     "soeUrl": "https://www.soecharlottecountyfl.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": true,
    "legistarTotals": {
     "meetings": 24,
@@ -81514,7 +81514,7 @@
      "url": "https://enr.electionsfl.org/CHA/4062/Summary/",
      "publisher": "Charlotte County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -84789,7 +84789,7 @@
       ],
       "counted": true,
       "leader": "amontree",
-      "updated": "2026-11-14T18:50:51Z",
+      "updated": "2026-11-15T03:04:12Z",
       "source": "enr-2026g"
      }
     },
@@ -84879,7 +84879,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:51Z",
+     "updated": "2026-11-15T03:04:12Z",
      "url": "https://enr.electionsfl.org/CIT/4070/Summary/",
      "races": [
       {
@@ -85342,8 +85342,8 @@
     },
     "soeUrl": "https://www.votecitrus.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -85403,7 +85403,7 @@
      "url": "https://enr.electionsfl.org/CIT/4070/Summary/",
      "publisher": "Citrus County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -88779,7 +88779,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:51Z",
+     "updated": "2026-11-15T03:04:12Z",
      "url": "https://enr.electionsfl.org/CLA/4086/Summary/",
      "races": [
       {
@@ -89311,8 +89311,8 @@
     },
     "soeUrl": "https://www.clayelections.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -89372,7 +89372,7 @@
      "url": "https://enr.electionsfl.org/CLA/4086/Summary/",
      "publisher": "Clay County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -92888,7 +92888,7 @@
       ],
       "counted": true,
       "leader": "edwards",
-      "updated": "2026-11-14T18:50:51Z",
+      "updated": "2026-11-15T03:04:12Z",
       "source": "enr-2026g"
      }
     },
@@ -93010,7 +93010,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:51Z",
+     "updated": "2026-11-15T03:04:12Z",
      "url": "https://enr.electionsfl.org/CLL/4083/Summary/",
      "races": [
       {
@@ -93767,8 +93767,8 @@
     },
     "soeUrl": "https://www.colliervotes.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -93828,7 +93828,7 @@
      "url": "https://enr.electionsfl.org/CLL/4083/Summary/",
      "publisher": "Collier County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -96615,7 +96615,7 @@
       ],
       "counted": true,
       "leader": "hall",
-      "updated": "2026-11-14T18:50:51Z",
+      "updated": "2026-11-15T03:04:12Z",
       "source": "enr-2026g"
      }
     },
@@ -96735,7 +96735,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:51Z",
+     "updated": "2026-11-15T03:04:13Z",
      "url": "https://enr.electionsfl.org/CLM/4069/Summary/",
      "races": [
       {
@@ -97294,8 +97294,8 @@
     },
     "soeUrl": "https://www.votecolumbiafl.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -97355,7 +97355,7 @@
      "url": "https://enr.electionsfl.org/CLM/4069/Summary/",
      "publisher": "Columbia County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -99565,7 +99565,7 @@
       ],
       "counted": true,
       "leader": "pittman",
-      "updated": "2026-11-14T18:50:51Z",
+      "updated": "2026-11-15T03:04:13Z",
       "source": "enr-2026g"
      }
     },
@@ -99605,7 +99605,7 @@
       ],
       "counted": true,
       "leader": "dicks",
-      "updated": "2026-11-14T18:50:51Z",
+      "updated": "2026-11-15T03:04:13Z",
       "source": "enr-2026g"
      }
     },
@@ -99710,7 +99710,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:51Z",
+     "updated": "2026-11-15T03:04:13Z",
      "url": "https://enr.electionsfl.org/DES/4094/Summary/",
      "races": [
       {
@@ -100170,8 +100170,8 @@
     },
     "soeUrl": "https://www.votedesotofl.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": true,
    "legistarTotals": {
     "meetings": 34,
@@ -100230,7 +100230,7 @@
      "url": "https://enr.electionsfl.org/DES/4094/Summary/",
      "publisher": "DeSoto County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -102527,7 +102527,7 @@
       ],
       "counted": true,
       "leader": "johnson",
-      "updated": "2026-11-14T18:50:51Z",
+      "updated": "2026-11-15T03:04:13Z",
       "source": "enr-2026g"
      }
     },
@@ -103032,7 +103032,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:51Z",
+     "updated": "2026-11-15T03:04:14Z",
      "url": "https://enr.electionsfl.org/DIX/4125/Summary/",
      "races": [
       {
@@ -103426,8 +103426,8 @@
     },
     "soeUrl": "https://www.dixievotes.com/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -103494,7 +103494,7 @@
      "url": "https://enr.electionsfl.org/DIX/4125/Summary/",
      "publisher": "Dixie County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -105281,7 +105281,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:51Z",
+     "updated": "2026-11-15T03:04:14Z",
      "url": "https://enr.electionsfl.org/DUV/4076/Summary/",
      "races": [
       {
@@ -105972,8 +105972,8 @@
     },
     "soeUrl": "https://www.duvalelections.com/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -106019,7 +106019,7 @@
      "url": "https://enr.electionsfl.org/DUV/4076/Summary/",
      "publisher": "Duval County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -109250,7 +109250,7 @@
       ],
       "counted": true,
       "leader": "bradley",
-      "updated": "2026-11-14T18:50:51Z",
+      "updated": "2026-11-15T03:04:14Z",
       "source": "enr-2026g"
      }
     },
@@ -109300,7 +109300,7 @@
       ],
       "counted": true,
       "leader": "butler",
-      "updated": "2026-11-14T18:50:51Z",
+      "updated": "2026-11-15T03:04:14Z",
       "source": "enr-2026g"
      }
     },
@@ -109344,7 +109344,7 @@
       ],
       "counted": true,
       "leader": "denmark",
-      "updated": "2026-11-14T18:50:51Z",
+      "updated": "2026-11-15T03:04:14Z",
       "source": "enr-2026g"
      }
     }
@@ -109418,8 +109418,8 @@
     },
     "soeUrl": "https://escambiavotes.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -113610,7 +113610,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:52Z",
+     "updated": "2026-11-15T03:04:14Z",
      "url": "https://enr.electionsfl.org/FLA/4088/Summary/",
      "races": [
       {
@@ -114208,8 +114208,8 @@
     },
     "soeUrl": "https://www.flaglerelections.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -114269,7 +114269,7 @@
      "url": "https://enr.electionsfl.org/FLA/4088/Summary/",
      "publisher": "Flagler County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -117474,7 +117474,7 @@
       ],
       "counted": false,
       "leader": "pontieri",
-      "updated": "2026-11-14T18:50:52Z",
+      "updated": "2026-11-15T03:04:14Z",
       "source": "enr-2026g"
      }
     },
@@ -117514,7 +117514,7 @@
       ],
       "counted": false,
       "leader": "pennington",
-      "updated": "2026-11-14T18:50:52Z",
+      "updated": "2026-11-15T03:04:14Z",
       "source": "enr-2026g"
      }
     },
@@ -117584,7 +117584,7 @@
       ],
       "counted": false,
       "leader": "chong",
-      "updated": "2026-11-14T18:50:52Z",
+      "updated": "2026-11-15T03:04:14Z",
       "source": "enr-2026g"
      }
     }
@@ -117646,7 +117646,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:52Z",
+     "updated": "2026-11-15T03:04:14Z",
      "url": "https://enr.electionsfl.org/FRA/4130/Summary/",
      "races": [
       {
@@ -118145,8 +118145,8 @@
     },
     "soeUrl": "https://www.votefranklinfl.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -118206,7 +118206,7 @@
      "url": "https://enr.electionsfl.org/FRA/4130/Summary/",
      "publisher": "Franklin County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -119750,7 +119750,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:52Z",
+     "updated": "2026-11-15T03:04:15Z",
      "url": "https://enr.electionsfl.org/GAD/4066/Summary/",
      "races": [
       {
@@ -120201,8 +120201,8 @@
     },
     "soeUrl": "https://www.gadsdensoefl.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -120262,7 +120262,7 @@
      "url": "https://enr.electionsfl.org/GAD/4066/Summary/",
      "publisher": "Gadsden County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -122996,7 +122996,7 @@
       ],
       "counted": true,
       "leader": "brown",
-      "updated": "2026-11-14T18:50:52Z",
+      "updated": "2026-11-15T03:04:15Z",
       "source": "enr-2026g"
      }
     },
@@ -123036,7 +123036,7 @@
       ],
       "counted": true,
       "leader": "moore",
-      "updated": "2026-11-14T18:50:52Z",
+      "updated": "2026-11-15T03:04:15Z",
       "source": "enr-2026g"
      }
     },
@@ -123126,7 +123126,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:52Z",
+     "updated": "2026-11-15T03:04:15Z",
      "url": "https://enr.electionsfl.org/GIL/4055/Summary/",
      "races": [
       {
@@ -123589,8 +123589,8 @@
     },
     "soeUrl": "https://www.votegilchrist.com/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -123650,7 +123650,7 @@
      "url": "https://enr.electionsfl.org/GIL/4055/Summary/",
      "publisher": "Gilchrist County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -124967,7 +124967,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:52Z",
+     "updated": "2026-11-15T03:04:15Z",
      "url": "https://enr.electionsfl.org/GLA/4065/Summary/",
      "races": [
       {
@@ -125355,8 +125355,8 @@
     },
     "soeUrl": "https://www.voteglades.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -125416,7 +125416,7 @@
      "url": "https://enr.electionsfl.org/GLA/4065/Summary/",
      "publisher": "Glades County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -127651,7 +127651,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:52Z",
+     "updated": "2026-11-15T03:04:16Z",
      "url": "https://enr.electionsfl.org/GUL/4084/Summary/",
      "races": [
       {
@@ -128081,8 +128081,8 @@
     },
     "soeUrl": "https://www.votegulf.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -128142,7 +128142,7 @@
      "url": "https://enr.electionsfl.org/GUL/4084/Summary/",
      "publisher": "Gulf County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -130573,7 +130573,7 @@
       ],
       "counted": true,
       "leader": "bailey",
-      "updated": "2026-11-14T18:50:52Z",
+      "updated": "2026-11-15T03:04:16Z",
       "source": "enr-2026g"
      }
     },
@@ -130677,7 +130677,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:52Z",
+     "updated": "2026-11-15T03:04:16Z",
      "url": "https://enr.electionsfl.org/HAM/4101/Summary/",
      "races": [
       {
@@ -131113,8 +131113,8 @@
     },
     "soeUrl": "https://www.hamiltonvotesfl.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -131174,7 +131174,7 @@
      "url": "https://enr.electionsfl.org/HAM/4101/Summary/",
      "publisher": "Hamilton County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -133200,7 +133200,7 @@
       ],
       "counted": false,
       "leader": "erixton",
-      "updated": "2026-11-14T18:50:52Z",
+      "updated": "2026-11-15T03:04:16Z",
       "source": "enr-2026g"
      }
     },
@@ -133254,7 +133254,7 @@
       ],
       "counted": false,
       "leader": "ogburn",
-      "updated": "2026-11-14T18:50:52Z",
+      "updated": "2026-11-15T03:04:16Z",
       "source": "enr-2026g"
      }
     },
@@ -133328,7 +133328,7 @@
     "pastCycles": {},
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:52Z",
+     "updated": "2026-11-15T03:04:16Z",
      "url": "https://enr.electionsfl.org/HAR/4063/Summary/",
      "races": [
       {
@@ -133680,8 +133680,8 @@
     },
     "soeUrl": "https://hardeeflvotes.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -133713,7 +133713,7 @@
      "url": "https://enr.electionsfl.org/HAR/4063/Summary/",
      "publisher": "Hardee County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -134761,7 +134761,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:53Z",
+     "updated": "2026-11-15T03:04:17Z",
      "url": "https://enr.electionsfl.org/HEN/4077/Summary/",
      "races": [
       {
@@ -135188,8 +135188,8 @@
     },
     "soeUrl": "https://www.hendryelections.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -135249,7 +135249,7 @@
      "url": "https://enr.electionsfl.org/HEN/4077/Summary/",
      "publisher": "Hendry County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -137089,7 +137089,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:53Z",
+     "updated": "2026-11-15T03:04:17Z",
      "url": "https://enr.electionsfl.org/HIG/4127/Summary/",
      "races": [
       {
@@ -137543,8 +137543,8 @@
     },
     "soeUrl": "https://www.votehighlands.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -137590,7 +137590,7 @@
      "url": "https://enr.electionsfl.org/HIG/4127/Summary/",
      "publisher": "Highlands County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -140955,7 +140955,7 @@
       ],
       "counted": true,
       "leader": "pritchett",
-      "updated": "2026-11-14T18:50:53Z",
+      "updated": "2026-11-15T03:04:17Z",
       "source": "enr-2026g"
      }
     },
@@ -141012,7 +141012,7 @@
       ],
       "counted": true,
       "leader": "andytuck",
-      "updated": "2026-11-14T18:50:53Z",
+      "updated": "2026-11-15T03:04:17Z",
       "source": "enr-2026g"
      }
     }
@@ -141074,7 +141074,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:53Z",
+     "updated": "2026-11-15T03:04:18Z",
      "url": "https://enr.electionsfl.org/HOL/4108/Summary/",
      "races": [
       {
@@ -141576,8 +141576,8 @@
     },
     "soeUrl": "https://www.holmeselectionsfl.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -141637,7 +141637,7 @@
      "url": "https://enr.electionsfl.org/HOL/4108/Summary/",
      "publisher": "Holmes County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -144227,7 +144227,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:53Z",
+     "updated": "2026-11-15T03:04:18Z",
      "url": "https://enr.electionsfl.org/IND/4096/Summary/",
      "races": [
       {
@@ -144918,8 +144918,8 @@
     },
     "soeUrl": "https://www.voteindianriver.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -144979,7 +144979,7 @@
      "url": "https://enr.electionsfl.org/IND/4096/Summary/",
      "publisher": "Indian River County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -149175,7 +149175,7 @@
       ],
       "counted": true,
       "leader": "pippin",
-      "updated": "2026-11-14T18:50:53Z",
+      "updated": "2026-11-15T03:04:18Z",
       "source": "enr-2026g"
      }
     },
@@ -149216,7 +149216,7 @@
       ],
       "counted": true,
       "leader": "derylloar",
-      "updated": "2026-11-14T18:50:53Z",
+      "updated": "2026-11-15T03:04:18Z",
       "source": "enr-2026g"
      }
     },
@@ -149321,7 +149321,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:53Z",
+     "updated": "2026-11-15T03:04:19Z",
      "url": "https://enr.electionsfl.org/JAC/4118/Summary/",
      "races": [
       {
@@ -149772,8 +149772,8 @@
     },
     "soeUrl": "https://www.votejacksonfl.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -149833,7 +149833,7 @@
      "url": "https://enr.electionsfl.org/JAC/4118/Summary/",
      "publisher": "Jackson County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -152093,7 +152093,7 @@
       ],
       "counted": true,
       "leader": "daniels",
-      "updated": "2026-11-14T18:50:53Z",
+      "updated": "2026-11-15T03:04:19Z",
       "source": "enr-2026g"
      }
     }
@@ -152152,7 +152152,7 @@
     "pastCycles": {},
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:54Z",
+     "updated": "2026-11-15T03:04:19Z",
      "url": "https://enr.electionsfl.org/JEF/4115/Summary/",
      "races": [
       {
@@ -152666,8 +152666,8 @@
     },
     "soeUrl": "https://www.jeffersonvotesfl.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -152699,7 +152699,7 @@
      "url": "https://enr.electionsfl.org/JEF/4115/Summary/",
      "publisher": "Jefferson County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -154351,7 +154351,7 @@
       ],
       "counted": true,
       "leader": "hosford",
-      "updated": "2026-11-14T18:50:54Z",
+      "updated": "2026-11-15T03:04:19Z",
       "source": "enr-2026g"
      }
     },
@@ -154393,7 +154393,7 @@
       ],
       "counted": true,
       "leader": "bradley",
-      "updated": "2026-11-14T18:50:54Z",
+      "updated": "2026-11-15T03:04:19Z",
       "source": "enr-2026g"
      }
     },
@@ -154483,7 +154483,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:54Z",
+     "updated": "2026-11-15T03:04:19Z",
      "url": "https://enr.electionsfl.org/LAF/4071/Summary/",
      "races": [
       {
@@ -154898,8 +154898,8 @@
     },
     "soeUrl": "https://www.lafayettevotes.net/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -154938,7 +154938,7 @@
      "url": "https://enr.electionsfl.org/LAF/4071/Summary/",
      "publisher": "Lafayette County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -156149,7 +156149,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:54Z",
+     "updated": "2026-11-15T03:04:20Z",
      "url": "https://enr.electionsfl.org/LAK/4079/Summary/",
      "races": [
       {
@@ -157515,8 +157515,8 @@
     },
     "soeUrl": "https://www.lakevotes.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -157576,7 +157576,7 @@
      "url": "https://enr.electionsfl.org/LAK/4079/Summary/",
      "publisher": "Lake County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -160918,7 +160918,7 @@
       ],
       "counted": true,
       "leader": "parks",
-      "updated": "2026-11-14T18:50:54Z",
+      "updated": "2026-11-15T03:04:20Z",
       "source": "enr-2026g"
      }
     },
@@ -160966,7 +160966,7 @@
       ],
       "counted": true,
       "leader": "lesliecampione",
-      "updated": "2026-11-14T18:50:54Z",
+      "updated": "2026-11-15T03:04:20Z",
       "source": "enr-2026g"
      }
     },
@@ -161006,7 +161006,7 @@
       ],
       "counted": true,
       "leader": "kelley",
-      "updated": "2026-11-14T18:50:54Z",
+      "updated": "2026-11-15T03:04:20Z",
       "source": "enr-2026g"
      }
     },
@@ -161096,7 +161096,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:54Z",
+     "updated": "2026-11-15T03:04:20Z",
      "url": "https://enr.electionsfl.org/LEE/4111/Summary/",
      "races": [
       {
@@ -162699,8 +162699,8 @@
     },
     "soeUrl": "https://www.lee.vote/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -162760,7 +162760,7 @@
      "url": "https://enr.electionsfl.org/LEE/4111/Summary/",
      "publisher": "Lee County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -169873,7 +169873,7 @@
       ],
       "counted": true,
       "leader": "cecilpendergrass",
-      "updated": "2026-11-14T18:50:54Z",
+      "updated": "2026-11-15T03:04:20Z",
       "source": "enr-2026g"
      }
     },
@@ -169913,7 +169913,7 @@
       ],
       "counted": true,
       "leader": "hamman",
-      "updated": "2026-11-14T18:50:54Z",
+      "updated": "2026-11-15T03:04:20Z",
       "source": "enr-2026g"
      }
     },
@@ -169983,7 +169983,7 @@
       ],
       "counted": true,
       "leader": "jordan",
-      "updated": "2026-11-14T18:50:54Z",
+      "updated": "2026-11-15T03:04:20Z",
       "source": "enr-2026g"
      }
     },
@@ -170023,7 +170023,7 @@
       ],
       "counted": true,
       "leader": "johnson",
-      "updated": "2026-11-14T18:50:54Z",
+      "updated": "2026-11-15T03:04:20Z",
       "source": "enr-2026g"
      }
     },
@@ -170100,7 +170100,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:54Z",
+     "updated": "2026-11-15T03:04:20Z",
      "url": "https://enr.electionsfl.org/LEO/4072/Summary/",
      "races": [
       {
@@ -170887,8 +170887,8 @@
     },
     "soeUrl": "https://www.leonvotes.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -170948,7 +170948,7 @@
      "url": "https://enr.electionsfl.org/LEO/4072/Summary/",
      "publisher": "Leon County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -175546,7 +175546,7 @@
       ],
       "counted": true,
       "leader": "maddox",
-      "updated": "2026-11-14T18:50:54Z",
+      "updated": "2026-11-15T03:04:20Z",
       "source": "enr-2026g"
      }
     },
@@ -175600,7 +175600,7 @@
       ],
       "counted": true,
       "leader": "williamminor",
-      "updated": "2026-11-14T18:50:54Z",
+      "updated": "2026-11-15T03:04:20Z",
       "source": "enr-2026g"
      }
     },
@@ -175640,7 +175640,7 @@
       ],
       "counted": true,
       "leader": null,
-      "updated": "2026-11-14T18:50:54Z",
+      "updated": "2026-11-15T03:04:20Z",
       "source": "enr-2026g"
      }
     },
@@ -175680,7 +175680,7 @@
       ],
       "counted": true,
       "leader": "smith",
-      "updated": "2026-11-14T18:50:54Z",
+      "updated": "2026-11-15T03:04:20Z",
       "source": "enr-2026g"
      }
     },
@@ -175771,7 +175771,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:54Z",
+     "updated": "2026-11-15T03:04:21Z",
      "url": "https://enr.electionsfl.org/LEV/4058/Summary/",
      "races": [
       {
@@ -176213,8 +176213,8 @@
     },
     "soeUrl": "https://www.votelevy.com/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -176274,7 +176274,7 @@
      "url": "https://enr.electionsfl.org/LEV/4058/Summary/",
      "publisher": "Levy County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -179223,7 +179223,7 @@
       ],
       "counted": true,
       "leader": "lemery",
-      "updated": "2026-11-14T18:50:54Z",
+      "updated": "2026-11-15T03:04:21Z",
       "source": "enr-2026g"
      }
     },
@@ -179344,7 +179344,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:54Z",
+     "updated": "2026-11-15T03:04:21Z",
      "url": "https://enr.electionsfl.org/LIB/4098/Summary/",
      "races": [
       {
@@ -179795,8 +179795,8 @@
     },
     "soeUrl": "https://libertycountyflsoe.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -179856,7 +179856,7 @@
      "url": "https://enr.electionsfl.org/LIB/4098/Summary/",
      "publisher": "Liberty County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -181982,7 +181982,7 @@
       ],
       "counted": true,
       "leader": "bailey",
-      "updated": "2026-11-14T18:50:54Z",
+      "updated": "2026-11-15T03:04:21Z",
       "source": "enr-2026g"
      }
     },
@@ -182107,7 +182107,7 @@
     "pastCycles": {},
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:55Z",
+     "updated": "2026-11-15T03:04:21Z",
      "url": "https://enr.electionsfl.org/MAD/4061/Summary/",
      "races": [
       {
@@ -182579,8 +182579,8 @@
     },
     "soeUrl": "https://www.votemadison.com/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -182619,7 +182619,7 @@
      "url": "https://enr.electionsfl.org/MAD/4061/Summary/",
      "publisher": "Madison County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -185040,7 +185040,7 @@
       ],
       "counted": true,
       "leader": "martin",
-      "updated": "2026-11-14T18:50:55Z",
+      "updated": "2026-11-15T03:04:21Z",
       "source": "enr-2026g"
      }
     },
@@ -185112,7 +185112,7 @@
       ],
       "counted": true,
       "leader": "maurice",
-      "updated": "2026-11-14T18:50:55Z",
+      "updated": "2026-11-15T03:04:21Z",
       "source": "enr-2026g"
      }
     }
@@ -185174,7 +185174,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:55Z",
+     "updated": "2026-11-15T03:04:22Z",
      "url": "https://enr.electionsfl.org/MAN/4126/Summary/",
      "races": [
       {
@@ -186492,8 +186492,8 @@
     },
     "soeUrl": "https://www.votemanatee.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -186553,7 +186553,7 @@
      "url": "https://enr.electionsfl.org/MAN/4126/Summary/",
      "publisher": "Manatee County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -195147,7 +195147,7 @@
       ],
       "counted": true,
       "leader": "arnold",
-      "updated": "2026-11-14T18:50:55Z",
+      "updated": "2026-11-15T03:04:22Z",
       "source": "enr-2026g"
      }
     },
@@ -195189,7 +195189,7 @@
       ],
       "counted": true,
       "leader": "ballard",
-      "updated": "2026-11-14T18:50:55Z",
+      "updated": "2026-11-15T03:04:22Z",
       "source": "enr-2026g"
      }
     },
@@ -195248,7 +195248,7 @@
       ],
       "counted": true,
       "leader": "poulton",
-      "updated": "2026-11-14T18:50:55Z",
+      "updated": "2026-11-15T03:04:22Z",
       "source": "enr-2026g"
      }
     },
@@ -195292,7 +195292,7 @@
       ],
       "counted": true,
       "leader": "jefferson",
-      "updated": "2026-11-14T18:50:55Z",
+      "updated": "2026-11-15T03:04:22Z",
       "source": "enr-2026g"
      }
     },
@@ -195348,7 +195348,7 @@
       ],
       "counted": true,
       "leader": "bedinghaus",
-      "updated": "2026-11-14T18:50:55Z",
+      "updated": "2026-11-15T03:04:22Z",
       "source": "enr-2026g"
      }
     }
@@ -195410,7 +195410,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:55Z",
+     "updated": "2026-11-15T03:04:22Z",
      "url": "https://enr.electionsfl.org/MRN/4099/Summary/",
      "races": [
       {
@@ -196005,8 +196005,8 @@
     },
     "soeUrl": "https://votemarion.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": true,
    "legistarTotals": {
     "meetings": 24,
@@ -196065,7 +196065,7 @@
      "url": "https://enr.electionsfl.org/MRN/4099/Summary/",
      "publisher": "Marion County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -203686,7 +203686,7 @@
       ],
       "counted": true,
       "leader": "bairstow",
-      "updated": "2026-11-14T18:50:55Z",
+      "updated": "2026-11-15T03:04:22Z",
       "source": "enr-2026g"
      }
     },
@@ -203744,7 +203744,7 @@
       ],
       "counted": true,
       "leader": "mills",
-      "updated": "2026-11-14T18:50:55Z",
+      "updated": "2026-11-15T03:04:22Z",
       "source": "enr-2026g"
      }
     },
@@ -203786,7 +203786,7 @@
       ],
       "counted": true,
       "leader": "james",
-      "updated": "2026-11-14T18:50:55Z",
+      "updated": "2026-11-15T03:04:22Z",
       "source": "enr-2026g"
      }
     }
@@ -204578,8 +204578,8 @@
     },
     "soeUrl": "https://www.martinvotes.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": true,
    "legistarTotals": {
     "meetings": 24,
@@ -214525,7 +214525,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:55Z",
+     "updated": "2026-11-15T03:04:23Z",
      "url": "https://enr.electionsfl.org/DAD/4087/Summary/",
      "races": [
       {
@@ -217484,8 +217484,8 @@
     },
     "soeUrl": "https://www.votemiamidade.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -217545,7 +217545,7 @@
      "url": "https://enr.electionsfl.org/DAD/4087/Summary/",
      "publisher": "Miami-Dade County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -231018,7 +231018,7 @@
       ],
       "counted": true,
       "leader": "cothiere",
-      "updated": "2026-11-14T18:50:55Z",
+      "updated": "2026-11-15T03:04:23Z",
       "source": "enr-2026g"
      }
     },
@@ -231159,7 +231159,7 @@
       ],
       "counted": true,
       "leader": "lopez",
-      "updated": "2026-11-14T18:50:55Z",
+      "updated": "2026-11-15T03:04:23Z",
       "source": "enr-2026g"
      }
     },
@@ -231279,7 +231279,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:55Z",
+     "updated": "2026-11-15T03:04:23Z",
      "url": "https://enr.electionsfl.org/MON/4109/Summary/",
      "races": [
       {
@@ -231976,8 +231976,8 @@
     },
     "soeUrl": "https://votemonroeflkeys.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -232037,7 +232037,7 @@
      "url": "https://enr.electionsfl.org/MON/4109/Summary/",
      "publisher": "Monroe County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -235762,7 +235762,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:55Z",
+     "updated": "2026-11-15T03:04:23Z",
      "url": "https://enr.electionsfl.org/NAS/4080/Summary/",
      "races": [
       {
@@ -236321,8 +236321,8 @@
     },
     "soeUrl": "https://www.votenassaufl.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -236382,7 +236382,7 @@
      "url": "https://enr.electionsfl.org/NAS/4080/Summary/",
      "publisher": "Nassau County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -239513,7 +239513,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:55Z",
+     "updated": "2026-11-15T03:04:23Z",
      "url": "https://enr.electionsfl.org/OKA/4092/Summary/",
      "races": [
       {
@@ -240225,8 +240225,8 @@
     },
     "soeUrl": "https://www.voteokaloosa.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -240293,7 +240293,7 @@
      "url": "https://enr.electionsfl.org/OKA/4092/Summary/",
      "publisher": "Okaloosa County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -243775,7 +243775,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:56Z",
+     "updated": "2026-11-15T03:04:23Z",
      "url": "https://enr.electionsfl.org/OKE/4060/Summary/",
      "races": [
       {
@@ -244184,8 +244184,8 @@
     },
     "soeUrl": "https://www.voteokeechobee.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -244245,7 +244245,7 @@
      "url": "https://enr.electionsfl.org/OKE/4060/Summary/",
      "publisher": "Okeechobee County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -246012,7 +246012,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:56Z",
+     "updated": "2026-11-15T03:04:24Z",
      "url": "https://enr.electionsfl.org/ORA/4090/Summary/",
      "races": [
       {
@@ -246823,8 +246823,8 @@
     },
     "soeUrl": "https://www.voteorangefl.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -246884,7 +246884,7 @@
      "url": "https://enr.electionsfl.org/ORA/4090/Summary/",
      "publisher": "Orange County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -256125,7 +256125,7 @@
       ],
       "counted": true,
       "leader": "brown",
-      "updated": "2026-11-14T18:50:56Z",
+      "updated": "2026-11-15T03:04:24Z",
       "source": "enr-2026g"
      }
     },
@@ -256173,7 +256173,7 @@
       ],
       "counted": true,
       "leader": "lopez",
-      "updated": "2026-11-14T18:50:56Z",
+      "updated": "2026-11-15T03:04:24Z",
       "source": "enr-2026g"
      }
     },
@@ -256213,7 +256213,7 @@
       ],
       "counted": true,
       "leader": "scott",
-      "updated": "2026-11-14T18:50:56Z",
+      "updated": "2026-11-15T03:04:24Z",
       "source": "enr-2026g"
      }
     },
@@ -256253,7 +256253,7 @@
       ],
       "counted": true,
       "leader": "rumph",
-      "updated": "2026-11-14T18:50:56Z",
+      "updated": "2026-11-15T03:04:24Z",
       "source": "enr-2026g"
      }
     },
@@ -256293,7 +256293,7 @@
       ],
       "counted": true,
       "leader": null,
-      "updated": "2026-11-14T18:50:56Z",
+      "updated": "2026-11-15T03:04:24Z",
       "source": "enr-2026g"
      }
     },
@@ -256378,7 +256378,7 @@
       ],
       "counted": true,
       "leader": "pea",
-      "updated": "2026-11-14T18:50:56Z",
+      "updated": "2026-11-15T03:04:24Z",
       "source": "enr-2026g"
      }
     }
@@ -256452,8 +256452,8 @@
     },
     "soeUrl": "https://www.voteosceola.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -261818,7 +261818,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:56Z",
+     "updated": "2026-11-15T03:04:24Z",
      "url": "https://enr.electionsfl.org/PAL/4131/Summary/",
      "races": [
       {
@@ -262830,8 +262830,8 @@
     },
     "soeUrl": "https://www.votepalmbeach.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -262891,7 +262891,7 @@
      "url": "https://enr.electionsfl.org/PAL/4131/Summary/",
      "publisher": "Palm Beach County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -270354,7 +270354,7 @@
       ],
       "counted": true,
       "leader": "marciwoodward",
-      "updated": "2026-11-14T18:50:56Z",
+      "updated": "2026-11-15T03:04:24Z",
       "source": "enr-2026g"
      }
     },
@@ -270394,7 +270394,7 @@
       ],
       "counted": true,
       "leader": "waldron",
-      "updated": "2026-11-14T18:50:56Z",
+      "updated": "2026-11-15T03:04:24Z",
       "source": "enr-2026g"
      }
     },
@@ -270448,7 +270448,7 @@
       ],
       "counted": true,
       "leader": "romelus",
-      "updated": "2026-11-14T18:50:56Z",
+      "updated": "2026-11-15T03:04:24Z",
       "source": "enr-2026g"
      }
     },
@@ -270540,7 +270540,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:56Z",
+     "updated": "2026-11-15T03:04:25Z",
      "url": "https://enr.electionsfl.org/POL/4000/Summary/",
      "races": [
       {
@@ -271177,8 +271177,8 @@
     },
     "soeUrl": "https://www.polkelections.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": true,
    "legistarTotals": {
     "meetings": 21,
@@ -271237,7 +271237,7 @@
      "url": "https://enr.electionsfl.org/POL/4000/Summary/",
      "publisher": "Polk County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -276725,7 +276725,7 @@
       ],
       "counted": true,
       "leader": "arroyo",
-      "updated": "2026-11-14T18:50:56Z",
+      "updated": "2026-11-15T03:04:25Z",
       "source": "enr-2026g"
      }
     },
@@ -276765,7 +276765,7 @@
       ],
       "counted": true,
       "leader": "wallace",
-      "updated": "2026-11-14T18:50:56Z",
+      "updated": "2026-11-15T03:04:25Z",
       "source": "enr-2026g"
      }
     },
@@ -277337,7 +277337,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:56Z",
+     "updated": "2026-11-15T03:04:25Z",
      "url": "https://enr.electionsfl.org/PUT/4081/Summary/",
      "races": [
       {
@@ -277917,8 +277917,8 @@
     },
     "soeUrl": "https://www.voteputnamflorida.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -277964,7 +277964,7 @@
      "url": "https://enr.electionsfl.org/PUT/4081/Summary/",
      "publisher": "Putnam County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -278556,7 +278556,7 @@
     },
     "ballotResults": {
      "status": "official",
-     "updated": "2026-11-14T18:50:56Z",
+     "updated": "2026-11-15T03:04:25Z",
      "url": "https://enr.electionsfl.org/STJ/4082/Summary/",
      "races": [
       {
@@ -279481,8 +279481,8 @@
     },
     "soeUrl": "https://www.votesjc.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -279542,7 +279542,7 @@
      "url": "https://enr.electionsfl.org/STJ/4082/Summary/",
      "publisher": "St. Johns County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -284663,7 +284663,7 @@
       ],
       "counted": true,
       "leader": null,
-      "updated": "2026-11-14T18:50:56Z",
+      "updated": "2026-11-15T03:04:25Z",
       "source": "enr-2026g"
      }
     }
@@ -284725,7 +284725,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:57Z",
+     "updated": "2026-11-15T03:04:26Z",
      "url": "https://enr.electionsfl.org/STL/4089/Summary/",
      "races": [
       {
@@ -285521,8 +285521,8 @@
     },
     "soeUrl": "https://www.stlucievotes.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -285582,7 +285582,7 @@
      "url": "https://enr.electionsfl.org/STL/4089/Summary/",
      "publisher": "St. Lucie County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -289452,7 +289452,7 @@
       ],
       "counted": false,
       "leader": "larryleet",
-      "updated": "2026-11-14T18:50:57Z",
+      "updated": "2026-11-15T03:04:26Z",
       "source": "enr-2026g"
      }
     },
@@ -289500,7 +289500,7 @@
       ],
       "counted": false,
       "leader": "leroy",
-      "updated": "2026-11-14T18:50:57Z",
+      "updated": "2026-11-15T03:04:26Z",
       "source": "enr-2026g"
      }
     },
@@ -289555,7 +289555,7 @@
       ],
       "counted": false,
       "leader": "mills",
-      "updated": "2026-11-14T18:50:57Z",
+      "updated": "2026-11-15T03:04:26Z",
       "source": "enr-2026g"
      }
     },
@@ -289595,7 +289595,7 @@
       ],
       "counted": false,
       "leader": "ingersoll",
-      "updated": "2026-11-14T18:50:57Z",
+      "updated": "2026-11-15T03:04:26Z",
       "source": "enr-2026g"
      }
     }
@@ -289657,7 +289657,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:57Z",
+     "updated": "2026-11-15T03:04:26Z",
      "url": "https://enr.electionsfl.org/SAN/4093/Summary/",
      "races": [
       {
@@ -290261,8 +290261,8 @@
     },
     "soeUrl": "https://www.votesantarosa.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -290315,7 +290315,7 @@
      "url": "https://enr.electionsfl.org/SAN/4093/Summary/",
      "publisher": "Santa Rosa County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -294980,7 +294980,7 @@
       ],
       "counted": true,
       "leader": "locklin",
-      "updated": "2026-11-14T18:50:57Z",
+      "updated": "2026-11-15T03:04:26Z",
       "source": "enr-2026g"
      }
     }
@@ -295042,7 +295042,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:57Z",
+     "updated": "2026-11-15T03:04:26Z",
      "url": "https://enr.electionsfl.org/SAR/4105/Summary/",
      "races": [
       {
@@ -295928,8 +295928,8 @@
     },
     "soeUrl": "https://www.sarasotavotes.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -295989,7 +295989,7 @@
      "url": "https://enr.electionsfl.org/SAR/4105/Summary/",
      "publisher": "Sarasota County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -301353,7 +301353,7 @@
       ],
       "counted": true,
       "leader": "deniro",
-      "updated": "2026-11-14T18:50:57Z",
+      "updated": "2026-11-15T03:04:26Z",
       "source": "enr-2026g"
      }
     },
@@ -301393,7 +301393,7 @@
       ],
       "counted": true,
       "leader": "brandt",
-      "updated": "2026-11-14T18:50:57Z",
+      "updated": "2026-11-15T03:04:26Z",
       "source": "enr-2026g"
      }
     },
@@ -301485,7 +301485,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:57Z",
+     "updated": "2026-11-15T03:04:27Z",
      "url": "https://enr.electionsfl.org/SEM/4119/Summary/",
      "races": [
       {
@@ -302332,8 +302332,8 @@
     },
     "soeUrl": "https://www.voteseminole.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": true,
    "legistarTotals": {
     "meetings": 22,
@@ -302392,7 +302392,7 @@
      "url": "https://enr.electionsfl.org/SEM/4119/Summary/",
      "publisher": "Seminole County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -306300,7 +306300,7 @@
       ],
       "counted": true,
       "leader": "santos",
-      "updated": "2026-11-14T18:50:57Z",
+      "updated": "2026-11-15T03:04:27Z",
       "source": "enr-2026g"
      }
     },
@@ -306407,7 +306407,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:57Z",
+     "updated": "2026-11-15T03:04:27Z",
      "url": "https://enr.electionsfl.org/SUM/4056/Summary/",
      "races": [
       {
@@ -306948,8 +306948,8 @@
     },
     "soeUrl": "https://elections.sumtercountyfl.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -307009,7 +307009,7 @@
      "url": "https://enr.electionsfl.org/SUM/4056/Summary/",
      "publisher": "Sumter County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -309766,7 +309766,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:57Z",
+     "updated": "2026-11-15T03:04:27Z",
      "url": "https://enr.electionsfl.org/SUW/4112/Summary/",
      "races": [
       {
@@ -310202,8 +310202,8 @@
     },
     "soeUrl": "https://www.suwanneevotes.com/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -310256,7 +310256,7 @@
      "url": "https://enr.electionsfl.org/SUW/4112/Summary/",
      "publisher": "Suwannee County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -312550,7 +312550,7 @@
       ],
       "counted": true,
       "leader": "deloach",
-      "updated": "2026-11-14T18:50:57Z",
+      "updated": "2026-11-15T03:04:27Z",
       "source": "enr-2026g"
      }
     },
@@ -312670,7 +312670,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:57Z",
+     "updated": "2026-11-15T03:04:28Z",
      "url": "https://enr.electionsfl.org/TAY/4107/Summary/",
      "races": [
       {
@@ -313067,8 +313067,8 @@
     },
     "soeUrl": "https://www.taylorelectionsfl.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -313135,7 +313135,7 @@
      "url": "https://enr.electionsfl.org/TAY/4107/Summary/",
      "publisher": "Taylor County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -315223,7 +315223,7 @@
     "pastCycles": {},
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:57Z",
+     "updated": "2026-11-15T03:04:28Z",
      "url": "https://enr.electionsfl.org/UNI/4121/Summary/",
      "races": [
       {
@@ -315671,8 +315671,8 @@
     },
     "soeUrl": "https://www.unionflvotes.com/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -315704,7 +315704,7 @@
      "url": "https://enr.electionsfl.org/UNI/4121/Summary/",
      "publisher": "Union County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -317095,8 +317095,8 @@
     },
     "soeUrl": "https://volusiaelections.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -322897,7 +322897,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:58Z",
+     "updated": "2026-11-15T03:04:28Z",
      "url": "https://enr.electionsfl.org/WAK/4128/Summary/",
      "races": [
       {
@@ -323375,8 +323375,8 @@
     },
     "soeUrl": "https://www.wakullavotes.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -323422,7 +323422,7 @@
      "url": "https://enr.electionsfl.org/WAK/4128/Summary/",
      "publisher": "Wakulla County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -324891,7 +324891,7 @@
       ],
       "counted": true,
       "leader": "hughes",
-      "updated": "2026-11-14T18:50:58Z",
+      "updated": "2026-11-15T03:04:28Z",
       "source": "enr-2026g"
      }
     },
@@ -324995,7 +324995,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:58Z",
+     "updated": "2026-11-15T03:04:29Z",
      "url": "https://enr.electionsfl.org/WAL/4091/Summary/",
      "races": [
       {
@@ -325482,8 +325482,8 @@
     },
     "soeUrl": "https://www.votewalton.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -325550,7 +325550,7 @@
      "url": "https://enr.electionsfl.org/WAL/4091/Summary/",
      "publisher": "Walton County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -328534,7 +328534,7 @@
     "pastCycles": {},
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-14T18:50:58Z",
+     "updated": "2026-11-15T03:04:29Z",
      "url": "https://enr.electionsfl.org/WAS/4104/Summary/",
      "races": [
       {
@@ -329006,8 +329006,8 @@
     },
     "soeUrl": "https://www.wcsoe.gov/"
    },
-   "generatedAt": "2026-11-14",
-   "accessed": "2026-11-14",
+   "generatedAt": "2026-11-15",
+   "accessed": "2026-11-15",
    "legistarLoaded": false,
    "legistarTotals": null,
    "legistarScope": null,
@@ -329039,7 +329039,7 @@
      "url": "https://enr.electionsfl.org/WAS/4104/Summary/",
      "publisher": "Washington County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-14"
+     "accessed": "2026-11-15"
     }
    },
    "people": [
@@ -445579,7 +445579,7 @@
  },
  "statewide": {
   "election": "2026-11-03",
-  "updated": "2026-11-14T18:51:22Z",
+  "updated": "2026-11-15T03:04:54Z",
   "status": "allin",
   "districts": [
    {
@@ -452538,7 +452538,7 @@
     "url": "https://floridaelectionwatch.gov",
     "publisher": "Florida Department of State, Division of Elections",
     "tier": 1,
-    "accessed": "2026-11-14"
+    "accessed": "2026-11-15"
    },
    "fewatch-2026g-file": {
     "title": "Florida 2026 General Election results file (unofficial)",
