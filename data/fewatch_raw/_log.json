@@ -1,69 +1,69 @@
 {
  "Home": {
-  "bytes": 23931,
+  "bytes": 23956,
   "type": "text/html; charset=utf-8"
  },
  "/Downloads": {
-  "bytes": 24014,
+  "bytes": 24034,
   "type": "text/html; charset=utf-8"
  },
  "Downloads": {
-  "bytes": 24014,
+  "bytes": 24039,
   "type": "text/html; charset=utf-8"
  },
  "Amendments": {
-  "bytes": 39806,
+  "bytes": 39831,
   "type": "text/html; charset=utf-8"
  },
  "StateOffices": {
-  "bytes": 50615,
+  "bytes": 50715,
   "type": "text/html; charset=utf-8"
  },
  "StateOffices/Governor": {
-  "bytes": 35387,
+  "bytes": 35452,
   "type": "text/html; charset=utf-8"
  },
  "StateOffices/AttorneyGeneral": {
-  "bytes": 27260,
+  "bytes": 27291,
   "type": "text/html; charset=utf-8"
  },
  "StateOffices/ChiefFinancialOfficer": {
-  "bytes": 27275,
+  "bytes": 27306,
   "type": "text/html; charset=utf-8"
  },
  "StateOffices/CommissionerOfAgriculture": {
-  "bytes": 28279,
+  "bytes": 28327,
   "type": "text/html; charset=utf-8"
  },
  "FederalOffices/USSenator": {
-  "bytes": 28239,
+  "bytes": 28260,
   "type": "text/html; charset=utf-8"
  },
  "CountyReportingStatus": {
-  "bytes": 169732,
+  "bytes": 169739,
   "type": "text/html; charset=utf-8"
  },
  "https://enr.electionsfl.org/HIL/4074/Summary/": {
-  "bytes": 660467,
+  "bytes": 660206,
   "type": "text/html"
  },
  "//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js": {
   "error": "HTTP Error 404: Not Found"
  },
  "https://enr.electionsfl.org/PAS/4085/Summary/": {
-  "bytes": 478661,
+  "bytes": 534388,
   "type": "text/html"
  },
  "https://enr.electionsfl.org/MAN/4126/Summary/": {
-  "bytes": 387133,
+  "bytes": 635594,
   "type": "text/html"
  },
  "https://enr.electionsfl.org/STL/4089/Summary/": {
-  "bytes": 216035,
+  "bytes": 374722,
   "type": "text/html"
  },
  "https://enr.electionsfl.org/BAY/4078/Summary/": {
-  "bytes": 196496,
+  "bytes": 196510,
   "type": "text/html"
  },
  "https://enr.votepinellas.gov/FL/Pinellas/elections.json": {
@@ -81,7 +81,6 @@
   "type": "text/html; charset=UTF-8"
  },
  "https://flelectionfiles.floridados.gov/enightfilespublic/20261103_ElecResultsFL.txt": {
-  "bytes": 352524,
-  "type": "application/octet-stream"
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1011)>"
  }
 }
