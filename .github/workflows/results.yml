@@ -22,9 +22,9 @@ jobs:
       - id: w
         run: |
           if [ "${{ github.event_name }}" = workflow_dispatch ] || [ "$(date -u +%Y-%m)" = 2026-11 ]; then echo "go=true" >> "$GITHUB_OUTPUT"; else echo "Outside the 2026 count window"; fi
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         if: steps.w.outputs.go == 'true'
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         if: steps.w.outputs.go == 'true'
         with: {python-version: "3.12"}
       - name: Pull results and rebuild

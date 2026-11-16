@@ -949,6 +949,7 @@
  },
  "pinellas": {
   "vendor": "clarity",
+  "certified": true,
   "base": "https://enr.votepinellas.gov/FL/Pinellas",
   "all": [
    [

@@ -43,13 +43,15 @@ Around elections it is a ballot guide, then a results guide.
 
 ### Now (November 2026)
 
-- [ ] **Certification.** County results are due certified by Nov 15. VR Systems counties flip to "official" on their
-      own. Pinellas (Clarity) blocks GitHub: after Nov 15, open its summary in a browser
-      (`https://enr.votepinellas.gov/FL/Pinellas/127357/` then `current_ver.txt` and `{ver}/json/sum.json`), save it, and run
-      `python -m tools.import_clarity pinellas sum.json --certified`. Also set `"certified": true` for pinellas in
-      data/enr_ids.json. Then winners are seated automatically from Nov 17.
+- [ ] **Certification.** County official returns were due by noon Mon Nov 16 (state timeline,
+      files.floridados.gov election-results-reporting-timeline-ge-2026); the state commission certifies Nov 17.
+      Pinellas done Nov 16: its results site says "Official Results" (last updated Nov 13), imported with --certified
+      and `"certified": true` set in data/enr_ids.json. As of the Nov 16 03:06Z results run, St. Johns and Brevard read
+      official and the other 59 VR counties still say "Unofficial Results" on enr.electionsfl.org. Next check-in: confirm
+      they flipped on their own (winners seat automatically from Nov 17 only once official). For any county whose page
+      never flips, confirm certification on the county's own site, then set `"certified": true` for it.
 - [x] **Pinellas School Board D3 recount.** No recount: Dawn Peters told the elections office she would not contest
-      (Tampa Bay Times, Nov 4). The race page now says so. Margin after late ballots: 727 votes (0.21%), still unofficial.
+      (Tampa Bay Times, Nov 4). The race page now says so. Official margin: 751 votes (0.21%).
 - [x] **Seats missing from county results (14).** All 14 were settled in the Aug 18 primary. Winners and sources
       (each county's primary results on enr.electionsfl.org) are in data/decided_2026.json, which pipeline/bootstrap.py
       applies on every nightly rebuild, so the automatic counties keep them. Logged on /corrections.
@@ -61,8 +63,12 @@ Around elections it is a ballot guide, then a results guide.
       the county reports his votes only as "Write-in" (11.8%), so his row shows no votes. Show write-in candidates'
       votes under their own name when the county lists them as write-ins, or label the row "Write-in (Donald Bigelow)"
       only if the county's own report says so. Check other counties for the same pattern.
-- [ ] **GitHub Actions on Node 20 is deprecated.** Every run warns that actions/checkout@v4 and actions/setup-python@v5
-      are being forced onto Node 24. Bump them to the current majors before GitHub turns Node 20 off.
+- [x] **GitHub Actions on Node 20 is deprecated.** Done Nov 16: all five workflows moved from checkout@v4 and
+      setup-python@v5 to checkout@v6 and setup-python@v6 (Node 24). Check the next runs no longer warn.
+- [ ] **State district results file won't download.** Since at least Nov 9, flelectionfiles.floridados.gov fails TLS
+      ("certificate has expired", now "self-signed certificate in certificate chain"), so data/results/districts.json
+      is frozen at its last good pull. That's the state's problem; never turn off certificate checks. Find another
+      official copy (the floridaelectionwatch.gov Downloads page, or the certified file after Nov 17) or wait it out.
 
 ### Next (December 2026 to spring 2027)
 
@@ -90,3 +96,8 @@ Each weekly check-in adds one short dated line here: what it checked, what it fi
   and noted the D3 recount was declined. Marked 14 seats settled in the August primary. Oct builds: about 93.
   Sent one labeled test through the report form; it reached the inbox. Privacy page now says Web3Forms passes
   along the sender's IP address, and the report email shows a readable "opened" time.
+- 2026-11-16: All nightly and results runs green Nov 9 to 16 (Nov 16 nightly not yet run at check time); one Nov 11 results run is stuck "queued" (harmless).
+  Expected "pinellas pull failed" plus a new "districts pull failed": the state's flelectionfiles.floridados.gov has a
+  bad TLS certificate on their side, so the last good districts file stays. Live site loads, Hillsborough results
+  updated Nov 15. Pinellas imported as official (SB D3 margin 751). Bumped Actions to Node 24 versions. Nov builds so
+  far: 112 (on pace for about 210).

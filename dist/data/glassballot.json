@@ -88,8 +88,8 @@
     "lookupUrl": "https://www.votepinellas.gov/",
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=pinellas",
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-09T13:35:30Z",
+     "status": "official",
+     "updated": "2026-11-16T13:34:35Z",
      "url": "https://enr.votepinellas.gov/FL/Pinellas/127357/",
      "races": [
       {
@@ -97,19 +97,19 @@
        "group": "statewide",
        "reported": 288,
        "precincts": 288,
-       "total": 403626,
+       "total": 403688,
        "candidates": [
         {
          "name": "Angie Nixon",
          "party": "DEM",
          "pct": 49.59,
-         "votes": 200154
+         "votes": 200207
         },
         {
          "name": "Ashley Moody",
          "party": "REP",
-         "pct": 48.94,
-         "votes": 197529
+         "pct": 48.93,
+         "votes": 197538
         },
         {
          "name": "Neil J. Gillespie",
@@ -124,25 +124,25 @@
        "group": "congress",
        "reported": 198,
        "precincts": 198,
-       "total": 292859,
+       "total": 292896,
        "candidates": [
         {
          "name": "Anna Paulina Luna",
          "party": "REP",
-         "pct": 49.17,
-         "votes": 143992
+         "pct": 49.16,
+         "votes": 143996
         },
         {
          "name": "Leela Gray",
          "party": "DEM",
-         "pct": 49.03,
-         "votes": 143595
+         "pct": 49.04,
+         "votes": 143627
         },
         {
          "name": "Tony D'Arrigo",
          "party": null,
          "pct": 1.8,
-         "votes": 5272
+         "votes": 5273
         }
        ]
       },
@@ -151,19 +151,19 @@
        "group": "congress",
        "reported": 90,
        "precincts": 90,
-       "total": 109973,
+       "total": 109996,
        "candidates": [
         {
          "name": "Kelly Kirschner",
          "party": "DEM",
          "pct": 60.91,
-         "votes": 66984
+         "votes": 67004
         },
         {
          "name": "Sydney Gruters",
          "party": "REP",
          "pct": 37.17,
-         "votes": 40880
+         "votes": 40883
         },
         {
          "name": "Mark Davis",
@@ -178,31 +178,31 @@
        "group": "statewide",
        "reported": 288,
        "precincts": 288,
-       "total": 404098,
+       "total": 404156,
        "candidates": [
         {
          "name": "David Jolly",
          "party": "DEM",
-         "pct": 51.53,
-         "votes": 208247
+         "pct": 51.54,
+         "votes": 208295
         },
         {
          "name": "Byron Donalds",
          "party": "REP",
-         "pct": 46.93,
-         "votes": 189629
+         "pct": 46.92,
+         "votes": 189636
         },
         {
          "name": "Scott Eckhard Jewett",
          "party": "LPF",
          "pct": 0.49,
-         "votes": 1986
+         "votes": 1987
         },
         {
          "name": "Frank J. Russo",
          "party": null,
          "pct": 0.31,
-         "votes": 1240
+         "votes": 1241
         },
         {
          "name": "Charles Burkett",
@@ -232,7 +232,7 @@
          "name": "Moliere 'Moe' Dimanche",
          "party": null,
          "pct": 0.09,
-         "votes": 375
+         "votes": 376
         }
        ]
       },
@@ -241,19 +241,19 @@
        "group": "statewide",
        "reported": 288,
        "precincts": 288,
-       "total": 399585,
+       "total": 399642,
        "candidates": [
         {
          "name": "Jose Javier Rodriguez",
          "party": "DEM",
          "pct": 50.78,
-         "votes": 202895
+         "votes": 202943
         },
         {
          "name": "James Uthmeier",
          "party": "REP",
          "pct": 49.22,
-         "votes": 196690
+         "votes": 196699
         }
        ]
       },
@@ -262,19 +262,19 @@
        "group": "statewide",
        "reported": 288,
        "precincts": 288,
-       "total": 396824,
+       "total": 396880,
        "candidates": [
         {
          "name": "Annette Taddeo",
          "party": "DEM",
          "pct": 50.95,
-         "votes": 202162
+         "votes": 202207
         },
         {
          "name": "Blaise Ingoglia",
          "party": "REP",
          "pct": 49.05,
-         "votes": 194662
+         "votes": 194673
         }
        ]
       },
@@ -283,19 +283,19 @@
        "group": "statewide",
        "reported": 288,
        "precincts": 288,
-       "total": 398570,
+       "total": 398626,
        "candidates": [
         {
          "name": "Joey Mendoza Atkins",
          "party": "DEM",
          "pct": 50.68,
-         "votes": 201994
+         "votes": 202041
         },
         {
          "name": "Wilton Simpson",
          "party": "REP",
          "pct": 49.09,
-         "votes": 195663
+         "votes": 195672
         },
         {
          "name": "Write-in",
@@ -310,19 +310,19 @@
        "group": "legislature",
        "reported": 168,
        "precincts": 168,
-       "total": 213047,
+       "total": 213077,
        "candidates": [
         {
          "name": "Nick DiCeglie",
          "party": "REP",
          "pct": 50.88,
-         "votes": 108402
+         "votes": 108405
         },
         {
          "name": "Karla Kemp",
          "party": "DEM",
          "pct": 49.12,
-         "votes": 104645
+         "votes": 104672
         }
        ]
       },
@@ -331,19 +331,19 @@
        "group": "legislature",
        "reported": 81,
        "precincts": 81,
-       "total": 140203,
+       "total": 140222,
        "candidates": [
         {
          "name": "Chris Nocco",
          "party": "REP",
-         "pct": 55.95,
-         "votes": 78437
+         "pct": 55.94,
+         "votes": 78439
         },
         {
          "name": "Jordan Hensley",
          "party": "DEM",
-         "pct": 44.05,
-         "votes": 61766
+         "pct": 44.06,
+         "votes": 61783
         }
        ]
       },
@@ -352,19 +352,19 @@
        "group": "legislature",
        "reported": 46,
        "precincts": 46,
-       "total": 84895,
+       "total": 84900,
        "candidates": [
         {
          "name": "Adam C. Anderson",
          "party": "REP",
-         "pct": 55.34,
+         "pct": 55.33,
          "votes": 46979
         },
         {
          "name": "Wendy Hoy",
          "party": "DEM",
-         "pct": 44.66,
-         "votes": 37916
+         "pct": 44.67,
+         "votes": 37921
         }
        ]
       },
@@ -373,19 +373,19 @@
        "group": "legislature",
        "reported": 50,
        "precincts": 50,
-       "total": 73239,
+       "total": 73259,
        "candidates": [
         {
          "name": "Kimberly 'Kim' Berfield",
          "party": "REP",
-         "pct": 53.25,
-         "votes": 39001
+         "pct": 53.24,
+         "votes": 39005
         },
         {
          "name": "Bryan Beckman",
          "party": "DEM",
-         "pct": 46.75,
-         "votes": 34238
+         "pct": 46.76,
+         "votes": 34254
         }
        ]
       },
@@ -394,7 +394,7 @@
        "group": "legislature",
        "reported": 52,
        "precincts": 52,
-       "total": 67456,
+       "total": 67462,
        "candidates": [
         {
          "name": "Berny Jacques",
@@ -406,7 +406,7 @@
          "name": "Susan Rochelle Leff",
          "party": "DEM",
          "pct": 46.51,
-         "votes": 31371
+         "votes": 31377
         }
        ]
       },
@@ -415,19 +415,19 @@
        "group": "legislature",
        "reported": 49,
        "precincts": 49,
-       "total": 68753,
+       "total": 68759,
        "candidates": [
         {
          "name": "Lindsay Polega-Quigley",
          "party": "DEM",
          "pct": 58.42,
-         "votes": 40164
+         "votes": 40168
         },
         {
          "name": "Melissa Rutland",
          "party": "REP",
          "pct": 41.58,
-         "votes": 28589
+         "votes": 28591
         }
        ]
       },
@@ -436,19 +436,19 @@
        "group": "legislature",
        "reported": 67,
        "precincts": 67,
-       "total": 75610,
+       "total": 75627,
        "candidates": [
         {
          "name": "Linda Chaney",
          "party": "REP",
-         "pct": 51.68,
-         "votes": 39077
+         "pct": 51.67,
+         "votes": 39078
         },
         {
          "name": "May Thach",
          "party": "DEM",
-         "pct": 48.32,
-         "votes": 36533
+         "pct": 48.33,
+         "votes": 36549
         }
        ]
       },
@@ -457,19 +457,19 @@
        "group": "county",
        "reported": 288,
        "precincts": 288,
-       "total": 395371,
+       "total": 395428,
        "candidates": [
         {
          "name": "Tim Hughes",
          "party": "DEM",
-         "pct": 50.52,
-         "votes": 199754
+         "pct": 50.53,
+         "votes": 199799
         },
         {
          "name": "Brian Scott",
          "party": "REP",
-         "pct": 49.48,
-         "votes": 195617
+         "pct": 49.47,
+         "votes": 195629
         }
        ]
       },
@@ -478,19 +478,19 @@
        "group": "county",
        "reported": 79,
        "precincts": 79,
-       "total": 101156,
+       "total": 101167,
        "candidates": [
         {
          "name": "Kathleen Peters",
          "party": "REP",
-         "pct": 55.05,
-         "votes": 55682
+         "pct": 55.04,
+         "votes": 55683
         },
         {
          "name": "David Glenn Jr.",
          "party": "DEM",
-         "pct": 44.95,
-         "votes": 45474
+         "pct": 44.96,
+         "votes": 45484
         }
        ]
       },
@@ -499,19 +499,19 @@
        "group": "courts",
        "reported": 288,
        "precincts": 288,
-       "total": 358809,
+       "total": 358862,
        "candidates": [
         {
          "name": "Yes",
          "party": null,
          "pct": 55.96,
-         "votes": 200801
+         "votes": 200814
         },
         {
          "name": "No",
          "party": null,
          "pct": 44.04,
-         "votes": 158008
+         "votes": 158048
         }
        ]
       },
@@ -520,19 +520,19 @@
        "group": "courts",
        "reported": 288,
        "precincts": 288,
-       "total": 357751,
+       "total": 357801,
        "candidates": [
         {
          "name": "Yes",
          "party": null,
          "pct": 60.47,
-         "votes": 216343
+         "votes": 216361
         },
         {
          "name": "No",
          "party": null,
          "pct": 39.53,
-         "votes": 141408
+         "votes": 141440
         }
        ]
       },
@@ -541,19 +541,19 @@
        "group": "courts",
        "reported": 288,
        "precincts": 288,
-       "total": 356426,
+       "total": 356476,
        "candidates": [
         {
          "name": "Yes",
          "party": null,
          "pct": 63.64,
-         "votes": 226834
+         "votes": 226861
         },
         {
          "name": "No",
          "party": null,
          "pct": 36.36,
-         "votes": 129592
+         "votes": 129615
         }
        ]
       },
@@ -562,19 +562,19 @@
        "group": "courts",
        "reported": 288,
        "precincts": 288,
-       "total": 354976,
+       "total": 355026,
        "candidates": [
         {
          "name": "Yes",
          "party": null,
          "pct": 60.95,
-         "votes": 216356
+         "votes": 216378
         },
         {
          "name": "No",
          "party": null,
          "pct": 39.05,
-         "votes": 138620
+         "votes": 138648
         }
        ]
       },
@@ -583,19 +583,19 @@
        "group": "courts",
        "reported": 288,
        "precincts": 288,
-       "total": 354465,
+       "total": 354515,
        "candidates": [
         {
          "name": "Yes",
          "party": null,
          "pct": 63.59,
-         "votes": 225392
+         "votes": 225419
         },
         {
          "name": "No",
          "party": null,
          "pct": 36.41,
-         "votes": 129073
+         "votes": 129096
         }
        ]
       },
@@ -604,19 +604,19 @@
        "group": "schools",
        "reported": 288,
        "precincts": 288,
-       "total": 350335,
+       "total": 350383,
        "candidates": [
         {
          "name": "Curtis Campogni",
          "party": null,
-         "pct": 50.1,
-         "votes": 175531
+         "pct": 50.11,
+         "votes": 175567
         },
         {
          "name": "Dawn Peters",
          "party": null,
-         "pct": 49.9,
-         "votes": 174804
+         "pct": 49.89,
+         "votes": 174816
         }
        ]
       },
@@ -658,19 +658,19 @@
        "group": "city",
        "reported": 39,
        "precincts": 39,
-       "total": 42893,
+       "total": 42899,
        "candidates": [
         {
          "name": "Sam Wilson",
          "party": null,
-         "pct": 54.54,
-         "votes": 23392
+         "pct": 54.53,
+         "votes": 23393
         },
         {
          "name": "Mark Bunker",
          "party": null,
-         "pct": 45.46,
-         "votes": 19501
+         "pct": 45.47,
+         "votes": 19506
         }
        ]
       },
@@ -679,18 +679,18 @@
        "group": "city",
        "reported": 10,
        "precincts": 10,
-       "total": 16804,
+       "total": 16805,
        "candidates": [
         {
          "name": "Nan Bennett",
          "party": null,
-         "pct": 56.4,
-         "votes": 9478
+         "pct": 56.41,
+         "votes": 9479
         },
         {
          "name": "Mark A. Ossian",
          "party": null,
-         "pct": 43.6,
+         "pct": 43.59,
          "votes": 7326
         }
        ]
@@ -700,19 +700,19 @@
        "group": "city",
        "reported": 32,
        "precincts": 32,
-       "total": 25554,
+       "total": 25556,
        "candidates": [
         {
          "name": "Curtis A. Holmes",
          "party": null,
          "pct": 56.97,
-         "votes": 14558
+         "votes": 14559
         },
         {
          "name": "Matthew Faustini",
          "party": null,
          "pct": 43.03,
-         "votes": 10996
+         "votes": 10997
         }
        ]
       },
@@ -748,19 +748,19 @@
        "group": "city",
        "reported": 86,
        "precincts": 86,
-       "total": 104689,
+       "total": 104709,
        "candidates": [
         {
          "name": "Charlie Crist",
          "party": null,
          "pct": 61.99,
-         "votes": 64897
+         "votes": 64908
         },
         {
          "name": "Kenneth T. Welch",
          "party": null,
          "pct": 38.01,
-         "votes": 39792
+         "votes": 39801
         }
        ]
       },
@@ -769,19 +769,19 @@
        "group": "city",
        "reported": 86,
        "precincts": 86,
-       "total": 90889,
+       "total": 90904,
        "candidates": [
         {
          "name": "Gabriel Hament",
          "party": null,
          "pct": 53.36,
-         "votes": 48498
+         "votes": 48503
         },
         {
          "name": "Courtney Bermudez",
          "party": null,
          "pct": 46.64,
-         "votes": 42391
+         "votes": 42401
         }
        ]
       },
@@ -790,19 +790,19 @@
        "group": "city",
        "reported": 86,
        "precincts": 86,
-       "total": 92967,
+       "total": 92982,
        "candidates": [
         {
          "name": "Linsey Grove",
          "party": null,
          "pct": 55.26,
-         "votes": 51375
+         "votes": 51383
         },
         {
          "name": "Trevor Mallory",
          "party": null,
          "pct": 44.74,
-         "votes": 41592
+         "votes": 41599
         }
        ]
       },
@@ -811,19 +811,19 @@
        "group": "district",
        "reported": 8,
        "precincts": 8,
-       "total": 14332,
+       "total": 14333,
        "candidates": [
         {
          "name": "Jim Downes",
          "party": null,
-         "pct": 56.27,
+         "pct": 56.26,
          "votes": 8064
         },
         {
          "name": "Bob Fornwalt",
          "party": null,
-         "pct": 43.73,
-         "votes": 6268
+         "pct": 43.74,
+         "votes": 6269
         }
        ]
       },
@@ -832,13 +832,13 @@
        "group": "district",
        "reported": 17,
        "precincts": 17,
-       "total": 25955,
+       "total": 25956,
        "candidates": [
         {
          "name": "Julie Peluso",
          "party": null,
          "pct": 56.25,
-         "votes": 14599
+         "votes": 14600
         },
         {
          "name": "Benjamin Nichols",
@@ -853,18 +853,18 @@
        "group": "district",
        "reported": 1,
        "precincts": 1,
-       "total": 1541,
+       "total": 1542,
        "candidates": [
         {
          "name": "Daniel Mynsberge",
          "party": null,
-         "pct": 51.4,
-         "votes": 792
+         "pct": 51.43,
+         "votes": 793
         },
         {
          "name": "Elizabeth 'Betsey' McKenna",
          "party": null,
-         "pct": 48.6,
+         "pct": 48.57,
          "votes": 749
         }
        ]
@@ -895,19 +895,19 @@
        "group": "amendment",
        "reported": 288,
        "precincts": 288,
-       "total": 366527,
+       "total": 366580,
        "candidates": [
         {
          "name": "No",
          "party": null,
          "pct": 58.58,
-         "votes": 214723
+         "votes": 214758
         },
         {
          "name": "Yes",
          "party": null,
          "pct": 41.42,
-         "votes": 151804
+         "votes": 151822
         }
        ]
       },
@@ -916,19 +916,19 @@
        "group": "amendment",
        "reported": 288,
        "precincts": 288,
-       "total": 368855,
+       "total": 368908,
        "candidates": [
         {
          "name": "Yes",
          "party": null,
          "pct": 57.72,
-         "votes": 212897
+         "votes": 212917
         },
         {
          "name": "No",
          "party": null,
          "pct": 42.28,
-         "votes": 155958
+         "votes": 155991
         }
        ]
       },
@@ -937,19 +937,19 @@
        "group": "amendment",
        "reported": 288,
        "precincts": 288,
-       "total": 377691,
+       "total": 377745,
        "candidates": [
         {
          "name": "Yes",
          "party": null,
          "pct": 56.76,
-         "votes": 214388
+         "votes": 214410
         },
         {
          "name": "No",
          "party": null,
          "pct": 43.24,
-         "votes": 163303
+         "votes": 163335
         }
        ]
       },
@@ -1000,19 +1000,19 @@
        "group": "measure",
        "reported": 32,
        "precincts": 32,
-       "total": 25028,
+       "total": 25030,
        "candidates": [
         {
          "name": "Yes",
          "party": null,
          "pct": 66.63,
-         "votes": 16677
+         "votes": 16678
         },
         {
          "name": "No",
          "party": null,
          "pct": 33.37,
-         "votes": 8351
+         "votes": 8352
         }
        ]
       },
@@ -1126,19 +1126,19 @@
        "group": "measure",
        "reported": 86,
        "precincts": 86,
-       "total": 100463,
+       "total": 100482,
        "candidates": [
         {
          "name": "Yes",
          "party": null,
          "pct": 73.94,
-         "votes": 74281
+         "votes": 74297
         },
         {
          "name": "No",
          "party": null,
          "pct": 26.06,
-         "votes": 26182
+         "votes": 26185
         }
        ]
       },
@@ -1147,19 +1147,19 @@
        "group": "measure",
        "reported": 86,
        "precincts": 86,
-       "total": 102638,
+       "total": 102655,
        "candidates": [
         {
          "name": "Yes",
          "party": null,
          "pct": 53.02,
-         "votes": 54422
+         "votes": 54430
         },
         {
          "name": "No",
          "party": null,
          "pct": 46.98,
-         "votes": 48216
+         "votes": 48225
         }
        ]
       },
@@ -1168,19 +1168,19 @@
        "group": "measure",
        "reported": 86,
        "precincts": 86,
-       "total": 100266,
+       "total": 100282,
        "candidates": [
         {
          "name": "Yes",
          "party": null,
          "pct": 75.14,
-         "votes": 75341
+         "votes": 75356
         },
         {
          "name": "No",
          "party": null,
          "pct": 24.86,
-         "votes": 24925
+         "votes": 24926
         }
        ]
       },
@@ -1189,19 +1189,19 @@
        "group": "measure",
        "reported": 86,
        "precincts": 86,
-       "total": 100994,
+       "total": 101011,
        "candidates": [
         {
          "name": "Yes",
          "party": null,
          "pct": 64.29,
-         "votes": 64931
+         "votes": 64942
         },
         {
          "name": "No",
          "party": null,
          "pct": 35.71,
-         "votes": 36063
+         "votes": 36069
         }
        ]
       },
@@ -1210,19 +1210,19 @@
        "group": "measure",
        "reported": 86,
        "precincts": 86,
-       "total": 100508,
+       "total": 100524,
        "candidates": [
         {
          "name": "Yes",
          "party": null,
-         "pct": 78.39,
-         "votes": 78793
+         "pct": 78.4,
+         "votes": 78808
         },
         {
          "name": "No",
          "party": null,
-         "pct": 21.61,
-         "votes": 21715
+         "pct": 21.6,
+         "votes": 21716
         }
        ]
       },
@@ -1231,19 +1231,19 @@
        "group": "measure",
        "reported": 4,
        "precincts": 4,
-       "total": 3066,
+       "total": 3068,
        "candidates": [
         {
          "name": "Yes",
          "party": null,
-         "pct": 74.01,
-         "votes": 2269
+         "pct": 73.99,
+         "votes": 2270
         },
         {
          "name": "No",
          "party": null,
-         "pct": 25.99,
-         "votes": 797
+         "pct": 26.01,
+         "votes": 798
         }
        ]
       }
@@ -2443,7 +2443,7 @@
      "url": "https://enr.votepinellas.gov/FL/Pinellas/127357/",
      "publisher": "Pinellas County Supervisor of Elections",
      "tier": 1,
-     "accessed": "2026-11-09"
+     "accessed": "2026-11-16"
     }
    },
    "people": [
@@ -9377,29 +9377,29 @@
       "bb-d2"
      ],
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 288,
       "precincts": 288,
-      "total": 395371,
+      "total": 395428,
       "candidates": [
        {
         "name": "Tim Hughes",
         "party": "DEM",
-        "pct": 50.52,
-        "votes": 199754,
+        "pct": 50.53,
+        "votes": 199799,
         "person": "hughes"
        },
        {
         "name": "Brian Scott",
         "party": "REP",
-        "pct": 49.48,
-        "votes": 195617,
+        "pct": 49.47,
+        "votes": 195629,
         "person": "scott"
        }
       ],
       "counted": true,
       "leader": "hughes",
-      "updated": "2026-11-09T13:35:30Z",
+      "updated": "2026-11-16T13:34:35Z",
       "source": "enr-2026g"
      }
     },
@@ -9432,29 +9432,29 @@
       "bb-d6"
      ],
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 79,
       "precincts": 79,
-      "total": 101156,
+      "total": 101167,
       "candidates": [
        {
         "name": "Kathleen Peters",
         "party": "REP",
-        "pct": 55.05,
-        "votes": 55682,
+        "pct": 55.04,
+        "votes": 55683,
         "person": "peters"
        },
        {
         "name": "David Glenn Jr.",
         "party": "DEM",
-        "pct": 44.95,
-        "votes": 45474,
+        "pct": 44.96,
+        "votes": 45484,
         "person": "glenn"
        }
       ],
       "counted": true,
       "leader": "peters",
-      "updated": "2026-11-09T13:35:30Z",
+      "updated": "2026-11-16T13:34:35Z",
       "source": "enr-2026g"
      }
     },
@@ -9480,29 +9480,29 @@
       ]
      },
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 288,
       "precincts": 288,
-      "total": 350335,
+      "total": 350383,
       "candidates": [
        {
         "name": "Curtis Campogni",
         "party": null,
-        "pct": 50.1,
-        "votes": 175531,
+        "pct": 50.11,
+        "votes": 175567,
         "person": "campogni"
        },
        {
         "name": "Dawn Peters",
         "party": null,
-        "pct": 49.9,
-        "votes": 174804,
+        "pct": 49.89,
+        "votes": 174816,
         "person": "dpeters"
        }
       ],
       "counted": true,
       "leader": "campogni",
-      "updated": "2026-11-09T13:35:30Z",
+      "updated": "2026-11-16T13:34:35Z",
       "source": "enr-2026g"
      }
     }
