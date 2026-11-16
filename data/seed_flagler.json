@@ -18,28 +18,28 @@
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=flagler&el=41",
    "publisher": "Flagler County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-15"
+   "accessed": "2026-11-16"
   },
   "soe-vf-2024": {
    "title": "Flagler County Supervisor of Elections: 2024 candidates",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=flagler&el=37",
    "publisher": "Flagler County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-15"
+   "accessed": "2026-11-16"
   },
   "soe-vf-2022": {
    "title": "Flagler County Supervisor of Elections: 2022 candidates",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=flagler&el=30",
    "publisher": "Flagler County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-15"
+   "accessed": "2026-11-16"
   },
   "soe-cf-flagler": {
    "title": "Flagler Supervisor of Elections campaign finance reports, 2026 cycle",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=flagler&el=41",
    "publisher": "Flagler County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-15"
+   "accessed": "2026-11-16"
   }
  },
  "people": [
@@ -153,7 +153,7 @@
     ],
     "raised": [
      {
-      "value": "$53,150 in contributions, plus $808.60 in-kind (as of Nov 15, 2026)",
+      "value": "$53,150 in contributions, plus $808.60 in-kind (as of Nov 16, 2026)",
       "source": "soe-cf-flagler"
      }
     ]
@@ -165,7 +165,37 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "737",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
+   }
+  },
+  {
+   "id": "feldman",
+   "name": "Greg Feldman",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-flagler"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$20,920 in contributions, plus $1,692.59 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-flagler"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "755",
+    "status": "Inactive - Defeated"
    }
   },
   {
@@ -184,7 +214,7 @@
     ],
     "raised": [
      {
-      "value": "$38,104.70 in contributions, plus $1,695.06 in-kind (as of Nov 15, 2026)",
+      "value": "$38,104.70 in contributions, plus $1,695.06 in-kind (as of Nov 16, 2026)",
       "source": "soe-cf-flagler"
      }
     ]
@@ -195,7 +225,7 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "744",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    }
   },
   {
@@ -210,7 +240,7 @@
     ],
     "raised": [
      {
-      "value": "$7,710 in contributions, plus $526.49 in-kind (as of Nov 15, 2026)",
+      "value": "$7,710 in contributions, plus $526.49 in-kind (as of Nov 16, 2026)",
       "source": "soe-cf-flagler"
      }
     ]
@@ -221,7 +251,7 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "753",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
    }
   },
   {
@@ -236,7 +266,7 @@
     ],
     "raised": [
      {
-      "value": "$0 in contributions, plus $200 in-kind (as of Nov 15, 2026)",
+      "value": "$0 in contributions, plus $200 in-kind (as of Nov 16, 2026)",
       "source": "soe-cf-flagler"
      }
     ]
@@ -247,7 +277,67 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "779",
-    "status": "Active- Qualified Write-In"
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "jones",
+   "name": "Anna Jones",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-flagler"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$4,497.78 in contributions (as of Nov 16, 2026)",
+      "source": "soe-cf-flagler"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "763",
+    "status": "Inactive - Defeated"
+   }
+  },
+  {
+   "id": "moss",
+   "name": "Drew Moss",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-flagler"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$8,962 in contributions, plus $789.66 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-flagler"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "765",
+    "status": "Inactive - Defeated"
    }
   },
   {
@@ -256,7 +346,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$18,844 in contributions, plus $5,486.75 in-kind (as of Nov 15, 2026)",
+      "value": "$18,844 in contributions, plus $5,486.75 in-kind (as of Nov 16, 2026)",
       "source": "soe-cf-flagler"
      }
     ]
@@ -277,7 +367,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$19,876 in contributions (as of Nov 15, 2026)",
+      "value": "$19,876 in contributions (as of Nov 16, 2026)",
       "source": "soe-cf-flagler"
      }
     ]
@@ -298,7 +388,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$31,700 in contributions, plus $4,000 in-kind (as of Nov 15, 2026)",
+      "value": "$31,700 in contributions, plus $4,000 in-kind (as of Nov 16, 2026)",
       "source": "soe-cf-flagler"
      }
     ]
@@ -319,7 +409,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$21,715 in contributions (as of Nov 15, 2026)",
+      "value": "$21,715 in contributions (as of Nov 16, 2026)",
       "source": "soe-cf-flagler"
      }
     ]
@@ -340,7 +430,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$11,505 in contributions (as of Nov 15, 2026)",
+      "value": "$11,505 in contributions (as of Nov 16, 2026)",
       "source": "soe-cf-flagler"
      }
     ]
@@ -361,7 +451,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$17,044.11 in contributions, plus $1,308.92 in-kind (as of Nov 15, 2026)",
+      "value": "$17,044.11 in contributions, plus $1,308.92 in-kind (as of Nov 16, 2026)",
       "source": "soe-cf-flagler"
      }
     ]
@@ -384,13 +474,15 @@
    "title": "County Commission, District 2",
    "office": "County Commission District 2",
    "people": [
+    "feldman",
     "pontieri",
     "royer"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Theresa Pontieri (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -399,12 +491,15 @@
    "office": "County Commission District 4",
    "people": [
     "calderwood",
+    "jones",
+    "moss",
     "pennington"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Leann Pennington (the only qualified candidate)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",

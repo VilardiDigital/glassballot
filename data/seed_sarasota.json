@@ -18,28 +18,28 @@
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sarasota&el=134",
    "publisher": "Sarasota County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-15"
+   "accessed": "2026-11-16"
   },
   "soe-vf-2024": {
    "title": "Sarasota County Supervisor of Elections: 2024 candidates",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sarasota&el=133",
    "publisher": "Sarasota County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-15"
+   "accessed": "2026-11-16"
   },
   "soe-vf-2022": {
    "title": "Sarasota County Supervisor of Elections: 2022 candidates",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sarasota&el=11",
    "publisher": "Sarasota County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-15"
+   "accessed": "2026-11-16"
   },
   "soe-cf-sarasota": {
    "title": "Sarasota Supervisor of Elections campaign finance reports, 2026 cycle",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sarasota&el=134",
    "publisher": "Sarasota County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-15"
+   "accessed": "2026-11-16"
   }
  },
  "people": [
@@ -131,7 +131,7 @@
     ],
     "raised": [
      {
-      "value": "$141,110 in contributions, plus $1,850 in-kind (as of Nov 15, 2026)",
+      "value": "$141,110 in contributions, plus $1,850 in-kind (as of Nov 16, 2026)",
       "source": "soe-cf-sarasota"
      }
     ]
@@ -160,27 +160,13 @@
      {
       "value": "Republican",
       "source": "soe-vf-2022"
-     },
-     {
-      "value": "Republican",
-      "source": "soe-cf-sarasota"
-     }
-    ],
-    "raised": [
-     {
-      "value": "$167,761.73 in contributions (as of Nov 15, 2026)",
-      "source": "soe-cf-sarasota"
      }
     ]
    },
    "office": "County Commissioner",
    "status": "incumbent",
    "district": "4",
-   "fromElections": true,
-   "finance": {
-    "voterfocusId": "1261",
-    "status": "Active- Defeated"
-   }
+   "fromElections": true
   },
   {
    "id": "sargent",
@@ -198,7 +184,7 @@
     ],
     "raised": [
      {
-      "value": "$44,745 in contributions, plus $7,163.77 in-kind (as of Nov 15, 2026)",
+      "value": "$44,745 in contributions, plus $7,163.77 in-kind (as of Nov 16, 2026)",
       "source": "soe-cf-sarasota"
      }
     ]
@@ -228,7 +214,7 @@
     ],
     "raised": [
      {
-      "value": "$98,155 in contributions, plus $5,442.43 in-kind (as of Nov 15, 2026)",
+      "value": "$98,155 in contributions, plus $5,442.43 in-kind (as of Nov 16, 2026)",
       "source": "soe-cf-sarasota"
      }
     ]
@@ -239,7 +225,7 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "1303",
-    "status": "Active- Advanced"
+    "status": "Active- Elected"
    }
   },
   {
@@ -258,7 +244,7 @@
     ],
     "raised": [
      {
-      "value": "$18,655 in contributions, plus $105.93 in-kind (as of Nov 15, 2026)",
+      "value": "$18,655 in contributions, plus $105.93 in-kind (as of Nov 16, 2026)",
       "source": "soe-cf-sarasota"
      }
     ]
@@ -269,7 +255,37 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "1324",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "joeneunder",
+   "name": "Joe Neunder",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-sarasota"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$166,761.73 in contributions (as of Nov 16, 2026)",
+      "source": "soe-cf-sarasota"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "1261",
+    "status": "Active- Defeated"
    }
   },
   {
@@ -278,7 +294,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$88,246.02 in contributions, plus $23,273.86 in-kind (as of Nov 15, 2026)",
+      "value": "$88,246.02 in contributions, plus $23,273.86 in-kind (as of Nov 16, 2026)",
       "source": "soe-cf-sarasota"
      }
     ]
@@ -289,7 +305,28 @@
    "race": "sb-d1",
    "finance": {
     "voterfocusId": "1267",
-    "status": "Active- Advanced"
+    "status": "Active- Elected"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "dewitt",
+   "name": "Teresa DeWitt",
+   "claims": {
+    "raised": [
+     {
+      "value": "$16,807.15 in contributions, plus $5,547.44 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-sarasota"
+     }
+    ]
+   },
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "1306",
+    "status": "Active- Defeated"
    },
    "nonpartisan": true
   },
@@ -299,7 +336,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$210,714.62 in contributions (as of Nov 15, 2026)",
+      "value": "$210,714.62 in contributions (as of Nov 16, 2026)",
       "source": "soe-cf-sarasota"
      }
     ]
@@ -310,7 +347,7 @@
    "race": "sb-d1",
    "finance": {
     "voterfocusId": "1269",
-    "status": "Active- Advanced"
+    "status": "Active- Defeated"
    },
    "nonpartisan": true
   },
@@ -320,7 +357,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$19,760 in contributions, plus $1,588.84 in-kind (as of Nov 15, 2026)",
+      "value": "$19,760 in contributions, plus $1,588.84 in-kind (as of Nov 16, 2026)",
       "source": "soe-cf-sarasota"
      }
     ]
@@ -341,7 +378,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$55,044 in contributions (as of Nov 15, 2026)",
+      "value": "$55,044 in contributions (as of Nov 16, 2026)",
       "source": "soe-cf-sarasota"
      }
     ]
@@ -362,7 +399,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$77,376 in contributions, plus $1,294.44 in-kind (as of Nov 15, 2026)",
+      "value": "$77,376 in contributions, plus $1,294.44 in-kind (as of Nov 16, 2026)",
       "source": "soe-cf-sarasota"
      }
     ]
@@ -383,7 +420,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$19,271.04 in contributions (as of Nov 15, 2026)",
+      "value": "$19,271.04 in contributions (as of Nov 16, 2026)",
       "source": "soe-cf-sarasota"
      }
     ]
@@ -422,12 +459,14 @@
    "office": "County Commissioner, Dist. 4",
    "people": [
     "deniro",
-    "london"
+    "london",
+    "joeneunder"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Jim DeNiro (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -436,12 +475,14 @@
    "office": "School Board, Dist. 1",
    "people": [
     "brandt",
+    "dewitt",
     "glover"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Heidi Brandt (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
