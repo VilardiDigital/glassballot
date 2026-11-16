@@ -165,7 +165,7 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "384",
-    "status": "Active- Unopposed"
+    "status": "Active- Elected"
    }
   },
   {
@@ -185,7 +185,7 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "383",
-    "status": "Active- Incumbent"
+    "status": "Active- Defeated"
    }
   },
   {
@@ -215,7 +215,7 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "381",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    }
   },
   {
@@ -224,7 +224,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$2,845 in contributions, plus $596 in-kind (as of Nov 16, 2026)",
+      "value": "$2,845 in contributions, plus $683.50 in-kind (as of Nov 16, 2026)",
       "source": "soe-cf-jackson"
      }
     ]
@@ -235,7 +235,7 @@
    "race": "sb-d1",
    "finance": {
     "voterfocusId": "386",
-    "status": "Active- Incumbent"
+    "status": "Active- Elected"
    },
    "nonpartisan": true
   },
@@ -256,7 +256,7 @@
    "race": "sb-d1",
    "finance": {
     "voterfocusId": "390",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
    },
    "nonpartisan": true
   },
@@ -277,7 +277,7 @@
    "race": "sb-d4",
    "finance": {
     "voterfocusId": "385",
-    "status": "Active- Unopposed"
+    "status": "Active- Elected"
    },
    "nonpartisan": true
   },
@@ -298,7 +298,7 @@
    "race": "sb-d5",
    "finance": {
     "voterfocusId": "388",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    },
    "nonpartisan": true
   },
@@ -319,7 +319,7 @@
    "race": "sb-d5",
    "finance": {
     "voterfocusId": "382",
-    "status": "Active- Incumbent"
+    "status": "Active- Defeated"
    },
    "nonpartisan": true
   },
@@ -340,7 +340,7 @@
    "race": "sb-d5",
    "finance": {
     "voterfocusId": "387",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
    },
    "nonpartisan": true
   }
@@ -359,7 +359,7 @@
     "soe-vf"
    ],
    "onNovBallot": false,
-   "decided": "Peter \"Sonny\" Fortunato, Jr (the only qualified candidate)"
+   "decided": "Peter \"Sonny\" Fortunato, Jr (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -373,7 +373,7 @@
     "soe-vf"
    ],
    "onNovBallot": false,
-   "decided": "Donnie Branch (unopposed)"
+   "decided": "Donnie Branch (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -388,7 +388,7 @@
     "soe-vf"
    ],
    "onNovBallot": false,
-   "decided": "Christopher Bryan King (the only qualified candidate)"
+   "decided": "Chephus D. Granberry (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -402,7 +402,7 @@
     "soe-vf"
    ],
    "onNovBallot": false,
-   "decided": "Chris Johnson (unopposed)"
+   "decided": "Chris Johnson (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -417,7 +417,8 @@
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Phyllis T. Daniels (elected)"
   }
  ],
  "votes": [],

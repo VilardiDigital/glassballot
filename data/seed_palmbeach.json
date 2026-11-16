@@ -284,7 +284,7 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "1103",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
    }
   },
   {
@@ -304,7 +304,37 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "1099",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
+   }
+  },
+  {
+   "id": "accomando",
+   "name": "Elizabeth Accomando",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-palmbeach"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$59,649.05 in contributions, plus $4,840.50 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-palmbeach"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "6",
+   "race": "bcc-d6",
+   "finance": {
+    "voterfocusId": "1106",
+    "status": "Inactive - Defeated"
    }
   },
   {
@@ -324,7 +354,67 @@
    "race": "bcc-d6",
    "finance": {
     "voterfocusId": "901",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "guzman",
+   "name": "Mario F. Guzman",
+   "claims": {
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-palmbeach"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$9,985 in contributions (as of Nov 16, 2026)",
+      "source": "soe-cf-palmbeach"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "6",
+   "race": "bcc-d6",
+   "finance": {
+    "voterfocusId": "1202",
+    "status": "Inactive - Defeated"
+   }
+  },
+  {
+   "id": "tinker",
+   "name": "Rudolph Tinker",
+   "claims": {
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-palmbeach"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$82,024.22 in contributions, plus $4,000 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-palmbeach"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "6",
+   "race": "bcc-d6",
+   "finance": {
+    "voterfocusId": "1130",
+    "status": "Active- Defeated"
    }
   },
   {
@@ -354,7 +444,7 @@
    "race": "bcc-d6",
    "finance": {
     "voterfocusId": "1207",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    }
   },
   {
@@ -379,6 +469,48 @@
    "nonpartisan": true
   },
   {
+   "id": "bryant",
+   "name": "Tiffany Bryant",
+   "claims": {
+    "raised": [
+     {
+      "value": "$8,747 in contributions, plus $174.66 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-palmbeach"
+     }
+    ]
+   },
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "4",
+   "race": "sb-d4",
+   "finance": {
+    "voterfocusId": "1193",
+    "status": "Inactive - Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "hamlet",
+   "name": "Dr. Anthony Hamlet",
+   "claims": {
+    "raised": [
+     {
+      "value": "$44,724.46 in contributions (as of Nov 16, 2026)",
+      "source": "soe-cf-palmbeach"
+     }
+    ]
+   },
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "4",
+   "race": "sb-d4",
+   "finance": {
+    "voterfocusId": "1192",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
    "id": "romelus",
    "name": "Christina L. Romelus",
    "claims": {
@@ -395,7 +527,7 @@
    "race": "sb-d4",
    "finance": {
     "voterfocusId": "1111",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    },
    "nonpartisan": true
   },
@@ -416,7 +548,7 @@
    "race": "sb-d4",
    "finance": {
     "voterfocusId": "1131",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
    },
    "nonpartisan": true
   },
@@ -533,7 +665,8 @@
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Marci Woodward (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -541,13 +674,17 @@
    "title": "County Commission, District 6",
    "office": "County Commissioner, Dist. 6",
    "people": [
+    "accomando",
     "sarabaxter",
+    "guzman",
+    "tinker",
     "waldron"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Katherine Waldron (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -569,13 +706,16 @@
    "title": "School Board, District 4",
    "office": "School Board, Dist. 4",
    "people": [
+    "bryant",
+    "hamlet",
     "romelus",
     "zapata"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Christina L. Romelus (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",

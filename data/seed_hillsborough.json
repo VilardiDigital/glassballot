@@ -512,7 +512,7 @@
    },
    "finance": {
     "voterfocusId": "2640",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    }
   },
   {
@@ -715,7 +715,7 @@
    },
    "finance": {
     "voterfocusId": "2621",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    }
   },
   {
@@ -1047,7 +1047,7 @@
    },
    "finance": {
     "voterfocusId": "2620",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
    }
   },
   {
@@ -1132,7 +1132,7 @@
    },
    "finance": {
     "voterfocusId": "2880",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
    }
   },
   {
@@ -1192,7 +1192,7 @@
    },
    "finance": {
     "voterfocusId": "2646",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
    }
   },
   {
@@ -1264,7 +1264,7 @@
    },
    "finance": {
     "voterfocusId": "2661",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
    }
   },
   {
@@ -1369,7 +1369,7 @@
    },
    "finance": {
     "voterfocusId": "2636",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    }
   },
   {
@@ -1470,7 +1470,7 @@
    },
    "finance": {
     "voterfocusId": "2660",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    }
   },
   {
@@ -1531,7 +1531,7 @@
    },
    "finance": {
     "voterfocusId": "2677",
-    "status": "Active- Runoff"
+    "status": "Active- Defeated"
    }
   },
   {
@@ -1586,7 +1586,7 @@
    },
    "finance": {
     "voterfocusId": "2675",
-    "status": "Active- Runoff"
+    "status": "Active- Elected"
    }
   },
   {
@@ -1633,7 +1633,7 @@
    },
    "finance": {
     "voterfocusId": "2672",
-    "status": "Active- Unopposed"
+    "status": "Inactive - Elected"
    }
   },
   {
@@ -1713,7 +1713,7 @@
    },
    "finance": {
     "voterfocusId": "2645",
-    "status": "Active- Runoff"
+    "status": "Active- Elected"
    }
   },
   {
@@ -1781,7 +1781,7 @@
    },
    "finance": {
     "voterfocusId": "2610",
-    "status": "Active- Runoff"
+    "status": "Active- Defeated"
    }
   }
  ],

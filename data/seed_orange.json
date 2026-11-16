@@ -147,7 +147,7 @@
    "race": "bcc-d6",
    "finance": {
     "voterfocusId": "1265",
-    "status": "Active- Runoff"
+    "status": "Active- Elected"
    },
    "nonpartisan": false
   },
@@ -168,7 +168,7 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "1290",
-    "status": "Active- Runoff"
+    "status": "Active- Elected"
    },
    "nonpartisan": false
   },
@@ -189,7 +189,70 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "1384",
-    "status": "Active- Runoff"
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "hodge",
+   "name": "Wes Hodge",
+   "claims": {
+    "raised": [
+     {
+      "value": "$24,773 in contributions (as of Nov 16, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "1328",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "oliver",
+   "name": "George Oliver III",
+   "claims": {
+    "raised": [
+     {
+      "value": "$65,148.49 in contributions, plus $740 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "1285",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "summersill",
+   "name": "Marsha Summersill",
+   "claims": {
+    "raised": [
+     {
+      "value": "$23,580.20 in contributions, plus $278.90 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "1254",
+    "status": "Active- Defeated"
    },
    "nonpartisan": false
   },
@@ -210,7 +273,7 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "1378",
-    "status": "Active- Qualified Write-In"
+    "status": "Active- Defeated"
    },
    "nonpartisan": false
   },
@@ -220,7 +283,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$7,660 in contributions (as of Nov 16, 2026)",
+      "value": "$13,391.39 in contributions, plus $5,528.16 in-kind (as of Nov 16, 2026)",
       "source": "soe-cf-orange"
      }
     ]
@@ -230,7 +293,7 @@
    "district": "4",
    "race": "bcc-d4",
    "finance": {
-    "voterfocusId": "1292",
+    "voterfocusId": "1260",
     "status": "Active- Defeated"
    },
    "nonpartisan": false
@@ -252,7 +315,28 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "1279",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "delice",
+   "name": "Loody Delice",
+   "claims": {
+    "raised": [
+     {
+      "value": "$5,635 in contributions, plus $180 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "6",
+   "race": "bcc-d6",
+   "finance": {
+    "voterfocusId": "1323",
+    "status": "Active- Defeated"
    },
    "nonpartisan": false
   },
@@ -273,7 +357,238 @@
    "race": "bcc-d6",
    "finance": {
     "voterfocusId": "1295",
-    "status": "Active- Runoff"
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "harris",
+   "name": "Cynthia Harris",
+   "claims": {
+    "raised": [
+     {
+      "value": "$5,650 in contributions, plus $500 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "6",
+   "race": "bcc-d6",
+   "finance": {
+    "voterfocusId": "1301",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "joseph",
+   "name": "Hedder Pierre Joseph",
+   "claims": {
+    "raised": [
+     {
+      "value": "$21,614.20 in contributions, plus $4,340.53 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "6",
+   "race": "bcc-d6",
+   "finance": {
+    "voterfocusId": "1287",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "carter",
+   "name": "Selina Carter",
+   "claims": {
+    "raised": [
+     {
+      "value": "$14,628.43 in contributions, plus $1,316.29 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "7",
+   "race": "bcc-d7",
+   "finance": {
+    "voterfocusId": "1200",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "currie",
+   "name": "Shannon Currie",
+   "claims": {
+    "raised": [
+     {
+      "value": "$40,313.86 in contributions, plus $42.90 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "7",
+   "race": "bcc-d7",
+   "finance": {
+    "voterfocusId": "1293",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "filmore",
+   "name": "Shakaya \"Kay\" Filmore",
+   "claims": {
+    "raised": [
+     {
+      "value": "$3,516.52 in contributions (as of Nov 16, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "7",
+   "race": "bcc-d7",
+   "finance": {
+    "voterfocusId": "1291",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "gardner",
+   "name": "Angie Gardner",
+   "claims": {
+    "raised": [
+     {
+      "value": "$14,861.21 in contributions, plus $177.86 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "7",
+   "race": "bcc-d7",
+   "finance": {
+    "voterfocusId": "1257",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "graybill",
+   "name": "Deidre Graybill",
+   "claims": {
+    "raised": [
+     {
+      "value": "$14,489.19 in contributions, plus $1,707.04 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "7",
+   "race": "bcc-d7",
+   "finance": {
+    "voterfocusId": "1327",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "rasheedajones",
+   "name": "Rasheeda Doris Jones",
+   "claims": {
+    "raised": [
+     {
+      "value": "$7,660 in contributions (as of Nov 16, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "7",
+   "race": "bcc-d7",
+   "finance": {
+    "voterfocusId": "1292",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "joyner",
+   "name": "Gloria C. Joyner",
+   "claims": {
+    "raised": [
+     {
+      "value": "$9,560 in contributions, plus $4,000 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "7",
+   "race": "bcc-d7",
+   "finance": {
+    "voterfocusId": "1299",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "lewis",
+   "name": "Aaron Emmanuel Lewis",
+   "claims": {
+    "raised": [
+     {
+      "value": "$9,650.60 in contributions, plus $2,316.73 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "7",
+   "race": "bcc-d7",
+   "finance": {
+    "voterfocusId": "1266",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "moldof",
+   "name": "Zach Moldof",
+   "claims": {
+    "raised": [
+     {
+      "value": "$9,541.07 in contributions, plus $293.48 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "7",
+   "race": "bcc-d7",
+   "finance": {
+    "voterfocusId": "1297",
+    "status": "Active- Defeated"
    },
    "nonpartisan": false
   },
@@ -294,7 +609,28 @@
    "race": "bcc-d7",
    "finance": {
     "voterfocusId": "1283",
-    "status": "Active- Runoff"
+    "status": "Active- Elected"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "thompsonmcclary",
+   "name": "Beryl Thompson-McClary",
+   "claims": {
+    "raised": [
+     {
+      "value": "$54,476 in contributions, plus $2,000 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "7",
+   "race": "bcc-d7",
+   "finance": {
+    "voterfocusId": "1296",
+    "status": "Active- Defeated"
    },
    "nonpartisan": false
   },
@@ -315,7 +651,70 @@
    "race": "bcc-d7",
    "finance": {
     "voterfocusId": "1271",
-    "status": "Active- Runoff"
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "anderson",
+   "name": "Isaiah Louis Anderson",
+   "claims": {
+    "raised": [
+     {
+      "value": "$4,981.94 in contributions, plus $396.12 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "8",
+   "race": "bcc-d8",
+   "finance": {
+    "voterfocusId": "1286",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "fernndez",
+   "name": "Tatiana Fernández",
+   "claims": {
+    "raised": [
+     {
+      "value": "$17,803.75 in contributions, plus $700 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "8",
+   "race": "bcc-d8",
+   "finance": {
+    "voterfocusId": "1268",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "haas",
+   "name": "George Haas",
+   "claims": {
+    "raised": [
+     {
+      "value": "$46,452.15 in contributions, plus $80.91 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "8",
+   "race": "bcc-d8",
+   "finance": {
+    "voterfocusId": "1374",
+    "status": "Active- Defeated"
    },
    "nonpartisan": false
   },
@@ -336,7 +735,28 @@
    "race": "bcc-d8",
    "finance": {
     "voterfocusId": "1275",
-    "status": "Active- Runoff"
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "rocha",
+   "name": "Julio Rocha",
+   "claims": {
+    "raised": [
+     {
+      "value": "$24,882.67 in contributions, plus $2,646.55 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "8",
+   "race": "bcc-d8",
+   "finance": {
+    "voterfocusId": "1294",
+    "status": "Active- Defeated"
    },
    "nonpartisan": false
   },
@@ -357,7 +777,7 @@
    "race": "bcc-d8",
    "finance": {
     "voterfocusId": "1272",
-    "status": "Active- Runoff"
+    "status": "Active- Elected"
    },
    "nonpartisan": false
   },
@@ -486,6 +906,27 @@
    "nonpartisan": true
   },
   {
+   "id": "adorno",
+   "name": "Ilia Adorno",
+   "claims": {
+    "raised": [
+     {
+      "value": "$12,121 in contributions, plus $2,210 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-orange"
+     }
+    ]
+   },
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "3",
+   "race": "sb-d3",
+   "finance": {
+    "voterfocusId": "1288",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
    "id": "dianamoore",
    "name": "Diana Moore",
    "claims": {
@@ -502,7 +943,7 @@
    "race": "sb-d3",
    "finance": {
     "voterfocusId": "1314",
-    "status": "Active- Runoff"
+    "status": "Active- Defeated"
    },
    "nonpartisan": true
   },
@@ -523,7 +964,7 @@
    "race": "sb-d3",
    "finance": {
     "voterfocusId": "1242",
-    "status": "Active- Runoff"
+    "status": "Active- Elected"
    },
    "nonpartisan": true
   }
@@ -536,12 +977,16 @@
    "office": "County Commissioner District 2",
    "people": [
     "brown",
-    "crabb"
+    "crabb",
+    "hodge",
+    "oliver",
+    "summersill"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Kamia Brown (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -556,7 +1001,8 @@
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Johanna Lopez (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -564,13 +1010,17 @@
    "title": "County Commission, District 6",
    "office": "County Commissioner District 6",
    "people": [
+    "delice",
     "gelzer",
+    "harris",
+    "joseph",
     "scott"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Michael \"Mike\" Scott (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -578,13 +1028,24 @@
    "title": "County Commission, District 7",
    "office": "County Commissioner District 7",
    "people": [
+    "carter",
+    "currie",
+    "filmore",
+    "gardner",
+    "graybill",
+    "rasheedajones",
+    "joyner",
+    "lewis",
+    "moldof",
     "rumph",
+    "thompsonmcclary",
     "vargo"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Patricia Rumph (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -592,13 +1053,18 @@
    "title": "County Commission, District 8",
    "office": "County Commissioner District 8",
    "people": [
+    "anderson",
+    "fernndez",
+    "haas",
     "hernandez",
+    "rocha",
     "torres"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Victor M. Torres Jr. (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -651,13 +1117,15 @@
    "title": "School Board, District 3",
    "office": "School Board Dist. 3",
    "people": [
+    "adorno",
     "dianamoore",
     "pea"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Susanne Peña (elected)"
   }
  ],
  "votes": [],

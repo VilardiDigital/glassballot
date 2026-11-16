@@ -165,7 +165,7 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "741",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
    }
   },
   {
@@ -191,7 +191,7 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "744",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
    }
   },
   {
@@ -211,7 +211,7 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "736",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    }
   },
   {
@@ -237,7 +237,7 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "762",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
    }
   },
   {
@@ -267,7 +267,37 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "803",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
+   }
+  },
+  {
+   "id": "messer",
+   "name": "Roger Messer",
+   "claims": {
+    "party": [
+     {
+      "value": "Democrat",
+      "source": "soe-vf"
+     },
+     {
+      "value": "Democrat",
+      "source": "soe-cf-stlucie"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$27,790 in contributions, plus $110 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-stlucie"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "771",
+    "status": "Active- Defeated"
    }
   },
   {
@@ -329,7 +359,7 @@
    "race": "sb-d3",
    "finance": {
     "voterfocusId": "740",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    },
    "nonpartisan": true
   },
@@ -350,7 +380,28 @@
    "race": "sb-d3",
    "finance": {
     "voterfocusId": "774",
-    "status": "Active- Qualified Write-In"
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "cerami",
+   "name": "Charles V. Cerami",
+   "claims": {
+    "raised": [
+     {
+      "value": "$4,730 in contributions, plus $1,450 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-stlucie"
+     }
+    ]
+   },
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "5",
+   "race": "sb-d5",
+   "finance": {
+    "voterfocusId": "751",
+    "status": "Active- Defeated"
    },
    "nonpartisan": true
   },
@@ -371,7 +422,7 @@
    "race": "sb-d5",
    "finance": {
     "voterfocusId": "754",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    },
    "nonpartisan": true
   },
@@ -392,7 +443,7 @@
    "race": "sb-d5",
    "finance": {
     "voterfocusId": "769",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
    },
    "nonpartisan": true
   }
@@ -410,7 +461,8 @@
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Larry Leet (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -420,12 +472,14 @@
    "people": [
     "burgos",
     "fowler",
-    "leroy"
+    "leroy",
+    "messer"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Jean Eddy Leroy (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -454,7 +508,8 @@
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Donna Mills (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -462,13 +517,15 @@
    "title": "School Board, District 5",
    "office": "School Board, District 5",
    "people": [
+    "cerami",
     "ingersoll",
     "kessler"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Troy Ingersoll (elected)"
   }
  ],
  "votes": [],

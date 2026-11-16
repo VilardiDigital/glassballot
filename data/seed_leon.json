@@ -140,7 +140,7 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "760",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    },
    "nonpartisan": false
   },
@@ -161,7 +161,7 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "781",
-    "status": "Active- Qualified Write-In"
+    "status": "Active- Defeated"
    },
    "nonpartisan": false
   },
@@ -203,7 +203,7 @@
    "race": "bcc-d3",
    "finance": {
     "voterfocusId": "745",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
    },
    "nonpartisan": false
   },
@@ -224,7 +224,7 @@
    "race": "bcc-d3",
    "finance": {
     "voterfocusId": "757",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    },
    "nonpartisan": false
   },
@@ -245,7 +245,7 @@
    "race": "bcc-d5",
    "finance": {
     "voterfocusId": "752",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
    },
    "nonpartisan": false
   },
@@ -259,7 +259,7 @@
    "race": "bcc-d5",
    "finance": {
     "voterfocusId": "758",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    },
    "nonpartisan": false
   },
@@ -280,7 +280,7 @@
    "race": "sb-d1",
    "finance": {
     "voterfocusId": "782",
-    "status": "Active- Qualified Write-In"
+    "status": "Active- Defeated"
    },
    "nonpartisan": true
   },
@@ -301,7 +301,7 @@
    "race": "sb-d1",
    "finance": {
     "voterfocusId": "774",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    },
    "nonpartisan": true
   },
@@ -382,7 +382,8 @@
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Nick Maddox (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -410,7 +411,8 @@
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "William Minor (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -424,7 +426,8 @@
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "David O Keefe (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -438,7 +441,8 @@
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Alva Swafford Smith (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",

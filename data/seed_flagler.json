@@ -357,7 +357,7 @@
    "race": "sb-d1",
    "finance": {
     "voterfocusId": "760",
-    "status": "Active- Elected"
+    "status": "Inactive - Elected"
    },
    "nonpartisan": true
   },
@@ -399,7 +399,7 @@
    "race": "sb-d2",
    "finance": {
     "voterfocusId": "759",
-    "status": "Active- Defeated"
+    "status": "Inactive - Defeated"
    },
    "nonpartisan": true
   },
@@ -441,7 +441,28 @@
    "race": "sb-d4",
    "finance": {
     "voterfocusId": "742",
-    "status": "Active- Runoff"
+    "status": "Active- Elected"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "long",
+   "name": "Ron Long",
+   "claims": {
+    "raised": [
+     {
+      "value": "$5,523.21 in contributions, plus $372.91 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-flagler"
+     }
+    ]
+   },
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "4",
+   "race": "sb-d4",
+   "finance": {
+    "voterfocusId": "743",
+    "status": "Active- Defeated"
    },
    "nonpartisan": true
   },
@@ -462,7 +483,7 @@
    "race": "sb-d4",
    "finance": {
     "voterfocusId": "762",
-    "status": "Active- Runoff"
+    "status": "Active- Defeated"
    },
    "nonpartisan": true
   }
@@ -499,7 +520,7 @@
     "soe-vf"
    ],
    "onNovBallot": false,
-   "decided": "Leann Pennington (the only qualified candidate)"
+   "decided": "Leann Pennington (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -538,12 +559,14 @@
    "office": "School Board District 4",
    "people": [
     "chong",
+    "long",
     "tucker"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Christy Chong (elected)"
   }
  ],
  "votes": [],

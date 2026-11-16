@@ -401,7 +401,112 @@
    "race": "sb-d1",
    "finance": {
     "voterfocusId": "3076",
-    "status": "Active- Runoff"
+    "status": "Active- Elected"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "ighodaro",
+   "name": "Erhabor Ighodaro",
+   "claims": {
+    "raised": [
+     {
+      "value": "$7,289.12 in contributions (as of Nov 16, 2026)",
+      "source": "soe-cf-miamidade"
+     }
+    ]
+   },
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "3047",
+    "status": "Inactive - Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "jackson",
+   "name": "Joy L. Jackson",
+   "claims": {
+    "raised": [
+     {
+      "value": "$25,780.36 in contributions (as of Nov 16, 2026)",
+      "source": "soe-cf-miamidade"
+     }
+    ]
+   },
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "3069",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "jennings",
+   "name": "Bernard Wh Jennings",
+   "claims": {
+    "raised": [
+     {
+      "value": "$10,700 in contributions, plus $3,000 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-miamidade"
+     }
+    ]
+   },
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "3036",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "johnson",
+   "name": "Thera Johnson",
+   "claims": {
+    "raised": [
+     {
+      "value": "$0 in contributions (as of Nov 16, 2026)",
+      "source": "soe-cf-miamidade"
+     }
+    ]
+   },
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "3080",
+    "status": "Inactive - Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "mesidor",
+   "name": "Wrendly Mesidor",
+   "claims": {
+    "raised": [
+     {
+      "value": "$5,496.18 in contributions (as of Nov 16, 2026)",
+      "source": "soe-cf-miamidade"
+     }
+    ]
+   },
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "3037",
+    "status": "Inactive - Defeated"
    },
    "nonpartisan": true
   },
@@ -422,7 +527,28 @@
    "race": "sb-d1",
    "finance": {
     "voterfocusId": "3070",
-    "status": "Active- Runoff"
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "wright",
+   "name": "James Wright",
+   "claims": {
+    "raised": [
+     {
+      "value": "$40,515.56 in contributions (as of Nov 16, 2026)",
+      "source": "soe-cf-miamidade"
+     }
+    ]
+   },
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "3079",
+    "status": "Active- Defeated"
    },
    "nonpartisan": true
   },
@@ -606,7 +732,7 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "2940",
-    "status": "Active- Defeated"
+    "status": "Inactive - Defeated"
    }
   },
   {
@@ -632,7 +758,7 @@
    "race": "bcc-d5",
    "finance": {
     "voterfocusId": "2949",
-    "status": "Active- Runoff"
+    "status": "Active- Elected"
    }
   },
   {
@@ -658,7 +784,33 @@
    "race": "bcc-d5",
    "finance": {
     "voterfocusId": "2998",
-    "status": "Active- Runoff"
+    "status": "Active- Defeated"
+   }
+  },
+  {
+   "id": "sanchez",
+   "name": "Joe Sanchez",
+   "claims": {
+    "party": [
+     {
+      "value": "NOP",
+      "source": "soe-vf"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$80,252 in contributions, plus $1,000 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-miamidade"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "5",
+   "race": "bcc-d5",
+   "finance": {
+    "voterfocusId": "2951",
+    "status": "Inactive - Defeated"
    }
   },
   {
@@ -748,12 +900,19 @@
    "office": "School Board District 01",
    "people": [
     "cothiere",
-    "wilson"
+    "ighodaro",
+    "jackson",
+    "jennings",
+    "johnson",
+    "mesidor",
+    "wilson",
+    "wright"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Linda Cothiere (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -863,12 +1022,14 @@
    "office": "County Commission District 05",
    "people": [
     "lopez",
-    "piper"
+    "piper",
+    "sanchez"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Vicki L. Lopez (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",

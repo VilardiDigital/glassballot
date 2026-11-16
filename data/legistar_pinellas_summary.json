@@ -1,18 +1,18 @@
 {
  "source": "legistar",
  "api": "https://webapi.legistar.com/v1/pinellas",
- "pulledAt": "2026-11-16T13:39:10Z",
+ "pulledAt": "2026-11-16T19:39:24Z",
  "scope": "Board of County Commissioners regular and special meetings, Nov 19, 2024 to Oct 22, 2026 (the current seven members)",
  "totals": {
   "meetings": 45,
   "meetingsWithRollCalls": 38,
-  "items": 1382,
-  "rollCalls": 1302,
+  "items": 1383,
+  "rollCalls": 1303,
   "splitRollCalls": 38
  },
  "stats": {
   "eggers": {
-   "aye": 1243,
+   "aye": 1244,
    "nay": 5,
    "absent": 54,
    "abstain": 0,
@@ -20,7 +20,7 @@
    "meetingsMissed": 1
   },
   "latvala": {
-   "aye": 1152,
+   "aye": 1153,
    "nay": 8,
    "absent": 142,
    "abstain": 0,
@@ -28,7 +28,7 @@
    "meetingsMissed": 3
   },
   "flowers": {
-   "aye": 1234,
+   "aye": 1235,
    "nay": 8,
    "absent": 59,
    "abstain": 1,
@@ -36,7 +36,7 @@
    "meetingsMissed": 1
   },
   "nowicki": {
-   "aye": 1266,
+   "aye": 1267,
    "nay": 21,
    "absent": 15,
    "abstain": 0,
@@ -44,7 +44,7 @@
    "meetingsMissed": 0
   },
   "peters": {
-   "aye": 1064,
+   "aye": 1065,
    "nay": 3,
    "absent": 235,
    "abstain": 0,
@@ -52,7 +52,7 @@
    "meetingsMissed": 3
   },
   "scherer": {
-   "aye": 1244,
+   "aye": 1245,
    "nay": 12,
    "absent": 46,
    "abstain": 0,
@@ -60,7 +60,7 @@
    "meetingsMissed": 1
   },
   "scott": {
-   "aye": 1266,
+   "aye": 1267,
    "nay": 7,
    "absent": 29,
    "abstain": 0,

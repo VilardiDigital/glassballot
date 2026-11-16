@@ -412,6 +412,27 @@
    "nonpartisan": true
   },
   {
+   "id": "leifnp",
+   "name": "Leif M. Jonassen III (N/P)",
+   "claims": {
+    "raised": [
+     {
+      "value": "$10,002.80 in contributions, plus $4,028.38 in-kind (as of Nov 16, 2026)",
+      "source": "soe-cf-stjohns"
+     }
+    ]
+   },
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "4",
+   "race": "sb-d4",
+   "finance": {
+    "voterfocusId": "1502",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
    "id": "tammienp",
    "name": "Tammie McClafferty (N/P)",
    "claims": {
@@ -428,7 +449,7 @@
    "race": "sb-d4",
    "finance": {
     "voterfocusId": "1496",
-    "status": "Active- Advanced"
+    "status": "Active- Elected"
    },
    "nonpartisan": true
   },
@@ -449,7 +470,7 @@
    "race": "sb-d4",
    "finance": {
     "voterfocusId": "1533",
-    "status": "Active- Advanced"
+    "status": "Active- Defeated"
    },
    "nonpartisan": true
   }
@@ -523,13 +544,15 @@
    "title": "School Board, District 4",
    "office": "School Board - Dist 4",
    "people": [
+    "leifnp",
     "tammienp",
     "jilliannp"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Tammie McClafferty (N/P) (elected)"
   }
  ],
  "votes": [],

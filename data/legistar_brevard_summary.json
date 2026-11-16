@@ -1,17 +1,17 @@
 {
- "pulledAt": "2026-11-16T13:39:48Z",
+ "pulledAt": "2026-11-16T19:40:21Z",
  "totals": {
   "meetings": 34,
   "meetingsWithRollCalls": 23,
-  "items": 403,
-  "rollCalls": 395,
+  "items": 404,
+  "rollCalls": 396,
   "splitRollCalls": 0
  },
  "stats": {
   "pritchett": {
    "aye": 0,
    "nay": 2,
-   "absent": 104,
+   "absent": 105,
    "abstain": 0,
    "meetingsHeld": 6,
    "meetingsMissed": 4
@@ -19,7 +19,7 @@
   "goodson": {
    "aye": 0,
    "nay": 7,
-   "absent": 388,
+   "absent": 389,
    "abstain": 0,
    "meetingsHeld": 23,
    "meetingsMissed": 17
@@ -27,7 +27,7 @@
   "adkinson": {
    "aye": 0,
    "nay": 7,
-   "absent": 387,
+   "absent": 388,
    "abstain": 1,
    "meetingsHeld": 23,
    "meetingsMissed": 16
@@ -35,7 +35,7 @@
   "feltner": {
    "aye": 0,
    "nay": 11,
-   "absent": 384,
+   "absent": 385,
    "abstain": 0,
    "meetingsHeld": 23,
    "meetingsMissed": 16
@@ -43,7 +43,7 @@
   "altman": {
    "aye": 0,
    "nay": 7,
-   "absent": 385,
+   "absent": 386,
    "abstain": 3,
    "meetingsHeld": 23,
    "meetingsMissed": 17
