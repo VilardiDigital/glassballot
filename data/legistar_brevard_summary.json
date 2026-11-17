@@ -1,29 +1,13 @@
 {
- "pulledAt": "2026-11-16T19:40:21Z",
+ "pulledAt": "2026-11-17T18:41:09Z",
  "totals": {
-  "meetings": 34,
+  "meetings": 35,
   "meetingsWithRollCalls": 23,
   "items": 404,
   "rollCalls": 396,
   "splitRollCalls": 0
  },
  "stats": {
-  "pritchett": {
-   "aye": 0,
-   "nay": 2,
-   "absent": 105,
-   "abstain": 0,
-   "meetingsHeld": 6,
-   "meetingsMissed": 4
-  },
-  "goodson": {
-   "aye": 0,
-   "nay": 7,
-   "absent": 389,
-   "abstain": 0,
-   "meetingsHeld": 23,
-   "meetingsMissed": 17
-  },
   "adkinson": {
    "aye": 0,
    "nay": 7,
@@ -84,6 +68,7 @@
   "1831": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1831&GUID=003E0C8B-3524-4090-B4BE-D02CE44CEED6",
   "1830": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1830&GUID=4E20E434-64A6-4DB8-9A43-48388CC6E9B2",
   "1820": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1820&GUID=CB1994DD-D7E1-4972-BDA9-CA3B0D64B93A",
-  "1821": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1821&GUID=818D764F-1F8A-4833-8028-3B20F656EE40"
+  "1821": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1821&GUID=818D764F-1F8A-4833-8028-3B20F656EE40",
+  "1822": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1822&GUID=BB9EFB94-79E5-4BDF-B6E9-B2EFD07B3F33"
  }
 }

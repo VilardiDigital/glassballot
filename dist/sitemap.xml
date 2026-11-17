@@ -313,11 +313,8 @@
   <url><loc>https://glassballot.org/brevard/r/sb-d1</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/brevard/r/sb-d2</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/brevard/r/sb-d5</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://glassballot.org/brevard/p/goodson</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://glassballot.org/brevard/p/feltner</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/brevard/p/adkinson</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/brevard/p/altman</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://glassballot.org/brevard/p/pritchett</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/brevard/p/avery</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/brevard/p/bailey</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/brevard/p/bookhardt</loc><lastmod>2026-11-17</lastmod></url>
@@ -326,6 +323,7 @@
   <url><loc>https://glassballot.org/brevard/p/slusher</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/brevard/p/sirois</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/brevard/p/dyer</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://glassballot.org/brevard/p/feltner</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/brevard/p/gibson</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/brevard/p/wright</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/brevard/p/savage</loc><lastmod>2026-11-17</lastmod></url>
@@ -364,8 +362,11 @@
   <url><loc>https://glassballot.org/broward/p/gimenez</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/broward/p/kimmel</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/broward/p/morst</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://glassballot.org/broward/p/bastos</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/broward/p/cervera</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/broward/p/fernandez</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://glassballot.org/broward/p/henry</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://glassballot.org/broward/p/wilks</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/broward/p/dominique</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/broward/p/soffer</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/broward/p/azim</loc><lastmod>2026-11-17</lastmod></url>
@@ -1100,16 +1101,14 @@
   <url><loc>https://glassballot.org/marion/r/sb-d3</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/marion/r/sb-d4</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/marion/r/sb-d5</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://glassballot.org/marion/p/bryant</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://glassballot.org/marion/p/zalak</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/marion/p/curry</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/marion/p/stone</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/marion/p/mcclain</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://glassballot.org/marion/p/cretul</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/marion/p/crimi</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://glassballot.org/marion/p/bairstow</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://glassballot.org/marion/p/cretul</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/marion/p/weidemiller</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/marion/p/alvord</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://glassballot.org/marion/p/bairstow</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/marion/p/lasher</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/marion/p/meadows</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/marion/p/racioppi</loc><lastmod>2026-11-17</lastmod></url>
@@ -1122,17 +1121,12 @@
   <url><loc>https://glassballot.org/marion/p/barber</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/marion/p/bigby</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/marion/p/james</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://glassballot.org/marion/v/lg-203944</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://glassballot.org/marion/v/lg-200030</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/marion/v/lg-198452</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/marion/v/lg-195807</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/marion/v/lg-191658</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/marion/v/lg-191738</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://glassballot.org/marion/v/lg-191742</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://glassballot.org/marion/v/lg-191766</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/marion/v/lg-191847</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/marion/v/lg-190281</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://glassballot.org/marion/v/lg-189612</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/marion/v/lg-188140</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/marion/v/lg-188144</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/marion/v/lg-186252</loc><lastmod>2026-11-17</lastmod></url>
@@ -1511,8 +1505,8 @@
   <url><loc>https://glassballot.org/polk/p/scott</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/polk/p/troutman</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/polk/p/braswell</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://glassballot.org/polk/p/quinn</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/polk/p/arroyo</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://glassballot.org/polk/p/quinn</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/polk/p/gresham</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/polk/p/sims</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/polk/p/wallace</loc><lastmod>2026-11-17</lastmod></url>
@@ -1660,8 +1654,10 @@
   <url><loc>https://glassballot.org/seminole/p/herr</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/seminole/p/lockhart</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/seminole/p/zembower</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://glassballot.org/seminole/p/amylockhart</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/seminole/p/santos</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://glassballot.org/seminole/p/jayzembower</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://glassballot.org/seminole/p/amylockhart</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://glassballot.org/seminole/p/charlinesantos</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/seminole/p/kraus</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/seminole/p/pizza</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/seminole/p/memminger</loc><lastmod>2026-11-17</lastmod></url>
@@ -1770,10 +1766,14 @@
   <url><loc>https://glassballot.org/volusia/p/santiago</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/volusia/p/miller</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/volusia/p/poniatowski</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://glassballot.org/volusia/p/powell</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/volusia/p/anderson</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://glassballot.org/volusia/p/thorne</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://glassballot.org/volusia/p/gorham</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/volusia/p/white</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/volusia/p/sosa</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/volusia/p/beery</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://glassballot.org/volusia/p/carrell</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/volusia/p/haynes</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/volusia/p/kellermeier</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://glassballot.org/volusia/p/thompson</loc><lastmod>2026-11-17</lastmod></url>

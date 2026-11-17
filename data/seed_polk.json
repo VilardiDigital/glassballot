@@ -18,21 +18,21 @@
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=polk&el=22",
    "publisher": "Polk County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-16"
+   "accessed": "2026-11-17"
   },
   "legistar": {
    "title": "Polk County Board of County Commissioners meeting records (Legistar)",
    "url": "https://polkcountyfl.legistar.com/Calendar.aspx",
    "publisher": "Polk County Board of County Commissioners",
    "tier": 1,
-   "accessed": "2026-11-16"
+   "accessed": "2026-11-17"
   },
   "soe-cf-polk": {
    "title": "Polk Supervisor of Elections campaign finance reports, 2026 cycle",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=polk&el=22",
    "publisher": "Polk County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-16"
+   "accessed": "2026-11-17"
   }
  },
  "people": [
@@ -56,7 +56,7 @@
    "claims": {
     "inOfficeSince": [
      {
-      "value": "2022",
+      "value": "2026",
       "source": "legistar"
      }
     ],
@@ -72,7 +72,7 @@
     ],
     "raised": [
      {
-      "value": "$67,852.23 in contributions (as of Nov 16, 2026)",
+      "value": "$67,852.23 in contributions (as of Nov 17, 2026)",
       "source": "soe-cf-polk"
      }
     ]
@@ -129,6 +129,42 @@
    "status": "incumbent"
   },
   {
+   "id": "arroyo",
+   "name": "Omar Arroyo",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2026",
+      "source": "legistar"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-polk"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$134,770 in contributions, plus $660 in-kind (as of Nov 17, 2026)",
+      "source": "soe-cf-polk"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "325",
+    "status": "Active- Qualified"
+   }
+  },
+  {
    "id": "quinn",
    "name": "Kelly Quinn",
    "claims": {
@@ -144,7 +180,7 @@
     ],
     "raised": [
      {
-      "value": "$15,408.03 in contributions (as of Nov 16, 2026)",
+      "value": "$15,408.03 in contributions (as of Nov 17, 2026)",
       "source": "soe-cf-polk"
      }
     ]
@@ -159,36 +195,6 @@
    }
   },
   {
-   "id": "arroyo",
-   "name": "Omar Arroyo",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     },
-     {
-      "value": "Republican",
-      "source": "soe-cf-polk"
-     }
-    ],
-    "raised": [
-     {
-      "value": "$134,770 in contributions, plus $660 in-kind (as of Nov 16, 2026)",
-      "source": "soe-cf-polk"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "4",
-   "race": "bcc-d4",
-   "finance": {
-    "voterfocusId": "325",
-    "status": "Active- Qualified"
-   }
-  },
-  {
    "id": "gresham",
    "name": "Elisha Gresham",
    "claims": {
@@ -200,7 +206,7 @@
     ],
     "raised": [
      {
-      "value": "$566 in contributions (as of Nov 16, 2026)",
+      "value": "$566 in contributions (as of Nov 17, 2026)",
       "source": "soe-cf-polk"
      }
     ]
@@ -220,7 +226,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$70,466.74 in contributions, plus $20,673.55 in-kind (as of Nov 16, 2026)",
+      "value": "$70,466.74 in contributions, plus $20,673.55 in-kind (as of Nov 17, 2026)",
       "source": "soe-cf-polk"
      }
     ]
@@ -241,7 +247,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$136,995.14 in contributions, plus $391.84 in-kind (as of Nov 16, 2026)",
+      "value": "$136,995.14 in contributions, plus $391.84 in-kind (as of Nov 17, 2026)",
       "source": "soe-cf-polk"
      }
     ]
@@ -262,7 +268,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$37,040 in contributions, plus $2,000 in-kind (as of Nov 16, 2026)",
+      "value": "$37,040 in contributions, plus $2,000 in-kind (as of Nov 17, 2026)",
       "source": "soe-cf-polk"
      }
     ]
@@ -283,7 +289,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$51,516 in contributions, plus $4,489.04 in-kind (as of Nov 16, 2026)",
+      "value": "$51,516 in contributions, plus $4,489.04 in-kind (as of Nov 17, 2026)",
       "source": "soe-cf-polk"
      }
     ]
@@ -304,7 +310,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$2,390.25 in contributions, plus $26.75 in-kind (as of Nov 16, 2026)",
+      "value": "$2,390.25 in contributions, plus $26.75 in-kind (as of Nov 17, 2026)",
       "source": "soe-cf-polk"
      }
     ]
@@ -325,7 +331,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$57,150 in contributions, plus $1,650.57 in-kind (as of Nov 16, 2026)",
+      "value": "$57,150 in contributions, plus $1,650.57 in-kind (as of Nov 17, 2026)",
       "source": "soe-cf-polk"
      }
     ]
@@ -346,7 +352,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$8,795 in contributions, plus $3,100 in-kind (as of Nov 16, 2026)",
+      "value": "$8,795 in contributions, plus $3,100 in-kind (as of Nov 17, 2026)",
       "source": "soe-cf-polk"
      }
     ]

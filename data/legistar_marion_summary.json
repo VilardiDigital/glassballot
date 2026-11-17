@@ -1,29 +1,13 @@
 {
- "pulledAt": "2026-11-16T19:43:23Z",
+ "pulledAt": "2026-11-17T18:41:54Z",
  "totals": {
-  "meetings": 24,
+  "meetings": 25,
   "meetingsWithRollCalls": 22,
   "items": 378,
   "rollCalls": 370,
-  "splitRollCalls": 17
+  "splitRollCalls": 12
  },
  "stats": {
-  "bryant": {
-   "aye": 343,
-   "nay": 7,
-   "absent": 5,
-   "abstain": 1,
-   "meetingsHeld": 21,
-   "meetingsMissed": 0
-  },
-  "zalak": {
-   "aye": 336,
-   "nay": 6,
-   "absent": 1,
-   "abstain": 0,
-   "meetingsHeld": 20,
-   "meetingsMissed": 0
-  },
   "curry": {
    "aye": 353,
    "nay": 5,
@@ -51,56 +35,6 @@
  },
  "splitVotes": [
   {
-   "item": 203944,
-   "ev": 3566,
-   "date": "2026-10-20",
-   "file": "2026-24764",
-   "topic": "other",
-   "result": "Motion passed 4 to 1",
-   "yes": [
-    "curry",
-    "mcclain",
-    "stone",
-    "zalak"
-   ],
-   "no": [
-    "bryant"
-   ],
-   "mover": "stone",
-   "seconder": "mcclain",
-   "officialTitle": "Request Direction from the Board of County Commissioners Regarding the Implementation of the Approved 3% Pay Adjustment Approved in the FY 2026-27 Budget (Budget Impact - Neutral; as approved in the FY 2026-27 budget)",
-   "motion": "Motion by Commissioner Stone, second by Vice Chair McClain, to approve this agenda item. The motion carried by the following vote:",
-   "headline": "Request Direction from the Board of County Commissioners Regarding the Implementation of the Approved 3% Pay Adjustment ",
-   "inShort": null,
-   "needsReview": true,
-   "minutesNote": "Option 3"
-  },
-  {
-   "item": 200030,
-   "ev": 3552,
-   "date": "2026-09-15",
-   "file": "2026-24265",
-   "topic": "other",
-   "result": "Motion passed 4 to 1",
-   "yes": [
-    "curry",
-    "mcclain",
-    "stone",
-    "zalak"
-   ],
-   "no": [
-    "bryant"
-   ],
-   "mover": "mcclain",
-   "seconder": "curry",
-   "officialTitle": "PUBLIC HEARING to Consider an Ordinance to Impose a Temporary Moratorium on Acceptance, Review, or Approval of Applications for Development Permits, Development Orders, Rezoning, or Site Plans Related to Data Centers, Data Processing Facilities, Data Mining, or Cryptocurrency Mining Operations for a Period Up to 365 Days, Unless Extended or Terminated",
-   "motion": "Motion by Vice Chair McClain, second by Commissioner Curry, to approve agenda item 15.4.2. The motion carried 4 / 1.",
-   "headline": "PUBLIC HEARING to Consider an Ordinance to Impose a Temporary Moratorium on Acceptance, Review, or Approval of Applicati",
-   "inShort": null,
-   "needsReview": true,
-   "minutesNote": null
-  },
-  {
    "item": 198452,
    "ev": 3541,
    "date": "2026-08-18",
@@ -108,13 +42,11 @@
    "topic": "other",
    "result": "Motion passed 3 to 2",
    "yes": [
-    "bryant",
     "mcclain",
     "stone"
    ],
    "no": [
-    "curry",
-    "zalak"
+    "curry"
    ],
    "mover": "mcclain",
    "seconder": "stone",
@@ -133,10 +65,8 @@
    "topic": "other",
    "result": "Motion passed 4 to 1",
    "yes": [
-    "bryant",
     "curry",
-    "stone",
-    "zalak"
+    "stone"
    ],
    "no": [
     "mcclain"
@@ -158,9 +88,7 @@
    "topic": "other",
    "result": "Motion passed 3 to 2",
    "yes": [
-    "bryant",
-    "curry",
-    "zalak"
+    "curry"
    ],
    "no": [
     "mcclain",
@@ -183,11 +111,9 @@
    "topic": "other",
    "result": "Motion failed 2 to 3",
    "yes": [
-    "curry",
-    "zalak"
+    "curry"
    ],
    "no": [
-    "bryant",
     "mcclain",
     "stone"
    ],
@@ -201,56 +127,6 @@
    "minutesNote": "Commissioners approve 1 truck and trailer with using 1 driveway and close off the other driveway by McClain seconded by Bryant vote 3-2 at 2:53 pm\n\nMr. Riveria-against the 4 trucks"
   },
   {
-   "item": 191742,
-   "ev": 3472,
-   "date": "2026-06-16",
-   "file": "2026-23265",
-   "topic": "other",
-   "result": "Motion passed 4 to 1",
-   "yes": [
-    "curry",
-    "mcclain",
-    "stone",
-    "zalak"
-   ],
-   "no": [
-    "bryant"
-   ],
-   "mover": "stone",
-   "seconder": "curry",
-   "officialTitle": "260808ZP - Jax Road, LLC., Zoning Change from Planned Unit Development (PUD) to Planned Unit Development (PUD) for Amendment to a Previously Approved Conceptual Plan, 79.21 acres, Parcels 14973-000-00 and 14971-001-00, Site Address 5823 NE Jacksonville Road, Ocala, FL 34479",
-   "motion": "Motion by Commissioner Stone, second by Commissioner Curry, to approve agenda item 15.4.5. with conditions. The motion carried 4 / 1.",
-   "headline": "260808ZP - Jax Road, LLC., Zoning Change from Planned Unit Development (PUD) to Planned Unit Development (PUD) for Amend",
-   "inShort": null,
-   "needsReview": true,
-   "minutesNote": null
-  },
-  {
-   "item": 191766,
-   "ev": 3472,
-   "date": "2026-06-16",
-   "file": "2026-23294",
-   "topic": "other",
-   "result": "Motion passed 4 to 1",
-   "yes": [
-    "bryant",
-    "curry",
-    "mcclain",
-    "stone"
-   ],
-   "no": [
-    "zalak"
-   ],
-   "mover": "stone",
-   "seconder": "mcclain",
-   "officialTitle": "Request Approval of Waiver from Land Development Code Section 6.8.6.K(1) & (5) Related to Buffer Requirements for Melody Preserve Waiver STA-000807-2026 Kimley-Horn and Associates, Parcels 35300-000-15 and 35474-000-00",
-   "motion": "Motion by Commissioner Stone, second by Vice Chair McClain, to approve waiver agenda item 15.1.3. The motion carried 4 / 1.",
-   "headline": "Request Approval of Waiver from Land Development Code Section 6.8.6.K(1) & (5) Related to Buffer Requirements for Melody",
-   "inShort": null,
-   "needsReview": true,
-   "minutesNote": "Opaque fence versus vegetation buffer. Trees may or may not thrive in the location. Hedges or ornamental trees would be helpful. Fencing 1 foot off Liberty Village property is being proposed."
-  },
-  {
    "item": 191847,
    "ev": 3472,
    "date": "2026-06-16",
@@ -258,13 +134,11 @@
    "topic": "other",
    "result": "Motion passed 3 to 2",
    "yes": [
-    "bryant",
     "mcclain",
     "stone"
    ],
    "no": [
-    "curry",
-    "zalak"
+    "curry"
    ],
    "mover": "mcclain",
    "seconder": "stone",
@@ -284,11 +158,9 @@
    "result": "Motion passed 3 to 2",
    "yes": [
     "mcclain",
-    "stone",
-    "zalak"
+    "stone"
    ],
    "no": [
-    "bryant",
     "curry"
    ],
    "mover": "stone",
@@ -301,31 +173,6 @@
    "minutesNote": "Meeting went into Recess\n\nMeeting reconvened"
   },
   {
-   "item": 189612,
-   "ev": 3385,
-   "date": "2026-04-21",
-   "file": "2026-22591",
-   "topic": "other",
-   "result": "Motion passed 3 to 2",
-   "yes": [
-    "curry",
-    "mcclain",
-    "stone"
-   ],
-   "no": [
-    "bryant",
-    "zalak"
-   ],
-   "mover": "mcclain",
-   "seconder": "stone",
-   "officialTitle": "260401SU - Skyway Towers LLC on Behalf of Bess Pasture Hunt Club, Inc, Special Use Permit to Allow for a 185’ Lattice Telecommunication Tower Facility, in General Agriculture (A-1) Zone, 1.25 Acres, Parcel 4122-498-000, Site Address 7485 SW 160th Street, Dunnellon, FL, 34432",
-   "motion": "Motion by Vice Chair McClain, second by Commissioner Stone, to approve agenda item 15.3.2. The motion carried 3 / 2.",
-   "headline": "260401SU - Skyway Towers LLC on Behalf of Bess Pasture Hunt Club, Inc, Special Use Permit to Allow for a 185’ Lattice Te",
-   "inShort": null,
-   "needsReview": true,
-   "minutesNote": "Agenda item 15.3.2. was pulled for individual discussion."
-  },
-  {
    "item": 188140,
    "ev": 3383,
    "date": "2026-03-17",
@@ -333,13 +180,11 @@
    "topic": "other",
    "result": "Motion passed 3 to 2",
    "yes": [
-    "bryant",
     "curry",
     "mcclain"
    ],
    "no": [
-    "stone",
-    "zalak"
+    "stone"
    ],
    "mover": "bryant",
    "seconder": "mcclain",
@@ -359,14 +204,10 @@
    "result": "Motion passed 3 to 1",
    "yes": [
     "mcclain",
-    "stone",
-    "zalak"
+    "stone"
    ],
    "no": [
     "curry"
-   ],
-   "absent": [
-    "bryant"
    ],
    "mover": "mcclain",
    "seconder": "stone",
@@ -385,10 +226,8 @@
    "topic": "other",
    "result": "Motion passed 4 to 1",
    "yes": [
-    "bryant",
     "curry",
-    "stone",
-    "zalak"
+    "stone"
    ],
    "no": [
     "mcclain"
@@ -411,11 +250,9 @@
    "result": "Motion passed 3 to 2",
    "yes": [
     "curry",
-    "stone",
-    "zalak"
+    "stone"
    ],
    "no": [
-    "bryant",
     "mcclain"
    ],
    "mover": "curry",
@@ -435,10 +272,8 @@
    "topic": "other",
    "result": "Motion passed 4 to 1",
    "yes": [
-    "bryant",
     "curry",
-    "stone",
-    "zalak"
+    "stone"
    ],
    "no": [
     "mcclain"
@@ -460,13 +295,11 @@
    "topic": "other",
    "result": "Motion passed 3 to 2",
    "yes": [
-    "bryant",
     "mcclain",
     "stone"
    ],
    "no": [
-    "curry",
-    "zalak"
+    "curry"
    ],
    "mover": "bryant",
    "seconder": "stone",
@@ -502,6 +335,7 @@
   "3380": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3380&GUID=D11E9476-8314-42A0-9711-0C1273D05A94",
   "3379": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3379&GUID=FB6743AA-F708-4ACD-9220-EFBD6146DDF1",
   "3378": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3378&GUID=D38A4E1E-3C62-4905-BBC9-87C9328BB161",
-  "3579": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3579&GUID=2083F06E-841A-4015-9A01-5B022F0ACFCF"
+  "3579": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3579&GUID=2083F06E-841A-4015-9A01-5B022F0ACFCF",
+  "3580": "https://marionfl.legistar.com/MeetingDetail.aspx?ID=3580&GUID=8B17FDEF-78EF-49B3-A0B7-2E6871BDFE8B"
  }
 }

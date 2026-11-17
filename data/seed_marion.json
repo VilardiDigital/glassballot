@@ -18,58 +18,24 @@
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=marion&el=47",
    "publisher": "Marion County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-16"
+   "accessed": "2026-11-17"
   },
   "legistar": {
    "title": "Marion County Board of County Commissioners meeting records (Legistar)",
    "url": "https://marionfl.legistar.com/Calendar.aspx",
    "publisher": "Marion County Board of County Commissioners",
    "tier": 1,
-   "accessed": "2026-11-16"
+   "accessed": "2026-11-17"
   },
   "soe-cf-marion": {
    "title": "Marion Supervisor of Elections campaign finance reports, 2026 cycle",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=marion&el=47",
    "publisher": "Marion County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-16"
+   "accessed": "2026-11-17"
   }
  },
  "people": [
-  {
-   "id": "bryant",
-   "name": "Kathy Bryant",
-   "claims": {
-    "inOfficeSince": [
-     {
-      "value": "2019",
-      "source": "legistar"
-     }
-    ]
-   },
-   "office": "County Commissioner",
-   "status": "incumbent"
-  },
-  {
-   "id": "zalak",
-   "name": "Carl Zalak III",
-   "claims": {
-    "inOfficeSince": [
-     {
-      "value": "2019",
-      "source": "legistar"
-     }
-    ],
-    "leadership": [
-     {
-      "value": "Chairman",
-      "source": "legistar"
-     }
-    ]
-   },
-   "office": "County Commissioner",
-   "status": "incumbent"
-  },
   {
    "id": "curry",
    "name": "Craig Curry",
@@ -125,6 +91,78 @@
    "status": "incumbent"
   },
   {
+   "id": "crimi",
+   "name": "Mike Crimi",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2026",
+      "source": "legistar"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-marion"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$176,662.70 in contributions, plus $275.93 in-kind (as of Nov 17, 2026)",
+      "source": "soe-cf-marion"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "790",
+    "status": "Inactive - Elected"
+   }
+  },
+  {
+   "id": "bairstow",
+   "name": "Jeff Bairstow",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2026",
+      "source": "legistar"
+     }
+    ],
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-marion"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$42,367.34 in contributions, plus $7,732.23 in-kind (as of Nov 17, 2026)",
+      "source": "soe-cf-marion"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "789",
+    "status": "Active- Elected"
+   }
+  },
+  {
    "id": "cretul",
    "name": "Matt Cretul",
    "claims": {
@@ -140,7 +178,7 @@
     ],
     "raised": [
      {
-      "value": "$49,098.02 in contributions, plus $1,284.25 in-kind (as of Nov 16, 2026)",
+      "value": "$49,098.02 in contributions, plus $1,284.25 in-kind (as of Nov 17, 2026)",
       "source": "soe-cf-marion"
      }
     ]
@@ -152,36 +190,6 @@
    "finance": {
     "voterfocusId": "791",
     "status": "Inactive - Defeated"
-   }
-  },
-  {
-   "id": "crimi",
-   "name": "Mike Crimi",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     },
-     {
-      "value": "Republican",
-      "source": "soe-cf-marion"
-     }
-    ],
-    "raised": [
-     {
-      "value": "$176,662.70 in contributions, plus $275.93 in-kind (as of Nov 16, 2026)",
-      "source": "soe-cf-marion"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "2",
-   "race": "bcc-d2",
-   "finance": {
-    "voterfocusId": "790",
-    "status": "Inactive - Elected"
    }
   },
   {
@@ -200,7 +208,7 @@
     ],
     "raised": [
      {
-      "value": "$33,756.69 in contributions (as of Nov 16, 2026)",
+      "value": "$33,756.69 in contributions (as of Nov 17, 2026)",
       "source": "soe-cf-marion"
      }
     ]
@@ -230,7 +238,7 @@
     ],
     "raised": [
      {
-      "value": "$37,838.51 in contributions, plus $2,548.93 in-kind (as of Nov 16, 2026)",
+      "value": "$37,838.51 in contributions, plus $2,548.93 in-kind (as of Nov 17, 2026)",
       "source": "soe-cf-marion"
      }
     ]
@@ -242,36 +250,6 @@
    "finance": {
     "voterfocusId": "792",
     "status": "Active- Defeated"
-   }
-  },
-  {
-   "id": "bairstow",
-   "name": "Jeff Bairstow",
-   "claims": {
-    "party": [
-     {
-      "value": "Republican",
-      "source": "soe-vf"
-     },
-     {
-      "value": "Republican",
-      "source": "soe-cf-marion"
-     }
-    ],
-    "raised": [
-     {
-      "value": "$42,367.34 in contributions, plus $7,732.23 in-kind (as of Nov 16, 2026)",
-      "source": "soe-cf-marion"
-     }
-    ]
-   },
-   "office": "Candidate, County Commission",
-   "status": "open",
-   "district": "4",
-   "race": "bcc-d4",
-   "finance": {
-    "voterfocusId": "789",
-    "status": "Active- Elected"
    }
   },
   {
@@ -290,7 +268,7 @@
     ],
     "raised": [
      {
-      "value": "$48,235 in contributions, plus $2,485.62 in-kind (as of Nov 16, 2026)",
+      "value": "$48,235 in contributions, plus $2,485.62 in-kind (as of Nov 17, 2026)",
       "source": "soe-cf-marion"
      }
     ]
@@ -320,7 +298,7 @@
     ],
     "raised": [
      {
-      "value": "$114,816.90 in contributions, plus $362 in-kind (as of Nov 16, 2026)",
+      "value": "$114,816.90 in contributions, plus $362 in-kind (as of Nov 17, 2026)",
       "source": "soe-cf-marion"
      }
     ]
@@ -346,7 +324,7 @@
     ],
     "raised": [
      {
-      "value": "$0 in contributions (as of Nov 16, 2026)",
+      "value": "$0 in contributions (as of Nov 17, 2026)",
       "source": "soe-cf-marion"
      }
     ]
@@ -366,7 +344,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$17,794 in contributions, plus $500 in-kind (as of Nov 16, 2026)",
+      "value": "$17,794 in contributions, plus $500 in-kind (as of Nov 17, 2026)",
       "source": "soe-cf-marion"
      }
     ]
@@ -387,7 +365,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$5,149.30 in contributions (as of Nov 16, 2026)",
+      "value": "$5,149.30 in contributions (as of Nov 17, 2026)",
       "source": "soe-cf-marion"
      }
     ]
@@ -408,7 +386,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$14,897.03 in contributions (as of Nov 16, 2026)",
+      "value": "$14,897.03 in contributions (as of Nov 17, 2026)",
       "source": "soe-cf-marion"
      }
     ]
@@ -429,7 +407,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$33,725 in contributions, plus $448.19 in-kind (as of Nov 16, 2026)",
+      "value": "$33,725 in contributions, plus $448.19 in-kind (as of Nov 17, 2026)",
       "source": "soe-cf-marion"
      }
     ]
@@ -450,7 +428,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$25,828.47 in contributions, plus $1,093.77 in-kind (as of Nov 16, 2026)",
+      "value": "$25,828.47 in contributions, plus $1,093.77 in-kind (as of Nov 17, 2026)",
       "source": "soe-cf-marion"
      }
     ]
@@ -471,7 +449,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$5,312 in contributions (as of Nov 16, 2026)",
+      "value": "$5,312 in contributions (as of Nov 17, 2026)",
       "source": "soe-cf-marion"
      }
     ]
@@ -492,7 +470,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$17,760.32 in contributions (as of Nov 16, 2026)",
+      "value": "$17,760.32 in contributions (as of Nov 17, 2026)",
       "source": "soe-cf-marion"
      }
     ]
@@ -513,7 +491,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$5,784.32 in contributions (as of Nov 16, 2026)",
+      "value": "$5,784.32 in contributions (as of Nov 17, 2026)",
       "source": "soe-cf-marion"
      }
     ]
@@ -534,7 +512,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$57,931.71 in contributions, plus $4,500 in-kind (as of Nov 16, 2026)",
+      "value": "$57,931.71 in contributions, plus $4,500 in-kind (as of Nov 17, 2026)",
       "source": "soe-cf-marion"
      }
     ]
