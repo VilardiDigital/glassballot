@@ -18,38 +18,24 @@
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=desoto&el=6",
    "publisher": "DeSoto County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-17"
+   "accessed": "2026-11-18"
   },
   "legistar": {
    "title": "DeSoto County Board of County Commissioners meeting records (Legistar)",
    "url": "https://desotobocc.legistar.com/Calendar.aspx",
    "publisher": "DeSoto County Board of County Commissioners",
    "tier": 1,
-   "accessed": "2026-11-17"
+   "accessed": "2026-11-18"
   },
   "soe-cf-desoto": {
    "title": "Desoto Supervisor of Elections campaign finance reports, 2026 cycle",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=desoto&el=6",
    "publisher": "Desoto County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-17"
+   "accessed": "2026-11-18"
   }
  },
  "people": [
-  {
-   "id": "deriso",
-   "name": "JC Deriso",
-   "claims": {
-    "inOfficeSince": [
-     {
-      "value": "2020",
-      "source": "legistar"
-     }
-    ]
-   },
-   "office": "County Commissioner",
-   "status": "incumbent"
-  },
   {
    "id": "langford",
    "name": "Elton Langford",
@@ -72,7 +58,7 @@
     ],
     "raised": [
      {
-      "value": "$3,200 in contributions (as of Nov 17, 2026)",
+      "value": "$3,200 in contributions (as of Nov 18, 2026)",
       "source": "soe-cf-desoto"
      }
     ]
@@ -129,6 +115,20 @@
    "status": "incumbent"
   },
   {
+   "id": "johnson",
+   "name": "Jerald \"Buddy\" Johnson",
+   "claims": {
+    "inOfficeSince": [
+     {
+      "value": "2026",
+      "source": "legistar"
+     }
+    ]
+   },
+   "office": "County Commissioner",
+   "status": "incumbent"
+  },
+  {
    "id": "dixon",
    "name": "Lorenzo Dixon",
    "claims": {
@@ -140,7 +140,7 @@
     ],
     "raised": [
      {
-      "value": "$9,000 in contributions (as of Nov 17, 2026)",
+      "value": "$9,000 in contributions (as of Nov 18, 2026)",
       "source": "soe-cf-desoto"
      }
     ]
@@ -155,7 +155,7 @@
    }
   },
   {
-   "id": "johnson",
+   "id": "buddyjohnson",
    "name": "Buddy Johnson",
    "claims": {
     "party": [
@@ -170,7 +170,7 @@
     ],
     "raised": [
      {
-      "value": "$20,781.88 in contributions, plus $291.45 in-kind (as of Nov 17, 2026)",
+      "value": "$20,781.88 in contributions, plus $291.45 in-kind (as of Nov 18, 2026)",
       "source": "soe-cf-desoto"
      }
     ]
@@ -200,7 +200,7 @@
     ],
     "raised": [
      {
-      "value": "$8,100 in contributions (as of Nov 17, 2026)",
+      "value": "$8,400 in contributions (as of Nov 18, 2026)",
       "source": "soe-cf-desoto"
      }
     ]
@@ -220,7 +220,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$35 in contributions (as of Nov 17, 2026)",
+      "value": "$35 in contributions (as of Nov 18, 2026)",
       "source": "soe-cf-desoto"
      }
     ]
@@ -241,7 +241,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$1,425 in contributions (as of Nov 17, 2026)",
+      "value": "$1,425 in contributions (as of Nov 18, 2026)",
       "source": "soe-cf-desoto"
      }
     ]
@@ -262,7 +262,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$1,448.04 in contributions (as of Nov 17, 2026)",
+      "value": "$1,448.04 in contributions (as of Nov 18, 2026)",
       "source": "soe-cf-desoto"
      }
     ]
@@ -286,7 +286,7 @@
    "office": "Board of County Commissioners District 2",
    "people": [
     "dixon",
-    "johnson",
+    "buddyjohnson",
     "martin"
    ],
    "sources": [

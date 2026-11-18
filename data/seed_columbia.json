@@ -18,28 +18,28 @@
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=columbia&el=29",
    "publisher": "Columbia County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-17"
+   "accessed": "2026-11-18"
   },
   "soe-vf-2024": {
    "title": "Columbia County Supervisor of Elections: 2024 candidates",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=columbia&el=28",
    "publisher": "Columbia County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-17"
+   "accessed": "2026-11-18"
   },
   "soe-vf-2022": {
    "title": "Columbia County Supervisor of Elections: 2022 candidates",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=columbia&el=26",
    "publisher": "Columbia County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-17"
+   "accessed": "2026-11-18"
   },
   "soe-cf-columbia": {
    "title": "Columbia Supervisor of Elections campaign finance reports, 2026 cycle",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=columbia&el=29",
    "publisher": "Columbia County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-17"
+   "accessed": "2026-11-18"
   }
  },
  "people": [
@@ -103,7 +103,7 @@
     ],
     "raised": [
      {
-      "value": "$10,686 in contributions, plus $529.41 in-kind (as of Nov 17, 2026)",
+      "value": "$10,686 in contributions, plus $529.41 in-kind (as of Nov 18, 2026)",
       "source": "soe-cf-columbia"
      }
     ]
@@ -115,7 +115,7 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "1314",
-    "status": "Active- Runoff"
+    "status": "Active- Defeated"
    },
    "nonpartisan": false
   },
@@ -136,12 +136,33 @@
    "fromElections": true
   },
   {
+   "id": "dupree",
+   "name": "JODY DUPREE",
+   "claims": {
+    "raised": [
+     {
+      "value": "$9,099.34 in contributions (as of Nov 18, 2026)",
+      "source": "soe-cf-columbia"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "1316",
+    "status": "Inactive - Defeated"
+   },
+   "nonpartisan": false
+  },
+  {
    "id": "pittman",
    "name": "CLINT PITTMAN",
    "claims": {
     "raised": [
      {
-      "value": "$14,600 in contributions, plus $4,194 in-kind (as of Nov 17, 2026)",
+      "value": "$14,600 in contributions, plus $4,194 in-kind (as of Nov 18, 2026)",
       "source": "soe-cf-columbia"
      }
     ]
@@ -152,7 +173,7 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "1319",
-    "status": "Active- Runoff"
+    "status": "Active- Elected"
    },
    "nonpartisan": false
   },
@@ -162,7 +183,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$7,361.19 in contributions, plus $1,225.32 in-kind (as of Nov 17, 2026)",
+      "value": "$7,361.19 in contributions, plus $1,225.32 in-kind (as of Nov 18, 2026)",
       "source": "soe-cf-columbia"
      }
     ]
@@ -173,7 +194,49 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "1308",
-    "status": "Active- Runoff"
+    "status": "Active- Elected"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "keen",
+   "name": "GLENN KEEN",
+   "claims": {
+    "raised": [
+     {
+      "value": "$12,100 in contributions, plus $397.36 in-kind (as of Nov 18, 2026)",
+      "source": "soe-cf-columbia"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "1307",
+    "status": "Inactive - Defeated"
+   },
+   "nonpartisan": false
+  },
+  {
+   "id": "lane",
+   "name": "ROBERT LANE",
+   "claims": {
+    "raised": [
+     {
+      "value": "$5,100 in contributions, plus $1,415.63 in-kind (as of Nov 18, 2026)",
+      "source": "soe-cf-columbia"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "1312",
+    "status": "Inactive - Defeated"
    },
    "nonpartisan": false
   },
@@ -187,7 +250,7 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "1310",
-    "status": "Active- Runoff"
+    "status": "Active- Defeated"
    },
    "nonpartisan": false
   },
@@ -197,7 +260,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$3,251 in contributions, plus $186.32 in-kind (as of Nov 17, 2026)",
+      "value": "$3,251 in contributions, plus $186.32 in-kind (as of Nov 18, 2026)",
       "source": "soe-cf-columbia"
      }
     ]
@@ -218,7 +281,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$3,600 in contributions, plus $4,800 in-kind (as of Nov 17, 2026)",
+      "value": "$3,600 in contributions, plus $4,800 in-kind (as of Nov 18, 2026)",
       "source": "soe-cf-columbia"
      }
     ]
@@ -239,7 +302,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$10,000 in contributions, plus $25.05 in-kind (as of Nov 17, 2026)",
+      "value": "$10,000 in contributions, plus $25.05 in-kind (as of Nov 18, 2026)",
       "source": "soe-cf-columbia"
      }
     ]
@@ -260,7 +323,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$100 in contributions, plus $840.97 in-kind (as of Nov 17, 2026)",
+      "value": "$100 in contributions, plus $840.97 in-kind (as of Nov 18, 2026)",
       "source": "soe-cf-columbia"
      }
     ]
@@ -283,13 +346,15 @@
    "title": "County Commission, District 2",
    "office": "COUNTY COMMISSION DIST 2",
    "people": [
+    "dupree",
     "ford",
     "pittman"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "CLINT PITTMAN (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -298,12 +363,15 @@
    "office": "COUNTY COMMISSION DIST 4",
    "people": [
     "dicks",
+    "keen",
+    "lane",
     "everettphillips"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "CHRIS DICKS (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",

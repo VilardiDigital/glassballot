@@ -2,16 +2,56 @@
  "source": "Hernando County Legistar",
  "api": "https://webapi.legistar.com/v1/hernandocountyfl",
  "calendarUrl": "https://hernandocountyfl.legistar.com/Calendar.aspx",
- "pulledAt": "2026-11-17T18:40:45Z",
+ "pulledAt": "2026-11-18T18:17:31Z",
  "scope": "Nov 19, 2024",
  "totals": {
   "meetings": 79,
-  "meetingsWithRollCalls": 74,
-  "items": 1877,
-  "rollCalls": 1867,
-  "splitRollCalls": 78
+  "meetingsWithRollCalls": 75,
+  "items": 1890,
+  "rollCalls": 1880,
+  "splitRollCalls": 79
  },
  "stats": {
+  "amsler": {
+   "aye": 1808,
+   "nay": 31,
+   "absent": 41,
+   "abstain": 0,
+   "meetingsHeld": 75,
+   "meetingsMissed": 3
+  },
+  "champion": {
+   "aye": 1748,
+   "nay": 36,
+   "absent": 96,
+   "abstain": 0,
+   "meetingsHeld": 75,
+   "meetingsMissed": 5
+  },
+  "allocco": {
+   "aye": 1809,
+   "nay": 22,
+   "absent": 49,
+   "abstain": 0,
+   "meetingsHeld": 75,
+   "meetingsMissed": 1
+  },
+  "birren": {
+   "aye": 13,
+   "nay": 0,
+   "absent": 0,
+   "abstain": 0,
+   "meetingsHeld": 1,
+   "meetingsMissed": 0
+  },
+  "holcomb": {
+   "aye": 12,
+   "nay": 1,
+   "absent": 0,
+   "abstain": 0,
+   "meetingsHeld": 1,
+   "meetingsMissed": 0
+  },
   "campbell": {
    "aye": 1850,
    "nay": 15,
@@ -19,30 +59,6 @@
    "abstain": 0,
    "meetingsHeld": 74,
    "meetingsMissed": 0
-  },
-  "amsler": {
-   "aye": 1795,
-   "nay": 31,
-   "absent": 41,
-   "abstain": 0,
-   "meetingsHeld": 74,
-   "meetingsMissed": 3
-  },
-  "champion": {
-   "aye": 1735,
-   "nay": 36,
-   "absent": 96,
-   "abstain": 0,
-   "meetingsHeld": 74,
-   "meetingsMissed": 5
-  },
-  "allocco": {
-   "aye": 1796,
-   "nay": 22,
-   "absent": 49,
-   "abstain": 0,
-   "meetingsHeld": 74,
-   "meetingsMissed": 1
   },
   "mitten": {
    "aye": 177,
@@ -146,6 +162,31 @@
  },
  "matches": {},
  "splitVotes": [
+  {
+   "item": 75296,
+   "ev": 1497,
+   "date": "2026-11-17",
+   "file": "18185",
+   "topic": "other",
+   "result": "Motion passed 4 to 1",
+   "yes": [
+    "allocco",
+    "amsler",
+    "birren",
+    "champion"
+   ],
+   "no": [
+    "holcomb"
+   ],
+   "mover": "champion",
+   "seconder": "birren",
+   "officialTitle": "Appointment of Joseph Bennett to Waterways Advisory Committee Until December 31, 2030",
+   "motion": "To approve the staff recommendation.",
+   "headline": "Appointment of Joseph Bennett to Waterways Advisory Committee Until December 31, 2030",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
   {
    "item": 56921,
    "ev": 1491,

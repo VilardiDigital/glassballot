@@ -1,39 +1,105 @@
 {
- "pulledAt": "2026-11-17T18:41:54Z",
+ "pulledAt": "2026-11-18T18:22:10Z",
  "totals": {
   "meetings": 25,
-  "meetingsWithRollCalls": 22,
-  "items": 378,
-  "rollCalls": 370,
-  "splitRollCalls": 12
+  "meetingsWithRollCalls": 23,
+  "items": 401,
+  "rollCalls": 393,
+  "splitRollCalls": 14
  },
  "stats": {
+  "crimi": {
+   "aye": 22,
+   "nay": 1,
+   "absent": 0,
+   "abstain": 0,
+   "meetingsHeld": 1,
+   "meetingsMissed": 0
+  },
+  "bairstow": {
+   "aye": 22,
+   "nay": 1,
+   "absent": 0,
+   "abstain": 0,
+   "meetingsHeld": 1,
+   "meetingsMissed": 0
+  },
   "curry": {
-   "aye": 353,
-   "nay": 5,
+   "aye": 375,
+   "nay": 6,
    "absent": 2,
    "abstain": 0,
-   "meetingsHeld": 22,
+   "meetingsHeld": 23,
    "meetingsMissed": 1
   },
   "stone": {
-   "aye": 362,
-   "nay": 3,
+   "aye": 384,
+   "nay": 4,
    "absent": 5,
    "abstain": 0,
-   "meetingsHeld": 22,
+   "meetingsHeld": 23,
    "meetingsMissed": 0
   },
   "mcclain": {
-   "aye": 363,
-   "nay": 6,
+   "aye": 385,
+   "nay": 7,
    "absent": 1,
    "abstain": 0,
-   "meetingsHeld": 22,
+   "meetingsHeld": 23,
    "meetingsMissed": 0
   }
  },
  "splitVotes": [
+  {
+   "item": 205707,
+   "ev": 3580,
+   "date": "2026-11-17",
+   "file": "2026-24898",
+   "topic": "other",
+   "result": "Motion failed 2 to 3",
+   "yes": [
+    "curry",
+    "stone"
+   ],
+   "no": [
+    "bairstow",
+    "crimi",
+    "mcclain"
+   ],
+   "mover": "stone",
+   "seconder": "curry",
+   "officialTitle": "261005SU - Douglas Ray Marcum, Special Use Permit (PL SUP-001054-2026), to Allow for a Private Outdoor Shooting Range, in a General Agriculture (A-1) Zone, 10.00 Acres, Parcel 14433-000-00, Site Address 3805 NE 77th Street, Ocala, FL 34479",
+   "motion": "Motion by Commissioner Stone, second by Vice Chair Curry, to deny agenda item 15.4.4.  The motion failed 2 / 3.",
+   "headline": "261005SU - Douglas Ray Marcum, Special Use Permit (PL SUP-001054-2026), to Allow for a Private Outdoor Shooting Range, i",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Mr. Minter administered the oath to those who were not here at the beginning of the meeting. \n\nDavid Tillman-the Applicant spoke about the shooting range that already exists today. Today is to monetize the shooting range with conditions. Mr. Tillman reviewed the issues regarding noise impacts and environmental factors. The plan is to do the earth and berm process and recycle the fragments. Discussion was held on having a professional sound study being completed. The number of members was discussed, the plan is not to cap the memberships at a certain number, but there could possibly be 150 members. DIRECTION TO STAFF: The number of people allowed on site will be limited to the number of bays available. A site specific safety plan in writing shall be completed and an independent noise impact study was discussed. Regarding alcohol, if someone has been drinking they will not be allowed on the range. Mr. Tillman would install signs stating there is a shooting range ahead and horse riders could take the bypass trail. \n\nBernard Little-represents Horse Farms Forever and is a user of Indian Lake State Park. He opposes the applicant's request. \n\nTim Kirby-supports the gun club.\n\nBrian McClellan-supports the gun club. \n\nPatrick Conway-supports the gun club. \n\nVan Akin-supports the gun club.\n\nWayne Hunter-supports the gun club. He is the 2nd closest resident. Has some concerns about alcohol being on the property and the late night shooting times.\n\nPaul Madiedo-supports the gun club. \n\nSusan Henry-supports the gun club.\n\nJay Abramson-supports the gun club.\n\nPatrick Hickson-supports the gun club.\n\nAlex Arredendo-supports the gun club.\n\nLandon Meahl-supports the gun club.\n\nJimmy Ho-supports the gun club.\n\nChance Monroe-supports the gun club. \n\nDavid Alexander-supports the gun club.\n\nJordan Newman-supports the gun club.\n\nBrian Shey-supports the gun club.\n\nJohn Terrell-supports the gun club.\n\nTodd Overcash-supports the gun club.\n\nEric Rodriguez-supports the gun club. \n\nJuan Bernal-supports the gun club.\n\nDon Schlonski-supports the gun club.\n\nJon Rising-supports the gun club.\n\nRichard Ashby-supports the gun club.\n\nDakota Howell-wanted to give testimony to how close he lives to the Ocala Gun Club and doesn't hear any noise/very comfortable. \n\nRandall Albert-opposes the gun club due to the noise. It is a great idea but in the wrong place. \n\nBusy Shires-opposes the gun club due to the location. \n\nHoward Marbury-supports the gun club. \n\nSuzanne Rogers-trail rider at Indian Lake State Park and opposes the gun club. Read letter from Nancy \n\nShannon Buttner-opposes the gun club. Would like to see a time restraint put in. \n\nWilliam Preston-opposes the gun club due to the noise. \n\nKendall Tucker-supports the gun club.\n\nMitchell Tucker-supports the gun club.\n\nJanice Cubbage-opposes the gun club. \n\nDaniel Barkelar-supports the gun club.\n\nTyler Martinez-supports the gun club. \n\nAlex Belloni-supports the gun club. \n\nMathew Beard-supports the gun club.\n\nMaria Wise-opposes the gun club due to stressing out horses and wildlife and the location.\n\nHarietta Finley-opposes the gun club. \n\nMichael Alvarez-supports the gun club. \n\nLee Dempsey-supports the gun club.\n\nEmpress Louis-opposes the gun club because of the location.\n\nCharles Stout-concerns with location near the horse trails. He suggests putting a limit on the type of guns that can be used. \n\nLori White-supports the gun club.\n\nHenry Marcum-supports the gun club.\n\nJustin Shugs-supports the gun club.\n\nLarry Kilbur-he is a horse owner and being only 3/4 of a mile from the gun club, his horses do not get spooked. \n\nMichelle Shall-trail rider and does not support the gun club. \n\nLance Parrish-supports the gun club. \n\nJimmy Lorenzo-supports the gun club. \n\nJordan Klein-supports the gun club.\n\nSandra Fernandez-conditions are on page 6 section B, not page 7. Does not support the gun club due to the equestrian trails nearby.\n\nKenneth Tidwell-supports the gun club. \n\nTom Conrad-opposes the gun club.\n\nSky Lewis-supports the gun club.\n\nKathy Bryant-opposes the gun club due to the location and the adjoining property owners living so close by. \n\nRecess until 6:32 p.m.\n\nReconvened at 6:34 p.m.\n\nDavid Tillman-the gun club and the horses/animals can coexist. He summarized the testimony today. There will not be another location for a member gun club that is already surrounded by clay/sand and is pretty much underground. \n\nRobin Hough-stated Code Enforcement does not respond to gunfire, the Sheriff's Office does. A 5-minute LEQ study must be done when Code Enforcement responds and then follow the table of decibels to see if is an offense. \n\nDIRECTION TO STAFF: Conditions: Hours will be from 8 a.m. to dusk or 8 p.m. For the night time shooting, the hours will end at 10:30 p.m. once a month with not two (2) consecutive nights with a minimum of seven (7) days separation (end and beginning of the next month). A sign posted on 326 alerting night shoot will be posted. The entire roadway will be a have a minimum stabilization requirement. The County Engineer always recommends asphalt roadway being constructed. Limerock will accommodate the easement for stabilization and will be designed to hold the weight accordingly. A background liner will be installed that follows DEP best management practices. There will be a shooting house over every area where there is shooting, with no other shooting other than shooting houses, a lift with a turn down side wall, with the SUP the Applicant must submit a best management practices/safety protocol with a time of the SUP being good for 3 years with 5 year renewals. Motion Bairstow/Curry at 7:17 pm with conditions. Opposed Stone/Curry motion passes at 7:18 pm motion passes 3-2.\n\nRecess at 7:19 pm\n\nReconvened at 7:24 pm"
+  },
+  {
+   "item": 205936,
+   "ev": 3580,
+   "date": "2026-11-17",
+   "file": "2026-24898",
+   "topic": "other",
+   "result": "Motion passed 3 to 2",
+   "yes": [
+    "bairstow",
+    "crimi",
+    "mcclain"
+   ],
+   "no": [
+    "curry",
+    "stone"
+   ],
+   "mover": "bairstow",
+   "seconder": "crimi",
+   "officialTitle": "261005SU - Douglas Ray Marcum, Special Use Permit (PL SUP-001054-2026), to Allow for a Private Outdoor Shooting Range, in a General Agriculture (A-1) Zone, 10.00 Acres, Parcel 14433-000-00, Site Address 3805 NE 77th Street, Ocala, FL 34479",
+   "motion": "Motion by Commissioner Bairstow, second by Commissioner Crimi, to approve agenda item 15.4.4. The motion carried 5 / 0.",
+   "headline": "261005SU - Douglas Ray Marcum, Special Use Permit (PL SUP-001054-2026), to Allow for a Private Outdoor Shooting Range, i",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
   {
    "item": 198452,
    "ev": 3541,

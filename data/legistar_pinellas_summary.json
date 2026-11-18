@@ -1,62 +1,70 @@
 {
  "source": "legistar",
  "api": "https://webapi.legistar.com/v1/pinellas",
- "pulledAt": "2026-11-17T18:38:54Z",
+ "pulledAt": "2026-11-18T18:11:50Z",
  "scope": "Board of County Commissioners regular and special meetings, Nov 19, 2024 to Oct 22, 2026 (the current seven members)",
  "totals": {
   "meetings": 47,
-  "meetingsWithRollCalls": 38,
-  "items": 1383,
-  "rollCalls": 1303,
-  "splitRollCalls": 38
+  "meetingsWithRollCalls": 39,
+  "items": 1432,
+  "rollCalls": 1352,
+  "splitRollCalls": 41
  },
  "stats": {
   "eggers": {
-   "aye": 1244,
-   "nay": 5,
-   "absent": 54,
+   "aye": 1285,
+   "nay": 6,
+   "absent": 61,
    "abstain": 0,
-   "meetingsHeld": 38,
+   "meetingsHeld": 39,
    "meetingsMissed": 1
   },
   "latvala": {
-   "aye": 1153,
-   "nay": 8,
-   "absent": 142,
+   "aye": 1200,
+   "nay": 9,
+   "absent": 143,
    "abstain": 0,
-   "meetingsHeld": 38,
+   "meetingsHeld": 39,
    "meetingsMissed": 3
   },
   "flowers": {
-   "aye": 1235,
-   "nay": 8,
+   "aye": 1283,
+   "nay": 9,
    "absent": 59,
    "abstain": 1,
-   "meetingsHeld": 38,
+   "meetingsHeld": 39,
    "meetingsMissed": 1
   },
+  "hughes": {
+   "aye": 48,
+   "nay": 1,
+   "absent": 0,
+   "abstain": 0,
+   "meetingsHeld": 1,
+   "meetingsMissed": 0
+  },
   "nowicki": {
-   "aye": 1267,
-   "nay": 21,
+   "aye": 1314,
+   "nay": 23,
    "absent": 15,
    "abstain": 0,
-   "meetingsHeld": 38,
+   "meetingsHeld": 39,
    "meetingsMissed": 0
   },
   "peters": {
-   "aye": 1065,
-   "nay": 3,
+   "aye": 1113,
+   "nay": 4,
    "absent": 235,
    "abstain": 0,
-   "meetingsHeld": 38,
+   "meetingsHeld": 39,
    "meetingsMissed": 3
   },
   "scherer": {
-   "aye": 1245,
-   "nay": 12,
+   "aye": 1292,
+   "nay": 14,
    "absent": 46,
    "abstain": 0,
-   "meetingsHeld": 38,
+   "meetingsHeld": 39,
    "meetingsMissed": 1
   },
   "scott": {
@@ -239,6 +247,87 @@
   }
  },
  "splitVotes": [
+  {
+   "item": 97946,
+   "ev": 10165,
+   "date": "2026-11-17",
+   "file": "26-1709A",
+   "topic": "other",
+   "result": "Motion passed 4 to 3",
+   "yes": [
+    "eggers",
+    "flowers",
+    "hughes",
+    "peters"
+   ],
+   "no": [
+    "latvala",
+    "nowicki",
+    "scherer"
+   ],
+   "mover": "peters",
+   "seconder": "flowers",
+   "officialTitle": "Change Order No. 4 with QRC Inc. for Fiscal Years 2024-2026 annual water and reclaimed water repairs and extensions work order contract.",
+   "motion": "A motion was made by Commissioner Peters, seconded by Commissioner Flowers, that the item be approved. The motion carried by the following vote:",
+   "headline": "Change Order No. 4 with QRC Inc. for Fiscal Years 2024-2026 annual water and reclaimed water repairs and extensions work",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 98002,
+   "ev": 10165,
+   "date": "2026-11-17",
+   "file": "26-1819A",
+   "topic": "other",
+   "result": "Motion passed 5 to 2",
+   "yes": [
+    "eggers",
+    "flowers",
+    "hughes",
+    "latvala",
+    "peters"
+   ],
+   "no": [
+    "nowicki",
+    "scherer"
+   ],
+   "mover": "peters",
+   "seconder": "flowers",
+   "officialTitle": "Award of contract to Southern Road & Bridge LLC for the marine construction work order contract.",
+   "motion": "A motion was made by Commissioner Peters, seconded by Commissioner Flowers, that the item be approved. The motion carried by the following vote:",
+   "headline": "Award of contract to Southern Road & Bridge LLC for the marine construction work order contract.",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": null
+  },
+  {
+   "item": 98382,
+   "ev": 10165,
+   "date": "2026-11-17",
+   "file": "26-1519A",
+   "topic": "other",
+   "result": "Motion failed 3 to 4",
+   "yes": [
+    "latvala",
+    "nowicki",
+    "scherer"
+   ],
+   "no": [
+    "eggers",
+    "flowers",
+    "hughes",
+    "peters"
+   ],
+   "mover": "nowicki",
+   "seconder": "latvala",
+   "officialTitle": "2027 Chair and Vice Chair selections.",
+   "motion": "A motion was made by Commissioner Nowicki, seconded by Vice-Chair Latvala, that the item be approved. The motion failed by the following vote:",
+   "headline": "2027 Chair and Vice Chair selections.",
+   "inShort": null,
+   "needsReview": true,
+   "minutesNote": "Appointment of Commissioner Scherer to serve as the 2027 Vice-Chair."
+  },
   {
    "item": 97655,
    "ev": 10153,
