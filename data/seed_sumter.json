@@ -18,28 +18,28 @@
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sumter&el=26",
    "publisher": "Sumter County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-18"
+   "accessed": "2026-11-19"
   },
   "soe-vf-2024": {
    "title": "Sumter County Supervisor of Elections: 2024 candidates",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sumter&el=25",
    "publisher": "Sumter County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-18"
+   "accessed": "2026-11-19"
   },
   "soe-vf-2022": {
    "title": "Sumter County Supervisor of Elections: 2022 candidates",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sumter&el=24",
    "publisher": "Sumter County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-18"
+   "accessed": "2026-11-19"
   },
   "soe-cf-sumter": {
    "title": "Sumter Supervisor of Elections campaign finance reports, 2026 cycle",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sumter&el=26",
    "publisher": "Sumter County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-18"
+   "accessed": "2026-11-19"
   }
  },
  "people": [
@@ -170,7 +170,7 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "554",
-    "status": "Active- Elected"
+    "status": "Inactive - Elected"
    }
   },
   {
@@ -189,7 +189,7 @@
     ],
     "raised": [
      {
-      "value": "$57,660.41 in contributions, plus $200 in-kind (as of Nov 18, 2026)",
+      "value": "$57,660.41 in contributions, plus $200 in-kind (as of Nov 19, 2026)",
       "source": "soe-cf-sumter"
      }
     ]
@@ -200,7 +200,7 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "556",
-    "status": "Active- Elected"
+    "status": "Inactive - Elected"
    }
   },
   {
@@ -219,7 +219,7 @@
     ],
     "raised": [
      {
-      "value": "$6,165.51 in contributions, plus $218.30 in-kind (as of Nov 18, 2026)",
+      "value": "$6,165.51 in contributions, plus $218.30 in-kind (as of Nov 19, 2026)",
       "source": "soe-cf-sumter"
      }
     ]
@@ -230,7 +230,7 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "557",
-    "status": "Active- Defeated"
+    "status": "Inactive - Defeated"
    }
   },
   {
@@ -239,7 +239,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$2,600 in contributions (as of Nov 18, 2026)",
+      "value": "$2,600 in contributions (as of Nov 19, 2026)",
       "source": "soe-cf-sumter"
      }
     ]
@@ -250,7 +250,7 @@
    "race": "sb-d1",
    "finance": {
     "voterfocusId": "563",
-    "status": "Active- Elected"
+    "status": "Inactive - Elected"
    },
    "nonpartisan": true
   },
@@ -260,7 +260,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$2,000 in contributions (as of Nov 18, 2026)",
+      "value": "$2,000 in contributions (as of Nov 19, 2026)",
       "source": "soe-cf-sumter"
      }
     ]
@@ -271,7 +271,7 @@
    "race": "sb-d1",
    "finance": {
     "voterfocusId": "569",
-    "status": "Active- Defeated"
+    "status": "Inactive - Defeated"
    },
    "nonpartisan": true
   },
@@ -281,7 +281,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$6,245.70 in contributions, plus $45 in-kind (as of Nov 18, 2026)",
+      "value": "$6,245.70 in contributions, plus $45 in-kind (as of Nov 19, 2026)",
       "source": "soe-cf-sumter"
      }
     ]
@@ -292,7 +292,7 @@
    "race": "sb-d3",
    "finance": {
     "voterfocusId": "595",
-    "status": "Active- Defeated"
+    "status": "Inactive - Defeated"
    },
    "nonpartisan": true
   },
@@ -302,7 +302,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$2,050 in contributions (as of Nov 18, 2026)",
+      "value": "$2,050 in contributions (as of Nov 19, 2026)",
       "source": "soe-cf-sumter"
      }
     ]
@@ -313,7 +313,7 @@
    "race": "sb-d3",
    "finance": {
     "voterfocusId": "562",
-    "status": "Active- Elected"
+    "status": "Inactive - Elected"
    },
    "nonpartisan": true
   },
@@ -323,7 +323,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$17,500 in contributions (as of Nov 18, 2026)",
+      "value": "$17,500 in contributions (as of Nov 19, 2026)",
       "source": "soe-cf-sumter"
      }
     ]
@@ -334,7 +334,7 @@
    "race": "sb-d5",
    "finance": {
     "voterfocusId": "632",
-    "status": "Active- Elected"
+    "status": "Inactive - Elected"
    },
    "nonpartisan": true
   },
@@ -344,7 +344,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$3,400 in contributions, plus $300 in-kind (as of Nov 18, 2026)",
+      "value": "$3,400 in contributions, plus $300 in-kind (as of Nov 19, 2026)",
       "source": "soe-cf-sumter"
      }
     ]

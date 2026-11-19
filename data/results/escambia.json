@@ -1,0 +1,49 @@
+{
+ "county": "escambia",
+ "url": "https://enr.electionsfl.org/ESC/4133/Summary/",
+ "pulledAt": "2026-11-19T18:18:04Z",
+ "status": "unofficial",
+ "updated": null,
+ "races": [
+  {
+   "office": "County Commissioner District 4",
+   "reported": 19,
+   "precincts": 19,
+   "candidates": [
+    {
+     "name": "Ashlee Hofberger",
+     "party": "REP",
+     "pct": 49.96,
+     "votes": 13068
+    },
+    {
+     "name": "Joe Vinson",
+     "party": "NPA",
+     "pct": 50.04,
+     "votes": 13087
+    }
+   ]
+  }
+ ],
+ "all": [
+  {
+   "office": "County Commissioner District 4",
+   "reported": 19,
+   "precincts": 19,
+   "candidates": [
+    {
+     "name": "Ashlee Hofberger",
+     "party": "REP",
+     "pct": 49.96,
+     "votes": 13068
+    },
+    {
+     "name": "Joe Vinson",
+     "party": "NPA",
+     "pct": 50.04,
+     "votes": 13087
+    }
+   ]
+  }
+ ]
+}

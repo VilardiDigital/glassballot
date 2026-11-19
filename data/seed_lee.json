@@ -18,28 +18,28 @@
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=lee&el=34",
    "publisher": "Lee County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-18"
+   "accessed": "2026-11-19"
   },
   "soe-vf-2024": {
    "title": "Lee County Supervisor of Elections: 2024 candidates",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=lee&el=28",
    "publisher": "Lee County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-18"
+   "accessed": "2026-11-19"
   },
   "soe-vf-2022": {
    "title": "Lee County Supervisor of Elections: 2022 candidates",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=lee&el=27",
    "publisher": "Lee County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-18"
+   "accessed": "2026-11-19"
   },
   "soe-cf-lee": {
    "title": "Lee Supervisor of Elections campaign finance reports, 2026 cycle",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=lee&el=34",
    "publisher": "Lee County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-18"
+   "accessed": "2026-11-19"
   }
  },
  "people": [
@@ -153,7 +153,7 @@
     ],
     "raised": [
      {
-      "value": "$128,849 in contributions, plus $950 in-kind (as of Nov 18, 2026)",
+      "value": "$128,849 in contributions, plus $950 in-kind (as of Nov 19, 2026)",
       "source": "soe-cf-lee"
      }
     ]
@@ -185,7 +185,7 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "2235",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    }
   },
   {
@@ -204,7 +204,7 @@
     ],
     "raised": [
      {
-      "value": "$32,454.10 in contributions (as of Nov 18, 2026)",
+      "value": "$32,454.10 in contributions (as of Nov 19, 2026)",
       "source": "soe-cf-lee"
      }
     ]
@@ -215,7 +215,7 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "2397",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
    }
   },
   {
@@ -230,7 +230,7 @@
     ],
     "raised": [
      {
-      "value": "$12,030.63 in contributions, plus $130 in-kind (as of Nov 18, 2026)",
+      "value": "$12,030.63 in contributions, plus $130 in-kind (as of Nov 19, 2026)",
       "source": "soe-cf-lee"
      }
     ]
@@ -241,7 +241,7 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "2413",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
    }
   },
   {
@@ -260,7 +260,7 @@
     ],
     "raised": [
      {
-      "value": "$205,070.99 in contributions, plus $5,900 in-kind (as of Nov 18, 2026)",
+      "value": "$205,070.99 in contributions, plus $5,900 in-kind (as of Nov 19, 2026)",
       "source": "soe-cf-lee"
      }
     ]
@@ -290,7 +290,7 @@
     ],
     "raised": [
      {
-      "value": "$326,010 in contributions, plus $1,836.13 in-kind (as of Nov 18, 2026)",
+      "value": "$326,010 in contributions, plus $1,836.13 in-kind (as of Nov 19, 2026)",
       "source": "soe-cf-lee"
      }
     ]
@@ -310,7 +310,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$70,570 in contributions, plus $887 in-kind (as of Nov 18, 2026)",
+      "value": "$70,570 in contributions, plus $887 in-kind (as of Nov 19, 2026)",
       "source": "soe-cf-lee"
      }
     ]
@@ -331,7 +331,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$12,549.14 in contributions, plus $716.23 in-kind (as of Nov 18, 2026)",
+      "value": "$12,549.14 in contributions, plus $716.23 in-kind (as of Nov 19, 2026)",
       "source": "soe-cf-lee"
      }
     ]
@@ -347,12 +347,33 @@
    "nonpartisan": true
   },
   {
+   "id": "baxter",
+   "name": "Carl Baxter",
+   "claims": {
+    "raised": [
+     {
+      "value": "$3,043.06 in contributions (as of Nov 19, 2026)",
+      "source": "soe-cf-lee"
+     }
+    ]
+   },
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "4",
+   "race": "sb-d4",
+   "finance": {
+    "voterfocusId": "2208",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
    "id": "beougher",
    "name": "Tony Beougher",
    "claims": {
     "raised": [
      {
-      "value": "$101,910 in contributions, plus $1,002.50 in-kind (as of Nov 18, 2026)",
+      "value": "$101,910 in contributions, plus $1,002.50 in-kind (as of Nov 19, 2026)",
       "source": "soe-cf-lee"
      }
     ]
@@ -363,7 +384,28 @@
    "race": "sb-d4",
    "finance": {
     "voterfocusId": "2216",
-    "status": "Active- Qualified"
+    "status": "Inactive - Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "gentile",
+   "name": "Gisele \"Gigi\" Gentile",
+   "claims": {
+    "raised": [
+     {
+      "value": "$10,522.59 in contributions, plus $203.69 in-kind (as of Nov 19, 2026)",
+      "source": "soe-cf-lee"
+     }
+    ]
+   },
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "4",
+   "race": "sb-d4",
+   "finance": {
+    "voterfocusId": "2231",
+    "status": "Inactive - Defeated"
    },
    "nonpartisan": true
   },
@@ -373,7 +415,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$41,371.20 in contributions, plus $3,767.99 in-kind (as of Nov 18, 2026)",
+      "value": "$41,371.20 in contributions, plus $3,767.99 in-kind (as of Nov 19, 2026)",
       "source": "soe-cf-lee"
      }
     ]
@@ -384,7 +426,7 @@
    "race": "sb-d4",
    "finance": {
     "voterfocusId": "2207",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    },
    "nonpartisan": true
   },
@@ -394,7 +436,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$3,975.41 in contributions (as of Nov 18, 2026)",
+      "value": "$3,975.41 in contributions (as of Nov 19, 2026)",
       "source": "soe-cf-lee"
      }
     ]
@@ -405,7 +447,7 @@
    "race": "sb-d5",
    "finance": {
     "voterfocusId": "2239",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    },
    "nonpartisan": true
   },
@@ -415,7 +457,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$79,004 in contributions (as of Nov 18, 2026)",
+      "value": "$79,004 in contributions (as of Nov 19, 2026)",
       "source": "soe-cf-lee"
      }
     ]
@@ -426,7 +468,28 @@
    "race": "sb-d5",
    "finance": {
     "voterfocusId": "2204",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "saintilus",
+   "name": "Carline Saintilus",
+   "claims": {
+    "raised": [
+     {
+      "value": "$26,170.14 in contributions, plus $1,425 in-kind (as of Nov 19, 2026)",
+      "source": "soe-cf-lee"
+     }
+    ]
+   },
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "5",
+   "race": "sb-d5",
+   "finance": {
+    "voterfocusId": "2218",
+    "status": "Active- Defeated"
    },
    "nonpartisan": true
   },
@@ -436,7 +499,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$84,120 in contributions, plus $500 in-kind (as of Nov 18, 2026)",
+      "value": "$84,120 in contributions, plus $500 in-kind (as of Nov 19, 2026)",
       "source": "soe-cf-lee"
      }
     ]
@@ -457,7 +520,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$48,351.94 in contributions, plus $3,019.91 in-kind (as of Nov 18, 2026)",
+      "value": "$48,351.94 in contributions, plus $3,019.91 in-kind (as of Nov 19, 2026)",
       "source": "soe-cf-lee"
      }
     ]
@@ -486,7 +549,8 @@
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Cecil L Pendergrass (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -539,13 +603,16 @@
    "title": "School Board, District 4",
    "office": "SCHOOL BOARD-4",
    "people": [
+    "baxter",
     "beougher",
+    "gentile",
     "jordan"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Debbie Jordan (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -554,12 +621,14 @@
    "office": "SCHOOL BOARD-5",
    "people": [
     "johnson",
-    "persons"
+    "persons",
+    "saintilus"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Crystal Johnson (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",

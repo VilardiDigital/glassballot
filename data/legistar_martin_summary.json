@@ -1,21 +1,13 @@
 {
- "pulledAt": "2026-11-18T18:23:26Z",
+ "pulledAt": "2026-11-19T18:23:59Z",
  "totals": {
   "meetings": 25,
   "meetingsWithRollCalls": 21,
   "items": 370,
   "rollCalls": 345,
-  "splitRollCalls": 80
+  "splitRollCalls": 79
  },
  "stats": {
-  "hetherington": {
-   "aye": 331,
-   "nay": 6,
-   "absent": 2,
-   "abstain": 1,
-   "meetingsHeld": 21,
-   "meetingsMissed": 1
-  },
   "vargas": {
    "aye": 275,
    "nay": 69,
@@ -60,8 +52,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -84,8 +75,7 @@
    "result": "Motion passed 3 to 2",
    "yes": [
     "capps",
-    "ciampi",
-    "hetherington"
+    "ciampi"
    ],
    "no": [
     "heard",
@@ -113,8 +103,7 @@
     "vargas"
    ],
    "no": [
-    "ciampi",
-    "hetherington"
+    "ciampi"
    ],
    "mover": "capps",
    "seconder": "vargas",
@@ -134,8 +123,7 @@
    "result": "Motion passed 3 to 2",
    "yes": [
     "capps",
-    "ciampi",
-    "hetherington"
+    "ciampi"
    ],
    "no": [
     "heard",
@@ -159,8 +147,7 @@
    "result": "Motion passed 3 to 2",
    "yes": [
     "capps",
-    "ciampi",
-    "hetherington"
+    "ciampi"
    ],
    "no": [
     "heard",
@@ -184,8 +171,7 @@
    "result": "Motion passed 3 to 2",
    "yes": [
     "capps",
-    "ciampi",
-    "hetherington"
+    "ciampi"
    ],
    "no": [
     "heard",
@@ -210,8 +196,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -235,8 +220,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -260,8 +244,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -283,8 +266,7 @@
    "topic": "other",
    "result": "Motion failed 2 to 3",
    "yes": [
-    "ciampi",
-    "hetherington"
+    "ciampi"
    ],
    "no": [
     "capps",
@@ -308,8 +290,7 @@
    "topic": "other",
    "result": "Motion failed 2 to 3",
    "yes": [
-    "ciampi",
-    "hetherington"
+    "ciampi"
    ],
    "no": [
     "capps",
@@ -338,8 +319,7 @@
     "vargas"
    ],
    "no": [
-    "ciampi",
-    "hetherington"
+    "ciampi"
    ],
    "mover": null,
    "seconder": null,
@@ -360,8 +340,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -385,8 +364,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -410,8 +388,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -435,8 +412,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -460,8 +436,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -485,8 +460,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -510,8 +484,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -535,8 +508,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -560,8 +532,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -585,8 +556,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -610,8 +580,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -635,8 +604,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -660,8 +628,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -685,8 +652,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -710,8 +676,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -735,8 +700,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -760,8 +724,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -785,8 +748,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -810,8 +772,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -835,8 +796,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -860,8 +820,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -885,8 +844,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -910,8 +868,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -935,8 +892,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -960,8 +916,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -985,8 +940,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1010,8 +964,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1033,8 +986,7 @@
    "topic": "other",
    "result": "Motion failed 2 to 3",
    "yes": [
-    "ciampi",
-    "hetherington"
+    "ciampi"
    ],
    "no": [
     "capps",
@@ -1060,8 +1012,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1085,8 +1036,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1110,8 +1060,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1135,8 +1084,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1160,8 +1108,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1185,8 +1132,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1210,8 +1156,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1235,8 +1180,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1260,8 +1204,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1285,8 +1228,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1310,8 +1252,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1335,8 +1276,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1360,8 +1300,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1385,8 +1324,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1410,8 +1348,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1435,8 +1372,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1463,7 +1399,6 @@
    ],
    "no": [
     "ciampi",
-    "hetherington",
     "vargas"
    ],
    "mover": null,
@@ -1484,7 +1419,6 @@
    "result": "Motion passed 3 to 2",
    "yes": [
     "ciampi",
-    "hetherington",
     "vargas"
    ],
    "no": [
@@ -1501,31 +1435,6 @@
    "minutesNote": null
   },
   {
-   "item": 239199,
-   "ev": 2878,
-   "date": "2026-08-25",
-   "file": null,
-   "topic": "other",
-   "result": "Motion passed 4 to 1",
-   "yes": [
-    "capps",
-    "ciampi",
-    "heard",
-    "vargas"
-   ],
-   "no": [
-    "hetherington"
-   ],
-   "mover": null,
-   "seconder": null,
-   "officialTitle": "Commissioners",
-   "motion": "MOTION: A motion was made by Vice Chair Ciampi, seconded by Commissioner Capps, directing staff to bring forward an agenda item for a one year moratorium on hyperscale data centers to allow legal staff sufficient time to research.  The motion carried by the following vote:",
-   "headline": "Commissioners",
-   "inShort": null,
-   "needsReview": true,
-   "minutesNote": "AM\n\nChair Heard asked whether the Board was interested in considering a moratorium on data centers. \n\nVice Chair Ciampi shared information about actions taken by other counties and emphasized the need to research the potential benefits and drawbacks of data centers. \n\nCommissioner Vargas said she had spoken with a Commissioner from Loudoun County, Virginia, and urged the Board to pause consideration of data centers. \n\nCommissioner Hetherington supported further research and requested staff to bring back a presentation concerning Senate Bills 180 and 484. Commissioner Hetherington congratulated Chair Heard and Commissioner Elect Christopher Collins on their election victories and thanked all candidates. \n\nVice Chair Ciampi thanked Commissioner Hetherington for her services and congratulated Chair Heard on her reelection and tenure as Martin County's longest serving commissioner. He commended the other candidates, including Susan O'Rouke, for her commitment to the community beyond the election. Vice Chair Ciampi also acknowledged the passing of Choral Director Ronald L. Corbin. \n\nCommissioner Capps acknowledged the passing of Hobe Sound resident and law enforcement officer Mark Budensiek. He congratulated Chair Heard and Commissioner Elect Christopher Collins. He offered encouragement to the other candidates, and discussed the train collision in Hobe Sound. \n\nCommissioner Vargas congratulated Chair Heard and Commissioner Elect Christopher Collins, and commended Susan O'rourke. She echoed Commissioner Capps' concerns about railroad crossings, including the crossing in Jensen Beach, and discussed additional lighting and signage along Jensen Beach Boulevard. She also spoke to Supervisor of Elections Vicki Davis regarding voter participation. Commissioner Vargas requested reconsideration of Article 10, citing concerns about information provided by the applicant.\n\nPM\n\nChair Heard thanked residents for their continued confidence in her and congratulated all candidates in this primary season."
-  },
-  {
    "item": 238705,
    "ev": 2877,
    "date": "2026-08-11",
@@ -1534,7 +1443,6 @@
    "result": "Motion passed 3 to 2",
    "yes": [
     "ciampi",
-    "hetherington",
     "vargas"
    ],
    "no": [
@@ -1560,8 +1468,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1585,8 +1492,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1609,7 +1515,6 @@
    "result": "Motion passed 3 to 2",
    "yes": [
     "ciampi",
-    "hetherington",
     "vargas"
    ],
    "no": [
@@ -1635,8 +1540,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1663,8 +1567,7 @@
    ],
    "no": [
     "capps",
-    "ciampi",
-    "hetherington"
+    "ciampi"
    ],
    "mover": null,
    "seconder": null,
@@ -1688,8 +1591,7 @@
     "vargas"
    ],
    "no": [
-    "ciampi",
-    "hetherington"
+    "ciampi"
    ],
    "mover": null,
    "seconder": null,
@@ -1710,8 +1612,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1735,8 +1636,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1760,7 +1660,6 @@
    "yes": [
     "capps",
     "heard",
-    "hetherington",
     "vargas"
    ],
    "no": [
@@ -1785,7 +1684,6 @@
    "yes": [
     "capps",
     "ciampi",
-    "hetherington",
     "vargas"
    ],
    "no": [
@@ -1809,8 +1707,7 @@
    "result": "Motion passed 3 to 2",
    "yes": [
     "capps",
-    "ciampi",
-    "hetherington"
+    "ciampi"
    ],
    "no": [
     "heard",
@@ -1835,7 +1732,6 @@
    "yes": [
     "capps",
     "ciampi",
-    "hetherington",
     "vargas"
    ],
    "no": [
@@ -1860,8 +1756,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1884,8 +1779,7 @@
    "result": "Motion passed 3 to 1",
    "yes": [
     "capps",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -1911,8 +1805,7 @@
    "result": "Motion passed 3 to 2",
    "yes": [
     "capps",
-    "ciampi",
-    "hetherington"
+    "ciampi"
    ],
    "no": [
     "heard",
@@ -1936,8 +1829,7 @@
    "result": "Motion passed 3 to 2",
    "yes": [
     "capps",
-    "ciampi",
-    "hetherington"
+    "ciampi"
    ],
    "no": [
     "heard",
@@ -1961,8 +1853,7 @@
    "result": "Motion passed 3 to 2",
    "yes": [
     "capps",
-    "ciampi",
-    "hetherington"
+    "ciampi"
    ],
    "no": [
     "heard",
@@ -1986,8 +1877,7 @@
    "result": "Motion passed 3 to 2",
    "yes": [
     "capps",
-    "ciampi",
-    "hetherington"
+    "ciampi"
    ],
    "no": [
     "heard",
@@ -2012,8 +1902,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"
@@ -2037,8 +1926,7 @@
    "yes": [
     "capps",
     "ciampi",
-    "heard",
-    "hetherington"
+    "heard"
    ],
    "no": [
     "vargas"

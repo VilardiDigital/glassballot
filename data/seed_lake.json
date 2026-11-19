@@ -18,28 +18,28 @@
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=lake&el=17",
    "publisher": "Lake County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-18"
+   "accessed": "2026-11-19"
   },
   "soe-vf-2024": {
    "title": "Lake County Supervisor of Elections: 2024 candidates",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=lake&el=16",
    "publisher": "Lake County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-18"
+   "accessed": "2026-11-19"
   },
   "soe-vf-2022": {
    "title": "Lake County Supervisor of Elections: 2022 candidates",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=lake&el=15",
    "publisher": "Lake County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-18"
+   "accessed": "2026-11-19"
   },
   "soe-cf-lake": {
    "title": "Lake Supervisor of Elections campaign finance reports, 2026 cycle",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=lake&el=17",
    "publisher": "Lake County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-18"
+   "accessed": "2026-11-19"
   }
  },
  "people": [
@@ -131,7 +131,7 @@
     ],
     "raised": [
      {
-      "value": "$139,855 in contributions, plus $4,406.53 in-kind (as of Nov 18, 2026)",
+      "value": "$139,855 in contributions, plus $4,406.53 in-kind (as of Nov 19, 2026)",
       "source": "soe-cf-lake"
      }
     ]
@@ -143,7 +143,7 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "533",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    }
   },
   {
@@ -174,7 +174,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$470.34 in contributions, plus $340.19 in-kind (as of Nov 18, 2026)",
+      "value": "$470.34 in contributions, plus $340.19 in-kind (as of Nov 19, 2026)",
       "source": "soe-cf-lake"
      }
     ]
@@ -185,9 +185,39 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "542",
-    "status": "Active- Qualified Write-In"
+    "status": "Active- Defeated"
    },
    "nonpartisan": false
+  },
+  {
+   "id": "liriano",
+   "name": "Dr. Humberto \"Bert\" Liriano",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-lake"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$6,648 in contributions (as of Nov 19, 2026)",
+      "source": "soe-cf-lake"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "2",
+   "race": "bcc-d2",
+   "finance": {
+    "voterfocusId": "544",
+    "status": "Active- Defeated"
+   }
   },
   {
    "id": "powers",
@@ -195,7 +225,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$75 in contributions (as of Nov 18, 2026)",
+      "value": "$75 in contributions (as of Nov 19, 2026)",
       "source": "soe-cf-lake"
      }
     ]
@@ -206,7 +236,7 @@
    "race": "bcc-d2",
    "finance": {
     "voterfocusId": "563",
-    "status": "Active- Qualified Write-In"
+    "status": "Active- Defeated"
    },
    "nonpartisan": false
   },
@@ -227,7 +257,7 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "535",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    }
   },
   {
@@ -246,7 +276,7 @@
     ],
     "raised": [
      {
-      "value": "$19,718.53 in contributions (as of Nov 18, 2026)",
+      "value": "$19,718.53 in contributions (as of Nov 19, 2026)",
       "source": "soe-cf-lake"
      }
     ]
@@ -257,7 +287,7 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "571",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
    }
   },
   {
@@ -266,7 +296,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$25 in contributions (as of Nov 18, 2026)",
+      "value": "$25 in contributions (as of Nov 19, 2026)",
       "source": "soe-cf-lake"
      }
     ]
@@ -277,9 +307,39 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "549",
-    "status": "Active- Qualified Write-In"
+    "status": "Active- Defeated"
    },
    "nonpartisan": false
+  },
+  {
+   "id": "williamson",
+   "name": "David Williamson",
+   "claims": {
+    "party": [
+     {
+      "value": "Republican",
+      "source": "soe-vf"
+     },
+     {
+      "value": "Republican",
+      "source": "soe-cf-lake"
+     }
+    ],
+    "raised": [
+     {
+      "value": "$12,125 in contributions, plus $366 in-kind (as of Nov 19, 2026)",
+      "source": "soe-cf-lake"
+     }
+    ]
+   },
+   "office": "Candidate, County Commission",
+   "status": "open",
+   "district": "4",
+   "race": "bcc-d4",
+   "finance": {
+    "voterfocusId": "537",
+    "status": "Inactive - Defeated"
+   }
   },
   {
    "id": "kelley",
@@ -287,7 +347,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$31,300 in contributions, plus $102 in-kind (as of Nov 18, 2026)",
+      "value": "$31,300 in contributions, plus $102 in-kind (as of Nov 19, 2026)",
       "source": "soe-cf-lake"
      }
     ]
@@ -298,7 +358,28 @@
    "race": "sb-d1",
    "finance": {
     "voterfocusId": "534",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
+   },
+   "nonpartisan": true
+  },
+  {
+   "id": "schwalbach",
+   "name": "Eric Schwalbach",
+   "claims": {
+    "raised": [
+     {
+      "value": "$2,900 in contributions, plus $1,281.18 in-kind (as of Nov 19, 2026)",
+      "source": "soe-cf-lake"
+     }
+    ]
+   },
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "545",
+    "status": "Active- Defeated"
    },
    "nonpartisan": true
   },
@@ -308,7 +389,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$620 in contributions, plus $100 in-kind (as of Nov 18, 2026)",
+      "value": "$620 in contributions, plus $100 in-kind (as of Nov 19, 2026)",
       "source": "soe-cf-lake"
      }
     ]
@@ -319,7 +400,7 @@
    "race": "sb-d1",
    "finance": {
     "voterfocusId": "570",
-    "status": "Active- Qualified Write-In"
+    "status": "Active- Defeated"
    },
    "nonpartisan": true
   },
@@ -329,7 +410,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$2,100 in contributions (as of Nov 18, 2026)",
+      "value": "$2,100 in contributions (as of Nov 19, 2026)",
       "source": "soe-cf-lake"
      }
     ]
@@ -350,7 +431,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$9,200 in contributions (as of Nov 18, 2026)",
+      "value": "$9,200 in contributions (as of Nov 19, 2026)",
       "source": "soe-cf-lake"
      }
     ]
@@ -374,13 +455,15 @@
    "office": "County Commission District 2",
    "people": [
     "eliastorres",
+    "liriano",
     "parks",
     "powers"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Sean M. Parks (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -390,12 +473,14 @@
    "people": [
     "lesliecampione",
     "emery",
-    "tommiepowers"
+    "tommiepowers",
+    "williamson"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Leslie Campione (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -404,12 +489,14 @@
    "office": "School Board Member District 1",
    "people": [
     "kelley",
+    "schwalbach",
     "jamessmith"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Pat Kelley (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",

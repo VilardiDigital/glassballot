@@ -214,7 +214,14 @@
  },
  "escambia": {
   "code": "ESC",
-  "all": []
+  "all": [
+   [
+    4133,
+    "2026 General Election Recount",
+    "11/3/2026"
+   ]
+  ],
+  "general": 4133
  },
  "flagler": {
   "code": "FLA",
