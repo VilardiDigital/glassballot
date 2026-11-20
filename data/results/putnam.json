@@ -1,7 +1,7 @@
 {
  "county": "putnam",
  "url": "https://enr.electionsfl.org/PUT/4081/Summary/",
- "pulledAt": "2026-11-20T04:16:52Z",
+ "pulledAt": "2026-11-20T17:49:25Z",
  "status": "unofficial",
  "updated": null,
  "races": [
@@ -13,19 +13,19 @@
     {
      "name": "Larry Harvey",
      "party": "REP",
-     "pct": 64.41,
+     "pct": 64.4,
      "votes": 16919
     },
     {
      "name": "Joshua Florence",
      "party": "DEM",
      "pct": 31.24,
-     "votes": 8205
+     "votes": 8207
     },
     {
      "name": "Ron Burckhard",
      "party": "NPA",
-     "pct": 4.36,
+     "pct": 4.35,
      "votes": 1144
     }
    ]
@@ -46,8 +46,8 @@
     {
      "name": "Angie Nixon",
      "party": "DEM",
-     "pct": 29.87,
-     "votes": 7922
+     "pct": 29.88,
+     "votes": 7924
     },
     {
      "name": "Neil J. Gillespie",
@@ -72,7 +72,7 @@
      "name": "Eric Yonce",
      "party": "DEM",
      "pct": 31.52,
-     "votes": 8207
+     "votes": 8209
     },
     {
      "name": "Andrew Parrott",
@@ -96,14 +96,14 @@
     {
      "name": "Byron Donalds",
      "party": "REP",
-     "pct": 67.9,
+     "pct": 67.89,
      "votes": 17977
     },
     {
      "name": "David Jolly",
      "party": "DEM",
      "pct": 30.28,
-     "votes": 8016
+     "votes": 8018
     },
     {
      "name": "Scott Eckhard Jewett",
@@ -157,14 +157,14 @@
     {
      "name": "James Uthmeier",
      "party": "REP",
-     "pct": 69.88,
+     "pct": 69.87,
      "votes": 18179
     },
     {
      "name": "Jose Javier Rodriguez",
      "party": "DEM",
-     "pct": 30.12,
-     "votes": 7836
+     "pct": 30.13,
+     "votes": 7838
     }
    ]
   },
@@ -176,14 +176,14 @@
     {
      "name": "Blaise Ingoglia",
      "party": "REP",
-     "pct": 69.44,
+     "pct": 69.43,
      "votes": 18247
     },
     {
      "name": "Annette Taddeo",
      "party": "DEM",
-     "pct": 30.56,
-     "votes": 8031
+     "pct": 30.57,
+     "votes": 8033
     }
    ]
   },
@@ -201,8 +201,8 @@
     {
      "name": "Joey Mendoza Atkins",
      "party": "DEM",
-     "pct": 30.53,
-     "votes": 8008
+     "pct": 30.54,
+     "votes": 8010
     },
     {
      "name": "Write-in",
@@ -227,7 +227,7 @@
      "name": "Lee Butler",
      "party": "DEM",
      "pct": 30.46,
-     "votes": 7983
+     "votes": 7985
     }
    ]
   },
@@ -239,19 +239,19 @@
     {
      "name": "Larry Harvey",
      "party": "REP",
-     "pct": 64.41,
+     "pct": 64.4,
      "votes": 16919
     },
     {
      "name": "Joshua Florence",
      "party": "DEM",
      "pct": 31.24,
-     "votes": 8205
+     "votes": 8207
     },
     {
      "name": "Ron Burckhard",
      "party": "NPA",
-     "pct": 4.36,
+     "pct": 4.35,
      "votes": 1144
     }
    ]
@@ -271,7 +271,7 @@
      "name": "No/No",
      "party": null,
      "pct": 37.09,
-     "votes": 8944
+     "votes": 8945
     }
    ]
   },
@@ -290,7 +290,7 @@
      "name": "No/No",
      "party": null,
      "pct": 33.52,
-     "votes": 8120
+     "votes": 8121
     }
    ]
   },
@@ -309,7 +309,7 @@
      "name": "No/No",
      "party": null,
      "pct": 34.88,
-     "votes": 8430
+     "votes": 8431
     }
    ]
   },
@@ -328,7 +328,7 @@
      "name": "No/No",
      "party": null,
      "pct": 34.73,
-     "votes": 8317
+     "votes": 8318
     }
    ]
   },
@@ -423,13 +423,13 @@
      "name": "Yes/Si",
      "party": null,
      "pct": 42.21,
-     "votes": 10651
+     "votes": 10652
     },
     {
      "name": "No/No",
      "party": null,
      "pct": 57.79,
-     "votes": 14584
+     "votes": 14585
     }
    ]
   },
@@ -441,14 +441,14 @@
     {
      "name": "Yes/Sí",
      "party": null,
-     "pct": 70.78,
+     "pct": 70.77,
      "votes": 18193
     },
     {
      "name": "No/No",
      "party": null,
-     "pct": 29.22,
-     "votes": 7511
+     "pct": 29.23,
+     "votes": 7513
     }
    ]
   },
@@ -461,13 +461,13 @@
      "name": "Yes/Sí",
      "party": null,
      "pct": 68.29,
-     "votes": 17729
+     "votes": 17730
     },
     {
      "name": "No/No",
      "party": null,
      "pct": 31.71,
-     "votes": 8231
+     "votes": 8232
     }
    ]
   },
