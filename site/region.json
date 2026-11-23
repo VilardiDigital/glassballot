@@ -89,7 +89,7 @@
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=pinellas",
     "ballotResults": {
      "status": "official",
-     "updated": "2026-11-23T03:59:51Z",
+     "updated": "2026-11-23T13:34:34Z",
      "url": "https://enr.votepinellas.gov/FL/Pinellas/127357/",
      "races": [
       {
@@ -9500,7 +9500,7 @@
       ],
       "counted": true,
       "leader": "hughes",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:34Z",
       "source": "enr-2026g"
      }
     },
@@ -9555,7 +9555,7 @@
       ],
       "counted": true,
       "leader": "peters",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:34Z",
       "source": "enr-2026g"
      }
     },
@@ -9603,7 +9603,7 @@
       ],
       "counted": true,
       "leader": "campogni",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:34Z",
       "source": "enr-2026g"
      }
     }
@@ -12277,8 +12277,8 @@
     "seats": "7 commissioners. Districts 1 to 4 are single-member, so only voters who live in that district vote. Districts 5, 6 and 7 are countywide (at-large), so every Hillsborough voter votes on them. Districts 1, 3, 5 and 7 are on the 2026 ballot.",
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hillsborough&el=27",
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:27Z",
      "url": "https://enr.electionsfl.org/HIL/4074/Summary/",
      "races": [
       {
@@ -18965,7 +18965,7 @@
      "office": "County Commissioner",
      "district": "7",
      "seatType": "At-large",
-     "status": "incumbent",
+     "status": "former",
      "race": "bcc-d7",
      "finance": {
       "voterfocusId": "2620",
@@ -19604,13 +19604,10 @@
       "through": "2026-10-29",
       "source": "soe-itemized"
      },
-     "contact": {
-      "office": "Hillsborough County Commission, District 7 (Countywide)",
-      "officeUrl": "https://hcfl.gov/commissioners/joshua-wostal",
-      "phone": "(813) 272-5735",
-      "email": "",
-      "address": "601 E. Kennedy Blvd., Tampa, FL 33602",
-      "source": "https://hcfl.gov/commissioners/joshua-wostal"
+     "leftAfter": {
+      "race": "bcc-d7",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
      },
      "facts": {
       "party": {
@@ -19762,7 +19759,6 @@
      },
      "required": [
       "party",
-      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -21415,10 +21411,10 @@
     {
      "id": "manimala",
      "name": "Neil Manimala",
-     "office": "Candidate, County Commission",
+     "office": "County Commissioner",
      "district": "5",
      "seatType": "At-large",
-     "status": "open",
+     "status": "incumbent",
      "race": "bcc-d5",
      "finance": {
       "voterfocusId": "2636",
@@ -21725,6 +21721,11 @@
       "through": "2026-10-29",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "bcc-d5",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": "Democrat",
@@ -21852,6 +21853,7 @@
      },
      "required": [
       "party",
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -21909,10 +21911,10 @@
     {
      "id": "rodriguez",
      "name": "Aileen Rodriguez",
-     "office": "Candidate, County Commission",
+     "office": "County Commissioner",
      "district": "7",
      "seatType": "At-large",
-     "status": "challenger",
+     "status": "incumbent",
      "race": "bcc-d7",
      "finance": {
       "voterfocusId": "2660",
@@ -22229,6 +22231,11 @@
       "through": "2026-10-29",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "bcc-d7",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": "Democrat",
@@ -22355,6 +22362,7 @@
      },
      "required": [
       "party",
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -22909,10 +22917,10 @@
     {
      "id": "simic",
      "name": "Daniela Simic",
-     "office": "Candidate, School Board",
+     "office": "School Board Member",
      "district": "2",
      "seatType": "Single-member",
-     "status": "open",
+     "status": "incumbent",
      "race": "sb-d2",
      "nonpartisan": true,
      "finance": {
@@ -23198,6 +23206,11 @@
       "through": "2026-10-29",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "sb-d2",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": null,
@@ -23318,6 +23331,7 @@
       }
      },
      "required": [
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -24672,7 +24686,7 @@
       "bb-county"
      ],
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 111,
       "precincts": 111,
       "total": 118828,
@@ -24694,7 +24708,7 @@
       ],
       "counted": true,
       "leader": "cohen",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:27Z",
       "source": "enr-2026g"
      }
     },
@@ -24715,7 +24729,7 @@
       "soe-primary"
      ],
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 96,
       "precincts": 96,
       "total": 98462,
@@ -24737,7 +24751,7 @@
       ],
       "counted": true,
       "leader": "myers",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:27Z",
       "source": "enr-2026g"
      }
     },
@@ -24758,7 +24772,7 @@
       "soe-primary"
      ],
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 446,
       "precincts": 446,
       "total": 509001,
@@ -24780,7 +24794,7 @@
       ],
       "counted": true,
       "leader": "manimala",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:27Z",
       "source": "enr-2026g"
      }
     },
@@ -24802,7 +24816,7 @@
       "beacons-qual"
      ],
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 446,
       "precincts": 446,
       "total": 507845,
@@ -24824,7 +24838,7 @@
       ],
       "counted": true,
       "leader": "rodriguez",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:27Z",
       "source": "enr-2026g"
      }
     },
@@ -24846,7 +24860,7 @@
       "beacons-sb"
      ],
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 92,
       "precincts": 92,
       "total": 110410,
@@ -24868,7 +24882,7 @@
       ],
       "counted": true,
       "leader": "simic",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:27Z",
       "source": "enr-2026g"
      }
     },
@@ -24909,7 +24923,7 @@
       "beacons-sb"
      ],
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 446,
       "precincts": 446,
       "total": 466423,
@@ -24931,7 +24945,7 @@
       ],
       "counted": true,
       "leader": "perez",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:27Z",
       "source": "enr-2026g"
      }
     }
@@ -25554,7 +25568,7 @@
     "single": 54,
     "unverified": 44,
     "conflict": 1,
-    "unknown": 5
+    "unknown": 8
    }
   },
   "pasco": {
@@ -25568,7 +25582,7 @@
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=pasco&el=38",
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:51Z",
+     "updated": "2026-11-23T13:34:31Z",
      "url": "https://enr.electionsfl.org/PAS/4085/Summary/",
      "races": [
       {
@@ -34003,7 +34017,7 @@
       ],
       "counted": true,
       "leader": "weightman",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:31Z",
       "source": "enr-2026g"
      }
     },
@@ -34063,7 +34077,7 @@
       ],
       "counted": true,
       "leader": "coward",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:31Z",
       "source": "enr-2026g"
      }
     },
@@ -34106,7 +34120,7 @@
       ],
       "counted": true,
       "leader": "geiger",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:31Z",
       "source": "enr-2026g"
      }
     },
@@ -34940,8 +34954,8 @@
     "seats": "5 commissioners elected at large to four-year terms, so every Hernando voter votes on every seat. Districts 2 and 4 were up in 2026; District 2 was settled in the Aug 18 primary. School Board seats 1, 3 and 5 were up; only District 5 goes to the Nov 3 ballot.",
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hernando&el=32",
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:26Z",
      "url": "https://enr.electionsfl.org/HER/4106/Summary/",
      "races": [
       {
@@ -39299,10 +39313,10 @@
     {
      "id": "holcomb",
      "name": "Jeff Holcomb",
-     "office": "Candidate, County Commission",
+     "office": "County Commissioner",
      "district": "4",
      "seatType": "At-large",
-     "status": "open",
+     "status": "incumbent",
      "race": "bcc-d4",
      "finance": {
       "voterfocusId": "629",
@@ -39653,6 +39667,11 @@
       "through": "2026-10-29",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "bcc-d4",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -39795,6 +39814,7 @@
      },
      "required": [
       "party",
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -41201,7 +41221,7 @@
      "office": "School Board Member",
      "district": "5",
      "seatType": "At-large",
-     "status": "incumbent",
+     "status": "former",
      "race": "sb-d5",
      "nonpartisan": true,
      "finance": {
@@ -41407,13 +41427,10 @@
       "through": "2026-10-18",
       "source": "soe-itemized"
      },
-     "contact": {
-      "office": "Hernando County School Board, District 5",
-      "officeUrl": "https://www.hernandoschools.org/susan-duval",
-      "phone": "352-797-7253",
-      "email": "duval_s@hcsb.k12.fl.us",
-      "address": "919 N. Broad Street, Brooksville, FL 34601",
-      "source": "https://www.hernandoschools.org/susan-duval"
+     "leftAfter": {
+      "race": "sb-d5",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
      },
      "facts": {
       "party": {
@@ -41571,7 +41588,6 @@
       }
      },
      "required": [
-      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -41599,10 +41615,10 @@
     {
      "id": "kchampion",
      "name": "Kara Champion",
-     "office": "Candidate, School Board",
+     "office": "School Board Member",
      "district": "5",
      "seatType": "At-large",
-     "status": "challenger",
+     "status": "incumbent",
      "race": "sb-d5",
      "nonpartisan": true,
      "note": "Daughter of County Commissioner Steve Champion (wusf-sb-preview).",
@@ -41842,6 +41858,11 @@
       "through": "2026-10-13",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "sb-d5",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": null,
@@ -41981,6 +42002,7 @@
       }
      },
      "required": [
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -43739,7 +43761,7 @@
       "bb-d4"
      ],
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 32,
       "precincts": 32,
       "total": 65939,
@@ -43761,7 +43783,7 @@
       ],
       "counted": true,
       "leader": "holcomb",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:26Z",
       "source": "enr-2026g"
      }
     },
@@ -43824,7 +43846,7 @@
       "bb-sb5"
      ],
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 32,
       "precincts": 32,
       "total": 73136,
@@ -43846,7 +43868,7 @@
       ],
       "counted": true,
       "leader": "kchampion",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:26Z",
       "source": "enr-2026g"
      }
     }
@@ -46034,7 +46056,7 @@
     "single": 134,
     "unverified": 30,
     "conflict": 0,
-    "unknown": 16
+    "unknown": 18
    }
   },
   "alachua": {
@@ -46052,7 +46074,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:49Z",
+     "updated": "2026-11-23T13:34:22Z",
      "url": "https://enr.electionsfl.org/ALA/4097/Summary/",
      "races": [
       {
@@ -50187,7 +50209,7 @@
       ],
       "counted": true,
       "leader": "cornell",
-      "updated": "2026-11-23T03:59:49Z",
+      "updated": "2026-11-23T13:34:22Z",
       "source": "enr-2026g"
      }
     },
@@ -50227,7 +50249,7 @@
       ],
       "counted": true,
       "leader": "miller",
-      "updated": "2026-11-23T03:59:49Z",
+      "updated": "2026-11-23T13:34:22Z",
       "source": "enr-2026g"
      }
     },
@@ -50318,7 +50340,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:49Z",
+     "updated": "2026-11-23T13:34:22Z",
      "url": "https://enr.electionsfl.org/BAK/4124/Summary/",
      "races": [
       {
@@ -52896,7 +52918,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "updated": "2026-11-23T13:34:22Z",
      "url": "https://enr.electionsfl.org/BAY/4078/Summary/",
      "races": [
       {
@@ -57322,7 +57344,7 @@
       ],
       "counted": false,
       "leader": "haley",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:22Z",
       "source": "enr-2026g"
      }
     },
@@ -57398,7 +57420,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "updated": "2026-11-23T13:34:22Z",
      "url": "https://enr.electionsfl.org/BRA/4113/Summary/",
      "races": [
       {
@@ -60286,7 +60308,7 @@
       ],
       "counted": true,
       "leader": "bennett",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:22Z",
       "source": "enr-2026g"
      }
     },
@@ -60405,7 +60427,7 @@
     },
     "ballotResults": {
      "status": "official",
-     "updated": "2026-11-23T03:59:50Z",
+     "updated": "2026-11-23T13:34:22Z",
      "url": "https://enr.electionsfl.org/BRE/4064/Summary/",
      "races": [
       {
@@ -67753,7 +67775,7 @@
       ],
       "counted": true,
       "leader": "loyd",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:22Z",
       "source": "enr-2026g"
      }
     },
@@ -67839,7 +67861,7 @@
       ],
       "counted": true,
       "leader": "savage",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:22Z",
       "source": "enr-2026g"
      }
     },
@@ -67881,7 +67903,7 @@
       ],
       "counted": true,
       "leader": "mccormack",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:22Z",
       "source": "enr-2026g"
      }
     }
@@ -77332,7 +77354,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "updated": "2026-11-23T13:34:23Z",
      "url": "https://enr.electionsfl.org/CAL/4054/Summary/",
      "races": [
       {
@@ -80732,7 +80754,7 @@
       ],
       "counted": true,
       "leader": "monlyn",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:23Z",
       "source": "enr-2026g"
      }
     },
@@ -80839,7 +80861,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "updated": "2026-11-23T13:34:23Z",
      "url": "https://enr.electionsfl.org/CHA/4062/Summary/",
      "races": [
       {
@@ -84708,7 +84730,7 @@
       ],
       "counted": true,
       "leader": "amontree",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:23Z",
       "source": "enr-2026g"
      }
     },
@@ -84797,8 +84819,8 @@
      "2022": 19
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:23Z",
      "url": "https://enr.electionsfl.org/CIT/4070/Summary/",
      "races": [
       {
@@ -88697,8 +88719,8 @@
      "2022": 84
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:23Z",
      "url": "https://enr.electionsfl.org/CLA/4086/Summary/",
      "races": [
       {
@@ -90622,8 +90644,8 @@
     {
      "id": "edwards",
      "name": "Leroy Edwards",
-     "office": "Candidate, County Commission",
-     "status": "open",
+     "office": "County Commissioner",
+     "status": "incumbent",
      "district": "2",
      "race": "bcc-d2",
      "finance": {
@@ -90708,6 +90730,11 @@
       "prior": 0,
       "through": "2026-10-06",
       "source": "soe-itemized"
+     },
+     "seatedAfter": {
+      "race": "bcc-d2",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
      },
      "facts": {
       "party": {
@@ -90815,6 +90842,7 @@
      },
      "required": [
       "party",
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -92785,7 +92813,7 @@
      "onNovBallot": false,
      "decided": "Leroy Edwards (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 6,
       "precincts": 6,
       "total": 16882,
@@ -92807,7 +92835,7 @@
       ],
       "counted": true,
       "leader": "edwards",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:23Z",
       "source": "enr-2026g"
      }
     },
@@ -92911,7 +92939,7 @@
     "single": 22,
     "unverified": 0,
     "conflict": 0,
-    "unknown": 15
+    "unknown": 16
    }
   },
   "collier": {
@@ -92928,8 +92956,8 @@
      "2022": 13
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:24Z",
      "url": "https://enr.electionsfl.org/CLL/4083/Summary/",
      "races": [
       {
@@ -96512,7 +96540,7 @@
      "onNovBallot": false,
      "decided": "Chris Hall (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 13,
       "precincts": 13,
       "total": 34941,
@@ -96534,7 +96562,7 @@
       ],
       "counted": true,
       "leader": "hall",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:24Z",
       "source": "enr-2026g"
      }
     },
@@ -96654,7 +96682,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "updated": "2026-11-23T13:34:24Z",
      "url": "https://enr.electionsfl.org/CLM/4069/Summary/",
      "races": [
       {
@@ -99981,7 +100009,7 @@
       ],
       "counted": true,
       "leader": "pittman",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:24Z",
       "source": "enr-2026g"
      }
     },
@@ -100024,7 +100052,7 @@
       ],
       "counted": true,
       "leader": "dicks",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:24Z",
       "source": "enr-2026g"
      }
     },
@@ -100129,7 +100157,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "updated": "2026-11-23T13:34:24Z",
      "url": "https://enr.electionsfl.org/DES/4094/Summary/",
      "races": [
       {
@@ -102671,7 +102699,7 @@
       ],
       "counted": true,
       "leader": "buddyjohnson",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:24Z",
       "source": "enr-2026g"
      }
     },
@@ -102999,8 +103027,8 @@
      "2022": 11
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:24Z",
      "url": "https://enr.electionsfl.org/DIX/4125/Summary/",
      "races": [
       {
@@ -105248,8 +105276,8 @@
      "2022": 36
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:24Z",
      "url": "https://enr.electionsfl.org/DUV/4076/Summary/",
      "races": [
       {
@@ -105994,8 +106022,8 @@
     {
      "id": "bradley",
      "name": "Donovan Bradley",
-     "office": "Candidate, School Board",
-     "status": "open",
+     "office": "School Board Member",
+     "status": "incumbent",
      "district": "2",
      "race": "sb-d2",
      "finance": {
@@ -106342,6 +106370,11 @@
       "through": "2026-10-29",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "sb-d2",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": null,
@@ -106443,6 +106476,7 @@
       }
      },
      "required": [
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -106909,8 +106943,8 @@
     {
      "id": "butler",
      "name": "Alfreda Denson Butler",
-     "office": "Candidate, School Board",
-     "status": "open",
+     "office": "School Board Member",
+     "status": "incumbent",
      "district": "4",
      "race": "sb-d4",
      "finance": {
@@ -107081,6 +107115,11 @@
       "through": "2026-08-10",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "sb-d4",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": null,
@@ -107182,6 +107221,7 @@
       }
      },
      "required": [
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -107907,8 +107947,8 @@
     {
      "id": "denmark",
      "name": "Lindsey Denmark",
-     "office": "Candidate, School Board",
-     "status": "open",
+     "office": "School Board Member",
+     "status": "incumbent",
      "district": "6",
      "race": "sb-d6",
      "finance": {
@@ -108160,6 +108200,11 @@
       "through": "2026-10-29",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "sb-d6",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": null,
@@ -108261,6 +108306,7 @@
       }
      },
      "required": [
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -109196,7 +109242,7 @@
      "onNovBallot": false,
      "decided": "Donovan Bradley (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 24,
       "precincts": 24,
       "total": 53749,
@@ -109218,7 +109264,7 @@
       ],
       "counted": true,
       "leader": "bradley",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:24Z",
       "source": "enr-2026g"
      }
     },
@@ -109239,7 +109285,7 @@
      "onNovBallot": false,
      "decided": "Rhodesia \"Rho\" Butler (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 23,
       "precincts": 23,
       "total": 44452,
@@ -109268,7 +109314,7 @@
       ],
       "counted": true,
       "leader": "butler",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:24Z",
       "source": "enr-2026g"
      }
     },
@@ -109290,7 +109336,7 @@
      "onNovBallot": false,
      "decided": "Lindsey Denmark (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 22,
       "precincts": 22,
       "total": 46641,
@@ -109312,7 +109358,7 @@
       ],
       "counted": true,
       "leader": "denmark",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:24Z",
       "source": "enr-2026g"
      }
     }
@@ -109356,7 +109402,7 @@
     "single": 12,
     "unverified": 0,
     "conflict": 0,
-    "unknown": 12
+    "unknown": 15
    }
   },
   "escambia": {
@@ -109374,7 +109420,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "updated": "2026-11-23T13:34:25Z",
      "url": "https://enr.electionsfl.org/ESC/4133/Summary/",
      "races": [
       {
@@ -113532,7 +113578,7 @@
       ],
       "counted": true,
       "leader": "vinson",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:25Z",
       "source": "enr-2026g"
      }
     },
@@ -113638,8 +113684,8 @@
      "2022": 30
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:25Z",
      "url": "https://enr.electionsfl.org/FLA/4088/Summary/",
      "races": [
       {
@@ -118310,7 +118356,7 @@
      "onNovBallot": false,
      "decided": "Theresa Pontieri (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": null,
       "precincts": null,
       "total": 59420,
@@ -118332,7 +118378,7 @@
       ],
       "counted": false,
       "leader": "pontieri",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:25Z",
       "source": "enr-2026g"
      }
     },
@@ -118353,7 +118399,7 @@
      "onNovBallot": false,
      "decided": "Leann Pennington (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": null,
       "precincts": null,
       "total": 47802,
@@ -118375,7 +118421,7 @@
       ],
       "counted": false,
       "leader": "pennington",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:25Z",
       "source": "enr-2026g"
      }
     },
@@ -118425,7 +118471,7 @@
      "onNovBallot": false,
      "decided": "Christy Chong (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": null,
       "precincts": null,
       "total": 54362,
@@ -118447,7 +118493,7 @@
       ],
       "counted": false,
       "leader": "chong",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:25Z",
       "source": "enr-2026g"
      }
     }
@@ -118509,7 +118555,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "updated": "2026-11-23T13:34:25Z",
      "url": "https://enr.electionsfl.org/FRA/4130/Summary/",
      "races": [
       {
@@ -120613,7 +120659,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "updated": "2026-11-23T13:34:25Z",
      "url": "https://enr.electionsfl.org/GAD/4066/Summary/",
      "races": [
       {
@@ -123859,7 +123905,7 @@
       ],
       "counted": true,
       "leader": "brown",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:25Z",
       "source": "enr-2026g"
      }
     },
@@ -123899,7 +123945,7 @@
       ],
       "counted": true,
       "leader": "moore",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:25Z",
       "source": "enr-2026g"
      }
     },
@@ -123989,7 +124035,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "updated": "2026-11-23T13:34:25Z",
      "url": "https://enr.electionsfl.org/GIL/4055/Summary/",
      "races": [
       {
@@ -125830,7 +125876,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "updated": "2026-11-23T13:34:26Z",
      "url": "https://enr.electionsfl.org/GLA/4065/Summary/",
      "races": [
       {
@@ -128514,7 +128560,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "updated": "2026-11-23T13:34:26Z",
      "url": "https://enr.electionsfl.org/GUL/4084/Summary/",
      "races": [
       {
@@ -131436,7 +131482,7 @@
       ],
       "counted": true,
       "leader": "bailey",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:26Z",
       "source": "enr-2026g"
      }
     },
@@ -131539,8 +131585,8 @@
      "2022": 12
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:26Z",
      "url": "https://enr.electionsfl.org/HAM/4101/Summary/",
      "races": [
       {
@@ -134041,7 +134087,7 @@
      ],
      "onNovBallot": true,
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": null,
       "precincts": null,
       "total": 1010,
@@ -134063,7 +134109,7 @@
       ],
       "counted": false,
       "leader": "erixton",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:26Z",
       "source": "enr-2026g"
      }
     },
@@ -134095,7 +134141,7 @@
      ],
      "onNovBallot": true,
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": null,
       "precincts": null,
       "total": 988,
@@ -134117,7 +134163,7 @@
       ],
       "counted": false,
       "leader": "ogburn",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:26Z",
       "source": "enr-2026g"
      }
     },
@@ -134191,7 +134237,7 @@
     "pastCycles": {},
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "updated": "2026-11-23T13:34:26Z",
      "url": "https://enr.electionsfl.org/HAR/4063/Summary/",
      "races": [
       {
@@ -135624,7 +135670,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "updated": "2026-11-23T13:34:26Z",
      "url": "https://enr.electionsfl.org/HEN/4077/Summary/",
      "races": [
       {
@@ -137952,7 +137998,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "updated": "2026-11-23T13:34:27Z",
      "url": "https://enr.electionsfl.org/HIG/4127/Summary/",
      "races": [
       {
@@ -141818,7 +141864,7 @@
       ],
       "counted": true,
       "leader": "pritchett",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:27Z",
       "source": "enr-2026g"
      }
     },
@@ -141875,7 +141921,7 @@
       ],
       "counted": true,
       "leader": "andytuck",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:27Z",
       "source": "enr-2026g"
      }
     }
@@ -141937,7 +141983,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "updated": "2026-11-23T13:34:27Z",
      "url": "https://enr.electionsfl.org/HOL/4108/Summary/",
      "races": [
       {
@@ -145089,8 +145135,8 @@
      "2022": 16
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:27Z",
      "url": "https://enr.electionsfl.org/IND/4096/Summary/",
      "races": [
       {
@@ -148186,8 +148232,8 @@
     {
      "id": "pippin",
      "name": "Jennifer Pippin",
-     "office": "Candidate, County Commission",
-     "status": "open",
+     "office": "County Commissioner",
+     "status": "incumbent",
      "district": "2",
      "race": "bcc-d2",
      "finance": {
@@ -148383,6 +148429,11 @@
       "through": "2026-10-21",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "bcc-d2",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -148488,6 +148539,7 @@
      },
      "required": [
       "party",
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -148996,13 +149048,18 @@
     {
      "id": "derylloar",
      "name": "Deryl Byron Loar",
-     "office": "Candidate, County Commission",
-     "status": "open",
+     "office": "County Commissioner",
+     "status": "incumbent",
      "district": "4",
      "race": "bcc-d4",
      "finance": {
       "voterfocusId": "560",
       "status": "Active- Elected"
+     },
+     "seatedAfter": {
+      "race": "bcc-d4",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
      },
      "facts": {
       "party": {
@@ -149106,6 +149163,7 @@
      },
      "required": [
       "party",
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -150009,7 +150067,7 @@
      "onNovBallot": false,
      "decided": "Jennifer Pippin (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 35,
       "precincts": 35,
       "total": 76140,
@@ -150038,7 +150096,7 @@
       ],
       "counted": true,
       "leader": "pippin",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:27Z",
       "source": "enr-2026g"
      }
     },
@@ -150057,7 +150115,7 @@
      "onNovBallot": false,
      "decided": "Deryl Byron Loar (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 35,
       "precincts": 35,
       "total": 76116,
@@ -150079,7 +150137,7 @@
       ],
       "counted": true,
       "leader": "derylloar",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:27Z",
       "source": "enr-2026g"
      }
     },
@@ -150166,7 +150224,7 @@
     "single": 22,
     "unverified": 0,
     "conflict": 0,
-    "unknown": 17
+    "unknown": 19
    }
   },
   "jackson": {
@@ -150183,8 +150241,8 @@
      "2022": 16
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:27Z",
      "url": "https://enr.electionsfl.org/JAC/4118/Summary/",
      "races": [
       {
@@ -152326,8 +152384,8 @@
     {
      "id": "daniels",
      "name": "Phyllis T. Daniels",
-     "office": "Candidate, School Board",
-     "status": "open",
+     "office": "School Board Member",
+     "status": "incumbent",
      "district": "5",
      "race": "sb-d5",
      "finance": {
@@ -152407,6 +152465,11 @@
       "prior": 0,
       "through": "2026-10-27",
       "source": "soe-itemized"
+     },
+     "seatedAfter": {
+      "race": "sb-d5",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
      },
      "facts": {
       "party": {
@@ -152509,6 +152572,7 @@
       }
      },
      "required": [
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -152935,7 +152999,7 @@
      "onNovBallot": false,
      "decided": "Phyllis T. Daniels (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 7,
       "precincts": 7,
       "total": 3284,
@@ -152957,7 +153021,7 @@
       ],
       "counted": true,
       "leader": "daniels",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:27Z",
       "source": "enr-2026g"
      }
     }
@@ -153001,7 +153065,7 @@
     "single": 20,
     "unverified": 0,
     "conflict": 0,
-    "unknown": 15
+    "unknown": 16
    }
   },
   "jefferson": {
@@ -153015,8 +153079,8 @@
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=jefferson&el=8",
     "pastCycles": {},
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:27Z",
      "url": "https://enr.electionsfl.org/JEF/4115/Summary/",
      "races": [
       {
@@ -153732,8 +153796,8 @@
     {
      "id": "hosford",
      "name": "Austin Hosford",
-     "office": "Candidate, County Commission",
-     "status": "open",
+     "office": "County Commissioner",
+     "status": "incumbent",
      "district": "4",
      "race": "bcc-d4",
      "finance": {
@@ -153802,6 +153866,11 @@
       "prior": 0,
       "through": "2026-10-02",
       "source": "soe-itemized"
+     },
+     "seatedAfter": {
+      "race": "bcc-d4",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
      },
      "facts": {
       "party": {
@@ -153909,6 +153978,7 @@
      },
      "required": [
       "party",
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -154109,8 +154179,8 @@
     {
      "id": "bradley",
      "name": "Jamia Bradley",
-     "office": "Candidate, School Board",
-     "status": "open",
+     "office": "School Board Member",
+     "status": "incumbent",
      "district": "2",
      "race": "sb-d2",
      "finance": {
@@ -154154,6 +154224,11 @@
       "prior": 0,
       "through": "2026-10-30",
       "source": "soe-itemized"
+     },
+     "seatedAfter": {
+      "race": "sb-d2",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
      },
      "facts": {
       "party": {
@@ -154256,6 +154331,7 @@
       }
      },
      "required": [
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -155193,7 +155269,7 @@
      ],
      "onNovBallot": true,
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 3,
       "precincts": 3,
       "total": 1764,
@@ -155215,7 +155291,7 @@
       ],
       "counted": true,
       "leader": "hosford",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:27Z",
       "source": "enr-2026g"
      }
     },
@@ -155235,7 +155311,7 @@
      "onNovBallot": false,
      "decided": "Jamia Bradley (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 2,
       "precincts": 2,
       "total": 1015,
@@ -155257,7 +155333,7 @@
       ],
       "counted": true,
       "leader": "bradley",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:27Z",
       "source": "enr-2026g"
      }
     },
@@ -155330,7 +155406,7 @@
     "single": 12,
     "unverified": 0,
     "conflict": 0,
-    "unknown": 9
+    "unknown": 11
    }
   },
   "lafayette": {
@@ -155347,7 +155423,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "updated": "2026-11-23T13:34:28Z",
      "url": "https://enr.electionsfl.org/LAF/4071/Summary/",
      "races": [
       {
@@ -157012,8 +157088,8 @@
      "2022": 15
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:28Z",
      "url": "https://enr.electionsfl.org/LAK/4079/Summary/",
      "races": [
       {
@@ -160585,13 +160661,18 @@
     {
      "id": "lesliecampione",
      "name": "Leslie Campione",
-     "office": "Candidate, County Commission",
-     "status": "open",
+     "office": "County Commissioner",
+     "status": "incumbent",
      "district": "4",
      "race": "bcc-d4",
      "finance": {
       "voterfocusId": "535",
       "status": "Active- Elected"
+     },
+     "seatedAfter": {
+      "race": "bcc-d4",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
      },
      "facts": {
       "party": {
@@ -160695,6 +160776,7 @@
      },
      "required": [
       "party",
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -161375,8 +161457,8 @@
     {
      "id": "kelley",
      "name": "Pat Kelley",
-     "office": "Candidate, School Board",
-     "status": "open",
+     "office": "School Board Member",
+     "status": "incumbent",
      "district": "1",
      "race": "sb-d1",
      "finance": {
@@ -161592,6 +161674,11 @@
       "through": "2026-09-30",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "sb-d1",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": null,
@@ -161693,6 +161780,7 @@
       }
      },
      "required": [
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -162393,7 +162481,7 @@
      "onNovBallot": false,
      "decided": "Sean M. Parks (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 92,
       "precincts": 92,
       "total": 139696,
@@ -162415,7 +162503,7 @@
       ],
       "counted": true,
       "leader": "parks",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:28Z",
       "source": "enr-2026g"
      }
     },
@@ -162436,7 +162524,7 @@
      "onNovBallot": false,
      "decided": "Leslie Campione (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 92,
       "precincts": 92,
       "total": 174045,
@@ -162465,7 +162553,7 @@
       ],
       "counted": true,
       "leader": "lesliecampione",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:28Z",
       "source": "enr-2026g"
      }
     },
@@ -162485,7 +162573,7 @@
      "onNovBallot": false,
      "decided": "Pat Kelley (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 92,
       "precincts": 92,
       "total": 131940,
@@ -162507,7 +162595,7 @@
       ],
       "counted": true,
       "leader": "kelley",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:28Z",
       "source": "enr-2026g"
      }
     },
@@ -162579,7 +162667,7 @@
     "single": 26,
     "unverified": 0,
     "conflict": 0,
-    "unknown": 22
+    "unknown": 24
    }
   },
   "lee": {
@@ -162597,7 +162685,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "updated": "2026-11-23T13:34:28Z",
      "url": "https://enr.electionsfl.org/LEE/4111/Summary/",
      "races": [
       {
@@ -172058,7 +172146,7 @@
       ],
       "counted": true,
       "leader": "cecilpendergrass",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:28Z",
       "source": "enr-2026g"
      }
     },
@@ -172099,7 +172187,7 @@
       ],
       "counted": true,
       "leader": "hamman",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:28Z",
       "source": "enr-2026g"
      }
     },
@@ -172172,7 +172260,7 @@
       ],
       "counted": true,
       "leader": "jordan",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:28Z",
       "source": "enr-2026g"
      }
     },
@@ -172214,7 +172302,7 @@
       ],
       "counted": true,
       "leader": "johnson",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:28Z",
       "source": "enr-2026g"
      }
     },
@@ -172290,8 +172378,8 @@
      "2022": 21
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:28Z",
      "url": "https://enr.electionsfl.org/LEO/4072/Summary/",
      "races": [
       {
@@ -174964,8 +175052,8 @@
     {
      "id": "maddox",
      "name": "Nick Maddox",
-     "office": "Candidate, County Commission",
-     "status": "open",
+     "office": "County Commissioner",
+     "status": "incumbent",
      "district": "2",
      "race": "bcc-d2",
      "finance": {
@@ -175139,6 +175227,11 @@
       "through": "2026-10-26",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "bcc-d2",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": null,
@@ -175241,6 +175334,7 @@
      },
      "required": [
       "party",
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -176115,8 +176209,8 @@
     {
      "id": "williamminor",
      "name": "William Minor",
-     "office": "Candidate, County Commission",
-     "status": "open",
+     "office": "County Commissioner",
+     "status": "incumbent",
      "district": "3",
      "race": "bcc-d3",
      "finance": {
@@ -176341,6 +176435,11 @@
       "through": "2026-10-28",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "bcc-d3",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": null,
@@ -176443,6 +176542,7 @@
      },
      "required": [
       "party",
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -176897,8 +176997,8 @@
     {
      "id": "smith",
      "name": "Alva Swafford Smith",
-     "office": "Candidate, School Board",
-     "status": "open",
+     "office": "School Board Member",
+     "status": "incumbent",
      "district": "1",
      "race": "sb-d1",
      "finance": {
@@ -176946,6 +177046,11 @@
       "prior": 0,
       "through": "2026-08-11",
       "source": "soe-itemized"
+     },
+     "seatedAfter": {
+      "race": "sb-d1",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
      },
      "facts": {
       "party": {
@@ -177048,6 +177153,7 @@
       }
      },
      "required": [
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -177716,7 +177822,7 @@
      "onNovBallot": false,
      "decided": "Nick Maddox (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 134,
       "precincts": 134,
       "total": 100818,
@@ -177738,7 +177844,7 @@
       ],
       "counted": true,
       "leader": "maddox",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:28Z",
       "source": "enr-2026g"
      }
     },
@@ -177771,7 +177877,7 @@
      "onNovBallot": false,
      "decided": "William Minor (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 28,
       "precincts": 28,
       "total": 23222,
@@ -177793,7 +177899,7 @@
       ],
       "counted": true,
       "leader": "williamminor",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:28Z",
       "source": "enr-2026g"
      }
     },
@@ -177812,7 +177918,7 @@
      "onNovBallot": false,
      "decided": "David O Keefe (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 34,
       "precincts": 34,
       "total": 26338,
@@ -177834,7 +177940,7 @@
       ],
       "counted": true,
       "leader": null,
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:28Z",
       "source": "enr-2026g"
      }
     },
@@ -177853,7 +177959,7 @@
      "onNovBallot": false,
      "decided": "Alva Swafford Smith (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 27,
       "precincts": 27,
       "total": 23253,
@@ -177875,7 +177981,7 @@
       ],
       "counted": true,
       "leader": "smith",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:28Z",
       "source": "enr-2026g"
      }
     },
@@ -177948,7 +178054,7 @@
     "single": 16,
     "unverified": 0,
     "conflict": 0,
-    "unknown": 30
+    "unknown": 33
    }
   },
   "levy": {
@@ -177965,8 +178071,8 @@
      "2022": 20
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:28Z",
      "url": "https://enr.electionsfl.org/LEV/4058/Summary/",
      "races": [
       {
@@ -180119,8 +180225,8 @@
     {
      "id": "lemery",
      "name": "Matt Lemery",
-     "office": "Candidate, County Commission",
-     "status": "open",
+     "office": "County Commissioner",
+     "status": "incumbent",
      "district": "2",
      "race": "bcc-d2",
      "finance": {
@@ -180203,6 +180309,11 @@
       "prior": 0,
       "through": "2026-09-29",
       "source": "soe-itemized"
+     },
+     "seatedAfter": {
+      "race": "bcc-d2",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
      },
      "facts": {
       "party": {
@@ -180310,6 +180421,7 @@
      },
      "required": [
       "party",
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -181398,7 +181510,7 @@
      "onNovBallot": false,
      "decided": "Matt Lemery (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 13,
       "precincts": 13,
       "total": 18020,
@@ -181427,7 +181539,7 @@
       ],
       "counted": true,
       "leader": "lemery",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:28Z",
       "source": "enr-2026g"
      }
     },
@@ -181530,7 +181642,7 @@
     "single": 27,
     "unverified": 0,
     "conflict": 0,
-    "unknown": 16
+    "unknown": 17
    }
   },
   "liberty": {
@@ -181548,7 +181660,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "updated": "2026-11-23T13:34:29Z",
      "url": "https://enr.electionsfl.org/LIB/4098/Summary/",
      "races": [
       {
@@ -184186,7 +184298,7 @@
       ],
       "counted": true,
       "leader": "bailey",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:29Z",
       "source": "enr-2026g"
      }
     },
@@ -184310,8 +184422,8 @@
     "financeUrl": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=madison&el=8",
     "pastCycles": {},
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:29Z",
      "url": "https://enr.electionsfl.org/MAD/4061/Summary/",
      "races": [
       {
@@ -185849,8 +185961,8 @@
     {
      "id": "martin",
      "name": "Alfred Martin",
-     "office": "Candidate, County Commission",
-     "status": "open",
+     "office": "County Commissioner",
+     "status": "incumbent",
      "district": "4",
      "race": "bcc-d4",
      "finance": {
@@ -185893,6 +186005,11 @@
       "prior": 0,
       "through": "2026-10-13",
       "source": "soe-itemized"
+     },
+     "seatedAfter": {
+      "race": "bcc-d4",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
      },
      "facts": {
       "party": {
@@ -186000,6 +186117,7 @@
      },
      "required": [
       "party",
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -186859,8 +186977,8 @@
     {
      "id": "maurice",
      "name": "Michael Maurice",
-     "office": "Candidate, School Board",
-     "status": "open",
+     "office": "School Board Member",
+     "status": "incumbent",
      "district": "5",
      "race": "sb-d5",
      "finance": {
@@ -186904,6 +187022,11 @@
       "prior": 0,
       "through": "2026-10-08",
       "source": "soe-itemized"
+     },
+     "seatedAfter": {
+      "race": "sb-d5",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
      },
      "facts": {
       "party": {
@@ -187006,6 +187129,7 @@
       }
      },
      "required": [
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -187222,7 +187346,7 @@
      ],
      "onNovBallot": true,
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 2,
       "precincts": 2,
       "total": 1374,
@@ -187244,7 +187368,7 @@
       ],
       "counted": true,
       "leader": "martin",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:29Z",
       "source": "enr-2026g"
      }
     },
@@ -187294,7 +187418,7 @@
      ],
      "onNovBallot": true,
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 2,
       "precincts": 2,
       "total": 1437,
@@ -187316,7 +187440,7 @@
       ],
       "counted": true,
       "leader": "maurice",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:29Z",
       "source": "enr-2026g"
      }
     }
@@ -187360,7 +187484,7 @@
     "single": 22,
     "unverified": 0,
     "conflict": 0,
-    "unknown": 14
+    "unknown": 16
    }
   },
   "manatee": {
@@ -187377,8 +187501,8 @@
      "2022": 186
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:50Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:29Z",
      "url": "https://enr.electionsfl.org/MAN/4126/Summary/",
      "races": [
       {
@@ -191252,8 +191376,8 @@
     {
      "id": "arnold",
      "name": "Elizabeth Arnold",
-     "office": "Candidate, County Commission",
-     "status": "open",
+     "office": "County Commissioner",
+     "status": "incumbent",
      "district": "1",
      "race": "bcc-d1",
      "finance": {
@@ -191347,6 +191471,11 @@
       "prior": 0,
       "through": "2026-10-29",
       "source": "soe-itemized"
+     },
+     "seatedAfter": {
+      "race": "bcc-d1",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
      },
      "facts": {
       "party": {
@@ -191454,6 +191583,7 @@
      },
      "required": [
       "party",
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -194651,8 +194781,8 @@
     {
      "id": "poulton",
      "name": "Tara Poulton",
-     "office": "Candidate, County Commission",
-     "status": "open",
+     "office": "County Commissioner",
+     "status": "incumbent",
      "district": "6",
      "race": "bcc-d6",
      "finance": {
@@ -194977,6 +195107,11 @@
       "through": "2026-10-23",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "bcc-d6",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -195083,6 +195218,7 @@
      },
      "required": [
       "party",
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -195297,8 +195433,8 @@
     {
      "id": "jefferson",
      "name": "Sharon Jefferson",
-     "office": "Candidate, School Board",
-     "status": "open",
+     "office": "School Board Member",
+     "status": "incumbent",
      "district": "2",
      "race": "sb-d2",
      "finance": {
@@ -195398,6 +195534,11 @@
       "prior": 0,
       "through": "2026-10-29",
       "source": "soe-itemized"
+     },
+     "seatedAfter": {
+      "race": "sb-d2",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
      },
      "facts": {
       "party": {
@@ -195500,6 +195641,7 @@
       }
      },
      "required": [
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -196517,8 +196659,8 @@
     {
      "id": "bedinghaus",
      "name": "Camden T Bedinghaus",
-     "office": "Candidate, School Board",
-     "status": "open",
+     "office": "School Board Member",
+     "status": "incumbent",
      "district": "5",
      "race": "sb-d5",
      "finance": {
@@ -196606,6 +196748,11 @@
       "prior": 0,
       "through": "2026-10-29",
       "source": "soe-itemized"
+     },
+     "seatedAfter": {
+      "race": "sb-d5",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
      },
      "facts": {
       "party": {
@@ -196708,6 +196855,7 @@
       }
      },
      "required": [
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -197322,7 +197470,7 @@
      "onNovBallot": false,
      "decided": "Elizabeth Arnold (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 14,
       "precincts": 14,
       "total": 48462,
@@ -197351,7 +197499,7 @@
       ],
       "counted": true,
       "leader": "arnold",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:29Z",
       "source": "enr-2026g"
      }
     },
@@ -197371,7 +197519,7 @@
      "onNovBallot": false,
      "decided": "Amanda Ballard (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 14,
       "precincts": 14,
       "total": 20536,
@@ -197393,7 +197541,7 @@
       ],
       "counted": true,
       "leader": "ballard",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:29Z",
       "source": "enr-2026g"
      }
     },
@@ -197430,7 +197578,7 @@
      "onNovBallot": false,
      "decided": "Tara Poulton (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 71,
       "precincts": 71,
       "total": 179147,
@@ -197452,7 +197600,7 @@
       ],
       "counted": true,
       "leader": "poulton",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:29Z",
       "source": "enr-2026g"
      }
     },
@@ -197474,7 +197622,7 @@
      "onNovBallot": false,
      "decided": "Sharon Jefferson (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 14,
       "precincts": 14,
       "total": 18673,
@@ -197496,7 +197644,7 @@
       ],
       "counted": true,
       "leader": "jefferson",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:29Z",
       "source": "enr-2026g"
      }
     },
@@ -197530,7 +197678,7 @@
      "onNovBallot": false,
      "decided": "Camden T Bedinghaus (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 12,
       "precincts": 12,
       "total": 43714,
@@ -197552,7 +197700,7 @@
       ],
       "counted": true,
       "leader": "bedinghaus",
-      "updated": "2026-11-23T03:59:50Z",
+      "updated": "2026-11-23T13:34:29Z",
       "source": "enr-2026g"
      }
     }
@@ -197596,7 +197744,7 @@
     "single": 57,
     "unverified": 0,
     "conflict": 0,
-    "unknown": 34
+    "unknown": 38
    }
   },
   "marion": {
@@ -197613,8 +197761,8 @@
      "2022": 35
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:51Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:29Z",
      "url": "https://enr.electionsfl.org/MRN/4099/Summary/",
      "races": [
       {
@@ -203149,8 +203297,8 @@
     {
      "id": "mills",
      "name": "Mike Mills",
-     "office": "Candidate, School Board",
-     "status": "open",
+     "office": "School Board Member",
+     "status": "incumbent",
      "district": "4",
      "race": "sb-d4",
      "finance": {
@@ -203344,6 +203492,11 @@
       "through": "2026-10-29",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "sb-d4",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": null,
@@ -203445,6 +203598,7 @@
       }
      },
      "required": [
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -204318,8 +204472,8 @@
     {
      "id": "james",
      "name": "Sarah James",
-     "office": "Candidate, School Board",
-     "status": "open",
+     "office": "School Board Member",
+     "status": "incumbent",
      "district": "5",
      "race": "sb-d5",
      "finance": {
@@ -204524,6 +204678,11 @@
       "through": "2026-10-26",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "sb-d5",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": null,
@@ -204625,6 +204784,7 @@
       }
      },
      "required": [
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -204678,7 +204838,7 @@
      "onNovBallot": false,
      "decided": "Jeff Bairstow (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 106,
       "precincts": 106,
       "total": 132541,
@@ -204700,7 +204860,7 @@
       ],
       "counted": true,
       "leader": "bairstow",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:29Z",
       "source": "enr-2026g"
      }
     },
@@ -204736,7 +204896,7 @@
      "onNovBallot": false,
      "decided": "Mike Mills (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 106,
       "precincts": 106,
       "total": 139226,
@@ -204758,7 +204918,7 @@
       ],
       "counted": true,
       "leader": "mills",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:29Z",
       "source": "enr-2026g"
      }
     },
@@ -204778,7 +204938,7 @@
      "onNovBallot": false,
      "decided": "Sarah James (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 106,
       "precincts": 106,
       "total": 139367,
@@ -204800,7 +204960,7 @@
       ],
       "counted": true,
       "leader": "james",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:29Z",
       "source": "enr-2026g"
      }
     }
@@ -205409,7 +205569,7 @@
     "single": 70,
     "unverified": 0,
     "conflict": 0,
-    "unknown": 20
+    "unknown": 22
    }
   },
   "martin": {
@@ -214532,8 +214692,8 @@
      "2022": 28
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:51Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:29Z",
      "url": "https://enr.electionsfl.org/DAD/4087/Summary/",
      "races": [
       {
@@ -225018,8 +225178,8 @@
     {
      "id": "cothiere",
      "name": "Linda Cothiere",
-     "office": "Candidate, School Board",
-     "status": "open",
+     "office": "School Board Member",
+     "status": "incumbent",
      "district": "1",
      "race": "sb-d1",
      "finance": {
@@ -225211,6 +225371,11 @@
       "through": "2026-10-29",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "sb-d1",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": null,
@@ -225312,6 +225477,7 @@
       }
      },
      "required": [
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -229893,8 +230059,8 @@
     {
      "id": "lopez",
      "name": "Vicki L. Lopez",
-     "office": "Candidate, County Commission",
-     "status": "open",
+     "office": "County Commissioner",
+     "status": "incumbent",
      "district": "5",
      "race": "bcc-d5",
      "finance": {
@@ -230611,6 +230777,11 @@
       "through": "2026-10-29",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "bcc-d5",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": "NOP",
@@ -230716,6 +230887,7 @@
      },
      "required": [
       "party",
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -232655,7 +232827,7 @@
      "onNovBallot": false,
      "decided": "Linda Cothiere (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 80,
       "precincts": 80,
       "total": 74897,
@@ -232677,7 +232849,7 @@
       ],
       "counted": true,
       "leader": "cothiere",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:29Z",
       "source": "enr-2026g"
      }
     },
@@ -232798,7 +232970,7 @@
      "onNovBallot": false,
      "decided": "Vicki L. Lopez (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 55,
       "precincts": 55,
       "total": 45288,
@@ -232820,7 +232992,7 @@
       ],
       "counted": true,
       "leader": "lopez",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:29Z",
       "source": "enr-2026g"
      }
     },
@@ -232922,7 +233094,7 @@
     "single": 62,
     "unverified": 0,
     "conflict": 0,
-    "unknown": 40
+    "unknown": 42
    }
   },
   "monroe": {
@@ -232939,8 +233111,8 @@
      "2022": 37
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:51Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:30Z",
      "url": "https://enr.electionsfl.org/MON/4109/Summary/",
      "races": [
       {
@@ -237431,8 +237603,8 @@
      "2022": 42
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:51Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:30Z",
      "url": "https://enr.electionsfl.org/NAS/4080/Summary/",
      "races": [
       {
@@ -241182,8 +241354,8 @@
      "2022": 212
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:51Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:30Z",
      "url": "https://enr.electionsfl.org/OKA/4092/Summary/",
      "races": [
       {
@@ -245445,7 +245617,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:51Z",
+     "updated": "2026-11-23T13:34:30Z",
      "url": "https://enr.electionsfl.org/OKE/4060/Summary/",
      "races": [
       {
@@ -247681,8 +247853,8 @@
      "2022": 10
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:51Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:30Z",
      "url": "https://enr.electionsfl.org/ORA/4090/Summary/",
      "races": [
       {
@@ -251500,8 +251672,8 @@
     {
      "id": "brown",
      "name": "Kamia Brown",
-     "office": "Candidate, County Commission",
-     "status": "open",
+     "office": "County Commissioner",
+     "status": "incumbent",
      "district": "2",
      "race": "bcc-d2",
      "finance": {
@@ -251985,6 +252157,11 @@
       "through": "2026-10-29",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "bcc-d2",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": null,
@@ -252087,6 +252264,7 @@
      },
      "required": [
       "party",
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -253585,8 +253763,8 @@
     {
      "id": "lopez",
      "name": "Johanna Lopez",
-     "office": "Candidate, County Commission",
-     "status": "open",
+     "office": "County Commissioner",
+     "status": "incumbent",
      "district": "4",
      "race": "bcc-d4",
      "finance": {
@@ -254014,6 +254192,11 @@
       "through": "2026-10-28",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "bcc-d4",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": null,
@@ -254116,6 +254299,7 @@
      },
      "required": [
       "party",
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -257105,8 +257289,8 @@
     {
      "id": "rumph",
      "name": "Patricia Rumph",
-     "office": "Candidate, County Commission",
-     "status": "open",
+     "office": "County Commissioner",
+     "status": "incumbent",
      "district": "7",
      "race": "bcc-d7",
      "finance": {
@@ -257407,6 +257591,11 @@
       "through": "2026-10-29",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "bcc-d7",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": null,
@@ -257509,6 +257698,7 @@
      },
      "required": [
       "party",
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -262152,8 +262342,8 @@
     {
      "id": "pea",
      "name": "Susanne Peña",
-     "office": "Candidate, School Board",
-     "status": "open",
+     "office": "School Board Member",
+     "status": "incumbent",
      "district": "3",
      "race": "sb-d3",
      "finance": {
@@ -262398,6 +262588,11 @@
       "through": "2026-10-29",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "sb-d3",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": null,
@@ -262499,6 +262694,7 @@
       }
      },
      "required": [
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -262536,7 +262732,7 @@
      "onNovBallot": false,
      "decided": "Kamia Brown (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 33,
       "precincts": 33,
       "total": 63169,
@@ -262558,7 +262754,7 @@
       ],
       "counted": true,
       "leader": "brown",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:30Z",
       "source": "enr-2026g"
      }
     },
@@ -262578,7 +262774,7 @@
      "onNovBallot": false,
      "decided": "Johanna Lopez (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 34,
       "precincts": 34,
       "total": 55492,
@@ -262607,7 +262803,7 @@
       ],
       "counted": true,
       "leader": "lopez",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:30Z",
       "source": "enr-2026g"
      }
     },
@@ -262629,7 +262825,7 @@
      "onNovBallot": false,
      "decided": "Michael \"Mike\" Scott (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 27,
       "precincts": 27,
       "total": 30286,
@@ -262651,7 +262847,7 @@
       ],
       "counted": true,
       "leader": "scott",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:30Z",
       "source": "enr-2026g"
      }
     },
@@ -262680,7 +262876,7 @@
      "onNovBallot": false,
      "decided": "Patricia Rumph (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 33,
       "precincts": 33,
       "total": 47612,
@@ -262702,7 +262898,7 @@
       ],
       "counted": true,
       "leader": "rumph",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:30Z",
       "source": "enr-2026g"
      }
     },
@@ -262725,7 +262921,7 @@
      "onNovBallot": false,
      "decided": "Victor M. Torres Jr. (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 29,
       "precincts": 29,
       "total": 55373,
@@ -262747,7 +262943,7 @@
       ],
       "counted": true,
       "leader": null,
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:30Z",
       "source": "enr-2026g"
      }
     },
@@ -262812,7 +263008,7 @@
      "onNovBallot": false,
      "decided": "Susanne Peña (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 40,
       "precincts": 40,
       "total": 59133,
@@ -262834,7 +263030,7 @@
       ],
       "counted": true,
       "leader": "pea",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:30Z",
       "source": "enr-2026g"
      }
     }
@@ -262878,7 +263074,7 @@
     "single": 46,
     "unverified": 0,
     "conflict": 0,
-    "unknown": 82
+    "unknown": 86
    }
   },
   "osceola": {
@@ -268273,8 +268469,8 @@
      "2022": 9
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:51Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:30Z",
      "url": "https://enr.electionsfl.org/PAL/4131/Summary/",
      "races": [
       {
@@ -273294,8 +273490,8 @@
     {
      "id": "marciwoodward",
      "name": "Marci Woodward",
-     "office": "Candidate, County Commission",
-     "status": "open",
+     "office": "County Commissioner",
+     "status": "incumbent",
      "district": "4",
      "race": "bcc-d4",
      "finance": {
@@ -273789,6 +273985,11 @@
       "through": "2026-10-29",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "bcc-d4",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": "Republican",
@@ -273891,6 +274092,7 @@
      },
      "required": [
       "party",
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -274871,8 +275073,8 @@
     {
      "id": "waldron",
      "name": "Katherine Waldron",
-     "office": "Candidate, County Commission",
-     "status": "open",
+     "office": "County Commissioner",
+     "status": "incumbent",
      "district": "6",
      "race": "bcc-d6",
      "finance": {
@@ -275155,6 +275357,11 @@
       "through": "2026-10-29",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "bcc-d6",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": "Democrat",
@@ -275260,6 +275467,7 @@
      },
      "required": [
       "party",
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -276085,8 +276293,8 @@
     {
      "id": "romelus",
      "name": "Christina L. Romelus",
-     "office": "Candidate, School Board",
-     "status": "open",
+     "office": "School Board Member",
+     "status": "incumbent",
      "district": "4",
      "race": "sb-d4",
      "finance": {
@@ -276488,6 +276696,11 @@
       "through": "2026-10-27",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "sb-d4",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": null,
@@ -276589,6 +276802,7 @@
       }
      },
      "required": [
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -278061,7 +278275,7 @@
      "onNovBallot": false,
      "decided": "Marci Woodward (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 113,
       "precincts": 113,
       "total": 93897,
@@ -278083,7 +278297,7 @@
       ],
       "counted": true,
       "leader": "marciwoodward",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:30Z",
       "source": "enr-2026g"
      }
     },
@@ -278105,7 +278319,7 @@
      "onNovBallot": false,
      "decided": "Katherine Waldron (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 111,
       "precincts": 111,
       "total": 87455,
@@ -278127,7 +278341,7 @@
       ],
       "counted": true,
       "leader": "waldron",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:30Z",
       "source": "enr-2026g"
      }
     },
@@ -278162,7 +278376,7 @@
      "onNovBallot": false,
      "decided": "Christina L. Romelus (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 129,
       "precincts": 129,
       "total": 72860,
@@ -278184,7 +278398,7 @@
       ],
       "counted": true,
       "leader": "romelus",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:30Z",
       "source": "enr-2026g"
      }
     },
@@ -278258,7 +278472,7 @@
     "single": 32,
     "unverified": 0,
     "conflict": 0,
-    "unknown": 27
+    "unknown": 30
    }
   },
   "polk": {
@@ -278275,8 +278489,8 @@
      "2022": 18
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:51Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:31Z",
      "url": "https://enr.electionsfl.org/POL/4000/Summary/",
      "races": [
       {
@@ -282068,8 +282282,8 @@
     {
      "id": "wallace",
      "name": "Kate Wallace",
-     "office": "Candidate, School Board",
-     "status": "open",
+     "office": "School Board Member",
+     "status": "incumbent",
      "district": "3",
      "race": "sb-d3",
      "finance": {
@@ -282415,6 +282629,11 @@
       "through": "2026-10-29",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "sb-d3",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": null,
@@ -282516,6 +282735,7 @@
       }
      },
      "required": [
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -283868,7 +284088,7 @@
      ],
      "onNovBallot": true,
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 177,
       "precincts": 177,
       "total": 196702,
@@ -283890,7 +284110,7 @@
       ],
       "counted": true,
       "leader": "arroyo",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:31Z",
       "source": "enr-2026g"
      }
     },
@@ -283908,7 +284128,7 @@
      ],
      "onNovBallot": true,
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 177,
       "precincts": 177,
       "total": 228739,
@@ -283930,7 +284150,7 @@
       ],
       "counted": true,
       "leader": "wallace",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:31Z",
       "source": "enr-2026g"
      }
     },
@@ -284429,7 +284649,7 @@
     "single": 48,
     "unverified": 0,
     "conflict": 0,
-    "unknown": 14
+    "unknown": 15
    }
   },
   "putnam": {
@@ -284446,8 +284666,8 @@
      "2022": 25
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:51Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:31Z",
      "url": "https://enr.electionsfl.org/PUT/4081/Summary/",
      "races": [
       {
@@ -285666,7 +285886,7 @@
     },
     "ballotResults": {
      "status": "official",
-     "updated": "2026-11-23T03:59:51Z",
+     "updated": "2026-11-23T13:34:31Z",
      "url": "https://enr.electionsfl.org/STJ/4082/Summary/",
      "races": [
       {
@@ -291987,7 +292207,7 @@
       ],
       "counted": true,
       "leader": null,
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:31Z",
       "source": "enr-2026g"
      }
     }
@@ -292048,8 +292268,8 @@
      "2022": 21
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:51Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:31Z",
      "url": "https://enr.electionsfl.org/STL/4089/Summary/",
      "races": [
       {
@@ -297193,7 +297413,7 @@
      "onNovBallot": false,
      "decided": "Larry Leet (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": null,
       "precincts": null,
       "total": 129744,
@@ -297215,7 +297435,7 @@
       ],
       "counted": false,
       "leader": "larryleet",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:31Z",
       "source": "enr-2026g"
      }
     },
@@ -297236,7 +297456,7 @@
      "onNovBallot": false,
      "decided": "Jean Eddy Leroy (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": null,
       "precincts": null,
       "total": 136087,
@@ -297265,7 +297485,7 @@
       ],
       "counted": false,
       "leader": "leroy",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:31Z",
       "source": "enr-2026g"
      }
     },
@@ -297299,7 +297519,7 @@
      "onNovBallot": false,
      "decided": "Donna Mills (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": null,
       "precincts": null,
       "total": 113261,
@@ -297321,7 +297541,7 @@
       ],
       "counted": false,
       "leader": "mills",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:31Z",
       "source": "enr-2026g"
      }
     },
@@ -297341,7 +297561,7 @@
      "onNovBallot": false,
      "decided": "Troy Ingersoll (elected)",
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": null,
       "precincts": null,
       "total": 119832,
@@ -297363,7 +297583,7 @@
       ],
       "counted": false,
       "leader": "ingersoll",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:31Z",
       "source": "enr-2026g"
      }
     }
@@ -297424,8 +297644,8 @@
      "2022": 9
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:51Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:32Z",
      "url": "https://enr.electionsfl.org/SAN/4093/Summary/",
      "races": [
       {
@@ -301958,8 +302178,8 @@
     {
      "id": "locklin",
      "name": "Marie Locklin",
-     "office": "Candidate, School Board",
-     "status": "open",
+     "office": "School Board Member",
+     "status": "incumbent",
      "district": "5",
      "race": "sb-d5",
      "finance": {
@@ -302075,6 +302295,11 @@
       "through": "2026-10-18",
       "source": "soe-itemized"
      },
+     "seatedAfter": {
+      "race": "sb-d5",
+      "date": "2026-11-17",
+      "source": "enr-2026g"
+     },
      "facts": {
       "party": {
        "value": null,
@@ -302176,6 +302401,7 @@
       }
      },
      "required": [
+      "inOfficeSince",
       "raised",
       "promises"
      ],
@@ -302726,7 +302952,7 @@
      ],
      "onNovBallot": true,
      "results": {
-      "status": "unofficial",
+      "status": "official",
       "reported": 41,
       "precincts": 41,
       "total": 67554,
@@ -302748,7 +302974,7 @@
       ],
       "counted": true,
       "leader": "locklin",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:32Z",
       "source": "enr-2026g"
      }
     }
@@ -302792,7 +303018,7 @@
     "single": 20,
     "unverified": 0,
     "conflict": 0,
-    "unknown": 17
+    "unknown": 18
    }
   },
   "sarasota": {
@@ -302810,7 +303036,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:51Z",
+     "updated": "2026-11-23T13:34:32Z",
      "url": "https://enr.electionsfl.org/SAR/4105/Summary/",
      "races": [
       {
@@ -309929,7 +310155,7 @@
       ],
       "counted": true,
       "leader": "deniro",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:32Z",
       "source": "enr-2026g"
      }
     },
@@ -309971,7 +310197,7 @@
       ],
       "counted": true,
       "leader": "brandt",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:32Z",
       "source": "enr-2026g"
      }
     },
@@ -310063,7 +310289,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:51Z",
+     "updated": "2026-11-23T13:34:32Z",
      "url": "https://enr.electionsfl.org/SEM/4119/Summary/",
      "races": [
       {
@@ -314995,7 +315221,7 @@
       ],
       "counted": true,
       "leader": "charlinesantos",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:32Z",
       "source": "enr-2026g"
      }
     },
@@ -315101,8 +315327,8 @@
      "2022": 24
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:51Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:32Z",
      "url": "https://enr.electionsfl.org/SUM/4056/Summary/",
      "races": [
       {
@@ -318461,7 +318687,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:51Z",
+     "updated": "2026-11-23T13:34:32Z",
      "url": "https://enr.electionsfl.org/SUW/4112/Summary/",
      "races": [
       {
@@ -321245,7 +321471,7 @@
       ],
       "counted": true,
       "leader": "deloach",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:32Z",
       "source": "enr-2026g"
      }
     },
@@ -321364,8 +321590,8 @@
      "2022": 14
     },
     "ballotResults": {
-     "status": "unofficial",
-     "updated": "2026-11-23T03:59:51Z",
+     "status": "official",
+     "updated": "2026-11-23T13:34:33Z",
      "url": "https://enr.electionsfl.org/TAY/4107/Summary/",
      "races": [
       {
@@ -323918,7 +324144,7 @@
     "pastCycles": {},
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:51Z",
+     "updated": "2026-11-23T13:34:33Z",
      "url": "https://enr.electionsfl.org/UNI/4121/Summary/",
      "races": [
       {
@@ -332378,7 +332604,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:51Z",
+     "updated": "2026-11-23T13:34:33Z",
      "url": "https://enr.electionsfl.org/WAK/4128/Summary/",
      "races": [
       {
@@ -334372,7 +334598,7 @@
       ],
       "counted": true,
       "leader": "hughes",
-      "updated": "2026-11-23T03:59:51Z",
+      "updated": "2026-11-23T13:34:33Z",
       "source": "enr-2026g"
      }
     },
@@ -334476,7 +334702,7 @@
     },
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:51Z",
+     "updated": "2026-11-23T13:34:33Z",
      "url": "https://enr.electionsfl.org/WAL/4091/Summary/",
      "races": [
       {
@@ -338015,7 +338241,7 @@
     "pastCycles": {},
     "ballotResults": {
      "status": "unofficial",
-     "updated": "2026-11-23T03:59:51Z",
+     "updated": "2026-11-23T13:34:33Z",
      "url": "https://enr.electionsfl.org/WAS/4104/Summary/",
      "races": [
       {
@@ -504038,6 +504264,15 @@
    "after": "Each seat now shows who won it in the Aug 18 primary, from each county's own primary results.",
    "why": "Checked against each county Supervisor of Elections' official primary results.",
    "source": "https://enr.electionsfl.org/MAD/4008/Summary/"
+  },
+  {
+   "date": "2026-11-23",
+   "county": null,
+   "subject": "Results status in 30 counties (Brevard, St. Johns and Pinellas were already right)",
+   "before": "Results in Citrus, Clay, Collier, Dixie, Duval, Flagler, Hamilton, Hernando, Hillsborough, Indian River, Jackson, Jefferson, Lake, Leon, Levy, Madison, Manatee, Marion, Miami-Dade, Monroe, Nassau, Okaloosa, Orange, Palm Beach, Polk, Putnam, Santa Rosa, St. Lucie, Sumter and Taylor were labeled \"unofficial\".",
+   "after": "Labeled official, and certified winners whose terms have begun are now shown as in office. Vote counts did not change.",
+   "why": "Each county's own results page says its results are official, but in a message box our reader did not check. Lake's page says its canvassing board filed official results with the state on Nov 13. Counties whose pages don't say official still show \"unofficial\".",
+   "source": "https://enr.electionsfl.org/HIL/4074/Summary/"
   }
  ],
  "zips": {

@@ -43,13 +43,17 @@ Around elections it is a ballot guide, then a results guide.
 
 ### Now (November 2026)
 
-- [ ] **Certification.** County official returns were due by noon Mon Nov 16 (state timeline,
-      files.floridados.gov election-results-reporting-timeline-ge-2026); the state commission certifies Nov 17.
-      Pinellas done Nov 16: its results site says "Official Results" (last updated Nov 13), imported with --certified
-      and `"certified": true` set in data/enr_ids.json. As of the Nov 16 03:06Z results run, St. Johns and Brevard read
-      official and the other 59 VR counties still say "Unofficial Results" on enr.electionsfl.org. Next check-in: confirm
-      they flipped on their own (winners seat automatically from Nov 17 only once official). For any county whose page
-      never flips, confirm certification on the county's own site, then set `"certified": true` for it.
+- [ ] **Certification.** County official returns were due by noon Mon Nov 16; the state commission certified Nov 17.
+      Done Nov 23: the results reader only looked at page headings, but most counties write "Official Results" in a
+      message box under the summary (id="BottomMessage"). It now reads that box too (any "unofficial" there wins), so
+      31 counties read official on their own, plus Pinellas (Clarity, set by hand) and Lake (its box says the
+      canvassing board filed official results Nov 13; `"certified": true` in data/enr_ids.json). 41 winners were
+      seated; logged on /corrections. Still "unofficial" because their pages say nothing either way (or Baker, which
+      still says "UNOFFICIAL"): alachua, baker, bay, bradford, calhoun, charlotte, columbia, desoto, escambia,
+      franklin, gadsden, gilchrist, glades, gulf, hardee, hendry, highlands, holmes, lafayette, lee, liberty,
+      okeechobee, pasco, sarasota, seminole, suwannee, union, wakulla, walton, washington. For each, confirm on the
+      county Supervisor of Elections' own site (canvass/certification notice or official results PDF), then set
+      `"certified": true` with a `certifiedNote` naming the source. Pasco first (Tampa Bay).
 - [x] **Pinellas School Board D3 recount.** No recount: Dawn Peters told the elections office she would not contest
       (Tampa Bay Times, Nov 4). The race page now says so. Official margin: 751 votes (0.21%).
 - [x] **Seats missing from county results (14).** All 14 were settled in the Aug 18 primary. Winners and sources
@@ -101,3 +105,7 @@ Each weekly check-in adds one short dated line here: what it checked, what it fi
   bad TLS certificate on their side, so the last good districts file stays. Live site loads, Hillsborough results
   updated Nov 15. Pinellas imported as official (SB D3 margin 751). Bumped Actions to Node 24 versions. Nov builds so
   far: 112 (on pace for about 210).
+- 2026-11-23: All nightly and results runs green Nov 16 to 23 (Nov 23 nightly not yet run at check time). Expected
+  "districts pull failed" (state TLS) only. Found most counties' "Official Results" sat in a box the reader skipped;
+  fixed it, so 33 counties now read official and 41 certified winners are seated (Hillsborough, Hernando and others).
+  30 counties still need certification confirmed by hand. Oct builds: 93; Nov so far: 136.

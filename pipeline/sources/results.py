@@ -41,11 +41,24 @@ def _split_party(name: str, party):
     return m.group(2).strip(), party or (None if tag in ("NON", "NOP", "NPA") else tag)
 
 
+OFFICIAL = re.compile(r"(?<!un)\bofficial (?:final |election )?results\b(?!\s+(?:will|to be|are expected|expected|pending))|\bresults are official\b", re.I)
+
+
+def _status(head: str, page: str) -> str:
+    """'official' only when the county's own banner says so: a heading, or the message box each county writes
+    under its summary (id="BottomMessage", usually a <p>, not a heading). Any 'unofficial' there wins."""
+    box = re.search(r'id="BottomMessage"[\s\S]*?</div>\s*</div>', page)
+    text = head + " " + (re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", box.group(0)[18:]))) if box else "")
+    if re.search(r"\bunofficial\b", text, re.I):
+        return "unofficial"
+    return "official" if OFFICIAL.search(text) else "unofficial"
+
+
 def parse(page: str) -> dict:
     """Turn an enr.electionsfl.org Summary page into races."""
     head = " ".join(re.sub(r"<[^>]+>", " ", h) for h in re.findall(r"<h\d[^>]*>[\s\S]{0,200}?</h\d>", page))
     head = re.sub(r"\s+", " ", html.unescape(head))
-    status = "official" if re.search(r"\bOFFICIAL RESULTS\b", head) and not re.search(r"UNOFFICIAL", head) else "unofficial"
+    status = _status(head, page)
     m = re.search(r"Last Updated:?\s*([^|<]+?)(?:\s{2}|$)", head)
     races = []
     blocks = re.split(r'<div id="\d+" class="Race row">', page)[1:]

@@ -122,5 +122,14 @@
   "after": "Each seat now shows who won it in the Aug 18 primary, from each county's own primary results.",
   "why": "Checked against each county Supervisor of Elections' official primary results.",
   "source": "https://enr.electionsfl.org/MAD/4008/Summary/"
+ },
+ {
+  "date": "2026-11-23",
+  "county": null,
+  "subject": "Results status in 30 counties (Brevard, St. Johns and Pinellas were already right)",
+  "before": "Results in Citrus, Clay, Collier, Dixie, Duval, Flagler, Hamilton, Hernando, Hillsborough, Indian River, Jackson, Jefferson, Lake, Leon, Levy, Madison, Manatee, Marion, Miami-Dade, Monroe, Nassau, Okaloosa, Orange, Palm Beach, Polk, Putnam, Santa Rosa, St. Lucie, Sumter and Taylor were labeled \"unofficial\".",
+  "after": "Labeled official, and certified winners whose terms have begun are now shown as in office. Vote counts did not change.",
+  "why": "Each county's own results page says its results are official, but in a message box our reader did not check. Lake's page says its canvassing board filed official results with the state on Nov 13. Counties whose pages don't say official still show \"unofficial\".",
+  "source": "https://enr.electionsfl.org/HIL/4074/Summary/"
  }
 ]

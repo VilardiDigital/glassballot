@@ -17,6 +17,19 @@ class Results(unittest.TestCase):
         self.assertEqual((b["reported"], b["precincts"]), (12, 32))
         self.assertEqual(b["candidates"][0]["votes"], 51229)
 
+    def test_status_from_county_message(self):
+        from pipeline.sources.results import _status
+        box = '<div class="row" id="BottomMessage"><div class="col-xs-12"><p><span>{}</span></p></div></div>'
+        self.assertEqual(_status("", box.format("Official Results")), "official")
+        self.assertEqual(_status("", box.format("*****OFFICIAL RESULTS*****")), "official")
+        self.assertEqual(_status("", box.format("Results are official. There was a recount")), "official")
+        self.assertEqual(_status("", box.format("2026 General Official Results")), "official")
+        self.assertEqual(_status("", box.format("UNOFFICIAL RESULTS")), "unofficial")
+        self.assertEqual(_status("", box.format("Official results will be posted Nov 13")), "unofficial")
+        self.assertEqual(_status("", box.format("Vote-By-Mail Ballots Received: 266")), "unofficial")
+        self.assertEqual(_status("", ""), "unofficial")
+        self.assertEqual(_status("OFFICIAL RESULTS", ""), "official")
+
     def test_keys(self):
         self.assertEqual(_key("County Commissioner, District 3"), ("bcc", "3"))
         self.assertEqual(_key("School Board, District 4"), ("sb", "4"))
