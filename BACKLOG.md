@@ -54,6 +54,9 @@ Around elections it is a ballot guide, then a results guide.
       okeechobee, pasco, sarasota, seminole, suwannee, union, wakulla, walton, washington. For each, confirm on the
       county Supervisor of Elections' own site (canvass/certification notice or official results PDF), then set
       `"certified": true` with a `certifiedNote` naming the source. Pasco first (Tampa Bay).
+      Pasco lead: pascovotes.gov posted "2026 General Election - Post-Election Certification Voting System Audit"
+      on Nov 16 (Documents/News/2026Gen_Audit.pdf), but the PDF didn't open from the browser or the cloud; read it
+      or find the canvassing board's certificate before marking Pasco certified.
 - [x] **Pinellas School Board D3 recount.** No recount: Dawn Peters told the elections office she would not contest
       (Tampa Bay Times, Nov 4). The race page now says so. Official margin: 751 votes (0.21%).
 - [x] **Seats missing from county results (14).** All 14 were settled in the Aug 18 primary. Winners and sources
