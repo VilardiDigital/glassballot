@@ -1,36 +1,52 @@
 {
- "pulledAt": "2026-11-23T21:35:45Z",
+ "pulledAt": "2026-11-24T20:16:27Z",
  "totals": {
   "meetings": 23,
-  "meetingsWithRollCalls": 19,
-  "items": 422,
-  "rollCalls": 397,
+  "meetingsWithRollCalls": 20,
+  "items": 423,
+  "rollCalls": 398,
   "splitRollCalls": 0
  },
  "stats": {
   "herr": {
-   "aye": 128,
+   "aye": 129,
    "nay": 0,
    "absent": 269,
    "abstain": 0,
-   "meetingsHeld": 19,
+   "meetingsHeld": 20,
    "meetingsMissed": 1
   },
   "lockhart": {
-   "aye": 128,
+   "aye": 129,
    "nay": 0,
    "absent": 269,
    "abstain": 0,
-   "meetingsHeld": 19,
+   "meetingsHeld": 20,
    "meetingsMissed": 1
   },
   "dallari": {
-   "aye": 128,
+   "aye": 129,
    "nay": 0,
    "absent": 269,
    "abstain": 0,
-   "meetingsHeld": 19,
+   "meetingsHeld": 20,
    "meetingsMissed": 1
+  },
+  "constantine": {
+   "aye": 129,
+   "nay": 0,
+   "absent": 269,
+   "abstain": 0,
+   "meetingsHeld": 20,
+   "meetingsMissed": 1
+  },
+  "santos": {
+   "aye": 1,
+   "nay": 0,
+   "absent": 0,
+   "abstain": 0,
+   "meetingsHeld": 1,
+   "meetingsMissed": 0
   },
   "zembower": {
    "aye": 121,
@@ -39,14 +55,6 @@
    "abstain": 0,
    "meetingsHeld": 19,
    "meetingsMissed": 2
-  },
-  "constantine": {
-   "aye": 128,
-   "nay": 0,
-   "absent": 269,
-   "abstain": 0,
-   "meetingsHeld": 19,
-   "meetingsMissed": 1
   }
  },
  "splitVotes": [],
