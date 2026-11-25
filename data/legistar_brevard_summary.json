@@ -1,51 +1,35 @@
 {
- "pulledAt": "2026-11-24T20:12:18Z",
+ "pulledAt": "2026-11-25T19:21:40Z",
  "totals": {
   "meetings": 35,
-  "meetingsWithRollCalls": 24,
+  "meetingsWithRollCalls": 23,
   "items": 405,
-  "rollCalls": 398,
+  "rollCalls": 397,
   "splitRollCalls": 0
  },
  "stats": {
   "adkinson": {
    "aye": 0,
    "nay": 7,
-   "absent": 390,
+   "absent": 389,
    "abstain": 1,
-   "meetingsHeld": 24,
-   "meetingsMissed": 17
-  },
-  "altman": {
-   "aye": 0,
-   "nay": 7,
-   "absent": 388,
-   "abstain": 3,
-   "meetingsHeld": 24,
-   "meetingsMissed": 18
-  },
-  "loyd": {
-   "aye": 0,
-   "nay": 0,
-   "absent": 1,
-   "abstain": 0,
-   "meetingsHeld": 1,
-   "meetingsMissed": 1
-  },
-  "sirois": {
-   "aye": 0,
-   "nay": 0,
-   "absent": 1,
-   "abstain": 0,
-   "meetingsHeld": 1,
-   "meetingsMissed": 1
+   "meetingsHeld": 23,
+   "meetingsMissed": 16
   },
   "feltner": {
    "aye": 0,
    "nay": 11,
-   "absent": 387,
+   "absent": 386,
    "abstain": 0,
-   "meetingsHeld": 24,
+   "meetingsHeld": 23,
+   "meetingsMissed": 16
+  },
+  "altman": {
+   "aye": 0,
+   "nay": 7,
+   "absent": 387,
+   "abstain": 3,
+   "meetingsHeld": 23,
    "meetingsMissed": 17
   }
  },

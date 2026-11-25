@@ -18,21 +18,21 @@
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=alachua&el=54",
    "publisher": "Alachua County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-24"
+   "accessed": "2026-11-25"
   },
   "soe-vf-2024": {
    "title": "Alachua County Supervisor of Elections: 2024 candidates",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=alachua&el=49",
    "publisher": "Alachua County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-24"
+   "accessed": "2026-11-25"
   },
   "soe-cf-alachua": {
    "title": "Alachua Supervisor of Elections campaign finance reports, 2026 cycle",
    "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=alachua&el=54",
    "publisher": "Alachua County Supervisor of Elections",
    "tier": 1,
-   "accessed": "2026-11-24"
+   "accessed": "2026-11-25"
   }
  },
  "people": [
@@ -118,7 +118,7 @@
     ],
     "raised": [
      {
-      "value": "$43,110 in contributions, plus $226.71 in-kind (as of Nov 24, 2026)",
+      "value": "$43,110 in contributions, plus $226.71 in-kind (as of Nov 25, 2026)",
       "source": "soe-cf-alachua"
      }
     ]
@@ -148,7 +148,7 @@
     ],
     "raised": [
      {
-      "value": "$41,837.40 in contributions, plus $42.98 in-kind (as of Nov 24, 2026)",
+      "value": "$41,837.40 in contributions, plus $42.98 in-kind (as of Nov 25, 2026)",
       "source": "soe-cf-alachua"
      }
     ]
@@ -178,7 +178,7 @@
     ],
     "raised": [
      {
-      "value": "$23,372.05 in contributions, plus $500 in-kind (as of Nov 24, 2026)",
+      "value": "$23,372.05 in contributions, plus $500 in-kind (as of Nov 25, 2026)",
       "source": "soe-cf-alachua"
      }
     ]
@@ -208,7 +208,7 @@
     ],
     "raised": [
      {
-      "value": "$11,795.95 in contributions (as of Nov 24, 2026)",
+      "value": "$11,795.95 in contributions (as of Nov 25, 2026)",
       "source": "soe-cf-alachua"
      }
     ]
@@ -234,7 +234,7 @@
     ],
     "raised": [
      {
-      "value": "$6,371 in contributions (as of Nov 24, 2026)",
+      "value": "$6,371 in contributions (as of Nov 25, 2026)",
       "source": "soe-cf-alachua"
      }
     ]
@@ -245,7 +245,7 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "718",
-    "status": "Active- Qualified"
+    "status": "Active- Defeated"
    }
   },
   {
@@ -264,7 +264,7 @@
     ],
     "raised": [
      {
-      "value": "$122,353.50 in contributions, plus $1,903.27 in-kind (as of Nov 24, 2026)",
+      "value": "$122,353.50 in contributions, plus $1,903.27 in-kind (as of Nov 25, 2026)",
       "source": "soe-cf-alachua"
      }
     ]
@@ -275,8 +275,29 @@
    "race": "bcc-d4",
    "finance": {
     "voterfocusId": "704",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    }
+  },
+  {
+   "id": "lopez",
+   "name": "Gabriel Lopez",
+   "claims": {
+    "raised": [
+     {
+      "value": "$3,965 in contributions, plus $147.49 in-kind (as of Nov 25, 2026)",
+      "source": "soe-cf-alachua"
+     }
+    ]
+   },
+   "office": "Candidate, School Board",
+   "status": "open",
+   "district": "1",
+   "race": "sb-d1",
+   "finance": {
+    "voterfocusId": "730",
+    "status": "Active- Defeated"
+   },
+   "nonpartisan": true
   },
   {
    "id": "miller",
@@ -284,7 +305,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$18,640 in contributions, plus $8,859.60 in-kind (as of Nov 24, 2026)",
+      "value": "$18,640 in contributions, plus $8,859.60 in-kind (as of Nov 25, 2026)",
       "source": "soe-cf-alachua"
      }
     ]
@@ -295,7 +316,7 @@
    "race": "sb-d1",
    "finance": {
     "voterfocusId": "723",
-    "status": "Active- Qualified"
+    "status": "Active- Elected"
    },
    "nonpartisan": true
   },
@@ -305,7 +326,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$15,690 in contributions, plus $1,118.09 in-kind (as of Nov 24, 2026)",
+      "value": "$15,690 in contributions, plus $1,118.09 in-kind (as of Nov 25, 2026)",
       "source": "soe-cf-alachua"
      }
     ]
@@ -316,7 +337,7 @@
    "race": "sb-d1",
    "finance": {
     "voterfocusId": "713",
-    "status": "Active- Qualified"
+    "status": "Inactive - Defeated"
    },
    "nonpartisan": true
   },
@@ -326,7 +347,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$11,840.02 in contributions (as of Nov 24, 2026)",
+      "value": "$11,840.02 in contributions (as of Nov 25, 2026)",
       "source": "soe-cf-alachua"
      }
     ]
@@ -347,7 +368,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$42,550 in contributions, plus $1,027.69 in-kind (as of Nov 24, 2026)",
+      "value": "$42,550 in contributions, plus $1,027.69 in-kind (as of Nov 25, 2026)",
       "source": "soe-cf-alachua"
      }
     ]
@@ -368,7 +389,7 @@
    "claims": {
     "raised": [
      {
-      "value": "$5,235 in contributions, plus $2,436.70 in-kind (as of Nov 24, 2026)",
+      "value": "$5,235 in contributions, plus $2,436.70 in-kind (as of Nov 25, 2026)",
       "source": "soe-cf-alachua"
      }
     ]
@@ -414,7 +435,8 @@
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Ken Cornell (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
@@ -422,13 +444,15 @@
    "title": "School Board, District 1",
    "office": "School Board District 1",
    "people": [
+    "lopez",
     "miller",
     "plavac"
    ],
    "sources": [
     "soe-vf"
    ],
-   "onNovBallot": true
+   "onNovBallot": false,
+   "decided": "Hunter Miller (elected)"
   },
   {
    "who": "We haven't confirmed which voters get this race. Your sample ballot shows whether it's on yours.",
